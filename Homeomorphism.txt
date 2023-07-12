@@ -1,0 +1,301 @@
+13660,
+Homeomorphism,
+In the mathematical field of topology, a homeomorphism (from Greek  ὅμοιος (homoios) 'similar, same', and  μορφή (morphē) 'shape, form', named by Henri Poincaré[2][3]), also called topological isomorphism, or bicontinuous function is a bijective and continuous function, between topological spaces that has a continuous inverse function. Homeomorphisms are the isomorphisms in the category of topological spaces—that is, they are the mappings that preserve all the topological properties of a given space. Two spaces with a homeomorphism between them are called homeomorphic, and from a topological viewpoint they are the same.
+Very roughly speaking, a topological space is a geometric object, and the homeomorphism is a continuous deformation of the object into a new shape. Thus, a square and a circle are homeomorphic to each other, but a sphere and a torus are not. However, this description can be misleading. Some continuous deformations are not homeomorphisms, such as the deformation of a line into a point. Some homeomorphisms are not continuous deformations, such as the homeomorphism between a trefoil knot and a circle. An homeomorphism that is a continuous deformation
+is a homotopy.
+A function 
+
+
+f
+:
+X
+→
+Y
+
+f:X\to Y
+
+ between two topological spaces is a homeomorphism if it has the following properties:
+A homeomorphism is sometimes called a bicontinuous function. If such a function exists, 
+
+X
+X
+
+ and 
+
+Y
+Y
+
+ are homeomorphic. A self-homeomorphism is a homeomorphism from a topological space onto itself. Being "homeomorphic" is an equivalence relation on topological spaces. Its equivalence classes are called homeomorphism classes.
+The third requirement, that 
+
+
+
+
+f
+
+−
+1
+
+
+
+
+{\textstyle f^{-1}}
+
+ be continuous, is essential. Consider for instance the function 
+
+
+
+f
+:
+[
+0
+,
+2
+π
+)
+→
+
+S
+
+1
+
+
+
+
+{\textstyle f:[0,2\pi )\to S^{1}}
+
+ (the unit circle in 
+
+
+
+R
+
+
+2
+
+
+\mathbb {R} ^{2}
+
+) defined by
+
+
+
+f
+(
+ϕ
+)
+=
+(
+cos
+⁡
+ϕ
+,
+sin
+⁡
+ϕ
+)
+.
+
+
+{\textstyle f(\phi )=(\cos \phi ,\sin \phi ).}
+
+ This function is bijective and continuous, but not a homeomorphism (
+
+
+
+
+S
+
+1
+
+
+
+
+{\textstyle S^{1}}
+
+ is compact but 
+
+
+
+[
+0
+,
+2
+π
+)
+
+
+{\textstyle [0,2\pi )}
+
+ is not). The function 
+
+
+
+
+f
+
+−
+1
+
+
+
+
+{\textstyle f^{-1}}
+
+ is not continuous at the point 
+
+
+
+(
+1
+,
+0
+)
+,
+
+
+{\textstyle (1,0),}
+
+ because although 
+
+
+
+
+f
+
+−
+1
+
+
+
+
+{\textstyle f^{-1}}
+
+ maps 
+
+
+
+(
+1
+,
+0
+)
+
+
+{\textstyle (1,0)}
+
+ to 
+
+
+
+0
+,
+
+
+{\textstyle 0,}
+
+ any neighbourhood of this point also includes points that the function maps close to 
+
+
+
+2
+π
+,
+
+
+{\textstyle 2\pi ,}
+
+ but the points it maps to numbers in between lie outside the neighbourhood.[4]
+Homeomorphisms are the isomorphisms in the category of topological spaces. As such, the composition of two homeomorphisms is again a homeomorphism, and the set of all self-homeomorphisms 
+
+
+
+X
+→
+X
+
+
+{\textstyle X\to X}
+
+ forms a group, called the homeomorphism group of X, often denoted 
+
+
+
+
+Homeo
+
+(
+X
+)
+.
+
+
+{\textstyle {\text{Homeo}}(X).}
+
+ This group can be given a topology, such as the compact-open topology, which under certain assumptions makes it a topological group.[5]
+For some purposes, the homeomorphism group happens to be too big, but by means of the isotopy equivalence relation, one can reduce this group to the group of isotopy classes.
+Similarly, as usual in category theory, given two spaces that are homeomorphic, the space of homeomorphisms between them, 
+
+
+
+
+Homeo
+
+(
+X
+,
+Y
+)
+,
+
+
+{\textstyle {\text{Homeo}}(X,Y),}
+
+ is a torsor for the homeomorphism groups 
+
+
+
+
+Homeo
+
+(
+X
+)
+
+
+{\textstyle {\text{Homeo}}(X)}
+
+ and 
+
+
+
+
+Homeo
+
+(
+Y
+)
+,
+
+
+{\textstyle {\text{Homeo}}(Y),}
+
+ and, given a specific homeomorphism between 
+
+X
+X
+
+ and 
+
+
+Y
+,
+
+Y,
+
+ all three sets are identified.[clarification needed]
+The intuitive criterion of stretching, bending, cutting and gluing back together takes a certain amount of practice to apply correctly—it may not be obvious from the description above that deforming a line segment to a point is impermissible, for instance. It is thus important to realize that it is the formal definition given above that counts. In this case, for example, the line segment possesses infinitely many points, and therefore cannot be put into a bijection with a set containing only a finite number of points, including a single point.
+This characterization of a homeomorphism often leads to a confusion with the concept of homotopy, which is actually defined as a continuous deformation, but from one function to another, rather than one space to another. In the case of a homeomorphism, envisioning a continuous deformation is a mental tool for keeping track of which points on space X correspond to which points on Y—one just follows them as X deforms. In the case of homotopy, the continuous deformation from one map to the other is of the essence, and it is also less restrictive, since none of the maps involved need to be one-to-one or onto. Homotopy does lead to a relation on spaces: homotopy equivalence.
+There is a name for the kind of deformation involved in visualizing a homeomorphism. It is (except when cutting and regluing are required) an isotopy between the identity map on X and the homeomorphism from X to Y.
+
+

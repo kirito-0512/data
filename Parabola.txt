@@ -1,0 +1,3767 @@
+23231,
+Parabola,
+In mathematics, a parabola is a plane curve which is mirror-symmetrical and is approximately U-shaped. It fits several superficially different mathematical descriptions, which can all be proved to define exactly the same curves.
+One description of a parabola involves a point (the focus) and a line (the directrix). The focus does not lie on the directrix. The parabola is the locus of points in that plane that are equidistant from the directrix and the focus. Another description of a parabola is as a conic section, created from the intersection of a right circular conical surface and a plane parallel to another plane that is tangential to the conical surface.[a]
+The line perpendicular to the directrix and passing through the focus (that is, the line that splits the parabola through the middle) is called the "axis of symmetry". The point where the parabola intersects its axis of symmetry is called the "vertex" and is the point where the parabola is most sharply curved. The distance between the vertex and the focus, measured along the axis of symmetry, is the "focal length". The "latus rectum" is the chord of the parabola that is parallel to the directrix and passes through the focus. Parabolas can open up, down, left, right, or in some other arbitrary direction. Any parabola can be repositioned and rescaled to fit exactly on any other parabola—that is, all parabolas are geometrically similar.
+Parabolas have the property that, if they are made of material that reflects light, then light that travels parallel to the axis of symmetry of a parabola and strikes its concave side is reflected to its focus, regardless of where on the parabola the reflection occurs. Conversely, light that originates from a point source at the focus is reflected into a parallel ("collimated") beam, leaving the parabola parallel to the axis of symmetry. The same effects occur with sound and other waves. This reflective property is the basis of many practical uses of parabolas.
+The parabola has many important applications, from a parabolic antenna or parabolic microphone to automobile headlight reflectors and the design of ballistic missiles. It is frequently used in physics, engineering, and many other areas.
+The earliest known work on conic sections was by Menaechmus in the 4th century BC. He discovered a way to solve the problem of doubling the cube using parabolas. (The solution, however, does not meet the requirements of compass-and-straightedge construction.) The area enclosed by a parabola and a line segment, the so-called "parabola segment", was computed by Archimedes by the method of exhaustion in the 3rd century BC, in his The Quadrature of the Parabola. The name "parabola" is due to Apollonius, who discovered many properties of conic sections. It means "application", referring to "application of areas" concept, that has a connection with this curve, as Apollonius had proved.[1] The focus–directrix property of the parabola and other conic sections is due to Pappus.
+Galileo showed that the path of a projectile follows a parabola, a consequence of uniform acceleration due to gravity.
+The idea that a parabolic reflector could produce an image was already well known before the invention of the reflecting telescope.[2] Designs were proposed in the early to mid-17th century by many mathematicians, including René Descartes, Marin Mersenne,[3] and James Gregory.[4] When Isaac Newton built the first reflecting telescope in 1668, he skipped using a parabolic mirror because of the difficulty of fabrication, opting for a spherical mirror. Parabolic mirrors are used in most modern reflecting telescopes and in satellite dishes and radar receivers.[5]
+A parabola can be defined geometrically as a set of points (locus of points) in the Euclidean plane:
+The midpoint 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ of the perpendicular from the focus 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ onto the directrix 
+
+
+
+l
+
+
+{\displaystyle l}
+
+ is called the vertex, and the line 
+
+
+
+F
+V
+
+
+{\displaystyle FV}
+
+ is the axis of symmetry of the parabola.
+If one introduces Cartesian coordinates, such that 
+
+
+
+F
+=
+(
+0
+,
+f
+)
+,
+ 
+f
+>
+0
+,
+
+
+{\displaystyle F=(0,f),\ f>0,}
+
+ and the directrix has the equation 
+
+
+
+y
+=
+−
+f
+
+
+{\displaystyle y=-f}
+
+, one obtains for a point 
+
+
+
+P
+=
+(
+x
+,
+y
+)
+
+
+{\displaystyle P=(x,y)}
+
+ from 
+
+
+
+
+|
+
+P
+F
+
+
+|
+
+
+2
+
+
+=
+
+|
+
+P
+l
+
+
+|
+
+
+2
+
+
+
+
+{\displaystyle |PF|^{2}=|Pl|^{2}}
+
+ the equation 
+
+
+
+
+x
+
+2
+
+
++
+(
+y
+−
+f
+
+)
+
+2
+
+
+=
+(
+y
++
+f
+
+)
+
+2
+
+
+
+
+{\displaystyle x^{2}+(y-f)^{2}=(y+f)^{2}}
+
+. Solving for 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ yields
+This parabola is U-shaped (opening to the top).
+The horizontal chord through the focus (see picture in opening section) is called the latus rectum; one half of it is the semi-latus rectum. The latus rectum is parallel to the directrix. The semi-latus rectum is designated by the letter 
+
+
+
+p
+
+
+{\displaystyle p}
+
+. From the picture one obtains 
+The latus rectum is defined similarly for the other two conics – the ellipse and the hyperbola. The latus rectum is the line drawn through a focus of a conic section parallel to the directrix and terminated both ways by the curve. For any case, 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is the radius of the osculating circle at the vertex. For a parabola, the semi-latus rectum, 
+
+
+
+p
+
+
+{\displaystyle p}
+
+, is the distance of the focus from the directrix. Using the parameter 
+
+
+
+p
+
+
+{\displaystyle p}
+
+, the equation of the parabola can be rewritten as
+More generally, if the vertex is 
+
+
+
+V
+=
+(
+
+v
+
+1
+
+
+,
+
+v
+
+2
+
+
+)
+
+
+{\displaystyle V=(v_{1},v_{2})}
+
+, the focus 
+
+
+
+F
+=
+(
+
+v
+
+1
+
+
+,
+
+v
+
+2
+
+
++
+f
+)
+
+
+{\displaystyle F=(v_{1},v_{2}+f)}
+
+, and the directrix 
+
+
+
+y
+=
+
+v
+
+2
+
+
+−
+f
+
+
+{\displaystyle y=v_{2}-f}
+
+, one obtains the equation
+If the focus is 
+
+
+
+F
+=
+(
+
+f
+
+1
+
+
+,
+
+f
+
+2
+
+
+)
+
+
+{\displaystyle F=(f_{1},f_{2})}
+
+, and the directrix 
+
+
+
+a
+x
++
+b
+y
++
+c
+=
+0
+
+
+{\displaystyle ax+by+c=0}
+
+, then one obtains the equation
+(the left side of the equation uses the Hesse normal form of a line to calculate the distance 
+
+
+
+
+|
+
+P
+l
+
+|
+
+
+
+{\displaystyle |Pl|}
+
+).
+For a parametric equation of a parabola in general position see § As the affine image of the unit parabola.
+The implicit equation of a parabola is defined by an irreducible polynomial of degree two:
+such that 
+
+
+
+
+b
+
+2
+
+
+−
+4
+a
+c
+=
+0
+,
+
+
+{\displaystyle b^{2}-4ac=0,}
+
+ or, equivalently, such that 
+
+
+
+a
+
+x
+
+2
+
+
++
+b
+x
+y
++
+c
+
+y
+
+2
+
+
+
+
+{\displaystyle ax^{2}+bxy+cy^{2}}
+
+ is the square of a linear polynomial.
+The previous section shows that any parabola with the origin as vertex and the y axis as axis of symmetry can be considered as the graph of a function
+For 
+
+
+
+a
+>
+0
+
+
+{\displaystyle a>0}
+
+ the parabolas are opening to the top, and for 
+
+
+
+a
+<
+0
+
+
+{\displaystyle a<0}
+
+ are opening to the bottom (see picture). From the section above one obtains:
+For 
+
+
+
+a
+=
+1
+
+
+{\displaystyle a=1}
+
+ the parabola is the unit parabola with equation 
+
+
+
+y
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle y=x^{2}}
+
+.
+Its focus is 
+
+
+
+
+(
+
+0
+,
+
+
+
+1
+4
+
+
+
+
+)
+
+
+
+{\displaystyle \left(0,{\tfrac {1}{4}}\right)}
+
+, the semi-latus rectum 
+
+
+
+p
+=
+
+
+
+1
+2
+
+
+
+
+
+{\displaystyle p={\tfrac {1}{2}}}
+
+, and the directrix has the equation 
+
+
+
+y
+=
+−
+
+
+
+1
+4
+
+
+
+
+
+{\displaystyle y=-{\tfrac {1}{4}}}
+
+.
+The general function of degree 2 is
+Completing the square yields
+which is the equation of a parabola with
+Two objects in the Euclidean plane are similar if one can be transformed to the other by a similarity, that is, an arbitrary composition of rigid motions (translations and rotations) and uniform scalings.
+A parabola 
+
+
+
+
+
+P
+
+
+
+
+{\displaystyle {\mathcal {P}}}
+
+ with vertex 
+
+
+
+V
+=
+(
+
+v
+
+1
+
+
+,
+
+v
+
+2
+
+
+)
+
+
+{\displaystyle V=(v_{1},v_{2})}
+
+ can be transformed by the translation 
+
+
+
+(
+x
+,
+y
+)
+→
+(
+x
+−
+
+v
+
+1
+
+
+,
+y
+−
+
+v
+
+2
+
+
+)
+
+
+{\displaystyle (x,y)\to (x-v_{1},y-v_{2})}
+
+ to one with the origin as vertex. A suitable rotation around the origin can then transform the parabola to one that has the y axis as axis of symmetry. Hence the parabola 
+
+
+
+
+
+P
+
+
+
+
+{\displaystyle {\mathcal {P}}}
+
+ can be transformed by a rigid motion to a parabola with an equation 
+
+
+
+y
+=
+a
+
+x
+
+2
+
+
+,
+ 
+a
+≠
+0
+
+
+{\displaystyle y=ax^{2},\ a\neq 0}
+
+. Such a parabola can then be transformed by the uniform scaling 
+
+
+
+(
+x
+,
+y
+)
+→
+(
+a
+x
+,
+a
+y
+)
+
+
+{\displaystyle (x,y)\to (ax,ay)}
+
+ into the unit parabola with equation 
+
+
+
+y
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle y=x^{2}}
+
+. Thus, any parabola can be mapped to the unit parabola by a similarity.[6]
+A synthetic approach, using similar triangles, can also be used to establish this result.[7]
+The general result is that two conic sections (necessarily of the same type) are similar if and only if they have the same eccentricity.[6] Therefore, only circles (all having eccentricity 0) share this property with parabolas (all having eccentricity 1), while general ellipses and hyperbolas do not.
+There are other simple affine transformations that map the parabola 
+
+
+
+y
+=
+a
+
+x
+
+2
+
+
+
+
+{\displaystyle y=ax^{2}}
+
+ onto the unit parabola, such as 
+
+
+
+(
+x
+,
+y
+)
+→
+
+(
+
+x
+,
+
+
+
+y
+a
+
+
+
+
+)
+
+
+
+{\displaystyle (x,y)\to \left(x,{\tfrac {y}{a}}\right)}
+
+. But this mapping is not a similarity, and only shows that all parabolas are affinely equivalent (see § As the affine image of the unit parabola).
+The pencil of conic sections with the x axis as axis of symmetry, one vertex at the origin (0, 0) and the same semi-latus rectum 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ can be represented by the equation 
+with 
+
+
+
+e
+
+
+{\displaystyle e}
+
+ the eccentricity.
+If p > 0, the parabola with equation 
+
+
+
+
+y
+
+2
+
+
+=
+2
+p
+x
+
+
+{\displaystyle y^{2}=2px}
+
+ (opening to the right) has the polar representation
+Its vertex is 
+
+
+
+V
+=
+(
+0
+,
+0
+)
+
+
+{\displaystyle V=(0,0)}
+
+, and its focus is 
+
+
+
+F
+=
+
+(
+
+
+
+
+p
+2
+
+
+
+,
+0
+
+)
+
+
+
+{\displaystyle F=\left({\tfrac {p}{2}},0\right)}
+
+.
+If one shifts the origin into the focus, that is, 
+
+
+
+F
+=
+(
+0
+,
+0
+)
+
+
+{\displaystyle F=(0,0)}
+
+, one obtains the equation
+Remark 1: Inverting this polar form shows that a parabola is the inverse of a cardioid.
+Remark 2: The second polar form is a special case of a pencil of conics with focus 
+
+
+
+F
+=
+(
+0
+,
+0
+)
+
+
+{\displaystyle F=(0,0)}
+
+ (see picture):
+The diagram represents a cone with its axis AV. The point A is its apex. An inclined cross-section of the cone, shown in pink, is inclined from the axis by the same angle θ, as the side of the cone. According to the definition of a parabola as a conic section, the boundary of this pink cross-section EPD is a parabola.
+A cross-section perpendicular to the axis of the cone passes through the vertex P of the parabola. This cross-section is circular, but appears elliptical when viewed obliquely, as is shown in the diagram. Its centre is V, and PK is a diameter. We will call its radius r.
+Another perpendicular to the axis, circular cross-section of the cone is farther from the apex A than the one just described. It has a chord DE, which joins the points where the parabola intersects the circle. Another chord BC is the perpendicular bisector of DE and is consequently a diameter of the circle. These two chords and the parabola's axis of symmetry PM all intersect at the point M.
+All the labelled points, except D and E, are coplanar. They are in the plane of symmetry of the whole figure. This includes the point F, which is not mentioned above. It is defined and discussed below, in § Position of the focus.
+Let us call the length of DM and of EM x, and the length of PM y.
+The lengths of BM and CM are:
+Using the intersecting chords theorem on the chords BC and DE, we get
+Substituting:
+Rearranging:
+For any given cone and parabola, r and θ are constants, but x and y are variables that depend on the arbitrary height at which the horizontal cross-section BECD is made. This last equation shows the relationship between these variables. They can be interpreted as Cartesian coordinates of the points D and E, in a system in the pink plane with P as its origin. Since x is squared in the equation, the fact that D and E are on opposite sides of the y axis is unimportant. If the horizontal cross-section moves up or down, toward or away from the apex of the cone, D and E move along the parabola, always maintaining the relationship between x and y shown in the equation. The parabolic curve is therefore the locus of points where the equation is satisfied, which makes it a Cartesian graph of the quadratic function in the equation.
+It is proved in a preceding section that if a parabola has its vertex at the origin, and if it opens in the positive y direction, then its equation is y = x2/4f, where f is its focal length.[b] Comparing this with the last equation above shows that the focal length of the parabola in the cone is r sin θ.
+In the diagram above, the point V is the foot of the perpendicular from the vertex of the parabola to the axis of the cone. The point F is the foot of the perpendicular from the point V to the plane of the parabola.[c] By symmetry, F is on the axis of symmetry of the parabola. Angle VPF is complementary to θ, and angle PVF is complementary to angle VPF, therefore angle PVF is θ. Since the length of PV is r, the distance of F from the vertex of the parabola is r sin θ. It is shown above that this distance equals the focal length of the parabola, which is the distance from the vertex to the focus. The focus and the point F are therefore equally distant from the vertex, along the same line, which implies that they are the same point. Therefore, the point F, defined above, is the focus of the parabola.
+This discussion started from the definition of a parabola as a conic section, but it has now led to a description as a graph of a quadratic function. This shows that these two descriptions are equivalent. They both define curves of exactly the same shape.
+An alternative proof can be done using Dandelin spheres. It works without calculation and uses elementary geometric considerations only (see the derivation below).
+The intersection of an upright cone by a plane 
+
+
+
+π
+
+
+{\displaystyle \pi }
+
+, whose inclination from vertical is the same as a generatrix (a.k.a. generator line, a line containing the apex and a point on the cone surface) 
+
+
+
+
+m
+
+0
+
+
+
+
+{\displaystyle m_{0}}
+
+ of the cone, is a parabola (red curve in the diagram).
+This generatrix 
+
+
+
+
+m
+
+0
+
+
+
+
+{\displaystyle m_{0}}
+
+ is the only generatrix of the cone that is parallel to plane 
+
+
+
+π
+
+
+{\displaystyle \pi }
+
+. Otherwise, if there are two generatrices parallel to the intersecting plane, the intersection curve will be a hyperbola (or degenerate hyperbola, if the two generatrices are in the intersecting plane). If there is no generatrix parallel to the intersecting plane, the intersection curve will be an ellipse or a circle (or a point).
+Let plane 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+ be the plane that contains the vertical axis of the cone and line 
+
+
+
+
+m
+
+0
+
+
+
+
+{\displaystyle m_{0}}
+
+. The inclination of plane 
+
+
+
+π
+
+
+{\displaystyle \pi }
+
+ from vertical is the same as line 
+
+
+
+
+m
+
+0
+
+
+
+
+{\displaystyle m_{0}}
+
+ means that, viewing from the side (that is, the plane 
+
+
+
+π
+
+
+{\displaystyle \pi }
+
+ is perpendicular to plane 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+), 
+
+
+
+
+m
+
+0
+
+
+∥
+π
+
+
+{\displaystyle m_{0}\parallel \pi }
+
+.
+In order to prove the directrix property of a parabola (see § Definition as a locus of points above), one uses a Dandelin sphere 
+
+
+
+d
+
+
+{\displaystyle d}
+
+, which is a sphere that touches the cone along a circle 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ and plane 
+
+
+
+π
+
+
+{\displaystyle \pi }
+
+ at point 
+
+
+
+F
+
+
+{\displaystyle F}
+
+. The plane containing the circle 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ intersects with plane 
+
+
+
+π
+
+
+{\displaystyle \pi }
+
+ at line 
+
+
+
+l
+
+
+{\displaystyle l}
+
+. There is a mirror symmetry in the system consisting of plane 
+
+
+
+π
+
+
+{\displaystyle \pi }
+
+, Dandelin sphere 
+
+
+
+d
+
+
+{\displaystyle d}
+
+ and the cone (the plane of symmetry is 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+). 
+Since the plane containing the circle 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ is perpendicular to plane 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+, and 
+
+
+
+π
+⊥
+σ
+
+
+{\displaystyle \pi \perp \sigma }
+
+, their intersection line 
+
+
+
+l
+
+
+{\displaystyle l}
+
+ must also be perpendicular to plane 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+. Since line 
+
+
+
+
+m
+
+0
+
+
+
+
+{\displaystyle m_{0}}
+
+ is in plane 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+, 
+
+
+
+l
+⊥
+
+m
+
+0
+
+
+
+
+{\displaystyle l\perp m_{0}}
+
+.
+It turns out that 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is the focus of the parabola, and 
+
+
+
+l
+
+
+{\displaystyle l}
+
+ is the directrix of the parabola.
+The reflective property states that if a parabola can reflect light, then light that enters it travelling parallel to the axis of symmetry is reflected toward the focus. This is derived from geometrical optics, based on the assumption that light travels in rays. 
+Consider the parabola y = x2. Since all parabolas are similar, this simple case represents all others. 
+The point E is an arbitrary point on the parabola. The focus is F, the vertex is A (the origin), and the line FA  is the axis of symmetry. The line EC is parallel to the axis of symmetry and intersects the x axis at D.  The point B is the midpoint of the line segment FC.
+The vertex A is equidistant from the focus F and from the directrix. Since C is on the directrix, the y coordinates of F and C are equal in absolute value and opposite in sign. B is the midpoint of FC. Its x coordinate is half that of D,  that is, x/2. The slope of the line BE is the quotient of the lengths of ED and BD, which is x2/x/2 = 2x. But 2x is also the slope (first derivative) of the parabola at E. Therefore, the line BE is the tangent to the parabola at E.
+The distances EF and EC are equal because E is on the parabola, F is the focus and C is on the directrix. Therefore, since B is the midpoint of FC, triangles △FEB and △CEB are congruent (three sides), which implies that the angles marked α are congruent. (The angle above E is vertically opposite angle ∠BEC.) This means that a ray of light that enters the parabola and arrives at E travelling parallel to the axis of symmetry will be reflected by the line BE so it travels along the line EF, as shown in red in the diagram (assuming that the lines can somehow reflect light). Since BE is the tangent to the parabola at E, the same reflection will be done by an infinitesimal arc of the parabola at E. Therefore, light that enters the parabola and arrives at E travelling parallel to the axis of symmetry of the parabola is reflected by the parabola toward its focus.
+This conclusion about reflected light applies to all points on the parabola, as is shown on the left side of the diagram. This is the reflective property.
+There are other theorems that can be deduced simply from the above argument.
+The above proof and the accompanying diagram show that the tangent BE bisects the angle ∠FEC. In other words, the tangent to the parabola at any point bisects the angle between the lines joining the point to the focus and perpendicularly to the directrix.
+Since triangles △FBE and △CBE are congruent, FB is perpendicular to the tangent BE. Since B is on the x axis, which is the tangent to the parabola at its vertex, it follows that the point of intersection between any tangent to a parabola and the perpendicular from the focus to that tangent lies on the line that is tangential to the parabola at its vertex. See animated diagram[8] and pedal curve.
+If light travels along the line CE, it moves parallel to the axis of symmetry and strikes the convex side of the parabola at E. It is clear from the above diagram that this light will be reflected directly away from the focus, along an extension of the segment FE.
+The above proofs of the reflective and tangent bisection properties use a line of calculus. Here a geometric proof is presented.
+In this diagram, F is the focus of the parabola, and T and U lie on its directrix. P is an arbitrary point on the parabola. PT is perpendicular to the directrix, and the line MP bisects angle ∠FPT. Q is another point on the parabola, with QU perpendicular to the directrix. We know that FP = PT and FQ = QU. Clearly, QT > QU, so QT > FQ. All points on the bisector MP are equidistant from F and T, but Q is closer to F than to T. This means that Q is to the left of MP, that is, on the same side of it as the focus. The same would be true if Q were located anywhere else on the parabola (except at the point P), so the entire parabola, except the point P, is on the focus side of MP. Therefore, MP is the tangent to the parabola at P. Since it bisects the angle ∠FPT, this proves the tangent bisection property.
+The logic of the last paragraph can be applied to modify the above proof of the reflective property. It effectively proves the line BE to be the tangent to the parabola at E if the angles α are equal. The reflective property follows as shown previously.
+The definition of a parabola by its focus and directrix can be used for drawing it with help of pins and strings:[9]
+A parabola can be considered as the affine part of a non-degenerated projective conic with a point 
+
+
+
+
+Y
+
+∞
+
+
+
+
+{\displaystyle Y_{\infty }}
+
+ on the line of infinity 
+
+
+
+
+g
+
+∞
+
+
+
+
+{\displaystyle g_{\infty }}
+
+, which is the tangent at 
+
+
+
+
+Y
+
+∞
+
+
+
+
+{\displaystyle Y_{\infty }}
+
+. The 5-, 4- and 3- point degenerations of Pascal's theorem are properties of a conic dealing with at least one tangent. If one considers this tangent as the line at infinity and its point of contact as the point at infinity of the y axis, one obtains three statements for a parabola.
+The following properties of a parabola deal only with terms connect, intersect, parallel, which are invariants of similarities. So, it is sufficient to prove any property for the unit parabola with equation 
+
+
+
+y
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle y=x^{2}}
+
+.
+Any parabola can be described in a suitable coordinate system by an equation 
+
+
+
+y
+=
+a
+
+x
+
+2
+
+
+
+
+{\displaystyle y=ax^{2}}
+
+.
+Proof: straightforward calculation for the unit parabola 
+
+
+
+y
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle y=x^{2}}
+
+.
+Application: The 4-points property of a parabola can be used for the construction of point 
+
+
+
+
+P
+
+4
+
+
+
+
+{\displaystyle P_{4}}
+
+, while 
+
+
+
+
+P
+
+1
+
+
+,
+
+P
+
+2
+
+
+,
+
+P
+
+3
+
+
+
+
+{\displaystyle P_{1},P_{2},P_{3}}
+
+ and 
+
+
+
+
+Q
+
+2
+
+
+
+
+{\displaystyle Q_{2}}
+
+ are given.
+Remark: the 4-points property of a parabola is an affine version of the 5-point degeneration of Pascal's theorem.
+Let 
+
+
+
+
+P
+
+0
+
+
+=
+(
+
+x
+
+0
+
+
+,
+
+y
+
+0
+
+
+)
+,
+
+P
+
+1
+
+
+=
+(
+
+x
+
+1
+
+
+,
+
+y
+
+1
+
+
+)
+,
+
+P
+
+2
+
+
+=
+(
+
+x
+
+2
+
+
+,
+
+y
+
+2
+
+
+)
+
+
+{\displaystyle P_{0}=(x_{0},y_{0}),P_{1}=(x_{1},y_{1}),P_{2}=(x_{2},y_{2})}
+
+ be three points of the parabola with equation 
+
+
+
+y
+=
+a
+
+x
+
+2
+
+
+
+
+{\displaystyle y=ax^{2}}
+
+ and 
+
+
+
+
+Q
+
+2
+
+
+
+
+{\displaystyle Q_{2}}
+
+ the intersection of the secant line 
+
+
+
+
+P
+
+0
+
+
+
+P
+
+1
+
+
+
+
+{\displaystyle P_{0}P_{1}}
+
+ with the line 
+
+
+
+x
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle x=x_{2}}
+
+ and 
+
+
+
+
+Q
+
+1
+
+
+
+
+{\displaystyle Q_{1}}
+
+ the intersection of the secant line 
+
+
+
+
+P
+
+0
+
+
+
+P
+
+2
+
+
+
+
+{\displaystyle P_{0}P_{2}}
+
+ with the line 
+
+
+
+x
+=
+
+x
+
+1
+
+
+
+
+{\displaystyle x=x_{1}}
+
+ (see picture). Then the tangent at point 
+
+
+
+
+P
+
+0
+
+
+
+
+{\displaystyle P_{0}}
+
+ is parallel to the line 
+
+
+
+
+Q
+
+1
+
+
+
+Q
+
+2
+
+
+
+
+{\displaystyle Q_{1}Q_{2}}
+
+.
+(The lines 
+
+
+
+x
+=
+
+x
+
+1
+
+
+
+
+{\displaystyle x=x_{1}}
+
+ and 
+
+
+
+x
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle x=x_{2}}
+
+ are parallel to the axis of the parabola.)
+Proof: can be performed for the unit parabola 
+
+
+
+y
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle y=x^{2}}
+
+. A short calculation shows: line 
+
+
+
+
+Q
+
+1
+
+
+
+Q
+
+2
+
+
+
+
+{\displaystyle Q_{1}Q_{2}}
+
+ has slope 
+
+
+
+2
+
+x
+
+0
+
+
+
+
+{\displaystyle 2x_{0}}
+
+ which is the slope of the tangent at point 
+
+
+
+
+P
+
+0
+
+
+
+
+{\displaystyle P_{0}}
+
+.
+Application: The 3-points-1-tangent-property of a parabola can be used for the construction of the tangent at point 
+
+
+
+
+P
+
+0
+
+
+
+
+{\displaystyle P_{0}}
+
+, while 
+
+
+
+
+P
+
+1
+
+
+,
+
+P
+
+2
+
+
+,
+
+P
+
+0
+
+
+
+
+{\displaystyle P_{1},P_{2},P_{0}}
+
+ are given.
+Remark: The 3-points-1-tangent-property of a parabola is an affine version of the 4-point-degeneration of Pascal's theorem.
+Let 
+
+
+
+
+P
+
+1
+
+
+=
+(
+
+x
+
+1
+
+
+,
+
+y
+
+1
+
+
+)
+,
+ 
+
+P
+
+2
+
+
+=
+(
+
+x
+
+2
+
+
+,
+
+y
+
+2
+
+
+)
+
+
+{\displaystyle P_{1}=(x_{1},y_{1}),\ P_{2}=(x_{2},y_{2})}
+
+ be two points of the parabola with equation 
+
+
+
+y
+=
+a
+
+x
+
+2
+
+
+
+
+{\displaystyle y=ax^{2}}
+
+, and 
+
+
+
+
+Q
+
+2
+
+
+
+
+{\displaystyle Q_{2}}
+
+ the intersection of the tangent at point 
+
+
+
+
+P
+
+1
+
+
+
+
+{\displaystyle P_{1}}
+
+ with the line 
+
+
+
+x
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle x=x_{2}}
+
+, and 
+
+
+
+
+Q
+
+1
+
+
+
+
+{\displaystyle Q_{1}}
+
+ the intersection of the tangent at point 
+
+
+
+
+P
+
+2
+
+
+
+
+{\displaystyle P_{2}}
+
+ with the line 
+
+
+
+x
+=
+
+x
+
+1
+
+
+
+
+{\displaystyle x=x_{1}}
+
+ (see picture). Then the secant 
+
+
+
+
+P
+
+1
+
+
+
+P
+
+2
+
+
+
+
+{\displaystyle P_{1}P_{2}}
+
+ is parallel to the line 
+
+
+
+
+Q
+
+1
+
+
+
+Q
+
+2
+
+
+
+
+{\displaystyle Q_{1}Q_{2}}
+
+.
+(The lines 
+
+
+
+x
+=
+
+x
+
+1
+
+
+
+
+{\displaystyle x=x_{1}}
+
+ and 
+
+
+
+x
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle x=x_{2}}
+
+ are parallel to the axis of the parabola.)
+Proof: straight forward calculation for the unit parabola 
+
+
+
+y
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle y=x^{2}}
+
+.
+Application: The 2-points–2-tangents property can be used for the construction of the tangent of a parabola at point 
+
+
+
+
+P
+
+2
+
+
+
+
+{\displaystyle P_{2}}
+
+, if 
+
+
+
+
+P
+
+1
+
+
+,
+
+P
+
+2
+
+
+
+
+{\displaystyle P_{1},P_{2}}
+
+ and the tangent at 
+
+
+
+
+P
+
+1
+
+
+
+
+{\displaystyle P_{1}}
+
+ are given.
+Remark 1: The 2-points–2-tangents property of a parabola is an affine version of the 3-point degeneration of Pascal's theorem.
+Remark 2: The 2-points–2-tangents property should not be confused with the following property of a parabola, which also deals with 2 points and 2 tangents, but is not related to Pascal's theorem.
+The statements above presume the knowledge of the axis direction of the parabola, in order to construct the points 
+
+
+
+
+Q
+
+1
+
+
+,
+
+Q
+
+2
+
+
+
+
+{\displaystyle Q_{1},Q_{2}}
+
+. The following property determines the points 
+
+
+
+
+Q
+
+1
+
+
+,
+
+Q
+
+2
+
+
+
+
+{\displaystyle Q_{1},Q_{2}}
+
+ by two given points and their tangents only, and the result is that the line 
+
+
+
+
+Q
+
+1
+
+
+
+Q
+
+2
+
+
+
+
+{\displaystyle Q_{1}Q_{2}}
+
+ is parallel to the axis of the parabola.
+Let
+Then the line 
+
+
+
+
+Q
+
+1
+
+
+
+Q
+
+2
+
+
+
+
+{\displaystyle Q_{1}Q_{2}}
+
+ is parallel to the axis of the parabola and has the equation 
+
+
+
+x
+=
+(
+
+x
+
+1
+
+
++
+
+x
+
+2
+
+
+)
+
+/
+
+2.
+
+
+{\displaystyle x=(x_{1}+x_{2})/2.}
+
+
+Proof: can be done (like the properties above) for the unit parabola 
+
+
+
+y
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle y=x^{2}}
+
+.
+Application: This property can be used to determine the direction of the axis of a parabola, if two points and their tangents are given. An alternative way is to determine the midpoints of two parallel chords, see section on parallel chords.
+Remark: This property is an affine version of the theorem of two perspective triangles of a non-degenerate conic.[10]
+Steiner established the following procedure for the construction of a non-degenerate conic (see Steiner conic):
+This procedure can be used for a simple construction of points on the parabola 
+
+
+
+y
+=
+a
+
+x
+
+2
+
+
+
+
+{\displaystyle y=ax^{2}}
+
+:
+Proof: straightforward calculation.
+Remark: Steiner's generation is also available for ellipses and hyperbolas.
+A dual parabola consists of the set of tangents of an ordinary parabola.
+The Steiner generation of a conic can be applied to the generation of a dual conic by changing the meanings of points and lines:
+In order to generate elements of a dual parabola, one starts with
+The proof is a consequence of the de Casteljau algorithm for a Bezier curve of degree 2.
+A parabola with equation 
+
+
+
+y
+=
+a
+
+x
+
+2
+
+
++
+b
+x
++
+c
+,
+ 
+a
+≠
+0
+
+
+{\displaystyle y=ax^{2}+bx+c,\ a\neq 0}
+
+ is uniquely determined by three points 
+
+
+
+(
+
+x
+
+1
+
+
+,
+
+y
+
+1
+
+
+)
+,
+(
+
+x
+
+2
+
+
+,
+
+y
+
+2
+
+
+)
+,
+(
+
+x
+
+3
+
+
+,
+
+y
+
+3
+
+
+)
+
+
+{\displaystyle (x_{1},y_{1}),(x_{2},y_{2}),(x_{3},y_{3})}
+
+ with different x coordinates. The usual procedure to determine the coefficients 
+
+
+
+a
+,
+b
+,
+c
+
+
+{\displaystyle a,b,c}
+
+ is to insert the point coordinates into the equation. The result is a linear system of three equations, which can be solved by Gaussian elimination or Cramer's rule, for example. An alternative way uses the inscribed angle theorem for parabolas.
+In the following, the angle of two lines will be measured by the difference of the slopes of the line with respect to the directrix of the parabola. That is, for a parabola of equation 
+
+
+
+y
+=
+a
+
+x
+
+2
+
+
++
+b
+x
++
+c
+,
+
+
+{\displaystyle y=ax^{2}+bx+c,}
+
+ the angle between two lines of equations 
+
+
+
+y
+=
+
+m
+
+1
+
+
+x
++
+
+d
+
+1
+
+
+,
+ 
+y
+=
+
+m
+
+2
+
+
+x
++
+
+d
+
+2
+
+
+
+
+{\displaystyle y=m_{1}x+d_{1},\ y=m_{2}x+d_{2}}
+
+ is measured by 
+
+
+
+
+m
+
+1
+
+
+−
+
+m
+
+2
+
+
+.
+
+
+{\displaystyle m_{1}-m_{2}.}
+
+
+Analogous to the inscribed angle theorem for circles, one has the inscribed angle theorem for parabolas:[11][12]
+(Proof: straightforward calculation: If the points are on a parabola, one may translate the coordinates for having the equation 
+
+
+
+y
+=
+a
+
+x
+
+2
+
+
+
+
+{\displaystyle y=ax^{2}}
+
+, then one has 
+
+
+
+
+
+
+
+y
+
+i
+
+
+−
+
+y
+
+j
+
+
+
+
+
+x
+
+i
+
+
+−
+
+x
+
+j
+
+
+
+
+
+=
+
+x
+
+i
+
+
++
+
+x
+
+j
+
+
+
+
+{\displaystyle {\frac {y_{i}-y_{j}}{x_{i}-x_{j}}}=x_{i}+x_{j}}
+
+ if the points are on the parabola.)
+A consequence is that the equation (in 
+
+
+
+
+
+x
+
+
+,
+
+
+y
+
+
+
+
+{\displaystyle {\color {green}x},{\color {red}y}}
+
+) of the parabola determined by 3 points 
+
+
+
+
+P
+
+i
+
+
+=
+(
+
+x
+
+i
+
+
+,
+
+y
+
+i
+
+
+)
+,
+ 
+i
+=
+1
+,
+2
+,
+3
+,
+
+
+{\displaystyle P_{i}=(x_{i},y_{i}),\ i=1,2,3,}
+
+ with different x coordinates is (if two x coordinates are equal, there is no parabola with directrix parallel to the x axis, which passes through the points)
+Multiplying by the denominators that depend on 
+
+
+
+
+
+x
+
+
+,
+
+
+{\displaystyle {\color {green}x},}
+
+ one obtains the more standard form
+In a suitable coordinate system any parabola can be described by an equation 
+
+
+
+y
+=
+a
+
+x
+
+2
+
+
+
+
+{\displaystyle y=ax^{2}}
+
+. The equation of the tangent at a point 
+
+
+
+
+P
+
+0
+
+
+=
+(
+
+x
+
+0
+
+
+,
+
+y
+
+0
+
+
+)
+,
+ 
+
+y
+
+0
+
+
+=
+a
+
+x
+
+0
+
+
+2
+
+
+
+
+{\displaystyle P_{0}=(x_{0},y_{0}),\ y_{0}=ax_{0}^{2}}
+
+ is
+One obtains the function
+on the set of points of the parabola onto the set of tangents.
+Obviously, this function can be extended onto the set of all points of 
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} ^{2}}
+
+ to a bijection between the points of 
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} ^{2}}
+
+ and the lines with equations 
+
+
+
+y
+=
+m
+x
++
+d
+,
+ 
+m
+,
+d
+∈
+
+R
+
+
+
+{\displaystyle y=mx+d,\ m,d\in \mathbb {R} }
+
+. The inverse mapping is 
+This relation is called the pole–polar relation of the parabola, where the point is the pole, and the corresponding line its polar.
+By calculation, one checks the following properties of the pole–polar relation of the parabola:
+Remark: Pole–polar relations also exist for ellipses and hyperbolas.
+Let the line of symmetry intersect the parabola at point Q, and denote the focus as point F and its distance from point Q as f. Let the perpendicular to the line of symmetry, through the focus, intersect the parabola at a point T. Then (1) the distance from F to T is 2f, and (2) a tangent to the parabola at point T intersects the line of symmetry at a 45° angle.[13]: p.26 
+If two tangents to a parabola are perpendicular to each other, then they intersect on the directrix. Conversely, two tangents that intersect on the directrix are perpendicular. In other words, at any point on the directrix the whole parabola subtends a right angle.
+Let three tangents to a parabola form a triangle. Then Lambert's theorem states that the focus of the parabola lies on the circumcircle of the triangle.[14][8]: Corollary 20 
+Tsukerman's converse to Lambert's theorem states that, given three lines that bound a triangle, if two of the lines are tangent to a parabola whose focus lies on the circumcircle of the triangle, then the third line is also tangent to the parabola.[15]
+Suppose a chord crosses a parabola perpendicular to its axis of symmetry. Let the length of the chord between the points where it intersects the parabola be c and the distance from the vertex of the parabola to the chord, measured along the axis of symmetry, be d. The focal length, f, of the parabola is given by
+Suppose a system of Cartesian coordinates is used such that the vertex of the parabola is at the origin, and the axis of symmetry is the y axis. The parabola opens upward. It is shown elsewhere in this article that the equation of the parabola is 4fy = x2, where f is the focal length. At the positive x end of the chord, x = c/2 and y = d. Since this point is on the parabola, these coordinates must satisfy the equation above. Therefore, by substitution, 
+
+
+
+4
+f
+d
+=
+
+
+(
+
+
+
+c
+2
+
+
+
+)
+
+
+2
+
+
+
+
+{\displaystyle 4fd=\left({\tfrac {c}{2}}\right)^{2}}
+
+. From this, 
+
+
+
+f
+=
+
+
+
+
+c
+
+2
+
+
+
+16
+d
+
+
+
+
+
+
+{\displaystyle f={\tfrac {c^{2}}{16d}}}
+
+.
+The area enclosed between a parabola and a chord (see diagram) is two-thirds of the area of a parallelogram that surrounds it. One side of the parallelogram is the chord, and the opposite side is a tangent to the parabola.[16][17] The slope of the other parallel sides is irrelevant to the area. Often, as here, they are drawn parallel with the parabola's axis of symmetry, but this is arbitrary.
+A theorem equivalent to this one, but different in details, was derived by Archimedes in the 3rd century BCE. He used the areas of triangles, rather than that of the parallelogram.[d] See The Quadrature of the Parabola.
+If the chord has length b and is perpendicular to the parabola's axis of symmetry, and if the perpendicular distance from the parabola's vertex to the chord is h, the parallelogram is a rectangle, with sides of b and h. The area A of the parabolic segment enclosed by the parabola and the chord is therefore
+This formula can be compared with the area of a triangle: 1/2bh.
+In general, the enclosed area can be calculated as follows. First, locate the point on the parabola where its slope equals that of the chord. This can be done with calculus, or by using a line that is parallel to the axis of symmetry of the parabola and passes through the midpoint of the chord. The required point is where this line intersects the parabola.[e] Then, using the formula given in Distance from a point to a line, calculate the perpendicular distance from this point to the chord. Multiply this by the length of the chord to get the area of the parallelogram, then by 2/3 to get the required enclosed area.
+A corollary of the above discussion is that if a parabola has several parallel chords, their midpoints all lie on a line parallel to the axis of symmetry. If tangents to the parabola are drawn through the endpoints of any of these chords, the two tangents intersect on this same line parallel to the axis of symmetry (see Axis-direction of a parabola).[f]
+If a point X is located on a parabola with focal length f, and if p is the perpendicular distance from X to the axis of symmetry of the parabola, then the lengths of arcs of the parabola that terminate at X can be calculated from f and p as follows, assuming they are all expressed in the same units.[g]
+This quantity s is the length of the arc between X and the vertex of the parabola.
+The length of the arc between X and the symmetrically opposite point on the other side of the parabola is 2s.
+The perpendicular distance p can be given a positive or negative sign to indicate on which side of the axis of symmetry X is situated. Reversing the sign of p reverses the signs of h and s without changing their absolute values. If these quantities are signed, the length of the arc between any two points on the parabola is always shown by the difference between their values of s. The calculation can be simplified by using the properties of logarithms:
+This can be useful, for example, in calculating the size of the material needed to make a parabolic reflector or parabolic trough.
+This calculation can be used for a parabola in any orientation. It is not restricted to the situation where the axis of symmetry is parallel to the y axis.
+
+S is the focus, and V is the principal vertex of the parabola VG. Draw VX perpendicular to SV.
+Take any point B on VG and drop a perpendicular BQ from B to VX. Draw perpendicular ST intersecting BQ, extended if necessary, at T. At B draw the perpendicular BJ, intersecting VX at J.
+For the parabola, the segment VBV, the area enclosed by the chord VB and the arc VB, is equal to ∆VBQ / 3, also 
+
+
+
+B
+Q
+=
+
+
+
+V
+
+Q
+
+2
+
+
+
+
+4
+S
+V
+
+
+
+
+
+{\displaystyle BQ={\frac {VQ^{2}}{4SV}}}
+
+.
+The area of the parabolic sector SVB = ∆SVB + ∆VBQ / 3
+
+
+
+
+
+=
+
+
+
+S
+V
+⋅
+V
+Q
+
+2
+
+
++
+
+
+
+V
+Q
+⋅
+B
+Q
+
+6
+
+
+
+
+{\displaystyle {}={\frac {SV\cdot VQ}{2}}+{\frac {VQ\cdot BQ}{6}}}
+
+.
+Since triangles TSB and QBJ are similar,
+Therefore, the area of the parabolic sector 
+
+
+
+S
+V
+B
+=
+
+
+
+2
+S
+V
+⋅
+V
+J
+
+3
+
+
+
+
+{\displaystyle SVB={\frac {2SV\cdot VJ}{3}}}
+
+ and can be found from the length of VJ, as found above.
+A circle through S, V and B also passes through J.
+Conversely, if a point, B on the parabola VG is to be found so that the area of the sector SVB is equal to a specified value, determine the point J on VX and construct a circle through S, V and J. Since SJ is the diameter, the center of the circle is at its midpoint, and it lies on the perpendicular bisector of SV, a distance of one half VJ from SV. The required point B is where this circle intersects the parabola.
+If a body traces the path of the parabola due to an inverse square force directed towards S, the area SVB increases at a constant rate as point B moves forward. It follows that J moves at constant speed along VX as B moves along the parabola.
+If the speed of the body at the vertex where it is moving perpendicularly to SV is v, then the speed of J is equal to 3v/4.
+The construction can be extended simply to include the case where neither radius coincides with the axis SV as follows. Let A be a fixed point on VG between V and B, and point H be the intersection on VX with the perpendicular to SA at A. From the above, the area of the parabolic sector 
+
+
+
+S
+A
+B
+=
+
+
+
+2
+S
+V
+⋅
+(
+V
+J
+−
+V
+H
+)
+
+3
+
+
+=
+
+
+
+2
+S
+V
+⋅
+H
+J
+
+3
+
+
+
+
+{\displaystyle SAB={\frac {2SV\cdot (VJ-VH)}{3}}={\frac {2SV\cdot HJ}{3}}}
+
+.
+Conversely, if it is required to find the point B for a particular area SAB, find point J from HJ and point B as before. By Book 1, Proposition 16, Corollary 6 of Newton's Principia, the speed of a body moving along a parabola with a force directed towards the focus is inversely proportional to the square root of the radius. If the speed at A is v, then at the vertex V it is 
+
+
+
+
+
+
+
+S
+A
+
+
+S
+V
+
+
+
+
+v
+
+
+{\displaystyle {\sqrt {\frac {SA}{SV}}}v}
+
+, and point J moves at a constant speed of 
+
+
+
+
+
+
+3
+v
+
+4
+
+
+
+
+
+
+S
+A
+
+
+S
+V
+
+
+
+
+
+
+{\displaystyle {\frac {3v}{4}}{\sqrt {\frac {SA}{SV}}}}
+
+.
+The above construction was devised by Isaac Newton and can be found in Book 1 of Philosophiæ Naturalis Principia Mathematica as Proposition 30.
+The focal length of a parabola is half of its radius of curvature at its vertex.
+Image is inverted. AB is x axis. C is origin. O is center. A is (x, y). OA = OC = R. PA = x. CP = y. OP = (R − y). Other points and lines are irrelevant for this purpose.
+The radius of curvature at the vertex is twice the focal length. The measurements shown on the above diagram are in units of the latus rectum, which is four times the focal length.
+Consider a point (x, y) on a circle of radius R and with center at the point (0, R). The circle passes through the origin. If the point is near the origin, the Pythagorean theorem shows that
+But if (x, y) is extremely close to the origin, since the x axis is a tangent to the circle, y is very small compared with x, so y2 is negligible compared with the other terms. Therefore, extremely close to the origin
+Compare this with the parabola
+which has its vertex at the origin, opens upward, and has focal length f (see preceding sections of this article).
+Equations (1) and (2) are equivalent if R = 2f. Therefore, this is the condition for the circle and parabola to coincide at and extremely close to the origin. The radius of curvature at the origin, which is the vertex of the parabola, is twice the focal length.
+A concave mirror that is a small segment of a sphere behaves approximately like a parabolic mirror, focusing parallel light to a point midway between the centre and the surface of the sphere.
+Another definition of a parabola uses affine transformations:
+An affine transformation of the Euclidean plane has the form 
+
+
+
+
+
+
+x
+→
+
+
+
+→
+
+
+
+
+f
+→
+
+
+
+
+0
+
+
++
+A
+
+
+
+x
+→
+
+
+
+
+
+{\displaystyle {\vec {x}}\to {\vec {f}}_{0}+A{\vec {x}}}
+
+, where 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is a regular matrix (determinant is not 0), and 
+
+
+
+
+
+
+
+f
+→
+
+
+
+
+0
+
+
+
+
+{\displaystyle {\vec {f}}_{0}}
+
+ is an arbitrary vector. If 
+
+
+
+
+
+
+
+f
+→
+
+
+
+
+1
+
+
+,
+
+
+
+
+f
+→
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\vec {f}}_{1},{\vec {f}}_{2}}
+
+ are the column vectors of the matrix 
+
+
+
+A
+
+
+{\displaystyle A}
+
+, the unit parabola 
+
+
+
+(
+t
+,
+
+t
+
+2
+
+
+)
+,
+ 
+t
+∈
+
+R
+
+
+
+{\displaystyle (t,t^{2}),\ t\in \mathbb {R} }
+
+ is mapped onto the parabola
+where
+In general, the two vectors 
+
+
+
+
+
+
+
+f
+→
+
+
+
+
+1
+
+
+,
+
+
+
+
+f
+→
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\vec {f}}_{1},{\vec {f}}_{2}}
+
+ are not perpendicular, and 
+
+
+
+
+
+
+
+f
+→
+
+
+
+
+0
+
+
+
+
+{\displaystyle {\vec {f}}_{0}}
+
+ is not the vertex, unless the affine transformation is a similarity.
+The tangent vector at the point 
+
+
+
+
+
+
+p
+→
+
+
+
+(
+t
+)
+
+
+{\displaystyle {\vec {p}}(t)}
+
+ is 
+
+
+
+
+
+
+
+p
+→
+
+
+
+′
+
+(
+t
+)
+=
+
+
+
+
+f
+→
+
+
+
+
+1
+
+
++
+2
+t
+
+
+
+
+f
+→
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\vec {p}}'(t)={\vec {f}}_{1}+2t{\vec {f}}_{2}}
+
+. At the vertex the tangent vector is orthogonal to 
+
+
+
+
+
+
+
+f
+→
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\vec {f}}_{2}}
+
+. Hence the parameter 
+
+
+
+
+t
+
+0
+
+
+
+
+{\displaystyle t_{0}}
+
+ of the vertex is the solution of the equation
+which is
+and the vertex is
+The focal length can be determined by a suitable parameter transformation (which does not change the geometric shape of the parabola). The focal length is
+Hence the focus of the parabola is
+Solving the parametric representation for 
+
+
+
+
+t
+,
+
+t
+
+2
+
+
+
+
+
+{\displaystyle \;t,t^{2}\;}
+
+ by Cramer's rule and using 
+
+
+
+
+t
+⋅
+t
+−
+
+t
+
+2
+
+
+=
+0
+
+
+
+{\displaystyle \;t\cdot t-t^{2}=0\;}
+
+, one gets the implicit representation
+The definition of a parabola in this section gives a parametric representation of an arbitrary parabola, even in space, if one allows 
+
+
+
+
+
+
+f
+→
+
+
+
+
+
+
+0
+
+
+,
+
+
+
+f
+→
+
+
+
+
+
+
+1
+
+
+,
+
+
+
+f
+→
+
+
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\vec {f}}\!_{0},{\vec {f}}\!_{1},{\vec {f}}\!_{2}}
+
+ to be vectors in space.
+A quadratic Bézier curve is a curve 
+
+
+
+
+
+
+c
+→
+
+
+
+(
+t
+)
+
+
+{\displaystyle {\vec {c}}(t)}
+
+ defined by three points 
+
+
+
+
+P
+
+0
+
+
+:
+
+
+
+
+p
+→
+
+
+
+
+0
+
+
+
+
+{\displaystyle P_{0}:{\vec {p}}_{0}}
+
+, 
+
+
+
+
+P
+
+1
+
+
+:
+
+
+
+
+p
+→
+
+
+
+
+1
+
+
+
+
+{\displaystyle P_{1}:{\vec {p}}_{1}}
+
+ and 
+
+
+
+
+P
+
+2
+
+
+:
+
+
+
+
+p
+→
+
+
+
+
+2
+
+
+
+
+{\displaystyle P_{2}:{\vec {p}}_{2}}
+
+, called its control points:
+This curve is an arc of a parabola (see § As the affine image of the unit parabola).
+In one method of numerical integration one replaces the graph of a function by arcs of parabolas and integrates the parabola arcs. A parabola is determined by three points. The formula for one arc is
+The method is called Simpson's rule.
+The following quadrics contain parabolas as plane sections:
+Elliptic cone
+Parabolic cylinder
+Elliptic paraboloid
+Hyperbolic paraboloid
+Hyperboloid of one sheet
+Hyperboloid of two sheets
+A parabola can be used as a trisectrix, that is it allows the exact trisection of an arbitrary angle with straightedge and compass. This is not in contradiction to the impossibility of an angle trisection with compass-and-straightedge constructions alone, as the use of parabolas is not allowed in the classic rules for compass-and-straightedge constructions.
+To trisect 
+
+
+
+∠
+A
+O
+B
+
+
+{\displaystyle \angle AOB}
+
+, place its leg 
+
+
+
+O
+B
+
+
+{\displaystyle OB}
+
+ on the x axis such that the vertex 
+
+
+
+O
+
+
+{\displaystyle O}
+
+ is in the coordinate system's origin. The coordinate system also contains the parabola 
+
+
+
+y
+=
+2
+
+x
+
+2
+
+
+
+
+{\displaystyle y=2x^{2}}
+
+. The unit circle with radius 1 around the origin intersects the angle's other leg 
+
+
+
+O
+A
+
+
+{\displaystyle OA}
+
+, and from this point of intersection draw the perpendicular onto the y axis. The parallel to y axis through the midpoint of that perpendicular and the tangent on the unit circle in 
+
+
+
+(
+0
+,
+1
+)
+
+
+{\displaystyle (0,1)}
+
+ intersect in 
+
+
+
+C
+
+
+{\displaystyle C}
+
+. The circle around 
+
+
+
+C
+
+
+{\displaystyle C}
+
+ with radius 
+
+
+
+O
+C
+
+
+{\displaystyle OC}
+
+ intersects the parabola at 
+
+
+
+
+P
+
+1
+
+
+
+
+{\displaystyle P_{1}}
+
+. The perpendicular from 
+
+
+
+
+P
+
+1
+
+
+
+
+{\displaystyle P_{1}}
+
+ onto the x axis intersects the unit circle at 
+
+
+
+
+P
+
+2
+
+
+
+
+{\displaystyle P_{2}}
+
+, and 
+
+
+
+∠
+
+P
+
+2
+
+
+O
+B
+
+
+{\displaystyle \angle P_{2}OB}
+
+ is exactly one third of 
+
+
+
+∠
+A
+O
+B
+
+
+{\displaystyle \angle AOB}
+
+.
+The correctness of this construction can be seen by showing that the x coordinate of 
+
+
+
+
+P
+
+1
+
+
+
+
+{\displaystyle P_{1}}
+
+ is 
+
+
+
+cos
+⁡
+(
+α
+)
+
+
+{\displaystyle \cos(\alpha )}
+
+. Solving the equation system given by the circle around 
+
+
+
+C
+
+
+{\displaystyle C}
+
+ and the parabola leads to the cubic equation 
+
+
+
+4
+
+x
+
+3
+
+
+−
+3
+x
+−
+cos
+⁡
+(
+3
+α
+)
+=
+0
+
+
+{\displaystyle 4x^{3}-3x-\cos(3\alpha )=0}
+
+. The triple-angle formula 
+
+
+
+cos
+⁡
+(
+3
+α
+)
+=
+4
+cos
+⁡
+(
+α
+
+)
+
+3
+
+
+−
+3
+cos
+⁡
+(
+α
+)
+
+
+{\displaystyle \cos(3\alpha )=4\cos(\alpha )^{3}-3\cos(\alpha )}
+
+ then shows that 
+
+
+
+cos
+⁡
+(
+α
+)
+
+
+{\displaystyle \cos(\alpha )}
+
+ is indeed a solution of that cubic equation.
+This trisection goes back to René Descartes, who described it in his book La Géométrie (1637).[18]
+If one replaces the real numbers by an arbitrary field, many geometric properties of the parabola 
+
+
+
+y
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle y=x^{2}}
+
+ are still valid:
+Essentially new phenomena arise, if the field has characteristic 2 (that is, 
+
+
+
+1
++
+1
+=
+0
+
+
+{\displaystyle 1+1=0}
+
+): the tangents are all parallel.
+In algebraic geometry, the parabola is generalized by the rational normal curves, which have coordinates (x, x2, x3, …, xn); the standard parabola is the case n = 2, and the case n = 3 is known as the twisted cubic. A further generalization is given by the Veronese variety, when there is more than one input variable.
+In the theory of quadratic forms, the parabola is the graph of the quadratic form x2 (or other scalings), while the elliptic paraboloid is the graph of the positive-definite quadratic form x2 + y2 (or scalings), and the hyperbolic paraboloid is the graph of the indefinite quadratic form x2 − y2. Generalizations to more variables yield further such objects.
+The curves y = xp for other values of p are traditionally referred to as the higher parabolas and were originally treated implicitly, in the form xp = kyq for p and q both positive integers, in which form they are seen to be algebraic curves. These correspond to the explicit formula y = xp/q for a positive fractional power of x. Negative fractional powers correspond to the implicit equation xpyq = k and are traditionally referred to as higher hyperbolas. Analytically, x can also be raised to an irrational power (for positive values of x); the analytic properties are analogous to when x is raised to rational powers, but the resulting curve is no longer algebraic and cannot be analyzed by algebraic geometry.
+In nature, approximations of parabolas and paraboloids are found in many diverse situations. The best-known instance of the parabola in the history of physics is the trajectory of a particle or body in motion under the influence of a uniform gravitational field without air resistance (for instance, a ball flying through the air, neglecting air friction).
+The parabolic trajectory of projectiles was discovered experimentally in the early 17th century by Galileo, who performed experiments with balls rolling on inclined planes. He also later proved this mathematically in his book Dialogue Concerning Two New Sciences.[19][h] For objects extended in space, such as a diver jumping from a diving board, the object itself follows a complex motion as it rotates, but the center of mass of the object nevertheless moves along a parabola. As in all cases in the physical world, the trajectory is always an approximation of a parabola. The presence of air resistance, for example, always distorts the shape, although at low speeds, the shape is a good approximation of a parabola. At higher speeds, such as in ballistics, the shape is highly distorted and does not resemble a parabola.
+Another hypothetical situation in which parabolas might arise, according to the theories of physics described in the 17th and 18th centuries by Sir Isaac Newton, is in two-body orbits, for example, the path of a small planetoid or other object under the influence of the gravitation of the Sun. Parabolic orbits do not occur in nature; simple orbits most commonly resemble hyperbolas or ellipses. The parabolic orbit is the degenerate intermediate case between those two types of ideal orbit. An object following a parabolic orbit would travel at the exact escape velocity of the object it orbits; objects in elliptical or hyperbolic orbits travel at less or greater than escape velocity, respectively. Long-period comets travel close to the Sun's escape velocity while they are moving through the inner Solar system, so their paths are nearly parabolic.
+Approximations of parabolas are also found in the shape of the main cables on a simple suspension bridge. The curve of the chains of a suspension bridge is always an intermediate curve between a parabola and a catenary, but in practice the curve is generally nearer to a parabola due to the weight of the load (i.e. the road) being much larger than the cables themselves, and in calculations the second-degree polynomial formula of a parabola is used.[20][21] Under the influence of a uniform load (such as a horizontal suspended deck), the otherwise catenary-shaped cable is deformed toward a parabola (see Catenary#Suspension bridge curve). Unlike an inelastic chain, a freely hanging spring of zero unstressed length takes the shape of a parabola. Suspension-bridge cables are, ideally, purely in tension, without having to carry other forces, for example, bending. Similarly, the structures of parabolic arches are purely in compression.
+Paraboloids arise in several physical situations as well. The best-known instance is the parabolic reflector, which is a mirror or similar reflective device that concentrates light or other forms of electromagnetic radiation to a common focal point, or conversely, collimates light from a point source at the focus into a parallel beam. The principle of the parabolic reflector may have been discovered in the 3rd century BC by the geometer Archimedes, who, according to a dubious legend,[22] constructed parabolic mirrors to defend Syracuse against the Roman fleet, by concentrating the sun's rays to set fire to the decks of the Roman ships. The principle was applied to telescopes in the 17th century. Today, paraboloid reflectors can be commonly observed throughout much of the world in microwave and satellite-dish receiving and transmitting antennas.
+In parabolic microphones, a parabolic reflector is used to focus sound onto a microphone, giving it highly directional performance.
+Paraboloids are also observed in the surface of a liquid confined to a container and rotated around the central axis. In this case, the centrifugal force causes the liquid to climb the walls of the container, forming a parabolic surface. This is the principle behind the liquid-mirror telescope.
+Aircraft used to create a weightless state for purposes of experimentation, such as NASA's "Vomit Comet", follow a vertically parabolic trajectory for brief periods in order to trace the course of an object in free fall, which produces the same effect as zero gravity for most purposes.
+A bouncing ball captured with a stroboscopic flash at 25 images per second. The ball becomes significantly non-spherical after each bounce, especially after the first. That, along with spin and air resistance, causes the curve swept out to deviate slightly from the expected perfect parabola.
+Parabolic trajectories of water in a fountain.
+The path (in red) of Comet Kohoutek as it passed through the inner Solar system, showing its nearly parabolic shape. The blue orbit is the Earth's.
+The supporting cables of suspension bridges follow a curve that is intermediate between a parabola and a catenary.
+The Rainbow Bridge across the Niagara River, connecting Canada (left) to the United States (right). The parabolic arch is in compression and carries the weight of the road.
+Parabolic arches used in architecture
+Parabolic shape formed by a liquid surface under rotation. Two liquids of different densities completely fill a narrow space between two sheets of transparent plastic. The gap between the sheets is closed at the bottom, sides and top. The whole assembly is rotating around a vertical axis passing through the centre. (See Rotating furnace)
+Solar cooker with parabolic reflector
+Parabolic antenna
+Parabolic microphone with optically transparent plastic reflector used at an American college football game.
+Array of parabolic troughs to collect solar energy
+Edison's searchlight, mounted on a cart. The light had a parabolic reflector.
+Physicist Stephen Hawking in an aircraft flying a parabolic trajectory to simulate zero gravity
+
+

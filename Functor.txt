@@ -1,0 +1,690 @@
+10987,
+Functor,
+In mathematics, specifically category theory, a functor is a mapping between categories.  Functors were first considered in algebraic topology, where algebraic objects (such as the fundamental group) are associated to topological spaces, and maps between these algebraic objects are associated to continuous maps between spaces.   Nowadays, functors are used throughout modern mathematics to relate various categories.   Thus, functors are important in all areas within mathematics to which category theory is applied.
+The words category and functor were borrowed by mathematicians from the philosophers Aristotle and Rudolf Carnap, respectively.[1]  The latter used functor in a linguistic context;[2]
+see function word.
+Let C and D be categories. A functor F from C to D is a mapping that[3]
+That is, functors must preserve identity morphisms and composition of morphisms.
+There are many constructions in mathematics that would be functors but for the fact that they "turn morphisms around" and "reverse composition". We then define a contravariant functor F from C to D as a mapping that
+Note that contravariant functors reverse the direction of composition.
+Ordinary functors are also called covariant functors in order to distinguish them from contravariant ones. Note that one can also define a contravariant functor as a covariant functor on the opposite category 
+
+
+
+
+C
+
+
+o
+p
+
+
+
+
+
+{\displaystyle C^{\mathrm {op} }}
+
+.[4] Some authors prefer to write all expressions covariantly. That is, instead of saying 
+
+
+
+F
+:
+C
+→
+D
+
+
+{\displaystyle F\colon C\to D}
+
+ is a contravariant functor, they simply write 
+
+
+
+F
+:
+
+C
+
+
+o
+p
+
+
+
+→
+D
+
+
+{\displaystyle F\colon C^{\mathrm {op} }\to D}
+
+ (or sometimes 
+
+
+
+F
+:
+C
+→
+
+D
+
+
+o
+p
+
+
+
+
+
+{\displaystyle F\colon C\to D^{\mathrm {op} }}
+
+) and call it a functor.
+Contravariant functors are also occasionally called cofunctors.[5]
+There is a convention which refers to "vectors"—i.e., vector fields, elements of the space of sections 
+
+
+
+Γ
+(
+T
+M
+)
+
+
+{\displaystyle \Gamma (TM)}
+
+ of a tangent bundle 
+
+
+
+T
+M
+
+
+{\displaystyle TM}
+
+—as "contravariant" and to "covectors"—i.e., 1-forms, elements of the space of sections 
+
+
+
+Γ
+
+
+
+(
+
+
+T
+
+∗
+
+
+M
+
+)
+
+
+
+
+
+{\displaystyle \Gamma {\mathord {\left(T^{*}M\right)}}}
+
+ of a cotangent bundle 
+
+
+
+
+T
+
+∗
+
+
+M
+
+
+{\displaystyle T^{*}M}
+
+—as "covariant". This terminology originates in physics, and its rationale has to do with the position of the indices ("upstairs" and "downstairs") in expressions such as 
+
+
+
+
+
+
+x
+′
+
+
+
+
+i
+
+
+=
+
+Λ
+
+j
+
+
+i
+
+
+
+x
+
+j
+
+
+
+
+{\displaystyle {x'}^{\,i}=\Lambda _{j}^{i}x^{j}}
+
+ for 
+
+
+
+
+
+x
+
+′
+
+=
+
+Λ
+
+
+x
+
+
+
+{\displaystyle \mathbf {x} '={\boldsymbol {\Lambda }}\mathbf {x} }
+
+ or 
+
+
+
+
+ω
+
+i
+
+′
+
+=
+
+Λ
+
+i
+
+
+j
+
+
+
+ω
+
+j
+
+
+
+
+{\displaystyle \omega '_{i}=\Lambda _{i}^{j}\omega _{j}}
+
+ for 
+
+
+
+
+
+ω
+
+′
+
+=
+
+ω
+
+
+
+Λ
+
+
+
+T
+
+
+
+.
+
+
+{\displaystyle {\boldsymbol {\omega }}'={\boldsymbol {\omega }}{\boldsymbol {\Lambda }}^{\textsf {T}}.}
+
+ In this formalism it is observed that the coordinate transformation symbol 
+
+
+
+
+Λ
+
+i
+
+
+j
+
+
+
+
+{\displaystyle \Lambda _{i}^{j}}
+
+ (representing the matrix 
+
+
+
+
+
+Λ
+
+
+
+T
+
+
+
+
+
+{\displaystyle {\boldsymbol {\Lambda }}^{\textsf {T}}}
+
+) acts on the basis vectors "in the same way" as on the "covector coordinates": 
+
+
+
+
+
+e
+
+
+i
+
+
+=
+
+Λ
+
+i
+
+
+j
+
+
+
+
+e
+
+
+j
+
+
+
+
+{\displaystyle \mathbf {e} _{i}=\Lambda _{i}^{j}\mathbf {e} _{j}}
+
+—whereas it acts "in the opposite way" on the "vector coordinates" (but "in the same way" as on the basis covectors: 
+
+
+
+
+
+e
+
+
+i
+
+
+=
+
+Λ
+
+j
+
+
+i
+
+
+
+
+e
+
+
+j
+
+
+
+
+{\displaystyle \mathbf {e} ^{i}=\Lambda _{j}^{i}\mathbf {e} ^{j}}
+
+). This terminology is contrary to the one used in category theory because it is the covectors that have pullbacks in general and are thus contravariant, whereas vectors in general are covariant since they can be pushed forward. See also Covariance and contravariance of vectors.
+Every functor 
+
+
+
+F
+:
+C
+→
+D
+
+
+{\displaystyle F\colon C\to D}
+
+ induces the opposite functor 
+
+
+
+
+F
+
+
+o
+p
+
+
+
+:
+
+C
+
+
+o
+p
+
+
+
+→
+
+D
+
+
+o
+p
+
+
+
+
+
+{\displaystyle F^{\mathrm {op} }\colon C^{\mathrm {op} }\to D^{\mathrm {op} }}
+
+, where 
+
+
+
+
+C
+
+
+o
+p
+
+
+
+
+
+{\displaystyle C^{\mathrm {op} }}
+
+ and 
+
+
+
+
+D
+
+
+o
+p
+
+
+
+
+
+{\displaystyle D^{\mathrm {op} }}
+
+ are the opposite categories to 
+
+
+
+C
+
+
+{\displaystyle C}
+
+ and 
+
+
+
+D
+
+
+{\displaystyle D}
+
+.[6] By definition, 
+
+
+
+
+F
+
+
+o
+p
+
+
+
+
+
+{\displaystyle F^{\mathrm {op} }}
+
+ maps objects and morphisms in the identical way as does 
+
+
+
+F
+
+
+{\displaystyle F}
+
+. Since 
+
+
+
+
+C
+
+
+o
+p
+
+
+
+
+
+{\displaystyle C^{\mathrm {op} }}
+
+ does not coincide with 
+
+
+
+C
+
+
+{\displaystyle C}
+
+ as a category, and similarly for 
+
+
+
+D
+
+
+{\displaystyle D}
+
+, 
+
+
+
+
+F
+
+
+o
+p
+
+
+
+
+
+{\displaystyle F^{\mathrm {op} }}
+
+ is distinguished from 
+
+
+
+F
+
+
+{\displaystyle F}
+
+. For example, when composing 
+
+
+
+F
+:
+
+C
+
+0
+
+
+→
+
+C
+
+1
+
+
+
+
+{\displaystyle F\colon C_{0}\to C_{1}}
+
+ with 
+
+
+
+G
+:
+
+C
+
+1
+
+
+
+o
+p
+
+
+
+→
+
+C
+
+2
+
+
+
+
+{\displaystyle G\colon C_{1}^{\mathrm {op} }\to C_{2}}
+
+, one should use either 
+
+
+
+G
+∘
+
+F
+
+
+o
+p
+
+
+
+
+
+{\displaystyle G\circ F^{\mathrm {op} }}
+
+ or 
+
+
+
+
+G
+
+
+o
+p
+
+
+
+∘
+F
+
+
+{\displaystyle G^{\mathrm {op} }\circ F}
+
+. Note that, following the property of opposite category, 
+
+
+
+
+
+(
+
+F
+
+
+o
+p
+
+
+
+)
+
+
+
+o
+p
+
+
+
+=
+F
+
+
+{\displaystyle \left(F^{\mathrm {op} }\right)^{\mathrm {op} }=F}
+
+.
+A bifunctor (also known as a binary functor) is a functor whose domain is a product category. For example, the Hom functor is of the type Cop × C → Set. It can be seen as a functor in two arguments. The Hom functor is a natural example; it is contravariant in one argument, covariant in the other.
+A multifunctor is a generalization of the functor concept to n variables. So, for example, a bifunctor is a multifunctor with n = 2.
+Two important consequences of the functor axioms are:
+One can compose functors, i.e. if F is a functor from A to B and G is a functor from B to C then one can form the composite functor G ∘ F from A to C. Composition of functors is associative where defined. Identity of composition of functors is the identity functor. This shows that functors can be considered as morphisms in categories of categories, for example in the category of small categories.
+A small category with a single object is the same thing as a monoid: the morphisms of a one-object category can be thought of as elements of the monoid, and composition in the category is thought of as the monoid operation. Functors between one-object categories correspond to monoid homomorphisms. So in a sense, functors between arbitrary categories are a kind of generalization of monoid homomorphisms to categories with more than one object.
+Let C and D be categories. The collection of all functors from C to D forms the objects of a category: the functor category. Morphisms in this category are natural transformations between functors.
+Functors are often defined by universal properties; examples are the tensor product, the direct sum and direct product of groups or vector spaces, construction of free groups and modules, direct and inverse limits. The concepts of limit and colimit generalize several of the above.
+Universal constructions often give rise to pairs of adjoint functors.
+Functors sometimes appear in functional programming. For instance, the programming language Haskell has a class Functor where fmap is a polytypic function used to map functions (morphisms on Hask, the category of Haskell types)[9] between existing types to functions between some new types.[10]
+
+

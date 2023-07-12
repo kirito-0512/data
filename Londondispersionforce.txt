@@ -1,0 +1,233 @@
+14950,
+Londondispersionforce,
+London dispersion forces (LDF, also known as dispersion forces, London forces, instantaneous dipole–induced dipole forces, fluctuating induced dipole bonds[1] or loosely as van der Waals forces) are a type of intermolecular force acting between atoms and molecules that are normally electrically symmetric; that is, the electrons are symmetrically distributed with respect to the nucleus.[2] They are part of the van der Waals forces. The LDF is named after the German physicist Fritz London. They are the weakest intermolecular force.
+The electron distribution around an atom or molecule undergoes fluctuations in time. These fluctuations create instantaneous electric fields which are felt by other nearby atoms and molecules, which in turn adjust the spatial distribution of their own electrons. The net effect is that the fluctuations in electron positions in one atom induce a corresponding redistribution of electrons in other atoms, such  that the electron motions become correlated. While the detailed theory requires a quantum-mechanical explanation (see quantum mechanical theory of dispersion forces), the effect is frequently described as the formation of instantaneous dipoles that (when separated by vacuum) attract each other. The magnitude of the London dispersion force is frequently described in terms of a single parameter called the Hamaker constant, typically symbolized 
+
+
+
+A
+
+
+{\displaystyle A}
+
+.  For atoms that are located closer together than the wavelength of light, the interaction is essentially instantaneous and is described in terms of a "non-retarded" Hamaker constant. For entities that are farther apart, the finite time required for the fluctuation at one atom to be felt at a second atom ("retardation") requires use of a "retarded" Hamaker constant.[3][4][5]
+While the London dispersion force between individual atoms and molecules is quite weak and decreases quickly with separation 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ like 
+
+
+
+
+
+1
+
+R
+
+6
+
+
+
+
+
+
+{\displaystyle {\frac {1}{R^{6}}}}
+
+, in condensed matter (liquids and solids), the effect is cumulative over the volume of materials,[6] or within and between organic molecules, such that London dispersion forces can be quite strong in bulk solid and liquids and decay much more slowly with distance. For example, the total force per unit area between two bulk solids decreases by 
+
+
+
+
+
+1
+
+R
+
+3
+
+
+
+
+
+
+{\displaystyle {\frac {1}{R^{3}}}}
+
+[7]  where 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is the separation between them. The effects of London dispersion forces are most obvious in systems that are very non-polar (e.g., that lack ionic bonds), such as hydrocarbons and highly symmetric molecules like bromine (Br2, a liquid at room temperature) or iodine (I2, a solid at room temperature). In hydrocarbons and waxes, the dispersion forces are sufficient to cause condensation from the gas phase into the liquid or solid phase. Sublimation heats of e.g. hydrocarbon crystals reflect the dispersion interaction. Liquification of oxygen and nitrogen gases into liquid phases is also dominated by attractive London dispersion forces.
+When atoms/molecules are separated by a third medium (rather than vacuum), the situation becomes more complex. In aqueous solutions, the effects of dispersion forces between atoms or molecules are frequently less pronounced due to competition with polarizable solvent molecules. That is, the instantaneous fluctuations in one atom or molecule are felt both by the solvent (water) and by other molecules.
+Larger and heavier atoms and molecules exhibit stronger dispersion forces than smaller and lighter ones.[8] This is due to the increased polarizability of molecules with larger, more dispersed electron clouds. The polarizability is a measure of how easily electrons can be redistributed; a large polarizability implies that the electrons are more easily redistributed. This trend is exemplified by the halogens (from smallest to largest: F2, Cl2, Br2, I2). The same increase of dispersive attraction occurs within and between organic molecules in the order RF, RCl, RBr, RI (from smallest to largest) or with other more polarizable heteroatoms.[9] Fluorine and chlorine are gases at room temperature, bromine is a liquid, and iodine is a solid. The London forces are thought to arise from the motion of electrons.
+The first explanation of the attraction between noble gas atoms was given by Fritz London in 1930.[10][11][12] He used a quantum-mechanical theory based on second-order perturbation theory. The perturbation is because of the Coulomb interaction between the electrons and nuclei of the two moieties (atoms or molecules). The second-order perturbation expression of the interaction energy contains a sum over states. The states appearing in this sum are simple products of the stimulated electronic states of the monomers. Thus, no intermolecular antisymmetrization of the electronic states is included, and the Pauli exclusion principle is only partially satisfied.
+London wrote a Taylor series expansion of the perturbation in 
+
+
+
+
+
+1
+R
+
+
+
+
+{\displaystyle {\frac {1}{R}}}
+
+, where 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is the distance between the nuclear centers of mass of the moieties.
+This expansion is known as the multipole expansion because the terms in this series can be regarded as energies of two interacting multipoles, one on each monomer. Substitution of the multipole-expanded form of V into the second-order energy yields an expression that resembles an expression describing the interaction between instantaneous multipoles (see the qualitative description above). Additionally, an approximation, named after Albrecht Unsöld, must be introduced in order to obtain a description of London dispersion in terms of polarizability volumes, 
+
+
+
+
+α
+′
+
+
+
+{\displaystyle \alpha '}
+
+, and ionization energies, 
+
+
+
+I
+
+
+{\displaystyle I}
+
+, (ancient term:  ionization potentials).
+In this manner, the following approximation is obtained for the dispersion interaction 
+
+
+
+
+E
+
+A
+B
+
+
+
+d
+i
+s
+p
+
+
+
+
+
+{\displaystyle E_{AB}^{\rm {disp}}}
+
+ between two atoms 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+.  Here 
+
+
+
+
+α
+
+A
+
+′
+
+
+
+{\displaystyle \alpha '_{A}}
+
+ and 
+
+
+
+
+α
+
+B
+
+′
+
+
+
+{\displaystyle \alpha '_{B}}
+
+ are the polarizability volumes of the respective atoms. The quantities 
+
+
+
+
+I
+
+A
+
+
+
+
+{\displaystyle I_{A}}
+
+ and 
+
+
+
+
+I
+
+B
+
+
+
+
+{\displaystyle I_{B}}
+
+ are the first ionization energies of the atoms, and 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is the intermolecular distance.
+Note that this final London equation does not contain instantaneous dipoles (see molecular dipoles). The "explanation" of the dispersion force as the interaction between two such dipoles was invented after London arrived at the proper quantum mechanical theory. The authoritative work[13] contains a criticism of the instantaneous dipole model[14] and a modern and thorough exposition of the theory of intermolecular forces.
+The London theory has much similarity to the quantum mechanical theory of light dispersion, which is why London coined the phrase "dispersion effect". In physics, the term "dispersion" describes the variation of a quantity with frequency, which is the fluctuation of the electrons in the case of the London dispersion.
+Dispersion forces are usually dominant over the three van der Waals forces (orientation, induction, dispersion) between atoms and molecules, with the exception of molecules that are small and highly polar, such as water. The following contribution of the dispersion to the total intermolecular interaction energy has been given:[15]
+
+

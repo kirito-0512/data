@@ -1,0 +1,83 @@
+7939,
+Duopoly,
+A Duopoly (from Greek δύο, duo "two" and πωλεῖν, polein "to sell") is a type of oligopoly where two firms have dominant or exclusive control over a market, and most (if not all) of the competition within that market occur directly between them.
+Duopoly is the most commonly studied form of oligopoly due to its simplicity.  Duopolies sell to consumers in a competitive market where the choice of an individual consumer choice cannot affect the firm in a duopoly market, as the defining characteristic of duopolies is that decisions made by each seller are dependent on what the other competitor does. Duopolies can exist in various forms, such as Cournot, Bertrand, or Stackelberg competition. These models demonstrate how firms in a duopoly can compete on output or price, depending on the assumptions made about firm behavior and market conditions.
+Cournot Model in Game Theory: In 1838, Antoine A. Cournot published a book titled "Researches Into the Mathematical Principles of the Theory of Wealth" in which he introduced and developed this model for the first time. As an imperfect competition model, Cournot duopoly (also known as Cournot competition), in which two firms with identical cost functions compete with homogenous products in a static context, is also known as Cournot competition.[1]
+The Cournot model, shows that two firms assume each other's output and treat this as a fixed amount, and produce in their own firm according to this.
+The Cournot duopoly model relies on the following assumptions:[2]
+In this model, two companies, each of which chooses its own quantity of output, compete against each other while facing constant marginal and average costs.[3]  The market price is determined by the sum of the output of two companies. 
+
+
+
+P
+(
+Q
+)
+=
+a
+−
+b
+Q
+
+
+{\displaystyle P(Q)=a-bQ}
+
+ is the  equation for the market demand function.[4]
+Π1(q1, q2) = (P(q1 + q2) − c1)*q1
+Π2(q1, q2) = (P(q1 + q2) − c2)*q2
+The general process for obtaining a Nash equilibrium of a game using the best response functions is followed in order to discover a Nash equilibrium of Cournot's model for a specific cost function and demand function.
+A Nash Equilibrium of the Cournot model is a (q1*, q2*) such that
+For a given q1* , q2* solves:
+MAXq1 Π1(q1, q2*) = (P(q1 + q2*) − c1)q1 and
+MAXq2 Π2(q1*, q2) = (P(q1* + q2) − c2)q2
+Given the other firm’s optimal quantity, each firm maximizes its profit over the residual inverse demand. In equilibrium, no firm can increase profits by changing its output level
+Two first order conditions equal to zero are the best response.[5]
+Cournot's duopoly marked the beginning of the study of oligopolies, and specifically duopolies, as well as the expansion of the research of market structures, which had previously focussed on the extremes of perfect competition and monopoly.  
+In the Cournot duopoly model, firms choose the quantity of output they produce simultaneously, taking into consideration the quantity produced by their competitor. Each firm's profit depends on the total output produced by both firms, and the market price is determined by the sum of their outputs. The goal of each firm is to maximize its profit given the output produced by the other firm. This process continues until both firms reach a Nash equilibrium, where neither firm has an incentive to change its output level given the output of the other firm.
+Bertrand Model in Game Theory  The Bertrand Competition was developed by a French mathematician called Joseph Louis François  Bertrand after investigating the claims of the Cournot model in "Researches into the mathematical principles of the theory of wealth, 1838".[4]
+According to the Cournot model, firms in a duopoly would be able to keep prices above marginal cost and hence be extremely profitable.[6]  Bertrand took issue with this. In this market structure, each firm could only choose whole amounts and each firm receives zero payoffs when the aggregate demand exceeds the size of the amount that they share with each other. The market demand function is 
+
+
+
+Q
+(
+P
+)
+=
+a
+−
+b
+P
+
+
+{\displaystyle Q(P)=a-bP}
+
+.
+The Bertrand model has similar assumptions to the Cournot model:
+The Bertrand model, in which, in a game of two firms, competes in price instead of output. Each one of them will assume that the other will not change prices in response to its price cuts. When both firms use this logic, they will reach a Nash equilibrium.
+Let pm be the monopoly price, pm = argmaxp(p − c)D(p)
+If pj> pm, Ri(pj)=pm
+If c < pj ≤ pm  ,Ri(pj) =pj-€
+If pj ≤ c, Ri(pj) =c
+For rival prices above cost, each firm has incentive to undercut rival to get the whole demand.if rival prices below cost, firms make losses when it attracts demand; firm better off charging at cost level. Nash equilibrium is p1 = p2 = c
+Bertrand Paradox: Under static price competition with homogenous products and constant, symmetric marginal cost, firms price at the level of marginal cost and make no economic profits.
+In contrast to the Cournot model, the Bertrand duopoly model assumes that firms compete on price rather than quantity. Each firm sets its price simultaneously, anticipating that the other firm will not change its price in response. When both firms use this logic, they will reach a Nash equilibrium, where neither firm has an incentive to change its price given the price set by the other firm. In this model, firms tend to price their products at the level of their marginal cost, resulting in zero economic profits, a phenomenon known as the Bertrand Paradox.
+In a duopoly, quality standards can play a significant role in the competitive dynamics between the two firms. A low-quality manufacturer may benefit from a slightly stringent quality standard in the absence of sunk costs, whereas a high-quality producer may suffer from it. Consumer welfare improves if the firm generating the higher quality does not considerably enhance its quality in response to its competitor's increase in quality. Exit from the industry is triggered by a sufficiently strict requirement. The high-quality producer exits first when there are no sunk costs.[8] In some cases, firms may engage in a quality competition, attempting to outdo one another by improving their products or services to attract more customers.
+Like a market, a political system can be dominated by two groups, which exclude other parties or ideologies from participation. One party or the other tends to dominate government at any given time (the Majority party), while the other has only limited power (the Minority party). According to Duverger's law, this tends to be caused by a simple winner-take-all voting system without runoffs or ranked choices. The United States and many Latin American countries, such as Costa Rica, Guyana, and the Dominican Republic have two-party government systems.
+Duopoly in Danish court politics
+The prime minister-finance minister duopoly is an unusual form of court politics. There have been few other countries where the prime minister and the Treasury have had such a tumultuous relationship as Australia and the United Kingdom. There have been some confrontations in the past when the Finance ministry did not have the full support of the prime minister, leading to internal ministerial battles over economic strategy.
+A permanent civil service is a basic requirement for the duopoly system to function properly. The permanent civil service in general, and the Socialist Party in particular, are critical to the duopoly's effective operation. The conventional inter-governmental duopoly is carried by civil servants.
+The duopoly is confronted with some quandaries, such as tensions between different groups in the office over their relative positions. Departmental budget cuts are being made across the board.
+The prime ministerial-finance-ministry duopoly requires more credibility. Trust is a rare commodity among Australians and Britons. Denmark has a lot to offer. The Danish duopoly works together. Australia and the United Kingdom have competitive duopolies, and competitive duopolies are unstable.[9]
+A Cournot duopoly is a model of strategic interaction between two firms where they simultaneously choose their output levels, assuming the rival's output level is fixed. The firms compete on quantity, and each firm attempts to maximize its profit given the other firm's output level. This leads to a Nash equilibrium where neither firm has an incentive to change its output, given the other firm's output.
+In a Bertrand duopoly, two firms compete on price instead of quantity. Each firm assumes that its rival's price is fixed and chooses its own price to maximize profit. This model predicts that, under certain conditions, firms will set prices equal to marginal cost, leading to perfect competition.
+A Stackelberg duopoly is a model where one firm (the leader) chooses its output level first, followed by the other firm (the follower). The follower observes the leader's output decision and adjusts its own output to maximize profit. The Stackelberg model often results in a higher total output and lower market price than the Cournot and Bertrand models.
+A commonly cited example of a duopoly is that involving Visa and Mastercard, who between them control a large proportion of the electronic payment processing market. In 2000 they were the defendants in a United States Department of Justice antitrust lawsuit.[10][11] An appeal was upheld in 2004.[12]
+Examples, where two companies control an overwhelming proportion of a market, are:
+In Finland, the state-owned broadcasting company Yleisradio and the private broadcaster Mainos-TV had a legal duopoly (in the economists' sense of the word) from the 1950s to 1993. No other broadcasters were allowed. Mainos-TV operated by leasing air time from Yleisradio, broadcasting in reserved blocks between Yleisradio's own programming on its two channels. This was a unique phenomenon in the world. Between 1986 and 1992 there was an independent third channel but it was jointly owned by Yle and M-TV; only in 1993 did M-TV get its own channel.
+In the United Kingdom, the BBC and ITV formed an effective duopoly (with Channel 4 originally being economically dependent on ITV) until the development of multichannel from the 1990s onwards.
+In Africa, mobile service providers Safaricom and Airtel in Kenya are examples of a Duopoly market in the telecommunication industry.
+Duopoly is also used in the United States broadcast television and radio industry to refer to a single company owning two outlets in the same city.
+This usage is technically incompatible with the normal definition of the word and may lead to confusion, inasmuch as there are generally more than two owners of broadcast television stations in markets with broadcast duopolies. In Canada, this definition is therefore more commonly called a "twinstick".
+
+

@@ -1,0 +1,145 @@
+25986,
+RobertLanglands,
+
+Robert Phelan Langlands, CC FRS FRSC (/ˈlæŋləndz/; born October 6, 1936) is a Canadian mathematician.[1][2] He is best known as the founder of the Langlands program, a vast web of conjectures and results connecting representation theory and automorphic forms to the study of Galois groups in number theory,[3][4] for which he received the 2018 Abel Prize. He was an emeritus professor and occupied Albert Einstein's office at the Institute for Advanced Study in Princeton, until 2020 when he retired.[5]
+Langlands was born in New Westminster, British Columbia, Canada, in 1936 to Robert Langlands and Kathleen J Phelan. He has two younger sisters (Mary  b 1938; Sally b 1941). In 1945, his family moved to White Rock, near the US border, where his parents had a building supply and construction business.[6][3][1]
+He graduated from Semiahmoo Secondary School and started enrolling at the University of British Columbia at the age of 16, receiving his undergraduate degree in Mathematics in 1957;[7] he continued at UBC to receive an M. Sc. in 1958. He then went to Yale University where he received a PhD in 1960.[8]
+His first academic position was at Princeton University from 1960 to 1967, where he worked as an associate professor.[3] He spent a year in Turkey at METU during 1967–68 in an office next to Cahit Arf's.[9] He was a Miller Research Fellow at the University of California, Berkeley from 1964 to 1965, then was a professor at Yale University from 1967 to 1972. He was appointed Hermann Weyl Professor at the Institute for Advanced Study in 1972, and became professor emeritus in January 2007.[5]
+Langlands' Ph.D. thesis was on the analytical theory of Lie semigroups,[10] but he soon moved into representation theory, adapting the methods of Harish-Chandra to the theory of automorphic forms. His first accomplishment in this field was a formula for the dimension of certain spaces of automorphic forms, in which particular types of Harish-Chandra's discrete series appeared.[11][12]
+He next constructed an analytical theory of Eisenstein series for reductive groups of rank greater than one, thus extending work of Hans Maass, Walter Roelcke, and Atle Selberg from the early 1950s for rank one groups such as 
+
+
+
+
+S
+L
+
+(
+2
+)
+
+
+{\displaystyle \mathrm {SL} (2)}
+
+. This amounted to describing in general terms the continuous spectra of arithmetic quotients, and showing that all automorphic forms arise in terms of cusp forms and the residues of Eisenstein series induced from cusp forms on smaller subgroups. As a first application, he proved the Weil conjecture on Tamagawa numbers for the large class of arbitrary simply connected Chevalley groups defined over the rational numbers. Previously this had been known only in a few isolated cases and for certain classical groups where it could be shown by induction.[13]
+As a second application of this work, he was able to show meromorphic continuation for a large class of 
+
+
+
+L
+
+
+{\displaystyle L}
+
+-functions arising in the theory of automorphic forms, not previously known to have them. These occurred in the constant terms of Eisenstein series, and meromorphicity as well as a weak functional equation were a consequence of functional equations for Eisenstein series. This work led in turn, in the winter of 1966–67, to the now well known conjectures[14] making up what is often called the Langlands program. Very roughly speaking, they propose a huge generalization of previously known examples of reciprocity, including (a) classical class field theory, in which characters of local and arithmetic abelian Galois groups are identified with characters of local multiplicative groups and the idele quotient group, respectively; (b) earlier results of Martin Eichler and Goro Shimura in which the Hasse–Weil zeta functions of arithmetic quotients of the upper half plane are identified with 
+
+
+
+L
+
+
+{\displaystyle L}
+
+-functions occurring in Hecke's theory of holomorphic automorphic forms. These conjectures were first posed in relatively complete form in a famous letter to Weil,[14] written in January 1967. It was in this letter that he introduced what has since become known as the 
+
+
+
+L
+
+
+{\displaystyle L}
+
+-group and along with it, the notion of functoriality.
+The book by Hervé Jacquet and Langlands on 
+
+
+
+
+G
+L
+
+(
+2
+)
+
+
+{\displaystyle \mathrm {GL} (2)}
+
+ presented a theory of automorphic forms for the general linear group 
+
+
+
+
+G
+L
+
+(
+2
+)
+
+
+{\displaystyle \mathrm {GL} (2)}
+
+, establishing among other things the Jacquet–Langlands correspondence showing that functoriality was capable of explaining very precisely how automorphic forms for 
+
+
+
+
+G
+L
+
+(
+2
+)
+
+
+{\displaystyle \mathrm {GL} (2)}
+
+ related to those for quaternion algebras. This book applied the adelic trace formula for 
+
+
+
+
+G
+L
+
+(
+2
+)
+
+
+{\displaystyle \mathrm {GL} (2)}
+
+ and quaternion algebras to do this. Subsequently, James Arthur, a student of Langlands while he was at Yale, successfully developed the trace formula for groups of higher rank. This has become a major tool in attacking functoriality in general, and in particular has been applied to demonstrating that the Hasse–Weil zeta functions of certain Shimura varieties are among the 
+
+
+
+L
+
+
+{\displaystyle L}
+
+-functions arising from automorphic forms.[15]
+The functoriality conjecture is far from proven, but a special case (the octahedral Artin conjecture, proved by Langlands[16] and Tunnell[17]) was the starting point of Andrew Wiles' attack on the Taniyama–Shimura conjecture and Fermat's Last Theorem.
+In the mid-1980s Langlands turned his attention[18] to physics, particularly the problems of percolation and conformal invariance. In 1995, Langlands started a collaboration with Bill Casselman at the University of British Columbia with the aim of posting nearly all of his writings—including publications, preprints, as well as selected correspondence—on the Internet. The correspondence includes a copy of the original letter to Weil that introduced the 
+
+
+
+L
+
+
+{\displaystyle L}
+
+-group. In recent years he has turned his attention back to automorphic forms, working in particular on a theme he calls "beyond endoscopy".[19]
+Langlands has received the 1996 Wolf Prize (which he shared with Andrew Wiles),[20] the 2005 AMS Steele Prize, the 1980 Jeffery–Williams Prize, the 1988 NAS Award in Mathematics from the National Academy of Sciences,[21] the 2006 Nemmers Prize in Mathematics, the 2007 Shaw Prize in Mathematical Sciences (with Richard Taylor) for his work on automorphic forms. In 2018, Langlands was awarded the Abel Prize for "his visionary program connecting representation theory to number theory".[22]
+He was elected a Fellow of the Royal Society of Canada in 1972 and a Fellow of the Royal Society in 1981.[23][24] In 2012, he became a fellow of the American Mathematical Society.[25] Langlands was elected as a member of the American Academy of Arts and Sciences in 1990.[26] He was elected as a member of the National Academy of Sciences in 1993[27] and a member of the American Philosophical Society 2004.[28]
+Among other honorary degrees, in 2003, Langlands received a doctorate honoris causa from Université Laval.[29]
+In 2019, Langlands was appointed a Companion of the Order of Canada.[30][31]
+On January 10, 2020, Langlands was honoured at Semiahmoo Secondary, which installed a mural to celebrate his contributions to mathematics.
+Langlands has been married to Charlotte Lorraine Cheverie (b 1935) since 1957. They have four children (2 daughters and 2 sons).[3] He holds Canadian and American citizenships. 
+Langlands spent a year in Turkey in 1967–68, where his office at the Middle East Technical University was next to that of Cahit Arf.[32][33] In addition to his mathematical studies, Langlands likes to learn foreign languages, both for better understanding of foreign publications on his topic and just as a hobby. He speaks English, French, Turkish and German, and reads (but does not speak) Russian.[33]
+
+
+
+Information box
+{'Born': 'October 6, 1936 (age 86)\nNew Westminster, British Columbia, Canada', 'Nationality': 'Canadian/American', 'Alma mater': 'University of British Columbia,\nYale University', 'Known for': 'Langlands program', 'Awards': 'Jeffery–Williams Prize (1980)\nCole Prize (1982)\nWolf Prize (1995–96)\nSteele Prize (2005)\nNemmers Prize (2006)\nShaw Prize (2007)\nAbel Prize (2018)\nOrder of Canada (2019)', 'Fields': 'Mathematics', 'Institutions': 'Princeton University,\nYale University,\nInstitute for Advanced Study', 'Thesis': 'Semi-Groups and Representations of Lie Groups (1960)', 'Doctoral advisor': 'Cassius Ionescu-Tulcea', 'Doctoral students': 'James Arthur\nThomas Callister Hales\nDiana Shelstad'}

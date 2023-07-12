@@ -1,0 +1,237 @@
+33288,
+Well-foundedrelation,
+All definitions tacitly require the homogeneous relation 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ be transitive: for all 
+
+
+
+a
+,
+b
+,
+c
+,
+
+
+{\displaystyle a,b,c,}
+
+ if 
+
+
+
+a
+R
+b
+
+
+{\displaystyle aRb}
+
+ and 
+
+
+
+b
+R
+c
+
+
+{\displaystyle bRc}
+
+ then 
+
+
+
+a
+R
+c
+.
+
+
+{\displaystyle aRc.}
+
+ 
+A term's definition may require additional properties that are not listed in this table.
+In mathematics, a binary relation R is called well-founded (or wellfounded or foundational[1]) on a class X if every non-empty subset S ⊆ X has a minimal element with respect to R, that is, an element m ∈ S not related by s R m (for instance, "s is not smaller than m") for any s ∈ S. In other words, a relation is well founded if
+
+
+
+
+(
+∀
+S
+⊆
+X
+)
+
+[
+S
+≠
+∅
+
+⟹
+
+(
+∃
+m
+∈
+S
+)
+(
+∀
+s
+∈
+S
+)
+¬
+(
+s
+
+R
+
+m
+)
+]
+.
+
+
+{\displaystyle (\forall S\subseteq X)\;[S\neq \varnothing \implies (\exists m\in S)(\forall s\in S)\lnot (s\mathrel {R} m)].}
+
+
+Some authors include an extra condition that R is set-like, i.e., that the elements less than any given element form a set.
+Equivalently, assuming the axiom of dependent choice, a relation is well-founded when it contains no infinite descending chains, which can be proved when there is no infinite sequence x0, x1, x2, ... of elements of X such that xn+1 R xn for every natural number n.[2][3]
+In order theory, a partial order is called well-founded if the corresponding strict order is a well-founded relation. If the order is a total order then it is called a well-order.
+In set theory, a set x is called a well-founded set if the set membership relation is well-founded on the transitive closure of x. The axiom of regularity, which is one of the axioms of Zermelo–Fraenkel set theory, asserts that all sets are well-founded.
+A relation R is converse well-founded, upwards well-founded or Noetherian on X, if the converse relation R−1 is well-founded on X. In this case R is also said to satisfy the ascending chain condition. In the context of rewriting systems, a Noetherian relation is also called terminating.
+An important reason that well-founded relations are interesting is because a version of transfinite induction can be used on them: if (X, R) is a well-founded relation, P(x) is some property of elements of X, and we want to show that
+it suffices to show that:
+That is,
+
+
+
+
+(
+∀
+x
+∈
+X
+)
+
+[
+(
+∀
+y
+∈
+X
+)
+
+[
+y
+
+R
+
+x
+
+⟹
+
+P
+(
+y
+)
+]
+
+⟹
+
+P
+(
+x
+)
+]
+
+
+implies
+
+
+(
+∀
+x
+∈
+X
+)
+
+P
+(
+x
+)
+.
+
+
+{\displaystyle (\forall x\in X)\;[(\forall y\in X)\;[y\mathrel {R} x\implies P(y)]\implies P(x)]\quad {\text{implies}}\quad (\forall x\in X)\,P(x).}
+
+
+Well-founded induction is sometimes called Noetherian induction,[4] after Emmy Noether.
+On par with induction, well-founded relations also support construction of objects by transfinite recursion. Let (X, R) be a set-like well-founded relation and F a function that assigns an object F(x, g) to each pair of an element x ∈ X and a function g on the initial segment {y: y R x} of X. Then there is a unique function G such that for every x ∈ X,
+
+
+
+
+G
+(
+x
+)
+=
+F
+
+(
+
+x
+,
+G
+
+|
+
+
+{
+
+y
+:
+
+y
+
+R
+
+x
+
+}
+
+
+
+
+)
+
+.
+
+
+{\displaystyle G(x)=F\left(x,G\vert _{\left\{y:\,y\mathrel {R} x\right\}}\right).}
+
+
+That is, if we want to construct a function G on X, we may define G(x) using the values of G(y) for y R x.
+As an example, consider the well-founded relation (N, S), where N is the set of all natural numbers, and S is the graph of the successor function x ↦ x+1. Then induction on S is the usual mathematical induction, and recursion on S gives primitive recursion. If we consider the order relation (N, <), we obtain complete induction, and course-of-values recursion. The statement that (N, <) is well-founded is also known as the well-ordering principle.
+There are other interesting special cases of well-founded induction. When the well-founded relation is the usual ordering on the class of all ordinal numbers, the technique is called transfinite induction. When the well-founded set is a set of recursively-defined data structures, the technique is called structural induction. When the well-founded relation is set membership on the universal class, the technique is known as ∈-induction. See those articles for more details.
+Well-founded relations that are not totally ordered include:
+Examples of relations that are not well-founded include:
+If (X, <) is a well-founded relation and x is an element of X, then the descending chains starting at x are all finite, but this does not mean that their lengths are necessarily bounded. Consider the following example: 
+Let X be the union of the positive integers with a new element ω that is bigger than any integer.  Then X is a well-founded set, but
+there are descending chains starting at ω of arbitrary great (finite) length; 
+the chain ω, n − 1, n − 2, ..., 2, 1 has length n for any n.
+The Mostowski collapse lemma implies that set membership is a universal among the extensional well-founded relations: for any set-like well-founded relation R on a class X that is extensional, there exists a class C such that (X, R) is isomorphic to (C, ∈).
+A relation R is said to be reflexive if a R a holds for every a in the domain of the relation. Every reflexive relation on a nonempty domain has infinite descending chains, because any constant sequence is a descending chain.  For example, in the natural numbers with their usual order ≤, we have 1 ≥ 1 ≥ 1 ≥ ....  To avoid these trivial descending sequences, when working with a partial order ≤, it is common to apply the definition of well foundedness (perhaps implicitly) to the alternate relation < defined such that a < b if and only if a ≤ b and a ≠ b. More generally, when working with a preorder ≤, it is common to use the relation < defined such that a < b if and only if a ≤ b and b ≰  a. In the context of the natural numbers, this means that the relation <, which is well-founded, is used instead of the relation ≤, which is not.  In some texts, the definition of a well-founded relation is changed from the definition above to include these conventions.
+
+

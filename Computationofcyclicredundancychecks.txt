@@ -1,0 +1,221 @@
+38909,
+Computationofcyclicredundancychecks,
+Computation of a cyclic redundancy check is derived from the mathematics of polynomial division, modulo two. In practice, it resembles long division of the binary message string, with a fixed number of zeroes appended, by the "generator polynomial" string except that exclusive or operations replace subtractions.  Division of this type is efficiently realised in hardware by a modified shift register,[1] and in software by a series of equivalent algorithms, starting with simple code close to the mathematics and becoming faster (and arguably more obfuscated[2]) through byte-wise parallelism and space–time tradeoffs.
+Various CRC standards extend the polynomial division algorithm by specifying an initial shift register value, a final Exclusive-Or step and, most critically, a bit ordering (endianness).  As a result, the code seen in practice deviates confusingly from "pure" division,[2] and the register may shift left or right.
+As an example of implementing polynomial division in hardware, suppose that we are trying to compute an 8-bit CRC of an 8-bit message made of the ASCII character "W", which is binary 010101112, decimal 8710, or hexadecimal 5716.  For illustration, we will use the CRC-8-ATM (HEC) polynomial 
+x
+8
++
+x
+2
++
+x
++
+1
+{\displaystyle x^{8}+x^{2}+x+1}
+.  Writing the first bit transmitted (the coefficient of the highest power of 
+x
+{\displaystyle x}
+) on the left, this corresponds to the 9-bit string "100000111".
+The byte value 5716 can be transmitted in two different orders, depending on the bit ordering convention used.  Each one generates a different message polynomial 
+M
+(
+x
+)
+{\displaystyle M(x)}
+.  Msbit-first, this is 
+x
+6
++
+x
+4
++
+x
+2
++
+x
++
+1
+{\displaystyle x^{6}+x^{4}+x^{2}+x+1}
+ = 01010111, while lsbit-first, it is 
+x
+7
++
+x
+6
++
+x
+5
++
+x
+3
++
+x
+{\displaystyle x^{7}+x^{6}+x^{5}+x^{3}+x}
+ = 11101010.  These can then be multiplied by 
+x
+8
+{\displaystyle x^{8}}
+ to produce two 16-bit message polynomials 
+x
+8
+M
+(
+x
+)
+{\displaystyle x^{8}M(x)}
+.
+Computing the remainder then consists of subtracting multiples of the generator polynomial 
+G
+(
+x
+)
+{\displaystyle G(x)}
+.  This is just like decimal long division, but even simpler because the only possible multiples at each step are 0 and 1, and the subtractions borrow "from infinity" instead of reducing the upper digits. Because we do not care about the quotient, there is no need to record it.
+Observe that after each subtraction, the bits are divided into three groups: at the beginning, a group which is all zero; at the end, a group which is unchanged from the original; and a blue shaded group in the middle which is "interesting". The "interesting" group is 8 bits long, matching the degree of the polynomial. Every step, the appropriate multiple of the polynomial is subtracted to make the zero group one bit longer, and the unchanged group becomes one bit shorter, until only the final remainder is left.
+In the msbit-first example, the remainder polynomial is 
+x
+7
++
+x
+5
++
+x
+{\displaystyle x^{7}+x^{5}+x}
+.  Converting to a hexadecimal number using the convention that the highest power of x is the msbit; this is A216.  In the lsbit-first, the remainder is 
+x
+7
++
+x
+4
++
+x
+3
+{\displaystyle x^{7}+x^{4}+x^{3}}
+.  Converting to hexadecimal using the convention that the highest power of x is the lsbit, this is 1916.
+Writing out the full message at each step, as done in the example above, is very tedious.  Efficient implementations
+use an 
+n
+{\displaystyle n}
+-bit shift register to hold only the interesting bits.  Multiplying the polynomial by 
+x
+{\displaystyle x}
+ is equivalent to shifting the register by one place, as the coefficients do not change in value but only move up to the next term of the polynomial.
+Here is a first draft of some pseudocode for computing an n-bit CRC.  It uses a contrived composite data type for polynomials, where x is not an integer variable, but a constructor generating a Polynomial object that can be added, multiplied and exponentiated.  To xor two polynomials is to add them, modulo two; that is, to exclusive OR the coefficients of each matching term from both polynomials.
+Note that this example code avoids the need to specify a bit-ordering convention by not using bytes; the input bitString is already in the form of a bit array, and the remainderPolynomial is manipulated in terms of polynomial operations; the multiplication by 
+x
+{\displaystyle x}
+ could be a left or right shift, and the addition of bitString[i+n] is done to the 
+x
+0
+{\displaystyle x^{0}}
+ coefficient, which could be the right or left end of the register.
+This code has two disadvantages.  First, it actually requires an n+1-bit register to hold the remainderPolynomial so that the 
+x
+n
+{\displaystyle x^{n}}
+ coefficient can be tested. More significantly, it requires the bitString to be padded with n zero bits.
+The first problem can be solved by testing the 
+x
+n
+−
+1
+{\displaystyle x^{n-1}}
+ coefficient of the remainderPolynomial before it is multiplied by 
+x
+{\displaystyle x}
+.
+The second problem could be solved by doing the last n iterations differently, but there is a more subtle optimization which is used universally, in both hardware and software implementations.
+Because the XOR operation used to subtract the generator polynomial from the message is commutative and associative, it does not matter in what order the various inputs are combined into the remainderPolynomial.  And specifically, a given bit of the bitString does not need to be added to the remainderPolynomial until the very last instant when it is tested to determine whether to xor with the generatorPolynomial.
+This eliminates the need to preload the remainderPolynomial with the first n bits of the message, as well:
+This is the standard bit-at-a-time hardware CRC implementation, and is well worthy of study; once you understand why this computes exactly the same result as the first version, the remaining optimizations are quite straightforward.  If remainderPolynomial is only n bits long, then the 
+x
+n
+{\displaystyle x^{n}}
+ coefficients of it and of generatorPolynomial are simply discarded.  This is the reason that you will usually see CRC polynomials written in binary with the leading coefficient omitted.
+In software, it is convenient to note that while one may delay the xor of each bit until the very last moment, it is also possible to do it earlier.  It is usually convenient to perform the xor a byte at a time, even in a bit-at-a-time implementation like this:
+This is usually the most compact software implementation, used in microcontrollers when space is at a premium over speed.
+When implemented in bit serial hardware, the generator polynomial uniquely describes the bit assignment; the first bit transmitted is always the coefficient of the highest power of 
+x
+{\displaystyle x}
+, and the last 
+n
+{\displaystyle n}
+ bits transmitted are the CRC remainder 
+R
+(
+x
+)
+{\displaystyle R(x)}
+, starting with the coefficient of 
+x
+n
+−
+1
+{\displaystyle x^{n-1}}
+ and ending with the coefficient of 
+x
+0
+{\displaystyle x^{0}}
+, a.k.a. the coefficient of 1.
+However, when bits are processed a byte at a time, such as when using parallel transmission, byte framing as in 8B/10B encoding or RS-232-style asynchronous serial communication, or when implementing a CRC in software, it is necessary to specify the bit ordering (endianness) of the data; which bit in each byte is considered "first" and will be the coefficient of the higher power of 
+x
+{\displaystyle x}
+.
+If the data is destined for serial communication, it is best to use the bit ordering the data will ultimately be sent in.  This is because a CRC's ability to detect burst errors is based on proximity in the message polynomial 
+M
+(
+x
+)
+{\displaystyle M(x)}
+; if adjacent polynomial terms are not transmitted sequentially, a physical error burst of one length may be seen as a longer burst due to the rearrangement of bits.
+For example, both IEEE 802 (ethernet) and RS-232 (serial port) standards specify least-significant bit first (little-endian) transmission, so a software CRC implementation to protect data sent across such a link should map the least significant bits in each byte to coefficients of the highest powers of 
+x
+{\displaystyle x}
+.  On the other hand, floppy disks and most hard drives write the most significant bit of each byte first.
+The lsbit-first CRC is slightly simpler to implement in software, so is somewhat more commonly seen, but many programmers find the msbit-first bit ordering easier to follow.  Thus, for example, the XMODEM-CRC extension, an early use of CRCs in software, uses an msbit-first CRC.
+So far, the pseudocode has avoided specifying the ordering of bits within bytes by describing shifts in the pseudocode as multiplications by 
+x
+{\displaystyle x}
+ and writing explicit conversions from binary to polynomial form.  In practice, the CRC is held in a standard binary register using a particular bit-ordering convention.  In msbit-first form, the most significant binary bits will be sent first and so contain the higher-order polynomial coefficients, while in lsbit-first form, the least-significant binary bits contain the higher-order coefficients.  The above pseudocode can be written in both forms.  For concreteness, this uses the 16-bit  CRC-16-CCITT polynomial 
+x
+16
++
+x
+12
++
+x
+5
++
+1
+{\displaystyle x^{16}+x^{12}+x^{5}+1}
+:
+Note that the lsbit-first form avoids the need to shift string[i] before the xor.  In either case, be sure to transmit the bytes of the CRC in the order that matches your chosen bit-ordering convention.
+Another common optimization uses a lookup table indexed by highest order coefficients of rem to process more than one bit of dividend per iteration.[3]  Most commonly, a 256-entry lookup table is used, replacing the body of the outer loop (over i) with:
+One of the most commonly encountered CRC algorithms is known as CRC-32, used by (among others) Ethernet, FDDI, ZIP and other archive formats, and PNG image format.  Its polynomial can be written msbit-first as 0x04C11DB7, or lsbit-first as 0xEDB88320. The W3C webpage on PNG includes an appendix with a short and simple table-driven implementation in C of CRC-32.[4] You will note that the code corresponds to the lsbit-first byte-at-a-time pseudocode presented here, and the table is generated using the bit-at-a-time code.
+Using a 256-entry table is usually most convenient, but other sizes can be used.  In small microcontrollers, using a 16-entry table to process four bits at a time gives a useful speed improvement while keeping the table small.  On computers with ample storage, a 65536-entry table can be used to process 16 bits at a time.
+The software to generate the tables is so small and fast that it is usually faster to compute them on program startup than to load precomputed tables from storage.  One popular technique is to use the bit-at-a-time code 256 times to generate the CRCs of the 256 possible 8-bit bytes.  However, this can be optimized significantly by taking advantage of the property that table[i xor j] == table[i] xor table[j].  Only the table entries corresponding to powers of two need to be computed directly.
+In the following example code, crc holds the value of table[i]:
+In these code samples, the table index i + j is equivalent to i xor j; you may use whichever form is more convenient.
+This is a practical algorithm for the CRC-32 variant of CRC.[5] The CRCTable is a memoization of a calculation that would have to be repeated for each byte of the message (Computation of cyclic redundancy checks § Multi-bit computation).
+In C, the algorithm looks as such:
+There exists a slice-by-N (typically slice-by-8 for CRC32; N ≤ 64) algorithm that usually doubles or triples the performance compared to the Sarwate algorithm. Instead of reading 8 bits at a time, the algorithm reads 8N bits at a time. Doing so maximizes performance on superscalar processors.[6][7][8][9]
+It is unclear who actually invented the algorithm.[10]
+Parallel update for a byte or a word at a time can also be done explicitly, without a table.[11] This is normally used in high-speed hardware implementations.  For each bit an equation is solved after 8 bits have been shifted in. The following tables list the equations for some commonly used polynomials, using following symbols:
+As the CRC-32 polynomial has a large number of terms, when computing the remainder a byte at a time each bit depends on several bits of the previous iteration.  In byte-parallel hardware implementations this calls for either multiple-input or cascaded XOR gates which increases propagation delay.
+To maximise computation speed, an intermediate remainder can be calculated by passing the message through a 123-bit shift register.  The polynomial is a carefully selected multiple of the standard polynomial such that the terms (feedback taps) are widely spaced, and no bit of the remainder is XORed more than once per byte iteration.  Thus only two-input XOR gates, the fastest possible, are needed.  Finally the intermediate remainder is divided by the standard polynomial in a second shift register to yield the CRC-32 remainder.[12]
+Block-wise computation of the remainder can be performed in hardware for any CRC polynomial by factorizing the State Space transformation matrix needed to compute the remainder into two simpler Toeplitz matrices.[13]
+When appending a CRC to a message, it is possible to detach the transmitted CRC, recompute it, and verify the recomputed value against the transmitted one.  However, a simpler technique is commonly
+used in hardware.
+When the CRC is transmitted with the correct byte order (matching the chosen bit-ordering convention), a receiver can compute an overall CRC, over the message and the CRC, and if they are correct, the result will be zero.[14]
+This possibility is the reason that most network protocols that include a CRC do so before the ending delimiter; it is not necessary to know whether the end of the packet is imminent to check the CRC.
+In fact, a few protocols use the CRC *as* the ending delimiter -- CRC-based framing.
+In practice, most standards specify presetting the register to all-ones and inverting the CRC before transmission.  This has no effect on the ability of a CRC to detect changed bits, but gives it the ability to notice bits that are added to the message.
+The basic mathematics of a CRC accepts (considers as correctly transmitted) messages which, when interpreted as a polynomial, are a multiple of the CRC polynomial.  If some leading 0 bits are prepended to such a message, they will not change its interpretation as a polynomial.  This is equivalent to the fact that 0001 and 1 are the same number.
+But if the message being transmitted does care about leading 0 bits, the inability of the basic CRC algorithm to detect such a change is undesirable.  If it is possible that a transmission error could add such bits, a simple solution is to start with the rem shift register set to some non-zero value; for convenience, the all-ones value is typically used.  This is mathematically equivalent to complementing (binary NOT) the first n bits of the message, where n is the number of bits in the CRC register.
+This does not affect CRC generation and checking in any way, as long as both generator and checker use the same initial value.  Any non-zero initial value will do, and a few standards specify unusual values,[15] but the all-ones value (−1 in twos complement binary) is by far the most common.  Note that a one-pass CRC generate/check will still produce a result of zero when the message is correct, regardless of the preset value.
+The same sort of error can occur at the end of a message, albeit with a more limited set of messages.  Appending 0 bits to a message is equivalent to multiplying its polynomial by x, and if it was previously a multiple of the CRC polynomial, the result of that multiplication will be, as well.  This is equivalent to the fact that, since 726 is a multiple of 11, so is 7260.
+A similar solution can be applied at the end of the message, inverting the CRC register before it is appended to the message.  Again, any non-zero change will do; inverting all the bits (XORing with an all-ones pattern) is simply the most common.
+This has an effect on one-pass CRC checking: instead of producing a result of zero when the message is correct, it produces a fixed non-zero result.  (To be precise, the result is the CRC (without non-zero preset, but with post-invert) of the inversion pattern.)  Once this constant has been obtained (most easily by performing a one-pass CRC generate/check on an arbitrary message), it can be used directly to verify the correctness of any other message checked using the same CRC algorithm.
+General category
+Non-CRC checksums

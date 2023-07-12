@@ -1,0 +1,377 @@
+41106,
+Ellipticalpolarization,
+In electrodynamics, elliptical polarization is the polarization of electromagnetic radiation such that the tip of the electric field vector describes an ellipse in any fixed plane intersecting, and normal to, the direction of propagation. An elliptically polarized wave may be resolved into two linearly polarized waves in phase quadrature, with their polarization planes at right angles to each other. Since the electric field can rotate clockwise or counterclockwise as it propagates, elliptically polarized waves exhibit chirality.
+Circular polarization and linear polarization can be considered to be special cases of elliptical polarization. This terminology was introduced by Augustin-Jean Fresnel in 1822,[1] before the electromagnetic nature of light waves was known.
+The classical sinusoidal plane wave solution of the electromagnetic wave equation for the electric and magnetic fields is (Gaussian units)
+for the magnetic field, where k is the wavenumber,
+is the angular frequency of the wave propagating in the +z direction, and 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ is the speed of light.
+Here 
+
+
+
+∣
+
+E
+
+∣
+
+
+{\displaystyle \mid \mathbf {E} \mid }
+
+ is the amplitude of the field and
+is the normalized Jones vector. This is the most complete representation of polarized electromagnetic radiation and corresponds in general to elliptical polarization.
+At a fixed point in space (or for fixed z), the electric vector 
+
+
+
+
+E
+
+
+
+{\displaystyle \mathbf {E} }
+
+ traces out an ellipse in the x-y plane. The semi-major and semi-minor axes of the ellipse have lengths A and B, respectively, that are given by
+and 
+where 
+
+
+
+β
+=
+
+α
+
+y
+
+
+−
+
+α
+
+x
+
+
+
+
+{\displaystyle \beta =\alpha _{y}-\alpha _{x}}
+
+ with the phases 
+
+
+
+
+α
+
+x
+
+
+
+
+{\displaystyle \alpha _{x}}
+
+ and 
+
+
+
+
+α
+
+y
+
+
+
+
+{\displaystyle \alpha _{y}}
+
+.
+The orientation of the ellipse is given by the angle 
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+
+ the semi-major axis makes with the x-axis. This angle can be calculated from
+If 
+
+
+
+β
+=
+0
+
+
+{\displaystyle \beta =0}
+
+, the wave is linearly polarized. The ellipse collapses to a straight line 
+
+
+
+(
+A
+=
+
+|
+
+
+E
+
+
+|
+
+,
+B
+=
+0
+
+
+{\displaystyle (A=|\mathbf {E} |,B=0}
+
+) oriented at an angle 
+
+
+
+ϕ
+=
+θ
+
+
+{\displaystyle \phi =\theta }
+
+. This is the case of superposition of two simple harmonic motions (in phase), one in the x direction with an amplitude 
+
+
+
+
+|
+
+
+E
+
+
+|
+
+cos
+⁡
+θ
+
+
+{\displaystyle |\mathbf {E} |\cos \theta }
+
+, and the other in the y direction with an amplitude 
+
+
+
+
+|
+
+
+E
+
+
+|
+
+sin
+⁡
+θ
+
+
+{\displaystyle |\mathbf {E} |\sin \theta }
+
+. When 
+
+
+
+β
+
+
+{\displaystyle \beta }
+
+ increases from zero, i.e., assumes positive values, the line evolves into an ellipse that is being traced out in the counterclockwise direction (looking in the direction of the propagating wave); this then corresponds to left-handed elliptical polarization; the semi-major axis is now oriented at an angle 
+
+
+
+ϕ
+≠
+θ
+
+
+{\displaystyle \phi \neq \theta }
+
+. Similarly, if 
+
+
+
+β
+
+
+{\displaystyle \beta }
+
+ becomes negative from zero, the line evolves into an ellipse that is being traced out in the clockwise direction; this corresponds to right-handed elliptical polarization.
+If 
+
+
+
+β
+=
+±
+π
+
+/
+
+2
+
+
+{\displaystyle \beta =\pm \pi /2}
+
+ and 
+
+
+
+θ
+=
+π
+
+/
+
+4
+
+
+{\displaystyle \theta =\pi /4}
+
+, 
+
+
+
+A
+=
+B
+=
+
+|
+
+
+E
+
+
+|
+
+
+/
+
+
+
+2
+
+
+
+
+{\displaystyle A=B=|\mathbf {E} |/{\sqrt {2}}}
+
+, i.e., the wave is circularly polarized. When 
+
+
+
+β
+=
+π
+
+/
+
+2
+
+
+{\displaystyle \beta =\pi /2}
+
+, the wave is left-circularly polarized, and when 
+
+
+
+β
+=
+−
+π
+
+/
+
+2
+
+
+{\displaystyle \beta =-\pi /2}
+
+, the wave is right-circularly polarized.
+ Any fixed polarization can be described in terms of the shape and orientation of the polarization ellipse, which is defined by two parameters: axial ratio AR and tilt angle 
+
+
+
+τ
+
+
+{\displaystyle \tau }
+
+. The axial ratio is the ratio of the lengths of the major and minor axes of the ellipse, and is always greater than or equal to one.
+Alternatively, polarization can be represented as a point on the surface of the Poincaré sphere, with 
+
+
+
+2
+×
+τ
+
+
+{\displaystyle 2\times \tau }
+
+ as the longitude and 
+
+
+
+2
+×
+ϵ
+
+
+{\displaystyle 2\times \epsilon }
+
+ as the latitude, where 
+
+
+
+ϵ
+=
+arccot
+⁡
+(
+±
+A
+R
+)
+
+
+{\displaystyle \epsilon =\operatorname {arccot}(\pm AR)}
+
+. The sign used in the argument of the 
+
+
+
+arccot
+
+
+{\displaystyle \operatorname {arccot} }
+
+ depends on the handedness of the polarization. Positive indicates left hand polarization, while negative indicates right hand polarization, as defined by IEEE.
+For the special case of circular polarization, the axial ratio equals 1 (or 0 dB) and the tilt angle is undefined.  For the special case of linear polarization, the axial ratio is infinite.
+The reflected light from some beetles (e.g. Cetonia aurata) is elliptical polarized.[2]
+
+

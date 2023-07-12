@@ -1,0 +1,87 @@
+27924,
+♯P,
+In computational complexity theory, the complexity class #P (pronounced "sharp P" or, sometimes "number P" or "hash P") is the set of the counting problems associated with the decision problems in the set NP. More formally, #P is the class of function problems of the form "compute f(x)", where f is the number of accepting paths of a nondeterministic Turing machine running in polynomial time. Unlike most well-known complexity classes, it is not a class of decision problems but a class of function problems. The most difficult, representative problems of this class are #P-complete.
+An NP decision problem is often of the form "Are there any solutions that satisfy certain constraints?" For example:
+The corresponding #P function problems ask "how many" rather than "are there any".  For example:
+Clearly, a #P problem must be at least as hard as the corresponding NP problem.  If it's easy to count answers, then it must be easy to tell whether there are any answers—just count them and see whether the count is greater than zero. Some of these problems, such as root finding, are easy enough to be in FP, while others are #P-complete.
+One consequence of Toda's theorem is that a polynomial-time machine with a #P oracle (P#P) can solve all problems in PH, the entire polynomial hierarchy. In fact, the polynomial-time machine only needs to make one #P query to solve any problem in PH. This is an indication of the extreme difficulty of solving #P-complete problems exactly.
+Surprisingly, some #P problems that are believed to be difficult correspond to easy (for example linear-time) P problems.  For more information on this, see #P-complete.
+The closest decision problem class to #P is PP, which asks whether a majority (more than half) of the computation paths accept. This finds the most significant bit in the #P problem answer. The decision problem class ⊕P (pronounced "Parity-P") instead asks for the least significant bit of the #P answer.
+#P is formally defined as follows:
+#P can also be equivalently defined in terms of a verifer. A decision problem is in NP if there exists a polynomial-time checkable certificate to a given problem instance—that is, NP asks whether there exists a proof of membership for the input that can be checked for correctness in polynomial time. The class #P asks how many certificates there exist for a problem instance that can be checked for correctness in polynomial time.[1] In this context, #P is defined as follows:
+The complexity class #P was first defined by Leslie Valiant in a 1979 article on the computation of the permanent of a square matrix, in which he proved that permanent is #P-complete.[3]
+Larry Stockmeyer has proved that for every #P problem 
+
+P
+P
+
+ there exists a randomized algorithm using an oracle for SAT, which given an instance 
+
+a
+a
+
+ of 
+
+P
+P
+
+ and 
+
+
+ϵ
+>
+0
+
+\epsilon >0
+
+ returns with high probability a number 
+
+x
+x
+
+ such that 
+
+
+(
+1
+−
+ϵ
+)
+P
+(
+a
+)
+≤
+x
+≤
+(
+1
++
+ϵ
+)
+P
+(
+a
+)
+
+(1-\epsilon )P(a)\leq x\leq (1+\epsilon )P(a)
+
+.[4]  The runtime of the algorithm is polynomial in 
+
+a
+a
+
+ and 
+
+
+1
+
+/
+
+ϵ
+
+1/\epsilon
+
+. The algorithm is based on the leftover hash lemma.
+
+

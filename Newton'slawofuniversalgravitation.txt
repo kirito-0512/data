@@ -1,0 +1,270 @@
+21138,
+Newton'slawofuniversalgravitation,
+Newton's law of universal gravitation is usually stated as that every particle attracts every other particle in the universe with a force that is proportional to the product of their masses and inversely proportional to the square of the distance between their centers.[note 1] The publication of the law has become known as the "first great unification", as it marked the unification of the previously described phenomena of gravity on Earth with known astronomical behaviors.[1][2][3]
+This is a general physical law derived from empirical observations by what Isaac Newton called inductive reasoning.[4] It is a part of classical mechanics and was formulated in Newton's work Philosophiæ Naturalis Principia Mathematica ("the Principia"), first published on 5 July 1687. When Newton presented Book 1 of the unpublished text in April 1686 to the Royal Society, Robert Hooke made a claim that Newton had obtained the inverse square law from him.
+In today's language, the law states that every point mass attracts every other point mass by a force acting along the line intersecting the two points. The force is proportional to the product of the two masses, and inversely proportional to the square of the distance between them.[5]
+The equation for universal gravitation thus takes the form:
+where F is the gravitational force acting between two objects, m1 and m2 are the masses of the objects, r is the distance between the centers of their masses, and G is the gravitational constant.
+The first test of Newton's law of gravitation between masses in the laboratory was the Cavendish experiment conducted by the British scientist Henry Cavendish in 1798.[6] It took place 111 years after the publication of Newton's Principia and approximately 71 years after his death.
+Newton's law of gravitation resembles Coulomb's law of electrical forces, which is used to calculate the magnitude of the electrical force arising between two charged bodies. Both are inverse-square laws, where force is inversely proportional to the square of the distance between the bodies. Coulomb's law has charge in place of mass and a different constant.
+Newton's law has later been superseded by Albert Einstein's theory of general relativity, but the universality of gravitational constant is intact and the law still continues to be used as an excellent approximation of the effects of gravity in most applications. Relativity is required only when there is a need for extreme accuracy, or when dealing with very strong gravitational fields, such as those found near extremely massive and dense objects, or at small distances (such as Mercury's orbit around the Sun).
+In 1604, Galileo Galilei correctly hypothesized that the distance of a falling object is proportional to the square of the time elapsed.[7] The relation of the distance of objects in free fall to the square of the time taken was confirmed by Italian Jesuits Grimaldi and Riccioli between 1640 and 1650. They also made a calculation of the gravity of Earth by recording the oscillations of a pendulum.[8]
+A modern assessment of the early history of the inverse square law is that "by the late 1670s", the assumption of an "inverse proportion between gravity and the square of distance was rather common and had been advanced by a number of different people for different reasons".[9] The same author credits Robert Hooke with a significant and seminal contribution, but treats Hooke's claim of priority on the inverse square point as irrelevant, as several individuals besides Newton and Hooke had suggested it. He points instead to the idea of "compounding the celestial motions" and the conversion of Newton's thinking away from "centrifugal" and towards "centripetal" force as Hooke's significant contributions.
+Newton gave credit in his Principia to two people: Bullialdus (who wrote without proof that there was a force on the Earth towards the Sun), and Borelli (who wrote that all planets were attracted towards the Sun).[10][11] The main influence may have been Borelli, whose book Newton had a copy of.[12]
+In 1686, when the first book of Newton's Principia was presented to the Royal Society, Robert Hooke accused Newton of plagiarism by claiming that he had taken from him the "notion" of "the rule of the decrease of Gravity, being reciprocally as the squares of the distances from the Center". At the same time (according to Edmond Halley's contemporary report) Hooke agreed that "the Demonstration of the Curves generated thereby" was wholly Newton's.[13]
+Robert Hooke published his ideas about the "System of the World" in the 1660s, when he read to the Royal Society on March 21, 1666, a paper "concerning the inflection of a direct motion into a curve by a supervening attractive principle", and he published them again in somewhat developed form in 1674, as an addition to "An Attempt to Prove the Motion of the Earth from Observations".[14] Hooke announced in 1674 that he planned to "explain a System of the World differing in many particulars from any yet known", based on three suppositions: that "all Celestial Bodies whatsoever, have an attraction or gravitating power towards their own Centers" and "also attract all the other Celestial Bodies that are within the sphere of their activity";[15] that "all bodies whatsoever that are put into a direct and simple motion, will so continue to move forward in a straight line, till they are by some other effectual powers deflected and bent..." and that "these attractive powers are so much the more powerful in operating, by how much the nearer the body wrought upon is to their own Centers". Thus Hooke postulated mutual attractions between the Sun and planets, in a way that increased with nearness to the attracting body, together with a principle of linear inertia.
+Hooke's statements up to 1674 made no mention, however, that an inverse square law applies or might apply to these attractions. Hooke's gravitation was also not yet universal, though it approached universality more closely than previous hypotheses.[16] He also did not provide accompanying evidence or mathematical demonstration. On the latter two aspects, Hooke himself stated in 1674: "Now what these several degrees [of attraction] are I have not yet experimentally verified"; and as to his whole proposal: "This I only hint at present", "having my self many other things in hand which I would first compleat, and therefore cannot so well attend it" (i.e. "prosecuting this Inquiry").[14] It was later on, in writing on 6 January 1679|80[17] to Newton, that Hooke communicated his "supposition ... that the Attraction always is in a duplicate proportion to the Distance from the Center Reciprocall, and Consequently that the Velocity will be in a subduplicate proportion to the Attraction and Consequently as Kepler Supposes Reciprocall to the Distance."[18] (The inference about the velocity was incorrect.)[19]
+Hooke's correspondence with Newton during 1679–1680 not only mentioned this inverse square supposition for the decline of attraction with increasing distance, but also, in Hooke's opening letter to Newton, of 24 November 1679, an approach of "compounding the celestial motions of the planets of a direct motion by the tangent & an attractive motion towards the central body".[20]
+Newton, faced in May 1686 with Hooke's claim on the inverse square law, denied that Hooke was to be credited as author of the idea. Among the reasons, Newton recalled that the idea had been discussed with Sir Christopher Wren previous to Hooke's 1679 letter.[21] Newton also pointed out and acknowledged prior work of others,[22] including Bullialdus,[10] (who suggested, but without demonstration, that there was an attractive force from the Sun in the inverse square proportion to the distance), and Borelli[11] (who suggested, also without demonstration, that there was a centrifugal tendency in counterbalance with a gravitational attraction towards the Sun so as to make the planets move in ellipses). D T Whiteside has described the contribution to Newton's thinking that came from Borelli's book, a copy of which was in Newton's library at his death.[12]
+Newton further defended his work by saying that had he first heard of the inverse square proportion from Hooke, he would still have some rights to it in view of his demonstrations of its accuracy. Hooke, without evidence in favor of the supposition, could only guess that the inverse square law was approximately valid at great distances from the center. According to Newton, while the 'Principia' was still at pre-publication stage, there were so many a priori reasons to doubt the accuracy of the inverse-square law (especially close to an attracting sphere) that "without my (Newton's) Demonstrations, to which Mr Hooke is yet a stranger, it cannot believed by a judicious Philosopher to be any where accurate."[23]
+This remark refers among other things to Newton's finding, supported by mathematical demonstration, that if the inverse square law applies to tiny particles, then even a large spherically symmetrical mass also attracts masses external to its surface, even close up, exactly as if all its own mass were concentrated at its center. Thus Newton gave a justification, otherwise lacking, for applying the inverse square law to large spherical planetary masses as if they were tiny particles.[24] In addition, Newton had formulated, in Propositions 43–45 of Book 1[25] and associated sections of Book 3, a sensitive test of the accuracy of the inverse square law, in which he showed that only where the law of force is calculated as the inverse square of the distance will the directions of orientation of the planets' orbital ellipses stay constant as they are observed to do apart from small effects attributable to inter-planetary perturbations.
+In regard to evidence that still survives of the earlier history, manuscripts written by Newton in the 1660s show that Newton himself had, by 1669, arrived at proofs that in a circular case of planetary motion, "endeavour to recede" (what was later called centrifugal force) had an inverse-square relation with distance from the center.[26] After his 1679–1680 correspondence with Hooke, Newton adopted the language of inward or centripetal force. According to Newton scholar J. Bruce Brackenridge, although much has been made of the change in language and difference of point of view, as between centrifugal or centripetal forces, the actual computations and proofs remained the same either way. They also involved the combination of tangential and radial displacements, which Newton was making in the 1660s. The lesson offered by Hooke to Newton here, although significant, was one of perspective and did not change the analysis.[27] This background shows there was basis for Newton to deny deriving the inverse square law from Hooke.
+On the other hand, Newton did accept and acknowledge, in all editions of the Principia, that Hooke (but not exclusively Hooke) had separately appreciated the inverse square law in the solar system. Newton acknowledged Wren, Hooke, and Halley in this connection in the Scholium to Proposition 4 in Book 1.[28] Newton also acknowledged to Halley that his correspondence with Hooke in 1679–80 had reawakened his dormant interest in astronomical matters, but that did not mean, according to Newton, that Hooke had told Newton anything new or original: "yet am I not beholden to him for any light into that business but only for the diversion he gave me from my other studies to think on these things & for his dogmaticalness in writing as if he had found the motion in the Ellipsis, which inclined me to try it ..."[22]
+Since the time of Newton and Hooke, scholarly discussion has also touched on the question of whether Hooke's 1679 mention of 'compounding the motions' provided Newton with something new and valuable, even though that was not a claim actually voiced by Hooke at the time. As described above, Newton's manuscripts of the 1660s do show him actually combining tangential motion with the effects of radially directed force or endeavour, for example in his derivation of the inverse square relation for the circular case. They also show Newton clearly expressing the concept of linear inertia—for which he was indebted to Descartes' work, published in 1644 (as Hooke probably was).[29] These matters do not appear to have been learned by Newton from Hooke.
+Nevertheless, a number of authors have had more to say about what Newton gained from Hooke and some aspects remain controversial.[9] The fact that most of Hooke's private papers had been destroyed or have disappeared does not help to establish the truth.
+Newton's role in relation to the inverse square law was not as it has sometimes been represented. He did not claim to think it up as a bare idea. What Newton did, was to show how the inverse-square law of attraction had many necessary mathematical connections with observable features of the motions of bodies in the solar system; and that they were related in such a way that the observational evidence and the mathematical demonstrations, taken together, gave reason to believe that the inverse square law was not just approximately true but exactly true (to the accuracy achievable in Newton's time and for about two centuries afterwards – and with some loose ends of points that could not yet be certainly examined, where the implications of the theory had not yet been adequately identified or calculated).[30][31]
+About thirty years after Newton's death in 1727, Alexis Clairaut, a mathematical astronomer eminent in his own right in the field of gravitational studies, wrote after reviewing what Hooke published, that "One must not think that this idea ... of Hooke diminishes Newton's glory"; and that "the example of Hooke" serves "to show what a distance there is between a truth that is glimpsed and a truth that is demonstrated".[32][33]
+While Newton was able to formulate his law of gravity in his monumental work, he was deeply uncomfortable with the notion of "action at a distance" that his equations implied. In 1692, in his third letter to Bentley, he wrote: "That one body may act upon another at a distance through a vacuum without the mediation of anything else, by and through which their action and force may be conveyed from one another, is to me so great an absurdity that, I believe, no man who has in philosophic matters a competent faculty of thinking could ever fall into it."
+He never, in his words, "assigned the cause of this power". In all other cases, he used the phenomenon of motion to explain the origin of various forces acting on bodies, but in the case of gravity, he was unable to experimentally identify the motion that produces the force of gravity (although he invented two mechanical hypotheses in 1675 and 1717). Moreover, he refused to even offer a hypothesis as to the cause of this force on grounds that to do so was contrary to sound science. He lamented that "philosophers have hitherto attempted the search of nature in vain" for the source of the gravitational force, as he was convinced "by many reasons" that there were "causes hitherto unknown" that were fundamental to all the "phenomena of nature". These fundamental phenomena are still under investigation and, though hypotheses abound, the definitive answer has yet to be found. And in Newton's 1713 General Scholium in the second edition of Principia: "I have not yet been able to discover the cause of these properties of gravity from phenomena and I feign no hypotheses.... It is enough that gravity does really exist and acts according to the laws I have explained, and that it abundantly serves to account for all the motions of celestial bodies."[34]
+In modern language, the law states the following:
+where
+Assuming SI units, F is measured in newtons (N), m1 and m2 in kilograms (kg), r in meters (m), and the constant G is 6.67430(15)×10−11 m3⋅kg−1⋅s−2.[35]
+The value of the constant G was first accurately determined from the results of the Cavendish experiment conducted by the British scientist Henry Cavendish in 1798, although Cavendish did not himself calculate a numerical value for G.[6] This experiment was also the first test of Newton's theory of gravitation between masses in the laboratory. It took place 111 years after the publication of Newton's Principia and 71 years after Newton's death, so none of Newton's calculations could use the value of G; instead he could only calculate a force relative to another force.
+If the bodies in question have spatial extent (as opposed to being point masses), then the gravitational force between them is calculated by summing the contributions of the notional point masses that constitute the bodies. In the limit, as the component point masses become "infinitely small", this entails integrating the force (in vector form, see below) over the extents of the two bodies.
+In this way, it can be shown that an object with a spherically symmetric distribution of mass exerts the same gravitational attraction on external bodies as if all the object's mass were concentrated at a point at its center.[5] (This is not generally true for non-spherically-symmetrical bodies.)
+For points inside a spherically symmetric distribution of matter, Newton's shell theorem can be used to find the gravitational force. The theorem tells us how different parts of the mass distribution affect the gravitational force measured at a point located a distance r0 from the center of the mass distribution:[36]
+As a consequence, for example, within a shell of uniform thickness and density there is no net gravitational acceleration anywhere within the hollow sphere.
+Newton's law of universal gravitation can be written as a vector equation to account for the direction of the gravitational force as well as its magnitude. In this formula, quantities in bold represent vectors.
+
+
+
+
+
+
+F
+
+
+21
+
+
+=
+−
+G
+
+
+
+
+m
+
+1
+
+
+
+m
+
+2
+
+
+
+
+
+|
+
+
+r
+
+
+21
+
+
+|
+
+
+2
+
+
+
+
+
+
+
+
+
+r
+^
+
+
+
+
+21
+
+
+
+
+{\displaystyle \mathbf {F} _{21}=-G{m_{1}m_{2} \over {\vert \mathbf {r} _{21}\vert }^{2}}\,\mathbf {\hat {r}} _{21}}
+
+
+where
+It can be seen that the vector form of the equation is the same as the scalar form given earlier, except that F is now a vector quantity, and the right hand side is multiplied by the appropriate unit vector. Also, it can be seen that F12 = −F21.
+The gravitational field is a vector field that describes the gravitational force that would be applied on an object in any given point in space, per unit mass. It is actually equal to the gravitational acceleration at that point.
+It is a generalisation of the vector form, which becomes particularly useful if more than two objects are involved (such as a rocket between the Earth and the Moon). For two objects (e.g. object 2 is a rocket, object 1 the Earth), we simply write r instead of r12 and m instead of m2 and define the gravitational field g(r) as:
+so that we can write:
+This formulation is dependent on the objects causing the field. The field has units of acceleration; in SI, this is m/s2.
+Gravitational fields are also conservative; that is, the work done by gravity from one position to another is path-independent. This has the consequence that there exists a gravitational potential field V(r) such that
+If m1 is a point mass or the mass of a sphere with homogeneous mass distribution, the force field g(r) outside the sphere is isotropic, i.e., depends only on the distance r from the center of the sphere. In that case
+the gravitational field is on, inside and outside of symmetric masses.
+As per Gauss's law, field in a symmetric body can be found by the mathematical equation:
+where 
+
+
+
+∂
+V
+
+
+{\displaystyle \partial V}
+
+ is a closed surface and 
+
+
+
+
+M
+
+enc
+
+
+
+
+{\displaystyle M_{\text{enc}}}
+
+ is the mass enclosed by the surface.
+Hence, for a hollow sphere of radius 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ and total mass 
+
+
+
+M
+
+
+{\displaystyle M}
+
+,
+For a uniform solid sphere of radius 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ and total mass 
+
+
+
+M
+
+
+{\displaystyle M}
+
+,
+Newton's description of gravity is sufficiently accurate for many practical purposes and is therefore widely used. Deviations from it are small when the dimensionless quantities 
+
+
+
+ϕ
+
+/
+
+
+c
+
+2
+
+
+
+
+{\displaystyle \phi /c^{2}}
+
+ and 
+
+
+
+(
+v
+
+/
+
+c
+
+)
+
+2
+
+
+
+
+{\displaystyle (v/c)^{2}}
+
+ are both much less than one, where 
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+
+ is the gravitational potential, 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ is the velocity of the objects being studied, and 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ is the speed of light in vacuum.[38]
+For example, Newtonian gravity provides an accurate description of the Earth/Sun system, since
+where 
+
+
+
+
+r
+
+orbit
+
+
+
+
+{\displaystyle r_{\text{orbit}}}
+
+ is the radius of the Earth's orbit around the Sun.
+In situations where either dimensionless parameter is large, then
+general relativity must be used to describe the system. General relativity reduces to Newtonian gravity in the limit of small potential and low velocities, so Newton's law of gravitation is often said to be the low-gravity limit of general relativity.
+The first two conflicts with observations above were explained by Einstein's theory of general relativity, in which gravitation is a manifestation of curved spacetime instead of being due to a force propagated between bodies. In Einstein's theory, energy and momentum distort spacetime in their vicinity, and other particles move in trajectories determined by the geometry of spacetime. This allowed a description of the motions of light and mass that was consistent with all available observations. In general relativity, the gravitational force is a fictitious force resulting from the curvature of spacetime, because the gravitational acceleration of a body in free fall is due to its world line being a geodesic of spacetime.
+In recent years, quests for non-inverse square terms in the law of gravity have been carried out by neutron interferometry.[40]
+The n-body problem is an ancient, classical problem[41] of predicting the individual motions of a group of celestial objects interacting with each other gravitationally. Solving this problem — from the time of the Greeks and on — has been motivated by the desire to understand the motions of the Sun, planets and the visible stars. In the 20th century, understanding the dynamics of globular cluster star systems became an important n-body problem too.[42] The n-body problem in general relativity is considerably more difficult to solve.
+The classical physical problem can be informally stated as: given the quasi-steady orbital properties (instantaneous position, velocity and time)[43] of a group of celestial bodies, predict their interactive forces; and consequently, predict their true orbital motions for all future times.[44]
+The two-body problem has been completely solved, as has the restricted three-body problem.[45]
+
+

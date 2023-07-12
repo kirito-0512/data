@@ -1,0 +1,53 @@
+30752,
+Listofcountrycallingcodes,
+
+Country calling codes, country dial-in codes, international subscriber dialing (ISD) codes, or most commonly, telephone country codes are telephone number prefixes for reaching telephone subscribers in foreign countries or areas via international telecommunication networks. Country codes are defined by the  International Telecommunication Union (ITU) in ITU-T standards E.123 and E.164. The prefixes enable international direct dialing (IDD).
+Country codes constitute the international telephone numbering plan. They are used only when dialing a telephone number in a country or world region other than the caller's. Country codes are dialed before the national telephone number, but require at least one additional prefix, the international call prefix which is an exit code from the national numbering plan to the international one. In most countries, this prefix is 00, an ITU recommendation; it is 011 in the countries of the North American Numbering Plan while a minority of countries use other prefixes.
+This table lists in its first column the initial digits of the country code shared by each country in each row, which is arranged in columns for the last digit. When three-digit codes share a common leading pair, the two-digit code is unassigned, being ambiguous (denoted by "ambig."). Unassigned codes are denoted by a dash (—). Countries are identified by ISO 3166-1 alpha-2 country codes; codes for non-geographic services are denoted by two asterisks (**).
+1: North American Numbering Plan
+US, CA
+1 (242): BS
+1 (246): BB
+1 (264): AI
+1 (268): AG
+1 (284): VG
+1 (340): VI
+1 (345): KY
+1 (441): BM
+1 (473): GD
+1 (649): TC
+1 (658): JM
+1 (664): MS
+1 (670): MP
+1 (671): GU
+1 (684): AS
+1 (721): SX
+1 (758): LC
+1 (767): DM
+1 (784): VC
+1 (787): PR
+1 (809): DO
+1 (829): DO
+1 (849): DO
+1 (868): TT
+1 (869): KN
+1 (876): JM
+1 (939): PR
+World zones are organized principally, but only approximately, by geographic location. Exceptions exist for political and historical alignments.
+
+NANP members are assigned three-digit numbering plan area (NPA) codes under the common country prefix 1, shown in the format 1 (NPA).
+(but also Aruba, Faroe Islands, Greenland and British Indian Ocean Territory)
+
+
+Some of the larger countries were assigned two-digit codes to compensate for their usually longer domestic numbers. Small countries were assigned three-digit codes, which also has been the practice since the 1980s.
+
+
+
+Formerly assigned to the Soviet Union until its dissolution in 1991.
+
+
+
+In Antarctica, telecommunication services are provided by the parent country of each base:
+Other places with no country codes in use, although a code may be reserved:
+
+

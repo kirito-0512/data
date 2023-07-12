@@ -1,0 +1,2264 @@
+32337,
+Uniformcontinuity,
+In mathematics, a real function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ of real numbers is said to be uniformly continuous if there is a positive real number 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+ such that function values over any function domain interval of the size 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+ are as close to each other as we want. In other words, for a uniformly continuous real function of real numbers, if we want function value differences to be less than any positive real number 
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+
+, then there is a positive real number 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+ such that 
+
+
+
+
+|
+
+f
+(
+x
+)
+−
+f
+(
+y
+)
+
+|
+
+<
+ϵ
+
+
+{\displaystyle |f(x)-f(y)|<\epsilon }
+
+ at any 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ in any function interval of the size 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+. 
+The difference between uniform continuity and (ordinary) continuity is that, in uniform continuity there is a globally applicable 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+ (the size of a function domain interval over which function value differences are less than 
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+
+) that depends on only 
+
+
+
+ε
+
+
+{\displaystyle \varepsilon }
+
+, while in (ordinary) continuity there is a locally applicable 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+ that depends on the both 
+
+
+
+ε
+
+
+{\displaystyle \varepsilon }
+
+ and 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. So uniform continuity is a stronger continuity condition than continuity; a function that is uniformly continuous is continuous but a function that is continuous is not necessarily uniformly continuous. The concepts of uniform continuity and continuity can be expanded to functions defined between metric spaces. 
+Continuous functions can fail to be uniformly continuous if they are unbounded on a bounded domain, such as 
+
+
+
+f
+(
+x
+)
+=
+
+
+
+1
+x
+
+
+
+
+
+{\displaystyle f(x)={\tfrac {1}{x}}}
+
+ on 
+
+
+
+(
+0
+,
+1
+)
+
+
+{\displaystyle (0,1)}
+
+, or if their slopes become unbounded on an infinite domain, such as 
+
+
+
+f
+(
+x
+)
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle f(x)=x^{2}}
+
+ on the real (number) line. However, any Lipschitz map between metric spaces is uniformly continuous, in particular any isometry (distance-preserving map). 
+Although continuity can be defined for functions between general topological spaces, defining uniform continuity requires more structure. The concept relies on comparing the sizes of neighbourhoods of distinct points, so it requires a metric space, or more generally a uniform space.
+For a function 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f:X\to Y}
+
+ with metric spaces 
+
+
+
+(
+X
+,
+
+d
+
+1
+
+
+)
+
+
+{\displaystyle (X,d_{1})}
+
+ and 
+
+
+
+(
+Y
+,
+
+d
+
+2
+
+
+)
+
+
+{\displaystyle (Y,d_{2})}
+
+, the following definitions of uniform continuity and (ordinary) continuity hold.
+In the definitions, the difference between uniform continuity and continuity is that, in uniform continuity there is a globally applicable 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+ (the size of a neighbourhood in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ over which values of the metric for function values in 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ are less than 
+
+
+
+ε
+
+
+{\displaystyle \varepsilon }
+
+) that depends on only 
+
+
+
+ε
+
+
+{\displaystyle \varepsilon }
+
+ while in continuity there is a locally applicable 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+ that depends on the both 
+
+
+
+ε
+
+
+{\displaystyle \varepsilon }
+
+ and 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. Continuity is a local property of a function — that is, a function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is continuous, or not, at a particular point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ of the function domain 
+
+
+
+X
+
+
+{\displaystyle X}
+
+, and this can be determined by looking at only the values of the function in an arbitrarily small neighbourhood of that point. When we speak of a function being continuous on an interval, we mean that the function is continuous at every point of the interval. In contrast, uniform continuity is a global property of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, in the sense that the standard definition of uniform continuity refers to every point of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+. On the other hand, it is possible to give a definition that is local in terms of the natural extension 
+
+
+
+
+f
+
+∗
+
+
+
+
+{\displaystyle f^{*}}
+
+(the characteristics of which at nonstandard points are determined by the global properties of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+), although it is not possible to give a local definition of uniform continuity for an arbitrary hyperreal-valued function, see below.
+A mathematical definition that a function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is continuous on an interval 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ and a definition that 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is uniformly continuous on 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ are structurally similar as shown in the following.
+Continuity of a function 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f:X\to Y}
+
+ for metric spaces 
+
+
+
+(
+X
+,
+
+d
+
+1
+
+
+)
+
+
+{\displaystyle (X,d_{1})}
+
+ and 
+
+
+
+(
+Y
+,
+
+d
+
+2
+
+
+)
+
+
+{\displaystyle (Y,d_{2})}
+
+ at every point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ of an interval 
+
+
+
+I
+⊆
+X
+
+
+{\displaystyle I\subseteq X}
+
+ (i.e., continuity of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ on the interval 
+
+
+
+I
+
+
+{\displaystyle I}
+
+) is expressed by a formula starting with quantifications
+(metrics 
+
+
+
+
+d
+
+1
+
+
+(
+x
+,
+y
+)
+
+
+{\displaystyle d_{1}(x,y)}
+
+ and 
+
+
+
+
+d
+
+2
+
+
+(
+f
+(
+x
+)
+,
+f
+(
+y
+)
+)
+
+
+{\displaystyle d_{2}(f(x),f(y))}
+
+ are 
+
+
+
+
+|
+
+x
+−
+y
+
+|
+
+
+
+{\displaystyle |x-y|}
+
+ and 
+
+
+
+
+|
+
+f
+(
+x
+)
+−
+f
+(
+y
+)
+
+|
+
+
+
+{\displaystyle |f(x)-f(y)|}
+
+ for 
+
+
+
+f
+:
+
+R
+
+→
+
+R
+
+
+
+{\displaystyle f:\mathbb {R} \to \mathbb {R} }
+
+ for the set of real numbers 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+).
+For uniform continuity, the order of the first, second, and third quantifications (
+
+
+
+∀
+x
+∈
+I
+
+
+{\displaystyle \forall x\in I}
+
+, 
+
+
+
+∀
+ε
+>
+0
+
+
+{\displaystyle \forall \varepsilon >0}
+
+, and 
+
+
+
+∃
+δ
+>
+0
+
+
+{\displaystyle \exists \delta >0}
+
+) are rotated:
+Thus for continuity on the interval, one takes an arbitrary point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ of the interval, and then there must exist a distance 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+,
+while for uniform continuity, a single 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+ must work uniformly for all points 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ of the interval,
+Every uniformly continuous function is continuous, but the converse does not hold. Consider for instance the continuous function 
+
+
+
+f
+:
+
+R
+
+→
+
+R
+
+,
+x
+↦
+
+x
+
+2
+
+
+
+
+{\displaystyle f\colon \mathbb {R} \rightarrow \mathbb {R} ,x\mapsto x^{2}}
+
+ where 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is the set of real numbers. Given a positive real number 
+
+
+
+ε
+
+
+{\displaystyle \varepsilon }
+
+, uniform continuity requires the existence of a positive real number 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+ such that for all 
+
+
+
+
+x
+
+1
+
+
+,
+
+x
+
+2
+
+
+∈
+
+R
+
+
+
+{\displaystyle x_{1},x_{2}\in \mathbb {R} }
+
+ with 
+
+
+
+
+|
+
+
+x
+
+1
+
+
+−
+
+x
+
+2
+
+
+
+|
+
+<
+δ
+
+
+{\displaystyle |x_{1}-x_{2}|<\delta }
+
+, we have 
+
+
+
+
+|
+
+f
+(
+
+x
+
+1
+
+
+)
+−
+f
+(
+
+x
+
+2
+
+
+)
+
+|
+
+<
+ε
+
+
+{\displaystyle |f(x_{1})-f(x_{2})|<\varepsilon }
+
+. But
+and as 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ goes to be a higher and higher value, 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+ needs to be lower and lower to satisfy 
+
+
+
+
+|
+
+f
+(
+x
++
+β
+)
+−
+f
+(
+x
+)
+
+|
+
+<
+ε
+
+
+{\displaystyle |f(x+\beta )-f(x)|<\varepsilon }
+
+ for positive real numbers 
+
+
+
+β
+<
+δ
+
+
+{\displaystyle \beta <\delta }
+
+ and the given 
+
+
+
+ε
+
+
+{\displaystyle \varepsilon }
+
+. This means that there is no specifiable (no matter how small it is) positive real number 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+ to satisfy the condition for 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ to be uniformly continuous so 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is not uniformly continuous.
+Any absolutely continuous function (over a compact interval) is uniformly continuous. On the other hand, the Cantor function is uniformly continuous but not absolutely continuous.
+The image of a totally bounded subset under a uniformly continuous function is totally bounded. However, the image of a bounded subset of an arbitrary metric space under a uniformly continuous function need not be bounded: as a counterexample, consider the identity function from the integers endowed with the discrete metric to the integers endowed with the usual Euclidean metric.
+The Heine–Cantor theorem asserts that every continuous function on a compact set is uniformly continuous. In particular, if a function is continuous on a closed bounded interval of the real line, it is uniformly continuous on that interval. The Darboux integrability of continuous functions follows almost immediately from this theorem.
+If a real-valued function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is continuous on 
+
+
+
+[
+0
+,
+∞
+)
+
+
+{\displaystyle [0,\infty )}
+
+ and 
+
+
+
+
+lim
+
+x
+→
+∞
+
+
+f
+(
+x
+)
+
+
+{\displaystyle \lim _{x\to \infty }f(x)}
+
+ exists (and is finite), then 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is uniformly continuous. In particular, every element of 
+
+
+
+
+C
+
+0
+
+
+(
+
+R
+
+)
+
+
+{\displaystyle C_{0}(\mathbb {R} )}
+
+, the space of continuous functions on 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ that vanish at infinity, is uniformly continuous. This is a generalization of the Heine-Cantor theorem mentioned above, since 
+
+
+
+
+C
+
+c
+
+
+(
+
+R
+
+)
+⊂
+
+C
+
+0
+
+
+(
+
+R
+
+)
+
+
+{\displaystyle C_{c}(\mathbb {R} )\subset C_{0}(\mathbb {R} )}
+
+.
+For a uniformly continuous function, for every positive real number 
+
+
+
+ε
+>
+0
+
+
+{\displaystyle \varepsilon >0}
+
+ there is a positive real number 
+
+
+
+δ
+>
+0
+
+
+{\displaystyle \delta >0}
+
+ such that two function values 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ and 
+
+
+
+f
+(
+y
+)
+
+
+{\displaystyle f(y)}
+
+ have the maximum distance 
+
+
+
+ε
+
+
+{\displaystyle \varepsilon }
+
+ whenever 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ are within the maximum distance 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+. Thus at each point 
+
+
+
+(
+x
+,
+f
+(
+x
+)
+)
+
+
+{\displaystyle (x,f(x))}
+
+ of the graph, if we draw a rectangle with a height slightly less than 
+
+
+
+2
+ε
+
+
+{\displaystyle 2\varepsilon }
+
+ and width a slightly less than 
+
+
+
+2
+δ
+
+
+{\displaystyle 2\delta }
+
+ around that point, then the graph lies completely within the height of the rectangle, i.e., the graph do not pass through the top or the bottom side of the rectangle. For functions that are not uniformly continuous, this isn't possible; for these functions, the graph might lie inside the height of the rectangle at some point on the graph but there is a point on the graph where the graph lies above or below the rectangle. (the graph penetrates the top or bottom side of the rectangle.)
+For uniformly continuous functions, for each positive real number 
+
+
+
+ε
+>
+0
+
+
+{\displaystyle \varepsilon >0}
+
+ there is a positive real number 
+
+
+
+δ
+>
+0
+
+
+{\displaystyle \delta >0}
+
+ such that when we draw a rectangle around each point of the graph with a width slightly less than 
+
+
+
+2
+δ
+
+
+{\displaystyle 2\delta }
+
+ and a height slightly less than 
+
+
+
+2
+ε
+
+
+{\displaystyle 2\varepsilon }
+
+, the graph lies completely inside the height of the rectangle.
+For functions that are not uniformly continuous, there is a positive real number 
+
+
+
+ε
+>
+0
+
+
+{\displaystyle \varepsilon >0}
+
+ such that for every positive real number 
+
+
+
+δ
+>
+0
+
+
+{\displaystyle \delta >0}
+
+ there is a point on the graph so that when we draw a rectangle with a height slightly less than 
+
+
+
+2
+ε
+
+
+{\displaystyle 2\varepsilon }
+
+ and a width slightly less than 
+
+
+
+2
+δ
+
+
+{\displaystyle 2\delta }
+
+ around that point, there is a function value directly above or below the rectangle. There might be a graph point where the graph is completely inside the height of the rectangle but this is not true for every point of the graph.
+The first published definition of uniform continuity was by Heine in 1870, and in 1872 he published a proof that a continuous function on an open interval need not be uniformly continuous. The proofs are almost verbatim given by Dirichlet in his lectures on definite integrals in 1854. The definition of uniform continuity appears earlier in the work of Bolzano where he also proved that continuous functions on an open interval do not need to be uniformly continuous.  In addition he also states that a continuous function on a closed interval is uniformly continuous, but he does not give a complete proof.[1]
+In non-standard analysis, a real-valued function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ of a real variable is microcontinuous at a point 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ precisely if the difference 
+
+
+
+
+f
+
+∗
+
+
+(
+a
++
+δ
+)
+−
+
+f
+
+∗
+
+
+(
+a
+)
+
+
+{\displaystyle f^{*}(a+\delta )-f^{*}(a)}
+
+ is infinitesimal whenever 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+ is infinitesimal. Thus 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is continuous on a set 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ in 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ precisely if 
+
+
+
+
+f
+
+∗
+
+
+
+
+{\displaystyle f^{*}}
+
+ is microcontinuous at every real point 
+
+
+
+a
+∈
+A
+
+
+{\displaystyle a\in A}
+
+. Uniform continuity can be expressed as the condition that (the natural extension of) 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is microcontinuous not only at real points in 
+
+
+
+A
+
+
+{\displaystyle A}
+
+, but at all points in its non-standard counterpart (natural extension) 
+
+
+
+
+
+
+∗
+
+
+A
+
+
+{\displaystyle ^{*}A}
+
+ in 
+
+
+
+
+
+
+∗
+
+
+
+R
+
+
+
+{\displaystyle ^{*}\mathbb {R} }
+
+. Note that there exist hyperreal-valued functions which meet this criterion but are not uniformly continuous, as well as uniformly continuous hyperreal-valued functions which do not meet this criterion, however, such functions cannot be expressed in the form 
+
+
+
+
+f
+
+∗
+
+
+
+
+{\displaystyle f^{*}}
+
+ for any real-valued function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+. (see non-standard calculus for more details and examples).
+For a function between metric spaces, uniform continuity implies Cauchy continuity (Fitzpatrick 2006). More specifically, let 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ be a subset of 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+. If a function 
+
+
+
+f
+:
+A
+→
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle f:A\to \mathbb {R} ^{n}}
+
+ is uniformly continuous then for every pair of sequences 
+
+
+
+
+x
+
+n
+
+
+
+
+{\displaystyle x_{n}}
+
+ and 
+
+
+
+
+y
+
+n
+
+
+
+
+{\displaystyle y_{n}}
+
+ such that
+we have
+Let 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ be a metric space, 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ a subset of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+, 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ a complete metric space, and 
+
+
+
+f
+:
+S
+→
+R
+
+
+{\displaystyle f:S\rightarrow R}
+
+ a continuous function. A question to answer: When can 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ be extended to a continuous function on all of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+?
+If 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is closed in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+, the answer is given by the Tietze extension theorem. So it is necessary and sufficient to extend 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ to the closure of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+: that is, we may assume without loss of generality that 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is dense in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+, and this has the further pleasant consequence that if the extension exists, it is unique. A sufficient condition for 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ to extend to a continuous function 
+
+
+
+f
+:
+X
+→
+R
+
+
+{\displaystyle f:X\rightarrow R}
+
+ is that it is Cauchy-continuous, i.e., the image under 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ of a Cauchy sequence remains Cauchy. If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is complete (and thus the completion of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+), then every continuous function from 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ to a metric space 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is Cauchy-continuous. Therefore when 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is complete, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ extends to a continuous function 
+
+
+
+f
+:
+X
+→
+R
+
+
+{\displaystyle f:X\rightarrow R}
+
+ if and only if 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is Cauchy-continuous.
+It is easy to see that every uniformly continuous function is Cauchy-continuous and thus extends to 
+
+
+
+X
+
+
+{\displaystyle X}
+
+. The converse does not hold, since the function 
+
+
+
+f
+:
+R
+→
+R
+,
+x
+↦
+
+x
+
+2
+
+
+
+
+{\displaystyle f:R\rightarrow R,x\mapsto x^{2}}
+
+ is, as seen above, not uniformly continuous, but it is continuous and thus Cauchy continuous. In general, for functions defined on unbounded spaces like 
+
+
+
+R
+
+
+{\displaystyle R}
+
+, uniform continuity is a rather strong condition. It is desirable to have a weaker condition from which to deduce extendability.
+For example, suppose 
+
+
+
+a
+>
+1
+
+
+{\displaystyle a>1}
+
+ is a real number. At the precalculus level, the function 
+
+
+
+f
+:
+x
+↦
+
+a
+
+x
+
+
+
+
+{\displaystyle f:x\mapsto a^{x}}
+
+ can be given a precise definition only for rational values of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ (assuming the existence of qth roots of positive real numbers, an application of the Intermediate Value Theorem). One would like to extend 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ to a function defined on all of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+. The identity
+shows that 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is not uniformly continuous on the set 
+
+
+
+Q
+
+
+{\displaystyle Q}
+
+ of all rational numbers; however for any bounded interval 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ the restriction of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ to 
+
+
+
+Q
+∩
+I
+
+
+{\displaystyle Q\cap I}
+
+ is uniformly continuous, hence Cauchy-continuous, hence 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ extends to a continuous function on 
+
+
+
+I
+
+
+{\displaystyle I}
+
+. But since this holds for every 
+
+
+
+I
+
+
+{\displaystyle I}
+
+, there is then a unique extension of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ to a continuous function on all of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+.
+More generally, a continuous function 
+
+
+
+f
+:
+S
+→
+R
+
+
+{\displaystyle f:S\rightarrow R}
+
+ whose restriction to every bounded subset of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is uniformly continuous is extendable to 
+
+
+
+X
+
+
+{\displaystyle X}
+
+, and the converse holds if 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is locally compact.
+A typical application of the extendability of a uniformly continuous function is the proof of the inverse Fourier transformation formula. We first prove that the formula is true for test functions, there are densely many of them. We then extend the inverse map to the whole space using the fact that linear map is continuous; thus, uniformly continuous.
+In the special case of two topological vector spaces 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ and 
+
+
+
+W
+
+
+{\displaystyle W}
+
+, the notion of uniform continuity of a map 
+
+
+
+f
+:
+V
+→
+W
+
+
+{\displaystyle f:V\to W}
+
+ becomes: for any neighborhood 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ of zero in 
+
+
+
+W
+
+
+{\displaystyle W}
+
+, there exists a neighborhood 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ of zero in 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ such that 
+
+
+
+
+v
+
+1
+
+
+−
+
+v
+
+2
+
+
+∈
+A
+
+
+{\displaystyle v_{1}-v_{2}\in A}
+
+ implies 
+
+
+
+f
+(
+
+v
+
+1
+
+
+)
+−
+f
+(
+
+v
+
+2
+
+
+)
+∈
+B
+.
+
+
+{\displaystyle f(v_{1})-f(v_{2})\in B.}
+
+
+For linear transformations 
+
+
+
+f
+:
+V
+→
+W
+
+
+{\displaystyle f:V\to W}
+
+, uniform continuity is equivalent to continuity. This fact is frequently used implicitly in functional analysis to extend a linear map off a dense subspace of a Banach space.
+Just as the most natural and general setting for continuity is topological spaces, the most natural and general setting for the study of uniform continuity are the uniform spaces. A function 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f:X\to Y}
+
+ between uniform spaces is called uniformly continuous if for every entourage 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ in 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ there exists an entourage 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that for every 
+
+
+
+(
+
+x
+
+1
+
+
+,
+
+x
+
+2
+
+
+)
+
+
+{\displaystyle (x_{1},x_{2})}
+
+ in 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ we have 
+
+
+
+(
+f
+(
+
+x
+
+1
+
+
+)
+,
+f
+(
+
+x
+
+2
+
+
+)
+)
+
+
+{\displaystyle (f(x_{1}),f(x_{2}))}
+
+ in 
+
+
+
+V
+
+
+{\displaystyle V}
+
+.
+In this setting, it is also true that uniformly continuous maps transform Cauchy sequences into Cauchy sequences.
+Each compact Hausdorff space possesses exactly one uniform structure compatible with the topology. A consequence is a generalization of the Heine-Cantor theorem: each continuous function from a compact Hausdorff space to a uniform space is uniformly continuous.
+
+

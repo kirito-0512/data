@@ -1,0 +1,7 @@
+40896,
+Collectiverouting,
+Collective routing is routing in which a switching center automatically delivers messages to a specified list of destinations.
+Collective routing avoids the need to list each single address in the message heading.
+Major relay stations usually transmit messages bearing collective-routing indicators to tributary, minor, and other major relay stations.
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. Archived from the original on 2022-01-22.
+This article related to telecommunications is a stub. You can help Wikipedia by expanding it.

@@ -1,0 +1,16 @@
+9069,
+Dia(software),
+Dia (/ˈdiːə/)[3]
+is free and open source general-purpose diagramming software, developed originally by Alexander Larsson.[1] It uses a controlled single document interface (SDI) similar to GIMP and Inkscape.
+Dia has a modular design with several shape packages available for different needs: flowchart, network diagrams, circuit diagrams, and more. It does not restrict symbols and connectors from various categories from being placed together.
+Dia has special objects to help draw entity-relationship models, Unified Modeling Language (UML) diagrams, flowcharts, network diagrams, and simple electrical circuits. It is also possible to add support for new shapes by writing simple XML files, using a subset of Scalable Vector Graphics (SVG) to draw the shape.
+Dia loads and saves diagrams in a custom XML format which is, by default, gzipped to save space. It can print large diagrams spanning multiple pages[4] and can also be scripted using the Python programming language.
+Dia can export diagrams to various formats, including:
+Dia was originally created by Alexander Larsson, but he moved on to work on GNOME and other projects. James Henstridge took over as lead developer, but he also moved on to other projects. He was followed by Cyrille Chepelov, then Lars Ræder Clausen.
+Dia is currently maintained by Hans Breuer, Steffen Macke and Sameer Sahasrabuddhe.
+It is written in C, and has an extension system which also supports writing extensions in Python.
+
+
+
+Information box
+{'Original author(s)': 'Alexander Larsson', 'Developer(s)': 'Dia developers', 'Initial release': '31 August 1998; 24 years ago[1]', 'Stable release': '0.97.3[2]  / 5 September 2014', 'Repository': 'gitlab.gnome.org/GNOME/dia/ (upstream), github.com/GNOME/dia (mirror)', 'Written in': 'C', 'Operating system': 'Windows, OS X, Linux, Unix', 'Type': 'Diagramming software', 'License': 'GPL-2.0-or-later', 'Website': 'GNOME Apps'}

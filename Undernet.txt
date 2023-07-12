@@ -1,0 +1,13 @@
+14713,
+Undernet,
+The Undernet is the third largest publicly monitored Internet Relay Chat (IRC) network, c. 2022, with about 36 client servers serving 47,444 users in ~6000 channels at any given time.[1][2]
+IRC clients can connect to Undernet via the global round robin irc.undernet.org, the region-specific round robins us.undernet.org and eu.undernet.org, IPv6 client servers irc6.undernet.org or a specific server from the server list.[3]
+Undernet was established in October 1992 by Danny Mitchell, Donald Lambert, and Laurent Demally as an experimental network running a modified version of the EFnet irc2.7 IRCd software, created in an attempt to make it less bandwidth-consumptive and less chaotic, as netsplits and takeovers were starting to plague EFnet.[4] The Undernet IRC daemon became known as "ircu". Undernet was formed at a time when many small IRC networks were being started and subsequently disappearing; however, it managed to grow into one of the largest and oldest IRC networks despite some initial in-fighting and setbacks. For a period in 1994, Undernet was wracked by an ongoing series of flame wars. Again in 2001, it was threatened by automated heavy spamming of its users for potential commercial gain. Undernet survived these periods relatively intact and its popularity continues to the present day.
+It is notable as being the first network to utilize timestamping, originally made by Carlo Wood, in the IRC server protocol as a means to curb abuse.
+Undernet uses GNUworld to provide X, its channel service bot.[5] X operates on a username basis; a username is independent from a nickname, which cannot be registered on Undernet.[5]
+As Undernet limits channel registration to "established channels" or channels with an active userbase, Undernet introduced a version of ChanFix (under the nickname C) designed to work like EFNet's CHANFIX. Its use is to protect unregistered channels. ChanFix tracks channel op usage by username basis and restores ops if channels become opless or are taken over.[6]
+
+
+
+Information box
+{'Founded': 'January 1993; 30 years ago', 'Geographic location': 'United States\nEurope\nCanada', 'Based in': 'Worldwide', 'Website URL': 'www.undernet.org', 'Primary DNS': 'irc.undernet.org', 'Average users': '18,000', 'Average channels': '7000', 'Average servers': '36', 'Content/subject': 'Public/Unrestricted'}

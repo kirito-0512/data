@@ -1,0 +1,9702 @@
+13860,
+Hahn–Banachtheorem,
+The Hahn–Banach theorem is a central tool in functional analysis. 
+It allows the extension of bounded linear functionals defined on a subspace of some vector space to the whole space, and it also shows that there are "enough" continuous linear functionals defined on every normed vector space to make the study of the dual space "interesting". Another version of the Hahn–Banach theorem is known as the Hahn–Banach separation theorem or the hyperplane separation theorem, and has numerous uses in convex geometry.
+The theorem is named for the mathematicians Hans Hahn and Stefan Banach, who proved it independently in the late 1920s. 
+The special case of the theorem for the space 
+
+
+
+C
+[
+a
+,
+b
+]
+
+
+{\displaystyle C[a,b]}
+
+ of continuous functions on an interval was proved earlier (in 1912) by Eduard Helly,[1] and a more general extension theorem, the M. Riesz extension theorem, from which the Hahn–Banach theorem can be derived, was proved in 1923 by Marcel Riesz.[2]
+The first Hahn–Banach theorem was proved by Eduard Helly in 1921 who showed that certain linear functionals defined on a subspace of a certain type of normed space (
+
+
+
+
+
+C
+
+
+
+N
+
+
+
+
+
+{\displaystyle \mathbb {C} ^{\mathbb {N} }}
+
+) had an extension of the same norm. Helly did this through the technique of first proving that a one-dimensional extension exists (where the linear functional has its domain extended by one dimension) and then using induction.  In 1927, Hahn defined general Banach spaces and used Helly's technique to prove a norm-preserving version of Hahn–Banach theorem for Banach spaces (where a bounded linear functional on a subspace has a bounded linear extension of the same norm to the whole space).  In 1929, Banach, who was unaware of Hahn's result, generalized it by replacing the norm-preserving version with the dominated extension version that uses sublinear functions.  Whereas Helly's proof used mathematical induction, Hahn and Banach both used transfinite induction.[3]
+The Hahn–Banach theorem arose from attempts to solve infinite systems of linear equations. This is needed to solve problems such as the moment problem, whereby given all the potential moments of a function one must determine if a function having these moments exists, and, if so, find it in terms of those moments. Another such problem is the Fourier cosine series problem, whereby given all the potential Fourier cosine coefficients one must determine if a function having those coefficients exists, and, again, find it if so.
+Riesz and Helly solved the problem for certain classes of spaces (such as 
+
+
+
+
+L
+
+p
+
+
+(
+[
+0
+,
+1
+]
+)
+
+
+{\displaystyle L^{p}([0,1])}
+
+ and 
+
+
+
+C
+(
+[
+a
+,
+b
+]
+)
+
+
+{\displaystyle C([a,b])}
+
+ where they discovered that the existence of a solution was equivalent to the existence and continuity of certain linear functionals.  In effect, they needed to solve the following problem:[3]
+If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ happens to be a reflexive space then to solve the vector problem, it suffices to solve the following dual problem:[3]
+Riesz went on to define 
+
+
+
+
+L
+
+p
+
+
+(
+[
+0
+,
+1
+]
+)
+
+
+{\displaystyle L^{p}([0,1])}
+
+ space (
+
+
+
+1
+<
+p
+<
+∞
+
+
+{\displaystyle 1<p<\infty }
+
+) in 1910 and the 
+
+
+
+
+ℓ
+
+p
+
+
+
+
+{\displaystyle \ell ^{p}}
+
+ spaces in 1913.  While investigating these spaces he proved a special case of the Hahn–Banach theorem.  Helly also proved a special case of the Hahn–Banach theorem in 1912.  In 1910, Riesz solved the functional problem for some specific spaces and in 1912, Helly solved it for a more general class of spaces. It wasn't until 1932 that Banach, in one of the first important applications of the Hahn–Banach theorem, solved the general functional problem.  The following theorem states the general functional problem and characterizes its solution.[3]
+Theorem[3] (The functional problem) — Let 
+
+
+
+
+
+(
+
+x
+
+i
+
+
+)
+
+
+i
+∈
+I
+
+
+
+
+{\displaystyle \left(x_{i}\right)_{i\in I}}
+
+ be vectors in a real or complex normed space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and let 
+
+
+
+
+
+(
+
+c
+
+i
+
+
+)
+
+
+i
+∈
+I
+
+
+
+
+{\displaystyle \left(c_{i}\right)_{i\in I}}
+
+ be scalars also indexed by 
+
+
+
+I
+≠
+∅
+.
+
+
+{\displaystyle I\neq \varnothing .}
+
+
+There exists a continuous linear functional 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that 
+
+
+
+f
+
+(
+
+x
+
+i
+
+
+)
+
+=
+
+c
+
+i
+
+
+
+
+{\displaystyle f\left(x_{i}\right)=c_{i}}
+
+ for all 
+
+
+
+i
+∈
+I
+
+
+{\displaystyle i\in I}
+
+ if and only if there exists a 
+
+
+
+K
+>
+0
+
+
+{\displaystyle K>0}
+
+ such that for any choice of scalars 
+
+
+
+
+
+(
+
+s
+
+i
+
+
+)
+
+
+i
+∈
+I
+
+
+
+
+{\displaystyle \left(s_{i}\right)_{i\in I}}
+
+ where all but finitely many 
+
+
+
+
+s
+
+i
+
+
+
+
+{\displaystyle s_{i}}
+
+ are 
+
+
+
+0
+,
+
+
+{\displaystyle 0,}
+
+ the following holds:
+
+
+
+
+
+|
+
+
+∑
+
+i
+∈
+I
+
+
+
+s
+
+i
+
+
+
+c
+
+i
+
+
+
+|
+
+≤
+K
+
+‖
+
+
+∑
+
+i
+∈
+I
+
+
+
+s
+
+i
+
+
+
+x
+
+i
+
+
+
+‖
+
+.
+
+
+{\displaystyle \left|\sum _{i\in I}s_{i}c_{i}\right|\leq K\left\|\sum _{i\in I}s_{i}x_{i}\right\|.}
+
+
+The Hahn–Banach theorem can be deduced from the above theorem.[3] If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is reflexive then this theorem solves the vector problem.
+A real-valued function 
+
+
+
+f
+:
+M
+→
+
+R
+
+
+
+{\displaystyle f:M\to \mathbb {R} }
+
+ defined on a subset 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is said to be dominated (above) by a function 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ if 
+
+
+
+f
+(
+m
+)
+≤
+p
+(
+m
+)
+
+
+{\displaystyle f(m)\leq p(m)}
+
+ for every 
+
+
+
+m
+∈
+M
+.
+
+
+{\displaystyle m\in M.}
+
+ 
+Hence the reason why the following version of the Hahn-Banach theorem is called the dominated extension theorem. 
+Hahn–Banach dominated extension theorem (for real linear functionals)[4][5][6] — If 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ is a sublinear function (such as a norm or seminorm for example) defined on a real vector space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ then any linear functional defined on a vector subspace of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that is dominated above by 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ has at least one linear extension to all of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that is also dominated above by 
+
+
+
+p
+.
+
+
+{\displaystyle p.}
+
+
+Explicitly, if 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ is a sublinear function, which by definition means that it satisfies 
+
+
+
+
+p
+(
+x
++
+y
+)
+≤
+p
+(
+x
+)
++
+p
+(
+y
+)
+
+
+ and 
+
+
+p
+(
+t
+x
+)
+=
+t
+p
+(
+x
+)
+
+
+ for all 
+
+
+x
+,
+y
+∈
+X
+
+
+ and all real 
+
+
+t
+≥
+0
+,
+
+
+{\displaystyle p(x+y)\leq p(x)+p(y)\quad {\text{ and }}\quad p(tx)=tp(x)\qquad {\text{ for all }}\;x,y\in X\;{\text{ and all real }}\;t\geq 0,}
+
+ 
+and if 
+
+
+
+f
+:
+M
+→
+
+R
+
+
+
+{\displaystyle f:M\to \mathbb {R} }
+
+ is a linear functional defined on a vector subspace 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that 
+
+
+
+
+f
+(
+m
+)
+≤
+p
+(
+m
+)
+
+
+ for all 
+
+m
+∈
+M
+
+
+{\displaystyle f(m)\leq p(m)\quad {\text{ for all }}m\in M}
+
+ 
+then there exists a linear functional 
+
+
+
+F
+:
+X
+→
+
+R
+
+
+
+{\displaystyle F:X\to \mathbb {R} }
+
+ such that
+
+
+
+
+F
+(
+m
+)
+=
+f
+(
+m
+)
+
+
+ for all 
+
+m
+∈
+M
+,
+
+
+{\displaystyle F(m)=f(m)\quad {\text{ for all }}m\in M,}
+
+
+
+
+
+
+F
+(
+x
+)
+≤
+p
+(
+x
+)
+
+ 
+
+
+
+ for all 
+
+x
+∈
+X
+.
+
+
+{\displaystyle F(x)\leq p(x)\quad ~\;\,{\text{ for all }}x\in X.}
+
+ 
+Moreover, if 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is a seminorm then 
+
+
+
+
+|
+
+F
+(
+x
+)
+
+|
+
+≤
+p
+(
+x
+)
+
+
+{\displaystyle |F(x)|\leq p(x)}
+
+ necessarily holds for all 
+
+
+
+x
+∈
+X
+.
+
+
+{\displaystyle x\in X.}
+
+
+The theorem remains true if the requirements on 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ are relaxed to require only that 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ be a convex function:[7][8]
+
+
+
+
+p
+(
+t
+x
++
+(
+1
+−
+t
+)
+y
+)
+≤
+t
+p
+(
+x
+)
++
+(
+1
+−
+t
+)
+p
+(
+y
+)
+
+
+ for all 
+
+0
+<
+t
+<
+1
+
+ and 
+
+x
+,
+y
+∈
+X
+.
+
+
+{\displaystyle p(tx+(1-t)y)\leq tp(x)+(1-t)p(y)\qquad {\text{ for all }}0<t<1{\text{ and }}x,y\in X.}
+
+ 
+A function 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ is convex and satisfies 
+
+
+
+p
+(
+0
+)
+≤
+0
+
+
+{\displaystyle p(0)\leq 0}
+
+ if and only if 
+
+
+
+p
+(
+a
+x
++
+b
+y
+)
+≤
+a
+p
+(
+x
+)
++
+b
+p
+(
+y
+)
+
+
+{\displaystyle p(ax+by)\leq ap(x)+bp(y)}
+
+ for all vectors 
+
+
+
+x
+,
+y
+∈
+X
+
+
+{\displaystyle x,y\in X}
+
+ and all non-negative real 
+
+
+
+a
+,
+b
+≥
+0
+
+
+{\displaystyle a,b\geq 0}
+
+ such that 
+
+
+
+a
++
+b
+≤
+1.
+
+
+{\displaystyle a+b\leq 1.}
+
+ Every sublinear function is a convex function. 
+On the other hand, if 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ is convex with 
+
+
+
+p
+(
+0
+)
+≥
+0
+,
+
+
+{\displaystyle p(0)\geq 0,}
+
+ then the function defined by 
+
+
+
+
+p
+
+0
+
+
+(
+x
+)
+
+
+
+
+
+=
+
+
+
+
+def
+
+
+
+
+
+
+
+
+inf
+
+t
+>
+0
+
+
+
+
+
+p
+(
+t
+x
+)
+
+t
+
+
+
+
+{\displaystyle p_{0}(x)\;{\stackrel {\scriptscriptstyle {\text{def}}}{=}}\;\inf _{t>0}{\frac {p(tx)}{t}}}
+
+ is sublinear,[citation needed] bounded above by 
+
+
+
+
+p
+
+0
+
+
+≤
+p
+,
+
+
+{\displaystyle p_{0}\leq p,}
+
+ and satisfies 
+
+
+
+F
+≤
+
+p
+
+0
+
+
+
+
+{\displaystyle F\leq p_{0}}
+
+ for every linear functional 
+
+
+
+F
+≤
+p
+.
+
+
+{\displaystyle F\leq p.}
+
+ So the extension of the Hahn–Banach theorem to convex functionals does not have a much larger content than the classical one stated for sublinear functionals.
+If 
+
+
+
+F
+:
+X
+→
+
+R
+
+
+
+{\displaystyle F:X\to \mathbb {R} }
+
+ is linear then 
+
+
+
+F
+≤
+p
+
+
+{\displaystyle F\leq p}
+
+ if and only if[4] 
+
+
+
+−
+p
+(
+−
+x
+)
+≤
+F
+(
+x
+)
+≤
+p
+(
+x
+)
+
+
+ for all 
+
+x
+∈
+X
+,
+
+
+{\displaystyle -p(-x)\leq F(x)\leq p(x)\quad {\text{ for all }}x\in X,}
+
+ 
+which is the (equivalent) conclusion that some authors[4] write instead of 
+
+
+
+F
+≤
+p
+.
+
+
+{\displaystyle F\leq p.}
+
+
+It follows that if 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ is also symmetric, meaning that 
+
+
+
+p
+(
+−
+x
+)
+=
+p
+(
+x
+)
+
+
+{\displaystyle p(-x)=p(x)}
+
+ holds for all 
+
+
+
+x
+∈
+X
+,
+
+
+{\displaystyle x\in X,}
+
+ then 
+
+
+
+F
+≤
+p
+
+
+{\displaystyle F\leq p}
+
+ if and only 
+
+
+
+
+|
+
+F
+
+|
+
+≤
+p
+.
+
+
+{\displaystyle |F|\leq p.}
+
+ 
+Every norm is a seminorm and both are symmetric balanced sublinear functions. A sublinear function is a seminorm if and only if it is a balanced function. On a real vector space (although not on a complex vector space), a sublinear function is a seminorm if and only if it is symmetric. The identity function 
+
+
+
+
+R
+
+→
+
+R
+
+
+
+{\displaystyle \mathbb {R} \to \mathbb {R} }
+
+ on 
+
+
+
+X
+:=
+
+R
+
+
+
+{\displaystyle X:=\mathbb {R} }
+
+ is an example of a sublinear function that is not a seminorm. 
+The dominated extension theorem for real linear functionals implies the following alternative statement of the Hahn–Banach theorem that can be applied to linear functionals on real or complex vector spaces. 
+Hahn–Banach theorem[3][9] — Suppose 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ a seminorm on a vector space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ over the field 
+
+
+
+
+K
+
+,
+
+
+{\displaystyle \mathbf {K} ,}
+
+ which is either 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ or 
+
+
+
+
+C
+
+.
+
+
+{\displaystyle \mathbb {C} .}
+
+ 
+If 
+
+
+
+f
+:
+M
+→
+
+K
+
+
+
+{\displaystyle f:M\to \mathbf {K} }
+
+ is a linear functional on a vector subspace 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ such that 
+
+
+
+
+
+|
+
+f
+(
+m
+)
+
+|
+
+≤
+p
+(
+m
+)
+
+
+ for all 
+
+m
+∈
+M
+.
+
+
+{\displaystyle |f(m)|\leq p(m)\quad {\text{ for all }}m\in M.}
+
+
+then there exists a linear functional 
+
+
+
+F
+:
+X
+→
+
+K
+
+
+
+{\displaystyle F:X\to \mathbf {K} }
+
+ such that
+
+
+
+
+F
+(
+m
+)
+=
+f
+(
+m
+)
+
+
+
+ for all 
+
+m
+∈
+M
+,
+
+
+{\displaystyle F(m)=f(m)\quad \;{\text{ for all }}m\in M,}
+
+
+
+
+
+
+
+|
+
+F
+(
+x
+)
+
+|
+
+≤
+p
+(
+x
+)
+
+
+
+
+ for all 
+
+x
+∈
+X
+.
+
+
+{\displaystyle |F(x)|\leq p(x)\quad \;\,{\text{ for all }}x\in X.}
+
+
+The theorem remains true if the requirements on 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ are relaxed to require only that for all 
+
+
+
+x
+,
+y
+∈
+X
+
+
+{\displaystyle x,y\in X}
+
+ and all scalars 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ satisfying 
+
+
+
+
+|
+
+a
+
+|
+
++
+
+|
+
+b
+
+|
+
+≤
+1
+,
+
+
+{\displaystyle |a|+|b|\leq 1,}
+
+[8]
+
+
+
+
+p
+(
+a
+x
++
+b
+y
+)
+≤
+
+|
+
+a
+
+|
+
+p
+(
+x
+)
++
+
+|
+
+b
+
+|
+
+p
+(
+y
+)
+.
+
+
+{\displaystyle p(ax+by)\leq |a|p(x)+|b|p(y).}
+
+
+This condition holds if and only if 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is a convex and balanced function satisfying 
+
+
+
+p
+(
+0
+)
+≤
+0
+,
+
+
+{\displaystyle p(0)\leq 0,}
+
+ or equivalently, if and only if it is convex, satisfies 
+
+
+
+p
+(
+0
+)
+≤
+0
+,
+
+
+{\displaystyle p(0)\leq 0,}
+
+ and 
+
+
+
+p
+(
+u
+x
+)
+≤
+p
+(
+x
+)
+
+
+{\displaystyle p(ux)\leq p(x)}
+
+ for all 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ and all unit length scalars 
+
+
+
+u
+.
+
+
+{\displaystyle u.}
+
+
+A complex-valued functional 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is said to be dominated by 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ if 
+
+
+
+
+|
+
+F
+(
+x
+)
+
+|
+
+≤
+p
+(
+x
+)
+
+
+{\displaystyle |F(x)|\leq p(x)}
+
+ for all 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in the domain of 
+
+
+
+F
+.
+
+
+{\displaystyle F.}
+
+ 
+With this terminology, the above statements of the Hahn–Banach theorem can be restated more succinctly:
+Proof
+The following observations allow the Hahn–Banach theorem for real vector spaces to be applied to (complex-valued) linear functionals on complex vector spaces.
+Every linear functional 
+
+
+
+F
+:
+X
+→
+
+C
+
+
+
+{\displaystyle F:X\to \mathbb {C} }
+
+ on a complex vector space is completely determined by its real part 
+
+
+
+
+Re
+⁡
+F
+:
+X
+→
+
+R
+
+
+
+
+{\displaystyle \;\operatorname {Re} F:X\to \mathbb {R} \;}
+
+ through the formula[6][proof 1]
+
+
+
+
+F
+(
+x
+)
+
+=
+
+Re
+⁡
+F
+(
+x
+)
+−
+i
+Re
+⁡
+F
+(
+i
+x
+)
+
+
+ for all 
+
+x
+∈
+X
+
+
+{\displaystyle F(x)\;=\;\operatorname {Re} F(x)-i\operatorname {Re} F(ix)\qquad {\text{ for all }}x\in X}
+
+
+and moreover, if 
+
+
+
+‖
+⋅
+‖
+
+
+{\displaystyle \|\cdot \|}
+
+ is a norm on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ then their dual norms are equal: 
+
+
+
+‖
+F
+‖
+=
+‖
+Re
+⁡
+F
+‖
+.
+
+
+{\displaystyle \|F\|=\|\operatorname {Re} F\|.}
+
+[10] 
+In particular, a linear functional on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ extends another one defined on 
+
+
+
+M
+⊆
+X
+
+
+{\displaystyle M\subseteq X}
+
+ if and only if their real parts are equal on 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ (in other words, a linear functional 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ extends 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ if and only if 
+
+
+
+Re
+⁡
+F
+
+
+{\displaystyle \operatorname {Re} F}
+
+ extends 
+
+
+
+Re
+⁡
+f
+
+
+{\displaystyle \operatorname {Re} f}
+
+). 
+The real part of a linear functional on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is always a real-linear functional (meaning that it is linear when 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is considered as a real vector space) and if 
+
+
+
+R
+:
+X
+→
+
+R
+
+
+
+{\displaystyle R:X\to \mathbb {R} }
+
+ is a real-linear functional on a complex vector space then 
+
+
+
+x
+↦
+R
+(
+x
+)
+−
+i
+R
+(
+i
+x
+)
+
+
+{\displaystyle x\mapsto R(x)-iR(ix)}
+
+ defines the unique linear functional on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ whose real part is 
+
+
+
+R
+.
+
+
+{\displaystyle R.}
+
+
+If 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is a linear functional on a (complex or real) vector space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and if 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ is a seminorm then[6][proof 2]
+
+
+
+
+
+|
+
+F
+
+|
+
+
+≤
+
+p
+
+
+ if and only if 
+
+
+Re
+⁡
+F
+
+≤
+
+p
+.
+
+
+{\displaystyle |F|\,\leq \,p\quad {\text{ if and only if }}\quad \operatorname {Re} F\,\leq \,p.}
+
+
+Stated in simpler language, a linear functional is dominated by a seminorm 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ if and only if its real part is dominated above by 
+
+
+
+p
+.
+
+
+{\displaystyle p.}
+
+
+Suppose 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ is a seminorm on a complex vector space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and let 
+
+
+
+f
+:
+M
+→
+
+C
+
+
+
+{\displaystyle f:M\to \mathbb {C} }
+
+ be a linear functional defined on a vector subspace 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that satisfies 
+
+
+
+
+|
+
+f
+
+|
+
+≤
+p
+
+
+{\displaystyle |f|\leq p}
+
+ on 
+
+
+
+M
+.
+
+
+{\displaystyle M.}
+
+ 
+Consider 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ as a real vector space and apply the Hahn–Banach theorem for real vector spaces to the real-linear functional 
+
+
+
+
+Re
+⁡
+f
+:
+M
+→
+
+R
+
+
+
+
+{\displaystyle \;\operatorname {Re} f:M\to \mathbb {R} \;}
+
+ to obtain a real-linear extension 
+
+
+
+R
+:
+X
+→
+
+R
+
+
+
+{\displaystyle R:X\to \mathbb {R} }
+
+ that is also dominated above by 
+
+
+
+p
+,
+
+
+{\displaystyle p,}
+
+ so that it satisfies 
+
+
+
+R
+≤
+p
+
+
+{\displaystyle R\leq p}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+R
+=
+Re
+⁡
+f
+
+
+{\displaystyle R=\operatorname {Re} f}
+
+ on 
+
+
+
+M
+.
+
+
+{\displaystyle M.}
+
+ 
+The map 
+
+
+
+F
+:
+X
+→
+
+C
+
+
+
+{\displaystyle F:X\to \mathbb {C} }
+
+ defined by 
+
+
+
+F
+(
+x
+)
+
+=
+
+R
+(
+x
+)
+−
+i
+R
+(
+i
+x
+)
+
+
+{\displaystyle F(x)\;=\;R(x)-iR(ix)}
+
+ is a linear functional on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that extends 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ (because their real parts agree on 
+
+
+
+M
+
+
+{\displaystyle M}
+
+) and satisfies 
+
+
+
+
+|
+
+F
+
+|
+
+≤
+p
+
+
+{\displaystyle |F|\leq p}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ (because 
+
+
+
+Re
+⁡
+F
+≤
+p
+
+
+{\displaystyle \operatorname {Re} F\leq p}
+
+ and 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is a seminorm). 
+
+
+
+
+◼
+
+
+{\displaystyle \blacksquare }
+
+
+The proof above shows that when 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is a seminorm then there is a one-to-one correspondence between dominated linear extensions of 
+
+
+
+f
+:
+M
+→
+
+C
+
+
+
+{\displaystyle f:M\to \mathbb {C} }
+
+ and dominated real-linear extensions of 
+
+
+
+Re
+⁡
+f
+:
+M
+→
+
+R
+
+;
+
+
+{\displaystyle \operatorname {Re} f:M\to \mathbb {R} ;}
+
+ the proof even gives a formula for explicitly constructing a linear extension of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ from any given real-linear extension of its real part.
+Continuity
+A linear functional 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ on a topological vector space  is continuous if and only if this is true of its real part 
+
+
+
+Re
+⁡
+F
+;
+
+
+{\displaystyle \operatorname {Re} F;}
+
+ if the domain is a normed space then 
+
+
+
+‖
+F
+‖
+=
+‖
+Re
+⁡
+F
+‖
+
+
+{\displaystyle \|F\|=\|\operatorname {Re} F\|}
+
+ (where one side is infinite if and only if the other side is infinite).[10] 
+Assume 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a topological vector space and 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ is sublinear function. 
+If 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is a continuous sublinear function that dominates a linear functional 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ then 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is necessarily continuous.[6] Moreover, a linear functional 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is continuous if and only if its absolute value 
+
+
+
+
+|
+
+F
+
+|
+
+
+
+{\displaystyle |F|}
+
+ (which is a seminorm that dominates 
+
+
+
+F
+
+
+{\displaystyle F}
+
+) is continuous.[6] In particular, a linear functional is continuous if and only if it is dominated by some continuous sublinear function.
+The Hahn–Banach theorem for real vector spaces ultimately follows from Helly's initial result for the special case where the linear functional is extended from 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ to a larger vector space in which 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ has codimension 
+
+
+
+1.
+
+
+{\displaystyle 1.}
+
+[3]
+Lemma[6] (One–dimensional dominated extension theorem) — Let 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ be a sublinear function on a real vector space 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ let 
+
+
+
+f
+:
+M
+→
+
+R
+
+
+
+{\displaystyle f:M\to \mathbb {R} }
+
+ a linear functional on a proper vector subspace 
+
+
+
+M
+⊊
+X
+
+
+{\displaystyle M\subsetneq X}
+
+ such that 
+
+
+
+f
+≤
+p
+
+
+{\displaystyle f\leq p}
+
+ on 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ (meaning 
+
+
+
+f
+(
+m
+)
+≤
+p
+(
+m
+)
+
+
+{\displaystyle f(m)\leq p(m)}
+
+ for all 
+
+
+
+m
+∈
+M
+
+
+{\displaystyle m\in M}
+
+), and let 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ be a vector not in 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ (so 
+
+
+
+M
+⊕
+
+R
+
+x
+=
+span
+⁡
+{
+M
+,
+x
+}
+
+
+{\displaystyle M\oplus \mathbb {R} x=\operatorname {span} \{M,x\}}
+
+). 
+There exists a linear extension 
+
+
+
+F
+:
+M
+⊕
+
+R
+
+x
+→
+
+R
+
+
+
+{\displaystyle F:M\oplus \mathbb {R} x\to \mathbb {R} }
+
+ of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ such that 
+
+
+
+F
+≤
+p
+
+
+{\displaystyle F\leq p}
+
+ on 
+
+
+
+M
+⊕
+
+R
+
+x
+.
+
+
+{\displaystyle M\oplus \mathbb {R} x.}
+
+
+Given any real number 
+
+
+
+b
+,
+
+
+{\displaystyle b,}
+
+ the map 
+
+
+
+
+F
+
+b
+
+
+:
+M
+⊕
+
+R
+
+x
+→
+
+R
+
+
+
+{\displaystyle F_{b}:M\oplus \mathbb {R} x\to \mathbb {R} }
+
+ defined by 
+
+
+
+
+F
+
+b
+
+
+(
+m
++
+r
+x
+)
+=
+f
+(
+m
+)
++
+r
+b
+
+
+{\displaystyle F_{b}(m+rx)=f(m)+rb}
+
+ is always a linear extension of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ to 
+
+
+
+M
+⊕
+
+R
+
+x
+
+
+{\displaystyle M\oplus \mathbb {R} x}
+
+[note 1] but it might not satisfy 
+
+
+
+
+F
+
+b
+
+
+≤
+p
+.
+
+
+{\displaystyle F_{b}\leq p.}
+
+ 
+It will be shown that 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ can always be chosen so as to guarantee that 
+
+
+
+
+F
+
+b
+
+
+≤
+p
+,
+
+
+{\displaystyle F_{b}\leq p,}
+
+ which will complete the proof. 
+If 
+
+
+
+m
+,
+n
+∈
+M
+
+
+{\displaystyle m,n\in M}
+
+ then 
+
+
+
+
+f
+(
+m
+)
+−
+f
+(
+n
+)
+=
+f
+(
+m
+−
+n
+)
+≤
+p
+(
+m
+−
+n
+)
+=
+p
+(
+m
++
+x
+−
+x
+−
+n
+)
+≤
+p
+(
+m
++
+x
+)
++
+p
+(
+−
+x
+−
+n
+)
+
+
+{\displaystyle f(m)-f(n)=f(m-n)\leq p(m-n)=p(m+x-x-n)\leq p(m+x)+p(-x-n)}
+
+
+which implies
+
+
+
+
+−
+p
+(
+−
+n
+−
+x
+)
+−
+f
+(
+n
+)
+ 
+≤
+ 
+p
+(
+m
++
+x
+)
+−
+f
+(
+m
+)
+.
+
+
+{\displaystyle -p(-n-x)-f(n)~\leq ~p(m+x)-f(m).}
+
+
+So define
+
+
+
+
+a
+=
+
+sup
+
+n
+∈
+M
+
+
+[
+−
+p
+(
+−
+n
+−
+x
+)
+−
+f
+(
+n
+)
+]
+
+
+ and 
+
+
+c
+=
+
+inf
+
+m
+∈
+M
+
+
+[
+p
+(
+m
++
+x
+)
+−
+f
+(
+m
+)
+]
+
+
+{\displaystyle a=\sup _{n\in M}[-p(-n-x)-f(n)]\qquad {\text{ and }}\qquad c=\inf _{m\in M}[p(m+x)-f(m)]}
+
+
+where 
+
+
+
+a
+≤
+c
+
+
+{\displaystyle a\leq c}
+
+ are real numbers. 
+To guarantee 
+
+
+
+
+F
+
+b
+
+
+≤
+p
+,
+
+
+{\displaystyle F_{b}\leq p,}
+
+ it suffices that 
+
+
+
+a
+≤
+b
+≤
+c
+
+
+{\displaystyle a\leq b\leq c}
+
+ (in fact, this is also necessary[note 2]) because then 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ satisfies "the decisive inequality"[6]
+
+
+
+
+−
+p
+(
+−
+n
+−
+x
+)
+−
+f
+(
+n
+)
+ 
+≤
+ 
+b
+ 
+≤
+ 
+p
+(
+m
++
+x
+)
+−
+f
+(
+m
+)
+
+
+ for all 
+
+
+m
+,
+n
+∈
+M
+.
+
+
+{\displaystyle -p(-n-x)-f(n)~\leq ~b~\leq ~p(m+x)-f(m)\qquad {\text{ for all }}\;m,n\in M.}
+
+
+To see that 
+
+
+
+f
+(
+m
+)
++
+r
+b
+≤
+p
+(
+m
++
+r
+x
+)
+
+
+{\displaystyle f(m)+rb\leq p(m+rx)}
+
+ follows,[note 3] assume 
+
+
+
+r
+≠
+0
+
+
+{\displaystyle r\neq 0}
+
+ and substitute 
+
+
+
+
+
+
+1
+r
+
+
+
+m
+
+
+{\displaystyle {\tfrac {1}{r}}m}
+
+ in for both 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ and 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ to obtain
+
+
+
+
+−
+p
+
+(
+
+−
+
+
+
+1
+r
+
+
+
+m
+−
+x
+
+)
+
+−
+
+
+
+1
+r
+
+
+
+f
+
+(
+m
+)
+
+ 
+≤
+ 
+b
+ 
+≤
+ 
+p
+
+(
+
+
+
+
+1
+r
+
+
+
+m
++
+x
+
+)
+
+−
+
+
+
+1
+r
+
+
+
+f
+
+(
+m
+)
+
+.
+
+
+{\displaystyle -p\left(-{\tfrac {1}{r}}m-x\right)-{\tfrac {1}{r}}f\left(m\right)~\leq ~b~\leq ~p\left({\tfrac {1}{r}}m+x\right)-{\tfrac {1}{r}}f\left(m\right).}
+
+ 
+If 
+
+
+
+r
+>
+0
+
+
+{\displaystyle r>0}
+
+ (respectively, if 
+
+
+
+r
+<
+0
+
+
+{\displaystyle r<0}
+
+) then the right (respectively, the left) hand side equals 
+
+
+
+
+
+
+1
+r
+
+
+
+
+[
+
+p
+(
+m
++
+r
+x
+)
+−
+f
+(
+m
+)
+
+]
+
+
+
+{\displaystyle {\tfrac {1}{r}}\left[p(m+rx)-f(m)\right]}
+
+ so that multiplying by 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ gives 
+
+
+
+r
+b
+≤
+p
+(
+m
++
+r
+x
+)
+−
+f
+(
+m
+)
+.
+
+
+{\displaystyle rb\leq p(m+rx)-f(m).}
+
+
+
+
+
+
+◼
+
+
+{\displaystyle \blacksquare }
+
+
+This lemma remains true if 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ is merely a convex function instead of a sublinear function.[7][8]
+Assume that 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is convex, which means that 
+
+
+
+p
+(
+t
+y
++
+(
+1
+−
+t
+)
+z
+)
+≤
+t
+p
+(
+y
+)
++
+(
+1
+−
+t
+)
+p
+(
+z
+)
+
+
+{\displaystyle p(ty+(1-t)z)\leq tp(y)+(1-t)p(z)}
+
+ for all 
+
+
+
+0
+≤
+t
+≤
+1
+
+
+{\displaystyle 0\leq t\leq 1}
+
+ and 
+
+
+
+y
+,
+z
+∈
+X
+.
+
+
+{\displaystyle y,z\in X.}
+
+ Let 
+
+
+
+M
+,
+
+
+{\displaystyle M,}
+
+ 
+
+
+
+f
+:
+M
+→
+
+R
+
+,
+
+
+{\displaystyle f:M\to \mathbb {R} ,}
+
+ and 
+
+
+
+x
+∈
+X
+∖
+M
+
+
+{\displaystyle x\in X\setminus M}
+
+ be as in the lemma's statement. Given any 
+
+
+
+m
+,
+n
+∈
+M
+
+
+{\displaystyle m,n\in M}
+
+ and any positive real 
+
+
+
+r
+,
+s
+>
+0
+,
+
+
+{\displaystyle r,s>0,}
+
+ the positive real numbers 
+
+
+
+t
+:=
+
+
+
+s
+
+r
++
+s
+
+
+
+
+
+
+{\displaystyle t:={\tfrac {s}{r+s}}}
+
+ and 
+
+
+
+
+
+
+r
+
+r
++
+s
+
+
+
+
+=
+1
+−
+t
+
+
+{\displaystyle {\tfrac {r}{r+s}}=1-t}
+
+ sum to 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+ so that the convexity of 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ guarantees
+
+
+
+
+
+
+
+
+p
+
+(
+
+
+
+
+s
+
+r
++
+s
+
+
+
+
+m
++
+
+
+
+r
+
+r
++
+s
+
+
+
+
+n
+
+)
+
+ 
+
+
+
+=
+ 
+p
+
+
+(
+
+
+
+
+
+s
+
+r
++
+s
+
+
+
+
+(
+m
+−
+r
+x
+)
+
+
+
+
++
+
+
+
+r
+
+r
++
+s
+
+
+
+
+(
+n
++
+s
+x
+)
+
+
+)
+
+
+
+
+
+
+
+
+
+
+≤
+ 
+
+
+
+s
+
+r
++
+s
+
+
+
+
+
+p
+(
+m
+−
+r
+x
+)
+
+
+
+
++
+
+
+
+r
+
+r
++
+s
+
+
+
+
+
+p
+(
+n
++
+s
+x
+)
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{alignedat}{9}p\left({\tfrac {s}{r+s}}m+{\tfrac {r}{r+s}}n\right)~&=~p{\big (}{\tfrac {s}{r+s}}(m-rx)&&+{\tfrac {r}{r+s}}(n+sx){\big )}&&\\&\leq ~{\tfrac {s}{r+s}}\;p(m-rx)&&+{\tfrac {r}{r+s}}\;p(n+sx)&&\\\end{alignedat}}}
+
+
+and hence
+
+
+
+
+
+
+
+
+s
+f
+(
+m
+)
++
+r
+f
+(
+n
+)
+ 
+
+
+
+=
+ 
+(
+r
++
+s
+)
+
+f
+
+(
+
+
+
+
+s
+
+r
++
+s
+
+
+
+
+m
++
+
+
+
+r
+
+r
++
+s
+
+
+
+
+n
+
+)
+
+
+
+
+
+
+ by linearity of 
+
+f
+
+
+
+
+
+
+≤
+ 
+(
+r
++
+s
+)
+
+p
+
+(
+
+
+
+
+s
+
+r
++
+s
+
+
+
+
+m
++
+
+
+
+r
+
+r
++
+s
+
+
+
+
+n
+
+)
+
+
+
+
+
+f
+≤
+p
+
+ on 
+
+M
+
+
+
+
+
+
+≤
+ 
+s
+p
+(
+m
+−
+r
+x
+)
++
+r
+p
+(
+n
++
+s
+x
+)
+
+
+
+
+
+
+{\displaystyle {\begin{alignedat}{9}sf(m)+rf(n)~&=~(r+s)\;f\left({\tfrac {s}{r+s}}m+{\tfrac {r}{r+s}}n\right)&&\qquad {\text{ by linearity of }}f\\&\leq ~(r+s)\;p\left({\tfrac {s}{r+s}}m+{\tfrac {r}{r+s}}n\right)&&\qquad f\leq p{\text{ on }}M\\&\leq ~sp(m-rx)+rp(n+sx)\\\end{alignedat}}}
+
+
+thus proving that 
+
+
+
+−
+s
+p
+(
+m
+−
+r
+x
+)
++
+s
+f
+(
+m
+)
+ 
+≤
+ 
+r
+p
+(
+n
++
+s
+x
+)
+−
+r
+f
+(
+n
+)
+,
+
+
+{\displaystyle -sp(m-rx)+sf(m)~\leq ~rp(n+sx)-rf(n),}
+
+ which after multiplying both sides by 
+
+
+
+
+
+
+1
+
+r
+s
+
+
+
+
+
+
+{\displaystyle {\tfrac {1}{rs}}}
+
+ becomes 
+
+
+
+
+
+
+
+1
+r
+
+
+
+[
+−
+p
+(
+m
+−
+r
+x
+)
++
+f
+(
+m
+)
+]
+ 
+≤
+ 
+
+
+
+1
+s
+
+
+
+[
+p
+(
+n
++
+s
+x
+)
+−
+f
+(
+n
+)
+]
+.
+
+
+{\displaystyle {\tfrac {1}{r}}[-p(m-rx)+f(m)]~\leq ~{\tfrac {1}{s}}[p(n+sx)-f(n)].}
+
+ 
+This implies that the values defined by 
+
+
+
+
+a
+=
+
+sup
+
+
+
+
+r
+>
+0
+
+
+m
+∈
+M
+
+
+
+
+
+
+
+
+1
+r
+
+
+
+[
+−
+p
+(
+m
+−
+r
+x
+)
++
+f
+(
+m
+)
+]
+
+
+ and 
+
+
+c
+=
+
+inf
+
+
+
+
+s
+>
+0
+
+
+n
+∈
+M
+
+
+
+
+
+
+
+
+1
+s
+
+
+
+[
+p
+(
+n
++
+s
+x
+)
+−
+f
+(
+n
+)
+]
+
+
+{\displaystyle a=\sup _{\stackrel {m\in M}{r>0}}{\tfrac {1}{r}}[-p(m-rx)+f(m)]\qquad {\text{ and }}\qquad c=\inf _{\stackrel {n\in M}{s>0}}{\tfrac {1}{s}}[p(n+sx)-f(n)]}
+
+ 
+are real numbers that satisfy 
+
+
+
+a
+≤
+c
+.
+
+
+{\displaystyle a\leq c.}
+
+ As in the above proof of the one–dimensional dominated extension theorem above, for any real 
+
+
+
+b
+∈
+
+R
+
+
+
+{\displaystyle b\in \mathbb {R} }
+
+ define 
+
+
+
+
+F
+
+b
+
+
+:
+M
+⊕
+
+R
+
+x
+→
+
+R
+
+
+
+{\displaystyle F_{b}:M\oplus \mathbb {R} x\to \mathbb {R} }
+
+ by 
+
+
+
+
+F
+
+b
+
+
+(
+m
++
+r
+x
+)
+=
+f
+(
+m
+)
++
+r
+b
+.
+
+
+{\displaystyle F_{b}(m+rx)=f(m)+rb.}
+
+ 
+It can be verified that if 
+
+
+
+a
+≤
+b
+≤
+c
+
+
+{\displaystyle a\leq b\leq c}
+
+ then 
+
+
+
+
+F
+
+b
+
+
+≤
+p
+
+
+{\displaystyle F_{b}\leq p}
+
+ where 
+
+
+
+r
+b
+≤
+p
+(
+m
++
+r
+x
+)
+−
+f
+(
+m
+)
+
+
+{\displaystyle rb\leq p(m+rx)-f(m)}
+
+ follows from 
+
+
+
+b
+≤
+c
+
+
+{\displaystyle b\leq c}
+
+ when 
+
+
+
+r
+>
+0
+
+
+{\displaystyle r>0}
+
+ (respectively, follows from 
+
+
+
+a
+≤
+b
+
+
+{\displaystyle a\leq b}
+
+ when 
+
+
+
+r
+<
+0
+
+
+{\displaystyle r<0}
+
+).
+
+
+
+
+◼
+
+
+{\displaystyle \blacksquare }
+
+
+The lemma above is the key step in deducing the dominated extension theorem from Zorn's lemma. 
+The set of all possible dominated linear extensions of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ are partially ordered by extension of each other, so there is a maximal extension 
+
+
+
+F
+.
+
+
+{\displaystyle F.}
+
+  By the codimension-1 result, if 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is not defined on all of 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ then it can be further extended.  Thus 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ must be defined everywhere, as claimed. 
+
+
+
+
+◼
+
+
+{\displaystyle \blacksquare }
+
+
+When 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ has countable codimension, then using induction and the lemma completes the proof of the Hahn–Banach theorem. The standard proof of the general case uses Zorn's lemma although the strictly weaker ultrafilter lemma[11] (which is equivalent to the compactness theorem and to the Boolean prime ideal theorem) may be used instead. Hahn-Banach can also be proved using Tychonoff's theorem for compact Hausdorff spaces[12] (which is also equivalent to the ultrafilter lemma)
+The Mizar project has completely formalized and automatically checked the proof of the Hahn–Banach theorem in the HAHNBAN file.[13]
+The Hahn–Banach theorem can be used to guarantee the existence of continuous linear extensions of continuous linear functionals.
+Hahn–Banach continuous extension theorem[14] — Every continuous linear functional 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ defined on a vector subspace 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ of a (real or complex) locally convex topological vector space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ has a continuous linear extension 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ to all of 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ If in addition 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a normed space, then this extension can be chosen so that its dual norm is equal to that of 
+
+
+
+f
+.
+
+
+{\displaystyle f.}
+
+
+In category-theoretic terms, the underlying field of the vector space is an injective object in the category of locally convex vector spaces.
+On a normed (or seminormed) space, a linear extension 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ of a bounded linear functional 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is said to be norm-preserving if it has the same dual norm as the original functional: 
+
+
+
+‖
+F
+‖
+=
+‖
+f
+‖
+.
+
+
+{\displaystyle \|F\|=\|f\|.}
+
+
+Because of this terminology, the second part of the above theorem is sometimes referred to as the "norm-preserving" version of the Hahn–Banach theorem.[15] Explicitly:
+Norm-preserving Hahn–Banach continuous extension theorem[15] — Every continuous linear functional 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ defined on a vector subspace 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ of a (real or complex) normed space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ has a continuous linear extension 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ to all of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that satisfies 
+
+
+
+‖
+f
+‖
+=
+‖
+F
+‖
+.
+
+
+{\displaystyle \|f\|=\|F\|.}
+
+
+The following observations allow the continuous extension theorem to be deduced from the Hahn–Banach theorem.[16]
+The absolute value of a linear functional is always a seminorm. A linear functional 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ on a topological vector space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is continuous if and only if its absolute value 
+
+
+
+
+|
+
+F
+
+|
+
+
+
+{\displaystyle |F|}
+
+ is continuous, which happens if and only if there exists a continuous seminorm 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that 
+
+
+
+
+|
+
+F
+
+|
+
+≤
+p
+
+
+{\displaystyle |F|\leq p}
+
+ on the domain of 
+
+
+
+F
+.
+
+
+{\displaystyle F.}
+
+[17] 
+If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a locally convex space then this statement remains true when the linear functional 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is defined on a proper vector subspace of 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+
+Let 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ be a continuous linear functional defined on a vector subspace 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ of a locally convex topological vector space 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ 
+Because 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is locally convex, there exists a continuous seminorm 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that dominates 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ (meaning that 
+
+
+
+
+|
+
+f
+(
+m
+)
+
+|
+
+≤
+p
+(
+m
+)
+
+
+{\displaystyle |f(m)|\leq p(m)}
+
+ for all 
+
+
+
+m
+∈
+M
+
+
+{\displaystyle m\in M}
+
+). 
+By the Hahn–Banach theorem, there exists a linear extension of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ to 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ call it 
+
+
+
+F
+,
+
+
+{\displaystyle F,}
+
+ that satisfies 
+
+
+
+
+|
+
+F
+
+|
+
+≤
+p
+
+
+{\displaystyle |F|\leq p}
+
+ on 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ 
+This linear functional 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is continuous since 
+
+
+
+
+|
+
+F
+
+|
+
+≤
+p
+
+
+{\displaystyle |F|\leq p}
+
+ and 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is a continuous seminorm.
+Proof for normed spaces
+A linear functional 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ on a normed space is continuous if and only if it is bounded, which means that its dual norm
+
+
+
+
+‖
+f
+‖
+=
+sup
+{
+
+|
+
+f
+(
+m
+)
+
+|
+
+:
+‖
+m
+‖
+≤
+1
+,
+m
+∈
+domain
+⁡
+f
+}
+
+
+{\displaystyle \|f\|=\sup\{|f(m)|:\|m\|\leq 1,m\in \operatorname {domain} f\}}
+
+
+is finite, in which case 
+
+
+
+
+|
+
+f
+(
+m
+)
+
+|
+
+≤
+‖
+f
+‖
+‖
+m
+‖
+
+
+{\displaystyle |f(m)|\leq \|f\|\|m\|}
+
+ holds for every point 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ in its domain. 
+Moreover, if 
+
+
+
+c
+≥
+0
+
+
+{\displaystyle c\geq 0}
+
+ is such that 
+
+
+
+
+|
+
+f
+(
+m
+)
+
+|
+
+≤
+c
+‖
+m
+‖
+
+
+{\displaystyle |f(m)|\leq c\|m\|}
+
+ for all 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ in the functional's domain, then necessarily 
+
+
+
+‖
+f
+‖
+≤
+c
+.
+
+
+{\displaystyle \|f\|\leq c.}
+
+
+If 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is a linear extension of a linear functional 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ then their dual norms always satisfy 
+
+
+
+‖
+f
+‖
+≤
+‖
+F
+‖
+
+
+{\displaystyle \|f\|\leq \|F\|}
+
+[proof 3] 
+so that equality 
+
+
+
+‖
+f
+‖
+=
+‖
+F
+‖
+
+
+{\displaystyle \|f\|=\|F\|}
+
+ is equivalent to 
+
+
+
+‖
+F
+‖
+≤
+‖
+f
+‖
+,
+
+
+{\displaystyle \|F\|\leq \|f\|,}
+
+ which holds if and only if 
+
+
+
+
+|
+
+F
+(
+x
+)
+
+|
+
+≤
+‖
+f
+‖
+‖
+x
+‖
+
+
+{\displaystyle |F(x)|\leq \|f\|\|x\|}
+
+ for every point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in the extension's domain. 
+This can be restated in terms of the function 
+
+
+
+‖
+f
+‖
+
+‖
+⋅
+‖
+:
+X
+→
+
+R
+
+
+
+{\displaystyle \|f\|\,\|\cdot \|:X\to \mathbb {R} }
+
+ defined by 
+
+
+
+x
+↦
+‖
+f
+‖
+
+‖
+x
+‖
+,
+
+
+{\displaystyle x\mapsto \|f\|\,\|x\|,}
+
+ which is always a seminorm:[note 4]
+Applying the Hahn–Banach theorem to 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ with this seminorm 
+
+
+
+‖
+f
+‖
+
+‖
+⋅
+‖
+
+
+{\displaystyle \|f\|\,\|\cdot \|}
+
+ thus produces a dominated linear extension whose norm is (necessarily) equal to that of 
+
+
+
+f
+,
+
+
+{\displaystyle f,}
+
+ which proves the theorem:
+Let 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ be a continuous linear functional defined on a vector subspace 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ of a normed space 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ 
+Then the function 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ defined by 
+
+
+
+p
+(
+x
+)
+=
+‖
+f
+‖
+
+‖
+x
+‖
+
+
+{\displaystyle p(x)=\|f\|\,\|x\|}
+
+ is a seminorm on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that dominates 
+
+
+
+f
+,
+
+
+{\displaystyle f,}
+
+ meaning that 
+
+
+
+
+|
+
+f
+(
+m
+)
+
+|
+
+≤
+p
+(
+m
+)
+
+
+{\displaystyle |f(m)|\leq p(m)}
+
+ holds for every 
+
+
+
+m
+∈
+M
+.
+
+
+{\displaystyle m\in M.}
+
+
+By the Hahn–Banach theorem, there exists a linear functional 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that extends 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ (which guarantees 
+
+
+
+‖
+f
+‖
+≤
+‖
+F
+‖
+
+
+{\displaystyle \|f\|\leq \|F\|}
+
+) and that is also dominated by 
+
+
+
+p
+,
+
+
+{\displaystyle p,}
+
+ meaning that 
+
+
+
+
+|
+
+F
+(
+x
+)
+
+|
+
+≤
+p
+(
+x
+)
+
+
+{\displaystyle |F(x)|\leq p(x)}
+
+ for every 
+
+
+
+x
+∈
+X
+.
+
+
+{\displaystyle x\in X.}
+
+ 
+The fact that 
+
+
+
+‖
+f
+‖
+
+
+{\displaystyle \|f\|}
+
+ is a real number such that 
+
+
+
+
+|
+
+F
+(
+x
+)
+
+|
+
+≤
+‖
+f
+‖
+‖
+x
+‖
+
+
+{\displaystyle |F(x)|\leq \|f\|\|x\|}
+
+ for every 
+
+
+
+x
+∈
+X
+,
+
+
+{\displaystyle x\in X,}
+
+ guarantees 
+
+
+
+‖
+F
+‖
+≤
+‖
+f
+‖
+.
+
+
+{\displaystyle \|F\|\leq \|f\|.}
+
+ 
+Since 
+
+
+
+‖
+F
+‖
+=
+‖
+f
+‖
+
+
+{\displaystyle \|F\|=\|f\|}
+
+ is finite, the linear functional 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is bounded and thus continuous.
+The continuous extension theorem might fail if the topological vector space (TVS) 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is not locally convex. For example, for 
+
+
+
+0
+<
+p
+<
+1
+,
+
+
+{\displaystyle 0<p<1,}
+
+ the Lebesgue space 
+
+
+
+
+L
+
+p
+
+
+(
+[
+0
+,
+1
+]
+)
+
+
+{\displaystyle L^{p}([0,1])}
+
+ is a complete metrizable TVS (an F-space) that is not locally convex (in fact, its only convex open subsets are itself 
+
+
+
+
+L
+
+p
+
+
+(
+[
+0
+,
+1
+]
+)
+
+
+{\displaystyle L^{p}([0,1])}
+
+ and the empty set) and the only continuous linear functional on 
+
+
+
+
+L
+
+p
+
+
+(
+[
+0
+,
+1
+]
+)
+
+
+{\displaystyle L^{p}([0,1])}
+
+ is the constant 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+ function (Rudin 1991, §1.47). Since 
+
+
+
+
+L
+
+p
+
+
+(
+[
+0
+,
+1
+]
+)
+
+
+{\displaystyle L^{p}([0,1])}
+
+ is Hausdorff, every finite-dimensional vector subspace 
+
+
+
+M
+⊆
+
+L
+
+p
+
+
+(
+[
+0
+,
+1
+]
+)
+
+
+{\displaystyle M\subseteq L^{p}([0,1])}
+
+ is linearly homeomorphic to Euclidean space 
+
+
+
+
+
+R
+
+
+dim
+⁡
+M
+
+
+
+
+{\displaystyle \mathbb {R} ^{\dim M}}
+
+ or 
+
+
+
+
+
+C
+
+
+dim
+⁡
+M
+
+
+
+
+{\displaystyle \mathbb {C} ^{\dim M}}
+
+ (by F. Riesz's theorem) and so every non-zero linear functional 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ on 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ is continuous but none has a continuous linear extension to all of 
+
+
+
+
+L
+
+p
+
+
+(
+[
+0
+,
+1
+]
+)
+.
+
+
+{\displaystyle L^{p}([0,1]).}
+
+ 
+However, it is possible for a TVS 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ to not be locally convex but nevertheless have enough continuous linear functionals that its continuous dual space 
+
+
+
+
+X
+
+∗
+
+
+
+
+{\displaystyle X^{*}}
+
+ separates points; for such a TVS, a continuous linear functional defined on a vector subspace might have a continuous linear extension to the whole space. 
+If the TVS 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is not locally convex then there might not exist any continuous seminorm 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ defined on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ (not just on 
+
+
+
+M
+
+
+{\displaystyle M}
+
+) that dominates 
+
+
+
+f
+,
+
+
+{\displaystyle f,}
+
+ in which case the Hahn–Banach theorem can not be applied as it was in the above proof of the continuous extension theorem. 
+However, the proof's argument can be generalized to give a characterization of when a continuous linear functional has a continuous linear extension: If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is any TVS (not necessarily locally convex), then a continuous linear functional 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ defined on a vector subspace 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ has a continuous linear extension 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ to all of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ if and only if there exists some continuous seminorm 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that dominates 
+
+
+
+f
+.
+
+
+{\displaystyle f.}
+
+  Specifically, if given a continuous linear extension 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ then 
+
+
+
+p
+:=
+
+|
+
+F
+
+|
+
+
+
+{\displaystyle p:=|F|}
+
+ is a continuous seminorm on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that dominates 
+
+
+
+f
+;
+
+
+{\displaystyle f;}
+
+ and conversely, if given a continuous seminorm 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that dominates 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ then any dominated linear extension of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ to 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ (the existence of which is guaranteed by the Hahn–Banach theorem) will be a continuous linear extension.
+The key element of the Hahn–Banach theorem is fundamentally a result about the separation of two convex sets: 
+
+
+
+{
+−
+p
+(
+−
+x
+−
+n
+)
+−
+f
+(
+n
+)
+:
+n
+∈
+M
+}
+,
+
+
+{\displaystyle \{-p(-x-n)-f(n):n\in M\},}
+
+ and 
+
+
+
+{
+p
+(
+m
++
+x
+)
+−
+f
+(
+m
+)
+:
+m
+∈
+M
+}
+.
+
+
+{\displaystyle \{p(m+x)-f(m):m\in M\}.}
+
+  This sort of argument appears widely in convex geometry,[18] optimization theory, and economics.  Lemmas to this end derived from the original Hahn–Banach theorem are known as the Hahn–Banach separation theorems.[19][20] 
+They are generalizations of the hyperplane separation theorem, which states that two disjoint nonempty convex subsets of a finite-dimensional space 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ can be separated by some affine hyperplane, which is a fiber (level set) of the form 
+
+
+
+
+f
+
+−
+1
+
+
+(
+s
+)
+=
+{
+x
+:
+f
+(
+x
+)
+=
+s
+}
+
+
+{\displaystyle f^{-1}(s)=\{x:f(x)=s\}}
+
+ where 
+
+
+
+f
+≠
+0
+
+
+{\displaystyle f\neq 0}
+
+ is a non-zero linear functional and 
+
+
+
+s
+
+
+{\displaystyle s}
+
+ is a scalar. 
+Theorem[19] — Let 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ be non-empty convex subsets of a real locally convex topological vector space 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ 
+If 
+
+
+
+Int
+⁡
+A
+≠
+∅
+
+
+{\displaystyle \operatorname {Int} A\neq \varnothing }
+
+ and 
+
+
+
+B
+∩
+Int
+⁡
+A
+=
+∅
+
+
+{\displaystyle B\cap \operatorname {Int} A=\varnothing }
+
+ then there exists a continuous linear functional 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that 
+
+
+
+sup
+f
+(
+A
+)
+≤
+inf
+f
+(
+B
+)
+
+
+{\displaystyle \sup f(A)\leq \inf f(B)}
+
+ and 
+
+
+
+f
+(
+a
+)
+<
+inf
+f
+(
+B
+)
+
+
+{\displaystyle f(a)<\inf f(B)}
+
+ for all 
+
+
+
+a
+∈
+Int
+⁡
+A
+
+
+{\displaystyle a\in \operatorname {Int} A}
+
+ (such an 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is necessarily non-zero).
+When the convex sets have additional properties, such as being open or compact for example, then the conclusion can be substantially strengthened:
+Theorem[3][21] — Let 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ be convex non-empty disjoint subsets of a real topological vector space 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+
+If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is complex (rather than real) then the same claims hold, but for the real part of 
+
+
+
+f
+.
+
+
+{\displaystyle f.}
+
+
+Then following important corollary is known as the Geometric Hahn–Banach theorem or Mazur's theorem (also known as Ascoli–Mazur theorem[22]). It follows from the first bullet above and the convexity of 
+
+
+
+M
+.
+
+
+{\displaystyle M.}
+
+
+Theorem (Mazur)[23] — Let 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ be a vector subspace of the topological vector space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and suppose 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ is a non-empty convex open subset of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ with 
+
+
+
+K
+∩
+M
+=
+∅
+.
+
+
+{\displaystyle K\cap M=\varnothing .}
+
+ 
+Then there is a closed hyperplane (codimension-1 vector subspace) 
+
+
+
+N
+⊆
+X
+
+
+{\displaystyle N\subseteq X}
+
+ that contains 
+
+
+
+M
+,
+
+
+{\displaystyle M,}
+
+ but remains disjoint from 
+
+
+
+K
+.
+
+
+{\displaystyle K.}
+
+
+Mazur's theorem clarifies that vector subspaces (even those that are not closed) can be characterized by linear functionals. 
+Corollary[24] (Separation of a subspace and an open convex set) — Let 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ be a vector subspace of a locally convex topological vector space 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ and 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ be a non-empty open convex subset disjoint from 
+
+
+
+M
+.
+
+
+{\displaystyle M.}
+
+  Then there exists a continuous linear functional 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that 
+
+
+
+f
+(
+m
+)
+=
+0
+
+
+{\displaystyle f(m)=0}
+
+ for all 
+
+
+
+m
+∈
+M
+
+
+{\displaystyle m\in M}
+
+ and 
+
+
+
+Re
+⁡
+f
+>
+0
+
+
+{\displaystyle \operatorname {Re} f>0}
+
+ on 
+
+
+
+U
+.
+
+
+{\displaystyle U.}
+
+
+Since points are trivially convex, geometric Hahn-Banach implies that functionals can detect the boundary of a set.  In particular, let 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ be a real topological vector space and 
+
+
+
+A
+⊆
+X
+
+
+{\displaystyle A\subseteq X}
+
+ be convex with 
+
+
+
+Int
+⁡
+A
+≠
+∅
+.
+
+
+{\displaystyle \operatorname {Int} A\neq \varnothing .}
+
+ If 
+
+
+
+
+a
+
+0
+
+
+∈
+A
+∖
+Int
+⁡
+A
+
+
+{\displaystyle a_{0}\in A\setminus \operatorname {Int} A}
+
+ then there is a functional that is vanishing at 
+
+
+
+
+a
+
+0
+
+
+,
+
+
+{\displaystyle a_{0},}
+
+ but supported on the interior of 
+
+
+
+A
+.
+
+
+{\displaystyle A.}
+
+[19]
+Call a normed space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ smooth if at each point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in its unit ball there exists a unique closed hyperplane to the unit ball at 
+
+
+
+x
+.
+
+
+{\displaystyle x.}
+
+ Köthe showed in 1983 that a normed space is smooth at a point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ if and only if the norm is Gateaux differentiable at that point.[3]
+Let 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ be a convex balanced neighborhood of the origin in a locally convex topological vector space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and suppose 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ is not an element of 
+
+
+
+U
+.
+
+
+{\displaystyle U.}
+
+ Then there exists a continuous linear functional 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that[3]
+
+
+
+
+sup
+
+|
+
+f
+(
+U
+)
+
+|
+
+≤
+
+|
+
+f
+(
+x
+)
+
+|
+
+.
+
+
+{\displaystyle \sup |f(U)|\leq |f(x)|.}
+
+
+The Hahn–Banach theorem is the first sign of an important philosophy in functional analysis: to understand a space, one should understand its continuous functionals.
+For example, linear subspaces are characterized by functionals: if X is a normed vector space with linear subspace M (not necessarily closed) and if 
+
+
+
+z
+
+
+{\displaystyle z}
+
+ is an element of X not in the closure of M, then there exists a continuous linear map 
+
+
+
+f
+:
+X
+→
+
+K
+
+
+
+{\displaystyle f:X\to \mathbf {K} }
+
+ with 
+
+
+
+f
+(
+m
+)
+=
+0
+
+
+{\displaystyle f(m)=0}
+
+ for all 
+
+
+
+m
+∈
+M
+,
+
+
+{\displaystyle m\in M,}
+
+ 
+
+
+
+f
+(
+z
+)
+=
+1
+,
+
+
+{\displaystyle f(z)=1,}
+
+ and 
+
+
+
+‖
+f
+‖
+=
+dist
+⁡
+(
+z
+,
+M
+
+)
+
+−
+1
+
+
+.
+
+
+{\displaystyle \|f\|=\operatorname {dist} (z,M)^{-1}.}
+
+  (To see this, note that 
+
+
+
+dist
+⁡
+(
+⋅
+,
+M
+)
+
+
+{\displaystyle \operatorname {dist} (\cdot ,M)}
+
+ is a sublinear function.)  Moreover, if 
+
+
+
+z
+
+
+{\displaystyle z}
+
+ is an element of X, then there exists a continuous linear map 
+
+
+
+f
+:
+X
+→
+
+K
+
+
+
+{\displaystyle f:X\to \mathbf {K} }
+
+ such that 
+
+
+
+f
+(
+z
+)
+=
+‖
+z
+‖
+
+
+{\displaystyle f(z)=\|z\|}
+
+ and 
+
+
+
+‖
+f
+‖
+≤
+1.
+
+
+{\displaystyle \|f\|\leq 1.}
+
+  This implies that the natural injection 
+
+
+
+J
+
+
+{\displaystyle J}
+
+ from a normed space X into its double dual 
+
+
+
+
+V
+
+∗
+∗
+
+
+
+
+{\displaystyle V^{**}}
+
+ is isometric.
+That last result also suggests that the Hahn–Banach theorem can often be used to locate a "nicer" topology in which to work.  For example, many results in functional analysis assume that a space is Hausdorff or locally convex.  However, suppose X is a topological vector space, not necessarily Hausdorff or locally convex, but with a nonempty, proper, convex, open set M.  Then geometric Hahn-Banach implies that there is a hyperplane separating M from any other point.  In particular, there must exist a nonzero functional on X — that is, the continuous dual space 
+
+
+
+
+X
+
+∗
+
+
+
+
+{\displaystyle X^{*}}
+
+ is non-trivial.[3][25] Considering X with the weak topology induced by 
+
+
+
+
+X
+
+∗
+
+
+,
+
+
+{\displaystyle X^{*},}
+
+ then X becomes locally convex; by the second bullet of geometric Hahn-Banach, the weak topology on this new space separates points. 
+Thus X with this weak topology becomes Hausdorff.  This sometimes allows some results from locally convex topological vector spaces to be applied to non-Hausdorff and non-locally convex spaces.
+The Hahn–Banach theorem is often useful when one wishes to apply the method of a priori estimates.  Suppose that we wish to solve the linear differential equation 
+
+
+
+P
+u
+=
+f
+
+
+{\displaystyle Pu=f}
+
+ for 
+
+
+
+u
+,
+
+
+{\displaystyle u,}
+
+ with 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ given in some Banach space X.  If we have control on the size of 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ in terms of 
+
+
+
+‖
+f
+
+‖
+
+X
+
+
+
+
+{\displaystyle \|f\|_{X}}
+
+ and we can think of 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ as a bounded linear functional on some suitable space of test functions 
+
+
+
+g
+,
+
+
+{\displaystyle g,}
+
+ then we can view 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ as a linear functional by adjunction: 
+
+
+
+(
+f
+,
+g
+)
+=
+(
+u
+,
+
+P
+
+∗
+
+
+g
+)
+.
+
+
+{\displaystyle (f,g)=(u,P^{*}g).}
+
+  At first, this functional is only defined on the image of 
+
+
+
+P
+,
+
+
+{\displaystyle P,}
+
+ but using the Hahn–Banach theorem, we can try to extend it to the entire codomain X.  The resulting functional is often defined to be a weak solution to the equation.
+Theorem[26] — A real Banach space is reflexive if and only if every pair of non-empty disjoint closed convex subsets, one of which is bounded, can be strictly separated by a hyperplane.
+To illustrate an actual application of the Hahn–Banach theorem, we will now prove a result that follows almost entirely from the Hahn–Banach theorem.
+Proposition — Suppose 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a Hausdorff locally convex TVS over the field 
+
+
+
+
+K
+
+
+
+{\displaystyle \mathbf {K} }
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is a vector subspace of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that is TVS–isomorphic to 
+
+
+
+
+
+K
+
+
+I
+
+
+
+
+{\displaystyle \mathbf {K} ^{I}}
+
+ for some set 
+
+
+
+I
+.
+
+
+{\displaystyle I.}
+
+ 
+Then 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is a closed and complemented vector subspace of 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+
+Since 
+
+
+
+
+
+K
+
+
+I
+
+
+
+
+{\displaystyle \mathbf {K} ^{I}}
+
+ is a complete TVS so is 
+
+
+
+Y
+,
+
+
+{\displaystyle Y,}
+
+ and since any complete subset of a Hausdorff TVS is closed, 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is a closed subset of 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ 
+Let 
+
+
+
+f
+=
+
+
+(
+
+f
+
+i
+
+
+)
+
+
+i
+∈
+I
+
+
+:
+Y
+→
+
+
+K
+
+
+I
+
+
+
+
+{\displaystyle f=\left(f_{i}\right)_{i\in I}:Y\to \mathbf {K} ^{I}}
+
+ be a TVS isomorphism, so that each 
+
+
+
+
+f
+
+i
+
+
+:
+Y
+→
+
+K
+
+
+
+{\displaystyle f_{i}:Y\to \mathbf {K} }
+
+ is a continuous surjective linear functional. 
+By the Hahn–Banach theorem, we may extend each 
+
+
+
+
+f
+
+i
+
+
+
+
+{\displaystyle f_{i}}
+
+ to a continuous linear functional 
+
+
+
+
+F
+
+i
+
+
+:
+X
+→
+
+K
+
+
+
+{\displaystyle F_{i}:X\to \mathbf {K} }
+
+ on 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ 
+Let 
+
+
+
+F
+:=
+
+
+(
+
+F
+
+i
+
+
+)
+
+
+i
+∈
+I
+
+
+:
+X
+→
+
+
+K
+
+
+I
+
+
+
+
+{\displaystyle F:=\left(F_{i}\right)_{i\in I}:X\to \mathbf {K} ^{I}}
+
+ so 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is a continuous linear surjection such that its restriction to 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is 
+
+
+
+F
+
+
+
+|
+
+
+
+Y
+
+
+=
+
+
+(
+
+
+F
+
+i
+
+
+
+
+
+|
+
+
+
+Y
+
+
+
+)
+
+
+i
+∈
+I
+
+
+=
+
+
+(
+
+f
+
+i
+
+
+)
+
+
+i
+∈
+I
+
+
+=
+f
+.
+
+
+{\displaystyle F{\big \vert }_{Y}=\left(F_{i}{\big \vert }_{Y}\right)_{i\in I}=\left(f_{i}\right)_{i\in I}=f.}
+
+ 
+Let 
+
+
+
+P
+:=
+
+f
+
+−
+1
+
+
+∘
+F
+:
+X
+→
+Y
+,
+
+
+{\displaystyle P:=f^{-1}\circ F:X\to Y,}
+
+ which is a continuous linear map whose restriction to 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is 
+
+
+
+P
+
+
+
+|
+
+
+
+Y
+
+
+=
+
+f
+
+−
+1
+
+
+∘
+F
+
+
+
+|
+
+
+
+Y
+
+
+=
+
+f
+
+−
+1
+
+
+∘
+f
+=
+
+
+1
+
+
+Y
+
+
+,
+
+
+{\displaystyle P{\big \vert }_{Y}=f^{-1}\circ F{\big \vert }_{Y}=f^{-1}\circ f=\mathbf {1} _{Y},}
+
+ where 
+
+
+
+
+
+1
+
+
+Y
+
+
+
+
+{\displaystyle \mathbb {1} _{Y}}
+
+ denotes the identity map on 
+
+
+
+Y
+.
+
+
+{\displaystyle Y.}
+
+ 
+This shows that 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is a continuous linear projection onto 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ (that is, 
+
+
+
+P
+∘
+P
+=
+P
+
+
+{\displaystyle P\circ P=P}
+
+). 
+Thus 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is complemented in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+X
+=
+Y
+⊕
+ker
+⁡
+P
+
+
+{\displaystyle X=Y\oplus \ker P}
+
+ in the category of TVSs. 
+
+
+
+◼
+
+
+{\displaystyle \blacksquare }
+
+
+The above result may be used to show that every closed vector subspace of 
+
+
+
+
+
+R
+
+
+
+N
+
+
+
+
+
+{\displaystyle \mathbb {R} ^{\mathbb {N} }}
+
+ is complemented because any such space is either finite dimensional or else TVS–isomorphic to 
+
+
+
+
+
+R
+
+
+
+N
+
+
+
+.
+
+
+{\displaystyle \mathbb {R} ^{\mathbb {N} }.}
+
+
+General template
+There are now many other versions of the Hahn–Banach theorem. The general template for the various versions of the Hahn–Banach theorem presented in this article is as follows:
+Theorem[3] — If 
+
+
+
+D
+
+
+{\displaystyle D}
+
+ is an absorbing disk in a real or complex vector space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and if 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ be a linear functional defined on a vector subspace 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that 
+
+
+
+
+|
+
+f
+
+|
+
+≤
+1
+
+
+{\displaystyle |f|\leq 1}
+
+ on 
+
+
+
+M
+∩
+D
+,
+
+
+{\displaystyle M\cap D,}
+
+ then there exists a linear functional 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ extending 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ such that 
+
+
+
+
+|
+
+F
+
+|
+
+≤
+1
+
+
+{\displaystyle |F|\leq 1}
+
+ on 
+
+
+
+D
+.
+
+
+{\displaystyle D.}
+
+
+Hahn–Banach theorem for seminorms[27][28] — If 
+
+
+
+p
+:
+M
+→
+
+R
+
+
+
+{\displaystyle p:M\to \mathbb {R} }
+
+ is a seminorm defined on a vector subspace 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ of 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ and if 
+
+
+
+q
+:
+X
+→
+
+R
+
+
+
+{\displaystyle q:X\to \mathbb {R} }
+
+ is a seminorm on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that 
+
+
+
+p
+≤
+q
+
+
+
+|
+
+
+
+M
+
+
+,
+
+
+{\displaystyle p\leq q{\big \vert }_{M},}
+
+ then there exists a seminorm 
+
+
+
+P
+:
+X
+→
+
+R
+
+
+
+{\displaystyle P:X\to \mathbb {R} }
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that 
+
+
+
+P
+
+
+
+|
+
+
+
+M
+
+
+=
+p
+
+
+{\displaystyle P{\big \vert }_{M}=p}
+
+ on 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ and 
+
+
+
+P
+≤
+q
+
+
+{\displaystyle P\leq q}
+
+ on 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+
+Let 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ be the convex hull of 
+
+
+
+{
+m
+∈
+M
+:
+p
+(
+m
+)
+≤
+1
+}
+∪
+{
+x
+∈
+X
+:
+q
+(
+x
+)
+≤
+1
+}
+.
+
+
+{\displaystyle \{m\in M:p(m)\leq 1\}\cup \{x\in X:q(x)\leq 1\}.}
+
+ Because 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is an absorbing disk in 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ its Minkowski functional 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is a seminorm. Then 
+
+
+
+p
+=
+P
+
+
+{\displaystyle p=P}
+
+ on 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ and 
+
+
+
+P
+≤
+q
+
+
+{\displaystyle P\leq q}
+
+ on 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+
+So for example, suppose that 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is a bounded linear functional defined on a vector subspace 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ of a normed space 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ so its the operator norm 
+
+
+
+‖
+f
+‖
+
+
+{\displaystyle \|f\|}
+
+ is a non-negative real number. 
+Then the linear functional's absolute value 
+
+
+
+p
+:=
+
+|
+
+f
+
+|
+
+
+
+{\displaystyle p:=|f|}
+
+ is a seminorm on 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ and the map 
+
+
+
+q
+:
+X
+→
+
+R
+
+
+
+{\displaystyle q:X\to \mathbb {R} }
+
+ defined by 
+
+
+
+q
+(
+x
+)
+=
+‖
+f
+‖
+
+‖
+x
+‖
+
+
+{\displaystyle q(x)=\|f\|\,\|x\|}
+
+ is a seminorm on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that satisfies 
+
+
+
+p
+≤
+q
+
+
+
+|
+
+
+
+M
+
+
+
+
+{\displaystyle p\leq q{\big \vert }_{M}}
+
+ on 
+
+
+
+M
+.
+
+
+{\displaystyle M.}
+
+ 
+The Hahn–Banach theorem for seminorms guarantees the existence of a seminorm 
+
+
+
+P
+:
+X
+→
+
+R
+
+
+
+{\displaystyle P:X\to \mathbb {R} }
+
+ that is equal to 
+
+
+
+
+|
+
+f
+
+|
+
+
+
+{\displaystyle |f|}
+
+ on 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ (since 
+
+
+
+P
+
+
+
+|
+
+
+
+M
+
+
+=
+p
+=
+
+|
+
+f
+
+|
+
+
+
+{\displaystyle P{\big \vert }_{M}=p=|f|}
+
+) and is bounded above by 
+
+
+
+P
+(
+x
+)
+≤
+‖
+f
+‖
+
+‖
+x
+‖
+
+
+{\displaystyle P(x)\leq \|f\|\,\|x\|}
+
+ everywhere on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ (since 
+
+
+
+P
+≤
+q
+
+
+{\displaystyle P\leq q}
+
+).
+Hahn–Banach sandwich theorem[3] — Let 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ be a sublinear function on a real vector space 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ let 
+
+
+
+S
+⊆
+X
+
+
+{\displaystyle S\subseteq X}
+
+ be any subset of 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ and let 
+
+
+
+f
+:
+S
+→
+
+R
+
+
+
+{\displaystyle f:S\to \mathbb {R} }
+
+ be any map. 
+If there exist positive real numbers 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ such that 
+
+
+
+
+0
+≥
+
+inf
+
+s
+∈
+S
+
+
+[
+p
+(
+s
+−
+a
+x
+−
+b
+y
+)
+−
+f
+(
+s
+)
+−
+a
+f
+(
+x
+)
+−
+b
+f
+(
+y
+)
+]
+
+
+ for all 
+
+x
+,
+y
+∈
+S
+,
+
+
+{\displaystyle 0\geq \inf _{s\in S}[p(s-ax-by)-f(s)-af(x)-bf(y)]\qquad {\text{ for all }}x,y\in S,}
+
+
+then there exists a linear functional 
+
+
+
+F
+:
+X
+→
+
+R
+
+
+
+{\displaystyle F:X\to \mathbb {R} }
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that 
+
+
+
+F
+≤
+p
+
+
+{\displaystyle F\leq p}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+f
+≤
+F
+≤
+p
+
+
+{\displaystyle f\leq F\leq p}
+
+ on 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+
+Theorem[3] (Andenaes, 1970) — Let 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ be a sublinear function on a real vector space 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ let 
+
+
+
+f
+:
+M
+→
+
+R
+
+
+
+{\displaystyle f:M\to \mathbb {R} }
+
+ be a linear functional on a vector subspace 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that 
+
+
+
+f
+≤
+p
+
+
+{\displaystyle f\leq p}
+
+ on 
+
+
+
+M
+,
+
+
+{\displaystyle M,}
+
+ and let 
+
+
+
+S
+⊆
+X
+
+
+{\displaystyle S\subseteq X}
+
+ be any subset of 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ 
+Then there exists a linear functional 
+
+
+
+F
+:
+X
+→
+
+R
+
+
+
+{\displaystyle F:X\to \mathbb {R} }
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that extends 
+
+
+
+f
+,
+
+
+{\displaystyle f,}
+
+ satisfies 
+
+
+
+F
+≤
+p
+
+
+{\displaystyle F\leq p}
+
+ on 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ and is (pointwise) maximal on 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ in the following sense: if 
+
+
+
+
+
+
+F
+^
+
+
+
+:
+X
+→
+
+R
+
+
+
+{\displaystyle {\widehat {F}}:X\to \mathbb {R} }
+
+ is a linear functional on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that extends 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ and satisfies 
+
+
+
+
+
+
+F
+^
+
+
+
+≤
+p
+
+
+{\displaystyle {\widehat {F}}\leq p}
+
+ on 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ then 
+
+
+
+F
+≤
+
+
+
+F
+^
+
+
+
+
+
+{\displaystyle F\leq {\widehat {F}}}
+
+ on 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ implies 
+
+
+
+F
+=
+
+
+
+F
+^
+
+
+
+
+
+{\displaystyle F={\widehat {F}}}
+
+ on 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+
+If 
+
+
+
+S
+=
+{
+s
+}
+
+
+{\displaystyle S=\{s\}}
+
+ is a singleton set (where 
+
+
+
+s
+∈
+X
+
+
+{\displaystyle s\in X}
+
+ is some vector) and if 
+
+
+
+F
+:
+X
+→
+
+R
+
+
+
+{\displaystyle F:X\to \mathbb {R} }
+
+ is such a maximal dominated linear extension of 
+
+
+
+f
+:
+M
+→
+
+R
+
+,
+
+
+{\displaystyle f:M\to \mathbb {R} ,}
+
+ then 
+
+
+
+F
+(
+s
+)
+=
+
+inf
+
+m
+∈
+M
+
+
+[
+f
+(
+s
+)
++
+p
+(
+s
+−
+m
+)
+]
+.
+
+
+{\displaystyle F(s)=\inf _{m\in M}[f(s)+p(s-m)].}
+
+[3]
+Vector–valued Hahn–Banach theorem[3] — If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ are vector spaces over the same field and if 
+
+
+
+f
+:
+M
+→
+Y
+
+
+{\displaystyle f:M\to Y}
+
+ be a linear map defined on a vector subspace 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ of 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ then there exists a linear map 
+
+
+
+F
+:
+X
+→
+Y
+
+
+{\displaystyle F:X\to Y}
+
+ that extends 
+
+
+
+f
+.
+
+
+{\displaystyle f.}
+
+
+A set 
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+ of maps 
+
+
+
+X
+→
+X
+
+
+{\displaystyle X\to X}
+
+ is commutative (with respect to function composition 
+
+
+
+
+∘
+
+
+
+{\displaystyle \,\circ \,}
+
+) if 
+
+
+
+F
+∘
+G
+=
+G
+∘
+F
+
+
+{\displaystyle F\circ G=G\circ F}
+
+ for all 
+
+
+
+F
+,
+G
+∈
+Γ
+.
+
+
+{\displaystyle F,G\in \Gamma .}
+
+ 
+Say that a function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ defined on a subset 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is 
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+-invariant if 
+
+
+
+L
+(
+M
+)
+⊆
+M
+
+
+{\displaystyle L(M)\subseteq M}
+
+ and 
+
+
+
+f
+∘
+L
+=
+f
+
+
+{\displaystyle f\circ L=f}
+
+ on 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ for every 
+
+
+
+L
+∈
+Γ
+.
+
+
+{\displaystyle L\in \Gamma .}
+
+
+An invariant Hahn–Banach theorem[29] — Suppose 
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+ is a commutative set of continuous linear maps from a normed space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ into itself and let 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ be a continuous linear functional defined some vector subspace 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that is 
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+-invariant, which means that 
+
+
+
+L
+(
+M
+)
+⊆
+M
+
+
+{\displaystyle L(M)\subseteq M}
+
+ and 
+
+
+
+f
+∘
+L
+=
+f
+
+
+{\displaystyle f\circ L=f}
+
+ on 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ for every 
+
+
+
+L
+∈
+Γ
+.
+
+
+{\displaystyle L\in \Gamma .}
+
+ 
+Then 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ has a continuous linear extension 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ to all of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that has the same operator norm 
+
+
+
+‖
+f
+‖
+=
+‖
+F
+‖
+
+
+{\displaystyle \|f\|=\|F\|}
+
+ and is also 
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+-invariant, meaning that 
+
+
+
+F
+∘
+L
+=
+F
+
+
+{\displaystyle F\circ L=F}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ for every 
+
+
+
+L
+∈
+Γ
+.
+
+
+{\displaystyle L\in \Gamma .}
+
+
+This theorem may be summarized:
+The following theorem of Mazur–Orlicz (1953) is equivalent to the Hahn–Banach theorem.
+Mazur–Orlicz theorem[3] — Let 
+
+
+
+p
+:
+X
+→
+
+R
+
+
+
+{\displaystyle p:X\to \mathbb {R} }
+
+ be a sublinear function on a real or complex vector space 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ let 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ be any set, and let 
+
+
+
+R
+:
+T
+→
+
+R
+
+
+
+{\displaystyle R:T\to \mathbb {R} }
+
+ and 
+
+
+
+v
+:
+T
+→
+X
+
+
+{\displaystyle v:T\to X}
+
+ be any maps. The following statements are equivalent:
+The following theorem characterizes when any scalar function on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ (not necessarily linear) has a continuous linear extension to all of 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+
+Theorem (The extension principle[30]) — Let 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ a scalar-valued function on a subset 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of a topological vector space 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+  
+Then there exists a continuous linear functional 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ extending 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ if and only if there exists a continuous seminorm 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that 
+
+
+
+
+
+|
+
+
+∑
+
+i
+=
+1
+
+
+n
+
+
+
+a
+
+i
+
+
+f
+(
+
+s
+
+i
+
+
+)
+
+|
+
+≤
+p
+
+(
+
+
+∑
+
+i
+=
+1
+
+
+n
+
+
+
+a
+
+i
+
+
+
+s
+
+i
+
+
+
+)
+
+
+
+{\displaystyle \left|\sum _{i=1}^{n}a_{i}f(s_{i})\right|\leq p\left(\sum _{i=1}^{n}a_{i}s_{i}\right)}
+
+
+for all positive integers 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ and all finite sequences 
+
+
+
+
+a
+
+1
+
+
+,
+…
+,
+
+a
+
+n
+
+
+
+
+{\displaystyle a_{1},\ldots ,a_{n}}
+
+ of scalars and elements 
+
+
+
+
+s
+
+1
+
+
+,
+…
+,
+
+s
+
+n
+
+
+
+
+{\displaystyle s_{1},\ldots ,s_{n}}
+
+ of 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+
+Let X be a topological vector space.  A vector subspace M of X has the extension property if any continuous linear functional on M can be extended to a continuous linear functional on X, and we say that X has the Hahn–Banach extension property (HBEP) if every vector subspace of X has the extension property.[31]
+The Hahn–Banach theorem guarantees that every Hausdorff locally convex space has the HBEP.  For complete metrizable topological vector spaces there is a converse, due to Kalton: every complete metrizable TVS with the Hahn–Banach extension property is locally convex.[31]  On the other hand, a vector space X of uncountable dimension, endowed with the finest vector topology, then this is a topological vector spaces with the Hahn-Banach extension property that is neither locally convex nor metrizable.[31]
+A vector subspace M of a TVS X has the separation property if for every element of X such that 
+
+
+
+x
+∉
+M
+,
+
+
+{\displaystyle x\not \in M,}
+
+ there exists a continuous linear functional 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ on X such that 
+
+
+
+f
+(
+x
+)
+≠
+0
+
+
+{\displaystyle f(x)\neq 0}
+
+ and 
+
+
+
+f
+(
+m
+)
+=
+0
+
+
+{\displaystyle f(m)=0}
+
+ for all 
+
+
+
+m
+∈
+M
+.
+
+
+{\displaystyle m\in M.}
+
+  Clearly, the continuous dual space of a TVS X separates points on X if and only if 
+
+
+
+{
+0
+}
+,
+
+
+{\displaystyle \{0\},}
+
+ has the separation property.  In 1992, Kakol proved that any infinite dimensional vector space X, there exist TVS-topologies on X that do not have the HBEP despite having enough continuous linear functionals for the continuous dual space to separate points on X.  However, if X is a TVS then every vector subspace of X has the extension property if and only if every vector subspace of X has the separation property.[31]
+The proof of the Hahn–Banach theorem for real vector spaces (HB) commonly uses Zorn's lemma, which in the axiomatic framework of Zermelo–Fraenkel set theory (ZF) is equivalent to the axiom of choice (AC).  It was discovered by Łoś and Ryll-Nardzewski[12] and independently by Luxemburg[11] that HB can be proved using the ultrafilter lemma (UL), which is equivalent (under ZF) to the Boolean prime ideal theorem (BPI). BPI is strictly weaker than the axiom of choice and it was later shown that HB is strictly weaker than BPI.[32]
+The ultrafilter lemma is equivalent (under ZF) to the Banach–Alaoglu theorem,[33] which is another foundational theorem in functional analysis. Although the Banach–Alaoglu theorem implies HB,[34] it is not equivalent to it (said differently, the Banach–Alaoglu theorem is strictly stronger than HB). 
+However, HB is equivalent to a certain weakened version of the Banach–Alaoglu theorem for normed spaces.[35] 
+The Hahn–Banach theorem is also equivalent to the following statement:[36]
+(BPI is equivalent to the statement that there are always non-constant probability charges which take only the values 0 and 1.)
+In ZF, the Hahn–Banach theorem suffices to derive the existence of a non-Lebesgue measurable set.[37]  Moreover, the Hahn–Banach theorem implies the Banach–Tarski paradox.[38]
+For separable Banach spaces, D. K. Brown and S. G. Simpson proved that the Hahn–Banach theorem follows from WKL0, a weak subsystem of second-order arithmetic that takes a form of Kőnig's lemma restricted to binary trees as an axiom.  In fact, they prove that under a weak set of assumptions, the two are equivalent, an example of reverse mathematics.[39][40]
+Proofs
+
+

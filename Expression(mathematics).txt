@@ -1,0 +1,80 @@
+18914,
+Expression(mathematics),
+
+In mathematics, an expression or mathematical expression is a finite combination of symbols that is well-formed according to rules that depend on the context.  Mathematical symbols can designate numbers (constants), variables, operations, functions, brackets, punctuation, and grouping to help determine order of operations and other aspects of logical syntax.
+Many authors distinguish an expression from a formula, the former denoting a mathematical object, and the latter denoting a statement about mathematical objects.[citation needed] For example, 
+
+
+
+8
+x
+−
+5
+
+
+{\displaystyle 8x-5}
+
+ is an expression, while 
+
+
+
+8
+x
+−
+5
+≥
+5
+x
+−
+8
+
+
+{\displaystyle 8x-5\geq 5x-8}
+
+ is a formula. However, in modern mathematics, and in particular in computer algebra, formulas are viewed as expressions that can be evaluated to true or false, depending on the values that are given to the variables occurring in the expressions. For example 
+
+
+
+8
+x
+−
+5
+≥
+5
+x
+−
+8
+
+
+{\displaystyle 8x-5\geq 5x-8}
+
+ takes the value false if x is given a value less than –1, and the value true otherwise.
+The use of expressions ranges from the simple:
+to the complex: 
+An expression is a syntactic construct. It must be well-formed: the allowed operators must have the correct number of inputs in the correct places, the characters that make up these inputs must be valid, have a clear order of operations, etc. Strings of symbols that violate the rules of syntax are not well-formed and are not valid mathematical expressions.
+For example, in the usual notation of arithmetic, the expression 1 + 2 × 3 is well-formed, but the following expression is not:
+Semantics is the study of meaning. Formal semantics is about attaching meaning to expressions.
+In algebra, an expression may be used to designate a value, which might depend on values assigned to variables occurring in the expression. The determination of this value depends on the semantics attached to the symbols of the expression.  The choice of semantics depends on the context of the expression.  The same syntactic expression 1 + 2 × 3 can have different values (mathematically 7, but also 9), depending on the order of operations implied by the context (See also Operations § Calculators).
+The semantic rules may declare that certain expressions do not designate any value (for instance when they involve division by 0); such expressions are said to have an undefined value, but they are well-formed expressions nonetheless. In general the meaning of expressions is not limited to designating values; for instance, an expression might designate a condition, or an equation that is to be solved, or it can be viewed as an object in its own right that can be manipulated according to certain rules. Certain expressions that designate a value simultaneously express a condition that is assumed to hold, for instance those involving the operator 
+
+
+
+⊕
+
+
+{\displaystyle \oplus }
+
+ to designate an internal direct sum.
+Formal languages allow formalizing the concept of well-formed expressions.
+In the 1930s, a new type of expressions, called lambda expressions, were introduced by Alonzo Church and Stephen Kleene for formalizing functions and their evaluation. They form the basis for lambda calculus, a formal system used in mathematical logic and the theory of programming languages.
+The equivalence of two lambda expressions is undecidable. This is also the case for the expressions representing real numbers, which are built from the integers by using the arithmetical operations, the logarithm and the exponential (Richardson's theorem).
+Many mathematical expressions include variables. Any variable can be classified as being either a free variable or a bound variable.
+For a given combination of values for the free variables, an expression may be evaluated, although for some combinations of values of the free variables, the value of the expression may be undefined. Thus an expression represents a function whose inputs are the values assigned to the free variables and whose output is the resulting value of the expression.[citation needed]
+For example, the expression
+evaluated for x = 10, y = 5, will give 2; but it is undefined for y = 0.
+The evaluation of an expression is dependent on the definition of the mathematical operators and on the system of values that is its context.
+Two expressions are said to be equivalent if, for each combination of values for the free variables, they have the same output, i.e., they represent the same function. Example:
+The expression
+has free variable x, bound variable n, constants 1, 2, and 3, two occurrences of an implicit multiplication operator, and a summation operator. The expression is equivalent to the simpler expression 12x. The value for x = 3 is 36.
+
+

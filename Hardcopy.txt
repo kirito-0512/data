@@ -1,0 +1,14 @@
+41230,
+Hardcopy,
+
+In information handling, the U.S. Federal Standard 1037C (Glossary of Telecommunication Terms) defines a hard copy as a permanent reproduction, or copy, in the form of a physical object, of any media suitable for direct use by a person (in particular paper), of displayed or transmitted data. Examples of hard copies include teleprinter pages, continuous printed tapes, computer printouts, and radio photo prints. On the other hand, physical objects such as magnetic tapes, floppy disks, or non-printed punched paper tapes are not defined as hard copies by 1037C.[1]
+A file that can be viewed without printing on a screen is sometimes called a soft copy.[2][3] The U.S. Federal Standard 1037C defines "soft copy" as "a nonpermanent display image, for example, a cathode ray tube display."[4]
+The term "hard copy" predates the digital computer. In the book and newspaper printing process, "hard copy" refers to a manuscript or typewritten document that has been edited and proofread and is ready for typesetting or being read on-air in a radio or television broadcast. The old meaning of hard copy was mostly discarded after the information revolution.[5]
+One often-overlooked use for printers is in the field of IT security. Copies of various system and server activity logs are typically stored on the local filesystem, where a remote attacker – having achieved their primary goals – can then alter or delete the contents of the logs in an attempt to "cover their tracks" or otherwise thwart the efforts of system administrators and security experts. However, if the log entries are simultaneously given to a printer, line-by-line, a local hard-copy record of system activity is created – which cannot be remotely altered or otherwise manipulated. Dot matrix printers are ideal for this task, as they can sequentially print each log entry, one at a time, as they are added to the log. The usual dot-matrix printer support for continuous stationery also prevents incriminating pages from being surreptitiously removed or altered without evidence of tampering.
+
+The hacker's Jargon File defines a dead-tree version to be a paper version of an online document, where "dead trees" refer to paper.
+A saying from the Jargon File is that "You can't grep dead trees", which comes from the Unix command grep, which searches the contents of text files. This means that there is an advantage to keeping documents in digital form, rather than on paper, so that they can be more easily searched for specific contents. A similarly entry in the Jargon File is "tree-killer", which may refer either to a printer or a person who wastes paper.
+Dead-tree edition refers to a printed paper version of a written work, as opposed to digital alternatives such as a web page.[6]
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).
+
+

@@ -1,0 +1,36 @@
+37333,
+PHPscripttechtalk,
+Simply put, isn't this page dead? I can't see what is still in pending and what is fixed. Also, the intro says "do not add bugs and feature requests here", most of stuff are about features and bugs.
+Yup, this page is dead. Those curious should direct themselves to the Wikitech-l mailing list or set something up on meta under m:How to become a Wikipedia hacker.
+This is the place to discuss bug fixes and planned feature on a more "technical" level. 
+(See also the new wikitech-l mailing list.)
+Please, do not add bugs and feature requests here: instead, see Wikipedia:PHP script for more details of how to report bugs.
+
+Things that should be repaired ASAP.
+
+I can't get diffs. It could be the cache, if it is running here already. Somebody please fix this! --Magnus Manske
+
+These tasks need volunteers to hack'em!
+Might be fixed by a patch from Brion VIBBER and myself --Magnus Manske
+Might be fixed by a patch from Brion VIBBER and myself --Magnus Manske
+Ideas for solutions needed here.
+This file is getting quite large, resulting in high compilation times. I suggest two steps :
+I started doing this now. --Magnus Manske
+I take that back, CSS should do fine there. How does this sound:
+where we define either:
+or
+in the style sheet? The text portion will still be clickable in the old-style case, though that could probably be "fixed" if desired. --Brion VIBBER
+Caching proposal
+--Magnus Manske
+What eats server time
+I suspect the RecentChanges viewings eat tremendous resources and are the bottleneck. The web server and the PHP script are usually snappy, because previewing, which doesn't need db access, is fast. Everybody working on the site calls RecentChanges every couple of minutes. The server sped up noticeably when Jimbo changed the default from 250 down to 50 pages. It seems that to create RecentChanges, we search through the whole cur table and then sort and present the latest n changes, correct? This means as the database grows, it will only get slower. How about this suggestion: add a new table recent_edits, which only stores information about the recent edits (page title, user name, comment, timestamp), so that we only need to dump out the first n entries from that table for every RecentChanges view (hopefully without need to sort them)? Maybe recent_edits doesn't even have to be a mysql table, just a list somehow that we prune down every once in a while. Or maybe even keep a ready made RecentChanges HTML page always up to date and serve it statically. 2/7/2002 AxelBoldt
+(2002/02/07 22:29 PST) I've added a 5-minute minimum wait between refreshes of WantedPages (see revision 1.2 of special_wantedpages.php and 1.14 of wikiTextEn.php). Good idea? Bad idea? Shouldn't affect legitimate users, but makes it slightly more difficult for malicious or accidental otver-refreshing to overwhelm the server. --Brion VIBBER
+
+How about decentralizing the Wiki? If it was relatively easy to get different Wiki servers to talk to each other and do some automatic linking then it should speed things up significantly. I find the Wikipedia a great idea and I am prepared to provide some serverspace (because of my interests preferably the medical bit). --Mathis
+
+We definitely should use persistent database connections (mysql_pconnect instead of mysql_connect). There's no point in constantly transmitting the same passwords and usernames. mysql_pconnect is a faster drop-in replacement for mysql_connect. It only speeds things up if php is running as an apache module, and I assume that's the case. 8/2/2002 AxelBoldt
+These could probably be deleted or moved to a separate "what were we thinking? / what did we do when this broke before?" page.
+
+For more details, see Wikipedia:Bug Reports.  Until this is fixed any users who change their password cannot log in (like me).  --User:Chuck Smith
+
+

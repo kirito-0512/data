@@ -1,0 +1,2601 @@
+25977,
+Ideal(ringtheory),
+Ring homomorphisms
+Algebraic structures
+Related structures
+Algebraic number theory
+p-adic number theory and decimals
+Algebraic geometry
+Noncommutative algebraic geometry
+Free algebra
+Clifford algebra
+In mathematics, and more specifically in ring theory, an ideal of a ring is a special subset of its elements. Ideals generalize certain subsets of the integers, such as the even numbers or the multiples of 3. Addition and subtraction of even numbers preserves evenness, and multiplying an even number by any integer (even or odd) results in an even number; these closure and absorption properties are the defining properties of an ideal.  An ideal can be used to construct a quotient ring in a way similar to how, in group theory, a normal subgroup can be used to construct a quotient group.
+Among the integers, the ideals correspond one-for-one with the non-negative integers: in this ring, every ideal is a principal ideal consisting of the multiples of a single non-negative number. However, in other rings, the ideals may not correspond directly to the ring elements, and certain properties of integers, when generalized to rings, attach more naturally to the ideals than to the elements of the ring. For instance, the prime ideals of a ring are analogous to prime numbers, and the Chinese remainder theorem can be generalized to ideals.  There is a version of unique prime factorization for the ideals of a Dedekind domain (a type of ring important in number theory).
+The related, but distinct, concept of an ideal in order theory is derived from the notion of ideal in ring theory. A fractional ideal is a generalization of an ideal, and the usual ideals are sometimes called integral ideals for clarity.
+Ernst Kummer invented the concept of ideal numbers to serve as the "missing" factors in number rings in which unique factorization fails; here the word "ideal" is in the sense of existing in imagination only, in analogy with "ideal" objects in geometry such as points at infinity.[1]
+In 1876, Richard Dedekind replaced Kummer's undefined concept by concrete sets of numbers, sets that he called ideals, in the third edition of Dirichlet's book Vorlesungen über Zahlentheorie, to which Dedekind had added many supplements.[1][2][3]
+Later the notion was extended beyond number rings to the setting of polynomial rings and other commutative rings by David Hilbert and especially Emmy Noether.
+For an arbitrary ring 
+
+
+
+(
+R
+,
++
+,
+⋅
+)
+
+
+{\displaystyle (R,+,\cdot )}
+
+, let 
+
+
+
+(
+R
+,
++
+)
+
+
+{\displaystyle (R,+)}
+
+ be its additive group. A subset I is called a left ideal of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ if it is an additive subgroup of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ that "absorbs multiplication from the left by elements of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+"; that is, 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ is a left ideal if it satisfies the following two conditions:
+A right ideal is defined with the condition 
+
+
+
+r
+x
+∈
+I
+
+
+{\displaystyle rx\in I}
+
+ replaced by 
+
+
+
+x
+r
+∈
+I
+
+
+{\displaystyle xr\in I}
+
+. A two-sided ideal is a left ideal that is also a right ideal, and is sometimes simply called an ideal. In the language of modules, the definitions mean that a left (resp. right, two-sided) ideal of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is an 
+
+
+
+R
+
+
+{\displaystyle R}
+
+-submodule of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ when 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is viewed as a left (resp. right, bi-) 
+
+
+
+R
+
+
+{\displaystyle R}
+
+-module. When 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is a commutative ring, the definitions of left, right, and two-sided ideal coincide, and the term ideal is used alone.
+To understand the concept of an ideal, consider how ideals arise in the construction of rings of "elements modulo".  For concreteness, let us look at the ring 
+
+
+
+
+Z
+
+
+/
+
+n
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} /n\mathbb {Z} }
+
+ of integers modulo 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ given an integer 
+
+
+
+n
+∈
+
+Z
+
+
+
+{\displaystyle n\in \mathbb {Z} }
+
+ (
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is a commutative ring). The key observation here is that we obtain 
+
+
+
+
+Z
+
+
+/
+
+n
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} /n\mathbb {Z} }
+
+ by taking the integer line 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ and wrapping it around itself so that various integers get identified.  In doing so, we must satisfy 2 requirements: 
+1) 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ must be identified with 0 since 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ is congruent to 0 modulo 
+
+
+
+n
+
+
+{\displaystyle n}
+
+. 
+2) the resulting structure must again be a ring. 
+
+The second requirement forces us to make additional identifications (i.e., it determines the precise way in which we must wrap 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ around itself). The notion of an ideal arises when we ask the question: What is the exact set of integers that we are forced to identify with 0?  The answer is, unsurprisingly, the set 
+
+
+
+n
+
+Z
+
+=
+{
+n
+m
+∣
+m
+∈
+
+Z
+
+}
+
+
+{\displaystyle n\mathbb {Z} =\{nm\mid m\in \mathbb {Z} \}}
+
+ of all integers congruent to 0 modulo 
+
+
+
+n
+
+
+{\displaystyle n}
+
+.  That is, we must wrap 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ around itself infinitely many times so that the integers 
+
+
+
+…
+,
+−
+2
+n
+,
+−
+n
+,
+n
+,
+2
+n
+,
+3
+n
+,
+…
+
+
+{\displaystyle \ldots ,-2n,-n,n,2n,3n,\ldots }
+
+ will all align with 0.  If we look at what properties this set must satisfy in order to ensure that 
+
+
+
+
+Z
+
+
+/
+
+n
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} /n\mathbb {Z} }
+
+ is a ring, then we arrive at the definition of an ideal.  Indeed, one can directly verify that 
+
+
+
+n
+
+Z
+
+
+
+{\displaystyle n\mathbb {Z} }
+
+ is an ideal of 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+.
+Remark. Identifications with elements other than 0 also need to be made.  For example, the elements in 
+
+
+
+1
++
+n
+
+Z
+
+
+
+{\displaystyle 1+n\mathbb {Z} }
+
+ must be identified with 1, the elements in 
+
+
+
+2
++
+n
+
+Z
+
+
+
+{\displaystyle 2+n\mathbb {Z} }
+
+ must be identified with 2, and so on.  Those, however, are uniquely determined by 
+
+
+
+n
+
+Z
+
+
+
+{\displaystyle n\mathbb {Z} }
+
+ since 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is an additive group.
+We can make a similar construction in any commutative ring 
+
+
+
+R
+
+
+{\displaystyle R}
+
+: start with an arbitrary 
+
+
+
+x
+∈
+R
+
+
+{\displaystyle x\in R}
+
+, and then identify with 0 all elements of the ideal 
+
+
+
+x
+R
+=
+{
+x
+r
+∣
+r
+∈
+R
+}
+
+
+{\displaystyle xR=\{xr\mid r\in R\}}
+
+. It turns out that the ideal 
+
+
+
+x
+R
+
+
+{\displaystyle xR}
+
+ is the smallest ideal that contains 
+
+
+
+x
+
+
+{\displaystyle x}
+
+, called the ideal generated by 
+
+
+
+x
+
+
+{\displaystyle x}
+
+.  More generally, we can  start with an arbitrary subset 
+
+
+
+S
+⊆
+R
+
+
+{\displaystyle S\subseteq R}
+
+, and then identify with 0 all the elements in the ideal generated by 
+
+
+
+S
+
+
+{\displaystyle S}
+
+: the smallest ideal 
+
+
+
+(
+S
+)
+
+
+{\displaystyle (S)}
+
+ such that 
+
+
+
+S
+⊆
+(
+S
+)
+
+
+{\displaystyle S\subseteq (S)}
+
+.  The ring that we obtain after the identification depends only on the ideal 
+
+
+
+(
+S
+)
+
+
+{\displaystyle (S)}
+
+ and not on the set 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ that we started with. That is, if 
+
+
+
+(
+S
+)
+=
+(
+T
+)
+
+
+{\displaystyle (S)=(T)}
+
+, then the resulting rings will be the same.
+Therefore, an ideal 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ of a commutative ring 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ captures canonically the information needed to obtain the ring of elements of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ modulo a given subset 
+
+
+
+S
+⊆
+R
+
+
+{\displaystyle S\subseteq R}
+
+. The elements of 
+
+
+
+I
+
+
+{\displaystyle I}
+
+, by definition, are those that are congruent to zero, that is, identified with zero in the resulting ring.  The resulting ring is called the quotient of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ by 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ and is denoted 
+
+
+
+R
+
+/
+
+I
+
+
+{\displaystyle R/I}
+
+.  Intuitively, the definition of an ideal postulates two natural conditions necessary for 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ to contain all elements designated as "zeros" by 
+
+
+
+R
+
+/
+
+I
+
+
+{\displaystyle R/I}
+
+:
+It turns out that the above conditions are also sufficient for 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ to contain all the necessary "zeros": no other elements have to be designated as "zero" in order to form 
+
+
+
+R
+
+/
+
+I
+
+
+{\displaystyle R/I}
+
+.  (In fact, no other elements should be designated as "zero" if we want to make the fewest identifications.)
+Remark. The above construction still works using two-sided ideals even if 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is not necessarily commutative.
+(For the sake of brevity, some results are stated only for left ideals but are usually also true for right ideals with appropriate notation changes.)
+To simplify the description all rings are assumed to be commutative. The non-commutative case is discussed in detail in the respective articles.
+Ideals are important because they appear as kernels of ring homomorphisms and allow one to define factor rings. Different types of ideals are studied because they can be used to construct different types of factor rings.
+Two other important terms using "ideal" are not always ideals of their ring. See their respective articles for details:
+The sum and product of ideals are defined as follows. For  
+
+
+
+
+
+a
+
+
+
+
+{\displaystyle {\mathfrak {a}}}
+
+ and 
+
+
+
+
+
+b
+
+
+
+
+{\displaystyle {\mathfrak {b}}}
+
+, left (resp. right) ideals of a ring R, their sum is
+which is a left (resp. right) ideal,
+and, if 
+
+
+
+
+
+a
+
+
+,
+
+
+b
+
+
+
+
+{\displaystyle {\mathfrak {a}},{\mathfrak {b}}}
+
+ are two-sided,
+i.e. the product is the ideal generated by all products of the form ab with a in 
+
+
+
+
+
+a
+
+
+
+
+{\displaystyle {\mathfrak {a}}}
+
+ and b in 
+
+
+
+
+
+b
+
+
+
+
+{\displaystyle {\mathfrak {b}}}
+
+.
+Note 
+
+
+
+
+
+a
+
+
++
+
+
+b
+
+
+
+
+{\displaystyle {\mathfrak {a}}+{\mathfrak {b}}}
+
+ is the smallest left (resp. right) ideal containing both 
+
+
+
+
+
+a
+
+
+
+
+{\displaystyle {\mathfrak {a}}}
+
+ and 
+
+
+
+
+
+b
+
+
+
+
+{\displaystyle {\mathfrak {b}}}
+
+ (or the union 
+
+
+
+
+
+a
+
+
+∪
+
+
+b
+
+
+
+
+{\displaystyle {\mathfrak {a}}\cup {\mathfrak {b}}}
+
+), while  the product 
+
+
+
+
+
+a
+
+
+
+
+b
+
+
+
+
+{\displaystyle {\mathfrak {a}}{\mathfrak {b}}}
+
+ is contained in the intersection of 
+
+
+
+
+
+a
+
+
+
+
+{\displaystyle {\mathfrak {a}}}
+
+ and 
+
+
+
+
+
+b
+
+
+
+
+{\displaystyle {\mathfrak {b}}}
+
+.
+The distributive law holds for two-sided ideals 
+
+
+
+
+
+a
+
+
+,
+
+
+b
+
+
+,
+
+
+c
+
+
+
+
+{\displaystyle {\mathfrak {a}},{\mathfrak {b}},{\mathfrak {c}}}
+
+,
+If a product is replaced by an intersection, a partial distributive law holds:
+where the equality holds if 
+
+
+
+
+
+a
+
+
+
+
+{\displaystyle {\mathfrak {a}}}
+
+ contains 
+
+
+
+
+
+b
+
+
+
+
+{\displaystyle {\mathfrak {b}}}
+
+ or 
+
+
+
+
+
+c
+
+
+
+
+{\displaystyle {\mathfrak {c}}}
+
+.
+Remark: The sum and the intersection of ideals is again an ideal; with these two operations as join and meet, the set of all ideals of a given ring forms a complete modular lattice. The lattice is not, in general, a distributive lattice. The three operations of intersection, sum (or join), and product make the set of ideals of a commutative ring into a quantale.
+If 
+
+
+
+
+
+a
+
+
+,
+
+
+b
+
+
+
+
+{\displaystyle {\mathfrak {a}},{\mathfrak {b}}}
+
+ are ideals of a commutative ring R, then 
+
+
+
+
+
+a
+
+
+∩
+
+
+b
+
+
+=
+
+
+a
+
+
+
+
+b
+
+
+
+
+{\displaystyle {\mathfrak {a}}\cap {\mathfrak {b}}={\mathfrak {a}}{\mathfrak {b}}}
+
+ in the following two cases (at least) 
+(More generally, the difference between a product and an intersection of ideals is measured by the Tor functor: 
+
+
+
+
+Tor
+
+1
+
+
+R
+
+
+⁡
+(
+R
+
+/
+
+
+
+a
+
+
+,
+R
+
+/
+
+
+
+b
+
+
+)
+=
+(
+
+
+a
+
+
+∩
+
+
+b
+
+
+)
+
+/
+
+
+
+a
+
+
+
+
+b
+
+
+.
+
+
+{\displaystyle \operatorname {Tor} _{1}^{R}(R/{\mathfrak {a}},R/{\mathfrak {b}})=({\mathfrak {a}}\cap {\mathfrak {b}})/{\mathfrak {a}}{\mathfrak {b}}.}
+
+[10])
+An integral domain is called a Dedekind domain if for each pair of ideals 
+
+
+
+
+
+a
+
+
+⊂
+
+
+b
+
+
+
+
+{\displaystyle {\mathfrak {a}}\subset {\mathfrak {b}}}
+
+, there is an ideal 
+
+
+
+
+
+c
+
+
+
+
+{\displaystyle {\mathfrak {c}}}
+
+ such that 
+
+
+
+
+
+
+a
+
+
+
+=
+
+
+b
+
+
+
+
+c
+
+
+
+
+{\displaystyle {\mathfrak {\mathfrak {a}}}={\mathfrak {b}}{\mathfrak {c}}}
+
+.[11] It can then be shown that every nonzero ideal of a Dedekind domain can be uniquely written as a product of maximal ideals, a generalization of the fundamental theorem of arithmetic.
+In 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ we have
+since 
+
+
+
+(
+n
+)
+∩
+(
+m
+)
+
+
+{\displaystyle (n)\cap (m)}
+
+ is the set of integers which are divisible by both 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ and 
+
+
+
+m
+
+
+{\displaystyle m}
+
+.
+Let 
+
+
+
+R
+=
+
+C
+
+[
+x
+,
+y
+,
+z
+,
+w
+]
+
+
+{\displaystyle R=\mathbb {C} [x,y,z,w]}
+
+ and let 
+
+
+
+
+
+a
+
+
+=
+(
+z
+,
+w
+)
+,
+
+
+b
+
+
+=
+(
+x
++
+z
+,
+y
++
+w
+)
+,
+
+
+c
+
+
+=
+(
+x
++
+z
+,
+w
+)
+
+
+{\displaystyle {\mathfrak {a}}=(z,w),{\mathfrak {b}}=(x+z,y+w),{\mathfrak {c}}=(x+z,w)}
+
+. Then,
+In the first computation, we see the general pattern for taking the sum of two finitely generated ideals, it is the ideal generated by the union of their generators. In the last three we observe that products and intersections agree whenever the two ideals intersect in the zero ideal. These computations can be checked using Macaulay2.[12][13][14]
+Ideals appear naturally in the study of modules, especially in the form of a radical.
+Let R be a commutative ring. By definition, a primitive ideal of R is the annihilator of a (nonzero) simple R-module. The Jacobson radical 
+
+
+
+J
+=
+Jac
+⁡
+(
+R
+)
+
+
+{\displaystyle J=\operatorname {Jac} (R)}
+
+ of R is the intersection of all primitive ideals. Equivalently,
+Indeed, if 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ is a simple module and x is a nonzero element in M, then 
+
+
+
+R
+x
+=
+M
+
+
+{\displaystyle Rx=M}
+
+ and 
+
+
+
+R
+
+/
+
+Ann
+⁡
+(
+M
+)
+=
+R
+
+/
+
+Ann
+⁡
+(
+x
+)
+≃
+M
+
+
+{\displaystyle R/\operatorname {Ann} (M)=R/\operatorname {Ann} (x)\simeq M}
+
+, meaning 
+
+
+
+Ann
+⁡
+(
+M
+)
+
+
+{\displaystyle \operatorname {Ann} (M)}
+
+ is a maximal ideal. Conversely, if 
+
+
+
+
+
+m
+
+
+
+
+{\displaystyle {\mathfrak {m}}}
+
+ is a maximal ideal, then 
+
+
+
+
+
+m
+
+
+
+
+{\displaystyle {\mathfrak {m}}}
+
+ is the annihilator of the simple R-module 
+
+
+
+R
+
+/
+
+
+
+m
+
+
+
+
+{\displaystyle R/{\mathfrak {m}}}
+
+. There is also another characterization (the proof is not hard):
+For a not-necessarily-commutative ring, it is a general fact that 
+
+
+
+1
+−
+y
+x
+
+
+{\displaystyle 1-yx}
+
+ is a unit element if and only if 
+
+
+
+1
+−
+x
+y
+
+
+{\displaystyle 1-xy}
+
+ is (see the link) and so this last characterization shows that the radical can be defined both in terms of left and right primitive ideals.
+The following simple but important fact (Nakayama's lemma) is built-in to the definition of a Jacobson radical: if M is a module such that 
+
+
+
+J
+M
+=
+M
+
+
+{\displaystyle JM=M}
+
+, then M does not admit a maximal submodule, since if there is a maximal submodule 
+
+
+
+L
+⊊
+M
+
+
+{\displaystyle L\subsetneq M}
+
+, 
+
+
+
+J
+⋅
+(
+M
+
+/
+
+L
+)
+=
+0
+
+
+{\displaystyle J\cdot (M/L)=0}
+
+ and so 
+
+
+
+M
+=
+J
+M
+⊂
+L
+⊊
+M
+
+
+{\displaystyle M=JM\subset L\subsetneq M}
+
+, a contradiction. Since a nonzero finitely generated module admits a maximal submodule, in particular, one has:
+A maximal ideal is a prime ideal and so one has
+where the intersection on the left is called the nilradical of R. As it turns out, 
+
+
+
+nil
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {nil} (R)}
+
+ is also the set of nilpotent elements of R.
+If R is an Artinian ring, then 
+
+
+
+Jac
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {Jac} (R)}
+
+ is nilpotent and 
+
+
+
+nil
+⁡
+(
+R
+)
+=
+Jac
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {nil} (R)=\operatorname {Jac} (R)}
+
+. (Proof: first note the DCC implies 
+
+
+
+
+J
+
+n
+
+
+=
+
+J
+
+n
++
+1
+
+
+
+
+{\displaystyle J^{n}=J^{n+1}}
+
+ for some n. If (DCC) 
+
+
+
+
+
+a
+
+
+⊋
+Ann
+⁡
+(
+
+J
+
+n
+
+
+)
+
+
+{\displaystyle {\mathfrak {a}}\supsetneq \operatorname {Ann} (J^{n})}
+
+ is an ideal properly minimal over the latter, then 
+
+
+
+J
+⋅
+(
+
+
+a
+
+
+
+/
+
+Ann
+⁡
+(
+
+J
+
+n
+
+
+)
+)
+=
+0
+
+
+{\displaystyle J\cdot ({\mathfrak {a}}/\operatorname {Ann} (J^{n}))=0}
+
+. That is, 
+
+
+
+
+J
+
+n
+
+
+
+
+a
+
+
+=
+
+J
+
+n
++
+1
+
+
+
+
+a
+
+
+=
+0
+
+
+{\displaystyle J^{n}{\mathfrak {a}}=J^{n+1}{\mathfrak {a}}=0}
+
+, a contradiction.)
+Let A and B be two commutative rings, and let f : A → B be a ring homomorphism. If 
+
+
+
+
+
+a
+
+
+
+
+{\displaystyle {\mathfrak {a}}}
+
+ is an ideal in A, then 
+
+
+
+f
+(
+
+
+a
+
+
+)
+
+
+{\displaystyle f({\mathfrak {a}})}
+
+ need not be an ideal in B (e.g. take f to be the inclusion of the ring of integers Z into the field of rationals Q). The extension 
+
+
+
+
+
+
+a
+
+
+
+e
+
+
+
+
+{\displaystyle {\mathfrak {a}}^{e}}
+
+ of 
+
+
+
+
+
+a
+
+
+
+
+{\displaystyle {\mathfrak {a}}}
+
+ in B is defined to be the ideal in B generated by 
+
+
+
+f
+(
+
+
+a
+
+
+)
+
+
+{\displaystyle f({\mathfrak {a}})}
+
+. Explicitly,
+If 
+
+
+
+
+
+b
+
+
+
+
+{\displaystyle {\mathfrak {b}}}
+
+ is an ideal of B, then 
+
+
+
+
+f
+
+−
+1
+
+
+(
+
+
+b
+
+
+)
+
+
+{\displaystyle f^{-1}({\mathfrak {b}})}
+
+ is always an ideal of A, called the contraction 
+
+
+
+
+
+
+b
+
+
+
+c
+
+
+
+
+{\displaystyle {\mathfrak {b}}^{c}}
+
+ of 
+
+
+
+
+
+b
+
+
+
+
+{\displaystyle {\mathfrak {b}}}
+
+ to A.
+Assuming f : A → B is a ring homomorphism, 
+
+
+
+
+
+a
+
+
+
+
+{\displaystyle {\mathfrak {a}}}
+
+ is an ideal in A, 
+
+
+
+
+
+b
+
+
+
+
+{\displaystyle {\mathfrak {b}}}
+
+ is an ideal in B, then:
+It is false, in general, that 
+
+
+
+
+
+a
+
+
+
+
+{\displaystyle {\mathfrak {a}}}
+
+ being prime (or maximal) in A implies that 
+
+
+
+
+
+
+a
+
+
+
+e
+
+
+
+
+{\displaystyle {\mathfrak {a}}^{e}}
+
+ is prime (or maximal) in B. Many classic examples of this stem from algebraic number theory. For example, embedding 
+
+
+
+
+Z
+
+→
+
+Z
+
+
+[
+i
+]
+
+
+
+{\displaystyle \mathbb {Z} \to \mathbb {Z} \left\lbrack i\right\rbrack }
+
+. In 
+
+
+
+B
+=
+
+Z
+
+
+[
+i
+]
+
+
+
+{\displaystyle B=\mathbb {Z} \left\lbrack i\right\rbrack }
+
+, the element 2 factors as 
+
+
+
+2
+=
+(
+1
++
+i
+)
+(
+1
+−
+i
+)
+
+
+{\displaystyle 2=(1+i)(1-i)}
+
+ where (one can show) neither of 
+
+
+
+1
++
+i
+,
+1
+−
+i
+
+
+{\displaystyle 1+i,1-i}
+
+ are units in B. So 
+
+
+
+(
+2
+
+)
+
+e
+
+
+
+
+{\displaystyle (2)^{e}}
+
+ is not prime in B (and therefore not maximal, as well). Indeed, 
+
+
+
+(
+1
+±
+i
+
+)
+
+2
+
+
+=
+±
+2
+i
+
+
+{\displaystyle (1\pm i)^{2}=\pm 2i}
+
+ shows that 
+
+
+
+(
+1
++
+i
+)
+=
+(
+(
+1
+−
+i
+)
+−
+(
+1
+−
+i
+
+)
+
+2
+
+
+)
+
+
+{\displaystyle (1+i)=((1-i)-(1-i)^{2})}
+
+, 
+
+
+
+(
+1
+−
+i
+)
+=
+(
+(
+1
++
+i
+)
+−
+(
+1
++
+i
+
+)
+
+2
+
+
+)
+
+
+{\displaystyle (1-i)=((1+i)-(1+i)^{2})}
+
+, and therefore 
+
+
+
+(
+2
+
+)
+
+e
+
+
+=
+(
+1
++
+i
+
+)
+
+2
+
+
+
+
+{\displaystyle (2)^{e}=(1+i)^{2}}
+
+.
+On the other hand, if f is surjective and 
+
+
+
+
+
+a
+
+
+⊇
+ker
+⁡
+f
+
+
+{\displaystyle {\mathfrak {a}}\supseteq \ker f}
+
+ then:
+Remark: Let K be a field extension of L, and let B and A be the rings of integers of K and L, respectively. Then B is an integral extension of A, and we let f be the inclusion map from A to B. The behaviour of a prime ideal 
+
+
+
+
+
+a
+
+
+=
+
+
+p
+
+
+
+
+{\displaystyle {\mathfrak {a}}={\mathfrak {p}}}
+
+ of A under extension is one of the central problems of algebraic number theory.
+The following is sometimes useful:[15] a prime ideal 
+
+
+
+
+
+p
+
+
+
+
+{\displaystyle {\mathfrak {p}}}
+
+ is a contraction of a prime ideal if and only if 
+
+
+
+
+
+p
+
+
+=
+
+
+
+p
+
+
+
+e
+c
+
+
+
+
+{\displaystyle {\mathfrak {p}}={\mathfrak {p}}^{ec}}
+
+. (Proof: Assuming the latter, note 
+
+
+
+
+
+
+p
+
+
+
+e
+
+
+
+B
+
+
+p
+
+
+
+=
+
+B
+
+
+p
+
+
+
+⇒
+
+
+
+p
+
+
+
+e
+
+
+
+
+{\displaystyle {\mathfrak {p}}^{e}B_{\mathfrak {p}}=B_{\mathfrak {p}}\Rightarrow {\mathfrak {p}}^{e}}
+
+ intersects 
+
+
+
+A
+−
+
+
+p
+
+
+
+
+{\displaystyle A-{\mathfrak {p}}}
+
+, a contradiction. Now, the prime ideals of 
+
+
+
+
+B
+
+
+p
+
+
+
+
+
+{\displaystyle B_{\mathfrak {p}}}
+
+ correspond to those in B that are disjoint from 
+
+
+
+A
+−
+
+
+p
+
+
+
+
+{\displaystyle A-{\mathfrak {p}}}
+
+. Hence, there is a prime ideal 
+
+
+
+
+
+q
+
+
+
+
+{\displaystyle {\mathfrak {q}}}
+
+ of B, disjoint from 
+
+
+
+A
+−
+
+
+p
+
+
+
+
+{\displaystyle A-{\mathfrak {p}}}
+
+, such that 
+
+
+
+
+
+q
+
+
+
+B
+
+
+p
+
+
+
+
+
+{\displaystyle {\mathfrak {q}}B_{\mathfrak {p}}}
+
+ is a maximal ideal containing 
+
+
+
+
+
+
+p
+
+
+
+e
+
+
+
+B
+
+
+p
+
+
+
+
+
+{\displaystyle {\mathfrak {p}}^{e}B_{\mathfrak {p}}}
+
+. One then checks that 
+
+
+
+
+
+q
+
+
+
+
+{\displaystyle {\mathfrak {q}}}
+
+ lies over 
+
+
+
+
+
+p
+
+
+
+
+{\displaystyle {\mathfrak {p}}}
+
+. The converse is obvious.)
+Ideals can be generalized to any monoid object 
+
+
+
+(
+R
+,
+⊗
+)
+
+
+{\displaystyle (R,\otimes )}
+
+, where 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is the object where the monoid structure has been forgotten. A left ideal of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is a subobject 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ that "absorbs multiplication from the left by elements of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+"; that is, 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ is a left ideal if it satisfies the following two conditions:
+A right ideal is defined with the condition "
+
+
+
+r
+⊗
+x
+∈
+(
+I
+,
+⊗
+)
+
+
+{\displaystyle r\otimes x\in (I,\otimes )}
+
+" replaced by "'
+
+
+
+x
+⊗
+r
+∈
+(
+I
+,
+⊗
+)
+
+
+{\displaystyle x\otimes r\in (I,\otimes )}
+
+". A two-sided ideal is a left ideal that is also a right ideal, and is sometimes simply called an ideal. When 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is a commutative monoid object respectively, the definitions of left, right, and two-sided ideal coincide, and the term ideal is used alone.
+An ideal can also be thought of as a specific type of R-module.  If we consider 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ as a left 
+
+
+
+R
+
+
+{\displaystyle R}
+
+-module (by left multiplication), then  a left ideal 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ is really just a left sub-module of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+. In other words, 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ is a left (right) ideal of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ if and only if it is a left (right) 
+
+
+
+R
+
+
+{\displaystyle R}
+
+-module which is a subset of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+.  
+
+
+
+I
+
+
+{\displaystyle I}
+
+ is a two-sided ideal if it is a sub-
+
+
+
+R
+
+
+{\displaystyle R}
+
+-bimodule of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+.
+Example: If we let 
+
+
+
+R
+=
+
+Z
+
+
+
+{\displaystyle R=\mathbb {Z} }
+
+, an ideal of 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is an abelian group which is a subset of 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+, i.e. 
+
+
+
+m
+
+Z
+
+
+
+{\displaystyle m\mathbb {Z} }
+
+ for some 
+
+
+
+m
+∈
+
+Z
+
+
+
+{\displaystyle m\in \mathbb {Z} }
+
+.  So these give all the ideals of 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+.
+
+

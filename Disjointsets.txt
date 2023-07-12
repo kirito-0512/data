@@ -1,0 +1,142 @@
+39359,
+Disjointsets,
+In mathematics, two sets are said to be disjoint sets if they have no element in common. Equivalently, two disjoint sets are sets whose intersection is the empty set.[1] For example, {1, 2, 3} and {4, 5, 6} are disjoint sets, while {1, 2, 3} and {3, 4, 5} are not disjoint. A collection of two or more sets is called disjoint if any two distinct sets of the collection are disjoint.
+This definition of disjoint sets can be extended to families of sets and to indexed families of sets. 
+By definition, a collection of sets is called a family of sets (such as the power set, for example). In some sources this is a set of sets, while other sources allow it to be a multiset of sets, with some sets repeated.
+An indexed family of sets 
+
+
+
+
+
+(
+
+A
+
+i
+
+
+)
+
+
+i
+∈
+I
+
+
+,
+
+
+{\displaystyle \left(A_{i}\right)_{i\in I},}
+
+ is by definition is a set-valued function (that is, it is a function that assigns a set 
+
+
+
+
+A
+
+i
+
+
+
+
+{\displaystyle A_{i}}
+
+ to every element 
+
+
+
+i
+∈
+I
+
+
+{\displaystyle i\in I}
+
+ in its domain) whose domain 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ is called its index set (and elements of its domain are called indices).
+There are two subtly different definitions for when a family of sets 
+
+
+
+
+
+F
+
+
+
+
+{\displaystyle {\mathcal {F}}}
+
+ is called pairwise disjoint. According to one such definition, the family is disjoint if each two sets in the family are either identical or disjoint. This definition would allow pairwise disjoint families of sets to have repeated copies of the same set. According to an alternative definition, each two sets in the family must be disjoint; repeated copies are not allowed. The same two definitions can be applied to an indexed family of sets: according to the first definition, every two distinct indices in the family must name sets that are disjoint or identical, while according to the second, every two distinct indices must name disjoint sets.[2] For example, the family of sets { {0, 1, 2}, {3, 4, 5}, {6, 7, 8}, ... } is disjoint according to both definitions, as is the family { {..., −2, 0, 2, 4, ...}, {..., −3, −1, 1, 3, 5} } of the two parity classes of integers. However, the family 
+
+
+
+(
+{
+n
++
+2
+k
+∣
+k
+∈
+
+Z
+
+}
+
+)
+
+n
+∈
+{
+0
+,
+1
+,
+…
+,
+9
+}
+
+
+
+
+{\displaystyle (\{n+2k\mid k\in \mathbb {Z} \})_{n\in \{0,1,\ldots ,9\}}}
+
+ with 10 members has five repetitions each of two disjoint sets, so it is pairwise disjoint under the first definition but not under the second.
+Two sets are said to be almost disjoint sets if their intersection is small in some sense. For instance, two infinite sets whose intersection is a finite set may be said to be almost disjoint.[3]
+In topology, there are various notions of separated sets with more strict conditions than disjointness. For instance, two sets may be considered to be separated when they have disjoint closures or disjoint neighborhoods. Similarly, in a metric space, positively separated sets are sets separated by a nonzero distance.[4]
+Disjointness of two sets, or of a family of sets, may be expressed in terms of intersections of pairs of them.
+Two sets A and B are disjoint if and only if their intersection 
+
+
+
+A
+∩
+B
+
+
+{\displaystyle A\cap B}
+
+ is the empty set.[1]
+It follows from this definition that every set is disjoint from the empty set,
+and that the empty set is the only set that is disjoint from itself.[5]
+If a collection contains at least two sets, the condition that the collection is disjoint implies that the intersection of the whole collection is empty. However,  a collection of sets may have an empty intersection without being disjoint. Additionally, while a collection of less than two sets is trivially disjoint, as there are no pairs to compare, the intersection of a collection of one set is equal to that set, which may be non-empty.[2] For instance, the three sets { {1, 2}, {2, 3}, {1, 3} } have an empty intersection but are not disjoint. In fact, there are no two disjoint sets in this collection. Also the empty family of sets is pairwise disjoint.[6]
+A Helly family is a system of sets within which the only subfamilies with empty intersections are the ones that are pairwise disjoint. For instance, the closed intervals of the real numbers form a Helly family: if a family of closed intervals has an empty intersection and is minimal (i.e. no subfamily of the family has an empty intersection), it must be pairwise disjoint.[7]
+A partition of a set X is any collection of mutually disjoint non-empty sets whose union is X.[8] Every partition can equivalently be described by an equivalence relation, a binary relation that describes whether two elements belong to the same set in the partition.[8]
+Disjoint-set data structures[9] and partition refinement[10] are two techniques in computer science for efficiently maintaining partitions of a set subject to, respectively, union operations that merge two sets or refinement operations that split one set into two.
+A disjoint union may mean one of two things. Most simply, it may mean the union of sets that are disjoint.[11] But if two or more sets are not already disjoint, their disjoint union may be formed by modifying the sets to make them disjoint before forming the union of the modified sets.[12] For instance two sets may be made disjoint by replacing each element by an ordered pair of the element and a binary value indicating whether it belongs to the first or second set.[13]
+For families of more than two sets, one may similarly replace each element by an ordered pair of the element and the index of the set that contains it.[14]
+
+

@@ -1,0 +1,1934 @@
+21538,
+Normedvectorspace,
+In mathematics, a normed vector space or normed space is a vector space over the real or complex numbers on which a norm is defined.[1] A norm is a generalization of the intuitive notion of "length" in the physical world. If 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is a vector space over 
+
+
+
+K
+
+
+{\displaystyle K}
+
+, where 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ is a field equal to 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ or to 
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbb {C} }
+
+, then a norm on 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is a map 
+
+
+
+V
+→
+
+R
+
+
+
+{\displaystyle V\to \mathbb {R} }
+
+, typically denoted by 
+
+
+
+‖
+⋅
+‖
+
+
+{\displaystyle \lVert \cdot \rVert }
+
+, satisfying the following four axioms:
+If 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is a real or complex vector space as above, and 
+
+
+
+‖
+⋅
+‖
+
+
+{\displaystyle \lVert \cdot \rVert }
+
+ is a norm on 
+
+
+
+V
+
+
+{\displaystyle V}
+
+, then the ordered pair 
+
+
+
+(
+V
+,
+‖
+⋅
+‖
+)
+
+
+{\displaystyle (V,\lVert \cdot \rVert )}
+
+ is called a normed vector space. If it is clear from context which norm is intended, then it is common to denote the normed vector space simply by 
+
+
+
+V
+
+
+{\displaystyle V}
+
+.
+
+A norm induces a distance, called its (norm) induced metric, by the formula
+
+
+
+
+d
+(
+x
+,
+y
+)
+=
+‖
+y
+−
+x
+‖
+.
+
+
+{\displaystyle d(x,y)=\|y-x\|.}
+
+
+which makes any normed vector space into a metric space and a topological vector space. If this metric space is complete then the normed space is a Banach space. Every normed vector space can be "uniquely extended" to a Banach space, which makes normed spaces intimately related to Banach spaces. Every Banach space is a normed space but converse is not true. For example, the set of the finite sequences of real numbers can be normed with the Euclidean norm, but it is not complete for this norm. 
+An inner product space is a normed vector space whose norm is the square root of the inner product of a vector and itself. The Euclidean norm of a Euclidean vector space is a special case that allows defining Euclidean distance by the formula
+
+
+
+
+d
+(
+A
+,
+B
+)
+=
+‖
+
+
+
+A
+B
+
+→
+
+
+‖
+.
+
+
+{\displaystyle d(A,B)=\|{\overrightarrow {AB}}\|.}
+
+
+The study of normed spaces and Banach spaces is a fundamental part of functional analysis, a major subfield of mathematics.
+
+A normed vector space is a vector space equipped with a norm. A seminormed vector space is a vector space equipped with a seminorm.
+A useful variation of the triangle inequality is
+
+
+
+
+‖
+x
+−
+y
+‖
+≥
+
+|
+
+‖
+x
+‖
+−
+‖
+y
+‖
+
+|
+
+
+
+{\displaystyle \|x-y\|\geq |\|x\|-\|y\||}
+
+ 
+for any vectors 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+.
+
+
+{\displaystyle y.}
+
+
+This also shows that a vector norm is a (uniformly) continuous function.
+Property 3 depends on a choice of norm 
+
+
+
+
+|
+
+α
+
+|
+
+
+
+{\displaystyle |\alpha |}
+
+ on the field of scalars. When the scalar field is 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ (or more generally a subset of 
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbb {C} }
+
+), this is usually taken to be the ordinary absolute value, but other choices are possible. For example, for a vector space over 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ one could take 
+
+
+
+
+|
+
+α
+
+|
+
+
+
+{\displaystyle |\alpha |}
+
+ to be the 
+
+
+
+p
+
+
+{\displaystyle p}
+
+-adic absolute value.
+If 
+
+
+
+(
+V
+,
+‖
+
+⋅
+
+‖
+)
+
+
+{\displaystyle (V,\|\,\cdot \,\|)}
+
+ is a normed vector space, the norm 
+
+
+
+‖
+
+⋅
+
+‖
+
+
+{\displaystyle \|\,\cdot \,\|}
+
+ induces a metric (a notion of distance) and therefore a topology on 
+
+
+
+V
+.
+
+
+{\displaystyle V.}
+
+ This metric is defined in the natural way: the distance between two vectors 
+
+
+
+
+u
+
+
+
+{\displaystyle \mathbf {u} }
+
+ and 
+
+
+
+
+v
+
+
+
+{\displaystyle \mathbf {v} }
+
+ is given by 
+
+
+
+‖
+
+u
+
+−
+
+v
+
+‖
+.
+
+
+{\displaystyle \|\mathbf {u} -\mathbf {v} \|.}
+
+ This topology is precisely the weakest topology which makes 
+
+
+
+‖
+
+⋅
+
+‖
+
+
+{\displaystyle \|\,\cdot \,\|}
+
+ continuous and which is compatible with the linear structure of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ in the following sense:
+Similarly, for any seminormed vector space we can define the distance between two vectors 
+
+
+
+
+u
+
+
+
+{\displaystyle \mathbf {u} }
+
+ and 
+
+
+
+
+v
+
+
+
+{\displaystyle \mathbf {v} }
+
+ as 
+
+
+
+‖
+
+u
+
+−
+
+v
+
+‖
+.
+
+
+{\displaystyle \|\mathbf {u} -\mathbf {v} \|.}
+
+ This turns the seminormed space into a pseudometric space (notice this is weaker than a metric) and allows the definition of notions such as continuity and convergence.
+To put it more abstractly every seminormed vector space is a topological vector space and thus carries a topological structure which is induced by the semi-norm.
+Of special interest are complete normed spaces, which are known as Banach spaces. 
+Every normed vector space 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ sits as a dense subspace inside some Banach space; this Banach space is essentially uniquely defined by 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ and is called the completion of 
+
+
+
+V
+.
+
+
+{\displaystyle V.}
+
+
+Two norms on the same vector space are called equivalent if they define the same topology. On a finite-dimensional vector space, all norms are equivalent but this is not true for infinite dimensional vector spaces. 
+All norms on a finite-dimensional vector space are equivalent from a topological viewpoint as they induce the same topology (although the resulting metric spaces need not be the same).[2] And since any Euclidean space is complete, we can thus conclude that all finite-dimensional normed vector spaces are Banach spaces. A normed vector space 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is locally compact if and only if the unit ball 
+
+
+
+B
+=
+{
+x
+:
+‖
+x
+‖
+≤
+1
+}
+
+
+{\displaystyle B=\{x:\|x\|\leq 1\}}
+
+ is compact, which is the case if and only if 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is finite-dimensional; this is a consequence of Riesz's lemma.  (In fact, a more general result is true: a topological vector space is locally compact if and only if it is finite-dimensional. The point here is that we don't assume the topology comes from a norm.)
+The topology of a seminormed vector space has many nice properties. Given a neighbourhood system 
+
+
+
+
+
+N
+
+
+(
+0
+)
+
+
+{\displaystyle {\mathcal {N}}(0)}
+
+ around 0 we can construct all other neighbourhood systems as
+
+
+
+
+
+
+N
+
+
+(
+x
+)
+=
+x
++
+
+
+N
+
+
+(
+0
+)
+:=
+{
+x
++
+N
+:
+N
+∈
+
+
+N
+
+
+(
+0
+)
+}
+
+
+{\displaystyle {\mathcal {N}}(x)=x+{\mathcal {N}}(0):=\{x+N:N\in {\mathcal {N}}(0)\}}
+
+
+with
+
+
+
+
+x
++
+N
+:=
+{
+x
++
+n
+:
+n
+∈
+N
+}
+.
+
+
+{\displaystyle x+N:=\{x+n:n\in N\}.}
+
+
+Moreover, there exists a neighbourhood basis for the origin consisting of absorbing and convex sets. As this property is very useful in functional analysis, generalizations of normed vector spaces with this property are studied under the name locally convex spaces. 
+A norm (or seminorm) 
+
+
+
+‖
+⋅
+‖
+
+
+{\displaystyle \|\cdot \|}
+
+ on a topological vector space 
+
+
+
+(
+X
+,
+τ
+)
+
+
+{\displaystyle (X,\tau )}
+
+ is continuous if and only if the topology 
+
+
+
+
+τ
+
+‖
+⋅
+‖
+
+
+
+
+{\displaystyle \tau _{\|\cdot \|}}
+
+ that 
+
+
+
+‖
+⋅
+‖
+
+
+{\displaystyle \|\cdot \|}
+
+ induces on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is coarser than 
+
+
+
+τ
+
+
+{\displaystyle \tau }
+
+ (meaning, 
+
+
+
+
+τ
+
+‖
+⋅
+‖
+
+
+⊆
+τ
+
+
+{\displaystyle \tau _{\|\cdot \|}\subseteq \tau }
+
+), which happens if and only if there exists some open ball 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ in 
+
+
+
+(
+X
+,
+‖
+⋅
+‖
+)
+
+
+{\displaystyle (X,\|\cdot \|)}
+
+ (such as maybe 
+
+
+
+{
+x
+∈
+X
+:
+‖
+x
+‖
+<
+1
+}
+
+
+{\displaystyle \{x\in X:\|x\|<1\}}
+
+ for example) that is open in 
+
+
+
+(
+X
+,
+τ
+)
+
+
+{\displaystyle (X,\tau )}
+
+ (said different, such that 
+
+
+
+B
+∈
+τ
+
+
+{\displaystyle B\in \tau }
+
+).
+A topological vector space 
+
+
+
+(
+X
+,
+τ
+)
+
+
+{\displaystyle (X,\tau )}
+
+ is called normable if there exists a norm 
+
+
+
+‖
+⋅
+‖
+
+
+{\displaystyle \|\cdot \|}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that the canonical metric 
+
+
+
+(
+x
+,
+y
+)
+↦
+‖
+y
+−
+x
+‖
+
+
+{\displaystyle (x,y)\mapsto \|y-x\|}
+
+ induces the topology 
+
+
+
+τ
+
+
+{\displaystyle \tau }
+
+ on 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+
+The following theorem is due to Kolmogorov:[3]
+Kolmogorov's normability criterion: A Hausdorff topological vector space is normable if and only if there exists a convex, von Neumann bounded neighborhood of 
+
+
+
+0
+∈
+X
+.
+
+
+{\displaystyle 0\in X.}
+
+
+A product of a family of normable spaces is normable if and only if only finitely many of the spaces are non-trivial (that is, 
+
+
+
+≠
+{
+0
+}
+
+
+{\displaystyle \neq \{0\}}
+
+).[3] Furthermore, the quotient of a normable space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ by a closed vector subspace 
+
+
+
+C
+
+
+{\displaystyle C}
+
+ is normable, and if in addition 
+
+
+
+X
+
+
+{\displaystyle X}
+
+'s topology is given by a norm 
+
+
+
+‖
+
+⋅
+,
+‖
+
+
+{\displaystyle \|\,\cdot ,\|}
+
+ then the map 
+
+
+
+X
+
+/
+
+C
+→
+
+R
+
+
+
+{\displaystyle X/C\to \mathbb {R} }
+
+ given by 
+
+
+
+x
++
+C
+↦
+
+inf
+
+c
+∈
+C
+
+
+‖
+x
++
+c
+‖
+
+
+{\textstyle x+C\mapsto \inf _{c\in C}\|x+c\|}
+
+ is a well defined norm on 
+
+
+
+X
+
+/
+
+C
+
+
+{\displaystyle X/C}
+
+ that induces the quotient topology on 
+
+
+
+X
+
+/
+
+C
+.
+
+
+{\displaystyle X/C.}
+
+[4]
+If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a Hausdorff locally convex topological vector space then the following are equivalent:
+Furthermore, 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is finite dimensional if and only if 
+
+
+
+
+X
+
+σ
+
+
+′
+
+
+
+
+{\displaystyle X_{\sigma }^{\prime }}
+
+ is normable (here 
+
+
+
+
+X
+
+σ
+
+
+′
+
+
+
+
+{\displaystyle X_{\sigma }^{\prime }}
+
+ denotes 
+
+
+
+
+X
+
+′
+
+
+
+
+{\displaystyle X^{\prime }}
+
+ endowed with the weak-* topology).
+The topology 
+
+
+
+τ
+
+
+{\displaystyle \tau }
+
+ of the Fréchet space 
+
+
+
+
+C
+
+∞
+
+
+(
+K
+)
+,
+
+
+{\displaystyle C^{\infty }(K),}
+
+ as defined in the article on spaces of test functions and distributions, is defined by a countable family of norms but it is not a normable space because there does not exist any norm 
+
+
+
+‖
+⋅
+‖
+
+
+{\displaystyle \|\cdot \|}
+
+ on 
+
+
+
+
+C
+
+∞
+
+
+(
+K
+)
+
+
+{\displaystyle C^{\infty }(K)}
+
+ such that the topology that this norm induces is equal to 
+
+
+
+τ
+.
+
+
+{\displaystyle \tau .}
+
+
+Even if a metrizable topological vector space has a topology that is defined by a family of norms, then it may nevertheless still fail to be normable space (meaning that its topology can not be defined by any single norm). 
+An example of such a space is the Fréchet space 
+
+
+
+
+C
+
+∞
+
+
+(
+K
+)
+,
+
+
+{\displaystyle C^{\infty }(K),}
+
+ whose definition can be found in the article on spaces of test functions and distributions, because its topology 
+
+
+
+τ
+
+
+{\displaystyle \tau }
+
+ is defined by a countable family of norms but it is not a normable space because there does not exist any norm 
+
+
+
+‖
+⋅
+‖
+
+
+{\displaystyle \|\cdot \|}
+
+ on 
+
+
+
+
+C
+
+∞
+
+
+(
+K
+)
+
+
+{\displaystyle C^{\infty }(K)}
+
+ such that the topology this norm induces is equal to 
+
+
+
+τ
+.
+
+
+{\displaystyle \tau .}
+
+  
+In fact, the topology of a locally convex space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ can be a defined by a family of norms on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ if and only if there exists at least one continuous norm on 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+[6]
+The most important maps between two normed vector spaces are the continuous linear maps. Together with these maps, normed vector spaces form a category.
+The norm is a continuous function on its vector space.  All linear maps between finite dimensional vector spaces are also continuous.
+An isometry between two normed vector spaces is a linear map 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ which preserves the norm (meaning 
+
+
+
+‖
+f
+(
+
+v
+
+)
+‖
+=
+‖
+
+v
+
+‖
+
+
+{\displaystyle \|f(\mathbf {v} )\|=\|\mathbf {v} \|}
+
+ for all vectors 
+
+
+
+
+v
+
+
+
+{\displaystyle \mathbf {v} }
+
+). Isometries are always continuous and injective. A surjective isometry between the normed vector spaces 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ and 
+
+
+
+W
+
+
+{\displaystyle W}
+
+ is called an isometric isomorphism, and 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ and 
+
+
+
+W
+
+
+{\displaystyle W}
+
+ are called isometrically isomorphic. Isometrically isomorphic normed vector spaces are identical for all practical purposes.
+When speaking of normed vector spaces, we augment the notion of dual space to take the norm into account. The dual 
+
+
+
+
+V
+
+′
+
+
+
+
+{\displaystyle V^{\prime }}
+
+ of a normed vector space 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is the space of all continuous linear maps from 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ to the base field (the complexes or the reals) — such linear maps are called "functionals".  The norm of a functional 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ is defined as the supremum of 
+
+
+
+
+|
+
+φ
+(
+
+v
+
+)
+
+|
+
+
+
+{\displaystyle |\varphi (\mathbf {v} )|}
+
+ where 
+
+
+
+
+v
+
+
+
+{\displaystyle \mathbf {v} }
+
+ ranges over all unit vectors (that is, vectors of norm 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+) in 
+
+
+
+V
+.
+
+
+{\displaystyle V.}
+
+ This turns 
+
+
+
+
+V
+
+′
+
+
+
+
+{\displaystyle V^{\prime }}
+
+ into a normed vector space. An important theorem about continuous linear functionals on normed vector spaces is the Hahn–Banach theorem.
+The definition of many normed spaces (in particular, Banach spaces) involves a seminorm defined on a vector space and then the normed space is defined as the quotient space by the subspace of elements of seminorm zero.  For instance, with the 
+
+
+
+
+L
+
+p
+
+
+
+
+{\displaystyle L^{p}}
+
+ spaces, the function defined by
+
+
+
+
+‖
+f
+
+‖
+
+p
+
+
+=
+
+
+(
+
+∫
+
+|
+
+f
+(
+x
+)
+
+
+|
+
+
+p
+
+
+
+d
+x
+
+)
+
+
+1
+
+/
+
+p
+
+
+
+
+{\displaystyle \|f\|_{p}=\left(\int |f(x)|^{p}\;dx\right)^{1/p}}
+
+
+is a seminorm on the vector space of all functions on which the Lebesgue integral on the right hand side is defined and finite.  However, the seminorm is equal to zero for any function supported on a set of Lebesgue measure zero.  These functions form a subspace which we "quotient out", making them equivalent to the zero function.
+Given 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ seminormed spaces 
+
+
+
+
+(
+
+
+X
+
+i
+
+
+,
+
+q
+
+i
+
+
+
+)
+
+
+
+{\displaystyle \left(X_{i},q_{i}\right)}
+
+ with seminorms 
+
+
+
+
+q
+
+i
+
+
+:
+
+X
+
+i
+
+
+→
+
+R
+
+,
+
+
+{\displaystyle q_{i}:X_{i}\to \mathbb {R} ,}
+
+ denote the product space by
+
+
+
+
+X
+:=
+
+∏
+
+i
+=
+1
+
+
+n
+
+
+
+X
+
+i
+
+
+
+
+{\displaystyle X:=\prod _{i=1}^{n}X_{i}}
+
+
+where vector addition defined as
+
+
+
+
+
+(
+
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+
+)
+
++
+
+(
+
+
+y
+
+1
+
+
+,
+…
+,
+
+y
+
+n
+
+
+
+)
+
+:=
+
+(
+
+
+x
+
+1
+
+
++
+
+y
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
++
+
+y
+
+n
+
+
+
+)
+
+
+
+{\displaystyle \left(x_{1},\ldots ,x_{n}\right)+\left(y_{1},\ldots ,y_{n}\right):=\left(x_{1}+y_{1},\ldots ,x_{n}+y_{n}\right)}
+
+
+and scalar multiplication defined as
+
+
+
+
+α
+
+(
+
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+
+)
+
+:=
+
+(
+
+α
+
+x
+
+1
+
+
+,
+…
+,
+α
+
+x
+
+n
+
+
+
+)
+
+.
+
+
+{\displaystyle \alpha \left(x_{1},\ldots ,x_{n}\right):=\left(\alpha x_{1},\ldots ,\alpha x_{n}\right).}
+
+
+Define a new function 
+
+
+
+q
+:
+X
+→
+
+R
+
+
+
+{\displaystyle q:X\to \mathbb {R} }
+
+ by
+
+
+
+
+q
+
+(
+
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+
+)
+
+:=
+
+∑
+
+i
+=
+1
+
+
+n
+
+
+
+q
+
+i
+
+
+
+(
+
+x
+
+i
+
+
+)
+
+,
+
+
+{\displaystyle q\left(x_{1},\ldots ,x_{n}\right):=\sum _{i=1}^{n}q_{i}\left(x_{i}\right),}
+
+
+which is a seminorm on 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ The function 
+
+
+
+q
+
+
+{\displaystyle q}
+
+ is a norm if and only if all 
+
+
+
+
+q
+
+i
+
+
+
+
+{\displaystyle q_{i}}
+
+ are norms.
+More generally, for each real 
+
+
+
+p
+≥
+1
+
+
+{\displaystyle p\geq 1}
+
+ the map 
+
+
+
+q
+:
+X
+→
+
+R
+
+
+
+{\displaystyle q:X\to \mathbb {R} }
+
+ defined by 
+
+
+
+
+q
+
+(
+
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+
+)
+
+:=
+
+
+(
+
+
+∑
+
+i
+=
+1
+
+
+n
+
+
+
+q
+
+i
+
+
+
+
+(
+
+x
+
+i
+
+
+)
+
+
+p
+
+
+
+)
+
+
+
+1
+p
+
+
+
+
+
+{\displaystyle q\left(x_{1},\ldots ,x_{n}\right):=\left(\sum _{i=1}^{n}q_{i}\left(x_{i}\right)^{p}\right)^{\frac {1}{p}}}
+
+
+is a semi norm. 
+For each 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ this defines the same topological space.
+A straightforward argument involving elementary linear algebra shows that the only finite-dimensional seminormed spaces are those arising as the product space of a normed space and a space with trivial seminorm.  Consequently, many of the more interesting examples and applications of seminormed spaces occur for infinite-dimensional vector spaces.
+
+

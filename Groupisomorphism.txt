@@ -1,0 +1,1720 @@
+12397,
+Groupisomorphism,
+In abstract algebra, a group isomorphism is a function between two groups that sets up a one-to-one correspondence between the elements of the groups in a way that respects the given group operations. If there exists an isomorphism between two groups, then the groups are called isomorphic. From the standpoint of group theory, isomorphic groups have the same properties and need not be distinguished.[1]
+Given two groups 
+
+
+
+(
+G
+,
+∗
+)
+
+
+{\displaystyle (G,*)}
+
+ and 
+
+
+
+(
+H
+,
+⊙
+)
+,
+
+
+{\displaystyle (H,\odot ),}
+
+ a group isomorphism from 
+
+
+
+(
+G
+,
+∗
+)
+
+
+{\displaystyle (G,*)}
+
+ to 
+
+
+
+(
+H
+,
+⊙
+)
+
+
+{\displaystyle (H,\odot )}
+
+ is a bijective group homomorphism from 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ to 
+
+
+
+H
+.
+
+
+{\displaystyle H.}
+
+ Spelled out, this means that a group isomorphism is a bijective function 
+
+
+
+f
+:
+G
+→
+H
+
+
+{\displaystyle f:G\to H}
+
+ such that for all 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ and 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ it holds that
+
+
+
+
+f
+(
+u
+∗
+v
+)
+=
+f
+(
+u
+)
+⊙
+f
+(
+v
+)
+.
+
+
+{\displaystyle f(u*v)=f(u)\odot f(v).}
+
+
+The two groups 
+
+
+
+(
+G
+,
+∗
+)
+
+
+{\displaystyle (G,*)}
+
+ and 
+
+
+
+(
+H
+,
+⊙
+)
+
+
+{\displaystyle (H,\odot )}
+
+ are isomorphic if there exists an isomorphism from one to the other.[1][2] This is written
+
+
+
+
+(
+G
+,
+∗
+)
+≅
+(
+H
+,
+⊙
+)
+.
+
+
+{\displaystyle (G,*)\cong (H,\odot ).}
+
+
+Often shorter and simpler notations can be used. When the relevant group operations are understood, they are omitted and one writes
+
+
+
+
+G
+≅
+H
+.
+
+
+{\displaystyle G\cong H.}
+
+
+Sometimes one can even simply write 
+
+
+
+G
+=
+H
+.
+
+
+{\displaystyle G=H.}
+
+ Whether such a notation is possible without confusion or ambiguity depends on context. For example, the equals sign is not very suitable when the groups are both subgroups of the same group. See also the examples.
+Conversely, given a group 
+
+
+
+(
+G
+,
+∗
+)
+,
+
+
+{\displaystyle (G,*),}
+
+ a set 
+
+
+
+H
+,
+
+
+{\displaystyle H,}
+
+ and a bijection 
+
+
+
+f
+:
+G
+→
+H
+,
+
+
+{\displaystyle f:G\to H,}
+
+ we can make 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ a group 
+
+
+
+(
+H
+,
+⊙
+)
+
+
+{\displaystyle (H,\odot )}
+
+ by defining
+
+
+
+
+f
+(
+u
+)
+⊙
+f
+(
+v
+)
+=
+f
+(
+u
+∗
+v
+)
+.
+
+
+{\displaystyle f(u)\odot f(v)=f(u*v).}
+
+
+If 
+
+
+
+H
+=
+G
+
+
+{\displaystyle H=G}
+
+ and 
+
+
+
+⊙
+=
+∗
+
+
+{\displaystyle \odot =*}
+
+ then the bijection is an automorphism (q.v.).
+Intuitively, group theorists view two isomorphic groups as follows: For every element 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ of a group 
+
+
+
+G
+,
+
+
+{\displaystyle G,}
+
+ there exists an element 
+
+
+
+h
+
+
+{\displaystyle h}
+
+ of 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ such that 
+
+
+
+h
+
+
+{\displaystyle h}
+
+ "behaves in the same way" as 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ (operates with other elements of the group in the same way as 
+
+
+
+g
+
+
+{\displaystyle g}
+
+). For instance, if 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ generates 
+
+
+
+G
+,
+
+
+{\displaystyle G,}
+
+ then so does 
+
+
+
+h
+.
+
+
+{\displaystyle h.}
+
+ This implies, in particular, that 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ and 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ are in bijective correspondence. Thus, the definition of an isomorphism is quite natural.
+An isomorphism of groups may equivalently be defined as an invertible group homomorphism (the inverse function of a bijective group homomorphism is also a group homomorphism).
+In this section some notable examples of isomorphic groups are listed.
+Some groups can be proven to be isomorphic, relying on the axiom of choice, but the proof does not indicate how to construct a concrete isomorphism. Examples:
+The kernel of an isomorphism from 
+
+
+
+(
+G
+,
+∗
+)
+
+
+{\displaystyle (G,*)}
+
+ to 
+
+
+
+(
+H
+,
+⊙
+)
+
+
+{\displaystyle (H,\odot )}
+
+ is always {eG}, where eG is the identity of the group 
+
+
+
+(
+G
+,
+∗
+)
+
+
+{\displaystyle (G,*)}
+
+
+If 
+
+
+
+(
+G
+,
+∗
+)
+
+
+{\displaystyle (G,*)}
+
+ and 
+
+
+
+(
+H
+,
+⊙
+)
+
+
+{\displaystyle (H,\odot )}
+
+ are isomorphic, then 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is abelian if and only if 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ is abelian.
+If 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is an isomorphism from 
+
+
+
+(
+G
+,
+∗
+)
+
+
+{\displaystyle (G,*)}
+
+ to 
+
+
+
+(
+H
+,
+⊙
+)
+,
+
+
+{\displaystyle (H,\odot ),}
+
+ then for any 
+
+
+
+a
+∈
+G
+,
+
+
+{\displaystyle a\in G,}
+
+ the order of 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ equals the order of 
+
+
+
+f
+(
+a
+)
+.
+
+
+{\displaystyle f(a).}
+
+
+If 
+
+
+
+(
+G
+,
+∗
+)
+
+
+{\displaystyle (G,*)}
+
+ and 
+
+
+
+(
+H
+,
+⊙
+)
+
+
+{\displaystyle (H,\odot )}
+
+ are isomorphic, then 
+
+
+
+(
+G
+,
+∗
+)
+
+
+{\displaystyle (G,*)}
+
+ is a locally finite group if and only if 
+
+
+
+(
+H
+,
+⊙
+)
+
+
+{\displaystyle (H,\odot )}
+
+ is locally finite. 
+The number of distinct groups (up to isomorphism) of order 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ is given by sequence A000001 in the OEIS. The first few numbers are 0, 1, 1, 1 and 2 meaning that 4 is the lowest order with more than one group.
+All cyclic groups of a given order are isomorphic to 
+
+
+
+(
+
+
+Z
+
+
+n
+
+
+,
+
++
+
+n
+
+
+)
+,
+
+
+{\displaystyle (\mathbb {Z} _{n},+_{n}),}
+
+ where 
+
+
+
+
++
+
+n
+
+
+
+
+{\displaystyle +_{n}}
+
+ denotes addition modulo 
+
+
+
+n
+.
+
+
+{\displaystyle n.}
+
+
+Let 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ be a cyclic group and 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ be the order of 
+
+
+
+G
+.
+
+
+{\displaystyle G.}
+
+ Letting 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ be a generator of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is then equal to 
+
+
+
+⟨
+x
+⟩
+=
+
+{
+
+e
+,
+x
+,
+…
+,
+
+x
+
+n
+−
+1
+
+
+
+}
+
+.
+
+
+{\displaystyle \langle x\rangle =\left\{e,x,\ldots ,x^{n-1}\right\}.}
+
+ 
+We will show that
+
+
+
+
+G
+≅
+(
+
+
+Z
+
+
+n
+
+
+,
+
++
+
+n
+
+
+)
+.
+
+
+{\displaystyle G\cong (\mathbb {Z} _{n},+_{n}).}
+
+
+Define 
+
+
+
+
+φ
+:
+G
+→
+
+
+Z
+
+
+n
+
+
+=
+{
+0
+,
+1
+,
+…
+,
+n
+−
+1
+}
+,
+
+
+{\displaystyle \varphi :G\to \mathbb {Z} _{n}=\{0,1,\ldots ,n-1\},}
+
+ so that 
+
+
+
+φ
+(
+
+x
+
+a
+
+
+)
+=
+a
+.
+
+
+{\displaystyle \varphi (x^{a})=a.}
+
+ 
+Clearly, 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ is bijective. Then
+
+
+
+
+φ
+(
+
+x
+
+a
+
+
+⋅
+
+x
+
+b
+
+
+)
+=
+φ
+(
+
+x
+
+a
++
+b
+
+
+)
+=
+a
++
+b
+=
+φ
+(
+
+x
+
+a
+
+
+)
+
++
+
+n
+
+
+φ
+(
+
+x
+
+b
+
+
+)
+,
+
+
+{\displaystyle \varphi (x^{a}\cdot x^{b})=\varphi (x^{a+b})=a+b=\varphi (x^{a})+_{n}\varphi (x^{b}),}
+
+ 
+which proves that 
+
+
+
+G
+≅
+(
+
+
+Z
+
+
+n
+
+
+,
+
++
+
+n
+
+
+)
+.
+
+
+{\displaystyle G\cong (\mathbb {Z} _{n},+_{n}).}
+
+
+From the definition, it follows that any isomorphism 
+
+
+
+f
+:
+G
+→
+H
+
+
+{\displaystyle f:G\to H}
+
+ will map the identity element of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ to the identity element of 
+
+
+
+H
+,
+
+
+{\displaystyle H,}
+
+
+
+
+
+
+f
+(
+
+e
+
+G
+
+
+)
+=
+
+e
+
+H
+
+
+,
+
+
+{\displaystyle f(e_{G})=e_{H},}
+
+
+that it will map inverses to inverses,
+
+
+
+
+f
+(
+
+u
+
+−
+1
+
+
+)
+=
+f
+(
+u
+
+)
+
+−
+1
+
+
+
+
+ for all 
+
+u
+∈
+G
+,
+
+
+{\displaystyle f(u^{-1})=f(u)^{-1}\quad {\text{ for all }}u\in G,}
+
+
+and more generally, 
+
+
+
+n
+
+
+{\displaystyle n}
+
+th powers to 
+
+
+
+n
+
+
+{\displaystyle n}
+
+th powers,
+
+
+
+
+f
+(
+
+u
+
+n
+
+
+)
+=
+f
+(
+u
+
+)
+
+n
+
+
+
+
+ for all 
+
+u
+∈
+G
+,
+
+
+{\displaystyle f(u^{n})=f(u)^{n}\quad {\text{ for all }}u\in G,}
+
+ 
+and that the inverse map 
+
+
+
+
+f
+
+−
+1
+
+
+:
+H
+→
+G
+
+
+{\displaystyle f^{-1}:H\to G}
+
+ is also a group isomorphism.
+The relation "being isomorphic" satisfies is an equivalence relation. If 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is an isomorphism between two groups 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ and 
+
+
+
+H
+,
+
+
+{\displaystyle H,}
+
+ then everything that is true about 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ that is only related to the group structure can be translated via 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ into a true ditto statement about 
+
+
+
+H
+,
+
+
+{\displaystyle H,}
+
+ and vice versa.
+An isomorphism from a group 
+
+
+
+(
+G
+,
+∗
+)
+
+
+{\displaystyle (G,*)}
+
+ to itself is called an automorphism of the group. Thus it is a bijection 
+
+
+
+f
+:
+G
+→
+G
+
+
+{\displaystyle f:G\to G}
+
+ such that
+
+
+
+
+f
+(
+u
+)
+∗
+f
+(
+v
+)
+=
+f
+(
+u
+∗
+v
+)
+.
+
+
+{\displaystyle f(u)*f(v)=f(u*v).}
+
+
+The image under an automorphism of a conjugacy class is always a conjugacy class (the same or another).
+The composition of two automorphisms is again an automorphism, and with this operation the set of all automorphisms of a group 
+
+
+
+G
+,
+
+
+{\displaystyle G,}
+
+ denoted by 
+
+
+
+Aut
+⁡
+(
+G
+)
+,
+
+
+{\displaystyle \operatorname {Aut} (G),}
+
+ forms itself a group, the automorphism group of 
+
+
+
+G
+.
+
+
+{\displaystyle G.}
+
+
+For all abelian groups there is at least the automorphism that replaces the group elements by their inverses. However, in groups where all elements are equal to their inverses this is the trivial automorphism, e.g. in the Klein four-group. For that group all permutations of the three non-identity elements are automorphisms, so the automorphism group is isomorphic to 
+
+
+
+
+S
+
+3
+
+
+
+
+{\displaystyle S_{3}}
+
+ (which itself is isomorphic to 
+
+
+
+
+Dih
+
+3
+
+
+
+
+{\displaystyle \operatorname {Dih} _{3}}
+
+).
+In 
+
+
+
+
+
+Z
+
+
+p
+
+
+
+
+{\displaystyle \mathbb {Z} _{p}}
+
+ for a prime number 
+
+
+
+p
+,
+
+
+{\displaystyle p,}
+
+ one non-identity element can be replaced by any other, with corresponding changes in the other elements. The automorphism group is isomorphic to 
+
+
+
+
+
+Z
+
+
+p
+−
+1
+
+
+
+
+{\displaystyle \mathbb {Z} _{p-1}}
+
+ For example, for 
+
+
+
+n
+=
+7
+,
+
+
+{\displaystyle n=7,}
+
+ multiplying all elements of 
+
+
+
+
+
+Z
+
+
+7
+
+
+
+
+{\displaystyle \mathbb {Z} _{7}}
+
+ by 3, modulo 7, is an automorphism of order 6 in the automorphism group, because 
+
+
+
+
+3
+
+6
+
+
+≡
+1
+
+
+(
+mod
+
+7
+)
+
+,
+
+
+{\displaystyle 3^{6}\equiv 1{\pmod {7}},}
+
+ while lower powers do not give 1. Thus this automorphism generates 
+
+
+
+
+
+Z
+
+
+6
+
+
+.
+
+
+{\displaystyle \mathbb {Z} _{6}.}
+
+ There is one more automorphism with this property: multiplying all elements of 
+
+
+
+
+
+Z
+
+
+7
+
+
+
+
+{\displaystyle \mathbb {Z} _{7}}
+
+ by 5, modulo 7. Therefore, these two correspond to the elements 1 and 5 of 
+
+
+
+
+
+Z
+
+
+6
+
+
+,
+
+
+{\displaystyle \mathbb {Z} _{6},}
+
+ in that order or conversely.
+The automorphism group of 
+
+
+
+
+
+Z
+
+
+6
+
+
+
+
+{\displaystyle \mathbb {Z} _{6}}
+
+ is isomorphic to 
+
+
+
+
+
+Z
+
+
+2
+
+
+,
+
+
+{\displaystyle \mathbb {Z} _{2},}
+
+ because only each of the two elements 1 and 5 generate 
+
+
+
+
+
+Z
+
+
+6
+
+
+,
+
+
+{\displaystyle \mathbb {Z} _{6},}
+
+ so apart from the identity we can only interchange these.
+The automorphism group of 
+
+
+
+
+
+Z
+
+
+2
+
+
+⊕
+
+
+Z
+
+
+2
+
+
+⊕
+⊕
+
+
+Z
+
+
+2
+
+
+=
+
+Dih
+
+2
+
+
+⊕
+
+
+Z
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {Z} _{2}\oplus \mathbb {Z} _{2}\oplus \oplus \mathbb {Z} _{2}=\operatorname {Dih} _{2}\oplus \mathbb {Z} _{2}}
+
+ has order 168, as can be found as follows. All 7 non-identity elements play the same role, so we can choose which plays the role of 
+
+
+
+(
+1
+,
+0
+,
+0
+)
+.
+
+
+{\displaystyle (1,0,0).}
+
+ Any of the remaining 6 can be chosen to play the role of (0,1,0). This determines which element corresponds to 
+
+
+
+(
+1
+,
+1
+,
+0
+)
+.
+
+
+{\displaystyle (1,1,0).}
+
+ For 
+
+
+
+(
+0
+,
+0
+,
+1
+)
+
+
+{\displaystyle (0,0,1)}
+
+ we can choose from 4, which determines the rest. Thus we have 
+
+
+
+7
+×
+6
+×
+4
+=
+168
+
+
+{\displaystyle 7\times 6\times 4=168}
+
+ automorphisms. They correspond to those of the Fano plane, of which the 7 points correspond to the 7 non-identity elements. The lines connecting three points correspond to the group operation: 
+
+
+
+a
+,
+b
+,
+
+
+{\displaystyle a,b,}
+
+ and 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ on one line means 
+
+
+
+a
++
+b
+=
+c
+,
+
+
+{\displaystyle a+b=c,}
+
+ 
+
+
+
+a
++
+c
+=
+b
+,
+
+
+{\displaystyle a+c=b,}
+
+ and 
+
+
+
+b
++
+c
+=
+a
+.
+
+
+{\displaystyle b+c=a.}
+
+ See also general linear group over finite fields.
+For abelian groups, all non-trivial automorphisms are outer automorphisms.
+Non-abelian groups have a non-trivial inner automorphism group, and possibly also outer automorphisms.
+
+

@@ -1,0 +1,789 @@
+14449,
+Hubble'slaw,
+Hubble's law, also known as the Hubble–Lemaître law,[1] is the observation in physical cosmology that galaxies are moving away from Earth at speeds proportional to their distance. In other words, the farther they are, the faster they are moving away from Earth. The velocity of the galaxies has been determined by their redshift, a shift of the light they emit toward the red end of the visible spectrum.
+Hubble's law is considered the first observational basis for the expansion of the universe, and today it serves as one of the pieces of evidence most often cited in support of the Big Bang model.[2][3]
+The motion of astronomical objects due solely to this expansion is known as the Hubble flow.[4] It is described by the equation v = H0D, with H0 the constant of proportionality—the Hubble constant—between the "proper distance" D to a galaxy, which can change over time, unlike the comoving distance, and its speed of separation v, i.e. the derivative of proper distance with respect to the cosmological time coordinate. (See Comoving and proper distances § Uses of the proper distance for some discussion of the subtleties of this definition of "velocity".)
+The Hubble constant is most frequently quoted in (km/s)/Mpc, thus giving the speed in km/s of a galaxy 1 megaparsec (3.09×1019 km) away, and its value is about 70 (km/s)/Mpc.  However, crossing out units reveals that H0 is a unit of frequency (SI unit: s−1) and the reciprocal of H0 is known as the Hubble time. The Hubble constant can also be interpreted as the relative rate of expansion. In this form H0 = 7%/Gyr, meaning that at the current rate of expansion it takes a billion years for an unbound structure to grow by 7%.
+Although widely attributed to Edwin Hubble,[5][6][7] the notion of the universe expanding at a calculable rate was first derived from general relativity equations in 1922 by Alexander Friedmann. Friedmann published a set of equations, now known as the Friedmann equations, showing that the universe might be expanding, and presenting the expansion speed if that were the case.[8] Then Georges Lemaître, in a 1927 article, independently derived that the universe might be expanding, observed the proportionality between recessional velocity of, and distance to, distant bodies, and suggested an estimated value for the proportionality constant; this constant, when Edwin Hubble confirmed the existence of cosmic expansion and determined a more accurate value for it two years later, came to be known by his name as the Hubble constant.[2][9][10][11][12] Hubble inferred the recession velocity of the objects from their redshifts, many of which were earlier measured and related to velocity by Vesto Slipher in 1917.[13][14][15] Though the Hubble constant H0 is constant at any given moment in time, the Hubble parameter H, of which the Hubble constant is the current value, varies with time, so the term constant is sometimes thought of as somewhat of a misnomer.[16][17]
+A decade before Hubble made his observations, a number of physicists and mathematicians had established a consistent theory of an expanding universe by using Einstein field equations of general relativity. Applying the most general principles to the nature of the universe yielded a dynamic solution that conflicted with the then-prevalent notion of a static universe.
+In 1912, Vesto M. Slipher measured the first Doppler shift of a "spiral nebula" (the obsolete term for spiral galaxies) and soon discovered that almost all such nebulae were receding from Earth. He did not grasp the cosmological implications of this fact, and indeed at the time it was highly controversial whether or not these nebulae were "island universes" outside our Milky Way.[19][20]
+In 1922, Alexander Friedmann derived his Friedmann equations from Einstein field equations, showing that the universe might expand at a rate calculable by the equations.[21] The parameter used by Friedmann is known today as the scale factor and can be considered as a scale invariant form of the proportionality constant of Hubble's law. Georges Lemaître independently found a similar solution in his 1927 paper discussed in the following section. The Friedmann equations are derived by inserting the metric for a homogeneous and isotropic universe into Einstein's field equations for a fluid with a given density and pressure. This idea of an expanding spacetime would eventually lead to the Big Bang and Steady State theories of cosmology.
+In 1927, two years before Hubble published his own article, the Belgian priest and astronomer Georges Lemaître was the first to publish research deriving what is now known as Hubble's law. According to the Canadian astronomer Sidney van den Bergh, "the 1927 discovery of the expansion of the universe by Lemaître was published in French in a low-impact journal. In the 1931 high-impact English translation of this article, a critical equation was changed by omitting reference to what is now known as the Hubble constant."[22] It is now known that the alterations in the translated paper were carried out by Lemaître himself.[10][23]
+Before the advent of modern cosmology, there was considerable talk about the size and shape of the universe. In 1920, the Shapley–Curtis debate took place between Harlow Shapley and Heber D. Curtis over this issue. Shapley argued for a small universe the size of the Milky Way galaxy, and Curtis argued that the universe was much larger. The issue was resolved in the coming decade with Hubble's improved observations.
+Edwin Hubble did most of his professional astronomical observing work at Mount Wilson Observatory,[24] home to the world's most powerful telescope at the time. His observations of Cepheid variable stars in "spiral nebulae" enabled him to calculate the distances to these objects. Surprisingly, these objects were discovered to be at distances which placed them well outside the Milky Way. They continued to be called nebulae, and it was only gradually that the term galaxies replaced it.
+The parameters that appear in Hubble's law, velocities and distances, are not directly measured. In reality we determine, say, a supernova brightness, which provides information about its distance, and the redshift z = ∆λ/λ of its spectrum of radiation. Hubble correlated brightness and parameter z.
+Combining his measurements of galaxy distances with Vesto Slipher and Milton Humason's measurements of the redshifts associated with the galaxies, Hubble discovered a rough proportionality between redshift of an object and its distance. Though there was considerable scatter (now known to be caused by peculiar velocities—the 'Hubble flow' is used to refer to the region of space far enough out that the recession velocity is larger than local peculiar velocities), Hubble was able to plot a trend line from the 46 galaxies he studied and obtain a value for the Hubble constant of 500 (km/s)/Mpc (much higher than the currently accepted value due to errors in his distance calibrations; see cosmic distance ladder for details).
+At the time of discovery and development of Hubble's law, it was acceptable to explain redshift phenomenon as a Doppler shift in the context of special relativity, and use the Doppler formula to associate redshift z with velocity. Today, in the context of general relativity, velocity between distant objects depends on the choice of coordinates used, and therefore, the redshift can be equally described as a Doppler shift or a cosmological shift (or gravitational) due to the expanding space, or some combination of the two.[28]
+Hubble's law can be easily depicted in a "Hubble diagram" in which the velocity (assumed approximately proportional to the redshift) of an object is plotted with respect to its distance from the observer.[29] A straight line of positive slope on this diagram is the visual depiction of Hubble's law.
+After Hubble's discovery was published, Albert Einstein abandoned his work on the cosmological constant, which he had designed to modify his equations of general relativity to allow them to produce a static solution, which he thought was the correct state of the universe. The Einstein equations in their simplest form model generated either an expanding or contracting universe, so Einstein's cosmological constant was artificially created to counter the expansion or contraction to get a perfect static and flat universe.[30] After Hubble's discovery that the universe was, in fact, expanding, Einstein called his faulty assumption that the universe is static his "biggest mistake".[30] On its own, general relativity could predict the expansion of the universe, which (through observations such as the bending of light by large masses, or the precession of the orbit of Mercury) could be experimentally observed and compared to his theoretical calculations using particular solutions of the equations he had originally formulated.
+In 1931, Einstein made a trip to Mount Wilson Observatory to thank Hubble for providing the observational basis for modern cosmology.[31]
+The cosmological constant has regained attention in recent decades as a hypothetical explanation for dark energy.[32]
+
+The discovery of the linear relationship between redshift and distance, coupled with a supposed linear relation between recessional velocity and redshift, yields a straightforward mathematical expression for Hubble's law as follows:
+where
+Hubble's law is considered a fundamental relation between recessional velocity and distance. However, the relation between recessional velocity and redshift depends on the cosmological model adopted and is not established except for small redshifts.
+For distances D larger than the radius of the Hubble sphere rHS , objects recede at a rate faster than the speed of light (See Uses of the proper distance for a discussion of the significance of this): 
+Since the Hubble "constant" is a constant only in space, not in time, the radius of the Hubble sphere may increase or decrease over various time intervals. The subscript '0' indicates the value of the Hubble constant today.[25] Current evidence suggests that the expansion of the universe is accelerating (see Accelerating universe), meaning that for any given galaxy, the recession velocity dD/dt is increasing over time as the galaxy moves to greater and greater distances; however, the Hubble parameter is actually thought to be decreasing with time, meaning that if we were to look at some fixed distance D and watch a series of different galaxies pass that distance, later galaxies would pass that distance at a smaller velocity than earlier ones.[34]
+Redshift can be measured by determining the wavelength of a known transition, such as hydrogen α-lines for distant quasars, and finding the fractional shift compared to a stationary reference. Thus, redshift is a quantity unambiguous for experimental observation. The relation of redshift to recessional velocity is another matter. For an extensive discussion, see Harrison.[35]
+The redshift z is often described as a redshift velocity, which is the recessional velocity that would produce the same redshift if it were caused by a linear Doppler effect (which, however, is not the case, as the shift is caused in part by a cosmological expansion of space, and because the velocities involved are too large to use a non-relativistic formula for Doppler shift). This redshift velocity can easily exceed the speed of light.[36] In other words, to determine the redshift velocity vrs, the relation:
+is used.[37][38] That is, there is no fundamental difference between redshift velocity and redshift: they are rigidly proportional, and not related by any theoretical reasoning. The motivation behind the "redshift velocity" terminology is that the redshift velocity agrees with the velocity from a low-velocity simplification of the so-called Fizeau–Doppler formula.[39]
+Here, λo, λe are the observed and emitted wavelengths respectively. The "redshift velocity" vrs is not so simply related to real velocity at larger velocities, however, and this terminology leads to confusion if interpreted as a real velocity. Next, the connection between redshift or redshift velocity and recessional velocity is discussed. This discussion is based on Sartori.[40]
+Suppose R(t) is called the scale factor of the universe, and increases as the universe expands in a manner that depends upon the cosmological model selected. Its meaning is that all measured proper distances D(t) between co-moving points increase proportionally to R. (The co-moving points are not moving relative to each other except as a result of the expansion of space.) In other words:
+where t0 is some reference time. If light is emitted from a galaxy at time te and received by us at t0, it is redshifted due to the expansion of space, and this redshift z is simply:
+Suppose a galaxy is at distance D, and this distance changes with time at a rate dtD. We call this rate of recession the "recession velocity" vr:
+We now define the Hubble constant as
+and discover the Hubble law:
+From this perspective, Hubble's law is a fundamental relation between (i) the recessional velocity contributed by the expansion of space and (ii) the distance to an object; the connection between redshift and distance is a crutch used to connect Hubble's law with observations. This law can be related to redshift z approximately by making a Taylor series expansion:
+If the distance is not too large, all other complications of the model become small corrections, and the time interval is simply the distance divided by the speed of light:
+or
+According to this approach, the relation cz = vr is an approximation valid at low redshifts, to be replaced by a relation at large redshifts that is model-dependent. See velocity-redshift figure.
+Strictly speaking, neither v nor D in the formula are directly observable, because they are properties now of a galaxy, whereas our observations refer to the galaxy in the past, at the time that the light we currently see left it.
+For relatively nearby galaxies (redshift z much less than unity), v and D will not have changed much, and v can be estimated using the formula 
+
+
+
+v
+=
+z
+c
+
+
+{\displaystyle v=zc}
+
+ where c is the speed of light. This gives the empirical relation found by Hubble.
+For distant galaxies, v (or D) cannot be calculated from z without specifying a detailed model for how H changes with time. The redshift is not even directly related to the recession velocity at the time the light set out, but it does have a simple interpretation: (1 + z) is the factor by which the universe has expanded while the photon was travelling towards the observer.
+In using Hubble's law to determine distances, only the velocity due to the expansion of the universe can be used. Since gravitationally interacting galaxies move relative to each other independent of the expansion of the universe,[42] these relative velocities, called peculiar velocities, need to be accounted for in the application of Hubble's law.
+The Finger of God effect is one result of this phenomenon. In systems that are gravitationally bound, such as galaxies or our planetary system, the expansion of space is a much weaker effect than the attractive force of gravity.
+The parameter 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ is commonly called the "Hubble constant", but that is a misnomer since it is constant in space only at a fixed time; it varies with time in nearly all cosmological models, and all observations of far distant objects are also observations into the distant past, when the “constant” had a different value. The "Hubble parameter" is a more correct term, with 
+
+
+
+
+H
+
+0
+
+
+
+
+{\displaystyle H_{0}}
+
+ denoting the present-day value.
+Another common source of confusion is that the accelerating universe does not imply that the Hubble parameter is actually increasing with time; since 
+
+
+
+H
+(
+t
+)
+≡
+
+
+
+a
+˙
+
+
+
+(
+t
+)
+
+/
+
+a
+(
+t
+)
+
+
+{\displaystyle H(t)\equiv {\dot {a}}(t)/a(t)}
+
+, in most accelerating models 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ increases relatively faster than 
+
+
+
+
+
+
+a
+˙
+
+
+
+
+
+{\displaystyle {\dot {a}}}
+
+, so H decreases with time. (The recession velocity of one chosen galaxy does increase, but different galaxies passing a sphere of fixed radius cross the sphere more slowly at later times.)
+On defining the dimensionless deceleration parameter
+From this it is seen that the Hubble parameter is decreasing with time, unless 
+
+
+
+q
+<
+−
+1
+
+
+{\displaystyle q<-1}
+
+; the latter can only occur if the universe contains phantom energy, regarded as theoretically somewhat improbable.
+However, in the standard Lambda cold dark matter model (Lambda-CDM or ΛCDM model), 
+
+
+
+q
+
+
+{\displaystyle q}
+
+ will tend to −1 from above in the distant future as the cosmological constant becomes increasingly dominant over matter; this implies that 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ will approach from above to a constant value of ≈ 57 (km/s)/Mpc, and the scale factor of the universe will then grow exponentially in time.
+The mathematical derivation of an idealized Hubble's law for a uniformly expanding universe is a fairly elementary theorem of geometry in 3-dimensional Cartesian/Newtonian coordinate space, which, considered as a metric space, is entirely homogeneous and isotropic (properties do not vary with location or direction). Simply stated the theorem is this:
+Any two points which are moving away from the origin, each along straight lines and with speed proportional to distance from the origin, will be moving away from each other with a speed proportional to their distance apart.In fact, this applies to non-Cartesian spaces as long as they are locally homogeneous and isotropic, specifically to the negatively and positively curved spaces frequently considered as cosmological models (see shape of the universe).
+An observation stemming from this theorem is that seeing objects recede from us on Earth is not an indication that Earth is near to a center from which the expansion is occurring, but rather that every observer in an expanding universe will see objects receding from them.
+The value of the Hubble parameter changes over time, either increasing or decreasing depending on the value of the so-called deceleration parameter 
+
+
+
+q
+
+
+{\displaystyle q}
+
+, which is defined by
+In a universe with a deceleration parameter equal to zero, it follows that H = 1/t, where t is the time since the Big Bang. A non-zero, time-dependent value of 
+
+
+
+q
+
+
+{\displaystyle q}
+
+ simply requires integration of the Friedmann equations backwards from the present time to the time when the comoving horizon size was zero.
+It was long thought that q was positive, indicating that the expansion is slowing down due to gravitational attraction. This would imply an age of the universe less than 1/H (which is about 14 billion years). For instance, a value for q of 1/2 (once favoured by most theorists) would give the age of the universe as 2/(3H). The discovery in 1998 that q is apparently negative means that the universe could actually be older than 1/H. However, estimates of the age of the universe are very close to 1/H.
+The expansion of space summarized by the Big Bang interpretation of Hubble's law is relevant to the old conundrum known as Olbers' paradox: If the universe were infinite in size, static, and filled with a uniform distribution of stars, then every line of sight in the sky would end on a star, and the sky would be as bright as the surface of a star. However, the night sky is largely dark.[43][44]
+Since the 17th century, astronomers and other thinkers have proposed many possible ways to resolve this paradox, but the currently accepted resolution depends in part on the Big Bang theory, and in part on the Hubble expansion: In a universe that exists for a finite amount of time, only the light of a finite number of stars has had enough time to reach us, and the paradox is resolved. Additionally, in an expanding universe, distant objects recede from us, which causes the light emanated from them to be redshifted and diminished in brightness by the time we see it.[43][44]
+Instead of working with Hubble's constant, a common practice is to introduce the dimensionless Hubble constant, usually denoted by h and commonly referred to as "little h",[45] then to write Hubble's constant H0 as h × 100 km⋅s−1⋅Mpc−1, all the relative uncertainty of the true value of H0 being then relegated to h.[46] The dimensionless Hubble constant is often used when giving distances that are calculated from redshift z using the formula d ≈ c/H0 × z. Since H0 is not precisely known, the distance is expressed as:
+In other words, one calculates 2998×z and one gives the units as 
+
+
+
+
+Mpc 
+
+
+h
+
+−
+1
+
+
+
+
+{\displaystyle {\text{Mpc }}h^{-1}}
+
+ or 
+
+
+
+
+h
+
+−
+1
+
+
+
+ Mpc
+
+.
+
+
+{\displaystyle h^{-1}{\text{ Mpc}}.}
+
+
+Occasionally a reference value other than 100 may be chosen, in which case a subscript is presented after h to avoid confusion; e.g. h70 denotes 
+
+
+
+
+H
+
+0
+
+
+=
+70
+
+
+h
+
+70
+
+
+
+
+k
+m
+
+⋅
+
+
+s
+
+−
+1
+
+
+
+⋅
+
+M
+p
+
+c
+
+−
+1
+
+
+
+
+
+{\displaystyle H_{0}=70\,h_{70}\,\mathrm {km{\cdot }s^{-1}{\cdot }Mpc^{-1}} }
+
+, which implies 
+
+
+
+
+h
+
+70
+
+
+=
+h
+
+/
+
+0.7
+
+
+{\displaystyle h_{70}=h/0.7}
+
+.
+This should not be confused with the dimensionless value of Hubble's constant, usually expressed in terms of Planck units, obtained by multiplying H0 by 1.75 × 10−63 (from definitions of parsec and tP), for example for H0 = 70, a Planck unit version of 1.2 × 10−61 is obtained.
+A value for 
+
+
+
+q
+
+
+{\displaystyle q}
+
+ measured from standard candle observations of Type Ia supernovae, which was determined in 1998 to be negative, surprised many astronomers with the implication that the expansion of the universe is currently "accelerating"[47] (although the Hubble factor is still decreasing with time, as mentioned above in the Interpretation section; see the articles on dark energy and the ΛCDM model).
+Start with the Friedmann equation:
+where 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ is the Hubble parameter, 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ is the scale factor, G is the gravitational constant, 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ is the normalised spatial curvature of the universe and equal to −1, 0, or 1, and 
+
+
+
+Λ
+
+
+{\displaystyle \Lambda }
+
+ is the cosmological constant.
+If the universe is matter-dominated, then the mass density of the universe 
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+
+ can just be taken to include matter so
+where 
+
+
+
+
+ρ
+
+
+m
+
+0
+
+
+
+
+
+
+{\displaystyle \rho _{m_{0}}}
+
+ is the density of matter today. From the Friedmann equation and thermodynamic principles we know for non-relativistic particles that their mass density decreases proportional to the inverse volume of the universe, so the equation above must be true. We can also define (see density parameter for 
+
+
+
+
+Ω
+
+m
+
+
+
+
+{\displaystyle \Omega _{m}}
+
+)
+therefore:
+Also, by definition,
+where the subscript nought refers to the values today, and 
+
+
+
+
+a
+
+0
+
+
+=
+1
+
+
+{\displaystyle a_{0}=1}
+
+. Substituting all of this into the Friedmann equation at the start of this section and replacing 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ with 
+
+
+
+a
+=
+1
+
+/
+
+(
+1
++
+z
+)
+
+
+{\displaystyle a=1/(1+z)}
+
+ gives
+If the universe is both matter-dominated and dark energy-dominated, then the above equation for the Hubble parameter will also be a function of the equation of state of dark energy. So now:
+where 
+
+
+
+
+ρ
+
+d
+e
+
+
+
+
+{\displaystyle \rho _{de}}
+
+ is the mass density of the dark energy. By definition, an equation of state in cosmology is 
+
+
+
+P
+=
+w
+ρ
+
+c
+
+2
+
+
+
+
+{\displaystyle P=w\rho c^{2}}
+
+, and if this is substituted into the fluid equation, which describes how the mass density of the universe evolves with time, then
+If w is constant, then
+implying:
+Therefore, for dark energy with a constant equation of state w, 
+
+
+
+
+ρ
+
+d
+e
+
+
+(
+a
+)
+=
+
+ρ
+
+d
+e
+0
+
+
+
+a
+
+−
+3
+(
+1
++
+w
+)
+
+
+
+
+{\displaystyle \rho _{de}(a)=\rho _{de0}a^{-3(1+w)}}
+
+. If this is substituted into the Friedman equation in a similar way as before, but this time set 
+
+
+
+k
+=
+0
+
+
+{\displaystyle k=0}
+
+, which assumes a spatially flat universe, then (see shape of the universe)
+If the dark energy derives from a cosmological constant such as that introduced by Einstein, it can be shown that 
+
+
+
+w
+=
+−
+1
+
+
+{\displaystyle w=-1}
+
+. The equation then reduces to the last equation in the matter-dominated universe section, with 
+
+
+
+
+Ω
+
+k
+
+
+
+
+{\displaystyle \Omega _{k}}
+
+ set to zero. In that case the initial dark energy density 
+
+
+
+
+ρ
+
+d
+e
+0
+
+
+
+
+{\displaystyle \rho _{de0}}
+
+ is given by[48]
+If dark energy does not have a constant equation-of-state w, then
+and to solve this, 
+
+
+
+w
+(
+a
+)
+
+
+{\displaystyle w(a)}
+
+ must be parametrized, for example if 
+
+
+
+w
+(
+a
+)
+=
+
+w
+
+0
+
+
++
+
+w
+
+a
+
+
+(
+1
+−
+a
+)
+
+
+{\displaystyle w(a)=w_{0}+w_{a}(1-a)}
+
+, giving
+Other ingredients have been formulated recently.[50][51][52]
+The Hubble constant 
+
+
+
+
+H
+
+0
+
+
+
+
+{\displaystyle H_{0}}
+
+ has units of inverse time; the Hubble time tH is simply defined as the inverse of the Hubble constant,[53] i.e.
+This is slightly different from the age of the universe, which is approximately 13.8 billion years. The Hubble time is the age it would have had if the expansion had been linear, and it is different from the real age of the universe because the expansion is not linear; it depends on the energy content of the universe (see § Derivation of the Hubble parameter).
+We currently appear to be approaching a period where the expansion of the universe is exponential due to the increasing dominance of vacuum energy. In this regime, the Hubble parameter is constant, and the universe grows by a factor e each Hubble time:
+Likewise, the generally accepted value of 2.27 Es−1 means that (at the current rate) the universe would grow by a factor of 
+
+
+
+
+e
+
+2.27
+
+
+
+
+{\displaystyle e^{2.27}}
+
+ in one exasecond.
+Over long periods of time, the dynamics are complicated by general relativity, dark energy, inflation, etc., as explained above.
+The Hubble length or Hubble distance is a unit of distance in cosmology, defined as 
+
+
+
+c
+
+H
+
+0
+
+
+−
+1
+
+
+
+
+{\displaystyle cH_{0}^{-1}}
+
+ — the speed of light multiplied by the Hubble time. It is equivalent to 4,420 million parsecs or 14.4 billion light years. (The numerical value of the Hubble length in light years is, by definition, equal to that of the Hubble time in years.) The Hubble distance would be the distance between the Earth and the galaxies which are currently receding from us at the speed of light, as can be seen by substituting 
+
+
+
+D
+=
+c
+
+H
+
+0
+
+
+−
+1
+
+
+
+
+{\displaystyle D=cH_{0}^{-1}}
+
+ into the equation for Hubble's law, v = H0D.
+The Hubble volume is sometimes defined as a volume of the universe with a comoving size of 
+
+
+
+c
+
+H
+
+0
+
+
+−
+1
+
+
+.
+
+
+{\displaystyle cH_{0}^{-1}.}
+
+ The exact definition varies: it is sometimes defined as the volume of a sphere with radius 
+
+
+
+c
+
+H
+
+0
+
+
+−
+1
+
+
+,
+
+
+{\displaystyle cH_{0}^{-1},}
+
+ or alternatively, a cube of side 
+
+
+
+c
+
+H
+
+0
+
+
+−
+1
+
+
+.
+
+
+{\displaystyle cH_{0}^{-1}.}
+
+ Some cosmologists even use the term Hubble volume to refer to the volume of the observable universe, although this has a radius approximately three times larger.
+The value of the Hubble constant is estimated by measuring the redshift of distant galaxies and then determining the distances to them by some other method than Hubble's law. This approach forms part of the cosmic distance ladder for measuring distances to extragalactic objects. Uncertainties in the physical assumptions used to determine these distances have caused varying estimates of the Hubble constant.[2]
+Multiple methods have been used to determine the Hubble constant.  "Late universe" measurements using calibrated distance ladder techniques have converged on a value of approximately 73 (km/s)/Mpc.  Since 2000, "early universe" techniques based on measurements of the cosmic microwave background have become available, and these agree on a value near 67.7 (km/s)/Mpc.  (This is accounting for the change in the expansion rate since the early universe, so is comparable to the first number.)  As techniques have improved, the estimated measurement uncertainties have shrunk, but the range of measured values has not, to the point that the disagreement is now highly statistically significant.  This discrepancy is called the Hubble tension.[55][56]
+In December 2021, National Geographic reported that the cause of the Hubble tension discrepancy is not known.[57] However, if the cosmological principle fails (see "Violations of the cosmological principle" in the "Lambda-CDM model" article), then the existing interpretations of the Hubble constant and the Hubble tension have to be revised, which might resolve the Hubble tension.[58]
+One possibility is that the Hubble tension is caused by the KBC Void, as measuring galactic supernovae inside a void is predicted by some authors to yield a larger local value for the Hubble constant than cosmological measures of the Hubble constant.[59] However, other work has found no evidence for this in observations, finding the scale of the claimed underdensity to be incompatible with observations which extend beyond its radius.[60] Important deficiencies were subsequently pointed out in this analysis, leaving open the possibility that the Hubble tension is indeed caused by outflow from the KBC Void.[61]
+Another possibility is that the Hubble tension calls for new physics beyond the ΛCDM model.[56] Moritz Haslbauer and collaborators have proposed modified Newtonian dynamics as a possible solution to the Hubble tension,[61] while Marc Kamionkowski and collaborators have proposed an early dark energy model as a possible solution to the Hubble tension.[62]
+Others have suggested that at least a portion of the tension could be a result of underestimation of uncertainties in data.[63][64]
+The observations of astronomer Walter Baade led him to define distinct "populations" for stars (Population I and Population II). The same observations led him to discover that there are two types of Cepheid variable stars. Using this discovery, he recalculated the size of the known universe, doubling the previous calculation made by Hubble in 1929.[65][66][67] He announced this finding to considerable astonishment at the 1952 meeting of the International Astronomical Union in Rome.
+For most of the second half of the 20th century, the value of 
+
+
+
+
+H
+
+0
+
+
+
+
+{\displaystyle H_{0}}
+
+ was estimated to be between 50 and 90 (km/s)/Mpc.
+The value of the Hubble constant was the topic of a long and rather bitter controversy between Gérard de Vaucouleurs, who claimed the value was around 100, and Allan Sandage, who claimed the value was near 50.[68] In one demonstration of vitriol shared between the parties, when Sandage and Gustav Andreas Tammann (Sandage’s research colleague) formally acknowledged the shortcomings of confirming the systematic error of their method in 1975, Vaucouleurs responded “It is unfortunate that this sober warning was so soon forgotten and ignored by most astronomers and textbook writers”.[69] In 1996, a debate moderated by John Bahcall between Sidney van den Bergh and Gustav Tammann was held in similar fashion to the earlier Shapley–Curtis debate over these two competing values.
+This previously wide variance in estimates was partially resolved with the introduction of the ΛCDM model of the universe in the late 1990s. With the ΛCDM model observations of high-redshift clusters at X-ray and microwave wavelengths using the Sunyaev–Zel'dovich effect, measurements of anisotropies in the cosmic microwave background radiation, and optical surveys all gave a value of around 70 for the constant.[citation needed]
+More recent measurements from the Planck mission published in 2018 indicate a lower value of 67.66±0.42 (km/s)/Mpc, although, even more recently, in March 2019, a higher value of 74.03±1.42 (km/s)/Mpc has been determined using an improved procedure involving the Hubble Space Telescope.[70] The two measurements disagree at the 4.4σ level, beyond a plausible level of chance.[71] The resolution to this disagreement is an ongoing area of active research.[72]
+In October 2018, scientists presented a new third way (two earlier methods, one based on redshifts and another on the cosmic distance ladder, gave results that do not agree), using information from gravitational wave events (especially those involving the merger of neutron stars, like GW170817), of determining the Hubble constant.[73][74]
+In July 2019, astronomers reported that a new method to determine the Hubble constant, and resolve the discrepancy of earlier methods, has been proposed based on the mergers of pairs of neutron stars, following the detection of the neutron star merger of GW170817, an event known as a dark siren.[75][76] Their measurement of the Hubble constant is 73.3+5.3−5.0 (km/s)/Mpc.[77]
+Also in July 2019, astronomers reported another new method, using data from the Hubble Space Telescope and based on distances to red giant stars calculated using the tip of the red-giant branch (TRGB) distance indicator. Their measurement of the Hubble constant is 69.8+1.9−1.9 (km/s)/Mpc.[78][79][80]
+In February 2020, the Megamaser Cosmology Project published independent results that confirmed the distance ladder results and differed from the early-universe results at a statistical significance level of 95%.[81] In July 2020, measurements of the cosmic background radiation by the Atacama Cosmology Telescope predict that the Universe should be expanding more slowly than is currently observed.[82]
+
+

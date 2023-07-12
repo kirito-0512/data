@@ -1,0 +1,268 @@
+5390,
+Conversionofunits,
+Conversion of units is the conversion between different units of measurement for the same quantity, typically through multiplicative conversion factors which change the measured quantity value without changing its effects. Unit conversion is often easier within the metric or the SI than in others, due to the regular 10-base in all units and the prefixes that increase or decrease by 3 powers of 10 at a time. 
+The process of conversion depends on the specific situation and the intended purpose. This may be governed by regulation, contract, technical specifications or other published standards. Engineering judgment may include such factors as:
+Some conversions from one system of units to another need to be exact, without increasing or decreasing the precision of the first measurement. This is sometimes called soft conversion. It does not involve changing the physical configuration of the item being measured.
+By contrast, a hard conversion or an adaptive conversion may not be exactly equivalent. It changes the measurement to convenient and workable numbers and units in the new system. It sometimes involves a slightly different configuration, or size substitution, of the item.[clarification needed] Nominal values are sometimes allowed and used.
+The factor-label method, also known as the unit-factor method or the unity bracket method,[1] is a widely used technique for unit conversions using the rules of algebra.[2][3][4]
+The factor-label method is the sequential application of conversion factors expressed as fractions and arranged so that any dimensional unit appearing in both the numerator and denominator of any of the fractions can be cancelled out until only the desired set of dimensional units is obtained. For example, 10 miles per hour can be converted to metres per second by using a sequence of conversion factors as shown below:
+10
+ 
+m
+i
+1
+ 
+h
+×
+1609.344
+ 
+m
+1
+ 
+m
+i
+×
+1
+ 
+h
+3600
+ 
+s
+=
+4.4704
+ 
+m
+s
+.
+{\displaystyle {\frac {\mathrm {10~{\cancel {mi}}} }{\mathrm {1~{\cancel {h}}} }}\times {\frac {\mathrm {1609.344~m} }{\mathrm {1~{\cancel {mi}}} }}\times {\frac {\mathrm {1~{\cancel {h}}} }{\mathrm {3600~s} }}=\mathrm {4.4704~{\frac {m}{s}}} .}
+Each conversion factor is chosen based on the relationship between one of the original units and one of the desired units (or some intermediary unit), before being re-arranged to create a factor that cancels out the original unit. For example, as "mile" is the numerator in the original fraction and 
+1
+ 
+m
+i
+=
+1609.344
+ 
+m
+{\displaystyle \mathrm {1~mi} =\mathrm {1609.344~m} }
+, "mile" will need to be the denominator in the conversion factor. Dividing both sides of the equation by 1 mile yields 
+1
+ 
+m
+i
+1
+ 
+m
+i
+=
+1609.344
+ 
+m
+1
+ 
+m
+i
+{\displaystyle {\frac {\mathrm {1~mi} }{\mathrm {1~mi} }}={\frac {\mathrm {1609.344~m} }{\mathrm {1~mi} }}}
+, which when simplified results in the dimensionless 
+1
+=
+1609.344
+ 
+m
+1
+ 
+m
+i
+{\displaystyle 1={\frac {\mathrm {1609.344~m} }{\mathrm {1~mi} }}}
+. Because of the identity property of multiplication, multiplying any quantity (physical or not) by the dimensionless 1 does not change that quantity.[5] Once this and the conversion factor for seconds per hour have been multiplied by the original fraction to cancel out the units mile and hour, 10 miles per hour converts to 4.4704 metres per second.
+As a more complex example, the concentration of nitrogen oxides (NOx) in the flue gas from an industrial furnace can be converted to a mass flow rate expressed in grams per hour (g/h) of NOx by using the following information as shown below:
+After canceling out any dimensional units that appear both in the numerators and denominators of the fractions in the above equation, the NOx concentration of 10 ppmv converts to mass flow rate of 24.63 grams per hour.
+The factor-label method can also be used on any mathematical equation to check whether or not the dimensional units on the left hand side of the equation are the same as the dimensional units on the right hand side of the equation. Having the same units on both sides of an equation does not ensure that the equation is correct, but having different units on the two sides (when expressed in terms of base units) of an equation implies that the equation is wrong.
+For example, check the universal gas law equation of PV = nRT, when:
+P
+a
+⋅
+m
+3
+=
+m
+o
+l
+1
+×
+P
+a
+⋅
+m
+3
+m
+o
+l
+ 
+K
+×
+K
+1
+{\displaystyle \mathrm {Pa{\cdot }m^{3}} ={\frac {\cancel {\mathrm {mol} }}{1}}\times {\frac {\mathrm {Pa{\cdot }m^{3}} }{{\cancel {\mathrm {mol} }}\ {\cancel {\mathrm {K} }}}}\times {\frac {\cancel {\mathrm {K} }}{1}}}
+As can be seen, when the dimensional units appearing in the numerator and denominator of the equation's right hand side are cancelled out, both sides of the equation have the same dimensional units. Dimensional analysis can be used as a tool to construct equations that relate non-associated physico-chemical properties. The equations may reveal hitherto unknown or overlooked properties of matter, in the form of left-over dimensions – dimensional adjusters – that can then be assigned physical significance. It is important to point out that such 'mathematical manipulation' is neither without prior precedent, nor without considerable scientific significance. Indeed, the Planck constant, a fundamental physical constant, was 'discovered' as a purely mathematical abstraction or representation that built on the Rayleigh–Jeans law for preventing the ultraviolet catastrophe. It was assigned and ascended to its quantum physical significance either in tandem or post mathematical dimensional adjustment – not earlier.
+The factor-label method can convert only unit quantities for which the units are in a linear relationship intersecting at 0. (Ratio scale in Stevens's typology) Most units fit this paradigm. An example for which it cannot be used is the conversion between degrees Celsius and kelvins (or degrees Fahrenheit). Between degrees Celsius and kelvins, there is a constant difference rather than a constant ratio, while between degrees Celsius and degrees Fahrenheit there is neither a constant difference nor a constant ratio. There is, however, an affine transform (
+x
+↦
+a
+x
++
+b
+{\displaystyle x\mapsto ax+b}
+, rather than a linear transform 
+x
+↦
+a
+x
+{\displaystyle x\mapsto ax}
+) between them.
+For example, the freezing point of water is 0 °C and 32 °F, and a 5 °C change is the same as a 9 °F change. Thus, to convert from units of Fahrenheit to units of Celsius, one subtracts 32 °F (the offset from the point of reference), divides by 9 °F and multiplies by 5 °C (scales by the ratio of units), and adds 0 °C (the offset from the point of reference). Reversing this yields the formula for obtaining a quantity in units of Celsius from units of Fahrenheit; one could have started with the equivalence between 100 °C and 212 °F, though this would yield the same formula at the end.
+Hence, to convert the numerical quantity value of a temperature T[F] in degrees Fahrenheit to a numerical quantity value T[C] in degrees Celsius, this formula may be used:
+To convert T[C] in degrees Celsius to T[F] in degrees Fahrenheit, this formula may be used:
+Starting with:
+replace the original unit 
+[
+Z
+]
+i
+{\displaystyle [Z]_{i}}
+ with its meaning in terms of the desired unit 
+[
+Z
+]
+j
+{\displaystyle [Z]_{j}}
+, e.g. if 
+[
+Z
+]
+i
+=
+c
+i
+j
+×
+[
+Z
+]
+j
+{\displaystyle [Z]_{i}=c_{ij}\times [Z]_{j}}
+, then:
+Now 
+n
+i
+{\displaystyle n_{i}}
+ and 
+c
+i
+j
+{\displaystyle c_{ij}}
+ are both numerical values, so just calculate their product.
+Or, which is just mathematically the same thing, multiply Z by unity, the product is still Z:
+For example, you have an expression for a physical value Z involving the unit feet per second (
+[
+Z
+]
+i
+{\displaystyle [Z]_{i}}
+) and you want it in terms of the unit miles per hour (
+[
+Z
+]
+j
+{\displaystyle [Z]_{j}}
+):
+Or as an example using the metric system, you have a value of fuel economy in the unit litres per 100 kilometres and you want it in terms of the unit microlitres per metre:
+In the cases where non-SI units are used, the numerical calculation of a formula can be done by first working out the pre-factor, and then plug in the numerical values of the given/known quantities.
+For example, in the study of Bose–Einstein condensate,[6] atomic mass m is usually given in daltons, instead of kilograms, and chemical potential μ is often given in the Boltzmann constant times nanokelvin. The condensate's healing length is given by:
+ξ
+=
+ℏ
+2
+m
+μ
+.
+{\displaystyle \xi ={\frac {\hbar }{\sqrt {2m\mu }}}\,.}
+For a 23Na condensate with chemical potential of (the Boltzmann constant times) 128 nK, the calculation of healing length (in micrometres) can be done in two steps:
+Assume that 
+m
+=
+1
+Da
+,
+μ
+=
+k
+B
+⋅
+1
+nK
+,
+{\displaystyle m=1\,{\text{Da}},\mu =k_{\text{B}}\cdot 1\,{\text{nK}}\,,}
+ this gives
+ξ
+=
+ℏ
+2
+m
+μ
+=
+15.574
+μ
+m
+,
+{\displaystyle \xi ={\frac {\hbar }{\sqrt {2m\mu }}}=15.574\,\mathrm {\mu m} \,,}
+which is our pre-factor.
+Now, make use of the fact that 
+ξ
+∝
+1
+m
+μ
+{\displaystyle \xi \propto {\frac {1}{\sqrt {m\mu }}}}
+. With 
+m
+=
+23
+Da
+,
+μ
+=
+128
+k
+B
+⋅
+nK
+{\displaystyle m=23\,{\text{Da}},\mu =128\,k_{\text{B}}\cdot {\text{nK}}}
+, 
+ξ
+=
+15.574
+23
+⋅
+128
+μm
+=
+0.287
+μm
+{\displaystyle \xi ={\frac {15.574}{\sqrt {23\cdot 128}}}\,{\text{μm}}=0.287\,{\text{μm}}}
+.
+This method is especially useful for programming and/or making a worksheet, where input quantities are taking multiple different values; For example, with the pre-factor calculated above, it is very easy to see that the healing length of 174Yb with chemical potential 20.3 nK is 
+ξ
+=
+15.574
+174
+⋅
+20.3
+μm
+=
+0.262
+μm
+{\displaystyle \xi ={\frac {15.574}{\sqrt {174\cdot 20.3}}}\,{\text{μm}}=0.262\,{\text{μm}}}
+.
+There are many conversion tools. They are found in the function libraries of applications such as spreadsheets databases, in calculators, and in macro packages and plugins for many other applications such as the mathematical, scientific and technical applications.
+There are many standalone applications that offer the thousands of the various units with conversions. For example, the free software movement offers a command line utility GNU units for Linux and Windows.

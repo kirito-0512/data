@@ -1,0 +1,308 @@
+38542,
+Multiplexer,
+In electronics, a multiplexer (or mux; spelled sometimes as multiplexor), also known as a data selector, is a device that selects between several analog or digital input signals and forwards the selected input to a single output line.[1] The selection is directed by a separate set of digital inputs known as select lines. A multiplexer of 
+
+
+
+
+2
+
+n
+
+
+
+
+{\displaystyle 2^{n}}
+
+ inputs has 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ select lines, which are used to select which input line to send to the output.[2]
+A multiplexer makes it possible for several input signals to share one device or resource, for example, one analog-to-digital converter or one communications transmission medium, instead of having one device per input signal. Multiplexers can also be used to implement Boolean functions of multiple variables.
+Conversely, a demultiplexer (or demux) is a device taking a single input and selecting signals of the output of the compatible mux, which is connected to the single input, and a shared selection line. A multiplexer is often used with a complementary demultiplexer on the receiving end.[1]
+An electronic multiplexer can be considered as a multiple-input, single-output switch, and a demultiplexer as a single-input, multiple-output switch.[3] The schematic symbol for a multiplexer is an isosceles trapezoid with the longer parallel side containing the input pins and the short parallel side containing the output pin.[4]  The schematic on the right shows a 2-to-1 multiplexer on the left and an equivalent switch on the right. The 
+
+
+
+s
+e
+l
+
+
+{\displaystyle sel}
+
+ wire connects the desired input to the output.
+Multiplexers are part of computer systems to select data from a specific source, be it a memory chip or a hardware peripheral. A computer uses multiplexers to control the data and address buses, allowing the processor to select data from multiple data sources
+In digital communications, multiplexers allow several connections over a single channel, by connecting the multiplexer's single output to the demultiplexer's single input (Time-Division Multiplexing). The image to the right demonstrates this benefit. In this case, the cost of implementing separate channels for each data source is higher than the cost and inconvenience of providing the multiplexing/demultiplexing functions.
+At the receiving end of the data link a complementary demultiplexer is usually required to break the single data stream back down into the original streams. In some cases, the far end system may have functionality greater than a simple demultiplexer; and while the demultiplexing still occurs technically, it may never be implemented discretely. This would be the case when, for instance, a multiplexer serves a number of IP network users; and then feeds directly into a router, which immediately reads the content of the entire link into its routing processor; and then does the demultiplexing in memory from where it will be converted directly into IP sections.
+Often, a multiplexer and demultiplexer are combined into a single piece of equipment, which is simply referred to as a multiplexer. Both circuit elements are needed at both ends of a transmission link because most communications systems transmit in both directions.
+In analog circuit design, a multiplexer is a special type of analog switch that connects one signal selected from several inputs to a single output.
+In digital circuit design, the selector wires are of digital value. In the case of a 2-to-1 multiplexer, a logic value of 0 would connect 
+
+
+
+
+I
+
+0
+
+
+
+
+{\displaystyle I_{0}}
+
+ to the output while a logic value of 1 would connect 
+
+
+
+
+I
+
+1
+
+
+
+
+{\displaystyle I_{1}}
+
+ to the output.
+In larger multiplexers, the number of selector pins is equal to 
+
+
+
+
+⌈
+
+
+log
+
+2
+
+
+⁡
+(
+n
+)
+
+⌉
+
+
+
+{\displaystyle \left\lceil \log _{2}(n)\right\rceil }
+
+ where 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ is the number of inputs.
+For example, 9 to 16 inputs would require no fewer than 4 selector pins and 17 to 32 inputs would require no fewer than 5 selector pins. The binary value expressed on these selector pins determines the selected input pin.
+A 2-to-1 multiplexer has a boolean equation where 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ are the two inputs, 
+
+
+
+
+S
+
+0
+
+
+
+
+{\displaystyle S_{0}}
+
+ is the selector input, and 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ is the output:
+Which can be expressed as a truth table:
+Or, in simpler notation:
+These tables show that when 
+
+
+
+
+S
+
+0
+
+
+=
+0
+
+
+{\displaystyle S_{0}=0}
+
+ then 
+
+
+
+Z
+=
+A
+
+
+{\displaystyle Z=A}
+
+ but when 
+
+
+
+
+S
+
+0
+
+
+=
+1
+
+
+{\displaystyle S_{0}=1}
+
+ then 
+
+
+
+Z
+=
+B
+
+
+{\displaystyle Z=B}
+
+. A straightforward realization of this 2-to-1 multiplexer would need 2 AND gates, an OR gate, and a NOT gate. While this is mathematically correct, a direct physical implementation would be prone to race conditions that require additional gates to suppress.[5]
+Larger multiplexers are also common and, as stated above, require 
+
+
+
+
+⌈
+
+
+log
+
+2
+
+
+⁡
+(
+n
+)
+
+⌉
+
+
+
+{\displaystyle \left\lceil \log _{2}(n)\right\rceil }
+
+ selector pins for 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ inputs. Other common sizes are 4-to-1, 8-to-1, and 16-to-1. Since digital logic uses binary values, powers of 2 are used (4, 8, 16) to maximally control a number of inputs for the given number of selector inputs.
+4-to-1 mux
+8-to-1 mux
+16-to-1 mux
+The boolean equation for a 4-to-1 multiplexer is:
+The following 4-to-1 multiplexer is constructed from 3-state buffers and AND gates (the AND gates are acting as the decoder):
+
+The subscripts on the 
+
+
+
+
+I
+
+n
+
+
+
+
+{\displaystyle I_{n}}
+
+ inputs indicate the decimal value of the binary control inputs at which that input is let through.
+Larger Multiplexers can be constructed by using smaller multiplexers by chaining them together. For example, an 8-to-1 multiplexer can be made with two 4-to-1 and one 2-to-1 multiplexers. The two 4-to-1 multiplexer outputs are fed into the 2-to-1 with the selector pins on the 4-to-1's put in parallel giving a total number of selector inputs to 3, which is equivalent to an 8-to-1.
+For 7400 series part numbers in the following table, "x" is the logic family.
+Demultiplexers take one data input and a number of selection inputs, and they have several outputs.
+They forward the data input to one of the outputs depending on the values of the selection inputs.
+Demultiplexers are sometimes convenient for designing general-purpose logic because if the demultiplexer's input is always true, the demultiplexer acts as a binary decoder.
+This means that any function of the selection bits can be constructed by logically OR-ing the correct set of outputs.
+If X is the input and S is the selector, and A and B are the outputs:
+
+
+
+
+A
+=
+(
+X
+∧
+¬
+S
+)
+
+
+{\displaystyle A=(X\wedge \neg S)}
+
+
+
+
+
+
+B
+=
+(
+X
+∧
+S
+)
+
+
+{\displaystyle B=(X\wedge S)}
+
+
+For 7400 series part numbers in the following table, "x" is the logic family.
+Multiplexers can also be used as programmable logic devices, to implement Boolean functions. Any Boolean function of n variables and one result can be implemented with a multiplexer with n selector inputs. The variables are connected to the selector inputs, and the function result, 0 or 1, for each possible combination of selector inputs is connected to the corresponding data input. If one of the variables (for example, D) is also available inverted, a multiplexer with n-1 selector inputs is sufficient; the data inputs are connected to 0, 1, D, or ~D, according to the desired output for each combination of the selector inputs.[6]
+
+
+

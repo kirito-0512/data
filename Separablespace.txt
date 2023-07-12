@@ -1,0 +1,608 @@
+27855,
+Separablespace,
+In mathematics, a topological space is called separable if it contains a countable, dense subset; that is, there exists a sequence 
+
+
+
+{
+
+x
+
+n
+
+
+
+}
+
+n
+=
+1
+
+
+∞
+
+
+
+
+{\displaystyle \{x_{n}\}_{n=1}^{\infty }}
+
+ of elements of the space such that every nonempty open subset of the space contains at least one element of the sequence.
+Like the other axioms of countability, separability is a "limitation on size", not necessarily in terms of cardinality (though, in the presence of the Hausdorff axiom, this does turn out to be the case; see below) but in a more subtle topological sense.  In particular, every continuous function on a separable space whose image is a subset of a Hausdorff space is determined by its values on the countable dense subset.
+Contrast separability with the related notion of second countability, which is in general stronger but equivalent on the class of metrizable spaces.
+Any topological space that is itself finite or countably infinite is separable, for the whole space is a countable dense subset of itself. An important example of an uncountable separable space is the real line, in which the rational numbers form a countable dense subset. Similarly the set of all length-
+
+
+
+n
+
+
+{\displaystyle n}
+
+ vectors of rational numbers, 
+
+
+
+
+r
+
+=
+(
+
+r
+
+1
+
+
+,
+…
+,
+
+r
+
+n
+
+
+)
+∈
+
+
+Q
+
+
+n
+
+
+
+
+{\displaystyle {\boldsymbol {r}}=(r_{1},\ldots ,r_{n})\in \mathbb {Q} ^{n}}
+
+, is a countable dense subset of the set of all length-
+
+
+
+n
+
+
+{\displaystyle n}
+
+ vectors of real numbers, 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+; so for every 
+
+
+
+n
+
+
+{\displaystyle n}
+
+, 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-dimensional Euclidean space is separable.
+A simple example of a space that is not separable is a discrete space of uncountable cardinality.
+Further examples are given below.
+Any second-countable space is separable: if 
+
+
+
+{
+
+U
+
+n
+
+
+}
+
+
+{\displaystyle \{U_{n}\}}
+
+ is a countable base, choosing any 
+
+
+
+
+x
+
+n
+
+
+∈
+
+U
+
+n
+
+
+
+
+{\displaystyle x_{n}\in U_{n}}
+
+ from the non-empty 
+
+
+
+
+U
+
+n
+
+
+
+
+{\displaystyle U_{n}}
+
+ gives a countable dense subset. Conversely, a metrizable space is separable if and only if it is second countable, which is the case if and only if it is Lindelöf.
+To further compare these two properties:
+We can construct an example of a separable topological space that is not second countable.  Consider any uncountable set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+, pick some 
+
+
+
+
+x
+
+0
+
+
+∈
+X
+
+
+{\displaystyle x_{0}\in X}
+
+, and define the topology to be the collection of all sets that contain 
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+ (or are empty).  Then, the closure of 
+
+
+
+
+
+x
+
+0
+
+
+
+
+
+{\displaystyle {x_{0}}}
+
+ is the whole space (
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is the smallest closed set containing 
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+), but every set of the form 
+
+
+
+{
+
+x
+
+0
+
+
+,
+x
+}
+
+
+{\displaystyle \{x_{0},x\}}
+
+ is open.  Therefore, the space is separable but there cannot be a countable base.
+The property of separability does not in and of itself give any limitations on the cardinality of a topological space: any set endowed with the trivial topology is separable, as well as second countable, quasi-compact, and connected. The "trouble" with the trivial topology is its poor separation properties: its Kolmogorov quotient is the one-point space.
+A first-countable, separable Hausdorff space (in particular, a separable metric space) has at most the continuum cardinality 
+
+
+
+
+
+c
+
+
+
+
+{\displaystyle {\mathfrak {c}}}
+
+. In such a space, closure is determined by limits of sequences and any convergent sequence has at most one limit, so there is a surjective map from the set of convergent sequences with values in the countable dense subset to the points of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+.
+A separable Hausdorff space has cardinality at most 
+
+
+
+
+2
+
+
+c
+
+
+
+
+
+{\displaystyle 2^{\mathfrak {c}}}
+
+, where 
+
+
+
+
+
+c
+
+
+
+
+{\displaystyle {\mathfrak {c}}}
+
+ is the cardinality of the continuum. For this closure is characterized in terms of limits of filter bases: if 
+
+
+
+Y
+⊆
+X
+
+
+{\displaystyle Y\subseteq X}
+
+ and 
+
+
+
+z
+∈
+X
+
+
+{\displaystyle z\in X}
+
+, then 
+
+
+
+z
+∈
+
+
+Y
+¯
+
+
+
+
+{\displaystyle z\in {\overline {Y}}}
+
+ if and only if there exists a filter base 
+
+
+
+
+
+B
+
+
+
+
+{\displaystyle {\mathcal {B}}}
+
+ consisting of subsets of 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ that converges to 
+
+
+
+z
+
+
+{\displaystyle z}
+
+. The cardinality of the set 
+
+
+
+S
+(
+Y
+)
+
+
+{\displaystyle S(Y)}
+
+ of such filter bases is at most 
+
+
+
+
+2
+
+
+2
+
+
+|
+
+Y
+
+|
+
+
+
+
+
+
+
+{\displaystyle 2^{2^{|Y|}}}
+
+. Moreover, in a Hausdorff space, there is at most one limit to every filter base. Therefore, there is a surjection 
+
+
+
+S
+(
+Y
+)
+→
+X
+
+
+{\displaystyle S(Y)\rightarrow X}
+
+ when 
+
+
+
+
+
+Y
+¯
+
+
+=
+X
+.
+
+
+{\displaystyle {\overline {Y}}=X.}
+
+
+The same arguments establish a more general result: suppose that a Hausdorff topological space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ contains a dense subset of cardinality 
+
+
+
+κ
+
+
+{\displaystyle \kappa }
+
+.
+Then 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ has cardinality at most 
+
+
+
+
+2
+
+
+2
+
+κ
+
+
+
+
+
+
+{\displaystyle 2^{2^{\kappa }}}
+
+ and cardinality at most 
+
+
+
+
+2
+
+κ
+
+
+
+
+{\displaystyle 2^{\kappa }}
+
+ if it is first countable.
+The product of at most continuum many separable spaces is a separable space (Willard 1970, p. 109, Th 16.4c). In particular the space 
+
+
+
+
+
+R
+
+
+
+R
+
+
+
+
+
+{\displaystyle \mathbb {R} ^{\mathbb {R} }}
+
+ of all functions from the real line to itself, endowed with the product topology, is a separable Hausdorff space of cardinality 
+
+
+
+
+2
+
+
+c
+
+
+
+
+
+{\displaystyle 2^{\mathfrak {c}}}
+
+. More generally, if 
+
+
+
+κ
+
+
+{\displaystyle \kappa }
+
+ is any infinite cardinal, then a product of at most 
+
+
+
+
+2
+
+κ
+
+
+
+
+{\displaystyle 2^{\kappa }}
+
+ spaces with dense subsets of size at most 
+
+
+
+κ
+
+
+{\displaystyle \kappa }
+
+ has itself a dense subset of size at most 
+
+
+
+κ
+
+
+{\displaystyle \kappa }
+
+ (Hewitt–Marczewski–Pondiczery theorem).
+Separability is especially important in numerical analysis and constructive mathematics, since many theorems that can be proved for nonseparable spaces have constructive proofs only for separable spaces. Such constructive proofs can be turned into algorithms for use in numerical analysis, and they are the only sorts of proofs acceptable in constructive analysis. A famous example of a theorem of this sort is the Hahn–Banach theorem.
+For nonseparable spaces:
+
+
+

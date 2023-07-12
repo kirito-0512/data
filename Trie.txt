@@ -1,0 +1,568 @@
+31274,
+Trie,
+
+In computer science, a trie, also called digital tree or prefix tree,[1] is a type of k-ary search tree, a tree data structure used for locating specific keys from within a set. These keys are most often strings, with links between nodes defined not by the entire key, but by individual characters. In order to access a key (to recover its value, change it, or remove it), the trie is traversed depth-first, following the links between nodes, which represent each character in the key.
+Unlike a binary search tree, nodes in the trie do not store their associated key. Instead, a node's position in the trie defines the key with which it is associated. This distributes the value of each key across the data structure, and means that not every node necessarily has an associated value.
+All the children of a node have a common prefix of the string associated with that parent node, and the root is associated with the empty string. This task of storing data accessible by its prefix can be accomplished in a memory-optimized way by employing a radix tree.
+Though tries can be keyed by character strings, they need not be. The same algorithms can be adapted for ordered lists of any underlying type, e.g. permutations of digits or shapes. In particular, a bitwise trie is keyed on the individual bits making up a piece of fixed-length binary data, such as an integer or memory address. The key lookup complexity of a trie remains proportional to the key size. Specialized trie implementations such as compressed tries are used to deal with the enormous space requirement of a trie in naive implementations.
+The idea of a trie for representing a set of strings was first abstractly described by Axel Thue in 1912.[2][3] Tries were first described in a computer context by René de la Briandais in 1959.[4][3][5]: 336 
+The idea was independently described in 1960 by Edward Fredkin,[6] who coined the term trie, pronouncing it /ˈtriː/ (as "tree"), after the middle syllable of retrieval.[7][8] However, other authors pronounce it /ˈtraɪ/ (as "try"), in an attempt to distinguish it verbally from "tree".[7][8][3]
+Tries are a form of string-indexed look-up data structure, which is used to store a dictionary list of words that can be searched on in a manner that allows for efficient generation of completion lists.[9][10]: 1  A prefix trie is an ordered tree data structure used in the representation of a set of strings over a finite alphabet set, which allows efficient storage of words with common prefixes.[1]
+Tries can be efficacious on string-searching algorithms such as predictive text, approximate string matching, and spell checking in comparison to a binary search trees.[11][8][12]: 358  A trie can be seen as a tree-shaped deterministic finite automaton.[13]
+Tries support various operations: insertion, deletion, and lookup of a string key. Tries are composed of 
+
+
+
+
+nodes
+
+
+
+{\displaystyle {\text{nodes}}}
+
+ that contain links that are either references to other child suffix child nodes, or 
+
+
+
+
+nil
+
+
+
+{\displaystyle {\text{nil}}}
+
+ . Except for root, each node is pointed to by just one other node, called the parent. Each node contains 
+
+
+
+
+R
+
+
+
+{\displaystyle {\text{R}}}
+
+ links, where 
+
+
+
+
+R
+
+
+
+{\displaystyle {\text{R}}}
+
+ is the cardinality of the applicable alphabet, although tries have a substantial number of 
+
+
+
+
+nil
+
+
+
+{\displaystyle {\text{nil}}}
+
+ links. In most cases, the size of 
+
+
+
+
+Children
+
+
+
+{\displaystyle {\text{Children}}}
+
+ array is bitlength of the character encoding - 256 in the case of (unsigned) ASCII.[14]: 732 
+The 
+
+
+
+
+nil
+
+
+
+{\displaystyle {\text{nil}}}
+
+ links within 
+
+
+
+
+Children
+
+
+
+{\displaystyle {\text{Children}}}
+
+ in 
+
+
+
+
+Node
+
+
+
+{\displaystyle {\text{Node}}}
+
+ emphasizes the following characteristics:[14]: 734 [5]: 336 
+A basic structure type of nodes in the trie is as follows; 
+
+
+
+
+Node
+
+
+
+{\displaystyle {\text{Node}}}
+
+ may contain an optional 
+
+
+
+
+Value
+
+
+
+{\displaystyle {\text{Value}}}
+
+, which is associated with each key stored in the last character of string, or terminal node.
+Searching a 
+
+
+
+
+Value
+
+
+
+{\displaystyle {\text{Value}}}
+
+ in a trie is guided by the characters in the search string key, as each node in the trie contains a corresponding link to each possible character in the given string. Thus, following the string within the trie yields the associated 
+
+
+
+
+Value
+
+
+
+{\displaystyle {\text{Value}}}
+
+ for the given string key. A 
+
+
+
+
+nil
+
+
+
+{\displaystyle {\text{nil}}}
+
+ link within search execution indicates the inexistence of the key.[14]: 732-733 
+Following pseudocode implements the search procedure for a given string key (
+
+
+
+
+key
+
+
+
+{\displaystyle {\text{key}}}
+
+) in a rooted trie (
+
+
+
+
+x
+
+
+
+{\displaystyle {\text{x}}}
+
+).[15]: 135 
+In the above pseudocode, 
+
+
+
+
+x
+
+
+
+{\displaystyle {\text{x}}}
+
+ and 
+
+
+
+
+key
+
+
+
+{\displaystyle {\text{key}}}
+
+ correspond to the pointer of trie's root node and the string key respectively. The search operation, in a standard trie, takes 
+
+
+
+O
+(
+
+dm
+
+)
+
+
+{\displaystyle O({\text{dm}})}
+
+, 
+
+
+
+
+m
+
+
+
+{\displaystyle {\text{m}}}
+
+ is the size of the string parameter 
+
+
+
+
+key
+
+
+
+{\displaystyle {\text{key}}}
+
+, and 
+
+
+
+
+d
+
+
+
+{\displaystyle {\text{d}}}
+
+ corresponds to the alphabet size.[16]: 754  Binary search trees, on the other hand, take 
+
+
+
+O
+(
+m
+log
+⁡
+n
+)
+
+
+{\displaystyle O(m\log n)}
+
+ on the worst case, since the search depends on the height of the tree (
+
+
+
+log
+⁡
+n
+
+
+{\displaystyle \log n}
+
+) of the BST (in case of balanced trees), where 
+
+
+
+
+n
+
+
+
+{\displaystyle {\text{n}}}
+
+ and 
+
+
+
+
+m
+
+
+
+{\displaystyle {\text{m}}}
+
+ being number of keys and the length of the keys.[12]: 358 
+Tries occupy less space in comparison with BST if it encompasses a large number of short strings, since nodes share common initial string subsequences and stores the keys implicitly on the structure.[12]: 358  The terminal node of the tree contains a non-nil 
+
+
+
+
+Value
+
+
+
+{\displaystyle {\text{Value}}}
+
+, and it is a search hit if the associated value is found in the trie, and search miss if it isn't.[14]: 733 
+Insertion into trie is guided by using the character sets as the indexes into the 
+
+
+
+
+Children
+
+
+
+{\displaystyle {\text{Children}}}
+
+ array until last character of the string key is reached.[14]: 733-734  Each node in the trie corresponds to one call of the radix sorting routine, as the trie structure reflects the execution of pattern of the top-down radix sort.[15]: 135 
+If a 
+
+
+
+
+nil
+
+
+
+{\displaystyle {\text{nil}}}
+
+ link is encountered prior to reaching the last character of the string key, a new 
+
+
+
+
+Node
+
+
+
+{\displaystyle {\text{Node}}}
+
+ is created, such along lines 3–5.[14]: 745  
+
+
+
+
+x.Value
+
+
+
+{\displaystyle {\text{x.Value}}}
+
+ gets assigned to input 
+
+
+
+
+value
+
+
+
+{\displaystyle {\text{value}}}
+
+; if 
+
+
+
+
+x.Value
+
+
+
+{\displaystyle {\text{x.Value}}}
+
+ wasn't 
+
+
+
+
+nil
+
+
+
+{\displaystyle {\text{nil}}}
+
+ at the time of insertion, the value associated with the given string key gets substituted with the current one.
+Deletion of a key–value pair from a trie involves finding the terminal node with the corresponding string key, marking the terminal indicator and value to false and 
+
+
+
+
+nil
+
+
+
+{\displaystyle {\text{nil}}}
+
+ correspondingly.[14]: 740 
+Following is a recursive procedure for removing a string key (
+
+
+
+
+key
+
+
+
+{\displaystyle {\text{key}}}
+
+) from rooted trie (
+
+
+
+
+x
+
+
+
+{\displaystyle {\text{x}}}
+
+).
+The procedures begins by examining the 
+
+
+
+
+key
+
+
+
+{\displaystyle {\text{key}}}
+
+; 
+
+
+
+
+nil
+
+
+
+{\displaystyle {\text{nil}}}
+
+ denotes the arrival of a terminal node or end of string key. If terminal and if it has no children, the node gets removed from the trie (line 14 assign the character index to 
+
+
+
+
+nil
+
+
+
+{\displaystyle {\text{nil}}}
+
+). However, an end of string key without the node being terminal indicates that the key does not exist, thus the procedure does not modify the trie. The recursion proceeds by incrementing 
+
+
+
+
+key
+
+
+
+{\displaystyle {\text{key}}}
+
+'s index.
+A trie can be used to replace a hash table, over which it has the following advantages:[12]: 358 
+However, tries are less efficient than a hash table when the data is directly accessed on a secondary storage device such as a hard disk drive that has higher random access time than the main memory.[6] Tries are also disadvantageous when the key value cannot be easily represented as string, such as floating point numbers where multiple representations are possible (e.g. 1 is equivalent to 1.0, +1.0, 1.00, etc.),[12]: 359  however it can be unambiguously represented as a binary number in IEEE 754, in comparison to two's complement format.[17]
+Tries can be represented in several ways, corresponding to different trade-offs between memory use and speed of the operations.[5]: 341  Using a vector of pointers for representing a trie consumes enormous space; however, memory space can be reduced at the expense of running time if a singly linked list is used for each node vector, as most entries of the vector contains 
+
+
+
+
+nil
+
+
+
+{\displaystyle {\text{nil}}}
+
+.[3]: 495 
+Techniques such as alphabet reduction may alleviate the high space complexity by reinterpreting the original string as a long string over a smaller alphabet i.e. a string of n bytes can alternatively be regarded as a string of 2n four-bit units and stored in a trie with sixteen pointers per node. However, lookups need to visit twice as many nodes in the worst-case, although space requirements go down by a factor of eight.[5]: 347–352  Other techniques include storing a vector of 256 ASCII pointers as a bitmap of 256 bits representing ASCII alphabet, which reduces the size of individual nodes dramatically.[18]
+Bitwise tries are used to address the enormous space requirement for the trie nodes in a naive simple pointer vector implementations. Each character in the string key set is represented via individual bits, which are used to traverse the trie over a string key. The implementations for these types of trie use vectorized CPU instructions to find the first set bit in a fixed-length key input (e.g. GCC's __builtin_clz() intrinsic function). Accordingly, the set bit is used to index the first item, or child node, in the 32- or 64-entry based bitwise tree. Search then proceeds by testing each subsequent bit in the key.[19]
+This procedure is also cache-local and highly parallelizable due to register independency, and thus performant on out-of-order execution CPUs.[19]
+Radix tree, also known as a compressed trie, is a space-optimized variant of a trie in which nodes with only one child get merged with its parents; elimination of branches of the nodes with a single child results in better in both space and time metrics.[20][21]: 452  This works best when the trie remains static and set of keys stored are very sparse within their representation space.[22]: 3–16 
+One more approach is to "pack" the trie, in which a space-efficient implementation of a sparse packed trie applied to automatic hyphenation, in which the descendants of each node may be interleaved in memory.[8]
+Patricia trees are a particular implementation of compressed binary trie that utilize binary encoding of the string keys in its representation.[23][15]: 140  Every node in a Patricia tree contains an index, known as a "skip number", that stores the node's branching index to avoid empty subtrees during traversal.[15]: 140-141  A naive implementation of a trie consumes immense storage due to larger number of leaf-nodes caused by sparse distribution of keys; Patricia trees can be efficient for such cases.[15]: 142 [24]: 3 
+A representation of a Patricia tree with string keys 
+
+
+
+{
+i
+n
+,
+i
+n
+t
+e
+g
+e
+r
+,
+i
+n
+t
+e
+r
+v
+a
+l
+,
+s
+t
+r
+i
+n
+g
+,
+s
+t
+r
+u
+c
+t
+u
+r
+e
+}
+
+
+{\displaystyle \{in,integer,interval,string,structure\}}
+
+ is shown in figure 4, and each index value adjacent to the nodes represents the "skip number" - the index of the bit with which branching is to be decided.[24]: 3  The skip number 1 at node 0 corresponds to the position 1 in the binary encoded ASCII where the leftmost bit differed in the key set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+.[24]: 3-4  The skip number is crucial for search, insertion, and deletion of nodes in the Patricia tree, and a bit masking operation is performed during every iteration.[15]: 143 
+Trie data structures are commonly used in predictive text or autocomplete dictionaries, and approximate matching algorithms.[11] Tries enable faster searches, occupy less space, especially when the set contains large number of short strings, thus used in spell checking, hyphenation applications and longest prefix match algorithms.[8][12]: 358  However, if storing dictionary words is all that is required (i.e. there is no need to store metadata associated with each word), a minimal deterministic acyclic finite state automaton (DAFSA) or radix tree would use less storage space than a trie. This is because DAFSAs and radix trees can compress identical branches from the trie which correspond to the same suffixes (or parts) of different words being stored. String dictionaries are also utilized in natural language processing, such as finding lexicon of a text corpus.[25]: 73 
+Lexicographic sorting of a set of string keys can be implemented by building a trie for the given keys and traversing the tree in pre-order fashion;[26] this is also a form of radix sort.[27] Tries are also fundamental data structures for burstsort, which is notable for being the fastest string sorting algorithm as of 2007,[28] accompanied for its efficient use of CPU cache.[29]
+A special kind of trie, called a suffix tree, can be used to index all suffixes in a text to carry out fast full-text searches.[30]
+A specialized kind of trie called a compressed trie, is used in web search engines for storing the indexes - a collection of all searchable words.[31] Each terminal node is associated with a list of URLs—called occurrence list—to pages that match the keyword. The trie is stored in the main memory, whereas the occurrence is kept in an external storage, frequently in large clusters, or the in-memory index points to documents stored in an external location.[32]
+Tries are used in Bioinformatics, notably in sequence alignment software applications such as BLAST, which indexes all the different substring of length k (called k-mers) of a text by storing the positions of their occurrences in a compressed trie sequence databases.[25]: 75 
+Compressed variants of tries, such as databases for managing Forwarding Information Base (FIB), are used in storing IP address prefixes within routers and bridges for prefix-based lookup to resolve mask-based operations in IP routing.[25]: 75 
+
+
+
+Information box
+{'Type': 'tree', 'Invented': '1960', 'Invented by': 'Edward Fredkin, Axel Thue, and René de la Briandais', 'Algorithm': 'Average', 'Space': 'Worst case', 'Search': 'O(n)', 'Insert': 'O(n)', 'Delete': 'O(n)'}

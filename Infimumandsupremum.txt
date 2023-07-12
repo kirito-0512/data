@@ -1,0 +1,3374 @@
+39382,
+Infimumandsupremum,
+In mathematics, the infimum (abbreviated inf; plural infima) of a subset 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of a partially ordered set 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is the greatest element in 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ that is less than or equal to each element of 
+
+
+
+S
+,
+
+
+{\displaystyle S,}
+
+ if such an element exists.[1] In other words, it is the greatest element of 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ that is lower or equal to the lowest element of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+. Consequently, the term greatest lower bound (abbreviated as GLB) is also commonly used.[1] The supremum (abbreviated sup; plural suprema) of a subset 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of a partially ordered set 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is the least element in 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ that is greater than or equal to each element of 
+
+
+
+S
+,
+
+
+{\displaystyle S,}
+
+ if such an element exists.[1] In other words, it is the least element of 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ that is greater than or equal to the greatest element of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+. Consequently, the supremum is also referred to as the least upper bound (or LUB).[1]
+The infimum is in a precise sense dual to the concept of a supremum. Infima and suprema of real numbers are common special cases that are important in analysis, and especially in Lebesgue integration. However, the general definitions remain valid in the more abstract setting of order theory where arbitrary partially ordered sets are considered.
+The concepts of infimum and supremum are close to minimum and maximum, but are more useful in analysis because they better characterize special sets which may have no minimum or maximum. For instance, the set of positive real numbers 
+
+
+
+
+
+R
+
+
++
+
+
+
+
+{\displaystyle \mathbb {R} ^{+}}
+
+ (not including 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+) does not have a minimum, because any given element of 
+
+
+
+
+
+R
+
+
++
+
+
+
+
+{\displaystyle \mathbb {R} ^{+}}
+
+ could simply be divided in half resulting in a smaller number that is still in 
+
+
+
+
+
+R
+
+
++
+
+
+.
+
+
+{\displaystyle \mathbb {R} ^{+}.}
+
+ There is, however, exactly one infimum of the positive real numbers relative to the real numbers: 
+
+
+
+0
+,
+
+
+{\displaystyle 0,}
+
+ which is smaller than all the positive real numbers and greater than any other real number which could be used as a lower bound. An infimum of a set is always and only defined relative to a superset of the set in question. For example, there is no infimum of the positive real numbers inside the positive real numbers (as their own superset), nor any infimum of the positive real numbers inside the complex numbers with positive real part.
+A lower bound of a subset 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of a partially ordered set 
+
+
+
+(
+P
+,
+≤
+)
+
+
+{\displaystyle (P,\leq )}
+
+ is an element 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ of 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ such that
+A lower bound 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is called an infimum (or greatest lower bound, or meet) of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ if
+Similarly, an upper bound of a subset 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of a partially ordered set 
+
+
+
+(
+P
+,
+≤
+)
+
+
+{\displaystyle (P,\leq )}
+
+ is an element 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ of 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ such that
+An upper bound 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is called a supremum (or least upper bound, or join) of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ if
+Infima and suprema do not necessarily exist. Existence of an infimum of a subset 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ can fail if 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ has no lower bound at all, or if the set of lower bounds does not contain a greatest element. However, if an infimum or supremum does exist, it is unique.
+Consequently, partially ordered sets for which certain infima are known to exist become especially interesting. For instance, a lattice is a partially ordered set in which all nonempty finite subsets have both a supremum and an infimum, and a complete lattice is a partially ordered set in which all subsets have both a supremum and an infimum. More information on the various classes of partially ordered sets that arise from such considerations are found in the article on completeness properties.
+If the supremum of a subset 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ exists, it is unique.  If 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ contains a greatest element, then that element is the supremum; otherwise, the supremum does not belong to 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ (or does not exist in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+).  Likewise, if the infimum exists, it is unique.  If 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ contains a least element, then that element is the infimum; otherwise, the infimum does not belong to 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ (or does not exist in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+).
+The infimum of a subset 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of a partially ordered set 
+
+
+
+P
+,
+
+
+{\displaystyle P,}
+
+ assuming it exists, does not necessarily belong to 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+ If it does, it is a minimum or least element of 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+ Similarly, if the supremum of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ belongs to 
+
+
+
+S
+,
+
+
+{\displaystyle S,}
+
+ it is a maximum or greatest element of 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+
+For example, consider the set of negative real numbers (excluding zero).  This set has no greatest element, since for every element of the set, there is another, larger, element.  For instance, for any negative real number 
+
+
+
+x
+,
+
+
+{\displaystyle x,}
+
+ there is another negative real number 
+
+
+
+
+
+
+x
+2
+
+
+
+,
+
+
+{\displaystyle {\tfrac {x}{2}},}
+
+ which is greater. On the other hand, every real number greater than or equal to zero is certainly an upper bound on this set.  Hence, 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+ is the least upper bound of the negative reals, so the supremum is 0. This set has a supremum but no greatest element.
+However, the definition of maximal and minimal elements is more general. In particular, a set can have many maximal and minimal elements, whereas infima and suprema are unique.
+Whereas maxima and minima must be members of the subset that is under consideration, the infimum and supremum of a subset need not be members of that subset themselves.
+Finally, a partially ordered set may have many minimal upper bounds without having a least upper bound. Minimal upper bounds are those upper bounds for which there is no strictly smaller element that also is an upper bound. This does not say that each minimal upper bound is smaller than all other upper bounds, it merely is not greater. The distinction between "minimal" and "least" is only possible when the given order is not a total one. In a totally ordered set, like the real numbers, the concepts are the same.
+As an example, let 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ be the set of all finite subsets of natural numbers and consider the partially ordered set obtained by taking all sets from 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ together with the set of integers 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ and the set of positive real numbers 
+
+
+
+
+
+R
+
+
++
+
+
+,
+
+
+{\displaystyle \mathbb {R} ^{+},}
+
+ ordered by subset inclusion as above. Then clearly both 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ and 
+
+
+
+
+
+R
+
+
++
+
+
+
+
+{\displaystyle \mathbb {R} ^{+}}
+
+ are greater than all finite sets of natural numbers. Yet, neither is 
+
+
+
+
+
+R
+
+
++
+
+
+
+
+{\displaystyle \mathbb {R} ^{+}}
+
+ smaller than 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ nor is the converse true: both sets are minimal upper bounds but none is a supremum.
+The least-upper-bound property is an example of the aforementioned completeness properties which is typical for the set of real numbers. This property is sometimes called Dedekind completeness.
+If an ordered set 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ has the property that every nonempty subset of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ having an upper bound also has a least upper bound, then 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is said to have the least-upper-bound property.  As noted above, the set 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ of all real numbers has the least-upper-bound property.  Similarly, the set 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ of integers has the least-upper-bound property; if 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is a nonempty subset of 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ and there is some number 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ such that every element 
+
+
+
+s
+
+
+{\displaystyle s}
+
+ of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is less than or equal to 
+
+
+
+n
+,
+
+
+{\displaystyle n,}
+
+ then there is a least upper bound 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ for 
+
+
+
+S
+,
+
+
+{\displaystyle S,}
+
+ an integer that is an upper bound for 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ and is less than or equal to every other upper bound for 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+ A well-ordered set also has the least-upper-bound property, and the empty subset has also a least upper bound: the minimum of the whole set.
+An example of a set that lacks the least-upper-bound property is 
+
+
+
+
+Q
+
+,
+
+
+{\displaystyle \mathbb {Q} ,}
+
+ the set of rational numbers.  Let 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ be the set of all rational numbers 
+
+
+
+q
+
+
+{\displaystyle q}
+
+ such that 
+
+
+
+
+q
+
+2
+
+
+<
+2.
+
+
+{\displaystyle q^{2}<2.}
+
+ Then 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ has an upper bound (
+
+
+
+1000
+,
+
+
+{\displaystyle 1000,}
+
+ for example, or 
+
+
+
+6
+
+
+{\displaystyle 6}
+
+) but no least upper bound in 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+: If we suppose 
+
+
+
+p
+∈
+
+Q
+
+
+
+{\displaystyle p\in \mathbb {Q} }
+
+ is the least upper bound, a contradiction is immediately deduced because between any two reals 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ (including 
+
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\sqrt {2}}}
+
+ and 
+
+
+
+p
+
+
+{\displaystyle p}
+
+) there exists some rational 
+
+
+
+r
+,
+
+
+{\displaystyle r,}
+
+ which itself would have to be the least upper bound (if 
+
+
+
+p
+>
+
+
+2
+
+
+
+
+{\displaystyle p>{\sqrt {2}}}
+
+) or a member of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ greater than 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ (if 
+
+
+
+p
+<
+
+
+2
+
+
+
+
+{\displaystyle p<{\sqrt {2}}}
+
+). Another example is the hyperreals; there is no least upper bound of the set of positive infinitesimals.
+There is a corresponding greatest-lower-bound property; an ordered set possesses the greatest-lower-bound property if and only if it also possesses the least-upper-bound property; the least-upper-bound of the set of lower bounds of a set is the greatest-lower-bound, and the greatest-lower-bound of the set of upper bounds of a set is the least-upper-bound of the set.
+If in a partially ordered set 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ every bounded subset has a supremum, this applies also, for any set 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ in the function space containing all functions from 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ to 
+
+
+
+P
+,
+
+
+{\displaystyle P,}
+
+ where 
+
+
+
+f
+≤
+g
+
+
+{\displaystyle f\leq g}
+
+ if and only if 
+
+
+
+f
+(
+x
+)
+≤
+g
+(
+x
+)
+
+
+{\displaystyle f(x)\leq g(x)}
+
+ for all 
+
+
+
+x
+∈
+X
+.
+
+
+{\displaystyle x\in X.}
+
+ For example, it applies for real functions, and, since these can be considered special cases of functions, for real 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-tuples and sequences of real numbers.
+The least-upper-bound property is an indicator of the suprema.
+In analysis, infima and suprema of subsets 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of the real numbers are particularly important. For instance, the negative real numbers do not have a greatest element, and their supremum is 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+ (which is not a negative real number).[1]
+The completeness of the real numbers implies (and is equivalent to) that any bounded nonempty subset 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of the real numbers has an infimum and a supremum. If 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is not bounded below, one often formally writes 
+
+
+
+
+inf
+
+
+
+S
+=
+−
+∞
+.
+
+
+{\displaystyle \inf _{}S=-\infty .}
+
+ If 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is empty, one writes 
+
+
+
+
+inf
+
+
+
+S
+=
++
+∞
+.
+
+
+{\displaystyle \inf _{}S=+\infty .}
+
+
+If 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is any set of real numbers then 
+
+
+
+A
+≠
+∅
+
+
+{\displaystyle A\neq \varnothing }
+
+ if and only if 
+
+
+
+sup
+A
+≥
+inf
+A
+,
+
+
+{\displaystyle \sup A\geq \inf A,}
+
+ and otherwise 
+
+
+
+−
+∞
+=
+sup
+∅
+<
+inf
+∅
+=
+∞
+.
+
+
+{\displaystyle -\infty =\sup \varnothing <\inf \varnothing =\infty .}
+
+[2]
+If 
+
+
+
+A
+⊆
+B
+
+
+{\displaystyle A\subseteq B}
+
+ are sets of real numbers then 
+
+
+
+inf
+A
+≥
+inf
+B
+
+
+{\displaystyle \inf A\geq \inf B}
+
+ (unless 
+
+
+
+A
+=
+∅
+≠
+B
+
+
+{\displaystyle A=\varnothing \neq B}
+
+) and 
+
+
+
+sup
+A
+≤
+sup
+B
+.
+
+
+{\displaystyle \sup A\leq \sup B.}
+
+
+Identifying infima and suprema
+If the infimum of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ exists (that is, 
+
+
+
+inf
+A
+
+
+{\displaystyle \inf A}
+
+ is a real number) and if 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is any real number then 
+
+
+
+p
+=
+inf
+A
+
+
+{\displaystyle p=\inf A}
+
+ if and only if 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is a lower bound and for every 
+
+
+
+ϵ
+>
+0
+
+
+{\displaystyle \epsilon >0}
+
+ there is an 
+
+
+
+
+a
+
+ϵ
+
+
+∈
+A
+
+
+{\displaystyle a_{\epsilon }\in A}
+
+ with 
+
+
+
+
+a
+
+ϵ
+
+
+<
+p
++
+ϵ
+.
+
+
+{\displaystyle a_{\epsilon }<p+\epsilon .}
+
+ 
+Similarly, if 
+
+
+
+sup
+A
+
+
+{\displaystyle \sup A}
+
+ is a real number and if 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is any real number then 
+
+
+
+p
+=
+sup
+A
+
+
+{\displaystyle p=\sup A}
+
+ if and only if 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is an upper bound and if for every 
+
+
+
+ϵ
+>
+0
+
+
+{\displaystyle \epsilon >0}
+
+ there is an 
+
+
+
+
+a
+
+ϵ
+
+
+∈
+A
+
+
+{\displaystyle a_{\epsilon }\in A}
+
+ with 
+
+
+
+
+a
+
+ϵ
+
+
+>
+p
+−
+ϵ
+.
+
+
+{\displaystyle a_{\epsilon }>p-\epsilon .}
+
+
+Relation to limits of sequences
+If 
+
+
+
+S
+≠
+∅
+
+
+{\displaystyle S\neq \varnothing }
+
+ is any non-empty set of real numbers then there always exists a non-decreasing sequence 
+
+
+
+
+s
+
+1
+
+
+≤
+
+s
+
+2
+
+
+≤
+⋯
+
+
+{\displaystyle s_{1}\leq s_{2}\leq \cdots }
+
+ in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ such that 
+
+
+
+
+lim
+
+n
+→
+∞
+
+
+
+s
+
+n
+
+
+=
+sup
+S
+.
+
+
+{\displaystyle \lim _{n\to \infty }s_{n}=\sup S.}
+
+ Similarly, there will exist a (possibly different) non-increasing sequence 
+
+
+
+
+s
+
+1
+
+
+≥
+
+s
+
+2
+
+
+≥
+⋯
+
+
+{\displaystyle s_{1}\geq s_{2}\geq \cdots }
+
+ in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ such that 
+
+
+
+
+lim
+
+n
+→
+∞
+
+
+
+s
+
+n
+
+
+=
+inf
+S
+.
+
+
+{\displaystyle \lim _{n\to \infty }s_{n}=\inf S.}
+
+
+Expressing the infimum and supremum as a limit of a such a sequence allows theorems from various branches of mathematics to be applied. Consider for example the well-known fact from topology that if 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is a continuous function and 
+
+
+
+
+s
+
+1
+
+
+,
+
+s
+
+2
+
+
+,
+…
+
+
+{\displaystyle s_{1},s_{2},\ldots }
+
+ is a sequence of points in its domain that converges to a point 
+
+
+
+p
+,
+
+
+{\displaystyle p,}
+
+ then 
+
+
+
+f
+
+(
+
+s
+
+1
+
+
+)
+
+,
+f
+
+(
+
+s
+
+2
+
+
+)
+
+,
+…
+
+
+{\displaystyle f\left(s_{1}\right),f\left(s_{2}\right),\ldots }
+
+ necessarily converges to 
+
+
+
+f
+(
+p
+)
+.
+
+
+{\displaystyle f(p).}
+
+ 
+It implies that if 
+
+
+
+
+lim
+
+n
+→
+∞
+
+
+
+s
+
+n
+
+
+=
+sup
+S
+
+
+{\displaystyle \lim _{n\to \infty }s_{n}=\sup S}
+
+ is a real number (where all 
+
+
+
+
+s
+
+1
+
+
+,
+
+s
+
+2
+
+
+,
+…
+
+
+{\displaystyle s_{1},s_{2},\ldots }
+
+ are in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+) and if 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is a continuous function whose domain contains 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ and 
+
+
+
+sup
+S
+,
+
+
+{\displaystyle \sup S,}
+
+ then 
+
+
+
+
+f
+(
+sup
+S
+)
+=
+f
+
+(
+
+
+lim
+
+n
+→
+∞
+
+
+
+s
+
+n
+
+
+
+)
+
+=
+
+lim
+
+n
+→
+∞
+
+
+f
+
+(
+
+s
+
+n
+
+
+)
+
+,
+
+
+{\displaystyle f(\sup S)=f\left(\lim _{n\to \infty }s_{n}\right)=\lim _{n\to \infty }f\left(s_{n}\right),}
+
+
+which (for instance) guarantees[note 1] that 
+
+
+
+f
+(
+sup
+S
+)
+
+
+{\displaystyle f(\sup S)}
+
+ is an adherent point of the set 
+
+
+
+f
+(
+S
+)
+
+
+
+
+
+=
+
+
+
+
+def
+
+
+
+
+
+
+
+{
+f
+(
+s
+)
+:
+s
+∈
+S
+}
+.
+
+
+{\displaystyle f(S)\,{\stackrel {\scriptscriptstyle {\text{def}}}{=}}\,\{f(s):s\in S\}.}
+
+
+If in addition to what has been assumed, the continuous function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is also an increasing or non-decreasing function, then it is even possible to conclude that 
+
+
+
+sup
+f
+(
+S
+)
+=
+f
+(
+sup
+S
+)
+.
+
+
+{\displaystyle \sup f(S)=f(\sup S).}
+
+ 
+This may be applied, for instance, to conclude that whenever 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ is a real (or complex) valued function with domain 
+
+
+
+Ω
+≠
+∅
+
+
+{\displaystyle \Omega \neq \varnothing }
+
+ whose sup norm 
+
+
+
+‖
+g
+
+‖
+
+∞
+
+
+
+
+
+
+
+=
+
+
+
+
+def
+
+
+
+
+
+
+
+
+sup
+
+x
+∈
+Ω
+
+
+
+|
+
+g
+(
+x
+)
+
+|
+
+
+
+{\displaystyle \|g\|_{\infty }\,{\stackrel {\scriptscriptstyle {\text{def}}}{=}}\,\sup _{x\in \Omega }|g(x)|}
+
+ is finite, then for every non-negative real number 
+
+
+
+q
+,
+
+
+{\displaystyle q,}
+
+
+
+
+
+
+‖
+g
+
+‖
+
+∞
+
+
+q
+
+
+ 
+
+
+
+
+=
+
+
+
+
+def
+
+
+
+
+
+
+ 
+
+
+(
+
+
+sup
+
+x
+∈
+Ω
+
+
+
+|
+
+g
+(
+x
+)
+
+|
+
+
+)
+
+
+q
+
+
+=
+
+sup
+
+x
+∈
+Ω
+
+
+
+(
+
+
+|
+
+g
+(
+x
+)
+
+
+|
+
+
+q
+
+
+
+)
+
+
+
+{\displaystyle \|g\|_{\infty }^{q}~{\stackrel {\scriptscriptstyle {\text{def}}}{=}}~\left(\sup _{x\in \Omega }|g(x)|\right)^{q}=\sup _{x\in \Omega }\left(|g(x)|^{q}\right)}
+
+
+since the map 
+
+
+
+f
+:
+[
+0
+,
+∞
+)
+→
+
+R
+
+
+
+{\displaystyle f:[0,\infty )\to \mathbb {R} }
+
+ defined by 
+
+
+
+f
+(
+x
+)
+=
+
+x
+
+q
+
+
+
+
+{\displaystyle f(x)=x^{q}}
+
+ is a continuous non-decreasing function whose domain 
+
+
+
+[
+0
+,
+∞
+)
+
+
+{\displaystyle [0,\infty )}
+
+ always contains 
+
+
+
+S
+:=
+{
+
+|
+
+g
+(
+x
+)
+
+|
+
+:
+x
+∈
+Ω
+}
+
+
+{\displaystyle S:=\{|g(x)|:x\in \Omega \}}
+
+ and 
+
+
+
+sup
+S
+
+
+
+
+
+=
+
+
+
+
+def
+
+
+
+
+
+
+
+‖
+g
+
+‖
+
+∞
+
+
+.
+
+
+{\displaystyle \sup S\,{\stackrel {\scriptscriptstyle {\text{def}}}{=}}\,\|g\|_{\infty }.}
+
+
+Although this discussion focused on 
+
+
+
+sup
+,
+
+
+{\displaystyle \sup ,}
+
+ similar conclusions can be reached for 
+
+
+
+inf
+
+
+{\displaystyle \inf }
+
+ with appropriate changes (such as requiring that 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ be non-increasing rather than non-decreasing). Other norms defined in terms of 
+
+
+
+sup
+
+
+{\displaystyle \sup }
+
+ or 
+
+
+
+inf
+
+
+{\displaystyle \inf }
+
+ include the weak 
+
+
+
+
+L
+
+p
+,
+w
+
+
+
+
+{\displaystyle L^{p,w}}
+
+ space norms (for 
+
+
+
+1
+≤
+p
+<
+∞
+
+
+{\displaystyle 1\leq p<\infty }
+
+), the norm on Lebesgue space 
+
+
+
+
+L
+
+∞
+
+
+(
+Ω
+,
+μ
+)
+,
+
+
+{\displaystyle L^{\infty }(\Omega ,\mu ),}
+
+ and operator norms. Monotone sequences in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ that converge to 
+
+
+
+sup
+S
+
+
+{\displaystyle \sup S}
+
+ (or to 
+
+
+
+inf
+S
+
+
+{\displaystyle \inf S}
+
+) can also be used to help prove many of the formula given below, since addition and multiplication of real numbers are continuous operations.
+The following formulas depend on a notation that conveniently generalizes arithmetic operations on sets. 
+Throughout, 
+
+
+
+A
+,
+B
+⊆
+
+R
+
+
+
+{\displaystyle A,B\subseteq \mathbb {R} }
+
+ are sets of real numbers. 
+Sum of sets
+The Minkowski sum of two sets 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ of real numbers is the set 
+
+
+
+
+A
++
+B
+ 
+:=
+ 
+{
+a
++
+b
+:
+a
+∈
+A
+,
+b
+∈
+B
+}
+
+
+{\displaystyle A+B~:=~\{a+b:a\in A,b\in B\}}
+
+ 
+consisting of all possible arithmetic sums of pairs of numbers, one from each set. The infimum and supremum of the Minkowski sum satisfies 
+
+
+
+
+inf
+(
+A
++
+B
+)
+=
+(
+inf
+A
+)
++
+(
+inf
+B
+)
+
+
+{\displaystyle \inf(A+B)=(\inf A)+(\inf B)}
+
+ 
+and 
+
+
+
+
+sup
+(
+A
++
+B
+)
+=
+(
+sup
+A
+)
++
+(
+sup
+B
+)
+.
+
+
+{\displaystyle \sup(A+B)=(\sup A)+(\sup B).}
+
+
+Product of sets
+The multiplication of two sets 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ of real numbers is defined similarly to their Minkowski sum:
+
+
+
+
+A
+⋅
+B
+ 
+:=
+ 
+{
+a
+⋅
+b
+:
+a
+∈
+A
+,
+b
+∈
+B
+}
+.
+
+
+{\displaystyle A\cdot B~:=~\{a\cdot b:a\in A,b\in B\}.}
+
+
+If 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ are nonempty sets of positive real numbers then 
+
+
+
+inf
+(
+A
+⋅
+B
+)
+=
+(
+inf
+A
+)
+⋅
+(
+inf
+B
+)
+
+
+{\displaystyle \inf(A\cdot B)=(\inf A)\cdot (\inf B)}
+
+ and similarly for suprema 
+
+
+
+sup
+(
+A
+⋅
+B
+)
+=
+(
+sup
+A
+)
+⋅
+(
+sup
+B
+)
+.
+
+
+{\displaystyle \sup(A\cdot B)=(\sup A)\cdot (\sup B).}
+
+[3]
+Scalar product of a set
+The product of a real number 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ and a set 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ of real numbers is the set
+
+
+
+
+r
+B
+ 
+:=
+ 
+{
+r
+⋅
+b
+:
+b
+∈
+B
+}
+.
+
+
+{\displaystyle rB~:=~\{r\cdot b:b\in B\}.}
+
+
+If 
+
+
+
+r
+≥
+0
+
+
+{\displaystyle r\geq 0}
+
+ then 
+
+
+
+
+inf
+(
+r
+⋅
+A
+)
+=
+r
+(
+inf
+A
+)
+
+
+ and 
+
+
+sup
+(
+r
+⋅
+A
+)
+=
+r
+(
+sup
+A
+)
+,
+
+
+{\displaystyle \inf(r\cdot A)=r(\inf A)\quad {\text{ and }}\quad \sup(r\cdot A)=r(\sup A),}
+
+
+while if 
+
+
+
+r
+≤
+0
+
+
+{\displaystyle r\leq 0}
+
+ then 
+
+
+
+
+inf
+(
+r
+⋅
+A
+)
+=
+r
+(
+sup
+A
+)
+
+
+ and 
+
+
+sup
+(
+r
+⋅
+A
+)
+=
+r
+(
+inf
+A
+)
+.
+
+
+{\displaystyle \inf(r\cdot A)=r(\sup A)\quad {\text{ and }}\quad \sup(r\cdot A)=r(\inf A).}
+
+ 
+Using 
+
+
+
+r
+=
+−
+1
+
+
+{\displaystyle r=-1}
+
+ and the notation 
+
+
+
+−
+A
+:=
+(
+−
+1
+)
+A
+=
+{
+−
+a
+:
+a
+∈
+A
+}
+,
+
+
+{\textstyle -A:=(-1)A=\{-a:a\in A\},}
+
+ it follows that
+
+
+
+
+inf
+(
+−
+A
+)
+=
+−
+sup
+A
+
+
+ and 
+
+
+sup
+(
+−
+A
+)
+=
+−
+inf
+A
+.
+
+
+{\displaystyle \inf(-A)=-\sup A\quad {\text{ and }}\quad \sup(-A)=-\inf A.}
+
+
+Multiplicative inverse of a set
+For any set 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ that does not contain 
+
+
+
+0
+,
+
+
+{\displaystyle 0,}
+
+ let
+
+
+
+
+
+
+1
+S
+
+
+ 
+:=
+
+
+{
+
+
+
+
+1
+s
+
+
+
+:
+s
+∈
+S
+
+}
+
+.
+
+
+{\displaystyle {\frac {1}{S}}~:=\;\left\{{\tfrac {1}{s}}:s\in S\right\}.}
+
+
+If 
+
+
+
+S
+⊆
+(
+0
+,
+∞
+)
+
+
+{\displaystyle S\subseteq (0,\infty )}
+
+ is non-empty then 
+
+
+
+
+
+
+1
+
+
+sup
+
+
+
+S
+
+
+
+ 
+=
+ 
+
+inf
+
+
+
+
+
+1
+S
+
+
+
+
+{\displaystyle {\frac {1}{\sup _{}S}}~=~\inf _{}{\frac {1}{S}}}
+
+ 
+where this equation also holds when 
+
+
+
+
+sup
+
+
+
+S
+=
+∞
+
+
+{\displaystyle \sup _{}S=\infty }
+
+ if the definition 
+
+
+
+
+
+1
+∞
+
+
+:=
+0
+
+
+{\displaystyle {\frac {1}{\infty }}:=0}
+
+ is used.[note 2] 
+This equality may alternatively be written as 
+
+
+
+
+
+
+1
+
+
+sup
+
+s
+∈
+S
+
+
+s
+
+
+
+=
+
+inf
+
+s
+∈
+S
+
+
+
+
+
+1
+s
+
+
+
+.
+
+
+{\displaystyle {\frac {1}{\displaystyle \sup _{s\in S}s}}=\inf _{s\in S}{\tfrac {1}{s}}.}
+
+ 
+Moreover, 
+
+
+
+
+inf
+
+
+
+S
+=
+0
+
+
+{\displaystyle \inf _{}S=0}
+
+ if and only if 
+
+
+
+
+sup
+
+
+
+
+
+
+1
+S
+
+
+
+=
+∞
+,
+
+
+{\displaystyle \sup _{}{\tfrac {1}{S}}=\infty ,}
+
+ where if[note 2] 
+
+
+
+
+inf
+
+
+
+S
+>
+0
+,
+
+
+{\displaystyle \inf _{}S>0,}
+
+ then 
+
+
+
+
+
+
+1
+
+
+inf
+
+
+
+S
+
+
+
+
+=
+
+sup
+
+
+
+
+
+
+1
+S
+
+
+
+.
+
+
+{\displaystyle {\tfrac {1}{\inf _{}S}}=\sup _{}{\tfrac {1}{S}}.}
+
+
+If one denotes by 
+
+
+
+
+P
+
+op
+
+
+
+
+{\displaystyle P^{\operatorname {op} }}
+
+ the partially-ordered set 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ with the opposite order relation; that is, for all 
+
+
+
+x
+
+ and 
+
+y
+,
+
+
+{\displaystyle x{\text{ and }}y,}
+
+ declare: 
+
+
+
+
+x
+≤
+y
+
+ in 
+
+
+P
+
+op
+
+
+
+
+ if and only if 
+
+
+x
+≥
+y
+
+ in 
+
+P
+,
+
+
+{\displaystyle x\leq y{\text{ in }}P^{\operatorname {op} }\quad {\text{ if and only if }}\quad x\geq y{\text{ in }}P,}
+
+
+then infimum of a subset 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ in 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ equals the supremum of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ in 
+
+
+
+
+P
+
+op
+
+
+
+
+{\displaystyle P^{\operatorname {op} }}
+
+ and vice versa.
+For subsets of the real numbers, another kind of duality holds: 
+
+
+
+inf
+S
+=
+−
+sup
+(
+−
+S
+)
+,
+
+
+{\displaystyle \inf S=-\sup(-S),}
+
+ where 
+
+
+
+−
+S
+:=
+{
+−
+s
+ 
+:
+ 
+s
+∈
+S
+}
+.
+
+
+{\displaystyle -S:=\{-s~:~s\in S\}.}
+
+
+In the last example, the supremum of a set of rationals is irrational, which means that the rationals are incomplete.
+One basic property of the supremum is
+
+
+
+
+sup
+{
+f
+(
+t
+)
++
+g
+(
+t
+)
+:
+t
+∈
+A
+}
+ 
+≤
+ 
+sup
+{
+f
+(
+t
+)
+:
+t
+∈
+A
+}
++
+sup
+{
+g
+(
+t
+)
+:
+t
+∈
+A
+}
+
+
+{\displaystyle \sup\{f(t)+g(t):t\in A\}~\leq ~\sup\{f(t):t\in A\}+\sup\{g(t):t\in A\}}
+
+
+for any functionals 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ and 
+
+
+
+g
+.
+
+
+{\displaystyle g.}
+
+
+The supremum of a subset 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of 
+
+
+
+(
+
+N
+
+,
+∣
+
+)
+
+
+{\displaystyle (\mathbb {N} ,\mid \,)}
+
+ where 
+
+
+
+
+∣
+
+
+
+{\displaystyle \,\mid \,}
+
+ denotes "divides", is the lowest common multiple of the elements of 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+
+The supremum of a set 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ containing subsets of some set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is the union of the subsets when considering the partially ordered set 
+
+
+
+(
+P
+(
+X
+)
+,
+⊆
+)
+
+
+{\displaystyle (P(X),\subseteq )}
+
+, where 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is the power set of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+
+⊆
+
+
+
+{\displaystyle \,\subseteq \,}
+
+ is subset.
+
+

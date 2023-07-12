@@ -1,0 +1,8 @@
+40734,
+ARJ,
+ARJ (Archived by Robert Jung) is a software tool designed by Robert K. Jung for creating high-efficiency compressed file archives. ARJ is currently on version 2.86 for MS-DOS and 3.20 for Microsoft Windows and supports 16-bit, 32-bit and 64-bit Intel architectures.[1]
+ARJ was one of many file compression utilities for MS-DOS and Microsoft Windows during the early and mid-1990s. Parts of ARJ were covered by U.S. Patent 5,140,321 (expired). ARJ is well-documented and includes over 150 command line switches.
+ARJ archives can be unpacked with various tools other than the ARJ software. There exists a free software re-implementation of the tool. A number of software utilities, including 7-Zip, Zipeg, and WinRAR can also unpack .arj files.[2] For macOS, standalone utilities, such as DeArj and UnArjMac, are available.
+This computer data storage-related software article is a stub. You can help Wikipedia by expanding it.
+Information box
+{'Filename extension': '.arj', 'Uniform Type Identifier (UTI)': 'public.archive.arj', 'Developed by': 'Robert K. Jung', 'Latest release': '2.86\n2012-05-01', 'Type of format': 'archive format', 'Open format?': 'Yes (patent expired)'}

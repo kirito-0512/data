@@ -1,0 +1,1693 @@
+30336,
+Weakordering,
+All definitions tacitly require the homogeneous relation 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ be transitive: for all 
+
+
+
+a
+,
+b
+,
+c
+,
+
+
+{\displaystyle a,b,c,}
+
+ if 
+
+
+
+a
+R
+b
+
+
+{\displaystyle aRb}
+
+ and 
+
+
+
+b
+R
+c
+
+
+{\displaystyle bRc}
+
+ then 
+
+
+
+a
+R
+c
+.
+
+
+{\displaystyle aRc.}
+
+ 
+A term's definition may require additional properties that are not listed in this table.
+In mathematics, especially order theory, a weak ordering is a mathematical formalization of the intuitive notion of a ranking of a set, some of whose members may be tied with each other. Weak orders are a generalization of totally ordered sets (rankings without ties) and are in turn generalized by (strictly) partially ordered sets and preorders.[1]
+There are several common ways of formalizing weak orderings, that are different from each other but cryptomorphic (interconvertable with no loss of information): they may be axiomatized as strict weak orderings (strictly partially ordered sets in which incomparability is a transitive relation), as total preorders (transitive binary relations in which at least one of the two possible relations exists between every pair of elements), or as ordered partitions (partitions of the elements into disjoint subsets, together with a total order on the subsets). In many cases another representation called a preferential arrangement based on a utility function is also possible.
+Weak orderings are counted by the ordered Bell numbers. They are used in computer science as part of partition refinement algorithms, and in the C++ Standard Library.[2]
+In horse racing, the use of photo finishes has eliminated some, but not all, ties or (as they are called in this context) dead heats, so the outcome of a horse race may be modeled by a weak ordering.[3] In an example from the Maryland Hunt Cup steeplechase in 2007, The Bruce was the clear winner, but two horses Bug River and Lear Charm tied for second place, with the remaining horses farther back; three horses did not finish.[4] In the weak ordering describing this outcome, The Bruce would be first, Bug River and Lear Charm would be ranked after The Bruce but before all the other horses that finished, and the three horses that did not finish would be placed last in the order but tied with each other.
+The points of the Euclidean plane may be ordered by their distance from the origin, giving another example of a weak ordering with infinitely many elements, infinitely many subsets of tied elements (the sets of points that belong to a common circle centered at the origin), and infinitely many points within these subsets. Although this ordering has a smallest element (the origin itself), it does not have any second-smallest elements, nor any largest element.
+Opinion polling in political elections provides an example of a type of ordering that resembles weak orderings, but is better modeled mathematically in other ways. In the results of a poll, one candidate may be clearly ahead of another, or the two candidates may be statistically tied, meaning not that their poll results are equal but rather that they are within the margin of error of each other. However, if candidate 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is statistically tied with 
+
+
+
+y
+,
+
+
+{\displaystyle y,}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ is statistically tied with 
+
+
+
+z
+,
+
+
+{\displaystyle z,}
+
+ it might still be possible for 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ to be clearly better than 
+
+
+
+z
+,
+
+
+{\displaystyle z,}
+
+ so being tied is not in this case a transitive relation. Because of this possibility, rankings of this type are better modeled as semiorders than as weak orderings.[5]
+Suppose throughout that 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ is a homogeneous binary relation on a set 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ (that is, 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ is a subset of 
+
+
+
+S
+×
+S
+
+
+{\displaystyle S\times S}
+
+) and as usual, write 
+
+
+
+x
+<
+y
+
+
+{\displaystyle x<y}
+
+ and say that 
+
+
+
+x
+<
+y
+
+
+{\displaystyle x<y}
+
+ holds or is true if and only if 
+
+
+
+(
+x
+,
+y
+)
+∈
+
+<
+.
+
+
+
+{\displaystyle (x,y)\in \,<.\,}
+
+
+Preliminaries on incomparability and transitivity of incomparability
+Two elements 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ are said to be incomparable with respect to 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ if neither 
+
+
+
+x
+<
+y
+
+
+{\displaystyle x<y}
+
+ nor 
+
+
+
+y
+<
+x
+
+
+{\displaystyle y<x}
+
+ is true.[1] 
+Incomparability with respect to 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ is itself a homogeneous symmetric relation on 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ that is reflexive if and only if 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ is irreflexive (meaning that 
+
+
+
+x
+<
+x
+
+
+{\displaystyle x<x}
+
+ is always false), which may be assumed so that transitivity is the only property this "incomparability relation" needs in order to be an equivalence relation. 
+Define also an induced homogeneous relation 
+
+
+
+
+≲
+
+
+
+{\displaystyle \,\lesssim \,}
+
+ on 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ by declaring that 
+
+
+
+
+x
+≲
+y
+
+ is true 
+
+
+
+ if and only if 
+
+
+y
+<
+x
+
+ is false
+
+
+
+{\displaystyle x\lesssim y{\text{ is true }}\quad {\text{ if and only if }}\quad y<x{\text{ is false}}}
+
+ 
+where importantly, this definition is not necessarily the same as: 
+
+
+
+x
+≲
+y
+
+
+{\displaystyle x\lesssim y}
+
+ if and only if 
+
+
+
+x
+<
+y
+
+ or 
+
+x
+=
+y
+.
+
+
+{\displaystyle x<y{\text{ or }}x=y.}
+
+ 
+Two elements 
+
+
+
+x
+,
+y
+∈
+S
+
+
+{\displaystyle x,y\in S}
+
+ are incomparable with respect to 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ if and only if 
+
+
+
+x
+
+ and 
+
+y
+
+
+{\displaystyle x{\text{ and }}y}
+
+ are equivalent with respect to 
+
+
+
+
+≲
+
+
+
+{\displaystyle \,\lesssim \,}
+
+ (or less verbosely, 
+
+
+
+
+≲
+
+
+{\displaystyle \,\lesssim }
+
+-equivalent), which by definition means that both 
+
+
+
+x
+≲
+y
+
+ and 
+
+y
+≲
+x
+
+
+{\displaystyle x\lesssim y{\text{ and }}y\lesssim x}
+
+ are true. 
+The relation "are incomparable with respect to 
+
+
+
+
+<
+
+
+{\displaystyle \,<}
+
+" is thus identical to (that is, equal to) the relation "are 
+
+
+
+
+≲
+
+
+{\displaystyle \,\lesssim }
+
+-equivalent" (so in particular, the former is transitive if and only if the latter is). 
+When 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ is irreflexive then the property known as "transitivity of incomparability" (defined below) is exactly the condition necessary and sufficient to guarantee that the relation "are 
+
+
+
+
+≲
+
+
+{\displaystyle \,\lesssim }
+
+-equivalent" does indeed form an equivalence relation on 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+ 
+When this is the case, it allows any two elements 
+
+
+
+x
+,
+y
+∈
+S
+
+
+{\displaystyle x,y\in S}
+
+ satisfying 
+
+
+
+x
+≲
+y
+
+ and 
+
+y
+≲
+x
+
+
+{\displaystyle x\lesssim y{\text{ and }}y\lesssim x}
+
+ to be identified as a single object (specifically, they are identified together in their common equivalence class).
+Definition
+A strict weak ordering on a set 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is a strict partial order 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ on 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ for which the incomparability relation induced on 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ by 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ is a transitive relation.[1] 
+Explicitly, a strict weak order on 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is a homogeneous relation 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ on 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ that has all four of the following properties:
+Properties (1), (2), and (3) are the defining properties of a strict partial order, although there is some redundancy in this list as asymmetry (3) implies irreflexivity (1), and also because irreflexivity (1) and transitivity (2) together imply asymmetry (3).[6] The incomparability relation is always symmetric and it will be reflexive if and only if 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ is an irreflexive relation (which is assumed by the above definition). 
+Consequently, a strict partial order 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ is a strict weak order if and only if its induced incomparability relation is an equivalence relation. 
+In this case, its equivalence classes partition 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ and moreover, the set 
+
+
+
+
+
+P
+
+
+
+
+{\displaystyle {\mathcal {P}}}
+
+ of these equivalence classes can be strictly totally ordered by a binary relation, also denoted by 
+
+
+
+
+<
+,
+
+
+{\displaystyle \,<,}
+
+ that is defined for all 
+
+
+
+A
+,
+B
+∈
+
+
+P
+
+
+
+
+{\displaystyle A,B\in {\mathcal {P}}}
+
+ by: 
+Conversely, any strict total order on a partition 
+
+
+
+
+
+P
+
+
+
+
+{\displaystyle {\mathcal {P}}}
+
+ of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ gives rise to a strict weak ordering 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ on 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ defined by 
+
+
+
+a
+<
+b
+
+
+{\displaystyle a<b}
+
+ if and only if there exists sets 
+
+
+
+A
+,
+B
+∈
+
+
+P
+
+
+
+
+{\displaystyle A,B\in {\mathcal {P}}}
+
+ in this partition such that 
+
+
+
+a
+∈
+A
+,
+b
+∈
+B
+,
+
+ and 
+
+A
+<
+B
+.
+
+
+{\displaystyle a\in A,b\in B,{\text{ and }}A<B.}
+
+
+Not every partial order obeys the transitive law for incomparability. For instance, consider the partial order in the set 
+
+
+
+{
+a
+,
+b
+,
+c
+}
+
+
+{\displaystyle \{a,b,c\}}
+
+ defined by the relationship 
+
+
+
+b
+<
+c
+.
+
+
+{\displaystyle b<c.}
+
+ The pairs 
+
+
+
+a
+,
+b
+
+ and 
+
+a
+,
+c
+
+
+{\displaystyle a,b{\text{ and }}a,c}
+
+ are incomparable but 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ and 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ are related, so incomparability does not form an equivalence relation and this example is not a strict weak ordering.
+For transitivity of incomparability, each of the following conditions is necessary, and for strict partial orders also sufficient:
+Strict weak orders are very closely related to total preorders or (non-strict) weak orders, and the same mathematical concepts that can be modeled with strict weak orderings can be modeled equally well with total preorders. A total preorder or weak order is a preorder in which any two elements are comparable.[7] A total preorder 
+
+
+
+
+≲
+
+
+
+{\displaystyle \,\lesssim \,}
+
+ satisfies the following properties:
+A total order is a total preorder which is antisymmetric, in other words, which is also a partial order. Total preorders are sometimes also called preference relations.
+The complement of a strict weak order is a total preorder, and vice versa, but it seems more natural to relate strict weak orders and total preorders in a way that preserves rather than reverses the order of the elements.  Thus we take the converse of the complement: for a strict weak ordering 
+
+
+
+
+<
+,
+
+
+{\displaystyle \,<,}
+
+ define a total preorder 
+
+
+
+
+≲
+
+
+
+{\displaystyle \,\lesssim \,}
+
+ by setting 
+
+
+
+x
+≲
+y
+
+
+{\displaystyle x\lesssim y}
+
+ whenever it is not the case that 
+
+
+
+y
+<
+x
+.
+
+
+{\displaystyle y<x.}
+
+ In the other direction, to define a strict weak ordering < from a total preorder 
+
+
+
+
+≲
+,
+
+
+{\displaystyle \,\lesssim ,}
+
+ set 
+
+
+
+x
+<
+y
+
+
+{\displaystyle x<y}
+
+ whenever it is not the case that 
+
+
+
+y
+≲
+x
+.
+
+
+{\displaystyle y\lesssim x.}
+
+[8]
+In any preorder there is a corresponding equivalence relation where two elements 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ are defined as equivalent if 
+
+
+
+x
+≲
+y
+
+ and 
+
+y
+≲
+x
+.
+
+
+{\displaystyle x\lesssim y{\text{ and }}y\lesssim x.}
+
+ In the case of a total preorder the corresponding partial order on the set of equivalence classes is a total order. Two elements are equivalent in a total preorder if and only if they are incomparable in the corresponding strict weak ordering.
+A partition of a set 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is a family of non-empty disjoint subsets of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ that have 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ as their union. A partition, together with a total order on the sets of the partition, gives a structure called by Richard P. Stanley an ordered partition[9] and by Theodore Motzkin a list of sets.[10] An ordered partition of a finite set may be written as a finite sequence of the sets in the partition: for instance, the three ordered partitions of the set 
+
+
+
+{
+a
+,
+b
+}
+
+
+{\displaystyle \{a,b\}}
+
+ are
+
+
+
+
+{
+a
+}
+,
+{
+b
+}
+,
+
+
+{\displaystyle \{a\},\{b\},}
+
+
+
+
+
+
+{
+b
+}
+,
+{
+a
+}
+,
+
+
+ and 
+
+
+
+{\displaystyle \{b\},\{a\},\;{\text{ and }}}
+
+
+
+
+
+
+{
+a
+,
+b
+}
+.
+
+
+{\displaystyle \{a,b\}.}
+
+
+In a strict weak ordering, the equivalence classes of incomparability give a set partition, in which the sets inherit a total ordering from their elements, giving rise to an ordered partition. In the other direction, any ordered partition gives rise to a strict weak ordering in which two elements are incomparable when they belong to the same set in the partition, and otherwise inherit the order of the sets that contain them.
+For sets of sufficiently small cardinality, a third axiomatization is possible, based on real-valued functions. If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is any set then a real-valued function 
+
+
+
+f
+:
+X
+→
+
+R
+
+
+
+{\displaystyle f:X\to \mathbb {R} }
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ induces a strict weak order on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ by setting 
+
+
+
+
+a
+<
+b
+
+ if and only if 
+
+f
+(
+a
+)
+<
+f
+(
+b
+)
+.
+
+
+{\displaystyle a<b{\text{ if and only if }}f(a)<f(b).}
+
+ 
+The associated total preorder is given by setting 
+
+
+
+
+a
+
+
+≲
+
+
+b
+
+ if and only if 
+
+f
+(
+a
+)
+≤
+f
+(
+b
+)
+
+
+{\displaystyle a{}\lesssim {}b{\text{ if and only if }}f(a)\leq f(b)}
+
+ 
+and the associated equivalence by setting 
+
+
+
+
+a
+
+
+∼
+
+
+b
+
+ if and only if 
+
+f
+(
+a
+)
+=
+f
+(
+b
+)
+.
+
+
+{\displaystyle a{}\sim {}b{\text{ if and only if }}f(a)=f(b).}
+
+
+The relations do not change when 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is replaced by 
+
+
+
+g
+∘
+f
+
+
+{\displaystyle g\circ f}
+
+ (composite function), where 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ is a strictly increasing real-valued function defined on at least the range of 
+
+
+
+f
+.
+
+
+{\displaystyle f.}
+
+ Thus for example, a utility function defines a preference relation. In this context, weak orderings are also known as preferential arrangements.[11]
+If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is finite or countable, every weak order on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ can be represented by a function in this way.[12] However, there exist strict weak orders that have no corresponding real function. For example, there is no such function for the lexicographic order on 
+
+
+
+
+
+R
+
+
+n
+
+
+.
+
+
+{\displaystyle \mathbb {R} ^{n}.}
+
+ Thus, while in most preference relation models the relation defines a utility function up to order-preserving transformations, there is no such function for lexicographic preferences.
+More generally, if 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a set, 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is a set with a strict weak ordering 
+
+
+
+
+<
+,
+
+
+
+{\displaystyle \,<,\,}
+
+ and 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f:X\to Y}
+
+ is a function, then 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ induces a strict weak ordering on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ by setting 
+
+
+
+
+a
+<
+b
+
+ if and only if 
+
+f
+(
+a
+)
+<
+f
+(
+b
+)
+.
+
+
+{\displaystyle a<b{\text{ if and only if }}f(a)<f(b).}
+
+
+As before, the associated total preorder is given by setting 
+
+
+
+
+a
+
+
+≲
+
+
+b
+
+ if and only if 
+
+f
+(
+a
+)
+
+
+≲
+
+
+f
+(
+b
+)
+,
+
+
+{\displaystyle a{}\lesssim {}b{\text{ if and only if }}f(a){}\lesssim {}f(b),}
+
+ 
+and the associated equivalence by setting 
+
+
+
+
+a
+
+
+∼
+
+
+b
+
+ if and only if 
+
+f
+(
+a
+)
+
+
+∼
+
+
+f
+(
+b
+)
+.
+
+
+{\displaystyle a{}\sim {}b{\text{ if and only if }}f(a){}\sim {}f(b).}
+
+ 
+It is not assumed here that 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is an injective function, so a class of two equivalent elements on 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ may induce a larger class of equivalent elements on 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ Also, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is not assumed to be a surjective function, so a class of equivalent elements on 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ may induce a smaller or empty class on 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ However, the function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ induces an injective function that maps the partition on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ to that on 
+
+
+
+Y
+.
+
+
+{\displaystyle Y.}
+
+ Thus, in the case of finite partitions, the number of classes in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is less than or equal to the number of classes on 
+
+
+
+Y
+.
+
+
+{\displaystyle Y.}
+
+
+Semiorders generalize strict weak orderings, but do not assume transitivity of incomparability.[13] A strict weak order that is trichotomous is called a strict total order.[14] The total preorder which is the inverse of its complement is in this case a total order.
+For a strict weak order 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ another associated reflexive relation is its reflexive closure, a (non-strict) partial order 
+
+
+
+
+≤
+.
+
+
+{\displaystyle \,\leq .}
+
+ The two associated reflexive relations differ with regard to different 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ for which neither 
+
+
+
+a
+<
+b
+
+
+{\displaystyle a<b}
+
+ nor 
+
+
+
+b
+<
+a
+
+
+{\displaystyle b<a}
+
+: in the total preorder corresponding to a strict weak order we get 
+
+
+
+a
+≲
+b
+
+
+{\displaystyle a\lesssim b}
+
+ and 
+
+
+
+b
+≲
+a
+,
+
+
+{\displaystyle b\lesssim a,}
+
+ while in the partial order given by the reflexive closure we get neither 
+
+
+
+a
+≤
+b
+
+
+{\displaystyle a\leq b}
+
+ nor 
+
+
+
+b
+≤
+a
+.
+
+
+{\displaystyle b\leq a.}
+
+ For strict total orders these two associated reflexive relations are the same: the corresponding (non-strict) total order.[14] The reflexive closure of a strict weak ordering is a type of series-parallel partial order.
+The number of distinct weak orders (represented either as strict weak orders or as total preorders) on an 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-element set is given by the following sequence (sequence A000670 in the OEIS):
+Note that S(n, k) refers to Stirling numbers of the second kind.
+These numbers are also called the Fubini numbers or ordered Bell numbers.
+For example, for a set of three labeled items, there is one weak order in which all three items are tied. There are three ways of partitioning the items into one singleton set and one group of two tied items, and each of these partitions gives two weak orders (one in which the singleton is smaller than the group of two, and one in which this ordering is reversed), giving six weak orders of this type. And there is a single way of partitioning the set into three singletons, which can be totally ordered in six different ways. Thus, altogether, there are 13 different weak orders on three items.
+Unlike for partial orders, the family of weak orderings on a given finite set is not in general connected by moves that add or remove a single order relation to or from a given ordering. For instance, for three elements, the ordering in which all three elements are tied differs by at least two pairs from any other weak ordering on the same set, in either the strict weak ordering or total preorder axiomatizations. However, a different kind of move is possible, in which the weak orderings on a set are more highly connected. Define a dichotomy to be a weak ordering with two equivalence classes, and define a dichotomy to be compatible with a given weak ordering if every two elements that are related in the ordering are either related in the same way or tied in the dichotomy. Alternatively, a dichotomy may be defined as a Dedekind cut for a weak ordering. Then a weak ordering may be characterized by its set of compatible dichotomies. For a finite set of labeled items, every pair of weak orderings may be connected to each other by a sequence of moves that add or remove one dichotomy at a time to or from this set of dichotomies. Moreover, the undirected graph that has the weak orderings as its vertices, and these moves as its edges, forms a partial cube.[15]
+Geometrically, the total orderings of a given finite set may be represented as the vertices of a permutohedron, and the dichotomies on this same set as the facets of the permutohedron. In this geometric representation, the weak orderings on the set correspond to the faces of all different dimensions of the permutohedron (including the permutohedron itself, but not the empty set, as a face). The codimension of a face gives the number of equivalence classes in the corresponding weak ordering.[16] In this geometric representation the partial cube of moves on weak orderings is the graph describing the covering relation of the face lattice of the permutohedron.
+For instance, for 
+
+
+
+n
+=
+3
+,
+
+
+{\displaystyle n=3,}
+
+ the permutohedron on three elements is just a regular hexagon. The face lattice of the hexagon (again, including the hexagon itself as a face, but not including the empty set) has thirteen elements: one hexagon, six edges, and six vertices, corresponding to the one completely tied weak ordering, six weak orderings with one tie, and six total orderings. The graph of moves on these 13 weak orderings is shown in the figure.
+As mentioned above, weak orders have applications in utility theory.[12] In linear programming and other types of combinatorial optimization problem, the prioritization of solutions or of bases is often given by a weak order, determined by a real-valued objective function; the phenomenon of ties in these orderings is called "degeneracy", and several types of tie-breaking rule have been used to refine this weak ordering into a total ordering in order to prevent problems caused by degeneracy.[17]
+Weak orders have also been used in computer science, in partition refinement based algorithms for lexicographic breadth-first search and lexicographic topological ordering. In these algorithms, a weak ordering on the vertices of a graph (represented as a family of sets that partition the vertices, together with a doubly linked list providing a total order on the sets) is gradually refined over the course of the algorithm, eventually producing a total ordering that is the output of the algorithm.[18]
+In the Standard Library for the C++ programming language, the set and multiset data types sort their input by a comparison function that is specified at the time of template instantiation, and that is assumed to implement a strict weak ordering.[2]
+
+

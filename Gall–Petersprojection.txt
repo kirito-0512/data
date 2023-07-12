@@ -1,0 +1,43 @@
+12990,
+Gall–Petersprojection,
+The Gall–Peters projection is a rectangular, equal-area map projection. Like all equal-area projections, it distorts most shapes. It is a cylindrical equal-area projection with latitudes 45° north and south as the regions on the map that have no distortion.
+The projection is named after James Gall and Arno Peters. Gall described the projection in 1855 at a science convention and published a paper on it in 1885.[1] Peters brought the projection to a wider audience beginning in the early 1970s through his "Peters World Map". The name "Gall–Peters projection" was first used by Arthur H. Robinson in a pamphlet put out by the American Cartographic Association in 1986.[2]
+Maps based on the projection are promoted by UNESCO, and they are also widely used by British schools.[3] The U.S. state of Massachusetts and Boston Public Schools began phasing in these maps in March 2017, becoming the first public school district and state in the United States to adopt Gall–Peters maps as their standard.[4]
+The Gall–Peters projection achieved notoriety in the late 20th century as the centerpiece of a controversy about the political implications of map design.[5]
+The projection is conventionally defined as:
+where λ is the longitude from the central meridian in degrees, φ is the latitude, and R is the radius of the globe used as the model of the earth for projection. For longitude given in radians, remove the π/180° factors.
+Stripping out unit conversion and uniform scaling, the formulae may be written:
+where 
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+
+ is the longitude from the central meridian (in radians), 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ is the latitude, and R is the radius of the globe used as the model of the earth for projection. Hence the sphere is mapped onto the vertical cylinder, and the cylinder is stretched to double its length. The stretch factor, 2 in this case, is what distinguishes the variations of cylindric equal-area projection.
+The various specializations of the cylindric equal-area projection differ only in the ratio of the vertical to horizontal axis. This ratio determines the standard parallel of the projection, which is the parallel at which there is no distortion and along which distances match the stated scale. The standard parallels of the Gall–Peters are 45° N and 45° S. Several other specializations of the equal-area cylindric have been described, promoted, or otherwise named.[6][7][8]
+The Gall–Peters projection was first described in 1855 by clergyman James Gall, who presented it along with two other projections at the Glasgow meeting of the British Association for the Advancement of Science (the BA). He gave it the name "orthographic" and formally published his work in 1885 in the Scottish Geographical Magazine.[1] The projection is suggestive of the Orthographic projection in that distances between parallels of the Gall–Peters are a constant multiple of the distances between the parallels of the orthographic. That constant is √2.
+In 1967, German filmmaker Arno Peters independently devised a similar projection, which he presented in 1973 as the "Peters world map". Peters's original description of his projection contained a geometric error that, taken literally, implies standard parallels of 46°02′ N/S. However the text accompanying the description made it clear that he had intended the standard parallels to be 45° N/S, making his projection identical to Gall's orthographic.[9] In any case, the difference is negligible in a world map.
+The name "Gall–Peters projection" seems to have been used first by Arthur H. Robinson in a pamphlet put out by the American Cartographic Association in 1986.[2] Before 1973 it had been known, when referred to at all, as the "Gall orthographic" or "Gall's orthographic." Most Peters supporters today refer to it only as the "Peters projection." During the years of controversy the cartographic literature tended to mention both attributions, settling on one or the other for the purposes of the article. In recent years "Gall–Peters" seems to dominate.
+The Gall–Peters projection initially passed unnoticed when presented by Gall in 1855. It achieved more widespread attention after Arno Peters reintroduced it in 1973. He promoted it as a superior alternative to the commonly used Mercator projection, on the basis that the Mercator projection greatly distorts the relative sizes of regions on a map. In particular, he criticized that the Mercator projection causes wealthy Europe and North America to appear very large relative to poorer Africa and South America.[7]: 155  These arguments swayed many socially concerned groups to adopt the Gall–Peters projection, including the National Council of Churches[10] and the magazine New Internationalist.[11]
+His campaign was bolstered by the inaccurate claim that the Gall–Peters projection was the only "area-correct" map.[12][13] In actuality, some of the oldest projections are equal-area (such as the sinusoidal projection), and hundreds have been described. He also inaccurately claimed that it possessed "absolute angle conformality", had "no extreme distortions of form", and was "totally distance-factual".[12] Peters framed his criticisms of the Mercator projection with criticisms of the broader cartographic community. In particular, Peters wrote in The New Cartography,
+By the authority of their profession [cartographers] have hindered its development. Since Mercator produced his global map over four hundred years ago for the age of Europeans world domination, cartographers have clung to it despite its having been long outdated by events. They have sought to render it topical by cosmetic corrections.…
+The cartographic profession is, by its retention of old precepts based on the Eurocentric global concept, incapable of developing this egalitarian world map which alone can demonstrate the parity of all peoples of the earth.[14]As Peters's promotions gained popularity, the cartographic community reacted with hostility to his criticisms, as well as to the inaccuracy and lack of novelty of his claims.[15] They called attention to the long list of cartographers who, over the preceding century, had formally expressed frustration with publishers' overuse of the Mercator and advocated for alternatives.[16][17][18][19] In addition, several scholars criticized the particularly large distortions present in the Gall–Peters projection, and remarked on the irony of its undistorted presentation of the mid latitudes, including Peters's native Germany, at the expense of the low latitudes, which host more of the technologically underdeveloped nations.[20][21]
+The increasing publicity of Peter's claims in 1986 motivated the American Cartographic Association (now Cartography and Geographic Information Society) to produce a series of booklets (including Which Map Is Best[2]) designed to educate the public about map projections and distortion in maps. In 1989 and 1990, after some internal debate, seven North American geographic organizations adopted a resolution rejecting all rectangular world maps, a category that includes both the Mercator and the Gall–Peters projections,[22][23] though the North American Cartographic Information Society notably declined to endorse it.[24]
+The two camps never made any real attempts toward reconciliation. The Peters camp largely ignored the protests of the cartographers, and did not acknowledge Gall's prior work[13] until the controversy had largely run its course, late in Peters's life. While he likely devised the projection independently, his unscholarly conduct and refusal to engage the cartographic community undoubtedly contributed to the polarization and impasse.[5]
+In the ensuing decades, J. Brian Harley credited the Peters phenomenon with demonstrating the social implications of map projections,[25] while Jeremy Crampton considers all maps to be political, and sees the condemnation from the cartographic community as reactionary and perhaps demonstrative of immaturity in the profession.[5]
+Notes
+Further reading
+
+

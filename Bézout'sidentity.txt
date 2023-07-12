@@ -1,0 +1,469 @@
+4947,
+Bézout'sidentity,
+In mathematics, Bézout's identity (also called Bézout's lemma), named after Étienne Bézout, is the following theorem:
+Bézout's identity — Let a and b be integers with greatest common divisor d. Then there exist integers x and y such that ax + by = d. Moreover, the integers of the form az + bt are exactly the multiples of d.
+Here the greatest common divisor of 0 and 0 is taken to be 0. The integers x and y are called Bézout coefficients for (a, b); they are not unique. A pair of Bézout coefficients can be computed by the extended Euclidean algorithm, and this pair is, in the case of integers one of the two pairs such that 
+|
+x
+|
+≤
+|
+b
+/
+d
+|
+{\displaystyle |x|\leq |b/d|}
+ and 
+|
+y
+|
+≤
+|
+a
+/
+d
+|
+;
+{\displaystyle |y|\leq |a/d|;}
+ equality occurs only if one of a and b is a multiple of the other.
+As an example, the greatest common divisor of 15 and 69 is 3, and 3 can be written as a combination of 15 and 69 as 3 = 15 × (−9) + 69 × 2, with Bézout coefficients −9 and 2.
+Many other theorems in elementary number theory, such as  Euclid's lemma or the Chinese remainder theorem, result from Bézout's identity.
+A Bézout domain is an integral domain in which Bézout's identity holds. In particular, Bézout's identity holds in principal ideal domains. Every theorem that results from Bézout's identity is thus true in all principal ideal domains.
+If a and b are not both zero and one pair of Bézout coefficients (x, y) has been computed (for example, using the extended Euclidean algorithm), all pairs can be represented in the form
+(
+x
+−
+k
+b
+d
+,
+ 
+y
++
+k
+a
+d
+)
+,
+{\displaystyle \left(x-k{\frac {b}{d}},\ y+k{\frac {a}{d}}\right),}
+where k is an arbitrary integer, d is the greatest common divisor of a and b, and the fractions simplify to integers.
+If a and b are both nonzero, then exactly two of these pairs of Bézout coefficients satisfy 
+|
+x
+|
+≤
+|
+b
+d
+|
+and
+|
+y
+|
+≤
+|
+a
+d
+|
+,
+{\displaystyle |x|\leq \left|{\frac {b}{d}}\right|\quad {\text{and}}\quad |y|\leq \left|{\frac {a}{d}}\right|,}
+and equality may occur only if one of a and b divides the other. 
+This relies on a property of Euclidean division: given two non-zero integers c and d, if d does not divide c, there is exactly one pair (q, r) such that 
+c
+=
+d
+q
++
+r
+{\displaystyle c=dq+r}
+ and 
+0
+<
+r
+<
+|
+d
+|
+,
+{\displaystyle 0<r<|d|,}
+ and another one such that 
+c
+=
+d
+q
++
+r
+{\displaystyle c=dq+r}
+ and 
+−
+|
+d
+|
+<
+r
+<
+0.
+{\displaystyle -|d|<r<0.}
+The two pairs of small Bézout's coefficients are obtained from the given one (x, y) by choosing for k in the above formula either of the two integers next to 
+x
+b
+/
+d
+{\displaystyle {\frac {x}{b/d}}}
+.
+The extended Euclidean algorithm always produces one of these two minimal pairs.
+Let a = 12 and b = 42, then gcd (12, 42) = 6. Then the following Bézout's identities are had, with the Bézout coefficients written in red for the minimal pairs and in blue for the other ones.
+⋮
+12
+×
+(
+−
+10
+)
++
+42
+×
+3
+=
+6
+12
+×
+(
+−
+3
+)
++
+42
+×
+1
+=
+6
+12
+×
+4
++
+42
+×
+(
+−
+1
+)
+=
+6
+12
+×
+11
++
+42
+×
+(
+−
+3
+)
+=
+6
+12
+×
+18
++
+42
+×
+(
+−
+5
+)
+=
+6
+⋮
+{\displaystyle {\begin{aligned}\vdots \\12&\times ({\color {blue}{-10}})&+\;\;42&\times \color {blue}{3}&=6\\12&\times ({\color {red}{-3}})&+\;\;42&\times \color {red}{1}&=6\\12&\times \color {red}{4}&+\;\;42&\times ({\color {red}{-1}})&=6\\12&\times \color {blue}{11}&+\;\;42&\times ({\color {blue}{-3}})&=6\\12&\times \color {blue}{18}&+\;\;42&\times ({\color {blue}{-5}})&=6\\\vdots \end{aligned}}}
+If 
+(
+x
+,
+y
+)
+=
+(
+18
+,
+−
+5
+)
+{\displaystyle (x,y)=(18,-5)}
+ is the original pair of Bézout coefficients, then 
+18
+42
+/
+6
+∈
+[
+2
+,
+3
+]
+{\displaystyle {\frac {18}{42/6}}\in [2,3]}
+ yields the minimal pairs via k = 2, respectively k = 3; that is, (18 − 2 ⋅ 7, −5 + 2 ⋅ 2) = (4, −1), and (18 − 3 ⋅ 7, −5 + 3 ⋅ 2) = (−3, 1).
+Given any nonzero integers a and b, let 
+S
+=
+{
+a
+x
++
+b
+y
+:
+x
+,
+y
+∈
+Z
+ and 
+a
+x
++
+b
+y
+>
+0
+}
+.
+{\displaystyle S=\{ax+by:x,y\in \mathbb {Z} {\text{ and }}ax+by>0\}.}
+ The set S is nonempty since it contains either a or –a (with 
+x
+=
+±
+1
+{\displaystyle x=\pm 1}
+ and 
+y
+=
+0
+{\displaystyle y=0}
+). Since S is a nonempty set of positive integers, it has a minimum element 
+d
+=
+a
+s
++
+b
+t
+{\displaystyle d=as+bt}
+, by the well-ordering principle. To prove that d is the greatest common divisor of a and b, it must be proven that d is a common divisor of a and b, and that for any other common divisor c, one has 
+c
+≤
+d
+.
+{\displaystyle c\leq d.}
+The Euclidean division of a by d may be written
+a
+=
+d
+q
++
+r
+with
+0
+≤
+r
+<
+d
+.
+{\displaystyle a=dq+r\quad {\text{with}}\quad 0\leq r<d.}
+The remainder r is in 
+S
+∪
+{
+0
+}
+{\displaystyle S\cup \{0\}}
+, because
+r
+=
+a
+−
+q
+d
+=
+a
+−
+q
+(
+a
+s
++
+b
+t
+)
+=
+a
+(
+1
+−
+q
+s
+)
+−
+b
+q
+t
+.
+{\displaystyle {\begin{aligned}r&=a-qd\\&=a-q(as+bt)\\&=a(1-qs)-bqt.\end{aligned}}}
+Thus r is of the form 
+a
+x
++
+b
+y
+{\displaystyle ax+by}
+, and hence 
+r
+∈
+S
+∪
+{
+0
+}
+.
+{\displaystyle r\in S\cup \{0\}.}
+ However, 
+0
+≤
+r
+<
+d
+,
+{\displaystyle 0\leq r<d,}
+ and d is the smallest positive integer in S: the remainder r can therefore not be in S, making r necessarily 0. This implies that d is a divisor of a. Similarly d is also a divisor of b, and therefore d is a common divisor of a and b.
+Now, let c be any common divisor of a and b; that is, there exist u and v such that 
+a
+=
+c
+u
+{\displaystyle a=cu}
+ and 
+b
+=
+c
+v
+.
+{\displaystyle b=cv.}
+ One has thus
+d
+=
+a
+s
++
+b
+t
+=
+c
+u
+s
++
+c
+v
+t
+=
+c
+(
+u
+s
++
+v
+t
+)
+.
+{\displaystyle {\begin{aligned}d&=as+bt\\&=cus+cvt\\&=c(us+vt).\end{aligned}}}
+That is, c is a divisor of d. Since 
+d
+>
+0
+,
+{\displaystyle d>0,}
+ this implies 
+c
+≤
+d
+.
+{\displaystyle c\leq d.}
+Bézout's identity can be extended to more than two integers: if 
+gcd
+(
+a
+1
+,
+a
+2
+,
+…
+,
+a
+n
+)
+=
+d
+{\displaystyle \gcd(a_{1},a_{2},\ldots ,a_{n})=d}
+then there are integers 
+x
+1
+,
+x
+2
+,
+…
+,
+x
+n
+{\displaystyle x_{1},x_{2},\ldots ,x_{n}}
+ such that
+d
+=
+a
+1
+x
+1
++
+a
+2
+x
+2
++
+⋯
++
+a
+n
+x
+n
+{\displaystyle d=a_{1}x_{1}+a_{2}x_{2}+\cdots +a_{n}x_{n}}
+has the following properties:
+Bézout's identity does not always hold for polynomials. For example, when working in the polynomial ring of integers: the greatest common divisor of 2x and x2 is x, but there does not exist any integer-coefficient polynomials p and q satisfying 2xp + x2q = x.
+However, Bézout's identity works for univariate polynomials over a field exactly in the same ways as for integers. In particular the Bézout's coefficients and the greatest common divisor may be computed with the extended Euclidean algorithm.
+As the common roots of two polynomials are the roots of their greatest common divisor, Bézout's identity and fundamental theorem of algebra imply the following result: 
+The generalization of this result to any number of polynomials and indeterminates is Hilbert's Nullstellensatz.
+As noted in the introduction, Bézout's identity works not only in the ring of integers, but also in any other principal ideal domain (PID).
+That is, if R is a PID, and a and b are elements of R, and d is a greatest common divisor of a and b,
+then there are elements x and y in R such that 
+a
+x
++
+b
+y
+=
+d
+.
+{\displaystyle ax+by=d.}
+ The reason is that the ideal 
+R
+a
++
+R
+b
+{\displaystyle Ra+Rb}
+ is principal and equal to 
+R
+d
+.
+{\displaystyle Rd.}
+An integral domain in which Bézout's identity holds is called a Bézout domain.
+French mathematician Étienne Bézout (1730–1783) proved this identity for polynomials.[1] This statement for integers can be found already in the work of an earlier French mathematician, Claude Gaspard Bachet de Méziriac (1581–1638).[2][3][4]

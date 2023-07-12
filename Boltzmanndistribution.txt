@@ -1,0 +1,152 @@
+4107,
+Boltzmanndistribution,
+In statistical mechanics and mathematics, a Boltzmann distribution (also called Gibbs distribution[1]) is a probability distribution or probability measure that gives the probability that a system will be in a certain state as a function of that state's energy and the temperature of the system. The distribution is expressed in the form:
+where pi is the probability of the system being in state i, exp is the exponential function, εi is the energy of that state, and a constant kT of the distribution is the product of the Boltzmann constant k and thermodynamic temperature T. The symbol 
+∝
+{\textstyle \propto }
+ denotes proportionality (see § The distribution for the proportionality constant).
+The term system here has a wide meaning; it can range from a collection of 'sufficient number' of atoms or a single atom[1] to a macroscopic system such as a natural gas storage tank. Therefore the Boltzmann distribution can be used to solve a wide variety of problems. The distribution shows that states with lower energy will always have a higher probability of being occupied.
+The ratio of probabilities of two states is known as the Boltzmann factor and characteristically only depends on the states' energy difference:
+The Boltzmann distribution is named after Ludwig Boltzmann who first formulated it in 1868 during his studies of the statistical mechanics of gases in thermal equilibrium.[2] Boltzmann's statistical work is borne out in his paper “On the Relationship between the Second Fundamental Theorem of the Mechanical Theory of Heat and Probability Calculations Regarding the Conditions for Thermal Equilibrium"[3]
+The distribution was later investigated extensively, in its modern generic form, by Josiah Willard Gibbs in 1902.[4]
+The Boltzmann distribution should not be confused with the Maxwell–Boltzmann distribution or Maxwell-Boltzmann statistics. The Boltzmann distribution gives the probability that a system will be in a certain state as a function of that state's energy,[5] while the Maxwell-Boltzmann distributions give the probabilities of particle speeds or energies in ideal gases. The distribution of energies in a one-dimensional gas however, does follow the Boltzmann distribution.
+The Boltzmann distribution is a probability distribution that gives the probability of a certain state as a function of that state's energy and  temperature of the system to which the distribution is applied.[6] It is given as
+p
+i
+=
+1
+Q
+exp
+⁡
+(
+−
+ε
+i
+k
+T
+)
+=
+exp
+⁡
+(
+−
+ε
+i
+k
+T
+)
+∑
+j
+=
+1
+M
+exp
+⁡
+(
+−
+ε
+j
+k
+T
+)
+{\displaystyle p_{i}={\frac {1}{Q}}\exp \left(-{\frac {\varepsilon _{i}}{kT}}\right)={\frac {\exp \left(-{\tfrac {\varepsilon _{i}}{kT}}\right)}{\displaystyle \sum _{j=1}^{M}\exp \left(-{\tfrac {\varepsilon _{j}}{kT}}\right)}}}
+where:
+The Boltzmann distribution is the distribution that maximizes the entropy
+S
+(
+p
+1
+,
+p
+2
+,
+⋯
+,
+p
+M
+)
+=
+−
+∑
+i
+=
+1
+M
+p
+i
+log
+2
+⁡
+p
+i
+{\displaystyle S(p_{1},p_{2},\cdots ,p_{M})=-\sum _{i=1}^{M}p_{i}\log _{2}p_{i}}
+subject to the normalization constraint and the constraint that 
+∑
+p
+i
+ε
+i
+{\textstyle \sum {p_{i}{\varepsilon }_{i}}}
+ equals a particular mean energy value (which can be proven using Lagrange multipliers).
+The partition function can be calculated if we know the energies of the states accessible to the system of interest. For atoms the partition function values can be found in the NIST Atomic Spectra Database.[7]
+The distribution shows that states with lower energy will always have a higher probability of being occupied than the states with higher energy. It can also give us the quantitative relationship between the probabilities of the two states being occupied. The ratio of probabilities for states i and j is given as
+p
+i
+p
+j
+=
+exp
+⁡
+(
+ε
+j
+−
+ε
+i
+k
+T
+)
+{\displaystyle {\frac {p_{i}}{p_{j}}}=\exp \left({\frac {\varepsilon _{j}-\varepsilon _{i}}{kT}}\right)}
+where:
+The corresponding ratio of populations of energy levels must also take their degeneracies into account.
+The Boltzmann distribution is often used to describe the distribution of particles, such as atoms or molecules, over bound states accessible to them. If we have a system consisting of many particles, the probability of a particle being in state i is practically the probability that, if we pick a random particle from that system and check what state it is in, we will find it is in state i. This probability is equal to the number of particles in state i divided by the total number of particles in the system, that is the fraction of particles that occupy state i.
+where Ni is the number of particles in state i and N is the total number of particles in the system. We may use the Boltzmann distribution to find this probability that is, as we have seen, equal to the fraction of particles that are in state i. So the equation that gives the fraction of particles in state i as a function of the energy of that state is  [5]
+N
+i
+N
+=
+exp
+⁡
+(
+−
+ε
+i
+k
+T
+)
+∑
+j
+=
+1
+M
+exp
+⁡
+(
+−
+ε
+j
+k
+T
+)
+{\displaystyle {\frac {N_{i}}{N}}={\frac {\exp \left(-{\frac {\varepsilon _{i}}{kT}}\right)}{\displaystyle \sum _{j=1}^{M}\exp \left(-{\tfrac {\varepsilon _{j}}{kT}}\right)}}}
+This equation is of great importance to spectroscopy. In spectroscopy we observe a spectral line of atoms or molecules undergoing transitions from one state to another.[5][8] In order for this to be possible, there must be some particles in the first state to undergo the transition. We may find that this condition is fulfilled by finding the fraction of particles in the first state. If it is negligible, the transition is very likely not observed at the temperature for which the calculation was done. In general, a larger fraction of molecules in the first state means a higher number of transitions to the second state.[9] This gives a stronger spectral line. However, there are other factors that influence the intensity of a spectral line, such as whether it is caused by an allowed or a forbidden transition.
+The softmax function commonly used in machine learning is related to the Boltzmann distribution:
+Distribution of the form
+is called generalized Boltzmann distribution by some authors.[10]
+The Boltzmann distribution is a special case of the generalized Boltzmann distribution. The generalized Boltzmann distribution is used in statistical mechanics to describe canonical ensemble, grand canonical ensemble and isothermal–isobaric ensemble. The generalized Boltzmann distribution is usually derived from principle of maximum entropy, but there are other derivations.[10][11]
+The generalized Boltzmann distribution has the following properties:
+The Boltzmann distribution appears in statistical mechanics when considering closed systems of fixed composition that are in thermal equilibrium (equilibrium with respect to energy exchange). The most general case is the probability distribution for the canonical ensemble. Some special cases (derivable from the canonical ensemble) show the Boltzmann distribution in different aspects:
+Although these cases have strong similarities, it is helpful to distinguish them as they generalize in different ways when the crucial assumptions are changed:
+In more general mathematical settings, the Boltzmann distribution is also known as the Gibbs measure. In statistics and machine learning, it is called a log-linear model. In deep learning, the Boltzmann distribution is used in the sampling distribution of stochastic neural networks such as the Boltzmann machine, restricted Boltzmann machine, energy-based models and deep Boltzmann machine. In deep learning, the Boltzmann machine is considered to be one of the unsupervised learning models. In the design of Boltzmann machine in deep learning , as the number of nodes are increased the difficulty of implementing in real time applications becomes critical, so a different type of architecture named  Restricted Boltzmann machine is introduced.
+The Boltzmann distribution can be introduced to allocate permits in emissions trading.[13][14] The new allocation method using the Boltzmann distribution can describe the most probable, natural, and unbiased distribution of emissions permits among multiple countries.
+The Boltzmann distribution has the same form as the multinomial logit model. As a discrete choice model, this is very well known in economics since Daniel McFadden made the connection to random utility maximization.[15]

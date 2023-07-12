@@ -1,0 +1,775 @@
+10103,
+Electroweakinteraction,
+In particle physics, the electroweak interaction or electroweak force is the unified description of two of the four known fundamental interactions of nature: electromagnetism (electromagnetic interaction) and the weak interaction. Although these two forces appear very different at everyday low energies, the theory models them as two different aspects of the same force. Above the unification energy, on the order of 246 GeV,[a] they would merge into a single force. Thus, if the temperature is high enough – approximately 1015 K – then the electromagnetic force and weak force merge into a combined electroweak force. During the quark epoch (shortly after the Big Bang), the electroweak force split into the electromagnetic and weak force. It is thought that the required temperature of 1015 K has not been seen widely throughout the universe since before the quark epoch, and currently the highest human-made temperature in thermal equilibrium is around 5.5x1012 K (from the Large Hadron Collider).
+Sheldon Glashow,[1] Abdus Salam,[2] and Steven Weinberg[3] were awarded the 1979 Nobel Prize in Physics for their contributions to the unification of the weak and electromagnetic interaction between elementary particles, known as the Weinberg–Salam theory.[4][5] The existence of the electroweak interactions was experimentally established in two stages, the first being the discovery of neutral currents in neutrino scattering by the Gargamelle collaboration in 1973, and the second in 1983 by the UA1 and the UA2 collaborations that involved the discovery of the W and Z gauge bosons in proton–antiproton collisions at the converted Super Proton Synchrotron. In 1999, Gerardus 't Hooft and Martinus Veltman were awarded the Nobel prize for showing that the electroweak theory is renormalizable.
+After the Wu experiment in 1956 discovered parity violation in the weak interaction, a search began for a way to relate the weak and electromagnetic interactions. Extending his doctoral advisor Julian Schwinger's work, Sheldon Glashow first experimented with introducing two different symmetries, one chiral and one achiral, and combined them such that their overall symmetry was unbroken. This did not yield a renormalizable theory, and its gauge symmetry had to be broken by hand as no spontaneous mechanism was known, but it predicted a new particle, the Z boson. This received little notice, as it matched no experimental finding.
+In 1964, Salam and Ward[6] had the same idea, but predicted a massless photon and three massive gauge bosons with a manually broken symmetry. Later around 1967, while investigating spontaneous symmetry breaking, Weinberg found a set of symmetries predicting a massless, neutral gauge boson. Initially rejecting such a particle as useless, he later realized his symmetries produced the electroweak force, and he proceeded to predict rough masses for the W and Z bosons. Significantly, he suggested this new theory was renormalizable.[3] In 1971, Gerard 't Hooft proved that spontaneously broken gauge symmetries are renormalizable even with massive gauge bosons.
+Mathematically, electromagnetism is unified with the weak interactions as a Yang–Mills field with an SU(2) × U(1) gauge group, which describes the formal operations that can be applied to the electroweak gauge fields without changing the dynamics of the system. These fields are the weak isospin fields W1, W2, and W3, and the weak hypercharge field B.
+This invariance is known as electroweak symmetry.
+The generators of SU(2) and U(1) are given the name weak isospin (labeled T ) and weak hypercharge (labeled Y ) respectively. These then give rise to the gauge bosons which mediate the electroweak interactions – the three W bosons of weak isospin (W1, W2, and W3), and the B boson of weak hypercharge, respectively, all of which are "initially" massless. These are not physical fields yet, before spontaneous symmetry breaking and the associated Higgs mechanism.
+In the Standard Model, the observed physical particles, the W± and Z0 bosons, and the photon, are produced through the spontaneous symmetry breaking of the electroweak symmetry SU(2) × U(1)Y to U(1)em,[b] effected by the Higgs mechanism (see also Higgs boson), an elaborate quantum-field-theoretic phenomenon that "spontaneously" alters the realization of the symmetry and rearranges degrees of freedom.[8][9][10][11]
+The electric charge arises as the particular linear combination (nontrivial) of YW (weak hypercharge) and the T3 component of weak isospin 
+
+
+
+ 
+
+(
+
+
+Q
+=
+
+T
+
+3
+
+
++
+
+
+
+1
+2
+
+
+
+
+
+Y
+
+
+W
+
+
+
+
+
+)
+
+ 
+
+
+{\displaystyle ~\left(\,Q=T_{3}+{\tfrac {1}{2}}\,Y_{\mathrm {W} }\,\right)~}
+
+ that does not couple to the Higgs boson. That is to say: The Higgs and the electromagnetic field have no effect on each other, at the level of the fundamental forces ("tree level"), while any other combination of the hypercharge and the weak isospin must interact with the Higgs. This causes an apparent separation between the weak force, which interacts with the Higgs, and electromagnetism, which does not. Mathematically, the electric charge is a specific combination of the hypercharge and T3 outlined in the figure.
+U(1)em (the symmetry group of electromagnetism only) is defined to be the group generated by this special linear combination, and the symmetry described by the U(1)em group is unbroken, since it does not directly interact with the Higgs.[c]
+The above spontaneous symmetry breaking makes the W3 and B bosons coalesce into two different physical bosons with different masses – the Z0 boson, and the photon (γ),
+where θW is the weak mixing angle. The axes representing the particles have essentially just been rotated, in the (W3, B) plane, by the angle θW. This also introduces a mismatch between the mass of the Z0 and the mass of the W± particles (denoted as mZ and mW, respectively),
+The W1 and W2 bosons, in turn, combine to produce the charged massive bosons W±:
+The Lagrangian for the electroweak interactions is divided into four parts before electroweak symmetry breaking becomes manifest,
+The 
+
+
+
+
+
+
+L
+
+
+
+g
+
+
+
+
+{\displaystyle {\mathcal {L}}_{g}}
+
+ term describes the interaction between the three W  vector bosons and the B vector boson, 
+where 
+
+
+
+
+W
+
+a
+μ
+ν
+
+
+
+
+{\displaystyle W^{a\mu \nu }}
+
+ (
+
+
+
+a
+=
+1
+,
+2
+,
+3
+
+
+{\displaystyle a=1,2,3}
+
+) and 
+
+
+
+
+B
+
+μ
+ν
+
+
+
+
+{\displaystyle B^{\mu \nu }}
+
+ are the field strength tensors for the weak isospin and weak hypercharge gauge fields.
+
+
+
+
+
+
+
+L
+
+
+
+f
+
+
+
+
+{\displaystyle {\mathcal {L}}_{f}}
+
+ is the kinetic term for the Standard Model fermions. The interaction of the gauge bosons and the fermions are through the gauge covariant derivative,
+where the subscript j sums over the three generations of fermions; Q, u, and d are the left-handed doublet, right-handed singlet up, and right handed singlet down quark fields; and L and e are the left-handed doublet and right-handed singlet electron fields.
+The Feynman slash 
+
+
+
+D
+
+
+
+
+
+/
+
+
+
+{\displaystyle D\!\!\!\!/}
+
+ means the contraction of the 4-gradient with the Dirac matrices, defined as
+and the covariant derivative (excluding the gluon gauge field for the strong interaction) is defined as
+Here 
+
+
+
+ 
+Y
+ 
+
+
+{\displaystyle \ Y\ }
+
+ is the weak hypercharge and the 
+
+
+
+ 
+
+T
+
+j
+
+
+ 
+
+
+{\displaystyle \ T_{j}\ }
+
+ are the components of the weak isospin.
+The 
+
+
+
+
+
+
+L
+
+
+
+h
+
+
+
+
+{\displaystyle {\mathcal {L}}_{h}}
+
+ term describes the Higgs field 
+
+
+
+h
+
+
+{\displaystyle h}
+
+ and its interactions with itself and the gauge bosons,
+where 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ is the vacuum expectation value.
+The 
+
+
+
+ 
+
+
+
+L
+
+
+
+y
+
+
+ 
+
+
+{\displaystyle \ {\mathcal {L}}_{y}\ }
+
+ term describes the Yukawa interaction with the fermions, 
+and generates their masses,  manifest when the Higgs field acquires a nonzero vacuum expectation value, discussed next. The 
+
+
+
+ 
+
+y
+
+k
+
+
+i
+j
+
+
+ 
+,
+
+
+{\displaystyle \ y_{k}^{ij}\ ,}
+
+ for 
+
+
+
+ 
+k
+∈
+{
+
+u
+,
+d
+,
+e
+
+}
+ 
+,
+
+
+{\displaystyle \ k\in \{\mathrm {u,d,e} \}\ ,}
+
+ are matrices of Yukawa couplings.
+The Lagrangian reorganizes itself as the Higgs boson acquires a non-vanishing vacuum expectation value dictated by the potential of the previous section. As a result of this rewriting, the symmetry breaking becomes manifest. In the history of the universe, this is believed to have happened shortly after the hot big bang, when the universe was at a temperature 159.5±1.5 GeV[12]
+(assuming the Standard Model of particle physics).
+Due to its complexity, this Lagrangian is best described by breaking it up into several parts as follows.
+The kinetic term 
+
+
+
+
+
+
+L
+
+
+
+K
+
+
+
+
+{\displaystyle {\mathcal {L}}_{K}}
+
+ contains all the quadratic terms of the Lagrangian, which include the dynamic terms (the partial derivatives) and the mass terms (conspicuously absent from the Lagrangian before symmetry breaking)
+where the sum runs over all the fermions of the theory (quarks and leptons), and the fields 
+
+
+
+ 
+
+A
+
+μ
+ν
+
+
+ 
+,
+
+
+{\displaystyle \ A_{\mu \nu }\ ,}
+
+ 
+
+
+
+ 
+
+Z
+
+μ
+ν
+
+
+ 
+,
+
+
+{\displaystyle \ Z_{\mu \nu }\ ,}
+
+ 
+
+
+
+ 
+
+W
+
+μ
+ν
+
+
+−
+
+
+ 
+,
+
+
+{\displaystyle \ W_{\mu \nu }^{-}\ ,}
+
+ and 
+
+
+
+ 
+
+W
+
+μ
+ν
+
+
++
+
+
+≡
+(
+
+W
+
+μ
+ν
+
+
+−
+
+
+
+)
+
+†
+
+
+ 
+
+
+{\displaystyle \ W_{\mu \nu }^{+}\equiv (W_{\mu \nu }^{-})^{\dagger }\ }
+
+ are given as
+with '
+
+
+
+X
+
+
+{\displaystyle X}
+
+' to be replaced by the relevant field (
+
+
+
+A
+
+
+{\displaystyle A}
+
+, 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+, 
+
+
+
+
+W
+
+±
+
+
+
+
+{\displaystyle W^{\pm }}
+
+), and  f abc  by the structure constants of the appropriate gauge group.
+The neutral current 
+
+
+
+ 
+
+
+
+L
+
+
+
+
+N
+
+
+
+ 
+
+
+{\displaystyle \ {\mathcal {L}}_{\mathrm {N} }\ }
+
+ and charged current 
+
+
+
+ 
+
+
+
+L
+
+
+
+
+C
+
+
+
+ 
+
+
+{\displaystyle \ {\mathcal {L}}_{\mathrm {C} }\ }
+
+ components of the Lagrangian contain the interactions between the fermions and gauge bosons,
+where 
+
+
+
+ 
+e
+=
+g
+ 
+sin
+⁡
+
+θ
+
+
+W
+
+
+
+=
+
+g
+′
+
+ 
+cos
+⁡
+
+θ
+
+
+W
+
+
+
+ 
+.
+
+
+{\displaystyle ~e=g\ \sin \theta _{\mathrm {W} }=g'\ \cos \theta _{\mathrm {W} }~.}
+
+ The electromagnetic current 
+
+
+
+
+
+J
+
+μ
+
+
+
+e
+m
+
+
+
+
+
+
+{\displaystyle \;J_{\mu }^{\mathrm {em} }\;}
+
+ is
+where 
+
+
+
+ 
+
+q
+
+f
+
+
+ 
+
+
+{\displaystyle \ q_{f}\ }
+
+ is the fermions' electric charges. 
+The neutral weak current 
+
+
+
+ 
+
+J
+
+μ
+
+
+3
+
+
+ 
+
+
+{\displaystyle \ J_{\mu }^{3}\ }
+
+ is
+where 
+
+
+
+
+T
+
+f
+
+
+3
+
+
+
+
+{\displaystyle T_{f}^{3}}
+
+ is the fermions' weak isospin.[d]
+The charged current part of the Lagrangian is given by
+where 
+
+
+
+ 
+ν
+ 
+
+
+{\displaystyle \ \nu \ }
+
+ is the right-handed singlet neutrino field, and the CKM matrix 
+
+
+
+ 
+
+M
+
+i
+j
+
+
+
+C
+K
+M
+
+
+
+ 
+
+
+{\displaystyle \ M_{ij}^{\mathrm {CKM} }\ }
+
+ determines the mixing between mass and weak eigenstates of the quarks.[d]
+
+
+
+
+
+
+
+L
+
+
+
+
+H
+
+
+
+
+
+{\displaystyle {\mathcal {L}}_{\mathrm {H} }}
+
+ contains the Higgs three-point and four-point self interaction terms,
+
+
+
+
+
+
+
+L
+
+
+
+
+H
+V
+
+
+
+
+
+{\displaystyle {\mathcal {L}}_{\mathrm {HV} }}
+
+ contains the Higgs interactions with gauge vector bosons,
+
+
+
+
+ 
+
+
+
+L
+
+
+
+
+W
+W
+V
+
+
+
+ 
+
+
+{\displaystyle \ {\mathcal {L}}_{\mathrm {WWV} }\ }
+
+ contains the gauge three-point self interactions,
+
+
+
+
+ 
+
+
+
+L
+
+
+
+
+W
+W
+V
+V
+
+
+
+ 
+
+
+{\displaystyle \ {\mathcal {L}}_{\mathrm {WWVV} }\ }
+
+ contains the gauge four-point self interactions,
+
+
+
+
+ 
+
+
+
+L
+
+
+
+
+Y
+
+
+
+ 
+
+
+{\displaystyle \ {\mathcal {L}}_{\mathrm {Y} }\ }
+
+ contains the Yukawa interactions between the fermions and the Higgs field,
+
+

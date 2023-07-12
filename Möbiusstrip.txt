@@ -1,0 +1,639 @@
+37817,
+Möbiusstrip,
+
+
+In mathematics, a Möbius strip, Möbius band, or Möbius loop[a] is a surface that can be formed by attaching the ends of a strip of paper together with a half-twist. As a mathematical object, it was discovered by Johann Benedict Listing and August Ferdinand Möbius in 1858, but it had already appeared in Roman mosaics from the third century CE. The Möbius strip is a non-orientable surface, meaning that within it one cannot consistently distinguish clockwise from counterclockwise turns. Every non-orientable surface contains a Möbius strip.
+As an abstract topological space, the Möbius strip can be embedded into three-dimensional Euclidean space in many different ways: a clockwise half-twist is different from a counterclockwise half-twist, and it can also be embedded with odd numbers of twists greater than one, or with a knotted centerline. Any two embeddings with the same knot for the centerline and the same number and direction of twists are topologically equivalent. All of these embeddings have only one side, but when embedded in other spaces, the Möbius strip may have two sides. It has only a single boundary curve.
+Several geometric constructions of the Möbius strip provide it with additional structure. It can be swept as a ruled surface by a line segment rotating in a rotating plane, with or without self-crossings. A thin paper strip with its ends joined to form a Möbius strip can bend smoothly as a developable surface or be folded flat; the flattened Möbius strips include the trihexaflexagon. The Sudanese Möbius strip is a minimal surface in a hypersphere, and the Meeks Möbius strip is a self-intersecting minimal surface in ordinary Euclidean space. Both the Sudanese Möbius strip and another self-intersecting Möbius strip, the cross-cap, have a circular boundary. A Möbius strip without its boundary, called an open Möbius strip, can form surfaces of constant curvature. Certain highly-symmetric spaces whose points represent lines in the plane have the shape of a Möbius strip.
+The many applications of Möbius strips include mechanical belts that wear evenly on both sides, dual-track roller coasters whose carriages alternate between the two tracks, and world maps printed so that antipodes appear opposite each other. Möbius strips appear in molecules and devices with novel electrical and electromechanical properties, and have been used to prove impossibility results in social choice theory. In popular culture, Möbius strips appear in artworks by M. C. Escher, Max Bill, and others, and in the design of the recycling symbol. Many architectural concepts have been inspired by the Möbius strip, including the building design for the NASCAR Hall of Fame. Performers including Harry Blackstone Sr. and Thomas Nelson Downs have based stage magic tricks on the properties of the Möbius strip. The canons of J. S. Bach have been analyzed using Möbius strips. Many works of speculative fiction feature Möbius strips; more generally, a plot structure based on the Möbius strip, of events that repeat with a twist, is common in fiction.
+The discovery of the Möbius strip as a mathematical object is attributed independently to the German mathematicians Johann Benedict Listing and August Ferdinand Möbius in 1858.[2] However, it had been known long before, both as a physical object and in artistic depictions; in particular, it can be seen in several Roman mosaics from the third century CE.[3][4] In many cases these merely depict coiled ribbons as boundaries. When the number of coils is odd, these ribbons are Möbius strips, but for an even number of coils they are topologically equivalent to untwisted rings. Therefore, whether the ribbon is a Möbius strip may be coincidental, rather than a deliberate choice. In at least one case, a ribbon with different colors on different sides was drawn with an odd number of coils, forcing its artist to make a clumsy fix at the point where the colors did not match up.[3] Another mosaic from the town of Sentinum (depicted) shows the zodiac, held by the god Aion, as a band with only a single twist. There is no clear evidence that the one-sidedness of this visual representation of celestial time was intentional; it could have been chosen merely as a way to make all of the signs of the zodiac appear on the visible side of the strip. Some other ancient depictions of the ourobouros or of figure-eight-shaped decorations are also alleged to depict Möbius strips, but whether they were intended to depict flat strips of any type is unclear.[4]
+Independently of the mathematical tradition, machinists have long known that mechanical belts wear half as quickly when they form Möbius strips, because they use the entire surface of the belt rather than only the inner surface of an untwisted belt.[3] Additionally, such a belt may be less prone to curling from side to side. An early written description of this technique dates to 1871, which is after the first mathematical publications regarding the Möbius strip. Much earlier, an image of a chain pump in a work of Ismail al-Jazari from 1206 depicts a Möbius strip configuration for its drive chain.[4] Another use of this surface was made by seamstresses in Paris (at an unspecified date): they initiated novices by requiring them to stitch a Möbius strip as a collar onto a garment.[3]
+The Möbius strip has several curious properties. It is a non-orientable surface: if an asymmetric two-dimensional object slides one time around the strip, it returns to its starting position as its mirror image. In particular, a curved arrow pointing clockwise (↻) would return as an arrow pointing counterclockwise (↺), implying that, within the Möbius strip, it is impossible to consistently define what it means to be clockwise or counterclockwise. It is the simplest non-orientable surface: any other surface is non-orientable if and only if it has a Möbius strip as a subset.[5] Relatedly, when embedded into Euclidean space, the Möbius strip has only one side. A three-dimensional object that slides one time around the surface of the strip is not mirrored, but instead returns to the same point of the strip on what appears locally to be its other side, showing that both positions are really part of a single side. This behavior is different from familiar orientable surfaces in three dimensions such as those modeled by flat sheets of paper, cylindrical drinking straws, or hollow balls, for which one side of the surface is not connected to the other.[6] However, this is a property of its embedding into space rather than an intrinsic property of the Möbius strip itself: there exist other topological spaces in which the Möbius strip can be embedded so that it has two sides.[7] For instance, if the front and back faces of a cube are glued to each other with a left-right mirror reflection, the result is a three-dimensional topological space (the Cartesian product of a Möbius strip with an interval) in which the top and bottom halves of the cube can be separated from each other by a two-sided Möbius strip.[b] In contrast to disks, spheres, and cylinders, for which it is possible to simultaneously embed an uncountable set of disjoint copies into three-dimensional space, only a countable number of Möbius strips can be simultaneously embedded.[9][10][11]
+A path along the edge of a Möbius strip, traced until it returns to its starting point on the edge, includes all boundary points of the Möbius strip in a single continuous curve. For a Möbius strip formed by gluing and twisting a rectangle, it has twice the length of the centerline of the strip. In this sense, the Möbius strip is different from an untwisted ring and like a circular disk in having only one boundary.[6] A Möbius strip in Euclidean space cannot be moved or stretched into its mirror image; it is a chiral object with right- or left-handedness.[12] Möbius strips with odd numbers of half-twists greater than one, or that are knotted before gluing, are distinct as embedded subsets of three-dimensional space, even though they are all equivalent as two-dimensional topological surfaces.[13] More precisely, two Möbius strips are equivalently embedded in three-dimensional space when their centerlines determine the same knot and they have the same number of twists as each other.[14] With an even number of twists, however, one obtains a different topological surface, called the annulus.[15]
+The Möbius strip can be continuously transformed into its centerline, by making it narrower while fixing the points on the centerline. This transformation is an example of a deformation retraction, and its existence means that the Möbius strip has many of the same properties as its centerline, which is topologically a circle. In particular, its fundamental group is the same as the fundamental group of a circle, an infinite cyclic group. Therefore, paths on the Möbius strip that start and end at the same point can be distinguished topologically (up to homotopy) only by the number of times they loop around the strip.[16]
+Cutting a Möbius strip along the centerline with a pair of scissors yields one long strip with four half-twists in it (relative to an untwisted annulus or cylinder) rather than two separate strips. Two of the half-twists come from the fact that this thinner strip goes two times through the half-twist in the original Möbius strip, and the other two come from the way the two halves of the thinner strip wrap around each other. The result is not a Möbius strip, but instead is topologically equivalent to a cylinder. Cutting this double-twisted strip again along its centerline produces two linked double-twisted strips. If, instead, a Möbius strip is cut lengthwise, a third of the way across its width, it produces two linked strips. One of the two is a central, thinner, Möbius strip, while the other has two half-twists.[6] These interlinked shapes, formed by lengthwise slices of Möbius strips with varying widths, are sometimes called paradromic rings.[17][18]
+The Möbius strip can be cut into six mutually-adjacent regions, showing that maps on the surface of the Möbius strip can sometimes require six colors, in contrast to the four color theorem for the plane.[19] Six colors are always enough. This result is part of the Ringel–Youngs theorem, which states how many colors each topological surface needs.[20] The edges and vertices of these six regions form Tietze's graph, which is a dual graph on this surface for the six-vertex complete graph but cannot be drawn without crossings on a plane. Another family of graphs that can be embedded on the Möbius strip, but not n the plane, are the Möbius ladders, the boundaries of subdivisions of the Möbius strip into rectangles meeting end-to-end.[21] These include the utility graph, a six-vertex complete bipartite graph whose embedding into the Möbius strip shows that, unlike in the plane, the three utilities problem can be solved on a transparent Möbius strip.[22] The Euler characteristic of the Möbius strip is zero, meaning that for any subdivision of the strip by vertices and edges into regions, the numbers 
+
+
+
+V
+
+
+{\displaystyle V}
+
+, 
+
+
+
+E
+
+
+{\displaystyle E}
+
+, and 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ of vertices, edges, and regions satisfy 
+
+
+
+V
+−
+E
++
+F
+=
+0
+
+
+{\displaystyle V-E+F=0}
+
+. For instance, Tietze's graph has 
+
+
+
+12
+
+
+{\displaystyle 12}
+
+ vertices, 
+
+
+
+18
+
+
+{\displaystyle 18}
+
+ edges, and 
+
+
+
+6
+
+
+{\displaystyle 6}
+
+ regions; 
+
+
+
+12
+−
+18
++
+6
+=
+0
+
+
+{\displaystyle 12-18+6=0}
+
+.[19]
+There are many different ways of defining geometric surfaces with the topology of the Möbius strip, yielding realizations with additional geometric properties.
+One way to embed the Möbius strip in three-dimensional Euclidean space is to sweep it out by a line segment rotating in a plane, which in turn rotates around one of its lines.[23] For the swept surface to meet up with itself after a half-twist, the line segment should rotate around its center at half the angular velocity of the plane's rotation. This can be described as a parametric surface defined by equations for the Cartesian coordinates of its points,
+
+
+
+
+
+
+
+
+x
+(
+u
+,
+v
+)
+
+
+
+=
+
+(
+
+1
++
+
+
+v
+2
+
+
+cos
+⁡
+
+
+u
+2
+
+
+
+)
+
+cos
+⁡
+u
+
+
+
+
+y
+(
+u
+,
+v
+)
+
+
+
+=
+
+(
+
+1
++
+
+
+v
+2
+
+
+cos
+⁡
+
+
+u
+2
+
+
+
+)
+
+sin
+⁡
+u
+
+
+
+
+z
+(
+u
+,
+v
+)
+
+
+
+=
+
+
+v
+2
+
+
+sin
+⁡
+
+
+u
+2
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}x(u,v)&=\left(1+{\frac {v}{2}}\cos {\frac {u}{2}}\right)\cos u\\y(u,v)&=\left(1+{\frac {v}{2}}\cos {\frac {u}{2}}\right)\sin u\\z(u,v)&={\frac {v}{2}}\sin {\frac {u}{2}}\\\end{aligned}}}
+
+
+for 
+
+
+
+0
+≤
+u
+<
+2
+π
+
+
+{\displaystyle 0\leq u<2\pi }
+
+ and 
+
+
+
+−
+1
+≤
+v
+≤
+1
+
+
+{\displaystyle -1\leq v\leq 1}
+
+,
+where one parameter 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ describes the rotation angle of the plane around its central axis and the other parameter 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ describes the position of a point along the rotating line segment. This produces a Möbius strip of width 1, whose center circle has radius 1, lies in the 
+
+
+
+x
+y
+
+
+{\displaystyle xy}
+
+-plane and is centered at 
+
+
+
+(
+0
+,
+0
+,
+0
+)
+
+
+{\displaystyle (0,0,0)}
+
+.[24] The same method can produce Möbius strips with any odd number of half-twists, by rotating the segment more quickly in its plane. The rotating segment sweeps out a circular disk in the plane that it rotates within, and the Möbius strip that it generates forms a slice through the solid torus swept out by this disk. Because of the one-sidedness of this slice, the sliced torus remains connected.[25]
+A line or line segment swept in a different motion, rotating in a horizontal plane around the origin as it moves up and down, forms Plücker's conoid or cylindroid, an algebraic ruled surface in the form of a self-crossing Möbius strip.[26] It has applications in the design of gears.[27]
+A strip of paper can form a flattened Möbius strip in the plane by folding it at 
+
+
+
+
+60
+
+∘
+
+
+
+
+{\displaystyle 60^{\circ }}
+
+ angles so that its center line lies along an equilateral triangle, and attaching the ends. The shortest strip for which this is possible consists of three equilateral triangles, folded at the edges where two triangles meet. Its aspect ratio – the ratio of the strip's length[c] to its width – is 
+
+
+
+
+
+3
+
+
+≈
+1.73
+
+
+{\displaystyle {\sqrt {3}}\approx 1.73}
+
+, and the same folding method works for any larger aspect ratio.[28][29] For a strip of nine equilateral triangles, the result is a trihexaflexagon, which can be flexed to reveal different parts of its surface.[30] For strips too short to apply this method directly, one can first "accordion fold" the strip in its wide direction back and forth using an even number of folds. With two folds, for example, a 
+
+
+
+1
+×
+1
+
+
+{\displaystyle 1\times 1}
+
+ strip would become a 
+
+
+
+1
+×
+
+
+
+1
+3
+
+
+
+
+
+{\displaystyle 1\times {\tfrac {1}{3}}}
+
+ folded strip whose cross section is in the shape of an 'N' and would remain an 'N' after a half-twist. The narrower accordion-folded strip can then be folded and joined in the same way that a longer strip would be.[28][29]
+The Möbius strip can also be embedded as a polyhedral surface in space or flat-folded in the plane, with only five triangular faces sharing five vertices. In this sense, it is simpler than the cylinder, which requires six triangles and six vertices, even when represented more abstractly as a simplicial complex.[31][d] A five-triangle Möbius strip can be represented most symmetrically by five of the ten equilateral triangles of a four-dimensional regular simplex. This four-dimensional polyhedral Möbius strip is the only tight Möbius strip, one that is fully four-dimensional and for which all cuts by hyperplanes separate it into two parts that are topologically equivalent to disks or circles.[32]
+Other polyhedral embeddings of Möbius strips include one with four convex quadrilaterals as faces, another with three non-convex quadrilateral faces,[33] and one using the vertices and center point of a regular octahedron, with a triangular boundary.[34] Every abstract triangulation of the projective plane can be embedded into 3D as a polyhedral Möbius strip with a triangular boundary after removing one of its faces;[35] an example is the six-vertex projective plane obtained by adding one vertex to the five-vertex Möbius strip, connected by triangles to each of its boundary edges.[31] However, not every abstract triangulation of the Möbius strip can be represented geometrically, as a polyhedral surface.[36] To be realizable, it is necessary and sufficient that there be no two disjoint non-contractible 3-cycles in the triangulation.[37]
+A rectangular Möbius strip, made by attaching the ends of a paper rectangle, can be embedded smoothly into three-dimensional space whenever its aspect ratio is greater than 
+
+
+
+
+
+3
+
+
+≈
+1.73
+
+
+{\displaystyle {\sqrt {3}}\approx 1.73}
+
+, the same ratio as for the flat-folded equilateral-triangle version of the Möbius strip.[38] This flat triangular embedding can lift to a smooth[e] embedding in three dimensions, in which the strip lies flat in three parallel planes between three cylindrical rollers, each tangent to two of the planes.[38] Mathematically, a smoothly embedded sheet of paper can be modeled as a developable surface, that can bend but cannot stretch.[39][40] As its aspect ratio decreases toward 
+
+
+
+
+
+3
+
+
+
+
+{\displaystyle {\sqrt {3}}}
+
+, all smooth embeddings seem to approach the same triangular form.[41]
+The lengthwise folds of an accordion-folded flat Möbius strip prevent it from forming a three-dimensional embedding in which the layers are separated from each other and bend smoothly without crumpling or stretching away from the folds.[29] Instead, unlike in the flat-folded case, there is a lower limit to the aspect ratio of smooth rectangular Möbius strips. Their aspect ratio cannot be less than 
+
+
+
+π
+
+/
+
+2
+≈
+1.57
+
+
+{\displaystyle \pi /2\approx 1.57}
+
+, even if self-intersections are allowed. Self-intersecting smooth Möbius strips exist for any aspect ratio above this bound.[29][42] Without self-intersections, the aspect ratio must be at least[43]
+
+
+
+
+
+
+
+2
+
+
+4
+−
+2
+
+
+3
+
+
+
+
++
+4
+
+
+
+
+2
+
+
+3
+
+
+
+
++
+2
+
+
+2
+
+
+3
+
+
+−
+3
+
+
+
+
+
+≈
+1.695.
+
+
+{\displaystyle {\frac {2{\sqrt {4-2{\sqrt {3}}}}+4}{{\sqrt {2{\sqrt {3}}}}+2{\sqrt {2{\sqrt {3}}-3}}}}\approx 1.695.}
+
+
+Can a 
+
+
+
+12
+×
+7
+
+
+{\displaystyle 12\times 7}
+
+ paper rectangle be glued end-to-end to form a smooth Möbius strip embedded in space? [f]For aspect ratios between this bound and 
+
+
+
+
+
+3
+
+
+
+
+{\displaystyle {\sqrt {3}}}
+
+, it is unknown whether smooth embeddings, without self-intersection, exist.[29][42][43] If the requirement of smoothness is relaxed to allow continuously differentiable surfaces, the Nash–Kuiper theorem implies that any two opposite edges of any rectangle can be glued to form an embedded Möbius strip, no matter how small the aspect ratio becomes.[g] The limiting case, a surface obtained from an infinite strip of the plane between two parallel lines, glued with the opposite orientation to each other, is called the unbounded Möbius strip or the real tautological line bundle.[44] Although it has no smooth embedding into three-dimensional space, it can be embedded smoothly into four-dimensional Euclidean space.[45]
+The minimum-energy shape of a smooth Möbius strip glued from a rectangle does not have a known analytic description, but can be calculated numerically, and has been the subject of much study in plate theory since the initial work on this subject in 1930 by Michael Sadowsky.[39][40] It is also possible to find algebraic surfaces that contain rectangular developable Möbius strips.[46][47]
+The edge, or boundary, of a Möbius strip is topologically equivalent to a circle. In common forms of the Möbius strip, it has a different shape from a circle, but it is unknotted, and therefore the whole strip can be stretched without crossing itself to make the edge perfectly circular.[48] One such example is based on the topology of the Klein bottle, a one-sided surface with no boundary that cannot be embedded into three-dimensional space, but can be immersed (allowing the surface to cross itself in certain restricted ways). A Klein bottle is the surface that results when two Möbius strips are glued together edge-to-edge, and – reversing that process – a Klein bottle can be sliced along a carefully chosen cut to produce two Möbius strips.[49] For a form of the Klein bottle known as Lawson's Klein bottle, the curve along which it is sliced can be made circular, resulting in Möbius strips with circular edges.[50]
+Lawson's Klein bottle is a self-crossing minimal surface in the unit hypersphere of 4-dimensional space, the set of points of the form 
+
+
+
+(
+cos
+⁡
+θ
+cos
+⁡
+ϕ
+,
+sin
+⁡
+θ
+cos
+⁡
+ϕ
+,
+cos
+⁡
+2
+θ
+sin
+⁡
+ϕ
+,
+sin
+⁡
+2
+θ
+sin
+⁡
+ϕ
+)
+
+
+{\displaystyle (\cos \theta \cos \phi ,\sin \theta \cos \phi ,\cos 2\theta \sin \phi ,\sin 2\theta \sin \phi )}
+
+ for 
+
+
+
+0
+≤
+θ
+<
+π
+,
+0
+≤
+ϕ
+<
+2
+π
+
+
+{\displaystyle 0\leq \theta <\pi ,0\leq \phi <2\pi }
+
+.[51] Half of this Klein bottle, the subset with 
+
+
+
+0
+≤
+ϕ
+<
+π
+
+
+{\displaystyle 0\leq \phi <\pi }
+
+, gives a Möbius strip embedded in the hypersphere as a minimal surface with a great circle as its boundary.[52] This embedding is sometimes called the "Sudanese Möbius strip" after topologists Sue Goodman and Daniel Asimov, who discovered it in the 1970s.[53] Geometrically Lawson's Klein bottle can be constructed by sweeping a great circle through a great-circular motion in the 3-sphere, and the Sudanese Möbius strip is obtained by sweeping a semicircle instead of a circle, or equivalently by slicing the Klein bottle along a circle that is perpendicular to all of the swept circles.[50][54] Stereographic projection transforms this shape from a three-dimensional spherical space into three-dimensional Euclidean space, preserving the circularity of its boundary.[50] The most symmetric projection is obtained by using a projection point that lies on that great circle that runs through the midpoint of each of the semicircles, but produces an unbounded embedding with the projection point removed from its centerline.[52] Instead, leaving the Sudanese Möbius strip unprojected, in the 3-sphere, leaves it with an infinite group of symmetries isomorphic to the orthogonal group 
+
+
+
+
+O
+
+(
+2
+)
+
+
+{\displaystyle \mathrm {O} (2)}
+
+, the group of symmetries of a circle.[51]
+The Sudanese Möbius strip extends on all sides of its boundary circle, unavoidably if the surface is to avoid crossing itself. Another form of the Möbius strip, called the cross-cap or crosscap, also has a circular boundary, but otherwise stays on only one side of the plane of this circle,[55] making it more convenient for attaching onto circular holes in other surfaces. In order to do so, it crosses itself. It can be formed by removing a quadrilateral from the top of a hemisphere, orienting the edges of the quadrilateral in alternating directions, and then gluing opposite pairs of these edges consistently with this orientation.[56] The two parts of the surface formed by the two glued pairs of edges cross each other with a pinch point like that of a Whitney umbrella at each end of the crossing segment,[57] the same topological structure seen in Plücker's conoid.[26]
+The open Möbius strip is the relative interior of a standard Möbius strip, formed by omitting the points on its boundary edge. It may be given a Riemannian geometry of constant positive, negative, or zero Gaussian curvature. The cases of negative and zero curvature form geodesically complete surfaces, which means that all geodesics ("straight lines" on the surface) may be extended indefinitely in either direction.
+The minimal surfaces are described as having constant zero mean curvature instead of constant Gaussian curvature. The Sudanese Möbius strip was constructed as a minimal surface bounded by a great circle in a 3-sphere, but there is also a unique complete (boundaryless) minimal surface immersed in Euclidean space that has the topology of an open Möbius strip. It is called the Meeks Möbius strip,[62] after its 1982 description by William Hamilton Meeks, III.[63] Although globally unstable as a minimal surface, small patches of it, bounded by non-contractible curves within the surface, can form stable embedded Möbius strips as minimal surfaces.[64] Both the Meeks Möbius strip, and every higher-dimensional minimal surface with the topology of the Möbius strip, can be constructed using solutions to the Björling problem, which defines a minimal surface uniquely from its boundary curve and tangent planes along this curve.[65]
+The family of lines in the plane can be given the structure of a smooth space, with each line represented as a point in this space. The resulting space of lines is topologically equivalent to the open Möbius strip.[66] One way to see this is to extend the Euclidean plane to the real projective plane by adding one more line, the line at infinity. By projective duality the space of lines in the projective plane is equivalent to its space of points, the projective plane itself. Removing the line at infinity, to produce the space of Euclidean lines, punctures this space of projective lines.[67] Therefore, the space of Euclidean lines is a punctured projective plane, which is one of the forms of the open Möbius strip.[61] The space of lines in the hyperbolic plane can be parameterized by unordered pairs of distinct points on a circle, the pairs of points at infinity of each line. This space, again, has the topology of an open Möbius strip.[68]
+These spaces of lines are highly symmetric. The symmetries of Euclidean lines include the affine transformations, and the symmetries of hyperbolic lines include the Möbius transformations.[69] The affine transformations and Möbius transformations both form 6-dimensional Lie groups, topological spaces having a compatible algebraic structure describing the composition of symmetries.[70][71] Because every line in the plane is symmetric to every other line, the open Möbius strip is a homogeneous space, a space with symmetries that take every point to every other point. Homogeneous spaces of Lie groups are called solvmanifolds, and the Möbius strip can be used as a counterexample, showing that not every solvmanifold is a nilmanifold, and that not every solvmanifold can be factored into a direct product of a compact solvmanifold with 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+. These symmetries also provide another way to construct the Möbius strip itself, as a group model of these Lie groups. A group model consists of a Lie group and a stabilizer subgroup of its action; contracting the cosets of the subgroup to points produces a space with the same topology as the underlying homogenous space. In the case of the symmetries of Euclidean lines, the stabilizer of the 
+
+
+
+x
+
+
+{\displaystyle x}
+
+-axis consists of all symmetries that take the axis to itself. Each line 
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+
+ corresponds to a coset, the set of symmetries that map 
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+
+ to the 
+
+
+
+x
+
+
+{\displaystyle x}
+
+-axis. Therefore, the quotient space, a space that has one point per coset and inherits its topology from the space of symmetries, is the same as the space of lines, and is again an open Möbius strip.[72]
+Beyond the already-discussed applications of Möbius strips to the design of mechanical belts that wear evenly on their entire surface, and of the Plücker conoid to the design of gears, other applications of Möbius strips include:
+Scientists have also studied the energetics of soap films shaped as Möbius strips,[86][87] the chemical synthesis of molecules with a Möbius strip shape,[88][89] and the formation of larger nanoscale Möbius strips using DNA origami.[90]
+Two-dimensional artworks featuring the Möbius strip include an untitled 1947 painting by Corrado Cagli (memorialized in a poem by Charles Olson),[91][92] and two prints by M. C. Escher: Möbius Band I (1961), depicting three folded flatfish biting each others' tails; and Möbius Band II (1963), depicting ants crawling around a lemniscate-shaped Möbius strip.[93][94] It is also a popular subject of mathematical sculpture, including works by Max Bill (Endless Ribbon, 1953), José de Rivera (Infinity, 1967), and Sebastián.[91] A trefoil-knotted Möbius strip was used in John Robinson's Immortality (1982).[95] Charles O. Perry's Continuum (1976) is one of several pieces by Perry exploring variations of the Möbius strip.[96]
+Because of their easily recognized form, Möbius strips are a common element of graphic design.[95] The familiar three-arrow logo for recycling, designed in 1970, is based on the smooth triangular form of the Möbius strip,[97] as was the logo for the environmentally-themed Expo '74.[98] Some variations of the recycling symbol use a different embedding with three half-twists instead of one,[97] and the original version of the Google Drive logo used a flat-folded three-twist Möbius strip, as have other similar designs.[99] The Brazilian Instituto Nacional de Matemática Pura e Aplicada (IMPA) uses a stylized smooth Möbius strip as their logo, and has a matching large sculpture of a Möbius strip on display in their building.[100] The Möbius strip has also featured in the artwork for postage stamps from countries including Brazil, Belgium, the Netherlands, and Switzerland.[101][102]
+Möbius strips have been a frequent inspiration for the architectural design of buildings and bridges. However, many of these are projects or conceptual designs rather than constructed objects, or stretch their interpretation of the Möbius strip beyond its recognizability as a mathematical form or a functional part of the architecture.[103][104] An example is the National Library of Kazakhstan, for which a building was planned in the shape of a thickened Möbius strip but refinished with a different design after the original architects pulled out of the project.[105] One notable building incorporating a Möbius strip is the NASCAR Hall of Fame, which is surrounded by a large twisted ribbon of stainless steel acting as a façade and canopy, and evoking the curved shapes of racing tracks.[106] On a smaller scale, Moebius Chair (2006) by Pedro Reyes is a courting bench whose base and sides have the form of a Möbius strip.[107] As a form of mathematics and fiber arts, scarves have been knit into Möbius strips since the work of Elizabeth Zimmermann in the early 1980s.[108] In food styling, Möbius strips have been used for slicing bagels,[109] making loops out of bacon,[110] and creating new shapes for pasta.[111]
+Although mathematically the Möbius strip and the fourth dimension are both purely spatial concepts, they have often been invoked in speculative fiction as the basis for a time loop into which unwary victims may become trapped. Examples of this trope include Martin Gardner's "No-Sided Professor" (1946), Armin Joseph Deutsch's "A Subway Named Mobius" (1950) and the film Moebius (1996) based on it. An entire world shaped like a Möbius strip is the setting of Arthur C. Clarke's "The Wall of Darkness" (1946), while conventional Möbius strips are used as clever inventions in multiple stories of William Hazlett Upson from the 1940s.[112] Other works of fiction have been analyzed as having a Möbius strip–like structure, in which elements of the plot repeat with a twist; these include Marcel Proust's In Search of Lost Time (1913–1927), Luigi Pirandello's Six Characters in Search of an Author (1921), Frank Capra's It's a Wonderful Life (1946), John Barth's Lost in the Funhouse (1968), Samuel R. Delany's Dhalgren (1975) and the film Donnie Darko (2001).[113]
+One of the musical canons by J. S. Bach, the fifth of 14 canons (BWV 1087) discovered in 1974 in Bach's copy of the Goldberg Variations, features a glide-reflect symmetry in which each voice in the canon repeats, with inverted notes, the same motif from two measures earlier. Because of this symmetry, this canon can be thought of as having its score written on a Möbius strip.[114][h] In music theory, tones that differ by an octave are generally considered to be equivalent notes, and the space of possible notes forms a circle, the chromatic circle. Because the Möbius strip is the configuration space of two unordered points on a circle, the space of all two-note chords takes the shape of a Möbius strip. This conception, and generalizations to more points, is a significant application of orbifolds to music theory.[115][116] Modern musical groups taking their name from the Möbius strip include American electronic rock trio Mobius Band[117] and Norwegian progressive rock band Ring Van Möbius.[118]
+Möbius strips and their properties have been used in the design of stage magic. One such trick, known as the Afghan bands, uses the fact that the Möbius strip remains a single strip when cut lengthwise. It originated in the 1880s, and was very popular in the first half of the twentieth century. Many versions of this trick exist and have been performed by famous illusionists such as Harry Blackstone Sr. and Thomas Nelson Downs.[119][120]
+
+

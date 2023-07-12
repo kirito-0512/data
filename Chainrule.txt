@@ -1,0 +1,406 @@
+6113,
+Chainrule,
+In calculus, the chain rule is a formula that expresses the derivative of the composition of two differentiable functions f and g in terms of the derivatives of f and g. More precisely, if 
+h
+=
+f
+∘
+g
+{\displaystyle h=f\circ g}
+ is the function such that 
+h
+(
+x
+)
+=
+f
+(
+g
+(
+x
+)
+)
+{\displaystyle h(x)=f(g(x))}
+ for every x, then the chain rule is, in Lagrange's notation,
+or, equivalently,
+The chain rule may also be expressed in Leibniz's notation. If a variable z depends on the variable y, which itself depends on the variable x (that is, y and z are dependent variables), then z depends on x as well, via the intermediate variable y. In this case, the chain rule is expressed as
+and
+for indicating at which points the derivatives have to be evaluated.
+In integration, the counterpart to the chain rule is the substitution rule.
+Intuitively, the chain rule states that knowing the instantaneous rate of change of z relative to y and that of y relative to x allows one to calculate the instantaneous rate of change of z relative to x as the product of the two rates of change. 
+As put by George F. Simmons: "If a car travels twice as fast as a bicycle and the bicycle is four times as fast as a walking man, then the car travels 2 × 4 = 8 times as fast as the man."[1]
+The relationship between this example and the chain rule is as follows. Let z, y  and x be the (variable) positions of the car, the bicycle, and the walking man, respectively. The rate of change of relative positions of the car and the bicycle is 
+d
+z
+d
+y
+=
+2.
+{\textstyle {\frac {dz}{dy}}=2.}
+ Similarly, 
+d
+y
+d
+x
+=
+4.
+{\textstyle {\frac {dy}{dx}}=4.}
+ So, the rate of change of the relative positions of the car and the walking man is
+The rate of change of positions is the ratio of the speeds, and the speed is the derivative of the position with respect to the time; that is,
+or, equivalently,
+which is also an application of the chain rule.
+The chain rule seems to have first been used by Gottfried Wilhelm Leibniz. He used it to calculate the derivative of 
+a
++
+b
+z
++
+c
+z
+2
+{\displaystyle {\sqrt {a+bz+cz^{2}}}}
+ as the composite of the square root function and the function 
+a
++
+b
+z
++
+c
+z
+2
+{\displaystyle a+bz+cz^{2}\!}
+. He first mentioned it in a 1676 memoir (with a sign error in the calculation). The common notation of the chain rule is due to Leibniz.[2] Guillaume de l'Hôpital used the chain rule implicitly in his Analyse des infiniment petits. The chain rule does not appear in any of Leonhard Euler's analysis books, even though they were written over a hundred years after Leibniz's discovery.[citation needed].  It is believed that the first "modern" version of the chain rule appears in Lagrange’s 1797 Théorie des fonctions analytiques; it also appears in Cauchy’s 1823 Résumé des Leçons données a L’École Royale Polytechnique sur Le Calcul Infinitesimal.[3]
+The simplest form of the chain rule is for real-valued functions of one real variable. It states that if g is a function that is differentiable at a point c (i.e. the derivative g′(c) exists) and f is a function that is differentiable at g(c), then the composite function 
+f
+∘
+g
+{\displaystyle f\circ g}
+ is differentiable at c, and the derivative is[4]
+The rule is sometimes abbreviated as
+If y = f(u) and u = g(x), then this abbreviated form is written in Leibniz notation as:
+The points where the derivatives are evaluated may also be stated explicitly:
+Carrying the same reasoning further, given n functions 
+f
+1
+,
+…
+,
+f
+n
+{\displaystyle f_{1},\ldots ,f_{n}\!}
+ with the composite function 
+f
+1
+∘
+(
+f
+2
+∘
+⋯
+(
+f
+n
+−
+1
+∘
+f
+n
+)
+)
+{\displaystyle f_{1}\circ (f_{2}\circ \cdots (f_{n-1}\circ f_{n}))\!}
+, if each function 
+f
+i
+{\displaystyle f_{i}\!}
+ is differentiable at its immediate input, then the composite function is also differentiable by the repeated application of Chain Rule, where the derivative is (in Leibniz's notation):
+The chain rule can be applied to composites of more than two functions. To take the derivative of a composite of more than two functions, notice that the composite of f, g, and h (in that order) is the composite of f with g ∘ h. The chain rule states that to compute the derivative of f ∘ g ∘ h, it is sufficient to compute the derivative of f and the derivative of g ∘ h.  The derivative of f can be calculated directly, and the derivative of g ∘ h can be calculated by applying the chain rule again.
+For concreteness, consider the function
+This can be decomposed as the composite of three functions:
+Their derivatives are:
+The chain rule states that the derivative of their composite at the point x = a is:
+In Leibniz's notation, this is:
+or for short,
+The derivative function is therefore:
+Another way of computing this derivative is to view the composite function f ∘ g ∘ h as the composite of f ∘ g and h.  Applying the chain rule in this manner would yield:
+This is the same as what was computed above. This should be expected because (f ∘ g) ∘ h = f ∘ (g ∘ h).
+Sometimes, it is necessary to differentiate an arbitrarily long composition of the form 
+f
+1
+∘
+f
+2
+∘
+⋯
+∘
+f
+n
+−
+1
+∘
+f
+n
+{\displaystyle f_{1}\circ f_{2}\circ \cdots \circ f_{n-1}\circ f_{n}\!}
+. In this case, define
+where 
+f
+a
+.
+.
+a
+=
+f
+a
+{\displaystyle f_{a\,.\,.\,a}=f_{a}}
+ and 
+f
+a
+.
+.
+b
+(
+x
+)
+=
+x
+{\displaystyle f_{a\,.\,.\,b}(x)=x}
+ when 
+b
+<
+a
+{\displaystyle b<a}
+. Then the chain rule takes the form
+or, in the Lagrange notation,
+The chain rule can be used to derive some well-known differentiation rules. For example, the quotient rule is a consequence of the chain rule and the product rule. To see this, write the function f(x)/g(x) as the product f(x) · 1/g(x).  First apply the product rule:
+To compute the derivative of 1/g(x), notice that it is the composite of g with the reciprocal function, that is, the function that sends x to 1/x.  The derivative of the reciprocal function is 
+−
+1
+/
+x
+2
+{\displaystyle -1/x^{2}\!}
+. By applying the chain rule, the last expression becomes:
+which is the usual formula for the quotient rule.
+Suppose that y = g(x) has an inverse function. Call its inverse function f so that we have x = f(y). There is a formula for the derivative of f in terms of the derivative of g. To see this, note that f and g satisfy the formula
+And because the functions 
+f
+(
+g
+(
+x
+)
+)
+{\displaystyle f(g(x))}
+ and x are equal, their derivatives must be equal. The derivative of x is the constant function with value 1, and the derivative of 
+f
+(
+g
+(
+x
+)
+)
+{\displaystyle f(g(x))}
+ is determined by the chain rule.  Therefore, we have that:
+To express f' as a function of an independent variable y, we substitute 
+f
+(
+y
+)
+{\displaystyle f(y)}
+ for x wherever it appears. Then we can solve for f'.
+For example, consider the function g(x) = ex.  It has an inverse f(y) = ln y.  Because g′(x) = ex, the above formula says that
+This formula is true whenever g is differentiable and its inverse f is also differentiable. This formula can fail when one of these conditions is not true. For example, consider g(x) = x3. Its inverse is f(y) = y1/3, which is not differentiable at zero. If we attempt to use the above formula to compute the derivative of f at zero, then we must evaluate 1/g′(f(0)). Since f(0) = 0 and g′(0) = 0, we must evaluate 1/0, which is undefined. Therefore, the formula fails in this case. This is not surprising because f is not differentiable at zero.
+Faà di Bruno's formula generalizes the chain rule to higher derivatives.  Assuming that y = f(u) and u = g(x), then the first few derivatives are:
+One proof of the chain rule begins by defining the derivative of the composite function f ∘ g, where we take the limit of the difference quotient for f ∘ g as x approaches a:
+Assume for the moment that 
+g
+(
+x
+)
+{\displaystyle g(x)\!}
+ does not equal 
+g
+(
+a
+)
+{\displaystyle g(a)}
+ for any 
+x
+{\displaystyle x}
+ near 
+a
+{\displaystyle a}
+.  Then the previous expression is equal to the product of two factors:
+If 
+g
+{\displaystyle g}
+ oscillates near a, then it might happen that no matter how close one gets to a, there is always an even closer x such that g(x) = g(a). For example, this happens near a = 0 for the continuous function g defined by g(x) = 0 for x = 0 and g(x) = x2 sin(1/x) otherwise. Whenever this happens, the above expression is undefined because it involves division by zero. To work around this, introduce a function 
+Q
+{\displaystyle Q}
+ as follows:
+We will show that the difference quotient for f ∘ g is always equal to:
+Whenever g(x) is not equal to g(a), this is clear because the factors of g(x) − g(a) cancel. When g(x) equals g(a), then the difference quotient for f ∘ g is zero because f(g(x)) equals f(g(a)), and the above product is zero because it equals f′(g(a)) times zero. So the above product is always equal to the difference quotient, and to show that the derivative of f ∘ g at a exists and to determine its value, we need only show that the limit as x goes to a of the above product exists and determine its value.
+To do this, recall that the limit of a product exists if the limits of its factors exist. When this happens, the limit of the product of these two factors will equal the product of the limits of the factors. The two factors are Q(g(x)) and (g(x) − g(a)) / (x − a). The latter is the difference quotient for g at a, and because g is differentiable at a by assumption, its limit as x tends to a exists and equals g′(a).
+As for Q(g(x)), notice that Q is defined wherever f is. Furthermore, f is differentiable at g(a) by assumption, so Q is continuous at g(a), by definition of the derivative. The function g is continuous at a because it is differentiable at a, and therefore Q ∘ g is continuous at a. So its limit as x goes to a exists and equals Q(g(a)), which is f′(g(a)).
+This shows that the limits of both factors exist and that they equal f′(g(a)) and g′(a), respectively.  Therefore, the derivative of f ∘ g at a exists and equals f′(g(a))g′(a).
+Another way of proving the chain rule is to measure the error in the linear approximation determined by the derivative.  This proof has the advantage that it generalizes to several variables.  It relies on the following equivalent definition of differentiability at a point: A function g is differentiable at a if there exists a real number g′(a) and a function ε(h) that tends to zero as h tends to zero, and furthermore
+Here the left-hand side represents the true difference between the value of g at a and at a + h, whereas the right-hand side represents the approximation determined by the derivative plus an error term.
+In the situation of the chain rule, such a function ε exists because g is assumed to be differentiable at a.  Again by assumption, a similar function also exists for f at g(a).  Calling this function η, we have
+The above definition imposes no constraints on η(0), even though it is assumed that η(k) tends to zero as k tends to zero.  If we set η(0) = 0, then η is continuous at 0.
+Proving the theorem requires studying the difference f(g(a + h)) − f(g(a)) as h tends to zero.  The first step is to substitute for g(a + h) using the definition of differentiability of g at a:
+The next step is to use the definition of differentiability of f at g(a).  This requires a term of the form f(g(a) + k) for some k.  In the above equation, the correct k varies with h.  Set kh = g′(a) h + ε(h) h and the right hand side becomes f(g(a) + kh) − f(g(a)).  Applying the definition of the derivative gives:
+To study the behavior of this expression as h tends to zero, expand kh. After regrouping the terms, the right-hand side becomes:
+Because ε(h) and η(kh) tend to zero as h tends to zero, the first two bracketed terms tend to zero as h tends to zero.  Applying the same theorem on products of limits as in the first proof, the third bracketed term also tends zero.  Because the above expression is equal to the difference f(g(a + h)) − f(g(a)), by the definition of the derivative f ∘ g is differentiable at a and its derivative is f′(g(a)) g′(a).
+The role of Q in the first proof is played by η in this proof.  They are related by the equation:
+The need to define Q at g(a) is analogous to the need to define η at zero.
+Constantin Carathéodory's alternative definition of the differentiability of a function can be used to give an elegant proof of the chain rule.[5]
+Under this definition, a function f is differentiable at a point a if and only if there is a function q, continuous at a and such that f(x) − f(a) = q(x)(x − a). There is at most one such function, and if f is differentiable at a then f ′(a) = q(a).
+Given the assumptions of the chain rule and the fact that differentiable functions and compositions of continuous functions are continuous, we have that there exist functions q, continuous at g(a), and r, continuous at a, and such that,
+and
+Therefore,
+but the function given by h(x) = q(g(x))r(x) is continuous at a, and we get, for this a
+A similar approach works for continuously differentiable (vector-)functions of many variables. This method of factoring also allows a unified approach to stronger forms of differentiability, when the derivative is required to be Lipschitz continuous, Hölder continuous, etc. Differentiation itself can be viewed as the polynomial remainder theorem (the little Bézout theorem, or factor theorem), generalized to an appropriate class of functions.[citation needed]
+If 
+y
+=
+f
+(
+x
+)
+{\displaystyle y=f(x)}
+ and 
+x
+=
+g
+(
+t
+)
+{\displaystyle x=g(t)}
+ then choosing infinitesimal 
+Δ
+t
+≠
+0
+{\displaystyle \Delta t\not =0}
+ we compute the corresponding 
+Δ
+x
+=
+g
+(
+t
++
+Δ
+t
+)
+−
+g
+(
+t
+)
+{\displaystyle \Delta x=g(t+\Delta t)-g(t)}
+ and then the corresponding 
+Δ
+y
+=
+f
+(
+x
++
+Δ
+x
+)
+−
+f
+(
+x
+)
+{\displaystyle \Delta y=f(x+\Delta x)-f(x)}
+, so that
+and applying the standard part we obtain
+which is the chain rule.
+The generalization of the chain rule to multi-variable functions is rather technical. However, it is simpler to write in the case of functions of the form 
+As this case occurs often in the study of functions of a single variable, it is worth describing it separately.
+For writing the chain rule for a function of the form 
+one needs the partial derivatives of f with respect to its k arguments. The usual notations for partial derivatives involve names for the arguments of the function. As these arguments are not named in the above formula, it is simpler and clearer to denote by 
+the partial derivative of f with respect to its ith argument, and by 
+the value of this derivative at z.
+With this notation, the chain rule is
+If the function f is addition, that is, if 
+then 
+D
+1
+f
+=
+∂
+f
+∂
+u
+=
+1
+{\textstyle D_{1}f={\frac {\partial f}{\partial u}}=1}
+ and 
+D
+2
+f
+=
+∂
+f
+∂
+v
+=
+1
+{\textstyle D_{2}f={\frac {\partial f}{\partial v}}=1}
+. Thus, the chain rule gives 
+For multiplication
+the partials are 
+D
+1
+f
+=
+v
+{\displaystyle D_{1}f=v}
+ and 
+D
+2
+f
+=
+u
+{\displaystyle D_{2}f=u}
+. Thus, 
+The case of exponentiation
+is slightly more complicated, as 
+and, as 
+u
+v
+=
+e
+v
+ln
+⁡
+u
+,
+{\displaystyle u^{v}=e^{v\ln u},}
+It follows that 
+The simplest way for writing the chain rule in the general case is to use the total derivative, which is a linear transformation that captures all directional derivatives in a single formula.  Consider differentiable functions f : Rm → Rk and g : Rn → Rm, and a point a in Rn.  Let Da g denote the total derivative of g at a and Dg(a) f denote the total derivative of f at g(a).  These two derivatives are linear transformations Rn → Rm and Rm → Rk, respectively, so they can be composed.  The chain rule for total derivatives is that their composite is the total derivative of f ∘ g at a:
+or for short,
+The higher-dimensional chain rule can be proved using a technique similar to the second proof given above.[6]
+Because the total derivative is a linear transformation, the functions appearing in the formula can be rewritten as matrices.  The matrix corresponding to a total derivative is called a Jacobian matrix, and the composite of two derivatives corresponds to the product of their Jacobian matrices.  From this perspective the chain rule therefore says:
+or for short,
+That is, the Jacobian of a composite function is the product of the Jacobians of the composed functions (evaluated at the appropriate points).
+The higher-dimensional chain rule is a generalization of the one-dimensional chain rule.  If k, m, and n are 1, so that f : R → R and g : R → R, then the Jacobian matrices of f and g are 1 × 1.  Specifically, they are:
+The Jacobian of f ∘ g is the product of these 1 × 1 matrices, so it is f′(g(a))⋅g′(a), as expected from the one-dimensional chain rule.  In the language of linear transformations, Da(g) is the function which scales a vector by a factor of g′(a) and Dg(a)(f) is the function which scales a vector by a factor of f′(g(a)).  The chain rule says that the composite of these two linear transformations is the linear transformation Da(f ∘ g), and therefore it is the function that scales a vector by f′(g(a))⋅g′(a).
+Another way of writing the chain rule is used when f and g are expressed in terms of their components as y = f(u) = (f1(u), …, fk(u)) and u = g(x) = (g1(x), …, gm(x)).  In this case, the above rule for Jacobian matrices is usually written as:
+The chain rule for total derivatives implies a chain rule for partial derivatives.  Recall that when the total derivative exists, the partial derivative in the ith coordinate direction is found by multiplying the Jacobian matrix by the ith basis vector.  By doing this to the formula above, we find:
+Since the entries of the Jacobian matrix are partial derivatives, we may simplify the above formula to get:
+More conceptually, this rule expresses the fact that a change in the xi direction may change all of g1 through gm, and any of these changes may affect f.
+In the special case where k = 1, so that f is a real-valued function, then this formula simplifies even further:
+This can be rewritten as a dot product.  Recalling that u = (g1, …, gm), the partial derivative ∂u / ∂xi is also a vector, and the chain rule says that:
+Given u(x, y) = x2 + 2y where x(r, t) = r sin(t) and y(r,t) = sin2(t), determine the value of ∂u / ∂r and ∂u / ∂t using the chain rule.
+and
+Faà di Bruno's formula for higher-order derivatives of single-variable functions generalizes to the multivariable case.  If y = f(u) is a function of u = g(x) as above, then the second derivative of f ∘ g is:
+All extensions of calculus have a chain rule. In most of these, the formula remains the same, though the meaning of that formula may be vastly different.
+One generalization is to manifolds. In this situation, the chain rule represents the fact that the derivative of f ∘ g is the composite of the derivative of f and the derivative of g. This theorem is an immediate consequence of the higher dimensional chain rule given above, and it has exactly the same formula.
+The chain rule is also valid for Fréchet derivatives in Banach spaces. The same formula holds as before.[7] This case and the previous one admit a simultaneous generalization to Banach manifolds.
+In differential algebra, the derivative is interpreted as a morphism of modules of Kähler differentials. A ring homomorphism of commutative rings f : R → S determines a morphism of Kähler differentials Df : ΩR → ΩS which sends an element dr to d(f(r)), the exterior differential of f(r). The formula D(f ∘ g) = Df ∘ Dg holds in this context as well.
+The common feature of these examples is that they are expressions of the idea that the derivative is part of a functor. A functor is an operation on spaces and functions between them. It associates to each space a new space and to each function between two spaces a new function between the corresponding new spaces. In each of the above cases, the functor sends each space to its tangent bundle and it sends each function to its derivative. For example, in the manifold case, the derivative sends a Cr-manifold to a Cr−1-manifold (its tangent bundle) and a Cr-function to its total derivative. There is one requirement for this to be a functor, namely that the derivative of a composite must be the composite of the derivatives.  This is exactly the formula D(f ∘ g) = Df ∘ Dg.
+There are also chain rules in stochastic calculus. One of these, Itō's lemma, expresses the composite of an Itō process (or more generally a semimartingale) dXt with a twice-differentiable function f.  In Itō's lemma, the derivative of the composite function depends not only on dXt and the derivative of f but also on the second derivative of f. The dependence on the second derivative is a consequence of the non-zero quadratic variation of the stochastic process, which broadly speaking means that the process can move up and down in a very rough way. This variant of the chain rule is not an example of a functor because the two functions being composed are of different types.

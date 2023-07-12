@@ -1,0 +1,58 @@
+20961,
+Möbiusfunction,
+The Möbius function μ(n) is a multiplicative function in number theory introduced by the German mathematician August Ferdinand Möbius (also transliterated Moebius) in 1832.[i][ii][2] It is ubiquitous in elementary and analytic number theory and most often appears as part of its namesake the Möbius inversion formula. Following work of Gian-Carlo Rota in the 1960s, generalizations of the Möbius function were introduced into combinatorics, and are similarly denoted μ(x).
+For any positive integer n, define μ(n) as the sum of the primitive nth roots of unity. It has values in {−1, 0, 1} depending on the factorization of n into prime factors:
+The Möbius function can alternatively be represented as
+where δ is the Kronecker delta, λ(n) is the Liouville function, ω(n) is the number of distinct prime divisors of n, and Ω(n) is the number of prime factors of n, counted with multiplicity.
+The values of μ(n) for the first 50 positive numbers are
+
+The first 50 values of the function are plotted below:
+Larger values can be checked in: 
+The Dirichlet series that generates the Möbius function is the (multiplicative) inverse of the Riemann zeta function; if s is a complex number with real part larger than 1 we have
+This may be seen from its Euler product
+Also:
+The Lambert series for the Möbius function is:
+which converges for |q| < 1. For prime α ≥ 2, we also have
+Gauss[1] proved that for a prime number p the sum of its primitive roots is congruent to μ(p − 1) (mod p).
+If Fq denotes the finite field of order q (where q is necessarily a prime power), then the number N of monic irreducible polynomials of degree n over Fq is given by:[3]
+
+The Möbius function also arises in the primon gas or free Riemann gas model of supersymmetry. In this theory, the fundamental particles or "primons" have energies log p. Under second quantization, multiparticle excitations are considered; these are given by log n for any natural number n. This follows from the fact that the factorization of the natural numbers into primes is unique.
+In the free Riemann gas, any natural number can occur, if the primons are taken as bosons. If they are taken as fermions, then the Pauli exclusion principle excludes squares. The operator (−1)F that distinguishes fermions and bosons is then none other than the Möbius function μ(n).
+The free Riemann gas has a number of other interesting connections to number theory, including the fact that the partition function is the Riemann zeta function. This idea underlies Alain Connes's attempted proof of the Riemann hypothesis.[4]
+
+The Möbius function is multiplicative (i.e., μ(ab) = μ(a) μ(b)) whenever a and b are coprime.
+The sum of the Möbius function over all positive divisors of n (including n itself and 1) is zero except when n = 1:
+The equality above leads to the important Möbius inversion formula and is the main reason why μ is of relevance in the theory of multiplicative and arithmetic functions.
+Other applications of μ(n) in combinatorics are connected with the use of the Pólya enumeration theorem in combinatorial groups and combinatorial enumerations.
+There is a formula[5] for calculating the Möbius function without directly knowing the factorization of its argument:
+i.e. μ(n) is the sum of the primitive n-th roots of unity. (However, the computational complexity of this definition is at least the same as that of the Euler product definition.)
+Other identities satisfied by the Möbius function include
+and
+The first of these is a classical result while the second was published in 2020.[6][7] Similar identities hold for the Mertens function.
+
+Using
+the formula
+can be seen as a consequence of the fact that the nth roots of unity sum to 0, since each nth root of unity is a primitive dth root of unity for exactly one divisor d of n.
+However it is also possible to prove this identity from first principles. First note that it is trivially true when n = 1. Suppose then that n > 1. Then there is a bijection between the factors d of n for which μ(d) ≠ 0 and the subsets of the set of all prime factors of n. The asserted result follows from the fact that every non-empty finite set has an equal number of odd- and even-cardinality subsets.
+This last fact can be shown easily by induction on the cardinality |S| of a non-empty finite set S. First, if |S| = 1, there is exactly one odd-cardinality subset of S, namely S itself, and exactly one even-cardinality subset, namely ∅. Next, if |S| > 1, then divide the subsets of S into two subclasses depending on whether they contain or not some fixed element x in S. There is an obvious bijection between these two subclasses, pairing those subsets that have the same complement relative to the subset {x}. Also, one of these two subclasses consists of all the subsets of the set S \ {x}, and therefore, by the induction hypothesis, has an equal number of odd- and even-cardinality subsets. These subsets in turn correspond bijectively to the even- and odd-cardinality {x}-containing subsets of S. The inductive step follows directly from these two bijections.
+A related result is that the binomial coefficients exhibit alternating entries of odd and even power which sum symmetrically.
+
+The mean value (in the sense of average orders) of the Möbius function is zero. This statement is, in fact, equivalent to the prime number theorem.[8]
+μ(n) = 0 if and only if n is divisible by the square of a prime. The first numbers with this property are
+If n is prime, then μ(n) = −1, but the converse is not true. The first non prime n for which μ(n) = −1 is 30 = 2 × 3 × 5. The first such numbers with three distinct prime factors (sphenic numbers) are
+and the first such numbers with 5 distinct prime factors are
+
+In number theory another arithmetic function closely related to the Möbius function is the Mertens function, defined by
+for every natural number n. This function is closely linked with the positions of zeroes of the Riemann zeta function. See the article on the Mertens conjecture for more information about the connection between M(n) and the Riemann hypothesis.
+From the formula
+it follows that the Mertens function is given by:
+where Fn is the Farey sequence of order n.
+This formula is used in the proof of the Franel–Landau theorem.[9]
+In combinatorics, every locally finite partially ordered set (poset) is assigned an incidence algebra. One distinguished member of this algebra is that poset's "Möbius function". The classical Möbius function treated in this article is essentially equal to the Möbius function of the set of all positive integers partially ordered by divisibility. See the article on incidence algebras for the precise definition and several examples of these general Möbius functions.
+Constantin Popovici[10] defined a generalised Möbius function μk = μ ∗ ... ∗ μ to be the k-fold Dirichlet convolution of the Möbius function with itself. It is thus again a multiplicative function with
+where the binomial coefficient is taken to be zero if a > k. The definition may be extended to complex k by reading the binomial as a polynomial in k.[11]
+
+
+
+Information box
+{'Named after': 'August Ferdinand Möbius', 'Publication year': '1832', 'Author of publication': 'August Ferdinand Möbius', 'No. of known terms': 'infinite', 'First terms': '1, −1, −1, 0, −1, 1, −1, 0, 0, 1', 'OEIS index': 'A008683\nMöbius (or Moebius) function mu(n). mu(1) = 1; mu(n) = (-1)^k if n is the product of k different primes; otherwise mu(n) = 0.'}

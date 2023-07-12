@@ -1,0 +1,10 @@
+14718,
+HexChat,
+HexChat is an Internet Relay Chat client that is a fork of XChat. It has a choice of a tabbed document interface or tree interface, support for multiple servers, and numerous configuration options. Both command-line and graphical versions are available.[4][5]
+The client runs on Unix-like operating systems,[4] and many Linux distributions include packages in their repositories.[6]
+The XChat-WDK (XChat Windows Driver Kit) project started in 2010 and was originally Windows-only.  The project's original goal was to merge itself with XChat, but evolved from just fixing Windows bugs to adding new features.  It started to make sense to support more platforms than Windows. On July 6, 2012, XChat-WDK officially changed its name to HexChat.[7]
+
+
+
+Information box
+{'Developer(s)': 'Patrick Griffis[1]', 'Initial release': '6 July 2012; 10 years ago', 'Stable release': '2.16.1[2][3]  / 12 February 2022', 'Repository': 'github.com/hexchat/hexchat', 'Platform': 'Unix-like,\nWindows 10 App,\nWindows 7+ 64-bit,\nWindows 7+ 32-bit,\nFlatpak,\nSnap,\nSource Code', 'License': 'GPL-2.0 only with OpenSSL linking exception', 'Website': 'hexchat.github.io'}

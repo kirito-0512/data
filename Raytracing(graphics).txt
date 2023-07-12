@@ -1,0 +1,783 @@
+26000,
+Raytracing(graphics),
+
+In 3D computer graphics, ray tracing is a technique for modeling light transport for use in a wide variety of rendering algorithms for generating digital images.
+On a spectrum of computational cost and visual fidelity, ray tracing-based rendering techniques, such as ray casting, recursive ray tracing, distribution ray tracing, photon mapping and path tracing, are generally slower and higher fidelity than scanline rendering methods.[1] Thus, ray tracing was first deployed in applications where taking a relatively long time to render could be tolerated, such as still computer-generated images, and film and television visual effects (VFX), but was less suited to real-time applications such as video games, where speed is critical in rendering each frame.[2]
+Since 2019, however, hardware acceleration for real-time ray tracing has become standard on new commercial graphics cards, and graphics APIs have followed suit, allowing developers to use hybrid ray tracing and rasterization-based rendering in games and other real-time applications with a lesser hit to frame render times.
+Ray tracing is capable of simulating a variety of optical effects,[3] such as reflection, refraction, soft shadows, scattering, depth of field, motion blur, caustics, ambient occlusion and dispersion phenomena (such as chromatic aberration). It can also be used to trace the path of sound waves in a similar fashion to light waves, making it a viable option for more immersive sound design in video games by rendering realistic reverberation and echoes.[4] In fact, any physical wave or particle phenomenon with approximately linear motion can be simulated with ray tracing.
+Ray tracing-based rendering techniques that involve sampling light over a domain generate image noise artifacts that can be addressed by tracing a very large number of rays or using denoising techniques.
+The idea of ray tracing comes from as early as the 16th century when it was described by Albrecht Dürer, who is credited for its invention.[5] 
+Dürer described multiple techniques for projecting 3D scenes onto an image plane. Some of these project chosen geometry onto the image place, as is done with rasterization today. Others determine what geometry is visible along a given ray, as is done with ray tracing. [6][7]
+Using a computer for ray tracing to generate shaded pictures was first accomplished by Arthur Appel in 1968.[8] Appel used ray tracing for primary visibility (determining the closest surface to the camera at each image point), and traced secondary rays to the light source from each point being shaded to determine whether the point was in shadow or not.
+Later, in 1971, Goldstein and Nagel of MAGI (Mathematical Applications Group, Inc.)[9] published “3-D Visual Simulation”, wherein ray tracing is used to make shaded pictures of solids by simulating the photographic process in reverse. They cast a ray through each pixel in the screen into the scene to identify the visible surface. The first surface intersected by the ray was the visible one. This non-recursive ray tracing-based rendering algorithm is today called "ray casting". At the ray-surface intersection point found, they computed the surface normal and, knowing the position of the light source, computed the brightness of the pixel on the screen. Their publication describes a short (30 second) film “made using the University of Maryland’s display hardware outfitted with a 16mm camera. The film showed the helicopter and a simple ground level gun emplacement. The helicopter was programmed to undergo a series of maneuvers including turns, take-offs, and landings, etc., until it eventually is shot down and crashed.” A CDC 6600 computer was used. MAGI produced an animation video called MAGI/SynthaVision Sampler in 1974.[10]
+Another early instance of ray casting came in 1976, when Scott Roth created a flip book animation in Bob Sproull's computer graphics course at Caltech. The scanned pages are shown as a video on the right. Roth's computer program noted an edge point at a pixel location if the ray intersected a bounded plane different from that of its neighbors. Of course, a ray could intersect multiple planes in space, but only the surface point closest to the camera was noted as visible. The edges are jagged because only a coarse resolution was practical with the computing power of the time-sharing DEC PDP-10 used. The “terminal” was a Tektronix storage-tube display for text and graphics. Attached to the display was a printer which would create an image of the display on rolling thermal paper.  Roth extended the framework, introduced the term ray casting in the context of computer graphics and solid modeling, and later published his work while at GM Research Labs.[11]
+Turner Whitted was the first to show recursive ray tracing for mirror reflection and for refraction through translucent objects, with an angle determined by the solid's index of refraction, and to use ray tracing for anti-aliasing.[12] Whitted also showed ray traced shadows. He produced a recursive ray-traced film called The Compleat Angler[13] in 1979 while an engineer at Bell Labs. Whitted's deeply recursive ray tracing algorithm reframed rendering from being primarily a matter of surface visibility determination to being a matter of light transport. His paper inspired a series of subsequent work by others that included distribution ray tracing and finally unbiased path tracing, which provides the rendering equation framework that has allowed computer generated imagery to be faithful to reality.
+For decades, global illumination in major films using computer generated imagery was faked with additional lights. Ray tracing-based rendering eventually changed that by enabling physically-based light transport. Early feature films rendered entirely using path tracing include Monster House (2006), Cloudy with a Chance of Meatballs (2009),[14] and Monsters University (2013).[15]
+Optical ray tracing describes a method for producing visual images constructed in 3D computer graphics environments, with more photorealism than either ray casting or scanline rendering techniques. It works by tracing a path from an imaginary eye through each pixel in a virtual screen, and calculating the color of the object visible through it.
+Scenes in ray tracing are described mathematically by a programmer or by a visual artist (normally using intermediary tools). Scenes may also incorporate data from images and models captured by means such as digital photography.
+Typically, each ray must be tested for intersection with some subset of all the objects in the scene. Once the nearest object has been identified, the algorithm will estimate the incoming light at the point of intersection, examine the material properties of the object, and combine this information to calculate the final color of the pixel. Certain illumination algorithms and reflective or translucent materials may require more rays to be re-cast into the scene.
+It may at first seem counterintuitive or "backward" to send rays away from the camera, rather than into it (as actual light does in reality), but doing so is many orders of magnitude more efficient. Since the overwhelming majority of light rays from a given light source do not make it directly into the viewer's eye, a "forward" simulation could potentially waste a tremendous amount of computation on light paths that are never recorded.
+Therefore, the shortcut taken in ray tracing is to presuppose that a given ray intersects the view frame. After either a maximum number of reflections or a ray traveling a certain distance without intersection, the ray ceases to travel and the pixel's value is updated.
+On input we have (in calculation we use vector normalization and cross product):
+
+The idea is to find the position of each viewport pixel center  
+
+
+
+
+P
+
+i
+j
+
+
+
+
+{\displaystyle P_{ij}}
+
+ which allows us to find the line going from eye 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ through that pixel and finally get the ray described by point 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ and vector 
+
+
+
+
+
+
+
+R
+→
+
+
+
+
+i
+j
+
+
+=
+
+P
+
+i
+j
+
+
+−
+E
+
+
+{\displaystyle {\vec {R}}_{ij}=P_{ij}-E}
+
+ (or its normalisation 
+
+
+
+
+
+
+
+r
+→
+
+
+
+
+i
+j
+
+
+
+
+{\displaystyle {\vec {r}}_{ij}}
+
+). First we need to find the coordinates of the bottom left viewport pixel 
+
+
+
+
+P
+
+1
+m
+
+
+
+
+{\displaystyle P_{1m}}
+
+ and find the next pixel by making a shift along directions parallel to viewport (vectors 
+
+
+
+
+
+
+
+b
+→
+
+
+
+
+n
+
+
+
+
+{\displaystyle {\vec {b}}_{n}}
+
+ i 
+
+
+
+
+
+
+
+v
+→
+
+
+
+
+n
+
+
+
+
+{\displaystyle {\vec {v}}_{n}}
+
+) multiplied by the size of the pixel. Below we introduce formulas which include distance 
+
+
+
+d
+
+
+{\displaystyle d}
+
+ between the eye and the viewport. However, this value will be reduced during ray normalization 
+
+
+
+
+
+
+
+r
+→
+
+
+
+
+i
+j
+
+
+
+
+{\displaystyle {\vec {r}}_{ij}}
+
+ (so you might as well accept that 
+
+
+
+d
+=
+1
+
+
+{\displaystyle d=1}
+
+ and remove it from calculations).
+Pre-calculations: let's find and normalise vector 
+
+
+
+
+
+
+t
+→
+
+
+
+
+
+{\displaystyle {\vec {t}}}
+
+ and vectors 
+
+
+
+
+
+
+b
+→
+
+
+
+,
+
+
+
+v
+→
+
+
+
+
+
+{\displaystyle {\vec {b}},{\vec {v}}}
+
+ which are parallel to the viewport (all depicted on above picture)
+note that viewport center 
+
+
+
+C
+=
+E
++
+
+
+
+
+t
+→
+
+
+
+
+n
+
+
+d
+
+
+{\displaystyle C=E+{\vec {t}}_{n}d}
+
+, next we calculate viewport sizes 
+
+
+
+
+h
+
+x
+
+
+,
+
+h
+
+y
+
+
+
+
+{\displaystyle h_{x},h_{y}}
+
+ divided by 2 including inverse aspect ratio 
+
+
+
+
+
+
+m
+−
+1
+
+
+k
+−
+1
+
+
+
+
+
+{\displaystyle {\frac {m-1}{k-1}}}
+
+
+and then we calculate next-pixel shifting vectors 
+
+
+
+
+q
+
+x
+
+
+,
+
+q
+
+y
+
+
+
+
+{\displaystyle q_{x},q_{y}}
+
+ along directions parallel to viewport (
+
+
+
+
+
+
+b
+→
+
+
+
+,
+
+
+
+v
+→
+
+
+
+
+
+{\displaystyle {\vec {b}},{\vec {v}}}
+
+), and left bottom pixel center 
+
+
+
+
+p
+
+1
+m
+
+
+
+
+{\displaystyle p_{1m}}
+
+
+Calculations: note 
+
+
+
+
+P
+
+i
+j
+
+
+=
+E
++
+
+
+
+
+p
+→
+
+
+
+
+i
+j
+
+
+
+
+{\displaystyle P_{ij}=E+{\vec {p}}_{ij}}
+
+ and ray 
+
+
+
+
+
+
+
+R
+→
+
+
+
+
+i
+j
+
+
+=
+
+P
+
+i
+j
+
+
+−
+E
+=
+
+
+
+
+p
+→
+
+
+
+
+i
+j
+
+
+
+
+{\displaystyle {\vec {R}}_{ij}=P_{ij}-E={\vec {p}}_{ij}}
+
+ so
+Above formula was tested in this javascript project (works in browser).
+In nature, a light source emits a ray of light which travels, eventually, to a surface that interrupts its progress.  One can think of this "ray" as a stream of photons traveling along the same path.  In a perfect vacuum this ray will be a straight line (ignoring relativistic effects). Any combination of four things might happen with this light ray: absorption, reflection, refraction and fluorescence.  A surface may absorb part of the light ray, resulting in a loss of intensity of the reflected and/or refracted light.  It might also reflect all or part of the light ray, in one or more directions. If the surface has any transparent or translucent properties, it refracts a portion of the light beam into itself in a different direction while absorbing some (or all) of the spectrum (and possibly altering the color). Less commonly, a surface may absorb some portion of the light and fluorescently re-emit the light at a longer wavelength color in a random direction, though this is rare enough that it can be discounted from most rendering applications. Between absorption, reflection, refraction and fluorescence, all of the incoming light must be accounted for, and no more.  A surface cannot, for instance, reflect 66% of an incoming light ray, and refract 50%, since the two would add up to be 116%. From here, the reflected and/or refracted rays may strike other surfaces, where their absorptive, refractive, reflective and fluorescent properties again affect the progress of the incoming rays.  Some of these rays travel in such a way that they hit our eye, causing us to see the scene and so contribute to the final rendered image.
+The idea behind ray casting, the predecessor to recursive ray tracing, is to trace rays from the eye, one per pixel, and find the closest object blocking the path of that ray. Think of an image as a screen-door, with each square in the screen being a pixel.  This is then the object the eye sees through that pixel.  Using the material properties and the effect of the lights in the scene, this algorithm can determine the shading of this object.  The simplifying assumption is made that if a surface faces a light, the light will reach that surface and not be blocked or in shadow.  The shading of the surface is computed using traditional 3D computer graphics shading models.  One important advantage ray casting offered over older scanline algorithms was its ability to easily deal with non-planar surfaces and solids, such as cones and spheres. If a mathematical surface can be intersected by a ray, it can be rendered using ray casting. Elaborate objects can be created by using solid modeling techniques and easily rendered.
+In the method of volume ray casting, each ray is traced so that color and/or density can be sampled along the ray and then be combined into a final pixel color.
+This is often used when objects cannot be easily represented by explicit surfaces (such as triangles), for example when rendering clouds or 3D medical scans. 
+In SDF ray marching, or sphere tracing,[16] each ray is traced in multiple steps to approximate an intersection point between the ray and a surface defined by a signed distance function (SDF). The SDF is evaluated for each iteration in order to be able take as large steps as possible without missing any part of the surface. A threshold is used to cancel further iteration when a point has reached that is close enough to the surface. This method is often used for 3D fractal rendering.[17]
+Earlier algorithms traced rays from the eye into the scene until they hit an object, but determined the ray color without recursively tracing more rays.  Recursive ray tracing continues the process. When a ray hits a surface, additional rays may be cast because of reflection, refraction, and shadow.:[18]
+These recursive rays add more realism to ray traced images.
+Ray tracing-based rendering's popularity stems from its basis in a realistic simulation of light transport, as compared to other rendering methods, such as rasterization, which focuses more on the realistic simulation of geometry. Effects such as reflections and shadows, which are difficult to simulate using other algorithms, are a natural result of the ray tracing algorithm. The computational independence of each ray makes ray tracing amenable to a basic level of parallelization,[20] but the divergence of ray paths makes high utilization under parallelism quite difficult to achieve in practice.[21]
+A serious disadvantage of ray tracing is performance (though it can in theory be faster than traditional scanline rendering depending on scene complexity vs. number of pixels on-screen). Until the late 2010s, ray tracing in real time was usually considered impossible on consumer hardware for nontrivial tasks. Scanline algorithms and other algorithms use data coherence to share computations between pixels, while ray tracing normally starts the process anew, treating each eye ray separately. However, this separation offers other advantages, such as the ability to shoot more rays as needed to perform spatial anti-aliasing and improve image quality where needed.
+Although it does handle interreflection and optical effects such as refraction accurately, traditional ray tracing is also not necessarily photorealistic. True photorealism occurs when the rendering equation is closely approximated or fully implemented. Implementing the rendering equation gives true photorealism, as the equation describes every physical effect of light flow. However, this is usually infeasible given the computing resources required.
+The realism of all rendering methods can be evaluated as an approximation to the equation. Ray tracing, if it is limited to Whitted's algorithm, is not necessarily the most realistic. Methods that trace rays, but include additional techniques (photon mapping, path tracing), give a far more accurate simulation of real-world lighting.
+The process of shooting rays from the eye to the light source to render an image is sometimes called backwards ray tracing, since it is the opposite direction photons actually travel. However, there is confusion with this terminology. Early ray tracing was always done from the eye, and early researchers such as James Arvo used the term backwards ray tracing to mean shooting rays from the lights and gathering the results. Therefore, it is clearer to distinguish eye-based versus light-based ray tracing.
+While the direct illumination is generally best sampled using eye-based ray tracing, certain indirect effects can benefit from rays generated from the lights. Caustics are bright patterns caused by the focusing of light off a wide reflective region onto a narrow area of (near-)diffuse surface.  An algorithm that casts rays directly from lights onto reflective objects, tracing their paths to the eye, will better sample this phenomenon. This integration of eye-based and light-based rays is often expressed as bidirectional path tracing, in which paths are traced from both the eye and lights, and the paths subsequently joined by a connecting ray after some length.[22][23]
+Photon mapping is another method that uses both light-based and eye-based ray tracing; in an initial pass, energetic photons are traced along rays from the light source so as to compute an estimate of radiant flux as a function of 3-dimensional space (the eponymous photon map itself). In a subsequent pass, rays are traced from the eye into the scene to determine the visible surfaces, and the photon map is used to estimate the illumination at the visible surface points.[24][25] The advantage of photon mapping versus bidirectional path tracing is the ability to achieve significant reuse of photons, reducing computation, at the cost of statistical bias.
+An additional problem occurs when light must pass through a very narrow aperture to illuminate the scene (consider a darkened room, with a door slightly ajar leading to a brightly lit room), or a scene in which most points do not have direct line-of-sight to any light source (such as with ceiling-directed light fixtures or torchieres). In such cases, only a very small subset of paths will transport energy; Metropolis light transport is a method which begins with a random search of the path space, and when energetic paths are found, reuses this information by exploring the nearby space of rays.[26]
+To the right is an image showing a simple example of a path of rays recursively generated from the camera (or eye) to the light source using the above algorithm. A diffuse surface reflects light in all directions.
+First, a ray is created at an eyepoint and traced through a pixel and into the scene, where it hits a diffuse surface. From that surface the algorithm recursively generates a reflection ray, which is traced through the scene, where it hits another diffuse surface. Finally, another reflection ray is generated and traced through the scene, where it hits the light source and is absorbed. The color of the pixel now depends on the colors of the first and second diffuse surface and the color of the light emitted from the light source. For example, if the light source emitted white light and the two diffuse surfaces were blue, then the resulting color of the pixel is blue.
+As a demonstration of the principles involved in ray tracing, consider how one would find the intersection between a ray and a sphere. This is merely the math behind the line–sphere intersection and the subsequent determination of the colour of the pixel being calculated. There is, of course, far more to the general process of ray tracing, but this demonstrates an example of the algorithms used.
+In vector notation, the equation of a sphere with center 
+
+
+
+
+c
+
+
+
+{\displaystyle \mathbf {c} }
+
+ and radius 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ is
+Any point on a ray starting from point 
+
+
+
+
+s
+
+
+
+{\displaystyle \mathbf {s} }
+
+ with direction 
+
+
+
+
+d
+
+
+
+{\displaystyle \mathbf {d} }
+
+ (here 
+
+
+
+
+d
+
+
+
+{\displaystyle \mathbf {d} }
+
+ is a unit vector) can be written as
+where 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ is its distance between 
+
+
+
+
+x
+
+
+
+{\displaystyle \mathbf {x} }
+
+ and 
+
+
+
+
+s
+
+
+
+{\displaystyle \mathbf {s} }
+
+.  In our problem, we know 
+
+
+
+
+c
+
+
+
+{\displaystyle \mathbf {c} }
+
+,  
+
+
+
+r
+
+
+{\displaystyle r}
+
+, 
+
+
+
+
+s
+
+
+
+{\displaystyle \mathbf {s} }
+
+ (e.g. the position of a light source) and 
+
+
+
+
+d
+
+
+
+{\displaystyle \mathbf {d} }
+
+, and we need to find 
+
+
+
+t
+
+
+{\displaystyle t}
+
+. Therefore, we substitute for 
+
+
+
+
+x
+
+
+
+{\displaystyle \mathbf {x} }
+
+:
+Let 
+
+
+
+
+v
+
+ 
+
+
+
+
+=
+
+
+
+d
+e
+f
+
+
+
+
+
+ 
+
+s
+
+−
+
+c
+
+
+
+{\displaystyle \mathbf {v} \ {\stackrel {\mathrm {def} }{=}}\ \mathbf {s} -\mathbf {c} }
+
+ for simplicity; then
+Knowing that d is a unit vector allows us this minor simplification:
+This quadratic equation has solutions
+The two values of 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ found by solving this equation are the two ones such that 
+
+
+
+
+s
+
++
+t
+
+d
+
+
+
+{\displaystyle \mathbf {s} +t\mathbf {d} }
+
+ are the points where the ray intersects the sphere.
+Any value which is negative does not lie on the ray, but rather in the opposite half-line (i.e. the one starting from 
+
+
+
+
+s
+
+
+
+{\displaystyle \mathbf {s} }
+
+ with opposite direction).
+If the quantity under the square root ( the discriminant )  is negative, then the ray does not intersect the sphere.
+Let us suppose now that there is at least a positive solution, and let 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ be the minimal one. In addition, let us suppose that the sphere is the nearest object on our scene intersecting our ray, and that it is made of a reflective material. We need to find in which direction the light ray is reflected. The laws of reflection state that the angle of reflection is equal and opposite to the angle of incidence between the incident ray and the normal to the sphere.
+The normal to the sphere is simply
+where 
+
+
+
+
+y
+
+=
+
+s
+
++
+t
+
+d
+
+
+
+{\displaystyle \mathbf {y} =\mathbf {s} +t\mathbf {d} }
+
+ is the intersection point found before. The reflection direction can be found by a reflection of 
+
+
+
+
+d
+
+
+
+{\displaystyle \mathbf {d} }
+
+ with respect to 
+
+
+
+
+n
+
+
+
+{\displaystyle \mathbf {n} }
+
+, that is
+Thus the reflected ray has equation
+Now we only need to compute the intersection of the latter ray with our field of view, to get the pixel which our reflected light ray will hit. Lastly, this pixel is set to an appropriate color, taking into account how the color of the original light source and the one of the sphere are combined by the reflection.
+Adaptive depth control means that the renderer stops generating reflected/transmitted rays when the computed intensity becomes less than a certain threshold. There must always be a set maximum depth or else the program would generate an infinite number of rays. But it is not always necessary to go to the maximum depth if the surfaces are not highly reflective. To test for this the ray tracer must compute and keep the product of the global and reflection coefficients as the rays are traced.
+Example: let Kr = 0.5 for a set of surfaces. Then from the first surface the maximum contribution is 0.5, for the reflection from the second: 0.5 × 0.5 = 0.25, the third: 0.25 × 0.5 = 0.125, the fourth: 0.125 × 0.5 = 0.0625, the fifth: 0.0625 × 0.5 = 0.03125, etc. In addition we might implement a distance attenuation factor such as 1/D2, which would also decrease the intensity contribution.
+For a transmitted ray we could do something similar but in that case the distance traveled through the object would cause even faster intensity decrease. As an example of this, Hall & Greenberg found that even for a very reflective scene, using this with a maximum depth of 15 resulted in an average ray tree depth of 1.7.[27]
+Enclosing groups of objects in sets of hierarchical bounding volumes decreases the amount of computations required for ray tracing. A cast ray is first tested for an intersection with the bounding volume, and then if there is an intersection, the volume is recursively divided until the ray hits the object. The best type of bounding volume will be determined by the shape of the underlying object or objects. For example, if the objects are long and thin, then a sphere will enclose mainly empty space compared to a box. Boxes are also easier to generate hierarchical bounding volumes.
+Note that using a hierarchical system like this (assuming it is done carefully) changes the intersection computational time from a linear dependence on the number of objects to something between linear and a logarithmic dependence. This is because, for a perfect case, each intersection test would divide the possibilities by two, and result in a binary tree type structure. Spatial subdivision methods, discussed below, try to achieve this.
+Kay & Kajiya give a list of desired properties for hierarchical bounding volumes:
+The first implementation of an interactive ray tracer was the LINKS-1 Computer Graphics System built in 1982 at Osaka University's School of Engineering, by professors Ohmura Kouichi, Shirakawa Isao and Kawata Toru with 50 students.[citation needed] It was a massively parallel processing computer system with 514 microprocessors (257 Zilog Z8001s and 257 iAPX 86s), used for rendering realistic 3D computer graphics with high-speed ray tracing. According to the Information Processing Society of Japan: "The core of 3D image rendering is calculating the luminance of each pixel making up a rendered surface from the given viewpoint, light source, and object position. The LINKS-1 system was developed to realize an image rendering methodology in which each pixel could be parallel processed independently using ray tracing. By developing a new software methodology specifically for high-speed image rendering, LINKS-1 was able to rapidly render highly realistic images." It was used to create an early 3D planetarium-like video of the heavens made completely with computer graphics. The video was presented at the Fujitsu pavilion at the 1985 International Exposition in Tsukuba."[28] It was the second system to do so after the Evans & Sutherland Digistar in 1982. The LINKS-1 was reported to be the world's most powerful computer in 1984.[29]
+The earliest public record of "real-time" ray tracing with interactive rendering (i.e., updates greater than a frame per second) was credited at the 2005 SIGGRAPH computer graphics conference as being the REMRT/RT tools developed in 1986 by Mike Muuss for the BRL-CAD solid modeling system. Initially published in 1987 at USENIX, the BRL-CAD ray tracer was an early implementation of a parallel network distributed ray tracing system that achieved several frames per second in rendering performance.[30] This performance was attained by means of the highly optimized yet platform independent LIBRT ray tracing engine in BRL-CAD and by using solid implicit CSG geometry on several shared memory parallel machines over a commodity network. BRL-CAD's ray tracer, including the REMRT/RT tools, continue to be available and developed today as open source software.[31]
+Since then, there have been considerable efforts and research towards implementing ray tracing at real-time speeds for a variety of purposes on stand-alone desktop configurations. These purposes include interactive 3D graphics applications such as demoscene productions, computer and video games, and image rendering. Some real-time software 3D engines based on ray tracing have been developed by hobbyist demo programmers since the late 1990s.[32]
+In 1999 a team from the University of Utah, led by Steven Parker, demonstrated interactive ray tracing live at the 1999 Symposium on Interactive 3D Graphics. They rendered a 35 million sphere model at 512 by 512 pixel resolution, running at approximately 15 frames per second on 60 CPUs.[33]
+The Open RT project included a highly optimized software core for ray tracing along with an OpenGL-like API in order to offer an alternative to the current rasterisation based approach for interactive 3D graphics. Ray tracing hardware, such as the experimental Ray Processing Unit developed by Sven Woop at the Saarland University, has been designed to accelerate some of the computationally intensive operations of ray tracing.
+The idea that video games could ray-trace their graphics in real time received media attention in the late 2000s. During that time, a researcher named Daniel Pohl, under the guidance of graphics professor Philipp Slusallek and in cooperation with the Erlangen University and Saarland University in Germany, equipped Quake III and Quake IV with an engine he programmed himself, which Saarland University then demonstrated at CeBIT 2007.[34] Intel, a patron of Saarland, became impressed enough that it hired Pohl and embarked on a research program dedicated to ray-traced graphics, which it saw as justifying increasing the number of its processors' cores.[35]: 99–100 [36] On June 12, 2008, Intel demonstrated a special version of Enemy Territory: Quake Wars, titled Quake Wars: Ray Traced, using ray tracing for rendering, running in basic HD (720p) resolution. ETQW operated at 14–29 frames per second on a 16-core (4 socket, 4 core) Xeon Tigerton system running at 2.93 GHz.[37]
+At SIGGRAPH 2009, Nvidia announced OptiX, a free API for real-time ray tracing on Nvidia GPUs. The API exposes seven programmable entry points within the ray tracing pipeline, allowing for custom cameras, ray-primitive intersections, shaders, shadowing, etc. This flexibility enables bidirectional path tracing, Metropolis light transport, and many other rendering algorithms that cannot be implemented with tail recursion.[38] OptiX-based renderers are used in Autodesk Arnold, Adobe AfterEffects, Bunkspeed Shot, Autodesk Maya, 3ds max, and many other renderers.
+In 2014, a demo of the PlayStation 4 video game The Tomorrow Children, developed by Q-Games and Japan Studio, demonstrated new lighting techniques developed by Q-Games, notably cascaded voxel cone ray tracing, which simulates lighting in real-time and uses more realistic reflections rather than screen space reflections.[39]
+Nvidia introduced their GeForce RTX and Quadro RTX GPUs September 2018, based on the Turing architecture that allows for hardware-accelerated ray tracing. The Nvidia hardware uses a separate functional block, publicly called an "RT core". This unit is somewhat comparable to a texture unit in size, latency, and interface to the processor core. The unit features BVH traversal, compressed BVH node decompression, ray-AABB intersection testing, and ray-triangle intersection testing.[40] The GeForce RTX, in the form of models 2080 and 2080 Ti, became the first consumer-oriented brand of graphics card that can process ray tracing in real time,[41] and, in November 2018, Electronic Arts' Battlefield V became the first game to take advantage of its ray tracing capabilities, which it achieves via Microsoft's new API, DirectX Raytracing.[42] AMD, which already offered interactive ray tracing on top of OpenCL through its Radeon ProRender,[43][44] unveiled in October 2020 the Radeon RX 6000 series, its second generation Navi GPUs with support for hardware-accelerated ray tracing at an online event.[45][46][47][48][49] Subsequent games that render their graphics by such means appeared since, which has been credited to the improvements in hardware and efforts to make more APIs and game engines compatible with the technology.[50] Current home gaming consoles implement dedicated ray tracing hardware components in their GPUs for real-time ray tracing effects, which began with the ninth-generation consoles PlayStation 5, Xbox Series X and Series S.[51][52][53][54][55]
+Various complexity results have been proven for certain formulations of the ray tracing problem. In particular, if the decision version of the ray tracing problem is defined as follows[56] – given a light ray's initial position and direction and some fixed point, does the ray eventually reach that point, then the referenced paper proves the following results:
+
+

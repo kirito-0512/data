@@ -1,0 +1,18 @@
+23929,
+PHP-Nuke,
+PHP-Nuke is a web-based automated news publishing and content management system based on PHP and MySQL originally written by Francisco Burzi. The system is controlled using a web-based user interface. PHP-Nuke was originally a fork of the Thatware news portal system by David Norman.
+PHP-Nuke was originally released under the GNU General Public License as free software. Versions after 7.5 required a license fee; from version 8.3 it became free again. This is permitted under the GNU GPL (providing the source code is included), and the purchaser of the software has the right to freely distribute the source code of the product. Burzi no longer owns the PHP-Nuke site.
+As of version 5.6, the display of a copyright message on webpages is required in accordance with the GPL section 2(c).[2]
+PHP-Nuke requires a web server which supports the PHP extension, as well as an SQL database.
+PHP-Nuke is a content management system allowing webmasters to create community-based portals (websites), allowing users and editors to post news items (user-submitted news items are selected by editors) or other types of articles. Registered users can then comment on these articles.
+Modules can be added to the PHP-Nuke system allowing additional features such as an Internet forum, Calendar, News Feed, FAQs, Private Messaging and others. The site is maintained through an administration interface.
+PHP-Nuke includes the following standard modules:
+PHP-Nuke supports many languages and its look and feel can be customized using the Themes system, but major changes requires knowledge of PHP, HTML and CSS.
+Several security holes have been discovered in PHP-Nuke, including SQL injection via unchecked PHP code.[3][4]  PHP-Nuke may have issues with some search engine indexes. PHP-Nuke does not use simple URLs or unique titles for pages.
+PHP-Nuke is distributed for free and licensed under the GNU/GPL license; however, current versions must be purchased and can then be distributed for free.
+The PHP-Nuke website is now owned by Bibado Investments S.L. which is also a distributor of unwanted programs (adware).[5][6]
+
+
+
+Information box
+{'Original author(s)': 'Francisco Burzi', 'Stable release': '8.4.4 / December 5, 2021[1]', 'Repository': 'bitbucket.org/phpnuke/phpnuke/', 'Written in': 'PHP', 'Operating system': 'Cross-platform', 'Type': 'Content management system', 'License': 'GNU General Public License', 'Website': 'github.com/phpnuke/phpnuke'}

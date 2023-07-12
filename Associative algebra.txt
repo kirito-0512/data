@@ -1,0 +1,430 @@
+2112,
+Associative algebra,
+Ring homomorphisms
+Algebraic structures
+Related structures
+Algebraic number theory
+p-adic number theory and decimals
+Algebraic geometry
+Noncommutative algebraic geometry
+Free algebra
+Clifford algebra
+In mathematics, an associative algebra A is an algebraic structure with compatible operations of addition, multiplication (assumed to be associative), and a scalar multiplication by elements in some field K. The addition and multiplication operations together give A the structure of a ring; the addition and scalar multiplication operations together give A the structure of a vector space over K. In this article we will also use the term K-algebra to mean an associative algebra over the field K. A standard first example of a K-algebra is a ring of square matrices over a field K, with the usual matrix multiplication.
+A commutative algebra is an associative algebra that has a commutative multiplication, or, equivalently, an associative algebra that is also a commutative ring.
+In this article associative algebras are assumed to have a multiplicative identity, denoted 1; they are sometimes called unital associative algebras for clarification. In some areas of mathematics this assumption is not made, and we will call such structures non-unital associative algebras. We will also assume that all rings are unital, and all ring homomorphisms are unital.
+Many authors consider the more general concept of an associative algebra over a commutative ring R, instead of a field: An R-algebra is an R-module with an associative R-bilinear binary operation, which also contains a multiplicative identity. For examples of this concept, if S is any ring with center C, then S is an associative C-algebra.
+Let R be a commutative ring (so R could be a field). An associative R-algebra (or more simply, an R-algebra) is a ring 
+that is also an R-module in such a way that the two additions (the ring addition and the module addition) are the same operation, and scalar multiplication satisfies
+for all r in R and x, y in the algebra. (This definition implies that the algebra is unital, since rings are supposed to have a multiplicative identity.)
+Equivalently, an associative algebra A is a ring together with a ring homomorphism from R to the center of A. If f is such a homomorphism, the scalar multiplication is 
+(
+r
+,
+x
+)
+↦
+f
+(
+r
+)
+x
+{\displaystyle (r,x)\mapsto f(r)x}
+ (here the multiplication is the ring multiplication); if the scalar multiplication is given, the ring homomorphism is given by 
+r
+↦
+r
+⋅
+1
+A
+{\displaystyle r\mapsto r\cdot 1_{A}}
+ (See also § From ring homomorphisms below).
+Every ring is an associative 
+Z
+{\displaystyle \mathbb {Z} }
+-algebra, where 
+Z
+{\displaystyle \mathbb {Z} }
+ denotes the ring of the integers.
+A commutative algebra is an associative algebra that is also a commutative ring.
+The definition is equivalent to saying that a unital associative R-algebra is a monoid object in R-Mod (the monoidal category of R-modules). By definition, a ring is a monoid object in the category of abelian groups; thus, the notion of an associative algebra is obtained by replacing the category of abelian groups with the category of modules.
+Pushing this idea further, some authors have introduced a "generalized ring" as a monoid object in some other category that behaves like the category of modules. Indeed, this reinterpretation allows one to avoid making an explicit reference to elements of an algebra A. For example, the associativity can be expressed as follows. By the universal property of a tensor product of modules, the multiplication (the R-bilinear map) corresponds to a unique R-linear map
+The associativity then refers to the identity:
+An associative algebra amounts to a ring homomorphism whose image lies in the center. Indeed, starting with a ring A and a ring homomorphism 
+η
+:
+R
+→
+A
+{\displaystyle \eta \colon R\to A}
+ whose image lies in the center of A, we can make A an R-algebra by defining
+for all r ∈ R and x ∈ A. If A is an R-algebra, taking x = 1, the same formula in turn defines a ring homomorphism 
+η
+:
+R
+→
+A
+{\displaystyle \eta \colon R\to A}
+ whose image lies in the center.
+If a ring is commutative then it equals its center, so that a commutative R-algebra can be defined simply as a commutative ring A together with a commutative ring homomorphism 
+η
+:
+R
+→
+A
+{\displaystyle \eta \colon R\to A}
+.
+The ring homomorphism η appearing in the above is often called a structure map. In the commutative case, one can consider the category whose objects are ring homomorphisms R → A; i.e., commutative R-algebras and whose morphisms are ring homomorphisms A → A' that are under R; i.e., R → A → A' is R → A' (i.e., the coslice category of the category of commutative rings under R.)  The prime spectrum functor Spec then determines an anti-equivalence of this category to the category of affine schemes over Spec R.
+How to weaken the commutativity assumption is a subject matter of noncommutative algebraic geometry and, more recently, of derived algebraic geometry. See also: generic matrix ring.
+A homomorphism between two R-algebras is an R-linear ring homomorphism. Explicitly, 
+φ
+:
+A
+1
+→
+A
+2
+{\displaystyle \varphi :A_{1}\to A_{2}}
+ is an associative algebra homomorphism if
+The class of all R-algebras together with algebra homomorphisms between them form a category, sometimes denoted R-Alg.
+The subcategory of commutative R-algebras can be characterized as the coslice category R/CRing where CRing is the category of commutative rings.
+The most basic example is a ring itself; it is an algebra over its center or any subring lying in the center. In particular, any commutative ring is an algebra over any of its subrings. Other examples abound both from algebra and other fields of mathematics.
+Let A be an associative algebra over a commutative ring R. Since A is in particular a module, we can take the dual module A* of A. A priori, the dual A* need not have a structure of an associative algebra. However, A may come with an extra structure (namely, that of a Hopf algebra) so that the dual is also an associative algebra.
+For example, take A to be the ring of continuous functions on a compact group G. Then, not only A is an associative algebra, but it also comes with the co-multiplication 
+Δ
+(
+f
+)
+(
+g
+,
+h
+)
+=
+f
+(
+g
+h
+)
+{\displaystyle \Delta (f)(g,h)=f(gh)}
+ and co-unit 
+ϵ
+(
+f
+)
+=
+f
+(
+1
+)
+{\displaystyle \epsilon (f)=f(1)}
+.[1] The "co-" refers to the fact that they satisfy the dual of the usual multiplication and unit in the algebra axiom. Hence, the dual 
+A
+∗
+{\displaystyle A^{*}}
+ is an associative algebra. The co-multiplication and co-unit are also important in order to form a tensor product of representations of associative algebras (see § Representations below).
+Given an associative algebra A over a commutative ring R, the enveloping algebra 
+A
+e
+{\displaystyle A^{e}}
+ of A is the algebra 
+A
+⊗
+R
+A
+o
+p
+{\displaystyle A\otimes _{R}A^{op}}
+ or 
+A
+o
+p
+⊗
+R
+A
+{\displaystyle A^{op}\otimes _{R}A}
+, depending on authors.[2]
+Note that a bimodule over A is exactly a left module over 
+A
+e
+{\displaystyle A^{e}}
+.
+Let A be an algebra over a commutative ring R. Then the algebra A is a right[3] module over 
+A
+e
+:=
+A
+o
+p
+⊗
+R
+A
+{\displaystyle A^{e}:=A^{op}\otimes _{R}A}
+ with the action 
+x
+⋅
+(
+a
+⊗
+b
+)
+=
+a
+x
+b
+{\displaystyle x\cdot (a\otimes b)=axb}
+. Then, by definition, A is said to separable if the multiplication map 
+A
+⊗
+R
+A
+→
+A
+,
+x
+⊗
+y
+↦
+x
+y
+{\displaystyle A\otimes _{R}A\to A,\,x\otimes y\mapsto xy}
+ splits as an 
+A
+e
+{\displaystyle A^{e}}
+-linear map,[4] where 
+A
+⊗
+A
+{\displaystyle A\otimes A}
+ is an 
+A
+e
+{\displaystyle A^{e}}
+-module by 
+(
+x
+⊗
+y
+)
+⋅
+(
+a
+⊗
+b
+)
+=
+a
+x
+⊗
+y
+b
+{\displaystyle (x\otimes y)\cdot (a\otimes b)=ax\otimes yb}
+. Equivalently,[5]
+A
+{\displaystyle A}
+ is separable if it is a projective module over 
+A
+e
+{\displaystyle A^{e}}
+; thus, the 
+A
+e
+{\displaystyle A^{e}}
+-projective dimension of A, sometimes called the bidimension of A, measures the failure of separability.
+Let A be a finite-dimensional algebra over a field k. Then A is an Artinian ring.
+As A is Artinian, if it is commutative, then it is a finite product of Artinian local rings whose residue fields are algebras over the base field k. Now, a reduced Artinian local ring is a field and thus the following are equivalent[6]
+Let 
+Γ
+=
+Gal
+⁡
+(
+k
+s
+/
+k
+)
+=
+lim
+←
+⁡
+Gal
+⁡
+(
+k
+′
+/
+k
+)
+{\displaystyle \Gamma =\operatorname {Gal} (k_{s}/k)=\varprojlim \operatorname {Gal} (k'/k)}
+, the profinite group of finite Galois extensions of k. Then 
+A
+↦
+X
+A
+=
+{
+k
+−
+algebra homomorphisms 
+A
+→
+k
+s
+}
+{\displaystyle A\mapsto X_{A}=\{k-{\text{algebra homomorphisms }}A\to k_{s}\}}
+ is an anti-equivalence of the category of finite-dimensional separable k-algebras to the category of finite sets with continuous 
+Γ
+{\displaystyle \Gamma }
+-actions.[7]
+Since a simple Artinian ring is a (full) matrix ring over a division ring, if A is a simple algebra, then A is a (full) matrix algebra over a division algebra D over k; i.e., 
+A
+=
+M
+n
+(
+D
+)
+{\displaystyle A=M_{n}(D)}
+. More generally, if A is a semisimple algebra, then it is a finite product of matrix algebras (over various division k-algebras), the fact known as the Artin–Wedderburn theorem.
+The fact that A is Artinian simplifies the notion of a Jacobson radical; for an Artinian ring, the Jacobson radical of A is the intersection of all (two-sided) maximal ideals (in contrast, in general, a Jacobson radical is the intersection of all left maximal ideals or the intersection of all right maximal ideals.)
+The Wedderburn principal theorem states:[8] for a finite-dimensional algebra A with a nilpotent ideal I, if the projective dimension of 
+A
+/
+I
+{\displaystyle A/I}
+ as a module over the enveloping algebra 
+(
+A
+/
+I
+)
+e
+{\displaystyle (A/I)^{e}}
+ is at most one, then the natural surjection 
+p
+:
+A
+→
+A
+/
+I
+{\displaystyle p:A\to A/I}
+ splits; i.e., 
+A
+{\displaystyle A}
+ contains a subalgebra 
+B
+{\displaystyle B}
+ such that 
+p
+|
+B
+:
+B
+→
+∼
+A
+/
+I
+{\displaystyle p|_{B}:B{\overset {\sim }{\to }}A/I}
+ is an isomorphism. Taking I to be the Jacobson radical, the theorem says in particular that the Jacobson radical is complemented by a semisimple algebra. The theorem is an analog of Levi's theorem for Lie algebras.
+Let R be a Noetherian integral domain with field of fractions K (for example, they can be 
+Z
+,
+Q
+{\displaystyle \mathbb {Z} ,\mathbb {Q} }
+). A lattice L in a finite-dimensional K-vector space V is a finitely generated R-submodule of V that spans V; in other words, 
+L
+⊗
+R
+K
+=
+V
+{\displaystyle L\otimes _{R}K=V}
+.
+Let 
+A
+K
+{\displaystyle A_{K}}
+ be a finite-dimensional K-algebra. An order in 
+A
+K
+{\displaystyle A_{K}}
+ is an R-subalgebra that is a lattice. In general, there are a lot fewer orders than lattices; e.g., 
+1
+2
+Z
+{\displaystyle {1 \over 2}\mathbb {Z} }
+ is a lattice in 
+Q
+{\displaystyle \mathbb {Q} }
+ but not an order (since it is not an algebra).[9]
+A maximal order is an order that is maximal among all the orders.
+An associative algebra over K is given by a K-vector space A endowed with a bilinear map A × A → A having two inputs (multiplicator and multiplicand) and one output (product), as well as a morphism K → A identifying the scalar multiples of the multiplicative identity. If the bilinear map A × A → A is reinterpreted as a linear map (i. e., morphism in the category of K-vector spaces) A ⊗ A → A (by the universal property of the tensor product), then we can view an associative algebra over K as a K-vector space A endowed with two morphisms (one of the form A ⊗ A → A and one of the form K → A) satisfying certain conditions that boil down to the algebra axioms. These two morphisms can be dualized using categorial duality by reversing all arrows in the commutative diagrams that describe the algebra axioms; this defines the structure of a coalgebra.
+There is also an abstract notion of F-coalgebra, where F is a functor. This is vaguely related to the notion of coalgebra discussed above.
+A representation of an algebra A is an algebra homomorphism ρ : A → End(V) from A to the endomorphism algebra of some vector space (or module) V. The property of ρ being an algebra homomorphism means that ρ preserves the multiplicative operation (that is, ρ(xy) = ρ(x)ρ(y) for all x and y in A), and that ρ sends the unit of A to the unit of End(V) (that is, to the identity endomorphism of V).
+If A and B are two algebras, and ρ : A → End(V) and τ : B → End(W) are two representations, then there is a (canonical) representation A 
+⊗
+{\displaystyle \otimes }
+ B → End(V 
+⊗
+{\displaystyle \otimes }
+ W) of the tensor product algebra A 
+⊗
+{\displaystyle \otimes }
+ B on the vector space V 
+⊗
+{\displaystyle \otimes }
+ W. However, there is no natural way of defining a tensor product of two representations of a single associative algebra in such a way that the result is still a representation of that same algebra (not of its tensor product with itself), without somehow imposing additional conditions. Here, by tensor product of representations,  the usual meaning is intended: the result should be a linear representation of the same algebra on the product vector space. Imposing such additional structure typically leads to the idea of a Hopf algebra or a Lie algebra, as demonstrated below.
+Consider, for example, two representations 
+σ
+:
+A
+→
+E
+n
+d
+(
+V
+)
+{\displaystyle \sigma :A\rightarrow \mathrm {End} (V)}
+ and 
+τ
+:
+A
+→
+E
+n
+d
+(
+W
+)
+{\displaystyle \tau :A\rightarrow \mathrm {End} (W)}
+.  One might try to form a tensor product representation 
+ρ
+:
+x
+↦
+σ
+(
+x
+)
+⊗
+τ
+(
+x
+)
+{\displaystyle \rho :x\mapsto \sigma (x)\otimes \tau (x)}
+ according to how it acts on the product vector space, so that
+However, such a map would not be linear, since one would have
+for k ∈ K. One can rescue this attempt and restore linearity by imposing additional structure, by defining an algebra homomorphism Δ: A → A ⊗ A, and defining the tensor product representation as
+Such a homomorphism Δ is called a comultiplication if it satisfies certain axioms.  The resulting structure is called a bialgebra.  To be consistent with the definitions of the associative algebra, the coalgebra must be co-associative, and, if the algebra is unital, then the co-algebra must be co-unital as well. A Hopf algebra is a bialgebra with an additional piece of structure (the so-called antipode), which allows not only to define the tensor product of two representations, but also the Hom module of two representations (again, similarly to how it is done in the representation theory of groups).
+One can try to be more clever in defining a tensor product. Consider, for example,
+so that the action on the tensor product space is given by
+This map is clearly linear in x, and so it does not have the problem of the earlier definition.  However, it fails to preserve multiplication:
+But, in general, this does not equal
+This shows that this definition of a tensor product is too naive; the obvious fix is to define it such that it is antisymmetric, so that the middle two terms cancel. This leads to the concept of a Lie algebra.
+Some authors use the term "associative algebra" to refer to structures which do not necessarily have a multiplicative identity, and hence consider homomorphisms which are not necessarily unital.
+One example of a non-unital associative algebra is given by the set of all functions f: R → R whose limit as x nears infinity is zero.
+Another example is the vector space of continuous periodic functions, together with the convolution product.

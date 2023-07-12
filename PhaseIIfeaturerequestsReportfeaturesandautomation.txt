@@ -1,0 +1,9 @@
+11137,
+PhaseIIfeaturerequestsReportfeaturesandautomation,
+This page is obsolete!
+It is an archive of old feature requests that were still active on 2002 July 20, when we moved from Phase II to Phase III of the software.
+Many requests were implemented then, while others became obsolete due to being rejected by the community.
+See Wikipedia:Feature requests for current requests.
+The whole Page titles to be deleted mechanism is unnecessarily burdensome. The software should be capable of automatically deleting pages that have no content other than whitespace.
+
+

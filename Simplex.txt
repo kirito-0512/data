@@ -1,0 +1,1776 @@
+39781,
+Simplex,
+In geometry, a simplex (plural: simplexes or simplices) is a generalization of the notion of a triangle or tetrahedron to arbitrary dimensions. The simplex is so-named because it represents the simplest possible polytope in any given dimension.  For example,
+Specifically, a k-simplex is a k-dimensional polytope which is the convex hull of its k + 1 vertices. More formally, suppose the k + 1 points 
+
+
+
+
+u
+
+0
+
+
+,
+…
+,
+
+u
+
+k
+
+
+
+
+{\displaystyle u_{0},\dots ,u_{k}}
+
+ are affinely independent, which means that the k vectors 
+
+
+
+
+u
+
+1
+
+
+−
+
+u
+
+0
+
+
+,
+…
+,
+
+u
+
+k
+
+
+−
+
+u
+
+0
+
+
+
+
+{\displaystyle u_{1}-u_{0},\dots ,u_{k}-u_{0}}
+
+ are linearly independent.  Then, the simplex determined by them is the set of points
+
+
+
+
+C
+=
+
+{
+
+
+θ
+
+0
+
+
+
+u
+
+0
+
+
++
+⋯
++
+
+θ
+
+k
+
+
+
+u
+
+k
+
+
+ 
+
+
+|
+
+
+ 
+
+∑
+
+i
+=
+0
+
+
+k
+
+
+
+θ
+
+i
+
+
+=
+1
+
+
+ and 
+
+
+
+θ
+
+i
+
+
+≥
+0
+
+
+ for 
+
+
+i
+=
+0
+,
+…
+,
+k
+
+}
+
+.
+
+
+{\displaystyle C=\left\{\theta _{0}u_{0}+\dots +\theta _{k}u_{k}~{\Bigg |}~\sum _{i=0}^{k}\theta _{i}=1{\mbox{ and }}\theta _{i}\geq 0{\mbox{ for }}i=0,\dots ,k\right\}.}
+
+
+A regular simplex[1] is a simplex that is also a regular polytope. A regular k-simplex may be constructed from a regular (k − 1)-simplex by connecting a new vertex to all original vertices by the common edge length.
+The standard simplex or probability simplex[2] is the k − 1 dimensional simplex whose vertices are the k standard unit vectors in 
+
+
+
+
+
+R
+
+
+k
+
+
+
+
+{\displaystyle \mathbb {R} ^{k}}
+
+, or in other words
+
+
+
+
+
+{
+
+x
+∈
+
+
+R
+
+
+k
+
+
+:
+
+x
+
+0
+
+
++
+⋯
++
+
+x
+
+k
+−
+1
+
+
+=
+1
+,
+
+x
+
+i
+
+
+≥
+0
+
+ for 
+
+i
+=
+0
+,
+…
+,
+k
+−
+1
+
+}
+
+.
+
+
+{\displaystyle \left\{x\in \mathbb {R} ^{k}:x_{0}+\dots +x_{k-1}=1,x_{i}\geq 0{\text{ for }}i=0,\dots ,k-1\right\}.}
+
+
+In topology and combinatorics, it is common to "glue together" simplices to form a simplicial complex. The associated combinatorial structure is called an abstract simplicial complex, in which context the word "simplex" simply means any finite set of vertices.
+The concept of a simplex was known to William Kingdon Clifford, who wrote about these shapes in 1886 but called them "prime confines". 
+Henri Poincaré, writing about algebraic topology in 1900, called them "generalized tetrahedra".
+In 1902 Pieter Hendrik Schoute described the concept first with the Latin superlative simplicissimum ("simplest") and then with the same Latin adjective in the normal form simplex ("simple").[3]
+The regular simplex family is the first of three regular polytope families, labeled by Donald Coxeter as αn, the other two being the cross-polytope family, labeled as βn, and the hypercubes, labeled as γn. A fourth family, the tessellation of n-dimensional space by infinitely many hypercubes, he labeled as δn.[4]
+The convex hull of any nonempty subset of the n + 1 points that define an n-simplex is called a face of the simplex. Faces are simplices themselves. In particular, the convex hull of a subset of size m + 1 (of the n + 1 defining points) is an m-simplex, called an m-face of the n-simplex. The 0-faces (i.e., the defining points themselves as sets of size 1) are called the vertices (singular: vertex), the 1-faces are called the edges, the (n − 1)-faces are called the facets, and the sole n-face is the whole n-simplex itself. In general, the number of m-faces is equal to the binomial coefficient 
+
+
+
+
+
+
+
+(
+
+
+
+n
++
+1
+
+
+m
++
+1
+
+
+
+)
+
+
+
+
+
+
+{\displaystyle {\tbinom {n+1}{m+1}}}
+
+.[5] Consequently, the number of m-faces of an n-simplex may be found in column (m + 1) of row (n + 1) of Pascal's triangle. A simplex A is a coface of a simplex B if B is a face of A. Face and facet can have different meanings when describing types of simplices in a simplicial complex.
+The extended f-vector for an n-simplex can be computed by (1,1)n+1, like the coefficients of polynomial products. For example, a 7-simplex is (1,1)8 = (1,2,1)4 = (1,4,6,4,1)2 = (1,8,28,56,70,56,28,8,1).
+The number of 1-faces (edges) of the n-simplex is the n-th triangle number, the number of 2-faces of the n-simplex is the (n − 1)th tetrahedron number, the number of 3-faces of the n-simplex is the (n − 2)th 5-cell number, and so on.
+An n-simplex is the polytope with the fewest vertices that requires n dimensions. Consider a line segment AB as a shape in a 1-dimensional space (the 1-dimensional space is the line in which the segment lies). One can place a new point C somewhere off the line. The new shape, triangle ABC, requires two dimensions; it cannot fit in the original 1-dimensional space. The triangle is the 2-simplex, a simple shape that requires two dimensions. Consider a triangle ABC, a shape in a 2-dimensional space (the plane in which the triangle resides). One can place a new point D somewhere off the plane. The new shape, tetrahedron ABCD, requires three dimensions; it cannot fit in the original 2-dimensional space. The tetrahedron is the 3-simplex, a simple shape that requires three dimensions. Consider tetrahedron ABCD, a shape in a 3-dimensional space (the 3-space in which the tetrahedron lies). One can place a new point E somewhere outside the 3-space. The new shape ABCDE, called a 5-cell, requires four dimensions and is called the 4-simplex; it cannot fit in the original 3-dimensional space. (It also cannot be visualized easily.) This idea can be generalized, that is, adding a single new point outside the currently occupied space, which requires going to the next higher dimension to hold the new shape. This idea can also be worked backward: the line segment we started with is a simple shape that requires a 1-dimensional space to hold it; the line segment is the 1-simplex. The line segment itself was formed by starting with a single point in 0-dimensional space (this initial point is the 0-simplex) and adding a second point, which required the increase to 1-dimensional space. 
+More formally, an (n + 1)-simplex can be constructed as a join (∨ operator) of an n-simplex and a point, ( ). An (m + n + 1)-simplex can be constructed as a join of an m-simplex and an n-simplex. The two simplices are oriented to be completely normal from each other, with translation in a direction orthogonal to both of them. A 1-simplex is the join of two points: ( ) ∨ ( ) = 2 ⋅ ( ). A general 2-simplex (scalene triangle) is the join of three points: ( ) ∨ ( ) ∨ ( ). An isosceles triangle is the join of a 1-simplex and a point: { } ∨ ( ). An equilateral triangle is 3 ⋅ ( ) or {3}. A general 3-simplex is the join of 4 points: ( ) ∨ ( ) ∨ ( ) ∨ ( ). A 3-simplex with mirror symmetry can be expressed as the join of an edge and two points: { } ∨ ( ) ∨ ( ). A 3-simplex with triangular symmetry can be expressed as the join of an equilateral triangle and 1 point: 3.( )∨( ) or {3}∨( ). A regular tetrahedron is 4 ⋅ ( ) or {3,3} and so on.
+In some conventions,[7] the empty set is defined to be a (−1)-simplex. The definition of the simplex above still makes sense if n = −1. This convention is more common in applications to algebraic topology (such as simplicial homology) than to the study of polytopes.
+These Petrie polygons (skew orthogonal projections) show all the vertices of the regular simplex on a circle, and all vertex pairs connected by edges.
+The standard n-simplex (or unit n-simplex) is the subset of Rn+1 given by
+The simplex Δn lies in the affine hyperplane obtained by removing the restriction ti ≥ 0 in the above definition.
+The n + 1 vertices of the standard n-simplex are the points ei ∈ Rn+1, where
+A standard simplex is an example of a 0/1-polytope, with all coordinates as 0 or 1. It can also be seen one facet of a regular (n+1)-orthoplex.
+There is a canonical map from the standard n-simplex to an arbitrary n-simplex with vertices (v0, ..., vn) given by
+The coefficients ti are called the barycentric coordinates of a point in the n-simplex. Such a general simplex is often called an affine n-simplex, to emphasize that the canonical map is an affine transformation. It is also sometimes called an oriented affine n-simplex to emphasize that the canonical map may be orientation preserving or reversing.
+More generally, there is a canonical map from the standard 
+
+
+
+(
+n
+−
+1
+)
+
+
+{\displaystyle (n-1)}
+
+-simplex (with n vertices) onto any polytope with n vertices, given by the same equation (modifying indexing):
+These are known as generalized barycentric coordinates, and express every polytope as the image of a simplex: 
+
+
+
+
+Δ
+
+n
+−
+1
+
+
+↠
+P
+.
+
+
+{\displaystyle \Delta ^{n-1}\twoheadrightarrow P.}
+
+
+A commonly used function from Rn to the interior of the standard 
+
+
+
+(
+n
+−
+1
+)
+
+
+{\displaystyle (n-1)}
+
+-simplex is the softmax function, or normalized exponential function; this generalizes the standard logistic function.
+An alternative coordinate system is given by taking the indefinite sum:
+This yields the alternative presentation by order, namely as nondecreasing n-tuples between 0 and 1:
+Geometrically, this is an n-dimensional subset of 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ (maximal dimension, codimension 0) rather than of 
+
+
+
+
+
+R
+
+
+n
++
+1
+
+
+
+
+{\displaystyle \mathbb {R} ^{n+1}}
+
+ (codimension 1). The facets, which on the standard simplex correspond to one coordinate vanishing, 
+
+
+
+
+t
+
+i
+
+
+=
+0
+,
+
+
+{\displaystyle t_{i}=0,}
+
+ here correspond to successive coordinates being equal, 
+
+
+
+
+s
+
+i
+
+
+=
+
+s
+
+i
++
+1
+
+
+,
+
+
+{\displaystyle s_{i}=s_{i+1},}
+
+ while the interior corresponds to the inequalities becoming strict (increasing sequences).
+A key distinction between these presentations is the behavior under permuting coordinates – the standard simplex is stabilized by permuting coordinates, while permuting elements of the "ordered simplex" do not leave it invariant, as permuting an ordered sequence generally makes it unordered. Indeed, the ordered simplex is a (closed) fundamental domain for the action of the symmetric group on the n-cube, meaning that the orbit of the ordered simplex under the n! elements of the symmetric group divides the n-cube into 
+
+
+
+n
+!
+
+
+{\displaystyle n!}
+
+ mostly disjoint simplices (disjoint except for boundaries), showing that this simplex has volume 
+
+
+
+1
+
+/
+
+n
+!
+
+
+{\displaystyle 1/n!}
+
+ Alternatively, the volume can be computed by an iterated integral, whose successive integrands are 
+
+
+
+1
+,
+x
+,
+
+x
+
+2
+
+
+
+/
+
+2
+,
+
+x
+
+3
+
+
+
+/
+
+3
+!
+,
+…
+,
+
+x
+
+n
+
+
+
+/
+
+n
+!
+
+
+{\displaystyle 1,x,x^{2}/2,x^{3}/3!,\dots ,x^{n}/n!}
+
+
+A further property of this presentation is that it uses the order but not addition, and thus can be defined in any dimension over any ordered set, and for example can be used to define an infinite-dimensional simplex without issues of convergence of sums.
+Especially in numerical applications of probability theory a projection onto the standard simplex is of interest. Given 
+
+
+
+(
+
+p
+
+i
+
+
+
+)
+
+i
+
+
+
+
+{\displaystyle (p_{i})_{i}}
+
+ with possibly negative entries, the closest point 
+
+
+
+
+
+(
+
+t
+
+i
+
+
+)
+
+
+i
+
+
+
+
+{\displaystyle \left(t_{i}\right)_{i}}
+
+ on the simplex has coordinates 
+where 
+
+
+
+Δ
+
+
+{\displaystyle \Delta }
+
+ is chosen such that 
+
+
+
+
+∑
+
+i
+
+
+max
+{
+
+p
+
+i
+
+
++
+Δ
+
+,
+0
+}
+=
+1.
+
+
+{\textstyle \sum _{i}\max\{p_{i}+\Delta \,,0\}=1.}
+
+
+
+
+
+
+Δ
+
+
+{\displaystyle \Delta }
+
+ can be easily calculated from sorting 
+
+
+
+
+p
+
+i
+
+
+
+
+{\displaystyle p_{i}}
+
+.[8]
+The sorting approach takes 
+
+
+
+O
+(
+n
+log
+⁡
+n
+)
+
+
+{\displaystyle O(n\log n)}
+
+ complexity, which can be improved to 
+
+
+
+O
+(
+n
+)
+
+
+{\displaystyle O(n)}
+
+ complexity via median-finding algorithms.[9] Projecting onto the simplex is computationally similar to projecting onto the 
+
+
+
+
+ℓ
+
+1
+
+
+
+
+{\displaystyle \ell _{1}}
+
+ ball.
+Finally, a simple variant is to replace "summing to 1" with "summing to at most 1"; this raises the dimension by 1, so to simplify notation, the indexing changes:
+This yields an n-simplex as a corner of the n-cube, and is a standard orthogonal simplex. This is the simplex used in the simplex method, which is based at the origin, and locally models a vertex on a polytope with n facets.
+One way to write down a regular n-simplex in Rn is to choose two points to be the first two vertices, choose a third point to make an equilateral triangle, choose a fourth point to make a regular tetrahedron, and so on. Each step requires satisfying equations that ensure that each newly chosen vertex, together with the previously chosen vertices, forms a regular simplex. There are several sets of equations that can be written down and used for this purpose. These include the equality of all the distances between vertices; the equality of all the distances from vertices to the center of the simplex; the fact that the angle subtended through the new vertex by any two previously chosen vertices is 
+
+
+
+π
+
+/
+
+3
+
+
+{\displaystyle \pi /3}
+
+; and the fact that the angle subtended through the center of the simplex by any two vertices is 
+
+
+
+arccos
+⁡
+(
+−
+1
+
+/
+
+n
+)
+
+
+{\displaystyle \arccos(-1/n)}
+
+.
+It is also possible to directly write down a particular regular n-simplex in Rn which can then be translated, rotated, and scaled as desired. One way to do this is as follows. Denote the basis vectors of Rn by e1 through en. Begin with the standard (n − 1)-simplex which is the convex hull of the basis vectors. By adding an additional vertex, these become a face of a regular n-simplex. The additional vertex must lie on the line perpendicular to the barycenter of the standard simplex, so it has the form (α/n, ..., α/n) for some real number α. Since the squared distance between two basis vectors is 2, in order for the additional vertex to form a regular n-simplex, the squared distance between it and any of the basis vectors must also be 2. This yields a quadratic equation for α. Solving this equation shows that there are two choices for the additional vertex:
+Either of these, together with the standard basis vectors, yields a regular n-simplex.
+The above regular n-simplex is not centered on the origin. It can be translated to the origin by subtracting the mean of its vertices. By rescaling, it can be given unit side length. This results in the simplex whose vertices are:
+for 
+
+
+
+1
+≤
+i
+≤
+n
+
+
+{\displaystyle 1\leq i\leq n}
+
+, and
+Note that there are two sets of vertices described here. One set uses 
+
+
+
++
+
+
+{\displaystyle +}
+
+ in each calculation. The other set uses 
+
+
+
+−
+
+
+{\displaystyle -}
+
+ in each calculation.
+This simplex is inscribed in a hypersphere of radius 
+
+
+
+
+
+n
+
+/
+
+(
+2
+(
+n
++
+1
+)
+)
+
+
+
+
+{\displaystyle {\sqrt {n/(2(n+1))}}}
+
+.
+A different rescaling produces a simplex that is inscribed in a unit hypersphere. When this is done, its vertices are
+where 
+
+
+
+1
+≤
+i
+≤
+n
+
+
+{\displaystyle 1\leq i\leq n}
+
+, and
+The side length of this simplex is 
+
+
+
+
+
+2
+(
+n
++
+1
+)
+
+/
+
+n
+
+
+
+
+{\textstyle {\sqrt {2(n+1)/n}}}
+
+.
+A highly symmetric way to construct a regular n-simplex is to use a representation of the cyclic group Zn+1 by orthogonal matrices. This is an n × n orthogonal matrix Q such that Qn+1 = I is the identity matrix, but no lower power of Q is. Applying powers of this matrix to an appropriate vector v will produce the vertices of a regular n-simplex. To carry this out, first observe that for any orthogonal matrix Q, there is a choice of basis in which Q is a block diagonal matrix
+where each Qi is orthogonal and either 2 × 2 or 1 × 1. In order for Q to have order n + 1, all of these matrices must have order dividing n + 1. Therefore each Qi is either a 1 × 1 matrix whose only entry is 1 or, if n is odd, −1; or it is a 2 × 2 matrix of the form
+where each ωi is an integer between zero and n inclusive. A sufficient condition for the orbit of a point to be a regular simplex is that the matrices Qi form a basis for the non-trivial irreducible real representations of Zn+1, and the vector being rotated is not stabilized by any of them.
+In practical terms, for n even this means that every matrix Qi is 2 × 2, there is an equality of sets
+and, for every Qi, the entries of v upon which Qi acts are not both zero. For example, when n = 4, one possible matrix is
+Applying this to the vector (1, 0, 1, 0) results in the simplex whose vertices are
+each of which has distance √5 from the others.
+When n is odd, the condition means that exactly one of the diagonal blocks is 1 × 1, equal to −1, and acts upon a non-zero entry of v; while the remaining diagonal blocks, say Q1, ..., Q(n − 1) / 2, are 2 × 2, there is an equality of sets
+and each diagonal block acts upon a pair of entries of v which are not both zero. So, for example, when n = 3, the matrix can be
+For the vector (1, 0, 1/√2), the resulting simplex has vertices
+each of which has distance 2 from the others.
+The volume of an n-simplex in n-dimensional space with vertices (v0, ..., vn) is
+where each column of the n × n determinant is a vector that points from vertex v0 to another vertex vk.[10] This formula is particularly useful when 
+
+
+
+
+v
+
+0
+
+
+
+
+{\displaystyle v_{0}}
+
+ is the origin.
+The expression
+employs a Gram determinant and works even when the n-simplex's vertices are in a Euclidean space with more than n dimensions, e.g., a triangle in 
+
+
+
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbb {R} ^{3}}
+
+. 
+A more symmetric way to compute the volume of an n-simplex in 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ is
+Another common way of computing the volume of the simplex is via the Cayley–Menger determinant, which works even when the n-simplex's vertices are in a Euclidean space with more than n dimensions.[11]
+Without the 1/n! it is the formula for the volume of an n-parallelotope. 
+This can be understood as follows: Assume that P is an n-parallelotope constructed on a basis 
+
+
+
+(
+
+v
+
+0
+
+
+,
+
+e
+
+1
+
+
+,
+…
+,
+
+e
+
+n
+
+
+)
+
+
+{\displaystyle (v_{0},e_{1},\ldots ,e_{n})}
+
+ of 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+.
+Given a permutation 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+ of 
+
+
+
+{
+1
+,
+2
+,
+…
+,
+n
+}
+
+
+{\displaystyle \{1,2,\ldots ,n\}}
+
+, call a list of vertices 
+
+
+
+
+v
+
+0
+
+
+,
+ 
+
+v
+
+1
+
+
+,
+…
+,
+
+v
+
+n
+
+
+
+
+{\displaystyle v_{0},\ v_{1},\ldots ,v_{n}}
+
+ a n-path if 
+(so there are n! n-paths and 
+
+
+
+
+v
+
+n
+
+
+
+
+{\displaystyle v_{n}}
+
+ does not depend on the permutation). The following assertions hold:
+If P is the unit n-hypercube, then the union of the n-simplexes formed by the convex hull of each n-path is P, and these simplexes are congruent and pairwise non-overlapping.[12] In particular, the volume of such a simplex is
+If P is a general parallelotope, the same assertions hold except that it is no longer true, in dimension > 2, that the simplexes need to be pairwise congruent; yet their volumes remain equal, because the n-parallelotope is the image of the unit n-hypercube by the linear isomorphism that sends the canonical basis of 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ to 
+
+
+
+
+e
+
+1
+
+
+,
+…
+,
+
+e
+
+n
+
+
+
+
+{\displaystyle e_{1},\ldots ,e_{n}}
+
+. As previously, this implies that the volume of a simplex coming from a n-path is:
+Conversely, given an n-simplex 
+
+
+
+(
+
+v
+
+0
+
+
+,
+ 
+
+v
+
+1
+
+
+,
+ 
+
+v
+
+2
+
+
+,
+…
+
+v
+
+n
+
+
+)
+
+
+{\displaystyle (v_{0},\ v_{1},\ v_{2},\ldots v_{n})}
+
+ of 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbf {R} ^{n}}
+
+, it can be supposed that the vectors 
+
+
+
+
+e
+
+1
+
+
+=
+
+v
+
+1
+
+
+−
+
+v
+
+0
+
+
+,
+ 
+
+e
+
+2
+
+
+=
+
+v
+
+2
+
+
+−
+
+v
+
+1
+
+
+,
+…
+
+e
+
+n
+
+
+=
+
+v
+
+n
+
+
+−
+
+v
+
+n
+−
+1
+
+
+
+
+{\displaystyle e_{1}=v_{1}-v_{0},\ e_{2}=v_{2}-v_{1},\ldots e_{n}=v_{n}-v_{n-1}}
+
+ form a basis of 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbf {R} ^{n}}
+
+. Considering the parallelotope constructed from 
+
+
+
+
+v
+
+0
+
+
+
+
+{\displaystyle v_{0}}
+
+ and 
+
+
+
+
+e
+
+1
+
+
+,
+…
+,
+
+e
+
+n
+
+
+
+
+{\displaystyle e_{1},\ldots ,e_{n}}
+
+, one sees that the previous formula is valid for every simplex.
+Finally, the formula at the beginning of this section is obtained by observing that 
+From this formula, it follows immediately that the volume under a standard n-simplex (i.e. between the origin and the simplex in Rn+1) is
+The volume of a regular n-simplex with unit side length is
+as can be seen by multiplying the previous formula by xn+1, to get the volume under the n-simplex as a function of its vertex distance x from the origin, differentiating with respect to x, at 
+
+
+
+x
+=
+1
+
+/
+
+
+
+2
+
+
+
+
+{\displaystyle x=1/{\sqrt {2}}}
+
+  (where the n-simplex side length is 1), and normalizing by the length 
+
+
+
+d
+x
+
+/
+
+
+
+n
++
+1
+
+
+
+
+{\displaystyle dx/{\sqrt {n+1}}}
+
+ of the increment, 
+
+
+
+(
+d
+x
+
+/
+
+(
+n
++
+1
+)
+,
+…
+,
+d
+x
+
+/
+
+(
+n
++
+1
+)
+)
+
+
+{\displaystyle (dx/(n+1),\ldots ,dx/(n+1))}
+
+, along the normal vector.
+Any two (n − 1)-dimensional faces of a regular n-dimensional simplex are themselves regular (n − 1)-dimensional simplices, and they have the same dihedral angle of cos−1(1/n).[13][14]
+This can be seen by noting that the center of the standard simplex is 
+
+
+
+
+(
+
+
+
+1
+
+n
++
+1
+
+
+
+,
+…
+,
+
+
+1
+
+n
++
+1
+
+
+
+
+)
+
+
+
+{\textstyle \left({\frac {1}{n+1}},\dots ,{\frac {1}{n+1}}\right)}
+
+, and the centers of its faces are coordinate permutations of 
+
+
+
+
+(
+
+0
+,
+
+
+1
+n
+
+
+,
+…
+,
+
+
+1
+n
+
+
+
+)
+
+
+
+{\textstyle \left(0,{\frac {1}{n}},\dots ,{\frac {1}{n}}\right)}
+
+. Then, by symmetry, the vector pointing from 
+
+
+
+
+(
+
+
+
+1
+
+n
++
+1
+
+
+
+,
+…
+,
+
+
+1
+
+n
++
+1
+
+
+
+
+)
+
+
+
+{\textstyle \left({\frac {1}{n+1}},\dots ,{\frac {1}{n+1}}\right)}
+
+ to 
+
+
+
+
+(
+
+0
+,
+
+
+1
+n
+
+
+,
+…
+,
+
+
+1
+n
+
+
+
+)
+
+
+
+{\textstyle \left(0,{\frac {1}{n}},\dots ,{\frac {1}{n}}\right)}
+
+ is perpendicular to the faces. So the vectors normal to the faces are permutations of 
+
+
+
+(
+−
+n
+,
+1
+,
+…
+,
+1
+)
+
+
+{\displaystyle (-n,1,\dots ,1)}
+
+, from which the dihedral angles are calculated.
+An "orthogonal corner" means here that there is a vertex at which all adjacent edges are pairwise orthogonal. It immediately follows that all adjacent faces are pairwise orthogonal. Such simplices are generalizations of right triangles and for them there exists an n-dimensional version of the Pythagorean theorem:
+The sum of the squared (n − 1)-dimensional volumes of the facets adjacent to the orthogonal corner equals the squared (n − 1)-dimensional volume of the facet opposite of the orthogonal corner.
+where 
+
+
+
+
+A
+
+1
+
+
+…
+
+A
+
+n
+
+
+
+
+{\displaystyle A_{1}\ldots A_{n}}
+
+ are facets being pairwise orthogonal to each other but not orthogonal to 
+
+
+
+
+A
+
+0
+
+
+
+
+{\displaystyle A_{0}}
+
+, which is the facet opposite the orthogonal corner.[15]
+For a 2-simplex the theorem is the Pythagorean theorem for triangles with a right angle and for a 3-simplex it is de Gua's theorem for a tetrahedron 
+with an orthogonal corner.
+The Hasse diagram of the face lattice of an n-simplex is isomorphic to the graph of the (n + 1)-hypercube's edges, with the hypercube's vertices mapping to each of the n-simplex's elements, including the entire simplex and the null polytope as the extreme points of the lattice (mapped to two opposite vertices on the hypercube). This fact may be used to efficiently enumerate the simplex's face lattice, since more general face lattice enumeration algorithms are more computationally expensive.
+The n-simplex is also the vertex figure of the (n + 1)-hypercube. It is also the facet of the (n + 1)-orthoplex.
+Topologically, an n-simplex is equivalent to an n-ball. Every n-simplex is an n-dimensional manifold with corners.
+In probability theory, the points of the standard n-simplex in (n + 1)-space form the space of possible probability distributions on a finite set consisting of n + 1 possible outcomes. The correspondence is as follows: For each distribution described as an ordered (n + 1)-tuple of probabilities whose sum is (necessarily) 1, we associate the point of the simplex whose barycentric coordinates are precisely those probabilities. That is, the kth vertex of the simplex is assigned to have the kth probability of the (n + 1)-tuple as its barycentric coefficient. This correspondence is an affine homeomorphism.
+Since all simplices are self-dual, they can form a series of compounds;
+In algebraic topology, simplices are used as building blocks to construct an interesting class of topological spaces called simplicial complexes. These spaces are built from simplices glued together in a combinatorial fashion. Simplicial complexes are used to define a certain kind of homology called simplicial homology.
+A finite set of k-simplexes embedded in an open subset of Rn is called an affine k-chain. The simplexes in a chain need not be unique; they may occur with multiplicity. Rather than using standard set notation to denote an affine chain, it is instead the standard practice to use plus signs to separate each member in the set. If some of the simplexes have the opposite orientation, these are prefixed by a minus sign. If some of the simplexes occur in the set more than once, these are prefixed with an integer count. Thus, an affine chain takes the symbolic form of a sum with integer coefficients.
+Note that each facet of an n-simplex is an affine (n − 1)-simplex, and thus the boundary of an n-simplex is an affine (n − 1)-chain. Thus, if we denote one positively oriented affine simplex as
+with the 
+
+
+
+
+v
+
+j
+
+
+
+
+{\displaystyle v_{j}}
+
+ denoting the vertices, then the boundary 
+
+
+
+∂
+σ
+
+
+{\displaystyle \partial \sigma }
+
+ of σ is the chain
+It follows from this expression, and the linearity of the boundary operator, that the boundary of the boundary of a simplex is zero:
+Likewise, the boundary of the boundary of a chain is zero: 
+
+
+
+
+∂
+
+2
+
+
+ρ
+=
+0
+
+
+{\displaystyle \partial ^{2}\rho =0}
+
+.
+More generally, a simplex (and a chain) can be embedded into a manifold by means of smooth, differentiable map 
+
+
+
+f
+:
+
+
+R
+
+
+n
+
+
+→
+M
+
+
+{\displaystyle f\colon \mathbb {R} ^{n}\to M}
+
+. In this case, both the summation convention for denoting the set, and the boundary operation commute with the embedding. That is,
+where the 
+
+
+
+
+a
+
+i
+
+
+
+
+{\displaystyle a_{i}}
+
+ are the integers denoting orientation and multiplicity. For the boundary operator 
+
+
+
+∂
+
+
+{\displaystyle \partial }
+
+, one has:
+where ρ is a chain. The boundary operation commutes with the mapping because, in the end, the chain is defined as a set and little more, and the set operation always commutes with the map operation (by definition of a map).
+A continuous map 
+
+
+
+f
+:
+σ
+→
+X
+
+
+{\displaystyle f:\sigma \to X}
+
+ to a topological space X is frequently referred to as a singular n-simplex. (A map is generally called "singular" if it fails to have some desirable property such as continuity and, in this case, the term is meant to reflect to the fact that the continuous map need not be an embedding.)[16]
+Since classical algebraic geometry allows one to talk about polynomial equations but not inequalities, the algebraic standard n-simplex is commonly defined as the subset of affine (n + 1)-dimensional space, where all coordinates sum up to 1 (thus leaving out the inequality part). The algebraic description of this set is
+
+
+
+
+
+Δ
+
+n
+
+
+:=
+
+{
+
+x
+∈
+
+
+A
+
+
+n
++
+1
+
+
+ 
+
+
+|
+
+
+ 
+
+∑
+
+i
+=
+1
+
+
+n
++
+1
+
+
+
+x
+
+i
+
+
+=
+1
+
+}
+
+,
+
+
+{\displaystyle \Delta ^{n}:=\left\{x\in \mathbb {A} ^{n+1}~{\Bigg |}~\sum _{i=1}^{n+1}x_{i}=1\right\},}
+
+
+which equals the scheme-theoretic description 
+
+
+
+
+Δ
+
+n
+
+
+(
+R
+)
+=
+Spec
+⁡
+(
+R
+[
+
+Δ
+
+n
+
+
+]
+)
+
+
+{\displaystyle \Delta _{n}(R)=\operatorname {Spec} (R[\Delta ^{n}])}
+
+ with
+
+
+
+
+R
+[
+
+Δ
+
+n
+
+
+]
+:=
+R
+[
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
++
+1
+
+
+]
+
+/
+
+(
+
+1
+−
+∑
+
+x
+
+i
+
+
+
+)
+
+
+
+
+
+{\displaystyle R[\Delta ^{n}]:=R[x_{1},\ldots ,x_{n+1}]\left/\left(1-\sum x_{i}\right)\right.}
+
+
+the ring of regular functions on the algebraic n-simplex (for any ring 
+
+
+
+R
+
+
+{\displaystyle R}
+
+).
+By using the same definitions as for the classical n-simplex, the n-simplices for different dimensions n assemble into one simplicial object, while the rings 
+
+
+
+R
+[
+
+Δ
+
+n
+
+
+]
+
+
+{\displaystyle R[\Delta ^{n}]}
+
+ assemble into one cosimplicial object 
+
+
+
+R
+[
+
+Δ
+
+∙
+
+
+]
+
+
+{\displaystyle R[\Delta ^{\bullet }]}
+
+ (in the category of schemes resp. rings, since the face and degeneracy maps are all polynomial).
+The algebraic n-simplices are used in higher K-theory and in the definition of higher Chow groups.
+
+

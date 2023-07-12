@@ -1,0 +1,20 @@
+22923,
+PhpWiki,
+PhpWiki is a web-based wiki software application.
+It began as a clone of WikiWikiWeb and was the first wiki written in PHP.[1]
+PhpWiki has been used to edit and format paper books for publication.[2]
+The first version, by Steve Wainstead, was released in December 1999. It was the first Wiki written in PHP to be publicly released. This version required PHP 3.x and only supported DBM files. 
+It was a feature-for-feature reimplementation of the original WikiWikiWeb at c2.com.[3]
+In early 2000 Arno Hollosi added a second database library to allow running PhpWiki on MySQL.[citation needed]
+From then on more features were added and contributions to the software increased, adding features such as a templating system, color diffs, rewrites of the rendering engine and much more. Arno was interested in running a wiki for the game Go.[4]
+Jeff Dairiki was the next major contributor, and soon headed the project for the next few years, followed up by Reini Urban up to 1.4, and then Marc-Etienne Vargenau since 1.5.
+With version 1.4.0 Wikicreole 1.0 including additions and MediaWiki markup syntax are supported. In version 1.5.0 PHP 4 support was deprecated.
+Versions 1.5.x are compatible with PHP 5.3, 5.4 et 5.5. Code is generated in HTML5 and CSS3.
+Version 1.6.0 is compatible from PHP 5.3.3 to PHP 8.0. Code is generated in HTML5 and CSS3 with
+ARIA roles.
+Version 1.6.1 adds compatibility with PHP 8.1.
+This content management system article is a stub. You can help Wikipedia by expanding it.
+
+
+Information box
+{'Developer(s)': 'Marc-Etienne Vargenau', 'Stable release': '1.6.1 / 24 January 2022; 17 months ago', 'Repository': 'sourceforge.net/p/phpwiki/code/HEAD/tree/', 'Written in': 'PHP', 'Platform': 'Cross-platform', 'Available in': 'German, English, Spanish, French, Italian, Japanese, Dutch, Swedish, Chinese', 'Type': 'Wiki', 'License': 'GNU GPL', 'Website': 'phpwiki.sourceforge.net\nphpwiki.demo.free.fr'}

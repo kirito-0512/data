@@ -1,0 +1,26 @@
+11652,
+FredBrooks,
+
+Frederick Phillips Brooks Jr. (April 19, 1931 – November 17, 2022) was an American computer architect, software engineer, and computer scientist, best known for managing the development of IBM's System/360 family of computers and the OS/360 software support package, then later writing candidly about those experiences in his seminal book The Mythical Man-Month.[3]
+In 1976, Brooks was elected to the National Academy of Engineering for "contributions to computer system design and the development of academic programs in computer sciences".[4]
+Brooks received many awards, including the National Medal of Technology in 1985 and the Turing Award in 1999.[5][6]
+Born on April 19, 1931, in Durham, North Carolina,[7] he attended Duke University, graduating in 1953 with a Bachelor of Science degree in physics, and he received a Ph.D. in applied mathematics (computer science) from Harvard University in 1956, supervised by Howard Aiken.[2]
+Brooks served as the graduate teaching assistant for Ken Iverson at Harvard's graduate program in "automatic data processing", the first such program in the world.[8][9][10]
+Brooks joined IBM in 1956, working in Poughkeepsie, New York, and Yorktown, New York. He worked on the architecture of the IBM 7030 Stretch, a $10 million scientific supercomputer of which nine were sold, and the IBM 7950 Harvest computer for the National Security Agency.  Subsequently, he became manager for the development of the IBM System/360 family of computers and the OS/360 software package. During this time he coined the term "computer architecture".[7]
+In 1964, Brooks accepted an invitation to come to the University of North Carolina at Chapel Hill and founded the University's computer science department. He chaired it for 20 years. As of 2013[update] he was still engaged in active research there, primarily in virtual environments[11] and scientific visualization.[12]
+A few years after leaving IBM, he wrote The Mythical Man-Month. The seed for the book was planted by IBM's then-CEO Thomas J. Watson Jr., who asked in Brooks's exit interview why it was so much harder to manage software projects than hardware projects. In this book, Brooks made the now-famous statement: "Adding manpower to a late software project makes it later", which has since come to be known as Brooks's law.[13] In addition to The Mythical Man-Month, Brooks is also known for the paper "No Silver Bullet – Essence and Accident in Software Engineering".[14][15]
+In 2004 in a talk at the Computer History Museum and also in a 2010 interview in Wired magazine, Brooks was asked "What do you consider your greatest technological achievement?" Brooks responded, "The most important single decision I ever made was to change the IBM 360 series from a 6-bit byte to an 8-bit byte, thereby enabling the use of lowercase letters. That change propagated everywhere."[16]
+A "20th anniversary" edition of The Mythical Man-Month with four additional chapters was published in 1995.[17][18]
+As well as The Mythical Man-Month,[3] Brooks has authored or co-authored many books and peer reviewed papers[5] including Automatic Data Processing,[19] "No Silver Bullet",[14] Computer Architecture,[20] and The Design of Design.[21]
+His contributions to human–computer interaction are described in Ben Shneiderman's HCI pioneers website.[22]
+Brooks served on a number of US national boards and committees, including:[23]
+In chronological order:[23]
+In January 2005, he gave the Turing Lecture on the subject of "Collaboration and Telecollaboration in Design".[26][27]
+Brooks was an evangelical Christian who was active with InterVarsity Christian Fellowship.[28]
+Brooks married Nancy Lee Greenwood in 1956. They have three children.[7] He named his eldest son after Kenneth E. Iverson.[29]
+Brooks died on November 17, 2022, at age 91. He had been in poor health following a stroke.[30][31][32][33]
+
+
+
+Information box
+{'Born': 'Frederick Phillips Brooks Jr.\nApril 19, 1931\nDurham, North Carolina, U.S.', 'Died': 'November 17, 2022 (aged 91)\nChapel Hill, North Carolina, U.S.', 'Alma mater': 'Duke University\nHarvard University', 'Known for': 'OS/360\nThe Mythical Man-Month[3]', 'Spouse': 'Nancy Lee Greenwood (m. 1956)', 'Children': '3', 'Awards': 'IEEE John von Neumann Medal (1993)\nTuring Award (1999)\nMember of the National Academy of Sciences (2001)\nTuring Lecture (2005)', 'Fields': 'Computer science\nOperating systems\nSoftware engineering', 'Institutions': 'IBM[1]\nUniversity of North Carolina at Chapel Hill\nDuke University\nHarvard University', 'Thesis': 'The Analytic Design of Automatic Data Processing Systems (1956)', 'Doctoral advisor': 'Howard Aiken[2]', 'Doctoral students': 'Andrew S. Glassner[2]', 'Website': 'www.cs.unc.edu/~brooks'}

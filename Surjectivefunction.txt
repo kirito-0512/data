@@ -1,0 +1,207 @@
+27873,
+Surjectivefunction,
+In mathematics, a surjective function (also known as surjection, or onto function /ˈɒn.tuː/) is a function f such that every element y can be mapped from some element x so that f(x) = y. In other words, every element of the function's codomain is the image of at least one element of its domain.[1][2] It is not required that x be unique; the function f may map one or more elements of X to the same element of Y.
+The term surjective and the related terms injective and bijective were introduced by Nicolas Bourbaki,[3][4] a group of mainly French 20th-century mathematicians who, under this pseudonym, wrote a series of books presenting an exposition of modern advanced mathematics, beginning in 1935. The French word sur means over or above, and relates to the fact that the image of the domain of a surjective function completely covers the function's codomain.
+Any function induces a surjection by restricting its codomain to the image of its domain. Every surjective function has a right inverse assuming the axiom of choice, and every function with a right inverse is necessarily a surjection. The composition of surjective functions is always surjective. Any function can be decomposed into a surjection and an injection.
+A surjective function is a function whose image is equal to its codomain.  Equivalently, a function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ with domain 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and codomain 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is surjective if for every 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ in 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ there exists at least one 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ with 
+
+
+
+f
+(
+x
+)
+=
+y
+
+
+{\displaystyle f(x)=y}
+
+.[1] Surjections are sometimes denoted by a two-headed rightwards arrow (U+21A0 ↠ RIGHTWARDS TWO HEADED ARROW),[5] as in 
+
+
+
+f
+:
+X
+↠
+Y
+
+
+{\displaystyle f\colon X\twoheadrightarrow Y}
+
+.
+Symbolically,
+A function is bijective if and only if it is both surjective and injective.
+If (as is often done) a function is identified with its graph, then surjectivity is not a property of the function itself, but rather a property of the mapping.[7] This is, the function together with its codomain. Unlike injectivity, surjectivity cannot be read off of the graph of the function alone.
+The function g : Y → X is said to be a right inverse of the function f : X → Y if f(g(y)) = y for every y in Y (g can be undone by f).  In other words, g is a right inverse of f if the composition f o g of g and f in that order is the identity function on the domain Y of g. The function g need not be a complete inverse of f because the composition in the other order, g o f, may not be the identity function on the domain X of f. In other words, f can undo or "reverse" g, but cannot necessarily be reversed by it.
+Every function with a right inverse is necessarily a surjection. The proposition that every surjective function has a right inverse is equivalent to the axiom of choice.
+If f : X → Y is surjective and B is a subset of Y, then f(f −1(B)) = B. Thus, B can be recovered from its preimage f −1(B).
+For example, in the first illustration above, there is some function g such that g(C) = 4. There is also some function f such that f(4) = C.  It doesn't matter that g(C) can also equal 3; it only matters that f "reverses" g.
+A function f : X → Y is surjective if and only if it is right-cancellative:[8] given any functions g,h : Y → Z, whenever g o f = h o f, then g = h. This property is formulated in terms of functions and their composition and can be generalized to the more general notion of the morphisms of a category and their composition. Right-cancellative morphisms are called epimorphisms. Specifically, surjective functions are precisely the epimorphisms in the category of sets. The prefix epi is derived from the Greek preposition ἐπί meaning over, above, on.
+Any morphism with a right inverse is an epimorphism, but the converse is not true in general. A right inverse g of a morphism f is called a section of f. A morphism with a right inverse is called a split epimorphism.
+Any function with domain X and codomain Y can be seen as a left-total and right-unique binary relation between X and Y by identifying it with its function graph. A surjective function with domain X and codomain Y is then a binary relation between X and Y that is right-unique and both left-total and right-total.
+The cardinality of the domain of a surjective function is greater than or equal to the cardinality of its codomain: If f : X → Y is a surjective function, then X has at least as many elements as Y, in the sense of cardinal numbers.   (The proof appeals to the axiom of choice to show that a function
+g : Y → X satisfying f(g(y)) = y for all y in Y exists. g is easily seen to be injective, thus the formal definition of |Y| ≤ |X| is satisfied.)
+Specifically, if both X and Y are finite with the same number of elements, then f : X → Y is surjective if and only if f is injective.
+Given two sets X and Y, the notation X ≤* Y is used to say that either X is empty or that there is a surjection from Y onto X. Using the axiom of choice one can show that X ≤* Y and Y ≤* X together imply that |Y| = |X|, a variant of the Schröder–Bernstein theorem.
+The composition of surjective functions is always surjective: If f and g are both surjective, and the codomain of g is equal to the domain of f, then f o g is surjective. Conversely, if f o g is surjective, then f is surjective (but g, the function applied first, need not be). These properties generalize from surjections in the category of sets to any epimorphisms in any category.
+Any function can be decomposed into a surjection and an injection: For any function h : X → Z there exist a surjection f : X → Y and an injection g : Y → Z such that h = g o f. To see this, define Y to be the set of preimages h−1(z) where z is in h(X). These preimages are disjoint and partition X. Then f carries each x to the element of Y which contains it, and g carries each element of Y to the point in Z to which h sends its points. Then f is surjective since it is a projection map, and g is injective by definition.
+Any function induces a surjection by restricting its codomain to its range. Any surjective function induces a bijection defined on a quotient of its domain by collapsing all arguments mapping to a given fixed image. More precisely, every surjection f : A → B can be factored as a projection followed by a bijection as follows. Let A/~ be the equivalence classes of A under the following equivalence relation: x ~ y if and only if f(x) = f(y). Equivalently, A/~ is the set of all preimages under f. Let P(~) : A → A/~ be the projection map which sends each x in A to its equivalence class [x]~, and let fP : A/~ → B be the well-defined function given by fP([x]~) = f(x). Then f = fP o P(~).
+Given fixed A and B, one can form the set of surjections A ↠ B.  The cardinality of this set is one of the twelve aspects of Rota's Twelvefold way, and is given by 
+
+
+
+
+|
+
+B
+
+|
+
+!
+
+
+{
+
+
+
+
+|
+
+A
+
+|
+
+
+
+
+
+
+|
+
+B
+
+|
+
+
+
+
+}
+
+
+
+
+{\textstyle |B|!{\begin{Bmatrix}|A|\\|B|\end{Bmatrix}}}
+
+, where 
+
+
+
+
+
+{
+
+
+
+
+|
+
+A
+
+|
+
+
+
+
+
+
+|
+
+B
+
+|
+
+
+
+
+}
+
+
+
+
+{\textstyle {\begin{Bmatrix}|A|\\|B|\end{Bmatrix}}}
+
+ denotes a Stirling number of the second kind.  
+A non-injective surjective function (surjection, not a bijection)
+An injective surjective function (bijection)
+An injective non-surjective function (injection, not a bijection)
+A non-injective non-surjective function (neither a bijection)
+Surjective composition: the first function need not be surjective.
+Non-surjective functions in the Cartesian plane. Although some parts of the function are surjective, where elements y in Y do have a value x in X such that y = f(x), some parts are not. Left: There is y0 in Y, but there is no x0 in X such that y0 = f(x0). Right: There are y1, y2 and y3 in Y, but there are no x1, x2, and x3 in X such that y1 = f(x1), y2 = f(x2), and y3 = f(x3).
+Interpretation for surjective functions in the Cartesian plane, defined by the mapping f : X → Y, where y = f(x), X = domain of function, Y = range of function. Every element in the range is mapped onto from an element in the domain, by the rule f. There may be a number of domain elements which map to the same range element. That is, every y in Y is mapped from an element x in X, more than one x can map to the same y. Left: Only one domain is shown which makes f surjective. Right: two possible domains X1 and X2 are shown.
+
+

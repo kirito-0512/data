@@ -1,0 +1,13 @@
+2099,
+Andrew Tridgell,
+Andrew "Tridge" Tridgell OAM (born 28 February 1967) is an Australian computer programmer.  He is the author of and a contributor to the Samba file server, and co-inventor of the rsync algorithm.
+He has analysed complex proprietary protocols and algorithms, to allow compatible free and open source software implementations.
+Tridgell was a major developer of the Samba software, analyzing the Server Message Block protocol used for workgroup and network file sharing by Microsoft Windows products. He developed the talloc hierarchical memory allocator, originally as part of Samba.
+For his PhD dissertation, he co-developed rsync, including the rsync algorithm, a highly efficient file transfer and synchronisation tool. He was also the original author of rzip, which uses a similar algorithm to rsync. He developed spamsum,[clarification needed] based on locality-sensitive hashing algorithms.[1]
+He is the author of KnightCap, a reinforcement-learning based chess engine.
+Tridgell was also a leader in hacking the TiVo to make it work in Australia, which uses the PAL video format.[2]
+In April 2005, Tridgell tried to produce free software (now known as SourcePuller) that interoperated with the BitKeeper source code repository. This was cited as the reason that BitMover revoked a license allowing Linux developers free use of their BitKeeper product.[3] Linus Torvalds, the creator of the Linux kernel, and Tridgell were thus involved in a public debate about the events, in which Tridgell stated that, not having bought or owned BitKeeper – and thus having never agreed to its license – he could not violate it, and was analyzing the protocol ethically, as he had done with Samba. Tridgell's involvement in the project resulted in Torvalds accusing him of playing dirty tricks with BitKeeper.[4] Tridgell claimed his analysis started with simply telneting to a BitKeeper server and typing help.[5]
+In 2011 Tridgell got involved with the software development of ArduPilot Mega,[6] an open source Arduino-based UAV controller board, working on an entry for the UAV Challenge Outback Rescue.[7]
+Tridgell completed a PhD at the Computer Sciences Laboratory of the Australian National University. His original doctorate work was in the area of speech recognition but was never completed. His submitted dissertation 'Efficient Algorithms for Sorting and Synchronization' was based on his work on the rsync algorithm.[8]
+Information box
+{'Born': '28 February 1967 (age 56)\nSydney, Australia', 'Nationality': 'Australian', 'Other names': 'Tridge', 'Occupation': 'Programmer', 'Known for': 'rsync, Samba, rzip, ccache'}

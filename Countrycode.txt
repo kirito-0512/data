@@ -1,0 +1,27 @@
+6958,
+Countrycode,
+A country code is a short alphanumeric identification code for countries and dependent areas. Its primary use is in data processing and communications. Several identification systems have been developed.
+The term country code frequently refers to ISO 3166-1 alpha-2, as well as the telephone country code, which is embodied in the E.164 recommendation by the International Telecommunication Union (ITU).
+The standard ISO 3166-1 defines short identification codes for most countries and dependent areas:
+The two-letter codes are used as the basis for other codes and applications, for example,
+Other applications are defined in ISO 3166-1 alpha-2.
+In telecommunication, a country code, or international subscriber dialing (ISD) code, is a telephone number prefix used in international direct dialing (IDD) and for destination routing of telephone calls to a country other than the caller's. A country or region with an autonomous telephone administration must apply for membership in the International Telecommunication Union (ITU) to participate in the international public switched telephone network (PSTN). County codes are defined by the ITU-T section of the ITU in standards E.123 and E.164.
+Country codes constitute the international telephone numbering plan, and are dialed only when calling a telephone number in another country. They are dialed before the national telephone number. International calls require at least one additional prefix to be dialing before the country code, to connect the call to international circuits, the international call prefix. When printing telephone numbers this is indicated by a plus-sign (+) in front of a complete international telephone number, per recommendation E164 by the ITU.
+The developers of ISO 3166 intended that in time it would replace other coding systems.
+Country identities may be encoded in the following coding systems:
+A -
+B -
+C -
+D–E -
+F -
+G -
+H–I -
+J–K -
+L -
+M -
+N -
+O–Q -
+R -
+S -
+T -
+U–Z

@@ -1,0 +1,458 @@
+21544,
+Nuclearfusion,
+
+Nuclear fusion is a reaction in which two or more atomic nuclei, usually deuterium and tritium (hydrogen variants), are combined to form one or more different atomic nuclei and subatomic particles (neutrons or protons). The difference in mass between the reactants and products is manifested as either the release or absorption of energy. This difference in mass arises due to the difference in nuclear binding energy between the atomic nuclei before and after the reaction. Nuclear fusion is the process that powers active or main-sequence stars and other high-magnitude stars, where large amounts of energy are released.
+A nuclear fusion process that produces atomic nuclei lighter than iron-56 or nickel-62 will generally release energy. These elements have a relatively small mass and a relatively large binding energy per nucleon. Fusion of nuclei lighter than these releases energy (an exothermic process), while the fusion of heavier nuclei results in energy retained by the product nucleons, and the resulting reaction is endothermic. The opposite is true for the reverse process, called nuclear fission. Nuclear fusion uses lighter elements, such as hydrogen and helium, which are in general more fusible; while the heavier elements, such as uranium, thorium and plutonium, are more fissionable. The extreme astrophysical event of a supernova can produce enough energy to fuse nuclei into elements heavier than iron.
+In 1921, Arthur Eddington suggested hydrogen–helium fusion could be the primary source of stellar energy.[1] Quantum tunneling was discovered by Friedrich Hund in 1927,[2][3] and shortly afterwards Robert Atkinson and Fritz Houtermans used the measured masses of light elements to demonstrate that large amounts of energy could be released by fusing small nuclei.[4] Building on the early experiments in artificial nuclear transmutation by Patrick Blackett, laboratory fusion of hydrogen isotopes was accomplished by Mark Oliphant in 1932.[5] In the remainder of that decade, the theory of the main cycle of nuclear fusion in stars was worked out by Hans Bethe.  Research into fusion for military purposes began in the early 1940s as part of the Manhattan Project. Self-sustaining nuclear fusion was first carried out on 1 November 1952, in the Ivy Mike hydrogen (thermonuclear) bomb test.
+While fusion was achieved in the operation of the hydrogen bomb (H-bomb), the reaction must be controlled and sustained in order for it to be a useful energy source. Research into developing controlled fusion inside fusion reactors has been ongoing since the 1930s, but the technology is still in its developmental phase.[6]
+The US National Ignition Facility, which uses laser-driven inertial confinement fusion, was designed with a goal of break-even fusion; the first large-scale laser target experiments were performed in June 2009 and ignition experiments began in early 2011.[7][8]  On 13 December 2022, the United States Department of Energy announced that on 5 December 2022, they had successfully accomplished break-even fusion, "delivering 2.05 megajoules (MJ) of energy to the target, resulting in 3.15 MJ of fusion energy output."[9]
+Prior to this breakthrough, controlled fusion reactions had been unable to produce break-even (self-sustaining) controlled fusion.[10] The two most advanced approaches for it are magnetic confinement (toroid designs) and inertial confinement (laser designs). Workable designs for a toroidal reactor that theoretically will deliver ten times more fusion energy than the amount needed to heat plasma to the required temperatures are in development (see ITER). The ITER facility is expected to finish its construction phase in 2025. It will start commissioning the reactor that same year and initiate plasma experiments in 2025, but is not expected to begin full deuterium–tritium fusion until 2035.[11]
+Private companies pursuing the commercialization of nuclear fusion received $2.6 billion in private funding in 2021 alone, going to many notable startups including but not limited to Commonwealth Fusion Systems, Helion Energy Inc., TAE Technologies Inc. and Zap Energy Inc.[12]
+Similarly, Canadian-based General Fusion, which is developing a magnetized target fusion nuclear energy system, aims to build its demonstration plant by 2025.[13]
+The release of energy with the fusion of light elements is due to the interplay of two opposing forces: the nuclear force, a manifestation of the strong interaction, which holds protons and neutrons tightly together in the atomic nucleus; and the Coulomb force, which causes positively charged protons in the nucleus to repel each other.[15] Lighter nuclei (nuclei smaller than iron and nickel) are sufficiently small and proton-poor to allow the nuclear force to overcome the Coulomb force. This is because the nucleus is sufficiently small that all nucleons feel the short-range attractive force at least as strongly as they feel the infinite-range Coulomb repulsion. Building up nuclei from lighter nuclei by fusion releases the extra energy from the net attraction of particles. For larger nuclei, however, no energy is released, because the nuclear force is short-range and cannot act across larger nuclei.
+Fusion powers stars and produces virtually all elements in a process called nucleosynthesis. The Sun is a main-sequence star, and, as such, generates its energy by nuclear fusion of hydrogen nuclei into helium. In its core, the Sun fuses 620 million metric tons of hydrogen and makes 616 million metric tons of helium each second. The fusion of lighter elements in stars releases energy and the mass that always accompanies it. For example, in the fusion of two hydrogen nuclei to form helium, 0.645% of the mass is carried away in the form of kinetic energy of an alpha particle or other forms of energy, such as electromagnetic radiation.[16]
+It takes considerable energy to force nuclei to fuse, even those of the lightest element, hydrogen. When accelerated to high enough speeds, nuclei can overcome this electrostatic repulsion and be brought close enough such that the attractive nuclear force is greater than the repulsive Coulomb force. The strong force grows rapidly once the nuclei are close enough, and the fusing nucleons can essentially "fall" into each other and the result is fusion and net energy produced. The fusion of lighter nuclei, which creates a heavier nucleus and often a free neutron or proton, generally releases more energy than it takes to force the nuclei together; this is an exothermic process that can produce self-sustaining reactions.[17]
+Energy released in most nuclear reactions is much larger than in chemical reactions, because the binding energy that holds a nucleus together is greater than the energy that holds electrons to a nucleus. For example, the ionization energy gained by adding an electron to a hydrogen nucleus is 13.6 eV—less than one-millionth of the 17.6 MeV released in the deuterium–tritium (D–T) reaction shown in the adjacent diagram. Fusion reactions have an energy density many times greater than nuclear fission; the reactions produce far greater energy per unit of mass even though individual fission reactions are generally much more energetic than individual fusion ones, which are themselves millions of times more energetic than chemical reactions. Only direct conversion of mass into energy, such as that caused by the annihilatory collision of matter and antimatter, is more energetic per unit of mass than nuclear fusion. (The complete conversion of one gram of matter would release 9×1013 joules of energy.)
+An important fusion process is the stellar nucleosynthesis that powers stars, including the Sun. In the 20th century, it was recognized that the energy released from nuclear fusion reactions accounts for the longevity of stellar heat and light. The fusion of nuclei in a star, starting from its initial hydrogen and helium abundance, provides that energy and synthesizes new nuclei. Different reaction chains are involved, depending on the mass of the star (and therefore the pressure and temperature in its core).
+Around 1920, Arthur Eddington anticipated the discovery and mechanism of nuclear fusion processes in stars, in his paper The Internal Constitution of the Stars.[18][19] At that time, the source of stellar energy was unknown; Eddington correctly speculated that the source was fusion of hydrogen into helium, liberating enormous energy according to Einstein's equation E = mc2. This was a particularly remarkable development since at that time fusion and thermonuclear energy had not yet been discovered, nor even that stars are largely composed of hydrogen (see metallicity). Eddington's paper reasoned that:
+All of these speculations were proven correct in the following decades.
+The primary source of solar energy, and that of similar size stars, is the fusion of hydrogen to form helium (the proton–proton chain reaction), which occurs at a solar-core temperature of 14 million kelvin. The net result is the fusion of four protons into one alpha particle, with the release of two positrons and two neutrinos (which changes two of the protons into neutrons), and energy. In heavier stars, the CNO cycle and other processes are more important. As a star uses up a substantial fraction of its hydrogen, it begins to synthesize heavier elements. The heaviest elements are synthesized by fusion that occurs when a more massive star undergoes a violent supernova at the end of its life, a process known as supernova nucleosynthesis.
+A substantial energy barrier of electrostatic forces must be overcome before fusion can occur. At large distances, two naked nuclei repel one another because of the repulsive electrostatic force between their positively charged protons. If two nuclei can be brought close enough together, however, the electrostatic repulsion can be overcome by the quantum effect in which nuclei can tunnel through coulomb forces.
+When a nucleon such as a proton or neutron is added to a nucleus, the nuclear force attracts it to all the other nucleons of the nucleus (if the atom is small enough), but primarily to its immediate neighbors due to the short range of the force. The nucleons in the interior of a nucleus have more neighboring nucleons than those on the surface. Since smaller nuclei have a larger surface-area-to-volume ratio, the binding energy per nucleon due to the nuclear force generally increases with the size of the nucleus but approaches a limiting value corresponding to that of a nucleus with a diameter of about four nucleons. It is important to keep in mind that nucleons are quantum objects. So, for example, since two neutrons in a nucleus are identical to each other, the goal of distinguishing one from the other, such as which one is in the interior and which is on the surface, is in fact meaningless, and the inclusion of quantum mechanics is therefore necessary for proper calculations.
+The electrostatic force, on the other hand, is an inverse-square force, so a proton added to a nucleus will feel an electrostatic repulsion from all the other protons in the nucleus. The electrostatic energy per nucleon due to the electrostatic force thus increases without limit as nuclei atomic number grows.
+The net result of the opposing electrostatic and strong nuclear forces is that the binding energy per nucleon generally increases with increasing size, up to the elements iron and nickel, and then decreases for heavier nuclei. Eventually, the binding energy becomes negative and very heavy nuclei (all with more than 208 nucleons, corresponding to a diameter of about 6 nucleons) are not stable. The four most tightly bound nuclei, in decreasing order of binding energy per nucleon, are 62Ni, 58Fe, 56Fe, and 60Ni.[20] Even though the nickel isotope, 62Ni, is more stable, the iron isotope 56Fe is an order of magnitude more common. This is due to the fact that there is no easy way for stars to create 62Ni through the alpha process.
+An exception to this general trend is the helium-4 nucleus, whose binding energy is higher than that of lithium, the next heavier element. This is because protons and neutrons are fermions, which according to the Pauli exclusion principle cannot exist in the same nucleus in exactly the same state. Each proton or neutron's energy state in a nucleus can accommodate both a spin up particle and a spin down particle. Helium-4 has an anomalously large binding energy because its nucleus consists of two protons and two neutrons (it is a doubly magic nucleus), so all four of its nucleons can be in the ground state. Any additional nucleons would have to go into higher energy states.  Indeed, the helium-4 nucleus is so tightly bound that it is commonly treated as a single quantum mechanical particle in nuclear physics, namely, the alpha particle.
+The situation is similar if two nuclei are brought together. As they approach each other, all the protons in one nucleus repel all the protons in the other. Not until the two nuclei actually come close enough for long enough so the strong nuclear force can take over (by way of tunneling) is the repulsive electrostatic force overcome. Consequently, even when the final energy state is lower, there is a large energy barrier that must first be overcome. It is called the Coulomb barrier.
+The Coulomb barrier is smallest for isotopes of hydrogen, as their nuclei contain only a single positive charge. A diproton is not stable, so neutrons must also be involved, ideally in such a way that a helium nucleus, with its extremely tight binding, is one of the products.
+Using deuterium–tritium fuel, the resulting energy barrier is about 0.1 MeV. In comparison, the energy needed to remove an electron from hydrogen is 13.6 eV. The (intermediate) result of the fusion is an unstable 5He nucleus, which immediately ejects a neutron with 14.1 MeV. The recoil energy of the remaining 4He nucleus is 3.5 MeV, so the total energy liberated is 17.6 MeV. This is many times more than what was needed to overcome the energy barrier.
+The reaction cross section (σ) is a measure of the probability of a fusion reaction as a function of the relative velocity of the two reactant nuclei. If the reactants have a distribution of velocities, e.g. a thermal distribution, then it is useful to perform an average over the distributions of the product of cross-section and velocity. This average is called the 'reactivity', denoted ⟨σv⟩. The reaction rate (fusions per volume per time) is ⟨σv⟩ times the product of the reactant number densities:
+If a species of nuclei is reacting with a nucleus like itself, such as the DD reaction, then the product 
+
+
+
+n
+
+1
+
+
+
+n
+
+2
+
+
+
+n_{1}n_{2}
+
+ must be replaced by 
+
+
+
+n
+
+2
+
+
+
+/
+
+2
+
+n^{2}/2
+
+.
+
+
+
+⟨
+σ
+v
+⟩
+
+\langle \sigma v\rangle
+
+ increases from virtually zero at room temperatures up to meaningful magnitudes at temperatures of 10–100 keV. At these temperatures, well above typical ionization energies (13.6 eV in the hydrogen case), the fusion reactants exist in a plasma state.
+The significance of 
+
+
+⟨
+σ
+v
+⟩
+
+\langle \sigma v\rangle
+
+ as a function of temperature in a device with a particular energy confinement time is found by considering the Lawson criterion.  This is an extremely challenging barrier to overcome on Earth, which explains why fusion research has taken many years to reach the current advanced technical state.[21]
+Thermonuclear fusion is the process of atomic nuclei combining or “fusing” using high temperatures to drive them close enough together for this to become possible. Such temperatures cause the  matter to become a plasma and, if confined, fusion reactions may occur due to collisions with extreme thermal kinetic energies of the particles. There are two forms of thermonuclear fusion: uncontrolled, in which the resulting energy is released in an uncontrolled manner, as it is in thermonuclear weapons ("hydrogen bombs") and in most stars; and controlled, where the fusion reactions take place in an environment allowing some or all of the energy released to be harnessed for constructive purposes.
+Temperature is a measure of the average kinetic energy of particles, so by heating the material it will gain energy. After reaching sufficient temperature, given by the Lawson criterion, the energy of accidental collisions within the plasma is high enough to overcome the Coulomb barrier and the particles may fuse together.
+In a deuterium–tritium fusion reaction, for example, the energy necessary to overcome the Coulomb barrier is 0.1 MeV. Converting between energy and temperature shows that the 0.1 MeV barrier would be overcome at a temperature in excess of 1.2 billion kelvin.
+There are two effects that are needed to lower the actual temperature. One is the fact that temperature is the average kinetic energy, implying that some nuclei at this temperature would actually have much higher energy than 0.1 MeV, while others would be much lower. It is the nuclei in the high-energy tail of the velocity distribution that account for most of the fusion reactions. The other effect is quantum tunnelling. The nuclei do not actually have to have enough energy to overcome the Coulomb barrier completely. If they have nearly enough energy, they can tunnel through the remaining barrier. For these reasons fuel at lower temperatures will still undergo fusion events, at a lower rate.
+Thermonuclear fusion is one of the methods being researched in the attempts to produce fusion power. If thermonuclear fusion becomes favorable to use, it would significantly reduce the world's carbon footprint.
+Accelerator-based light-ion fusion is a technique using particle accelerators to achieve particle kinetic energies sufficient to induce light-ion fusion reactions.[22] Accelerating light ions is relatively easy, and can be done in an efficient manner—requiring only a vacuum tube, a pair of electrodes, and a high-voltage transformer; fusion can be observed with as little as 10 kV between the electrodes. The system can be arranged to accelerate ions into a static fuel-infused target, known as beam–target fusion, or by accelerating two streams of ions towards each other, beam–beam fusion.
+The key problem with accelerator-based fusion (and with cold targets in general) is that fusion cross sections are many orders of magnitude lower than Coulomb interaction cross-sections. Therefore, the vast majority of ions expend their energy emitting bremsstrahlung radiation and the ionization of atoms of the target. Devices referred to as sealed-tube neutron generators are particularly relevant to this discussion. These small devices are miniature particle accelerators filled with deuterium and tritium gas in an arrangement that allows ions of those nuclei to be accelerated against hydride targets, also containing deuterium and tritium, where fusion takes place, releasing a flux of neutrons. Hundreds of neutron generators are produced annually for use in the petroleum industry where they are used in measurement equipment for locating and mapping oil reserves.
+A number of attempts to recirculate the ions that "miss" collisions have been made over the years. One of the better-known attempts in the 1970s was Migma, which used a unique particle storage ring to capture ions into circular orbits and return them to the reaction area. Theoretical calculations made during funding reviews pointed out that the system would have significant difficulty scaling up to contain enough fusion fuel to be relevant as a power source. In the 1990s, a new arrangement using a field-reverse configuration (FRC) as the storage system was proposed by Norman Rostoker and continues to be studied by TAE Technologies as of 2021[update]. A closely related approach is to merge two FRC's rotating in opposite directions,[23] which is being actively studied by Helion Energy. Because these approaches all have ion energies well beyond the Coulomb barrier, they often suggest the use of alternative fuel cycles like p-11B that are too difficult to attempt using conventional approaches.[24]
+Muon-catalyzed fusion is a fusion process that occurs at ordinary temperatures. It was studied in detail by Steven Jones in the early 1980s. Net energy production from this reaction has been unsuccessful because of the high energy required to create muons, their short 2.2 µs half-life, and the high chance that a muon will bind to the new alpha particle and thus stop catalyzing fusion.[25]
+Some other confinement principles have been investigated.
+The key problem in achieving thermonuclear fusion is how to confine the hot plasma. Due to the high temperature, the plasma cannot be in direct contact with any solid material, so it has to be located in a vacuum. Also, high temperatures imply high pressures. The plasma tends to expand immediately and some force is necessary to act against it. This force can take one of three forms: gravitation in stars, magnetic forces in magnetic confinement fusion reactors, or inertial as the fusion reaction may occur before the plasma starts to expand, so the plasma's inertia is keeping the material together.
+One force capable of confining the fuel well enough to satisfy the Lawson criterion is gravity. The mass needed, however, is so great that gravitational confinement is only found in stars—the least massive stars capable of sustained fusion are red dwarfs, while brown dwarfs are able to fuse deuterium and lithium if they are of sufficient mass. In stars heavy enough, after the supply of hydrogen is exhausted in their cores, their cores (or a shell around the core) start fusing helium to carbon. In the most massive stars (at least 8–11 solar masses), the process is continued until some of their energy is produced by fusing lighter elements to iron. As iron has one of the highest binding energies, reactions producing heavier elements are generally endothermic. Therefore significant amounts of heavier elements are not formed during stable periods of massive star evolution, but are formed in supernova explosions. Some lighter stars also form these elements in the outer parts of the stars over long periods of time, by absorbing energy from fusion in the inside of the star, by absorbing neutrons that are emitted from the fusion process.
+All of the elements heavier than iron have some potential energy to release, in theory. At the extremely heavy end of element production, these heavier elements can produce energy in the process of being split again back toward the size of iron, in the process of nuclear fission. Nuclear fission thus releases energy that has been stored, sometimes billions of years before, during stellar nucleosynthesis.
+Electrically charged particles (such as fuel ions) will follow magnetic field lines (see Guiding centre). The fusion fuel can therefore be trapped using a strong magnetic field. A variety of magnetic configurations exist, including the toroidal geometries of tokamaks and stellarators and open-ended mirror confinement systems.
+A third confinement principle is to apply a rapid pulse of energy to a large part of the surface of a pellet of fusion fuel, causing it to simultaneously "implode" and heat to very high pressure and temperature. If the fuel is dense enough and hot enough, the fusion reaction rate will be high enough to burn a significant fraction of the fuel before it has dissipated. To achieve these extreme conditions, the initially cold fuel must be explosively compressed. Inertial confinement is used in the hydrogen bomb, where the driver is x-rays created by a fission bomb. Inertial confinement is also attempted in "controlled" nuclear fusion, where the driver is a laser, ion, or electron beam, or a Z-pinch. Another method is to use conventional high explosive material to compress a fuel to fusion conditions.[34][35] The UTIAS explosive-driven-implosion facility was used to produce stable, centred and focused hemispherical implosions[36] to generate neutrons from D-D reactions. The simplest and most direct method proved to be in a predetonated stoichiometric mixture of deuterium-oxygen. The other successful method was using a miniature Voitenko compressor,[37] where a plane diaphragm was driven by the implosion wave into a secondary small spherical cavity that contained pure deuterium gas at one atmosphere.[38]
+
+There are also electrostatic confinement fusion devices. These devices confine ions using electrostatic fields. The best known is the fusor. This device has a cathode inside an anode wire cage. Positive ions fly towards the negative inner cage, and are heated by the electric field in the process. If they miss the inner cage they can collide and fuse. Ions typically hit the cathode, however, creating prohibitory high conduction losses. Also, fusion rates in fusors are very low due to competing physical effects, such as energy loss in the form of light radiation.[39] Designs have been proposed to avoid the problems associated with the cage, by generating the field using a non-neutral cloud. These include a plasma oscillating device,[40] a Penning trap and the polywell.[41] The technology is relatively immature, however, and many scientific and engineering questions remain.
+The most well known Inertial electrostatic confinement approach is the fusor.  Starting in 1999, a number of amateurs have been able to do amateur fusion using these homemade devices.[42][43][44][45] Other IEC devices include: the Polywell, MIX POPS[46] and Marble concepts.[47]
+At the temperatures and densities in stellar cores, the rates of fusion reactions are notoriously slow. For example, at solar core temperature (T ≈ 15 MK) and density (160 g/cm3), the energy release rate is only 276 μW/cm3—about a quarter of the volumetric rate at which a resting human body generates heat.[48] Thus, reproduction of stellar core conditions in a lab for nuclear fusion power production is completely impractical. Because nuclear reaction rates depend on density as well as temperature and most fusion schemes operate at relatively low densities, those methods are strongly dependent on higher temperatures. The fusion rate as a function of temperature (exp(−E/kT)), leads to the need to achieve temperatures in terrestrial reactors 10–100 times higher than in stellar interiors: T ≈ (0.1–1.0)×109 K.
+In artificial fusion, the primary fuel is not constrained to be protons and higher temperatures can be used, so reactions with larger cross-sections are chosen. Another concern is the production of neutrons, which activate the reactor structure radiologically, but also have the advantages of allowing volumetric extraction of the fusion energy and tritium breeding. Reactions that release no neutrons are referred to as aneutronic.
+To be a useful energy source, a fusion reaction must satisfy several criteria. It must:
+Few reactions meet these criteria. The following are those with the largest cross sections:[49]
+[50]
+For reactions with two products, the energy is divided between them in inverse proportion to their masses, as shown. In most reactions with three products, the distribution of energy varies. For reactions that can result in more than one set of products, the branching ratios are given.
+Some reaction candidates can be eliminated at once. The D–6Li reaction has no advantage compared to p+–115B because it is roughly as difficult to burn but produces substantially more neutrons through 21D–21D side reactions. There is also a p+–73Li reaction, but the cross section is far too low, except possibly when Ti > 1 MeV, but at such high temperatures an endothermic, direct neutron-producing reaction also becomes very significant. Finally there is also a p+–94Be reaction, which is not only difficult to burn, but 94Be can be easily induced to split into two alpha particles and a neutron.
+In addition to the fusion reactions, the following reactions with neutrons are important in order to "breed" tritium in "dry" fusion bombs and some proposed fusion reactors:
+The latter of the two equations was unknown when the U.S. conducted the Castle Bravo fusion bomb test in 1954. Being just the second fusion bomb ever tested (and the first to use lithium), the designers of the Castle Bravo "Shrimp" had understood the usefulness of 6Li in tritium production, but had failed to recognize that 7Li fission would greatly increase the yield of the bomb. While 7Li has a small neutron cross-section for low neutron energies, it has a higher cross section above 5 MeV.[51] The 15 Mt yield was 150% greater than the predicted 6 Mt and caused unexpected exposure to fallout.
+To evaluate the usefulness of these reactions, in addition to the reactants, the products, and the energy released, one needs to know something about the nuclear cross section. Any given fusion device has a maximum plasma pressure it can sustain, and an economical device would always operate near this maximum. Given this pressure, the largest fusion output is obtained when the temperature is chosen so that ⟨σv⟩/T2 is a maximum. This is also the temperature at which the value of the triple product nTτ required for ignition is a minimum, since that required value is inversely proportional to ⟨σv⟩/T2 (see Lawson criterion). (A plasma is "ignited" if the fusion reactions produce enough power to maintain the temperature without external heating.) This optimum temperature and the value of ⟨σv⟩/T2 at that temperature is given for a few of these reactions in the following table.
+Note that many of the reactions form chains. For instance, a reactor fueled with 31T and 32He creates some 21D, which is then possible to use in the 21D–32He reaction if the energies are "right". An elegant idea is to combine the reactions (8) and (9). The 32He from reaction (8) can react with 63Li in reaction (9) before completely thermalizing. This produces an energetic proton, which in turn undergoes reaction (8) before thermalizing. Detailed analysis shows that this idea would not work well,[citation needed] but it is a good example of a case where the usual assumption of a Maxwellian plasma is not appropriate.
+Any of the reactions above can in principle be the basis of fusion power production. In addition to the temperature and cross section discussed above, we must consider the total energy of the fusion products Efus, the energy of the charged fusion products Ech, and the atomic number Z of the non-hydrogenic reactant.
+Specification of the 21D–21D reaction entails some difficulties, though. To begin with, one must average over the two branches (2i) and (2ii). More difficult is to decide how to treat the 31T and 32He products. 31T burns so well in a deuterium plasma that it is almost impossible to extract from the plasma. The 21D–32He reaction is optimized at a much higher temperature, so the burnup at the optimum 21D–21D temperature may be low. Therefore, it seems reasonable to assume the 31T but not the 32He gets burned up and adds its energy to the net reaction, which means the total reaction would be the sum of (2i), (2ii), and (1):
+For calculating the power of a reactor (in which the reaction rate is determined by the D–D step), we count the 21D–21D fusion energy per D–D reaction as Efus = (4.03 MeV + 17.6 MeV) × 50% + (3.27 MeV) × 50% = 12.5 MeV and the energy in charged particles as Ech = (4.03 MeV + 3.5 MeV) × 50% + (0.82 MeV) × 50% = 4.2 MeV. (Note: if the tritium ion reacts with a deuteron while it still has a large kinetic energy, then the kinetic energy of the helium-4 produced may be quite different from 3.5 MeV,[52] so this calculation of energy in charged particles is only an approximation of the average.) The amount of energy per deuteron consumed is 2/5 of this, or 5.0 MeV (a specific energy of about 225 million MJ per kilogram of deuterium).
+Another unique aspect of the 21D–21D reaction is that there is only one reactant, which must be taken into account when calculating the reaction rate.
+With this choice, we tabulate parameters for four of the most important reactions
+The last column is the neutronicity of the reaction, the fraction of the fusion energy released as neutrons. This is an important indicator of the magnitude of the problems associated with neutrons like radiation damage, biological shielding, remote handling, and safety. For the first two reactions it is calculated as (Efus − Ech)/Efus. For the last two reactions, where this calculation would give zero, the values quoted are rough estimates based on side reactions that produce neutrons in a plasma in thermal equilibrium.
+Of course, the reactants should also be mixed in the optimal proportions. This is the case when each reactant ion plus its associated electrons accounts for half the pressure. Assuming that the total pressure is fixed, this means that particle density of the non-hydrogenic ion is smaller than that of the hydrogenic ion by a factor 2/(Z + 1). Therefore, the rate for these reactions is reduced by the same factor, on top of any differences in the values of ⟨σv⟩/T2. On the other hand, because the 21D–21D reaction has only one reactant, its rate is twice as high as when the fuel is divided between two different hydrogenic species, thus creating a more efficient reaction.
+Thus there is a "penalty" of 2/(Z + 1) for non-hydrogenic fuels arising from the fact that they require more electrons, which take up pressure without participating in the fusion reaction. (It is usually a good assumption that the electron temperature will be nearly equal to the ion temperature. Some authors, however, discuss the possibility that the electrons could be maintained substantially colder than the ions. In such a case, known as a "hot ion mode", the "penalty" would not apply.) There is at the same time a "bonus" of a factor 2 for 21D–21D because each ion can react with any of the other ions, not just a fraction of them.
+We can now compare these reactions in the following table.
+The maximum value of ⟨σv⟩/T2 is taken from a previous table. The "penalty/bonus" factor is that related to a non-hydrogenic reactant or a single-species reaction. The values in the column "inverse reactivity" are found by dividing 1.24×10−24 by the product of the second and third columns. It indicates the factor by which the other reactions occur more slowly than the 21D–31T reaction under comparable conditions. The column "Lawson criterion" weights these results with Ech and gives an indication of how much more difficult it is to achieve ignition with these reactions, relative to the difficulty for the 21D–31T reaction. The next-to-last column is labeled "power density" and weights the practical reactivity by Efus. The final column indicates how much lower the fusion power density of the other reactions is compared to the 21D–31T reaction and can be considered a measure of the economic potential.
+The ions undergoing fusion in many systems will essentially never occur alone but will be mixed with electrons that in aggregate neutralize the ions' bulk electrical charge and form a plasma. The electrons will generally have a temperature comparable to or greater than that of the ions, so they will collide with the ions and emit x-ray radiation of 10–30 keV energy, a process known as Bremsstrahlung.
+The huge size of the Sun and stars means that the x-rays produced in this process will not escape and will deposit their energy back into the plasma. They are said to be opaque to x-rays. But any terrestrial fusion reactor will be optically thin for x-rays of this energy range. X-rays are difficult to reflect but they are effectively absorbed (and converted into heat) in less than mm thickness of stainless steel (which is part of a reactor's shield). This means the bremsstrahlung process is carrying energy out of the plasma, cooling it.
+The ratio of fusion power produced to x-ray radiation lost to walls is an important figure of merit. This ratio is generally maximized at a much higher temperature than that which maximizes the power density (see the previous subsection). The following table shows estimates of the optimum temperature and the power ratio at that temperature for several reactions:
+The actual ratios of fusion to Bremsstrahlung power will likely be significantly lower for several reasons. For one, the calculation assumes that the energy of the fusion products is transmitted completely to the fuel ions, which then lose energy to the electrons by collisions, which in turn lose energy by Bremsstrahlung. However, because the fusion products move much faster than the fuel ions, they will give up a significant fraction of their energy directly to the electrons. Secondly, the ions in the plasma are assumed to be purely fuel ions. In practice, there will be a significant proportion of impurity ions, which will then lower the ratio. In particular, the fusion products themselves must remain in the plasma until they have given up their energy, and will remain for some time after that in any proposed confinement scheme. Finally, all channels of energy loss other than Bremsstrahlung have been neglected. The last two factors are related. On theoretical and experimental grounds, particle and energy confinement seem to be closely related. In a confinement scheme that does a good job of retaining energy, fusion products will build up. If the fusion products are efficiently ejected, then energy confinement will be poor, too.
+The temperatures maximizing the fusion power compared to the Bremsstrahlung are in every case higher than the temperature that maximizes the power density and minimizes the required value of the fusion triple product. This will not change the optimum operating point for 21D–31T very much because the Bremsstrahlung fraction is low, but it will push the other fuels into regimes where the power density relative to 21D–31T is even lower and the required confinement even more difficult to achieve. For 21D–21D and 21D–32He, Bremsstrahlung losses will be a serious, possibly prohibitive problem. For 32He–32He, p+–63Li and p+–115B the Bremsstrahlung losses appear to make a fusion reactor using these fuels with a quasineutral, isotropic plasma impossible. Some ways out of this dilemma have been considered but rejected.[53][54] This limitation does not apply to non-neutral and anisotropic plasmas; however, these have their own challenges to contend with.
+In a classical picture, nuclei can be understood as hard spheres that repel each other through the Coulomb force but fuse once the two spheres come close enough for contact. Estimating the radius of an atomic nuclei as about one femtometer, the energy needed for fusion of two hydrogen is:
+This would imply that for the core of the sun, which has a Boltzmann distribution with a temperature of around 1.4 keV, the probability hydrogen would reach the threshold is 
+
+
+
+
+10
+
+−
+290
+
+
+
+
+{\displaystyle 10^{-290}}
+
+, that is, fusion would never occur. However, fusion in the sun does occur due to quantum mechanics.
+The probability that fusion occurs is greatly increased compared to the classical picture, thanks to the smearing of the effective radius as the de Broglie wavelength as well as quantum tunneling through the potential barrier. To determine the rate of fusion reactions, the value of most interest is the cross section, which describes the probability that particles will fuse by giving a characteristic area of interaction.  An estimation of the fusion cross-sectional area is often broken into three pieces:
+where 
+
+
+
+
+σ
+
+geometry
+
+
+
+
+{\displaystyle \sigma _{\text{geometry}}}
+
+ is the geometric cross section, T is the barrier transparency and R is the reaction characteristics of the reaction.
+
+
+
+
+
+σ
+
+geometry
+
+
+
+
+{\displaystyle \sigma _{\text{geometry}}}
+
+ is of the order of the square of the de Broglie wavelength 
+
+
+
+
+σ
+
+geometry
+
+
+≈
+
+λ
+
+2
+
+
+=
+
+
+(
+
+
+
+
+ℏ
+
+
+m
+
+r
+
+
+v
+
+
+
+
+
+
+)
+
+
+
+2
+
+
+∝
+
+
+1
+ϵ
+
+
+
+
+{\displaystyle \sigma _{\text{geometry}}\approx \lambda ^{2}={\bigg (}{\frac {\hbar }{m_{r}v}}{\bigg )}^{2}\propto {\frac {1}{\epsilon }}}
+
+ where 
+
+
+
+
+m
+
+r
+
+
+
+
+{\displaystyle m_{r}}
+
+ is the reduced mass of the system and 
+
+ϵ
+\epsilon
+
+ is the center of mass energy of the system.
+T can be approximated by the Gamow transparency, which has the form: 
+
+
+
+T
+≈
+
+e
+
+−
+
+
+
+ϵ
+
+G
+
+
+
+/
+
+ϵ
+
+
+
+
+
+
+{\displaystyle T\approx e^{-{\sqrt {\epsilon _{G}/\epsilon }}}}
+
+ where 
+
+
+
+
+ϵ
+
+G
+
+
+=
+(
+π
+α
+
+Z
+
+1
+
+
+
+Z
+
+2
+
+
+
+)
+
+2
+
+
+×
+2
+
+m
+
+r
+
+
+
+c
+
+2
+
+
+
+
+{\displaystyle \epsilon _{G}=(\pi \alpha Z_{1}Z_{2})^{2}\times 2m_{r}c^{2}}
+
+ is the Gamow factor and comes from estimating the quantum tunneling probability through the potential barrier.
+R contains all the nuclear physics of the specific reaction and takes very different values depending on the nature of the interaction. However, for most reactions, the variation of 
+
+
+
+R
+(
+ϵ
+)
+
+
+{\displaystyle R(\epsilon )}
+
+ is small compared to the variation from the Gamow factor and so is approximated by a function called the astrophysical S-factor, 
+
+
+
+S
+(
+ϵ
+)
+
+
+{\displaystyle S(\epsilon )}
+
+, which is weakly varying in energy. Putting these dependencies together, one approximation for the fusion cross section as a function of energy takes the form:
+More detailed forms of the cross-section can be derived through nuclear physics-based models and R-matrix theory.
+The Naval Research Lab's plasma physics formulary[55] gives the total cross section in barns as a function of the energy (in keV) of the incident particle towards a target ion at rest fit by the formula:
+Bosch-Hale[56] also reports a R-matrix calculated cross sections fitting observation data with Padé rational approximating coefficients. With energy in units of keV and cross sections in units of millibarn, the factor has the form:
+where 
+
+
+
+
+σ
+
+Bosch-Hale
+
+
+(
+ϵ
+)
+=
+
+
+
+
+S
+
+Bosch-Hale
+
+
+(
+ϵ
+)
+
+
+ϵ
+exp
+⁡
+(
+
+ϵ
+
+G
+
+
+
+/
+
+
+
+ϵ
+
+
+)
+
+
+
+
+
+{\displaystyle \sigma ^{\text{Bosch-Hale}}(\epsilon )={\frac {S^{\text{Bosch-Hale}}(\epsilon )}{\epsilon \exp(\epsilon _{G}/{\sqrt {\epsilon }})}}}
+
+
+In fusion systems that are in thermal equilibrium, the particles are in a Maxwell–Boltzmann distribution, meaning the particles have a range of energies centered around the plasma temperature. The sun, magnetically confined plasmas and inertial confinement fusion systems are well modeled to be in thermal equilibrium. In these cases, the value of interest is the fusion cross-section averaged across the Maxwell–Boltzmann distribution. The Naval Research Lab's plasma physics formulary tabulates Maxwell averaged fusion cross sections reactivities in 
+
+
+
+
+c
+
+m
+
+3
+
+
+
+/
+
+s
+
+
+
+{\displaystyle \mathrm {cm^{3}/s} }
+
+.
+For energies 
+
+
+
+T
+≤
+25
+
+ keV
+
+
+
+{\displaystyle T\leq 25{\text{ keV}}}
+
+ the data can be represented by:
+with T in units of keV.
+
+

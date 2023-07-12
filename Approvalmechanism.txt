@@ -1,0 +1,166 @@
+39814,
+Approvalmechanism,
+This is not a Wikipedia policy and does not reflect current Wikipedia practice. It is a proposed set of policies for discussion. This page was refactored and moved to article validation. As of 2009, current proposals for approval mechanisms can be found at Wikipedia:Flagged revisions.
+"Wikipedia approval mechanism" means any sort of mechanism whereby Wikipedia articles are individually marked and displayed, somehow, as "approved".
+The purpose of an approval mechanism is, essentially, quality assurance.  By presenting particular articles as approved, we (Wikipedians) would be representing those articles as reliable sources of information.
+Among the basic requirements of an approval mechanism would have to fulfill in order to be adequate are:
+Some results we might want from an approval system are that it:
+The advantages of an approval mechanism of the sort described are clear and numerous:
+Generally, Wikipedia will become comparable to nearly any encyclopedia, once enough articles are approved. It need not be perfect, just better than Britannica and Encarta and ODP and other CD or Web resources.
+I am not sure there are any significant disadvantages of an approval mechanism, but idly, I think there might be one. I think that it's possible that Wikipedia might become more of an "exclusive club" than it is, if people start comparing nascent articles contributed by new contributors to the finished projects. I might not want to contribute two sentences about widgets if I think ten neat paragraphs, with references, is what is expected. Again, I don't know if this is really apt to be a problem.
+Another general argument against is that this really doesn't seem necessary.  An approval mechanism has been suggested since Day One of Wikipedia, and evidence aside that Wikipedia is working just fine, will probably continue to be suggested 'til kingdom come.
+These are arguments presented for why an additional approval mechanism is unnecessary for wikipedia:
+Below, we can develop some specific proposals for approval mechanisms.
+I think it would be a very good idea to list, on any article, the names of ANY reviewers to have reviewed the article. Seeing who disapproved it is, perhaps, more important than seeing who approved it, since Wikipedia generally has high quality articles anyway. Brianjd 10:22, 2005 Jan 29 (UTC)
+We would need some standards for this to work. If the subpages are named differently and/or have different structures it will be too difficult to use.
+Each publisher would have to check the credentials themselves. Leaving results of checks on user's pages/subpages is not acceptable; anyone can edit it; developers can edit the history. Brianjd 10:22, 2005 Jan 29 (UTC)
+This would be added on to any of the above approval proceses.  After an article is approved, it would go into the database of approved articles.  People would be able to access this from the web.  After reading an article, the reader would be able to click on a link to disapprove of the article.  After 5 (more, less?) people have disapproved of an article, the article goes through a reapproval process, in which only one expert must approve it, and then the necessary applicable administrators.
+--
+Suggested addition: there should be a separate domain, perhaps frozenwikipedia.org, which includes only approved articles. This could be used as a "reliable" reference when factual accuracy was very important.
+This could be used as a "reliable" reference when factual accuracy was very important.
+No, it couldn't. If factual accuracy is very important, you must check several sources, which means that it wouldn't make much difference whether you used the "approved" version or not. Brianjd 10:22, 2005 Jan 29 (UTC)
+It might also be possible to use some automated heuristics to identify
+"good" articles.
+This could be especially useful if the Wikipedia is being extracted to some
+static storage (e.g., a CD-ROM or PDA memory stick).
+Some users might want this view as well.
+The heuristics may throw away some of the latest "good" changes, as long
+as they also throw away most of the likely "bad" changes.
+Here are a few possible automated heuristics:
+These heuristics can be combined with the expert rating systems
+discussed elsewhere here.  An advantage of these automated approaches
+is that they can be applied immediately.
+Other automated heuristics can be developed by developing
+"trust metrics" for people.  Instead of trying to rank every article
+(or as a supplement to doing so), rank the people.  After all,
+someone who does good work on one article is more likely to do good
+work on another article.  You could use a scheme like
+Advogato's, where people identify how much
+they respect (trust) someone else.  You then flow down the graph to
+find out how much each person should be trusted.
+For more information, see
+Advogato's trust metric information.
+Even if the Advogato metric isn't perfect, it does show how a few
+individuals could list other people they trust, and over time
+use that to derive global information.
+The
+Advogato code
+is available - it's GPLed.
+Another related issue might be automated heuristics that try to
+identify likely trouble spots (new articles or likely troublesome diffs).
+A trivial approach might be to have a not-publicly-known list of words
+that, if they're present in the new article or diffs, suggest that the
+change is probably a bad one.  Examples include swear words, and words
+that indicate POV (e.g., "Jew" may suggest anti-semitism).
+The change might be fine, but such a flag would at least alert someone
+else to especially take a look there.
+A more sophisticated approach to automatically identify
+trouble spots might be to use learning techniques to
+identify what's probably garbage, using typical text filtering and
+anti-spam techniques such as naive Bayesian filtering
+(see Paul Graham's "A Plan for Spam").
+To do this, the Wikipedia would need to store deleted articles and
+have a way to mark changes that were removed for cause
+(e.g., were egregiously POV) - presumably this would be a sysop privilege.
+Then the Wikipedia could train on "known bad" and "known good"
+(perhaps assuming that all Wikipedia articles before some date, or
+meeting some criteria listed above, are "good").
+Then it could look for bad changes (either in the future, or simply
+examining the entire Wikipedia offline).
+This idea has some of the same principles as the Automated Heuristic suggested above. I agree that an automated method for determining "good" articles for offline readers is absolutely crucial. I have a different idea on how to go about it.
+I think the principles of easy editing and how wikipedia works now is what makes it great. I think we need to take those principles along with some search engine ideas to give a confidence level for documents. So people extracting the data for offline purposes can decide the confidence level they want and only extract articles that meet that confidence level.
+I think the exact equation for the final scoring needs to be discussed. I don't think I could come up with a final version by myself, but I'll give an example of what would give good point and bad points.
+Final Score:
+a: first thing we need it a quality/scoring value for editors. Anonymous editors would be given a value of 1 and a logged in user may get 1 point added to their value for each article he/she edits, up to a value of 100.
+b: 0.25 points for each time a user reads the article
+c: 0.25 point for each day the article has existed in wikipedia
+d: each time the article is edited it gets 1+(a/10)*2 points, anonymous user would give it 1.2 and a fully qualified user would give it 20 points.
+e: next if an anonymous user makes a large change then you get a -20 point deduction. Even though this is harsh, if it goes untouched for 80 days it will gain all those points back. It will gain the points back faster if a lot of people have read the article.
+This is the best I can think of right now, if I come up with a better scoring system I'll make some changes. Anyone feel free to test score a couple of articles to see how this algorithm holds up. We can even get a way of turning the score to a percentage, so that people can extract 90% qualified articles.
+next if an anonymous user makes a large change then you get a -20 point deduction.
+This one is very dangerous. What is the threshold for a "large" change? If we set it too high, this won't work very well (it will presumedly react to blanking a page, but I think this is most often used as a substitute for the "nominate for deletion" link that should be there). If we set it too low, and several edits are made by anonymous users to a not-very-popular article, then it could give a low (negative?) score, even though the article is of a high quality. Brianjd 10:22, 2005 Jan 29 (UTC)
+Anyone feel free to test score a couple of articles to see how this algorithm holds up.
+How? We don't know the scores for the editors. The only way to test this algorithm properly is to download some articles and the entire contributions lists of all the contributors! Brianjd 10:22, 2005 Jan 29 (UTC)
+Trolls are not here to approve, and usually reject views of experts who must be certified by someone trolls grumble about.  So one would expect them to be disgruntled by definition about such a mechanism.  However, paradoxically, almost all trolls think they apply clear and reasonably stringent standards.
+The problem is that each troll has his own standards, unlike those of others!
+That said, there is much to agree on:  the mechanism itself must be genuinely easy to use, nothing slow and rigorous is of any value, the progress of Wikipedia and its proven process should not be impeded, and the results of the approval can be ignored.  Where trolls would disagree is that verifying the expert's credentials are of any value.  Any such mechanism can be exploited, as trolls know full well, often being experts at forging new identities and the deliberate disruption of any credentialing mechanism. 
+One might ignore this, and the trolls, but, it remains that what goes on at Wikipedia is largely a process not of approval but of impulse and then disapproval.  As with morality and diplomacy, we move from systems of informal to formal disapproval.  Today, even our reality game shows demonstrate the broad utility of this approach, with disapproval voting of uninteresting or unwanted or undesired candidates a well-understood paradigm.
+So, imagine an entirely different way to achieve the "desirements", one that is a natural extension of Wikipedia's present process of attempt (stubs, slanted first passes, public domain documents, broad rewrites of external texts) and disapproval (reverts, neutralizing, link adds, rewrites, NPOV dispute and deletions).  Rather than something new (trolls hate what is new) and unproven that will simply repeat all the mistakes of academia.  Imagine a mechanism that
+By embracing and extending and formalizing the disapproval, boredom and disdain that all naturally feel as a part of misanthropy, we can arrive at a pure and effective knowledge resource.  One that rarely tells us what we don't care about.  And, potentially, one that can let us avoid those who we find untruthful.
+Include articles that have been proposed by at least one person, and vetoed by none.
+Where two versions of an article are so approved, pick the later one. Where no versions of an article are so approved, have no article.
+That's it.
+This is too easily abused. It adds too much load to the server for the dismal results it will produce. Brianjd 10:22, 2005 Jan 29 (UTC)
+See m:Referees. This proposal is consistent with much of the above.
+Main features:
+The "Wikipedia Release Edition" would be a (hopefully large) subset of "Wikipedia Working Edition".
+Users could browse the release edition or the working edition. When browsing, a header would note whether or not the latest version in the working edition was the same as the release edition.
+At the bottom of every page of Wikipedia there would be two buttons: "Approve" and "Disapprove". 
+Any logged in user can vote once.  Article versions would be scored based on number of votes for approval minus votes for disapproval.   The article version with the highest score (so long as it is greater than 1) would be the released article. 
+A user who clicks "edit this page" would be presented with the newest version, and a note if this is not the Release Edition version. (showing differences)
+Any save is automatically a vote in favor of that version and a removal of approval votes for every previous versions by that user.
+Recent changes would note if a new version becomes the release version.
+The release edition depends on votes. It also may lead to the perception that there is a fork, or create confusion about multiple wikipedias.  A more "wiki" way of doing things would be to have only one release version, but allow anyone to rate any version. This system exploits version control to give users the ability to know who has "certified" a version.  
+So if I know that revision 01.22.2005.10:33 of an article has been certified by User:Authority, User:Hobbyist and User:Professional, I may trust it more than an article certified by User:Vandal or User:Random.
+Users who want to influence what other people read will need to establish credibility.  Real world information helps here, as well as within-Wikipedia credibility.
+Given the potential number of Users who might certifiy an article, and the likelihood I have never heard of most of them, users should be allowed to join certification "clubs" (or rather "clubs" should be allowed to include members, through a process like Wikipedia:Requests_for_adminship). There might be a group who certifies articles on biology, and another group that certifies articles on astronomy, and so on. There could be multiple clubs who certify articles (biology and astronomy might both certify an article on exobiology. There might be more than one astronomy club, if there are differences, and good articles would be certified by both, and controversial articles by only one. Clubs could team, so if Club:Biology and Club:Astronomy trusted each other, they would be part of a Team (say Team:Science) (and of course there might be multiple teams certifying the same article, or different versions, which would ultimately need to be hashed out in a wiki way or would stand).
+If club members went off the reservation so to speak, and certified rubbish, they could be kicked out of the club, and they would no longer be able to speak for the club (there certifications would no longer hold the club imprimatur). (similarly clubs could be kicked out of teams).
+The important thing is that no one is requiring that only credentialed individuals be permitted to certify an article, but that if they do, users can of their own free will give that more credance than an uncredentialed person certifying the article.
+Does this make wikipedia more complicated? Yes of course it does. 
+Does this make wikipedia more reliable? Yes, as you would now know who thought what was accurate.
+dml 17:09, 22 Jan 2005 (UTC)
+dml
+There doesn't need to be a central approval mechanism; approval is all about trust, and centrally dictating who can be trusted raises too many issues. That being said, an approval mechanism that relies on everybody voting is open to abuse, and doesn't carry the weight of approval by authority. 
+Instead, a decentralised proposal [which is similar to Andrew A's proposal], would be for authorities to create pages that list why they are an authority, and then list the pages and versions that they have approved. This could be done without any change to the existing codebase, but a system that marked some pages as "authority conferrers", and that marked on each page which authorities had approved it, would improve the usability.
+Authority conferring pages could confer authority on to other authority-conferring pages; the aim is to build a 'web of trust' somewhat similar to that which provides the assurement in PGP keys that people are who they say they are.  That said, it is important to prevent authority-conferring pages from fabrication; it may be necessary to lock these pages to certain users.
+How do we establish that an authority-conferring page has authority? If we link it to another page, and that page displays text or graphic (with the Wikipedia logo) confirming that the external page trusts the authoritiy-conferring page, then we know, if the external page is free from interference, that the authority-conferrer is trusted. How strong that is as an approval, depends on what the external page(s) for the authority-conferrer are.
+This also allows a selective extraction of approved pages: Pick an authority-conferrer, and extract every page that is approved by that authority, and, at your option, other pages at lower levels (e.g. page approved by authority trusted by authority you've just chosen).
+The major disadvantage is that this introduces yet more metadata, in the form of the authority-conferrers. It also does not stop the creation of spurious authority-conferrers; though they won't be trusted or have much external approval, they may mislead. Any save is automatically a vote in favor of that version and a disapproval of every previous versions.
+Recent changes would note if a new version becomes the release version. 
+Giles Robertson
+I have a proposal at User talk:M.e/Production Wikipedia for creating 'production quality' pages. Highlight is the idea of collecting 'issues' and 'endorsements' against a 'frozen' version of a page. Hopefully we can then converge on a revised version that just fixes the issues. m.e. 12:16, 12 Sep 2004 (UTC)
+meta:Pending edits. Maybe not directly about approval mechanisms, but similar. Edits would be delayed for a fixed amount of time, and if none would object to them, they would be authomatically approved.
+main article: User:ChrisG/Approval_mechanism
+This is a suggested approval mechanism to meet the need to make Wikipeda a more reliable source and to support Wikipedia 1.0. It is a twist on the namespace workflow mechanism suggested by Magnus Manske here. It is a process firmly based on wiki principles. It is flexible because decisions about quality are based on human judgment that each article meets the minimum standards for approval for Wikipedia 1.0. If it is agreed that standards should be raised then humans can amend their judgment appropriately during approval debates for more modern versions.
+Aims
+The design aims to:
+Overview of the process
+The process makes use of namespaces to create a workflow process. A copy of the recommended version of an article is moved through the system, with an attached discussion page and votes. The process is best illustrated visually:
+The following was proposed by User:Maurreen on Wikipedia talk:Forum for Encyclopedic Standards 06:49, 19 Nov 2004 (UTC), but seems appropriate to mention here. -- Jmabel | Talk 22:45, Nov 23, 2004 (UTC)
+</P>
+<begin Maurreen's post>
+<P>
+Here's an outline of a possible plan, submitted for your suggestions. One advantage is that the computer part of it is simple. Maurreen 06:49, 19 Nov 2004 (UTC)
+</P>
+<end Maurreen's post>
+<P>
+Copied from Wikipedia talk:Forum for Encyclopedic Standards. Maurreen 14:12, 27 Nov 2004 (UTC)
+Advantages:
+Outline:
+Options:
+Interim measure
+Maybe it would be helpful to think of my proposal for article reviews as an interim measure. It isn't intended to be perfect by any means.
+It is intended to give readers some measure of the quality of any given article or article version.
+It is something that could very easily be produced and used while something better is discussed, decided and developed. It does not preclude any other system. It can include, or not include, a minimum standard for Wikipedia articles, which would need to be developed.
+It could be one of any number of tools that work toward an eventual paper or "release" version. Maurreen 09:34, 25 Nov 2004 (UTC)
+Copied from Wikipedia talk:Forum for Encyclopedic Standards. Maurreen 14:12, 27 Nov 2004 (UTC)
+Copied from Wikipedia talk:Forum for Encyclopedic Standards. Maurreen 14:12, 27 Nov 2004 (UTC)
+Thinking some more about Maurreen's proposal it occurred to me that with the combination of templates and categories we could set up a voting system to approve articles. Consider this template (I used subst to create the text, e.g.  {{subst:ChrisGtest}} ):
+The version of this article listed below this message is a current candidate for Wikipedia 0.1. Standards for Wikipedia 0.1 are at Wikipedia 0.1 Standard. 
+Voting should last for a minimum of a week, and approval requires 80% support. If opposing votes outweigh supportive votes at any stage this candidature should be removed. Full rules are listed at Wikipedia 0.1 procedure. Please vote below either for or against approval. A negative vote only counts if it provides a supporting explanation for why the article version fails to meet the standard.
+Approval mechanism
+If you look to the bottom of the screen this template categorises the article as a candidate for Wikipedia 0.1 and also by the current day, month and year (uses variables so need to update). This means anybody wishing to vote on articles need only check the appropriate category for articles. They could click the links to the talk page of the articles they are interested in. The talk page of the article would give the link to the specific version and the votes so far; after checking the article the person could vote as they see fit.
+As time passes, the articles listed as candidates will dwindle as they are approved or rejected. The fact the candidates are categorised by date would mean we know when to close the vote of any articles that have been sitting in candidate status for too long. 
+Rejected articles would have the candidate category removed. Successful articles would be given a Wikipedia 0.1 category instead, again identified by the date of the version approved. In addition the specific version of the article should be listed somewhere as approved on that date, i.e Wikipedia: Approved 0.1/1 Dec 2004.
+I realize we don't have a consensus on how to approve articles, largely I think because some people are talking about approving top quality articles and others are talking about minimum standards for the CD/DVD editions; but this is a method which we could apply now without changes to the software, which would scale and would thus be suitable for either purpose. 
+If we want a mechanism that works right now to improve our credibility a little bit without sacrificing the principles we are all comfortable with, it must be simple and open.  I propose that we simply start with the existing technical hierarchy of anon/user/admin/bureaucrat/developer to create a system that can assign a level of confidence to every version of every article, then display by default the most recent version with a disclaimer and links if the confidence level is low.
+An article is only as trustworthy as the last hand that touched it.
+Wiki works because of immediate gratification.
+We continue to show to the public the latest version.  If the confidence level for that article version is lower than our established standard, we show a disclaimer along with link to any more trusted article versions available.  We put in user preferences a selection for the level of credibility to show by default(Developer/Bureaucrat/Admin/User/Anonymous), and we enable anon users, via a cookie or session id, to say, "Show only article versions with credibility level 2 or higher."
+For users with high permissions, we put a check box or radio button on the editing page so that they may save with artificially low trust interim work with remaining unresolved credibility problems.
+Nobody has to take the time to review articles.  The approval occurs naturally as a by-product of the way we already work.  
+Since an article is only as trustworthy as the last hand that touched it and wiki works because of immediate gratification, only natural and open methods such as this can work at the Wikipedia.
+Places editorial responsibility on our trusted users.  While it is true we have expressly disclaimed any editorial authority for our trusted users, the implicit attitude of the community has been to give them that authority.  This proposal simply recognizes the de facto arrangement.  In the future, new levels of editorial authority may be created.
+Copied from Wikipedia talk:Forum for Encyclopedic Standards. Maurreen 14:12, 27 Nov 2004 (UTC)
+We might be able to develop a system by which anyone could endorse a particular version of an article; presumably groups could form whose endorsement would carry some weight. The mechanism would be one "reader" approval equals point one(0.1) an "editor" would rank one point (1) an "editing librarian" would rank one to ten (1 - 10) an admin would rank 10 to eleven (10 - 11), a group could be assigned a similarly weighted scoring rank, i.e. an opinion offered editorially by 
+"The Royal College of Physicians & Surgeons" might rank one way or the other compared to a select group of its Alumni. Deriving from this an articles approval-rating would be a function of its veracity as regards the opinion of the majority of its' readers. an entry in wikipedia would have (available for review) an articles position relevant to all other articles. (Idea from anon, Maurreen moved from project page.)

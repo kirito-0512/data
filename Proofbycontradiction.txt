@@ -1,0 +1,564 @@
+25418,
+Proofbycontradiction,
+In logic, proof by contradiction is a form of proof that establishes the truth or the validity of a proposition, by showing that assuming the proposition to be false leads to a contradiction.
+Although it is quite freely used in mathematical proofs, not every school of mathematical thought accepts this kind of nonconstructive proof as universally valid.
+More broadly, proof by contradiction is any form of argument that establishes a statement by arriving at a contradiction, even when the initial assumption is not the negation of the statement to be proved. In this general sense, proof by contradiction is also known as indirect proof, proof by assuming the opposite,[1]and reductio ad impossibile.[2]
+A mathematical proof employing proof by contradiction usually proceeds as follows:
+An important special case is the existence proof by contradiction: in order to demonstrate that an object with a given property exists, we derive a contradiction from the assumption that all objects satisfy the negation of the property.
+The principle may be formally expressed as the propositional formula ¬¬P ⇒ P, equivalently (¬P ⇒ ⊥) ⇒ P, which reads: "If assuming P to be false implies falsehood, then P is true."
+In natural deduction the principle takes the form of the rule of inference
+which reads: "If 
+
+
+
+¬
+¬
+P
+
+
+{\displaystyle \lnot \lnot P}
+
+ is proved, then 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ may be concluded."
+In sequent calculus the principle is expressed by the sequent
+which reads: "Hypotheses 
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+ and 
+
+
+
+¬
+¬
+P
+
+
+{\displaystyle \lnot \lnot P}
+
+ entail the conclusion 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ or 
+
+
+
+Δ
+
+
+{\displaystyle \Delta }
+
+."
+In classical logic the principle may be justified by the examination of the truth table of the proposition ¬¬P ⇒ P, which demonstrates it to be a tautology:
+Another way to justify the principle is to derive it from the Law of the excluded middle, as follows. We assume ¬¬P and seek to prove P. By the law of excluded middle P either holds or it does not:
+In either case, we established P. It turns out that, conversely, proof by contradiction can be used to derive the law of excluded middle.
+In classical sequent calculus LK proof by contradiction is derivable from the inference rules for negation:
+Proof by contradiction is similar to refutation by contradiction,[3][4] also known as proof of negation, which states that ¬P is proved as follows:
+In contrast, proof by contradiction proceeds as follows:
+Formally these are not the same, as refutation by contradiction applies only when the proposition to be proved is negated, whereas proof by contradiction may be applied to any proposition whatsoever.[5] In classical logic, where 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ and 
+
+
+
+¬
+¬
+P
+
+
+{\displaystyle \neg \neg P}
+
+ may be freely interchanged, the distinction is largely obscured. Thus in mathematical practice, both principles are referred to as "proof by contradiction".
+Proof by contradiction is equivalent to the law of the excluded middle, first formulated by Aristotle, which states that either an assertion or its negation is true, P ∨ ¬P.
+The law of noncontradiction was first stated as a metaphysical principle by Aristotle. It posits that a proposition and its negation cannot both be true, or equivalently, that a proposition cannot be both true and false. Formally the law of non-contradiction is written as ¬(P ∧ ¬P) and read as "it is not the case that a proposition is both true and false". The law of non-contradiction neither follows nor is implied by the principle of Proof by contradiction.
+The laws of excluded middle and non-contradiction together mean that exactly one of P and ¬P is true.
+In intuitionistic logic proof by contradiction is not generally valid, although some particular instances can be derived. In contrast, proof of negation and principle of noncontradiction are both intuitionistically valid.
+Brouwer–Heyting–Kolmogorov interpretation of proof by contradiction gives the following intuitionistic validity condition:
+If we take "method" to mean algorithm, then the condition is not acceptable, as it would allow us to solve the Halting problem. To see how, consider the statement H(M) stating "Turing machine M halts or does not halt". Its negation ¬H(M) states that "M neither halts nor does not halt", which is false by the law of noncontradiction (which is intuitionistically valid). If proof by contradiction were intuitionistically valid, we would obtain an algorithm for deciding whether an arbitrary Turing machine M halts, thereby violating the (intuitionistically valid) proof of non-solvability of the Halting problem.
+A proposition P which satisfies 
+
+
+
+¬
+¬
+P
+⇒
+P
+
+
+{\displaystyle \lnot \lnot P\Rightarrow P}
+
+ is known as a ¬¬-stable proposition. Thus in intuitionistic logic proof by contradiction is not universally valid, but can only be applied to the ¬¬-stable propositions. An instance of such a proposition is a decidable one, i.e., satisfying 
+
+
+
+P
+∨
+¬
+P
+
+
+{\displaystyle P\lor \lnot P}
+
+. Indeed, the above proof that the law of excluded middle implies proof by contradiction can be repurposed to show that a decidable proposition is ¬¬-stable. A typical  example of a decidable proposition is a statement that can be checked by direct computation, such as "
+
+
+
+n
+
+
+{\displaystyle n}
+
+ is prime" or "
+
+
+
+a
+
+
+{\displaystyle a}
+
+ divides 
+
+
+
+b
+
+
+{\displaystyle b}
+
+".
+An early occurrence of proof by contradiction can be found in Euclid's Elements, Book 1, Proposition 6:[6]
+The proof proceeds by assuming that the opposite angles are not equal, and derives a contradiction.
+An influential proof by contradiction was given by David Hilbert. His
+Nullstellensatz states:
+Hilbert proved the statement by assuming that there are no such polynomials 
+
+
+
+
+g
+
+1
+
+
+,
+…
+,
+
+g
+
+k
+
+
+
+
+{\displaystyle g_{1},\ldots ,g_{k}}
+
+ and derived a contradiction.[7]
+Euclid's theorem states that there are infinitely many primes. In Euclid's Elements the theorem is stated in Book IX, Proposition 20:[8]
+Depending on how we formally write the above statement, the usual proof takes either the form of a proof by contradiction or a refutation by contradiction. We present here the former, see below how the proof is done as refutation by contradiction.
+If we formally express Euclid's theorem as saying that for every natural number 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ there is a prime bigger than it, then we employ proof by contradiction, as follows.
+Given any number 
+
+
+
+n
+
+
+{\displaystyle n}
+
+, we seek to prove that there is a prime larger than 
+
+
+
+n
+
+
+{\displaystyle n}
+
+. Suppose to the contrary that no such p exists (an application of proof by contradiction). Then all primes are smaller than or equal to 
+
+
+
+n
+
+
+{\displaystyle n}
+
+, and we may form the list 
+
+
+
+
+p
+
+1
+
+
+,
+…
+,
+
+p
+
+k
+
+
+
+
+{\displaystyle p_{1},\ldots ,p_{k}}
+
+ of them all. Let 
+
+
+
+P
+=
+
+p
+
+1
+
+
+⋅
+…
+⋅
+
+p
+
+k
+
+
+
+
+{\displaystyle P=p_{1}\cdot \ldots \cdot p_{k}}
+
+ be the product of all primes and 
+
+
+
+Q
+=
+P
++
+1
+
+
+{\displaystyle Q=P+1}
+
+. Because 
+
+
+
+Q
+
+
+{\displaystyle Q}
+
+ is larger than all prime numbers it is not prime, hence it must be divisible by one of them, say 
+
+
+
+
+p
+
+i
+
+
+
+
+{\displaystyle p_{i}}
+
+. Now both 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ and 
+
+
+
+Q
+
+
+{\displaystyle Q}
+
+ are divisible by 
+
+
+
+
+p
+
+i
+
+
+
+
+{\displaystyle p_{i}}
+
+, hence so is their difference 
+
+
+
+Q
+−
+P
+=
+1
+
+
+{\displaystyle Q-P=1}
+
+, but this cannot be because 1 is not divisible by any primes. Hence we have a contradiction and so there is a prime number bigger than 
+
+
+
+n
+
+
+{\displaystyle n}
+
+
+The following examples are commonly referred to as proofs by contradiction, but formally employ refutation by contradiction (and therefore are intuitionistically valid).[9]
+Let us take a second look at Euclid's theorem – Book IX, Proposition 20:[10]
+We may read the statement as saying that for every finite list of primes, there is another prime not on that list,
+which is arguably closer to and in the same spirit as Euclid's original formulation. In this case Euclid's proof applies refutation by contradiction at one step, as follows.
+Given any finite list of prime numbers 
+
+
+
+
+p
+
+1
+
+
+,
+…
+,
+
+p
+
+n
+
+
+
+
+{\displaystyle p_{1},\ldots ,p_{n}}
+
+, it will be shown that at least one additional prime number not in this list exists. Let 
+
+
+
+P
+=
+
+p
+
+1
+
+
+⋅
+
+p
+
+2
+
+
+⋯
+
+p
+
+n
+
+
+
+
+{\displaystyle P=p_{1}\cdot p_{2}\cdots p_{n}}
+
+ be the product of all the listed primes and 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ a prime factor of 
+
+
+
+P
++
+1
+
+
+{\displaystyle P+1}
+
+, possibly 
+
+
+
+P
++
+1
+
+
+{\displaystyle P+1}
+
+ itself. We claim that 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is not in the given list of primes. Suppose to the contrary that it were (an application of refutation by contradiction). Then 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ would divide both 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ and  
+
+
+
+P
++
+1
+
+
+{\displaystyle P+1}
+
+, therefore also their difference, which is 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+. This gives a contradiction, since no prime number divides 1.
+The classic proof that the square root of 2 is irrational is a refutation by contradiction.[11]
+Indeed, we set out to prove the negation ¬ ∃ a, b ∈ 
+
+
+
+
+N
+
+
+
+{\displaystyle \mathbb {N} }
+
+ . a/b = √2 by assuming that there exist natural numbers a and b whose ratio is the square root of two, and derive a contradiction.
+Proof by infinite descent is a method of proof whereby a smallest object with desired property is shown not to exist as follows:
+Such a proof is again a refutation by contradiction. A typical example is the proof of the proposition "there is no smallest positive rational number": assume there is a smallest positive rational number q and derive a contradiction by observing that q/2 is even smaller than q and still positive.
+Russell's paradox, stated set-theoretically as "there is no set whose elements are precisely those sets that do not contain themselves", is a negated statement whose usual proof is a refutation by contradiction.
+Proofs by contradiction sometimes end with the word "Contradiction!".  Isaac Barrow and Baermann used the notation Q.E.A., for "quod est absurdum" ("which is absurd"), along the lines of Q.E.D., but this notation is rarely used today.[12] A graphical symbol sometimes used for contradictions is a downwards zigzag arrow "lightning" symbol (U+21AF: ↯), for example in Davey and Priestley.[13]  Others sometimes used include a pair of opposing arrows (as 
+
+
+
+→
+
+←
+
+
+{\displaystyle \rightarrow \!\leftarrow }
+
+[citation needed] or 
+
+
+
+⇒
+
+⇐
+
+
+{\displaystyle \Rightarrow \!\Leftarrow }
+
+),[citation needed] struck-out arrows (
+
+
+
+↮
+
+
+{\displaystyle \nleftrightarrow }
+
+),[citation needed] a stylized form of hash (such as U+2A33: ⨳),[citation needed] or the "reference mark" (U+203B: ※),[citation needed] or 
+
+
+
+×
+
+
+
+
+×
+
+
+{\displaystyle \times \!\!\!\!\times }
+
+.[14][15]
+G. H. Hardy described proof by contradiction as "one of a mathematician's finest weapons", saying "It is a far finer gambit than any chess gambit: a chess player may offer the sacrifice of a pawn or even a piece, but a mathematician offers the game."[16]
+
+
+

@@ -1,0 +1,2490 @@
+32339,
+Uniformspace,
+In the mathematical field of topology, a uniform space is a topological space with additional structure that is used to define uniform properties, such as completeness, uniform continuity and uniform convergence. Uniform spaces generalize metric spaces and topological groups, but the concept is designed to formulate the weakest axioms needed for most proofs in analysis.
+In addition to the usual properties of a topological structure, in a uniform space one formalizes the notions of relative closeness and closeness of points.  In other words, ideas like "x is closer to a than y is to b" make sense in uniform spaces.  By comparison, in a general topological space, given sets A,B it is meaningful to say that a point x is arbitrarily close to A (i.e., in the closure of A), or perhaps that A is a smaller neighborhood of x than B, but notions of closeness of points and relative closeness are not described well by topological structure alone.
+There are three equivalent definitions for a uniform space.  They all consist of a space equipped with a uniform structure.
+This definition adapts the presentation of a topological space in terms of neighborhood systems. A nonempty collection 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ of subsets of 
+
+
+
+X
+×
+X
+
+
+{\displaystyle X\times X}
+
+ is a uniform structure (or a uniformity) if it satisfies the following axioms:
+The non-emptiness of 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ taken together with (2) and (3) states that 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ is a filter on 
+
+
+
+X
+×
+X
+.
+
+
+{\displaystyle X\times X.}
+
+ If the last property is omitted we call the space quasiuniform.  An element 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ of 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ is called a vicinity or entourage from the French word for surroundings.
+One usually writes 
+
+
+
+U
+[
+x
+]
+=
+{
+y
+:
+(
+x
+,
+y
+)
+∈
+U
+}
+=
+
+pr
+
+2
+
+
+⁡
+(
+U
+∩
+(
+{
+x
+}
+×
+X
+)
+
+)
+,
+
+
+{\displaystyle U[x]=\{y:(x,y)\in U\}=\operatorname {pr} _{2}(U\cap (\{x\}\times X)\,),}
+
+ where 
+
+
+
+U
+∩
+(
+{
+x
+}
+×
+X
+)
+
+
+{\displaystyle U\cap (\{x\}\times X)}
+
+ is the vertical cross section of 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ and 
+
+
+
+
+pr
+
+2
+
+
+
+
+{\displaystyle \operatorname {pr} _{2}}
+
+ is the canonical projection onto the second coordinate. On a graph, a typical entourage is drawn as a blob surrounding the "
+
+
+
+y
+=
+x
+
+
+{\displaystyle y=x}
+
+" diagonal; all the different 
+
+
+
+U
+[
+x
+]
+
+
+{\displaystyle U[x]}
+
+'s form the vertical cross-sections. If 
+
+
+
+(
+x
+,
+y
+)
+∈
+U
+
+
+{\displaystyle (x,y)\in U}
+
+ then one says that 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ are 
+
+
+
+U
+
+
+{\displaystyle U}
+
+-close. Similarly, if all pairs of points in a subset 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ are 
+
+
+
+U
+
+
+{\displaystyle U}
+
+-close (that is, if 
+
+
+
+A
+×
+A
+
+
+{\displaystyle A\times A}
+
+ is contained in 
+
+
+
+U
+
+
+{\displaystyle U}
+
+), 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is called 
+
+
+
+U
+
+
+{\displaystyle U}
+
+-small. An entourage 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ is symmetric if 
+
+
+
+(
+x
+,
+y
+)
+∈
+U
+
+
+{\displaystyle (x,y)\in U}
+
+ precisely when 
+
+
+
+(
+y
+,
+x
+)
+∈
+U
+.
+
+
+{\displaystyle (y,x)\in U.}
+
+ The first axiom states that each point is 
+
+
+
+U
+
+
+{\displaystyle U}
+
+-close to itself for each entourage 
+
+
+
+U
+.
+
+
+{\displaystyle U.}
+
+ The third axiom guarantees that being "both 
+
+
+
+U
+
+
+{\displaystyle U}
+
+-close and 
+
+
+
+V
+
+
+{\displaystyle V}
+
+-close" is also a closeness relation in the uniformity. The fourth axiom states that for each entourage 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ there is an entourage 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ that is "not more than half as large". Finally, the last axiom states that the property "closeness" with respect to a uniform structure is symmetric in 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+.
+
+
+{\displaystyle y.}
+
+
+A base of entourages or fundamental system of entourages (or vicinities) of a uniformity 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ is any set 
+
+
+
+
+
+B
+
+
+
+
+{\displaystyle {\mathcal {B}}}
+
+ of entourages of 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ such that every entourage of 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ contains a set belonging to 
+
+
+
+
+
+B
+
+
+.
+
+
+{\displaystyle {\mathcal {B}}.}
+
+ Thus, by property 2 above, a fundamental systems of entourages 
+
+
+
+
+
+B
+
+
+
+
+{\displaystyle {\mathcal {B}}}
+
+ is enough to specify the uniformity 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ unambiguously: 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ is the set of subsets of 
+
+
+
+X
+×
+X
+
+
+{\displaystyle X\times X}
+
+ that contain a set of 
+
+
+
+
+
+B
+
+
+.
+
+
+{\displaystyle {\mathcal {B}}.}
+
+ Every uniform space has a fundamental system of entourages consisting of symmetric entourages.
+Intuition about uniformities is provided by the example of metric spaces: if 
+
+
+
+(
+X
+,
+d
+)
+
+
+{\displaystyle (X,d)}
+
+ is a metric space, the sets
+
+
+
+
+
+U
+
+a
+
+
+=
+{
+(
+x
+,
+y
+)
+∈
+X
+×
+X
+:
+d
+(
+x
+,
+y
+)
+≤
+a
+}
+
+
+where
+
+
+a
+>
+0
+
+
+{\displaystyle U_{a}=\{(x,y)\in X\times X:d(x,y)\leq a\}\quad {\text{where}}\quad a>0}
+
+
+form a fundamental system of entourages for the standard uniform structure of 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ Then 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ are 
+
+
+
+
+U
+
+a
+
+
+
+
+{\displaystyle U_{a}}
+
+-close precisely when the distance between 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ is at most 
+
+
+
+a
+.
+
+
+{\displaystyle a.}
+
+
+A uniformity 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ is finer than another uniformity 
+
+
+
+Ψ
+
+
+{\displaystyle \Psi }
+
+ on the same set if 
+
+
+
+Φ
+⊇
+Ψ
+;
+
+
+{\displaystyle \Phi \supseteq \Psi ;}
+
+ in that case 
+
+
+
+Ψ
+
+
+{\displaystyle \Psi }
+
+ is said to be coarser than 
+
+
+
+Φ
+.
+
+
+{\displaystyle \Phi .}
+
+
+Uniform spaces may be defined alternatively and equivalently using systems of pseudometrics, an approach that is particularly useful in functional analysis (with pseudometrics provided by seminorms). More precisely, let 
+
+
+
+f
+:
+X
+×
+X
+→
+
+R
+
+
+
+{\displaystyle f:X\times X\to \mathbb {R} }
+
+ be a pseudometric on a set 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ The inverse images 
+
+
+
+
+U
+
+a
+
+
+=
+
+f
+
+−
+1
+
+
+(
+[
+0
+,
+a
+]
+)
+
+
+{\displaystyle U_{a}=f^{-1}([0,a])}
+
+ for 
+
+
+
+a
+>
+0
+
+
+{\displaystyle a>0}
+
+ can be shown to form a fundamental system of entourages of a uniformity. The uniformity generated by the 
+
+
+
+
+U
+
+a
+
+
+
+
+{\displaystyle U_{a}}
+
+ is the uniformity defined by the single pseudometric 
+
+
+
+f
+.
+
+
+{\displaystyle f.}
+
+ Certain authors call spaces the topology of which is defined in terms of pseudometrics gauge spaces.
+For a family 
+
+
+
+
+(
+
+f
+
+i
+
+
+)
+
+
+
+{\displaystyle \left(f_{i}\right)}
+
+ of pseudometrics on 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ the uniform structure defined by the family is the least upper bound of the uniform structures defined by the individual pseudometrics 
+
+
+
+
+f
+
+i
+
+
+.
+
+
+{\displaystyle f_{i}.}
+
+ A fundamental system of entourages of this uniformity is provided by the set of finite intersections of entourages of the uniformities defined by the individual pseudometrics 
+
+
+
+
+f
+
+i
+
+
+.
+
+
+{\displaystyle f_{i}.}
+
+ If the family of pseudometrics is finite, it can be seen that the same uniform structure is  defined by a single pseudometric, namely the upper envelope 
+
+
+
+
+sup
+
+
+
+
+f
+
+i
+
+
+
+
+{\displaystyle \sup _{}f_{i}}
+
+ of the family.
+Less trivially, it can be shown that a uniform structure that admits a countable fundamental system of entourages (hence in particular a uniformity defined by a countable family of pseudometrics) can be defined by a single pseudometric. A consequence is that any uniform structure can be defined as above by a (possibly uncountable) family of pseudometrics (see Bourbaki: General Topology Chapter IX §1 no. 4).
+A uniform space 
+
+
+
+(
+X
+,
+Θ
+)
+
+
+{\displaystyle (X,\Theta )}
+
+ is a set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ equipped with a distinguished family of coverings 
+
+
+
+Θ
+,
+
+
+{\displaystyle \Theta ,}
+
+ called "uniform covers", drawn from the set of coverings of 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ that form a filter when ordered by star refinement. One says that a cover 
+
+
+
+
+P
+
+
+
+{\displaystyle \mathbf {P} }
+
+ is a star refinement of cover 
+
+
+
+
+Q
+
+,
+
+
+{\displaystyle \mathbf {Q} ,}
+
+ written 
+
+
+
+
+P
+
+
+<
+
+∗
+
+
+
+Q
+
+,
+
+
+{\displaystyle \mathbf {P} <^{*}\mathbf {Q} ,}
+
+ if for every 
+
+
+
+A
+∈
+
+P
+
+,
+
+
+{\displaystyle A\in \mathbf {P} ,}
+
+ there is a 
+
+
+
+U
+∈
+
+Q
+
+
+
+{\displaystyle U\in \mathbf {Q} }
+
+ such that if 
+
+
+
+A
+∩
+B
+≠
+∅
+,
+B
+∈
+
+P
+
+,
+
+
+{\displaystyle A\cap B\neq \varnothing ,B\in \mathbf {P} ,}
+
+ then 
+
+
+
+B
+⊆
+U
+.
+
+
+{\displaystyle B\subseteq U.}
+
+ Axiomatically, the condition of being a filter reduces to:
+Given a point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and a uniform cover 
+
+
+
+
+P
+
+,
+
+
+{\displaystyle \mathbf {P} ,}
+
+ one can consider the union of the members of 
+
+
+
+
+P
+
+
+
+{\displaystyle \mathbf {P} }
+
+ that contain 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ as a typical neighbourhood of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ of "size" 
+
+
+
+
+P
+
+,
+
+
+{\displaystyle \mathbf {P} ,}
+
+ and this intuitive measure applies uniformly over the space.
+Given a uniform space in the entourage sense, define a cover 
+
+
+
+
+P
+
+
+
+{\displaystyle \mathbf {P} }
+
+ to be uniform if there is some entourage 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ such that for each 
+
+
+
+x
+∈
+X
+,
+
+
+{\displaystyle x\in X,}
+
+ there is an 
+
+
+
+A
+∈
+
+P
+
+
+
+{\displaystyle A\in \mathbf {P} }
+
+ such that 
+
+
+
+U
+[
+x
+]
+⊆
+A
+.
+
+
+{\displaystyle U[x]\subseteq A.}
+
+ These uniform covers form a uniform space as in the second definition. Conversely, given a uniform space in the uniform cover sense, the supersets of 
+
+
+
+⋃
+{
+A
+×
+A
+:
+A
+∈
+
+P
+
+}
+,
+
+
+{\displaystyle \bigcup \{A\times A:A\in \mathbf {P} \},}
+
+ as 
+
+
+
+
+P
+
+
+
+{\displaystyle \mathbf {P} }
+
+ ranges over the uniform covers, are the entourages for a uniform space as in the first definition. Moreover, these two transformations are inverses of each other. [1]
+Every uniform space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ becomes a topological space by defining a subset 
+
+
+
+O
+⊆
+X
+
+
+{\displaystyle O\subseteq X}
+
+ to be open if and only if for every 
+
+
+
+x
+∈
+O
+
+
+{\displaystyle x\in O}
+
+ there exists an entourage 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ such that 
+
+
+
+V
+[
+x
+]
+
+
+{\displaystyle V[x]}
+
+ is a subset of 
+
+
+
+O
+.
+
+
+{\displaystyle O.}
+
+ In this topology, the neighbourhood filter of a point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is 
+
+
+
+{
+V
+[
+x
+]
+:
+V
+∈
+Φ
+}
+.
+
+
+{\displaystyle \{V[x]:V\in \Phi \}.}
+
+ This can be proved with a recursive use of the existence of a "half-size" entourage. Compared to a general topological space the existence of the uniform structure makes possible the comparison of sizes of neighbourhoods: 
+
+
+
+V
+[
+x
+]
+
+
+{\displaystyle V[x]}
+
+ and 
+
+
+
+V
+[
+y
+]
+
+
+{\displaystyle V[y]}
+
+ are considered to be of the "same size".
+The topology defined by a uniform structure is said to be induced by the uniformity. A uniform structure on a topological space is compatible with the topology if the topology defined by the uniform structure coincides with the original topology. In general several different uniform structures can be compatible with a given topology on 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+
+A topological space is called uniformizable if there is a uniform structure compatible with the topology.
+Every uniformizable space is a completely regular topological space. Moreover, for a uniformizable space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ the following are equivalent: 
+Some authors (e.g. Engelking) add this last condition directly in the definition of a uniformizable space.
+The topology of a uniformizable space is always a symmetric topology; that is, the space is an R0-space.
+Conversely, each completely regular space is uniformizable. A uniformity compatible with the topology of a completely regular space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ can be defined as the coarsest uniformity that makes all continuous real-valued functions on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ uniformly continuous. A fundamental system of entourages for this uniformity is provided by all finite intersections of sets 
+
+
+
+(
+f
+×
+f
+
+)
+
+−
+1
+
+
+(
+V
+)
+,
+
+
+{\displaystyle (f\times f)^{-1}(V),}
+
+ where 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is a continuous real-valued function on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is an entourage of the uniform space 
+
+
+
+
+R
+
+.
+
+
+{\displaystyle \mathbf {R} .}
+
+ This uniformity defines a topology, which is clearly coarser than the original topology of 
+
+
+
+X
+;
+
+
+{\displaystyle X;}
+
+ that it is also finer than the original topology (hence coincides with it) is a simple consequence of complete regularity: for any 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ and a neighbourhood 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ of 
+
+
+
+x
+,
+
+
+{\displaystyle x,}
+
+ there is a continuous real-valued function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ with 
+
+
+
+f
+(
+x
+)
+=
+0
+
+
+{\displaystyle f(x)=0}
+
+ and equal to 1 in the complement of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+
+In particular, a compact Hausdorff space is uniformizable. In fact, for a compact Hausdorff space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ the set of all neighbourhoods of the diagonal in 
+
+
+
+X
+×
+X
+
+
+{\displaystyle X\times X}
+
+ form the unique uniformity compatible with the topology.
+A Hausdorff uniform space is metrizable if its uniformity can be defined by a countable family of pseudometrics. Indeed, as discussed above, such a uniformity can be defined by a single pseudometric, which is necessarily a metric if the space is Hausdorff. In particular, if the topology of a vector space is Hausdorff and definable by a countable family of seminorms, it is metrizable.
+Similar to continuous functions between topological spaces, which preserve topological properties, are the uniformly continuous functions between uniform spaces, which preserve uniform properties. 
+A uniformly continuous function is defined as one where inverse images of entourages are again entourages, or equivalently, one where the inverse images of uniform covers are again uniform covers. Explicitly, a function 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f:X\to Y}
+
+ between uniform spaces is called uniformly continuous if for every entourage 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ in 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ there exists an entourage 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that if 
+
+
+
+
+(
+
+
+x
+
+1
+
+
+,
+
+x
+
+2
+
+
+
+)
+
+∈
+U
+
+
+{\displaystyle \left(x_{1},x_{2}\right)\in U}
+
+ then 
+
+
+
+
+(
+
+f
+
+(
+
+x
+
+1
+
+
+)
+
+,
+f
+
+(
+
+x
+
+2
+
+
+)
+
+
+)
+
+∈
+V
+;
+
+
+{\displaystyle \left(f\left(x_{1}\right),f\left(x_{2}\right)\right)\in V;}
+
+ or in other words, whenever 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is an entourage in 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ then 
+
+
+
+(
+f
+×
+f
+
+)
+
+−
+1
+
+
+(
+V
+)
+
+
+{\displaystyle (f\times f)^{-1}(V)}
+
+ is an entourage in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+, where 
+
+
+
+f
+×
+f
+:
+X
+×
+X
+→
+Y
+×
+Y
+
+
+{\displaystyle f\times f:X\times X\to Y\times Y}
+
+ is defined by 
+
+
+
+(
+f
+×
+f
+)
+
+(
+
+
+x
+
+1
+
+
+,
+
+x
+
+2
+
+
+
+)
+
+=
+
+(
+
+f
+
+(
+
+x
+
+1
+
+
+)
+
+,
+f
+
+(
+
+x
+
+2
+
+
+)
+
+
+)
+
+.
+
+
+{\displaystyle (f\times f)\left(x_{1},x_{2}\right)=\left(f\left(x_{1}\right),f\left(x_{2}\right)\right).}
+
+
+All uniformly continuous functions are continuous with respect to the induced topologies. 
+Uniform spaces with uniform maps form a category. An isomorphism between uniform spaces is called a uniform isomorphism; explicitly, a it is a uniformly continuous bijection whose inverse is also uniformly continuous. 
+A uniform embedding is an injective uniformly continuous map 
+
+
+
+i
+:
+X
+→
+Y
+
+
+{\displaystyle i:X\to Y}
+
+ between uniform spaces whose inverse 
+
+
+
+
+i
+
+−
+1
+
+
+:
+i
+(
+X
+)
+→
+X
+
+
+{\displaystyle i^{-1}:i(X)\to X}
+
+ is also uniformly continuous, where the image 
+
+
+
+i
+(
+X
+)
+
+
+{\displaystyle i(X)}
+
+ has the subspace uniformity inherited from 
+
+
+
+Y
+.
+
+
+{\displaystyle Y.}
+
+
+Generalizing the notion of complete metric space, one can also define completeness for uniform spaces. Instead of working with Cauchy sequences, one works with Cauchy filters (or Cauchy nets).
+A Cauchy filter (respectively, a Cauchy prefilter) 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ on a uniform space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a filter (respectively, a prefilter) 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ such that for every entourage 
+
+
+
+U
+,
+
+
+{\displaystyle U,}
+
+ there exists 
+
+
+
+A
+∈
+F
+
+
+{\displaystyle A\in F}
+
+ with 
+
+
+
+A
+×
+A
+⊆
+U
+.
+
+
+{\displaystyle A\times A\subseteq U.}
+
+ In other words, a filter is Cauchy if it contains "arbitrarily small" sets. It follows from the definitions that each filter that converges (with respect to the topology defined by the uniform structure) is a Cauchy filter.
+A minimal Cauchy filter is a Cauchy filter that does not contain any smaller (that is, coarser) Cauchy filter (other than itself). It can be shown that every Cauchy filter contains a unique minimal Cauchy filter. The neighbourhood filter of each point (the filter consisting of all neighbourhoods of the point) is a minimal Cauchy filter.
+Conversely, a uniform space is called complete if every Cauchy filter converges. Any compact Hausdorff space is a complete uniform space with respect to the unique uniformity compatible with the topology.
+Complete uniform spaces enjoy the following important property: if 
+
+
+
+f
+:
+A
+→
+Y
+
+
+{\displaystyle f:A\to Y}
+
+ is a uniformly continuous function from a dense subset 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ of a uniform space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ into a complete uniform space 
+
+
+
+Y
+,
+
+
+{\displaystyle Y,}
+
+ then 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ can be extended (uniquely) into a uniformly continuous function on all of 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+
+A topological space that can be made into a complete uniform space, whose uniformity induces the original topology, is called a completely uniformizable space.
+A completion of a uniform space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a complete is a pair 
+
+
+
+(
+i
+,
+C
+)
+
+
+{\displaystyle (i,C)}
+
+ consisting of a complete uniform space 
+
+
+
+C
+
+
+{\displaystyle C}
+
+ and a uniform embedding 
+
+
+
+i
+:
+X
+→
+C
+
+
+{\displaystyle i:X\to C}
+
+ whose image 
+
+
+
+i
+(
+C
+)
+
+
+{\displaystyle i(C)}
+
+ is a dense subset of 
+
+
+
+C
+.
+
+
+{\displaystyle C.}
+
+
+As with metric spaces, every uniform space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ has a Hausdorff completion of a uniform space: that is, there exists a complete Hausdorff uniform space 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ and a uniformly continuous map 
+
+
+
+i
+:
+X
+→
+Y
+
+
+{\displaystyle i:X\to Y}
+
+ (if 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a Hausdorff uniform space then 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ is a topological embedding) with the following property:
+The Hausdorff completion 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is unique up to isomorphism. As a set, 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ can be taken to consist of the minimal Cauchy filters on 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ As the neighbourhood filter 
+
+
+
+
+B
+
+(
+x
+)
+
+
+{\displaystyle \mathbf {B} (x)}
+
+ of each point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a minimal Cauchy filter, the map 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ can be defined by mapping 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ to 
+
+
+
+
+B
+
+(
+x
+)
+.
+
+
+{\displaystyle \mathbf {B} (x).}
+
+ The map 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ thus defined is in general not injective; in fact, the graph of the equivalence relation 
+
+
+
+i
+(
+x
+)
+=
+i
+(
+
+x
+′
+
+)
+
+
+{\displaystyle i(x)=i(x')}
+
+ is the intersection of all entourages of 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ and thus 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ is injective precisely when 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is Hausdorff.
+The uniform structure on 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is defined as follows: for each symmetric entourage 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ (that is, such that 
+
+
+
+(
+x
+,
+y
+)
+∈
+V
+
+
+{\displaystyle (x,y)\in V}
+
+ implies 
+
+
+
+(
+y
+,
+x
+)
+∈
+V
+
+
+{\displaystyle (y,x)\in V}
+
+), let 
+
+
+
+C
+(
+V
+)
+
+
+{\displaystyle C(V)}
+
+ be the set of all pairs 
+
+
+
+(
+F
+,
+G
+)
+
+
+{\displaystyle (F,G)}
+
+ of minimal Cauchy filters which have in common at least one 
+
+
+
+V
+
+
+{\displaystyle V}
+
+-small set. The sets 
+
+
+
+C
+(
+V
+)
+
+
+{\displaystyle C(V)}
+
+ can be shown to form a fundamental system of entourages; 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is equipped with the uniform structure thus defined.
+The set 
+
+
+
+i
+(
+X
+)
+
+
+{\displaystyle i(X)}
+
+ is then a dense subset of 
+
+
+
+Y
+.
+
+
+{\displaystyle Y.}
+
+  If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is Hausdorff, then 
+
+
+
+i
+
+
+{\displaystyle i}
+
+  is an isomorphism onto 
+
+
+
+i
+(
+X
+)
+,
+
+
+{\displaystyle i(X),}
+
+ and thus 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ can be identified with a dense subset of its completion. Moreover, 
+
+
+
+i
+(
+X
+)
+
+
+{\displaystyle i(X)}
+
+ is always Hausdorff; it is called the Hausdorff uniform space associated with 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+  If 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ denotes the equivalence relation 
+
+
+
+i
+(
+x
+)
+=
+i
+(
+
+x
+′
+
+)
+,
+
+
+{\displaystyle i(x)=i(x'),}
+
+ then the quotient space 
+
+
+
+X
+
+/
+
+R
+
+
+{\displaystyle X/R}
+
+ is homeomorphic to 
+
+
+
+i
+(
+X
+)
+.
+
+
+{\displaystyle i(X).}
+
+
+
+
+
+
+
+
+U
+
+a
+
+
+≜
+
+d
+
+−
+1
+
+
+(
+[
+0
+,
+a
+]
+)
+=
+{
+(
+m
+,
+n
+)
+∈
+M
+×
+M
+:
+d
+(
+m
+,
+n
+)
+≤
+a
+}
+.
+
+
+{\displaystyle \qquad U_{a}\triangleq d^{-1}([0,a])=\{(m,n)\in M\times M:d(m,n)\leq a\}.}
+
+Before André Weil gave the first explicit definition of a uniform structure in 1937, uniform concepts, like completeness, were discussed using metric spaces. Nicolas Bourbaki provided the definition of uniform structure in terms of entourages in the book Topologie Générale and John Tukey gave the uniform cover definition. Weil also characterized uniform spaces in terms of a family of pseudometrics.
+
+
+

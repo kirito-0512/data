@@ -1,0 +1,6 @@
+40863,
+Channelserviceunit,
+In telecommunications, a channel service unit (CSU) is a line bridging device for use with T-carrier, which
+CSUs can be categorized by the class of service they support (DS1, DS3, DDS, etc.) and by the capabilities within that class. For example, basic DS1 (T1) CSUs support loopback of each interface and will produce alarm indication signal to the provider's network interface device (NID) in the event of loss of signal from the customer-premises equipment (CPE). More advanced units will include internal monitors of the performance of the carrier in both directions and may have test pattern generation and monitor capabilities.
+CSUs are required by PSTN providers at digital interfaces that terminate in a DSU on the customer side. They are not used when the service terminates in a modem, such as the DSL family of service. The maintenance capabilities of the CSU provide important guidance as to whether the provider needs to dispatch a repairman to the customer location.
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. Archived from the original on 2022-01-22.

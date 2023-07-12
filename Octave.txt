@@ -1,0 +1,71 @@
+37726,
+Octave,
+In music, an octave (Latin: octavus: eighth) or perfect octave (sometimes called the diapason)[2] is the interval between one musical pitch and another with double its frequency. The octave relationship is a natural phenomenon that has been referred to as the "basic miracle of music", the use of which is "common in most musical systems".[3] The interval between the first and second harmonics of the harmonic series is an octave.
+In Western music notation, notes separated by an octave (or multiple octaves) have the same name and are of the same pitch class.
+To emphasize that it is one of the perfect intervals (including unison, perfect fourth, and perfect fifth), the octave is designated P8. Other interval qualities are also possible, though rare. The octave above or below an indicated note is sometimes abbreviated 8a or 8va (Italian: all'ottava), 8va bassa (Italian: all'ottava bassa, sometimes also 8vb), or simply 8 for the octave in the direction indicated by placing this mark above or below the staff.
+An octave is the interval between one musical pitch and another with double or half its frequency. For example, if one note has a frequency of 440 Hz, the note one octave above is at 880 Hz, and the note one octave below is at 220 Hz. The ratio of frequencies of two notes an octave apart is therefore 2:1. Further octaves of a note occur at 
+
+
+
+
+2
+
+n
+
+
+
+
+{\displaystyle 2^{n}}
+
+ times the frequency of that note (where n is an integer), such as 2, 4, 8, 16, etc. and the reciprocal of that series. For example, 55 Hz and 440 Hz are one and two octaves away from 110 Hz because they are +1⁄2 (or 
+
+
+
+
+2
+
+−
+1
+
+
+
+
+{\displaystyle 2^{-1}}
+
+) and 4 (or 
+
+
+
+
+2
+
+2
+
+
+
+
+{\displaystyle 2^{2}}
+
+) times the frequency, respectively.
+The number of octaves between two frequencies is given by the formula:
+Oscillogram of middle C (262 Hz). (Scale: 1 square is equal to 1 millisecond)
+C5, an octave above middle C. The frequency is twice that of middle C (523 Hz).
+C3, an octave below middle C. The frequency is half that of middle C (131 Hz).
+Most musical scales are written so that they begin and end on notes that are an octave apart. For example, the C major scale is typically written C D E F G A B C (shown below), the initial and final C's being an octave apart.
+Because of octave equivalence, notes in a chord that are one or more octaves apart are said to be doubled (even if there are more than two notes in different octaves) in the chord. The word is also used to describe melodies played in parallel in more than multiple[clarification needed] octaves.
+While octaves commonly refer to the perfect octave (P8), the interval of an octave in music theory encompasses chromatic alterations within the pitch class, meaning that G♮ to G♯ (13 semitones higher) is an Augmented octave (A8), and G♮ to G♭ (11 semitones higher) is a diminished octave (d8). The use of such intervals is rare, as there is frequently a preferable enharmonically-equivalent notation available (minor ninth and major seventh respectively), but these categories of octaves must be acknowledged in any full understanding of the role and meaning of octaves more generally in music.
+Octaves are identified with various naming systems. Among the most common are the scientific, Helmholtz, organ pipe, and MIDI note systems. In scientific pitch notation, a specific octave is indicated by a numerical subscript number after note name. In this notation, middle C is C4, because of the note's position as the fourth C key on a standard 88-key piano keyboard, while the C an octave higher is C5.
+
+The notation 8a or 8va is sometimes seen in sheet music, meaning "play this an octave higher than written" (all' ottava: "at the octave" or all' 8va). 8a or 8va stands for ottava, the Italian word for octave (or "eighth"); the octave above may be specified as ottava alta or ottava sopra). Sometimes 8va is used to tell the musician to play a passage an octave lower (when placed under rather than over the staff), though the similar notation 8vb (ottava bassa or ottava sotto) is also used. Similarly, 15ma (quindicesima) means "play two octaves higher than written" and 15mb (quindicesima bassa) means "play two octaves lower than written."
+The abbreviations col 8, coll' 8, and c. 8va stand for coll'ottava, meaning "with the octave", i.e. to play the notes in the passage together with the notes in the notated octaves. Any of these directions can be cancelled with the word loco, but often a dashed line or bracket indicates the extent of the music affected.[4]
+
+After the unison, the octave is the simplest interval in music. The human ear tends to hear both notes as being essentially "the same", due to closely related harmonics. Notes separated by an octave "ring" together, adding a pleasing sound to music. The interval is so natural to humans that when men and women are asked to sing in unison, they typically sing in octave.[5]
+For this reason, notes an octave apart are given the same note name in the Western system of music notation—the name of a note an octave above A is also A. This is called octave equivalence, the assumption that pitches one or more octaves apart are musically equivalent in many ways, leading to the convention "that scales are uniquely defined by specifying the intervals within an octave".[6] The conceptualization of pitch as having two dimensions, pitch height (absolute frequency) and pitch class (relative position within the octave), inherently include octave circularity.[6] Thus all C♯s (or all 1s, if C = 0), any number of octaves apart, are part of the same pitch class.
+Octave equivalence is a part of most advanced[clarification needed] musical cultures, but is far from universal in "primitive" and early music.[7][failed verification][8][clarification needed] The languages in which the oldest extant written documents on tuning are written, Sumerian and Akkadian, have no known word for "octave". However, it is believed that a set of cuneiform tablets that collectively describe the tuning of a nine-stringed instrument, believed to be a Babylonian lyre, describe tunings for seven of the strings, with indications to tune the remaining two strings an octave from two of the seven tuned strings.[9] Leon Crickmore recently proposed that "The octave may not have been thought of as a unit in its own right, but rather by analogy like the first day of a new seven-day week".[10]
+Monkeys experience octave equivalence, and its biological basis apparently is an octave mapping of neurons in the auditory thalamus of the mammalian brain.[11] Studies have also shown the perception of octave equivalence in rats,[12] human infants,[13] and musicians[14] but not starlings,[15] 4–9 year old children,[16] or non-musicians.[14][6][clarification needed]
+Sources
+
+
+
+Information box
+{'Inverse': 'unison', 'Other names': '-', 'Abbreviation': 'P8', 'Semitones': '12', 'Interval class': '0', 'Just interval': '2:1[1]', 'Equal temperament': '1200[1]', 'Just intonation': '1200[1]'}

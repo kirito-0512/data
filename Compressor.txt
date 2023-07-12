@@ -1,0 +1,308 @@
+6712,
+Compressor,
+A compressor is a mechanical device that increases the pressure of a gas by reducing its volume. An air compressor is a specific type of gas compressor.
+Compressors are similar to pumps: both increase the pressure on a fluid and both can transport the fluid through a pipe. The main distinction is that the focus of a compressor is to change the density or volume of the fluid, which is mostly only achievable on gases. Gases are compressible, while liquids are relatively incompressible, so compressors are rarely used for liquids. The main action of a pump is to pressurize and transport liquids.
+Many compressors can be staged, that is, the fluid is compressed several times in steps or stages, to increase discharge pressure. Often, the second stage is physically smaller than the primary stage, to accommodate the already compressed gas without reducing its pressure. Each stage further compresses the gas and increases its pressure and also temperature (if inter cooling between stages is not used).
+The main and important types of gas compressors are illustrated and discussed below:
+A positive displacement compressor is a system that compresses the air by the displacement of a mechanical linkage reducing the volume (since the reduction in volume due to a piston in thermodynamics is considered as positive displacement of the piston).[vague]
+Put another way, a positive displacement compressor is one that operates by drawing in a discrete volume of gas from its inlet then forcing that gas to exit via the compressor's outlet.  The increase in the pressure of the gas is due, at least in part, to the compressor pumping it at a mass flow rate which cannot pass through the outlet at the lower pressure and density of the inlet.
+Reciprocating compressors use pistons driven by a crankshaft. They can be either stationary or portable, can be single or multi-staged, and can be driven by electric motors or internal combustion engines.[1][2][3] Small reciprocating compressors from 5 to 30 horsepower (hp) are commonly seen in automotive applications and are typically for intermittent duty. Larger reciprocating compressors well over 1,000 hp (750 kW) are commonly found in large industrial and petroleum applications. Discharge pressures can range from low pressure to very high pressure (>18000 psi or 180 MPa). In certain applications, such as air compression, multi-stage double-acting compressors are said to be the most efficient compressors available, and are typically larger, and more costly than comparable rotary units.[4]
+Another type of reciprocating compressor, usually employed in automotive cabin air conditioning systems,[citation needed] is the swash plate or wobble plate compressor, which uses pistons moved by a swash plate mounted on a shaft (see axial piston pump).
+Household, home workshop, and smaller job site compressors are typically reciprocating compressors 1½ hp or less with an attached receiver tank.
+A linear compressor is a reciprocating compressor with the piston being the rotor of a linear motor.
+This type of compressor can compress a wide range of gases, including refrigerant, hydrogen, and natural gas. Because of this, it finds use in a wide range of applications in many different industries and can be designed to a wide range of capacities, by varying size, number of cylinders, and cylinder unloading. However, it suffers from higher losses due to clearance volumes, resistance due to discharge and suction valves, weighs more, is difficult to maintain due to having a large number of moving parts, and it has inherent vibration.[5]
+An ionic liquid piston compressor, ionic compressor or ionic liquid piston pump is a hydrogen compressor based on an ionic liquid piston instead of a metal piston as in a piston-metal diaphragm compressor.
+Rotary screw compressors use two meshed rotating positive-displacement helical screws to force the gas into a smaller space.[1][6][7] These are usually used for continuous operation in commercial and industrial applications and may be either stationary or portable. Their application can be from 3 horsepower (2.2 kW) to over 1,200 horsepower (890 kW) and from low pressure to moderately high pressure (>1,200 psi or 8.3 MPa).
+The classifications of rotary screw compressors vary based on stages, cooling methods, and drive types among others.[8] Rotary screw compressors are commercially produced in Oil Flooded, Water Flooded and Dry type.
+The efficiency of rotary compressors depends on the air drier,[clarification needed] and the selection of air drier is always 1.5 times volumetric delivery of the compressor.[9]
+Designs with a single screw[10] or three screws[11] instead of two exist.
+Screw compressors have less moving components, larger capacity, less vibration and surging, can operate at variable speeds, and typically have higher efficiency. Small sizes or low rotor speeds are not practical due to inherent leaks caused by clearance between the compression cavities or screws and compressor housing.[5] They depend on fine machining tolerances to avoid high leakage losses and are prone to damage if operated incorrectly or poorly serviced.
+Rotary vane compressors consist of a rotor with a number of blades inserted in radial slots in the rotor. The rotor is mounted offset in a larger housing that is either circular or a more complex shape. As the rotor turns, blades slide in and out of the slots keeping contact with the outer wall of the housing.[1] Thus, a series of increasing and decreasing volumes is created by the rotating blades. Rotary vane compressors are, with piston compressors one of the oldest of compressor technologies.
+With suitable port connections, the devices may be either a compressor or a vacuum pump. They can be either stationary or portable, can be single or multi-staged, and can be driven by electric motors or internal combustion engines. Dry vane machines are used at relatively low pressures (e.g., 2 bar or 200 kPa or 29 psi) for bulk material movement while oil-injected machines have the necessary volumetric efficiency to achieve pressures up to about 13 bar (1,300 kPa; 190 psi) in a single stage. A rotary vane compressor is well suited to electric motor drive and is significantly quieter in operation than the equivalent piston compressor.
+Rotary vane compressors can have mechanical efficiencies of about 90%.[12]
+The Rolling piston in a rolling piston style compressor plays the part of a partition between the vane and the rotor.[13] Rolling piston forces gas against a stationary vane.
+2 of these compressors can be mounted on the same shaft to increase capacity and reduce vibration and noise.[14] A design without a spring is known as a swing compressor.[15]
+In refrigeration and air conditioning, this type of compressor is also known as a rotary compressor, with rotary screw compressors being also known simply as screw compressors.
+It offers higher efficiency than reciprocating compressors due to less losses from the clearance volume between the piston and the compressor casing, its 40% to 50% smaller and lighter for a given capacity (which can impact material and shipping costs when used in a product), causes less vibration, has fewer components and is more reliable than a reciprocating compressor. But its structure does not allow capacities beyond 5 refrigeration tons, is less reliable than other compressor types, and is less efficient than other compressor types due to losses from the clearance volume.[5]
+A scroll compressor, also known as scroll pump and scroll vacuum pump, uses two interleaved spiral-like vanes to pump or compress fluids such as liquids and gases. The vane geometry may be involute, archimedean spiral, or hybrid curves.[16][17][18] They operate more smoothly, quietly, and reliably than other types of compressors in the lower volume range.
+Often, one of the scrolls is fixed, while the other orbits eccentrically without rotating, thereby trapping and pumping or compressing pockets of fluid between the scrolls.
+Due to minimum clearance volume between the fixed scroll and the orbiting scroll, these compressors have a very high volumetric efficiency.
+These compressors are extensively used in air conditioning and refrigeration because they are lighter, smaller and have fewer moving parts than reciprocating compressors and they are also more reliable. They are more expensive though, so peltier coolers or rotary and reciprocating compressors may be used in applications where cost is the most important or one of the most important factors to consider when designing a refrigeration or air conditioning system.
+This type of compressor was used as the supercharger on Volkswagen G60 and G40 engines in the early 1990s.
+When compared with reciprocating and rolling piston compressors, scroll compressors are more reliable since they have fewer components and have a simpler structure, are more efficient since they have no clearance volume nor valves, and possess the advantages both of surging less and not vibrating so much. But, when compared with screw and centrifugal compressors, scroll compressors have lower efficiencies and smaller capacities.[5]
+A diaphragm compressor (also known as a membrane compressor) is a variant of the conventional reciprocating compressor. The compression of gas occurs by the movement of a flexible membrane, instead of an intake element. The back and forth movement of the membrane is driven by a rod and a crankshaft mechanism. Only the membrane and the compressor box come in contact with the gas being compressed.[1]
+The degree of flexing and the material constituting the diaphragm affects the maintenance life of the equipment. Generally stiff metal diaphragms may only displace a few cubic centimeters of volume because the metal can not endure large degrees of flexing without cracking, but the stiffness of a metal diaphragm allows it to pump at high pressures. Rubber or silicone diaphragms are capable of enduring deep pumping strokes of very high flexion, but their low strength limits their use to low-pressure applications, and they need to be replaced as plastic embrittlement occurs.
+Diaphragm compressors are used for hydrogen and compressed natural gas (CNG) as well as in a number of other applications.
+The photograph on the right depicts a three-stage diaphragm compressor used to compress hydrogen gas to 6,000 psi (41 MPa) for use in a prototype compressed hydrogen and compressed natural gas (CNG) fueling station built in downtown Phoenix, Arizona by the Arizona Public Service company (an electric utilities company). Reciprocating compressors were used to compress the natural gas. The reciprocating natural gas compressor was developed by Sertco.[19]
+The prototype alternative fueling station was built in compliance with all of the prevailing safety, environmental and building codes in Phoenix to demonstrate that such fueling stations could be built in urban areas.
+Also known as a trompe. A mixture of air and water generated through turbulence is allowed to fall into a subterranean chamber where the air separates from the water. The weight of falling water compresses the air in the top of the chamber. A submerged outlet from the chamber allows water to flow to the surface at a lower height than the intake. An outlet in the roof of the chamber supplies the compressed air to the surface. A facility on this principle was built on the Montreal River at Ragged Shutes near Cobalt, Ontario in 1910 and supplied 5,000 horsepower to nearby mines.[20]
+Centrifugal compressors use a rotating disk or impeller in a shaped housing to force the gas to the rim of the impeller, increasing the velocity of the gas. A diffuser (divergent duct) section converts the velocity energy to pressure energy. They are primarily used for continuous, stationary service in industries such as oil refineries, chemical and petrochemical plants and natural gas processing plants.[1][21][22] Their application can be from 100 horsepower (75 kW) to thousands of horsepower. With multiple staging, they can achieve high output pressures greater than 1,000 psi (6.9 MPa).
+This type of compressor, along with screw compressors, are extensively used in large refrigeration and air conditioning systems. Magnetic bearing (magnetically levitated) and air bearing centrifugal compressors exist.
+Many large snowmaking operations (like ski resorts) use this type of compressor. They are also used in internal combustion engines as superchargers and turbochargers. Centrifugal compressors are used in small gas turbine engines or as the final compression stage of medium-sized gas turbines.
+Centrifugal compressors are the largest available compressors, offer higher efficiencies under partial loads, may be oil-free when using air or magnetic bearings which increases the heat transfer coefficient in evaporators and condensers, weigh up to 90% less and occupy 50% less space than reciprocating compressors, are reliable and cost less to maintain since less components are exposed to wear, and only generate minimal vibration. But, their initial cost is higher, require highly precise CNC machining, the impeller needs to rotate at high speeds making small compressors impractical, and surging becomes more likely.[5] Surging is gas flow reversal, meaning that the gas goes from the discharge to the suction side, which can cause serious damage, specially in the compressor bearings and its drive shaft. It is caused by a pressure on the discharge side that is higher than the output pressure of the compressor. This can cause gases to flow back and forth between the compressor and whatever is connected to its discharge line, causing oscillations.[5]
+Diagonal or mixed-flow compressors are similar to centrifugal compressors, but have a radial and axial velocity component at the exit from the rotor. The diffuser is often used to turn diagonal flow to an axial rather than radial direction.[23] Comparative to the conventional centrifugal compressor (of the same stage pressure ratio), the value of the speed of the mixed flow compressor is 1.5 times larger.[24]
+Axial compressors are dynamic rotating compressors that use arrays of fan-like airfoils to progressively compress a fluid. They are used where high flow rates or a compact design are required.
+The arrays of airfoils are set in rows, usually as pairs: one rotating and one stationary. The rotating airfoils, also known as blades or rotors, accelerate the fluid. The stationary airfoils, also known as stators or vanes, decelerate and redirect the flow direction of the fluid, preparing it for the rotor blades of the next stage.[1] Axial compressors are almost always multi-staged, with the cross-sectional area of the gas passage diminishing along the compressor to maintain an optimum axial Mach number. Beyond about 5 stages or a 4:1 design pressure ratio a compressor will not function unless fitted with features such as stationary vanes with variable angles (known as variable inlet guide vanes and variable stators), the ability to allow some air to escape part-way along the compressor (known as interstage bleed) and being split into more than one rotating assembly (known as twin spools, for example).
+Axial compressors can have high efficiencies; around 90% polytropic at their design conditions. However, they are relatively expensive, requiring a large number of components, tight tolerances and high quality materials. Axial compressors are used in medium to large gas turbine engines, natural gas pumping stations, and some chemical plants.
+Compressors used in refrigeration systems must exhibit near-zero leakage to avoid the loss of the refrigerant if they are to function for years without service. This necessitates the use of very effective seals, or even the elimination of all seals and openings to form a hermetic system. These compressors are often described as being either hermetic, open, or semi-hermetic, to describe how the compressor is enclosed and how the motor drive is situated in relation to the gas or vapor being compressed. Some compressors outside of refrigeration service may also be hermetically sealed to some extent, typically when handling toxic, polluting, or expensive gasses, with most non-refrigeration applications being in the petrochemical industry.
+In hermetic and most semi-hermetic compressors, the compressor and motor driving the compressor are integrated, and operate within the pressurized gas envelope of the system. The motor is designed to operate in, and be cooled by, the refrigerant gas being compressed. Open compressors have an external motor driving a shaft that passes through the body of the compressor and rely on rotary seals around the shaft to retain the internal pressure.
+The difference between the hermetic and semi-hermetic, is that the hermetic uses a one-piece welded steel casing that cannot be opened for repair; if the hermetic fails it is simply replaced with an entire new unit. A semi-hermetic uses a large cast metal shell with gasketed covers with screws that can be opened to replace motor and compressor components. The primary advantage of a hermetic and semi-hermetic is that there is no route for the gas to leak out of the system. The main advantages of open compressors is that they can be driven by any motive power source, allowing the most appropriate motor to be selected for the application, or even non-electric power sources such as an internal combustion engine or steam turbine, and secondly the motor of an open compressor can be serviced without opening any part of the refrigerant system.
+An open pressurized system such as an automobile air conditioner can be more susceptible to leak its operating gases. Open systems rely on lubricant in the system to splash on pump components and seals. If it is not operated frequently enough, the lubricant on the seals slowly evaporates, and then the seals begin to leak until the system is no longer functional and must be recharged. By comparison, a hermetic or semi-hermetic system can sit unused for years, and can usually be started up again at any time without requiring maintenance or experiencing any loss of system pressure. Even well lubricated seals will leak a small amount of gas over time, particularly if the refrigeration gasses are soluble in the lubricating oil, but if the seals are well manufactured and maintained this loss is very low.
+The disadvantage of hermetic compressors is that the motor drive cannot be repaired or maintained, and the entire compressor must be replaced if a motor fails. A further disadvantage is that burnt-out windings can contaminate the whole systems, thereby requiring the system to be entirely pumped down and the gas replaced (This can also happen in semi hermetic compressors where the motor operates in the refrigerant). Typically, hermetic compressors are used in low-cost factory-assembled consumer goods where the cost of repair and labor is high compared to the value of the device, and it would be more economical to just purchase a new device or compressor. Semi-hermetic compressors are used in mid-sized to large refrigeration and air conditioning systems, where it is cheaper to repair and/or refurbish the compressor compared to the price of a new one. A hermetic compressor is simpler and cheaper to build than a semi-hermetic or open compressor.
+A compressor can be idealized as internally reversible and adiabatic, thus an isentropic steady state device, meaning the change in entropy is 0.[25]
+The enthalpy change for a flow process can be calculated.[26]
+dH = VdP +TdS
+Isentropic dS is zero.
+dH = VdP
+Non flow isentropic processes like some positive displacement compressors may use a different equation.[27]
+dH = PdV 
+By defining the compression cycle as isentropic, an ideal efficiency for the process can be attained, and the ideal compressor performance can be compared to the actual performance of the machine. Isotropic Compression as used in ASME PTC 10 Code refers to a reversible, adiabatic compression process[28]
+Isentropic efficiency of Compressors:
+Comparison of the differential form of the energy balance for each device
+Let 
+q
+{\displaystyle q}
+ be heat, 
+w
+{\displaystyle w}
+ be work, 
+k
+e
+{\displaystyle ke}
+ be kinetic energy and 
+p
+e
+{\displaystyle pe}
+ be potential energy.
+Actual Compressor:
+Reversible Compressor:
+The right hand side of each compressor type is equivalent, thus:
+re-arranging:
+By substituting the known equation 
+δ
+q
+r
+e
+v
+=
+T
+d
+s
+{\displaystyle \delta q_{rev}=Tds}
+ into the last equation and dividing both terms by T:
+Furthermore, 
+d
+s
+≥
+δ
+q
+a
+c
+t
+T
+{\displaystyle ds\geq {\frac {\delta q_{act}}{T}}}
+ and T is [absolute temperature] (
+T
+≥
+0
+{\displaystyle T\geq 0}
+) which produces:
+δ
+w
+r
+e
+v
+≥
+δ
+w
+a
+c
+t
+{\displaystyle \delta w_{rev}\geq \delta w_{act}}
+or
+w
+r
+e
+v
+≥
+w
+a
+c
+t
+{\displaystyle w_{rev}\geq w_{act}}
+Therefore, work-consuming devices such as pumps and compressors (work is negative) require less work when they operate reversibly.[25]
+isentropic process: involves no cooling,
+polytropic process: involves some cooling
+isothermal process: involves maximum cooling
+By making the following assumptions the required work for the compressor to compress a gas from 
+P
+1
+{\displaystyle P_{1}}
+ to 
+P
+2
+{\displaystyle P_{2}}
+ is the following for each process:
+Assumptions:
+Isentropic (
+P
+v
+k
+=
+c
+o
+n
+s
+t
+a
+n
+t
+{\displaystyle Pv^{k}=constant}
+, where 
+k
+=
+C
+p
+/
+C
+v
+{\displaystyle k=C_{p}/C_{v}}
+):
+Polytropic (
+P
+v
+n
+=
+c
+o
+n
+s
+t
+a
+n
+t
+{\displaystyle Pv^{n}=constant}
+):
+Isothermal (
+T
+=
+c
+o
+n
+s
+t
+a
+n
+t
+{\displaystyle T=constant}
+ or 
+P
+v
+=
+c
+o
+n
+s
+t
+a
+n
+t
+{\displaystyle Pv=constant}
+):
+By comparing the three internally reversible processes compressing an ideal gas from 
+P
+1
+{\displaystyle P_{1}}
+ to 
+P
+2
+{\displaystyle P_{2}}
+, the results show that isentropic compression (
+P
+v
+k
+=
+c
+o
+n
+s
+t
+a
+n
+t
+{\displaystyle Pv^{k}=constant}
+) requires the most work in and the isothermal compression(
+T
+=
+c
+o
+n
+s
+t
+a
+n
+t
+{\displaystyle T=constant}
+ or 
+P
+v
+=
+c
+o
+n
+s
+t
+a
+n
+t
+{\displaystyle Pv=constant}
+) requires the least amount of work in. For the polytropic process (
+P
+v
+n
+=
+c
+o
+n
+s
+t
+a
+n
+t
+{\displaystyle Pv^{n}=constant}
+) work in decreases as the exponent, n, decreases, by increasing the heat rejection during the compression process. One common way of cooling the gas during compression is to use cooling jackets around the casing of the compressor.[25]
+Ideal Rankine Cycle 1->2 Isentropic compression in a pump
+Ideal Carnot Cycle 4->1 Isentropic compression
+Ideal Otto Cycle 1->2 Isentropic compression
+Ideal Diesel Cycle 1->2 Isentropic compression
+Ideal Brayton Cycle 1->2 Isentropic compression in a compressor
+Ideal  Vapor-compression refrigeration Cycle 1->2 Isentropic compression in a compressor
+NOTE: The isentropic assumptions are only applicable with ideal cycles. Real world cycles have inherent losses due to inefficient compressors and turbines. The real world system are not truly isentropic but are rather idealized as isentropic for calculation purposes.
+Compression of a gas increases its temperature.
+For a polytropic transformation of a gas:
+The work done for polytropic compression (or expansion) of a gas into a closed cylinder.
+so
+in which p is pressure, V is volume, n takes different values for different compression processes (see below), and 1 & 2 refer to initial and final states.
+with T1 and T2 in degrees Rankine or kelvins, p2 and p1 being absolute pressures and 
+κ
+=
+{\displaystyle \kappa =}
+ ratio of specific heats (approximately 1.4 for air).  The rise in air and temperature ratio means compression does not follow a simple pressure to volume ratio. This is less efficient, but quick. Adiabatic compression or expansion more closely model real life when a compressor has good insulation, a large gas volume, or a short time scale (i.e., a high power level). In practice there will always be a certain amount of heat flow out of the compressed gas. Thus, making a perfect adiabatic compressor would require perfect heat insulation of all parts of the machine. For example, even a bicycle tire pump's metal tube becomes hot as you compress the air to fill a tire. The relation between temperature and compression ratio described above means that the value of 
+n
+{\displaystyle n}
+ for an adiabatic process is 
+κ
+{\displaystyle \kappa }
+ (the ratio of specific heats).
+For an isothermal process, 
+n
+{\displaystyle n}
+ is 1, so the value of the work integral for an isothermal process is:
+When evaluated, the isothermal work is found to be lower than the adiabatic work.
+In the case of centrifugal compressors, commercial designs currently do not exceed a compression ratio of more than 3.5 to 1 in any one stage (for a typical gas). Since compression raises the temperature, the compressed gas is to be cooled between stages making the compression less adiabatic and more isothermal. The inter-stage coolers (intercoolers) typically result in some partial condensation that is removed in vapor-liquid separators.
+In the case of small reciprocating compressors, the compressor flywheel may drive a cooling fan that directs ambient air across the intercooler of a two or more stage compressor.
+Because rotary screw compressors can make use of cooling lubricant to reduce the temperature rise from compression, they very often exceed a 9 to 1 compression ratio. For instance, in a typical diving compressor the air is compressed in three stages. If each stage has a compression ratio of 7 to 1, the compressor can output 343 times atmospheric pressure (7 × 7 × 7 = 343 atmospheres). (343 atm or 34.8 MPa or 5.04 ksi)
+There are many options for the motor that powers the compressor:
+Compressors that are driven by an electric motor can be controlled using a VFD or power inverter, however many hermetic and semi-hermetic compressors can only work in a range of or at fixed speeds, since they may include built-in oil pumps. The built-in oil pump is connected to the same shaft that drives the compressor, and forces oil into the compressor and motor bearings. At low speeds, insufficient quantities of oil reach the bearings, eventually leading to bearing failure, while at high speeds, excessive amounts of oil may be lost from the bearings and compressor and potentially into the discharge line due to splashing. Eventually the oil runs out and the bearings are left unlubricated, leading to failure, and the oil may contaminate the refrigerant, air or other working gas.[30]
+Gas compressors are used in various applications where either higher pressures or lower volumes of gas are needed:
+Diving air compressor in noise reduction cabinet

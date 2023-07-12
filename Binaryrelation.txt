@@ -1,0 +1,862 @@
+18753,
+Binaryrelation,
+All definitions tacitly require the homogeneous relation 
+R
+{\displaystyle R}
+ be transitive: for all 
+a
+,
+b
+,
+c
+,
+{\displaystyle a,b,c,}
+ if 
+a
+R
+b
+{\displaystyle aRb}
+ and 
+b
+R
+c
+{\displaystyle bRc}
+ then 
+a
+R
+c
+.
+{\displaystyle aRc.}
+A term's definition may require additional properties that are not listed in this table.
+In mathematics, a binary relation associates elements of one set, called the domain, with elements of another set, called the codomain.[1]  A binary relation over sets X and Y is a new set of ordered pairs (x, y) consisting of elements x in X and y in Y.[2] It is a generalization of the more widely understood idea of a unary function. It encodes the common concept of relation: an element x is related to an element y, if and only if the pair (x, y) belongs to the set of ordered pairs that defines the binary relation. A binary relation is the most studied special case n = 2 of an n-ary relation over sets X1, ..., Xn, which is a subset of the Cartesian product 
+X
+1
+×
+⋯
+×
+X
+n
+.
+{\displaystyle X_{1}\times \cdots \times X_{n}.}
+[2]
+An example of a binary relation is the "divides" relation over the set of prime numbers 
+P
+{\displaystyle \mathbb {P} }
+ and the set of integers 
+Z
+{\displaystyle \mathbb {Z} }
+, in which each prime p is related to each integer z that is a multiple of p, but not to an integer that is not a multiple of p. In this relation, for instance, the prime number 2 is related to numbers such as −4, 0, 6, 10, but not to 1 or 9, just as the prime number 3 is related to 0, 6, and 9, but not to 4 or 13.
+Binary relations are used in many branches of mathematics to model a wide variety of concepts. These include, among others:
+A function may be defined as a special kind of binary relation.[3] Binary relations are also heavily used in computer science.
+A binary relation over sets X and Y is an element of the power set of 
+X
+×
+Y
+.
+{\displaystyle X\times Y.}
+ Since the latter set is ordered by inclusion (⊆), each relation has a place in the lattice of subsets of 
+X
+×
+Y
+.
+{\displaystyle X\times Y.}
+ A binary relation is called a homogeneous relation when X = Y. A binary relation is also called a heterogeneous relation when it is not necessary that X = Y.
+Since relations are sets, they can be manipulated using set operations, including union, intersection, and complementation, and satisfying the laws of an algebra of sets. Beyond that, operations like the converse of a relation and the composition of relations are available, satisfying the laws of a calculus of relations, for which there are textbooks by Ernst Schröder,[4] Clarence Lewis,[5] and Gunther Schmidt.[6] A deeper analysis of relations involves decomposing them into subsets called concepts, and placing them in a complete lattice.
+In some systems of axiomatic set theory, relations are extended to classes, which are generalizations of sets. This extension is needed for, among other things, modeling the concepts of "is an element of" or "is a subset of" in set theory, without running into logical inconsistencies such as Russell's paradox.
+The terms correspondence,[7] dyadic relation and two-place relation are synonyms for binary relation, though some authors use the term "binary relation" for any subset of a Cartesian product 
+X
+×
+Y
+{\displaystyle X\times Y}
+ without reference to X and Y, and reserve the term "correspondence" for a binary relation with reference to X and Y.[citation needed]
+Given sets X and Y, the Cartesian product 
+X
+×
+Y
+{\displaystyle X\times Y}
+ is defined as 
+{
+(
+x
+,
+y
+)
+:
+x
+∈
+X
+ and 
+y
+∈
+Y
+}
+,
+{\displaystyle \{(x,y):x\in X{\text{ and }}y\in Y\},}
+ and its elements are called ordered pairs.
+A binary relation R over sets X and Y is a subset of 
+X
+×
+Y
+.
+{\displaystyle X\times Y.}
+[2][8] The set X is called the domain[2] or set of departure of R, and the set Y the codomain or set of destination of R. In order to specify the choices of the sets X and Y, some authors define a binary relation or correspondence as an ordered triple (X, Y, G), where G is a subset of 
+X
+×
+Y
+{\displaystyle X\times Y}
+ called the graph of the binary relation. The statement 
+(
+x
+,
+y
+)
+∈
+R
+{\displaystyle (x,y)\in R}
+ reads "x is R-related to y" and is denoted by xRy.[4][5][6][note 1] The domain of definition or active domain[2] of R is the set of all x such that xRy for at least one y. The codomain of definition, active codomain,[2] image or range of R is the set of all y such that xRy for at least one x. The field of R is the union of its domain of definition and its codomain of definition.[10][11][12]
+When 
+X
+=
+Y
+,
+{\displaystyle X=Y,}
+ a binary relation is called a homogeneous relation (or endorelation). To emphasize the fact that X and Y are allowed to be different, a binary relation is also called a heterogeneous relation.[13][14][15]
+In a binary relation, the order of the elements is important; if 
+x
+≠
+y
+{\displaystyle x\neq y}
+ then yRx can be true or false independently of xRy. For example, 3 divides 9, but 9 does not divide 3.
+If R and S are binary relations over sets X and Y then 
+R
+∪
+S
+=
+{
+(
+x
+,
+y
+)
+:
+x
+R
+y
+ or 
+x
+S
+y
+}
+{\displaystyle R\cup S=\{(x,y):xRy{\text{ or }}xSy\}}
+ is the union relation of R and S over X and Y.
+The identity element is the empty relation. For example, 
+≤
+{\displaystyle \,\leq \,}
+ is the union of < and =, and 
+≥
+{\displaystyle \,\geq \,}
+ is the union of > and =.
+If R and S are binary relations over sets X and Y then 
+R
+∩
+S
+=
+{
+(
+x
+,
+y
+)
+:
+x
+R
+y
+ and 
+x
+S
+y
+}
+{\displaystyle R\cap S=\{(x,y):xRy{\text{ and }}xSy\}}
+ is the intersection relation of R and S over X and Y.
+The identity element is the universal relation. For example, the relation "is divisible by 6" is the intersection of the relations "is divisible by 3" and "is divisible by 2".
+If R is a binary relation over sets X and Y, and S is a binary relation over sets Y and Z then 
+S
+∘
+R
+=
+{
+(
+x
+,
+z
+)
+:
+ there exists 
+y
+∈
+Y
+ such that 
+x
+R
+y
+ and 
+y
+S
+z
+}
+{\displaystyle S\circ R=\{(x,z):{\text{ there exists }}y\in Y{\text{ such that }}xRy{\text{ and }}ySz\}}
+ (also denoted by R; S) is the composition relation of R and S over X and Z.
+The identity element is the identity relation. The order of R and S in the notation 
+S
+∘
+R
+,
+{\displaystyle S\circ R,}
+ used here agrees with the standard notational order for composition of functions. For example, the composition (is parent of)
+∘
+{\displaystyle \,\circ \,}
+(is mother of) yields (is maternal grandparent of), while the composition (is mother of)
+∘
+{\displaystyle \,\circ \,}
+(is parent of) yields (is grandmother of). For the former case, if x is the parent of y and y is the mother of z, then x is the maternal grandparent of z.
+If R is a binary relation over sets X and Y then 
+R
+T
+=
+{
+(
+y
+,
+x
+)
+:
+x
+R
+y
+}
+{\displaystyle R^{\textsf {T}}=\{(y,x):xRy\}}
+ is the converse relation of R over Y and X.
+For example, 
+=
+{\displaystyle \,=\,}
+ is the converse of itself, as is 
+≠
+,
+{\displaystyle \,\neq ,\,}
+ and 
+<
+{\displaystyle \,<\,}
+ and 
+>
+{\displaystyle \,>\,}
+ are each other's converse, as are 
+≤
+{\displaystyle \,\leq \,}
+ and 
+≥
+.
+{\displaystyle \,\geq .\,}
+ A binary relation is equal to its converse if and only if it is symmetric.
+If R is a binary relation over sets X and Y then 
+R
+¯
+=
+{
+(
+x
+,
+y
+)
+:
+ not 
+x
+R
+y
+}
+{\displaystyle {\overline {R}}=\{(x,y):{\text{ not }}xRy\}}
+ (also denoted by R or ¬ R) is the complementary relation of R over X and Y.
+For example, 
+=
+{\displaystyle \,=\,}
+ and 
+≠
+{\displaystyle \,\neq \,}
+ are each other's complement, as are 
+⊆
+{\displaystyle \,\subseteq \,}
+ and 
+⊈
+,
+{\displaystyle \,\not \subseteq ,\,}
+⊇
+{\displaystyle \,\supseteq \,}
+ and 
+⊉
+,
+{\displaystyle \,\not \supseteq ,\,}
+ and 
+∈
+{\displaystyle \,\in \,}
+ and 
+∉
+,
+{\displaystyle \,\not \in ,\,}
+ and, for total orders, also 
+<
+{\displaystyle \,<\,}
+ and 
+≥
+,
+{\displaystyle \,\geq ,\,}
+ and 
+>
+{\displaystyle \,>\,}
+ and 
+≤
+.
+{\displaystyle \,\leq .\,}
+The complement of the converse relation 
+R
+T
+{\displaystyle R^{\textsf {T}}}
+ is the converse of the complement: 
+R
+T
+¯
+=
+R
+¯
+T
+.
+{\displaystyle {\overline {R^{\mathsf {T}}}}={\bar {R}}^{\mathsf {T}}.}
+If 
+X
+=
+Y
+,
+{\displaystyle X=Y,}
+ the complement has the following properties:
+If R is a binary homogeneous relation over a set X and S is a subset of X then 
+R
+|
+S
+=
+{
+(
+x
+,
+y
+)
+∣
+x
+R
+y
+ and 
+x
+∈
+S
+ and 
+y
+∈
+S
+}
+{\displaystyle R_{\vert S}=\{(x,y)\mid xRy{\text{ and }}x\in S{\text{ and }}y\in S\}}
+ is the restriction relation of R to S over X.
+If R is a binary relation over sets X and Y and if S is a subset of X then 
+R
+|
+S
+=
+{
+(
+x
+,
+y
+)
+∣
+x
+R
+y
+ and 
+x
+∈
+S
+}
+{\displaystyle R_{\vert S}=\{(x,y)\mid xRy{\text{ and }}x\in S\}}
+ is the left-restriction relation of R to S over X and Y.[clarification needed]
+If R is a binary relation over sets X and Y and if S is a subset of Y then 
+R
+|
+S
+=
+{
+(
+x
+,
+y
+)
+∣
+x
+R
+y
+ and 
+y
+∈
+S
+}
+{\displaystyle R^{\vert S}=\{(x,y)\mid xRy{\text{ and }}y\in S\}}
+ is the right-restriction relation of R to S over X and Y.
+If a relation is reflexive, irreflexive, symmetric, antisymmetric, asymmetric, transitive, total, trichotomous, a partial order, total order, strict weak order, total preorder (weak order), or an equivalence relation, then so too are its restrictions.
+However, the transitive closure of a restriction is a subset of the restriction of the transitive closure, i.e., in general not equal. For example, restricting the relation "x is parent of y" to females yields the relation "x is mother of the woman y"; its transitive closure does not relate a woman with her paternal grandmother. On the other hand, the transitive closure of "is parent of" is "is ancestor of"; its restriction to females does relate a woman with her paternal grandmother.
+Also, the various concepts of completeness (not to be confused with being "total") do not carry over to restrictions. For example, over the real numbers a property of the relation 
+≤
+{\displaystyle \,\leq \,}
+ is that every non-empty subset 
+S
+⊆
+R
+{\displaystyle S\subseteq \mathbb {R} }
+ with an upper bound in 
+R
+{\displaystyle \mathbb {R} }
+ has a least upper bound (also called supremum) in 
+R
+.
+{\displaystyle \mathbb {R} .}
+ However, for the rational numbers this supremum is not necessarily rational, so the same property does not hold on the restriction of the relation 
+≤
+{\displaystyle \,\leq \,}
+ to the rational numbers.
+A binary relation R over sets X and Y is said to be contained in a relation S over X and Y, written 
+R
+⊆
+S
+,
+{\displaystyle R\subseteq S,}
+ if R is a subset of S, that is, for all 
+x
+∈
+X
+{\displaystyle x\in X}
+ and 
+y
+∈
+Y
+,
+{\displaystyle y\in Y,}
+ if xRy, then xSy. If R is contained in S and S is contained in R, then R and S are called equal written R = S. If R is contained in S but S is not contained in R, then R is said to be smaller than S, written 
+R
+⊊
+S
+.
+{\displaystyle R\subsetneq S.}
+ For example, on the rational numbers, the relation 
+>
+{\displaystyle \,>\,}
+ is smaller than 
+≥
+,
+{\displaystyle \,\geq ,\,}
+ and equal to the composition 
+>
+∘
+>
+.
+{\displaystyle \,>\,\circ \,>.\,}
+Binary relations over sets X and Y can be represented algebraically by logical matrices indexed by X and Y with entries in the Boolean semiring (addition corresponds to OR and multiplication to AND) where matrix addition corresponds to union of relations, matrix multiplication corresponds to composition of relations (of a relation over X and Y and a relation over Y and Z),[16] the Hadamard product corresponds to intersection of relations, the zero matrix corresponds to the empty relation, and the matrix of ones corresponds to the universal relation. Homogeneous relations (when X = Y) form a matrix semiring (indeed, a matrix semialgebra over the Boolean semiring) where the identity matrix corresponds to the identity relation.[17]
+Some important types of binary relations R over sets X and Y are listed below.
+Uniqueness properties:
+Totality properties (only definable if the domain X and codomain Y are specified):
+Uniqueness and totality properties (only definable if the domain X and codomain Y are specified):
+If relations over proper classes are allowed:
+Certain mathematical "relations", such as "equal to", "subset of", and "member of", cannot be understood to be binary relations as defined above, because their domains and codomains cannot be taken to be sets in the usual systems of axiomatic set theory. For example, to model the general concept of "equality" as a binary relation 
+=
+,
+{\displaystyle \,=,}
+ take the domain and codomain to be the "class of all sets", which is not a set in the usual set theory.
+In most mathematical contexts, references to the relations of equality, membership and subset are harmless because they can be understood implicitly to be restricted to some set in the context. The usual work-around to this problem is to select a "large enough" set A, that contains all the objects of interest, and work with the restriction =A instead of =. Similarly, the "subset of" relation 
+⊆
+{\displaystyle \,\subseteq \,}
+ needs to be restricted to have domain and codomain P(A) (the power set of a specific set A): the resulting set relation can be denoted by 
+⊆
+A
+.
+{\displaystyle \,\subseteq _{A}.\,}
+ Also, the "member of" relation needs to be restricted to have domain A and codomain P(A) to obtain a binary relation 
+∈
+A
+{\displaystyle \,\in _{A}\,}
+ that is a set. Bertrand Russell has shown that assuming 
+∈
+{\displaystyle \,\in \,}
+ to be defined over all sets leads to a contradiction in naive set theory, see Russell's paradox.
+Another solution to this problem is to use a set theory with proper classes, such as NBG or Morse–Kelley set theory, and allow the domain and codomain (and so the graph) to be proper classes: in such a theory, equality, membership, and subset are binary relations without special comment. (A minor modification needs to be made to the concept of the ordered triple (X, Y, G), as normally a proper class cannot be a member of an ordered tuple; or of course one can identify the binary relation with its graph in this context.)[24] With this definition one can for instance define a binary relation over every set and its power set.
+A homogeneous relation over a set X is a binary relation over X and itself, i.e. it is a subset of the Cartesian product 
+X
+×
+X
+.
+{\displaystyle X\times X.}
+[15][25][26] It is also simply called a (binary) relation over X.
+A homogeneous relation R over a set X may be identified with a directed simple graph permitting loops, where X is the vertex set and R is the edge set (there is an edge from a vertex x to a vertex y if and only if xRy).
+The set of all homogeneous relations 
+B
+(
+X
+)
+{\displaystyle {\mathcal {B}}(X)}
+ over a set X is the power set 
+2
+X
+×
+X
+{\displaystyle 2^{X\times X}}
+ which is a Boolean algebra augmented with the involution of mapping of a relation to its converse relation. Considering composition of relations as a binary operation on 
+B
+(
+X
+)
+{\displaystyle {\mathcal {B}}(X)}
+, it forms a semigroup with involution.
+Some important properties that a homogeneous relation R over a set X may have are:
+A partial order is a relation that is reflexive, antisymmetric, and transitive. A strict partial order is a relation that is irreflexive, antisymmetric, and transitive. A total order is a relation that is reflexive, antisymmetric, transitive and connected.[30] A strict total order is a relation that is irreflexive, antisymmetric, transitive and connected.
+An equivalence relation is a relation that is reflexive, symmetric, and transitive.
+For example, "x divides y" is a partial, but not a total order on natural numbers 
+N
+,
+{\displaystyle \mathbb {N} ,}
+ "x < y" is a strict total order on 
+N
+,
+{\displaystyle \mathbb {N} ,}
+ and "x is parallel to y" is an equivalence relation on the set of all lines in the Euclidean plane.
+All operations defined in section § Operations also apply to homogeneous relations.
+Beyond that, a homogeneous relation over a set X may be subjected to closure operations like:
+In mathematics, a heterogeneous relation is a binary relation, a subset of a Cartesian product 
+A
+×
+B
+,
+{\displaystyle A\times B,}
+ where A and B are possibly distinct sets.[31] The prefix hetero is from the Greek ἕτερος (heteros, "other, another, different").
+A heterogeneous relation has been called a rectangular relation,[15] suggesting that it does not have the square-symmetry of a homogeneous relation on a set where 
+A
+=
+B
+.
+{\displaystyle A=B.}
+ Commenting on the development of binary relations beyond homogeneous relations, researchers wrote, "...a variant of the theory has evolved that treats relations from the very beginning as heterogeneous or rectangular, i.e. as relations where the normal case is that they are relations between different sets."[32]
+Developments in algebraic logic have facilitated usage of binary relations. The calculus of relations includes the algebra of sets, extended by composition of relations and the use of converse relations. The inclusion 
+R
+⊆
+S
+,
+{\displaystyle R\subseteq S,}
+ meaning that aRb implies aSb, sets the scene in a lattice of relations. But since 
+P
+⊆
+Q
+≡
+(
+P
+∩
+Q
+¯
+=
+∅
+)
+≡
+(
+P
+∩
+Q
+=
+P
+)
+,
+{\displaystyle P\subseteq Q\equiv (P\cap {\bar {Q}}=\varnothing )\equiv (P\cap Q=P),}
+ the inclusion symbol is superfluous. Nevertheless, composition of relations and manipulation of the operators according to Schröder rules, provides a calculus to work in the power set of 
+A
+×
+B
+.
+{\displaystyle A\times B.}
+In contrast to homogeneous relations, the composition of relations operation is only a partial function. The necessity of matching range to domain of composed relations has led to the suggestion that the study of heterogeneous relations is a chapter of category theory as in the category of sets, except that the morphisms of this category are relations. The objects of the category Rel are sets, and the relation-morphisms compose as required in a category.[citation needed]
+Binary relations have been described through their induced concept lattices:
+A concept C ⊂ R satisfies two properties: (1) The logical matrix of C is the outer product of logical vectors
+For a given relation 
+R
+⊆
+X
+×
+Y
+,
+{\displaystyle R\subseteq X\times Y,}
+ the set of concepts, enlarged by their joins and meets, forms an "induced lattice of concepts", with inclusion 
+⊑
+{\displaystyle \sqsubseteq }
+ forming a preorder.
+The MacNeille completion theorem (1937) (that any partial order may be embedded in a complete lattice) is cited in a 2013 survey article "Decomposition of relations on concept lattices".[33] The decomposition is
+Particular cases are considered below: E total order corresponds to Ferrers type, and E identity corresponds to difunctional, a generalization of equivalence relation on a set.
+Relations may be ranked by the Schein rank which counts the number of concepts necessary to cover a relation.[34] Structural analysis of relations with concepts provides an approach for data mining.[35]
+The idea of a difunctional relation is to partition objects by distinguishing attributes, as a generalization of the concept of an equivalence relation. One way this can be done is with an intervening set 
+Z
+=
+{
+x
+,
+y
+,
+z
+,
+…
+}
+{\displaystyle Z=\{x,y,z,\ldots \}}
+ of indicators. The partitioning relation 
+R
+=
+F
+G
+T
+{\displaystyle R=FG^{\textsf {T}}}
+ is a composition of relations using univalent relations 
+F
+⊆
+A
+×
+Z
+ and 
+G
+⊆
+B
+×
+Z
+.
+{\displaystyle F\subseteq A\times Z{\text{ and }}G\subseteq B\times Z.}
+ Jacques Riguet named these relations difunctional since the composition F GT involves univalent relations, commonly called partial functions.
+In 1950 Rigeut showed that such relations satisfy the inclusion:[36]
+In automata theory, the term rectangular relation has also been used to denote a difunctional relation. This terminology recalls the fact that, when represented as a logical matrix, the columns and rows of a difunctional relation can be arranged as a block matrix with rectangular blocks of ones on the (asymmetric) main diagonal.[37] More formally, a relation R on 
+X
+×
+Y
+{\displaystyle X\times Y}
+ is difunctional if and only if it can be written as the union of Cartesian products 
+A
+i
+×
+B
+i
+{\displaystyle A_{i}\times B_{i}}
+, where the 
+A
+i
+{\displaystyle A_{i}}
+ are a partition of a subset of X and the 
+B
+i
+{\displaystyle B_{i}}
+ likewise a partition of a subset of Y.[38]
+Using the notation {y: xRy} = xR, a difunctional relation can also be characterized as a relation R such that wherever x1R and x2R have a non-empty intersection, then these two sets coincide; formally 
+x
+1
+∩
+x
+2
+≠
+∅
+{\displaystyle x_{1}\cap x_{2}\neq \varnothing }
+ implies 
+x
+1
+R
+=
+x
+2
+R
+.
+{\displaystyle x_{1}R=x_{2}R.}
+[39]
+In 1997 researchers found "utility of binary decomposition based on difunctional dependencies in database management."[40] Furthermore, difunctional relations are fundamental in the study of bisimulations.[41]
+In the context of homogeneous relations, a partial equivalence relation is difunctional.
+A strict order on a set is a homogeneous relation arising in order theory.
+In 1951 Jacques Riguet adopted the ordering of a partition of an integer, called a Ferrers diagram, to extend ordering to binary relations in general.[42]
+The corresponding logical matrix of a general binary relation has rows which finish with a sequence of ones. Thus the dots of a Ferrer's diagram are changed to ones and aligned on the right in the matrix.
+An algebraic statement required for a Ferrers type relation R is
+R
+R
+¯
+T
+R
+⊆
+R
+.
+{\displaystyle R{\bar {R}}^{\textsf {T}}R\subseteq R.}
+If any one of the relations 
+R
+,
+ 
+R
+¯
+,
+ 
+R
+T
+{\displaystyle R,\ {\bar {R}},\ R^{\textsf {T}}}
+ is of Ferrers type, then all of them are.
+[31]
+Suppose B is the power set of A, the set of all subsets of A. Then a relation g is a contact relation if it satisfies three properties: 
+The set membership relation, ε = "is an element of", satisfies these properties so ε is a contact relation. The notion of a general contact relation was introduced by Georg Aumann in 1970.[43][44]
+In terms of the calculus of relations, sufficient conditions for a contact relation include
+C
+T
+C
+¯
+ 
+⊆
+ 
+∋
+C
+¯
+ 
+ 
+≡
+ 
+C
+ 
+∋
+C
+¯
+¯
+ 
+⊆
+ 
+C
+,
+{\displaystyle C^{\textsf {T}}{\bar {C}}\ \subseteq \ \ni {\bar {C}}\ \ \equiv \ C\ {\overline {\ni {\bar {C}}}}\ \subseteq \ C,}
+where 
+∋
+{\displaystyle \ni }
+ is the converse of set membership (∈).[45]: 280 
+Every relation R generates a preorder 
+R
+∖
+R
+{\displaystyle R\backslash R}
+ which is the left residual.[46] In terms of converse and complements, 
+R
+∖
+R
+ 
+≡
+ 
+R
+T
+R
+¯
+¯
+.
+{\displaystyle R\backslash R\ \equiv \ {\overline {R^{\textsf {T}}{\bar {R}}}}.}
+ Forming the diagonal of 
+R
+T
+R
+¯
+{\displaystyle R^{\textsf {T}}{\bar {R}}}
+, the corresponding row of 
+R
+T
+{\displaystyle R^{\text{T}}}
+ and column of 
+R
+¯
+{\displaystyle {\bar {R}}}
+ will be of opposite logical values, so the diagonal is all zeros. Then 
+To show transitivity, one requires that 
+(
+R
+∖
+R
+)
+(
+R
+∖
+R
+)
+⊆
+R
+∖
+R
+.
+{\displaystyle (R\backslash R)(R\backslash R)\subseteq R\backslash R.}
+ Recall that 
+X
+=
+R
+∖
+R
+{\displaystyle X=R\backslash R}
+ is the largest relation such that 
+R
+X
+⊆
+R
+.
+{\displaystyle RX\subseteq R.}
+ Then 
+The inclusion relation Ω on the power set of U can be obtained in this way from the membership relation 
+∈
+{\displaystyle \,\in \,}
+ on subsets of U:
+Given a relation R, a sub-relation called its fringe is defined as
+fringe
+⁡
+(
+R
+)
+=
+R
+∩
+R
+R
+¯
+T
+R
+¯
+.
+{\displaystyle \operatorname {fringe} (R)=R\cap {\overline {R{\bar {R}}^{\textsf {T}}R}}.}
+When R is a partial identity relation, difunctional, or a block diagonal relation, then fringe(R) = R. Otherwise the fringe operator selects a boundary sub-relation described in terms of its logical matrix: fringe(R) is the side diagonal if R is an upper right triangular linear order or strict order. Fringe(R) is the block fringe if R is irreflexive (
+R
+⊆
+I
+¯
+{\displaystyle R\subseteq {\bar {I}}}
+) or upper right block triangular. Fringe(R) is a sequence of boundary rectangles when R is of Ferrers type.
+On the other hand, Fringe(R) = ∅ when R is a dense, linear, strict order.[45]
+Given two sets A and B, the set of binary relations between them 
+B
+(
+A
+,
+B
+)
+{\displaystyle {\mathcal {B}}(A,B)}
+ can be equipped with a ternary operation 
+[
+a
+,
+ 
+b
+,
+ 
+c
+]
+ 
+=
+ 
+a
+b
+T
+c
+{\displaystyle [a,\ b,\ c]\ =\ ab^{\textsf {T}}c}
+ where bT denotes the converse relation of b. In 1953 Viktor Wagner used properties of this ternary operation to define semiheaps, heaps, and generalized heaps.[47][48] The contrast of heterogeneous and homogeneous relations is highlighted by these definitions:
+There is a pleasant symmetry in Wagner's work between heaps, semiheaps, and generalised heaps on the one hand, and groups, semigroups, and generalised groups on the other. Essentially, the various types of semiheaps appear whenever we consider binary relations (and partial one-one mappings) between different sets A and B, while the various types of semigroups appear in the case where A = B.

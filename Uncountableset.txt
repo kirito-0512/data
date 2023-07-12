@@ -1,0 +1,216 @@
+32248,
+Uncountableset,
+In mathematics, an uncountable set (or uncountably infinite set)[1] is an infinite set that contains too many elements to be countable. The uncountability of a set is closely related to its cardinal number: a set is uncountable if its cardinal number is larger than that of the set of all natural numbers.
+There are many equivalent characterizations of uncountability.  A set X is uncountable if and only if any of the following conditions hold:
+The first three of these characterizations can be proven equivalent in Zermelo–Fraenkel set theory without the axiom of choice, but the equivalence of the third and fourth cannot be proved without additional choice principles.
+The best known example of an uncountable set is the set R of all real numbers; Cantor's diagonal argument shows that this set is uncountable. The diagonalization proof technique can also be used to show that several other sets are uncountable, such as the set of all infinite sequences of natural numbers  and the set of all subsets of the set of natural numbers. The cardinality of R is often called the cardinality of the continuum, and denoted by 
+
+
+
+
+
+c
+
+
+
+
+{\displaystyle {\mathfrak {c}}}
+
+, or 
+
+
+
+
+2
+
+
+ℵ
+
+0
+
+
+
+
+
+
+{\displaystyle 2^{\aleph _{0}}}
+
+, or 
+
+
+
+
+ℶ
+
+1
+
+
+
+
+{\displaystyle \beth _{1}}
+
+ (beth-one).
+The Cantor set is an uncountable subset of R. The Cantor set is a fractal and has Hausdorff dimension greater than zero but less than one (R has dimension one). This is an example of the following fact: any subset of R of Hausdorff dimension strictly greater than zero must be uncountable.
+Another example of an uncountable set is the set of all functions from R to R. This set is even "more uncountable" than R in the sense that the cardinality of this set is 
+
+
+
+
+ℶ
+
+2
+
+
+
+
+{\displaystyle \beth _{2}}
+
+ (beth-two), which is larger than 
+
+
+
+
+ℶ
+
+1
+
+
+
+
+{\displaystyle \beth _{1}}
+
+.
+A more abstract example of an uncountable set is the set of all countable ordinal numbers, denoted by Ω or ω1.[1] The cardinality of Ω is denoted 
+
+
+
+
+ℵ
+
+1
+
+
+
+
+{\displaystyle \aleph _{1}}
+
+ (aleph-one). It can be shown, using the axiom of choice, that 
+
+
+
+
+ℵ
+
+1
+
+
+
+
+{\displaystyle \aleph _{1}}
+
+ is the smallest uncountable cardinal number. Thus either 
+
+
+
+
+ℶ
+
+1
+
+
+
+
+{\displaystyle \beth _{1}}
+
+, the cardinality of the reals, is equal to 
+
+
+
+
+ℵ
+
+1
+
+
+
+
+{\displaystyle \aleph _{1}}
+
+ or it is strictly larger. Georg Cantor was the first to propose the question of whether 
+
+
+
+
+ℶ
+
+1
+
+
+
+
+{\displaystyle \beth _{1}}
+
+ is equal to 
+
+
+
+
+ℵ
+
+1
+
+
+
+
+{\displaystyle \aleph _{1}}
+
+.  In 1900, David Hilbert posed this question as the first of his 23 problems. The statement that 
+
+
+
+
+ℵ
+
+1
+
+
+=
+
+ℶ
+
+1
+
+
+
+
+{\displaystyle \aleph _{1}=\beth _{1}}
+
+ is now called the continuum hypothesis, and is known to be independent of the Zermelo–Fraenkel axioms for set theory (including the axiom of choice).
+Without the axiom of choice, there might exist cardinalities incomparable to 
+
+
+
+
+ℵ
+
+0
+
+
+
+
+{\displaystyle \aleph _{0}}
+
+ (namely, the cardinalities of Dedekind-finite infinite sets). Sets of these cardinalities satisfy the first three characterizations above, but not the fourth characterization. Since these sets are not larger than the natural numbers in the sense of cardinality, some may not want to call them uncountable.
+If the axiom of choice holds, the following conditions on a cardinal 
+
+
+
+κ
+
+
+{\displaystyle \kappa }
+
+ are equivalent:
+However, these may all be different if the axiom of choice fails. So it is not obvious which one is the appropriate generalization of "uncountability" when the axiom fails. It may be best to avoid using the word in this case and specify which of these one means.
+
+

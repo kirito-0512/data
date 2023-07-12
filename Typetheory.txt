@@ -1,0 +1,1184 @@
+40282,
+Typetheory,
+In mathematics, logic, and computer science, a type theory is the formal presentation of a specific type system,[a] and in general type theory is the academic study of type systems. Some type theories serve as alternatives to set theory as a foundation of mathematics. Two influential type theories that were proposed as foundations are Alonzo Church's typed λ-calculus and Per Martin-Löf's intuitionistic type theory.  Most computerized proof-writing systems use a type theory for their foundation.  A common one is Thierry Coquand's Calculus of Inductive Constructions.
+Type theory was created to avoid a paradox in a mathematical foundation based on naive set theory and formal logic.  Russell's paradox, which was discovered by Bertrand Russell, existed because a set could be defined using "all possible sets", which included itself.  Between 1902 and 1908, Bertrand Russell proposed various "theories of type" to fix the problem.   By 1908 Russell arrived at a "ramified" theory of types together with an "axiom of reducibility" both of which featured prominently in Whitehead and Russell's Principia Mathematica published between 1910 and 1913.  This system avoided Russell's paradox by creating a hierarchy of types and then assigning each concrete mathematical entity to a type.  Entities of a given type are built exclusively of subtypes of that type,[b] thus preventing an entity from being defined using itself. Russell's theory of types  ruled out the possibility of a set being a member of itself.
+Types were not always used in logic.  There were other techniques to avoid Russell's paradox.[3] Types did gain a hold when used with one particular logic, Alonzo Church's lambda calculus.
+The most famous early example is Church's simply typed lambda calculus. Church's theory of types[4] helped the formal system avoid the Kleene–Rosser paradox that afflicted the original untyped lambda calculus. Church demonstrated that it could serve as a foundation of mathematics and it was referred to as a higher-order logic.
+The phrase "type theory" now generally refers to a typed system based around lambda calculus.  One influential system is Per Martin-Löf's intuitionistic type theory, which was proposed as a foundation for constructive mathematics. Another is Thierry Coquand's calculus of constructions, which is used as the foundation by Coq, Lean, and other "proof assistants" (computerized proof writing programs).  Type theories are an area of active research, as demonstrated by homotopy type theory.
+There are many type theories, which makes it difficult to produce a comprehensive taxonomy; this article is not an exhaustive categorization.  What follows is an introduction for those unfamiliar with type theory, covering some of the major approaches.
+In type theory, every term has a type.  A term and its type are often written together as "term : type".   A common type to include in a type theory is the Natural numbers, often written as "
+
+
+
+
+N
+
+
+
+{\displaystyle \mathbb {N} }
+
+" or "nat".  Another is Boolean logic values.  So, some very simple terms with their types are:
+Terms can be built out of other terms using function calls.  In type theory, a function call is called "function application".  Function application takes a term of a given type and results in a term of another given type.  Function application is written "function argument argument ...", instead of the conventional "function(argument,argument, ...)".  For natural numbers, it is possible to define a function called "add" that takes two natural numbers.  Thus, some more terms with their types are:
+In the last term, parentheses were added to indicate the order of operations.  Technically, most type theories require the parentheses to be present for every operation, but, in practice, they are not written and authors assume readers can use precedence and associativity to know where they are.  For similar ease, it is a common notation to write "
+
+
+
+x
++
+y
+
+
+{\displaystyle x+y}
+
+" instead of "add 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ 
+
+
+
+y
+
+
+{\displaystyle y}
+
+".  So, the above terms might be rewritten as:
+Terms may also contain variables.  Variables always have a type.  So, assuming "x" and "y" are variables of type "nat", the following are also valid terms:
+There are more types than "nat" and "bool".  We have already seen the term "add", which is not a "nat", but a function that, when applied to two "nat"s, computes to a "nat".  The type of "add" will be covered later.  First, we need to describe "computes to" ('
+
+
+
+↠
+
+
+{\displaystyle \twoheadrightarrow }
+
+').
+Type theory has a built-in notation of computation.  The following terms are all different:
+but they all compute to the term "5 : nat".  In type theory, we use the words "reduction" and "reduce" to refer to computation.  So, we say "0 + 5 : nat" reduces to "5 : nat".  It can be written "0 + 5 : nat 
+
+
+
+↠
+
+
+{\displaystyle \twoheadrightarrow }
+
+ 5 : nat".  The computation is mechanical, accomplished by rewriting the term's syntax.
+Terms that contain variables can be reduced too.  So the term "x + (1 + 4) : nat" reduces to "x + 5 : nat".  (We can reduce any sub-term within a term, thanks to the Church-Rosser theorem.)
+A term without any variables that can be reduced further is a "canonical term".  All the terms above reduce to "5 : nat", which is a canonical term.  The canonical terms of the natural numbers are:
+Obviously, terms that compute to the same term are equal.  So, assuming "x : nat", the terms "x + (1 + 4) : nat" and "x + (4 + 1) : nat" are equal because they both reduce to "x + 5 : nat".  When two terms are equal, they can be substituted for each other.  Equality is a complex topic in type theory and there are many kinds of equality.  This kind of equality, where two terms compute to the same term, is called "judgmental equality".
+In type theory, functions are terms.   Functions can either be lambda terms or defined "by rule".
+A lambda term looks like "(λ variablename : type1 . term)" and has type "type1 
+
+
+
+→
+
+
+{\displaystyle \to }
+
+ type2".   The type "type1 
+
+
+
+→
+
+
+{\displaystyle \to }
+
+ type2" indicates that the lambda term is a function that takes a parameter of type "type1" and computes to a term of type "type2".  The term inside the lambda term must be a value of "type2", assuming the variable has type "type1".
+An example of a lambda term is this function which doubles its argument:
+The variable name is "x" and the variable has type "nat".  The term "(add x x)" has type "nat", assuming "x : nat".  Thus, the lambda term has type "nat 
+
+
+
+→
+
+
+{\displaystyle \to }
+
+ nat", which means if it is given a "nat" as an argument, it will compute to a "nat".  Reduction (a.k.a. computation) is defined for lambda terms.  When the function is applied (a.k.a. called), the argument is substituted for the parameter.
+Earlier, we saw that function application is written by putting the parameter after the function term.  So, if we want to call the above function with the parameter "5" of type "nat", we write:
+The lambda term was type "nat 
+
+
+
+→
+
+
+{\displaystyle \to }
+
+ nat", which meant that given a "nat" as an argument, it will produce a term of type "nat".  Since we have given it the argument "5", the above term has type "nat".  Reduction works by substituting the argument "5" for the parameter "x" in the term "(add x x)", so the term computes to:
+which obviously computes to
+A lambda term is often called an "anonymous function" because it has no name.  Often, to make things easier to read, a name is given to a lambda term.  This is merely a notation and has no mathematical meaning.  Some authors call it "notational equality".  A name might be given to the function above using the notation:
+This is the same function as above, just a different way to write it.  So the term
+still computes to
+Dependent typing is when the type returned by a function depends on the value of its argument.  For example, when a type theory has a rule that defines the type "bool", it also defines the function "if".  The function "if" takes 3 arguments and "if true b c" computes to "b" and "if false b c" computes to "c".  But what is the type of "if a b c"?
+If "b" and "c" have the same type, it is obvious: "if a b c" has the same type as "b" and "c".  Thus, assuming "a : bool",
+But if "b" and "c" have different types, then the type of "if a b c" depends on the value of "a".  We use the symbol "Π" to indicate a function that takes an argument and returns a type.  Assuming we have some types "B" and C" and "a : bool", "b : B" and "c : C", then
+That is, the type of the "if" term is either the type of the second or third argument, depending on the value of the first argument.  In actuality, "if a B C" isn't defined using "if", but that gets into details too complicated for this introduction.
+Because the type can contain computation, dependent typing is amazingly powerful.  When mathematicians say "there exists a number 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ such that 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is prime" or "there exists a number 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ such that property 
+
+
+
+P
+(
+x
+)
+
+
+{\displaystyle P(x)}
+
+ holds", it can be expressed as a dependent type.  That is, the property is proven for the specific "
+
+
+
+x
+
+
+{\displaystyle x}
+
+" and that is visible in the type of the result.
+There are many details to dependent typing.  They are too long and complicated for this introduction.  See the article on dependent typing and the lambda cube for more information.
+Π-terms return a type.  So what is the type of their return value?  Well, there must be a type that contains types.  A type that contains other types is called a "universe".  It is often written with the symbol 
+
+
+
+U
+
+
+{\displaystyle U}
+
+.  Sometimes there is a hierarchy of universes, with "
+
+
+
+
+U
+
+0
+
+
+
+
+{\displaystyle U_{0}}
+
+ : 
+
+
+
+
+U
+
+1
+
+
+
+
+{\displaystyle U_{1}}
+
+", "
+
+
+
+
+U
+
+1
+
+
+
+
+{\displaystyle U_{1}}
+
+ : 
+
+
+
+
+U
+
+2
+
+
+
+
+{\displaystyle U_{2}}
+
+", etc..
+If a universe contains itself, it can lead to paradoxes like Girard's Paradox.
+For example:[5]
+
+The openendedness of Martin-Löf type theory is particularly manifest in the introduction of so-called universes. Type universes encapsulate the informal notion of reflection whose role may be explained as follows. During the course of developing a particular formalization of type theory, the type theorist may look back over the rules for types, say C, which have been introduced hitherto and perform the step of recognizing that they are valid according to Martin-Löf’s informal semantics of meaning explanation. This act of 'introspection' is an attempt to become aware of the conceptions which have governed our constructions in the past. It gives rise to a "reflection principle which roughly speaking says whatever we are used to doing with types can be done inside a universe" (Martin-Löf 1975, 83). On the formal level, this leads to an extension of the existing formalization of type theory in that the type forming capacities of C become enshrined in a type universe UC mirroring C.Type theories are defined by their rules of inference.  There are rules for a "§ functional core", described above, and rules that create types and terms.  Below is a non-exhaustive list of common types and their associated terms.
+The list ends with "§ inductive types", which is a powerful technique that is able to construct all the other ones in the list.  The mathematical foundations used by the proof assistants "Coq" and "Lean" are based on the "Calculus for Inductive Constructions" which is the "Calculus of Constructions" (its "functional core") with inductive types.
+The empty type has no terms.  The type is usually written "
+
+
+
+⊥
+
+
+{\displaystyle \bot }
+
+" or "
+
+
+
+
+0
+
+
+
+{\displaystyle \mathbb {0} }
+
+".
+It is used to show that something is uncomputable.  If for a type "A", you can create a function of type "A 
+
+
+
+→
+⊥
+
+
+{\displaystyle \to \bot }
+
+", you know that "A" has no terms.  An example for the type "A" might be "there exists a number 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ such that both 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is even and 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is odd".  (See "§Product Type" below for how the example "A" is constructed.)  When a type has no terms, we say it is "uninhabited".
+The unit type has exactly 1 canonical term.  The type is written "
+
+
+
+⊤
+
+
+{\displaystyle \top }
+
+" or "
+
+
+
+
+1
+
+
+
+{\displaystyle \mathbb {1} }
+
+" and the single canonical term is written "*".
+The unit type is used to show that something exists or is computable.  If for a type "A", you can create a function of type "
+
+
+
+⊤
+→
+
+
+{\displaystyle \top \to }
+
+ A", you know that "A" has one or more terms.  When a type has at least 1 term, we say it is "inhabited".
+The Boolean type has exactly 2 canonical terms.  The type is usually written "bool" or "
+
+
+
+
+B
+
+
+
+{\displaystyle \mathbb {B} }
+
+" or "
+
+
+
+
+2
+
+
+
+{\displaystyle \mathbb {2} }
+
+".  The canonical terms are usually "true" and "false".
+The Boolean type is defined with an eliminator function "if" such that:
+The product type has terms that are ordered pairs.  For types "A" and "B", the product type is written "A 
+
+
+
+×
+
+
+{\displaystyle \times }
+
+ B".  Canonical terms are created by the constructor function "pair".  The terms are "pair a b", where "a" is a term of type "A" and "b" is a term of type "B".  The product type is defined with eliminator functions "first" and "second" such that:
+Besides ordered pairs, this type is used for the logical operator "and", because it holds an "A" and a "B".  It is also used for intersection, because it holds one of both types.
+If a type theory has dependent typing, it has dependent pairs.  In a dependent pair, the second type depends on the value of the first term.  Thus, the type is written "
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+
+ a:A . B(a)" where "B" has type "A 
+
+
+
+→
+
+
+{\displaystyle \to }
+
+ U".  It is useful when showing existence of an "a" with property "B(a)".
+The sum type is a "tagged union".  That is, for types "A" and "B", the type "A + B" holds either a term of type "A" or a term of type "B" and it knows which one it holds.  The type comes with the constructors "injectionLeft" and "injectionRight". The call "injectionLeft a" takes "a : A" and returns a canonical term of type "A + B".  Similarly, injectionRight b" takes "b : B" and returns a canonical term of type "A + B".  The type is defined with an eliminator function "match" such that for a type "C" and functions "f : A 
+
+
+
+→
+
+
+{\displaystyle \to }
+
+ C" and "g : B 
+
+
+
+→
+
+
+{\displaystyle \to }
+
+ C":
+The sum type is used for logical or and for union.
+The natural numbers are usually implemented in the style of Peano Arithmetic.  There is a canonical term, "0 : nat" for zero.  Canonical values larger than zero use the constructor function "S : nat 
+
+
+
+→
+
+
+{\displaystyle \to }
+
+ nat".  Thus, "S 0" is one.  "S (S 0)" is two.  "S (S (S 0)))" is three.  Etc.  The decimal numbers are just notationally equal to those terms.
+The natural numbers are defined with an eliminator function "R" that uses recursion to define a function for all nats.  It takes a function "P : nat 
+
+
+
+→
+
+
+{\displaystyle \to }
+
+ U" which is the type of the function to define.  It also takes a term "PZ : P 0" which is the value at zero and a function "PS : P n 
+
+
+
+→
+
+
+{\displaystyle \to }
+
+ P (S n)" which says how to transform the value at "n" into the value at "n + 1".  Thus, its computation rules are:
+The function "add", that was used earlier, can be defined using "R".
+
+The identity type is the third concept of equality in type theory.  The first is "notational equality", which is for definitions like "2 : nat ::= (S (S 0))" that have no mathematical meaning but are useful to readers.  The second is "judgmental equality", which is when two terms compute to the same term, like "x + (1 + 4)" and "x + (4 + 1)", which both compute to "x + 5".  But type theory needs another form of equality, known as the "identity type" or "propositional equality".
+The reason that this theory needs the identity type is because some equal terms do not compute to the same term.  Assuming "x : nat", the terms "x + 1" and "1 + x" do not compute to the same term.  Recall that "+" is a notation for the function "add", which is a notation for the function "R".  We cannot compute on "R" until the value for "x" is specified and, until it is specified, two different calls to "R" will not compute to the same term.
+An identity type requires two terms "a" and "b" of the same type and is written "a = b".  So, for "x + 1" and "1 + x", the type would be "x+1 = 1+x".  Canonical terms are created with the constructor "reflexivity".  The call "reflexivity a" takes a term "a" and returns a canonical term of the type "a = a".
+Computation with the identity type is done with the eliminator function "J".  The function "J" lets a term dependent on "a", "b", and a term of type "a = b" to be rewritten so that "b" is replaced by "a".  While "J" is one directional, only able to substitute "b" with "a", it can be proven that the identity type is reflexive, symmetric and transitive.
+If the canonical terms are always "a=a", but "x+1" does not compute to the same term as "1+x", how do we create a term of "x+1 = 1+x"?   We use the "R" function.  (See §Natural Numbers above.)  The "R" function's argument "P" is defined to be "(λ x:nat . x+1 = 1+x)".  The other arguments act like the parts of an induction proof, where "PZ : P 0" becomes the base case "0+1 = 1+0" and "PS : P n 
+
+
+
+→
+
+
+{\displaystyle \to }
+
+ P (S n)" becomes the inductive case.  Essentially, this says that when "x+1 = 1+x" has "x" replaced with a canonical value, the expression will be the same as "reflexivity (x+1)".  This application of the function "R" has type "x : nat 
+
+
+
+→
+
+
+{\displaystyle \to }
+
+ x+1 = 1+x".  We can use it and the function "J" to substitute "1+x" for "x+1" in any term.  In this way, the identity type is able to capture equalities that are not possible with judgmental equality.
+To be clear, it is possible to create the type "0 = 1", but there will not be a way to create terms of that type.  Without a term of type "0 = 1", it will not be possible to use the function "J" to substitute "0" for "1" in another term.
+The complexities of equality in type theory make it an active research area, see homotopy type theory.
+Use of inductive types is a way to create a large variety of types.  In fact, all the types described above and more can be defined using the rules of inductive types.  Once the type's constructors are specified, the eliminator functions and computation is determined by structural recursion.
+There are similar, more powerful ways to create types.  These include induction-recursion and induction-induction.  There is also a way to create similar types using only lambda terms, called Scott encoding.
+(NOTE: Type theories do not usually include coinductive types.  They represent an infinite data type and most type theories limit themselves to functions that can be proven to halt.)
+The traditional foundation for mathematics has been set theory paired with a logic.  The most common one cited is Zermelo–Fraenkel set theory, known as "ZF" or, with the Axiom of choice, "ZFC".  Type theories differ from this foundation in a number of ways.
+Proponents of type theory will also point out its connection to constructive mathematics through the BHK interpretation, its connection to logic by the Curry–Howard isomorphism, and its connections to Category theory.
+A type theory is a mathematical logic.  It is a collection of rules of inference that result in judgments.  Most logics have judgments asserting "The term 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is true", or "The term 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is a well-formed formula".[6]  A type theory has additional judgments that define types and relate terms to types.
+A term in logic is recursively defined as a constant symbol, variable, or a function application, where a term is applied to another term.  Some constant symbols will be "0" of the natural numbers, "true" of the Booleans, and functions like "S" and "if".  Thus some terms are "0", "(S 0)", "(S (S x))", and "if true 0 (S 0)".
+Most type theories have 4 judgements:
+The judgements can be made under an assumption.  For example, one might say "assuming 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is a term of type 'bool' and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ is a term of type 'nat' , (if x y y) is a term of type 'nat' ".  The mathematical notation for assumptions is a comma-separated list of "term : type" that precedes the turnstile symbol '
+
+
+
+⊢
+
+
+{\displaystyle \vdash }
+
+'.  Thus, the example statement is formally written:
+If there are no assumptions, there will be nothing to the left of the turnstile:
+The list of assumptions is called the "context".  It is very common to see the symbol '
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+' used to represent some or all of the assumptions.  Thus, the formal notation for the 4 different judgements is usually:
+(NOTE: The judgement of equality of terms is where the phrase "judgemental equality" comes from. )
+The judgements enforce that every term has a type.  The type will restrict which rules can be applied to a term.
+A type theory's rules say what judgements can be made, based on the existence of other judgements.  The rules are expressed using a horizontal line, with the required input judgements above the line and the resulting judgement below the line.  The rule for creating a lambda term is:
+
+
+
+
+
+
+
+
+Γ
+,
+a
+:
+A
+⊢
+b
+:
+B
+
+
+
+
+Γ
+⊢
+(
+λ
+a
+:
+A
+.
+b
+)
+:
+A
+→
+B
+
+
+
+
+
+
+{\displaystyle {\begin{array}{c}\Gamma ,a:A\vdash b:B\\\hline \Gamma \vdash (\lambda a:A.b):A\to B\\\end{array}}}
+
+
+The judgements required to create the lambda term go above the line.  In this case, only one judgement is required: it is that there is some term "b" of some type "B", assuming there is some term "a" of some type "A" and some other assumptions "
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+".  (Note: "
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+", "a", "A", "b", and "B" are all metavariables in the rule.)  The resulting judgement goes below the line.  This rule's resulting judgement states that the new lambda term has type "A 
+
+
+
+→
+
+
+{\displaystyle \to }
+
+ B" under the other assumptions 
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+.
+The rules are syntactic and work by rewriting.  Thus, the metavariables like "
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+", "a", "A", etc. may actually consist of complex terms that contain many function applications, not just single symbols.
+To generate a particular judgement in type theory, there must be a rule to generate it.  Then, there must be rules to generate all of that rule's required inputs.  And then rules for all the inputs for those rules.  The applied rules form a proof tree.  This is usually drawn Gentzen-style,[7] where the target judgement (root) is at the bottom, and rules that do not require any inputs (leaves) are at the top (see Natural deduction §Proofs and type theory). One example of a rule that does not require any inputs is one that states there is a term "0" of type "nat":
+
+
+
+
+
+
+
+
+
+⊢
+0
+:
+n
+a
+t
+
+
+
+
+
+
+
+{\displaystyle {\begin{array}{c}\hline \vdash 0:nat\\\end{array}}}
+
+
+A type theory usually has a number of rules, including ones to:
+Also, for each "by rule" type, there are 4 different kinds of rules
+Examples of rules:
+Terms usually belong to a single type.  However, there are set theories that define "subtyping".
+Computation takes place by repeated application of rules.  Many type theories are strongly normalizing, which means that any order of applying the rules will always end in the same result.  However, some are not.  In a normalizing type theory, the one-directional computation rules are called "reduction rules", and applying the rules "reduces" the term.  If a rule is not one-directional, it is called a "conversion rule".
+Some combinations of types are equivalent to other combinations of types.  When functions are considered "exponentiation", the combinations of types can be written similar to algebraic identities.[10]  Thus, 
+
+
+
+
+
+0
+
+
++
+A
+≅
+A
+
+
+{\displaystyle {\mathbb {0} }+A\cong A}
+
+, 
+
+
+
+
+
+1
+
+
+×
+A
+≅
+A
+
+
+{\displaystyle {\mathbb {1} }\times A\cong A}
+
+, 
+
+
+
+
+
+1
+
+
++
+
+
+1
+
+
+≅
+
+
+2
+
+
+
+
+{\displaystyle {\mathbb {1} }+{\mathbb {1} }\cong {\mathbb {2} }}
+
+, 
+
+
+
+
+A
+
+B
++
+C
+
+
+≅
+
+A
+
+B
+
+
+×
+
+A
+
+C
+
+
+
+
+{\displaystyle A^{B+C}\cong A^{B}\times A^{C}}
+
+, 
+
+
+
+
+A
+
+B
+×
+C
+
+
+≅
+(
+
+A
+
+B
+
+
+
+)
+
+C
+
+
+
+
+{\displaystyle A^{B\times C}\cong (A^{B})^{C}}
+
+.
+Most type theories do not have axioms.  This is because a type theory is defined by its rules of inference.  (See "Rules" above).  This is a source of confusion for people familiar with Set Theory, where a theory is defined by both the rules of inference for a logic (such as first-order logic) and axioms about sets.
+Sometimes, a type theory will add a few axioms.  An axiom is a judgement that is accepted without a derivation using the rules of inference.  They are often added to ensure properties that cannot be added cleanly through the rules.
+Axioms can cause problems if they introduce terms without a way to compute on those terms.  That is, axioms can interfere with the normalizing property of the type theory.[11]
+Some commonly encountered axioms are:
+The Axiom of Choice does not need to be added to type theory, because in most type theories it can be derived from the rules of inference.  This is because of the constructive nature of type theory, where proving that a value exists requires a method to compute the value.  The Axiom of Choice is less powerful in type theory than most set theories, because type theory's functions must be computable and, being syntax-driven, the number of terms in a type must be countable.  (See Axiom of choice § In constructive mathematics.)
+A type theory is naturally associated with the decision problem of type inhabitation.[14]
+The decision problem of type inhabitation (abbreviated by 
+
+
+
+∃
+e
+.
+Γ
+⊢
+e
+:
+τ
+?
+
+
+{\displaystyle \exists e.\Gamma \vdash e:\tau ?}
+
+) is: 
+Girard's paradox shows that type inhabitation is strongly related to the consistency of a type system with Curry–Howard correspondence. To be sound, such a system must have uninhabited types.
+The opposition of terms and types can also be views as one of implementation and specification. By program synthesis (the computational counterpart of) type inhabitation (see below) can be used to construct (all or parts of) programs from specification given in form of type information.[15]
+Many programs that work with type theory (e.g., interactive theorem provers) also do type inferencing.  It lets them select the rules that the user intends, with fewer actions by the user.
+Homotopy type theory differs from intuitionistic type theory mostly by its handling of the equality type.  In 2016 cubical type theory was proposed, which is a homotopy type theory with normalization.[16][13]
+Type theory has connections to other areas of mathematics.  Proponents of type theory as a foundation often mention these connections as justification for its use.
+When used as a foundation, certain types are interpreted as propositions (statements that can be proven) and a term of the type is a proof of that proposition.  Thus, the type "Π x:nat . x+1=1+x" represents that, for any "x" of type "nat", "x+1" and "1+x" are equal.  And a term of that type represents its proof.
+The Curry–Howard correspondence is the observed similarity between logics and programming languages.  The implication in logic, "A 
+
+
+
+→
+
+
+{\displaystyle \to }
+
+ B" resembles a function from type "A" to type "B".  For a variety of logics, the rules are a similar to expression in a programming language's types.  The similarity goes farther, as applications of the rules resemble programs in the programming languages.  Thus, the correspondence is often summarized as "proofs as programs".
+The logic operators "for all" and "exists" led Per Martin-Löf to invent dependent type theory.
+When some types are interpreted as propositions, there is a set of common types that can be used to connect them to make a logic out of types.  However, that logic is not classical logic but intuitionistic logic.  That is, it does not have the law of excluded middle nor double negation.
+There is a natural relation of types to logical propositions.  If "A" is a type representing a proposition, being able to create a function of type "
+
+
+
+⊤
+→
+
+
+{\displaystyle \top \to }
+
+ A" indicates that A has a proof and being able to create the function "A 
+
+
+
+→
+⊥
+
+
+{\displaystyle \to \bot }
+
+" indicates that A does not have a proof.  That is, inhabitable types are proven and uninhabitable types are disproven.
+WARNING: This interpretation can lead to a lot of confusion.  A type theory may have terms "true" and "false" of type "bool", which act like a Boolean logic, and at the same time have types 
+
+
+
+⊤
+
+
+{\displaystyle \top }
+
+ and 
+
+
+
+⊥
+
+
+{\displaystyle \bot }
+
+ to represent "true" (provable) and "false" (disproven), as part of a intuitionistic logic for proposition.
+Under this intuitionistic interpretation, there are common types that act as the logical operators:
+But under this interpretation, there is no law of excluded middle.  That is, there is no term of type Π A . A + (A 
+
+
+
+→
+⊥
+
+
+{\displaystyle \to \bot }
+
+).
+Likewise, there is no double negation.  There is no term of type Π A . ((A 
+
+
+
+→
+⊥
+
+
+{\displaystyle \to \bot }
+
+) 
+
+
+
+→
+⊥
+
+
+{\displaystyle \to \bot }
+
+) 
+
+
+
+→
+
+
+{\displaystyle \to }
+
+ A.  (Note: Intuitionistic logic does allow 
+
+
+
+¬
+¬
+¬
+A
+→
+¬
+A
+
+
+{\displaystyle \lnot \lnot \lnot A\to \lnot A}
+
+ and there is a term of type (((A 
+
+
+
+→
+⊥
+
+
+{\displaystyle \to \bot }
+
+) 
+
+
+
+→
+⊥
+
+
+{\displaystyle \to \bot }
+
+) 
+
+
+
+→
+⊥
+
+
+{\displaystyle \to \bot }
+
+) 
+
+
+
+→
+
+
+{\displaystyle \to }
+
+ (A 
+
+
+
+→
+⊥
+
+
+{\displaystyle \to \bot }
+
+).)
+Thus, the logic-of-types is an intuitionistic logic.  Type theory is often cited as an implementation of the Brouwer–Heyting–Kolmogorov interpretation.
+It is possible to include the law of excluded middle and double negation into a type theory, by rule or assumption.  However, terms may not compute down to canonical terms and it will interfere with the ability to determine if two terms are judgementally equal to each other.
+Per Martin-Löf proposed his intuitionistic type theory as a foundation for constructive mathematics.  Constructive mathematics requires when proving "There exists an 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ with property P(
+
+
+
+x
+
+
+{\displaystyle x}
+
+)", there must be a particular 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and a proof that it has property "P".    In type theory, existence is accomplished using the dependent product type and, its proof, requires a term of that type.  For the term 
+
+
+
+t
+
+
+{\displaystyle t}
+
+, "first 
+
+
+
+t
+
+
+{\displaystyle t}
+
+" will produce the 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and "second 
+
+
+
+t
+
+
+{\displaystyle t}
+
+" will produce the proof of P(
+
+
+
+x
+
+
+{\displaystyle x}
+
+).
+An example of a non-constructive proof is a "proof by contradiction".  The first step is assuming that 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ does not exist and refuting it by contradiction.  The conclusion from that step is "it is not the case that 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ does not exist".  The last step is, by double negation, concluding that 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ exists.  To be clear, constructive mathematics still allows "refute by contradiction".  It can prove that "it is not the case that 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ does not exist".  But constructive mathematics does not allow the last step of removing the double negation to conclude that 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ exists.[17]
+Constructive mathematics has often used intuitionistic logic, as evidenced by the Brouwer–Heyting–Kolmogorov interpretation.
+Most of the type theories proposed as foundations are constructive.  This includes most of the ones used by proof assistants.
+It is possible to add non-constructive features to a type theory, by rule or assumption.  These include operators on continuations such as call with current continuation. However, these operators tend to break desirable properties such as canonicity and parametricity.
+Although the initial motivation for category theory was far removed from foundationalism, the two fields turned out to have deep connections. As John Lane Bell writes: "In fact categories can themselves be viewed as type theories of a certain kind; this fact alone indicates that type theory is much more closely related to category theory than it is to set theory." In brief, a category can be viewed as a type theory by regarding its objects as types (or sorts), i.e. "Roughly speaking, a category may be thought of as a type theory shorn of its syntax." A number of significant results follow in this way:[18]
+The interplay, known as categorical logic, has been a subject of active research since then; see the monograph of Jacobs (1999) for instance.
+Homotopy type theory attempts to combine type theory and category theory.  It focuses on equalities, especially equalities between types.
+The first computer proof assistant, called Automath, used type theory to encode mathematics on a computer. Martin-Löf specifically developed intuitionistic type theory to encode all mathematics to serve as a new foundation for mathematics. There is ongoing research into mathematical foundations using homotopy type theory.
+Mathematicians working in category theory already had difficulty working with the widely accepted foundation of Zermelo–Fraenkel set theory. This led to proposals such as Lawvere's Elementary Theory of the Category of Sets (ETCS).[19] Homotopy type theory continues in this line using type theory. Researchers are exploring connections between dependent types (especially the identity type) and algebraic topology (specifically homotopy).
+Much of the current research into type theory is driven by proof checkers, interactive proof assistants, and automated theorem provers. Most of these systems use a type theory as the mathematical foundation for encoding proofs, which is not surprising, given the close connection between type theory and programming languages:
+Many type theories are supported by LEGO and Isabelle. Isabelle also supports foundations besides type theories, such as ZFC. Mizar is an example of a proof system that only supports set theory.
+Any static program analysis, such as the type checking algorithms in the semantic analysis phase of compiler, has a connection to type theory. A prime example is Agda, a programming language which uses UTT (Luo's Unified Theory of dependent Types) for its type system.
+The programming language ML was developed for manipulating type theories (see LCF) and its own type system was heavily influenced by them.
+Type theory is also widely used in formal theories of semantics of natural languages,[20][21] especially Montague grammar[22] and its descendants. In particular, categorial grammars and pregroup grammars extensively use type constructors to define the types (noun, verb, etc.) of words.
+The most common construction takes the basic types 
+
+
+
+e
+
+
+{\displaystyle e}
+
+ and 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ for individuals and truth-values, respectively, and defines the set of types recursively as follows:
+A complex type 
+
+
+
+⟨
+a
+,
+b
+⟩
+
+
+{\displaystyle \langle a,b\rangle }
+
+ is the type of functions from entities of type 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ to entities of type 
+
+
+
+b
+
+
+{\displaystyle b}
+
+. Thus one has types like 
+
+
+
+⟨
+e
+,
+t
+⟩
+
+
+{\displaystyle \langle e,t\rangle }
+
+ which are interpreted as elements of the set of functions from entities to truth-values, i.e. indicator functions of sets of entities. An expression of type 
+
+
+
+⟨
+⟨
+e
+,
+t
+⟩
+,
+t
+⟩
+
+
+{\displaystyle \langle \langle e,t\rangle ,t\rangle }
+
+ is a function from sets of entities to truth-values, i.e. a (indicator function of a) set of sets. This latter type is standardly taken to be the type of natural language quantifiers, like  everybody or  nobody (Montague 1973, Barwise and Cooper 1981).[full citation needed]
+Gregory Bateson introduced a theory of logical types into the social sciences; his notions of double bind and logical levels are based on Russell's theory of types.
+
+

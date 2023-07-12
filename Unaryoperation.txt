@@ -1,0 +1,343 @@
+32177,
+Unaryoperation,
+In mathematics, a unary operation is an operation with only one operand, i.e. a single input.[1] This is in contrast to binary operations, which use two operands.[2] An example is any function f : A → A, where A is a set. The function f is a unary operation on A.
+Common notations are prefix notation (e.g. ¬, −), postfix notation (e.g. factorial n!), functional notation (e.g. sin x or sin(x)), and superscripts (e.g. transpose AT). Other notations exist as well, for example, in the case of the square root, a horizontal bar extending the square root sign over the argument can indicate the extent of the argument.
+Obtaining the absolute value of a number is a unary operation. This function is defined as 
+
+
+
+
+|
+
+n
+
+|
+
+=
+
+
+{
+
+
+
+n
+,
+
+
+
+
+if 
+
+
+n
+≥
+0
+
+
+
+
+−
+n
+,
+
+
+
+
+if 
+
+
+n
+<
+0
+
+
+
+
+
+
+
+
+{\displaystyle |n|={\begin{cases}n,&{\mbox{if }}n\geq 0\\-n,&{\mbox{if }}n<0\end{cases}}}
+
+[3] where 
+
+
+
+
+|
+
+n
+
+|
+
+
+
+{\displaystyle |n|}
+
+ is the absolute value of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+.
+This is used to find the negative value of a single number. This is technically not a unary operation as 
+
+
+
+−
+n
+
+
+{\displaystyle -n}
+
+ is just short form of 
+
+
+
+0
+−
+n
+
+
+{\displaystyle 0-n}
+
+.[4] Here are some examples:
+
+
+
+
+−
+(
+3
+)
+=
+−
+3
+
+
+{\displaystyle -(3)=-3}
+
+
+
+
+
+
+−
+(
+−
+3
+)
+=
+3
+
+
+{\displaystyle -(-3)=3}
+
+
+As unary operations have only one operand they are evaluated before other operations containing them. Here is an example using negation:
+
+
+
+
+3
+
+
+{\displaystyle 3}
+
+
+
+
+
+−
+
+
+{\displaystyle -}
+
+
+
+
+
+−
+
+
+{\displaystyle -}
+
+
+
+
+
+2
+
+
+{\displaystyle 2}
+
+
+Here, the first '−' represents the binary subtraction operation, while the second '−' represents the unary negation of the 2 (or '−2' could be taken to mean the integer −2). Therefore, the expression is equal to:
+
+
+
+
+3
+
+
+{\displaystyle 3}
+
+
+
+
+
+−
+
+
+{\displaystyle -}
+
+
+
+
+
+(
+−
+
+
+{\displaystyle (-}
+
+
+
+
+
+2
+)
+
+
+{\displaystyle 2)}
+
+
+
+
+
+=
+5
+
+
+{\displaystyle =5}
+
+
+Technically, there is also a unary + operation but it is not needed since we assume an unsigned value to be positive:
+
+
+
+
++
+2
+=
+2
+
+
+{\displaystyle +2=2}
+
+
+The unary + operation does not change the sign of a negative operation:
+
+
+
+
++
+
+
+{\displaystyle +}
+
+
+
+
+
+(
+−
+
+
+{\displaystyle (-}
+
+
+
+
+
+2
+)
+
+
+{\displaystyle 2)}
+
+
+
+
+
+=
+
+
+{\displaystyle =}
+
+ 
+
+
+
+−
+2
+
+
+{\displaystyle -2}
+
+
+In this case, a unary negation is needed to change the sign:
+
+
+
+
+−
+(
+−
+2
+)
+=
++
+2
+
+
+{\displaystyle -(-2)=+2}
+
+
+In trigonometry, the trigonometric functions, such as 
+
+
+
+sin
+
+
+{\displaystyle \sin }
+
+, 
+
+
+
+cos
+
+
+{\displaystyle \cos }
+
+, and 
+
+
+
+tan
+
+
+{\displaystyle \tan }
+
+, can be seen as unary operations. This is because it is possible to provide only one term as input for these functions and retrieve a result. By contrast, binary operations, such as addition, require two different terms to compute a result.
+In JavaScript, these operators are unary:[5]
+In the C family of languages, the following operators are unary:[6][7]
+In the Unix/Linux shell (bash/sh), '$' is a unary operator when used for parameter expansion, replacing the name of a variable by its (sometimes modified) value. For example:
+
+

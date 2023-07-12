@@ -1,0 +1,516 @@
+26003,
+Radian,
+
+The radian, denoted by the symbol rad, is the unit of angle in the International System of Units (SI) and is the standard unit of angular measure used in many areas of mathematics. It is defined such that one radian is the angle subtended at the centre of a circle by an arc that is equal in length to the radius.[1] The unit was formerly an SI supplementary unit and is currently a dimensionless SI derived unit,[1] defined in the SI as 1 rad = 1[2] and expressed in terms of the SI base unit metre (m) as rad = m/m.[3] Angles without explicitly specified units are generally assumed to be measured in radians, especially in mathematical writing.[4]
+One radian is defined as the angle subtended from the center of a circle which intercepts an arc equal in length to the radius of the circle.[5] More generally, the magnitude in radians of a subtended angle is equal to the ratio of the arc length to the radius of the circle; that is, 
+
+
+
+θ
+=
+
+
+s
+r
+
+
+
+
+{\displaystyle \theta ={\frac {s}{r}}}
+
+, where θ is the subtended angle in radians, s is arc length, and r is radius. A right angle is exactly 
+
+
+
+
+
+π
+2
+
+
+
+
+{\displaystyle {\frac {\pi }{2}}}
+
+ radians.[6]
+The rotation angle (360°) corresponding to one complete revolution is the length of the circumference divided by the radius, which is 
+
+
+
+
+
+
+2
+π
+r
+
+r
+
+
+
+
+{\displaystyle {\frac {2\pi r}{r}}}
+
+, or 2π. Thus, 2π radians is equal to 360 degrees.
+The relation 2π rad = 360° can be derived using the formula for arc length, 
+
+
+
+
+ℓ
+
+arc
+
+
+=
+2
+π
+r
+
+(
+
+
+
+θ
+
+360
+
+∘
+
+
+
+
+
+)
+
+
+
+{\textstyle \ell _{\text{arc}}=2\pi r\left({\tfrac {\theta }{360^{\circ }}}\right)}
+
+. Since radian is the measure of an angle that is subtended by an arc of a length equal to the radius of the circle, 
+
+
+
+1
+=
+2
+π
+
+(
+
+
+
+
+1
+
+ rad
+
+
+
+360
+
+∘
+
+
+
+
+
+)
+
+
+
+{\textstyle 1=2\pi \left({\tfrac {1{\text{ rad}}}{360^{\circ }}}\right)}
+
+. This can be further simplified to 
+
+
+
+1
+=
+
+
+
+
+2
+π
+
+ rad
+
+
+
+360
+
+∘
+
+
+
+
+
+
+
+{\textstyle 1={\tfrac {2\pi {\text{ rad}}}{360^{\circ }}}}
+
+. Multiplying both sides by 360° gives 360° = 2π rad.
+The International Bureau of Weights and Measures[6] and International Organization for Standardization[7] specify rad as the symbol for the radian. Alternative symbols that were in use in 1909 are c (the superscript letter c, for "circular measure"), the letter r, or a superscript R,[8] but these variants are infrequently used, as they may be mistaken for a degree symbol (°) or a radius (r). Hence an angle of 1.2 radians would be written today as 1.2 rad; archaic notations could include 1.2 r, 1.2rad, 1.2c, or 1.2R.
+In mathematical writing, the symbol "rad" is often omitted. When quantifying an angle in the absence of any symbol, radians are assumed, and when degrees are meant, the degree sign ° is used.
+Plane angle is defined as θ = s/r, where θ is the subtended angle in radians, s is arc length, and r is radius. One radian corresponds to the angle for which s = r, hence 1 radian = 1 m/m.[9] However, rad is only to be used to express angles, not to express ratios of lengths in general.[6] A similar calculation using the area of a circular sector θ = 2A/r2 gives 1 radian as 1 m2/m2.[10] The key fact is that the radian is a dimensionless unit equal to 1. In SI 2019, the radian is defined accordingly as 1 rad = 1.[11] It is a long-established practice in mathematics and across all areas of science to make use of rad = 1.[3][12] In 1993 the American Association of Physics Teachers Metric Committee specified that the radian should explicitly appear in quantities only when different numerical values would be obtained when other angle measures were used, such as in the quantities of angle measure (rad), angular speed (rad/s), angular acceleration (rad/s2), and torsional stiffness (N⋅m/rad), and not in the quantities of torque (N⋅m) and angular momentum (kg⋅m2/s).[13]
+Giacomo Prando says "the current state of affairs leads inevitably to ghostly appearances and disappearances of the radian in the dimensional analysis of physical equations".[14] For example, an object hanging by a string from a pulley will rise or drop by y = rθ centimeters, where r is the radius of the pulley in centimeters and θ is the angle the pulley turns in radians. When multiplying r by θ the unit of radians disappears from the result. Similarly in the formula for the angular velocity of a rolling wheel, ω = v/r, radians appear in the units of ω but not on the right hand side.[15] Anthony French calls this phenomenon "a perennial problem in the teaching of mechanics".[16] Oberhofer says that the typical advice of ignoring radians during dimensional analysis and adding or removing radians in units according to convention and contextual knowledge is "pedagogically unsatisfying".[17]
+At least a dozen scientists between 1936 and 2022 have made proposals to treat the radian as a base unit of measure defining its own dimension of "angle".[18][19][20] Quincey's review of proposals outlines two classes of proposal. The first option changes the unit of a radius to meters per radian, but this is incompatible with dimensional analysis for the area of a circle, πr2. The other option is to introduce a dimensional constant. According to Quincey this approach is "logically rigorous" compared to SI, but requires "the modification of many familiar mathematical and physical equations".[21]
+In particular, Quincey identifies Torrens' proposal to introduce a constant η equal to 1 inverse radian (1 rad−1) in a fashion similar to the introduction of the constant ε0.[21][a] With this change the formula for the angle subtended at the center of a circle, s = rθ, is modified to become s = ηrθ, and the Taylor series for the sine of an angle θ becomes:[20][22]
+
+
+
+Sin
+⁡
+θ
+=
+
+sin
+
+rad
+
+
+⁡
+(
+η
+θ
+)
+=
+η
+θ
+−
+
+
+
+(
+η
+θ
+
+)
+
+3
+
+
+
+
+3
+!
+
+
+
++
+
+
+
+(
+η
+θ
+
+)
+
+5
+
+
+
+
+5
+!
+
+
+
+−
+
+
+
+(
+η
+θ
+
+)
+
+7
+
+
+
+
+7
+!
+
+
+
++
+⋯
+.
+
+
+{\displaystyle \operatorname {Sin} \theta =\sin _{\text{rad}}(\eta \theta )=\eta \theta -{\frac {(\eta \theta )^{3}}{3!}}+{\frac {(\eta \theta )^{5}}{5!}}-{\frac {(\eta \theta )^{7}}{7!}}+\cdots .}
+
+The capitalized function Sin is the "complete" function that takes an argument with a dimension of angle and is independent of the units expressed,[22] while sinrad is the traditional function on pure numbers which assumes its argument is in radians.[23] 
+
+
+
+Sin
+
+
+{\displaystyle \operatorname {Sin} }
+
+ can be denoted 
+
+
+
+sin
+
+
+{\displaystyle \sin }
+
+ if it is clear that the complete form is meant.[20][24]
+SI can be considered relative to this framework as a natural unit system where the equation η = 1 is assumed to hold, or similarly, 1 rad = 1. This radian convention allows the omission of η in mathematical formulas.[25]
+A dimensional constant for angle is "rather strange" and the difficulty of modifying equations to add the dimensional constant is likely to preclude widespread use.[20] Defining radian as a base unit may be useful for software, where the disadvantage of longer equations is minimal.[26] For example, the Boost units library defines angle units with a plane_angle dimension,[27] and Mathematica's unit system similarly considers angles to have an angle dimension.[28][29]
+As stated, one radian is equal to 
+
+
+
+
+
+180
+
+∘
+
+
+
+
+/
+
+
+π
+
+
+
+{\displaystyle {180^{\circ }}/{\pi }}
+
+. Thus, to convert from radians to degrees, multiply by 
+
+
+
+
+
+180
+
+∘
+
+
+
+
+/
+
+
+π
+
+
+
+{\displaystyle {180^{\circ }}/{\pi }}
+
+.
+For example:
+Conversely, to convert from degrees to radians, multiply by 
+
+
+
+
+π
+
+
+/
+
+
+
+180
+
+∘
+
+
+
+
+
+{\displaystyle {\pi }/{180^{\circ }}}
+
+.
+For example:
+
+
+
+
+
+23
+
+∘
+
+
+=
+
+23
+
+∘
+
+
+⋅
+
+
+π
+
+180
+
+∘
+
+
+
+
+≈
+0.4014
+
+ rad
+
+
+
+{\displaystyle 23^{\circ }=23^{\circ }\cdot {\frac {\pi }{180^{\circ }}}\approx 0.4014{\text{ rad}}}
+
+
+Radians can be converted to turns (one turn is the angle corresponding to a revolution) by dividing the number of radians by 2π.
+
+
+
+
+2
+π
+
+
+{\displaystyle 2\pi }
+
+ radians equals one turn, which is by definition 400 gradians (400 gons or 400g). To convert from radians to gradians multiply by 
+
+
+
+
+200
+
+g
+
+
+
+/
+
+π
+
+
+{\displaystyle 200^{\text{g}}/\pi }
+
+, and to convert from gradians to radians multiply by 
+
+
+
+π
+
+/
+
+
+200
+
+g
+
+
+
+
+{\displaystyle \pi /200^{\text{g}}}
+
+. For example,
+In calculus and most other branches of mathematics beyond practical geometry, angles are measured in radians. This is because radians have a mathematical naturalness that leads to a more elegant formulation of some important results.
+Results in analysis involving trigonometric functions can be elegantly stated when the functions' arguments are expressed in radians. For example, the use of radians leads to the simple limit formula
+which is the basis of many other identities in mathematics, including
+Because of these and other properties, the trigonometric functions appear in solutions to mathematical problems that are not obviously related to the functions' geometrical meanings (for example, the solutions to the differential equation 
+
+
+
+
+
+
+
+
+d
+
+2
+
+
+y
+
+
+d
+
+x
+
+2
+
+
+
+
+
+
+=
+−
+y
+
+
+{\displaystyle {\tfrac {d^{2}y}{dx^{2}}}=-y}
+
+, the evaluation of the integral 
+
+
+
+
+∫
+
+
+
+d
+x
+
+
+1
++
+
+x
+
+2
+
+
+
+
+
+,
+
+
+
+{\displaystyle \textstyle \int {\frac {dx}{1+x^{2}}},}
+
+ and so on). In all such cases, it is found that the arguments to the functions are most naturally written in the form that corresponds, in geometrical contexts, to the radian measurement of angles.
+The trigonometric functions also have simple and elegant series expansions when radians are used. For example, when x is in radians, the Taylor series for sin x becomes:
+If x were expressed in degrees, then the series would contain messy factors involving powers of π/180: if x is the number of degrees, the number of radians is y = πx / 180, so
+In a similar spirit, mathematically important relationships between the sine and cosine functions and the exponential function (see, for example, Euler's formula) can be elegantly stated, when the functions' arguments are in radians (and messy otherwise).
+The radian is widely used in physics when angular measurements are required. For example, angular velocity is typically expressed in the unit radian per second (rad/s). One revolution per second corresponds to 2π radians per second.
+Similarly, the unit used for angular acceleration is often radian per second per second (rad/s2).
+For the purpose of dimensional analysis, the units of angular velocity and angular acceleration are s−1 and s−2 respectively.
+Likewise, the phase difference of two waves can also be expressed using the radian as the unit. For example, if the phase difference of two waves is (n⋅2π) radians with n is an integer, they are considered to be in phase, whilst if the phase difference of two waves is (n⋅2π + π) with n an integer, they are considered to be in antiphase.
+Metric prefixes for submultiples are used with radians. A milliradian (mrad) is a thousandth of a radian (0.001 rad), i.e. 1 rad = 103 mrad. There are 2π × 1000 milliradians (≈ 6283.185 mrad) in a circle. So a milliradian is just under 1/6283 of the angle subtended by a full circle. This unit of angular measurement of a circle is in common use by telescopic sight manufacturers using (stadiametric) rangefinding in reticles. The divergence of laser beams is also usually measured in milliradians.
+The angular mil is an approximation of the milliradian used by NATO and other military organizations in gunnery and targeting. Each angular mil represents 1/6400 of a circle and is 15/8% or 1.875% smaller than the milliradian. For the small angles typically found in targeting work, the convenience of using the number 6400 in calculation outweighs the small mathematical errors it introduces. In the past, other gunnery systems have used different approximations to 1/2000π; for example Sweden used the 1/6300 streck and the USSR used 1/6000. Being based on the milliradian, the NATO mil subtends roughly 1 m at a range of 1000 m (at such small angles, the curvature is negligible).
+Prefixes smaller than milli- are useful in measuring extremely small angles. Microradians (μrad, 10−6 rad) and nanoradians (nrad, 10−9 rad) are used in astronomy, and can also be used to measure the beam quality of lasers with ultra-low divergence. More common is the arc second, which is π/648,000 rad (around 4.8481 microradians).
+The idea of measuring angles by the length of the arc was in use by mathematicians quite early. For example, al-Kashi (c. 1400) used so-called diameter parts as units, where one diameter part was 1/60 radian. They also used sexagesimal subunits of the diameter part.[30] Newton in 1672 spoke of "the angular quantity of a body's circular motion", but used it only as a relative measure to develop an astronomical algorithm.[31]
+The concept of the radian measure is normally credited to Roger Cotes, who died in 1716. By 1722, his cousin Robert Smith had collected and published Cotes' mathematical writings in a book, Harmonia mensurarum.[32] In a chapter of editorial comments, Smith gave what is probably the first published calculation of one radian in degrees, citing a note of Cotes that has not survived. Smith described the radian in everything but name – "Now this number is equal to 180 degrees as the radius of a circle to the semicircumference, this is as 1 to 3.141592653589" –, and recognized its naturalness as a unit of angular measure.[33][34]
+In 1765, Leonhard Euler implicitly adopted the radian as a unit of angle.[31] Specifically, Euler defined angular velocity as "The angular speed in rotational motion is the speed of that point, the distance of which from the axis of gyration is expressed by one."[35] Euler was probably the first to adopt this convention, referred to as the radian convention, which gives the simple formula for angular velocity ω = v/r. As discussed in § Dimensional analysis, the radian convention has been widely adopted, and other conventions have the drawback of requiring a dimensional constant, for example ω = v/(ηr).[25]
+Prior to the term radian becoming widespread, the unit was commonly called circular measure of an angle.[36] The term radian first appeared in print on 5 June 1873, in examination questions set by James Thomson (brother of Lord Kelvin) at Queen's College, Belfast. He had used the term as early as 1871, while in 1869, Thomas Muir, then of the University of St Andrews, vacillated between the terms rad, radial, and radian. In 1874, after a consultation with James Thomson, Muir adopted radian.[37][38][39] The name radian was not universally adopted for some time after this. Longmans' School Trigonometry still called the radian circular measure when published in 1890.[40]
+As Paul Quincey et al. writes, "the status of angles within the International System of Units (SI) has long been a source of controversy and confusion."[41] In 1960, the CGPM established the SI and the radian was classified as a "supplementary unit" along with the steradian. This special class was officially regarded "either as base units or as derived units", as the CGPM could not reach a decision on whether the radian was a base unit or a derived unit.[42] Richard Nelson writes "This ambiguity [in the classification of the supplemental units] prompted a spirited discussion over their proper interpretation."[43] In May 1980 the Consultative Committee for Units (CCU) considered a proposal for making radians an SI base unit, using a constant α0 = 1 rad,[44][25] but turned it down to avoid an upheaval to current practice.[25]
+In October 1980 the CGPM decided that supplementary units were dimensionless derived units for which the CGPM allowed the freedom of using them or not using them in expressions for SI derived units,[43] on the basis that "[no formalism] exists which is at the same time coherent and convenient and in which the quantities plane angle and solid angle might be considered as base quantities" and that "[the possibility of treating the radian and steradian as SI base units] compromises the internal coherence of the SI based on only seven base units".[45] In 1995 the CGPM eliminated the class of supplementary units and defined the radian and the steradian as "dimensionless derived units, the names and symbols of which may, but need not, be used in expressions for other SI derived units, as is convenient".[46] Mikhail Kalinin writing in 2019 has criticized the 1980 CGPM decision as "unfounded" and says that the 1995 CGPM decision used inconsistent arguments and introduced "numerous discrepancies, inconsistencies, and contradictions in the wordings of the SI".[47]
+At the 2013 meeting of the CCU, Peter Mohr gave a presentation on alleged inconsistencies arising from defining the radian as a dimensionless unit rather than a base unit. CCU President Ian M. Mills declared this to be a "formidable problem" and the CCU Working Group on Angles and Dimensionless Quantities in the SI was established.[48] The CCU met most recently in 2021,[update] but did not reach a consensus. A small number of members argued strongly that the radian should be a base unit, but the majority felt the status quo was acceptable or that the change would cause more problems than it would solve. A task group was established to "review the historical use of SI supplementary units and consider whether reintroduction would be of benefit", among other activities.[49][50]
+
+
+
+Information box
+{'Unit system': 'SI', 'Unit of': 'angle', 'Symbol': 'rad', '   milliradians': '   1000 mrad', '   turns': '   1\n/\n2π\nturn', '   degrees': '   180\n/\nπ\n° ≈ 57.296°', '   gradians': '   200\n/\nπ\n grad ≈ 63.662g'}

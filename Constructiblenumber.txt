@@ -1,0 +1,506 @@
+7439,
+Constructiblenumber,
+In geometry and algebra, a real number 
+r
+{\displaystyle r}
+ is constructible if and only if, given a line segment of unit length, a line segment of length 
+|
+r
+|
+{\displaystyle |r|}
+ can be constructed with compass and straightedge in a finite number of steps. Equivalently, 
+r
+{\displaystyle r}
+ is constructible if and only if there is a closed-form expression for 
+r
+{\displaystyle r}
+ using only integers and the operations for addition, subtraction, multiplication, division, and square roots.
+The geometric definition of constructible numbers motivates a corresponding definition of constructible points, which can again be described either geometrically or algebraically. A point is constructible if it can be produced as one of the points of a compass and straight edge construction (an endpoint of a line segment or crossing point of two lines or circles), starting from a given unit length segment. Alternatively and equivalently, taking the two endpoints of the given segment to be the points (0, 0) and (1, 0) of a Cartesian coordinate system, a point is constructible if and only if its Cartesian coordinates are both constructible numbers.[1]  Constructible numbers and points have also been called ruler and compass numbers and ruler and compass points, to distinguish them from numbers and points that may be constructed using other processes.[2]
+The set of constructible numbers forms a field: applying any of the four basic arithmetic operations to members of this set produces another constructible number. This field is a field extension of the rational numbers and in turn is contained in the field of algebraic numbers.[3] It is the Euclidean closure of the rational numbers, the smallest field extension of the rationals that includes the square roots of all of its positive numbers.[4]
+The proof of the equivalence between the algebraic and geometric definitions of constructible numbers has the effect of transforming geometric questions about compass and straightedge constructions into algebra, including several famous problems from ancient Greek mathematics. The algebraic formulation of these questions led to proofs that their solutions are not constructible, after the geometric formulation of the same problems previously defied centuries of attack.
+Let 
+O
+{\displaystyle O}
+ and 
+A
+{\displaystyle A}
+ be two given distinct points in the Euclidean plane, and define 
+S
+{\displaystyle S}
+ to be the set of points that can be constructed with compass and straightedge starting with 
+O
+{\displaystyle O}
+ and 
+A
+{\displaystyle A}
+. Then the points of 
+S
+{\displaystyle S}
+ are called constructible points. 
+O
+{\displaystyle O}
+ and 
+A
+{\displaystyle A}
+ are, by definition, elements of 
+S
+{\displaystyle S}
+. To more precisely describe the remaining elements of 
+S
+{\displaystyle S}
+, make the following two definitions:[5]
+Then, the points of 
+S
+{\displaystyle S}
+, besides 
+O
+{\displaystyle O}
+ and 
+A
+{\displaystyle A}
+ are:[5][6]
+As an example, the midpoint of constructed segment 
+O
+A
+{\displaystyle OA}
+ is a constructible point. One construction for it is to construct two circles with 
+O
+A
+{\displaystyle OA}
+ as radius, and the line through the two crossing points of these two circles. Then the midpoint of segment 
+O
+A
+{\displaystyle OA}
+ is the point where this segment is crossed by the constructed line.[7]
+The starting information for the geometric formulation can be used to define a Cartesian coordinate system in which the point 
+O
+{\displaystyle O}
+ is associated to the origin having coordinates 
+(
+0
+,
+0
+)
+{\displaystyle (0,0)}
+ and in which the point 
+A
+{\displaystyle A}
+ is associated with the coordinates 
+(
+1
+,
+0
+)
+{\displaystyle (1,0)}
+. The points of 
+S
+{\displaystyle S}
+ may now be used to link the geometry and algebra by defining a constructible number to be a coordinate of a constructible point.[8]
+Equivalent definitions are that a constructible number is the 
+x
+{\displaystyle x}
+-coordinate of a constructible point 
+(
+x
+,
+0
+)
+{\displaystyle (x,0)}
+[6] or the length of a constructible line segment.[9] In one direction of this equivalence, if a constructible point has coordinates 
+(
+x
+,
+y
+)
+{\displaystyle (x,y)}
+, then the point 
+(
+x
+,
+0
+)
+{\displaystyle (x,0)}
+ can be constructed as its perpendicular projection onto the 
+x
+{\displaystyle x}
+-axis, and the segment from the origin to this point has length 
+x
+{\displaystyle x}
+. In the reverse direction, if 
+x
+{\displaystyle x}
+ is the length of a constructible line segment, then intersecting the 
+x
+{\displaystyle x}
+-axis with a circle centered at 
+O
+{\displaystyle O}
+ with radius 
+x
+{\displaystyle x}
+ gives the point 
+(
+x
+,
+0
+)
+{\displaystyle (x,0)}
+. It follows from this equivalence that every point whose Cartesian coordinates are geometrically constructible numbers is itself a geometrically constructible point. For, when 
+x
+{\displaystyle x}
+ and 
+y
+{\displaystyle y}
+ are geometrically constructible numbers, point 
+(
+x
+,
+y
+)
+{\displaystyle (x,y)}
+ can be constructed as the intersection of lines through 
+(
+x
+,
+0
+)
+{\displaystyle (x,0)}
+ and 
+(
+0
+,
+y
+)
+{\displaystyle (0,y)}
+, perpendicular to the coordinate axes.[10]
+The algebraically constructible real numbers are the subset of the real numbers that can be described by formulas that combine integers using the operations of addition, subtraction, multiplication, multiplicative inverse, and square roots of positive numbers. Even more simply, at the expense of making these formulas longer, the integers in these formulas can be restricted to be only 0 and 1.[11] For instance, the square root of 2 is constructible, because it can be described by the formulas 
+2
+{\displaystyle {\sqrt {2}}}
+ or 
+1
++
+1
+{\displaystyle {\sqrt {1+1}}}
+.
+Analogously, the algebraically constructible complex numbers are the subset of complex numbers that have formulas of the same type, using a more general version of the square root that is not restricted to positive numbers but can instead take arbitrary complex numbers as its argument, and produces the principal square root of its argument. Alternatively, the same system of complex numbers may be defined as the complex numbers whose real and imaginary parts are both constructible real numbers.[12] For instance, the complex number 
+i
+{\displaystyle i}
+ has the formulas 
+−
+1
+{\displaystyle {\sqrt {-1}}}
+ or 
+0
+−
+1
+{\displaystyle {\sqrt {0-1}}}
+, and its real and imaginary parts are the constructible numbers 0 and 1 respectively.
+These two definitions of the constructible complex numbers are equivalent.[13] In one direction, if 
+q
+=
+x
++
+i
+y
+{\displaystyle q=x+iy}
+ is a complex number whose real part 
+x
+{\displaystyle x}
+ and imaginary part 
+y
+{\displaystyle y}
+ are both constructible real numbers, then replacing 
+x
+{\displaystyle x}
+ and 
+y
+{\displaystyle y}
+ by their formulas within the larger formula 
+x
++
+y
+−
+1
+{\displaystyle x+y{\sqrt {-1}}}
+ produces a formula for 
+q
+{\displaystyle q}
+ as a complex number. In the other direction, any formula for an algebraically constructible complex number can be transformed into formulas for its real and imaginary parts, by recursively expanding each operation in the formula into operations on the real and imaginary parts of its arguments, using the expansions[14]
+The algebraically constructible points may be defined as the points whose two real Cartesian coordinates are both algebraically constructible real numbers. Alternatively, they may be defined as the points in the complex plane given by algebraically constructible complex numbers. By the equivalence between the two definitions for algebraically constructible complex numbers, these two definitions of algebraically constructible points are also equivalent.[13]
+If 
+a
+{\displaystyle a}
+ and 
+b
+{\displaystyle b}
+ are the non-zero lengths of geometrically constructed segments then elementary compass and straightedge constructions can be used to obtain constructed segments of lengths 
+a
++
+b
+{\displaystyle a+b}
+, 
+|
+a
+−
+b
+|
+{\displaystyle |a-b|}
+, 
+a
+b
+{\displaystyle ab}
+, and 
+a
+/
+b
+{\displaystyle a/b}
+. The latter two can be done with a construction based on the intercept theorem. A slightly less elementary construction using these tools is based on the geometric mean theorem and will construct a segment of length 
+a
+{\displaystyle {\sqrt {a}}}
+ from a constructed segment of length 
+a
+{\displaystyle a}
+. It follows that every algebraically constructible number is geometrically constructible, by using these techniques to translate a formula for the number into a construction for the number.[15]
+In the other direction, a set of geometric objects may be specified by algebraically constructible real numbers: coordinates for points, slope and 
+y
+{\displaystyle y}
+-intercept for lines, and center and radius for circles. It is possible (but tedious) to develop formulas in terms of these values, using only arithmetic and square roots, for each additional object that might be added in a single step of a compass-and-straightedge construction. It follows from these formulas that every geometrically constructible number is algebraically constructible.[16]
+The definition of algebraically constructible numbers includes the sum, difference, product, and multiplicative inverse of any of these numbers, the same operations that define a field in abstract algebra. Thus, the constructible numbers (defined in any of the above ways) form a field. More specifically, the constructible real numbers form a Euclidean field, an ordered field containing a square root of each of its positive elements.[17] Examining the properties of this field and its subfields leads to necessary conditions on a number to be constructible, that can be used to show that specific numbers arising in classical geometric construction problems are not constructible.
+It is convenient to consider, in place of the whole field of constructible numbers, the subfield 
+Q
+(
+γ
+)
+{\displaystyle \mathbb {Q} (\gamma )}
+ generated by any given constructible number 
+γ
+{\displaystyle \gamma }
+, and to use the algebraic construction of 
+γ
+{\displaystyle \gamma }
+ to decompose this field. If 
+γ
+{\displaystyle \gamma }
+ is a constructible real number, then the values occurring within a formula constructing it can be used to produce a finite sequence of real numbers 
+α
+1
+,
+…
+,
+a
+n
+=
+γ
+{\displaystyle \alpha _{1},\dots ,a_{n}=\gamma }
+ such that, for each 
+i
+{\displaystyle i}
+, 
+Q
+(
+α
+1
+,
+…
+,
+a
+i
+)
+{\displaystyle \mathbb {Q} (\alpha _{1},\dots ,a_{i})}
+ is an extension of 
+Q
+(
+α
+1
+,
+…
+,
+a
+i
+−
+1
+)
+{\displaystyle \mathbb {Q} (\alpha _{1},\dots ,a_{i-1})}
+ of degree 2.[18]  Using slightly different terminology, a real number is constructible if and only if it lies in a field at the top of a finite tower of real quadratic extensions,
+Q
+=
+K
+0
+⊆
+K
+1
+⊆
+⋯
+⊆
+K
+n
+,
+{\displaystyle \mathbb {Q} =K_{0}\subseteq K_{1}\subseteq \dots \subseteq K_{n},}
+starting with the rational field 
+Q
+{\displaystyle \mathbb {Q} }
+ where 
+γ
+{\displaystyle \gamma }
+ is in 
+K
+n
+{\displaystyle K_{n}}
+ and for all 
+0
+<
+j
+≤
+n
+{\displaystyle 0<j\leq n}
+, 
+[
+K
+j
+:
+K
+j
+−
+1
+]
+=
+2
+{\displaystyle [K_{j}:K_{j-1}]=2}
+.[19] It follows from this decomposition that the degree of the field extension 
+[
+Q
+(
+γ
+)
+:
+Q
+]
+{\displaystyle [\mathbb {Q} (\gamma ):\mathbb {Q} ]}
+ is 
+2
+r
+{\displaystyle 2^{r}}
+, where 
+r
+{\displaystyle r}
+ counts the number of quadratic extension steps.[20]
+Analogously to the real case, a complex number is constructible if and only if it lies in a field at the top of a finite tower of complex quadratic extensions.[21] More precisely, 
+γ
+{\displaystyle \gamma }
+ is constructible if and only if there exists a tower of fields
+Q
+=
+F
+0
+⊆
+F
+1
+⊆
+⋯
+⊆
+F
+n
+,
+{\displaystyle \mathbb {Q} =F_{0}\subseteq F_{1}\subseteq \dots \subseteq F_{n},}
+where 
+γ
+{\displaystyle \gamma }
+ is in 
+F
+n
+{\displaystyle F_{n}}
+, and for all 
+0
+<
+j
+≤
+n
+{\displaystyle 0<j\leq n}
+, 
+[
+F
+j
+:
+F
+j
+−
+1
+]
+=
+2
+{\displaystyle [F_{j}:F_{j-1}]=2}
+. The difference between this characterization and that of the real constructible numbers is only that the fields in this tower are not restricted to being real. Consequently, if a complex number 
+γ
+{\displaystyle \gamma }
+ is constructible, then 
+[
+Q
+(
+γ
+)
+:
+Q
+]
+{\displaystyle [\mathbb {Q} (\gamma ):\mathbb {Q} ]}
+ is a power of two. However, this necessary condition is not sufficient: there exist field extensions whose degree is a power of two that cannot be factored into a sequence of quadratic extensions.[22]
+The fields that can be generated in this way from towers of quadratic extensions of 
+Q
+{\displaystyle \mathbb {Q} }
+ are called iterated quadratic extensions of 
+Q
+{\displaystyle \mathbb {Q} }
+. The fields of real and complex constructible numbers are the unions of all real or complex iterated quadratic extensions of 
+Q
+{\displaystyle \mathbb {Q} }
+.[23]
+Trigonometric numbers are the cosines or sines of angles that are rational multiples of 
+π
+{\displaystyle \pi }
+. These numbers are always algebraic, but they may not be constructible. The cosine or sine of the angle 
+2
+π
+/
+n
+{\displaystyle 2\pi /n}
+ is constructible only for certain special numbers 
+n
+{\displaystyle n}
+:[24]
+Thus, for example, 
+cos
+⁡
+(
+π
+/
+15
+)
+{\displaystyle \cos(\pi /15)}
+ is constructible because 15 is the product of two Fermat primes, 3 and 5.
+The ancient Greeks thought that certain problems of straightedge and compass construction they could not solve were simply obstinate, not unsolvable.[25]  However, the non-constructibility of certain numbers proves that these constructions are logically impossible to perform.[26] (The problems themselves, however, are solvable using methods that go beyond the constraint of working only with straightedge and compass, and the Greeks knew how to solve them in this way. One such example is Archimedes' Neusis construction solution of the problem of Angle trisection.)[27]
+In particular, the algebraic formulation of constructible numbers leads to a proof of the impossibility of the following construction problems:
+The birth of the concept of constructible numbers is inextricably linked with the history of the three impossible compass and straightedge constructions: doubling the cube, trisecting an angle, and squaring the circle. The restriction of using only compass and straightedge in geometric constructions is often credited to Plato due to a passage in Plutarch. According to Plutarch, Plato gave the duplication of the cube (Delian) problem to Eudoxus and Archytas and Menaechmus, who solved the problem using mechanical means, earning a rebuke from Plato for not solving the problem using pure geometry.[35] However, this attribution is challenged,[36] due, in part, to the existence of another version of the story (attributed to Eratosthenes by Eutocius of Ascalon) that says that all three found solutions but they were too abstract to be of practical value.[37] Proclus, citing Eudemus of Rhodes, credited Oenopides (circa 450 BCE) with two ruler and compass constructions, leading some authors to hypothesize that Oenopides originated the restriction.[38] The restriction to compass and straightedge is essential to the impossibility of the classic construction problems. Angle trisection, for instance, can be done in many ways, several known to the ancient Greeks. The Quadratrix of Hippias of Elis, the conics of Menaechmus, or the marked straightedge (neusis) construction of Archimedes have all been used, as has a more modern approach via paper folding.[39]
+Although not one of the classic three construction problems, the problem of constructing regular polygons with straightedge and compass is often treated alongside them. The Greeks knew how to construct regular 
+n
+{\displaystyle n}
+-gons with 
+n
+=
+2
+h
+{\displaystyle n=2^{h}}
+ (for any integer 
+h
+≥
+2
+{\displaystyle h\geq 2}
+), 3, 5, or the product of any two or three of these numbers, but other regular 
+n
+{\displaystyle n}
+-gons eluded them. In 1796 Carl Friedrich Gauss, then an eighteen-year-old student, announced in a newspaper that he had constructed a regular 17-gon with straightedge and compass.[40] Gauss's treatment was algebraic rather than geometric; in fact, he did not actually construct the polygon, but rather showed that the cosine of a central angle was a constructible number. The argument was generalized in his 1801 book Disquisitiones Arithmeticae giving the sufficient condition for the construction of a regular 
+n
+{\displaystyle n}
+-gon. Gauss claimed, but did not prove, that the condition was also necessary and several authors, notably Felix Klein,[41] attributed this part of the proof to him as well.[42] Alhazen's problem is also not one of the classic three problems, but despite being named after Ibn al-Haytham (Alhazen), a medieval Islamic mathematician, it already appear's in Ptolemy's work on optics from the second century.[20]
+Pierre Wantzel (1837) proved algebraically that the problems of doubling the cube and trisecting the angle
+are impossible to solve if one uses only compass and straightedge. In the same paper he also solved the problem of determining which regular polygons are constructible:
+a regular polygon is constructible if and only if the number of its sides is the product of a power of two and any number of distinct Fermat primes (i.e., the sufficient conditions given by Gauss are also necessary).[24][43] An attempted proof of the impossibility of squaring the circle was given by James Gregory in Vera Circuli et Hyperbolae Quadratura (The True Squaring of the Circle and of the Hyperbola) in 1667. Although his proof was faulty, it was the first paper to attempt to solve the problem using algebraic properties of π. It was not until 1882 that Ferdinand von Lindemann rigorously proved its impossibility, by extending the work of Charles Hermite and proving that π is a transcendental number.[44][45] Alhazen's problem was not proved impossible to solve by compass and straightedge until the work of Elkin (1965).[46]
+The study of constructible numbers, per se, was initiated by René Descartes in La Géométrie, an appendix to his book Discourse on the Method published in 1637. Descartes associated numbers to geometrical line segments in order to display the power of his philosophical method by solving an ancient straightedge and compass construction problem put forth by Pappus.[47]

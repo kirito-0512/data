@@ -1,0 +1,135 @@
+25339,
+Namesoflargenumbers,
+
+Two naming scales for large numbers have been used in English and other European languages since the early modern era: the long and short scales. Most English variants use the short scale today, but the long scale remains dominant in many non-English-speaking areas, including continental Europe and Spanish-speaking countries in Latin America. These naming procedures are based on taking the number n occurring in 103n+3 (short scale) or 106n (long scale) and concatenating Latin roots for its units, tens, and hundreds place, together with the suffix -illion.
+Names of numbers above a trillion are rarely used in practice; such large numbers have practical usage primarily in the scientific domain, where powers of ten are expressed as 10 with a numeric superscript. However, these somewhat rare names are considered acceptable for approximate statements. For example, the statement "There are approximately 7.1 octillion atoms in an adult human body" is understood to be in short scale of the table below (and is only accurate if referring to short scale rather than long scale). 
+Indian English does not use millions, but has its own system of large numbers including lakhs and crores.[1] English also has many words, such as "zillion", used informally to mean large but unspecified amounts; see indefinite and fictitious numbers.
+Usage:
+Apart from million, the words in this list ending with -illion are all derived by adding prefixes (bi-, tri-, etc., derived from Latin) to the stem -illion.[11] Centillion[12] appears to be the highest name ending in -"illion" that is included in these dictionaries. Trigintillion, often cited as a word in discussions of names of large numbers, is not included in any of them, nor are any of the names that can easily be created by extending the naming pattern (unvigintillion, duovigintillion, duo­quinqua­gint­illion, etc.).
+All of the dictionaries included googol and googolplex, generally crediting it to the Kasner and Newman book and to Kasner's nephew (see below). None include any higher names in the googol family (googolduplex, etc.). The Oxford English Dictionary comments that googol and googolplex are "not in formal mathematical use".
+Some names of large numbers, such as million, billion, and trillion, have real referents in human experience, and are encountered in many contexts. At times, the names of large numbers have been forced into common usage as a result of hyperinflation. The highest numerical value banknote ever printed was a note for 1 sextillion pengő (1021 or 1 milliard bilpengő as printed) printed in Hungary in 1946. In 2009, Zimbabwe printed a 100 trillion (1014) Zimbabwean dollar note, which at the time of printing was worth about US$30.[13]
+Names of larger numbers, however, have a tenuous, artificial existence, rarely found outside definitions, lists, and discussions of how large numbers are named. Even well-established names like sextillion are rarely used, since in the context of science, including astronomy, where such large numbers often occur, they are nearly always written using scientific notation. In this notation, powers of ten are expressed as 10 with a numeric superscript, e.g. "The X-ray emission of the radio galaxy is 1.3×1045 joules." When a number such as 1045 needs to be referred to in words, it is simply read out as "ten to the forty-fifth". This is easier to say and less ambiguous than "quattuordecillion", which means something different in the long scale and the short scale.
+When a number represents a quantity rather than a count, SI prefixes can be used—thus "femtosecond", not "one quadrillionth of a second"—although often powers of ten are used instead of some of the very high and very low prefixes. In some cases, specialized units are used, such as the astronomer's parsec and light year or the particle physicist's barn.
+Nevertheless, large numbers have an intellectual fascination and are of mathematical interest, and giving them names is one way people try to conceptualize and understand them.
+One of the earliest examples of this is The Sand Reckoner, in which Archimedes gave a system for naming large numbers. To do this, he called the numbers up to a myriad myriad (108) "first numbers" and called 108 itself the "unit of the second numbers". Multiples of this unit then became the second numbers, up to this unit taken a myriad myriad times, 108·108=1016. This became the "unit of the third numbers", whose multiples were the third numbers, and so on. Archimedes continued naming numbers in this way up to a myriad myriad times the unit of the 108-th numbers, i.e. 
+
+
+(
+
+10
+
+8
+
+
+
+)
+
+(
+
+10
+
+8
+
+
+)
+
+
+=
+
+10
+
+8
+⋅
+
+10
+
+8
+
+
+
+
+,
+
+(10^{8})^{(10^{8})}=10^{8\cdot 10^{8}},
+
+ and embedded this construction within another copy of itself to produce names for numbers up to 
+
+
+
+(
+(
+
+10
+
+8
+
+
+
+)
+
+(
+
+10
+
+8
+
+
+)
+
+
+
+)
+
+(
+
+10
+
+8
+
+
+)
+
+
+=
+
+10
+
+8
+⋅
+
+10
+
+16
+
+
+
+
+.
+
+
+{\displaystyle ((10^{8})^{(10^{8})})^{(10^{8})}=10^{8\cdot 10^{16}}.}
+
+ Archimedes then estimated the number of grains of sand that would be required to fill the known universe, and found that it was no more than "one thousand myriad of the eighth numbers" (1063).
+Since then, many others have engaged in the pursuit of conceptualizing and naming numbers that have no existence outside the imagination. One motivation for such a pursuit is that attributed to the inventor of the word googol, who was certain that any finite number "had to have a name". Another possible motivation is competition between students in computer programming courses, where a common exercise is that of writing a program to output numbers in the form of English words.[citation needed]
+Most names proposed for large numbers belong to systematic schemes which are extensible. Thus, many names for large numbers are simply the result of following a naming system to its logical conclusion—or extending it further.[citation needed]
+The words bymillion and trimillion were first recorded in 1475 in a manuscript of Jehan Adam. Subsequently, Nicolas Chuquet wrote a book Triparty en la science des nombres which was not published during Chuquet's lifetime. However, most of it was copied by Estienne de La Roche for a portion of his 1520 book, L'arismetique. Chuquet's book contains a passage in which he shows a large number marked off into groups of six digits, with the comment:
+Ou qui veult le premier point peult signiffier million Le second point byllion Le tiers point tryllion Le quart quadrillion Le cinqe quyllion Le sixe sixlion Le sept.e septyllion Le huyte ottyllion Le neufe nonyllion et ainsi des ault's se plus oultre on vouloit preceder
+(Or if you prefer the first mark can signify million, the second mark byllion, the third mark tryllion, the fourth quadrillion, the fifth quyillion, the sixth sixlion, the seventh septyllion, the eighth ottyllion, the ninth nonyllion and so on with others as far as you wish to go).
+Adam and Chuquet used the long scale of powers of a million; that is, Adam's bymillion (Chuquet's byllion) denoted 1012, and Adam's trimillion (Chuquet's tryllion) denoted 1018.
+The names googol and googolplex were invented by Edward Kasner's nephew Milton Sirotta and introduced in Kasner and Newman's 1940 book Mathematics and the Imagination[14] in the following passage:
+The name "googol" was invented by a child (Dr. Kasner's nine-year-old nephew) who was asked to think up a name for a very big number, namely 1 with one hundred zeroes after it. He was very certain that this number was not infinite, and therefore equally certain that it had to have a name. At the same time that he suggested "googol" he gave a name for a still larger number: "googolplex." A googolplex is much larger than a googol, but is still finite, as the inventor of the name was quick to point out. It was first suggested that a googolplex should be 1, followed by writing zeros until you got tired. This is a description of what would happen if one tried to write a googolplex, but different people get tired at different times and it would never do to have Carnera a better mathematician than Dr. Einstein, simply because he had more endurance. The googolplex is, then, a specific finite number, equal to 1 with a googol zeros after it.John Horton Conway and Richard K. Guy[15]  have suggested that N-plex be used as a name for 10N. This gives rise to the name googolplexplex for 10googolplex = 101010100. Conway and Guy[15] have proposed that N-minex be used as a name for 10−N, giving rise to the name googolminex for the reciprocal of a googolplex, which is written as 10-(10100). None of these names are in wide use.
+The names googol and googolplex inspired the name of the Internet company Google and its corporate headquarters, the Googleplex, respectively.
+This section illustrates several systems for naming large numbers, and shows how they can be extended past vigintillion.
+Traditional British usage assigned new names for each power of one million (the long scale): 1,000,000 = 1 million; 1,000,0002 = 1 billion; 1,000,0003 = 1 trillion; and so on. It was adapted from French usage, and is similar to the system that was documented or invented by Chuquet.
+Traditional American usage (which was also adapted from French usage but at a later date), Canadian, and modern British usage assign new names for each power of one thousand (the short scale.) Thus, a billion is 1000 × 10002 = 109; a trillion is 1000 × 10003 = 1012; and so forth. Due to its dominance in the financial world (and by the US dollar), this was adopted for official United Nations documents.
+Traditional French usage has varied; in 1948, France, which had originally popularized the short scale worldwide, reverted to the long scale.
+The term milliard is unambiguous and always means 109. It is seldom seen in American usage and rarely in British usage, but frequently in continental European usage. The term is sometimes attributed to French mathematician Jacques Peletier du Mans circa 1550 (for this reason, the long scale is also known as the Chuquet-Peletier system), but the Oxford English Dictionary states that the term derives from post-Classical Latin term milliartum, which became milliare and then milliart and finally our modern term.
+Concerning names ending in -illiard for numbers 106n+3, milliard is certainly in widespread use in languages other than English, but the degree of actual use of the larger terms is questionable. The terms "Milliarde" in German, "miljard" in Dutch, "milyar" in Turkish, and "миллиард," milliard (transliterated) in Russian, are standard usage when discussing financial topics.
+For additional details, see billion and long and short scale.
+The naming procedure for large numbers is based on taking the number n occurring in 103n+3 (short scale) or 106n (long scale) and concatenating Latin roots for its units, tens, and hundreds place, together with the suffix -illion. In this way, numbers up to 103·999+3 = 103000 (short scale) or 106·999 = 105994 (long scale) may be named. The choice of roots and the concatenation procedure is that of the standard dictionary numbers if n is 9 or smaller. For larger n (between 10 and 999), prefixes can be constructed based on a system described by Conway and Guy.[15] Today, sexdecillion and novemdecillion are standard dictionary numbers and, using the same reasoning as Conway and Guy did for the numbers up to nonillion, could probably be used to form acceptable prefixes. The Conway–Guy system for forming prefixes:
+Since the system of using Latin prefixes will become ambiguous for numbers with exponents of a size which the Romans rarely counted to, like 106,000,258, Conway and Guy co-devised with Allan Wechsler the following set of consistent conventions that permit, in principle, the extension of this system indefinitely to provide English short-scale names for any integer whatsoever.[15] The name of a number 103n+3, where n is greater than or equal to 1000, is formed by concatenating the names of the numbers of the form 103m+3, where m represents each group of comma-separated digits of n, with each but the last "-illion" trimmed to "-illi-", or, in the case of m = 0, either "-nilli-" or "-nillion".[15] For example, 103,000,012, the 1,000,003rd "-illion" number, equals one "millinillitrillion"; 1033,002,010,111, the 11,000,670,036th "-illion" number, equals one "undecillinilli­septua­ginta­ses­centilli­sestrigint­illion"; and 1029,629,629,633, the 9,876,543,210th "-illion" number, equals one "nonillise­septua­ginta­octingentillitres­quadra­ginta­quingentillideciducent­illion".[15]
+The following table shows number names generated by the system described by Conway and Guy for the short and long scales.[16]
+The International System of Quantities (ISQ) defines a series of prefixes denoting integer powers of 1024 between 10241 and 10248.[18]
+
+
+

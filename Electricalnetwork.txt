@@ -1,0 +1,41 @@
+9559,
+Electricalnetwork,
+An electrical network is an interconnection of electrical components (e.g., batteries, resistors, inductors, capacitors, switches, transistors) or a model of such an interconnection, consisting of electrical elements (e.g., voltage sources, current sources, resistances, inductances, capacitances). An electrical circuit is a network consisting of a closed loop, giving a return path for the current. Thus all circuits are networks, but not all networks are circuits (although networks without a closed loop are often imprecisely referred to as "circuits"). Linear electrical networks, a special type consisting only of sources (voltage or current), linear lumped elements (resistors, capacitors, inductors), and linear distributed elements (transmission lines), have the property that signals are linearly superimposable.  They are thus more easily analyzed, using powerful frequency domain methods such as Laplace transforms, to determine DC response, AC response, and transient response.
+A resistive network is a network containing only resistors and ideal current and voltage sources. Analysis of resistive networks is less complicated than analysis of networks containing capacitors and inductors. If the sources are constant (DC) sources, the result is a DC network. The effective resistance and current distribution properties of arbitrary resistor networks can be modeled in terms of their graph measures and geometrical properties.[1]
+A network that contains active electronic components is known as an electronic circuit. Such networks are generally nonlinear and require more complex design and analysis tools.
+An active network contains at least one voltage source or current source that can supply energy to the network indefinitely. A passive network  does not contain an active source.
+An active network contains one or more sources of electromotive force. Practical examples of such sources include a battery or a generator. Active elements can inject power to the circuit, provide power gain, and control the current flow within the circuit.
+Passive networks do not contain any sources of electromotive force. They consist of passive elements like resistors and capacitors.
+A network is linear if its signals obey the principle of superposition; otherwise it is non-linear.  Passive networks are generally taken to be linear, but there are exceptions.  For instance, an inductor with an iron core can be driven into saturation if driven with a large enough current.  In this region, the behaviour of the inductor is very non-linear.
+Discrete passive components (resistors, capacitors and inductors) are called lumped elements because all of their, respectively, resistance, capacitance and inductance is assumed to be located ("lumped") at one place.  This design philosophy is called the lumped-element model and networks so designed are called lumped-element circuits.  This is the conventional approach to circuit design.  At high enough frequencies, or for long enough circuits (such as power transmission lines), the lumped assumption no longer holds because there is a significant fraction of a wavelength across the component dimensions.  A new design model is needed for such cases called the distributed-element model.  Networks designed to this model are called distributed-element circuits.
+A distributed-element circuit that includes some lumped components is called a semi-lumped design.  An example of a semi-lumped circuit is the combline filter.
+Sources can be classified as independent sources and dependent sources.
+An ideal independent source maintains the same voltage or current regardless of the other elements present in the circuit. Its value is either constant (DC) or sinusoidal (AC). The strength of voltage or current is not changed by any variation in the connected network.
+Dependent sources depend upon a particular element of the circuit for delivering the power or voltage or current depending upon the type of source it is.
+A number of electrical laws apply to all linear resistive networks. These include:
+Applying these laws results in a set of simultaneous equations that can be solved either algebraically or numerically.  The laws can generally be extended to networks containing reactances.  They cannot be used in networks that contain nonlinear or time-varying components.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To design any electrical circuit, either analog or digital, electrical engineers need to be able to predict the voltages and currents at all places within the circuit.  Simple linear circuits can be analyzed by hand using complex number theory. In more complex cases the circuit may be analyzed with specialized computer programs or estimation techniques such as the piecewise-linear model.
+Circuit simulation software, such as HSPICE (an analog circuit simulator),[2] and languages such as VHDL-AMS and verilog-AMS allow engineers to design circuits without the time, cost and risk of error involved in building circuit prototypes.
+More complex circuits can be analyzed numerically with software such as SPICE or GNUCAP, or symbolically using software such as SapWin.
+When faced with a new circuit, the software first tries to find a steady state solution, that is, one where all nodes conform to Kirchhoff's current law and the voltages across and through each element of the circuit conform to the voltage/current equations governing that element.
+Once the steady state solution is found, the operating points of each element in the circuit are known.  For a small signal analysis, every non-linear element can be linearized around its operation point to obtain the small-signal estimate of the voltages and currents.  This is an application of Ohm's Law.  The resulting linear circuit matrix can be solved with Gaussian elimination.
+Software such as the PLECS interface to Simulink uses piecewise-linear approximation of the equations governing the elements of a circuit.  The circuit is treated as a completely linear network of ideal diodes.  Every time a diode switches from on to off or vice versa, the configuration of the linear network changes.  Adding more detail to the approximation of equations increases the accuracy of the simulation, but also increases its running time.
+
+

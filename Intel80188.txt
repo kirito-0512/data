@@ -1,0 +1,12 @@
+15221,
+Intel80188,
+The Intel 80188 microprocessor was a variant of the Intel 80186. The 80188 had an 8-bit external data bus instead of the 16-bit bus of the 80186; this made it less expensive to connect to peripherals. The 16-bit registers and the one megabyte address range were unchanged, however. It had a throughput of 1 million instructions per second.[4]  Intel second sourced this microprocessor to Fujitsu Limited around 1985.[5]  Both packages of Intel 80188 version were available in 68-pin PLCC and PGA in sampling at third quarter of 1985.[6]
+The 80188 series was generally intended for embedded systems, as microcontrollers with external memory. Therefore, to reduce the number of chips required, it included features such as clock generator, interrupt controller, timers, wait state generator, DMA channels, and external chip select lines.
+While the N80188 was compatible with the 8087 numeric co-processor, the 80C188 was not. It did not have the ESC control codes integrated.
+The initial clock rate of the 80188 was 6 MHz, but due to more hardware available for the microcode to use, especially for address calculation, many individual instructions ran faster than on an 8086 at the same clock frequency. For instance, the common register+immediate[a] addressing mode was significantly faster than on the 8086, especially when a memory location was both (one of the) operand(s) and the destination. Multiply and divide also showed great improvement, being several times as fast as on the original 8086 and multi-bit shifts were done almost four times as quickly as in the 8086.
+Along with hundreds of other processor models, Intel discontinued the 80188 processor 30 March 2006, after a life of about 24 years.[7]
+
+
+
+Information box
+{'Launched': '1982', 'Discontinued': 'September 2007[1]', 'Common manufacturer(s)': 'Intel, AMD, Fujitsu, Siemens[2]', 'Max. CPU clock rate': '6 MHz to 40 MHz', 'Data width': '8 bits', 'Address width': '20 bits', 'Technology node': '3 µm[3]', 'Instruction set': 'x86-16', 'Transistors': '55,000', 'Cores': '1', 'Co-processor': 'Intel 80187', 'Package(s)': '68-pin PLCC\n68-pin LCC\n100-pin PQFP (engineering sample only)\n68-pin PGA', 'Socket(s)': 'PGA68\nPLCC-68 (variant)\nLCC-68 (variant)', 'Variant(s)': 'The Intel 80188 is a variant of the Intel 80186.', 'Predecessor(s)': 'Intel 8088', 'Successor(s)': 'Intel 80386 (The 80286 was also introduced in early 1982, and thus contemporary with the 80186)'}

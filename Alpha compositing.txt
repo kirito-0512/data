@@ -1,0 +1,75 @@
+2049,
+Alpha compositing,
+In computer graphics, alpha compositing or alpha blending is the process of combining one image with a background to create the appearance of partial or full transparency.[1] It is often useful to render picture elements (pixels) in separate passes or layers and then combine the resulting 2D images into a single, final image called the composite. Compositing is used extensively in film when combining computer-rendered image elements with live footage. Alpha blending is also used in 2D computer graphics to put rasterized foreground elements over a background.
+In order to combine the picture elements of the images correctly, it is necessary to keep an associated matte for each element in addition to its color. This matte layer contains the coverage information—the shape of the geometry being drawn—making it possible to distinguish between parts of the image where something was drawn and parts that are empty.
+Although the most basic operation of combining two images is to put one over the other, there are many operations, or blend modes, that are used.
+The concept of an alpha channel was introduced by Alvy Ray Smith and Ed Catmull in the late 1970s at the New York Institute of Technology Computer Graphics Lab. Bruce A. Wallace derived the same straight over operator based on a physical reflectance/transmittance model in 1981.[2] A 1984 paper by Thomas Porter and Tom Duff introduced premultiplied alpha using a geometrical approach.[3]
+The use of the term alpha is explained by Smith as follows: "We called it that because of the classic linear interpolation formula 
+α
+A
++
+(
+1
+−
+α
+)
+B
+{\displaystyle \alpha A+(1-\alpha )B}
+ that uses the Greek letter 
+α
+{\displaystyle \alpha }
+ (alpha) to control the amount of interpolation between, in this case, two images A and B".[4] That is, when compositing image A atop image B, the value of 
+α
+{\displaystyle \alpha }
+ in the formula is taken directly from A's alpha channel.
+In a 2D image a color combination is stored for each picture element (pixel), often a combination of red, green and blue (RGB). When alpha compositing is in use, each pixel has an additional numeric value stored in its alpha channel, with a value ranging from 0 to 1. A value of 0 means that the pixel is fully transparent and the color in the pixel beneath will show through. A value of 1 means that the pixel is fully opaque.
+With the existence of an alpha channel, it is possible to express compositing image operations using a compositing algebra. For example, given two images A and B, the most common compositing operation is to combine the images so that A appears in the foreground and B appears in the background. This can be expressed as A over B. In addition to over, Porter and Duff[3] defined the compositing operators in, held out by (the phrase refers to holdout matting and is usually abbreviated out), atop, and xor (and the reverse operators rover, rin, rout, and ratop) from a consideration of choices in blending the colors of two pixels when their coverage is, conceptually, overlaid orthogonally:
+As an example, the over operator can be accomplished by applying the following formula to each pixel:[2]
+Here 
+C
+o
+{\displaystyle C_{o}}
+, 
+C
+a
+{\displaystyle C_{a}}
+ and 
+C
+b
+{\displaystyle C_{b}}
+ stand for the color components of the pixels in the result, image A and image B respectively, applied to each color channel (red/green/blue) individually, whereas 
+α
+o
+{\displaystyle \alpha _{o}}
+, 
+α
+a
+{\displaystyle \alpha _{a}}
+ and 
+α
+b
+{\displaystyle \alpha _{b}}
+ are the alpha values of the respective pixels.
+The over operator is, in effect, the normal painting operation (see Painter's algorithm). The in and out operators are the alpha compositing equivalent of clipping. The two use only the alpha channel of the second image and ignore the color components. In addition, plus defines additive blending.[3]
+If an alpha channel is used in an image, there are two common representations that are available: straight (unassociated) alpha and premultiplied (associated) alpha.
+The most significant advantage of premultiplied alpha is that it allows for correct blending, interpolation, and filtering.[5] Ordinary interpolation without premultiplied alpha leads to RGB information leaking out of fully transparent (A=0) regions, even though this RGB information is ideally invisible. When interpolating or filtering images with abrupt borders between transparent and opaque regions, this can result in borders of colors that were not visible in the original image. Errors also occur in areas of semitransparency because the RGB components are not correctly weighted, giving incorrectly high weighting to the color of the more transparent (lower alpha) pixels.[5][6]
+Premultiplied alpha may also be used to allow regions of regular alpha blending (e.g. smoke) and regions with additive blending mode (e.g. flame and glitter effects) to be encoded within the same image.[7][8] This is represented by an RGBA triplet that express emission with no occlusion, such as (0.4, 0.3, 0.2, 0.0).[5]
+Another advantage of premultiplied alpha is performance; in certain situations, it can reduce the number of multiplication operations (e.g. if the image is used many times during later compositing).[5] The Porter–Duff operations have a simple form only in premultiplied alpha.[3] Some rendering pipelines expose a "straight alpha" API surface, but converts them into premultiplied alpha for performance.[9]
+One disadvantage of premultiplied alpha is that it can reduce the available relative precision in the RGB values when using integer or fixed-point representation for the color components. This may cause a noticeable loss of quality if the color information is later brightened or if the alpha channel is removed. In practice, this is not usually noticeable because during typical composition operations, such as OVER, the influence of the low-precision color information in low-alpha areas on the final output image (after composition) is correspondingly reduced. This loss of precision also makes premultiplied images easier to compress using certain compression schemes, as they do not record the color variations hidden inside transparent regions, and can allocate fewer bits to encode low-alpha areas. The same “limitations” of lower quantisation bit depths such as 8 bit per channel are also present in imagery without alpha, and this argument is problematic as a result.[5]
+Assuming that the pixel color is expressed using straight (non-premultiplied) RGBA tuples, a pixel value of (0, 0.7, 0, 0.5) implies a pixel that has 70% of the maximum green intensity and 50% opacity. If the color were fully green, its RGBA would be (0, 1, 0, 0.5).[5] However, if this pixel uses premultiplied alpha, all of the RGB values (0, 0.7, 0) are multiplied, or scaled for occlusion, by the alpha value 0.5, which is appended to yield (0, 0.35, 0, 0.5). In this case, the 0.35 value for the G channel actually indicates 70% green emission intensity (with 50% occlusion). A pure green emission would be encoded as (0, 0.5, 0, 0.5). Knowing whether a file uses straight or premultiplied alpha is essential to correctly process or composite it, as a different calculation is required.[5]
+Emission with no occlusion cannot be represented in straight alpha. No conversion is available in this case.[5]
+The most popular image formats that support the alpha channel are PNG and TIFF. GIF supports alpha channels, but is considered to be inefficient when it comes to file size. Support for alpha channels is present in some video codecs, such as Animation and Apple ProRes 4444 of the QuickTime format, or in the Techsmith multi-format codec.
+The file format BMP generally does not support this channel; however, in different formats such as 32-bit (888-8) or 16-bit (444-4) it is possible to save the alpha channel, although not all systems or programs are able to read it: it is exploited mainly in some video games[10] or particular applications;[11] specific programs have also been created for the creation of these BMPs. 
+The RGB values of typical digital images do not directly correspond to the physical light intensities, but are rather compressed by a gamma correction function:
+This transformation better utilizes the limited number of bits in the encoded image by choosing 
+γ
+{\displaystyle \gamma }
+ that better matches the non-linear human perception of luminance.
+Accordingly, computer programs that deal with such images must decode the RGB values into a linear space (by undoing the gamma-compression), blend the linear light intensities, and re-apply the gamma compression to the result:[14][15][failed verification]
+When combined with premultiplied alpha, pre-multiplication is done in linear space, prior to gamma compression.[16] This results in the following formula:[citation needed]
+Note that only the color components undergo gamma-correction; the alpha channel is always linear.
+Although used for similar purposes, transparent colors and image masks do not permit the smooth blending of the superimposed image pixels with those of the background (only whole image pixels or whole background pixels allowed).
+A similar effect can be achieved with a 1-bit alpha channel, as found in the 16-bit RGBA high color mode of the Truevision TGA image file format and related TARGA and AT-Vista/NU-Vista display adapters' high color graphic mode. This mode devotes 5 bits for every primary RGB color (15-bit RGB) plus a remaining bit as the "alpha channel".
+Screendoor transparency can be used to simulate partial occlusion where only 1-bit alpha is available.
+For some applications, a single alpha channel is not sufficient: a stained-glass window, for instance, requires a separate transparency channel for each RGB channel to model the red, green and blue transparency separately. More alpha channels can be added for accurate spectral color filtration applications.
+Some order-independent transparency methods replace the over operator with a commutative approximation.[17]

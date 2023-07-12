@@ -1,0 +1,29 @@
+11133,
+PhaseIIfeaturerequestsCookies,logins,andprivacy,
+This page is obsolete!
+It is an archive of old feature requests that were still active on 2002 July 20, when we moved from Phase II to Phase III of the software.
+Many requests were implemented then, while others became obsolete due to being rejected by the community.
+See Wikipedia:Feature requests for current requests.
+I'm not sure "privacy" is a good thing here. The price one pays for freedom is accountability: anyone should be able to edit anything, but I don't think they should be able to do so without being identified (at least with their chosen pseudonym--they can still hide behind whatever anonymity their Internet connection gives them). When I find some vandalism, for example, I look back in the Recent Changes list for that same IP and check those pages--I usually find more. Likewise, when I get to know certain posters, I get to know what might be interesting or important to read. If someone is concerned about privacy, that's his problem, and he should take the burden of using software to anonymize himself (and there's plenty of software available to do that). --LDC
+I think you've misunderstood. What I'm talking about specifically is not having the entire static IP address shown of someone logging in from an address ending in letters. All it would take is to .xxx a portion of it so that the firewall is not constantly fending off requests. This is the same courtesy already extended to people logging in from any IP address ending in numerals. My concern for it stems from the fact that it identifies where the person works or attends school, which if you'll pardon my saying so, is not necessarily anyone's business. If it's not workable then you can expect to have me not continue contributing. --KQ
+I usually use a static IP, but Recent Changes (hover over my name) only shows a masked IP, not my domain.
+Did you see this on the main Wikipedia, or one of the internationals?
+UseModWiki can turn off name lookup, and I'd assumed from the RC display that it was turned off.
+You're asking that mybox.frobnuts.com be masked as mybox.xxx.xxx,
+(which is a domain name rather than an ip address, to be unnecessarily picky)
+so that FrobNuts's network (thus their firewall) won't be identifiable?
+Even the current method really doesn't provide that level of protection,
+or much privacy of any kind beyond a casual glance.
+For example, 111.222.333.444 would display as "111.222.333.xxx",
+and thus "hide" a specific host, but the network can likely still be identified
+via a simple whois lookup on "111.222.333". With my usual IP address,
+the two leading numbers are sufficient to tell you where I'm logged in from; you don't even
+need the third one. In general, only a residential poster would have some anonymity,
+simply because the ip address (whether static or dynamic) usually maps
+back to the ISP, not a specific business or school.
+To achieve the equivalent level of privacy you're asking for, even the ip addresses should be
+masked as xxx.xxx.xxx.444 rather than as they are now.
+--loh
+Interesting. I don't remember if it was on the English wikipedia or the Spanish one; it's been some months past. I had two concerns; one was indeed not giving the entire IP address (or domain name); the other was not revealing immediately where contributors post from, leaving it instead to their own discretion. I haven't seen it again; but if it was originally from the Spanish wikipedia that would be because I've contributed nearly all I can in Spanish. :-) I expect that I'll try it from another computer to see how it displays and will be using anonymizer or somesuch if it's not to my satisfaction. Thanks..
+
+

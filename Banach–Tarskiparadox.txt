@@ -1,0 +1,304 @@
+4038,
+Banach–Tarskiparadox,
+The Banach–Tarski paradox is a theorem in set-theoretic geometry, which states the following: Given a solid ball in three-dimensional space, there exists a decomposition of the ball into a finite number of disjoint subsets, which can then be put back together in a different way to yield two identical copies of the original ball. Indeed,  the reassembly process involves only moving the pieces around and rotating them without changing their shape. However, the pieces themselves are not "solids" in the usual sense, but infinite scatterings of points.  The reconstruction can work with as few as five pieces.[1]
+An alternative form of the theorem states that given any two "reasonable" solid objects (such as a small ball and a huge ball), the cut pieces of either one can be reassembled into the other. This is often stated informally as "a pea can be chopped up and reassembled into the Sun" and called the "pea and the Sun paradox".
+The theorem is called a paradox because it contradicts basic geometric intuition. "Doubling the ball" by dividing it into parts and moving them around by rotations and translations, without any stretching, bending, or adding new points, seems to be impossible, since all these operations ought, intuitively speaking, to preserve the volume. The intuition that such operations preserve volumes is not mathematically absurd and it is even included in the formal definition of volumes. However, this is not applicable here because in this case it is impossible to define the volumes of the considered subsets. Reassembling them reproduces a set that has a volume, which happens to be different from the volume at the start.
+Unlike most theorems in geometry, the mathematical proof of this result depends on the choice of axioms for set theory in a critical way. It can be proven using the axiom of choice, which allows for the construction of non-measurable sets, i.e., collections of points that do not have a volume in the ordinary sense, and whose construction requires an uncountable number of choices.[2]
+It was shown in 2005 that the pieces in the decomposition can be chosen in such a way that they can be moved continuously into place without running into one another.[3]
+As proved independently by Leroy[4] and Simpson,[5] the Banach–Tarski paradox does not violate volumes if one works with locales rather than topological spaces. In this abstract setting, it is possible to have subspaces without point but still nonempty. The parts of the paradoxical decomposition do intersect a lot in the sense of locales, so much that some of these intersections should be given a positive mass. Allowing for this hidden mass to be taken into account, the theory of locales permits all subsets (and even all sublocales) of the Euclidean space to be satisfactorily measured.
+In a paper published in 1924,[6] Stefan Banach and Alfred Tarski gave a construction of such a paradoxical decomposition, based on earlier work by Giuseppe Vitali concerning the unit interval and on the paradoxical decompositions of the sphere by Felix Hausdorff, and discussed a number of related questions concerning decompositions of subsets of Euclidean spaces in various dimensions. They proved the following more general statement, the strong form of the Banach–Tarski paradox:
+Now let A be the original ball and B be the union of two translated copies of the original ball. Then the proposition means that you can divide the original ball A into a certain number of pieces and then rotate and translate these pieces in such a way that the result is the whole set B, which contains two copies of A.
+The strong form of the Banach–Tarski paradox is false in dimensions one and two, but Banach and Tarski showed that an analogous statement remains true if countably many subsets are allowed. The difference between dimensions 1 and 2 on the one hand, and 3 and higher on the other hand, is due to the richer structure of the group E(n) of Euclidean motions in 3 dimensions. For n = 1, 2 the group is solvable, but for n ≥ 3  it contains a free group with two generators. John von Neumann studied the properties of the group of equivalences that make a paradoxical decomposition possible, and introduced the notion of amenable groups. He also found a form of the paradox in the plane which uses area-preserving affine transformations in place of the usual congruences.
+Tarski proved that amenable groups are precisely those for which no paradoxical decompositions exist. Since only free subgroups are needed in the Banach–Tarski paradox, this led to the long-standing von Neumann conjecture, which was disproved in 1980.
+The Banach–Tarski paradox states that a ball in the ordinary Euclidean space can be doubled using only the operations of partitioning into subsets, replacing a set with a congruent set, and reassembling. Its mathematical structure is greatly elucidated by emphasizing the role played by the group of Euclidean motions and introducing the notions of equidecomposable sets and a paradoxical set. Suppose that G is a group acting on a set X. In the most important special case, X is an n-dimensional Euclidean space (for integral n), and G consists of all isometries of X, i.e. the transformations of X into itself that preserve the distances, usually denoted E(n). Two geometric figures that can be transformed into each other are called congruent, and this terminology will be extended to the general G-action. Two subsets A and B of X are called G-equidecomposable, or equidecomposable with respect to G, if A and B can be partitioned into the same finite number of respectively G-congruent pieces. This defines an equivalence relation among all subsets of X. Formally, if there exist non-empty sets 
+A
+1
+,
+…
+,
+A
+k
+{\displaystyle A_{1},\dots ,A_{k}}
+, 
+B
+1
+,
+…
+,
+B
+k
+{\displaystyle B_{1},\dots ,B_{k}}
+ such that
+and there exist elements 
+g
+i
+∈
+G
+{\displaystyle g_{i}\in G}
+ such that
+then it can be said that A and B are G-equidecomposable using k pieces. If a set E has two disjoint subsets A and B such that A and E, as well as B and E, are  G-equidecomposable, then E is called paradoxical.
+Using this terminology, the Banach–Tarski paradox can be reformulated as follows:
+In fact, there is a sharp result in this case, due to Raphael M. Robinson:[7] doubling the ball can be accomplished with five pieces, and fewer than five pieces will not suffice.
+The strong version of the paradox claims:
+While apparently more general, this statement is derived in a simple way from the doubling of a ball by using a generalization of the Bernstein–Schroeder theorem due to Banach that implies that if A is equidecomposable with a subset of B and B is equidecomposable with a subset of A, then A and B are equidecomposable.
+The Banach–Tarski paradox can be put in context by pointing out that for two sets in the strong form of the paradox, there is always a bijective function that can map the points in one shape into the other in a one-to-one fashion. In the language of Georg Cantor's set theory, these two sets have equal cardinality. Thus, if one enlarges the group to allow arbitrary bijections of X, then all sets with non-empty interior become congruent. Likewise, one ball can be made into a larger or smaller ball by stretching, or in other words, by applying similarity transformations. Hence, if the group G is large enough, G-equidecomposable sets may be found whose "size"s vary. Moreover, since a countable set can be made into two copies of itself, one might expect that using countably many pieces could somehow do the trick.
+On the other hand, in the Banach–Tarski paradox, the number of pieces is finite and the allowed equivalences are Euclidean congruences, which preserve the volumes. Yet, somehow, they end up doubling the volume of the ball! While this is certainly surprising, some of the pieces used in the paradoxical decomposition are non-measurable sets, so the notion of volume (more precisely, Lebesgue measure) is not defined for them, and the partitioning cannot be accomplished in a practical way. In fact, the Banach–Tarski paradox demonstrates that it is impossible to find a finitely-additive measure (or a Banach measure) defined on all subsets of a Euclidean space of three (and greater) dimensions that is invariant with respect to Euclidean motions and takes the value one on a unit cube. In his later work, Tarski showed that, conversely, non-existence of paradoxical decompositions of this type implies the existence of a finitely-additive invariant measure.
+The heart of the proof of the "doubling the ball" form of the paradox presented below is the remarkable fact that by a Euclidean isometry (and renaming of elements), one can divide a certain set (essentially, the surface of a unit sphere) into four parts, then rotate one of them to become itself plus two of the other parts. This follows rather easily from a F2-paradoxical decomposition of F2, the free group with two generators. Banach and Tarski's proof relied on an analogous fact discovered by Hausdorff some years earlier: the surface of a unit sphere in space is a disjoint union of three sets B, C, D and a countable set E such that, on the one hand, B, C, D are pairwise congruent, and on the other hand, B is congruent with the union of C and D. This is often called the Hausdorff paradox.
+Banach and Tarski explicitly acknowledge Giuseppe Vitali's 1905 construction of the set bearing his name, Hausdorff's paradox (1914), and an earlier (1923) paper of Banach as the precursors to their work. Vitali's and Hausdorff's constructions depend on Zermelo's axiom of choice ("AC"), which is also crucial to the Banach–Tarski paper, both for proving their paradox and for the proof of another result:
+They remark:
+They point out that while the second result fully agrees with geometric intuition, its proof uses AC in an even more substantial way than the proof of the paradox. Thus Banach and Tarski imply that AC should not be rejected solely because it produces a paradoxical decomposition, for such an argument also undermines proofs of geometrically intuitive statements.
+However, in 1949, A. P. Morse showed that the statement about Euclidean polygons can be proved in ZF set theory and thus does not require the axiom of choice. In 1964, Paul Cohen proved that the axiom of choice is independent from ZF – that is, it cannot be proved from ZF. A weaker version of an axiom of choice is the axiom of dependent choice, DC, and it has been shown that DC is not sufficient for proving the Banach–Tarski paradox, that is,
+Large amounts of mathematics use AC. As Stan Wagon points out at the end of his monograph, the Banach–Tarski paradox has been more significant for its role in pure mathematics than for foundational questions:  it motivated a fruitful new direction for research, the amenability of groups, which has nothing to do with the foundational questions.
+In 1991, using then-recent results by Matthew Foreman and Friedrich Wehrung,[9] Janusz Pawlikowski proved that the Banach–Tarski paradox follows from ZF plus the Hahn–Banach theorem.[10] The Hahn–Banach theorem does not rely on the full axiom of choice but can be proved using a weaker version of AC called the ultrafilter lemma. So Pawlikowski proved that the set theory needed to prove the Banach–Tarski paradox, while stronger than ZF, is weaker than full ZFC.
+Here a proof is sketched which is similar but not identical to that given by Banach and Tarski. Essentially, the paradoxical decomposition of the ball is achieved in four steps:
+These steps are discussed in more detail below.
+The free group with two generators a and b consists of all finite strings that can be formed from the four symbols a, a−1, b and b−1 such that no a appears directly next to an a−1 and no b appears directly next to a b−1. Two such strings can be concatenated and converted into a string of this type by repeatedly replacing the "forbidden" substrings with the empty string. For instance: abab−1a−1 concatenated with abab−1a yields abab−1a−1abab−1a, which contains the substring a−1a, and so gets reduced to abab−1bab−1a, which contains the substring b−1b, which gets reduced to abaab−1a. One can check that the set of those strings with this operation forms a group with identity element the empty string e. This group may be called F2.
+The group 
+F
+2
+{\displaystyle F_{2}}
+ can be "paradoxically decomposed" as follows: Let S(a) be the set of all non-forbidden strings that start with a and define S(a−1), S(b) and S(b−1) similarly. Clearly,
+but also
+and
+where the notation aS(a−1) means take all the strings in S(a−1) and concatenate them on the left with a.
+This is at the core of the proof. For example, there may be a string 
+a
+a
+−
+1
+b
+{\displaystyle aa^{-1}b}
+ in the set 
+a
+S
+(
+a
+−
+1
+)
+{\displaystyle aS(a^{-1})}
+ which, because of the rule that 
+a
+{\displaystyle a}
+ must not appear next to 
+a
+−
+1
+{\displaystyle a^{-1}}
+, reduces to the string 
+b
+{\displaystyle b}
+.  Similarly, 
+a
+S
+(
+a
+−
+1
+)
+{\displaystyle aS(a^{-1})}
+ contains all the strings that start with 
+a
+−
+1
+{\displaystyle a^{-1}}
+ (for example, the string 
+a
+a
+−
+1
+a
+−
+1
+{\displaystyle aa^{-1}a^{-1}}
+ which reduces to 
+a
+−
+1
+{\displaystyle a^{-1}}
+). In this way, 
+a
+S
+(
+a
+−
+1
+)
+{\displaystyle aS(a^{-1})}
+ contains all the strings that start with 
+b
+{\displaystyle b}
+, 
+b
+−
+1
+{\displaystyle b^{-1}}
+ and 
+a
+−
+1
+{\displaystyle a^{-1}}
+, as well as the empty string 
+e
+{\displaystyle e}
+.
+Group F2 has been cut into four pieces (plus the singleton {e}), then two of them "shifted" by multiplying with a or b, then "reassembled" as two pieces to make one copy of 
+F
+2
+{\displaystyle F_{2}}
+ and the other two to make another copy of 
+F
+2
+{\displaystyle F_{2}}
+. That is exactly what is intended to do to the ball.
+In order to find a free group of rotations of 3D space, i.e. that behaves just like (or "is isomorphic to") the free group F2, two orthogonal axes are taken (e.g. the x and z axes). Then, A is taken to be a rotation of 
+θ
+=
+arccos
+⁡
+(
+1
+3
+)
+{\textstyle \theta =\arccos \left({\frac {1}{3}}\right)}
+ about the x axis, and B to be a rotation of 
+θ
+{\displaystyle \theta }
+ about the z axis (there are many other suitable pairs of irrational multiples of π that could be used here as well).[11]
+The group of rotations generated by A and B will be called H. 
+Let 
+ω
+{\displaystyle \omega }
+ be an element of H that starts with a positive rotation about the z axis, that is, an element of the form 
+ω
+=
+…
+B
+k
+3
+A
+k
+2
+B
+k
+1
+{\displaystyle \omega =\ldots B^{k_{3}}A^{k_{2}}B^{k_{1}}}
+ with 
+k
+1
+>
+0
+,
+ 
+k
+2
+,
+k
+3
+,
+…
+,
+k
+n
+≠
+0
+,
+ 
+n
+≥
+1
+{\displaystyle k_{1}>0,\ k_{2},k_{3},\ldots ,k_{n}\neq 0,\ n\geq 1}
+. It can be shown by induction that 
+ω
+{\displaystyle \omega }
+ maps the point 
+(
+1
+,
+0
+,
+0
+)
+{\displaystyle (1,0,0)}
+ to 
+(
+k
+3
+N
+,
+l
+2
+3
+N
+,
+m
+3
+N
+)
+{\textstyle \left({\frac {k}{3^{N}}},{\frac {l{\sqrt {2}}}{3^{N}}},{\frac {m}{3^{N}}}\right)}
+, for some 
+k
+,
+l
+,
+m
+∈
+Z
+,
+N
+∈
+N
+{\displaystyle k,l,m\in \mathbb {Z} ,N\in \mathbb {N} }
+. Analyzing 
+k
+,
+l
+{\displaystyle k,l}
+ and 
+m
+{\displaystyle m}
+ modulo 3, one can show that 
+l
+≠
+0
+{\displaystyle l\neq 0}
+. The same argument repeated (by symmetry of the problem) is valid when 
+ω
+{\displaystyle \omega }
+ starts with a negative rotation about the z axis, or a rotation about the x axis. This shows that if 
+ω
+{\displaystyle \omega }
+ is given by a non-trivial word in A and B, then 
+ω
+≠
+e
+{\displaystyle \omega \neq e}
+. Therefore, the group H is a free group, isomorphic to F2.
+The two rotations behave just like the elements a and b in the group F2: there is now a paradoxical decomposition of H.
+This step cannot be performed in two dimensions since it involves rotations in three dimensions. If two rotations are taken about the same axis, the resulting group is the abelian circle group and does not have the property required in step 1.
+An alternate arithmetic proof of the existence of free groups in some special orthogonal groups using integral quaternions leads to paradoxical decompositions of the rotation group.[12]
+The unit sphere S2 is partitioned into orbits by the action of our group H: two points belong to the same orbit if and only if there is a rotation in H which moves the first point into the second. (Note that the orbit of a point is a dense set in S2.) The axiom of choice can be used to pick exactly one point from every orbit; collect these points into a set M. The action of H on a given orbit is free and transitive and so 
+each orbit can be identified with H. In other words, every point in S2 can be reached in exactly one way by applying the proper rotation from H to the proper element from M. Because of this, the paradoxical decomposition of H yields a paradoxical decomposition of S2 into four pieces A1, A2, A3, A4 as follows:
+where we define
+and likewise for the other sets, and where we define
+(The five "paradoxical" parts of F2 were not used directly, as they would leave M as an extra piece after doubling, owing to the presence of the singleton {e}!)
+The (majority of the) sphere has now been divided into four sets (each one dense on the sphere), and when two of these are rotated, the result is double of what was had before:
+Finally, connect every point on S2 with a half-open segment to the origin; the paradoxical decomposition of S2 then yields a paradoxical decomposition of the solid unit ball minus the point at the ball's center. (This center point needs a bit more care; see below.)
+N.B. This sketch glosses over some details. One has to be careful about the set of points on the sphere which happen to lie on the axis of some rotation in H. However, there are only countably many such points, and like the case of the point at the center of the ball, it is possible to patch the proof to account for them all. (See below.)
+In Step 3, the sphere was partitioned into orbits of our group H. To streamline the proof, the discussion of points that are fixed by some rotation was omitted; since the paradoxical decomposition of F2 relies on shifting certain subsets, the fact that some points are fixed might cause some trouble. Since any rotation of S2 (other than the null rotation) has exactly two fixed points, and since H, which is isomorphic to F2, is countable, there are countably many points of S2 that are fixed by some rotation in H. Denote this set of fixed points as D. Step 3 proves that S2 − D admits a paradoxical decomposition.
+What remains to be shown is the Claim: S2 − D is equidecomposable with S2.
+Proof. Let λ be some line through the origin that does not intersect any point in D. This is possible since D is countable. Let J be the set of angles, α, such that for some natural number n, and some P in D, r(nα)P is also in D, where r(nα) is a rotation about λ of nα. Then J is countable. So there exists an angle θ not in J. Let ρ be the rotation about λ by θ. Then ρ acts on S2 with no fixed points in D, i.e., ρn(D) is disjoint from D, and for natural m<n, ρn(D) is disjoint from ρm(D). Let E be the disjoint union of ρn(D) over n = 0, 1, 2, ... . Then S2 = E ∪ (S2 − E) ~ ρ(E) ∪ (S2 − E) = (E − D) ∪ (S2 − E) = S2 − D, where ~ denotes "is equidecomposable to".
+For step 4, it has already been shown that the ball minus a point admits a paradoxical decomposition; it remains to be shown that the ball minus a point is equidecomposable with the ball. Consider a circle within the ball, containing the point at the center of the ball. Using an argument like that used to prove the Claim, one can see that the full circle is equidecomposable with the circle minus the point at the ball's center. (Basically, a countable set of points on the circle can be rotated to give itself plus one more point.) Note that this involves the rotation about a point other than the origin, so the Banach–Tarski paradox involves isometries of Euclidean 3-space rather than just SO(3).
+Use is made of the fact that if A ~ B and B ~ C, then A ~ C. The decomposition of A into C can be done using number of pieces equal to the product of the numbers needed for taking A into B and for taking B into C.
+The proof sketched above requires 2 × 4 × 2 + 8 = 24 pieces - a factor of 2 to remove fixed points, a factor 4 from step 1, a factor 2 to recreate fixed points, and 8 for the center point of the second ball. But in step 1 when moving {e} and all strings of the form an into S(a−1), do this to all orbits except one. Move {e} of this last orbit to the center point of the second ball. This brings the total down to 16 + 1 pieces. With more algebra, one can also decompose fixed orbits into 4 sets as in step 1. This gives 5 pieces and is the best possible.
+Using the Banach–Tarski paradox, it is possible to obtain k copies of a ball in the Euclidean n-space from one, for any integers n ≥ 3 and k ≥ 1, i.e. a ball can be cut into k pieces so that each of them is equidecomposable to a ball of the same size as the original. Using the fact that the free group F2 of rank 2 admits a free subgroup of countably infinite rank, a similar proof yields that the unit sphere Sn−1 can be partitioned into countably infinitely many pieces, each of which is equidecomposable (with two pieces) to the Sn−1 using rotations. By using analytic properties of the rotation group SO(n), which is a connected analytic Lie group, one can further prove that the sphere Sn−1 can be partitioned into as many pieces as there are real numbers (that is, 
+2
+ℵ
+0
+{\displaystyle 2^{\aleph _{0}}}
+ pieces), so that each piece is equidecomposable with two pieces to Sn−1 using rotations. These results then extend to the unit ball deprived of the origin. A 2010 article by Valeriy Churkin gives a new proof of the continuous version of the Banach–Tarski paradox.[13]
+In the Euclidean plane, two figures that are equidecomposable with respect to the group of Euclidean motions are necessarily of the same area, and therefore, a paradoxical decomposition of a square or disk of Banach–Tarski type that uses only Euclidean congruences is impossible. A conceptual explanation of the distinction between the planar and higher-dimensional cases was given by John von Neumann: unlike the group SO(3) of rotations in three dimensions, the group E(2) of Euclidean motions of the plane is solvable, which implies the existence of a finitely-additive measure on E(2) and R2 which is invariant under translations and rotations, and rules out paradoxical decompositions of non-negligible sets. Von Neumann then posed the following question: can such a paradoxical decomposition be constructed if one allows a larger group of equivalences?
+It is clear that if one permits similarities, any two squares in the plane become equivalent even without further subdivision. This motivates restricting one's attention to the group SA2 of area-preserving affine transformations. Since the area is preserved, any paradoxical decomposition of a square with respect to this group would be counterintuitive for the same reasons as the Banach–Tarski decomposition of a ball. In fact, the group SA2 contains as a subgroup the special linear group SL(2,R), which in its turn contains the free group F2 with two generators as a subgroup. This makes it plausible that the proof of Banach–Tarski paradox can be imitated in the plane. The main difficulty here lies in the fact that the unit square is not invariant under the action of the linear group SL(2, R), hence one cannot simply transfer a paradoxical decomposition from the group to the square, as in the third step of the above proof of the Banach–Tarski paradox. Moreover, the fixed points of the group present difficulties (for example, the origin is fixed under all linear transformations). This is why von Neumann used the larger group SA2 including the translations, and he constructed a paradoxical decomposition of the unit square with respect to the enlarged group (in 1929). Applying the Banach–Tarski method, the paradox for the square can be strengthened as follows:
+As von Neumann notes:[14]
+To explain further, the question of whether a finitely additive measure (that is preserved under certain transformations) exists or not depends on what transformations are allowed. The Banach measure of sets in the plane, which is preserved by translations and rotations, is not preserved by non-isometric transformations even when they do preserve the area of polygons. The points of the plane (other than the origin) can be divided into two dense sets which may be called A and B. If the A points of a given polygon are transformed by a certain area-preserving transformation and the B points by another, both sets can become subsets of the A points in two new polygons. The new polygons have the same area as the old polygon, but the two transformed sets cannot have the same measure as before (since they contain only part of the A points), and therefore there is no measure that "works".
+The class of groups isolated by von Neumann in the course of study of Banach–Tarski phenomenon turned out to be very important for many areas of Mathematics: these are amenable groups, or groups with an invariant mean, and include all finite and all solvable groups. Generally speaking, paradoxical decompositions arise when the group used for equivalences in the definition of equidecomposability is not amenable.

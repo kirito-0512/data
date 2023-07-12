@@ -1,0 +1,118 @@
+3023,
+Archimedes'screw,
+The Archimedes screw, also known as the Archimedean screw, hydrodynamic screw,[1] water screw or Egyptian screw,[2] is one of the earliest hydraulic machines. Using Archimedes screws as water pumps (Archimedes screw pump (ASP)[3] or screw pump[2]) dates back many centuries.[1] As a machine used for transferring water from a low-lying body of water into irrigation ditches, water is pumped by turning a screw-shaped surface inside a pipe. In the modern world, Archimedes screw pumps are widely used in wastewater treatment plants and for dewatering low-lying regions.[1] Archimedes Screws Turbines (ASTs) are a new form of small hydroelectric powerplant that can be applied even in low head sites.[4] Archimedes screw generators operate in a wide range of flows (0.01 
+m
+3
+/
+s
+{\displaystyle m^{3}/s}
+ to 14.5 
+m
+3
+/
+s
+{\displaystyle m^{3}/s}
+) and heads (0.1 m to 10 m),[5][6] including low heads and moderate flow rates that is not ideal for traditional turbines and not occupied by high performance technologies.[5] The Archimedes screw is a reversible hydraulic machine, and there are several examples of Archimedes screw installations where the screw can operate at different times as either pump or generator, depending on needs for power and watercourse flow.[1]
+Archimedes screw is named after Greek mathematician Archimedes who first described it around 234 BC, although there is evidence that the device had been used in Ancient Egypt long before his time.[7] A screw conveyor is a similar device which transports bulk materials such as powders and grains.
+The screw pump is the oldest positive displacement pump.[2] The first records of a water screw, or screw pump, date back to Hellenistic Egypt before the 3rd century BC.[2][8] The Egyptian screw, used to lift water from the Nile, was composed of tubes wound round a cylinder; as the entire unit rotates, water is lifted within the spiral tube to the higher elevation. A later screw pump design from Egypt had a spiral groove cut on the outside of a solid wooden cylinder and then the cylinder was covered by boards or sheets of metal closely covering the surfaces between the grooves.[2]
+Some researchers have proposed this device was used to irrigate the Hanging Gardens of Babylon, one of the Seven Wonders of the Ancient World. A cuneiform inscription of Assyrian King Sennacherib (704–681 BC) has been interpreted by Stephanie Dalley[9] to describe casting water screws in bronze some 350 years earlier. This is consistent with classical author Strabo, who describes the Hanging Gardens as irrigated by screws.[10]
+The screw pump was later introduced from Egypt to Greece.[2] It was described by Archimedes,[11] on the occasion of his visit to Egypt, circa 234 BC.[12] This tradition may reflect only that the apparatus was unknown to the Greeks before Hellenistic times.[11] Archimedes never claimed credit for its invention, but it was attributed to him 200 years later by Diodorus, who believed that Archimedes invented the screw pump in Egypt.[2] Depictions of Greek and Roman water screws show them being powered by a human treading on the outer casing to turn the entire apparatus as one piece, which would require that the casing be rigidly attached to the screw.
+German engineer Konrad Kyeser equipped the Archimedes screw with a crank mechanism in his Bellifortis (1405). This mechanism quickly replaced the ancient practice of working the pipe by treading.[13]
+The Archimedes screw consists of a screw (a helical surface surrounding a central cylindrical shaft) inside a hollow pipe. The screw is usually turned by windmill, manual labor, cattle, or by modern means, such as a motor. As the shaft turns, the bottom end scoops up a volume of water. This water is then pushed up the tube by the rotating helicoid until it pours out from the top of the tube.
+It is important to note that the screw volume must not be completely filled with water; there must be a fair amount of air "scooped up" together with each scoop of water. For this reason, the pump ceases to function if the bottom of the pipe is completely submerged, so that no air can be sucked in. This is because the individual pockets of water need to be separated from each other by pockets of air, or else there would be no difference between an Archimedean screw and a (curled up) pipe, which would let the water back-flow from the top basin to the bottom basin, just like a siphon.
+The contact surface between the screw and the pipe does not need to be perfectly watertight, as long as the amount of water being scooped with each turn is large compared to the amount of water leaking out of each section of the screw per turn. If water from one section leaks into the next lower one, it will be transferred upwards by the next segment of the screw.
+In some designs, the screw is fused to the casing and they both rotate together, instead of the screw turning within a stationary casing. The screw could be sealed to the casing with pitch resin or other adhesive, or the screw and casing could be cast together as a single piece in bronze.
+The design of the everyday Greek and Roman water screw, in contrast to the heavy bronze device of Sennacherib, with its problematic drive chains, has a powerful simplicity. A double or triple helix was built of wood strips (or occasionally bronze sheeting) around a heavy wooden pole. A cylinder was built around the helices using long, narrow boards fastened to their periphery and waterproofed with pitch.[10]
+Studies shows that the volume of flow passes through Archimedes screws is a function of inlet depth, diameter and rotation speed of the screw.[6] Therefore, the following analytical equation could be used to design Archimedes screws:[1]
+D
+O
+=
+16
+π
+Q
+σ
+ω
+(
+2
+θ
+O
+−
+s
+i
+n
+2
+θ
+O
+−
+δ
+2
+(
+2
+θ
+i
+−
+s
+i
+n
+(
+2
+θ
+i
+)
+)
+3
+{\displaystyle D_{O}={\sqrt[{3}]{\frac {16\pi Q}{\sigma \omega (2\theta _{O}-sin2\theta _{O}-\delta ^{2}(2\theta _{i}-sin(2\theta _{i}))}}}}
+where 
+D
+O
+{\displaystyle D_{O}}
+ is in 
+(
+m
+)
+{\displaystyle (m)}
+ and:
+ω
+{\displaystyle \omega }
+: Rotation speed of the Archimedes screw (rad/s)
+Q
+{\displaystyle Q}
+: Volumetric flow rate 
+(
+m
+3
+/
+s
+)
+{\displaystyle (m^{3}/s)}
+Based on the common standards that the Archimedes screw designers use this analytical equation could be simplified as:[3]
+D
+O
+≈
+η
+Q
+3
+/
+7
+{\displaystyle D_{O}\approx \eta Q^{3/7}}
+The value of η could simply determinate using the 
+η
+{\displaystyle \eta }
+ graph[1] or 
+Θ
+{\displaystyle \Theta }
+ graph.[3] By determination of 
+D
+O
+{\displaystyle D_{O}}
+, other design parameters of Archimedes screws can be calculated using a step-by-step analytical method.[1]
+The screw was used predominantly for the transport of water to irrigation systems and for dewatering mines or other low-lying areas. It was used for draining land that was underneath the sea in the Netherlands and other places in the creation of polders.
+Archimedes screws are used in sewage treatment plants because they cope well with varying rates of flow and with suspended solids. An auger in a snow blower or grain elevator is essentially an Archimedes screw. Concrete mixer trucks use Archimedes screws on the inside of their drum to mix or unload material.
+The principle is also found in escalators, which are Archimedes screws designed to lift fish safely from ponds and transport them to another location. This technology is used primarily at fish hatcheries, where it is desirable to minimize the physical handling of fish.
+An Archimedes screw was used in the successful 2001 stabilization of the Leaning Tower of Pisa. Small amounts of subsoil saturated by groundwater were removed from far below the north side of the tower, and the weight of the tower itself corrected the lean.
+Archimedes screws are also used in chocolate fountains.
+Archimedes Screws Turbines (ASTs) are a new form of generator for small hydroelectric powerplants that could be applied even in low-head sites. The low rotation speed of ASTs reduces negative impacts on aquatic life and fish.[4]
+A screw conveyor is an Archimedes screw contained within a tube and turned by a motor so as to deliver material from one end of the conveyor to the other. It is particularly suitable for transport of granular materials such as plastic granules used in injection moulding, and cereal grains. It may also be used to transport liquids. In industrial control applications the conveyor may be used as a rotary feeder or variable rate feeder to deliver a measured rate or quantity of material into a process.
+A variant of the Archimedes screw can also be found in some injection moulding machines, die casting machines and extrusion of plastics, which employ a screw of decreasing pitch to compress and melt the material. It is also used in a rotary-screw air compressor. On a much larger scale, Archimedes's screws of decreasing pitch are used for the compaction of waste material.
+If water is fed into the top of an Archimedes screw, it will force the screw to rotate. The rotating shaft can then be used to drive an electric generator. Such an installation has the same benefits as using the screw for pumping: the ability to handle very dirty water and widely varying rates of flow at high efficiency. Settle Hydro and Torrs Hydro are two reverse screw micro hydro schemes operating in England. The screw works well as a generator at low heads, commonly found in English rivers, including the Thames, powering Windsor Castle.[14]
+In 2017, the first reverse screw hydropower in the United States opened in Meriden, Connecticut.[15][16] The Meriden project was built and is operated by New England Hydropower having a nameplate capacity of 193 kW and a capacity factor of approximately 55% over a 5-year running period.

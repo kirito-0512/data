@@ -1,0 +1,868 @@
+3090,
+Arithmetic–geometricmean,
+In mathematics, the arithmetic–geometric mean of two positive real numbers x and y is the mutual limit of a sequence of arithmetic means and a sequence of geometric means:
+Begin the sequences with x and y:
+a
+0
+=
+x
+,
+g
+0
+=
+y
+.
+{\displaystyle {\begin{aligned}a_{0}&=x,\\g_{0}&=y.\end{aligned}}}
+Then define the two interdependent sequences (an) and (gn) as
+a
+n
++
+1
+=
+1
+2
+(
+a
+n
++
+g
+n
+)
+,
+g
+n
++
+1
+=
+a
+n
+g
+n
+.
+{\displaystyle {\begin{aligned}a_{n+1}&={\tfrac {1}{2}}(a_{n}+g_{n}),\\g_{n+1}&={\sqrt {a_{n}g_{n}}}\,.\end{aligned}}}
+These two sequences converge to the same number, the arithmetic–geometric mean of x and y; it is denoted by M(x, y), or sometimes by agm(x, y) or AGM(x, y).
+The arithmetic–geometric mean is used in fast algorithms for exponential and trigonometric functions, as well as some mathematical constants, in particular, computing π.
+The arithmetic–geometric mean can be extended to complex numbers and when the branches of the square root are allowed to be taken inconsistently, it is, in general, a multivalued function.[1]
+To find the arithmetic–geometric mean of a0 = 24 and g0 = 6, iterate as follows:
+a
+1
+=
+1
+2
+(
+24
++
+6
+)
+=
+15
+g
+1
+=
+24
+⋅
+6
+=
+12
+a
+2
+=
+1
+2
+(
+15
++
+12
+)
+=
+13.5
+g
+2
+=
+15
+⋅
+12
+=
+13.416
+ 
+407
+ 
+8649
+…
+⋮
+{\displaystyle {\begin{array}{rcccl}a_{1}&=&{\tfrac {1}{2}}(24+6)&=&15\\g_{1}&=&{\sqrt {24\cdot 6}}&=&12\\a_{2}&=&{\tfrac {1}{2}}(15+12)&=&13.5\\g_{2}&=&{\sqrt {15\cdot 12}}&=&13.416\ 407\ 8649\dots \\&&\vdots &&\end{array}}}
+The first five iterations give the following values:
+The number of digits in which an and gn agree (underlined) approximately doubles with each iteration. The arithmetic–geometric mean of 24 and 6 is the common limit of these two sequences, which is approximately 13.4581714817256154207668131569743992430538388544.[2]
+The first algorithm based on this sequence pair appeared in the works of Lagrange. Its properties were further analyzed by Gauss.[1]
+The geometric mean of two positive numbers is never bigger than the arithmetic mean (see inequality of arithmetic and geometric means). As a consequence, for n > 0, (gn) is an increasing sequence, (an) is a decreasing sequence, and gn ≤ M(x, y) ≤ an. These are strict inequalities if x ≠ y.
+M(x, y) is thus a number between the geometric and arithmetic mean of x and y; it is also between x and y.
+If r ≥ 0, then M(rx,ry) = r M(x,y).
+There is an integral-form expression for M(x,y):[3]
+M
+(
+x
+,
+y
+)
+=
+π
+2
+(
+∫
+0
+π
+2
+d
+θ
+x
+2
+cos
+2
+⁡
+θ
++
+y
+2
+sin
+2
+⁡
+θ
+)
+−
+1
+=
+π
+(
+∫
+0
+∞
+d
+t
+t
+(
+t
++
+x
+2
+)
+(
+t
++
+y
+2
+)
+)
+−
+1
+=
+π
+4
+⋅
+x
++
+y
+K
+(
+x
+−
+y
+x
++
+y
+)
+{\displaystyle {\begin{aligned}M(x,y)&={\frac {\pi }{2}}\left(\int _{0}^{\frac {\pi }{2}}{\frac {d\theta }{\sqrt {x^{2}\cos ^{2}\theta +y^{2}\sin ^{2}\theta }}}\right)^{-1}\\&=\pi \left(\int _{0}^{\infty }{\frac {dt}{\sqrt {t(t+x^{2})(t+y^{2})}}}\right)^{-1}\\&={\frac {\pi }{4}}\cdot {\frac {x+y}{K\left({\frac {x-y}{x+y}}\right)}}\end{aligned}}}
+where K(k) is the complete elliptic integral of the first kind:
+K
+(
+k
+)
+=
+∫
+0
+π
+2
+d
+θ
+1
+−
+k
+2
+sin
+2
+⁡
+(
+θ
+)
+{\displaystyle K(k)=\int _{0}^{\frac {\pi }{2}}{\frac {d\theta }{\sqrt {1-k^{2}\sin ^{2}(\theta )}}}}
+Indeed, since the arithmetic–geometric process converges so quickly, it provides an efficient way to compute elliptic integrals via this formula. In engineering, it is used for instance in elliptic filter design.[4]
+The arithmetic–geometric mean is connected to the Jacobi theta function 
+θ
+3
+{\displaystyle \theta _{3}}
+ by[5]
+M
+(
+1
+,
+x
+)
+=
+θ
+3
+−
+2
+(
+exp
+⁡
+(
+−
+π
+M
+(
+1
+,
+x
+)
+M
+(
+1
+,
+1
+−
+x
+2
+)
+)
+)
+=
+(
+∑
+n
+∈
+Z
+exp
+⁡
+(
+−
+n
+2
+π
+M
+(
+1
+,
+x
+)
+M
+(
+1
+,
+1
+−
+x
+2
+)
+)
+)
+−
+2
+,
+{\displaystyle M(1,x)=\theta _{3}^{-2}\left(\exp \left(-\pi {\frac {M(1,x)}{M\left(1,{\sqrt {1-x^{2}}}\right)}}\right)\right)=\left(\sum _{n\in \mathbb {Z} }\exp \left(-n^{2}\pi {\frac {M(1,x)}{M\left(1,{\sqrt {1-x^{2}}}\right)}}\right)\right)^{-2},}
+which upon setting 
+x
+=
+1
+/
+2
+{\displaystyle x=1/{\sqrt {2}}}
+ gives
+M
+(
+1
+,
+1
+/
+2
+)
+=
+(
+∑
+n
+∈
+Z
+e
+−
+n
+2
+π
+)
+−
+2
+.
+{\displaystyle M(1,1/{\sqrt {2}})=\left(\sum _{n\in \mathbb {Z} }e^{-n^{2}\pi }\right)^{-2}.}
+The reciprocal of the arithmetic–geometric mean of 1 and the square root of 2 is called Gauss's constant, after Carl Friedrich Gauss.
+1
+M
+(
+1
+,
+2
+)
+=
+G
+=
+0.8346268
+…
+{\displaystyle {\frac {1}{M(1,{\sqrt {2}})}}=G=0.8346268\dots }
+In 1799, Gauss proved[note 1] that
+M
+(
+1
+,
+2
+)
+=
+π
+ϖ
+{\displaystyle M(1,{\sqrt {2}})={\frac {\pi }{\varpi }}}
+where 
+ϖ
+{\displaystyle \varpi }
+ is the lemniscate constant.
+In 1941, 
+M
+(
+1
+,
+2
+)
+{\displaystyle M(1,{\sqrt {2}})}
+ (and hence 
+G
+{\displaystyle G}
+) was proven transcendental by Theodor Schneider.[note 2][6][7] The set 
+{
+π
+,
+M
+(
+1
+,
+1
+/
+2
+)
+}
+{\displaystyle \{\pi ,M(1,1/{\sqrt {2}})\}}
+ is algebraically independent over 
+Q
+{\displaystyle \mathbb {Q} }
+,[8][9] but the set 
+{
+π
+,
+M
+(
+1
+,
+1
+/
+2
+)
+,
+M
+′
+(
+1
+,
+1
+/
+2
+)
+}
+{\displaystyle \{\pi ,M(1,1/{\sqrt {2}}),M'(1,1/{\sqrt {2}})\}}
+ (where the prime denotes the derivative with respect to the second variable) is not algebraically independent over 
+Q
+{\displaystyle \mathbb {Q} }
+. In fact,[10]
+π
+=
+2
+2
+M
+3
+(
+1
+,
+1
+/
+2
+)
+M
+′
+(
+1
+,
+1
+/
+2
+)
+.
+{\displaystyle \pi =2{\sqrt {2}}{\frac {M^{3}(1,1/{\sqrt {2}})}{M'(1,1/{\sqrt {2}})}}.}
+The geometric–harmonic mean can be calculated by an analogous method, using sequences of geometric and harmonic means. One finds that GH(x,y) = 1/M(1/x, 1/y) = xy/M(x,y).[11][better source needed]
+The arithmetic–harmonic mean can be similarly defined, but takes the same value as the geometric mean (see section "Calculation" there).
+The arithmetic–geometric mean can be used to compute – among others – logarithms,  complete and incomplete elliptic integrals of the first and second kind,[12] and Jacobi elliptic functions.[13]
+From the inequality of arithmetic and geometric means we can conclude that:
+g
+n
+≤
+a
+n
+{\displaystyle g_{n}\leq a_{n}}
+and thus
+g
+n
++
+1
+=
+g
+n
+⋅
+a
+n
+≥
+g
+n
+⋅
+g
+n
+=
+g
+n
+{\displaystyle g_{n+1}={\sqrt {g_{n}\cdot a_{n}}}\geq {\sqrt {g_{n}\cdot g_{n}}}=g_{n}}
+that is, the sequence gn is nondecreasing.
+Furthermore, it is easy to see that it is also bounded above by the larger of x and y (which follows from the fact that both the arithmetic and geometric means of two numbers lie between them). Thus, by the monotone convergence theorem, the sequence is convergent, so there exists a g such that:
+lim
+n
+→
+∞
+g
+n
+=
+g
+{\displaystyle \lim _{n\to \infty }g_{n}=g}
+However, we can also see that:
+a
+n
+=
+g
+n
++
+1
+2
+g
+n
+{\displaystyle a_{n}={\frac {g_{n+1}^{2}}{g_{n}}}}
+and so:
+lim
+n
+→
+∞
+a
+n
+=
+lim
+n
+→
+∞
+g
+n
++
+1
+2
+g
+n
+=
+g
+2
+g
+=
+g
+{\displaystyle \lim _{n\to \infty }a_{n}=\lim _{n\to \infty }{\frac {g_{n+1}^{2}}{g_{n}}}={\frac {g^{2}}{g}}=g}
+Q.E.D.
+This proof is given by Gauss.[1]
+Let
+I
+(
+x
+,
+y
+)
+=
+∫
+0
+π
+/
+2
+d
+θ
+x
+2
+cos
+2
+⁡
+θ
++
+y
+2
+sin
+2
+⁡
+θ
+,
+{\displaystyle I(x,y)=\int _{0}^{\pi /2}{\frac {d\theta }{\sqrt {x^{2}\cos ^{2}\theta +y^{2}\sin ^{2}\theta }}},}
+Changing the variable of integration to 
+θ
+′
+{\displaystyle \theta '}
+, where
+sin
+⁡
+θ
+=
+2
+x
+sin
+⁡
+θ
+′
+(
+x
++
+y
+)
++
+(
+x
+−
+y
+)
+sin
+2
+⁡
+θ
+′
+,
+{\displaystyle \sin \theta ={\frac {2x\sin \theta '}{(x+y)+(x-y)\sin ^{2}\theta '}},}
+gives
+I
+(
+x
+,
+y
+)
+=
+∫
+0
+π
+/
+2
+d
+θ
+′
+(
+1
+2
+(
+x
++
+y
+)
+)
+2
+cos
+2
+⁡
+θ
+′
++
+(
+x
+y
+)
+2
+sin
+2
+⁡
+θ
+′
+=
+I
+(
+1
+2
+(
+x
++
+y
+)
+,
+x
+y
+)
+.
+{\displaystyle {\begin{aligned}I(x,y)&=\int _{0}^{\pi /2}{\frac {d\theta '}{\sqrt {{\bigl (}{\frac {1}{2}}(x+y){\bigr )}^{2}\cos ^{2}\theta '+{\bigl (}{\sqrt {xy}}{\bigr )}^{2}\sin ^{2}\theta '}}}\\&=I{\bigl (}{\tfrac {1}{2}}(x+y),{\sqrt {xy}}{\bigr )}.\end{aligned}}}
+Thus, we have
+I
+(
+x
+,
+y
+)
+=
+I
+(
+a
+1
+,
+g
+1
+)
+=
+I
+(
+a
+2
+,
+g
+2
+)
+=
+⋯
+=
+I
+(
+M
+(
+x
+,
+y
+)
+,
+M
+(
+x
+,
+y
+)
+)
+=
+π
+/
+(
+2
+M
+(
+x
+,
+y
+)
+)
+.
+{\displaystyle {\begin{aligned}I(x,y)&=I(a_{1},g_{1})=I(a_{2},g_{2})=\cdots \\&=I{\bigl (}M(x,y),M(x,y){\bigr )}=\pi /{\bigr (}2M(x,y){\bigl )}.\end{aligned}}}
+The last equality comes from observing that 
+I
+(
+z
+,
+z
+)
+=
+π
+/
+(
+2
+z
+)
+{\displaystyle I(z,z)=\pi /(2z)}
+.
+Finally, we obtain the desired result
+M
+(
+x
+,
+y
+)
+=
+π
+/
+(
+2
+I
+(
+x
+,
+y
+)
+)
+.
+{\displaystyle M(x,y)=\pi /{\bigl (}2I(x,y){\bigr )}.}
+For example, according to the Gauss–Legendre algorithm:[14]
+π
+=
+4
+M
+(
+1
+,
+1
+/
+2
+)
+2
+1
+−
+∑
+j
+=
+1
+∞
+2
+j
++
+1
+c
+j
+2
+,
+{\displaystyle \pi ={\frac {4\,M(1,1/{\sqrt {2}})^{2}}{1-\displaystyle \sum _{j=1}^{\infty }2^{j+1}c_{j}^{2}}},}
+where
+c
+j
+=
+1
+2
+(
+a
+j
+−
+1
+−
+g
+j
+−
+1
+)
+,
+{\displaystyle c_{j}={\frac {1}{2}}\left(a_{j-1}-g_{j-1}\right),}
+with 
+a
+0
+=
+1
+{\displaystyle a_{0}=1}
+ and 
+g
+0
+=
+1
+/
+2
+{\displaystyle g_{0}=1/{\sqrt {2}}}
+, which can be computed without loss of precision using
+c
+j
+=
+c
+j
+−
+1
+2
+4
+a
+j
+.
+{\displaystyle c_{j}={\frac {c_{j-1}^{2}}{4a_{j}}}.}
+Taking 
+a
+0
+=
+1
+{\displaystyle a_{0}=1}
+ and 
+g
+0
+=
+cos
+⁡
+α
+{\displaystyle g_{0}=\cos \alpha }
+ yields the AGM
+M
+(
+1
+,
+cos
+⁡
+α
+)
+=
+π
+2
+K
+(
+sin
+⁡
+α
+)
+,
+{\displaystyle M(1,\cos \alpha )={\frac {\pi }{2K(\sin \alpha )}},}
+where K(k) is a complete elliptic integral of the first kind:
+K
+(
+k
+)
+=
+∫
+0
+π
+/
+2
+(
+1
+−
+k
+2
+sin
+2
+⁡
+θ
+)
+−
+1
+/
+2
+d
+θ
+.
+{\displaystyle K(k)=\int _{0}^{\pi /2}(1-k^{2}\sin ^{2}\theta )^{-1/2}\,d\theta .}
+That is to say that this quarter period may be efficiently computed through the AGM,
+K
+(
+k
+)
+=
+π
+2
+M
+(
+1
+,
+1
+−
+k
+2
+)
+.
+{\displaystyle K(k)={\frac {\pi }{2M(1,{\sqrt {1-k^{2}}})}}.}
+Using this property of the AGM along with the ascending transformations of John Landen,[15] Richard P. Brent[16] suggested the first AGM algorithms for the fast evaluation of elementary transcendental functions (ex, cos x, sin x). Subsequently, many authors went on to study the use of the AGM algorithms.[17]

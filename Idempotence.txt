@@ -1,0 +1,362 @@
+14972,
+Idempotence,
+Idempotence (UK: /ˌɪdɛmˈpoʊtəns/,[1] US: /ˈaɪdəm-/)[2] is the property of certain operations in mathematics and computer science whereby they can be applied multiple times without changing the result beyond the initial application. The concept of idempotence arises in a number of places in abstract algebra (in particular, in the theory of projectors and closure operators) and functional programming (in which it is connected to the property of referential transparency).
+The term was introduced by American mathematician Benjamin Peirce in 1870[3] in the context of elements of algebras that remain invariant when raised to a positive integer power, and literally means "(the quality of having) the same power", from idem + potence (same + power).
+An element 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ of a set 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ equipped with a binary operator 
+
+
+
+⋅
+
+
+{\displaystyle \cdot }
+
+ is said to be idempotent under 
+
+
+
+⋅
+
+
+{\displaystyle \cdot }
+
+ if[4][5]
+The binary operation 
+
+
+
+⋅
+
+
+{\displaystyle \cdot }
+
+ is said to be idempotent if[6][7]
+In the monoid 
+
+
+
+(
+
+E
+
+E
+
+
+,
+∘
+)
+
+
+{\displaystyle (E^{E},\circ )}
+
+ of the functions from a set 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ to itself (see set exponentiation) with function composition 
+
+
+
+∘
+
+
+{\displaystyle \circ }
+
+, idempotent elements are the functions 
+
+
+
+f
+:
+E
+→
+E
+
+
+{\displaystyle f\colon E\to E}
+
+ such that 
+
+
+
+f
+∘
+f
+=
+f
+
+
+{\displaystyle f\circ f=f}
+
+,[8] that is such that 
+
+
+
+f
+(
+f
+(
+x
+)
+)
+=
+f
+(
+x
+)
+
+
+{\displaystyle f(f(x))=f(x)}
+
+ for all 
+
+
+
+x
+∈
+E
+
+
+{\displaystyle x\in E}
+
+ (in other words, the image 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ of each element 
+
+
+
+x
+∈
+E
+
+
+{\displaystyle x\in E}
+
+ is a fixed point of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+). For example:
+If the set 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ has 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ elements, we can partition it into 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ chosen fixed points and 
+
+
+
+n
+−
+k
+
+
+{\displaystyle n-k}
+
+ non-fixed points under 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, and then 
+
+
+
+
+k
+
+n
+−
+k
+
+
+
+
+{\displaystyle k^{n-k}}
+
+ is the number of different idempotent functions. Hence, taking into account all possible partitions,
+is the total number of possible idempotent functions on the set. The integer sequence of the number of idempotent functions as given by the sum above for n = 0, 1, 2, 3, 4, 5, 6, 7, 8, ... starts with 1, 1, 3, 10, 41, 196, 1057, 6322, 41393, ... (sequence A000248 in the OEIS).
+Neither the property of being idempotent nor that of being not is preserved under function composition.[9] As an example for the former, 
+
+
+
+f
+(
+x
+)
+=
+x
+
+
+{\displaystyle f(x)=x}
+
+ mod 3 and 
+
+
+
+g
+(
+x
+)
+=
+max
+(
+x
+,
+5
+)
+
+
+{\displaystyle g(x)=\max(x,5)}
+
+ are both idempotent, but 
+
+
+
+f
+∘
+g
+
+
+{\displaystyle f\circ g}
+
+ is not,[10] although 
+
+
+
+g
+∘
+f
+
+
+{\displaystyle g\circ f}
+
+ happens to be.[11] As an example for the latter, the negation function 
+
+
+
+¬
+
+
+{\displaystyle \neg }
+
+ on the Boolean domain is not idempotent, but 
+
+
+
+¬
+∘
+¬
+
+
+{\displaystyle \neg \circ \neg }
+
+ is. Similarly, unary negation 
+
+
+
+−
+(
+⋅
+)
+
+
+{\displaystyle -(\cdot )}
+
+ of real numbers is not idempotent, but  
+
+
+
+−
+(
+⋅
+)
+∘
+−
+(
+⋅
+)
+
+
+{\displaystyle -(\cdot )\circ -(\cdot )}
+
+ is. In both cases, the composition is simply the identity function, which is idempotent.
+In computer science, the term idempotence may have a different meaning depending on the context in which it is applied:
+This is a very useful property in many situations, as it means that an operation can be repeated or retried as often as necessary without causing unintended effects. With non-idempotent operations, the algorithm may have to keep track of whether the operation was already performed or not.
+A function looking up a customer's name and address in a database is typically idempotent, since this will not cause the database to change. Similarly, a request for changing a customer's address to XYZ is typically idempotent, because the final address will be the same no matter how many times the request is submitted. However, a customer request for placing an order is typically not idempotent since multiple requests will lead to multiple orders being placed. A request for canceling a particular order is idempotent because no matter how many requests are made the order remains canceled.
+A sequence of idempotent subroutines where at least one subroutine is different from the others, however, is not necessarily idempotent if a later subroutine in the sequence changes a value that an earlier subroutine depends on—idempotence is not closed under sequential composition. For example, suppose the initial value of a variable is 3 and there is a subroutine sequence that reads the variable, then changes it to 5, and then reads it again. Each step in the sequence is idempotent: both steps reading the variable have no side effects and the step changing the variable to 5 will always have the same effect no matter how many times it is executed. Nonetheless, executing the entire sequence once produces the output (3, 5), but executing it a second time produces the output (5, 5), so the sequence is not idempotent.
+In the Hypertext Transfer Protocol (HTTP), idempotence and safety are the major attributes that separate HTTP methods. Of the major HTTP methods, GET, PUT, and DELETE should be implemented in an idempotent manner according to the standard, but POST doesn't need to be.[12] GET retrieves the state of a resource; PUT updates the state of a resource; and DELETE deletes a resource. As in the example above, reading data usually has no side effects, so it is idempotent (in fact nullipotent). Updating and deleting a given data are each usually idempotent as long as the request uniquely identifies the resource and only that resource again in the future. PUT and DELETE with unique identifiers reduce to the simple case of assignment to a variable of either a value or the null-value, respectively, and are idempotent for the same reason; the end result is always the same as the result of the initial execution, even if the response differs.[13]
+Violation of the unique identification requirement in storage or deletion typically causes violation of idempotence.  For example, storing or deleting a given set of content without specifying a unique identifier: POST requests, which do not need to be idempotent, often do not contain unique identifiers, so the creation of the identifier is delegated to the receiving system which then creates a corresponding new record.  Similarly, PUT and DELETE requests with nonspecific criteria may result in different outcomes depending on the state of the system - for example, a request to delete the most recent record. In each case, subsequent executions will further modify the state of the system, so they are not idempotent.
+In event stream processing, idempotence refers to the ability of a system to produce the same outcome, even if the same file, event or message is received more than once.
+In a load–store architecture, instructions that might possibly cause a page fault are idempotent. So if a page fault occurs, the operating system can load the page from disk and then simply re-execute the faulted instruction.  In a processor where such instructions are not idempotent, dealing with page faults is much more complex.[14][15]
+When reformatting output, pretty-printing is expected to be idempotent. In other words, if the output is already "pretty", there should be nothing to do for the pretty-printer.[citation needed]
+In service-oriented architecture (SOA), a multiple-step orchestration process composed entirely of idempotent steps can be replayed without side-effects if any part of that process fails.
+Many operations that are idempotent often have ways to "resume" a process if it is interrupted –  ways that finish much faster than starting all over from the beginning. For example, resuming a file transfer, 
+synchronizing files,  creating a software build, installing an application and all of its dependencies with a package manager, etc.
+Applied examples that many people could encounter in their day-to-day lives include elevator call buttons and crosswalk buttons.[16] The initial activation of the button moves the system into a requesting state, until the request is satisfied. Subsequent activations of the button between the initial activation and the request being satisfied have no effect, unless the system is designed to adjust the time for satisfying the request based on the number of activations.
+
+

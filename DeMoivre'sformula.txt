@@ -1,0 +1,236 @@
+7979,
+DeMoivre'sformula,
+In mathematics, de Moivre's formula  (also known as de Moivre's theorem and de Moivre's identity) states that for any real number x and integer n it holds that
+where i is the imaginary unit (i2 = −1). The formula is named after Abraham de Moivre, although he never stated it in his works.[1] The expression cos x + i sin x is sometimes abbreviated to cis x.
+The formula is important because it connects complex numbers and trigonometry. By expanding the left hand side and then comparing the real and imaginary parts under the assumption that x is real, it is possible to derive useful expressions for cos nx and sin nx in terms of cos x and sin x.
+As written, the formula is not valid for non-integer powers n. However, there are generalizations of this formula valid for other exponents. These can be used to give explicit expressions for the nth roots of unity, that is, complex numbers z such that zn = 1.
+For 
+x
+=
+30
+∘
+{\displaystyle x=30^{\circ }}
+ and 
+n
+=
+2
+{\displaystyle n=2}
+, de Moivre's formula asserts that
+(
+cos
+⁡
+(
+30
+∘
+)
++
+i
+sin
+⁡
+(
+30
+∘
+)
+)
+2
+=
+cos
+⁡
+(
+2
+⋅
+30
+∘
+)
++
+i
+sin
+⁡
+(
+2
+⋅
+30
+∘
+)
+,
+{\displaystyle \left(\cos(30^{\circ })+i\sin(30^{\circ })\right)^{2}=\cos(2\cdot 30^{\circ })+i\sin(2\cdot 30^{\circ }),}
+or equivalently that
+(
+3
+2
++
+i
+2
+)
+2
+=
+1
+2
++
+i
+3
+2
+.
+{\displaystyle \left({\frac {\sqrt {3}}{2}}+{\frac {i}{2}}\right)^{2}={\frac {1}{2}}+{\frac {i{\sqrt {3}}}{2}}.}
+In this example, it is easy to check the validity of the equation by multiplying out the left side.
+De Moivre's formula is a precursor to Euler's formula
+e
+i
+x
+=
+cos
+⁡
+x
++
+i
+sin
+⁡
+x
+,
+{\displaystyle e^{ix}=\cos x+i\sin x,}
+which establishes the fundamental relationship between the trigonometric functions and the complex exponential function. 
+One can derive de Moivre's formula using Euler's formula and the exponential law for integer powers
+since Euler's formula implies that the left side is equal to 
+(
+cos
+⁡
+x
++
+i
+sin
+⁡
+x
+)
+n
+{\displaystyle \left(\cos x+i\sin x\right)^{n}}
+ while the right side is equal to 
+The truth of de Moivre's theorem can be established by using mathematical induction for natural numbers, and extended to all integers from there. For an integer n, call the following statement S(n):
+For n > 0, we proceed by mathematical induction. S(1) is clearly true. For our hypothesis, we assume S(k) is true for some natural k. That is, we assume
+Now, considering S(k + 1):
+See angle sum and difference identities.
+We deduce that S(k) implies S(k + 1). By the principle of mathematical induction it follows that the result is true for all natural numbers. Now, S(0) is clearly true since cos(0x) + i sin(0x) = 1 + 0i = 1. Finally, for the negative integer cases, we consider an exponent of −n for natural n.
+The equation (*) is a result of the identity
+for z = cos nx + i sin nx. Hence, S(n) holds for all integers n.
+For an equality of complex numbers, one necessarily has equality both of the real parts and of the imaginary parts of both members of the equation. If x, and therefore also cos x and sin x, are real numbers, then the identity of these parts can be written using binomial coefficients. This formula was given by 16th century French mathematician François Viète:
+In each of these two equations, the final trigonometric function equals one or minus one or zero, thus removing half the entries in each of the sums. These equations are in fact valid even for complex values of x, because both sides are entire (that is, holomorphic on the whole complex plane) functions of x, and two such functions that coincide on the real axis necessarily coincide everywhere. Here are the concrete instances of these equations for n = 2 and n = 3:
+The right-hand side of the formula for cos nx is in fact the value Tn(cos x) of the Chebyshev polynomial Tn at cos x.
+De Moivre's formula does not hold for non-integer powers. The derivation of de Moivre's formula above involves a complex number raised to the integer power n. If a complex number is raised to a non-integer power, the result is multiple-valued (see failure of power and logarithm identities). For example, when n = 1/2, de Moivre's formula gives the following results:
+This assigns two different values for the same expression 11/2, so the formula is not consistent in this case.
+On the other hand, the values 1 and −1 are both square roots of 1. More generally, if z and w are complex numbers, then
+is multi-valued while
+is not. However, it is always the case that
+is one of the values of
+A modest extension of the version of de Moivre's formula given in this article can be used to find the nth roots of a complex number (equivalently, the power of 1/n).
+If z is a complex number, written in polar form as
+then the n nth roots of z are given by
+where k varies over the integer values from 0 to n − 1.
+This formula is also sometimes known as de Moivre's formula.[2]
+Since cosh x + sinh x = ex, an analog to de Moivre's formula also applies to the hyperbolic trigonometry. For all integers n,
+(
+cosh
+⁡
+x
++
+sinh
+⁡
+x
+)
+n
+=
+cosh
+⁡
+n
+x
++
+sinh
+⁡
+n
+x
+.
+{\displaystyle (\cosh x+\sinh x)^{n}=\cosh nx+\sinh nx.}
+If n is a rational number (but not necessarily an integer), then cosh nx + sinh nx will be one of the values of (cosh x + sinh x)n.[3]
+The formula holds for any complex number 
+z
+=
+x
++
+i
+y
+{\displaystyle z=x+iy}
+where
+To find the roots of a quaternion there is an analogous form of de Moivre's formula. A quaternion in the form
+can be represented in the form
+In this representation,
+and the trigonometric functions are defined as
+In the case that a2 + b2 + c2 ≠ 0,
+that is, the unit vector. This leads to the variation of De Moivre's formula:
+To find the cube roots of
+write the quaternion in the form
+Then the cube roots are given by:
+Consider the following matrix
+A
+=
+(
+cos
+⁡
+ϕ
+sin
+⁡
+ϕ
+−
+sin
+⁡
+ϕ
+cos
+⁡
+ϕ
+)
+{\displaystyle A={\begin{pmatrix}\cos \phi &\sin \phi \\-\sin \phi &\cos \phi \end{pmatrix}}}
+. Then 
+(
+cos
+⁡
+ϕ
+sin
+⁡
+ϕ
+−
+sin
+⁡
+ϕ
+cos
+⁡
+ϕ
+)
+n
+=
+(
+cos
+⁡
+n
+ϕ
+sin
+⁡
+n
+ϕ
+−
+sin
+⁡
+n
+ϕ
+cos
+⁡
+n
+ϕ
+)
+{\displaystyle {\begin{pmatrix}\cos \phi &\sin \phi \\-\sin \phi &\cos \phi \end{pmatrix}}^{n}={\begin{pmatrix}\cos n\phi &\sin n\phi \\-\sin n\phi &\cos n\phi \end{pmatrix}}}
+. This fact (although it can be proven in the very same way as for complex numbers) is a direct consequence of the fact that the space of matrices of type 
+(
+a
+b
+−
+b
+a
+)
+{\displaystyle {\begin{pmatrix}a&b\\-b&a\end{pmatrix}}}
+ is isomorphic to the complex plane.

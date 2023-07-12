@@ -1,0 +1,24 @@
+37905,
+Mechanicalequilibrium,
+In classical mechanics, a particle is in mechanical equilibrium if the net force on that particle is zero.[1]: 39  By extension, a physical system made up of many parts is in mechanical equilibrium if the net force on each of its individual parts is zero.[1]: 45–46 [2]
+In addition to defining mechanical equilibrium in terms of force, there are many alternative definitions for mechanical equilibrium which are all mathematically equivalent. In terms of momentum, a system is in equilibrium if the momentum of its parts is all constant. In terms of velocity, the system is in equilibrium if velocity is constant. In a rotational mechanical equilibrium the angular momentum of the object is conserved and the net torque is zero.[2] More generally in conservative systems, equilibrium is established at a point in configuration space where the gradient of the potential energy with respect to the generalized coordinates is zero.
+If a particle in equilibrium has zero velocity, that particle is in static equilibrium.[3][4] Since all particles in equilibrium have constant velocity, it is always possible to find an inertial reference frame in which the particle is stationary with respect to the frame.
+An important property of systems at mechanical equilibrium is their stability.
+If we have a function which describes the system's potential energy, we can determine the system's equilibria using calculus. A system is in mechanical equilibrium at the critical points of the function describing the system's potential energy. We can locate these points using the fact that the derivative of the function is zero at these points. To determine whether or not the system is stable or unstable, we apply the second derivative test. With 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ denoting the static equation of motion of a system with a single degree of freedom we can perform the following calculations: 
+When considering more than one dimension, it is possible to get different results in different directions, for example stability with respect to displacements in the x-direction but instability in the y-direction, a case known as a saddle point. Generally an equilibrium is only referred to as stable if it is stable in all directions.
+Sometimes there is not enough information about the forces acting on a body to determine if it is in equilibrium or not. This makes it a statically indeterminate system.
+A stationary object (or set of objects) is in "static equilibrium," which is a special case of mechanical equilibrium. A paperweight on a desk is an example of static equilibrium. Other examples include a rock balance sculpture, or a stack of blocks in the game of Jenga, so long as the sculpture or stack of blocks is not in the state of collapsing.
+Objects in motion can also be in equilibrium. A child sliding down a slide at constant speed would be in mechanical equilibrium, but not in static equilibrium (in the reference frame of the earth or slide).
+Another example of mechanical equilibrium is a person pressing a spring to a defined point. He or she can push it to an arbitrary point and hold it there, at which point the compressive load and the spring reaction are equal. In this state the system is in mechanical equilibrium. When the compressive force is removed the spring returns to its original state.
+The minimal number of static equilibria of homogeneous, convex bodies (when resting under gravity on a horizontal surface) is of special interest. In the planar case, the minimal number is 4, while in three dimensions one can build an object with just one stable and one unstable balance point.[citation needed] Such an object is called a gömböc.
+
+

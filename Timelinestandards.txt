@@ -1,0 +1,25 @@
+36765,
+Timelinestandards,
+This page describes a standard layout to use when adding millennia, centuries, decades, or years to the history timeline.  Any comments on changes to this format should be added via Wikipedia Talk:Timeline standards. There is a proposal for changing the current standard (shown below) on the talk page and there is a recently closed survey on years pages here.
+See also: WikiProject Days of the year (template for day pages)
+Articles for the year 500 BC and earlier should be redirected to the relevant decade. Articles for the year 1700 BC and earlier should be redirected to the relevant century. Articles for the year 4000 BC and earlier should be redirected to the relevant millennium. 
+Here is the format for the Year pages. Note: Wikipedia:WikiProject Years is working on minor updates for this version.
+Each year should have an infobox at the top right. The templates will be the template {{yearbox}} followed by the template {{C21YearInTopic}} (or applicable centuries template).
+The first sentence in the introduction explains that the page is for a year and not a number. This statement should only be included if the number is on the List of numbers page. The second introduction sentence will describe the year (a link to a calendar) and the type of calendar the year belongs to. The following sentence lists any official designation the year has.
+The events section is divided into months, each month has a calendar at the beginning and lists any important events that occurred. The month header once linked to the particular month in the year (if the page exists, e.g. January 2004), but doesn't anymore. Every item links to the day.
+The Births section list births in that year, divided into month section. Each entry links to the day page, has a very short description of the person, and links to the death year if known.  There may be other restrictions as to who may appear, but absent other consensus, the person must have a'Wikipedia article.
+The deaths section begins with a see also statement, and follows the same format as the births section: Month section, day link, name, and birth year link if known.
+It has not yet been decided what else will be included on the year pages. Many currently have sections for awards, fiction, external links etc. These sections may be removed (or more likely moved to a separate page to be included on the infobox) later, but for now the following form can be followed to close out the page.
+Intro section
+The first paragraph in the introduction explains the start date and end date for the millennium as well as the type of calendar the millennium belongs to.  Editors may choose to explain what the millennium is not as popular dating often conflicts with official dating.  It is recommended that editors then attempt to summarize the essence of the millennium in a few paragraphs, similar to other Wikipedia articles. 
+Sections
+Civilizations can be divided by continent and organized in columns
+Events and trends The events section can be divided into centuries.  Care should be taken not to list every important event of the millennium, but choose those that best represent the overall trends of the period.
+Significant people can be divided by continent and century.  Care should be taken to provide representative examples from each century and each continent whenever possible.  The following table may serve as a guide.
+Inventions, discoveries, introductions can be grouped together into subtopics such as science, mathematics, communications, transportation and warfare.
+Centuries and decades
+More: Close the page with something similar to the following:
+End of format for the millennium pages
+End of format for the Years
+
+

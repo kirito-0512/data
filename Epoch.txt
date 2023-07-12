@@ -1,0 +1,10 @@
+41113,
+Epoch,
+In chronology and periodization, an epoch or reference epoch is an instant in time chosen as the origin of a particular calendar era. The "epoch" serves as a reference point from which time is measured.
+The moment of epoch is usually decided by congruity, or by following conventions understood from the epoch in question. The epoch moment or date is usually defined from a specific, clear event of change, an epoch event. In a more gradual change, a deciding moment is chosen when the epoch criterion was reached.
+The official Japanese system numbers years from the accession of the current emperor, regarding the calendar year during which the accession occurred as the first year. A similar system existed in China before 1912, being based on the accession year of the emperor (1911 was thus the third year of the Xuantong period). With the establishment of the Republic of China in 1912, the republican era was introduced. It is still very common in Taiwan to date events via the republican era. The People's Republic of China adopted the common era calendar in 1949 (the 38th year of the Chinese Republic).
+An epoch in computing is the time at which the representation is zero. For example, Unix time is represented as the number of seconds since 00:00:00 UTC on 1 January 1970, not counting leap seconds. 
+An epoch in astronomy is a reference time used for consistency in calculation of positions and orbits. A common astronomical epoch is J2000, which is noon on January 1, 2000, Terrestrial Time.
+An epoch in Geochronology is a period of time, typically in the order of tens of millions of years. The current epoch is the Holocene.
+
+

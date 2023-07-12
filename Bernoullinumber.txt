@@ -1,0 +1,468 @@
+4964,
+Bernoullinumber,
+In mathematics, the Bernoulli numbers Bn are a sequence of rational numbers which occur frequently in analysis. The Bernoulli numbers appear in (and can be defined by) the Taylor series expansions of the tangent and hyperbolic tangent functions, in Faulhaber's formula for the sum of m-th powers of the first n positive integers, in the Euler–Maclaurin formula, and in expressions for certain values of the Riemann zeta function.
+The values of the first 20 Bernoulli numbers are given in the adjacent table. Two conventions are used in the literature, denoted here by 
+B
+n
+−
+{\displaystyle B_{n}^{-{}}}
+ and 
+B
+n
++
+{\displaystyle B_{n}^{+{}}}
+; they differ only for n = 1, where 
+B
+1
+−
+=
+−
+1
+/
+2
+{\displaystyle B_{1}^{-{}}=-1/2}
+ and 
+B
+1
++
+=
++
+1
+/
+2
+{\displaystyle B_{1}^{+{}}=+1/2}
+. For every odd n > 1, Bn = 0. For every even n > 0, Bn is negative if n is divisible by 4 and positive otherwise. The Bernoulli numbers are special values of the Bernoulli polynomials 
+B
+n
+(
+x
+)
+{\displaystyle B_{n}(x)}
+, with 
+B
+n
+−
+=
+B
+n
+(
+0
+)
+{\displaystyle B_{n}^{-{}}=B_{n}(0)}
+ and 
+B
+n
++
+=
+B
+n
+(
+1
+)
+{\displaystyle B_{n}^{+}=B_{n}(1)}
+.[1]
+The Bernoulli numbers were discovered around the same time by the Swiss mathematician Jacob Bernoulli, after whom they are named, and independently by Japanese mathematician Seki Takakazu.  Seki's discovery was posthumously published in 1712[2][3][4] in his work Katsuyō Sanpō; Bernoulli's, also posthumously, in his Ars Conjectandi of 1713.  Ada Lovelace's note G on the Analytical Engine from 1842 describes an algorithm for generating Bernoulli numbers with Babbage's machine.[5] As a result, the Bernoulli numbers have the distinction of being the subject of the first published complex computer program.
+The superscript ± used in this article distinguishes the two sign conventions for Bernoulli numbers. Only the n = 1 term is affected: 
+In the formulas below, one can switch from one sign convention to the other with the relation 
+B
+n
++
+=
+(
+−
+1
+)
+n
+B
+n
+−
+{\displaystyle B_{n}^{+}=(-1)^{n}B_{n}^{-}}
+, or for integer n = 2 or greater, simply ignore it.
+Since Bn = 0 for all odd n > 1, and many formulas only involve even-index Bernoulli numbers, a few authors write "Bn" instead of B2n . This article does not follow that notation.
+The Bernoulli numbers are rooted in the early history of the computation of sums of integer powers, which have been of interest to mathematicians since antiquity.
+Methods to calculate the sum of the first n positive integers, the sum of the squares and of the cubes of the first n positive integers were known, but there were no real 'formulas', only descriptions given entirely in words. Among the great mathematicians of antiquity to consider this problem were Pythagoras (c. 572–497 BCE, Greece), Archimedes (287–212 BCE, Italy), Aryabhata (b. 476, India), Abu Bakr al-Karaji (d. 1019, Persia) and Abu Ali al-Hasan ibn al-Hasan ibn al-Haytham (965–1039, Iraq).
+During the late sixteenth and early seventeenth centuries mathematicians made significant progress.  In the West Thomas Harriot (1560–1621) of England, Johann Faulhaber (1580–1635) of Germany, Pierre de Fermat (1601–1665) and fellow French mathematician Blaise Pascal (1623–1662) all played important roles.
+Thomas Harriot seems to have been the first to derive and write formulas for sums of powers using symbolic notation, but even he calculated only up to the sum of the fourth powers.  Johann Faulhaber gave formulas for sums of powers up to the 17th power in his 1631 Academia Algebrae, far higher than anyone before him, but he did not give a general formula.
+Blaise Pascal in 1654 proved Pascal's identity relating the sums of the pth powers of the first n positive integers for p = 0, 1, 2, ..., k.
+The Swiss mathematician Jakob Bernoulli (1654–1705) was the first to realize the existence of a single sequence of constants B0, B1, B2,... which provide a uniform formula for all sums of powers.[9]
+The joy Bernoulli experienced when he hit upon the pattern needed to compute quickly and easily the coefficients of his formula for the sum of the cth powers for any positive integer c can be seen from his comment. He wrote:
+Bernoulli's result was published posthumously in Ars Conjectandi in 1713.  Seki Takakazu independently discovered the Bernoulli numbers and his result was published a year earlier, also posthumously, in 1712.[2] However, Seki did not present his method as a formula based on a sequence of constants.
+Bernoulli's formula for sums of powers is the most useful and generalizable formulation to date. The coefficients in Bernoulli's formula are now called Bernoulli numbers, following a suggestion of Abraham de Moivre.
+Bernoulli's formula is sometimes called Faulhaber's formula after Johann Faulhaber who found remarkable ways to calculate sum of powers but never stated Bernoulli's formula. According to Knuth[9] a rigorous proof of Faulhaber's formula was first published by Carl Jacobi in 1834.[10] Knuth's in-depth study of Faulhaber's formula concludes (the nonstandard notation on the LHS is explained further on):
+In the above Knuth meant 
+B
+1
+−
+{\displaystyle B_{1}^{-}}
+; instead using 
+B
+1
++
+{\displaystyle B_{1}^{+}}
+ the formula avoids subtraction:
+The Bernoulli numbers OEIS: A164555(n)/OEIS: A027642(n) were introduced by Jakob Bernoulli in the book Ars Conjectandi published posthumously in 1713 page 97. The main formula can be seen in the second half of the corresponding facsimile. The constant coefficients denoted A, B, C and D by Bernoulli are mapped to the notation which is now prevalent as A = B2, B = B4, C = B6, D = B8. The expression c·c−1·c−2·c−3 means c·(c−1)·(c−2)·(c−3) – the small dots are used as grouping symbols. Using today's terminology these expressions are falling factorial powers ck. The factorial notation k! as a shortcut for 1 × 2 × ... × k was not introduced until 100 years later. The integral symbol on the left hand side goes back to Gottfried Wilhelm Leibniz in 1675 who used it as a long letter S for "summa" (sum).[b] The letter n on the left hand side is not an index of summation but gives the upper limit of the range of summation which is to be understood as 1, 2, ..., n. Putting things together, for positive c, today a mathematician is likely to write Bernoulli's formula as:
+This formula suggests setting B1 = 1/2 when switching from the so-called 'archaic' enumeration which uses only the even indices 2, 4, 6... to the modern form (more on different conventions in the next paragraph). Most striking in this context is the fact that the falling factorial ck−1 has for k = 0 the value 1/c + 1.[12] Thus Bernoulli's formula can be written
+if B1 = 1/2, recapturing the value Bernoulli gave to the coefficient at that position.
+The formula for 
+∑
+k
+=
+1
+n
+k
+9
+{\displaystyle \textstyle \sum _{k=1}^{n}k^{9}}
+ in the first half of the quotation by Bernoulli above contains an error at the last term; it should be 
+−
+3
+20
+n
+2
+{\displaystyle -{\tfrac {3}{20}}n^{2}}
+ instead of 
+−
+1
+12
+n
+2
+{\displaystyle -{\tfrac {1}{12}}n^{2}}
+.
+Many characterizations of the Bernoulli numbers have been found in the last 300 years, and each could be used to introduce these numbers.  Here only three of the most useful ones are mentioned:
+For the proof of the equivalence of the three approaches.[13]
+The Bernoulli numbers obey the sum formulas[1]
+where 
+m
+=
+0
+,
+1
+,
+2...
+{\displaystyle m=0,1,2...}
+ and δ denotes the Kronecker delta. Solving for 
+B
+m
+∓
+{\displaystyle B_{m}^{\mp {}}}
+ gives the recursive formulas
+In 1893 Louis Saalschütz listed  a total of 38 explicit formulas for the Bernoulli numbers,[14] usually giving some reference in the older literature. One of them is (for 
+m
+≥
+1
+{\displaystyle m\geq 1}
+):
+The exponential generating functions are
+where the substitution is 
+t
+→
+−
+t
+{\displaystyle t\to -t}
+. If we let 
+F
+(
+t
+)
+=
+∑
+i
+=
+1
+∞
+f
+i
+t
+i
+{\displaystyle F(t)=\sum _{i=1}^{\infty }f_{i}t^{i}}
+ and 
+G
+(
+t
+)
+=
+1
+/
+(
+1
++
+F
+(
+t
+)
+)
+=
+∑
+i
+=
+0
+∞
+g
+i
+t
+i
+{\displaystyle G(t)=1/(1+F(t))=\sum _{i=0}^{\infty }g_{i}t^{i}}
+ then
+Then 
+g
+0
+=
+1
+{\displaystyle g_{0}=1}
+ and for 
+m
+>
+0
+{\displaystyle m>0}
+ the mth term in the series for 
+G
+(
+t
+)
+{\displaystyle G(t)}
+ is:
+If
+then we find that
+showing that the values of 
+i
+!
+g
+i
+{\displaystyle i!g_{i}}
+ obey the recursive formula for the Bernoulli numbers 
+B
+i
+−
+{\displaystyle B_{i}^{-}}
+.
+The (ordinary) generating function
+is an asymptotic series. It contains the trigamma function ψ1.
+The Bernoulli numbers can be expressed in terms of the Riemann zeta function:
+Here the argument of the zeta function is 0 or negative.
+By means of the zeta functional equation and the gamma reflection formula the following relation can be obtained:[15]
+Now the argument of the zeta function is positive.
+It then follows from ζ → 1 (n → ∞) and Stirling's formula that
+In some applications it is useful to be able to compute the Bernoulli numbers B0 through Bp − 3 modulo p, where p is a prime; for example to test whether Vandiver's conjecture holds for p, or even just to determine whether p is an irregular prime. It is not feasible to carry out such a computation using the above recursive formulae, since at least (a constant multiple of) p2 arithmetic operations would be required. Fortunately, faster methods have been developed[16] which require only O(p (log p)2) operations (see big O notation).
+David Harvey[17] describes an algorithm for computing Bernoulli numbers by computing Bn modulo p for many small primes p, and then reconstructing Bn via the Chinese remainder theorem. Harvey writes that the asymptotic time complexity of this algorithm is O(n2 log(n)2 + ε) and claims that this implementation is significantly faster than implementations based on other methods. Using this implementation Harvey computed Bn for n = 108. Harvey's implementation has been included in SageMath since version 3.1. Prior to that, Bernd Kellner[18] computed Bn to full precision for n = 106 in December 2002 and Oleksandr Pavlyk[19] for n = 107 with Mathematica in April 2008.
+A possible algorithm for computing Bernoulli numbers in the Julia programming language is given by[14]
+Arguably the most important application of the Bernoulli numbers in mathematics is their use in the Euler–Maclaurin formula. Assuming that f is a sufficiently often differentiable function the Euler–Maclaurin formula can be written as[20]
+This formulation assumes the convention B−1 = −1/2. Using the convention B+1 = +1/2 the formula becomes
+Here 
+f
+(
+0
+)
+=
+f
+{\displaystyle f^{(0)}=f}
+ (i.e. the zeroth-order derivative of 
+f
+{\displaystyle f}
+ is just 
+f
+{\displaystyle f}
+). Moreover, let 
+f
+(
+−
+1
+)
+{\displaystyle f^{(-1)}}
+ denote an antiderivative of 
+f
+{\displaystyle f}
+. By the fundamental theorem of calculus,
+Thus the last formula can be further simplified to the following succinct form of the Euler–Maclaurin formula
+This form is for example the source for the important Euler–Maclaurin expansion of the zeta function
+Here sk denotes the rising factorial power.[21]
+Bernoulli numbers are also frequently used in other kinds of asymptotic expansions. The following example is the classical Poincaré-type asymptotic expansion of the digamma function ψ.
+Bernoulli numbers feature prominently in the closed form expression of the sum of the mth powers of the first n positive integers. For m, n ≥ 0 define
+This expression can always be rewritten as a polynomial in n of degree m + 1. The coefficients of these polynomials are related to the Bernoulli numbers by Bernoulli's formula:
+where (m + 1k) denotes the binomial coefficient.
+For example, taking m to be 1 gives the triangular numbers 0, 1, 3, 6, ... OEIS: A000217.
+Taking m to be 2 gives the square pyramidal numbers 0, 1, 5, 14, ... OEIS: A000330.
+Some authors use the alternate convention for Bernoulli numbers and state Bernoulli's formula in this way:
+Bernoulli's formula is sometimes called Faulhaber's formula after Johann Faulhaber who also found remarkable ways to calculate sums of powers.
+Faulhaber's formula was generalized by V. Guo and J. Zeng to a q-analog.[22]
+The Bernoulli numbers appear in the Taylor series expansion of many trigonometric functions and hyperbolic functions.
+The Bernoulli numbers appear in the following Laurent series:[23]
+Digamma function: 
+ψ
+(
+z
+)
+=
+ln
+⁡
+z
+−
+∑
+k
+=
+1
+∞
+B
+k
++
+k
+z
+k
+{\displaystyle \psi (z)=\ln z-\sum _{k=1}^{\infty }{\frac {B_{k}^{+{}}}{kz^{k}}}}
+The Kervaire–Milnor formula for the order of the cyclic group of diffeomorphism classes of exotic (4n − 1)-spheres which bound parallelizable manifolds involves Bernoulli numbers. Let ESn be the number of such exotic spheres for n ≥ 2, then
+The Hirzebruch signature theorem for the L genus of a smooth oriented closed manifold of dimension 4n also involves Bernoulli numbers.
+The connection of the Bernoulli number to various kinds of combinatorial numbers is based on the classical theory of finite differences and on the combinatorial interpretation of the Bernoulli numbers as an instance of a fundamental combinatorial principle, the inclusion–exclusion principle.
+The definition to proceed with was developed by Julius Worpitzky in 1883. Besides elementary arithmetic only the factorial function n! and the power function km is employed. The signless Worpitzky numbers are defined as
+They can also be expressed through the Stirling numbers of the second kind
+A Bernoulli number is then introduced as an inclusion–exclusion sum of Worpitzky numbers weighted by the harmonic sequence 1, 1/2, 1/3, ...
+This representation has B+1 = +1/2.
+Consider the sequence sn, n ≥ 0. From Worpitzky's numbers OEIS: A028246, OEIS: A163626 applied to s0, s0, s1, s0, s1, s2, s0, s1, s2, s3, ... is identical to the Akiyama–Tanigawa transform applied to sn (see Connection with Stirling numbers of the first kind). This can be seen via the table:
+The first row represents s0, s1, s2, s3, s4.
+Hence for the second fractional Euler numbers OEIS: A198631 (n) / OEIS: A006519 (n + 1):
+A second formula representing the Bernoulli numbers by the Worpitzky numbers is for n ≥ 1
+The simplified second Worpitzky's representation of the second Bernoulli numbers is:
+OEIS: A164555 (n + 1) / OEIS: A027642(n + 1) = n + 1/2n + 2 − 2 × OEIS: A198631(n) / OEIS: A006519(n + 1)
+which links the second Bernoulli numbers to the second fractional Euler numbers. The beginning is:
+The numerators of the first parentheses are OEIS: A111701 (see Connection with Stirling numbers of the first kind).
+If S(k,m) denotes Stirling numbers of the second kind[24] then one has:
+where jm denotes the falling factorial.
+If one defines the Bernoulli polynomials Bk(j) as:[25]
+where Bk for k = 0, 1, 2,... are the Bernoulli numbers.
+Then after the following property of the binomial coefficient:
+one has,
+One also has the following for Bernoulli polynomials,[25]
+The coefficient of j in (jm + 1) is (−1)m/m + 1.
+Comparing the coefficient of j in the two expressions of Bernoulli polynomials, one has:
+(resulting in B1 = +1/2) which is an explicit formula for Bernoulli numbers and can be used to prove Von-Staudt Clausen theorem.[26][27][28]
+The two main formulas relating the unsigned Stirling numbers of the first kind [nm] to the Bernoulli numbers (with B1 = +1/2) are
+and the inversion of this sum (for n ≥ 0, m ≥ 0)
+Here the number An,m are the rational Akiyama–Tanigawa numbers, the first few of which are displayed in the following table.
+The Akiyama–Tanigawa numbers satisfy a simple recurrence relation which can be exploited to iteratively compute the Bernoulli numbers. This leads to the algorithm shown in the section 'algorithmic description' above. See OEIS: A051714/OEIS: A051715.
+An autosequence is a sequence which has its inverse binomial transform equal to the signed sequence. If the main diagonal is zeroes = OEIS: A000004, the autosequence is of the first kind. Example: OEIS: A000045, the Fibonacci numbers. If the main diagonal is the first upper diagonal multiplied by 2, it is of the second kind. Example: OEIS: A164555/OEIS: A027642, the second Bernoulli numbers (see OEIS: A190339). The Akiyama–Tanigawa transform applied to 2−n = 1/OEIS: A000079 leads to OEIS: A198631 (n) / OEIS: A06519 (n + 1). Hence:
+See OEIS: A209308 and OEIS: A227577. OEIS: A198631 (n) / OEIS: A006519 (n + 1) are the second (fractional) Euler numbers and an autosequence of the second kind.
+Also valuable for OEIS: A027641 / OEIS: A027642 (see Connection with Worpitzky numbers).
+There are formulas connecting Pascal's triangle to Bernoulli numbers[c]
+where 
+|
+A
+n
+|
+{\displaystyle |A_{n}|}
+ is the determinant of a n-by-n Hessenberg matrix part of Pascal's triangle whose elements are: 
+a
+i
+,
+k
+=
+{
+0
+if 
+k
+>
+1
++
+i
+(
+i
++
+1
+k
+−
+1
+)
+otherwise
+{\displaystyle a_{i,k}={\begin{cases}0&{\text{if }}k>1+i\\{i+1 \choose k-1}&{\text{otherwise}}\end{cases}}}
+Example:
+There are formulas connecting Eulerian numbers ⟨nm⟩ to Bernoulli numbers:
+Both formulae are valid for n ≥ 0 if B1 is set to 1/2. If B1 is set to −1/2 they are valid only for n ≥ 1 and n ≥ 2 respectively.
+The Stirling polynomials σn(x) are related to the Bernoulli numbers by Bn = n!σn(1). S. C. Woon described an algorithm to compute σn(1) as a binary tree:[29]
+Woon's recursive algorithm (for n ≥ 1) starts by assigning to the root node N = [1,2]. Given a node N = [a1, a2, ..., ak] of the tree, the left child of the node is L(N) = [−a1, a2 + 1, a3, ..., ak] and the right child R(N) = [a1, 2, a2, ..., ak]. A node N = [a1, a2, ..., ak] is written as ±[a2, ..., ak] in the initial part of the tree represented above with ± denoting the sign of a1.
+Given a node N the factorial of N is defined as
+Restricted to the nodes N of a fixed tree-level n the sum of 1/N! is σn(1), thus
+For example:
+The integral
+has as special values b(2n) = B2n for n > 0.
+For example, b(3) = 3/2ζ(3)π−3i and b(5) = −15/2ζ(5)π−5i. Here, ζ is the Riemann zeta function, and i is the imaginary unit. Leonhard Euler (Opera Omnia, Ser. 1, Vol. 10, p. 351) considered these numbers and calculated
+Another similar integral representation is
+The Euler numbers are a sequence of integers intimately connected with the Bernoulli numbers. Comparing the
+asymptotic expansions of the Bernoulli and the Euler numbers shows that the Euler numbers E2n are in magnitude approximately 2/π(42n − 22n) times larger than the Bernoulli numbers B2n. In consequence:
+This asymptotic equation reveals that π lies in the common root of both the Bernoulli and the Euler numbers. In fact π could be computed from these rational approximations.
+Bernoulli numbers can be expressed through the Euler numbers and vice versa. Since, for odd n, Bn = En = 0 (with the exception B1), it suffices to consider the case when n is even.
+These conversion formulas express a connection between the Bernoulli and the Euler numbers. But more important, there is a deep arithmetic root common to both kinds of numbers, which can be expressed through a more fundamental sequence of numbers, also closely tied to π. These numbers are defined for n > 1 as
+and S1 = 1 by convention.[30] The magic of these numbers lies in the fact that they turn out to be rational numbers.  This was first proved by Leonhard Euler in a landmark paper De summis serierum reciprocarum (On the sums of series of reciprocals) and has fascinated mathematicians ever since.[31] The first few of these numbers are
+These are the coefficients in the expansion of sec x + tan x.
+The Bernoulli numbers and Euler numbers can be understood as special views of these numbers, selected from the sequence Sn and scaled for use in special applications.
+The expression [n even] has the value 1 if n is even and 0 otherwise (Iverson bracket).
+These identities show that the quotient of Bernoulli and Euler numbers at the beginning of this section is just the special case of Rn = 2Sn/Sn + 1 when n is even. The Rn are rational approximations to π and two successive terms always enclose the true value of π. Beginning with n = 1 the sequence starts (OEIS: A132049 / OEIS: A132050):
+These rational numbers also appear in the last paragraph of Euler's paper cited above.
+Consider the Akiyama–Tanigawa transform for the sequence OEIS: A046978 (n + 2) / OEIS: A016116 (n + 1):
+From the second, the numerators of the first column are the denominators of Euler's formula. The first column is −1/2 × OEIS: A163982.
+The sequence Sn has another unexpected yet important property: The denominators of Sn divide the factorial (n − 1)!. In other words: the numbers Tn = Sn(n − 1)!, sometimes called Euler zigzag numbers, are integers.
+Thus the above representations of the Bernoulli and Euler numbers can be rewritten in terms of this sequence as
+These identities make it easy to compute the Bernoulli and Euler numbers: the Euler numbers En are given immediately by T2n + 1 and the Bernoulli numbers B2n are obtained from T2n by some easy shifting, avoiding rational arithmetic.
+What remains is to find a convenient way to compute the numbers Tn. However, already in 1877 Philipp Ludwig von Seidel published an ingenious algorithm, which makes it simple to calculate Tn.[32]
+Seidel's algorithm is in fact much more general (see the exposition of Dominique Dumont [33]) and was rediscovered several times thereafter.
+Similar to Seidel's approach D. E. Knuth and T. J. Buckholtz gave a recurrence equation for the numbers T2n and recommended this method for computing B2n and E2n 'on electronic computers using only simple operations on integers'.[34]
+V. I. Arnold[35] rediscovered Seidel's algorithm and later Millar, Sloane and Young popularized Seidel's algorithm under the name boustrophedon transform.
+Triangular form:
+Only OEIS: A000657, with one 1, and OEIS: A214267, with two 1s, are in the OEIS.
+Distribution with a supplementary 1 and one 0 in the following rows:
+This is OEIS: A239005, a signed version of OEIS: A008280. The main andiagonal is OEIS: A122045. The main diagonal is OEIS: A155585. The central column is OEIS: A099023. Row sums: 1, 1, −2, −5, 16, 61.... See OEIS: A163747. See the array beginning with 1, 1, 0, −2, 0, 16, 0 below.
+The Akiyama–Tanigawa algorithm applied to OEIS: A046978 (n + 1) / OEIS: A016116(n) yields:
+1. The first column is OEIS: A122045. Its binomial transform leads to:
+The first row of this array is OEIS: A155585. The absolute values of the increasing antidiagonals are OEIS: A008280. The sum of the antidiagonals is −OEIS: A163747 (n + 1).
+2. The second column is 1 1 −1 −5 5 61 −61 −1385 1385.... Its binomial transform yields:
+The first row of this array is 1 2 2 −4 −16 32 272 544 −7936 15872 353792 −707584.... The absolute values of the second bisection are the double of the absolute values of the first bisection.
+Consider the Akiyama-Tanigawa algorithm applied to OEIS: A046978 (n) / (OEIS: A158780 (n + 1) = abs(OEIS: A117575 (n)) + 1 = 1, 2, 2, 3/2, 1, 3/4, 3/4, 7/8, 1, 17/16, 17/16, 33/32....
+The first column whose the absolute values are OEIS: A000111 could be the numerator of a trigonometric function.
+OEIS: A163747 is an autosequence of the first kind (the main diagonal is OEIS: A000004). The corresponding array is:
+The first two upper diagonals are −1 3 −24 402... = (−1)n + 1 × OEIS: A002832. The sum of the antidiagonals is 0 −2 0 10... = 2 × OEIS: A122045(n + 1).
+−OEIS: A163982 is an autosequence of the second kind, like for instance OEIS: A164555 / OEIS: A027642. Hence the array:
+The main diagonal, here 2 −2 8 −92..., is the double of the first upper one, here OEIS: A099023. The sum of the antidiagonals is 2 0 −4 0... = 2 × OEIS: A155585(n + 1). OEIS: A163747 − OEIS: A163982 = 2 × OEIS: A122045.
+Around 1880, three years after the publication of Seidel's algorithm, Désiré André proved a now classic result of combinatorial analysis.[36][37] Looking at the first terms of the Taylor expansion of the trigonometric functions
+tan x and sec x André made a startling discovery.
+The coefficients are the Euler numbers of odd and even index, respectively. In consequence the ordinary expansion of tan x + sec x has as coefficients the rational numbers Sn.
+André then succeeded by means of a recurrence argument to show that the alternating permutations of odd size are enumerated by the Euler numbers of odd index (also called tangent numbers) and the alternating permutations of even size by the Euler numbers of even index (also called secant numbers).
+The arithmetic mean of the first and the second Bernoulli numbers are the associate Bernoulli numbers: 
+B0 = 1, B1 = 0, B2 = 1/6, B3 = 0, B4 = −1/30, OEIS: A176327 / OEIS: A027642. Via the second row of its inverse Akiyama–Tanigawa transform OEIS: A177427, they lead to Balmer series OEIS: A061037 / OEIS: A061038.
+The Akiyama–Tanigawa algorithm applied to OEIS: A060819 (n + 4) / OEIS: A145979 (n) leads to the Bernoulli numbers OEIS: A027641 / OEIS: A027642, OEIS: A164555 / OEIS: A027642, or OEIS: A176327 OEIS: A176289 without B1, named intrinsic Bernoulli numbers Bi(n).
+Hence another link between the intrinsic Bernoulli numbers and the Balmer series via OEIS: A145979 (n).
+OEIS: A145979 (n − 2) = 0, 2, 1, 6,... is a permutation of the non-negative numbers.
+The terms of the first row are f(n) = 1/2 + 1/n + 2. 2, f(n) is an autosequence of the second kind. 3/2, f(n) leads by its inverse binomial transform to 3/2 −1/2 1/3 −1/4 1/5 ... = 1/2 + log 2.
+Consider g(n) = 1/2 - 1 / (n+2) = 0, 1/6, 1/4, 3/10, 1/3. The Akiyama-Tanagiwa transforms gives:
+0, g(n), is an autosequence of the second kind.
+Euler OEIS: A198631 (n) / OEIS: A006519 (n + 1) without the second term (1/2) are the fractional intrinsic Euler numbers Ei(n) = 1, 0, −1/4, 0, 1/2, 0, −17/8, 0, ... The corresponding Akiyama transform is:
+The first line is Eu(n). Eu(n) preceded by a zero is an autosequence of the first kind. It is linked to the Oresme numbers. The numerators of the second line are OEIS: A069834 preceded by 0. The difference table is:
+The Bernoulli numbers can be expressed in terms of the Riemann zeta function as Bn = −nζ(1 − n) for integers n ≥ 0 provided for n = 0 the expression −nζ(1 − n) is understood as the limiting value and the convention B1 = 1/2 is used. This intimately relates them to the values of the zeta function at negative integers. As such, they could be expected to have and do have deep arithmetical properties. For example, the Agoh–Giuga conjecture postulates that p is a prime number if and only if pBp − 1 is congruent to −1 modulo p. Divisibility properties of the Bernoulli numbers are related to the ideal class groups of cyclotomic fields by a theorem of Kummer and its strengthening in the Herbrand-Ribet theorem, and to class numbers of real quadratic fields by Ankeny–Artin–Chowla.
+The Bernoulli numbers are related to Fermat's Last Theorem (FLT) by Kummer's theorem,[38] which says:
+Prime numbers with this property are called regular primes. Another classical result of Kummer are the following congruences.[39]
+A generalization of these congruences goes by the name of p-adic continuity.
+If b, m and n are positive integers such that m and n are not divisible by p − 1 and m ≡ n (mod pb − 1 (p − 1)), then
+Since Bn = −nζ(1 − n), this can also be written
+where u = 1 − m and v = 1 − n, so that u and v are nonpositive and not congruent to 1 modulo p − 1. This tells us that the Riemann zeta function, with 1 − p−s taken out of the Euler product formula, is continuous in the p-adic numbers on odd negative integers congruent modulo p − 1 to a particular a ≢ 1 mod (p − 1), and so can be extended to a continuous function ζp(s) for all p-adic integers 
+Z
+p
+,
+{\displaystyle \mathbb {Z} _{p},}
+ the p-adic zeta function.
+The following relations, due to Ramanujan, provide a method for calculating Bernoulli numbers that is more efficient than the one given by their original recursive definition:
+The von Staudt–Clausen theorem was given by Karl Georg Christian von Staudt[40] and Thomas Clausen[41] independently in 1840. The theorem states that for every n > 0,
+is an integer. The sum extends over all primes p for which p − 1 divides 2n.
+A consequence of this is that the denominator of B2n is given by the product of all primes p for which p − 1 divides 2n. In particular, these denominators are square-free and divisible by 6.
+The sum
+can be evaluated for negative values of the index n. Doing so will show that it is an odd function for even values of k, which implies that the  sum has only terms of odd index. This and the formula for the Bernoulli sum imply that B2k + 1 − m is 0 for m even and 2k + 1 − m > 1; and that the term for B1 is cancelled by the subtraction.  The von Staudt–Clausen theorem combined with Worpitzky's representation also gives a combinatorial answer to this question (valid for n > 1).
+From the von Staudt–Clausen theorem it is known that for odd n > 1 the number 2Bn is an integer. This seems trivial if one knows beforehand that the integer in question is zero. However, by applying Worpitzky's representation one gets
+as a sum of integers, which is not trivial. Here a combinatorial fact comes to surface which explains the vanishing of the Bernoulli numbers at odd index. Let Sn,m be the number of surjective maps from {1, 2, ..., n} to {1, 2, ..., m}, then Sn,m = m!{nm}. The last equation can only hold if
+This equation can be proved by induction. The first two examples of this equation are
+Thus the Bernoulli numbers vanish at odd index because some non-obvious combinatorial identities are embodied in the Bernoulli numbers.
+The connection between the Bernoulli numbers and the Riemann zeta function is strong enough to provide an alternate formulation of the Riemann hypothesis (RH) which uses only the Bernoulli numbers. In fact Marcel Riesz proved that the RH is equivalent to the following assertion:[42]
+Here R(x) is the Riesz function
+nk denotes the rising factorial power in the notation of D. E. Knuth. The numbers βn = Bn/n occur frequently in the study of the zeta function and are significant  because βn is a p-integer for primes p where p − 1 does not divide n.  The βn are called divided Bernoulli numbers.
+The generalized Bernoulli numbers are certain algebraic numbers, defined similarly to the Bernoulli numbers, that are related to special values of Dirichlet L-functions in the same way that Bernoulli numbers are related to special values of the Riemann zeta function.
+Let χ be a Dirichlet character modulo f. The generalized Bernoulli numbers attached to χ are defined by
+Apart from the exceptional B1,1 = 1/2, we have, for any Dirichlet character χ, that Bk,χ = 0 if χ(−1) ≠ (−1)k.
+Generalizing the relation between Bernoulli numbers and values of the Riemann zeta function at non-positive integers, one has the for all integers k ≥ 1:
+where L(s,χ) is the Dirichlet L-function of χ.[43]
+Eisenstein–Kronecker numbers are an analogue of the generalized Bernoulli numbers for imaginary quadratic fields.[44][45] They are related to critical L-values of Hecke characters.[45]
+where the symbol Bk that appears during binomial expansion of the parenthesized term is to be replaced by the Bernoulli number Bk (and B1 = +1/2). More suggestively and mnemonically, this may be written as a definite integral:
+Many other Bernoulli identities can be written compactly with this symbol, e.g.
+Footnotes
+But last year I took a close look at Peter Luschny's Bernoulli manifesto, where he gives more than a dozen good reasons why the value of $B_1$ should really be plus one-half. He explains that some mathematicians of the early 20th century had unilaterally changed the conventions, because some of their formulas came out a bit nicer when the negative value was used. It was their well-intentioned but ultimately poor choice that had led to what I'd been taught in the 1950s. […]  By now, hundreds of books that use the “minus-one-half” convention have unfortunately been written. Even worse, all the major software systems for symbolic mathematics have that 20th-century aberration deeply embedded. Yet Luschny convinced me that we have all been wrong, and that it's high time to change back to the correct definition before the situation gets even worse.

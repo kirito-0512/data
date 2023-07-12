@@ -1,0 +1,6261 @@
+19447,
+Group(mathematics),
+In mathematics, a group is a non-empty set and an operation that combines any two elements of the set to produce a third element of the set, with the following constraints: the operation is associative, the set contains an identity element, and every element has an inverse. These three axioms hold for number systems and many other mathematical structures. For example, the integers together with the addition operation form a group. The concept of a group and the axioms that define it were elaborated for handling, in a unified way, essential structural properties of very different mathematical entities such as numbers, geometric shapes and polynomial roots. Because the concept of groups is ubiquitous in numerous areas both within and outside mathematics, some authors consider it as a central organizing principle of contemporary mathematics.[1][2]
+In geometry groups arise naturally in the study of symmetries and geometric transformations: The symmetries of an object form a group, called the symmetry group of the object, and the transformations of a given type form a general group. Lie groups appear in  symmetry groups in geometry, and also in the Standard Model of particle physics. The Poincaré group is a Lie group consisting of the symmetries of spacetime in special relativity. Point groups describe symmetry in molecular chemistry.
+The concept of a group arose in the study of polynomial equations, starting with Évariste Galois in the 1830s, who introduced the term group (French: groupe) for the symmetry group of the roots of an equation, now called a Galois group. After contributions from other fields such as number theory and geometry, the group notion was generalized and firmly established around 1870. Modern group theory—an active mathematical discipline—studies groups in their own right. To explore groups, mathematicians have devised various notions to break groups into smaller, better-understandable pieces, such as subgroups, quotient groups and simple groups. In addition to their abstract properties, group theorists also study the different ways in which a group can be expressed concretely, both from a point of view of representation theory (that is, through the representations of the group) and of computational group theory. A theory has been developed for finite groups, which culminated with the classification of finite simple groups, completed in 2004. Since the mid-1980s, geometric group theory, which studies finitely generated groups as geometric objects, has become an active area in group theory.
+One of the more familiar groups is the set of integers
+
+
+
+
+
+Z
+
+=
+{
+…
+,
+−
+4
+,
+−
+3
+,
+−
+2
+,
+−
+1
+,
+0
+,
+1
+,
+2
+,
+3
+,
+4
+,
+…
+}
+
+
+{\displaystyle \mathbb {Z} =\{\ldots ,-4,-3,-2,-1,0,1,2,3,4,\ldots \}}
+
+
+together with addition.[3] For any two integers 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+, the sum 
+
+
+
+a
++
+b
+
+
+{\displaystyle a+b}
+
+ is also an integer; this closure property says that 
+
+
+
++
+
+
+{\displaystyle +}
+
+ is a binary operation on 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+. The following properties of integer addition serve as a model for the group axioms in the definition below.
+The integers, together with the operation 
+
+
+
++
+
+
+{\displaystyle +}
+
+, form a mathematical object belonging to a broad class sharing similar structural aspects. To appropriately understand these structures as a collective, the following definition is developed.
+The axioms for a group are short and natural... Yet somehow hidden behind these axioms is the monster simple group, a huge and extraordinary mathematical object, which appears to rely on numerous bizarre coincidences to exist. The axioms for groups give no obvious hint that anything like this exists.
+Richard Borcherds, Mathematicians: An Outer View of the Inner World[4]
+A group is a non-empty set 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ together with a binary operation on 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, here denoted "
+
+
+
+⋅
+
+
+{\displaystyle \cdot }
+
+", that combines any two elements 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ to form an element of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, denoted 
+
+
+
+a
+⋅
+b
+
+
+{\displaystyle a\cdot b}
+
+, such that the following three requirements, known as group axioms, are satisfied:[5][6][7][a]
+Formally, the group is the ordered pair of a set and a binary operation on this set that satisfies the group axioms. The set is called the underlying set of the group, and the operation is called the group operation or the group law.
+A group and its underlying set are thus two different mathematical objects. To avoid cumbersome notation, it is common to abuse notation by using the same symbol to denote both. This reflects also an informal way of thinking: that the group is the same as the set except that it has been enriched by additional structure provided by the operation.
+For example, consider the set of real numbers 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+, which has the operations of addition 
+
+
+
+a
++
+b
+
+
+{\displaystyle a+b}
+
+ and multiplication 
+
+
+
+a
+b
+
+
+{\displaystyle ab}
+
+. Formally, 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is a set, 
+
+
+
+(
+
+R
+
+,
++
+)
+
+
+{\displaystyle (\mathbb {R} ,+)}
+
+ is a group, and 
+
+
+
+(
+
+R
+
+,
++
+,
+⋅
+)
+
+
+{\displaystyle (\mathbb {R} ,+,\cdot )}
+
+ is a field. But it is common to write 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ to denote any of these three objects.
+The additive group of the field 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is the group whose underlying set is 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ and whose operation is addition. The multiplicative group of the field 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is the group 
+
+
+
+
+
+R
+
+
+×
+
+
+
+
+{\displaystyle \mathbb {R} ^{\times }}
+
+ whose underlying set is the set of nonzero real numbers 
+
+
+
+
+R
+
+∖
+{
+0
+}
+
+
+{\displaystyle \mathbb {R} \smallsetminus \{0\}}
+
+ and whose operation is multiplication.
+More generally, one speaks of an additive group whenever the group operation is notated as addition; in this case, the identity is typically denoted 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+, and the inverse of an element 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is denoted 
+
+
+
+−
+x
+
+
+{\displaystyle -x}
+
+. Similarly, one speaks of a multiplicative group whenever the group operation is notated as multiplication; in this case, the identity is typically denoted 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+, and the inverse of an element 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is denoted 
+
+
+
+
+x
+
+−
+1
+
+
+
+
+{\displaystyle x^{-1}}
+
+. In a multiplicative group, the operation symbol is usually omitted entirely, so that the operation is denoted by juxtaposition, 
+
+
+
+a
+b
+
+
+{\displaystyle ab}
+
+ instead of 
+
+
+
+a
+⋅
+b
+
+
+{\displaystyle a\cdot b}
+
+.
+The definition of a group does not require that 
+
+
+
+a
+⋅
+b
+=
+b
+⋅
+a
+
+
+{\displaystyle a\cdot b=b\cdot a}
+
+ for all elements 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+. If this additional condition holds, then the operation is said to be commutative, and the group is called an abelian group. It is a common convention that for an abelian group either additive or multiplicative notation may be used, but for a nonabelian group only multiplicative notation is used.
+Several other notations are commonly used for groups whose elements are not numbers. For a group whose elements are functions, the operation is often function composition 
+
+
+
+f
+∘
+g
+
+
+{\displaystyle f\circ g}
+
+; then the identity may be denoted id. In the more specific cases of geometric transformation groups, symmetry groups, permutation groups, and automorphism groups, the symbol 
+
+
+
+∘
+
+
+{\displaystyle \circ }
+
+ is often omitted, as for multiplicative groups. Many other variants of notation may be encountered.
+Two figures in the plane are congruent if one can be changed into the other using a combination of rotations, reflections, and translations. Any figure is congruent to itself. However, some figures are congruent to themselves in more than one way, and these extra congruences are called symmetries. A square has eight symmetries. These are:
+  
+
+
+
+
+f
+
+
+h
+
+
+
+
+
+{\displaystyle f_{\mathrm {h} }}
+
+ (horizontal reflection) 
+  
+
+
+
+
+f
+
+
+d
+
+
+
+
+
+{\displaystyle f_{\mathrm {d} }}
+
+ (diagonal reflection) 
+  
+
+
+
+
+f
+
+
+c
+
+
+
+
+
+{\displaystyle f_{\mathrm {c} }}
+
+ (counter-diagonal reflection)
+These symmetries are functions. Each sends a point in the square to the corresponding point under the symmetry. For example, 
+
+
+
+
+r
+
+1
+
+
+
+
+{\displaystyle r_{1}}
+
+ sends a point to its rotation 90° clockwise around the square's center, and 
+
+
+
+
+f
+
+
+h
+
+
+
+
+
+{\displaystyle f_{\mathrm {h} }}
+
+ sends a point to its reflection across the square's vertical middle line. Composing two of these symmetries gives another symmetry. These symmetries determine a group called the dihedral group of degree four, denoted 
+
+
+
+
+
+D
+
+
+4
+
+
+
+
+{\displaystyle \mathrm {D} _{4}}
+
+. The underlying set of the group is the above set of symmetries, and the group operation is function composition.[8] Two symmetries are combined by composing them as functions, that is, applying the first one to the square, and the second one to the result of the first application. The result of performing first 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and then 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ is written symbolically from right to left as 
+
+
+
+b
+∘
+a
+
+
+{\displaystyle b\circ a}
+
+ ("apply the symmetry 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ after performing the symmetry 
+
+
+
+a
+
+
+{\displaystyle a}
+
+"). This is the usual notation for composition of functions.
+The group table lists the results of all such compositions possible. For example, rotating by 270° clockwise (
+
+
+
+
+r
+
+3
+
+
+
+
+{\displaystyle r_{3}}
+
+) and then reflecting horizontally (
+
+
+
+
+f
+
+
+h
+
+
+
+
+
+{\displaystyle f_{\mathrm {h} }}
+
+) is the same as performing a reflection along the diagonal (
+
+
+
+
+f
+
+
+d
+
+
+
+
+
+{\displaystyle f_{\mathrm {d} }}
+
+). Using the above symbols, highlighted in blue in the group table:
+
+
+
+
+
+f
+
+
+h
+
+
+
+∘
+
+r
+
+3
+
+
+=
+
+f
+
+
+d
+
+
+
+.
+
+
+{\displaystyle f_{\mathrm {h} }\circ r_{3}=f_{\mathrm {d} }.}
+
+
+Given this set of symmetries and the described operation, the group axioms can be understood as follows.
+Binary operation: Composition is a binary operation. That is, 
+
+
+
+a
+∘
+b
+
+
+{\displaystyle a\circ b}
+
+ is a symmetry for any two symmetries 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+. For example,
+
+
+
+
+
+r
+
+3
+
+
+∘
+
+f
+
+
+h
+
+
+
+=
+
+f
+
+
+c
+
+
+
+,
+
+
+{\displaystyle r_{3}\circ f_{\mathrm {h} }=f_{\mathrm {c} },}
+
+
+that is, rotating 270° clockwise after reflecting horizontally equals reflecting along the counter-diagonal (
+
+
+
+
+f
+
+
+c
+
+
+
+
+
+{\displaystyle f_{\mathrm {c} }}
+
+). Indeed, every other combination of two symmetries still gives a symmetry, as can be checked using the group table.
+Associativity: The associativity axiom deals with composing more than two symmetries: Starting with three elements 
+
+
+
+a
+
+
+{\displaystyle a}
+
+, 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ and 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ of 
+
+
+
+
+
+D
+
+
+4
+
+
+
+
+{\displaystyle \mathrm {D} _{4}}
+
+, there are two possible ways of using these three symmetries in this order to determine a symmetry of the square. One of these ways is to first compose 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ into a single symmetry, then to compose that symmetry with 
+
+
+
+c
+
+
+{\displaystyle c}
+
+. The other way is to first compose 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ and 
+
+
+
+c
+
+
+{\displaystyle c}
+
+, then to compose the resulting symmetry with 
+
+
+
+a
+
+
+{\displaystyle a}
+
+. These two ways must give always the same result, that is,
+
+
+
+
+(
+a
+∘
+b
+)
+∘
+c
+=
+a
+∘
+(
+b
+∘
+c
+)
+,
+
+
+{\displaystyle (a\circ b)\circ c=a\circ (b\circ c),}
+
+
+For example, 
+
+
+
+(
+
+f
+
+
+d
+
+
+
+∘
+
+f
+
+
+v
+
+
+
+)
+∘
+
+r
+
+2
+
+
+=
+
+f
+
+
+d
+
+
+
+∘
+(
+
+f
+
+
+v
+
+
+
+∘
+
+r
+
+2
+
+
+)
+
+
+{\displaystyle (f_{\mathrm {d} }\circ f_{\mathrm {v} })\circ r_{2}=f_{\mathrm {d} }\circ (f_{\mathrm {v} }\circ r_{2})}
+
+ can be checked using the group table:
+
+
+
+
+
+
+
+
+(
+
+f
+
+
+d
+
+
+
+∘
+
+f
+
+
+v
+
+
+
+)
+∘
+
+r
+
+2
+
+
+
+
+
+=
+
+r
+
+3
+
+
+∘
+
+r
+
+2
+
+
+=
+
+r
+
+1
+
+
+
+
+
+
+
+f
+
+
+d
+
+
+
+∘
+(
+
+f
+
+
+v
+
+
+
+∘
+
+r
+
+2
+
+
+)
+
+
+
+=
+
+f
+
+
+d
+
+
+
+∘
+
+f
+
+
+h
+
+
+
+=
+
+r
+
+1
+
+
+.
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}(f_{\mathrm {d} }\circ f_{\mathrm {v} })\circ r_{2}&=r_{3}\circ r_{2}=r_{1}\\f_{\mathrm {d} }\circ (f_{\mathrm {v} }\circ r_{2})&=f_{\mathrm {d} }\circ f_{\mathrm {h} }=r_{1}.\end{aligned}}}
+
+
+Identity element: The identity element is 
+
+
+
+
+i
+d
+
+
+
+{\displaystyle \mathrm {id} }
+
+, as it does not change any symmetry 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ when composed with it either on the left or on the right.
+Inverse element: Each symmetry has an inverse: 
+
+
+
+
+i
+d
+
+
+
+{\displaystyle \mathrm {id} }
+
+, the reflections 
+
+
+
+
+f
+
+
+h
+
+
+
+
+
+{\displaystyle f_{\mathrm {h} }}
+
+, 
+
+
+
+
+f
+
+
+v
+
+
+
+
+
+{\displaystyle f_{\mathrm {v} }}
+
+, 
+
+
+
+
+f
+
+
+d
+
+
+
+
+
+{\displaystyle f_{\mathrm {d} }}
+
+, 
+
+
+
+
+f
+
+
+c
+
+
+
+
+
+{\displaystyle f_{\mathrm {c} }}
+
+ and the 180° rotation 
+
+
+
+
+r
+
+2
+
+
+
+
+{\displaystyle r_{2}}
+
+ are their own inverse, because performing them twice brings the square back to its original orientation. The rotations 
+
+
+
+
+r
+
+3
+
+
+
+
+{\displaystyle r_{3}}
+
+ and 
+
+
+
+
+r
+
+1
+
+
+
+
+{\displaystyle r_{1}}
+
+ are each other's inverses, because rotating 90° and then rotation 270° (or vice versa) yields a rotation over 360° which leaves the square unchanged. This is easily verified on the table.
+In contrast to the group of integers above, where the order of the operation is immaterial, it does matter in 
+
+
+
+
+
+D
+
+
+4
+
+
+
+
+{\displaystyle \mathrm {D} _{4}}
+
+, as, for example, 
+
+
+
+
+f
+
+
+h
+
+
+
+∘
+
+r
+
+1
+
+
+=
+
+f
+
+
+c
+
+
+
+
+
+{\displaystyle f_{\mathrm {h} }\circ r_{1}=f_{\mathrm {c} }}
+
+ but 
+
+
+
+
+r
+
+1
+
+
+∘
+
+f
+
+
+h
+
+
+
+=
+
+f
+
+
+d
+
+
+
+
+
+{\displaystyle r_{1}\circ f_{\mathrm {h} }=f_{\mathrm {d} }}
+
+. In other words, 
+
+
+
+
+
+D
+
+
+4
+
+
+
+
+{\displaystyle \mathrm {D} _{4}}
+
+ is not abelian.
+The modern concept of an abstract group developed out of several fields of mathematics.[9][10][11] The original motivation for group theory was the quest for solutions of polynomial equations of degree higher than 4. The 19th-century French mathematician Évariste Galois, extending prior work of Paolo Ruffini and Joseph-Louis Lagrange, gave a criterion for the solvability of a particular polynomial equation in terms of the symmetry group of its roots (solutions). The elements of such a Galois group correspond to certain permutations of the roots. At first, Galois's ideas were rejected by his contemporaries, and published only posthumously.[12][13] More general permutation groups were investigated in particular by Augustin Louis Cauchy. Arthur Cayley's On the theory of groups, as depending on the symbolic equation 
+
+
+
+
+θ
+
+n
+
+
+=
+1
+
+
+{\displaystyle \theta ^{n}=1}
+
+ (1854) gives the first abstract definition of a finite group.[14]
+Geometry was a second field in which groups were used systematically, especially symmetry groups as part of Felix Klein's 1872 Erlangen program.[15] After novel geometries such as hyperbolic and projective geometry had emerged, Klein used group theory to organize them in a more coherent way. Further advancing these ideas, Sophus Lie founded the study of Lie groups in 1884.[16]
+The third field contributing to group theory was number theory. Certain abelian group structures had been used implicitly in Carl Friedrich Gauss's number-theoretical work Disquisitiones Arithmeticae (1798), and more explicitly by Leopold Kronecker.[17] In 1847, Ernst Kummer made early attempts to prove Fermat's Last Theorem  by developing groups describing factorization into prime numbers.[18]
+The convergence of these various sources into a uniform theory of groups started with Camille Jordan's Traité des substitutions et des équations algébriques (1870).[19] Walther von Dyck (1882) introduced the idea of specifying a group by means of generators and relations, and was also the first to give an axiomatic definition of an "abstract group", in the terminology of the time.[20] As of the 20th century, groups gained wide recognition by the pioneering work of Ferdinand Georg Frobenius and William Burnside, who worked on representation theory of finite groups, Richard Brauer's modular representation theory and Issai Schur's papers.[21] The theory of Lie groups, and more generally locally compact groups was studied by Hermann Weyl, Élie Cartan and many others.[22] Its algebraic counterpart, the theory of algebraic groups, was first shaped by Claude Chevalley (from the late 1930s) and later by the work of Armand Borel and Jacques Tits.[23]
+The University of Chicago's 1960–61 Group Theory Year brought together group theorists such as Daniel Gorenstein, John G. Thompson and Walter Feit, laying the foundation of a collaboration that, with input from numerous other mathematicians, led to the classification of finite simple groups, with the final step taken by Aschbacher and Smith in 2004. This project exceeded previous mathematical endeavours by its sheer size, in both length of proof and number of researchers. Research concerning this classification proof is ongoing.[24] Group theory remains a highly active mathematical branch,[b] impacting many other fields, as the examples below illustrate.
+Basic facts about all groups that can be obtained directly from the group axioms are commonly subsumed under elementary group theory.[25] For example, repeated applications of the associativity axiom show that the unambiguity of
+
+
+
+
+a
+⋅
+b
+⋅
+c
+=
+(
+a
+⋅
+b
+)
+⋅
+c
+=
+a
+⋅
+(
+b
+⋅
+c
+)
+
+
+{\displaystyle a\cdot b\cdot c=(a\cdot b)\cdot c=a\cdot (b\cdot c)}
+
+
+generalizes to more than three factors. Because this implies that parentheses can be inserted anywhere within such a series of terms, parentheses are usually omitted.[26]
+The group axioms imply that the identity element is unique: If 
+
+
+
+e
+
+
+{\displaystyle e}
+
+ and 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ are identity elements of a group, then 
+
+
+
+e
+=
+e
+⋅
+f
+=
+f
+
+
+{\displaystyle e=e\cdot f=f}
+
+. Therefore, it is customary to speak of the identity.[27]
+The group axioms also imply that the inverse of each element is unique: if a group element 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ has both 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ and 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ as inverses, then
+Therefore, it is customary to speak of the inverse of an element.[27]
+Given elements 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ of a group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, there is a unique solution 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ to the equation 
+
+
+
+a
+⋅
+x
+=
+b
+
+
+{\displaystyle a\cdot x=b}
+
+, namely 
+
+
+
+
+a
+
+−
+1
+
+
+⋅
+b
+
+
+{\displaystyle a^{-1}\cdot b}
+
+.[c][28] It follows that for each 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, the function 
+
+
+
+G
+→
+G
+
+
+{\displaystyle G\to G}
+
+ that maps each 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ to 
+
+
+
+a
+⋅
+x
+
+
+{\displaystyle a\cdot x}
+
+ is a bijection; it is called left multiplication by 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ or left translation by 
+
+
+
+a
+.
+
+
+{\displaystyle a.}
+
+
+Similarly, given 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+, the unique solution to 
+
+
+
+x
+⋅
+a
+=
+b
+
+
+{\displaystyle x\cdot a=b}
+
+ is 
+
+
+
+b
+⋅
+
+a
+
+−
+1
+
+
+
+
+{\displaystyle b\cdot a^{-1}}
+
+. For each 
+
+
+
+a
+
+
+{\displaystyle a}
+
+, the function 
+
+
+
+G
+→
+G
+
+
+{\displaystyle G\to G}
+
+ that maps each 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ to 
+
+
+
+x
+⋅
+a
+
+
+{\displaystyle x\cdot a}
+
+ is a bijection called right multiplication by 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ or right translation by 
+
+
+
+a
+.
+
+
+{\displaystyle a.}
+
+
+The group axioms for identity and inverses may be "weakened" to assert only the existence of a left identity and left inverses. From these one-sided axioms, one can prove that the left identity is also a right identity and a left inverse is also a right inverse for the same element. Since they define exactly the same structures as groups, collectively the axioms are not weaker.[29]
+In particular, assuming associativity and the existence of a left identity 
+
+
+
+e
+
+
+{\displaystyle e}
+
+ (that is, 
+
+
+
+e
+⋅
+f
+=
+f
+
+
+{\displaystyle e\cdot f=f}
+
+) and a left inverse 
+
+
+
+
+f
+
+−
+1
+
+
+
+
+{\displaystyle f^{-1}}
+
+ for each element 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ (that is, 
+
+
+
+
+f
+
+−
+1
+
+
+⋅
+f
+=
+e
+
+
+{\displaystyle f^{-1}\cdot f=e}
+
+), one can  show that every left inverse is also a right inverse of the same element as follows.[29]
+Indeed, one has
+Similarly, the left identity is also a right identity:[29]
+These proofs require all three axioms (associativity, existence of left identity and existence of left inverse). For a structure with a looser definition (like a semigroup) one may have, for example, that a left identity is not necessarily a right identity.
+When studying sets, one uses concepts such as subset, function, and quotient by an equivalence relation. When studying groups, one uses instead subgroups, homomorphisms, and quotient groups. These are the analogues that take the group structure into account.[d]
+Group homomorphisms[e] are functions that respect group structure; they may be used to relate two groups. A homomorphism from a group 
+
+
+
+(
+G
+,
+⋅
+)
+
+
+{\displaystyle (G,\cdot )}
+
+ to a group 
+
+
+
+(
+H
+,
+∗
+)
+
+
+{\displaystyle (H,*)}
+
+ is a function 
+
+
+
+φ
+:
+G
+→
+H
+
+
+{\displaystyle \varphi \colon G\to H}
+
+ such that
+It would be natural to require also that 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ respect identities, 
+
+
+
+φ
+(
+
+1
+
+G
+
+
+)
+=
+
+1
+
+H
+
+
+
+
+{\displaystyle \varphi (1_{G})=1_{H}}
+
+, and inverses, 
+
+
+
+φ
+(
+
+a
+
+−
+1
+
+
+)
+=
+φ
+(
+a
+
+)
+
+−
+1
+
+
+
+
+{\displaystyle \varphi (a^{-1})=\varphi (a)^{-1}}
+
+ for all 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+. However, these additional requirements need not be included in the definition of homomorphisms, because they are already implied by the requirement of respecting the group operation.[30]
+The identity homomorphism of a group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is the homomorphism 
+
+
+
+
+ι
+
+G
+
+
+:
+G
+→
+G
+
+
+{\displaystyle \iota _{G}\colon G\to G}
+
+ that maps each element of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ to itself. An inverse homomorphism of a homomorphism 
+
+
+
+φ
+:
+G
+→
+H
+
+
+{\displaystyle \varphi \colon G\to H}
+
+ is a homomorphism 
+
+
+
+ψ
+:
+H
+→
+G
+
+
+{\displaystyle \psi \colon H\to G}
+
+ such that 
+
+
+
+ψ
+∘
+φ
+=
+
+ι
+
+G
+
+
+
+
+{\displaystyle \psi \circ \varphi =\iota _{G}}
+
+ and 
+
+
+
+φ
+∘
+ψ
+=
+
+ι
+
+H
+
+
+
+
+{\displaystyle \varphi \circ \psi =\iota _{H}}
+
+, that is, such that 
+
+
+
+ψ
+
+
+(
+
+
+φ
+(
+g
+)
+
+
+)
+
+
+=
+g
+
+
+{\displaystyle \psi {\bigl (}\varphi (g){\bigr )}=g}
+
+ for all 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ and such that 
+
+
+
+φ
+
+
+(
+
+
+ψ
+(
+h
+)
+
+
+)
+
+
+=
+h
+
+
+{\displaystyle \varphi {\bigl (}\psi (h){\bigr )}=h}
+
+ for all 
+
+
+
+h
+
+
+{\displaystyle h}
+
+ in 
+
+
+
+H
+
+
+{\displaystyle H}
+
+. An isomorphism is a homomorphism that has an inverse homomorphism; equivalently, it is a bijective homomorphism. Groups 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ and 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ are called isomorphic if there exists an isomorphism 
+
+
+
+φ
+:
+G
+→
+H
+
+
+{\displaystyle \varphi \colon G\to H}
+
+. In this case, 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ can be obtained from 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ simply by renaming its elements according to the function 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+; then any statement true for 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is true for 
+
+
+
+H
+
+
+{\displaystyle H}
+
+, provided that any specific elements mentioned in the statement are also renamed.
+The collection of all groups, together with the homomorphisms between them, form a category, the category of groups.[31]
+Informally, a subgroup is a group 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ contained within a bigger one, 
+
+
+
+G
+
+
+{\displaystyle G}
+
+: it has a subset of the elements of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, with the same operation.[32] Concretely, this means that the identity element of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ must be contained in 
+
+
+
+H
+
+
+{\displaystyle H}
+
+, and whenever 
+
+
+
+
+h
+
+1
+
+
+
+
+{\displaystyle h_{1}}
+
+ and 
+
+
+
+
+h
+
+2
+
+
+
+
+{\displaystyle h_{2}}
+
+ are both in 
+
+
+
+H
+
+
+{\displaystyle H}
+
+, then so are 
+
+
+
+
+h
+
+1
+
+
+⋅
+
+h
+
+2
+
+
+
+
+{\displaystyle h_{1}\cdot h_{2}}
+
+ and 
+
+
+
+
+h
+
+1
+
+
+−
+1
+
+
+
+
+{\displaystyle h_{1}^{-1}}
+
+, so the elements of 
+
+
+
+H
+
+
+{\displaystyle H}
+
+, equipped with the group operation on 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ restricted to 
+
+
+
+H
+
+
+{\displaystyle H}
+
+, indeed form a group.  In this case, the inclusion map 
+
+
+
+H
+→
+G
+
+
+{\displaystyle H\to G}
+
+ is a homomorphism.
+In the example of symmetries of a square, the identity and the rotations constitute a subgroup 
+
+
+
+R
+=
+{
+
+i
+d
+
+,
+
+r
+
+1
+
+
+,
+
+r
+
+2
+
+
+,
+
+r
+
+3
+
+
+}
+
+
+{\displaystyle R=\{\mathrm {id} ,r_{1},r_{2},r_{3}\}}
+
+, highlighted in red in the group table of the example: any two rotations composed are still a rotation, and a rotation can be undone by (i.e., is inverse to) the complementary rotations  270° for 90°, 180° for 180°, and 90° for 270°. The subgroup test provides a necessary and sufficient condition for a nonempty subset H of a group G to be a subgroup: it is sufficient to check that 
+
+
+
+
+g
+
+−
+1
+
+
+⋅
+h
+∈
+H
+
+
+{\displaystyle g^{-1}\cdot h\in H}
+
+ for all elements 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ and 
+
+
+
+h
+
+
+{\displaystyle h}
+
+ in 
+
+
+
+H
+
+
+{\displaystyle H}
+
+. Knowing a group's subgroups is important in understanding the group as a whole.[f]
+Given any subset 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of a group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, the subgroup generated by 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ consists of all products of elements of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ and their inverses. It is the smallest subgroup of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ containing 
+
+
+
+S
+
+
+{\displaystyle S}
+
+.[33] In the example of symmetries of a square, the subgroup generated by 
+
+
+
+
+r
+
+2
+
+
+
+
+{\displaystyle r_{2}}
+
+ and 
+
+
+
+
+f
+
+
+v
+
+
+
+
+
+{\displaystyle f_{\mathrm {v} }}
+
+ consists of these two elements, the identity element 
+
+
+
+
+i
+d
+
+
+
+{\displaystyle \mathrm {id} }
+
+, and the element 
+
+
+
+
+f
+
+
+h
+
+
+
+=
+
+f
+
+
+v
+
+
+
+⋅
+
+r
+
+2
+
+
+
+
+{\displaystyle f_{\mathrm {h} }=f_{\mathrm {v} }\cdot r_{2}}
+
+. Again, this is a subgroup, because combining any two of these four elements or their inverses (which are, in this particular case, these same elements) yields an element of this subgroup.
+An injective homomorphism 
+
+
+
+ϕ
+:
+
+G
+′
+
+→
+G
+
+
+{\displaystyle \phi \colon G'\to G}
+
+ factors canonically as an isomorphism followed by an inclusion, 
+
+
+
+
+G
+′
+
+
+
+
+
+
+→
+
+
+∼
+
+
+
+
+
+H
+↪
+G
+
+
+{\displaystyle G'\;{\stackrel {\sim }{\to }}\;H\hookrightarrow G}
+
+ for some subgroup H of G.
+Injective homomorphisms are the monomorphisms in the category of groups.
+In many situations it is desirable to consider two group elements the same if they differ by an element of a given subgroup. For example, in the symmetry group of a square, once any reflection is performed, rotations alone cannot return the square to its original position, so one can think of the reflected positions of the square as all being equivalent to each other, and as inequivalent to the unreflected positions; the rotation operations are irrelevant to the question whether a reflection has been performed. Cosets are used to formalize this insight: a subgroup 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ determines left and right cosets, which can be thought of as translations of 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ by an arbitrary group element 
+
+
+
+g
+
+
+{\displaystyle g}
+
+. In symbolic terms, the left and right cosets of 
+
+
+
+H
+
+
+{\displaystyle H}
+
+, containing an element 
+
+
+
+g
+
+
+{\displaystyle g}
+
+, are
+The left cosets of any subgroup 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ form a partition of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+; that is, the union of all left cosets is equal to 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ and two left cosets are either equal or have an empty intersection.[35] The first case 
+
+
+
+
+g
+
+1
+
+
+H
+=
+
+g
+
+2
+
+
+H
+
+
+{\displaystyle g_{1}H=g_{2}H}
+
+ happens precisely when 
+
+
+
+
+g
+
+1
+
+
+−
+1
+
+
+⋅
+
+g
+
+2
+
+
+∈
+H
+
+
+{\displaystyle g_{1}^{-1}\cdot g_{2}\in H}
+
+, i.e., when the two elements differ by an element of 
+
+
+
+H
+
+
+{\displaystyle H}
+
+. Similar considerations apply to the right cosets of 
+
+
+
+H
+
+
+{\displaystyle H}
+
+. The left cosets of 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ may or may not be the same as its right cosets. If they are (that is, if all 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ satisfy 
+
+
+
+g
+H
+=
+H
+g
+
+
+{\displaystyle gH=Hg}
+
+), then 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ is said to be a normal subgroup.
+In 
+
+
+
+
+
+D
+
+
+4
+
+
+
+
+{\displaystyle \mathrm {D} _{4}}
+
+, the group of symmetries of a square, with its subgroup 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ of rotations, the left cosets 
+
+
+
+g
+R
+
+
+{\displaystyle gR}
+
+ are either equal to 
+
+
+
+R
+
+
+{\displaystyle R}
+
+, if 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ is an element of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ itself, or otherwise equal to 
+
+
+
+U
+=
+
+f
+
+
+c
+
+
+
+R
+=
+{
+
+f
+
+
+c
+
+
+
+,
+
+f
+
+
+d
+
+
+
+,
+
+f
+
+
+v
+
+
+
+,
+
+f
+
+
+h
+
+
+
+}
+
+
+{\displaystyle U=f_{\mathrm {c} }R=\{f_{\mathrm {c} },f_{\mathrm {d} },f_{\mathrm {v} },f_{\mathrm {h} }\}}
+
+ (highlighted in green in the group table of 
+
+
+
+
+
+D
+
+
+4
+
+
+
+
+{\displaystyle \mathrm {D} _{4}}
+
+). The subgroup 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is normal, because 
+
+
+
+
+f
+
+
+c
+
+
+
+R
+=
+U
+=
+R
+
+f
+
+
+c
+
+
+
+
+
+{\displaystyle f_{\mathrm {c} }R=U=Rf_{\mathrm {c} }}
+
+ and similarly for the other elements of the group. (In fact, in the case of 
+
+
+
+
+
+D
+
+
+4
+
+
+
+
+{\displaystyle \mathrm {D} _{4}}
+
+, the cosets generated by reflections are all equal: 
+
+
+
+
+f
+
+
+h
+
+
+
+R
+=
+
+f
+
+
+v
+
+
+
+R
+=
+
+f
+
+
+d
+
+
+
+R
+=
+
+f
+
+
+c
+
+
+
+R
+
+
+{\displaystyle f_{\mathrm {h} }R=f_{\mathrm {v} }R=f_{\mathrm {d} }R=f_{\mathrm {c} }R}
+
+.)
+Suppose that 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ is a normal subgroup of a group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, and
+
+
+
+
+G
+
+/
+
+N
+=
+{
+g
+N
+∣
+g
+∈
+G
+}
+
+
+{\displaystyle G/N=\{gN\mid g\in G\}}
+
+
+denotes its set of cosets.
+Then there is a unique group law on 
+
+
+
+G
+
+/
+
+N
+
+
+{\displaystyle G/N}
+
+ for which the map 
+
+
+
+G
+→
+G
+
+/
+
+N
+
+
+{\displaystyle G\to G/N}
+
+ sending each element 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ to 
+
+
+
+g
+N
+
+
+{\displaystyle gN}
+
+ is a homomorphism.
+Explicitly, the product of two cosets 
+
+
+
+g
+N
+
+
+{\displaystyle gN}
+
+ and 
+
+
+
+h
+N
+
+
+{\displaystyle hN}
+
+ is 
+
+
+
+(
+g
+h
+)
+N
+
+
+{\displaystyle (gh)N}
+
+, the coset 
+
+
+
+e
+N
+=
+N
+
+
+{\displaystyle eN=N}
+
+ serves as the identity of 
+
+
+
+G
+
+/
+
+N
+
+
+{\displaystyle G/N}
+
+, and the inverse of 
+
+
+
+g
+N
+
+
+{\displaystyle gN}
+
+ in the quotient group is 
+
+
+
+(
+g
+N
+
+)
+
+−
+1
+
+
+=
+
+(
+
+g
+
+−
+1
+
+
+)
+
+N
+
+
+{\displaystyle (gN)^{-1}=\left(g^{-1}\right)N}
+
+.
+The group 
+
+
+
+G
+
+/
+
+N
+
+
+{\displaystyle G/N}
+
+, read as "
+
+
+
+G
+
+
+{\displaystyle G}
+
+ modulo 
+
+
+
+N
+
+
+{\displaystyle N}
+
+",[36] is called a quotient group or factor group.
+The quotient group can alternatively be characterized by a universal property.
+The elements of the quotient group 
+
+
+
+
+
+D
+
+
+4
+
+
+
+/
+
+R
+
+
+{\displaystyle \mathrm {D} _{4}/R}
+
+ are 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ and 
+
+
+
+U
+=
+
+f
+
+
+v
+
+
+
+R
+
+
+{\displaystyle U=f_{\mathrm {v} }R}
+
+. The group operation on the quotient is shown in the table. For example, 
+
+
+
+U
+⋅
+U
+=
+
+f
+
+
+v
+
+
+
+R
+⋅
+
+f
+
+
+v
+
+
+
+R
+=
+(
+
+f
+
+
+v
+
+
+
+⋅
+
+f
+
+
+v
+
+
+
+)
+R
+=
+R
+
+
+{\displaystyle U\cdot U=f_{\mathrm {v} }R\cdot f_{\mathrm {v} }R=(f_{\mathrm {v} }\cdot f_{\mathrm {v} })R=R}
+
+. Both the subgroup 
+
+
+
+R
+=
+{
+
+i
+d
+
+,
+
+r
+
+1
+
+
+,
+
+r
+
+2
+
+
+,
+
+r
+
+3
+
+
+}
+
+
+{\displaystyle R=\{\mathrm {id} ,r_{1},r_{2},r_{3}\}}
+
+ and the quotient 
+
+
+
+
+
+D
+
+
+4
+
+
+
+/
+
+R
+
+
+{\displaystyle \mathrm {D} _{4}/R}
+
+ are abelian, but 
+
+
+
+
+
+D
+
+
+4
+
+
+
+
+{\displaystyle \mathrm {D} _{4}}
+
+ is not.  Sometimes a group can be reconstructed from a subgroup and quotient (plus some additional data), by the semidirect product construction; 
+
+
+
+
+
+D
+
+
+4
+
+
+
+
+{\displaystyle \mathrm {D} _{4}}
+
+ is an example.
+The first isomorphism theorem implies that any surjective homomorphism 
+
+
+
+ϕ
+:
+G
+→
+H
+
+
+{\displaystyle \phi \colon G\to H}
+
+ factors canonically as a quotient homomorphism followed by an isomorphism: 
+
+
+
+G
+→
+G
+
+/
+
+ker
+⁡
+ϕ
+
+
+
+
+
+→
+
+
+∼
+
+
+
+
+
+H
+
+
+{\displaystyle G\to G/\ker \phi \;{\stackrel {\sim }{\to }}\;H}
+
+.
+Surjective homomorphisms are the epimorphisms in the category of groups.
+Every group is isomorphic to a quotient of a free group, in many ways.
+For example, the dihedral group 
+
+
+
+
+
+D
+
+
+4
+
+
+
+
+{\displaystyle \mathrm {D} _{4}}
+
+ is generated by the right rotation 
+
+
+
+
+r
+
+1
+
+
+
+
+{\displaystyle r_{1}}
+
+ and the reflection 
+
+
+
+
+f
+
+
+v
+
+
+
+
+
+{\displaystyle f_{\mathrm {v} }}
+
+ in a vertical line (every element of 
+
+
+
+
+
+D
+
+
+4
+
+
+
+
+{\displaystyle \mathrm {D} _{4}}
+
+ is a finite product of copies of these and their inverses).
+Hence there is a surjective homomorphism φ from the free group 
+
+
+
+⟨
+r
+,
+f
+⟩
+
+
+{\displaystyle \langle r,f\rangle }
+
+ on two generators to 
+
+
+
+
+
+D
+
+
+4
+
+
+
+
+{\displaystyle \mathrm {D} _{4}}
+
+ sending 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ to 
+
+
+
+
+r
+
+1
+
+
+
+
+{\displaystyle r_{1}}
+
+ and 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ to 
+
+
+
+
+f
+
+1
+
+
+
+
+{\displaystyle f_{1}}
+
+.
+Elements in 
+
+
+
+ker
+⁡
+ϕ
+
+
+{\displaystyle \ker \phi }
+
+ are called relations; examples include 
+
+
+
+
+r
+
+4
+
+
+,
+
+r
+
+2
+
+
+,
+(
+r
+⋅
+f
+
+)
+
+2
+
+
+
+
+{\displaystyle r^{4},r^{2},(r\cdot f)^{2}}
+
+.
+In fact, it turns out that 
+
+
+
+ker
+⁡
+ϕ
+
+
+{\displaystyle \ker \phi }
+
+ is the smallest normal subgroup of 
+
+
+
+⟨
+r
+,
+f
+⟩
+
+
+{\displaystyle \langle r,f\rangle }
+
+ containing these three elements; in other words, all relations are consequences of these three.
+The quotient of the free group by this normal subgroup is denoted 
+
+
+
+⟨
+r
+,
+f
+∣
+
+r
+
+4
+
+
+=
+
+f
+
+2
+
+
+=
+(
+r
+⋅
+f
+
+)
+
+2
+
+
+=
+1
+⟩
+
+
+{\displaystyle \langle r,f\mid r^{4}=f^{2}=(r\cdot f)^{2}=1\rangle }
+
+.
+This is called a presentation of 
+
+
+
+
+
+D
+
+
+4
+
+
+
+
+{\displaystyle \mathrm {D} _{4}}
+
+ by generators and relations, because the first isomorphism theorem for φ yields an isomorphism 
+
+
+
+⟨
+r
+,
+f
+∣
+
+r
+
+4
+
+
+=
+
+f
+
+2
+
+
+=
+(
+r
+⋅
+f
+
+)
+
+2
+
+
+=
+1
+⟩
+→
+
+
+D
+
+
+4
+
+
+
+
+{\displaystyle \langle r,f\mid r^{4}=f^{2}=(r\cdot f)^{2}=1\rangle \to \mathrm {D} _{4}}
+
+.[37]
+A presentation of a group can be used to construct the Cayley graph, a graphical depiction of a discrete group.[38]
+Examples and applications of groups abound. A starting point is the group 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ of integers with addition as group operation, introduced above. If instead of addition multiplication is considered, one obtains multiplicative groups. These groups are predecessors of important constructions in abstract algebra.
+Groups are also applied in many other mathematical areas. Mathematical objects are often examined by associating groups to them and studying the properties of the corresponding groups. For example, Henri Poincaré founded what is now called algebraic topology by introducing the fundamental group.[39] By means of this connection, topological properties such as proximity and continuity translate into properties of groups.[g] For example, elements of the fundamental group are represented by loops. The second image shows some loops in a plane minus a point. The blue loop is considered null-homotopic (and thus irrelevant), because it can be continuously shrunk to a point. The presence of the hole prevents the orange loop from being shrunk to a point. The fundamental group of the plane with a point deleted turns out to be infinite cyclic, generated by the orange loop (or any other loop winding once around the hole). This way, the fundamental group detects the hole.
+In more recent applications, the influence has also been reversed to motivate geometric constructions by a group-theoretical background.[h] In a similar vein, geometric group theory employs geometric concepts, for example in the study of hyperbolic groups.[40] Further branches crucially applying groups include algebraic geometry and number theory.[41]
+In addition to the above theoretical applications, many practical applications of groups exist. Cryptography relies on the combination of the abstract group theory approach together with algorithmical knowledge obtained in computational group theory, in particular when implemented for finite groups.[42] Applications of group theory are not restricted to mathematics; sciences such as physics, chemistry and computer science benefit from the concept.
+Many number systems, such as the integers and the rationals, enjoy a naturally given group structure. In some cases, such as with the rationals, both addition and multiplication operations give rise to group structures. Such number systems are predecessors to more general algebraic structures known as rings and fields. Further abstract algebraic concepts such as modules, vector spaces and algebras also form groups.
+The group of integers 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ under addition, denoted 
+
+
+
+
+(
+
+
+Z
+
+,
++
+
+)
+
+
+
+{\displaystyle \left(\mathbb {Z} ,+\right)}
+
+, has been described above. The integers, with the operation of multiplication instead of addition, 
+
+
+
+
+(
+
+
+Z
+
+,
+⋅
+
+)
+
+
+
+{\displaystyle \left(\mathbb {Z} ,\cdot \right)}
+
+ do not form a group. The associativity and identity axioms are satisfied, but inverses do not exist: for example, 
+
+
+
+a
+=
+2
+
+
+{\displaystyle a=2}
+
+ is an integer, but the only solution to the equation 
+
+
+
+a
+⋅
+b
+=
+1
+
+
+{\displaystyle a\cdot b=1}
+
+ in this case is 
+
+
+
+b
+=
+
+
+
+1
+2
+
+
+
+
+
+{\displaystyle b={\tfrac {1}{2}}}
+
+, which is a rational number, but not an integer. Hence not every element of 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ has a (multiplicative) inverse.[i]
+The desire for the existence of multiplicative inverses suggests considering fractions
+
+
+
+
+
+
+a
+b
+
+
+.
+
+
+{\displaystyle {\frac {a}{b}}.}
+
+
+Fractions of integers (with 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ nonzero) are known as rational numbers.[j] The set of all such irreducible fractions is commonly denoted 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+. There is still a minor obstacle for 
+
+
+
+
+(
+
+
+Q
+
+,
+⋅
+
+)
+
+
+
+{\displaystyle \left(\mathbb {Q} ,\cdot \right)}
+
+, the rationals with multiplication, being a group: because zero does not have a multiplicative inverse (i.e., there is no 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ such that 
+
+
+
+x
+⋅
+0
+=
+1
+
+
+{\displaystyle x\cdot 0=1}
+
+), 
+
+
+
+
+(
+
+
+Q
+
+,
+⋅
+
+)
+
+
+
+{\displaystyle \left(\mathbb {Q} ,\cdot \right)}
+
+ is still not a group.
+However, the set of all nonzero rational numbers 
+
+
+
+
+Q
+
+∖
+
+{
+0
+}
+
+=
+
+{
+
+q
+∈
+
+Q
+
+∣
+q
+≠
+0
+
+}
+
+
+
+{\displaystyle \mathbb {Q} \smallsetminus \left\{0\right\}=\left\{q\in \mathbb {Q} \mid q\neq 0\right\}}
+
+ does form an abelian group under multiplication, also denoted 
+
+
+
+
+
+Q
+
+
+×
+
+
+
+
+{\displaystyle \mathbb {Q} ^{\times }}
+
+.[k] Associativity and identity element axioms follow from the properties of integers. The closure requirement still holds true after removing zero, because the product of two nonzero rationals is never zero. Finally, the inverse of 
+
+
+
+a
+
+/
+
+b
+
+
+{\displaystyle a/b}
+
+ is 
+
+
+
+b
+
+/
+
+a
+
+
+{\displaystyle b/a}
+
+, therefore the axiom of the inverse element is satisfied.
+The rational numbers (including zero) also form a group under addition. Intertwining addition and multiplication operations yields more complicated structures called rings and – if division by other than zero is possible, such as in 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ – fields, which occupy a central position in abstract algebra. Group theoretic arguments therefore underlie parts of the theory of those entities.[l]
+Modular arithmetic for a modulus 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ defines any two elements 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ that differ by a multiple of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ to be equivalent, denoted by 
+
+
+
+a
+≡
+b
+
+
+(
+mod
+
+n
+)
+
+
+
+{\displaystyle a\equiv b{\pmod {n}}}
+
+. Every integer is equivalent to one of the integers from 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+ to 
+
+
+
+n
+−
+1
+
+
+{\displaystyle n-1}
+
+, and the operations of modular arithmetic modify normal arithmetic by replacing the result of any operation by its equivalent representative. Modular addition, defined in this way for the integers from 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+ to 
+
+
+
+n
+−
+1
+
+
+{\displaystyle n-1}
+
+, forms a group, denoted as 
+
+
+
+
+
+Z
+
+
+n
+
+
+
+
+{\displaystyle \mathrm {Z} _{n}}
+
+ or 
+
+
+
+(
+
+Z
+
+
+/
+
+n
+
+Z
+
+,
++
+)
+
+
+{\displaystyle (\mathbb {Z} /n\mathbb {Z} ,+)}
+
+, with 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+ as the identity element and 
+
+
+
+n
+−
+a
+
+
+{\displaystyle n-a}
+
+ as the inverse element of 
+
+
+
+a
+
+
+{\displaystyle a}
+
+.
+A familiar example is addition of hours on the face of a clock, where 12 rather than 0 is chosen as the representative of the identity. If the hour hand is on 
+
+
+
+9
+
+
+{\displaystyle 9}
+
+ and is advanced 
+
+
+
+4
+
+
+{\displaystyle 4}
+
+ hours, it ends up on 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+, as shown in the illustration. This is expressed by saying that 
+
+
+
+9
++
+4
+
+
+{\displaystyle 9+4}
+
+ is congruent to 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+ "modulo 
+
+
+
+12
+
+
+{\displaystyle 12}
+
+" or, in symbols,
+
+
+
+
+9
++
+4
+≡
+1
+
+
+(
+mod
+
+12
+)
+
+.
+
+
+{\displaystyle 9+4\equiv 1{\pmod {12}}.}
+
+
+For any prime number 
+
+
+
+p
+
+
+{\displaystyle p}
+
+, there is also the multiplicative group of integers modulo 
+
+
+
+p
+
+
+{\displaystyle p}
+
+.[43] Its elements can be represented by 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+ to 
+
+
+
+p
+−
+1
+
+
+{\displaystyle p-1}
+
+. The group operation, multiplication modulo 
+
+
+
+p
+
+
+{\displaystyle p}
+
+, replaces the usual product by its representative, the remainder of division by 
+
+
+
+p
+
+
+{\displaystyle p}
+
+. For example, for 
+
+
+
+p
+=
+5
+
+
+{\displaystyle p=5}
+
+, the four group elements can be represented by 
+
+
+
+1
+,
+2
+,
+3
+,
+4
+
+
+{\displaystyle 1,2,3,4}
+
+. In this group, 
+
+
+
+4
+⋅
+4
+≡
+1
+
+mod
+
+5
+
+
+
+
+{\displaystyle 4\cdot 4\equiv 1{\bmod {5}}}
+
+, because the usual product 
+
+
+
+16
+
+
+{\displaystyle 16}
+
+ is equivalent to 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+: when divided by 
+
+
+
+5
+
+
+{\displaystyle 5}
+
+ it yields a remainder of 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+. The primality of 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ ensures that the usual product of two representatives is not divisible by 
+
+
+
+p
+
+
+{\displaystyle p}
+
+, and therefore that the modular product is nonzero.[m] The identity element is represented by 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+, and associativity follows from the corresponding property of the integers. Finally, the inverse element axiom requires that given an integer 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ not divisible by 
+
+
+
+p
+
+
+{\displaystyle p}
+
+, there exists an integer 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ such that 
+
+
+
+
+a
+⋅
+b
+≡
+1
+
+
+(
+mod
+
+p
+)
+
+,
+
+
+{\displaystyle a\cdot b\equiv 1{\pmod {p}},}
+
+
+that is, such that 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ evenly divides 
+
+
+
+a
+⋅
+b
+−
+1
+
+
+{\displaystyle a\cdot b-1}
+
+. The inverse 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ can be found by using Bézout's identity and the fact that the greatest common divisor 
+
+
+
+gcd
+(
+a
+,
+p
+)
+
+
+{\displaystyle \gcd(a,p)}
+
+ equals 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+.[44] In the case 
+
+
+
+p
+=
+5
+
+
+{\displaystyle p=5}
+
+ above, the inverse of the element represented by 
+
+
+
+4
+
+
+{\displaystyle 4}
+
+ is that represented by 
+
+
+
+4
+
+
+{\displaystyle 4}
+
+, and the inverse of the element represented by 
+
+
+
+3
+
+
+{\displaystyle 3}
+
+ is represented by 
+
+
+
+2
+
+
+{\displaystyle 2}
+
+, as 
+
+
+
+3
+⋅
+2
+=
+6
+≡
+1
+
+mod
+
+5
+
+
+
+
+{\displaystyle 3\cdot 2=6\equiv 1{\bmod {5}}}
+
+. Hence all group axioms are fulfilled. This example is similar to 
+
+
+
+
+(
+
+
+Q
+
+∖
+
+{
+0
+}
+
+,
+⋅
+
+)
+
+
+
+{\displaystyle \left(\mathbb {Q} \smallsetminus \left\{0\right\},\cdot \right)}
+
+ above: it consists of exactly those elements in the ring 
+
+
+
+
+Z
+
+
+/
+
+p
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} /p\mathbb {Z} }
+
+ that have a multiplicative inverse.[45] These groups, denoted 
+
+
+
+
+
+F
+
+
+p
+
+
+×
+
+
+
+
+{\displaystyle \mathbb {F} _{p}^{\times }}
+
+, are crucial to public-key cryptography.[n]
+A cyclic group is a group all of whose elements are powers of a particular element 
+
+
+
+a
+
+
+{\displaystyle a}
+
+.[46] In multiplicative notation, the elements of the group are
+
+
+
+
+…
+,
+
+a
+
+−
+3
+
+
+,
+
+a
+
+−
+2
+
+
+,
+
+a
+
+−
+1
+
+
+,
+
+a
+
+0
+
+
+,
+a
+,
+
+a
+
+2
+
+
+,
+
+a
+
+3
+
+
+,
+…
+,
+
+
+{\displaystyle \dots ,a^{-3},a^{-2},a^{-1},a^{0},a,a^{2},a^{3},\dots ,}
+
+
+where 
+
+
+
+
+a
+
+2
+
+
+
+
+{\displaystyle a^{2}}
+
+ means 
+
+
+
+a
+⋅
+a
+
+
+{\displaystyle a\cdot a}
+
+, 
+
+
+
+
+a
+
+−
+3
+
+
+
+
+{\displaystyle a^{-3}}
+
+ stands for 
+
+
+
+
+a
+
+−
+1
+
+
+⋅
+
+a
+
+−
+1
+
+
+⋅
+
+a
+
+−
+1
+
+
+=
+(
+a
+⋅
+a
+⋅
+a
+
+)
+
+−
+1
+
+
+
+
+{\displaystyle a^{-1}\cdot a^{-1}\cdot a^{-1}=(a\cdot a\cdot a)^{-1}}
+
+, etc.[o] Such an element 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ is called a generator or a primitive element of the group. In additive notation, the requirement for an element to be primitive is that each element of the group can be written as
+
+
+
+
+…
+,
+(
+−
+a
+)
++
+(
+−
+a
+)
+,
+−
+a
+,
+0
+,
+a
+,
+a
++
+a
+,
+…
+.
+
+
+{\displaystyle \dots ,(-a)+(-a),-a,0,a,a+a,\dots .}
+
+
+In the groups 
+
+
+
+(
+
+Z
+
+
+/
+
+n
+
+Z
+
+,
++
+)
+
+
+{\displaystyle (\mathbb {Z} /n\mathbb {Z} ,+)}
+
+ introduced above, the element 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+ is primitive, so these groups are cyclic. Indeed, each element is expressible as a sum all of whose terms are 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+. Any cyclic group with 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ elements is isomorphic to this group. A second example for cyclic groups is the group of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+th complex roots of unity, given by complex numbers 
+
+
+
+z
+
+
+{\displaystyle z}
+
+ satisfying 
+
+
+
+
+z
+
+n
+
+
+=
+1
+
+
+{\displaystyle z^{n}=1}
+
+. These numbers can be visualized as the vertices on a regular 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-gon, as shown in blue in the image for 
+
+
+
+n
+=
+6
+
+
+{\displaystyle n=6}
+
+. The group operation is multiplication of complex numbers. In the picture, multiplying with 
+
+
+
+z
+
+
+{\displaystyle z}
+
+ corresponds to a counter-clockwise rotation by 60°.[47] From field theory, the group 
+
+
+
+
+
+F
+
+
+p
+
+
+×
+
+
+
+
+{\displaystyle \mathbb {F} _{p}^{\times }}
+
+ is cyclic for prime 
+
+
+
+p
+
+
+{\displaystyle p}
+
+: for example, if 
+
+
+
+p
+=
+5
+
+
+{\displaystyle p=5}
+
+, 
+
+
+
+3
+
+
+{\displaystyle 3}
+
+ is a generator since 
+
+
+
+
+3
+
+1
+
+
+=
+3
+
+
+{\displaystyle 3^{1}=3}
+
+, 
+
+
+
+
+3
+
+2
+
+
+=
+9
+≡
+4
+
+
+{\displaystyle 3^{2}=9\equiv 4}
+
+, 
+
+
+
+
+3
+
+3
+
+
+≡
+2
+
+
+{\displaystyle 3^{3}\equiv 2}
+
+, and 
+
+
+
+
+3
+
+4
+
+
+≡
+1
+
+
+{\displaystyle 3^{4}\equiv 1}
+
+.
+Some cyclic groups have an infinite number of elements. In these groups, for every non-zero element 
+
+
+
+a
+
+
+{\displaystyle a}
+
+, all the powers of 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ are distinct; despite the name "cyclic group", the powers of the elements do not cycle. An infinite cyclic group is isomorphic to 
+
+
+
+(
+
+Z
+
+,
++
+)
+
+
+{\displaystyle (\mathbb {Z} ,+)}
+
+, the group of integers under addition introduced above.[48] As these two prototypes are both abelian, so are all cyclic groups.
+The study of finitely generated abelian groups is quite mature, including the fundamental theorem of finitely generated abelian groups; and reflecting this state of affairs, many group-related notions, such as center and commutator, describe the extent to which a given group is not abelian.[49]
+Symmetry groups are groups consisting of symmetries of given mathematical objects, principally geometric entities, such as the symmetry group of the square given as an introductory example above, although they also arise in algebra such as the symmetries among the roots of polynomial equations dealt with in Galois theory (see below).[51] Conceptually, group theory can be thought of as the study of symmetry.[p] Symmetries in mathematics greatly simplify the study of geometrical or analytical objects. A group is said to act on another mathematical object X if every group element can be associated to some operation on X and the composition of these operations follows the group law. For example, an element of the (2,3,7) triangle group acts on a triangular tiling of the hyperbolic plane by permuting the triangles.[50] By a group action, the group pattern is connected to the structure of the object being acted on.
+In chemistry, point groups describe molecular symmetries, while space groups describe crystal symmetries in crystallography. These symmetries underlie the chemical and physical behavior of these systems, and group theory enables simplification of quantum mechanical analysis of these properties.[52] For example, group theory is used to show that optical transitions between certain quantum levels cannot occur simply because of the symmetry of the states involved.[53]
+Group theory helps predict the changes in physical properties that occur when a material undergoes a phase transition, for example, from a cubic to a tetrahedral crystalline form. An example is ferroelectric materials, where the change from a paraelectric to a ferroelectric state occurs at the Curie temperature and is related to a change from the high-symmetry paraelectric state to the lower symmetry ferroelectric state, accompanied by a so-called soft phonon mode, a vibrational lattice mode that goes to zero frequency at the transition.[54]
+Such spontaneous symmetry breaking has found further application in elementary particle physics, where its occurrence is related to the appearance of Goldstone bosons.[55]
+Finite symmetry groups such as the Mathieu groups are used in coding theory, which is in turn applied in error correction of transmitted data, and in CD players.[59] Another application is differential Galois theory, which characterizes functions having antiderivatives of a prescribed form, giving group-theoretic criteria for when solutions of certain differential equations are well-behaved.[q] Geometric properties that remain stable under group actions are investigated in (geometric) invariant theory.[60]
+Matrix groups consist of matrices together with matrix multiplication. The general linear group 
+
+
+
+
+G
+L
+
+(
+n
+,
+
+R
+
+)
+
+
+{\displaystyle \mathrm {GL} (n,\mathbb {R} )}
+
+ consists of all invertible 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-by-
+
+
+
+n
+
+
+{\displaystyle n}
+
+ matrices with real entries.[61] Its subgroups are referred to as matrix groups or linear groups. The dihedral group example mentioned above can be viewed as a (very small) matrix group. Another important matrix group is the special orthogonal group 
+
+
+
+
+S
+O
+
+(
+n
+)
+
+
+{\displaystyle \mathrm {SO} (n)}
+
+. It describes all possible rotations in 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ dimensions. Rotation matrices in this group are used in computer graphics.[62]
+Representation theory is both an application of the group concept and important for a deeper understanding of groups.[63][64] It studies the group by its group actions on other spaces. A broad class of group representations are linear representations in which the group acts on a vector space, such as the three-dimensional Euclidean space 
+
+
+
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbb {R} ^{3}}
+
+. A representation of a group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ on an 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-dimensional real vector space is simply a group homomorphism
+
+
+
+
+ρ
+:
+G
+→
+
+G
+L
+
+(
+n
+,
+
+R
+
+)
+
+
+{\displaystyle \rho :G\to \mathrm {GL} (n,\mathbb {R} )}
+
+
+from the group to the general linear group. This way, the group operation, which may be abstractly given, translates to the multiplication of matrices making it accessible to explicit computations.[r]
+A group action gives further means to study the object being acted on.[s] On the other hand, it also yields information about the group. Group representations are an organizing principle in the theory of finite groups, Lie groups, algebraic groups and topological groups, especially (locally) compact groups.[63][65]
+Galois groups were developed to help solve polynomial equations by capturing their symmetry features.[66][67] For example, the solutions of the quadratic equation 
+
+
+
+a
+
+x
+
+2
+
+
++
+b
+x
++
+c
+=
+0
+
+
+{\displaystyle ax^{2}+bx+c=0}
+
+ are given by
+
+
+
+
+x
+=
+
+
+
+−
+b
+±
+
+
+
+b
+
+2
+
+
+−
+4
+a
+c
+
+
+
+
+2
+a
+
+
+
+.
+
+
+{\displaystyle x={\frac {-b\pm {\sqrt {b^{2}-4ac}}}{2a}}.}
+
+
+Each solution can be obtained by replacing the 
+
+
+
+±
+
+
+{\displaystyle \pm }
+
+ sign by 
+
+
+
++
+
+
+{\displaystyle +}
+
+ or 
+
+
+
+−
+
+
+{\displaystyle -}
+
+; analogous formulae are known for cubic and quartic equations, but do not exist in general for degree 5 and higher.[68] In the quadratic formula, changing the sign (permuting the resulting two solutions) can be viewed as a (very simple) group operation. Analogous Galois groups act on the solutions of higher-degree polynomials and are closely related to the existence of formulas for their solution. Abstract properties of these groups (in particular their solvability) give a criterion for the ability to express the solutions of these polynomials using solely addition, multiplication, and roots similar to the formula above.[69]
+Modern Galois theory generalizes the above type of Galois groups by shifting to field theory and considering field extensions formed as the splitting field of a polynomial. This theory establishes—via the fundamental theorem of Galois theory—a precise relationship between fields and groups, underlining once again the ubiquity of groups in mathematics.[70]
+A group is called finite if it has a finite number of elements. The number of elements is called the order of the group.[71] An important class is the symmetric groups 
+
+
+
+
+
+S
+
+
+N
+
+
+
+
+{\displaystyle \mathrm {S} _{N}}
+
+, the groups of permutations of 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ objects. For example, the symmetric group on 3 letters 
+
+
+
+
+
+S
+
+
+3
+
+
+
+
+{\displaystyle \mathrm {S} _{3}}
+
+ is the group of all possible reorderings of the objects. The three letters ABC can be reordered into ABC, ACB, BAC, BCA, CAB, CBA, forming in total 6 (factorial of 3) elements. The group operation is composition of these reorderings, and the identity element is the reordering operation that leaves the order unchanged. This class is fundamental insofar as any finite group can be expressed as a subgroup of a symmetric group 
+
+
+
+
+
+S
+
+
+N
+
+
+
+
+{\displaystyle \mathrm {S} _{N}}
+
+ for a suitable integer 
+
+
+
+N
+
+
+{\displaystyle N}
+
+, according to Cayley's theorem. Parallel to the group of symmetries of the square above, 
+
+
+
+
+
+S
+
+
+3
+
+
+
+
+{\displaystyle \mathrm {S} _{3}}
+
+ can also be interpreted as the group of symmetries of an equilateral triangle.
+The order of an element 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ in a group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is the least positive integer 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ such that 
+
+
+
+
+a
+
+n
+
+
+=
+e
+
+
+{\displaystyle a^{n}=e}
+
+, where 
+
+
+
+
+a
+
+n
+
+
+
+
+{\displaystyle a^{n}}
+
+ represents
+
+
+
+
+
+
+
+
+a
+⋯
+a
+
+⏟
+
+
+
+n
+
+ factors
+
+
+
+,
+
+
+{\displaystyle \underbrace {a\cdots a} _{n{\text{ factors}}},}
+
+
+that is, application of the operation "
+
+
+
+⋅
+
+
+{\displaystyle \cdot }
+
+" to 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ copies of 
+
+
+
+a
+
+
+{\displaystyle a}
+
+. (If "
+
+
+
+⋅
+
+
+{\displaystyle \cdot }
+
+" represents multiplication, then 
+
+
+
+
+a
+
+n
+
+
+
+
+{\displaystyle a^{n}}
+
+ corresponds to the 
+
+
+
+n
+
+
+{\displaystyle n}
+
+th power of 
+
+
+
+a
+
+
+{\displaystyle a}
+
+.) In infinite groups, such an 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ may not exist, in which case the order of 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ is said to be infinity. The order of an element equals the order of the cyclic subgroup generated by this element.
+More sophisticated counting techniques, for example, counting cosets, yield more precise statements about finite groups: Lagrange's Theorem states that for a finite group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ the order of any finite subgroup 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ divides the order of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+. The Sylow theorems give a partial converse.
+The dihedral group 
+
+
+
+
+
+D
+
+
+4
+
+
+
+
+{\displaystyle \mathrm {D} _{4}}
+
+ of symmetries of a square is a finite group of order 8. In this group, the order of 
+
+
+
+
+r
+
+1
+
+
+
+
+{\displaystyle r_{1}}
+
+ is 4, as is the order of the subgroup 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ that this element generates. The order of the reflection elements 
+
+
+
+
+f
+
+
+v
+
+
+
+
+
+{\displaystyle f_{\mathrm {v} }}
+
+ etc. is 2. Both orders divide 8, as predicted by Lagrange's theorem. The groups 
+
+
+
+
+
+F
+
+
+p
+
+
+×
+
+
+
+
+{\displaystyle \mathbb {F} _{p}^{\times }}
+
+ of multiplication modulo a prime 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ have order 
+
+
+
+p
+−
+1
+
+
+{\displaystyle p-1}
+
+.
+Any finite abelian group is isomorphic to a product of finite cyclic groups; this statement is part of the fundamental theorem of finitely generated abelian groups.
+Any group of prime order 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is isomorphic to the cyclic group 
+
+
+
+
+
+Z
+
+
+p
+
+
+
+
+{\displaystyle \mathrm {Z} _{p}}
+
+ (a consequence of Lagrange's theorem).  
+Any group of order 
+
+
+
+
+p
+
+2
+
+
+
+
+{\displaystyle p^{2}}
+
+ is abelian, isomorphic to 
+
+
+
+
+
+Z
+
+
+
+p
+
+2
+
+
+
+
+
+
+{\displaystyle \mathrm {Z} _{p^{2}}}
+
+ or 
+
+
+
+
+
+Z
+
+
+p
+
+
+×
+
+
+Z
+
+
+p
+
+
+
+
+{\displaystyle \mathrm {Z} _{p}\times \mathrm {Z} _{p}}
+
+.
+But there exist nonabelian groups of order 
+
+
+
+
+p
+
+3
+
+
+
+
+{\displaystyle p^{3}}
+
+; the dihedral group 
+
+
+
+
+
+D
+
+
+4
+
+
+
+
+{\displaystyle \mathrm {D} _{4}}
+
+ of order 
+
+
+
+
+2
+
+3
+
+
+
+
+{\displaystyle 2^{3}}
+
+ above is an example.[72]
+When a group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ has a normal subgroup 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ other than 
+
+
+
+{
+1
+}
+
+
+{\displaystyle \{1\}}
+
+ and 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ itself, questions about 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ can sometimes be reduced to questions about 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ and 
+
+
+
+G
+
+/
+
+N
+
+
+{\displaystyle G/N}
+
+.  A nontrivial group is called simple if it has no such normal subgroup.  Finite simple groups are to finite groups as prime numbers are to positive integers: they serve as building blocks, in a sense made precise by the Jordan–Hölder theorem.
+Computer algebra systems have been used to list all groups of order up to 2000.[t]
+But classifying all finite groups is a problem considered too hard to be solved.
+The classification of all finite simple groups was a major achievement in contemporary group theory.  There are several infinite families of such groups, as well as 26 "sporadic groups" that do not belong to any of the families.  The largest sporadic group is called the monster group.   The monstrous moonshine conjectures, proved by Richard Borcherds, relate the monster group to certain modular functions.[73]
+The gap between the classification of simple groups and the classification of all groups lies in the extension problem.[74]
+An equivalent definition of group consists of replacing the "there exist" part of the group axioms by operations whose result is the element that must exist. So, a group is a set 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ equipped with a binary operation 
+
+
+
+G
+×
+G
+→
+G
+
+
+{\displaystyle G\times G\rightarrow G}
+
+ (the group operation), a unary operation 
+
+
+
+G
+→
+G
+
+
+{\displaystyle G\rightarrow G}
+
+ (which provides the inverse) and a nullary operation, which has no operand and results in the identity element. Otherwise, the group axioms are exactly the same. This variant of the definition avoids existential quantifiers and is used in computing with groups and for computer-aided proofs.
+This way of defining groups lends itself to generalizations such as the notion of group object in a category.  Briefly, this is an object with morphisms that mimic the group axioms.[75]
+Some topological spaces may be endowed with a group law. In order for the group law and the topology to interweave well, the group operations must be continuous functions; informally, 
+
+
+
+g
+⋅
+h
+
+
+{\displaystyle g\cdot h}
+
+ and 
+
+
+
+
+g
+
+−
+1
+
+
+
+
+{\displaystyle g^{-1}}
+
+ must not vary wildly if 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ and 
+
+
+
+h
+
+
+{\displaystyle h}
+
+ vary only a little. Such groups are called topological groups, and they are the group objects in the category of topological spaces.[76] The most basic examples are the group of real numbers under addition and the group of nonzero real numbers under multiplication. Similar examples can be formed from any other topological field, such as the field of complex numbers or the field of p-adic numbers. These examples are locally compact, so they have Haar measures and can be studied via harmonic analysis. Other locally compact topological groups include the group of points of an algebraic group over a local field or adele ring; these are basic to number theory[77] Galois groups of infinite algebraic field extensions are equipped with the Krull topology, which plays a role in infinite Galois theory.[78] A generalization used in algebraic geometry is the étale fundamental group.[79]
+A Lie group is a group that also has the structure of a differentiable manifold; informally, this means that it looks locally like a Euclidean space of some fixed dimension.[80] Again, the definition requires the additional structure, here the manifold structure, to be compatible: the multiplication and inverse maps are required to be smooth.
+A standard example is the general linear group introduced above: it is an open subset of the space of all 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-by-
+
+
+
+n
+
+
+{\displaystyle n}
+
+ matrices, because it is given by the inequality
+
+
+
+
+det
+(
+A
+)
+≠
+0
+,
+
+
+{\displaystyle \det(A)\neq 0,}
+
+
+where 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ denotes an 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-by-
+
+
+
+n
+
+
+{\displaystyle n}
+
+ matrix.[81]
+Lie groups are of fundamental importance in modern physics: Noether's theorem links continuous symmetries to conserved quantities.[82] Rotation, as well as translations in space and time, are basic symmetries of the laws of mechanics. They can, for instance, be used to construct simple models—imposing, say, axial symmetry on a situation will typically lead to significant simplification in the equations one needs to solve to provide a physical description.[u] Another example is the group of Lorentz transformations, which relate measurements of time and velocity of two observers in motion relative to each other. They can be deduced in a purely group-theoretical way, by expressing the transformations as a rotational symmetry of Minkowski space. The latter serves—in the absence of significant gravitation—as a model of spacetime in special relativity.[83] The full symmetry group of Minkowski space, i.e., including translations, is known as the Poincaré group. By the above, it plays a pivotal role in special relativity and, by implication, for quantum field theories.[84] Symmetries that vary with location are central to the modern description of physical interactions with the help of gauge theory. An important example of a gauge theory is the Standard Model, which describes three of the four known fundamental forces and classifies all known elementary particles.[85]
+More general structures may be defined by relaxing some of the axioms defining a group.[31][86][87]  The table gives a list of several structures generalizing groups.
+For example, if the requirement that every element has an inverse is eliminated, the resulting algebraic structure is called a monoid. The natural numbers 
+
+
+
+
+N
+
+
+
+{\displaystyle \mathbb {N} }
+
+ (including zero) under addition form a monoid, as do the nonzero integers under multiplication 
+
+
+
+(
+
+Z
+
+∖
+{
+0
+}
+,
+⋅
+)
+
+
+{\displaystyle (\mathbb {Z} \smallsetminus \{0\},\cdot )}
+
+. Adjoining inverses of all elements of the monoid 
+
+
+
+(
+
+Z
+
+∖
+{
+0
+}
+,
+⋅
+)
+
+
+{\displaystyle (\mathbb {Z} \smallsetminus \{0\},\cdot )}
+
+ produces a group 
+
+
+
+(
+
+Q
+
+∖
+{
+0
+}
+,
+⋅
+)
+
+
+{\displaystyle (\mathbb {Q} \smallsetminus \{0\},\cdot )}
+
+, and likewise adjoining inverses to any (abelian) monoid M produces a group known as the Grothendieck group of M.
+A group can be thought of as a small category with one object x in which every morphism is an isomorphism: given such a category, the set 
+
+
+
+Hom
+⁡
+(
+x
+,
+x
+)
+
+
+{\displaystyle \operatorname {Hom} (x,x)}
+
+ is a group; conversely, given a group G, one can build a small category with one object x in which  
+
+
+
+Hom
+⁡
+(
+x
+,
+x
+)
+≃
+G
+
+
+{\displaystyle \operatorname {Hom} (x,x)\simeq G}
+
+.
+More generally, a groupoid is any small category in which every morphism is an isomorphism.  
+In a groupoid, the set of all morphisms in the category is usually not a group, because the composition is only partially defined: fg is defined only when the source of f matches the target of g.
+Groupoids arise in topology (for instance, the fundamental groupoid) and in the theory of stacks.
+Finally, it is possible to generalize any of these concepts by replacing the binary operation with an n-ary operation (i.e., an operation taking n arguments, for some nonnegative integer n). With the proper generalization of the group axioms, this gives a notion of n-ary group.[88]
+
+
+

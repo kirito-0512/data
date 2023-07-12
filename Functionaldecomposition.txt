@@ -1,0 +1,251 @@
+11691,
+Functionaldecomposition,
+
+In engineering, functional decomposition is the process of resolving a functional relationship into its constituent parts in such a way that the original function can be reconstructed (i.e., recomposed) from those parts.
+This process of decomposition may be undertaken to gain insight into the identity of the constituent components which may reflect individual physical processes of interest. Also functional decomposition may result in a compressed representation of the global function, a task which is feasible only when the constituent processes possess a certain level of modularity (i.e., independence or non-interaction).
+Interactions[clarify] between the components are critical to the function of the collection. All interactions may not be observable[clarify], but possibly deduced through repetitive perception[clarify], synthesis, validation and verification of composite behavior.
+Decomposition of a function into non-interacting components generally permits more economical representations of the function.  Intuitively, this reduction in representation size is achieved simply because each variable depends only on a subset of the other variables. Thus, variable 
+
+
+
+
+x
+
+1
+
+
+
+
+{\displaystyle x_{1}}
+
+ only depends directly on variable 
+
+
+
+
+x
+
+2
+
+
+
+
+{\displaystyle x_{2}}
+
+, rather than depending on the entire set of variables. We would say that variable 
+
+
+
+
+x
+
+2
+
+
+
+
+{\displaystyle x_{2}}
+
+ screens off variable 
+
+
+
+
+x
+
+1
+
+
+
+
+{\displaystyle x_{1}}
+
+ from the rest of the world.  Practical examples of this phenomenon surround us. Consider the particular case of "northbound traffic on the West Side Highway."  Let us assume this variable (
+
+
+
+
+
+x
+
+1
+
+
+
+
+
+{\displaystyle {x_{1}}}
+
+) takes on three possible values of {"moving slow", "moving deadly slow", "not moving at all"}.  Now let's say variable 
+
+
+
+
+
+x
+
+1
+
+
+
+
+
+{\displaystyle {x_{1}}}
+
+ depends on two other variables,  "weather" with values of {"sun", "rain", "snow"}, and "GW Bridge traffic" with values {"10mph", "5mph", "1mph"}.  The point here is that while there are certainly many secondary variables that affect the weather variable (e.g., low pressure system over Canada, butterfly flapping in Japan, etc.) and the Bridge traffic variable (e.g., an accident on I-95, presidential motorcade, etc.) all these other secondary variables are not directly relevant to the West Side Highway traffic.  All we need (hypothetically) in order to predict the West Side Highway traffic is the weather and the GW Bridge traffic, because these two variables screen off West Side Highway traffic from all other potential influences. That is, all other influences act through them.
+Practical applications of functional decomposition are found in Bayesian networks, structural equation modeling, linear systems, and database systems.
+Processes related to functional decomposition are prevalent throughout the fields of knowledge representation and machine learning. Hierarchical model induction techniques such as Logic circuit minimization, decision trees, grammatical inference, hierarchical clustering, and quadtree decomposition are all examples of function decomposition. A review of other applications and function decomposition can be found in Zupan et al. (1997), which also presents methods based on information theory and graph theory.
+Many statistical inference methods can be thought of as implementing a function decomposition process in the presence of noise; that is, where functional dependencies are only expected to hold approximately. Among such models are mixture models and the recently popular methods referred to as "causal decompositions" or Bayesian networks.
+See database normalization.
+In practical scientific applications, it is almost never possible to achieve perfect functional decomposition because of the incredible complexity of the systems under study.  This complexity is manifested in the presence of "noise," which is just a designation for all the unwanted and untraceable influences on our observations.
+However, while perfect functional decomposition is usually impossible, the spirit lives on in a large number of statistical methods that are equipped to deal with noisy systems.  When a natural or artificial system is intrinsically hierarchical, the joint distribution on system variables should provide evidence of this hierarchical structure. The task of an observer who seeks to understand the system is then to infer the hierarchical structure from observations of these variables. This is the notion behind the hierarchical decomposition of a joint distribution, the attempt to recover something of the intrinsic hierarchical structure which generated that joint distribution.
+As an example, Bayesian network methods attempt to decompose a joint distribution along its causal fault lines, thus "cutting nature at its seams". The essential motivation behind these methods is again that within most systems (natural or artificial), relatively few components/events interact with one another directly on equal footing (Simon 1963). Rather, one observes pockets of dense connections (direct interactions) among small subsets of components, but only loose connections between these densely connected subsets. There is thus a notion of "causal proximity" in physical systems under which variables naturally precipitate into small clusters. Identifying these clusters and using them to represent the joint provides the basis for great efficiency of storage (relative to the full joint distribution) as well as for potent inference algorithms.
+Functional Decomposition is a design method intending to produce a non-implementation, architectural description of a computer program. The software architect first establishes a series of functions and types that accomplishes the main processing problem of the computer program, decomposes each to reveal common functions and types, and finally derives Modules from this activity.
+Functional decomposition is used in the analysis of many signal processing systems, such as LTI systems. The input signal to an LTI system can be expressed as a function, 
+
+
+
+f
+(
+t
+)
+
+
+{\displaystyle f(t)}
+
+. Then 
+
+
+
+f
+(
+t
+)
+
+
+{\displaystyle f(t)}
+
+ can be decomposed into a linear combination of other functions, called component signals:
+Here, 
+
+
+
+{
+
+g
+
+1
+
+
+(
+t
+)
+,
+
+g
+
+2
+
+
+(
+t
+)
+,
+
+g
+
+3
+
+
+(
+t
+)
+,
+…
+,
+
+g
+
+n
+
+
+(
+t
+)
+}
+
+
+{\displaystyle \{g_{1}(t),g_{2}(t),g_{3}(t),\dots ,g_{n}(t)\}}
+
+ are the component signals. Note that 
+
+
+
+{
+
+a
+
+1
+
+
+,
+
+a
+
+2
+
+
+,
+
+a
+
+3
+
+
+,
+…
+,
+
+a
+
+n
+
+
+}
+
+
+{\displaystyle \{a_{1},a_{2},a_{3},\dots ,a_{n}\}}
+
+ are constants. This decomposition aids in analysis, because now the output of the system can be expressed in terms of the components of the input. If we let 
+
+
+
+T
+{
+}
+
+
+{\displaystyle T\{\}}
+
+ represent the effect of the system, then the output signal is 
+
+
+
+T
+{
+f
+(
+t
+)
+}
+
+
+{\displaystyle T\{f(t)\}}
+
+, which can be expressed as:
+In other words, the system can be seen as acting separately on each of the components of the input signal. Commonly used examples of this type of decomposition are the Fourier series and the Fourier transform.
+Functional decomposition in systems engineering refers to the process of defining a system in functional terms, then defining lower-level functions and sequencing relationships from these higher level systems functions.[1]  The basic idea is to try to divide a system in such a way that each block of a block diagram can be described without an "and" or "or" in the description.
+This exercise forces each part of the system to have a pure function. When a system is designed as pure functions, they can be reused, or replaced. A usual side effect is that the interfaces between blocks become simple and generic. Since the interfaces usually become simple, it is easier to replace a pure function with a related, similar function.
+For example, say that one needs to make a stereo system. One might functionally decompose this into speakers, amplifier, a tape deck and a front panel. Later, when a different model needs an audio CD, it can probably fit the same interfaces.
+
+

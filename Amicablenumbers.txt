@@ -1,0 +1,133 @@
+3259,
+Amicablenumbers,
+Amicable numbers are two different natural numbers related in such a way that the sum of the proper divisors of each is equal to the other number. That is, s(a)=b and s(b)=a, where s(n)=σ(n)-n is equal to the sum of positive divisors of n except n itself (see also divisor function).
+The smallest pair of amicable numbers is (220, 284). They are amicable because the proper divisors of 220 are 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 and 110, of which the sum is 284; and the proper divisors of 284 are 1, 2, 4, 71 and 142, of which the sum is 220. (A proper divisor of a number is a positive factor of that number other than the number itself. For example, the proper divisors of 6 are 1, 2, and 3.) 
+The first ten amicable pairs are: (220, 284), (1184, 1210), (2620, 2924), (5020, 5564), (6232, 6368), (10744, 10856), (12285, 14595), (17296, 18416), (63020, 76084), and (66928, 66992). (sequence A259180 in the OEIS). (Also see OEIS: A002025 and OEIS: A002046) It is unknown if there are infinitely many pairs of amicable numbers.
+A pair of amicable numbers constitutes an aliquot sequence of period 2. A related concept is that of a perfect number, which is a number that equals the sum of its own proper divisors, in other words a number which forms an aliquot sequence of period 1. Numbers that are members of an aliquot sequence with period greater than 2 are known as sociable numbers.
+Are there infinitely many amicable numbers?Amicable numbers were known to the Pythagoreans, who credited them with many mystical properties. A general formula by which some of these numbers could be derived was invented circa 850 by the Iraqi mathematician Thābit ibn Qurra (826–901). Other Arab mathematicians who studied amicable numbers are al-Majriti (died 1007), al-Baghdadi (980–1037), and al-Fārisī (1260–1320). The Iranian mathematician Muhammad Baqir Yazdi (16th century) discovered the pair (9363584, 9437056), though this has often been attributed to Descartes.[1] Much of the work of Eastern mathematicians in this area has been forgotten.
+Thābit ibn Qurra's formula was rediscovered by Fermat (1601–1665) and Descartes (1596–1650), to whom it is sometimes ascribed, and extended by Euler (1707–1783). It was extended further by Borho in 1972. Fermat and Descartes also rediscovered pairs of amicable numbers known to Arab mathematicians. Euler also discovered dozens of new pairs.[2] The second smallest pair, (1184, 1210), was discovered in 1867 by 16-year-old B. Nicolò I. Paganini (not to be confused with the composer and violinist), having been overlooked by earlier mathematicians.[3][4]
+By 1946 there were 390 known pairs, but the advent of computers has allowed the discovery of many thousands since then. Exhaustive searches have been carried out to find all pairs less than a given bound, this bound being extended from 108 in 1970, to 1010 in 1986, 1011 in 1993, 1017 in 2015, and to 1018 in 2016.
+As of 27 April 2023[update], there are over 1,227,826,564 known amicable pairs.[5]
+While these rules do generate some pairs of amicable numbers, many other pairs are known, so these rules are by no means comprehensive.
+In particular, the two rules below produce only even amicable pairs, so they are of no interest for the open problem of finding amicable pairs coprime to 210 = 2·3·5·7, while over 1000 pairs coprime to 30 = 2·3·5 are known [García, Pedersen & te Riele (2003), Sándor & Crstici (2004)].  
+The Thābit ibn Qurra theorem is a method for discovering amicable numbers invented in the ninth century by the Arab mathematician Thābit ibn Qurra.[6]
+It states that if
+where n > 1 is an integer and p, q, and r are prime numbers, then 2n×p×q and 2n×r are a pair of amicable numbers. This formula gives the pairs (220, 284) for n = 2, (17296, 18416) for n = 4, and (9363584, 9437056) for n = 7, but no other such pairs are known. Numbers of the form 3×2n − 1 are known as Thabit numbers. In order for Ibn Qurra's formula to produce an amicable pair, two consecutive Thabit numbers must be prime; this severely restricts the possible values of n.
+To establish the theorem, Thâbit ibn Qurra proved nine lemmas divided into two groups. The first three lemmas deal with the determination of the aliquot parts of a natural integer. The second group of lemmas deals more specifically with the formation of perfect, abundant and deficient numbers.[6]
+Euler's rule is a generalization of the Thâbit ibn Qurra theorem. It states that if
+where n > m > 0 are integers and p, q, and r are prime numbers, then 2n×p×q and 2n×r are a pair of amicable numbers. Thābit ibn Qurra's theorem corresponds to the case m = n − 1. Euler's rule creates additional amicable pairs for (m,n) = (1,8), (29,40) with no others being known. Euler (1747 & 1750) overall found 58 new pairs increasing the number of pairs that were then known to 61.[2][7]
+Let (m, n) be a pair of amicable numbers with m < n, and write m = gM and n = gN where g is the greatest common divisor of m and n. If M and N are both coprime to g and square free then the pair (m, n) is said to be regular (sequence A215491 in the OEIS); otherwise, it is called irregular or exotic. If (m, n) is regular and M and N have i and j prime factors respectively, then (m, n) is said to be of type (i, j).
+For example, with (m, n) = (220, 284), the greatest common divisor is 4 and so M = 55 and N = 71. Therefore, (220, 284) is regular of type (2, 1).
+An amicable pair (m, n) is twin if there are no integers between m and n belonging to any other amicable pair (sequence A273259 in the OEIS).
+In every known case, the numbers of a pair are either both even or both odd. It is not known whether an even-odd pair of amicable numbers exists, but if it does, the even number must either be a square number or twice one, and the odd number must be a square number. However, amicable numbers where the two members have different smallest prime factors do exist: there are seven such pairs known.[8] Also, every known pair shares at least one common prime factor. It is not known whether a pair of coprime amicable numbers exists, though if any does, the product of the two must be greater than 1067.[citation needed] Also, a pair of coprime amicable numbers cannot be generated by Thabit's formula (above), nor by any similar formula.
+In 1955, Paul Erdős showed that the density of amicable numbers, relative to the positive integers, was 0.[9]
+In 1968, Martin Gardner noted that most even amicable pairs known at his time have sums divisible by 9,[10] and a rule for characterizing the exceptions (sequence A291550 in the OEIS) was obtained.[11]
+According to the sum of amicable pairs conjecture, as the number of the amicable numbers approaches infinity, the percentage of the sums of the amicable pairs divisible by ten approaches 100% (sequence A291422 in the OEIS). Although all amicable pairs up to 10,000 are even pairs, the proportion of odd amicable pairs increases steadily towards higher numbers, and presumably there are more of them than of even amicable pairs (A360054 in OEIS).
+Gaussian amicable pairs exist.[12]
+Amicable numbers 
+(
+m
+,
+n
+)
+{\displaystyle (m,n)}
+ satisfy 
+σ
+(
+m
+)
+−
+m
+=
+n
+{\displaystyle \sigma (m)-m=n}
+ and 
+σ
+(
+n
+)
+−
+n
+=
+m
+{\displaystyle \sigma (n)-n=m}
+ which can be written together as 
+σ
+(
+m
+)
+=
+σ
+(
+n
+)
+=
+m
++
+n
+{\displaystyle \sigma (m)=\sigma (n)=m+n}
+. This can be generalized to larger tuples, say 
+(
+n
+1
+,
+n
+2
+,
+…
+,
+n
+k
+)
+{\displaystyle (n_{1},n_{2},\ldots ,n_{k})}
+, where we require
+For example, (1980, 2016, 2556) is an amicable triple (sequence A125490 in the OEIS), and (3270960, 3361680, 3461040, 3834000) is an amicable quadruple (sequence A036471 in the OEIS).
+Amicable multisets are defined analogously and generalizes this a bit further (sequence A259307 in the OEIS).
+Sociable numbers are the numbers in cyclic lists of numbers (with a length greater than 2) where each number is the sum of the proper divisors of the preceding number. For example, 
+1264460
+↦
+1547860
+↦
+1727636
+↦
+1305184
+↦
+1264460
+↦
+…
+{\displaystyle 1264460\mapsto 1547860\mapsto 1727636\mapsto 1305184\mapsto 1264460\mapsto \dots }
+ are sociable numbers of order 4.
+The aliquot sequence can be represented as a directed graph, 
+G
+n
+,
+s
+{\displaystyle G_{n,s}}
+, for a given integer 
+n
+{\displaystyle n}
+, where 
+s
+(
+k
+)
+{\displaystyle s(k)}
+ denotes the
+sum of the proper divisors of 
+k
+{\displaystyle k}
+.[13]
+Cycles in 
+G
+n
+,
+s
+{\displaystyle G_{n,s}}
+ represent sociable numbers within the interval 
+[
+1
+,
+n
+]
+{\displaystyle [1,n]}
+. Two special cases are loops that represent perfect numbers and cycles of length two that represent amicable pairs.

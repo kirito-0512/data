@@ -1,0 +1,106 @@
+41104,
+Electro-opticmodulator,
+An electro-optic modulator (EOM) is an optical device in which a signal-controlled element exhibiting an electro-optic effect is used to modulate a beam of light. The modulation may be imposed on the phase, frequency, amplitude, or polarization of the beam. Modulation bandwidths extending into the gigahertz range are possible with the use of laser-controlled modulators.
+The electro-optic effect describes two phenomena, the change of absorption and the change in the refractive index of a material, resulting from the application of a DC or an electric field with much lower frequency than the optical carrier. This is caused by forces that distort the position, orientation, or shape of the molecules constituting the material. Generally, a nonlinear optical material, such as ferroelectrics like lithium niobate (LiNbO3) or barium titanate (BaTiO3), polymers, or organic electro-optic materials, with an incident static or low frequency optical field will see a modulation of its refractive index.
+The simplest kind of EOM consists of a crystal, such as lithium niobate, whose refractive index is a function of the strength of the local electric field. That means that if lithium niobate is exposed to an electric field, light will travel more slowly through it. But the phase of the light leaving the crystal is directly proportional to the length of time it takes that light to pass through it. Therefore, the phase of the laser light exiting an EOM can be controlled by changing the electric field in the crystal.
+Note that the electric field can be created by placing a parallel plate capacitor across the crystal. Since the field inside a parallel plate capacitor depends linearly on the potential, the index of refraction depends linearly on the field (for crystals where Pockels effect dominates), and the phase depends linearly on the index of refraction, the phase modulation must depend linearly on the potential applied to the EOM.
+The voltage required for inducing a phase change of 
+
+
+
+π
+
+
+{\displaystyle \pi }
+
+ is called the half-wave voltage (
+
+
+
+
+V
+
+π
+
+
+
+
+{\displaystyle V_{\pi }}
+
+). For a Pockels cell, it is usually hundreds or even thousands of volts, so that a high-voltage amplifier is required. Suitable electronic circuits can switch such large voltages within a few nanoseconds, allowing the use of EOMs as fast optical switches.
+Liquid crystal devices are electro-optical phase modulators if no polarizers are used.
+Phase modulation (PM) is a modulation pattern that encodes information as variations in the instantaneous phase of a carrier wave.
+The phase of a carrier signal is modulated to follow the changing voltage level (amplitude) of modulation signal. The peak amplitude and frequency of the carrier signal remain constant, but as the amplitude of the information signal changes, the phase of the carrier changes correspondingly. The analysis and the final result (modulated signal) are similar to those of frequency modulation.
+A very common application of EOMs is for creating sidebands in a monochromatic laser beam. To see how this works, first imagine that the strength of a laser beam with frequency 
+
+
+
+ω
+
+
+{\displaystyle \omega }
+
+ entering the EOM is given by
+Now suppose we apply a sinusoidally varying potential voltage to the EOM with frequency 
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+
+ and small amplitude 
+
+
+
+β
+
+
+{\displaystyle \beta }
+
+. This adds a time dependent phase to the above expression,
+Since 
+
+
+
+β
+
+
+{\displaystyle \beta }
+
+ is small, we can use the Taylor expansion for the exponential
+to which we apply a simple identity for sine,
+This expression we interpret to mean that we have the original carrier signal plus two small sidebands, one at 
+
+
+
+ω
++
+Ω
+
+
+{\displaystyle \omega +\Omega }
+
+ and another at 
+
+
+
+ω
+−
+Ω
+
+
+{\displaystyle \omega -\Omega }
+
+. Notice however that we only used the first term in the Taylor expansion – in truth there are an infinite number of sidebands. There is a useful identity involving Bessel functions called the Jacobi–Anger expansion which can be used to derive
+which gives the amplitudes of all the sidebands. Notice that if one modulates the amplitude instead of the phase, one gets only the first set of sidebands,
+A phase modulating EOM can also be used as an amplitude modulator by using a Mach–Zehnder interferometer. This alternative technique is often used in integrated optics where the requirements of phase stability is more easily achieved. The beam splitter divides the laser light into two paths, one of which has a phase modulator as described above. The beams are then recombined. Changing the electric field on the phase modulating path will then determine whether the two beams interfere constructively or destructively at the output, and thereby control the amplitude or intensity of the exiting light. This device is called a Mach–Zehnder modulator (MZM) and it is widely used as intensity modulator (IM) in fiber-optic communications.[1]
+Depending on the type and orientation of the nonlinear crystal, and on the direction of the applied electric field, the phase delay can depend on the polarization direction. A Pockels cell can thus be seen as a voltage-controlled waveplate, and it can be used for modulating the polarization state. For a linear input polarization (often oriented at 45° to the crystal axis), the output polarization will in general be elliptical, rather than simply a linear polarization state with a rotated direction.
+Polarization modulation in electro-optic crystals can also be used as a technique for time-resolved measurement of unknown electric fields.[2][3]
+Compared to conventional techniques using conductive field probes and cabling for signal transport to read-out systems, electro-optical measurement is inherently noise resistant as signals are carried by fiber-optics, preventing distortion of the signal by electrical noise sources. The polarization change measured by such techniques is linearly dependent on the electric field applied to the crystal, hence providing absolute measurements of the field, without the need for numerical integration of voltage traces, as is the case for conductive probes sensitive to the time-derivative of the electric field.
+EOMs can be based on many operating principles and platforms. One can divide the EOMs in two categories – phase and amplitude modulation. In the following some prominent approaches in SiPh are presented.[4] Operating principles for phase modulation are the plasma dispersion effect, pockels effect, interband transitions, and carrier accumulation/depletion+Franz-Keldysh effect. For the amplitude modulation some operating principles are the Franz-Keldysh effect, quantum confined Stark effect, and electrical gating.
+The plasma dispersion effect can be based on carrier injection, depletion, or accumulation. The most established Pockels type modulators are based on the lithium niobate on silicon platform. In recent years, other platforms were introduced, such as BTO on silicon, silicon polymer hybrid, silicon organic hybrids, plasmonics and thin-film lithium niobate. Interband transition rely on 2D materials and the carrier accumulation/depletion+Franz-Keldysh is based on a III-V platform.
+The Franz-Keldysh effect is used in electro-absorption modulators which are semiconductor devices. It describes a change in the absorption spectrum due to a shift in the band gap edge when an electric field is present. They are often built on a silicon-germanium platform. Modulators running on the quantum confined stark effect can rely on a III-V platform or on Ge-Si-Ge quantum wells. Electrical gating is built on a 2D material platform.
+
+

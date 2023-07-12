@@ -1,0 +1,79 @@
+675,
+Affirming the consequent,
+In propositional logic, affirming the consequent, sometimes called converse error, fallacy of the converse, or confusion of necessity and sufficiency, is a formal fallacy of taking a true conditional statement (e.g., "if the lamp were broken, then the room would be dark"), and invalidly inferring its converse ("the room is dark, so the lamp must be broken"), even though that statement may not be true. This arises when the consequent ("the room would be dark") has other possible antecedents (for example, "the lamp is in working order, but is switched off" or "there is no lamp in the room").
+Converse errors are common in everyday thinking and communication and can result from, among other causes, communication issues, misconceptions about logic, and failure to consider other causes.
+The opposite statement, denying the consequent, is called modus tollens and is a valid form of argument.[1]
+Affirming the consequent is the action of taking a true statement 
+P
+→
+Q
+{\displaystyle P\to Q}
+ and invalidly concluding its converse 
+Q
+→
+P
+{\displaystyle Q\to P}
+. The name affirming the consequent derives from using the consequent, Q, of 
+P
+→
+Q
+{\displaystyle P\to Q}
+, to conclude the antecedent P. This fallacy can be summarized formally as 
+(
+P
+→
+Q
+,
+Q
+)
+→
+P
+{\displaystyle (P\to Q,Q)\to P}
+ or, alternatively, 
+P
+→
+Q
+,
+Q
+∴
+P
+{\displaystyle {\frac {P\to Q,Q}{\therefore P}}}
+.[3]
+The root cause of such a logical error is sometimes failure to realize that just because P is a possible condition for Q, P may not be the only condition for Q, i.e. Q may follow from another condition as well.[4][5]
+Affirming the consequent can also result from overgeneralizing the experience of many statements having true converses. If P and Q are "equivalent" statements, i.e. 
+P
+↔
+Q
+{\displaystyle P\leftrightarrow Q}
+, it is possible to infer P under the condition Q. For example, the statements "It is August 13, so it is my birthday" 
+P
+→
+Q
+{\displaystyle P\to Q}
+ and "It is my birthday, so it is August 13" 
+Q
+→
+P
+{\displaystyle Q\to P}
+ are equivalent and both true consequences of the statement "August 13 is my birthday" (an abbreviated form of 
+P
+↔
+Q
+{\displaystyle P\leftrightarrow Q}
+).
+Of the possible forms of "mixed hypothetical syllogisms," two are valid and two are invalid. Affirming the antecedent (modus ponens) and denying the consequent (modus tollens) are valid. Affirming the consequent and denying the antecedent are invalid(see table).[6]
+Example 1
+One way to demonstrate the invalidity of this argument form is with a counterexample with true premises but an obviously false conclusion.  For example:
+There are many places to live in California other than San Diego; however, one can affirm with certainty that "if someone does not live in California" (non-Q), then "this person does not live in San Diego" (non-P). This is the contrapositive of the first statement, and it must be true if and only if the original statement is true.
+Example 2
+Here is another useful, obviously fallacious example.
+Here, it is immediately intuitive that any number of other antecedents ("If an animal is a deer...", "If an animal is an elephant...", "If an animal is a moose...", etc.) can give rise to the consequent ("then it has four legs"), and that it is preposterous to suppose that having four legs must imply that the animal is a dog and nothing else.  This is useful as a teaching example since most people can immediately recognize that the conclusion reached must be wrong (intuitively, a cat cannot be a dog), and that the method by which it was reached must therefore be fallacious.
+Example 3
+Arguments of the same form can sometimes seem superficially convincing, as in the following example:
+Being thrown off the top of the Eiffel Tower is not the only cause of death, since there exist numerous different causes of death.
+Example 4
+In Catch-22,[7] the chaplain is interrogated for supposedly being "Washington Irving"/"Irving Washington", who has been blocking out large portions of soldiers' letters home. The colonel has found such a letter, but with the Chaplain's name signed.
+P in this case is 'The chaplain signs his own name', and Q 'The chaplain's name is written'. The chaplain's name may be written, but he did not necessarily write it, as the colonel falsely concludes.[7]
+Example 5
+When teaching the scientific method, the following example is used to illustrate why, via the fallacy of affirming the consequent, no scientific theory is ever proven true but rather simply failed to be falsified.
+Concluding or assuming that a theory is true because of a prediction it makes being observed is invalid. This is one of the challenges of applying the scientific method though rarely is it brought up in academic contexts as it is unlikely to be of consequence to the results of the study. Much more common is questioning the validity of the theory, the validity of expected the theory to have predicted the observation, and/or the validity of the observation itself.

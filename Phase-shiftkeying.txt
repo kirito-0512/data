@@ -1,0 +1,909 @@
+41153,
+Phase-shiftkeying,
+Phase-shift keying (PSK) is a digital modulation process which conveys data by changing (modulating) the phase of a constant frequency carrier wave. The modulation is accomplished by varying the sine and cosine inputs at a precise time. It is widely used for wireless LANs, RFID and Bluetooth communication.
+Any digital modulation scheme uses a finite number of distinct signals to represent digital data. PSK uses a finite number of phases, each assigned a unique pattern of binary digits. Usually, each phase encodes an equal number of bits. Each pattern of bits forms the symbol that is represented by the particular phase. The demodulator, which is designed specifically for the symbol-set used by the modulator, determines the phase of the received signal and maps it back to the symbol it represents, thus recovering the original data. This requires the receiver to be able to compare the phase of the received signal to a reference signal –  such a system is termed coherent (and referred to as CPSK).
+CPSK requires a complicated demodulator, because it must extract the reference wave from the received signal and keep track of it, to compare each sample to.  Alternatively, the phase shift of each symbol sent can be measured with respect to the phase of the previous symbol sent.  Because the symbols are encoded in the difference in phase between successive samples, this is called differential phase-shift keying (DPSK).  DPSK can be significantly simpler to implement than ordinary PSK, as it is a 'non-coherent' scheme, i.e. there is no need for the demodulator to keep track of a reference wave.   A trade-off is that it has more demodulation errors.
+There are three major classes of digital modulation techniques used for transmission of digitally represented data:
+All convey data by changing some aspect of a base signal, the carrier wave (usually a sinusoid), in response to a data signal. In the case of PSK, the phase is changed to represent the data signal. There are two fundamental ways of utilizing the phase of a signal in this way:
+A convenient method to represent PSK schemes is on a constellation diagram. This shows the points in the complex plane where, in this context, the real and imaginary axes are termed the in-phase and quadrature axes respectively due to their 90° separation. Such a representation on perpendicular axes lends itself to straightforward implementation. The amplitude of each point along the in-phase axis is used to modulate a cosine (or sine) wave and the amplitude along the quadrature axis to modulate a sine (or cosine) wave.  By convention, in-phase modulates cosine and quadrature modulates sine.
+In PSK, the constellation points chosen are usually positioned with uniform angular spacing around a circle. This gives maximum phase-separation between adjacent points and thus the best immunity to corruption. They are positioned on a circle so that they can all be transmitted with the same energy. In this way, the moduli of the complex numbers they represent will be the same and thus so will the amplitudes needed for the cosine and sine waves. Two common examples are "binary phase-shift keying" (BPSK) which uses two phases, and "quadrature phase-shift keying" (QPSK) which uses four phases, although any number of phases may be used. Since the data to be conveyed are usually binary, the PSK scheme is usually designed with the number of constellation points being a power of two.
+
+BPSK (also sometimes called PRK, phase reversal keying, or 2PSK) is the simplest form of phase shift keying (PSK). It uses two phases which are separated by 180° and so can also be termed 2-PSK. It does not particularly matter exactly where the constellation points are positioned, and in this figure they are shown on the real axis, at 0° and 180°. Therefore, it handles the highest noise level or distortion before the demodulator reaches an incorrect decision. That makes it the most robust of all the PSKs. It is, however, only able to modulate at 1 bit/symbol (as seen in the figure) and so is unsuitable for high data-rate applications.
+In the presence of an arbitrary phase-shift introduced by the communications channel, the demodulator (see, e.g. Costas loop)  is unable to tell which constellation point is which. As a result, the data is often differentially encoded prior to modulation.
+BPSK is functionally equivalent to 2-QAM modulation.
+The general form for BPSK follows the equation:
+This yields two phases, 0 and π.
+In the specific form, binary data is often conveyed with the following signals:[citation needed]
+where f is the frequency of the base band.
+Hence, the signal space can be represented by the single basis function
+where 1 is represented by 
+
+
+
+
+
+
+E
+
+b
+
+
+
+
+ϕ
+(
+t
+)
+
+
+{\displaystyle {\sqrt {E_{b}}}\phi (t)}
+
+ and 0 is represented by 
+
+
+
+−
+
+
+
+E
+
+b
+
+
+
+
+ϕ
+(
+t
+)
+
+
+{\displaystyle -{\sqrt {E_{b}}}\phi (t)}
+
+. This assignment is arbitrary.
+This use of this basis function is shown at the end of the next section in a signal timing diagram. The topmost signal is a BPSK-modulated cosine wave that the BPSK modulator would produce. The bit-stream that causes this output is shown above the signal (the other parts of this figure are relevant only to QPSK). After modulation, the base band signal will be moved to the high frequency band by multiplying 
+
+
+
+cos
+⁡
+(
+2
+π
+
+f
+
+c
+
+
+t
+)
+
+
+{\displaystyle \cos(2\pi f_{c}t)}
+
+.
+The bit error rate (BER) of BPSK under additive white Gaussian noise (AWGN) can be calculated as:[1]
+Since there is only one bit per symbol, this is also the symbol error rate.
+Sometimes this is known as quadriphase PSK, 4-PSK, or 4-QAM. (Although the root concepts of QPSK and 4-QAM are different, the resulting modulated radio waves are exactly the same.) QPSK uses four points on the constellation diagram, equispaced around a circle. With four phases, QPSK can encode two bits per symbol, shown in the diagram with Gray coding to minimize the bit error rate (BER) –  sometimes misperceived as twice the BER of BPSK.
+The mathematical analysis shows that QPSK can be used either to double the data rate compared with a BPSK system while maintaining the same bandwidth of the signal, or to maintain the data-rate of BPSK but halving the bandwidth needed. In this latter case, the BER of QPSK is exactly the same as the BER of BPSK –  and believing differently is a common confusion when considering or describing QPSK. The transmitted carrier can undergo numbers of phase changes.
+Given that radio communication channels are allocated by agencies such as the Federal Communications Commission giving a prescribed (maximum) bandwidth, the advantage of QPSK over BPSK becomes evident: QPSK transmits twice the data rate in a given bandwidth compared to BPSK - at the same BER. The engineering penalty that is paid is that QPSK transmitters and receivers are more complicated than the ones for BPSK. However, with modern electronics technology, the penalty in cost is very moderate.
+As with BPSK, there are phase ambiguity problems at the receiving end, and differentially encoded QPSK is often used in practice.
+The implementation of QPSK is more general than that of BPSK and also indicates the implementation of higher-order PSK. Writing the symbols in the constellation diagram in terms of the sine and cosine waves used to transmit them:
+This yields the four phases π/4, 3π/4, 5π/4 and 7π/4 as needed.
+This results in a two-dimensional signal space with unit basis functions
+The first basis function is used as the in-phase component of the signal and the second as the quadrature component of the signal.
+Hence, the signal constellation consists of the signal-space 4 points
+The factors of 1/2 indicate that the total power is split equally between the two carriers.
+Comparing these basis functions with that for BPSK shows clearly how QPSK can be viewed as two independent BPSK signals. Note that the signal-space points for BPSK do not need to split the symbol (bit) energy over the two carriers in the scheme shown in the BPSK constellation diagram.
+QPSK systems can be implemented in a number of ways. An illustration of the major components of the transmitter and receiver structure are shown below.
+Although QPSK can be viewed as a quaternary modulation, it is easier to see it as two independently modulated quadrature carriers. With this interpretation, the even (or odd) bits are used to modulate the in-phase component of the carrier, while the odd (or even) bits are used to modulate the quadrature-phase component of the carrier. BPSK is used on both carriers and they can be independently demodulated.
+As a result, the probability of bit-error for QPSK is the same as for BPSK:
+However, in order to achieve the same bit-error probability as BPSK, QPSK uses twice the power (since two bits are transmitted simultaneously).
+The symbol error rate is given by:
+If the signal-to-noise ratio is high (as is necessary for practical QPSK systems) the probability of symbol error may be approximated:
+The modulated signal is shown below for a short segment of a random binary data-stream. The two carrier waves are a cosine wave and a sine wave, as indicated by the signal-space analysis above. Here, the odd-numbered bits have been assigned to the in-phase component and the even-numbered bits to the quadrature component (taking the first bit as number 1). The total signal –  the sum of the two components –  is shown at the bottom. Jumps in phase can be seen as the PSK changes the phase on each component at the start of each bit-period. The topmost waveform alone matches the description given for BPSK above.
+The binary data that is conveyed by this waveform is: 11000110.
+Offset quadrature phase-shift keying (OQPSK) is a variant of phase-shift keying modulation using four different values of the phase to transmit.  It is sometimes called staggered quadrature phase-shift keying (SQPSK).
+Taking four values of the phase (two bits) at a time to construct a QPSK symbol can allow the phase of the signal to jump by as much as 180° at a time. When the signal is low-pass filtered (as is typical in a transmitter), these phase-shifts result in large amplitude fluctuations, an undesirable quality in communication systems. By offsetting the timing of the odd and even bits by one bit-period, or half a symbol-period, the in-phase and quadrature components will never change at the same time. In the constellation diagram shown on the right, it can be seen that this will limit the phase-shift to no more than 90° at a time. This yields much lower amplitude fluctuations than non-offset QPSK and is sometimes preferred in practice.
+The picture on the right shows the difference in the behavior of the phase between ordinary QPSK and OQPSK. It can be seen that in the first plot the phase can change by 180° at once, while in OQPSK the changes are never greater than 90°.
+The modulated signal is shown below for a short segment of a random binary data-stream. Note the half symbol-period offset between the two component waves. The sudden phase-shifts occur about twice as often as for QPSK (since the signals no longer change together), but they are less severe. In other words, the magnitude of jumps is smaller in OQPSK when compared to QPSK.
+The license-free shaped-offset QPSK (SOQPSK) is interoperable with Feher-patented QPSK (FQPSK), in the sense that an integrate-and-dump offset QPSK detector produces the same output no matter which kind of transmitter is used.[2]
+These modulations carefully shape the I and Q waveforms such that they change very smoothly, and the signal stays constant-amplitude even during signal transitions. (Rather than traveling instantly from one symbol to another, or even linearly, it travels smoothly around the constant-amplitude circle from one symbol to the next.) SOQPSK modulation can be represented as the hybrid of QPSK and MSK: SOQPSK has the same signal constellation as QPSK, however the phase of SOQPSK is always stationary.[3][4]
+The standard description of SOQPSK-TG involves ternary symbols.[5] SOQPSK is one of the most spread modulation schemes in application to LEO satellite communications.[6]
+This variant of QPSK uses two identical constellations which are rotated by 45° (
+
+
+
+π
+
+/
+
+4
+
+
+{\displaystyle \pi /4}
+
+ radians, hence the name) with respect to one another. Usually, either the even or odd symbols are used to select points from one of the constellations and the other symbols select points from the other constellation. This also reduces the phase-shifts from a maximum of 180°, but only to a maximum of 135° and so the amplitude fluctuations of 
+
+
+
+π
+
+/
+
+4
+
+
+{\displaystyle \pi /4}
+
+-QPSK are between OQPSK and non-offset QPSK.
+One property this modulation scheme possesses is that if the modulated signal is represented in the complex domain, transitions between symbols never pass through 0. In other words, the signal does not pass through the origin. This lowers the dynamical range of fluctuations in the signal which is desirable when engineering communications signals.
+On the other hand, 
+
+
+
+π
+
+/
+
+4
+
+
+{\displaystyle \pi /4}
+
+-QPSK lends itself to easy demodulation and has been adopted for use in, for example, TDMA cellular telephone systems.
+The modulated signal is shown below for a short segment of a random binary data-stream. The construction is the same as above for ordinary QPSK. Successive symbols are taken from the two constellations shown in the diagram. Thus, the first symbol (1 1) is taken from the "blue" constellation and the second symbol (0 0) is taken from the "green" constellation. Note that magnitudes of the two component waves change as they switch between constellations, but the total signal's magnitude remains constant (constant envelope). The phase-shifts are between those of the two previous timing-diagrams.
+Dual-polarization quadrature phase shift keying (DPQPSK) or dual-polarization QPSK - involves the polarization multiplexing of two different QPSK signals, thus improving the spectral efficiency by a factor of 2. This is a cost-effective alternative to utilizing 16-PSK, instead of QPSK to double the spectral efficiency.
+Any number of phases may be used to construct a PSK constellation but 8-PSK is usually the highest order PSK constellation deployed. With more than 8 phases, the error-rate becomes too high and there are better, though more complex, modulations available such as quadrature amplitude modulation (QAM). Although any number of phases may be used, the fact that the constellation must usually deal with binary data means that the number of symbols is usually a power of 2 to allow an integer number of bits per symbol.
+For the general M-PSK there is no simple expression for the symbol-error probability if 
+
+
+
+M
+>
+4
+
+
+{\displaystyle M>4}
+
+. Unfortunately, it can only be obtained from
+where
+and 
+
+
+
+
+r
+
+1
+
+
+∼
+N
+
+(
+
+
+
+
+E
+
+s
+
+
+
+
+,
+
+
+1
+2
+
+
+
+N
+
+0
+
+
+
+)
+
+
+
+{\displaystyle r_{1}\sim N\left({\sqrt {E_{s}}},{\frac {1}{2}}N_{0}\right)}
+
+ and 
+
+
+
+
+r
+
+2
+
+
+∼
+N
+
+(
+
+0
+,
+
+
+1
+2
+
+
+
+N
+
+0
+
+
+
+)
+
+
+
+{\displaystyle r_{2}\sim N\left(0,{\frac {1}{2}}N_{0}\right)}
+
+ are each Gaussian random variables.
+This may be approximated for high 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ and high 
+
+
+
+
+E
+
+b
+
+
+
+/
+
+
+N
+
+0
+
+
+
+
+{\displaystyle E_{b}/N_{0}}
+
+ by:
+The bit-error probability for 
+
+
+
+M
+
+
+{\displaystyle M}
+
+-PSK can only be determined exactly once the bit-mapping is known. However, when Gray coding is used, the most probable error from one symbol to the next produces only a single bit-error and
+(Using Gray coding allows us to approximate the Lee distance of the errors as the Hamming distance of the errors in the decoded bitstream, which is easier to implement in hardware.)
+The graph on the right compares the bit-error rates of BPSK, QPSK (which are the same, as noted above), 8-PSK and 16-PSK. It is seen that higher-order modulations exhibit higher error-rates; in exchange however they deliver a higher raw data-rate.
+Bounds on the error rates of various digital modulation schemes can be computed with application of the union bound to the signal constellation.
+Bandwidth (or spectral) efficiency of M-PSK modulation schemes increases with increasing of modulation order M (unlike, for example, M-FSK):[7]
+The same relationship holds true for M-QAM.[8]
+Differential phase shift keying (DPSK) is a common form of phase modulation that conveys data by changing the phase of the carrier wave. As mentioned for BPSK and QPSK there is an ambiguity of phase if the constellation is rotated by some effect in the communications channel through which the signal passes. This problem can be overcome by using the data to change rather than set the phase.
+For example, in differentially encoded BPSK a binary "1" may be transmitted by adding 180° to the current phase and a binary "0" by adding 0° to the current phase. 
+Another variant of DPSK is Symmetric Differential Phase Shift keying, SDPSK, where encoding would be +90° for a "1" and −90° for a "0".
+In differentially encoded QPSK (DQPSK), the phase-shifts are 0°, 90°, 180°, −90° corresponding to data "00", "01", "11", "10". This kind of encoding may be demodulated in the same way as for non-differential PSK but the phase ambiguities can be ignored. Thus, each received symbol is demodulated to one of the 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ points in the constellation and a comparator then computes the difference in phase between this received signal and the preceding one. The difference encodes the data as described above. Symmetric differential quadrature phase shift keying (SDQPSK) is like DQPSK, but encoding is symmetric, using phase shift values of −135°, −45°, +45° and +135°.
+The modulated signal is shown below for both DBPSK and DQPSK as described above. In the figure, it is assumed that the signal starts with zero phase, and so there is a phase shift in both signals at 
+
+
+
+t
+=
+0
+
+
+{\displaystyle t=0}
+
+.
+Analysis shows that differential encoding approximately doubles the error rate compared to ordinary 
+
+
+
+M
+
+
+{\displaystyle M}
+
+-PSK but this may be overcome by only a small increase in 
+
+
+
+
+E
+
+b
+
+
+
+/
+
+
+N
+
+0
+
+
+
+
+{\displaystyle E_{b}/N_{0}}
+
+. Furthermore, this analysis (and the graphical results below) are based on a system in which the only corruption is additive white Gaussian noise (AWGN). However, there will also be a physical channel between the transmitter and receiver in the communication system. This channel will, in general, introduce an unknown phase-shift to the PSK signal; in these cases the differential schemes can yield a better error-rate than the ordinary schemes which rely on precise phase information.
+One of the most popular applications of DPSK is the Bluetooth standard where 
+
+
+
+π
+
+/
+
+4
+
+
+{\displaystyle \pi /4}
+
+-DQPSK and 8-DPSK were implemented.
+For a signal that has been differentially encoded, there is an obvious alternative method of demodulation. Instead of demodulating as usual and ignoring carrier-phase ambiguity, the phase between two successive received symbols is compared and used to determine what the data must have been. When differential encoding is used in this manner, the scheme is known as differential phase-shift keying (DPSK). Note that this is subtly different from just differentially encoded PSK since, upon reception, the received symbols are not decoded one-by-one to constellation points but are instead compared directly to one another.
+Call the received symbol in the 
+
+
+
+k
+
+
+{\displaystyle k}
+
+th timeslot 
+
+
+
+
+r
+
+k
+
+
+
+
+{\displaystyle r_{k}}
+
+ and let it have phase 
+
+
+
+
+ϕ
+
+k
+
+
+
+
+{\displaystyle \phi _{k}}
+
+. Assume without loss of generality that the phase of the carrier wave is zero. Denote the additive white Gaussian noise (AWGN) term as 
+
+
+
+
+n
+
+k
+
+
+
+
+{\displaystyle n_{k}}
+
+. Then
+The decision variable for the 
+
+
+
+k
+−
+1
+
+
+{\displaystyle k-1}
+
+th symbol and the 
+
+
+
+k
+
+
+{\displaystyle k}
+
+th symbol is the phase difference between 
+
+
+
+
+r
+
+k
+
+
+
+
+{\displaystyle r_{k}}
+
+ and 
+
+
+
+
+r
+
+k
+−
+1
+
+
+
+
+{\displaystyle r_{k-1}}
+
+. That is, if 
+
+
+
+
+r
+
+k
+
+
+
+
+{\displaystyle r_{k}}
+
+ is projected onto 
+
+
+
+
+r
+
+k
+−
+1
+
+
+
+
+{\displaystyle r_{k-1}}
+
+, the decision is taken on the phase of the resultant complex number:
+where superscript * denotes complex conjugation. In the absence of noise, the phase of this is 
+
+
+
+
+ϕ
+
+k
+
+
+−
+
+ϕ
+
+k
+−
+1
+
+
+
+
+{\displaystyle \phi _{k}-\phi _{k-1}}
+
+, the phase-shift between the two received signals which can be used to determine the data transmitted.
+The probability of error for DPSK is difficult to calculate in general, but, in the case of DBPSK it is:
+which, when numerically evaluated, is only slightly worse than ordinary BPSK, particularly at higher 
+
+
+
+
+E
+
+b
+
+
+
+/
+
+
+N
+
+0
+
+
+
+
+{\displaystyle E_{b}/N_{0}}
+
+ values.
+Using DPSK avoids the need for possibly complex carrier-recovery schemes to provide an accurate phase estimate and can be an attractive alternative to ordinary PSK.
+In optical communications, the data can be modulated onto the phase of a laser in a differential way. The modulation is a laser which emits a continuous wave, and a Mach–Zehnder modulator which receives electrical binary data. For the case of BPSK, the laser transmits the field unchanged for binary '1', and with reverse polarity for '0'. The demodulator consists of a delay line interferometer which delays one bit, so two bits can be compared at one time. In further processing, a photodiode is used to transform the optical field into an electric current, so the information is changed back into its original state.
+The bit-error rates of DBPSK and DQPSK are compared to their non-differential counterparts in the graph to the right. The loss for using DBPSK is small enough compared to the complexity reduction that it is often used in communications systems that would otherwise use BPSK. For DQPSK though, the loss in performance compared to ordinary QPSK is larger and the system designer must balance this against the reduction in complexity.
+At the 
+
+
+
+
+k
+
+
+th
+
+
+
+
+
+{\displaystyle k^{\textrm {th}}}
+
+ time-slot call the bit to be modulated 
+
+
+
+
+b
+
+k
+
+
+
+
+{\displaystyle b_{k}}
+
+, the differentially encoded bit 
+
+
+
+
+e
+
+k
+
+
+
+
+{\displaystyle e_{k}}
+
+ and the resulting modulated signal 
+
+
+
+
+m
+
+k
+
+
+(
+t
+)
+
+
+{\displaystyle m_{k}(t)}
+
+. Assume that the constellation diagram positions the symbols at ±1 (which is BPSK). The differential encoder produces:
+where 
+
+
+
+⊕
+
+
+
+
+{\displaystyle \oplus {}}
+
+ indicates binary or modulo-2 addition.
+So 
+
+
+
+
+e
+
+k
+
+
+
+
+{\displaystyle e_{k}}
+
+ only changes state (from binary "0" to binary "1" or from binary "1" to binary "0") if 
+
+
+
+
+b
+
+k
+
+
+
+
+{\displaystyle b_{k}}
+
+ is a binary "1". Otherwise it remains in its previous state. This is the description of differentially encoded BPSK given above.
+The received signal is demodulated to yield 
+
+
+
+
+e
+
+k
+
+
+=
+±
+1
+
+
+{\displaystyle e_{k}=\pm 1}
+
+ and then the differential decoder reverses the encoding procedure and produces
+since binary subtraction is the same as binary addition.
+Therefore, 
+
+
+
+
+b
+
+k
+
+
+=
+1
+
+
+{\displaystyle b_{k}=1}
+
+ if 
+
+
+
+
+e
+
+k
+
+
+
+
+{\displaystyle e_{k}}
+
+ and 
+
+
+
+
+e
+
+k
+−
+1
+
+
+
+
+{\displaystyle e_{k-1}}
+
+ differ and 
+
+
+
+
+b
+
+k
+
+
+=
+0
+
+
+{\displaystyle b_{k}=0}
+
+ if they are the same. Hence, if both 
+
+
+
+
+e
+
+k
+
+
+
+
+{\displaystyle e_{k}}
+
+ and 
+
+
+
+
+e
+
+k
+−
+1
+
+
+
+
+{\displaystyle e_{k-1}}
+
+ are inverted, 
+
+
+
+
+b
+
+k
+
+
+
+
+{\displaystyle b_{k}}
+
+ will still be decoded correctly. Thus, the 180° phase ambiguity does not matter.
+Differential schemes for other PSK modulations may be devised along similar lines. The waveforms for DPSK are the same as for differentially encoded PSK given above since the only change between the two schemes is at the receiver.
+The BER curve for this example is compared to ordinary BPSK on the right. As mentioned above, whilst the error rate is approximately doubled, the increase needed in 
+
+
+
+
+E
+
+b
+
+
+
+/
+
+
+N
+
+0
+
+
+
+
+{\displaystyle E_{b}/N_{0}}
+
+ to overcome this is small.  The increase in 
+
+
+
+
+E
+
+b
+
+
+
+/
+
+
+N
+
+0
+
+
+
+
+{\displaystyle E_{b}/N_{0}}
+
+ required to overcome differential modulation in coded systems, however, is larger –  typically about 3 dB. The performance degradation is a result of noncoherent transmission –  in this case it refers to the fact that tracking of the phase is completely ignored.
+For determining error-rates mathematically, some definitions will be needed:
+
+
+
+
+Q
+(
+x
+)
+
+
+{\displaystyle Q(x)}
+
+ will give the probability that a single sample taken from a random process with zero-mean and unit-variance Gaussian probability density function will be greater or equal to 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. It is a scaled form of the complementary Gaussian error function:
+The error rates quoted here are those in additive white Gaussian noise (AWGN). These error rates are lower than those computed in fading channels, hence, are a good theoretical benchmark to compare with.
+Owing to PSK's simplicity, particularly when compared with its competitor quadrature amplitude modulation, it is widely used in existing technologies.
+The wireless LAN standard, IEEE 802.11b-1999,[10][11] uses a variety of different PSKs depending on the data rate required. At the basic rate of 1 Mbit/s, it uses DBPSK (differential BPSK). To provide the extended rate of 2 Mbit/s, DQPSK is used. In reaching 5.5 Mbit/s and the full rate of 11 Mbit/s, QPSK is employed, but has to be coupled with complementary code keying. The higher-speed wireless LAN standard, IEEE 802.11g-2003,[10][12] has eight data rates: 6, 9, 12, 18, 24, 36, 48 and 54 Mbit/s. The 6 and 9 Mbit/s modes use OFDM modulation where each sub-carrier is BPSK modulated. The 12 and 18 Mbit/s modes use OFDM with QPSK. The fastest four modes use OFDM with forms of quadrature amplitude modulation.
+Because of its simplicity, BPSK is appropriate for low-cost passive transmitters, and is used in RFID standards such as ISO/IEC 14443 which has been adopted for biometric passports, credit cards such as American Express's ExpressPay, and many other applications.[13]
+Bluetooth 2 uses 
+
+
+
+π
+
+/
+
+4
+
+
+{\displaystyle \pi /4}
+
+-DQPSK at its lower rate (2 Mbit/s) and 8-DPSK at its higher rate (3 Mbit/s) when the link between the two devices is sufficiently robust. Bluetooth 1 modulates with Gaussian minimum-shift keying, a binary scheme, so either modulation choice in version 2 will yield a higher data rate. A similar technology, IEEE 802.15.4 (the wireless standard used by Zigbee) also relies on PSK using two frequency bands: 868–915 MHz with BPSK and at 2.4 GHz with OQPSK.
+Both QPSK and 8PSK are widely used in satellite broadcasting. QPSK is still widely used in the streaming of SD satellite channels and some HD channels. High definition programming is delivered almost exclusively in 8PSK due to the higher bitrates of HD video and the high cost of satellite bandwidth.[14] The DVB-S2 standard requires support for both QPSK and 8PSK. The chipsets used in new satellite set top boxes, such as Broadcom's 7000 series support 8PSK and are backward compatible with the older standard.[15]
+Historically, voice-band synchronous modems such as the Bell 201, 208, and 209 and the CCITT V.26, V.27, V.29, V.32, and V.34 used PSK.[16]
+The mutual information of PSK can be evaluated in additive Gaussian noise by numerical integration of its definition.[17] The curves of mutual information saturate to the number of bits carried by each symbol in the limit of infinite signal to noise ratio 
+
+
+
+
+E
+
+s
+
+
+
+/
+
+
+N
+
+0
+
+
+
+
+{\displaystyle E_{s}/N_{0}}
+
+. On the contrary, in the limit of small signal to noise ratios the mutual information approaches the AWGN channel capacity, which is the supremum among all possible choices of symbol statistical distributions.
+At intermediate values of signal to noise ratios the mutual information (MI) is well approximated by:[17]
+The mutual information of PSK over the AWGN channel is generally farther to the AWGN channel capacity than QAM modulation formats.
+The notation and theoretical results in this article are based on material presented in the following sources:
+
+

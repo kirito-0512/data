@@ -1,0 +1,12 @@
+40150,
+Parser(programminglanguage),
+Parser is a scripting language developed by Art. Lebedev Studio used for web development and server-side scripting.
+The reference compiler for the language was developed in C++ by studio employees Konstantin Morshnev and Alexander Petrosyan to automate often repeated tasks, especially maintenance of already existing websites. It was used in many web projects of the studio. In March 2006, revision three was released as free software under a GPL license[1] and it is now used in other websites, mostly in Russia (according to a partial list at the language website).
+Originally, Parser was merely a simple macro processing language but revision three introduced object-oriented programming features.
+The language supports technologies needed for common web design tasks: XML, Document Object Model (DOM), Perl Compatible Regular Expressions (PCRE) and others.
+Parser supports web server integration via:
+
+
+
+Information box
+{'Paradigm': 'multiparadigm - macro, object-oriented', 'Designed by': 'Konstantin Morshnev (Art. Lebedev Studio)', 'Developer': 'Alexander Petrosyan (Art. Lebedev Studio)', 'First appeared': '1997; 26 years ago', 'Stable release': '3.4.6 / January 28, 2021; 2 years ago', 'Typing discipline': 'dynamic', 'OS': 'Cross-platform - Windows, Unix-like', 'License': 'GPL[1]', 'Website': 'www.parser.ru/en/'}

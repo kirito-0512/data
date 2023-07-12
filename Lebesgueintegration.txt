@@ -1,0 +1,479 @@
+39474,
+Lebesgueintegration,
+In mathematics, the integral of a non-negative function of a single variable can be regarded, in the simplest case, as the area between the graph of that function and the x-axis. The Lebesgue integral, named after French mathematician Henri Lebesgue, extends the integral to a larger class of functions. It also extends the domains on which these functions can be defined.
+Long before the 20th century, mathematicians already understood that for non-negative functions with a smooth enough graph—such as continuous functions on closed bounded intervals—the area under the curve could be defined as the integral, and computed using approximation techniques on the region by polygons.  However, as the need to consider more irregular functions arose—e.g., as a result of the limiting processes of mathematical analysis and the mathematical theory of probability—it became clear that more careful approximation techniques were needed to define a suitable integral.  Also, one might wish to integrate on spaces more general than the real line. The Lebesgue integral provides the necessary abstractions for this.
+The Lebesgue integral plays an important role in probability theory, real analysis, and many other fields in mathematics. It is named after Henri Lebesgue (1875–1941), who introduced the integral (Lebesgue 1904). It is also a pivotal part of the axiomatic theory of probability.
+The term Lebesgue integration can mean either the general theory of integration of a function with respect to a general measure, as introduced by Lebesgue, or the specific case of integration of a function defined on a sub-domain of the real line with respect to the Lebesgue measure.
+The integral of a positive function f between limits a and b can be interpreted as the area under the graph of f. This is straightforward for functions such as polynomials, but what does it mean for more exotic functions? In general, for which class of functions does "area under the curve" make sense? The answer to this question has great theoretical and practical importance.
+As part of a general movement toward rigor in mathematics in the nineteenth century, mathematicians attempted to put integral calculus on a firm foundation. The Riemann integral—proposed by Bernhard Riemann (1826–1866)—is a broadly successful attempt to provide such a foundation. Riemann's definition starts with the construction of a sequence of easily calculated areas that converge to the integral of a given function. This definition is successful in the sense that it gives the expected answer for many already-solved problems, and gives useful results for many other problems.
+However, Riemann integration does not interact well with taking limits of sequences of functions, making such limiting processes difficult to analyze. This is important, for instance, in the study of Fourier series, Fourier transforms, and other topics. The Lebesgue integral is better able to describe how and when it is possible to take limits under the integral sign (via the monotone convergence theorem and dominated convergence theorem).
+While the Riemann integral considers the area under a curve as made out of vertical rectangles, the Lebesgue definition considers horizontal slabs that are not necessarily just rectangles, and so it is more flexible. For this reason, the Lebesgue definition makes it possible to calculate integrals for a broader class of functions. For example, the Dirichlet function, which is 0 where its argument is irrational and 1 otherwise, has a Lebesgue integral, but does not have a Riemann integral.  Furthermore, the Lebesgue integral of this function is zero, which agrees with the intuition that when picking a real number uniformly at random from the unit interval, the probability of picking a rational number should be zero.
+Lebesgue summarized his approach to integration in a letter to Paul Montel:
+I have to pay a certain sum, which I have collected in my pocket.  I take the bills and coins out of my pocket and give them to the creditor in the order I find them until I have reached the total sum. This is the Riemann integral. But I can proceed differently. After I have taken all the money out of my pocket I order the bills and coins according to identical values and then I pay the several heaps one after the other to the creditor. This is my integral.The insight is that one should be able to rearrange the values of a function freely, while preserving the value of the integral.  This process of rearrangement can convert a very pathological function into one that is "nice" from the point of view of integration, and thus let such pathological functions be integrated.
+Folland (1984) summarizes the difference between the Riemann and Lebesgue approaches thus: "to compute the Riemann integral of f, one partitions the domain [a, b] into subintervals", while in the Lebesgue integral, "one is in effect partitioning the range of f."[1]
+For the Riemann integral, the domain is partitioned into intervals, and bars are constructed to meet the height of the graph.  The areas of these bars are added together, and this approximates the integral, in effect by summing areas of the form 
+
+
+
+f
+(
+x
+)
+d
+x
+
+
+{\displaystyle f(x)dx}
+
+ where 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ is the height of a rectangle and 
+
+
+
+d
+x
+
+
+{\displaystyle dx}
+
+ is its width.
+For the Lebesgue integral, the range is partitioned into intervals, and so the region under the graph is partitioned into horizontal "slabs" (which may not be connected sets).  The area of a small horizontal "slab" under the graph of f, of height dy, is equal to the measure of the slab's width times dy:
+The Lebesgue integral may then be defined by adding up the areas of these horizontal slabs.
+An equivalent way to introduce the Lebesgue integral is to use so-called simple functions, which generalize the step functions of Riemann integration. Consider, for example, determining the cumulative COVID-19 case count from a graph of smoothed new daily cases (right).
+Measure theory was initially created to provide a useful abstraction of the notion of length of subsets of the real line—and, more generally, area and volume of subsets of Euclidean spaces. In particular, it provided a systematic answer to the question of which subsets of R have a length. As later set theory developments showed (see non-measurable set), it is actually impossible to assign a length to all subsets of R in a way that preserves some natural additivity and translation invariance properties.  This suggests that picking out a suitable class of measurable subsets is an essential prerequisite.
+The Riemann integral uses the notion of length explicitly. Indeed, the element of calculation for the Riemann integral is the rectangle [a, b] × [c, d], whose area is calculated to be (b − a)(d − c). The quantity b − a is the length of the base of the rectangle and d − c  is the height of the rectangle.  Riemann could only use planar rectangles to approximate the area under the curve, because there was no adequate theory for measuring more general sets.
+In the development of the theory in most modern textbooks (after 1950), the approach to measure and integration is axiomatic.  This means that a measure is any function μ defined on a certain class X of subsets of a set E, which satisfies a certain list of properties. These properties can be shown to hold in many different cases.
+We start with a measure space (E, X, μ) where E is a set, X is a σ-algebra of subsets of E, and μ is a (non-negative) measure on E defined on the sets of X.
+For example,  E can be Euclidean n-space Rn or some Lebesgue measurable subset of it, X is the σ-algebra of all Lebesgue measurable subsets of E, and μ is the Lebesgue measure. In the mathematical theory of probability, we confine our study to a probability measure μ, which satisfies μ(E) = 1.
+Lebesgue's theory defines integrals for a class of functions called measurable functions. A real-valued function f on E is measurable if the pre-image of every interval of the form (t, ∞) is in X:
+We can show that this is equivalent to requiring that the pre-image of any Borel subset of R be in X. The set of measurable functions is closed under algebraic operations, but more importantly it is closed under various kinds of point-wise sequential limits:
+are measurable if the original sequence (fk), where k ∈  N, consists of measurable functions.
+There are several approaches for defining an integral for measurable real-valued functions f defined on E, and several notations are used to denote such an integral.
+Following the identification in Distribution theory of measures with distributions of order 0, or with Radon measures, one can also use a dual pair notation and write the integral with respect to μ in the form
+The theory of the Lebesgue integral requires a theory of measurable sets and measures on these sets, as well as a theory of measurable functions and integrals on these functions.
+One approach to constructing the Lebesgue integral is to make use of so-called simple functions: finite, real linear combinations of indicator functions. Simple functions that lie directly underneath a given function f can be constructed by partitioning the range of f into a finite number of layers. The intersection of the graph of f with a layer identifies a set of intervals in the domain of f, which, taken together, is defined to be the preimage of the lower bound of that layer, under the simple function. In this way, the partitioning of the range of f implies a partitioning of its domain. The integral of a simple function is found by summing, over these (not necessarily connected) subsets of the domain, the product of the measure of the subset and its image under the simple function (the lower bound of the corresponding layer); intuitively, this product is the sum of the areas of all bars of the same height.  The integral of a non-negative general measurable function is then defined as an appropriate supremum of approximations by simple functions, and the integral of a (not necessarily positive) measurable function is the difference of two integrals of non-negative measurable functions.
+To assign a value to the integral of the indicator function 1S of a measurable set S consistent with the given measure μ, the only reasonable choice is to set:
+Notice that the result may be equal to +∞, unless μ is a finite measure.
+A finite linear combination of indicator functions
+where the coefficients ak are real numbers and Sk are disjoint measurable sets, is called a measurable simple function. We extend the integral by linearity to non-negative measurable simple functions.  When the coefficients ak are positive, we set
+whether this sum is finite or +∞. A simple function can be written in different ways as a linear combination of indicator functions, but the integral will be the same by the additivity of measures.
+Some care is needed when defining the integral of a real-valued simple function, to avoid the undefined expression ∞ − ∞: one assumes that the representation
+is such that μ(Sk) < ∞ whenever ak ≠ 0. Then the above formula for the integral of f makes sense, and the result does not depend upon the particular representation of f satisfying the assumptions.
+If B is a measurable subset of E and s is a measurable simple function one defines
+Let f be a non-negative measurable function on E, which we allow to attain the value +∞, in other words, f takes non-negative values in the extended real number line.  We define
+We need to show this integral coincides with the preceding one, defined on the set of simple functions, when E  is a segment [a, b]. There is also the question of whether this corresponds in any way to a Riemann notion of integration. It is possible to prove that the answer to both questions is yes.
+We have defined the integral of f for any non-negative extended real-valued measurable function on E. For some functions, this integral ∫E f dμ is infinite.
+It is often useful to have a particular sequence of simple functions that approximates the Lebesgue integral well (analogously to a Riemann sum).  For a non-negative measurable function f, let 
+
+
+
+
+s
+
+n
+
+
+(
+x
+)
+
+
+{\displaystyle s_{n}(x)}
+
+ be the simple function whose value is 
+
+
+
+k
+
+/
+
+
+2
+
+n
+
+
+
+
+{\displaystyle k/2^{n}}
+
+ whenever 
+
+
+
+k
+
+/
+
+
+2
+
+n
+
+
+≤
+f
+(
+x
+)
+<
+(
+k
++
+1
+)
+
+/
+
+
+2
+
+n
+
+
+
+
+{\displaystyle k/2^{n}\leq f(x)<(k+1)/2^{n}}
+
+, for k a non-negative integer less than (say) 
+
+
+
+
+4
+
+n
+
+
+
+
+{\displaystyle 4^{n}}
+
+.  Then it can be proven directly that
+and that the limit on the right hand side exists as an extended real number.  This bridges the connection between the approach to the Lebesgue integral using simple functions, and the motivation for the Lebesgue integral using a partition of the range.
+To handle signed functions, we need a few more definitions. If f is a measurable function of the set E to the reals (including ±∞), then we can write
+where
+Note that both f+ and f− are non-negative measurable functions. Also note that
+We say that the Lebesgue integral of the measurable function f exists, or is defined if at least one of 
+
+
+
+∫
+
+f
+
++
+
+
+
+
+d
+
+μ
+
+
+{\textstyle \int f^{+}\,\mathrm {d} \mu }
+
+ and 
+
+
+
+∫
+
+f
+
+−
+
+
+
+
+d
+
+μ
+
+
+{\textstyle \int f^{-}\,\mathrm {d} \mu }
+
+ is finite:
+In this case we define
+If
+we say that f is Lebesgue integrable.
+It turns out that this definition gives the desirable properties of the integral.
+Assuming that 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is measurable and non-negative, the function
+is monotonically non-increasing. The Lebesgue integral may then be defined as the improper Riemann integral of 
+
+
+
+
+f
+
+∗
+
+
+
+
+{\displaystyle f^{*}}
+
+:[2]
+This integral is improper at 
+
+
+
+∞
+
+
+{\displaystyle \infty }
+
+ and (possibly) also at zero. It exists, with the allowance that it may be infinite.[3][4]
+As above, the integral of a Lebesgue integrable (not necessarily non-negative) function is defined by subtracting the integral of its positive and negative parts.
+Complex-valued functions can be similarly integrated, by considering the real part and the imaginary part separately.
+If h=f+ig for real-valued integrable functions f, g, then the integral of h is defined by
+The function is Lebesgue integrable if and only if its absolute value is Lebesgue integrable (see Absolutely integrable function).
+Consider the indicator function of the rational numbers, 1Q, also known as the Dirichlet function.  This function is nowhere continuous.
+A technical issue in Lebesgue integration is that the domain of integration is defined as a set (a subset of a measure space), with no notion of orientation. In elementary calculus, one defines integration with respect to an orientation:
+Generalizing this to higher dimensions yields integration of differential forms. By contrast, Lebesgue integration provides an alternative generalization, integrating over subsets with respect to a measure; this can be notated as
+to indicate integration over a subset A. For details on the relation between these generalizations, see Differential form § Relation with measures.
+With the advent of Fourier series, many analytical problems involving integrals came up whose satisfactory solution required interchanging limit processes and integral signs. However, the conditions under which the integrals
+are equal proved quite elusive in the Riemann framework. There are some other technical difficulties with the Riemann integral. These are linked with the limit-taking difficulty discussed above.
+Failure of monotone convergence. As shown above, the indicator function 1Q on the rationals is not Riemann integrable.  In particular, the Monotone convergence theorem fails. To see why, let {ak} be an enumeration of all the rational numbers in [0, 1] (they are countable so this can be done.) Then let
+The function gk is zero everywhere, except on a finite set of points. Hence its Riemann integral is zero. Each gk is non-negative, and this sequence of functions is monotonically increasing, but its limit as k → ∞ is 1Q, which is not Riemann integrable.
+Unsuitability for unbounded intervals. The Riemann integral can only integrate functions on a bounded interval. It can however be extended to unbounded intervals by taking limits, so long as this doesn't yield an answer such as ∞ − ∞.
+Integrating on structures other than Euclidean space. The Riemann integral is inextricably linked to the order structure of the real line.
+Two functions are said to be equal almost everywhere (
+
+
+
+f
+ 
+
+
+
+
+=
+
+
+a.e.
+
+
+
+
+ 
+g
+
+
+{\displaystyle f\ {\stackrel {\text{a.e.}}{=}}\ g}
+
+ for short) if 
+
+
+
+{
+x
+∣
+f
+(
+x
+)
+≠
+g
+(
+x
+)
+}
+
+
+{\displaystyle \{x\mid f(x)\neq g(x)\}}
+
+ is a subset of a null set.
+Measurability of the set  
+
+
+
+{
+x
+∣
+f
+(
+x
+)
+≠
+g
+(
+x
+)
+}
+
+
+{\displaystyle \{x\mid f(x)\neq g(x)\}}
+
+ is not required.
+It is possible to develop the integral with respect to the Lebesgue measure without relying on the full machinery of measure theory. One such approach is provided by the Daniell integral.
+There is also an alternative approach to developing the theory of integration via methods of functional analysis.  The Riemann integral exists for any continuous function f of compact support defined on Rn (or a fixed open subset).  Integrals of more general functions can be built starting from these integrals.
+Let Cc be the space of all real-valued compactly supported continuous functions of R. Define a norm on Cc by
+
+
+
+
+
+‖
+f
+‖
+
+=
+∫
+
+|
+
+f
+(
+x
+)
+
+|
+
+
+
+d
+
+x
+.
+
+
+{\displaystyle \left\|f\right\|=\int |f(x)|\,\mathrm {d} x.}
+
+
+Then Cc is a normed vector space (and in particular, it is a metric space.) All metric spaces have Hausdorff completions, so let L1 be its completion. This space is isomorphic to the space of Lebesgue integrable functions modulo the subspace of functions with integral zero. Furthermore, the Riemann integral ∫ is a uniformly continuous functional with respect to the norm on Cc, which is dense in L1. Hence ∫ has a unique extension to all of L1. This integral is precisely the Lebesgue integral.
+More generally, when the measure space on which the functions are defined is also a locally compact topological space (as is the case with the real numbers R), measures compatible with the topology in a suitable sense (Radon measures, of which the Lebesgue measure is an example) an integral with respect to them can be defined in the same manner, starting from the integrals of continuous functions with compact support. More precisely, the compactly supported functions form a vector space that carries a natural topology, and a (Radon) measure is defined as a continuous linear functional on this space.  The value of a measure at a compactly supported function is then also by definition the integral of the function. One then proceeds to expand the measure (the integral) to more general functions by continuity, and defines the measure of a set as the integral of its indicator function. This is the approach taken by Bourbaki (2004) and a certain number of other authors. For details see Radon measures.
+The main purpose of the Lebesgue integral is to provide an integral notion where limits of integrals hold under mild assumptions. There is no guarantee that every function is Lebesgue integrable. But it may happen that improper integrals exist for functions that are not Lebesgue integrable. One example would be the sinc function:
+
+
+
+
+
+
+
+sin
+⁡
+(
+x
+)
+
+x
+
+
+
+
+{\displaystyle {\frac {\sin(x)}{x}}}
+
+
+over the entire real line. This function is not Lebesgue integrable, as
+
+
+
+
+
+∫
+
+−
+∞
+
+
+∞
+
+
+
+|
+
+
+
+sin
+⁡
+(
+x
+)
+
+x
+
+
+|
+
+
+d
+
+x
+=
+∞
+.
+
+
+{\displaystyle \int _{-\infty }^{\infty }\left|{\frac {\sin(x)}{x}}\right|\mathrm {d} x=\infty .}
+
+
+On the other hand, 
+
+
+
+
+∫
+
+−
+∞
+
+
+∞
+
+
+
+
+
+sin
+⁡
+(
+x
+)
+
+x
+
+
+
+
+d
+
+x
+
+
+{\textstyle \int _{-\infty }^{\infty }{\frac {\sin(x)}{x}}\,\mathrm {d} x}
+
+ exists as an improper integral and can be computed to be finite; it is twice the Dirichlet integral and equal to 
+
+
+
+π
+
+
+{\displaystyle \pi }
+
+.
+
+

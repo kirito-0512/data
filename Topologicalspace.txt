@@ -1,0 +1,1354 @@
+30450,
+Topologicalspace,
+In mathematics, a topological space is, roughly speaking, a geometrical space in which closeness is defined but cannot necessarily be measured by a numeric distance. More specifically, a topological space is a set whose elements are called points, along with an additional structure called a topology, which can be defined as a set of neighbourhoods for each point that satisfy some axioms formalizing the concept of closeness. There are several equivalent definitions of a topology, the most commonly used of which is the definition through open sets, which is easier than the others to manipulate.
+A topological space is the most general type of a mathematical space that allows for the definition of limits, continuity, and connectedness.[1][2] Common types of topological spaces include Euclidean spaces, metric spaces and manifolds.
+Although very general, the concept of topological spaces is fundamental, and used in virtually every branch of modern mathematics. The study of topological spaces in their own right is called point-set topology or general topology.
+Around 1735, Leonhard Euler discovered the formula 
+
+
+
+V
+−
+E
++
+F
+=
+2
+
+
+{\displaystyle V-E+F=2}
+
+ relating the number of vertices, edges and faces of a convex polyhedron, and hence of a planar graph. The study and generalization of this formula, specifically by  Cauchy (1789-1857) and  L'Huilier (1750-1840),  boosted the study of topology. In 1827, Carl Friedrich Gauss published General investigations of curved surfaces, which in section 3 defines the curved surface in a similar manner to the modern topological understanding: "A curved surface is said to possess continuous curvature at one of its points A, if the direction of all the straight lines drawn from A to points of the surface at an infinitesimal distance from A are deflected infinitesimally from one and the same plane passing through A."[3]
+Yet, "until  Riemann's work in the early 1850s, surfaces were always dealt with from a local point of view (as parametric surfaces) and topological issues were never considered".[4] " Möbius and  Jordan seem to be the first to realize that the main problem about the topology of (compact) surfaces is to find invariants (preferably numerical) to decide the equivalence of surfaces, that is, to decide whether two surfaces are  homeomorphic or not."[4]
+The subject is clearly defined by Felix Klein in his "Erlangen Program" (1872): the geometry invariants of arbitrary continuous transformation, a kind of geometry. The term "topology" was introduced by Johann Benedict Listing in 1847, although he had used the term in correspondence some years earlier instead of previously used "Analysis situs". The foundation of this science, for a space of any dimension, was created by Henri Poincaré. His first article on this topic appeared in 1894.[5] In the 1930s, James Waddell Alexander II and Hassler Whitney first expressed the idea that a surface is a topological space that is locally like a Euclidean plane.
+Topological spaces were first defined by Felix Hausdorff in 1914 in his seminal "Principles of Set Theory". Metric spaces had been defined earlier in 1906 by Maurice Fréchet, though it was Hausdorff who popularised the term "metric space" (German: metrischer Raum).[6][7]
+The utility of the concept of a topology is shown by the fact that there are several equivalent definitions of this mathematical structure. Thus one chooses the axiomatization suited for the application. The most commonly used is that in terms of open sets, but perhaps more intuitive is that in terms of neighbourhoods and so this is given first.
+This axiomatization is due to Felix Hausdorff.
+Let 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ be a set; the elements of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ are usually called points, though they can be any mathematical object. We allow 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ to be empty. Let 
+
+
+
+
+
+N
+
+
+
+
+{\displaystyle {\mathcal {N}}}
+
+ be a function assigning to each 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ (point) in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ a non-empty collection 
+
+
+
+
+
+N
+
+
+(
+x
+)
+
+
+{\displaystyle {\mathcal {N}}(x)}
+
+ of subsets of 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ The elements of 
+
+
+
+
+
+N
+
+
+(
+x
+)
+
+
+{\displaystyle {\mathcal {N}}(x)}
+
+ will be called neighbourhoods of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ with respect to 
+
+
+
+
+
+N
+
+
+
+
+{\displaystyle {\mathcal {N}}}
+
+ (or, simply, neighbourhoods of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+). The function 
+
+
+
+
+
+N
+
+
+
+
+{\displaystyle {\mathcal {N}}}
+
+ is called a neighbourhood topology if the axioms below[8] are satisfied; and then 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ with 
+
+
+
+
+
+N
+
+
+
+
+{\displaystyle {\mathcal {N}}}
+
+ is called a topological space.
+The first three axioms for neighbourhoods have a clear meaning. The fourth axiom has a very important use in the structure of the theory, that of linking together the neighbourhoods of different points of 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+
+A standard example of such a system of neighbourhoods is for the real line 
+
+
+
+
+R
+
+,
+
+
+{\displaystyle \mathbb {R} ,}
+
+ where a subset 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is defined to be a neighbourhood of a real number 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ if it includes an open interval containing 
+
+
+
+x
+.
+
+
+{\displaystyle x.}
+
+
+Given such a structure, a subset 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is defined to be open if 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ is a neighbourhood of all points in 
+
+
+
+U
+.
+
+
+{\displaystyle U.}
+
+ The open sets then satisfy the axioms given below. Conversely, when given the open sets of a topological space, the neighbourhoods satisfying the above axioms can be recovered by defining 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ to be a neighbourhood of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ if 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ includes an open set 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ such that 
+
+
+
+x
+∈
+U
+.
+
+
+{\displaystyle x\in U.}
+
+[9]
+
+A topology on a set X may be defined as a collection 
+
+
+
+τ
+
+
+{\displaystyle \tau }
+
+ of subsets of X, called open sets and satisfying the following axioms:[10]
+As this definition of a topology is the most commonly used, the set 
+
+
+
+τ
+
+
+{\displaystyle \tau }
+
+ of the open sets is commonly called a topology on 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+
+A subset 
+
+
+
+C
+⊆
+X
+
+
+{\displaystyle C\subseteq X}
+
+ is said to be closed in 
+
+
+
+(
+X
+,
+τ
+)
+
+
+{\displaystyle (X,\tau )}
+
+ if its complement 
+
+
+
+X
+∖
+C
+
+
+{\displaystyle X\setminus C}
+
+ is an open set.
+Using de Morgan's laws, the above axioms defining open sets become axioms defining closed sets:
+Using these axioms, another way to define a topological space is as a set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ together with a collection 
+
+
+
+τ
+
+
+{\displaystyle \tau }
+
+ of closed subsets of 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ Thus the sets in the topology 
+
+
+
+τ
+
+
+{\displaystyle \tau }
+
+ are the closed sets, and their complements in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ are the open sets.
+There are many other equivalent ways to define a topological space: in other words the concepts of neighbourhood, or that of open or closed sets can be reconstructed from other starting points and satisfy the correct axioms.
+Another way to define a topological space is by using the Kuratowski closure axioms, which define the closed sets as the fixed points of an operator on the power set of 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+
+A net is a generalisation of the concept of sequence.  A topology is completely determined if for every net in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ the set of its accumulation points is specified.
+Many topologies can be defined on a set to form a topological space. When every open set of a topology 
+
+
+
+
+τ
+
+1
+
+
+
+
+{\displaystyle \tau _{1}}
+
+ is also open for a topology 
+
+
+
+
+τ
+
+2
+
+
+,
+
+
+{\displaystyle \tau _{2},}
+
+ one says that 
+
+
+
+
+τ
+
+2
+
+
+
+
+{\displaystyle \tau _{2}}
+
+ is finer than 
+
+
+
+
+τ
+
+1
+
+
+,
+
+
+{\displaystyle \tau _{1},}
+
+ and 
+
+
+
+
+τ
+
+1
+
+
+
+
+{\displaystyle \tau _{1}}
+
+ is coarser than 
+
+
+
+
+τ
+
+2
+
+
+.
+
+
+{\displaystyle \tau _{2}.}
+
+ A proof that relies only on the existence of certain open sets will also hold for any finer topology, and similarly a proof that relies only on certain sets not being open applies to any coarser topology.  The terms larger and smaller are sometimes used in place of finer and coarser, respectively.  The terms stronger and weaker are also used in the literature, but with little agreement on the meaning, so one should always be sure of an author's convention when reading.
+The collection of all topologies on a given fixed set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ forms a complete lattice: if 
+
+
+
+F
+=
+
+{
+
+
+τ
+
+α
+
+
+:
+α
+∈
+A
+
+}
+
+
+
+{\displaystyle F=\left\{\tau _{\alpha }:\alpha \in A\right\}}
+
+ is a collection of topologies on 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ then the meet of 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is the intersection of 
+
+
+
+F
+,
+
+
+{\displaystyle F,}
+
+ and the join of 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is the meet of the collection of all topologies on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that contain every member of 
+
+
+
+F
+.
+
+
+{\displaystyle F.}
+
+
+A function 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f:X\to Y}
+
+ between topological spaces is called continuous if for every 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ and every neighbourhood 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ of 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ there is a neighbourhood 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ such that 
+
+
+
+f
+(
+M
+)
+⊆
+N
+.
+
+
+{\displaystyle f(M)\subseteq N.}
+
+ This relates easily to the usual definition in analysis. Equivalently, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is continuous if the inverse image of every open set is open.[11]  This is an attempt to capture the intuition that there are no "jumps" or "separations" in the function.  A homeomorphism is a bijection that is continuous and whose inverse is also continuous.  Two spaces are called homeomorphic if there exists a homeomorphism between them.  From the standpoint of topology, homeomorphic spaces are essentially identical.[12]
+In category theory, one of the fundamental categories is Top, which denotes the category of topological spaces whose objects are topological spaces and whose morphisms are continuous functions.  The attempt to classify the objects of this category (up to homeomorphism) by invariants has motivated areas of research, such as homotopy theory, homology theory, and K-theory.
+A given set may have many different topologies.  If a set is given a different topology, it is viewed as a different topological space.  Any set can be given the discrete topology in which every subset is open.  The only convergent sequences or nets in this topology are those that are eventually constant.  Also, any set can be given the trivial topology (also called the indiscrete topology), in which only the empty set and the whole space are open.  Every sequence and net in this topology converges to every point of the space.  This example shows that in general topological spaces, limits of sequences need not be unique. However, often topological spaces must be Hausdorff spaces where limit points are unique.
+Metric spaces embody a metric, a precise notion of distance between points.
+Every metric space can be given a metric topology, in which the basic open sets are open balls defined by the metric.  This is the standard topology on any normed vector space. On a finite-dimensional vector space this topology is the same for all norms.
+There are many ways of defining a topology on 
+
+
+
+
+R
+
+,
+
+
+{\displaystyle \mathbb {R} ,}
+
+ the set of real numbers.  The standard topology on 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is generated by the open intervals.  The set of all open intervals forms a base or basis for the topology, meaning that every open set is a union of some collection of sets from the base. In particular, this means that a set is open if there exists an open interval of non zero radius about every point in the set. More generally, the Euclidean spaces 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ can be given a topology.  In the usual topology on 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ the basic open sets are the open balls.  Similarly, 
+
+
+
+
+C
+
+,
+
+
+{\displaystyle \mathbb {C} ,}
+
+ the set of complex numbers, and 
+
+
+
+
+
+C
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {C} ^{n}}
+
+ have a standard topology in which the basic open sets are open balls.
+In topology, a proximity space, also called a nearness space, is an axiomatization of the intuitive notion of "nearness" that hold set-to-set, as opposed to the better known point-to-set notion that characterize topological spaces.
+In the mathematical field of topology, a uniform space is a topological space with additional structure that is used to define uniform properties, such as completeness, uniform continuity and uniform convergence. Uniform spaces generalize metric spaces and topological groups, but the concept is designed to formulate the weakest axioms needed for most proofs in analysis.
+In mathematics, a convergence space, also called a generalized convergence, is a set together with a relation called a convergence that satisfies certain properties relating elements of X with the family of filters on X.  Convergence spaces generalize the notions of convergence that are found in point-set topology, including metric convergence and uniform convergence.  Every topological space gives rise to a canonical convergence but there are convergences, known as non-topological convergences, that do not arise from any topological space.[14] Examples of convergences that are in general non-topological include convergence in measure and almost everywhere convergence. Many topological properties have generalizations to convergence spaces.
+Besides its ability to describe notions of convergence that topologies are unable to, the category of convergence spaces has an important categorical property that the category of topological spaces lacks. 
+In category theory, a branch of mathematics, a Grothendieck topology is a structure on a category C that makes the objects of C act like the open sets of a topological space.  A category together with a choice of Grothendieck topology is called a site.
+Grothendieck topologies axiomatize the notion of an open cover.  Using the notion of covering provided by a Grothendieck topology, it becomes possible to define sheaves on a category and their cohomology.  This was first done in algebraic geometry and algebraic number theory by Alexander Grothendieck to define the étale cohomology of a scheme.  It has been used to define other cohomology theories since then, such as ℓ-adic cohomology, flat cohomology, and crystalline cohomology. While Grothendieck topologies are most often used to define cohomology theories, they have found other applications as well, such as to John Tate's theory of rigid analytic geometry.
+There is a natural way to associate a site to an ordinary topological space, and Grothendieck's theory is loosely regarded as a generalization of classical topology.  Under meager point-set hypotheses, namely sobriety, this is completely accurate—it is possible to recover a sober space from its associated site.  However simple examples such as the indiscrete topological space show that not all topological spaces can be expressed using Grothendieck topologies.  Conversely, there are Grothendieck topologies that do not come from topological spaces.
+If 
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+ is a filter on a set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ then 
+
+
+
+{
+∅
+}
+∪
+Γ
+
+
+{\displaystyle \{\varnothing \}\cup \Gamma }
+
+ is a topology on 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+
+Many sets of linear operators in functional analysis are endowed with topologies that are defined by specifying when a particular sequence of functions converges to the zero function.
+Any local field has a topology native to it, and this can be extended to vector spaces over that field.
+Every manifold has a natural topology since it is locally Euclidean.  Similarly, every simplex and every simplicial complex inherits a natural topology from .
+The Zariski topology is defined algebraically on the spectrum of a ring or an algebraic variety.  On 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ or 
+
+
+
+
+
+C
+
+
+n
+
+
+,
+
+
+{\displaystyle \mathbb {C} ^{n},}
+
+ the closed sets of the Zariski topology are the solution sets of systems of polynomial equations.
+A linear graph has a natural topology that generalizes many of the geometric aspects of graphs with vertices and edges.
+The Sierpiński space is the simplest non-discrete topological space.  It has important relations to the theory of computation and semantics.
+There exist numerous topologies on any given finite set. Such spaces are called finite topological spaces. Finite spaces are sometimes used to provide examples or counterexamples to conjectures about topological spaces in general.
+Any set can be given the cofinite topology in which the open sets are the empty set and the sets whose complement is finite.  This is the smallest T1 topology on any infinite set.[citation needed]
+Any set can be given the cocountable topology, in which a set is defined as open if it is either empty or its complement is countable.  When the set is uncountable, this topology serves as a counterexample in many situations.
+The real line can also be given the lower limit topology.  Here, the basic open sets are the half open intervals 
+
+
+
+[
+a
+,
+b
+)
+.
+
+
+{\displaystyle [a,b).}
+
+  This topology on 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is strictly finer than the Euclidean topology defined above; a sequence converges to a point in this topology if and only if it converges from above in the Euclidean topology.  This example shows that a set may have many distinct topologies defined on it.
+If 
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+ is an ordinal number, then the set 
+
+
+
+Γ
+=
+[
+0
+,
+Γ
+)
+
+
+{\displaystyle \Gamma =[0,\Gamma )}
+
+ may be endowed with the order topology generated by the intervals 
+
+
+
+(
+a
+,
+b
+)
+,
+
+
+{\displaystyle (a,b),}
+
+ 
+
+
+
+[
+0
+,
+b
+)
+,
+
+
+{\displaystyle [0,b),}
+
+ and 
+
+
+
+(
+a
+,
+Γ
+)
+
+
+{\displaystyle (a,\Gamma )}
+
+ where 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ are elements of 
+
+
+
+Γ
+.
+
+
+{\displaystyle \Gamma .}
+
+
+Outer space of a free group 
+
+
+
+
+F
+
+n
+
+
+
+
+{\displaystyle F_{n}}
+
+ consists of the so-called "marked metric graph structures" of volume 1 on 
+
+
+
+
+F
+
+n
+
+
+.
+
+
+{\displaystyle F_{n}.}
+
+[16]
+Every subset of a topological space can be given the subspace topology in which the open sets are the intersections of the open sets of the larger space with the subset.  For any indexed family of topological spaces, the product can be given the product topology, which is generated by the inverse images of open sets of the factors under the projection mappings. For example, in finite products, a basis for the product topology consists of all products of open sets. For infinite products, there is the additional requirement that in a basic open set, all but finitely many of its projections are the entire space.
+A quotient space is defined as follows: if 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a topological space and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is a set, and if 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f:X\to Y}
+
+ is a surjective function, then the quotient topology on 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is the collection of subsets of 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ that have open inverse images under 
+
+
+
+f
+.
+
+
+{\displaystyle f.}
+
+ In other words, the quotient topology is the finest topology on 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ for which 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is continuous.  A common example of a quotient topology is when an equivalence relation is defined on the topological space 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+  The map 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is then the natural projection onto the set of equivalence classes.
+The Vietoris topology on the set of all non-empty subsets of a topological space 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ named for Leopold Vietoris, is generated by the following basis: for every 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-tuple 
+
+
+
+
+U
+
+1
+
+
+,
+…
+,
+
+U
+
+n
+
+
+
+
+{\displaystyle U_{1},\ldots ,U_{n}}
+
+ of open sets in 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ we construct a basis set consisting of all subsets of the union of the 
+
+
+
+
+U
+
+i
+
+
+
+
+{\displaystyle U_{i}}
+
+ that have non-empty intersections with each 
+
+
+
+
+U
+
+i
+
+
+.
+
+
+{\displaystyle U_{i}.}
+
+
+The Fell topology on the set of all non-empty closed subsets of a locally compact Polish space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a variant of the Vietoris topology, and is named after mathematician James Fell. It is generated by the following basis: for every 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-tuple 
+
+
+
+
+U
+
+1
+
+
+,
+…
+,
+
+U
+
+n
+
+
+
+
+{\displaystyle U_{1},\ldots ,U_{n}}
+
+ of open sets in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and for every compact set 
+
+
+
+K
+,
+
+
+{\displaystyle K,}
+
+ the set of all subsets of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that are disjoint from 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ and have nonempty intersections with each 
+
+
+
+
+U
+
+i
+
+
+
+
+{\displaystyle U_{i}}
+
+ is a member of the basis.
+Topological spaces can be broadly classified, up to homeomorphism, by their topological properties.  A topological property is a property of spaces that is invariant under homeomorphisms.  To prove that two spaces are not homeomorphic it is sufficient to find a topological property not shared by them.  Examples of such properties include connectedness, compactness, and various separation axioms. For algebraic invariants see algebraic topology.
+For any algebraic objects we can introduce the discrete topology, under which the algebraic operations are continuous functions.  For any such structure that is not finite, we often have a natural topology compatible with the algebraic operations, in the sense that the algebraic operations are still continuous.  This leads to concepts such as topological groups, topological vector spaces, topological rings and local fields.
+
+

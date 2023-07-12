@@ -1,0 +1,312 @@
+40310,
+Magnetohydrodynamics,
+Magnetohydrodynamics (MHD; also called magneto-fluid dynamics or hydro­magnetics) is a model of electrically conducting fluids that treats all interpenetrating particle species together as a single continuous medium. It is primarily concerned with the low-frequency, large-scale, magnetic behavior in plasmas and liquid metals and has applications in numerous fields including geophysics, astrophysics, and engineering.
+The word magneto­hydro­dynamics is derived from magneto- meaning magnetic field, hydro- meaning water, and dynamics meaning movement. The field of MHD was initiated by Hannes Alfvén, for which he received the Nobel Prize in Physics in 1970.
+The MHD description of electrically conducting fluids was first developed by Hannes Alfvén in a 1942 paper published in Nature titled "Existence of Electromagnetic–Hydrodynamic Waves" which outlined his discovery of what are now referred to as Alfvén waves.[1][2] Alfvén initially referred to these waves as "electromagnetic–hydrodynamic waves"; however, in a later paper he noted, "As the term 'electromagnetic–hydrodynamic waves' is somewhat complicated, it may be convenient to call this phenomenon 'magneto–hydrodynamic' waves."[3]
+In MHD, motion in the fluid is described using linear combinations of the mean motions of the individual species: the current density 
+
+
+
+
+J
+
+
+
+{\displaystyle \mathbf {J} }
+
+ and the center of mass velocity 
+
+
+
+
+v
+
+
+
+{\displaystyle \mathbf {v} }
+
+. In a given fluid, each species 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+ has a number density 
+
+
+
+
+n
+
+σ
+
+
+
+
+{\displaystyle n_{\sigma }}
+
+, mass 
+
+
+
+
+m
+
+σ
+
+
+
+
+{\displaystyle m_{\sigma }}
+
+, electric charge 
+
+
+
+
+q
+
+σ
+
+
+
+
+{\displaystyle q_{\sigma }}
+
+, and a mean velocity 
+
+
+
+
+
+u
+
+
+σ
+
+
+
+
+{\displaystyle \mathbf {u} _{\sigma }}
+
+. The fluid's total mass density is then 
+
+
+
+ρ
+=
+
+∑
+
+σ
+
+
+
+m
+
+σ
+
+
+
+n
+
+σ
+
+
+
+
+{\textstyle \rho =\sum _{\sigma }m_{\sigma }n_{\sigma }}
+
+, and the motion of the fluid can be described by the current density expressed as
+and the center of mass velocity expressed as:
+MHD can be described by a set of equations consisting of a continuity equation, an equation of motion, an equation of state, Ampère's Law, Faraday's law, and Ohm's law. As with any fluid description to a kinetic system, a closure approximation must be applied to highest moment of the particle distribution equation. This is often accomplished with approximations to the heat flux through a condition of adiabaticity or isothermality.
+In the adiabatic limit, that is, the assumption of an isotropic pressure 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ and isotropic temperature, a fluid with an adiabatic index 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+, electrical resistivity 
+
+
+
+η
+
+
+{\displaystyle \eta }
+
+, magnetic field 
+
+
+
+
+B
+
+
+
+{\displaystyle \mathbf {B} }
+
+, and electric field 
+
+
+
+
+E
+
+
+
+{\displaystyle \mathbf {E} }
+
+ can be described by the continuity equation
+the equation of state
+the equation of motion
+the low-frequency Ampère's law
+Faraday's law
+and Ohm's law
+Taking the curl of this equation and using Ampère's law and Faraday's law results in the induction equation,
+where 
+
+
+
+η
+
+/
+
+
+μ
+
+0
+
+
+
+
+{\displaystyle \eta /\mu _{0}}
+
+ is the magnetic diffusivity.
+In the equation of motion, the Lorentz force term 
+
+
+
+
+J
+
+×
+
+B
+
+
+
+{\displaystyle \mathbf {J} \times \mathbf {B} }
+
+ can be expanded using Ampère's law and a vector calculus identity to give
+where the first term on the right hand side is the magnetic tension force and the second term is the magnetic pressure force.[4]
+In view of the infinite conductivity, every motion (perpendicular to the field) of the liquid in relation to the lines of force is forbidden because it would give infinite eddy currents. Thus the matter of the liquid is "fastened" to the lines of force...
+Hannes Alfvén, 1943[5]
+The simplest form of MHD, ideal MHD, assumes that the resistive term 
+
+
+
+η
+
+J
+
+
+
+{\displaystyle \eta \mathbf {J} }
+
+ in Ohm's law is small relative to the other terms such that it can be taken to be equal to zero. This occurs in the limit of large magnetic Reynolds numbers during which magnetic induction dominates over magnetic diffusion at the velocity and length scales under consideration.[4] Consequently, processes in ideal MHD that convert magnetic energy into kinetic energy, referred to as ideal processes, cannot generate heat and raise entropy.[6]: 6 
+A fundamental concept underlying ideal MHD is the frozen-in flux theorem which states that the bulk fluid and embedded magnetic field are constrained to move together such that one can be said to be "tied" or "frozen" to the other. Therefore, any two points that move with the bulk fluid velocity and lie on the same magnetic field line will continue to lie on the same field line even as the points are advected by fluid flows in the system.[7][6]: 25  The connection between the fluid and magnetic field fixes the topology of the magnetic field in the fluid—for example, if a set of magnetic field lines are tied into a knot, then they will remain so as long as the fluid has negligible resistivity. This difficulty in reconnecting magnetic field lines makes it possible to store energy by moving the fluid or the source of the magnetic field. The energy can then become available if the conditions for ideal MHD break down, allowing magnetic reconnection that releases the stored energy from the magnetic field.
+In ideal MHD, the resistive term 
+
+
+
+η
+
+J
+
+
+
+{\displaystyle \eta \mathbf {J} }
+
+ vanishes in Ohm's law giving the ideal Ohm's law,[4]
+Similarly, the magnetic diffusion term 
+
+
+
+η
+
+∇
+
+2
+
+
+
+B
+
+
+/
+
+
+μ
+
+0
+
+
+
+
+{\displaystyle \eta \nabla ^{2}\mathbf {B} /\mu _{0}}
+
+ in the induction equation vanishes giving the ideal induction equation,[6]: 23 
+Ideal MHD is only strictly applicable when:
+In an imperfectly conducting fluid the magnetic field can generally move through the fluid following a diffusion law with the resistivity of the plasma serving as a diffusion constant. This means that solutions to the ideal MHD equations are only applicable for a limited time for a region of a given size before diffusion becomes too important to ignore.  One can estimate the diffusion time across a solar active region (from collisional resistivity) to be  hundreds to thousands of years, much longer than the actual lifetime of a sunspot—so it would seem reasonable to ignore the resistivity. By contrast, a meter-sized volume of seawater has a magnetic diffusion time measured in milliseconds.
+Even in physical systems[8]—which are large and conductive enough that simple estimates of the Lundquist number suggest that the resistivity can be ignored—resistivity may still be important: many instabilities exist that can increase the effective resistivity of the plasma by factors of more than 109. The enhanced resistivity is usually the result of the formation of small scale structure like current sheets or fine scale magnetic turbulence, introducing small spatial scales into the system over which ideal MHD is broken and magnetic diffusion can occur quickly. When this happens, magnetic reconnection may occur in the plasma to release stored magnetic energy as waves, bulk mechanical acceleration of material, particle acceleration, and heat.
+Magnetic reconnection in highly conductive systems is important because it concentrates energy in time and space, so that gentle forces applied to a plasma for long periods of time can cause violent explosions and bursts of radiation.
+When the fluid cannot be considered as completely conductive, but the other conditions for ideal MHD are satisfied, it is possible to use an extended model called resistive MHD. This includes an extra term in Ohm's Law which models the collisional resistivity. Generally MHD computer simulations are at least somewhat resistive because their computational grid introduces a numerical resistivity.
+In many MHD systems most of the electric current is compressed into thin nearly-two-dimensional ribbons termed current sheets.[9] These can divide the fluid into magnetic domains, inside of which the currents are relatively weak. Current sheets in
+the solar corona are thought to be between a few meters and a few kilometers in thickness, which is quite thin compared to the magnetic domains (which are thousands to hundreds of thousands of kilometers across).[10] Another example is in the Earth's magnetosphere, where current sheets separate topologically distinct domains, isolating most of the Earth's ionosphere from the solar wind.
+The wave modes derived using the MHD equations are called magnetohydrodynamic waves or MHD waves. There are three MHD wave modes that can be derived from the linearized ideal-MHD equations for a fluid with a uniform and constant magnetic field:
+These modes have phase velocities that are independent of the magnitude of the wavevector, so they experience no dispersion. The phase velocity depends on the angle between the wave vector k and the magnetic field B.  An MHD wave propagating at an arbitrary angle θ with respect to the time independent or bulk field B0 will satisfy the dispersion relation
+where
+is the Alfvén speed.  This branch corresponds to the shear Alfvén mode.  Additionally  the dispersion equation gives
+where
+is the ideal gas speed of sound.  The plus branch corresponds to the fast-MHD wave mode and the minus branch corresponds to the slow-MHD wave mode. A summary of the properties of these waves is provided:
+The MHD oscillations will be damped if the fluid is not perfectly conducting but has a finite conductivity, or if viscous effects are present.
+MHD waves and oscillations are a popular tool for the remote diagnostics of laboratory and astrophysical plasmas, for example, the corona of the Sun (Coronal seismology).
+Another limitation of MHD (and fluid theories in general) is that they depend on the assumption that the plasma is strongly collisional (this is the first criterion listed above), so that the time scale of collisions is shorter than the other characteristic times in the system, and the particle distributions are Maxwellian. This is usually not the case in fusion, space and astrophysical plasmas. When this is not the case, or the interest is in smaller spatial scales, it may be necessary to use a kinetic model which properly accounts for the non-Maxwellian shape of the distribution function.  However, because MHD is relatively simple and captures many of the important properties of plasma dynamics it is often qualitatively accurate and is therefore often the first model tried.
+Effects which are essentially kinetic and not captured by fluid models include double layers, Landau damping, a wide range of instabilities, chemical separation in space plasmas and electron runaway. In the case of ultra-high intensity laser interactions, the incredibly short timescales of energy deposition mean that hydrodynamic codes fail to capture the essential physics.
+Beneath the Earth's mantle lies the core, which is made up of two parts: the solid inner core and liquid outer core.[15][16] Both have significant quantities of iron. The liquid outer core moves in the presence of the magnetic field and eddies are set up into the same due to the Coriolis effect.[17] These eddies develop a magnetic field which boosts Earth's original magnetic field—a process which is self-sustaining and is called the geomagnetic dynamo.[18]
+Based on the MHD equations, Glatzmaier and Paul Roberts have made a supercomputer model of the Earth's interior. After running the simulations for thousands of years in virtual time, the changes in Earth's magnetic field can be studied. The simulation results are in good agreement with the observations as the simulations have correctly predicted that the Earth's magnetic field flips every few hundred thousand years. During the flips, the magnetic field does not vanish altogether—it just gets more complex.[19]
+Some monitoring stations have reported that earthquakes are sometimes preceded by a spike in ultra low frequency (ULF) activity.  A remarkable example of this occurred before the 1989 Loma Prieta earthquake in California,[20] although a subsequent study indicates that this was little more than a sensor malfunction.[21] On December 9, 2010, geoscientists announced that the DEMETER satellite observed a dramatic increase in ULF radio waves over Haiti in the month before the magnitude 7.0 Mw 2010 earthquake.[22] Researchers are attempting to learn more about this correlation to find out whether this method can be used as part of an early warning system for earthquakes.
+The study of space plasmas near Earth and throughout the Solar System is known as space physics. Areas researched within space physics encompass a large number of topics, ranging from the ionosphere to auroras, Earth's magnetosphere, the Solar wind, and coronal mass ejections. 
+MHD forms the framework for understanding how populations of plasma interact within the local geospace environment. Researchers have developed global models using MHD to simulate phenomena within Earth's magnetosphere, such as the location of Earth's magnetopause[23] (the boundary between the Earth's magnetic field and the solar wind), the formation of the ring current, auroral electrojets,[24] and geomagnetically induced currents.[25]
+One prominent use of global MHD models is in space weather forecasting. Intense solar storms have the potential to cause extensive damage to satellites[26] and infrastructure, thus it is crucial that such events are detected early. The Space Weather Prediction Center (SWPC) runs MHD models to predict the arrival and impacts of space weather events at Earth.
+MHD applies to astrophysics, including stars, the interplanetary medium (space between the planets), and possibly within the interstellar medium (space between the stars) and jets.[27]  Most astrophysical systems are not in local thermal equilibrium, and therefore require an additional kinematic treatment to describe all the phenomena within the system (see Astrophysical plasma).[28][29]
+Sunspots are caused by the Sun's magnetic fields, as Joseph Larmor theorized in 1919. The solar wind is also governed by MHD. The differential solar rotation may be the long-term effect of magnetic drag at the poles of the Sun, an MHD phenomenon due to the Parker spiral shape assumed by the extended magnetic field of the Sun.
+Previously, theories describing the formation of the Sun and planets could not explain how the Sun has 99.87% of the mass, yet only 0.54% of the angular momentum in the Solar System. In a closed system such as the cloud of gas and dust from which the Sun was formed, mass and angular momentum are both conserved. That conservation would imply that as the mass concentrated in the center of the cloud to form the Sun, it would spin faster, much like a skater pulling their arms in. The high speed of rotation predicted by early theories would have flung the proto-Sun apart before it could have formed. However, magnetohydrodynamic effects transfer the Sun's angular momentum into the outer solar system, slowing its rotation.
+Breakdown of ideal MHD (in the form of magnetic reconnection) is known to be the likely cause of solar flares. The magnetic field in a solar active region over a sunspot can store energy that is released suddenly as a burst of motion, X-rays, and radiation when the main current sheet collapses, reconnecting the field.[30][31]
+Magnetohydrodynamic sensors are used for precision measurements of angular velocities in inertial navigation systems such as in aerospace engineering. Accuracy improves with the size of the sensor. The sensor is capable of surviving in harsh environments.[32]
+MHD is related to engineering problems such as plasma confinement, liquid-metal cooling of nuclear reactors, and electromagnetic casting (among others).
+A magnetohydrodynamic drive or MHD propulsor is a method for propelling seagoing vessels using only electric and magnetic fields with no moving parts, using magnetohydrodynamics. The working principle involves electrification of the propellant (gas or water) which can then be directed by a magnetic field, pushing the vehicle in the opposite direction. Although some working prototypes exist, MHD drives remain impractical.
+The first prototype of this kind of propulsion was built and tested in 1965 by Steward Way, a professor of mechanical engineering at the University of California, Santa Barbara.  Way, on leave from his job at Westinghouse Electric, assigned his senior-year undergraduate students to develop a submarine with this new propulsion system.[33]  In the early 1990s, a foundation in Japan (Ship & Ocean Foundation (Minato-ku, Tokyo)) built an experimental boat, the Yamato-1, which used a magnetohydrodynamic drive incorporating a superconductor cooled by liquid helium, and could travel at 15 km/h.[34]
+MHD power generation fueled by potassium-seeded coal combustion gas showed potential for more efficient energy conversion (the absence of solid moving parts allows operation at higher temperatures), but failed due to cost-prohibitive technical difficulties.[35] One major engineering problem was the failure of the wall of the primary-coal combustion chamber due to abrasion.
+In microfluidics, MHD is studied as a fluid pump for producing a continuous, nonpulsating flow in a complex microchannel design.[36]
+MHD can be implemented in the continuous casting process of metals to suppress instabilities and control the flow.[37][38]
+Industrial MHD problems can be modeled using the open-source software EOF-Library.[39] Two simulation examples are 3D MHD with a free surface for electromagnetic levitation melting,[40] and liquid metal stirring by rotating permanent magnets.[41]
+An important task in cancer research is developing more precise methods for delivery of medicine to affected areas. One method involves the binding of medicine to biologically compatible magnetic particles (such as ferrofluids), which are guided to the target via careful placement of permanent magnets on the external body. Magnetohydrodynamic equations and finite element analysis are used to study the interaction between the magnetic fluid particles in the bloodstream and the external magnetic field.[42]
+
+

@@ -1,0 +1,529 @@
+31211,
+Bolzano–Weierstrasstheorem,
+In mathematics, specifically in real analysis, the Bolzano–Weierstrass theorem, named after Bernard Bolzano and Karl Weierstrass, is a fundamental result about convergence in a finite-dimensional Euclidean space 
+R
+n
+{\displaystyle \mathbb {R} ^{n}}
+. The theorem states that each infinite bounded sequence in 
+R
+n
+{\displaystyle \mathbb {R} ^{n}}
+ has a convergent subsequence.[1] An equivalent formulation is that a subset of 
+R
+n
+{\displaystyle \mathbb {R} ^{n}}
+ is sequentially compact if and only if it is closed and bounded.[2] The theorem is sometimes called the sequential compactness theorem.[3]
+The Bolzano–Weierstrass theorem is named after mathematicians Bernard Bolzano and Karl Weierstrass.  It was actually first proved by Bolzano in 1817 as a lemma in the proof of the intermediate value theorem.  Some fifty years later the result was identified as significant in its own right, and proved again by Weierstrass. It has since become an essential theorem of analysis.
+First we prove the theorem for 
+R
+1
+{\displaystyle \mathbb {R} ^{1}}
+ (set of all real numbers), in which case the ordering on 
+R
+1
+{\displaystyle \mathbb {R} ^{1}}
+ can be put to good use.  Indeed, we have the following result:
+Lemma: Every infinite sequence 
+(
+x
+n
+)
+{\displaystyle (x_{n})}
+ in 
+R
+1
+{\displaystyle \mathbb {R} ^{1}}
+ has a monotone subsequence.
+Proof[4]: Let us call a positive integer-valued index 
+n
+{\displaystyle n}
+ of a sequence a "peak" of the sequence when 
+x
+m
+≤
+x
+n
+{\displaystyle x_{m}\leq x_{n}}
+ for every 
+m
+>
+n
+{\displaystyle m>n}
+. Suppose first that the sequence has infinitely many peaks, which means there is a subsequence with the following indices 
+n
+1
+<
+n
+2
+<
+n
+3
+<
+⋯
+<
+n
+j
+<
+…
+{\displaystyle n_{1}<n_{2}<n_{3}<\dots <n_{j}<\dots }
+ and the following terms 
+x
+n
+1
+≥
+x
+n
+2
+≥
+x
+n
+3
+≥
+⋯
+≥
+x
+n
+j
+≥
+…
+{\displaystyle x_{n_{1}}\geq x_{n_{2}}\geq x_{n_{3}}\geq \dots \geq x_{n_{j}}\geq \dots }
+. So, the infinite sequence 
+(
+x
+n
+)
+{\displaystyle (x_{n})}
+ in 
+R
+1
+{\displaystyle \mathbb {R} ^{1}}
+ has a monotone subsequence, which is 
+(
+x
+n
+j
+)
+{\displaystyle (x_{n_{j}})}
+. But suppose now that there are only finitely many peaks, let 
+N
+{\displaystyle N}
+ be the final  peak and let the first index of a new subsequence 
+(
+x
+n
+j
+)
+{\displaystyle (x_{n_{j}})}
+ be set to 
+n
+1
+=
+N
++
+1
+{\displaystyle n_{1}=N+1}
+.  Then 
+n
+1
+{\displaystyle n_{1}}
+ is not a peak, since 
+n
+1
+{\displaystyle n_{1}}
+ comes after the final peak, which implies the existence of 
+n
+2
+{\displaystyle n_{2}}
+ with 
+n
+1
+<
+n
+2
+{\displaystyle n_{1}<n_{2}}
+ and 
+x
+n
+1
+≤
+x
+n
+2
+{\displaystyle x_{n_{1}}\leq x_{n_{2}}}
+. Again, 
+n
+2
+{\displaystyle n_{2}}
+ comes after the final peak, hence there is an 
+n
+3
+{\displaystyle n_{3}}
+ where 
+n
+2
+<
+n
+3
+{\displaystyle n_{2}<n_{3}}
+ with 
+x
+n
+2
+≤
+x
+n
+3
+{\displaystyle x_{n_{2}}\leq x_{n_{3}}}
+. Repeating this process leads to an infinite non-decreasing  subsequence  
+x
+n
+1
+≤
+x
+n
+2
+≤
+x
+n
+3
+≤
+…
+{\displaystyle x_{n_{1}}\leq x_{n_{2}}\leq x_{n_{3}}\leq \ldots }
+, thereby proving that every infinite sequence 
+(
+x
+n
+)
+{\displaystyle (x_{n})}
+ in 
+R
+1
+{\displaystyle \mathbb {R} ^{1}}
+ has a monotone subsequence.
+Now suppose one has a bounded sequence in 
+R
+1
+{\displaystyle \mathbb {R} ^{1}}
+; by the lemma proven above there exists a monotone subsequence, likewise also bounded. It follows from the monotone convergence theorem that this subsequence converges.
+Finally, the general case (
+R
+n
+{\displaystyle \mathbb {R} ^{n}}
+), can be reduced to the case of 
+R
+1
+{\displaystyle \mathbb {R} ^{1}}
+ as follows: given a bounded sequence in 
+R
+n
+{\displaystyle \mathbb {R} ^{n}}
+, the sequence of first coordinates is a bounded real sequence, hence it has a convergent subsequence. One can then extract a sub-subsequence on which the second coordinates converge, and so on, until in the end we have passed from the original sequence to a subsequence 
+n
+{\displaystyle n}
+ times—which is still a subsequence of the original sequence—on which each coordinate sequence converges, hence the subsequence itself is convergent.
+There is also an alternative proof of the Bolzano–Weierstrass theorem using nested intervals. We start with a bounded sequence 
+(
+x
+n
+)
+{\displaystyle (x_{n})}
+:
+Because 
+(
+x
+n
+)
+n
+∈
+N
+{\displaystyle (x_{n})_{n\in \mathbb {N} }}
+ is bounded, this sequence has a lower bound 
+s
+{\displaystyle s}
+ and an upper bound 
+S
+{\displaystyle S}
+.
+We take 
+I
+1
+=
+[
+s
+,
+S
+]
+{\displaystyle I_{1}=[s,S]}
+ as the first interval for the sequence of nested intervals.
+Then we split 
+I
+1
+{\displaystyle I_{1}}
+ at the mid into two equally sized subintervals.
+Because each sequence has infinitely many members, there must be (at least) one of these subintervals that contains infinitely many members of 
+(
+x
+n
+)
+n
+∈
+N
+{\displaystyle (x_{n})_{n\in \mathbb {N} }}
+. We take this subinterval as the second interval 
+I
+2
+{\displaystyle I_{2}}
+ of the sequence of nested intervals.
+Then we split 
+I
+2
+{\displaystyle I_{2}}
+ again at the mid into two equally sized subintervals.
+Again, one of these subintervals contains infinitely many members of 
+(
+x
+n
+)
+n
+∈
+N
+{\displaystyle (x_{n})_{n\in \mathbb {N} }}
+. We take this subinterval as the third subinterval 
+I
+3
+{\displaystyle I_{3}}
+ of the sequence of nested intervals.
+We continue this process infinitely many times. Thus we get a sequence of nested intervals.
+Because we halve the length of an interval at each step, the limit of the interval's length is zero. Also, by the nested intervals theorem, which states that if each 
+I
+n
+{\displaystyle I_{n}}
+ is a closed and bounded interval, say
+with
+then under the assumption of nesting, the intersection of the 
+I
+n
+{\displaystyle I_{n}}
+ is not empty. Thus there is a number 
+x
+{\displaystyle x}
+ that is in each interval 
+I
+n
+{\displaystyle I_{n}}
+. Now we show, that 
+x
+{\displaystyle x}
+ is an accumulation point of 
+(
+x
+n
+)
+{\displaystyle (x_{n})}
+.
+Take a neighbourhood 
+U
+{\displaystyle U}
+ of 
+x
+{\displaystyle x}
+. Because the length of the intervals converges to zero, there is an interval 
+I
+N
+{\displaystyle I_{N}}
+ that is a subset of 
+U
+{\displaystyle U}
+. Because 
+I
+N
+{\displaystyle I_{N}}
+ contains by construction infinitely many members of 
+(
+x
+n
+)
+{\displaystyle (x_{n})}
+ and 
+I
+N
+⊆
+U
+{\displaystyle I_{N}\subseteq U}
+, also 
+U
+{\displaystyle U}
+ contains infinitely many members of 
+(
+x
+n
+)
+{\displaystyle (x_{n})}
+. This proves that 
+x
+{\displaystyle x}
+ is an accumulation point of 
+(
+x
+n
+)
+{\displaystyle (x_{n})}
+. Thus, there is a subsequence of 
+(
+x
+n
+)
+{\displaystyle (x_{n})}
+ that converges to 
+x
+{\displaystyle x}
+.
+Definition: A set 
+A
+⊆
+R
+n
+{\displaystyle A\subseteq \mathbb {R} ^{n}}
+ is sequentially compact if every sequence 
+{
+x
+n
+}
+{\displaystyle \{x_{n}\}}
+ in 
+A
+{\displaystyle A}
+ has a convergent subsequence converging to an element of 
+A
+{\displaystyle A}
+.
+Theorem: 
+A
+⊆
+R
+n
+{\displaystyle A\subseteq \mathbb {R} ^{n}}
+ is sequentially compact if and only if 
+A
+{\displaystyle A}
+ is closed and bounded.
+Proof: (sequential compactness implies closed and bounded)
+Suppose 
+A
+{\displaystyle A}
+ is a subset of 
+R
+n
+{\displaystyle \mathbb {R} ^{n}}
+ with the property that every sequence in 
+A
+{\displaystyle A}
+ has a subsequence converging to an element of 
+A
+{\displaystyle A}
+. Then 
+A
+{\displaystyle A}
+ must be bounded, since otherwise the following unbounded sequence 
+{
+x
+n
+}
+∈
+A
+{\displaystyle \{x_{n}\}\in A}
+ can be constructed. For every 
+n
+∈
+N
+{\displaystyle n\in \mathbb {N} }
+, define 
+x
+n
+{\displaystyle x_{n}}
+ to be any arbitrary point such that 
+|
+|
+x
+n
+|
+|
+≥
+n
+{\displaystyle ||x_{n}||\geq n}
+. Then, every subsequence of 
+{
+x
+n
+}
+{\displaystyle \{x_{n}\}}
+ is unbounded and therefore not convergent. Moreover, 
+A
+{\displaystyle A}
+ must be closed, since any limit point of 
+A
+{\displaystyle A}
+, which has a sequence of points in 
+A
+{\displaystyle A}
+ converging to itself, must also lie in 
+A
+{\displaystyle A}
+.
+Proof: (closed and bounded implies sequential compactness)
+Since 
+A
+{\displaystyle A}
+ is bounded, any sequence 
+{
+x
+n
+}
+∈
+A
+{\displaystyle \{x_{n}\}\in A}
+ is also bounded. From the Bolzano-Weierstrass theorem, 
+{
+x
+n
+}
+{\displaystyle \{x_{n}\}}
+ contains a subsequence converging to some point 
+x
+∈
+R
+n
+{\displaystyle x\in \mathbb {R} ^{n}}
+. Since 
+x
+{\displaystyle x}
+ is a limit point of 
+A
+{\displaystyle A}
+ and 
+A
+{\displaystyle A}
+ is a closed set, 
+x
+{\displaystyle x}
+ must be an element of 
+A
+{\displaystyle A}
+.
+Thus the subsets 
+A
+{\displaystyle A}
+ of 
+R
+n
+{\displaystyle \mathbb {R} ^{n}}
+ for which every sequence in A has a subsequence converging to an element of 
+A
+{\displaystyle A}
+ – i.e., the subsets that are sequentially compact in the subspace topology – are precisely the closed and bounded subsets.
+This form of the theorem makes especially clear the analogy to the Heine–Borel theorem, which asserts that a subset of 
+R
+n
+{\displaystyle \mathbb {R} ^{n}}
+ is compact if and only if it is closed and bounded.  In fact, general topology tells us that a metrizable space is compact if and only if it is sequentially compact, so that the Bolzano–Weierstrass and Heine–Borel theorems are essentially the same.
+There are different important equilibrium concepts in economics, the proofs of the existence of which often require variations of the Bolzano–Weierstrass theorem. One example is the existence of a Pareto efficient allocation. An allocation is a matrix of consumption bundles for agents in an economy, and an allocation is Pareto efficient if no change can be made to it that makes no agent worse off and at least one agent better off (here rows of the allocation matrix must be rankable by a preference relation). The Bolzano–Weierstrass theorem allows one to prove that if the set of allocations is compact and non-empty, then the system has a Pareto-efficient allocation.

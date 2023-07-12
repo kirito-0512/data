@@ -1,0 +1,234 @@
+23799,
+Powerset,
+In mathematics, the power set (or powerset) of a set S is the set of all subsets of S, including the empty set and S itself.[1] In axiomatic set theory (as developed, for example, in the ZFC axioms), the existence of the power set of any set is postulated by the axiom of power set.[2] 
+The powerset of S is variously denoted as P(S), 𝒫(S), P(S), 
+
+
+
+
+P
+
+(
+S
+)
+
+
+{\displaystyle \mathbb {P} (S)}
+
+, 
+
+
+
+℘
+(
+S
+)
+
+
+{\displaystyle \wp (S)}
+
+, or 2S. The notation 2S, meaning the set of all functions from S to a given set of two elements (e.g., {0, 1}), is used because the powerset of S can be identified with, equivalent to, or bijective to the set of all the functions from S to the given two elements set.[1]
+Any subset of P(S) is called a family of sets over S.
+If S is the set {x, y, z}, then all the subsets of S are
+and hence the power set of S is {{},
+{x},
+{y},
+{z},
+{x, y},
+{x, z},
+{y, z},
+{x, y, z}}.[3]
+If S is a finite set with the cardinality |S| = n (i.e., the number of all elements in the set S is n), then the number of all the subsets of S is |P(S)| = 2n. This fact as well as the reason of the notation 2S denoting the power set P(S) are demonstrated in the below.
+Cantor's diagonal argument shows that the power set of a set (whether infinite or not) always has strictly higher cardinality than the set itself (or informally, the power set must be larger than the original set). In particular, Cantor's theorem shows that the power set of a countably infinite set is uncountably infinite. The power set of the set of natural numbers can be put in a one-to-one correspondence with the set of real numbers (see Cardinality of the continuum).
+The power set of a set S, together with the operations of union, intersection and complement, can be viewed as the prototypical example of a Boolean algebra. In fact, one can show that any finite Boolean algebra is isomorphic to the Boolean algebra of the power set of a finite set. For infinite Boolean algebras, this is no longer true, but every infinite Boolean algebra can be represented as a subalgebra of a power set Boolean algebra (see Stone's representation theorem).
+The power set of a set S forms an abelian group when it is considered with the operation of symmetric difference (with the empty set as the identity element and each set being its own inverse), and a commutative monoid when considered with the operation of intersection. It can hence be shown, by proving the distributive laws, that the power set considered together with both of these operations forms a Boolean ring.
+In set theory, XY is the notation representing the set of all functions from Y to X.  As "2" can be defined as {0,1} (see, for example, von Neumann ordinals), 2S (i.e., {0,1}S) is the set of all functions from S to {0,1}. As shown above, 2S and the power set of S, P(S), are considered identical set-theoretically.
+This equivalence can be applied to the example above, in which S = {x, y, z}, to get the isomorphism with the binary representations of numbers from 0 to 2n − 1, with n being the number of elements in the set S or |S| = n. First, the enumerated set { (x, 1), (y, 2), (z, 3) } is defined in which the number in each ordered pair represents the position of the paired element of S in a sequence of binary digits such as {x, y} = 011(2); x of S is located at the first from the right of this sequence and y is at the second from the right, and 1 in the sequence means the element of S corresponding to the position of it in the sequence exists in the subset of S for the sequence while 0 means it does not.
+For the whole power set of S, we get:
+Such a injective mapping from P(S) to integers is arbitrary, so this representation of all the subsets of S is not unique, but the sort order of the enumerated set does not change its cardinality. (E.g., { (y, 1), (z, 2), (x, 3) } can be used to construct another injective mapping from P(S) to the integers without changing the number of one-to-one correspondences.)
+However, such finite binary representation is only possible if S can be enumerated. (In this example, x, y, and z are enumerated with 1, 2, and 3 respectively as the position of binary digit sequences.) The enumeration is possible even if S has an infinite cardinality (i.e., the number of elements in S is infinite), such as the set of integers or rationals, but not possible for example if S is the set of real numbers, in which case we cannot enumerate all irrational numbers.
+The binomial theorem is closely related to the power set. A k–elements combination from some set is another name for a k–elements subset, so the number of combinations, denoted as C(n, k) (also called binomial coefficient) is a number of subsets with k elements in a set with n elements; in other words it's the number of sets with k elements which are elements of the power set of a set with n elements.
+For example, the power set of a set with three elements, has:
+Using this relationship, we can compute 
+
+
+
+
+|
+
+2
+
+S
+
+
+|
+
+
+
+{\textstyle \left|2^{S}\right|}
+
+ using the formula:
+
+
+
+
+
+|
+
+2
+
+S
+
+
+|
+
+=
+
+∑
+
+k
+=
+0
+
+
+
+|
+
+S
+
+|
+
+
+
+
+
+
+(
+
+
+
+
+|
+
+S
+
+|
+
+
+k
+
+
+)
+
+
+
+
+
+{\displaystyle \left|2^{S}\right|=\sum _{k=0}^{|S|}{\binom {|S|}{k}}}
+
+
+Therefore, one can deduce the following identity, assuming 
+
+
+
+
+|
+
+S
+
+|
+
+=
+n
+
+
+{\textstyle |S|=n}
+
+:
+
+
+
+
+
+|
+
+2
+
+S
+
+
+|
+
+=
+
+2
+
+n
+
+
+=
+
+∑
+
+k
+=
+0
+
+
+n
+
+
+
+
+
+(
+
+
+n
+k
+
+
+)
+
+
+
+
+
+{\displaystyle \left|2^{S}\right|=2^{n}=\sum _{k=0}^{n}{\binom {n}{k}}}
+
+
+If 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is a finite set, then a recursive definition of 
+
+
+
+P
+(
+S
+)
+
+
+{\displaystyle P(S)}
+
+ proceeds as follows:
+In words: 
+The set of subsets of S of cardinality less than or equal to κ is sometimes denoted by Pκ(S) or [S]κ, and the set of subsets with cardinality strictly less than κ is sometimes denoted P< κ(S) or [S]<κ. Similarly, the set of non-empty subsets of S might be denoted by P≥ 1(S) or P+(S).
+A set can be regarded as an algebra having no nontrivial operations or defining equations.  From this perspective, the idea of the power set of X as the set of subsets of X generalizes naturally to the subalgebras of an algebraic structure or algebra.
+The power set of a set, when ordered by inclusion, is always a complete atomic Boolean algebra, and every complete atomic Boolean algebra arises as the lattice of all subsets of some set. The generalization to arbitrary algebras is that the set of subalgebras of an algebra, again ordered by inclusion, is always an algebraic lattice, and every algebraic lattice arises as the lattice of subalgebras of some algebra. So in that regard, subalgebras behave analogously to subsets.
+However, there are two important properties of subsets that do not carry over to subalgebras in general.  First, although the subsets of a set form a set (as well as a lattice), in some classes it may not be possible to organize the subalgebras of an algebra as itself an algebra in that class, although they can always be organized as a lattice.  Secondly, whereas the subsets of a set are in bijection with the functions from that set to the set {0,1} = 2, there is no guarantee that a class of algebras contains an algebra that can play the role of 2 in this way.
+Certain classes of algebras enjoy both of these properties.  The first property is more common, the case of having both is relatively rare.  One class that does have both is that of multigraphs.  Given two multigraphs G and H, a homomorphism h: G → H consists of two functions, one mapping vertices to vertices and the other mapping edges to edges.  The set HG of homomorphisms from G to H can then be organized as the graph whose vertices and edges are respectively the vertex and edge functions appearing in that set.  Furthermore, the subgraphs of a multigraph G are in bijection with the graph homomorphisms from G to the multigraph Ω definable as the complete directed graph on two vertices (hence four edges, namely two self-loops and two more edges forming a cycle) augmented with a fifth edge, namely a second self-loop at one of the vertices.  We can therefore organize the subgraphs of G as the multigraph ΩG, called the power object of G.
+What is special about a multigraph as an algebra is that its operations are unary.  A multigraph has two sorts of elements forming a set V of vertices and E of edges, and has two unary operations s,t: E → V giving the source (start) and target (end) vertices of each edge.  An algebra all of whose operations are unary is called a presheaf.  Every class of presheaves contains a presheaf Ω that plays the role for subalgebras that 2 plays for subsets.  Such a class is a special case of the more general notion of elementary topos as a category that is closed (and moreover cartesian closed) and has an object Ω, called a subobject classifier.  Although the term "power object" is sometimes used synonymously with exponential object YX, in topos theory Y is required to be Ω.
+In category theory and the theory of elementary topoi, the universal quantifier can be understood as the right adjoint of a functor between power sets, the inverse image functor of a function between sets; likewise, the existential quantifier is the left adjoint.[4]
+
+
+
+Information box
+{'Type': 'Set operation', 'Field': 'Set theory', 'Statement': 'The power set is the set that contains all subsets of a given set.', 'Symbolic statement': ''}

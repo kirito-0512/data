@@ -1,0 +1,373 @@
+6693,
+Cofinality,
+In mathematics, especially in order theory, the cofinality cf(A) of a partially ordered set A is the least of the cardinalities of the cofinal subsets of A.
+This definition of cofinality relies on the axiom of choice, as it uses the fact that every non-empty set of cardinal numbers has a least member. The cofinality of a partially ordered set A can alternatively be defined as the least ordinal x such that there is a function from x to A with cofinal image. This second definition makes sense without the axiom of choice. If the axiom of choice is assumed, as will be the case in the rest of this article, then the two definitions are equivalent.
+Cofinality can be similarly defined for a directed set and is used to generalize the notion of a subsequence in a net.
+If 
+A
+{\displaystyle A}
+ admits a totally ordered cofinal subset, then we can find a subset 
+B
+{\displaystyle B}
+ that is well-ordered and cofinal in 
+A
+.
+{\displaystyle A.}
+ Any subset of 
+B
+{\displaystyle B}
+ is also well-ordered. Two cofinal subsets of 
+B
+{\displaystyle B}
+ with minimal cardinality (that is, their cardinality is the cofinality of 
+B
+{\displaystyle B}
+) need not be order isomorphic (for example if 
+B
+=
+ω
++
+ω
+,
+{\displaystyle B=\omega +\omega ,}
+ then both 
+ω
++
+ω
+{\displaystyle \omega +\omega }
+ and 
+{
+ω
++
+n
+:
+n
+<
+ω
+}
+{\displaystyle \{\omega +n:n<\omega \}}
+ viewed as subsets of 
+B
+{\displaystyle B}
+ have the countable cardinality of the cofinality of 
+B
+{\displaystyle B}
+ but are not order isomorphic.)  But cofinal subsets of 
+B
+{\displaystyle B}
+ with minimal order type will be order isomorphic.
+The cofinality of an ordinal 
+α
+{\displaystyle \alpha }
+ is the smallest ordinal 
+δ
+{\displaystyle \delta }
+ that is the order type of a cofinal subset of 
+α
+.
+{\displaystyle \alpha .}
+  The cofinality of a set of ordinals or any other well-ordered set is the cofinality of the order type of that set.
+Thus for a limit ordinal 
+α
+,
+{\displaystyle \alpha ,}
+ there exists a 
+δ
+{\displaystyle \delta }
+-indexed strictly increasing sequence with limit 
+α
+.
+{\displaystyle \alpha .}
+  For example, the cofinality of 
+ω
+2
+{\displaystyle \omega ^{2}}
+ is 
+ω
+,
+{\displaystyle \omega ,}
+ because the sequence 
+ω
+⋅
+m
+{\displaystyle \omega \cdot m}
+ (where 
+m
+{\displaystyle m}
+ ranges over the natural numbers) tends to 
+ω
+2
+;
+{\displaystyle \omega ^{2};}
+ but, more generally, any countable limit ordinal has cofinality 
+ω
+.
+{\displaystyle \omega .}
+  An uncountable limit ordinal may have either cofinality 
+ω
+{\displaystyle \omega }
+ as does 
+ω
+ω
+{\displaystyle \omega _{\omega }}
+ or an uncountable cofinality.
+The cofinality of 0 is 0. The cofinality of any successor ordinal is 1.  The cofinality of any nonzero limit ordinal is an infinite regular cardinal.
+A regular ordinal is an ordinal that is equal to its cofinality. A singular ordinal is any ordinal that is not regular.
+Every regular ordinal is the initial ordinal of a cardinal.  Any limit of regular ordinals is a limit of initial ordinals and thus is also initial but need not be regular. Assuming the axiom of choice, 
+ω
+α
++
+1
+{\displaystyle \omega _{\alpha +1}}
+ is regular for each 
+α
+.
+{\displaystyle \alpha .}
+  In this case, the ordinals 
+0
+,
+1
+,
+ω
+,
+ω
+1
+,
+{\displaystyle 0,1,\omega ,\omega _{1},}
+ and 
+ω
+2
+{\displaystyle \omega _{2}}
+ are regular, whereas 
+2
+,
+3
+,
+ω
+ω
+,
+{\displaystyle 2,3,\omega _{\omega },}
+ and 
+ω
+ω
+⋅
+2
+{\displaystyle \omega _{\omega \cdot 2}}
+ are initial ordinals that are not regular.
+The cofinality of any ordinal 
+α
+{\displaystyle \alpha }
+ is a regular ordinal, that is, the cofinality of the cofinality of 
+α
+{\displaystyle \alpha }
+ is the same as the cofinality of 
+α
+.
+{\displaystyle \alpha .}
+  So the cofinality operation is idempotent.
+If 
+κ
+{\displaystyle \kappa }
+ is an infinite cardinal number, then 
+cf
+⁡
+(
+κ
+)
+{\displaystyle \operatorname {cf} (\kappa )}
+ is the least cardinal such that there is an unbounded function from 
+cf
+⁡
+(
+κ
+)
+{\displaystyle \operatorname {cf} (\kappa )}
+ to 
+κ
+;
+{\displaystyle \kappa ;}
+cf
+⁡
+(
+κ
+)
+{\displaystyle \operatorname {cf} (\kappa )}
+ is also the cardinality of the smallest set of strictly smaller cardinals whose sum is 
+κ
+;
+{\displaystyle \kappa ;}
+ more precisely
+c
+f
+(
+κ
+)
+=
+min
+{
+|
+I
+|
+ 
+:
+ 
+κ
+=
+∑
+i
+∈
+I
+λ
+i
+ 
+∧
+ 
+ for all such 
+i
+λ
+i
+<
+κ
+}
+{\displaystyle \mathrm {cf} (\kappa )=\min \left\{|I|\ :\ \kappa =\sum _{i\in I}\lambda _{i}\ \land \ {\text{ for all such }}i\,\lambda _{i}<\kappa \right\}}
+That the set above is nonempty comes from the fact that
+κ
+=
+⋃
+i
+∈
+κ
+{
+i
+}
+{\displaystyle \kappa =\bigcup _{i\in \kappa }\{i\}}
+that is, the disjoint union of 
+κ
+{\displaystyle \kappa }
+ singleton sets. This implies immediately that 
+cf
+⁡
+(
+κ
+)
+≤
+κ
+.
+{\displaystyle \operatorname {cf} (\kappa )\leq \kappa .}
+The cofinality of any totally ordered set is regular, so 
+cf
+⁡
+(
+κ
+)
+=
+cf
+⁡
+(
+cf
+⁡
+(
+κ
+)
+)
+.
+{\displaystyle \operatorname {cf} (\kappa )=\operatorname {cf} (\operatorname {cf} (\kappa )).}
+Using König's theorem, one can prove 
+κ
+<
+κ
+cf
+⁡
+(
+κ
+)
+{\displaystyle \kappa <\kappa ^{\operatorname {cf} (\kappa )}}
+ and 
+κ
+<
+cf
+⁡
+(
+2
+κ
+)
+{\displaystyle \kappa <\operatorname {cf} \left(2^{\kappa }\right)}
+ for any infinite cardinal 
+κ
+.
+{\displaystyle \kappa .}
+The last inequality implies that the cofinality of the cardinality of the continuum must be uncountable. On the other hand,
+ℵ
+ω
+=
+⋃
+n
+<
+ω
+ℵ
+n
+.
+{\displaystyle \aleph _{\omega }=\bigcup _{n<\omega }\aleph _{n}.}
+The ordinal number ω being the first infinite ordinal, so that the cofinality of 
+ℵ
+ω
+{\displaystyle \aleph _{\omega }}
+ is card(ω) = 
+ℵ
+0
+.
+{\displaystyle \aleph _{0}.}
+  (In particular, 
+ℵ
+ω
+{\displaystyle \aleph _{\omega }}
+ is singular.) Therefore,
+2
+ℵ
+0
+≠
+ℵ
+ω
+.
+{\displaystyle 2^{\aleph _{0}}\neq \aleph _{\omega }.}
+(Compare to the continuum hypothesis, which states 
+2
+ℵ
+0
+=
+ℵ
+1
+.
+{\displaystyle 2^{\aleph _{0}}=\aleph _{1}.}
+)
+Generalizing this argument, one can prove that for a limit ordinal 
+δ
+{\displaystyle \delta }
+c
+f
+(
+ℵ
+δ
+)
+=
+c
+f
+(
+δ
+)
+.
+{\displaystyle \mathrm {cf} (\aleph _{\delta })=\mathrm {cf} (\delta ).}
+On the other hand, if the axiom of choice holds, then for a successor or zero ordinal 
+δ
+{\displaystyle \delta }
+c
+f
+(
+ℵ
+δ
+)
+=
+ℵ
+δ
+.
+{\displaystyle \mathrm {cf} (\aleph _{\delta })=\aleph _{\delta }.}

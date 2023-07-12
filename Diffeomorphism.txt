@@ -1,0 +1,1822 @@
+8564,
+Diffeomorphism,
+In mathematics, a diffeomorphism is an isomorphism of smooth manifolds. It is an invertible function that maps one differentiable manifold to another such that both the function and its inverse are differentiable.
+Given two manifolds 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ and 
+
+
+
+N
+
+
+{\displaystyle N}
+
+, a differentiable map 
+
+
+
+f
+:
+M
+→
+N
+
+
+{\displaystyle f\colon M\rightarrow N}
+
+ is called a diffeomorphism if it is a bijection and its inverse 
+
+
+
+
+f
+
+−
+1
+
+
+:
+N
+→
+M
+
+
+{\displaystyle f^{-1}\colon N\rightarrow M}
+
+ is differentiable as well. If these functions are 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ times continuously differentiable, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+  is called a 
+
+
+
+
+C
+
+r
+
+
+
+
+{\displaystyle C^{r}}
+
+-diffeomorphism.
+Two manifolds 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ and 
+
+
+
+N
+
+
+{\displaystyle N}
+
+  are diffeomorphic (usually denoted 
+
+
+
+M
+≃
+N
+
+
+{\displaystyle M\simeq N}
+
+) if there is a diffeomorphism 
+
+
+
+f
+
+
+{\displaystyle f}
+
+  from 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ to 
+
+
+
+N
+
+
+{\displaystyle N}
+
+. They are 
+
+
+
+
+C
+
+r
+
+
+
+
+{\displaystyle C^{r}}
+
+-diffeomorphic if there is an 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ times continuously differentiable bijective map between them whose inverse is also 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ times continuously differentiable.
+Given a subset 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ of a manifold 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ and a subset 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ of a manifold 
+
+
+
+N
+
+
+{\displaystyle N}
+
+, a function 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f:X\to Y}
+
+ is said to be smooth if for all 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ there is a neighborhood 
+
+
+
+U
+⊂
+M
+
+
+{\displaystyle U\subset M}
+
+ of 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ and a smooth function 
+
+
+
+g
+:
+U
+→
+N
+
+
+{\displaystyle g:U\to N}
+
+ such that the restrictions agree: 
+
+
+
+
+g
+
+
+|
+
+U
+∩
+X
+
+
+=
+
+f
+
+
+|
+
+U
+∩
+X
+
+
+
+
+{\displaystyle g_{|U\cap X}=f_{|U\cap X}}
+
+ (note that 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ is an extension of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+). The function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is said to be a diffeomorphism if it is bijective, smooth and its inverse is smooth.
+If 
+
+
+
+U
+
+
+{\displaystyle U}
+
+, 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ are connected open subsets of 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ such that 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is simply connected, a differentiable map 
+
+
+
+f
+:
+U
+→
+V
+
+
+{\displaystyle f:U\to V}
+
+ is a diffeomorphism if it is proper and if the differential 
+
+
+
+D
+
+f
+
+x
+
+
+:
+
+
+R
+
+
+n
+
+
+→
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle Df_{x}:\mathbb {R} ^{n}\to \mathbb {R} ^{n}}
+
+ is bijective (and hence a linear isomorphism) at each point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in 
+
+
+
+U
+
+
+{\displaystyle U}
+
+.
+It is essential for 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ to be simply connected for the function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ to be globally invertible (under the sole condition that its derivative be a bijective map at each point). For example, consider the "realification" of the complex square function 
+Then 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is surjective and it satisfies 
+Thus, though 
+
+
+
+D
+
+f
+
+x
+
+
+
+
+{\displaystyle Df_{x}}
+
+ is bijective at each point, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is not invertible because it fails to be injective (e.g. 
+
+
+
+f
+(
+1
+,
+0
+)
+=
+(
+1
+,
+0
+)
+=
+f
+(
+−
+1
+,
+0
+)
+
+
+{\displaystyle f(1,0)=(1,0)=f(-1,0)}
+
+).
+Since the differential at a point (for a differentiable function) 
+is a linear map, it has a well-defined inverse if and only if 
+
+
+
+D
+
+f
+
+x
+
+
+
+
+{\displaystyle Df_{x}}
+
+ is a bijection. The matrix representation of 
+
+
+
+D
+
+f
+
+x
+
+
+
+
+{\displaystyle Df_{x}}
+
+ is the 
+
+
+
+n
+×
+n
+
+
+{\displaystyle n\times n}
+
+ matrix of first-order partial derivatives whose entry in the 
+
+
+
+i
+
+
+{\displaystyle i}
+
+-th row and 
+
+
+
+j
+
+
+{\displaystyle j}
+
+-th column is 
+
+
+
+∂
+
+f
+
+i
+
+
+
+/
+
+∂
+
+x
+
+j
+
+
+
+
+{\displaystyle \partial f_{i}/\partial x_{j}}
+
+. This so-called Jacobian matrix is often used for explicit computations.
+Diffeomorphisms are necessarily between manifolds of the same dimension. Imagine 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ going from dimension 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ to dimension 
+
+
+
+k
+
+
+{\displaystyle k}
+
+. If 
+
+
+
+n
+<
+k
+
+
+{\displaystyle n<k}
+
+ then 
+
+
+
+D
+
+f
+
+x
+
+
+
+
+{\displaystyle Df_{x}}
+
+ could never be surjective, and if 
+
+
+
+n
+>
+k
+
+
+{\displaystyle n>k}
+
+ then 
+
+
+
+D
+
+f
+
+x
+
+
+
+
+{\displaystyle Df_{x}}
+
+ could never be injective. In both cases, therefore, 
+
+
+
+D
+
+f
+
+x
+
+
+
+
+{\displaystyle Df_{x}}
+
+ fails to be a bijection.
+If 
+
+
+
+D
+
+f
+
+x
+
+
+
+
+{\displaystyle Df_{x}}
+
+ is a bijection at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ then 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is said to be a local diffeomorphism (since, by continuity, 
+
+
+
+D
+
+f
+
+y
+
+
+
+
+{\displaystyle Df_{y}}
+
+ will also be bijective for all 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ sufficiently close to 
+
+
+
+x
+
+
+{\displaystyle x}
+
+).
+Given a smooth map from dimension 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ to dimension 
+
+
+
+k
+
+
+{\displaystyle k}
+
+, if 
+
+
+
+D
+f
+
+
+{\displaystyle Df}
+
+ (or, locally, 
+
+
+
+D
+
+f
+
+x
+
+
+
+
+{\displaystyle Df_{x}}
+
+) is surjective, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is said to be a submersion (or, locally, a "local submersion"); and if 
+
+
+
+D
+f
+
+
+{\displaystyle Df}
+
+ (or, locally, 
+
+
+
+D
+
+f
+
+x
+
+
+
+
+{\displaystyle Df_{x}}
+
+) is injective, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is said to be an immersion (or, locally, a "local immersion").
+A differentiable bijection is not necessarily a diffeomorphism. 
+
+
+
+f
+(
+x
+)
+=
+
+x
+
+3
+
+
+
+
+{\displaystyle f(x)=x^{3}}
+
+, for example, is not a diffeomorphism from 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ to itself because its derivative vanishes at 0 (and hence its inverse is not differentiable at 0). This is an example of a homeomorphism that is not a diffeomorphism.
+When 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is a map between differentiable manifolds, a diffeomorphic 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is a stronger condition than a homeomorphic 
+
+
+
+f
+
+
+{\displaystyle f}
+
+. For a diffeomorphism, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ and its inverse need to be differentiable; for a homeomorphism, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ and its inverse need only be continuous. Every diffeomorphism is a homeomorphism, but not every homeomorphism is a diffeomorphism.
+
+
+
+
+f
+:
+M
+→
+N
+
+
+{\displaystyle f:M\to N}
+
+ is called a diffeomorphism if, in coordinate charts, it satisfies the definition above. More precisely: Pick any cover of 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ by compatible coordinate charts and do the same for 
+
+
+
+N
+
+
+{\displaystyle N}
+
+. Let 
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+
+ and 
+
+
+
+ψ
+
+
+{\displaystyle \psi }
+
+ be charts on, respectively, 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ and 
+
+
+
+N
+
+
+{\displaystyle N}
+
+, with 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ and 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ as, respectively, the images of 
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+
+ and 
+
+
+
+ψ
+
+
+{\displaystyle \psi }
+
+. The map 
+
+
+
+ψ
+f
+
+ϕ
+
+−
+1
+
+
+:
+U
+→
+V
+
+
+{\displaystyle \psi f\phi ^{-1}:U\to V}
+
+ is then a diffeomorphism as in the definition above, whenever 
+
+
+
+f
+(
+
+ϕ
+
+−
+1
+
+
+(
+U
+)
+)
+⊆
+
+ψ
+
+−
+1
+
+
+(
+V
+)
+
+
+{\displaystyle f(\phi ^{-1}(U))\subseteq \psi ^{-1}(V)}
+
+.
+Since any manifold can be locally parametrised, we can consider some explicit maps from 
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} ^{2}}
+
+ into 
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} ^{2}}
+
+.
+In mechanics, a stress-induced transformation is called a deformation and may be described by a diffeomorphism.
+A diffeomorphism 
+
+
+
+f
+:
+U
+→
+V
+
+
+{\displaystyle f:U\to V}
+
+ between two surfaces 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ and 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ has a Jacobian matrix 
+
+
+
+D
+f
+
+
+{\displaystyle Df}
+
+ that is an invertible matrix. In fact, it is required that for 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ in 
+
+
+
+U
+
+
+{\displaystyle U}
+
+, there is a neighborhood of 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ in which the Jacobian 
+
+
+
+D
+f
+
+
+{\displaystyle Df}
+
+ stays non-singular. Suppose that in a chart of the surface, 
+
+
+
+f
+(
+x
+,
+y
+)
+=
+(
+u
+,
+v
+)
+.
+
+
+{\displaystyle f(x,y)=(u,v).}
+
+
+The total differential of u is
+Then the image 
+
+
+
+(
+d
+u
+,
+d
+v
+)
+=
+(
+d
+x
+,
+d
+y
+)
+D
+f
+
+
+{\displaystyle (du,dv)=(dx,dy)Df}
+
+ is a linear transformation, fixing the origin, and expressible as the action of a complex number of a particular type. When (dx, dy) is also interpreted as that type of complex number, the action is of complex multiplication in the appropriate complex number plane. As such, there is a type of angle (Euclidean, hyperbolic, or slope) that is preserved in such a multiplication. Due to Df being invertible, the type of complex number is uniform over the surface. Consequently, a surface deformation or diffeomorphism of surfaces has the conformal property of preserving (the appropriate type of) angles.
+Let 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ be a differentiable manifold that is second-countable and Hausdorff. The diffeomorphism group of 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ is the group of all 
+
+
+
+
+C
+
+r
+
+
+
+
+{\displaystyle C^{r}}
+
+ diffeomorphisms of 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ to itself, denoted by 
+
+
+
+
+
+Diff
+
+
+r
+
+
+(
+M
+)
+
+
+{\displaystyle {\text{Diff}}^{r}(M)}
+
+ or, when 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ is understood, 
+
+
+
+
+Diff
+
+(
+M
+)
+
+
+{\displaystyle {\text{Diff}}(M)}
+
+. This is a "large" group, in the sense that—provided 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ is not zero-dimensional—it is not locally compact.
+The diffeomorphism group has two natural topologies: weak and strong (Hirsch 1997). When the manifold is compact, these two topologies agree.  The weak topology is always metrizable.  When the manifold is not compact, the strong topology captures the behavior of functions "at infinity" and is not metrizable.  It is, however, still Baire.
+Fixing a Riemannian metric on 
+
+
+
+M
+
+
+{\displaystyle M}
+
+, the weak topology is the topology induced by the family of metrics
+as 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ varies over compact subsets of 
+
+
+
+M
+
+
+{\displaystyle M}
+
+.  Indeed, since 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ is 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+-compact, there is a sequence of compact subsets 
+
+
+
+
+K
+
+n
+
+
+
+
+{\displaystyle K_{n}}
+
+ whose union is 
+
+
+
+M
+
+
+{\displaystyle M}
+
+.  Then:
+The diffeomorphism group equipped with its weak topology is locally homeomorphic to the space of 
+
+
+
+
+C
+
+r
+
+
+
+
+{\displaystyle C^{r}}
+
+ vector fields (Leslie 1967). Over a compact subset of 
+
+
+
+M
+
+
+{\displaystyle M}
+
+, this follows by fixing a Riemannian metric on 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ and using the exponential map for that metric. If 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ is finite and the manifold is compact, the space of vector fields is a Banach space. Moreover, the transition maps from one chart of this atlas to another are smooth, making the diffeomorphism group into a Banach manifold with smooth right translations; left translations and inversion are only continuous. If 
+
+
+
+r
+=
+∞
+
+
+{\displaystyle r=\infty }
+
+,  the space of vector fields is a Fréchet space. Moreover, the transition maps are smooth, making the diffeomorphism group into a Fréchet manifold and even into a regular Fréchet Lie group. If the manifold is 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+-compact and not compact the full diffeomorphism group is not locally contractible for any of the two topologies. One has to restrict the group by controlling the deviation from the identity near infinity to obtain a diffeomorphism group which is a manifold; see (Michor & Mumford 2013).
+The Lie algebra of the diffeomorphism group of 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ consists of all vector fields on 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ equipped with the Lie bracket of vector fields.  Somewhat formally, this is seen by making a small change to the coordinate 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ at each point in space:
+so the infinitesimal generators are the vector fields
+For a connected manifold 
+
+
+
+M
+
+
+{\displaystyle M}
+
+, the diffeomorphism group acts transitively on 
+
+
+
+M
+
+
+{\displaystyle M}
+
+. More generally, the diffeomorphism group acts transitively on the configuration space 
+
+
+
+
+C
+
+k
+
+
+M
+
+
+{\displaystyle C_{k}M}
+
+.  If 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ is at least two-dimensional, the diffeomorphism group acts transitively on the configuration space 
+
+
+
+
+F
+
+k
+
+
+M
+
+
+{\displaystyle F_{k}M}
+
+ and the action on 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ is multiply transitive (Banyaga 1997, p. 29).
+In 1926, Tibor Radó asked whether the harmonic extension of any homeomorphism or diffeomorphism of the unit circle to the unit disc yields a diffeomorphism on the open disc. An elegant proof was provided shortly afterwards by Hellmuth Kneser. In 1945, Gustave Choquet, apparently unaware of this result, produced a completely different proof.
+The (orientation-preserving) diffeomorphism group of the circle is pathwise connected. This can be seen by noting that any such diffeomorphism can be lifted to a diffeomorphism 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ of the reals satisfying 
+
+
+
+[
+f
+(
+x
++
+1
+)
+=
+f
+(
+x
+)
++
+1
+]
+
+
+{\displaystyle [f(x+1)=f(x)+1]}
+
+; this space is convex and hence path-connected. A smooth, eventually constant path to the identity gives a second more elementary way of extending a diffeomorphism from the circle to the open unit disc (a special case of the Alexander trick). Moreover, the diffeomorphism group of the circle has the homotopy-type of the orthogonal group 
+
+
+
+O
+(
+2
+)
+
+
+{\displaystyle O(2)}
+
+.
+The corresponding extension problem for diffeomorphisms of higher-dimensional spheres 
+
+
+
+
+S
+
+n
+−
+1
+
+
+
+
+{\displaystyle S^{n-1}}
+
+ was much studied in the 1950s and 1960s, with notable contributions from René Thom, John Milnor and Stephen Smale. An obstruction to such extensions is given by the finite abelian group 
+
+
+
+
+Γ
+
+n
+
+
+
+
+{\displaystyle \Gamma _{n}}
+
+, the "group of twisted spheres", defined as the quotient of the abelian component group of the diffeomorphism group by the subgroup of classes extending to diffeomorphisms of the ball 
+
+
+
+
+B
+
+n
+
+
+
+
+{\displaystyle B^{n}}
+
+.
+For manifolds, the diffeomorphism group is usually not connected. Its component group is called the mapping class group. In dimension 2 (i.e. surfaces), the mapping class group is a finitely presented group generated by Dehn twists (Dehn, Lickorish, Hatcher).[citation needed] Max Dehn and Jakob Nielsen showed that it can be identified with the outer automorphism group of the fundamental group of the surface.
+William Thurston refined this analysis by classifying elements of the mapping class group into three types: those equivalent to a periodic diffeomorphism; those equivalent to a diffeomorphism leaving a simple closed curve invariant; and those equivalent to pseudo-Anosov diffeomorphisms. In the case of the torus 
+
+
+
+
+S
+
+1
+
+
+×
+
+S
+
+1
+
+
+=
+
+
+R
+
+
+2
+
+
+
+/
+
+
+
+Z
+
+
+2
+
+
+
+
+{\displaystyle S^{1}\times S^{1}=\mathbb {R} ^{2}/\mathbb {Z} ^{2}}
+
+, the mapping class group is simply the modular group 
+
+
+
+
+SL
+
+(
+2
+,
+
+Z
+
+)
+
+
+{\displaystyle {\text{SL}}(2,\mathbb {Z} )}
+
+ and the classification becomes classical in terms of elliptic, parabolic and hyperbolic matrices. Thurston accomplished his classification by observing that the mapping class group acted naturally on a compactification of Teichmüller space; as this enlarged space was homeomorphic to a closed ball, the Brouwer fixed-point theorem became applicable. Smale conjectured that if 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ is an oriented smooth closed manifold, the identity component of the group of orientation-preserving diffeomorphisms is simple. This had first been proved for a product of circles by Michel Herman; it was proved in full generality by Thurston.
+Since every diffeomorphism is a homeomorphism, given a pair of manifolds which are diffeomorphic to each other they are in particular homeomorphic to each other. The converse is not true in general. 
+While it is easy to find homeomorphisms that are not diffeomorphisms, it is more difficult to find a pair of homeomorphic manifolds that are not diffeomorphic. In dimensions 1, 2 and 3, any pair of homeomorphic smooth manifolds are diffeomorphic. In dimension 4 or greater, examples of homeomorphic but not diffeomorphic pairs exist. The first such example was constructed by John Milnor in dimension 7. He constructed a smooth 7-dimensional manifold (called now Milnor's sphere) that is homeomorphic to the standard 7-sphere but not diffeomorphic to it. There are, in fact, 28 oriented diffeomorphism classes of manifolds homeomorphic to the 7-sphere (each of them is the total space of a fiber bundle over the 4-sphere with the 3-sphere as the fiber).
+More unusual phenomena occur for 4-manifolds. In the early 1980s, a combination of results due to Simon Donaldson and Michael Freedman led to the discovery of exotic 
+
+
+
+
+
+R
+
+
+4
+
+
+
+
+{\displaystyle \mathbb {R} ^{4}}
+
+: there are uncountably many pairwise non-diffeomorphic open subsets of 
+
+
+
+
+
+R
+
+
+4
+
+
+
+
+{\displaystyle \mathbb {R} ^{4}}
+
+ each of which is homeomorphic to 
+
+
+
+
+
+R
+
+
+4
+
+
+
+
+{\displaystyle \mathbb {R} ^{4}}
+
+, and also there are uncountably many pairwise non-diffeomorphic differentiable manifolds homeomorphic to 
+
+
+
+
+
+R
+
+
+4
+
+
+
+
+{\displaystyle \mathbb {R} ^{4}}
+
+ that do not embed smoothly in 
+
+
+
+
+
+R
+
+
+4
+
+
+
+
+{\displaystyle \mathbb {R} ^{4}}
+
+.
+
+

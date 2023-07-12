@@ -1,0 +1,973 @@
+21476,
+Naturallogarithm,
+
+The natural logarithm of a number is its logarithm to the base of the mathematical constant e, which is an irrational and transcendental number approximately equal to 2.718281828459. The natural logarithm of x is generally written as ln x, loge x,  or sometimes, if the base e is implicit, simply log x.[1][2] Parentheses are sometimes added for clarity, giving ln(x), loge(x), or log(x). This is done particularly when the argument to the logarithm is not a single symbol, so as to prevent ambiguity.
+The natural logarithm of x is the power to which e would have to be raised to equal x. For example, ln 7.5 is 2.0149..., because e2.0149... = 7.5. The natural logarithm of e itself, ln e, is 1, because e1 = e, while the natural logarithm of 1 is 0, since e0 = 1.
+The natural logarithm can be defined for any positive real number a as the area under the curve y = 1/x  from 1 to a[3] (with the area being negative when 0 < a < 1). The simplicity of this definition, which is matched in many other formulas involving the natural logarithm, leads to the term "natural". The definition of the natural logarithm can then be extended to give logarithm values for negative numbers and for all non-zero complex numbers, although this leads to a multi-valued function: see complex logarithm for more.
+The natural logarithm function, if considered as a real-valued function of a positive real variable, is the inverse function of the exponential function, leading to the identities:
+Like all logarithms, the natural logarithm maps multiplication of positive numbers into addition:
+Logarithms can be defined for any positive base other than 1, not only e. However, logarithms in other bases differ only by a constant multiplier from the natural logarithm, and can be defined in terms of the latter, 
+
+
+
+
+log
+
+b
+
+
+⁡
+x
+=
+ln
+⁡
+x
+
+/
+
+ln
+⁡
+b
+=
+ln
+⁡
+x
+⋅
+
+log
+
+b
+
+
+⁡
+e
+
+
+{\displaystyle \log _{b}x=\ln x/\ln b=\ln x\cdot \log _{b}e}
+
+.
+Logarithms are useful for solving equations in which the unknown appears as the exponent of some other quantity.  For example, logarithms are used to solve for the half-life, decay constant, or unknown time in exponential decay problems.  They are important in many branches of mathematics and scientific disciplines, and are used to solve problems involving compound interest.
+The concept of the natural logarithm was worked out by Gregoire de Saint-Vincent and Alphonse Antonio de Sarasa before 1649.[5] Their work involved quadrature of the hyperbola with equation xy = 1, by determination of the area of hyperbolic sectors. Their solution generated the requisite "hyperbolic logarithm" function, which had the properties now associated with the natural logarithm.
+An early mention of the natural logarithm was by Nicholas Mercator in his work Logarithmotechnia, published in 1668,[6] although the mathematics teacher John Speidell had already compiled a table of what in fact were effectively natural logarithms in 1619.[7] It has been said that Speidell's logarithms were to the base e, but this is not entirely true due to complications with the values being expressed as integers.[7]: 152 
+The notations ln x and loge x both refer unambiguously to the natural logarithm of x, and log x without an explicit base may also refer to the natural logarithm. This usage is common in mathematics, along with some scientific contexts as well as in many programming languages.[nb 1] In some other contexts such as chemistry, however, log x can be used to denote the common (base 10) logarithm. It may also refer to the binary (base 2) logarithm in the context of computer science, particularly in the context of time complexity.
+The natural logarithm can be defined in several equivalent ways.
+The most general definition is as the inverse function of 
+
+
+
+
+e
+
+x
+
+
+
+
+{\displaystyle e^{x}}
+
+, so that 
+
+
+
+
+e
+
+ln
+⁡
+(
+x
+)
+
+
+=
+x
+
+
+{\displaystyle e^{\ln(x)}=x}
+
+. Because 
+
+
+
+
+e
+
+x
+
+
+
+
+{\displaystyle e^{x}}
+
+ is positive and invertible for any real input 
+
+
+
+x
+
+
+{\displaystyle x}
+
+, this definition of 
+
+
+
+ln
+⁡
+(
+x
+)
+
+
+{\displaystyle \ln(x)}
+
+ is well defined for any positive x. For the complex numbers, 
+
+
+
+
+e
+
+z
+
+
+
+
+{\displaystyle e^{z}}
+
+ is not invertible, so 
+
+
+
+ln
+⁡
+(
+z
+)
+
+
+{\displaystyle \ln(z)}
+
+ is a multivalued function. In order to make 
+
+
+
+ln
+⁡
+(
+z
+)
+
+
+{\displaystyle \ln(z)}
+
+ a proper, single-output function, we therefore need to restrict it to a particular principal branch, often denoted by 
+
+
+
+Ln
+⁡
+(
+z
+)
+
+
+{\displaystyle \operatorname {Ln} (z)}
+
+. As the inverse function of 
+
+
+
+
+e
+
+z
+
+
+
+
+{\displaystyle e^{z}}
+
+, 
+
+
+
+ln
+⁡
+(
+z
+)
+
+
+{\displaystyle \ln(z)}
+
+ can be defined by inverting the usual definition of 
+
+
+
+
+e
+
+z
+
+
+
+
+{\displaystyle e^{z}}
+
+:
+Doing so yields:
+This definition therefore derives its own principal branch from the principal branch of nth roots.
+The natural logarithm of a positive, real number a may be defined as the area under the graph of the hyperbola with equation y = 1/x between x = 1 and x = a.  This is the integral[3]
+If a is less than 1, then this area is considered to be negative.
+This function is a logarithm because it satisfies the fundamental multiplicative property of a logarithm:[4]
+This can be demonstrated by splitting the integral that defines ln ab into two parts, and then making the variable substitution x = at (so dx = a dt) in the second part, as follows:
+In elementary terms, this is simply scaling by 1/a in the horizontal direction and by a in the vertical direction.  Area does not change under this transformation, but the region between a and ab is reconfigured.  Because the function a/(ax) is equal to the function 1/x, the resulting area is precisely ln b.
+The number e can then be defined to be the unique real number a such that ln a = 1.
+The natural logarithm also has an improper integral representation,[8] which can be derived with Fubini's theorem as follows:
+
+
+
+
+ln
+⁡
+
+(
+x
+)
+
+=
+
+∫
+
+1
+
+
+x
+
+
+
+
+1
+u
+
+
+d
+u
+=
+
+∫
+
+1
+
+
+x
+
+
+
+∫
+
+0
+
+
+∞
+
+
+
+e
+
+−
+t
+u
+
+
+ 
+d
+t
+ 
+d
+u
+=
+
+∫
+
+0
+
+
+∞
+
+
+
+∫
+
+1
+
+
+x
+
+
+
+e
+
+−
+t
+u
+
+
+ 
+d
+u
+ 
+d
+t
+=
+
+∫
+
+0
+
+
+∞
+
+
+
+
+
+
+e
+
+−
+t
+
+
+−
+
+e
+
+−
+t
+x
+
+
+
+t
+
+
+d
+t
+
+
+{\displaystyle \ln \left(x\right)=\int _{1}^{x}{\frac {1}{u}}du=\int _{1}^{x}\int _{0}^{\infty }e^{-tu}\ dt\ du=\int _{0}^{\infty }\int _{1}^{x}e^{-tu}\ du\ dt=\int _{0}^{\infty }{\frac {e^{-t}-e^{-tx}}{t}}dt}
+
+
+The statement is true for 
+
+
+
+x
+=
+0
+
+
+{\displaystyle x=0}
+
+, and we now show that 
+
+
+
+
+
+d
+
+d
+x
+
+
+
+ln
+⁡
+
+(
+1
++
+
+x
+
+α
+
+
+)
+
+≤
+
+
+d
+
+d
+x
+
+
+
+(
+α
+x
+)
+
+
+{\displaystyle {\frac {d}{dx}}\ln {(1+x^{\alpha })}\leq {\frac {d}{dx}}(\alpha x)}
+
+ for all 
+
+
+
+x
+
+
+{\displaystyle x}
+
+, which completes the proof by the fundamental theorem of calculus. Hence, we want to show that
+(Note that we have not yet proved that this statement is true.) If this is true, then by multiplying the middle statement by the positive quantity 
+
+
+
+(
+1
++
+
+x
+
+α
+
+
+)
+
+/
+
+α
+
+
+{\displaystyle (1+x^{\alpha })/\alpha }
+
+ and subtracting 
+
+
+
+
+x
+
+α
+
+
+
+
+{\displaystyle x^{\alpha }}
+
+ we would obtain
+This statement is trivially true for 
+
+
+
+x
+≥
+1
+
+
+{\displaystyle x\geq 1}
+
+ since the left hand side is negative or zero. For 
+
+
+
+0
+≤
+x
+<
+1
+
+
+{\displaystyle 0\leq x<1}
+
+ it is still true since both factors on the left are less than 1 (recall that 
+
+
+
+α
+≥
+1
+
+
+{\displaystyle \alpha \geq 1}
+
+). Thus this last statement is true and by repeating our steps in reverse order we find that 
+
+
+
+
+
+d
+
+d
+x
+
+
+
+ln
+⁡
+
+(
+1
++
+
+x
+
+α
+
+
+)
+
+≤
+
+
+d
+
+d
+x
+
+
+
+(
+α
+x
+)
+
+
+{\displaystyle {\frac {d}{dx}}\ln {(1+x^{\alpha })}\leq {\frac {d}{dx}}(\alpha x)}
+
+ for all 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. This completes the proof.
+An alternate proof is to observe that 
+
+
+
+(
+1
++
+
+x
+
+α
+
+
+)
+≤
+(
+1
++
+x
+
+)
+
+α
+
+
+
+
+{\displaystyle (1+x^{\alpha })\leq (1+x)^{\alpha }}
+
+ under the given conditions. This can be proved, e.g., by the norm inequalities. Taking logarithms and using 
+
+
+
+ln
+⁡
+(
+1
++
+x
+)
+≤
+x
+
+
+{\displaystyle \ln(1+x)\leq x}
+
+ completes the proof.
+The derivative of the natural logarithm as a real-valued function on the positive reals is given by[3]
+How to establish this derivative of the natural logarithm depends on how it is defined firsthand.  If the natural logarithm is defined as the integral
+then the derivative immediately follows from the first part of the fundamental theorem of calculus.
+On the other hand, if the natural logarithm is defined as the inverse of the (natural) exponential function, then the derivative (for x > 0) can be found by using the properties of the logarithm and a definition of the exponential function. From the definition of the number 
+
+
+
+e
+=
+
+lim
+
+u
+→
+0
+
+
+(
+1
++
+u
+
+)
+
+1
+
+/
+
+u
+
+
+,
+
+
+{\displaystyle e=\lim _{u\to 0}(1+u)^{1/u},}
+
+ the exponential function can be defined as 
+
+
+
+
+e
+
+x
+
+
+=
+
+lim
+
+u
+→
+0
+
+
+(
+1
++
+u
+
+)
+
+x
+
+/
+
+u
+
+
+=
+
+lim
+
+h
+→
+0
+
+
+(
+1
++
+h
+x
+
+)
+
+1
+
+/
+
+h
+
+
+
+
+{\displaystyle e^{x}=\lim _{u\to 0}(1+u)^{x/u}=\lim _{h\to 0}(1+hx)^{1/h}}
+
+, where 
+
+
+
+u
+=
+h
+x
+,
+h
+=
+u
+
+/
+
+x
+.
+
+
+{\displaystyle u=hx,h=u/x.}
+
+ The derivative can then be found from first principles.
+Also, we have:
+so, unlike its inverse function 
+
+
+
+
+e
+
+a
+x
+
+
+
+
+{\displaystyle e^{ax}}
+
+, a constant in the function doesn't alter the differential.
+Since the natural logarithm is undefined at 0, 
+
+
+
+ln
+⁡
+(
+x
+)
+
+
+{\displaystyle \ln(x)}
+
+ itself does not have a Maclaurin series, unlike many other elementary functions. Instead, one looks for Taylor expansions around other points. For example, if 
+
+
+
+|
+x
+−
+1
+|
+≤
+1
+
+ and 
+
+x
+≠
+0
+,
+
+
+{\displaystyle \vert x-1\vert \leq 1{\text{ and }}x\neq 0,}
+
+ then[9]
+This is the Taylor series for ln x around 1. A change of variables yields the Mercator series:
+valid for |x| ≤ 1 and x ≠ −1.
+Leonhard Euler,[10] disregarding 
+
+
+
+x
+≠
+−
+1
+
+
+{\displaystyle x\neq -1}
+
+, nevertheless applied this series to x = −1 to show that the harmonic series equals the natural logarithm of 1/(1 − 1), that is, the logarithm of infinity. Nowadays, more formally, one can prove that the harmonic series truncated at N is close to the logarithm of N, when N is large, with the difference converging to the Euler–Mascheroni constant.
+The figure is a graph of ln(1 + x) and some of its Taylor polynomials around 0. These approximations converge to the function only in the region −1 < x ≤ 1; outside this region, the higher-degree Taylor polynomials devolve to worse approximations for the function.
+A useful special case for positive integers n, taking 
+
+
+
+x
+=
+
+
+
+1
+n
+
+
+
+
+
+{\displaystyle x={\tfrac {1}{n}}}
+
+, is:
+If 
+
+
+
+Re
+⁡
+(
+x
+)
+≥
+1
+
+/
+
+2
+,
+
+
+{\displaystyle \operatorname {Re} (x)\geq 1/2,}
+
+ then
+Now, taking  
+
+
+
+x
+=
+
+
+
+
+n
++
+1
+
+n
+
+
+
+
+
+{\displaystyle x={\tfrac {n+1}{n}}}
+
+ for positive integers n, we get:
+If 
+
+
+
+Re
+⁡
+(
+x
+)
+≥
+0
+
+ and 
+
+x
+≠
+0
+,
+
+
+{\displaystyle \operatorname {Re} (x)\geq 0{\text{ and }}x\neq 0,}
+
+ then
+Since
+we arrive at
+Using the substitution 
+
+
+
+x
+=
+
+
+
+
+n
++
+1
+
+n
+
+
+
+
+
+{\displaystyle x={\tfrac {n+1}{n}}}
+
+ again for positive integers n, we get: 
+This is, by far, the fastest converging of the series described here.
+The natural logarithm can also be expressed as an infinite product:[11]
+Two examples might be:
+From this identity, we can easily get that:
+For example:
+The natural logarithm allows simple integration of functions of the form g(x) = f '(x)/f(x): an antiderivative of g(x) is given by ln(|f(x)|).  This is the case because of the chain rule and the following fact:
+In other words, when integrating over an interval of the real line that does not include 
+
+
+
+x
+=
+0
+
+
+{\displaystyle x=0}
+
+ then
+where C is an arbitrary constant of integration.[12]
+Likewise, when the integral is over an interval where 
+
+
+
+f
+(
+x
+)
+≠
+0
+
+
+{\displaystyle f(x)\neq 0}
+
+, 
+For example, consider the integral of tan(x) over an interval that does not include points where tan(x) is infinite:
+The natural logarithm can be integrated using integration by parts:
+Let:
+then:
+For ln(x) where x > 1, the closer the value of x is to 1, the faster the rate of convergence of its Taylor series centered at 1. The identities associated with the logarithm can be leveraged to exploit this:
+Such techniques were used before calculators, by referring to numerical tables and performing manipulations such as those above.
+The natural logarithm of 10, which has the decimal expansion 2.30258509...,[13] plays a role for example in the computation of natural logarithms of numbers represented in scientific notation, as a mantissa multiplied by a power of 10:
+This means that one can effectively calculate the logarithms of numbers with very large or very small magnitude using the logarithms of a relatively small set of decimals in the range [1, 10).
+To compute the natural logarithm with many digits of precision, the Taylor series approach is not efficient since the convergence is slow. Especially if x is near 1, a good alternative is to use Halley's method or Newton's method to invert the exponential function, because the series of the exponential function converges more quickly. For finding the value of y to give exp(y) − x = 0 using Halley's method, or equivalently to give exp(y/2) − x exp(−y/2) = 0 using Newton's method, the iteration simplifies to
+which has cubic convergence to ln(x).
+Another alternative for extremely high precision calculation is the formula[14][15]
+where M denotes the arithmetic-geometric mean of 1 and 4/s, and
+with m chosen so that p bits of precision is attained. (For most purposes, the value of 8 for m is sufficient.) In fact, if this method is used, Newton inversion of the natural logarithm may conversely be used to calculate the exponential function efficiently. (The constants ln 2 and π can be pre-computed to the desired precision using any of several known quickly converging series.) Or, the following formula can be used:
+where
+are the Jacobi theta functions.[16]
+Based on a proposal by William Kahan and first implemented in the Hewlett-Packard HP-41C calculator in 1979 (referred to under "LN1" in the display, only), some calculators, operating systems (for example Berkeley UNIX 4.3BSD[17]), computer algebra systems and programming languages (for example C99[18]) provide a special natural logarithm plus 1 function, alternatively named LNP1,[19][20] or log1p[18] to give more accurate results for logarithms close to zero by passing arguments x, also close to zero, to a function log1p(x), which returns the value ln(1+x), instead of passing a value y close to 1 to a function returning ln(y).[18][19][20] The function log1p avoids in the floating point arithmetic a near cancelling of the absolute term 1 with the second term from the Taylor expansion of the ln. This keeps the argument, the result, and intermediate steps all close to zero where they can be most accurately represented as floating-point numbers.[19][20]
+In addition to base e the IEEE 754-2008 standard defines similar logarithmic functions near 1 for binary and decimal logarithms: log2(1 + x) and log10(1 + x).
+Similar inverse functions named "expm1",[18] "expm"[19][20] or "exp1m" exist as well, all with the meaning of expm1(x) = exp(x) − 1.[nb 2]
+An identity in terms of the inverse hyperbolic tangent,
+gives a high precision value for small values of x on systems that do not implement log1p(x).
+The computational complexity of computing the natural logarithm using the arithmetic-geometric mean (for both of the above methods) is O(M(n) ln n). Here n is the number of digits of precision at which the natural logarithm is to be evaluated and M(n) is the computational complexity of multiplying two n-digit numbers.
+While no simple continued fractions are available, several generalized continued fractions are, including:
+These continued fractions—particularly the last—converge rapidly for values close to 1. However, the natural logarithms of much larger numbers can easily be computed, by repeatedly adding those of smaller numbers, with similarly rapid convergence.
+For example, since 2 = 1.253 × 1.024, the natural logarithm of 2 can be computed as:
+Furthermore, since 10 = 1.2510 × 1.0243, even the natural logarithm of 10 can be computed similarly as:
+The reciprocal of the natural logarithm can be also written in this way:
+For example:
+The exponential function can be extended to a function which gives a complex number as ez for any arbitrary complex number z; simply use the infinite series with x=z complex. This exponential function can be inverted to form a complex logarithm that exhibits most of the properties of the ordinary logarithm. There are two difficulties involved: no x has ex = 0; and it turns out that e2iπ = 1 = e0. Since the multiplicative property still works for the complex exponential function, ez = ez+2kiπ, for all complex z and integers k.
+So the logarithm cannot be defined for the whole complex plane, and even then it is multi-valued—any complex logarithm can be changed into an "equivalent" logarithm by adding any integer multiple of 2iπ at will. The complex logarithm can only be single-valued on the cut plane.  For example, ln i = iπ/2 or 5iπ/2 or -3iπ/2, etc.; and although i4 = 1, 4 ln i can be defined as 2iπ, or 10iπ or −6iπ, and so on.
+z = Re(ln(x + yi))
+z = |(Im(ln(x + yi)))|
+z = |(ln(x + yi))|
+Superposition of the previous three graphs
+
+
+
+Information box
+{'General definition': '', 'Motivation of invention': 'Analytic proofs', 'Fields of application': 'Pure and applied mathematics', 'Domain': '', 'Codomain': '', 'Image': '', 'Value at +∞': '+∞', 'Value at e': '1', 'Asymptote': '', 'Root': '1', 'Inverse': '', 'Derivative': '', 'Antiderivative': ''}

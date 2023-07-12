@@ -1,0 +1,553 @@
+28743,
+Sliderule,
+The slide rule (also known colloquially in the United States as a slipstick[1][2]) is a mechanical analog computer[3][4] which is used primarily for multiplication and division and for functions such as exponents, roots, logarithms, and trigonometry. It is not typically designed for addition or subtraction, which is usually performed using other methods, like using an abacus. Maximum accuracy for standard linear slide rules is about three decimal significant digits, while scientific notation is used to keep track of the order of magnitude of results.
+Slide rules exist in a diverse range of styles and generally appear in a linear, circular or cylindrical form, with slide rule scales inscribed with standardized graduated markings. Slide rules manufactured for specialized fields such as aviation or finance typically feature additional scales that aid in specialized calculations particular to those fields. The slide rule is closely related to nomograms used for application-specific computations. Though similar in name and appearance to a standard ruler, the slide rule is not meant to be used for measuring length or drawing straight lines.
+At its simplest, each number to be multiplied is represented by a length on a pair of parallel rulers that can slide past each other. As the rulers each have a logarithmic scale, it is possible to align them to read the sum of the numbers' logarithms, which according to the law of the logarithm of a product equals the product of the two numbers.
+English mathematician and clergyman Reverend William Oughtred and others developed the slide rule in the 17th century based on the emerging work on logarithms by John Napier. Before the advent of the scientific pocket calculator, it was the most commonly used calculation tool in science and engineering.[5] The slide rule's ease of use, ready availability, and low cost caused its use to continue to grow through the 1950s and 1960s, even as electronic computers were being gradually introduced. The introduction of the handheld electronic scientific calculator circa 1974 made slide rules largely obsolete, and most suppliers departed the business.
+In its most basic form, the slide rule uses two logarithmic scales to perform rapid multiplication and division of numbers. These common operations can be time-consuming and error-prone when done on paper. More elaborate slide rules can perform other calculations, such as square roots, exponentials, logarithms, and trigonometric functions.
+Scales may be grouped in decades, which are numbers ranging from 1 to 10 (i.e. 10n to 10n+1). Thus single-decade scales C and D range from 1 to 10 across the entire length of the slide rule, while double-decade scales A and B range from 1 to 100 over the length of the slide rule.
+In general, mathematical calculations are performed by aligning a mark on the sliding central strip with a mark on one of the fixed strips, and then observing the relative positions of other marks on the strips. Numbers aligned with the marks give the approximate value of the product, quotient, or other calculated result.
+The user determines the location of the decimal point in the result, based on mental estimation. Scientific notation is used to track the decimal point in more formal calculations. Addition and subtraction steps in a calculation are generally done mentally or on paper, not on the slide rule.
+Most slide rules consist of three parts:
+Some slide rules ("duplex" models) have scales on both sides of the rule and slide strip, others on one side of the outer strips and both sides of the slide strip (which can usually be pulled out, flipped over and reinserted for convenience), still others on one side only ("simplex" rules). A sliding cursor with a vertical alignment line is used to find corresponding points on scales that are not adjacent to each other or, in duplex models, are on the other side of the rule. The cursor can also record an intermediate result on any of the scales.
+
+
+A logarithm transforms the operations of multiplication and division to addition and subtraction according to the rules 
+
+
+
+log
+⁡
+(
+x
+y
+)
+=
+log
+⁡
+(
+x
+)
++
+log
+⁡
+(
+y
+)
+
+
+{\displaystyle \log(xy)=\log(x)+\log(y)}
+
+ and 
+
+
+
+log
+⁡
+(
+x
+
+/
+
+y
+)
+=
+log
+⁡
+(
+x
+)
+−
+log
+⁡
+(
+y
+)
+
+
+{\displaystyle \log(x/y)=\log(x)-\log(y)}
+
+.
+Moving the top scale to the right by a distance of 
+
+
+
+log
+⁡
+(
+x
+)
+
+
+{\displaystyle \log(x)}
+
+, by matching the beginning of the top scale with the label 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ on the bottom, aligns each number 
+
+
+
+y
+
+
+{\displaystyle y}
+
+, at position 
+
+
+
+log
+⁡
+(
+y
+)
+
+
+{\displaystyle \log(y)}
+
+ on the top scale, with the number at position 
+
+
+
+log
+⁡
+(
+x
+)
++
+log
+⁡
+(
+y
+)
+
+
+{\displaystyle \log(x)+\log(y)}
+
+ on the bottom scale. Because 
+
+
+
+log
+⁡
+(
+x
+)
++
+log
+⁡
+(
+y
+)
+=
+log
+⁡
+(
+x
+y
+)
+
+
+{\displaystyle \log(x)+\log(y)=\log(xy)}
+
+, this position on the bottom scale gives 
+
+
+
+x
+y
+
+
+{\displaystyle xy}
+
+, the product of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+. 
+
+To multiply 3×2, the 1 on the top scale is moved to the 2 on the bottom scale. The answer, 6, is read off the bottom scale where 3 is on the top scale. 
+To multiply 7×2, the 1 on the top scale is moved to the 2 on the bottom scale. The answer, 14, is read off the bottom scale where 7 is on the top scale. Since the 7 is above the second set of numbers the result must be multiplied by 10. Thus, even though the answer directly reads 1.4, the correct answer is 1.4×10 = 14.
+To multiply 88×20, the 1 on the top scale is moved to the 2 on the bottom scale. Since 2 represents 20 all numbers in that scale are multiplied by 10, thus any answer in the second set of numbers is multiplied by 100. Since 8.8 in the top scale represents 88, the answer must additionally be multiplied by 10. The answer answer directly reads 1.76. Multiply by 100 and then by 10 to get the actual answer: 1,760.
+In general, the 1 on the top is moved to a factor on the bottom, and the answer is read off the bottom where the other factor is on the top. This works because the distances from the "1" are proportional to the logarithms of the marked values.
+The illustration below demonstrates the computation of 5.5/2. The 2 on the top scale is placed over the 5.5 on the bottom scale. The 1 on the top scale lies above the quotient, 2.75. There is more than one method for doing division, and the method presented here has the advantage that the final result cannot be off-scale, because one has a choice of using the 1 at either end.
+
+With more complex calculations involving multiple factors in the numerator and denominator of an expression, movement of the scales can be minimized by alternating divisions and multiplications.  Thus (5.5×3)/2 would be computed as (5.5/2)×3 and the result, 8.25, can be read beneath the 3 in the top scale in the figure above, without the need to register the intermediate result for 5.5/2.
+In addition to the logarithmic scales, some slide rules have other mathematical functions encoded on other auxiliary scales. The most popular are trigonometric, usually sine and tangent, common logarithm (log10) (for taking the log of a value on a multiplier scale), natural logarithm (ln) and exponential (ex) scales. Some rules include a Pythagorean ("P") scale to solve triangles. Others feature scales for calculating hyperbolic functions. On linear rules, the scales and their labeling are highly standardized, with variation usually occurring only in terms of which scales are included and in what order:[6]
+The Binary Slide Rule manufactured by Gilson in 1931 performed an addition and subtraction function limited to fractions.[7]
+There are single-decade (C and D), double-decade (A and B), and triple-decade (K) scales. To compute 
+
+
+
+
+x
+
+2
+
+
+
+
+{\displaystyle x^{2}}
+
+, for example, locate x on the D scale and read its square on the A scale. Inverting this process allows square roots to be found, and similarly for the powers 3, 1/3, 2/3, and 3/2. Care must be taken when the base, x, is found in more than one place on its scale. For instance, there are two nines on the A scale; to find the square root of nine, use the first one; the second one gives the square root of 90.
+For 
+
+
+
+
+x
+
+y
+
+
+
+
+{\displaystyle x^{y}}
+
+ problems, use the LL scales. When several LL scales are present, use the one with x on it. First, align the leftmost 1 on the C scale with x on the LL scale. Then, find y on the C scale and go down to the LL scale with x on it. That scale will indicate the answer. If y is "off the scale," locate 
+
+
+
+
+x
+
+y
+
+/
+
+2
+
+
+
+
+{\displaystyle x^{y/2}}
+
+ and square it using the A and B scales as described above. Alternatively, use the rightmost 1 on the C scale, and read the answer off the next higher LL scale. For example, aligning the rightmost 1 on the C scale with 2 on the LL2 scale, 3 on the C scale lines up with 8 on the LL3 scale.
+To extract a cube root using a slide rule with only C/D and A/B scales, align 1 on the B cursor with the base number on the A scale (taking care as always to distinguish between the lower and upper halves of the A scale). Slide the slide until the number on the D scale which is against 1 on the C cursor is the same as the number on the B cursor which is against the base number on the A scale. (Examples: A 8, B 2, C 1, D 2; A 27, B 3, C 1, D 3.)
+Quadratic equations of the form 
+
+
+
+a
+
+x
+
+2
+
+
++
+b
+x
++
+c
+=
+0
+
+
+{\displaystyle ax^{2}+bx+c=0}
+
+ can be solved by first reducing the equation to the form 
+
+
+
+
+x
+
+2
+
+
+−
+p
+x
++
+q
+=
+0
+
+
+{\displaystyle x^{2}-px+q=0}
+
+ (where 
+
+
+
+p
+=
+−
+b
+
+/
+
+a
+
+
+{\displaystyle p=-b/a}
+
+ and 
+
+
+
+q
+=
+c
+
+/
+
+a
+
+
+{\displaystyle q=c/a}
+
+), and then aligning the index ("1") of the C scale to the value 
+
+
+
+q
+
+
+{\displaystyle q}
+
+ on the D scale. The cursor is then moved along the rule until a position is found where the numbers on the CI and D scales add up to 
+
+
+
+p
+
+
+{\displaystyle p}
+
+. These two values are the roots of the equation.
+The S, T, and ST scales are used for trig functions and multiples of trig functions, for angles in degrees.
+For angles from around 5.7 up to 90 degrees, sines are found by comparing the S scale with C (or D) scale. (On many closed-body rules the S scale relates to the A and B scales instead and covers angles from around 0.57 up to 90 degrees; what follows must be adjusted appropriately.) The S scale has a second set of angles (sometimes in a different color), which run in the opposite direction, and are used for cosines. Tangents are found by comparing the T scale with the C (or D) scale for angles less than 45 degrees. For angles greater than 45 degrees the CI scale is used. Common forms such as 
+
+
+
+k
+sin
+⁡
+x
+
+
+{\displaystyle k\sin x}
+
+ can be read directly from x on the S scale to the result on the D scale, when the C-scale index is set at k. For angles below 5.7 degrees, sines, tangents, and radians are approximately equal, and are found on the ST or SRT (sines, radians, and tangents) scale, or simply divided by 57.3 degrees/radian. Inverse trigonometric functions are found by reversing the process.
+Many slide rules have S, T, and ST scales marked with degrees and minutes (e.g. some Keuffel and Esser models (Doric duplex 5" models, for example), late-model Teledyne-Post Mannheim-type rules). So-called decitrig models use decimal fractions of degrees instead.
+Base-10 logarithms and exponentials are found using the L scale, which is linear. Some slide rules have a Ln scale, which is for base e. Logarithms to any other base can be calculated by reversing the procedure for calculating powers of a number. For example, log2 values can be determined by lining up either leftmost or rightmost 1 on the C scale with 2 on the LL2 scale, finding the number whose logarithm is to be calculated on the corresponding LL scale, and reading the log2 value on the C scale.
+Slide rules are not typically used for addition and subtraction. It is possible to do so using two different techniques.[8]
+The first method to perform addition and subtraction on the C and D (or any comparable scales) requires converting the problem into one of division. For addition, the quotient of the two variables plus one times the divisor equals their sum:
+
+
+
+
+x
++
+y
+=
+
+(
+
+
+
+x
+y
+
+
++
+1
+
+)
+
+y
+.
+
+
+{\displaystyle x+y=\left({\frac {x}{y}}+1\right)y.}
+
+
+For subtraction, the quotient of the two variables minus one times the divisor equals their difference:
+
+
+
+
+x
+−
+y
+=
+
+(
+
+
+
+x
+y
+
+
+−
+1
+
+)
+
+y
+.
+
+
+{\displaystyle x-y=\left({\frac {x}{y}}-1\right)y.}
+
+
+This method is similar to the addition/subtraction technique used for high-speed electronic circuits with the logarithmic number system in specialized computer applications like the Gravity Pipe (GRAPE) supercomputer and hidden Markov models.
+The second method utilizes a sliding linear L scale available on some models. Addition and subtraction are performed by sliding the cursor left (for subtraction) or right (for addition) then returning the slide to 0 to read the result.
+Using (almost) any strictly monotonic scales, other calculations can also be made with one movement.[9][10] For example, reciprocal scales can be used for the equality 
+
+
+
+
+
+1
+x
+
+
++
+
+
+1
+y
+
+
+=
+
+
+1
+z
+
+
+
+
+{\displaystyle {\frac {1}{x}}+{\frac {1}{y}}={\frac {1}{z}}}
+
+(calculating parallel resistances, harmonic mean, etc.), and quadratic scales can be used to solve 
+
+
+
+
+x
+
+2
+
+
++
+
+y
+
+2
+
+
+=
+
+z
+
+2
+
+
+
+
+{\displaystyle x^{2}+y^{2}=z^{2}}
+
+.
+The width of the slide rule is quoted in terms of the nominal width of the scales. Scales on the most common "10-inch" models are actually 25 cm, as they were made to metric standards, though some rules offer slightly extended scales to simplify manipulation when a result overflows. Pocket rules are typically 5 inches (12 cm). Models a couple of metres (yards) wide were made to be hung in classrooms for teaching purposes.[11]
+Typically the divisions mark a scale to a precision of two significant figures, and the user estimates the third figure. Some high-end slide rules have magnifier cursors that make the markings easier to see. Such cursors can effectively double the accuracy of readings, permitting a 10-inch slide rule to serve as well as a 20-inch model.
+Various other conveniences have been developed. Trigonometric scales are sometimes dual-labeled, in black and red, with complementary angles, the so-called "Darmstadt" style. Duplex slide rules often duplicate some of the scales on the back. Scales are often "split" to get higher accuracy.[further explanation needed]
+Circular slide rules come in two basic types, one with two cursors, and another with a free dish and one cursor. The dual cursor versions perform multiplication and division by holding a constant angle between the cursors as they are rotated around the dial. The onefold cursor version operates more like the standard slide rule through the appropriate alignment of the scales.
+The basic advantage of a circular slide rule is that the widest dimension of the tool was reduced by a factor of about 3 (i.e. by π). For example, a 10 cm circular would have a maximum precision approximately equal to a 31.4 cm ordinary slide rule. Circular slide rules also eliminate "off-scale" calculations, because the scales were designed to "wrap around"; they never have to be reoriented when results are near 1.0—the rule is always on scale. However, for non-cyclical non-spiral scales such as S, T, and LL's, the scale width is narrowed to make room for end margins.[12]
+Circular slide rules are mechanically more rugged and smoother-moving, but their scale alignment precision is sensitive to the centering of a central pivot; a minute 0.1 mm (0.0039 in) off-centre of the pivot can result in a 0.2 mm (0.0079 in) worst case alignment error. The pivot does prevent scratching of the face and cursors. The highest accuracy scales are placed on the outer rings. Rather than "split" scales, high-end circular rules use spiral scales for more complex operations like log-of-log scales. One eight-inch premium circular rule had a 50-inch spiral log-log scale. Around 1970, an inexpensive model from B. C. Boykin (Model 510) featured 20 scales, including 50-inch C-D (multiplication) and log scales. The RotaRule featured a friction brake for the cursor.
+The main disadvantages of circular slide rules are the difficulty in locating figures along a dish, and limited number of scales. Another drawback of circular slide rules is that less-important scales are closer to the center, and have lower precisions. Most students learned slide rule use on the linear slide rules, and did not find reason to switch.
+One slide rule remaining in daily use around the world is the E6B. This is a circular slide rule first created in the 1930s for aircraft pilots to help with dead reckoning. With the aid of scales printed on the frame it also helps with such miscellaneous tasks as converting time, distance, speed, and temperature values, compass errors, and calculating fuel use. The so-called "prayer wheel" is still available in flight shops, and remains widely used. While GPS has reduced the use of dead reckoning for aerial navigation, and handheld calculators have taken over many of its functions, the E6B remains widely used as a primary or backup device and the majority of flight schools demand that their students have some degree of proficiency in its use.
+Proportion wheels are simple circular slide rules used in graphic design to calculate aspect ratios. Lining up the original and desired size values on the inner and outer wheels will display their ratio as a percentage in a small window. Though not as common since the advent of computerized layout, they are still made and used.[citation needed]
+In 1952, Swiss watch company Breitling introduced a pilot's wristwatch with an integrated circular slide rule specialized for flight calculations: the Breitling Navitimer. The Navitimer circular rule, referred to by Breitling as a "navigation computer", featured airspeed, rate/time of climb/descent, flight time, distance, and fuel consumption functions, as well as kilometer—nautical mile and gallon—liter fuel amount conversion functions.
+A simple circular slide rule, made by Concise Co., Ltd., Tokyo, Japan, with only inverse, square, and cubic scales. On the reverse is a handy list of 38 metric/imperial conversion factors.
+A Russian circular slide rule built like a pocket watch that works as single cursor slide rule since the two needles are ganged together
+A two-scale slide rule built into a ring
+Pickett circular slide rule with two cursors. (4.25 in/10.9 cm width) Reverse has additional scale and one cursor.
+Breitling Navitimer wristwatch with circular slide rule
+The front side of a Boykin RotaRule Model 510
+The rear side of a Boykin RotaRule Model 510
+Sperry 4016 Pocket Calculator
+
+There are two main types of cylindrical slide rules: those with helical scales such as the Fuller calculator, the Otis King and the Bygrave slide rule, and those with bars, such as the Thacher and some Loga models. In either case, the advantage is a much longer scale, and hence potentially greater precision, than afforded by a straight or circular rule.
+Fuller calculator, 1928
+Otis King Model K
+Bygrave slide rule
+Thacher slide rule, circa 1890
+Traditionally slide rules were made out of hard wood such as mahogany or boxwood with cursors of glass and metal. At least one high precision instrument was made of steel.
+In 1895, a Japanese firm, Hemmi, started to make slide rules from celluloid-clad bamboo, which had the advantages of being dimensionally stable, strong, and naturally self-lubricating. These bamboo slide rules were introduced in Sweden in September, 1933,[13] and probably only a little earlier in Germany.
+Scales were also made of celluloid or other polymers, or printed on aluminium. Later cursors were molded from acrylics or polycarbonate, sometimes with Teflon bearing surfaces. 
+All premium slide rules had numbers and scales deeply engraved, and then filled with paint or other resin. Painted or imprinted slide rules were viewed as inferior, because the markings could wear off or be chemically damaged. Nevertheless, Pickett, an American slide rule company, made only printed scale rules. Premium slide rules included clever mechanical catches so the rule would not fall apart by accident, and bumpers to protect the scales and cursor from rubbing on tabletops.
+The slide rule was invented around 1620–1630, shortly after John Napier's publication of the concept of the logarithm. In 1620 Edmund Gunter of Oxford developed a calculating device with a single logarithmic scale; with additional measuring tools it could be used to multiply and divide.[14] In c. 1622, William Oughtred of Cambridge combined two handheld Gunter rules to make a device that is recognizably the modern slide rule.[15] Oughtred became involved in a vitriolic controversy over priority, with his one-time student Richard Delamain and the prior claims of Wingate. Oughtred's ideas were only made public in publications of his student William Forster in 1632 and 1653.
+In 1677, Henry Coggeshall created a two-foot folding rule for timber measure, called the Coggeshall slide rule, expanding the slide rule's use beyond mathematical inquiry.
+In 1722, Warner introduced the two- and three-decade scales, and in 1755 Everard included an inverted scale; a slide rule containing all of these scales is usually known as a "polyphase" rule.
+In 1815, Peter Mark Roget invented the log log slide rule, which included a scale displaying the logarithm of the logarithm. This allowed the user to directly perform calculations involving roots and exponents. This was especially useful for fractional powers.
+In 1821, Nathaniel Bowditch, described in the American Practical Navigator a "sliding rule" that contained scaled trigonometric functions on the fixed part and a line of log-sines and log-tans on the slider used to solve navigation problems.
+In 1845, Paul Cameron of Glasgow introduced a nautical slide rule capable of answering navigation questions, including right ascension and declination of the sun and principal stars.[16]
+A more modern form of slide rule was created in 1859 by French artillery lieutenant Amédée Mannheim, who was fortunate both in having his rule made by a firm of national reputation, and its adoption by the French Artillery. Mannheim's rule had two major modifications that made it easier to use than previous general-purpose slide rules. Such rules had four basic scales, A, B, C, and D, and D was the only single-decade logarithmic scale; C had two decades, like A and B. Most operations were done on the A and B scales; D was only used for finding squares and square roots. 
+Mannheim changed the C scale to a single-decade scale and performed most operations with C and D instead of A and B. Because the C and D scales were single-decade, they could be read more precisely, so the rule's results could be more accurate. The change also made it easier to include squares and square roots as part of a larger calculation. Mannheim's rule also had a cursor, unlike almost all preceding rules, so any of the scales could be easily and accurately compared across the rule width. The "Mannheim rule" became the standard slide rule arrangement for the later 19th century and remained a common standard throughout the slide-rule era.
+The growth of the engineering profession during the later 19th century drove widespread slide-rule use, beginning in Europe and eventually taking hold in the United States as well. The duplex rule was invented by William Cox in 1891 and was produced by Keuffel and Esser Co. of New York.[17][18]
+In 1881, the American inventor Edwin Thacher introduced his cylindrical rule, which had a much longer scale than standard linear rules and thus could calculate to higher precision, about four to five significant digits. However, the Thacher rule was quite expensive, as well as being non-portable, so it was used in far more limited numbers than conventional slide rules.
+Astronomical work also required precise computations, and, in 19th-century Germany, a steel slide rule about two meters long was used at one observatory. It had a microscope attached, giving it accuracy to six decimal places.[citation needed]
+In the 1920s, the novelist and engineer Nevil Shute Norway (he called his autobiography Slide Rule) was Chief Calculator on the design of the British R100 airship for Vickers Ltd. from 1924. The stress calculations for each transverse frame required computations by a pair of calculators (people) using Fuller's cylindrical slide rules for two or three months. The simultaneous equation contained up to seven unknown quantities, took about a week to solve, and had to be repeated with a different selection of slack wires if the guess on which of the eight radial wires were slack was wrong and one of the wires guessed to be slack was not slack. After months of labour filling perhaps fifty foolscap sheets with calculations "the truth stood revealed' (and) produced a satisfaction almost amounting to a religious experience".[19]
+Throughout the 1950s and 1960s, the slide rule was the symbol of the engineer's profession in the same way the stethoscope is that of the medical profession.[20]
+Aluminium Pickett-brand slide rules were carried on Project Apollo space missions. The model N600-ES owned by Buzz Aldrin that flew with him to the Moon on Apollo 11 was sold at auction in 2007.[21] The model N600-ES taken along on Apollo 13 in 1970 is owned by the National Air and Space Museum.[22]
+Some engineering students and engineers carried ten-inch slide rules in belt holsters, a common sight on campuses even into the mid-1970s. Until the advent of the pocket digital calculator, students also might keep a ten- or twenty-inch rule for precision work at home or the office[23] while carrying a five-inch pocket slide rule around with them.
+In 2004, education researchers David B. Sher and Dean C. Nataro conceived a new type of slide rule based on prosthaphaeresis, an algorithm for rapidly computing products that predates logarithms. However, there has been little practical interest in constructing one beyond the initial prototype.[24]
+Slide rules have often been specialized to varying degrees for their field of use, such as excise, proof calculation, engineering, navigation, etc., and some slide rules are extremely specialized for very narrow applications. For example, the John Rabone & Sons 1892 catalog lists a "Measuring Tape and Cattle Gauge", a device to estimate the weight of a cow from its measurements.
+There were many specialized slide rules for photographic applications. For example, the actinograph of Hurter and Driffield was a two-slide boxwood, brass, and cardboard device for estimating exposure from time of day, time of year, and latitude.
+Specialized slide rules were invented for various forms of engineering, business and banking. These often had common calculations directly expressed as special scales, for example loan calculations, optimal purchase quantities, or particular engineering equations. For example, the Fisher Controls company distributed a customized slide rule adapted to solving the equations used for selecting the proper size of industrial flow control valves.[25]
+Pilot balloon slide rules were used by meteorologists in weather services to determine the upper wind velocities from an ascending hydrogen or helium-filled pilot balloon.[26]
+The E6-B is a circular slide rule used by pilots and navigators.
+Circular slide rules to estimate ovulation dates and fertility are known as wheel calculators.[27]
+A Department of Defense publication from 1962[28] infamously included a special-purpose circular slide rule for calculating blast effects, overpressure, and radiation exposure from a given yield of an atomic bomb.[29]
+An E6-B aviation computer
+John Rabone & Sons 1892 cattle gauge
+Hurter and Driffield's actinograph
+Cryptographic slide rule used by the Swiss Army between 1914 and 1940
+Rare fractional adder
+The importance of the slide rule began to diminish as electronic computers, a new but rare resource in the 1950s, became more widely available to technical workers during the 1960s.
+The first step away from slide rules was the introduction of relatively inexpensive electronic desktop scientific calculators. These included the Wang Laboratories LOCI-2,[30][31] introduced in 1965, which used logarithms for multiplication and division; and the Hewlett-Packard HP 9100A, introduced in 1968.[32] Both of these were programmable and provided exponential and logarithmic functions; the HP had trigonometric functions (sine, cosine, and tangent) and hyperbolic trigonometric functions as well. The HP used the CORDIC (coordinate rotation digital computer) algorithm,[33] which allows for calculation of trigonometric functions using only shift and add operations. This method facilitated the development of ever smaller scientific calculators.
+As with mainframe computing, the availability of these desktop machines did not significantly affect the ubiquitous use of the slide rule, until cheap hand-held scientific electronic calculators became available in the mid-1970s, at which point it rapidly declined. The pocket-sized Hewlett-Packard HP-35 scientific calculator was the first handheld device of its type, but it cost US$395 in 1972. This was justifiable for some engineering professionals, but too expensive for most students.
+Around 1974, lower-cost handheld electronic scientific calculators started to make slide rules largely obsolete.[34][35][36][37] By 1975, basic four-function electronic calculators could be purchased for less than $50, and by 1976 the TI-30 scientific calculator was sold for less than $25 ($129 adjusted for inflation).
+1980 was the final year of the University Interscholastic League (UIL) competition in Texas to use slide rules.[citation needed]  The UIL had been originally been organized in 1910 to administer literary events,[citation needed] but had become the governing body of school sports events as well.
+Even during their heyday, slide rules never caught on with the general public.[38] Addition and subtraction are not well-supported operations on slide rules and doing a calculation on a slide rule tends to be slower than on a calculator.[39] This led engineers to use mathematical equations that favored operations that were easy on a slide rule over more accurate but complex functions; these approximations could lead to inaccuracies and mistakes.[40] On the other hand, the spatial, manual operation of slide rules cultivates in the user an intuition for numerical relationships and scale that people who have used only digital calculators often lack.[41] A slide rule will also display all the terms of a calculation along with the result, thus eliminating uncertainty about what calculation was actually performed.
+A slide rule requires the user to separately compute the order of magnitude of the answer to position the decimal point in the results. For example, 1.5 × 30 (which equals 45) will show the same result as 1,500,000 × 0.03 (which equals 45,000). This separate calculation forces the user to keep track of magnitude in short-term memory (which is error-prone), keep notes (which is cumbersome) or reason about it in every step (which distracts from the other calculation requirements).
+The typical arithmetic precision of a slide rule is about three significant digits, compared to many digits on digital calculators. As order of magnitude gets the greatest prominence when using a slide rule, users are less likely to make errors of false precision.
+When performing a sequence of multiplications or divisions by the same number, the answer can often be determined by merely glancing at the slide rule without any manipulation. This can be especially useful when calculating percentages (e.g. for test scores) or when comparing prices (e.g. in dollars per kilogram). Multiple speed-time-distance calculations can be performed hands-free at a glance with a slide rule. Other useful linear conversions such as pounds to kilograms can be easily marked on the rule and used directly in calculations.
+Being entirely mechanical, a slide rule does not depend on grid electricity or batteries. Mechanical imprecision in slide rules that were poorly constructed or warped by heat or use will lead to errors.
+Many sailors keep slide rules as backups for navigation in case of electric failure or battery depletion on long route segments. Slide rules are still commonly used in aviation, particularly for smaller planes. They are being replaced only by integrated, special purpose and expensive flight computers, and not general-purpose calculators. The E6B circular slide rule used by pilots has been in continuous production and remains available in a variety of models. Some wrist watches designed for aviation use still feature slide rule scales to permit quick calculations. The Citizen Skyhawk AT and the Seiko Flightmaster SNA411 are two notable examples.[42]
+Even in the 21st century, some people prefer a slide rule over an electronic calculator as a practical computing device. Others keep their old slide rules out of a sense of nostalgia, or collect them as a hobby.[43]
+A popular collectible model is the Keuffel & Esser Deci-Lon, a premium scientific and engineering slide rule available both in a ten-inch (25 cm) "regular" (Deci-Lon 10) and a five-inch "pocket" (Deci-Lon 5) variant. Another prized American model is the eight-inch (20 cm) Scientific Instruments circular rule. Of European rules, Faber-Castell's high-end models are the most popular among collectors.
+Although a great many slide rules are circulating on the market, specimens in good condition tend to be expensive. Many rules found for sale on online auction sites are damaged or have missing parts, and the seller may not know enough to supply the relevant information. Replacement parts are scarce, expensive, and generally available only for separate purchase on individual collectors' web sites. The Keuffel and Esser rules from the period up to about 1950 are particularly problematic, because the end-pieces on the cursors, made of celluloid, tend to chemically break down over time. Methods of preserving plastic may be used to slow the deterioration of some older slide rules, and 3D printing may be used to recreate missing or irretrievably broken cursor parts.[44]
+There are still a handful of sources for brand new slide rules. The Concise Company of Tokyo, which began as a manufacturer of circular slide rules in July 1954,[45] continues to make and sell them today. In September 2009, on-line retailer ThinkGeek introduced its own brand of straight slide rules, described as "faithful replica[s]" that were "individually hand tooled".[46] These were no longer available in 2012.[47] In addition, Faber-Castell had a number of slide rules in inventory, available for international purchase through their web store, until mid 2018.[48] Proportion wheels are still used in graphic design.
+Various slide rule simulator apps are available for Android and iOS-based smart phones and tablets.
+Specialized slide rules such as the E6B used in aviation, and gunnery slide rules used in laying artillery are still used though no longer on a routine basis. These rules are used as part of the teaching and instruction process as in learning to use them the student also learns about the principles behind the calculations, it also allows the student to be able to use these instruments as a backup in the event that the modern electronics in general use fail.
+The MIT Museum in Cambridge, Massachusetts, has a collection of hundreds of slide rules, nomograms, and mechanical calculators.[49] The Keuffel and Esser Company collection, from the slide rule manufacturer formerly located in Hoboken, New Jersey, was donated to MIT around 2005, substantially expanding existing holdings.[50] Selected items from the collection are usually on display at the museum.[51][52]
+The International Slide Rule Museum is claimed to be "[the world's] most extensive resource for all things concerning slide rules and logarithmic calculators".[53] The museum's Web page includes extensive literature relative to slide rules in its "Slide Rule Library" section.[54]
+
+

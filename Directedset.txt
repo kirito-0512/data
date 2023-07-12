@@ -1,0 +1,1903 @@
+9165,
+Directedset,
+In mathematics, a directed set (or a directed preorder or a filtered set) is a nonempty set 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ together with a reflexive and transitive binary relation 
+
+
+
+
+≤
+
+
+
+{\displaystyle \,\leq \,}
+
+ (that is, a preorder), with the additional property that every pair of elements has an upper bound.[1] In other words, for any 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ in 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ there must exist 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ in 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ with 
+
+
+
+a
+≤
+c
+
+
+{\displaystyle a\leq c}
+
+ and 
+
+
+
+b
+≤
+c
+.
+
+
+{\displaystyle b\leq c.}
+
+ A directed set's preorder is called a direction.
+The notion defined above is sometimes called an upward directed set. A downward directed set is defined analogously,[2] meaning that every pair of elements is bounded below.[3] 
+Some authors (and this article) assume that a directed set is directed upward, unless otherwise stated. Other authors call a set directed if and only if it is directed both upward and downward.[4]
+Directed sets are a generalization of nonempty totally ordered sets. That is, all totally ordered sets are directed sets (contrast partially ordered sets, which need not be directed). Join-semilattices (which are partially ordered sets) are directed sets as well, but not conversely. Likewise, lattices are directed sets both upward and downward.
+In topology, directed sets are used to define nets, which generalize sequences and unite the various notions of limit used in analysis. Directed sets also give rise to direct limits in abstract algebra and (more generally) category theory.
+In addition to the definition above, there is an equivalent definition. A directed set is a set 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ with a preorder such that every finite subset of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ has an upper bound. In this definition, the existence of an upper bound of the empty subset implies that 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is nonempty.
+The set of natural numbers 
+
+
+
+
+N
+
+
+
+{\displaystyle \mathbb {N} }
+
+ with the ordinary order 
+
+
+
+
+≤
+
+
+
+{\displaystyle \,\leq \,}
+
+ is one of the most important examples of a directed set (and so is every totally ordered set). By definition, a net is a function from a directed set and a sequence is a function from the natural numbers 
+
+
+
+
+N
+
+.
+
+
+{\displaystyle \mathbb {N} .}
+
+ Every sequence canonically becomes a net by endowing 
+
+
+
+
+N
+
+
+
+{\displaystyle \mathbb {N} }
+
+ with 
+
+
+
+
+≤
+.
+
+
+
+{\displaystyle \,\leq .\,}
+
+
+If 
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+ is a real number then the set 
+
+
+
+I
+:=
+
+R
+
+∖
+{
+
+x
+
+0
+
+
+}
+
+
+{\displaystyle I:=\mathbb {R} \backslash \lbrace x_{0}\rbrace }
+
+ can be turned into a directed set by defining 
+
+
+
+a
+
+≤
+
+I
+
+
+b
+
+
+{\displaystyle a\leq _{I}b}
+
+ if 
+
+
+
+
+|
+
+a
+−
+
+x
+
+0
+
+
+
+|
+
+≥
+
+|
+
+b
+−
+
+x
+
+0
+
+
+
+|
+
+
+
+{\displaystyle \left|a-x_{0}\right|\geq \left|b-x_{0}\right|}
+
+ (so "greater" elements are closer to 
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+). We then say that the reals have been directed towards 
+
+
+
+
+x
+
+0
+
+
+.
+
+
+{\displaystyle x_{0}.}
+
+ This is an example of a directed set that is neither partially ordered nor totally ordered. This is because antisymmetry breaks down for every pair 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ equidistant from 
+
+
+
+
+x
+
+0
+
+
+,
+
+
+{\displaystyle x_{0},}
+
+ where 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ are on opposite sides of 
+
+
+
+
+x
+
+0
+
+
+.
+
+
+{\displaystyle x_{0}.}
+
+ Explicitly, this happens when 
+
+
+
+{
+a
+,
+b
+}
+=
+
+{
+
+
+x
+
+0
+
+
+−
+r
+,
+
+x
+
+0
+
+
++
+r
+
+}
+
+
+
+{\displaystyle \{a,b\}=\left\{x_{0}-r,x_{0}+r\right\}}
+
+ for some real 
+
+
+
+r
+≠
+0
+,
+
+
+{\displaystyle r\neq 0,}
+
+ in which case 
+
+
+
+a
+
+≤
+
+I
+
+
+b
+
+
+{\displaystyle a\leq _{I}b}
+
+ and 
+
+
+
+b
+
+≤
+
+I
+
+
+a
+
+
+{\displaystyle b\leq _{I}a}
+
+ even though 
+
+
+
+a
+≠
+b
+.
+
+
+{\displaystyle a\neq b.}
+
+ Had this preorder been defined on 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ instead of 
+
+
+
+
+R
+
+∖
+{
+
+x
+
+0
+
+
+}
+
+
+{\displaystyle \mathbb {R} \backslash \lbrace x_{0}\rbrace }
+
+ then it would still form a directed set but it would now have a (unique) greatest element, specifically 
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+; however, it still wouldn't be partially ordered. This example can be generalized to a metric space 
+
+
+
+(
+X
+,
+d
+)
+
+
+{\displaystyle (X,d)}
+
+ by defining on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ or 
+
+
+
+X
+∖
+
+{
+
+x
+
+0
+
+
+}
+
+
+
+{\displaystyle X\setminus \left\{x_{0}\right\}}
+
+ the preorder 
+
+
+
+a
+≤
+b
+
+
+{\displaystyle a\leq b}
+
+ if and only if 
+
+
+
+d
+
+(
+
+a
+,
+
+x
+
+0
+
+
+
+)
+
+≥
+d
+
+(
+
+b
+,
+
+x
+
+0
+
+
+
+)
+
+.
+
+
+{\displaystyle d\left(a,x_{0}\right)\geq d\left(b,x_{0}\right).}
+
+
+A (trivial) example of a partially ordered set that is not directed is the set 
+
+
+
+{
+a
+,
+b
+}
+,
+
+
+{\displaystyle \{a,b\},}
+
+ in which the only order relations are 
+
+
+
+a
+≤
+a
+
+
+{\displaystyle a\leq a}
+
+ and 
+
+
+
+b
+≤
+b
+.
+
+
+{\displaystyle b\leq b.}
+
+ A less trivial example is like the previous example of the "reals directed towards 
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+" but in which the ordering rule only applies to pairs of elements on the same side of 
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+ (that is, if one takes an element 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ to the left of 
+
+
+
+
+x
+
+0
+
+
+,
+
+
+{\displaystyle x_{0},}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ to its right, then 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ are not comparable, and the subset 
+
+
+
+{
+a
+,
+b
+}
+
+
+{\displaystyle \{a,b\}}
+
+ has no upper bound).
+An element 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ of a preordered set 
+
+
+
+(
+I
+,
+≤
+)
+
+
+{\displaystyle (I,\leq )}
+
+ is a maximal element if for every 
+
+
+
+j
+∈
+I
+,
+
+
+{\displaystyle j\in I,}
+
+ 
+
+
+
+m
+≤
+j
+
+
+{\displaystyle m\leq j}
+
+ implies 
+
+
+
+j
+≤
+m
+.
+
+
+{\displaystyle j\leq m.}
+
+[5]
+It is a greatest element if for every 
+
+
+
+j
+∈
+I
+,
+
+
+{\displaystyle j\in I,}
+
+ 
+
+
+
+j
+≤
+m
+.
+
+
+{\displaystyle j\leq m.}
+
+
+Any preordered set with a greatest element is a directed set with the same preorder. 
+For instance, in a poset 
+
+
+
+P
+,
+
+
+{\displaystyle P,}
+
+ every lower closure of an element; that is, every subset of the form 
+
+
+
+{
+a
+∈
+P
+:
+a
+≤
+x
+}
+
+
+{\displaystyle \{a\in P:a\leq x\}}
+
+ where 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is a fixed element from 
+
+
+
+P
+,
+
+
+{\displaystyle P,}
+
+ is directed. 
+Every maximal element of a directed preordered set is a greatest element.  Indeed, a directed preordered set is characterized by equality of the (possibly empty) sets of maximal and of greatest elements.
+Let 
+
+
+
+
+
+D
+
+
+1
+
+
+
+
+{\displaystyle \mathbb {D} _{1}}
+
+ and 
+
+
+
+
+
+D
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {D} _{2}}
+
+ be directed sets. Then the Cartesian product set 
+
+
+
+
+
+D
+
+
+1
+
+
+×
+
+
+D
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {D} _{1}\times \mathbb {D} _{2}}
+
+ can be made into a directed set by defining 
+
+
+
+
+(
+
+
+n
+
+1
+
+
+,
+
+n
+
+2
+
+
+
+)
+
+≤
+
+(
+
+
+m
+
+1
+
+
+,
+
+m
+
+2
+
+
+
+)
+
+
+
+{\displaystyle \left(n_{1},n_{2}\right)\leq \left(m_{1},m_{2}\right)}
+
+ if and only if 
+
+
+
+
+n
+
+1
+
+
+≤
+
+m
+
+1
+
+
+
+
+{\displaystyle n_{1}\leq m_{1}}
+
+ and 
+
+
+
+
+n
+
+2
+
+
+≤
+
+m
+
+2
+
+
+.
+
+
+{\displaystyle n_{2}\leq m_{2}.}
+
+ In analogy to the product order this is the product direction on the Cartesian product.  For example, the set 
+
+
+
+
+N
+
+×
+
+N
+
+
+
+{\displaystyle \mathbb {N} \times \mathbb {N} }
+
+ of pairs of natural numbers can be made into a directed set by defining 
+
+
+
+
+(
+
+
+n
+
+0
+
+
+,
+
+n
+
+1
+
+
+
+)
+
+≤
+
+(
+
+
+m
+
+0
+
+
+,
+
+m
+
+1
+
+
+
+)
+
+
+
+{\displaystyle \left(n_{0},n_{1}\right)\leq \left(m_{0},m_{1}\right)}
+
+ if and only if 
+
+
+
+
+n
+
+0
+
+
+≤
+
+m
+
+0
+
+
+
+
+{\displaystyle n_{0}\leq m_{0}}
+
+ and 
+
+
+
+
+n
+
+1
+
+
+≤
+
+m
+
+1
+
+
+.
+
+
+{\displaystyle n_{1}\leq m_{1}.}
+
+
+The subset inclusion relation 
+
+
+
+
+⊆
+,
+
+
+
+{\displaystyle \,\subseteq ,\,}
+
+ along with its dual 
+
+
+
+
+⊇
+,
+
+
+
+{\displaystyle \,\supseteq ,\,}
+
+ define partial orders on any given family of sets. 
+A non-empty family of sets is a directed set with respect to the partial order 
+
+
+
+
+⊇
+
+
+
+{\displaystyle \,\supseteq \,}
+
+ (respectively, 
+
+
+
+
+⊆
+
+
+
+{\displaystyle \,\subseteq \,}
+
+) if and only if the intersection (respectively, union) of any two of its members contains as a subset (respectively, is contained as a subset of) some third member. 
+In symbols, a family 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ of sets is directed with respect to 
+
+
+
+
+⊇
+
+
+
+{\displaystyle \,\supseteq \,}
+
+ (respectively, 
+
+
+
+
+⊆
+
+
+
+{\displaystyle \,\subseteq \,}
+
+) if and only if 
+or equivalently, 
+Many important examples of directed sets can be defined using these partial orders. 
+For example, by definition, a prefilter or filter base is a non-empty family of sets that is a directed set with respect to the partial order 
+
+
+
+
+⊇
+
+
+
+{\displaystyle \,\supseteq \,}
+
+ and that also does not contain the empty set (this condition prevents triviality because otherwise, the empty set would then be a greatest element with respect to 
+
+
+
+
+⊇
+
+
+
+{\displaystyle \,\supseteq \,}
+
+). 
+Every π-system, which is a non-empty family of sets that is closed under the intersection of any two of its members, is a directed set with respect to 
+
+
+
+
+⊇
+
+.
+
+
+{\displaystyle \,\supseteq \,.}
+
+ Every λ-system is a directed set with respect to 
+
+
+
+
+⊆
+
+.
+
+
+{\displaystyle \,\subseteq \,.}
+
+ Every filter, topology, and σ-algebra is a directed set with respect to both 
+
+
+
+
+⊇
+
+
+
+{\displaystyle \,\supseteq \,}
+
+ and 
+
+
+
+
+⊆
+
+.
+
+
+{\displaystyle \,\subseteq \,.}
+
+ 
+If 
+
+
+
+
+x
+
+∙
+
+
+=
+
+
+(
+
+x
+
+i
+
+
+)
+
+
+i
+∈
+I
+
+
+
+
+{\displaystyle x_{\bullet }=\left(x_{i}\right)_{i\in I}}
+
+ is any net from a directed set 
+
+
+
+(
+I
+,
+≤
+)
+
+
+{\displaystyle (I,\leq )}
+
+ then for any index 
+
+
+
+i
+∈
+I
+,
+
+
+{\displaystyle i\in I,}
+
+ the set 
+
+
+
+
+x
+
+≥
+i
+
+
+:=
+
+{
+
+
+x
+
+j
+
+
+:
+j
+≥
+i
+
+ with 
+
+j
+∈
+I
+
+}
+
+
+
+{\displaystyle x_{\geq i}:=\left\{x_{j}:j\geq i{\text{ with }}j\in I\right\}}
+
+ is called the tail of 
+
+
+
+(
+I
+,
+≤
+)
+
+
+{\displaystyle (I,\leq )}
+
+ starting at 
+
+
+
+i
+.
+
+
+{\displaystyle i.}
+
+ The family 
+
+
+
+Tails
+⁡
+
+(
+
+x
+
+∙
+
+
+)
+
+:=
+
+{
+
+
+x
+
+≥
+i
+
+
+:
+i
+∈
+I
+
+}
+
+
+
+{\displaystyle \operatorname {Tails} \left(x_{\bullet }\right):=\left\{x_{\geq i}:i\in I\right\}}
+
+ of all tails is a directed set with respect to 
+
+
+
+
+⊇
+;
+
+
+
+{\displaystyle \,\supseteq ;\,}
+
+ in fact, it is even a prefilter.
+If 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ is a topological space and 
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+ is a point in 
+
+
+
+T
+,
+
+
+{\displaystyle T,}
+
+ set of all neighbourhoods of 
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+ can be turned into a directed set by writing 
+
+
+
+U
+≤
+V
+
+
+{\displaystyle U\leq V}
+
+ if and only if 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ contains 
+
+
+
+V
+.
+
+
+{\displaystyle V.}
+
+ For every 
+
+
+
+U
+,
+
+
+{\displaystyle U,}
+
+ 
+
+
+
+V
+,
+
+
+{\displaystyle V,}
+
+ and 
+
+
+
+W
+
+
+{\displaystyle W}
+
+ :
+The set 
+
+
+
+Finite
+⁡
+(
+I
+)
+
+
+{\displaystyle \operatorname {Finite} (I)}
+
+ of all finite subsets of a set 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ is directed with respect to 
+
+
+
+
+⊆
+
+
+
+{\displaystyle \,\subseteq \,}
+
+ since given any two 
+
+
+
+A
+,
+B
+∈
+Finite
+⁡
+(
+I
+)
+,
+
+
+{\displaystyle A,B\in \operatorname {Finite} (I),}
+
+ their union 
+
+
+
+A
+∪
+B
+∈
+Finite
+⁡
+(
+I
+)
+
+
+{\displaystyle A\cup B\in \operatorname {Finite} (I)}
+
+ is an upper bound of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ in 
+
+
+
+Finite
+⁡
+(
+I
+)
+.
+
+
+{\displaystyle \operatorname {Finite} (I).}
+
+ This particular directed set is used to define the sum 
+
+
+
+
+
+
+∑
+
+i
+∈
+I
+
+
+
+
+
+r
+
+i
+
+
+
+
+{\displaystyle {\textstyle \sum \limits _{i\in I}}r_{i}}
+
+ of a generalized series of an 
+
+
+
+I
+
+
+{\displaystyle I}
+
+-indexed collection of numbers 
+
+
+
+
+
+(
+
+r
+
+i
+
+
+)
+
+
+i
+∈
+I
+
+
+
+
+{\displaystyle \left(r_{i}\right)_{i\in I}}
+
+ (or more generally, the sum of elements in an abelian topological group, such as vectors in a topological vector space) as the limit of the net of partial sums 
+
+
+
+F
+∈
+Finite
+⁡
+(
+I
+)
+↦
+
+
+
+∑
+
+i
+∈
+F
+
+
+
+
+
+r
+
+i
+
+
+;
+
+
+{\displaystyle F\in \operatorname {Finite} (I)\mapsto {\textstyle \sum \limits _{i\in F}}r_{i};}
+
+ that is:
+
+
+
+
+
+∑
+
+i
+∈
+I
+
+
+
+r
+
+i
+
+
+ 
+:=
+ 
+
+lim
+
+F
+∈
+Finite
+⁡
+(
+I
+)
+
+
+ 
+
+∑
+
+i
+∈
+F
+
+
+
+r
+
+i
+
+
+ 
+=
+ 
+lim
+
+{
+
+
+∑
+
+i
+∈
+F
+
+
+
+r
+
+i
+
+
+
+:
+F
+⊆
+I
+,
+F
+
+ finite 
+
+
+}
+
+.
+
+
+{\displaystyle \sum _{i\in I}r_{i}~:=~\lim _{F\in \operatorname {Finite} (I)}\ \sum _{i\in F}r_{i}~=~\lim \left\{\sum _{i\in F}r_{i}\,:F\subseteq I,F{\text{ finite }}\right\}.}
+
+
+Directed set is a more general concept than (join) semilattice: every join semilattice is a directed set, as the join or least upper bound of two elements is the desired 
+
+
+
+c
+.
+
+
+{\displaystyle c.}
+
+  The converse does not hold however, witness the directed set {1000,0001,1101,1011,1111} ordered bitwise (e.g. 
+
+
+
+1000
+≤
+1011
+
+
+{\displaystyle 1000\leq 1011}
+
+ holds, but 
+
+
+
+0001
+≤
+1000
+
+
+{\displaystyle 0001\leq 1000}
+
+ does not, since in the last bit 1 > 0), where {1000,0001} has three upper bounds but no least upper bound, cf. picture. (Also note that without 1111, the set is not directed.)
+The order relation in a directed set is not required to be antisymmetric, and therefore directed sets are not always partial orders. However, the term directed set is also used frequently in the context of posets. In this setting, a subset 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ of a partially ordered set 
+
+
+
+(
+P
+,
+≤
+)
+
+
+{\displaystyle (P,\leq )}
+
+ is called a directed subset if it is a directed set according to the same partial order: in other words, it is not the empty set, and every pair of elements has an upper bound. Here the order relation on the elements of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is inherited from 
+
+
+
+P
+
+
+{\displaystyle P}
+
+; for this reason, reflexivity and transitivity need not be required explicitly.
+A directed subset of a poset is not required to be downward closed; a subset of a poset is directed if and only if its downward closure is an ideal. While the definition of a directed set is for an "upward-directed" set (every pair of elements has an upper bound), it is also possible to define a downward-directed set in which every pair of elements has a common lower bound. A subset of a poset is downward-directed if and only if its upper closure is a filter.
+Directed subsets are used in domain theory, which studies directed-complete partial orders.[6] These are posets in which every upward-directed set is required to have a least upper bound. In this context, directed subsets again provide a generalization of convergent sequences.[further explanation needed]
+
+

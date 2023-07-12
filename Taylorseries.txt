@@ -1,0 +1,874 @@
+30448,
+Taylorseries,
+
+In mathematics, the Taylor series or Taylor expansion of a function is an infinite sum of terms that are expressed in terms of the function's derivatives at a single point. For most common functions, the function and the sum of its Taylor series are equal near this point. Taylor series are named after Brook Taylor, who introduced them in 1715. A Taylor series is also called a Maclaurin series when 0 is the point where the derivatives are considered, after Colin Maclaurin, who made extensive use of this special case of Taylor series in the mid-18th century.
+The partial sum formed by the first n + 1 terms of a Taylor series is a polynomial of degree n that is called the nth Taylor polynomial of the function. Taylor polynomials are approximations of a function, which become generally better as n increases. Taylor's theorem gives quantitative estimates on the error introduced by the use of such approximations. If the Taylor series of a function is convergent, its sum is the limit of the infinite sequence of the Taylor polynomials. A function may differ from the sum of its Taylor series, even if its Taylor series is convergent. A function is analytic at a point x if it is equal to the sum of its Taylor series in some open interval (or open disk in the complex plane) containing x. This implies that the function is analytic at every point of the interval (or disk).
+The Taylor series of a real or complex-valued function f (x) that is infinitely differentiable at a real or complex number a is the power series
+where n! denotes the factorial of n.  In the more compact sigma notation, this can be written as
+where f(n)(a) denotes the nth derivative of f evaluated at the point a.  (The derivative of order zero of f is defined to be f itself and (x − a)0 and 0! are both defined to be 1.)
+With a = 0, the Maclaurin series takes the form:[1]
+or in the compact sigma notation:
+The Taylor series of any polynomial is the polynomial itself.
+The Maclaurin series of 1/1 − x is the geometric series
+So, by substituting x for 1 − x, the Taylor series of 1/x at a = 1 is
+By integrating the above Maclaurin series, we find the Maclaurin series of ln(1  − x), where ln denotes the natural logarithm:
+The corresponding Taylor series of ln x at a = 1 is
+and more generally, the corresponding Taylor series of ln x at an arbitrary nonzero point a is:
+The Maclaurin series of the exponential function ex is
+The above expansion holds because the derivative of ex with respect to x is also ex, and e0 equals 1. This leaves the terms (x − 0)n in the numerator and n! in the denominator of each term in the infinite sum.
+The ancient Greek philosopher Zeno of Elea considered the problem of summing an infinite series to achieve a finite result, but rejected it as an impossibility;[2] the result was Zeno's paradox. Later, Aristotle proposed a philosophical resolution of the paradox, but the mathematical content was apparently unresolved until taken up by Archimedes, as it had been prior to Aristotle by the Presocratic Atomist Democritus. It was through Archimedes's method of exhaustion that an infinite number of progressive subdivisions could be performed to achieve a finite result.[3] Liu Hui independently employed a similar method a few centuries later.[4]
+In the 14th century, the earliest examples of specific Taylor series (but not the general method) were given by Madhava of Sangamagrama.[5][6] Though no record of his work survives, writings of his followers in the Kerala school of astronomy and mathematics suggest that he found the Taylor series for the trigonometric functions of sine, cosine, and arctangent (see Madhava series). During the following two centuries his followers developed further series expansions and rational approximations.
+In late 1670, James Gregory was shown in a letter from John Collins several Maclaurin series (
+
+
+
+sin
+⁡
+x
+,
+
+
+{\textstyle \sin x,}
+
+ 
+
+
+
+cos
+⁡
+x
+,
+
+
+{\textstyle \cos x,}
+
+ 
+
+
+
+arcsin
+⁡
+x
+,
+
+
+{\textstyle \arcsin x,}
+
+ and 
+
+
+
+x
+cot
+⁡
+x
+
+
+{\textstyle x\cot x}
+
+) derived by Isaac Newton, and told that Newton had developed a general method for expanding functions in series. Newton had in fact used a cumbersome method involving long division of series and term-by-term integration, but Gregory did not know it and set out to discover a general method for himself. In early 1671 Gregory discovered something like the general Maclaurin series and sent a letter to Collins including series for 
+
+
+
+arctan
+⁡
+x
+,
+
+
+{\textstyle \arctan x,}
+
+ 
+
+
+
+tan
+⁡
+x
+,
+
+
+{\textstyle \tan x,}
+
+ 
+
+
+
+sec
+⁡
+x
+,
+
+
+{\textstyle \sec x,}
+
+ 
+
+
+
+ln
+
+sec
+⁡
+x
+
+
+{\textstyle \ln \,\sec x}
+
+ (the integral of 
+
+
+
+tan
+
+
+{\displaystyle \tan }
+
+), 
+
+
+
+ln
+
+tan
+⁡
+
+
+
+1
+2
+
+
+
+
+
+
+(
+
+
+
+
+
+1
+2
+
+
+
+π
++
+x
+
+
+)
+
+
+
+
+
+{\textstyle \ln \,\tan {\tfrac {1}{2}}{{\bigl (}{\tfrac {1}{2}}\pi +x{\bigr )}}}
+
+ (the integral of sec, the inverse Gudermannian function), 
+
+
+
+arcsec
+⁡
+
+
+(
+
+
+
+
+2
+
+
+
+e
+
+x
+
+
+
+
+)
+
+
+,
+
+
+{\textstyle \operatorname {arcsec} {\bigl (}{\sqrt {2}}e^{x}{\bigr )},}
+
+ and 
+
+
+
+2
+arctan
+⁡
+
+e
+
+x
+
+
+−
+
+
+
+1
+2
+
+
+
+π
+
+
+{\textstyle 2\arctan e^{x}-{\tfrac {1}{2}}\pi }
+
+ (the Gudermannian function). However, thinking that he had merely redeveloped a method by Newton, Gregory never described how he obtained these series, and it can only be inferred that he understood the general method by examining scratch work he had scribbled on the back of another letter from 1671.[7]
+In 1691–1692, Isaac Newton wrote down an explicit statement of the Taylor and Maclaurin series in an unpublished version of his work De Quadratura Curvarum. However, this work was never completed and the relevant sections were omitted from the portions published in 1704 under the title Tractatus de Quadratura Curvarum.
+It was not until 1715 that a general method for constructing these series for all functions for which they exist was finally published by Brook Taylor,[8] after whom the series are now named.
+The Maclaurin series was named after Colin Maclaurin, a professor in Edinburgh, who published the special case of the Taylor result in the mid-18th century.
+If f (x) is given by a convergent power series in an open disk centred at b in the complex plane (or an interval in the real line), it is said to be analytic in this region.  Thus for x in this region, f is given by a convergent power series
+Differentiating by x the above formula n times, then setting x = b gives:
+and so the power series expansion agrees with the Taylor series.  Thus a function is analytic in an open disk centered at b if and only if its Taylor series converges to the value of the function at each point of the disk.
+If f (x) is equal to the sum of its Taylor series for all x in the complex plane, it is called entire. The polynomials, exponential function ex, and the trigonometric functions sine and cosine, are examples of entire functions. Examples of functions that are not entire include the square root, the logarithm, the trigonometric function tangent, and its inverse, arctan. For these functions the Taylor series do not converge if x is far from b. That is, the Taylor series diverges at x if the distance between x and b is larger than the radius of convergence. The Taylor series can be used to calculate the value of an entire function at every point, if the value of the function, and of all of its derivatives, are known at a single point.
+Uses of the Taylor series for analytic functions include:
+Pictured is an accurate approximation of sin x around the point x = 0. The pink curve is a polynomial of degree seven:
+The error in this approximation is no more than |x|9 / 9!. For a full cycle centered at the origin (−π < x < π) the error is less than 0.08215. In particular, for −1 < x < 1, the error is less than 0.000003.
+In contrast, also shown is a picture of the natural logarithm function ln(1 + x) and some of its Taylor polynomials around a = 0. These approximations converge to the function only in the region −1 < x ≤ 1; outside of this region the higher-degree Taylor polynomials are worse approximations for the function.
+The error incurred in approximating a function by its nth-degree Taylor polynomial is called the remainder or residual and is denoted by the function Rn(x). Taylor's theorem can be used to obtain a bound on the size of the remainder.
+In general, Taylor series need not be convergent at all. And in fact the set of functions with a convergent Taylor series is a meager set in the Fréchet space of smooth functions. And even if the Taylor series of a function f does converge, its limit need not in general be equal to the value of the function f (x). For example, the function
+is infinitely differentiable at x = 0, and has all derivatives zero there. Consequently, the Taylor series of f (x) about x = 0 is identically zero. However, f (x) is not the zero function, so does not equal its Taylor series around the origin.  Thus, f (x) is an example of a non-analytic smooth function.
+In real analysis, this example shows that there are infinitely differentiable functions f (x) whose Taylor series are not equal to f (x) even if they converge. By contrast, the holomorphic functions studied in complex analysis always possess a convergent Taylor series, and even the Taylor series of meromorphic functions, which might have singularities, never converge to a value different from the function itself. The complex function e−1/z2, however, does not approach 0 when z approaches 0 along the imaginary axis, so it is not continuous in the complex plane and its Taylor series is undefined at 0.
+More generally, every sequence of real or complex numbers can appear as coefficients in the Taylor series of an infinitely differentiable function defined on the real line, a consequence of Borel's lemma.  As a result, the radius of convergence of a Taylor series can be zero. There are even infinitely differentiable functions defined on the real line whose Taylor series have a radius of convergence 0 everywhere.[9]
+A function cannot be written as a Taylor series centred at a singularity; in these cases, one can often still achieve a series expansion if one allows also negative powers of the variable x; see Laurent series. For example, f (x) = e−1/x2 can be written as a Laurent series.
+There is, however, a generalization[10][11] of the Taylor series that does converge to the value of the function itself for any bounded continuous function on (0,∞), using the calculus of finite differences.  Specifically, one has the following theorem, due to Einar Hille, that for any t > 0,
+Here Δnh is the nth finite difference operator with step size h. The series is precisely the Taylor series, except that divided differences appear in place of differentiation: the series is formally similar to the Newton series. When the function f is analytic at a, the terms in the series converge to the terms of the Taylor series, and in this sense generalizes the usual Taylor series.
+In general, for any infinite sequence ai, the following power series identity holds:
+So in particular,
+The series on the right is the expectation value of f (a + X), where X is a Poisson-distributed random variable that takes the value jh with probability e−t/h·(t/h)j/j!. Hence,
+The law of large numbers implies that the identity holds.[12]
+Several important Maclaurin series expansions follow.[13] All these expansions are valid for complex arguments x.
+The exponential function 
+
+
+
+
+e
+
+x
+
+
+
+
+{\displaystyle e^{x}}
+
+ (with base e) has Maclaurin series
+It converges for all x.
+The exponential generating function of the Bell numbers is the exponential function of the predecessor of the exponential function:
+The natural logarithm (with base e) has Maclaurin series
+They converge for 
+
+
+
+
+|
+
+x
+
+|
+
+<
+1
+
+
+{\displaystyle |x|<1}
+
+. (In addition, the series for ln(1 − x) converges for x = −1, and the series for ln(1 + x) converges for x = 1.)
+The geometric series and its derivatives have Maclaurin series
+All are convergent for 
+
+
+
+
+|
+
+x
+
+|
+
+<
+1
+
+
+{\displaystyle |x|<1}
+
+.  These are special cases of the binomial series given in the next section.
+The binomial series is the power series
+
+
+
+
+(
+1
++
+x
+
+)
+
+α
+
+
+=
+
+∑
+
+n
+=
+0
+
+
+∞
+
+
+
+
+
+(
+
+
+α
+n
+
+
+)
+
+
+
+
+x
+
+n
+
+
+
+
+{\displaystyle (1+x)^{\alpha }=\sum _{n=0}^{\infty }{\binom {\alpha }{n}}x^{n}}
+
+
+whose coefficients are the generalized binomial coefficients
+
+
+
+
+
+
+
+(
+
+
+α
+n
+
+
+)
+
+
+
+=
+
+∏
+
+k
+=
+1
+
+
+n
+
+
+
+
+
+α
+−
+k
++
+1
+
+k
+
+
+=
+
+
+
+α
+(
+α
+−
+1
+)
+⋯
+(
+α
+−
+n
++
+1
+)
+
+
+n
+!
+
+
+
+.
+
+
+{\displaystyle {\binom {\alpha }{n}}=\prod _{k=1}^{n}{\frac {\alpha -k+1}{k}}={\frac {\alpha (\alpha -1)\cdots (\alpha -n+1)}{n!}}.}
+
+
+(If n = 0, this product is an empty product and has value 1.)  It converges for 
+
+
+
+
+|
+
+x
+
+|
+
+<
+1
+
+
+{\displaystyle |x|<1}
+
+ for any real or complex number α.
+When α = −1, this is essentially the infinite geometric series mentioned in the previous section.  The special cases α = 1/2 and α = −1/2 give the square root function and its inverse:
+
+
+
+
+
+
+
+
+(
+1
++
+x
+
+)
+
+
+1
+2
+
+
+
+
+
+
+=
+1
++
+
+
+
+1
+2
+
+
+
+x
+−
+
+
+
+1
+8
+
+
+
+
+x
+
+2
+
+
++
+
+
+
+1
+16
+
+
+
+
+x
+
+3
+
+
+−
+
+
+
+5
+128
+
+
+
+
+x
+
+4
+
+
++
+
+
+
+7
+256
+
+
+
+
+x
+
+5
+
+
+−
+⋯
+
+
+
+
+=
+
+∑
+
+n
+=
+0
+
+
+∞
+
+
+
+
+
+(
+−
+1
+
+)
+
+n
+−
+1
+
+
+(
+2
+n
+)
+!
+
+
+
+4
+
+n
+
+
+(
+n
+!
+
+)
+
+2
+
+
+(
+2
+n
+−
+1
+)
+
+
+
+
+x
+
+n
+
+
+,
+
+
+
+
+(
+1
++
+x
+
+)
+
+−
+
+
+1
+2
+
+
+
+
+
+
+
+=
+1
+−
+
+
+
+1
+2
+
+
+
+x
++
+
+
+
+3
+8
+
+
+
+
+x
+
+2
+
+
+−
+
+
+
+5
+16
+
+
+
+
+x
+
+3
+
+
++
+
+
+
+35
+128
+
+
+
+
+x
+
+4
+
+
+−
+
+
+
+63
+256
+
+
+
+
+x
+
+5
+
+
++
+⋯
+
+
+
+
+=
+
+∑
+
+n
+=
+0
+
+
+∞
+
+
+
+
+
+(
+−
+1
+
+)
+
+n
+
+
+(
+2
+n
+)
+!
+
+
+
+4
+
+n
+
+
+(
+n
+!
+
+)
+
+2
+
+
+
+
+
+
+x
+
+n
+
+
+.
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}(1+x)^{\frac {1}{2}}&=1+{\tfrac {1}{2}}x-{\tfrac {1}{8}}x^{2}+{\tfrac {1}{16}}x^{3}-{\tfrac {5}{128}}x^{4}+{\tfrac {7}{256}}x^{5}-\cdots &&=\sum _{n=0}^{\infty }{\frac {(-1)^{n-1}(2n)!}{4^{n}(n!)^{2}(2n-1)}}x^{n},\\(1+x)^{-{\frac {1}{2}}}&=1-{\tfrac {1}{2}}x+{\tfrac {3}{8}}x^{2}-{\tfrac {5}{16}}x^{3}+{\tfrac {35}{128}}x^{4}-{\tfrac {63}{256}}x^{5}+\cdots &&=\sum _{n=0}^{\infty }{\frac {(-1)^{n}(2n)!}{4^{n}(n!)^{2}}}x^{n}.\end{aligned}}}
+
+
+When only the linear term is retained, this simplifies to the binomial approximation.
+The usual trigonometric functions and their inverses have the following Maclaurin series:
+All angles are expressed in radians. The numbers Bk appearing in the expansions of tan x are the Bernoulli numbers. The Ek in the expansion of sec x are Euler numbers.
+The hyperbolic functions have Maclaurin series closely related to the series for the corresponding trigonometric functions:
+The numbers Bk appearing in the series for tanh x are the Bernoulli numbers.
+The polylogarithms have these defining identities:
+The Legendre chi functions are defined as follows:
+And the formulas presented below are called inverse tangent integrals:
+In statistical thermodynamics these formulas are of great importance.
+The complete elliptic integrals of first kind K and of second kind E can be defined as follows:
+The Jacobi theta functions describe the world of the elliptic modular functions and they have these Taylor series:
+The regular partition number sequence P(n) has this generating function:
+The strict partition number sequence Q(n) has that generating function:
+Several methods exist for the calculation of Taylor series of a large number of functions. One can attempt to use the definition of the Taylor series, though this often requires generalizing the form of the coefficients according to a readily apparent pattern. Alternatively, one can use manipulations such as substitution, multiplication or division, addition or subtraction of standard Taylor series to construct the Taylor series of a function, by virtue of Taylor series being power series. In some cases, one can also derive the Taylor series by repeatedly applying integration by parts. Particularly convenient is the use of computer algebra systems to calculate Taylor series.
+In order to compute the 7th degree Maclaurin polynomial for the function
+one may first rewrite the function as
+The Taylor series for the natural logarithm is (using the big O notation)
+and for the cosine function
+The latter series expansion has a zero constant term, which enables us to substitute the second series into the first one and to easily omit terms of higher order than the 7th degree by using the big O notation:
+Since the cosine is an even function, the coefficients for all the odd powers x, x3, x5, x7, ... have to be zero.
+Suppose we want the Taylor series at 0 of the function
+We have for the exponential function
+and, as in the first example,
+Assume the power series is
+Then multiplication with the denominator and substitution of the series of the cosine yields
+Collecting the terms up to fourth order yields
+The values of 
+
+
+
+
+c
+
+i
+
+
+
+
+{\displaystyle c_{i}}
+
+ can be found by comparison of coefficients with the top expression for 
+
+
+
+
+e
+
+x
+
+
+
+
+{\displaystyle e^{x}}
+
+, yielding:
+Here we employ a method called "indirect expansion" to expand the given function. This method uses the known Taylor expansion of the exponential function. In order to expand (1 + x)ex as a Taylor series in x, we use the known Taylor series of function ex:
+Thus,
+Classically, algebraic functions are defined by an algebraic equation, and transcendental functions (including those discussed above) are defined by some property that holds for them, such as a differential equation. For example, the exponential function is the function which is equal to its own derivative everywhere, and assumes the value 1 at the origin. However, one may equally well define an analytic function by its Taylor series.
+Taylor series are used to define functions and "operators" in diverse areas of mathematics. In particular, this is true in areas where the classical definitions of functions break down. For example, using Taylor series, one may extend analytic functions to sets of matrices and operators, such as the matrix exponential or matrix logarithm.
+In other areas, such as formal analysis, it is more convenient to work directly with the power series themselves. Thus one may define a solution of a differential equation as a power series which, one hopes to prove, is the Taylor series of the desired solution.
+The Taylor series may also be generalized to functions of more than one variable with[14][15]
+For example, for a function 
+
+
+
+f
+(
+x
+,
+y
+)
+
+
+{\displaystyle f(x,y)}
+
+ that depends on two variables, x and y, the Taylor series to second order about the point (a, b) is
+where the subscripts denote the respective partial derivatives.
+A second-order Taylor series expansion of a scalar-valued function of more than one variable can be written compactly as
+where D f (a) is the gradient of f evaluated at x = a and D2 f (a) is the Hessian matrix. Applying the multi-index notation the Taylor series for several variables becomes
+which is to be understood as a still more abbreviated multi-index version of the first equation of this paragraph, with a full analogy to the single variable case.
+In order to compute a second-order Taylor series expansion around point (a, b) = (0, 0) of the function
+one first computes all the necessary partial derivatives:
+Evaluating these derivatives at the origin gives the Taylor coefficients
+Substituting these values in to the general formula
+produces
+Since ln(1 + y) is analytic in |y| < 1, we have
+The trigonometric Fourier series enables one to express a periodic function (or a function defined on a closed interval [a,b]) as an infinite sum of trigonometric functions (sines and cosines). In this sense, the Fourier series is analogous to Taylor series, since the latter allows one to express a function as an infinite sum of powers. Nevertheless, the two series differ from each other in several relevant issues:
+
+

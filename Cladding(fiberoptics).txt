@@ -1,0 +1,46 @@
+40878,
+Cladding(fiberoptics),
+Cladding in optical fibers is one or more layers of materials of lower refractive index in intimate contact with a core material of higher refractive index. 
+The cladding causes light to be confined to the core of the fiber by total internal reflection at the boundary between the core and cladding.[1] Light propagation within the cladding is typically suppressed for most fibers. However, some fibers can support cladding modes in which light propagates through the cladding as well as the core. Depending upon the quantity of modes that are supported, they are referred to as multi-mode fibers and single-mode fibers.[2] Improving transmission through fibers by applying a cladding was discovered in 1953 by Dutch scientist Bram van Heel.[3]
+The fact that transmission through fibers could be improved by applying a cladding was discovered in 1953 by van Heel, who used it to demonstrate image transmission through a bundle of optical fibers.[4] Early cladding materials included oils, waxes, and polymers. Lawrence E. Curtiss at the University of Michigan developed the first glass cladding in 1956, by inserting a glass rod into a tube of glass with a lower refractive index, fusing the two together, and drawing the composite structure into an optical fiber.[4]
+A cladding mode is a mode that is confined to the cladding of an optical fiber by virtue of the fact that the cladding has a higher refractive index than the surrounding medium, which is either air or the primary polymer overcoat.[5] These modes are generally undesired. Modern fibers have a primary polymer overcoat with a refractive index that is slightly higher than that of the cladding, so that light propagating in the cladding is rapidly attenuated and disappears after only a few centimeters of propagation. An exception to this is double-clad fiber, which is designed to support a mode in its inner cladding, as well as one in its core.[6]
+In the production of glass fibers, there will inevitably be surface irregularities (ex. pore and cracks) that will scatter light when struck and lessen the total travel distance of the light. The inclusion of a glass cladding greatly reduces the attenuation caused by these surface irregularities. This is due to the light scattering less at the glass/glass interface than it would have at the glass/air interface for a fiber without cladding.[2] The two primary factors that allow for this are the smaller change in index of refraction seen between two surfaces of glass, as well as surface irregularities on the cladding not interfering with the light beams. The inclusion of glass cladding is also an improvement over just applying a polymer coating, as glass will typically be stronger, more homogenous, and cleaner. Additionally, the inclusion of a cladding layer also allows for the usage of smaller glass fiber cores.[4] With most glass fibers have a cladding that raises the total outer diameter to 125 microns.[7]
+The numerical aperture of a multimode optical fiber is a function of the indices of refraction of the cladding and the core:
+The numerical aperture allows for the calculation of the acceptance angle of incidence at the fiber interface.[5] Which will give the maximum angle at which the incidence light can enter the core and maintain total internal reflection:
+N
+A
+=
+sin
+⁡
+(
+θ
+A
+)
+{\displaystyle {\rm {{NA}=\sin(\theta _{A})}}}
+By combining both of these equations it can be seen in the diagram above how 
+θ
+A
+{\displaystyle \theta _{A}}
+ is a function of 
+n
+1
+{\displaystyle n_{1}}
+ and 
+n
+2
+{\displaystyle n_{2}}
+, where 
+n
+1
+{\displaystyle n_{1}}
+ is the index of refraction of the core and 
+n
+2
+{\displaystyle n_{2}}
+n
+2
+{\displaystyle n_{2}}
+ is the index of refraction of the cladding.[7]
+Due to the relatively greater transmission of light they offer, fiber optic cores and claddings are usually made from highly purified silica gas. Certain impurities can be added to impart various properties, such as increasing transmission distance or improving fiber flexibility.[8] There has been significant work done in improving these properties within the last several years.
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).
+This optics-related article is a stub. You can help Wikipedia by expanding it.

@@ -1,0 +1,33 @@
+22419,
+Numbersign,
+The symbol # is known variously in English-speaking regions as the number sign,[1] hash,[2] or pound sign.[3] The symbol has historically been used for a wide range of purposes including the designation of an ordinal number and as a ligatured abbreviation for pounds avoirdupois – having been derived from the now-rare ℔.[4]
+Since 2007, widespread usage of the symbol to introduce metadata tags on social media platforms has led to such tags being known as "hashtags",[5] and from that, the symbol itself is sometimes called a hashtag.[6]
+The symbol is distinguished from similar symbols by its combination of level horizontal strokes and right-tilting vertical strokes.
+It is believed that the symbol traces its origins to the symbol ℔,[a] an abbreviation of the Roman term libra pondo, which translates as "pound weight".[7][8] This abbreviation was printed with a dedicated ligature type element, with a horizontal line across, so that the lowercase letter l would not be mistaken for the numeral 1. Ultimately, the symbol was reduced for clarity as an overlay of two horizontal strokes "=" across two slash-like strokes "//".[8]
+The symbol is described as the "number" character in an 1853 treatise on bookkeeping,[9] and its double meaning is described in a bookkeeping text from 1880.[10] The instruction manual of the Blickensderfer model 5 typewriter (c. 1896) appears to refer to the symbol as the "number mark".[11] Some early-20th-century U.S. sources refer to it as the "number sign",[12] although this could also refer to the numero sign.[13] A 1917 manual distinguishes between two uses of the sign: "number (written before a figure)" and "pounds (written after a figure)".[14] The use of the phrase "pound sign" to refer to this symbol is found from 1932 in U.S. usage.[15] The term hash sign is found in South African writings from the late 1960s[16] and from other non-North-American sources in the 1970s.[citation needed]
+The symbol appears to have been used primarily in handwritten material; in the printing business, the numero symbol (№) and barred-lb (℔) were used for "number" and "pounds" respectively.[where?][citation needed]
+For mechanical devices, the symbol appeared on the keyboard of the Remington Standard typewriter (c. 1886).[17] It appeared in many of the early teleprinter codes and from there was copied to ASCII, which made it available on computers and thus caused many more uses to be found for the character. The symbol was introduced on the bottom right button of touch-tone keypads in 1968, but that button was not extensively used until the advent of large-scale voicemail (PBX systems, etc.) in the early 1980s.[4]
+One of the uses in computers was to label the following text as having a different interpretation (such as a command or a comment) from the rest of the text. It was adopted for use within internet relay chat (IRC) networks circa 1988 to label groups and topics.[18] This usage inspired Chris Messina to propose a similar system to be used on Twitter to tag topics of interest on the microblogging network;[19][20] this became known as a hashtag. Although used initially and most popularly on Twitter, hashtag use has extended to other social media sites.[21]
+
+Number sign
+Pound sign or pound
+Hash, hash mark, hashmark
+Hashtag
+Hex
+Octothorp, octothorpe, octathorp, octatherp
+Sharp
+Square
+Other
+When ⟨#⟩ prefixes a number, it is read as "number". "A #2 pencil", for example, indicates "a number-two pencil". The abbreviations 'No.' and '№' are used commonly and interchangeably. The use of ⟨#⟩ as an abbreviation for "number" is common in informal writing, but use in print is rare.[43] Where Americans might write "Symphony #5", British and Irish people usually write "Symphony No. 5".
+When ⟨#⟩ is after a number, it is read as "pound" or "pounds", meaning the unit of weight. The text "5# bag of flour" would mean "five pound bag of flour". The abbreviations "lb." and "℔" are used commonly and interchangeably. This usage is rare outside North America, where 'lb' or 'lbs' is used.
+⟨#⟩ is not a replacement for the pound sign ⟨£⟩, but British typewriters and keyboards have a £ key where American keyboards have a # key.[44] Many early computer and teleprinter codes (such as BS 4730 (the UK national variant of the ISO/IEC 646 character set) substituted '£' for '#' to make the British versions, thus it was common for the same binary code to display as # on US equipment and £ on British equipment ('$' was not substituted to avoid confusing dollars and pounds in financial communications).
+In Unicode, several # characters are assigned. Other attested names in Unicode are: pound sign, hash, crosshatch, octothorpe.
+
+
+At least three orthographically distinct number signs from other languages are also assigned:
+On the standard US keyboard layout, the # symbol is ⇧ Shift+3. On standard UK and some other European keyboards, the same keystrokes produce the pound (sterling) sign, £ symbol, and # may be moved to a separate key above the right shift key. If there is no key, the symbol can be produced on Windows with Alt+35, on Mac OS with ⌥ Opt+3, and on Linux with Compose++.
+
+
+
+Information box
+{'In Unicode': 'U+0023 # NUMBER SIGN (&num;)', 'Different from': 'U+266F ♯ MUSIC SHARP SIGN\nU+2317 ⌗ VIEWDATA SQUARE\nU+22D5 ⋕ EQUAL AND PARALLEL TO', 'See also': 'U+00A3 £ POUND SIGN\nU+2116 № NUMERO SIGN'}

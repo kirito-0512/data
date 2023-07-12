@@ -1,0 +1,320 @@
+29388,
+Shefferstroke,
+
+In Boolean functions and propositional calculus, the Sheffer stroke denotes a logical operation that is equivalent to the negation of the conjunction operation, expressed in ordinary language as "not both". It is also called non-conjunction, or alternative denial since it says in effect that at least one of its operands is false, or NAND ("not and"). In digital electronics, it corresponds to the NAND gate. It is named after Henry Maurice Sheffer and written as 
+
+
+
+∣
+
+
+{\displaystyle \mid }
+
+ or as 
+
+
+
+↑
+
+
+{\displaystyle \uparrow }
+
+ or as 
+
+
+
+
+
+∧
+¯
+
+
+
+
+{\displaystyle {\overline {\wedge }}}
+
+ or as 
+
+
+
+D
+p
+q
+
+
+{\displaystyle Dpq}
+
+ in Polish notation by Łukasiewicz (but not as ||, often used to represent disjunction).
+Its dual is the NOR operator (also known as the Peirce arrow, Quine dagger or Webb operator). Like its dual, NAND can be used by itself, without any other logical operator, to constitute a logical formal system (making NAND functionally complete). This property makes the NAND gate crucial to modern digital electronics, including its use in computer processor design.
+The non-conjunction is a logical operation on two logical values.  It produces a value of true, if — and only if — at least one of the propositions is false.
+The truth table of 
+
+
+
+P
+↑
+Q
+
+
+{\displaystyle P\uparrow Q}
+
+ is as follows.
+The Sheffer stroke of 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ and 
+
+
+
+Q
+
+
+{\displaystyle Q}
+
+ is the negation of their conjunction
+By De Morgan's laws, this is also equivalent to the disjunction of the negations of 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ and 
+
+
+
+Q
+
+
+{\displaystyle Q}
+
+
+Peirce is the first to show the functional completeness of non-conjunction while he doesn't publish his result.[1][2] Peirce used 
+
+
+
+
+
+⋏
+¯
+
+
+
+
+{\displaystyle {\overline {\curlywedge }}}
+
+ for non-conjunction and 
+
+
+
+⋏
+
+
+{\displaystyle \curlywedge }
+
+ for non-disjunction (in fact, what Peirce himself used is 
+
+
+
+⋏
+
+
+{\displaystyle \curlywedge }
+
+ and he doesn't introduce 
+
+
+
+
+
+⋏
+¯
+
+
+
+
+{\displaystyle {\overline {\curlywedge }}}
+
+ while Peirce's editor made such disambiguated use).[2] While we almost don't make such uses anymore nowadays.
+In 1911, Stamm described non-conjunction and non-disjunction in print at the first time and showed the functional completeness of them.[3] Stamm used 
+
+
+
+∼
+
+
+{\displaystyle \sim }
+
+ for non-conjunction, and so the operator is also called Stamm hook by some people.[4] While it's not appropriate since neither Stamm is the first to show the functional completeness of non-conjunction nor we use 
+
+
+
+∼
+
+
+{\displaystyle \sim }
+
+ for non-conjunction nowadays.
+In 1913, Sheffer described non-disjunction but not non-conjunction, and showed the functional completeness of non-disjunction. Sheffer used 
+
+
+
+∣
+
+
+{\displaystyle \mid }
+
+ for some algebraic operation, and 
+
+
+
+∧
+
+
+{\displaystyle \wedge }
+
+ for non-disjunction. While it's strange that many people including Nicod, Whitehead, Russell and many followers mistook that Sheffer described non-conjunction and showed the functional completeness of the operator and use 
+
+
+
+∣
+
+
+{\displaystyle \mid }
+
+ for the operator, and it's also strange that they call the operator Sheffer stroke. Those are clearly not appropriate.
+In 1917, Nicod again described non-conjunction and showed the functional completeness of it.[5] Stamm use 
+
+
+
+∣
+
+
+{\displaystyle \mid }
+
+ for non-conjunction because he mistook that Sheffer described the operator and showed the functional completeness of the operator and use 
+
+
+
+∣
+
+
+{\displaystyle \mid }
+
+ for the operator. So it's Nicod who is the first to use 
+
+
+
+∣
+
+
+{\displaystyle \mid }
+
+ for non-conjunction.
+In 1928, Hilbert and Ackermann described non-conjunction and used 
+
+
+
+
+/
+
+
+
+{\displaystyle /}
+
+ for the operator.[6][7]
+In 1929, Łukasiewicz use 
+
+
+
+D
+
+
+{\displaystyle D}
+
+ in 
+
+
+
+D
+p
+q
+
+
+{\displaystyle Dpq}
+
+ for non-conjunction in his Polish notation.[8]
+There is another alternative notation for non-conjunction: 
+
+
+
+↑
+
+
+{\displaystyle \uparrow }
+
+ corresponding to 
+
+
+
+↓
+
+
+{\displaystyle \downarrow }
+
+ for non-disjunction by Quine in 1940,[9] while it's not clear who introduced 
+
+
+
+↑
+
+
+{\displaystyle \uparrow }
+
+ for non-conjunction.
+The stroke is named after Henry Maurice Sheffer, who in 1913 published a paper in the Transactions of the American Mathematical Society[10] providing an axiomatization of Boolean algebras using the stroke, and proved its equivalence to a standard formulation thereof by Huntington employing the familiar operators of propositional logic (AND, OR, NOT). Because of self-duality of Boolean algebras, Sheffer's axioms are equally valid for either of the NAND or NOR operations in place of the stroke. Sheffer interpreted the stroke as a sign for nondisjunction (NOR) in his paper, mentioning non-conjunction only in a footnote and without a special sign for it. It was Jean Nicod who first used the stroke as a sign for non-conjunction (NAND) in a paper of 1917 and which has since become current practice.[5][11] Russell and Whitehead used the Sheffer stroke in the 1927 second edition of Principia Mathematica and suggested it as a replacement for the "OR" and "NOT" operations of the first edition.
+Charles Sanders Peirce (1880) had discovered the functional completeness of NAND or NOR more than 30 years earlier, using the term ampheck (for 'cutting both ways'), but he never published his finding. Two years before Sheffer, Edward Stamm [pl] also described the NAND and NOR operators and showed that the other Boolean operations could be expressed by it.[3]
+NAND does not possess any of the following five properties, each of which is required to be absent from, and the absence of all of which is sufficient for, at least one member of a set of functionally complete operators: truth-preservation, falsity-preservation, linearity, monotonicity, self-duality. (An operator is truth- (or falsity-)preserving if its value is truth (falsity) whenever all of its arguments are truth (falsity).) Therefore {NAND} is a functionally complete set.
+This can also be realized as follows: All three elements of the functionally complete set {AND, OR, NOT} can be constructed using only NAND. Thus the set {NAND} must be functionally complete as well.
+Expressed in terms of NAND 
+
+
+
+↑
+
+
+{\displaystyle \uparrow }
+
+, the usual operators of propositional logic are:
+The following is an example of a formal system based entirely on the Sheffer stroke, yet having the functional expressiveness of the propositional logic:
+pn for natural numbers n:
+The Sheffer stroke commutes but does not associate (e.g., (T | T) | F = T, but T | (T | F) = F). Hence any formal system including the Sheffer stroke as an infix symbol must also include a means of indicating grouping (grouping is automatic if the stroke is used as a prefix, thus: || TTF = T and | T | TF = F). We shall employ '(' and ')' to this effect.
+We also write p, q, r, … instead of p0, p1, p2.
+Construction rule I: For each natural number n, the symbol pn is a well-formed formula (WFF), called an atom.
+Construction rule II: If X and Y are WFFs, then (X | Y) is a WFF.
+Closure rule: Any formulae which cannot be constructed by means of the first two construction rules are not WFFs.
+The letters U, V, W, X, and Y are metavariables standing for WFFs.
+A decision procedure for determining whether a formula is well-formed goes as follows: "deconstruct" the formula by applying the construction rules backwards, thereby breaking the formula into smaller subformulae. Then repeat this recursive deconstruction process to each of the subformulae. Eventually the formula should be reduced to its atoms, but if some subformula cannot be so reduced, then the formula is not a WFF.
+All WFFs of the form
+are axioms. Instances of
+are inference rules.
+Since the only connective of this logic is |, the symbol | could be discarded altogether, leaving only the parentheses to group the letters. A pair of parentheses must always enclose a pair of WFFs. Examples of theorems in this simplified notation are
+The notation can be simplified further, by letting
+for any U. This simplification causes the need to change some rules:
+The result is a parenthetical version of the Peirce existential graphs.
+Another way to simplify the notation is to eliminate parentheses by using Polish notation (PN). For example, the earlier examples with only parentheses could be rewritten using only strokes as follows
+This follows the same rules as the parenthesis version, with the opening parenthesis replaced with a Sheffer stroke and the (redundant) closing parenthesis removed.
+Or (for some formulas) one could omit both parentheses and strokes and allow the order of the arguments to determine the order of function application so that for example, applying the function from right to left (reverse Polish notation – any other unambiguous convention based on ordering would do)
+
+
+
+Information box
+{'Definition': '', 'Truth table': '', 'Logic gate': '', 'Disjunctive': '', 'Conjunctive': '', 'Zhegalkin polynomial': '', '0-preserving': 'no', '1-preserving': 'no', 'Monotone': 'no', 'Affine': 'no'}

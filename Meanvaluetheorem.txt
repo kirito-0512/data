@@ -1,0 +1,3034 @@
+19662,
+Meanvaluetheorem,
+In mathematics, the mean value theorem (or Lagrange theorem) states, roughly, that for a given planar arc between two endpoints, there is at least one point at which the tangent to the arc is parallel to the secant through its endpoints. It is one of the most important results in real analysis. This theorem is used to prove statements about a function on an interval starting from local hypotheses about derivatives at points of the interval.
+More precisely, the theorem states that if 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is a continuous function on the closed interval 
+
+
+
+[
+a
+,
+b
+]
+
+
+{\displaystyle [a,b]}
+
+ and differentiable on the open interval 
+
+
+
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a,b)}
+
+, then there exists a point 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ in 
+
+
+
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a,b)}
+
+ such that the tangent at 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ is parallel to the secant line through the endpoints 
+
+
+
+
+
+(
+
+
+a
+,
+f
+(
+a
+)
+
+
+)
+
+
+
+
+{\displaystyle {\big (}a,f(a){\big )}}
+
+ and 
+
+
+
+
+
+(
+
+
+b
+,
+f
+(
+b
+)
+
+
+)
+
+
+
+
+{\displaystyle {\big (}b,f(b){\big )}}
+
+, that is,
+A special case of this theorem for inverse interpolation of the sine was first described by Parameshvara (1380–1460), from the Kerala School of Astronomy and Mathematics in India, in his commentaries on Govindasvāmi and Bhāskara II.[1] A restricted form of the theorem was proved by Michel Rolle in 1691; the result was what is now known as Rolle's theorem, and was proved only for polynomials, without the techniques of calculus. The mean value theorem in its modern form was stated and proved by Augustin Louis Cauchy in 1823.[2] Many variations of this theorem have been proved since then.[3][4]
+Let 
+
+
+
+f
+:
+[
+a
+,
+b
+]
+→
+
+R
+
+
+
+{\displaystyle f:[a,b]\to \mathbb {R} }
+
+ be a continuous function on the closed interval 
+
+
+
+[
+a
+,
+b
+]
+
+
+{\displaystyle [a,b]}
+
+, and differentiable on the open interval 
+
+
+
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a,b)}
+
+, where 
+
+
+
+a
+<
+b
+
+
+{\displaystyle a<b}
+
+. Then there exists some 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ in 
+
+
+
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a,b)}
+
+ such that
+The mean value theorem is a generalization of Rolle's theorem, which assumes 
+
+
+
+f
+(
+a
+)
+=
+f
+(
+b
+)
+
+
+{\displaystyle f(a)=f(b)}
+
+, so that the right-hand side above is zero.
+The mean value theorem is still valid in a slightly more general setting. One only needs to assume that 
+
+
+
+f
+:
+[
+a
+,
+b
+]
+→
+
+R
+
+
+
+{\displaystyle f:[a,b]\to \mathbb {R} }
+
+ is continuous on 
+
+
+
+[
+a
+,
+b
+]
+
+
+{\displaystyle [a,b]}
+
+, and that for every 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in 
+
+
+
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a,b)}
+
+ the limit
+exists as a finite number or equals 
+
+
+
+∞
+
+
+{\displaystyle \infty }
+
+ or 
+
+
+
+−
+∞
+
+
+{\displaystyle -\infty }
+
+. If finite, that limit equals 
+
+
+
+
+f
+′
+
+(
+x
+)
+
+
+{\displaystyle f'(x)}
+
+. An example where this version of the theorem applies is given by the real-valued cube root function mapping 
+
+
+
+x
+↦
+
+x
+
+1
+
+/
+
+3
+
+
+
+
+{\displaystyle x\mapsto x^{1/3}}
+
+, whose derivative tends to infinity at the origin.
+The theorem, as stated, is false if a differentiable function is complex-valued instead of real-valued. For example, define 
+
+
+
+f
+(
+x
+)
+=
+
+e
+
+x
+i
+
+
+
+
+{\displaystyle f(x)=e^{xi}}
+
+ for all real 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. Then
+while 
+
+
+
+
+f
+′
+
+(
+x
+)
+≠
+0
+
+
+{\displaystyle f'(x)\neq 0}
+
+ for any real 
+
+
+
+x
+
+
+{\displaystyle x}
+
+.
+These formal statements are also known as Lagrange's Mean Value Theorem.[5]
+The expression 
+
+
+
+
+
+
+f
+(
+b
+)
+−
+f
+(
+a
+)
+
+
+b
+−
+a
+
+
+
+
+
+{\textstyle {\frac {f(b)-f(a)}{b-a}}}
+
+ gives the slope of the line joining the points 
+
+
+
+(
+a
+,
+f
+(
+a
+)
+)
+
+
+{\displaystyle (a,f(a))}
+
+ and 
+
+
+
+(
+b
+,
+f
+(
+b
+)
+)
+
+
+{\displaystyle (b,f(b))}
+
+, which is a chord of the graph of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, while 
+
+
+
+
+f
+′
+
+(
+x
+)
+
+
+{\displaystyle f'(x)}
+
+ gives the slope of the tangent to the curve at the point 
+
+
+
+(
+x
+,
+f
+(
+x
+)
+)
+
+
+{\displaystyle (x,f(x))}
+
+. Thus the mean value theorem says that given any chord of a smooth curve, we can find a point on the curve lying between the end-points of the chord such that the tangent of the curve at that point is parallel to the chord. The following proof illustrates this idea.
+Define 
+
+
+
+g
+(
+x
+)
+=
+f
+(
+x
+)
+−
+r
+x
+
+
+{\displaystyle g(x)=f(x)-rx}
+
+, where 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ is a constant. Since 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is continuous on 
+
+
+
+[
+a
+,
+b
+]
+
+
+{\displaystyle [a,b]}
+
+ and differentiable on 
+
+
+
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a,b)}
+
+, the same is true for 
+
+
+
+g
+
+
+{\displaystyle g}
+
+. We now want to choose 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ so that 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ satisfies the conditions of Rolle's theorem. Namely
+By Rolle's theorem, since 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ is differentiable and 
+
+
+
+g
+(
+a
+)
+=
+g
+(
+b
+)
+
+
+{\displaystyle g(a)=g(b)}
+
+, there is some 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ in 
+
+
+
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a,b)}
+
+ for which 
+
+
+
+
+g
+′
+
+(
+c
+)
+=
+0
+
+
+{\displaystyle g'(c)=0}
+
+ , and it follows from the equality 
+
+
+
+g
+(
+x
+)
+=
+f
+(
+x
+)
+−
+r
+x
+
+
+{\displaystyle g(x)=f(x)-rx}
+
+ that,
+Theorem 1: Assume that f is a continuous, real-valued function, defined on an arbitrary interval I of the real line. If the derivative of f at every interior point of the interval I exists and is zero, then f is constant in the interior.
+Proof: Assume the derivative of f at every interior point of the interval I exists and is zero. Let (a, b) be an arbitrary open interval in I. By the mean value theorem,[6] there exists a point c in (a, b) such that
+This implies that f(a) = f(b). Thus, f is constant on the interior of I and thus is constant on I by continuity. (See below for a multivariable version of this result.)
+Remarks:
+Theorem 2: If f' (x) = g' (x) for all x in an interval (a, b) of the domain of these functions, then f - g is constant, i.e. f = g + c where c is a constant on (a, b).
+Proof: Let F = f − g, then F' = f' − g' = 0 on the interval (a, b), so the above theorem 1 tells that F = f − g is a constant c or f = g + c.
+Theorem 3: If F is an antiderivative of f on an interval I, then the most general antiderivative of f on I is F(x) + c where c is a constant.
+Proof: It directly follows from the theorem 2 above.
+Cauchy's mean value theorem, also known as the extended mean value theorem,[7] is a generalization of the mean value theorem. It states: if the functions 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ and 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ are both continuous on the closed interval 
+
+
+
+[
+a
+,
+b
+]
+
+
+{\displaystyle [a,b]}
+
+ and differentiable on the open interval 
+
+
+
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a,b)}
+
+, then there exists some 
+
+
+
+c
+∈
+(
+a
+,
+b
+)
+
+
+{\displaystyle c\in (a,b)}
+
+, such that[5]
+Of course, if 
+
+
+
+g
+(
+a
+)
+≠
+g
+(
+b
+)
+
+
+{\displaystyle g(a)\neq g(b)}
+
+ and 
+
+
+
+
+g
+′
+
+(
+c
+)
+≠
+0
+
+
+{\displaystyle g'(c)\neq 0}
+
+, this is equivalent to:
+Geometrically, this means that there is some tangent to the graph of the curve[8]
+which is parallel to the line defined by the points 
+
+
+
+(
+f
+(
+a
+)
+,
+g
+(
+a
+)
+)
+
+
+{\displaystyle (f(a),g(a))}
+
+ and 
+
+
+
+(
+f
+(
+b
+)
+,
+g
+(
+b
+)
+)
+
+
+{\displaystyle (f(b),g(b))}
+
+. However, Cauchy's theorem does not claim the existence of such a tangent in all cases where 
+
+
+
+(
+f
+(
+a
+)
+,
+g
+(
+a
+)
+)
+
+
+{\displaystyle (f(a),g(a))}
+
+ and 
+
+
+
+(
+f
+(
+b
+)
+,
+g
+(
+b
+)
+)
+
+
+{\displaystyle (f(b),g(b))}
+
+ are distinct points, since it might be satisfied only for some value 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ with 
+
+
+
+
+f
+′
+
+(
+c
+)
+=
+
+g
+′
+
+(
+c
+)
+=
+0
+
+
+{\displaystyle f'(c)=g'(c)=0}
+
+, in other words a value for which the mentioned curve is stationary; in such points no tangent to the curve is likely to be defined at all. An example of this situation is the curve given by
+which on the interval 
+
+
+
+[
+−
+1
+,
+1
+]
+
+
+{\displaystyle [-1,1]}
+
+ goes from the point 
+
+
+
+(
+−
+1
+,
+0
+)
+
+
+{\displaystyle (-1,0)}
+
+ to 
+
+
+
+(
+1
+,
+0
+)
+
+
+{\displaystyle (1,0)}
+
+, yet never has a horizontal tangent; however it has a stationary point (in fact a cusp) at 
+
+
+
+t
+=
+0
+
+
+{\displaystyle t=0}
+
+.
+Cauchy's mean value theorem can be used to prove L'Hôpital's rule. The mean value theorem is the special case of Cauchy's mean value theorem when 
+
+
+
+g
+(
+t
+)
+=
+t
+
+
+{\displaystyle g(t)=t}
+
+.
+The proof of Cauchy's mean value theorem is based on the same idea as the proof of the mean value theorem.
+Assume that 
+
+
+
+f
+,
+g
+,
+
+
+{\displaystyle f,g,}
+
+ and 
+
+
+
+h
+
+
+{\displaystyle h}
+
+ are differentiable functions on 
+
+
+
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a,b)}
+
+ that are continuous on 
+
+
+
+[
+a
+,
+b
+]
+
+
+{\displaystyle [a,b]}
+
+. Define
+There exists 
+
+
+
+c
+∈
+(
+a
+,
+b
+)
+
+
+{\displaystyle c\in (a,b)}
+
+ such that 
+
+
+
+
+D
+′
+
+(
+c
+)
+=
+0
+
+
+{\displaystyle D'(c)=0}
+
+.
+Notice that
+and if we place 
+
+
+
+h
+(
+x
+)
+=
+1
+
+
+{\displaystyle h(x)=1}
+
+, we get Cauchy's mean value theorem. If we place 
+
+
+
+h
+(
+x
+)
+=
+1
+
+
+{\displaystyle h(x)=1}
+
+ and 
+
+
+
+g
+(
+x
+)
+=
+x
+
+
+{\displaystyle g(x)=x}
+
+ we get Lagrange's mean value theorem.
+The proof of the generalization is quite simple: each of 
+
+
+
+D
+(
+a
+)
+
+
+{\displaystyle D(a)}
+
+ and 
+
+
+
+D
+(
+b
+)
+
+
+{\displaystyle D(b)}
+
+ are determinants with two identical rows, hence 
+
+
+
+D
+(
+a
+)
+=
+D
+(
+b
+)
+=
+0
+
+
+{\displaystyle D(a)=D(b)=0}
+
+. The Rolle's theorem implies that there exists 
+
+
+
+c
+∈
+(
+a
+,
+b
+)
+
+
+{\displaystyle c\in (a,b)}
+
+ such that 
+
+
+
+
+D
+′
+
+(
+c
+)
+=
+0
+
+
+{\displaystyle D'(c)=0}
+
+.
+The mean value theorem generalizes to real functions of multiple variables. The trick is to use parametrization to create a real function of one variable, and then apply the one-variable theorem.
+Let 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ be an open subset of 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+, and let 
+
+
+
+f
+:
+G
+→
+
+R
+
+
+
+{\displaystyle f:G\to \mathbb {R} }
+
+ be a differentiable function. Fix points 
+
+
+
+x
+,
+y
+∈
+G
+
+
+{\displaystyle x,y\in G}
+
+ such that the line segment between 
+
+
+
+x
+,
+y
+
+
+{\displaystyle x,y}
+
+ lies in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, and define 
+
+
+
+g
+(
+t
+)
+=
+f
+
+
+(
+
+
+(
+1
+−
+t
+)
+x
++
+t
+y
+
+
+)
+
+
+
+
+{\displaystyle g(t)=f{\big (}(1-t)x+ty{\big )}}
+
+. Since 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ is a differentiable function in one variable, the mean value theorem gives:
+for some 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ between 0 and 1. But since 
+
+
+
+g
+(
+1
+)
+=
+f
+(
+y
+)
+
+
+{\displaystyle g(1)=f(y)}
+
+ and 
+
+
+
+g
+(
+0
+)
+=
+f
+(
+x
+)
+
+
+{\displaystyle g(0)=f(x)}
+
+, computing 
+
+
+
+
+g
+′
+
+(
+c
+)
+
+
+{\displaystyle g'(c)}
+
+ explicitly we have:
+where 
+
+
+
+∇
+
+
+{\displaystyle \nabla }
+
+ denotes a gradient and 
+
+
+
+⋅
+
+
+{\displaystyle \cdot }
+
+ a dot product. This is an exact analog of the theorem in one variable (in the case 
+
+
+
+n
+=
+1
+
+
+{\displaystyle n=1}
+
+ this is the theorem in one variable). By the Cauchy–Schwarz inequality, the equation gives the estimate:
+In particular, when the partial derivatives of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ are bounded, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is Lipschitz continuous (and therefore uniformly continuous).
+As an application of the above, we prove that 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is constant if the open subset 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is connected and every partial derivative of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is 0. Pick some point 
+
+
+
+
+x
+
+0
+
+
+∈
+G
+
+
+{\displaystyle x_{0}\in G}
+
+, and let 
+
+
+
+g
+(
+x
+)
+=
+f
+(
+x
+)
+−
+f
+(
+
+x
+
+0
+
+
+)
+
+
+{\displaystyle g(x)=f(x)-f(x_{0})}
+
+. We want to show 
+
+
+
+g
+(
+x
+)
+=
+0
+
+
+{\displaystyle g(x)=0}
+
+ for every 
+
+
+
+x
+∈
+G
+
+
+{\displaystyle x\in G}
+
+. For that, let 
+
+
+
+E
+=
+{
+x
+∈
+G
+:
+g
+(
+x
+)
+=
+0
+}
+
+
+{\displaystyle E=\{x\in G:g(x)=0\}}
+
+. Then E is closed and nonempty. It is open too: for every 
+
+
+
+x
+∈
+E
+
+
+{\displaystyle x\in E}
+
+ ,
+for every 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ in some neighborhood of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. (Here, it is crucial that 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ are sufficiently close to each other.) Since 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is connected, we conclude 
+
+
+
+E
+=
+G
+
+
+{\displaystyle E=G}
+
+.
+The above arguments are made in a coordinate-free manner; hence, they generalize to the case when 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is a subset of a Banach space.
+There is no exact analog of the mean value theorem for vector-valued functions (see below). However, there is an inequality which can be applied to many of the same situations to which the mean value theorem is applicable in the one dimensional case:[9]
+Theorem — For a continuous vector-valued function 
+
+
+
+
+f
+
+:
+[
+a
+,
+b
+]
+→
+
+
+R
+
+
+k
+
+
+
+
+{\displaystyle \mathbf {f} :[a,b]\to \mathbb {R} ^{k}}
+
+ differentiable on 
+
+
+
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a,b)}
+
+, there exists a number 
+
+
+
+c
+∈
+(
+a
+,
+b
+)
+
+
+{\displaystyle c\in (a,b)}
+
+ such that
+The theorem follows from the mean value theorem. Indeed, take 
+
+
+
+φ
+(
+t
+)
+=
+(
+
+
+f
+
+
+(
+b
+)
+−
+
+
+f
+
+
+(
+a
+)
+)
+⋅
+
+
+f
+
+
+(
+t
+)
+
+
+{\displaystyle \varphi (t)=({\textbf {f}}(b)-{\textbf {f}}(a))\cdot {\textbf {f}}(t)}
+
+. Then 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ is real-valued and thus, by the mean value theorem,
+for some 
+
+
+
+c
+∈
+(
+a
+,
+b
+)
+
+
+{\displaystyle c\in (a,b)}
+
+. Now, 
+
+
+
+φ
+(
+b
+)
+−
+φ
+(
+a
+)
+=
+
+|
+
+
+
+f
+
+
+(
+b
+)
+−
+
+
+f
+
+
+(
+a
+)
+
+
+|
+
+
+2
+
+
+
+
+{\displaystyle \varphi (b)-\varphi (a)=|{\textbf {f}}(b)-{\textbf {f}}(a)|^{2}}
+
+ and 
+
+
+
+
+φ
+′
+
+(
+c
+)
+=
+(
+
+
+f
+
+
+(
+b
+)
+−
+
+
+f
+
+
+(
+a
+)
+)
+⋅
+
+
+
+f
+
+
+′
+
+(
+c
+)
+.
+
+
+{\displaystyle \varphi '(c)=({\textbf {f}}(b)-{\textbf {f}}(a))\cdot {\textbf {f}}'(c).}
+
+ Hence, using the Cauchy–Schwarz inequality, from the above equation, we get:
+If 
+
+
+
+
+
+f
+
+
+(
+b
+)
+=
+
+
+f
+
+
+(
+a
+)
+
+
+{\displaystyle {\textbf {f}}(b)={\textbf {f}}(a)}
+
+, the theorem is trivial (any c works). Otherwise, dividing both sides by 
+
+
+
+
+|
+
+
+
+f
+
+
+(
+b
+)
+−
+
+
+f
+
+
+(
+a
+)
+
+|
+
+
+
+{\displaystyle |{\textbf {f}}(b)-{\textbf {f}}(a)|}
+
+ yields the theorem. 
+
+
+
+◻
+
+
+{\displaystyle \square }
+
+
+Jean Dieudonné in his classic treatise Foundations of Modern Analysis discards the mean value theorem and replaces it by mean inequality (which is given below) as the proof is not constructive and one cannot find the mean value and in applications one only needs mean inequality. Serge Lang in Analysis I uses the mean value theorem, in integral form, as an instant reflex but this use requires the continuity of the derivative. If one uses the Henstock–Kurzweil integral one can have the mean value theorem in integral form without the additional assumption that derivative should be continuous as every derivative is Henstock–Kurzweil integrable.
+The reason why there is no analog of mean value equality is the following: If f : U → Rm is a differentiable function (where U ⊂ Rn is open) and if x + th, x, h ∈ Rn, t ∈ [0, 1] is the line segment in question (lying inside U), then one can apply the above parametrization procedure to each of the component functions fi (i = 1, …, m) of f (in the above notation set y = x + h). In doing so one finds points x + tih on the line segment satisfying
+But generally there will not be a single point x + t*h on the line segment satisfying
+for all i simultaneously. For example, define:
+Then 
+
+
+
+f
+(
+2
+π
+)
+−
+f
+(
+0
+)
+=
+
+0
+
+∈
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle f(2\pi )-f(0)=\mathbf {0} \in \mathbb {R} ^{2}}
+
+, but 
+
+
+
+
+f
+
+1
+
+′
+
+(
+x
+)
+=
+−
+sin
+⁡
+(
+x
+)
+
+
+{\displaystyle f_{1}'(x)=-\sin(x)}
+
+ and 
+
+
+
+
+f
+
+2
+
+′
+
+(
+x
+)
+=
+cos
+⁡
+(
+x
+)
+
+
+{\displaystyle f_{2}'(x)=\cos(x)}
+
+ are never simultaneously zero as 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ ranges over 
+
+
+
+
+[
+
+0
+,
+2
+π
+
+]
+
+
+
+{\displaystyle \left[0,2\pi \right]}
+
+.
+The above theorem implies the following:
+Mean value inequality — [10]For a continuous function 
+
+
+
+
+
+f
+
+
+:
+[
+a
+,
+b
+]
+→
+
+
+R
+
+
+k
+
+
+
+
+{\displaystyle {\textbf {f}}:[a,b]\to \mathbb {R} ^{k}}
+
+, if 
+
+
+
+
+
+f
+
+
+
+
+{\displaystyle {\textbf {f}}}
+
+ is differentiable on 
+
+
+
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a,b)}
+
+, then
+In fact, the above statement suffices for many applications and can be proved directly as follows. (We shall write 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ for 
+
+
+
+
+
+f
+
+
+
+
+{\displaystyle {\textbf {f}}}
+
+ for readability.) First assume 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is differentiable at 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ too. If 
+
+
+
+
+f
+′
+
+
+
+{\displaystyle f'}
+
+ is unbounded on 
+
+
+
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a,b)}
+
+, there is nothing to prove. Thus, assume 
+
+
+
+
+sup
+
+(
+a
+,
+b
+)
+
+
+
+|
+
+
+f
+′
+
+
+|
+
+<
+∞
+
+
+{\displaystyle \sup _{(a,b)}|f'|<\infty }
+
+. Let 
+
+
+
+M
+>
+
+sup
+
+(
+a
+,
+b
+)
+
+
+
+|
+
+
+f
+′
+
+
+|
+
+
+
+{\displaystyle M>\sup _{(a,b)}|f'|}
+
+ be some real number. Let
+We want to show 
+
+
+
+1
+∈
+E
+
+
+{\displaystyle 1\in E}
+
+. By continuity of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, the set 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ is closed. It is also nonempty as 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+ is in it. Hence, the set 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ has the largest element 
+
+
+
+s
+
+
+{\displaystyle s}
+
+. If 
+
+
+
+s
+=
+1
+
+
+{\displaystyle s=1}
+
+, then 
+
+
+
+1
+∈
+E
+
+
+{\displaystyle 1\in E}
+
+ and we are done. Thus suppose otherwise. For 
+
+
+
+1
+>
+t
+>
+s
+
+
+{\displaystyle 1>t>s}
+
+,
+Let 
+
+
+
+ϵ
+>
+0
+
+
+{\displaystyle \epsilon >0}
+
+ be such that 
+
+
+
+M
+−
+ϵ
+>
+
+sup
+
+(
+a
+,
+b
+)
+
+
+
+|
+
+
+f
+′
+
+
+|
+
+
+
+{\displaystyle M-\epsilon >\sup _{(a,b)}|f'|}
+
+. By the differentiability of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ at 
+
+
+
+a
++
+s
+(
+b
+−
+a
+)
+
+
+{\displaystyle a+s(b-a)}
+
+ (note 
+
+
+
+s
+
+
+{\displaystyle s}
+
+ may be 0), if 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ is sufficiently close to 
+
+
+
+s
+
+
+{\displaystyle s}
+
+, the first term is 
+
+
+
+≤
+ϵ
+(
+t
+−
+s
+)
+(
+b
+−
+a
+)
+
+
+{\displaystyle \leq \epsilon (t-s)(b-a)}
+
+. The second term is 
+
+
+
+≤
+(
+M
+−
+ϵ
+)
+(
+t
+−
+s
+)
+(
+b
+−
+a
+)
+
+
+{\displaystyle \leq (M-\epsilon )(t-s)(b-a)}
+
+. The third term is 
+
+
+
+≤
+M
+s
+(
+b
+−
+a
+)
+
+
+{\displaystyle \leq Ms(b-a)}
+
+. Hence, summing the estimates up, we get: 
+
+
+
+
+|
+
+f
+(
+a
++
+t
+(
+b
+−
+a
+)
+)
+−
+f
+(
+a
+)
+
+|
+
+≤
+t
+M
+
+|
+
+b
+−
+a
+
+|
+
+
+
+{\displaystyle |f(a+t(b-a))-f(a)|\leq tM|b-a|}
+
+, a contradiction to the maximality of 
+
+
+
+s
+
+
+{\displaystyle s}
+
+. Hence, 
+
+
+
+1
+=
+s
+∈
+M
+
+
+{\displaystyle 1=s\in M}
+
+ and that means:
+Since 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ is arbitrary, this then implies the assertion. Finally, if 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is not differentiable at 
+
+
+
+a
+
+
+{\displaystyle a}
+
+, let 
+
+
+
+
+a
+′
+
+∈
+(
+a
+,
+b
+)
+
+
+{\displaystyle a'\in (a,b)}
+
+ and apply the first case to 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ restricted on 
+
+
+
+[
+
+a
+′
+
+,
+b
+]
+
+
+{\displaystyle [a',b]}
+
+, giving us:
+since 
+
+
+
+(
+
+a
+′
+
+,
+b
+)
+⊂
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a',b)\subset (a,b)}
+
+. Letting 
+
+
+
+
+a
+′
+
+→
+a
+
+
+{\displaystyle a'\to a}
+
+ finishes the proof. 
+
+
+
+◻
+
+
+{\displaystyle \square }
+
+
+For some applications of mean value inequality to establish basic results in calculus, see also Calculus on Euclidean space#Basic notions.
+A certain type of generalization of the mean value theorem to vector-valued functions is obtained as follows: Let f be a continuously differentiable real-valued function defined on an open interval I, and let x as well as x + h be points of I. The mean value theorem in one variable tells us that there exists some t* between 0 and 1 such that
+On the other hand, we have, by the fundamental theorem of calculus followed by a change of variables,
+Thus, the value f′(x + t*h) at the particular point t* has been replaced by the mean value
+This last version can be generalized to vector valued functions:
+Proposition — Let U ⊂ Rn be open, f : U → Rm continuously differentiable, and x ∈ U, h ∈ Rn vectors such that the line segment x + th,  0 ≤ t ≤ 1 remains in U. Then we have:
+where Df denotes the Jacobian matrix of f and the integral of a matrix is to be understood componentwise.
+Proof. Let f1, …, fm denote the components of f and define:
+Then we have
+The claim follows since Df is the matrix consisting of the components 
+
+
+
+
+
+
+
+∂
+
+f
+
+i
+
+
+
+
+∂
+
+x
+
+j
+
+
+
+
+
+
+
+
+{\displaystyle {\tfrac {\partial f_{i}}{\partial x_{j}}}}
+
+. 
+
+
+
+◻
+
+
+{\displaystyle \square }
+
+
+The mean value inequality can then be obtained as a corollary of the above proposition (though under the assumption the derivatives are continuous).[11]
+Both conditions for the mean value theorem are necessary:
+Where one of the above conditions is not satisfied, the mean value theorem is not valid in general, and so it cannot be applied.
+The necessity of the first condition can be seen by the counterexample where the function 
+
+
+
+f
+(
+x
+)
+=
+
+|
+
+x
+
+|
+
+
+
+{\displaystyle f(x)=|x|}
+
+ on [-1,1] is not differentiable.
+The necessity of the second condition can be seen by the counterexample where the function 
+
+
+
+f
+(
+x
+)
+=
+
+
+{
+
+
+
+1
+,
+
+
+
+at 
+
+x
+=
+0
+
+
+
+
+0
+,
+
+
+
+if 
+
+x
+∈
+(
+0
+,
+1
+]
+
+
+
+
+
+
+
+
+{\displaystyle f(x)={\begin{cases}1,&{\text{at }}x=0\\0,&{\text{if }}x\in (0,1]\end{cases}}}
+
+
+
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ satisfies criteria 1 since 
+
+
+
+
+f
+′
+
+(
+x
+)
+=
+0
+
+
+{\displaystyle f'(x)=0}
+
+ on 
+
+
+
+(
+0
+,
+1
+)
+
+
+{\displaystyle (0,1)}
+
+
+But not criteria 2 since 
+
+
+
+
+
+
+f
+(
+1
+)
+−
+f
+(
+0
+)
+
+
+1
+−
+0
+
+
+
+=
+−
+1
+
+
+{\displaystyle {\frac {f(1)-f(0)}{1-0}}=-1}
+
+ and 
+
+
+
+−
+1
+≠
+0
+=
+
+f
+′
+
+(
+x
+)
+
+
+{\displaystyle -1\neq 0=f'(x)}
+
+ for all 
+
+
+
+x
+∈
+(
+0
+,
+1
+)
+
+
+{\displaystyle x\in (0,1)}
+
+ so no such 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ exists
+Let f : [a, b] → R be a continuous function. Then there exists c in (a, b) such that
+Since the mean value of f on [a, b] is defined as
+we can interpret the conclusion as f achieves its mean value at some c in (a, b).[13]
+In general, if f : [a, b] → R is continuous and g is an integrable function that does not change sign on [a, b], then there exists c in (a, b) such that
+Suppose f : [a, b] → R is continuous and g is a nonnegative integrable function on [a, b]. By the extreme value theorem, there exists m and M such that for each x in [a, b], 
+
+
+
+m
+≤
+f
+(
+x
+)
+≤
+M
+
+
+{\displaystyle m\leq f(x)\leq M}
+
+ and 
+
+
+
+f
+[
+a
+,
+b
+]
+=
+[
+m
+,
+M
+]
+
+
+{\displaystyle f[a,b]=[m,M]}
+
+. Since g is nonnegative,
+Now let
+If 
+
+
+
+I
+=
+0
+
+
+{\displaystyle I=0}
+
+, we're done since
+means
+so for any c in (a, b),
+If I ≠ 0, then
+By the intermediate value theorem, f attains every value of the interval [m, M], so for some c in [a, b]
+that is,
+Finally, if g is negative on [a, b], then
+and we still get the same result as above.
+QED
+There are various slightly different theorems called the second mean value theorem for definite integrals. A commonly found version is as follows:
+Here 
+
+
+
+G
+(
+
+a
+
++
+
+
+)
+
+
+{\displaystyle G(a^{+})}
+
+ stands for 
+
+
+
+
+
+lim
+
+x
+→
+
+a
+
++
+
+
+
+
+G
+(
+x
+)
+
+
+
+{\textstyle {\lim _{x\to a^{+}}G(x)}}
+
+, the existence of which follows from the conditions. Note that it is essential that the interval (a, b] contains b. A variant not having this requirement is:[15]
+If the function 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ returns a multi-dimensional vector, then the MVT for integration is not true, even if the domain of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is also multi-dimensional.
+For example, consider the following 2-dimensional function defined on an 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-dimensional cube:
+Then, by symmetry it is easy to see that the mean value of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ over its domain is (0,0):
+However, there is no point in which 
+
+
+
+G
+=
+(
+0
+,
+0
+)
+
+
+{\displaystyle G=(0,0)}
+
+, because 
+
+
+
+
+|
+
+G
+
+|
+
+=
+1
+
+
+{\displaystyle |G|=1}
+
+ everywhere.
+Let X and Y be non-negative random variables such that E[X] < E[Y] < ∞ and 
+
+
+
+X
+
+≤
+
+s
+t
+
+
+Y
+
+
+{\displaystyle X\leq _{st}Y}
+
+ (i.e. X is smaller than Y in the usual stochastic order). Then there exists an absolutely continuous non-negative random variable Z having probability density function
+Let g be a measurable and differentiable function such that E[g(X)], E[g(Y)] < ∞, and let its derivative g′  be measurable and Riemann-integrable on the interval [x, y] for all y ≥ x ≥ 0. Then, E[g′(Z)] is finite and[16]
+As noted above, the theorem does not hold for differentiable complex-valued functions. Instead, a generalization of the theorem is stated such:[17]
+Let f : Ω → C be a holomorphic function on the open convex set Ω, and let a and b be distinct points in Ω. Then there exist points u, v on the interior of the line segment from a to b such that
+Where Re() is the real part and Im() is the imaginary part of a complex-valued function.
+See also: Voorhoeve index.
+Lemma — Let v : [a, b] → Rm be a continuous function defined on the interval [a, b] ⊂ R. Then we have
+Proof. Let u in Rm denote the value of the integral
+Now we have (using the Cauchy–Schwarz inequality):
+Now cancelling the norm of u from both ends gives us the desired inequality.
+Mean Value Inequality — If the norm of Df(x + th) is bounded by some constant M for t in [0, 1], then
+Proof.
+
+

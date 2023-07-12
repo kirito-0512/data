@@ -1,0 +1,90 @@
+4521,
+Bubblesort,
+Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the input list element by element, comparing the current element with the one after it, swapping their values if needed. These passes through the list are repeated until no swaps had to be performed during a pass, meaning that the list has become fully sorted. The algorithm, which is a comparison sort, is named for the way the larger elements "bubble" up to the top of the list. 
+This simple algorithm performs poorly in real world use and is used primarily as an educational tool. More efficient algorithms such as quicksort, timsort, or merge sort are used by the sorting libraries built into popular programming languages such as Python and Java. 
+However, if parallel processing is allowed, bubble sort sorts in O(n) time, making it considerably faster than parallel implementations of insertion sort or selection sort which do not parallelize as effectively.   
+[2][3]
+The earliest description of the Bubble sort algorithm was in a 1956 paper by mathematician and actuary Edward Harry Friend,[4] Sorting on electronic computer systems,[5] published in the third issue of the third volume of the Journal of the Association of Computing Machinery (ACM) , as a "Sorting exchange algorithm". Friend described the fundamentals of the algorithm, and, although initially his paper went unnoticed, some years later, it was rediscovered by many computer scientists, including Kenneth E. Iverson who coined its current name.
+Bubble sort has a worst-case and average complexity of 
+O
+(
+n
+2
+)
+{\displaystyle O(n^{2})}
+, where 
+n
+{\displaystyle n}
+ is the number of items being sorted. Most practical sorting algorithms have substantially better worst-case or average complexity, often 
+O
+(
+n
+log
+⁡
+n
+)
+{\displaystyle O(n\log n)}
+. Even other 
+O
+(
+n
+2
+)
+{\displaystyle O(n^{2})}
+ sorting algorithms, such as insertion sort, generally run faster than bubble sort, and are no more complex. For this reason, bubble sort is rarely used in practice.
+Like insertion sort, bubble sort is adaptive, giving it an advantage over algorithms like quicksort. This means that it may outperform those algorithms in cases where the list is already mostly sorted (having a small number of inversions), despite the fact that it has worse average-case time complexity. For example, bubble sort is 
+O
+(
+n
+)
+{\displaystyle O(n)}
+ on a list that is already sorted, while quicksort would still perform its entire 
+O
+(
+n
+log
+⁡
+n
+)
+{\displaystyle O(n\log n)}
+ sorting process.
+While any sorting algorithm can be made 
+O
+(
+n
+)
+{\displaystyle O(n)}
+ on a presorted list simply by checking the list before the algorithm runs, improved performance on almost-sorted lists is harder to replicate.
+The distance and direction that elements must move during the sort determine bubble sort's performance because elements move in different directions at different speeds. An element that must move toward the end of the list can move quickly because it can take part in successive swaps. For example, the largest element in the list will win every swap, so it moves to its sorted position on the first pass even if it starts near the beginning. On the other hand, an element that must move toward the beginning of the list cannot move faster than one step per pass, so elements move toward the beginning very slowly. If the smallest element is at the end of the list, it will take 
+n
+−
+1
+{\displaystyle n-1}
+ passes to move it to the beginning. This has led to these types of elements being named rabbits and turtles, respectively, after the characters in Aesop's fable of The Tortoise and the Hare.
+Various efforts have been made to eliminate turtles to improve upon the speed of bubble sort. Cocktail sort is a bi-directional bubble sort that goes from beginning to end, and then reverses itself, going end to beginning. It can move turtles fairly well, but it retains 
+O
+(
+n
+2
+)
+{\displaystyle O(n^{2})}
+ worst-case complexity. Comb sort compares elements separated by large gaps, and can move turtles extremely quickly before proceeding to smaller and smaller gaps to smooth out the list. Its average speed is comparable to faster algorithms like quicksort.
+Take an array of numbers "5 1 4 2 8", and sort the array from lowest number to greatest number using bubble sort. In each step, elements written in bold are being compared. Three passes will be required;
+Now, the array is already sorted, but the algorithm does not know if it is completed. The algorithm needs one additional whole pass without any swap to know it is sorted.
+In pseudocode the algorithm can be expressed as (0-based array):
+The bubble sort algorithm can be optimized by observing that the n-th pass finds the n-th largest element and puts it into its final place. So, the inner loop can avoid looking at the last n − 1 items when running for the n-th time:
+More generally, it can happen that more than one element is placed in their final position on a single pass. In particular, after every pass, all elements after the last swap are sorted, and do not need to be checked again. This allows to skip over many elements, resulting in about a worst case 50% improvement in comparison count (though no improvement in swap counts), and adds very little complexity because the new code subsumes the "swapped" variable:
+To accomplish this in pseudocode, the following can be written:
+Alternate modifications, such as the cocktail shaker sort attempt to improve on the bubble sort performance while keeping the same idea of repeatedly comparing and swapping adjacent items.
+Although bubble sort is one of the simplest sorting algorithms to understand and implement, its O(n2) complexity means that its efficiency decreases dramatically on lists of more than a small number of elements. Even among simple O(n2) sorting algorithms, algorithms like insertion sort are usually considerably more efficient.
+Due to its simplicity, bubble sort is often used to introduce the concept of an algorithm, or a sorting algorithm, to introductory computer science students. However, some researchers such as Owen Astrachan have gone to great lengths to disparage bubble sort and its continued popularity in computer science education, recommending that it no longer even be taught.[6]
+The Jargon File, which famously calls bogosort "the archetypical [sic] perversely awful algorithm", also calls bubble sort "the generic bad algorithm".[7] Donald Knuth, in The Art of Computer Programming, concluded that "the bubble sort seems to have nothing to recommend it, except a catchy name and the fact that it leads to some interesting theoretical problems", some of which he then discusses.[8]
+Bubble sort is asymptotically equivalent in running time to insertion sort in the worst case, but the two algorithms differ greatly in the number of swaps necessary. Experimental results such as those of Astrachan have also shown that insertion sort performs considerably better even on random lists. For these reasons many modern algorithm textbooks avoid using the bubble sort algorithm in favor of insertion sort.
+Bubble sort also interacts poorly with modern CPU hardware. It produces at least twice as many writes as insertion sort, twice as many cache misses, and asymptotically more branch mispredictions.[citation needed] Experiments by Astrachan sorting strings in Java show bubble sort to be roughly one-fifth as fast as an insertion sort and 70% as fast as a selection sort.[6]
+In computer graphics bubble sort is popular for its capability to detect a very small error (like swap of just two elements) in almost-sorted arrays and fix it with just linear complexity (2n). For example, it is used in a polygon filling algorithm, where bounding lines are sorted by their x coordinate at a specific scan line (a line parallel to the x axis) and with incrementing y their order changes (two elements are swapped) only at intersections of two lines. Bubble sort is a stable sort algorithm, like insertion sort.
+Bubble sort has been occasionally referred to as a "sinking sort".[9]
+For example, Donald Knuth describes the insertion of values at or towards their desired location as letting "[the value] settle to its proper level", and that "this method of sorting has sometimes been called the sifting or sinking technique.[10]
+This debate is perpetuated by the ease with which one may consider this algorithm from two different but equally valid perspectives:
+In 2007, former Google CEO Eric Schmidt asked then-presidential candidate Barack Obama during an interview about the best way to sort one million integers; Obama paused for a moment and replied: "I think the bubble sort would be the wrong way to go."[11][12]
+Information box
+{'Class': 'Sorting algorithm', 'Data structure': 'Array', 'Worst-case performance': 'comparisons,\nswaps', 'Best-case performance': 'comparisons,\nswaps', 'Average performance': 'comparisons,\nswaps', 'Worst-case space complexity': 'total,\nauxiliary'}

@@ -1,0 +1,93 @@
+30910,
+Reversibleprocess(thermodynamics),
+In thermodynamics, a reversible process is a process, involving a system and its surroundings, whose direction can be reversed by infinitesimal changes in some properties of the surroundings, such as pressure or temperature.[1][2][3]
+Throughout an entire reversible process, the system is in thermodynamic equilibrium, both physical and chemical, and nearly in pressure and temperature equilibrium with its surroundings. This prevents unbalanced forces and acceleration of moving system boundaries, which in turn avoids friction and other dissipation.
+To maintain equilibrium, reversible processes are extremely slow (quasistatic). The process must occur slowly enough that after some small change in a thermodynamic parameter, the physical processes in the system have enough time for the other parameters to self-adjust to match the new, changed parameter value. For example, if a container of water has sat in a room long enough to match the steady temperature of the surrounding air, for a small change in the air temperature to be reversible, the whole system of air, water, and container must wait long enough for the container and air to settle into a new, matching temperature before the next small change can occur.[a]
+While processes in isolated systems are never reversible,[3] cyclical processes can be reversible or irreversible.[4] Reversible processes are hypothetical or idealized but central to the second law of thermodynamics.[3] Melting or freezing of ice in water is an example of a realistic process that is nearly reversible. 
+Additionally, the system must be in (quasistatic) equilibrium with the surroundings at all time, and there must be no dissipative effects, such as friction, for a process to be considered reversible.[5]
+Reversible processes are useful in thermodynamics because they are so idealized that the equations for heat and expansion/compression work are simple.[6] This enables the analysis of model processes, which usually define the maximum efficiency attainable in corresponding real processes. Other applications exploit that entropy and internal energy are state functions whose change depends only on the initial and final states of the system, not on how the process occurred.[6] Therefore, the entropy and internal-energy change in a real process can be calculated quite easily by analyzing a reversible process connecting the real initial and final system states. In addition, reversibility defines the thermodynamic condition for chemical equilibrium. 
+Thermodynamic processes can be carried out in one of two ways: reversibly or irreversibly. An ideal thermodynamically reversible process is free of dissipative losses and therefore the magnitude of work performed by or on the system would be maximized. The incomplete conversion of heat to work in a cyclic process, however, applies to both reversible and irreversible cycles. The dependence of work on the path of the thermodynamic process is also unrelated to reversibility, since expansion work, which can be visualized on a pressure–volume diagram as the area beneath the equilibrium curve, is different for different reversible expansion processes (e.g. adiabatic, then isothermal; vs. isothermal, then adiabatic) connecting the same initial and final states. 
+In an irreversible process, finite changes are made; therefore the system is not at equilibrium throughout the process. In a cyclic process, the difference between the reversible work 
+
+
+
+(
+
+
+W
+
+
+r
+e
+v
+
+
+
+
+)
+
+
+{\displaystyle (\,W_{\mathsf {rev}}\,)}
+
+ and the actual work 
+
+
+
+(
+
+
+W
+
+
+a
+c
+t
+
+
+
+
+)
+
+
+{\displaystyle (\,W_{\mathsf {act}}\,)}
+
+ for a process as shown in the following equation: 
+
+
+
+
+I
+=
+
+W
+
+
+r
+e
+v
+
+
+
+−
+
+W
+
+
+a
+c
+t
+
+
+
+ 
+.
+
+
+{\displaystyle \;I=W_{\mathsf {rev}}-W_{\mathsf {act}}~.}
+
+
+Simple[3] reversible processes change the state of a system in such a way that the net change in the combined entropy of the system and its surroundings is zero. (The entropy of the system alone is conserved only in reversible adiabatic processes.) Nevertheless, the Carnot cycle demonstrates that the state of the surroundings may change in a reversible process as the system returns to its initial state. Reversible processes define the boundaries of how efficient heat engines can be in thermodynamics and engineering: a reversible process is one where the machine has maximum efficiency (see Carnot cycle). 
+In some cases, it may be important to distinguish between reversible and quasistatic processes. Reversible processes are always quasistatic, but the converse is not always true.[2] For example, an infinitesimal compression of a gas in a cylinder where there is friction between the piston and the cylinder is a quasistatic, but not reversible process.[7] Although the system has been driven from its equilibrium state by only an infinitesimal amount, energy has been irreversibly lost to waste heat, due to friction, and cannot be recovered by simply moving the piston in the opposite direction by the infinitesimally same amount.
+Historically, the term Tesla principle was used to describe (among other things) certain reversible processes invented by Nikola Tesla.[8] However, this phrase is no longer in conventional use. The principle stated that some systems could be reversed and operated in a complementary manner. It was developed during Tesla's research in alternating currents where the current's magnitude and direction varied cyclically. During a demonstration of the Tesla turbine, the disks revolved and machinery fastened to the shaft was operated by the engine. If the turbine's operation was reversed, the disks acted as a pump.[9]
+
+

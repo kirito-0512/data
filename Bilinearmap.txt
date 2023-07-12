@@ -1,0 +1,180 @@
+4365,
+Bilinearmap,
+In mathematics, a bilinear map is a function combining elements of two vector spaces to yield an element of a third vector space, and is linear in each of its arguments. Matrix multiplication is an example.
+Let 
+V
+,
+W
+{\displaystyle V,W}
+ and 
+X
+{\displaystyle X}
+ be three vector spaces over the same base field 
+F
+{\displaystyle F}
+. A bilinear map is a function
+B
+:
+V
+×
+W
+→
+X
+{\displaystyle B:V\times W\to X}
+such that for all 
+w
+∈
+W
+{\displaystyle w\in W}
+, the map 
+B
+w
+{\displaystyle B_{w}}
+v
+↦
+B
+(
+v
+,
+w
+)
+{\displaystyle v\mapsto B(v,w)}
+is a linear map from 
+V
+{\displaystyle V}
+ to 
+X
+,
+{\displaystyle X,}
+ and for all 
+v
+∈
+V
+{\displaystyle v\in V}
+, the map 
+B
+v
+{\displaystyle B_{v}}
+w
+↦
+B
+(
+v
+,
+w
+)
+{\displaystyle w\mapsto B(v,w)}
+is a linear map from 
+W
+{\displaystyle W}
+ to 
+X
+.
+{\displaystyle X.}
+ In other words, when we hold the first entry of the bilinear map fixed while letting the second entry vary, the result is a linear operator, and similarly for when we hold the second entry fixed.
+Such a map 
+B
+{\displaystyle B}
+ satisfies the following properties.
+If 
+V
+=
+W
+{\displaystyle V=W}
+ and we have B(v, w) = B(w, v) for all 
+v
+,
+w
+∈
+V
+,
+{\displaystyle v,w\in V,}
+ then we say that B is symmetric.  If X is the base field F, then the map is called a bilinear form, which are well-studied (for example: scalar product, inner product, and quadratic form).
+The definition works without any changes if instead of vector spaces over a field F, we use modules over a commutative ring R. It generalizes to n-ary functions, where the proper term is multilinear.
+For non-commutative rings R and S, a left R-module M and a right S-module N, a bilinear map is a map B : M × N → T with T an (R, S)-bimodule, and for which any n in N, m ↦ B(m, n) is an R-module homomorphism, and for any m in M, n ↦ B(m, n) is an S-module homomorphism.  This satisfies
+for all m in M, n in N, r in R and s in S, as well as B being additive in each argument.
+An immediate consequence of the definition is that B(v, w) = 0X whenever v = 0V or w = 0W. This may be seen by writing the zero vector 0V as 0 ⋅ 0V (and similarly for 0W) and moving the scalar 0 "outside", in front of B, by linearity.
+The set L(V, W; X) of all bilinear maps is a linear subspace of the space (viz. vector space, module) of all maps from V × W into X.
+If V, W, X are finite-dimensional, then so is L(V, W; X). For 
+X
+=
+F
+,
+{\displaystyle X=F,}
+ that is, bilinear forms, the dimension of this space is dim V × dim W (while the space L(V × W; F) of linear forms is of dimension dim V + dim W). To see this, choose a basis for V and W; then each bilinear map can be uniquely represented by the matrix B(ei, fj), and vice versa. 
+Now, if X is a space of higher dimension, we obviously have dim L(V, W; X) = dim V × dim W × dim X.
+Suppose 
+X
+,
+Y
+,
+{\displaystyle X,Y,}
+ and 
+Z
+{\displaystyle Z}
+ are topological vector spaces and let 
+b
+:
+X
+×
+Y
+→
+Z
+{\displaystyle b:X\times Y\to Z}
+ be a bilinear map. 
+Then b is said to be separately continuous if the following two conditions hold:
+Many separately continuous bilinear that are not continuous satisfy an additional property: hypocontinuity.[1] 
+All continuous bilinear maps are hypocontinuous.
+Many bilinear maps that occur in practice are separately continuous but not all are continuous. 
+We list here sufficient conditions for a separately continuous bilinear to be continuous.
+Let 
+X
+,
+Y
+,
+ and 
+Z
+{\displaystyle X,Y,{\text{ and }}Z}
+ be locally convex Hausdorff spaces and let 
+C
+:
+L
+(
+X
+;
+Y
+)
+×
+L
+(
+Y
+;
+Z
+)
+→
+L
+(
+X
+;
+Z
+)
+{\displaystyle C:L(X;Y)\times L(Y;Z)\to L(X;Z)}
+ be the composition map defined by 
+C
+(
+u
+,
+v
+)
+:=
+v
+∘
+u
+.
+{\displaystyle C(u,v):=v\circ u.}
+In general, the bilinear map 
+C
+{\displaystyle C}
+ is not continuous (no matter what topologies the spaces of linear maps are given). 
+We do, however, have the following results:
+Give all three spaces of linear maps one of the following topologies:

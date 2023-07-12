@@ -1,0 +1,91 @@
+7850,
+Chomskynormalform,
+In formal language theory, a context-free grammar, G, is said to be in Chomsky normal form (first described by Noam Chomsky)[1] if all of its production rules are of the form:[2][3]
+where A, B, and C are nonterminal symbols, the letter a is a terminal symbol (a symbol that represents a constant value), S is the start symbol, and ε denotes the empty string.  Also, neither B nor C may be the start symbol, and the third production rule can only appear if ε is in L(G), the language produced by the context-free grammar G.[4]: 92–93, 106 
+Every grammar in Chomsky normal form is context-free, and conversely, every context-free grammar can be transformed into an equivalent one[note 1] which is in Chomsky normal form and has a size no larger than the square of the original grammar's size.
+To convert a grammar to Chomsky normal form, a sequence of simple transformations is applied in a certain order; this is described in most textbooks on automata theory.[4]: 87–94 [5][6][7]
+The presentation here follows Hopcroft, Ullman (1979), but is adapted to use the transformation names from Lange, Leiß (2009).[8][note 2] Each of the following transformations establishes one of the properties required for Chomsky normal form.
+Introduce a new start symbol S0, and a new rule 
+where S is the previous start symbol.
+This does not change the grammar's produced language, and S0 will not occur on any rule's right-hand side.
+To eliminate each rule 
+with a terminal symbol a being not the only symbol on the right-hand side, introduce, for every such terminal, a new nonterminal symbol Na, and a new rule 
+Change every rule 
+to 
+If several terminal symbols occur on the right-hand side, simultaneously replace each of them by its associated nonterminal symbol.
+This does not change the grammar's produced language.[4]: 92 
+Replace each rule 
+with more than 2 nonterminals X1,...,Xn by rules 
+where Ai are new nonterminal symbols.
+Again, this does not change the grammar's produced language.[4]: 93 
+An ε-rule is a rule of the form 
+where A is not S0, the grammar's start symbol.
+To eliminate all rules of this form, first determine the set of all nonterminals that derive ε.
+Hopcroft and Ullman (1979) call such nonterminals nullable, and compute them as follows:
+Obtain an intermediate grammar by replacing each rule 
+by all versions with some nullable Xi omitted.
+By deleting in this grammar each ε-rule, unless its left-hand side is the start symbol, the transformed grammar is obtained.[4]: 90 
+For example, in the following grammar, with start symbol S0,
+the nonterminal A, and hence also B, is nullable, while neither C nor S0 is.
+Hence the following intermediate grammar is obtained:[note 3]
+In this grammar, all ε-rules have been "inlined at the call site".[note 4]
+In the next step, they can hence be deleted, yielding the grammar:
+This grammar produces the same language as the original example grammar, viz. {ab,aba,abaa,abab,abac,abb,abc,b,bab,bac,bb,bc,c}, but has no ε-rules.
+A unit rule is a rule of the form 
+where A, B are nonterminal symbols.
+To remove it, for each rule 
+where  X1 ... Xn is a string of nonterminals and terminals, add rule 
+unless this is a unit rule which has already been (or is being) removed. The skipping of nonterminal symbol B in the resulting grammar is possible due to B being a member of the unit closure of nonterminal symbol A.[9]
+When choosing the order in which the above transformations are to be applied, it has to be considered that some transformations may destroy the result achieved by other ones. For example, START will re-introduce a unit rule if it is applied after UNIT. The table shows which orderings are admitted.
+Moreover, the worst-case bloat in grammar size[note 5] depends on the transformation order. Using |G| to denote the size of the original grammar G, the size blow-up in the worst case may range from |G|2 to 22 |G|, depending on the transformation algorithm used.[8]: 7  The blow-up in grammar size depends on the order between DEL and BIN. It may be exponential when DEL is done first, but is linear otherwise. UNIT can incur a quadratic blow-up in the size of the grammar.[8]: 5  The orderings START,TERM,BIN,DEL,UNIT and START,BIN,DEL,UNIT,TERM lead to the least (i.e. quadratic) blow-up.
+The following grammar, with start symbol Expr, describes a simplified version of the set of all syntactical valid arithmetic expressions in programming languages like C or Algol60. Both number and variable are considered terminal symbols here for simplicity, since in a compiler front end their internal structure is usually not considered by the parser. The terminal symbol "^" denoted exponentiation in Algol60.
+In step "START" of the above conversion algorithm, just a rule S0→Expr is added to the grammar.
+After step "TERM", the grammar looks like this:
+After step "BIN", the following grammar is obtained:
+Since there are no ε-rules, step "DEL" does not change the grammar.
+After step "UNIT", the following grammar is obtained, which is in Chomsky normal form:
+The Na introduced in step "TERM" are PowOp, Open, and Close.
+The Ai introduced in step "BIN" are AddOp_Term, MulOp_Factor, PowOp_Primary, and Expr_Close.
+Another way[4]: 92 [10] to define the Chomsky normal form is:
+A formal grammar is in Chomsky reduced form if all of its production rules are of the form:
+where 
+A
+{\displaystyle A}
+, 
+B
+{\displaystyle B}
+ and 
+C
+{\displaystyle C}
+ are nonterminal symbols, and 
+a
+{\displaystyle a}
+ is a terminal symbol.  When using this definition, 
+B
+{\displaystyle B}
+ or 
+C
+{\displaystyle C}
+ may be the start symbol.  Only those context-free grammars which do not generate the empty string can be transformed into Chomsky reduced form.
+In a letter where he proposed a term Backus–Naur form (BNF), Donald E. Knuth implied a BNF "syntax in which all definitions have such a form may be said to be in 'Floyd Normal Form'",
+where 
+⟨
+A
+⟩
+{\displaystyle \langle A\rangle }
+, 
+⟨
+B
+⟩
+{\displaystyle \langle B\rangle }
+ and 
+⟨
+C
+⟩
+{\displaystyle \langle C\rangle }
+ are nonterminal symbols, and 
+a
+{\displaystyle a}
+ is a terminal symbol,
+because Robert W. Floyd found any BNF syntax can be converted to the above one in 1961.[11]  But he withdrew this term, "since doubtless many people have independently used this simple fact in their own work, and the point is only incidental to the main considerations of Floyd's note."[12] While Floyd's note cites Chomsky's original 1959 article, Knuth's letter does not.
+Besides its theoretical significance, CNF conversion is used in some algorithms as a preprocessing step, e.g., the CYK algorithm, a bottom-up parsing for context-free grammars, and its variant probabilistic CKY.[13]

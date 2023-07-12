@@ -1,0 +1,3702 @@
+7988,
+Dualspace,
+
+In mathematics, any vector space 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ has a corresponding dual vector space (or just dual space for short) consisting of all linear forms on 
+
+
+
+V
+,
+
+
+{\displaystyle V,}
+
+ together with the vector space structure of pointwise addition and scalar multiplication by constants.
+The dual space as defined above is defined for all vector spaces, and to avoid ambiguity may also be called the algebraic dual space.
+When defined for a topological vector space, there is a subspace of the dual space, corresponding to continuous linear functionals, called the continuous dual space.
+Dual vector spaces find application in many branches of mathematics that use vector spaces, such as in tensor analysis with finite-dimensional vector spaces.
+When applied to vector spaces of functions (which are typically infinite-dimensional), dual spaces are used to describe measures, distributions, and Hilbert spaces. Consequently, the dual space is an important concept in functional analysis.
+Early terms for dual include polarer Raum [Hahn 1927], espace conjugué, adjoint space [Alaoglu 1940], and transponierter Raum [Schauder 1930] and [Banach 1932]. The term dual is due to Bourbaki 1938.[1]
+Given any vector space 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ over a field 
+
+
+
+F
+
+
+{\displaystyle F}
+
+, the (algebraic) dual space 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+[2] (alternatively denoted by 
+
+
+
+
+V
+
+∨
+
+
+
+
+{\displaystyle V^{\lor }}
+
+[3] or 
+
+
+
+
+V
+′
+
+
+
+{\displaystyle V'}
+
+[4][5])[nb 1] is defined as the set of all linear maps 
+
+
+
+φ
+:
+V
+→
+F
+
+
+{\displaystyle \varphi :V\to F}
+
+ (linear functionals).  Since linear maps are vector space homomorphisms, the dual space may be denoted 
+
+
+
+hom
+⁡
+(
+V
+,
+F
+)
+
+
+{\displaystyle \hom(V,F)}
+
+.[6]
+The dual space 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+ itself becomes a vector space over 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ when equipped with an addition and scalar multiplication satisfying:
+for all 
+
+
+
+φ
+,
+ψ
+∈
+
+V
+
+∗
+
+
+
+
+{\displaystyle \varphi ,\psi \in V^{*}}
+
+, 
+
+
+
+x
+∈
+V
+
+
+{\displaystyle x\in V}
+
+, and 
+
+
+
+a
+∈
+F
+
+
+{\displaystyle a\in F}
+
+.
+Elements of the algebraic dual space 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+ are sometimes called covectors, one-forms, or linear forms.
+The pairing of a functional 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ in the dual space 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+ and an element 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is sometimes denoted by a bracket: 
+
+
+
+φ
+(
+x
+)
+=
+[
+x
+,
+φ
+]
+
+
+{\displaystyle \varphi (x)=[x,\varphi ]}
+
+[7]
+or 
+
+
+
+φ
+(
+x
+)
+=
+⟨
+x
+,
+φ
+⟩
+
+
+{\displaystyle \varphi (x)=\langle x,\varphi \rangle }
+
+.[8] This pairing defines a nondegenerate bilinear mapping[nb 2] 
+
+
+
+⟨
+⋅
+,
+⋅
+⟩
+:
+V
+×
+
+V
+
+∗
+
+
+→
+F
+
+
+{\displaystyle \langle \cdot ,\cdot \rangle :V\times V^{*}\to F}
+
+ called the natural pairing.
+If 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is finite-dimensional, then 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+ has the same dimension as 
+
+
+
+V
+
+
+{\displaystyle V}
+
+. Given a basis 
+
+
+
+{
+
+
+e
+
+
+1
+
+
+,
+…
+,
+
+
+e
+
+
+n
+
+
+}
+
+
+{\displaystyle \{\mathbf {e} _{1},\dots ,\mathbf {e} _{n}\}}
+
+ in 
+
+
+
+V
+
+
+{\displaystyle V}
+
+, it is possible to construct a specific basis in 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+, called the dual basis. This dual basis is a set 
+
+
+
+{
+
+
+e
+
+
+1
+
+
+,
+…
+,
+
+
+e
+
+
+n
+
+
+}
+
+
+{\displaystyle \{\mathbf {e} ^{1},\dots ,\mathbf {e} ^{n}\}}
+
+ of linear functionals on 
+
+
+
+V
+
+
+{\displaystyle V}
+
+, defined by the relation
+for any choice of coefficients 
+
+
+
+
+c
+
+i
+
+
+∈
+F
+
+
+{\displaystyle c^{i}\in F}
+
+. In particular, letting in turn each one of those coefficients be equal to one and the other coefficients zero, gives the system of equations
+where 
+
+
+
+
+δ
+
+j
+
+
+i
+
+
+
+
+{\displaystyle \delta _{j}^{i}}
+
+ is the Kronecker delta symbol. This property is referred to as bi-orthogonality property.
+Consider 
+
+
+
+{
+
+
+e
+
+
+1
+
+
+,
+…
+,
+
+
+e
+
+
+n
+
+
+}
+
+
+{\displaystyle \{\mathbf {e} _{1},\dots ,\mathbf {e} _{n}\}}
+
+ the basis of V. Let 
+
+
+
+{
+
+
+e
+
+
+1
+
+
+,
+…
+,
+
+
+e
+
+
+n
+
+
+}
+
+
+{\displaystyle \{\mathbf {e} ^{1},\dots ,\mathbf {e} ^{n}\}}
+
+ be defined as the following:
+
+
+
+
+
+
+e
+
+
+i
+
+
+(
+
+c
+
+1
+
+
+
+
+e
+
+
+1
+
+
++
+⋯
++
+
+c
+
+n
+
+
+
+
+e
+
+
+n
+
+
+)
+=
+
+c
+
+i
+
+
+,
+
+i
+=
+1
+,
+…
+,
+n
+
+
+{\displaystyle \mathbf {e} ^{i}(c^{1}\mathbf {e} _{1}+\cdots +c^{n}\mathbf {e} _{n})=c^{i},\quad i=1,\ldots ,n}
+
+. 
+We have:
+and 
+
+
+
+{
+
+
+e
+
+
+1
+
+
+,
+…
+,
+
+
+e
+
+
+n
+
+
+}
+
+
+{\displaystyle \{\mathbf {e} ^{1},\dots ,\mathbf {e} ^{n}\}}
+
+ generates 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+. Hence, it is a basis of 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+. 
+For example, if 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is 
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} ^{2}}
+
+, let its basis be chosen as 
+
+
+
+{
+
+
+e
+
+
+1
+
+
+=
+(
+1
+
+/
+
+2
+,
+1
+
+/
+
+2
+)
+,
+
+
+e
+
+
+2
+
+
+=
+(
+0
+,
+1
+)
+}
+
+
+{\displaystyle \{\mathbf {e} _{1}=(1/2,1/2),\mathbf {e} _{2}=(0,1)\}}
+
+. The basis vectors are not orthogonal to each other. Then, 
+
+
+
+
+
+e
+
+
+1
+
+
+
+
+{\displaystyle \mathbf {e} ^{1}}
+
+ and 
+
+
+
+
+
+e
+
+
+2
+
+
+
+
+{\displaystyle \mathbf {e} ^{2}}
+
+ are one-forms (functions that map a vector to a scalar) such that 
+
+
+
+
+
+e
+
+
+1
+
+
+(
+
+
+e
+
+
+1
+
+
+)
+=
+1
+
+
+{\displaystyle \mathbf {e} ^{1}(\mathbf {e} _{1})=1}
+
+, 
+
+
+
+
+
+e
+
+
+1
+
+
+(
+
+
+e
+
+
+2
+
+
+)
+=
+0
+
+
+{\displaystyle \mathbf {e} ^{1}(\mathbf {e} _{2})=0}
+
+, 
+
+
+
+
+
+e
+
+
+2
+
+
+(
+
+
+e
+
+
+1
+
+
+)
+=
+0
+
+
+{\displaystyle \mathbf {e} ^{2}(\mathbf {e} _{1})=0}
+
+, and 
+
+
+
+
+
+e
+
+
+2
+
+
+(
+
+
+e
+
+
+2
+
+
+)
+=
+1
+
+
+{\displaystyle \mathbf {e} ^{2}(\mathbf {e} _{2})=1}
+
+. (Note: The superscript here is the index, not an exponent.) This system of equations can be expressed using matrix notation as
+Solving for the unknown values in the second matrix shows the dual basis to be 
+
+
+
+{
+
+
+e
+
+
+1
+
+
+=
+(
+2
+,
+0
+)
+,
+
+
+e
+
+
+2
+
+
+=
+(
+−
+1
+,
+1
+)
+}
+
+
+{\displaystyle \{\mathbf {e} ^{1}=(2,0),\mathbf {e} ^{2}=(-1,1)\}}
+
+. Because 
+
+
+
+
+
+e
+
+
+1
+
+
+
+
+{\displaystyle \mathbf {e} ^{1}}
+
+ and 
+
+
+
+
+
+e
+
+
+2
+
+
+
+
+{\displaystyle \mathbf {e} ^{2}}
+
+ are functionals, they can be rewritten as 
+
+
+
+
+
+e
+
+
+1
+
+
+(
+x
+,
+y
+)
+=
+2
+x
+
+
+{\displaystyle \mathbf {e} ^{1}(x,y)=2x}
+
+ and 
+
+
+
+
+
+e
+
+
+2
+
+
+(
+x
+,
+y
+)
+=
+−
+x
++
+y
+
+
+{\displaystyle \mathbf {e} ^{2}(x,y)=-x+y}
+
+.
+In general, when 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+, if 
+
+
+
+E
+=
+[
+
+
+e
+
+
+1
+
+
+
+|
+
+⋯
+
+|
+
+
+
+e
+
+
+n
+
+
+]
+
+
+{\displaystyle E=[\mathbf {e} _{1}|\cdots |\mathbf {e} _{n}]}
+
+ is a matrix whose columns are the basis vectors and 
+
+
+
+
+
+
+E
+^
+
+
+
+=
+[
+
+
+e
+
+
+1
+
+
+
+|
+
+⋯
+
+|
+
+
+
+e
+
+
+n
+
+
+]
+
+
+{\displaystyle {\hat {E}}=[\mathbf {e} ^{1}|\cdots |\mathbf {e} ^{n}]}
+
+ is a matrix whose columns are the dual basis vectors, then
+where 
+
+
+
+
+I
+
+n
+
+
+
+
+{\displaystyle I_{n}}
+
+ is the identity matrix of order 
+
+
+
+n
+
+
+{\displaystyle n}
+
+. The biorthogonality property of these two basis sets allows any point 
+
+
+
+
+x
+
+∈
+V
+
+
+{\displaystyle \mathbf {x} \in V}
+
+ to be represented as
+even when the basis vectors are not orthogonal to each other. Strictly speaking, the above statement only makes sense once the inner product 
+
+
+
+⟨
+⋅
+,
+⋅
+⟩
+
+
+{\displaystyle \langle \cdot ,\cdot \rangle }
+
+ and the corresponding duality pairing are introduced, as described below in § Bilinear products and dual spaces.
+In particular, 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ can be interpreted as the space of columns of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ real numbers, its dual space is typically written as the space of rows of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ real numbers. Such a row acts on 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ as a linear functional by ordinary matrix multiplication. This is because a functional maps every 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-vector 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ into a real number 
+
+
+
+y
+
+
+{\displaystyle y}
+
+. Then, seeing this functional as a matrix 
+
+
+
+M
+
+
+{\displaystyle M}
+
+, and 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ as an 
+
+
+
+n
+×
+1
+
+
+{\displaystyle n\times 1}
+
+ matrix, and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ a 
+
+
+
+1
+×
+1
+
+
+{\displaystyle 1\times 1}
+
+ matrix (trivially, a real number) respectively, if 
+
+
+
+M
+x
+=
+y
+
+
+{\displaystyle Mx=y}
+
+ then, by dimension reasons, 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ must be a 
+
+
+
+1
+×
+n
+
+
+{\displaystyle 1\times n}
+
+ matrix; that is, 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ must be a row vector.
+If 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ consists of the space of geometrical vectors in the plane, then the level curves of an element of 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+ form a family of parallel lines in 
+
+
+
+V
+
+
+{\displaystyle V}
+
+, because the range is 1-dimensional, so that every point in the range is a multiple of any one nonzero element.
+So an element of 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+ can be intuitively thought of as a particular family of parallel lines covering the plane. To compute the value of a functional on a given vector, it suffices to determine which of the lines the vector lies on. Informally, this "counts" how many lines the vector crosses.
+More generally, if 
+
+
+
+V
+
+
+{\displaystyle V}
+
+  is a vector space of any dimension, then the level sets of a linear functional in 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+  are parallel hyperplanes in 
+
+
+
+V
+
+
+{\displaystyle V}
+
+, and the action of a linear functional on a vector can be visualized in terms of these hyperplanes.[9]
+If 
+
+
+
+V
+
+
+{\displaystyle V}
+
+  is not finite-dimensional but has a basis[nb 3] 
+
+
+
+
+
+e
+
+
+α
+
+
+
+
+{\displaystyle \mathbf {e} _{\alpha }}
+
+ indexed by an infinite set 
+
+
+
+A
+
+
+{\displaystyle A}
+
+, then the same construction as in the finite-dimensional case yields linearly independent elements 
+
+
+
+
+
+e
+
+
+α
+
+
+
+
+{\displaystyle \mathbf {e} ^{\alpha }}
+
+ (
+
+
+
+α
+∈
+A
+
+
+{\displaystyle \alpha \in A}
+
+) of the dual space, but they will not form a basis.
+For instance, consider the space 
+
+
+
+
+
+R
+
+
+∞
+
+
+
+
+{\displaystyle \mathbb {R} ^{\infty }}
+
+, whose elements are those sequences of real numbers that contain only finitely many non-zero entries, which has a basis indexed by the natural numbers 
+
+
+
+
+N
+
+
+
+{\displaystyle \mathbb {N} }
+
+. For 
+
+
+
+i
+∈
+
+N
+
+
+
+{\displaystyle i\in \mathbb {N} }
+
+, 
+
+
+
+
+
+e
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {e} _{i}}
+
+ is the sequence consisting of all zeroes except in the 
+
+
+
+i
+
+
+{\displaystyle i}
+
+-th position, which is 1.
+The dual space of 
+
+
+
+
+
+R
+
+
+∞
+
+
+
+
+{\displaystyle \mathbb {R} ^{\infty }}
+
+ is (isomorphic to) 
+
+
+
+
+
+R
+
+
+
+N
+
+
+
+
+
+{\displaystyle \mathbb {R} ^{\mathbb {N} }}
+
+, the space of all sequences of real numbers: each real sequence 
+
+
+
+(
+
+a
+
+n
+
+
+)
+
+
+{\displaystyle (a_{n})}
+
+ defines a function where the element 
+
+
+
+(
+
+x
+
+n
+
+
+)
+
+
+{\displaystyle (x_{n})}
+
+ of 
+
+
+
+
+
+R
+
+
+∞
+
+
+
+
+{\displaystyle \mathbb {R} ^{\infty }}
+
+ is sent to the number
+which is a finite sum because there are only finitely many nonzero 
+
+
+
+
+x
+
+n
+
+
+
+
+{\displaystyle x_{n}}
+
+. The dimension of 
+
+
+
+
+
+R
+
+
+∞
+
+
+
+
+{\displaystyle \mathbb {R} ^{\infty }}
+
+ is countably infinite, whereas 
+
+
+
+
+
+R
+
+
+
+N
+
+
+
+
+
+{\displaystyle \mathbb {R} ^{\mathbb {N} }}
+
+ does not have a countable basis.
+This observation generalizes to any[nb 3] infinite-dimensional vector space 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ over any field 
+
+
+
+F
+
+
+{\displaystyle F}
+
+: a choice of basis 
+
+
+
+{
+
+
+e
+
+
+α
+
+
+:
+α
+∈
+A
+}
+
+
+{\displaystyle \{\mathbf {e} _{\alpha }:\alpha \in A\}}
+
+ identifies 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ with the space 
+
+
+
+(
+
+F
+
+A
+
+
+
+)
+
+0
+
+
+
+
+{\displaystyle (F^{A})_{0}}
+
+ of functions 
+
+
+
+f
+:
+A
+→
+F
+
+
+{\displaystyle f:A\to F}
+
+ such that 
+
+
+
+
+f
+
+α
+
+
+=
+f
+(
+α
+)
+
+
+{\displaystyle f_{\alpha }=f(\alpha )}
+
+ is nonzero for only finitely many 
+
+
+
+α
+∈
+A
+
+
+{\displaystyle \alpha \in A}
+
+, where such a function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is identified with the vector
+in 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ (the sum is finite by the assumption on 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, and any 
+
+
+
+v
+∈
+V
+
+
+{\displaystyle v\in V}
+
+ may be written in this way by the definition of the basis).
+The dual space of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ may then be identified with the space 
+
+
+
+
+F
+
+A
+
+
+
+
+{\displaystyle F^{A}}
+
+ of all functions from 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ to 
+
+
+
+F
+
+
+{\displaystyle F}
+
+: a linear functional 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ on 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is uniquely determined by the values 
+
+
+
+
+θ
+
+α
+
+
+=
+T
+(
+
+
+e
+
+
+α
+
+
+)
+
+
+{\displaystyle \theta _{\alpha }=T(\mathbf {e} _{\alpha })}
+
+ it takes on the basis of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+, and any function 
+
+
+
+θ
+:
+A
+→
+F
+
+
+{\displaystyle \theta :A\to F}
+
+ (with 
+
+
+
+θ
+(
+α
+)
+=
+
+θ
+
+α
+
+
+
+
+{\displaystyle \theta (\alpha )=\theta _{\alpha }}
+
+) defines a linear functional 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ on 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ by
+Again the sum is finite because 
+
+
+
+
+f
+
+α
+
+
+
+
+{\displaystyle f_{\alpha }}
+
+ is nonzero for only finitely many 
+
+
+
+α
+
+
+{\displaystyle \alpha }
+
+.
+The set 
+
+
+
+(
+
+F
+
+A
+
+
+
+)
+
+0
+
+
+
+
+{\displaystyle (F^{A})_{0}}
+
+ may be identified (essentially by definition) with the direct sum of infinitely many copies of 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ (viewed as a 1-dimensional vector space over itself) indexed by 
+
+
+
+A
+
+
+{\displaystyle A}
+
+, i.e. there are linear isomorphisms
+On the other hand, 
+
+
+
+
+F
+
+A
+
+
+
+
+{\displaystyle F^{A}}
+
+ is (again by definition), the direct product of infinitely many copies of 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ indexed by 
+
+
+
+A
+
+
+{\displaystyle A}
+
+, and so the identification
+is a special case of a general result relating direct sums (of modules) to direct products.
+If a vector space is not finite-dimensional, then its (algebraic) dual space is always of larger dimension (as a cardinal number) than the original vector space. This is in contrast to the case of the continuous dual space, discussed below, which may be isomorphic to the original vector space even if the latter is infinite-dimensional.
+The proof of this inequality between dimensions results of the following.
+If 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is an infinite-dimensional 
+
+
+
+F
+
+
+{\displaystyle F}
+
+-vector space, the arithmetical properties of cardinal numbers implies that 
+where cardinalities are, as commonly, denoted as absolute values. For proving that 
+
+
+
+
+d
+i
+m
+
+(
+V
+)
+<
+
+d
+i
+m
+
+(
+
+V
+
+∗
+
+
+)
+,
+
+
+{\displaystyle \mathrm {dim} (V)<\mathrm {dim} (V^{*}),}
+
+ it suffices to prove that 
+
+
+
+
+|
+
+F
+
+|
+
+≤
+
+|
+
+
+d
+i
+m
+
+(
+
+V
+
+∗
+
+
+)
+
+|
+
+,
+
+
+{\displaystyle |F|\leq |\mathrm {dim} (V^{\ast })|,}
+
+ which can be done with a argument similar to Cantor's diagonal argument.[citation needed]
+If V is finite-dimensional, then V is isomorphic to V∗. But there is in general no natural isomorphism between these two spaces.[10]  Any bilinear form ⟨·,·⟩ on V gives a mapping of V into its dual space via
+where the right hand side is defined as the functional on V taking each w ∈ V to ⟨v, w⟩.  In other words, the bilinear form determines a linear mapping
+defined by
+If the bilinear form is nondegenerate, then this is an isomorphism onto a subspace of V∗.
+If V is finite-dimensional, then this is an isomorphism onto all of V∗.  Conversely, any isomorphism 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ from V to a subspace of V∗ (resp., all of V∗ if V is finite dimensional) defines a unique nondegenerate bilinear form 
+
+
+
+⟨
+⋅
+,
+⋅
+
+⟩
+
+Φ
+
+
+
+
+{\displaystyle \langle \cdot ,\cdot \rangle _{\Phi }}
+
+ on V by
+Thus there is a one-to-one correspondence between isomorphisms of V to a subspace of (resp., all of) V∗ and nondegenerate bilinear forms on V.
+If the vector space V is over the complex field, then sometimes it is more natural to consider sesquilinear forms instead of bilinear forms.
+In that case, a given sesquilinear form ⟨·,·⟩ determines an isomorphism of V with the complex conjugate of the dual space
+The conjugate of the dual space 
+
+
+
+
+
+
+V
+
+∗
+
+
+¯
+
+
+
+
+{\displaystyle {\overline {V^{*}}}}
+
+ can be identified with the set of all additive complex-valued functionals f : V → C such that
+There is a natural homomorphism 
+
+
+
+Ψ
+
+
+{\displaystyle \Psi }
+
+ from 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ into the double dual 
+
+
+
+
+V
+
+∗
+∗
+
+
+=
+{
+Φ
+:
+
+V
+
+∗
+
+
+→
+F
+:
+Φ
+ 
+
+l
+i
+n
+e
+a
+r
+
+}
+
+
+{\displaystyle V^{**}=\{\Phi :V^{*}\to F:\Phi \ \mathrm {linear} \}}
+
+, defined by 
+
+
+
+(
+Ψ
+(
+v
+)
+)
+(
+φ
+)
+=
+φ
+(
+v
+)
+
+
+{\displaystyle (\Psi (v))(\varphi )=\varphi (v)}
+
+ for all 
+
+
+
+v
+∈
+V
+,
+φ
+∈
+
+V
+
+∗
+
+
+
+
+{\displaystyle v\in V,\varphi \in V^{*}}
+
+.  In other words, if 
+
+
+
+
+
+e
+v
+
+
+v
+
+
+:
+
+V
+
+∗
+
+
+→
+F
+
+
+{\displaystyle \mathrm {ev} _{v}:V^{*}\to F}
+
+ is the evaluation map defined by 
+
+
+
+φ
+↦
+φ
+(
+v
+)
+
+
+{\displaystyle \varphi \mapsto \varphi (v)}
+
+, then 
+
+
+
+Ψ
+:
+V
+→
+
+V
+
+∗
+∗
+
+
+
+
+{\displaystyle \Psi :V\to V^{**}}
+
+ is defined as the map 
+
+
+
+v
+↦
+
+
+e
+v
+
+
+v
+
+
+
+
+{\displaystyle v\mapsto \mathrm {ev} _{v}}
+
+.  This map 
+
+
+
+Ψ
+
+
+{\displaystyle \Psi }
+
+ is always injective;[nb 3] it is an isomorphism if and only if 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is finite-dimensional.[11]
+Indeed, the isomorphism of a finite-dimensional vector space with its double dual is an archetypal example of a natural isomorphism.
+Infinite-dimensional Hilbert spaces are not isomorphic to their algebraic double duals, but instead to their continuous double duals.
+If f : V → W is a linear map, then the transpose (or dual) f∗ : W∗ → V∗ is defined by
+for every 
+
+
+
+φ
+∈
+
+W
+
+∗
+
+
+
+
+{\displaystyle \varphi \in W^{*}}
+
+. The resulting functional 
+
+
+
+
+f
+
+∗
+
+
+(
+φ
+)
+
+
+{\displaystyle f^{*}(\varphi )}
+
+ in 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+ is called the pullback of 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ along 
+
+
+
+f
+
+
+{\displaystyle f}
+
+.
+The following identity holds for all 
+
+
+
+φ
+∈
+
+W
+
+∗
+
+
+
+
+{\displaystyle \varphi \in W^{*}}
+
+ and 
+
+
+
+v
+∈
+V
+
+
+{\displaystyle v\in V}
+
+:
+where the bracket [·,·] on the left is the natural pairing of V with its dual space, and that on the right is the natural pairing of W with its dual.  This identity characterizes the transpose,[12] and is formally similar to the definition of the adjoint.
+The assignment f ↦ f∗ produces an injective linear map between the space of linear operators from V to W and the space of linear operators from W∗ to V∗; this homomorphism is an isomorphism if and only if W is finite-dimensional.
+If V = W then the space of linear maps is actually an algebra under composition of maps, and the assignment is then an antihomomorphism of algebras, meaning that (fg)∗ = g∗f∗.
+In the language of category theory, taking the dual of vector spaces and the transpose of linear maps is therefore a contravariant functor from the category of vector spaces over F to itself.
+It is possible to identify  (f∗)∗ with f using the natural injection into the double dual.
+If the linear map f is represented by the matrix A with respect to two bases of V and W, then f∗ is represented by the transpose matrix AT with respect to the dual bases of W∗ and V∗, hence the name.
+Alternatively, as f is represented by A acting on the left on column vectors, f∗ is represented by the same matrix acting on the right on row vectors.
+These points of view are related by the canonical inner product on Rn, which identifies the space of column vectors with the dual space of row vectors.
+Let 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ be a subset of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+.
+The annihilator of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ in 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+, denoted here 
+
+
+
+
+S
+
+0
+
+
+
+
+{\displaystyle S^{0}}
+
+, is the collection of linear functionals 
+
+
+
+f
+∈
+
+V
+
+∗
+
+
+
+
+{\displaystyle f\in V^{*}}
+
+ such that 
+
+
+
+[
+f
+,
+s
+]
+=
+0
+
+
+{\displaystyle [f,s]=0}
+
+ for all 
+
+
+
+s
+∈
+S
+
+
+{\displaystyle s\in S}
+
+.
+That is, 
+
+
+
+
+S
+
+0
+
+
+
+
+{\displaystyle S^{0}}
+
+ consists of all linear functionals 
+
+
+
+f
+:
+V
+→
+F
+
+
+{\displaystyle f:V\to F}
+
+ such that the restriction to 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ vanishes: 
+
+
+
+f
+
+
+|
+
+
+S
+
+
+=
+0
+
+
+{\displaystyle f|_{S}=0}
+
+.
+Within finite dimensional vector spaces, the annihilator is dual to (isomorphic to) the orthogonal complement.
+The annihilator of a subset is itself a vector space.
+The annihilator of the zero vector is the whole dual space: 
+
+
+
+{
+0
+
+}
+
+0
+
+
+=
+
+V
+
+∗
+
+
+
+
+{\displaystyle \{0\}^{0}=V^{*}}
+
+, and the annihilator of the whole space is just the zero covector: 
+
+
+
+
+V
+
+0
+
+
+=
+{
+0
+}
+⊆
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{0}=\{0\}\subseteq V^{*}}
+
+.
+Furthermore, the assignment of an annihilator to a subset of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ reverses inclusions, so that if 
+
+
+
+{
+0
+}
+⊆
+S
+⊆
+T
+⊆
+V
+
+
+{\displaystyle \{0\}\subseteq S\subseteq T\subseteq V}
+
+, then
+If 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ are two subsets of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ then
+and equality holds provided 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is finite-dimensional. If 
+
+
+
+(
+
+A
+
+i
+
+
+
+)
+
+i
+∈
+I
+
+
+
+
+{\displaystyle (A_{i})_{i\in I}}
+
+ is any family of subsets of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ indexed by 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ belonging to some index set 
+
+
+
+I
+
+
+{\displaystyle I}
+
+, then
+In particular if 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ are subspaces of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ then
+If 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is finite-dimensional and 
+
+
+
+W
+
+
+{\displaystyle W}
+
+ is a vector subspace, then
+after identifying 
+
+
+
+W
+
+
+{\displaystyle W}
+
+ with its image in the second dual space under the double duality isomorphism 
+
+
+
+V
+≈
+
+V
+
+∗
+∗
+
+
+
+
+{\displaystyle V\approx V^{**}}
+
+.  In particular, forming the annihilator is a Galois connection on the lattice of subsets of a finite-dimensional vector space.
+If 
+
+
+
+W
+
+
+{\displaystyle W}
+
+ is a subspace of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ then the quotient space 
+
+
+
+V
+
+/
+
+W
+
+
+{\displaystyle V/W}
+
+ is a vector space in its own right, and so has a dual.  By the first isomorphism theorem, a functional 
+
+
+
+f
+:
+V
+→
+F
+
+
+{\displaystyle f:V\to F}
+
+ factors through 
+
+
+
+V
+
+/
+
+W
+
+
+{\displaystyle V/W}
+
+ if and only if 
+
+
+
+W
+
+
+{\displaystyle W}
+
+ is in the kernel of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+.  There is thus an isomorphism
+As a particular consequence, if 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is a direct sum of two subspaces 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+, then 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+ is a direct sum of 
+
+
+
+
+A
+
+0
+
+
+
+
+{\displaystyle A^{0}}
+
+ and 
+
+
+
+
+B
+
+0
+
+
+
+
+{\displaystyle B^{0}}
+
+.
+The dual space is analogous to a "negative"-dimensional space. Most simply, since a vector 
+
+
+
+v
+∈
+V
+
+
+{\displaystyle v\in V}
+
+ can be paired with a covector 
+
+
+
+φ
+∈
+
+V
+
+∗
+
+
+
+
+{\displaystyle \varphi \in V^{*}}
+
+ by the natural pairing
+
+
+
+
+⟨
+x
+,
+φ
+⟩
+:=
+φ
+(
+x
+)
+∈
+F
+
+
+{\displaystyle \langle x,\varphi \rangle :=\varphi (x)\in F}
+
+ to obtain a scalar, a covector can "cancel" the dimension of a vector, similar to reducing a fraction. Thus while the direct sum 
+
+
+
+V
+⊕
+
+V
+
+∗
+
+
+
+
+{\displaystyle V\oplus V^{*}}
+
+ is an 
+
+
+
+2
+n
+
+
+{\displaystyle 2n}
+
+-dimensional space (if 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-dimensional), 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+ behaves as an 
+
+
+
+(
+−
+n
+)
+
+
+{\displaystyle (-n)}
+
+-dimensional space, in the sense that its dimensions can be canceled against the dimensions of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+. This is formalized by tensor contraction.
+This arises in physics via dimensional analysis, where the dual space has inverse units.[13] Under the natural pairing, these units cancel, and the resulting scalar value is dimensionless, as expected. For example in (continuous) Fourier analysis, or more broadly time–frequency analysis:[nb 4] given a one-dimensional vector space with a unit of time 
+
+
+
+t
+
+
+{\displaystyle t}
+
+, the dual space has units of frequency: occurrences per unit of time (units of 
+
+
+
+1
+
+/
+
+t
+
+
+{\displaystyle 1/t}
+
+). For example, if time is measured in seconds, the corresponding dual unit is the inverse second: over the course of 3 seconds, an event that occurs 2 times per second occurs a total of 6 times, corresponding to 
+
+
+
+3
+s
+⋅
+2
+
+s
+
+−
+1
+
+
+=
+6
+
+
+{\displaystyle 3s\cdot 2s^{-1}=6}
+
+. Similarly, if the primal space measures length, the dual space measures inverse length.
+When dealing with topological vector spaces, the continuous linear functionals from the space into the base field 
+
+
+
+
+F
+
+=
+
+C
+
+
+
+{\displaystyle \mathbb {F} =\mathbb {C} }
+
+ (or 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+) are particularly important.
+This gives rise to the notion of the "continuous dual space" or "topological dual" which is a linear subspace of the algebraic dual space 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+, denoted by 
+
+
+
+
+V
+′
+
+
+
+{\displaystyle V'}
+
+.
+For any finite-dimensional normed vector space or topological vector space, such as Euclidean n-space, the continuous dual and the algebraic dual coincide.
+This is however false for any infinite-dimensional normed space, as shown by the example of discontinuous linear maps.
+Nevertheless, in the theory of topological vector spaces the terms "continuous dual space" and "topological dual space" are often replaced by "dual space".
+For a topological vector space 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ its continuous dual space,[14] or topological dual space,[15] or just dual space[14][15][16][17] (in the sense of the theory of topological vector spaces) 
+
+
+
+
+V
+′
+
+
+
+{\displaystyle V'}
+
+ is defined as the space of all continuous linear functionals 
+
+
+
+φ
+:
+V
+→
+
+
+F
+
+
+
+
+{\displaystyle \varphi :V\to {\mathbb {F} }}
+
+.
+Important examples for continuous dual spaces are the space of compactly supported test functions 
+
+
+
+
+
+D
+
+
+
+
+{\displaystyle {\mathcal {D}}}
+
+ and its dual 
+
+
+
+
+
+
+D
+
+
+′
+
+,
+
+
+{\displaystyle {\mathcal {D}}',}
+
+ the space of arbitrary distributions (generalized functions); the space of arbitrary test functions 
+
+
+
+
+
+E
+
+
+
+
+{\displaystyle {\mathcal {E}}}
+
+ and its dual 
+
+
+
+
+
+
+E
+
+
+′
+
+,
+
+
+{\displaystyle {\mathcal {E}}',}
+
+ the space of compactly supported distributions; and the space of rapidly decreasing test functions 
+
+
+
+
+
+S
+
+
+,
+
+
+{\displaystyle {\mathcal {S}},}
+
+ the Schwartz space, and its dual 
+
+
+
+
+
+
+S
+
+
+′
+
+,
+
+
+{\displaystyle {\mathcal {S}}',}
+
+ the space of tempered distributions (slowly growing distributions) in the theory of generalized functions.
+If X is a Hausdorff topological vector space (TVS), then the continuous dual space of X is identical to the continuous dual space of the completion of X.[1]
+There is a standard construction for introducing a topology on the continuous dual 
+
+
+
+
+V
+′
+
+
+
+{\displaystyle V'}
+
+ of a topological vector space 
+
+
+
+V
+
+
+{\displaystyle V}
+
+. Fix a collection 
+
+
+
+
+
+A
+
+
+
+
+{\displaystyle {\mathcal {A}}}
+
+ of bounded subsets of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+.
+This gives the topology on 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ of uniform convergence on sets from 
+
+
+
+
+
+A
+
+
+,
+
+
+{\displaystyle {\mathcal {A}},}
+
+ or what is the same thing, the topology generated by seminorms of the form
+where 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ is a continuous linear functional on 
+
+
+
+V
+
+
+{\displaystyle V}
+
+, and 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ runs over the class 
+
+
+
+
+
+A
+
+
+.
+
+
+{\displaystyle {\mathcal {A}}.}
+
+
+This means that a net of functionals 
+
+
+
+
+φ
+
+i
+
+
+
+
+{\displaystyle \varphi _{i}}
+
+ tends to a functional 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ in 
+
+
+
+
+V
+′
+
+
+
+{\displaystyle V'}
+
+ if and only if
+Usually (but not necessarily) the class 
+
+
+
+
+
+A
+
+
+
+
+{\displaystyle {\mathcal {A}}}
+
+ is supposed to satisfy the following conditions:
+If these requirements are fulfilled then the corresponding topology on 
+
+
+
+
+V
+′
+
+
+
+{\displaystyle V'}
+
+ is Hausdorff and the sets
+form its local base.
+Here are the three most important special cases.
+If 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is a normed vector space (for example, a Banach space or a Hilbert space) then the strong topology on 
+
+
+
+
+V
+′
+
+
+
+{\displaystyle V'}
+
+ is normed (in fact a Banach space if the field of scalars is complete), with the norm
+Each of these three choices of topology on 
+
+
+
+
+V
+′
+
+
+
+{\displaystyle V'}
+
+ leads to a variant of reflexivity property for topological vector spaces:
+Let 1 < p < ∞ be a real number and consider the Banach space ℓ p of all sequences a = (an) for which
+Define the number q by 1/p + 1/q = 1. Then the continuous dual of ℓ p is naturally identified with ℓ q: given an element 
+
+
+
+φ
+∈
+(
+
+ℓ
+
+p
+
+
+
+)
+′
+
+
+
+{\displaystyle \varphi \in (\ell ^{p})'}
+
+, the corresponding element of ℓ q is the sequence 
+
+
+
+(
+φ
+(
+
+
+e
+
+
+n
+
+
+)
+)
+
+
+{\displaystyle (\varphi (\mathbf {e} _{n}))}
+
+ where 
+
+
+
+
+
+e
+
+
+n
+
+
+
+
+{\displaystyle \mathbf {e} _{n}}
+
+ denotes the sequence whose n-th term is 1 and all others are zero. Conversely, given an element a = (an) ∈ ℓ q, the corresponding continuous linear functional 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ on ℓ p is defined by
+for all b = (bn) ∈ ℓ p (see Hölder's inequality).
+In a similar manner, the continuous dual of ℓ 1 is naturally identified with ℓ ∞ (the space of bounded sequences).
+Furthermore, the continuous duals of the Banach spaces c (consisting of all convergent sequences, with the supremum norm) and c0 (the sequences converging to zero) are both naturally identified with ℓ 1.
+By the Riesz representation theorem, the continuous dual of a Hilbert space is again a Hilbert space which is anti-isomorphic to the original space.
+This gives rise to the bra–ket notation used by physicists in the mathematical formulation of quantum mechanics.
+By the Riesz–Markov–Kakutani representation theorem, the continuous dual of certain spaces of continuous functions can be described using measures.
+If T : V → W is a continuous linear map between two topological vector spaces, then the (continuous) transpose  T′ : W′ → V′ is defined by the same formula as before:
+The resulting functional T′(φ) is in V′. The assignment T → T′ produces a linear map between the space of continuous linear maps from V to W and the space of linear maps from W′ to V′.
+When T and U are composable continuous linear maps, then
+When V and W are normed spaces, the norm of the transpose in L(W′, V′) is equal to that of T in L(V, W).
+Several properties of transposition depend upon the Hahn–Banach theorem.
+For example, the bounded linear map T has dense range if and only if the transpose T′ is injective.
+When T is a compact linear map between two Banach spaces V and W, then the transpose T′ is compact.
+This can be proved using the Arzelà–Ascoli theorem.
+When V is a Hilbert space, there is an antilinear isomorphism iV from V onto its continuous dual V′.
+For every bounded linear map T on V, the transpose and the adjoint operators are linked by
+When T is a continuous linear map between two topological vector spaces V and W, then the transpose T′ is continuous when W′ and V′ are equipped with "compatible" topologies: for example, when for X = V and X = W, both duals X′ have the strong topology β(X′, X) of uniform convergence on bounded sets of X, or both have the weak-∗ topology σ(X′, X) of pointwise convergence on X.
+The transpose T′ is continuous from β(W′, W) to β(V′, V), or from σ(W′, W) to σ(V′, V).
+Assume that W is a closed linear subspace of a normed space V, and consider the annihilator of W in V′,
+Then, the dual of the quotient V / W  can be identified with W⊥, and the dual of W can be identified with the quotient V′ / W⊥.[21]
+Indeed, let P denote the canonical surjection from V onto the quotient V / W ; then, the transpose P′ is an isometric isomorphism from (V / W )′ into V′, with range equal to W⊥.
+If j denotes the injection map from W into V, then the kernel of the transpose j′ is the annihilator of W:
+and it follows from the Hahn–Banach theorem that j′ induces an isometric isomorphism
+V′ / W⊥ → W′.
+If the dual of a normed space V is separable, then so is the space V itself.
+The converse is not true: for example, the space ℓ 1 is separable, but its dual ℓ ∞ is not.
+In analogy with the case of the algebraic double dual, there is always a naturally defined continuous linear operator Ψ : V → V′′ from a normed space V into its continuous double dual V′′, defined by
+As a consequence of the Hahn–Banach theorem, this map is in fact an isometry, meaning ‖ Ψ(x) ‖ = ‖ x ‖ for all x ∈ V.
+Normed spaces for which the map Ψ is a bijection are called reflexive.
+When V is a topological vector space then Ψ(x) can still be defined by the same formula, for every x ∈ V, however several difficulties arise.
+First, when V is not locally convex, the continuous dual may be equal to { 0 } and the map Ψ trivial.
+However, if V is Hausdorff and locally convex, the map Ψ is injective from V to the algebraic dual V′∗ of the continuous dual, again as a consequence of the Hahn–Banach theorem.[nb 5]
+Second, even in the locally convex setting, several natural vector space topologies can be defined on the continuous dual V′, so that the continuous double dual V′′ is not uniquely defined as a set. Saying that Ψ maps from V to V′′, or in other words, that Ψ(x) is continuous on V′ for every x ∈ V, is a reasonable minimal requirement on the topology of V′, namely that the evaluation mappings
+be continuous for the chosen topology on V′. Further, there is still a choice of a topology on V′′, and continuity of Ψ depends upon this choice.
+As a consequence, defining reflexivity in this framework is more involved than in the normed  case.
+
+

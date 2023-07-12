@@ -1,0 +1,1634 @@
+11327,
+FreeOn-lineDictionaryofComputingsymbols-B,
+symbols - B --
+C - D --
+E - H --
+I - K --
+L - N --
+O - Q --
+R - S --
+T - W --
+X - Z --
+FOLDOC Status Page
+! -- DONE renamed to exclamation mark
+" -- DONE renamed to double quote
+% -- DONE renamed to percent
+, -- DONE renamed to comma
+0 -- DONE renamed to zero
+0/1 knapsack problem -- DONE
+100BaseFX -- DONE
+100BaseT -- DONE
+100BaseTX -- DONE
+100BaseVG -- DONE
+100VG-AnyLAN -- DONE (redirected to 100BaseVG)
+10base2 -- DONE
+10base5 -- DONE
+10baseT -- DONE
+120 reset -- DONE
+1-2-3 -- DONE (renamed Lotus 1-2-3)
+1394 -- DONE (renamed Firewire)
+1541 -- DONE (renamed Commodore 1541)
+1581 -- DONE (renamed Commodore 1581)
+16550 -- DONE (renamed 16550 UART)
+16 bit -- DONE
+16-bit application -- DONE
+1802 -- DONE (renamed CDP1802) -- REDONE (merged into RCA 1802)
+1NF -- DONE (renamed database normalization)
+1TBS -- DONE (renamed to One True Brace Style)
+1.TR.6 -- DONE
+2 -- DONE renamed to Number 2 
+20-GATE -- DONE (probably should be 20-Gate programming language, but I'm not sure)
+2780 -- DONE (renamed Binary Synchronous Transmission)
+2B1D -- DONE (renamed to Basic Rate Interface)
+2B1Q -- DONE (renamed to two-binary, one-quaternary)
+2B+D -- DONE (renamed to Basic Rate Interface)
+2NF -- DONE (renamed database normalization)
+2.PAK -- DONE
+320xx -- DONE (renamed 320xx microprocessor)
+3270 -- DONE (renamed IBM 3270)
+32-bit application -- DONE
+3780 -- DONE (renamed Binary Synchronous Transmission)
+386 -- DONE renamed to (Intel 80386)
+386BSD -- DONE (integrated with our article)
+386SPART.PAR -- DONE'
+3Com Corporation -- DONE
+3DO -- DONE
+3GL -- DONE (renamed Third generation language)
+3NF -- DONE (renamed database normalization)
+3Station -- DONE
+3-tier -- DONE renamed to 3-tier (computing)
+404 -- DONE (renamed 404 error)
+4.2BSD -- DONE renamed to Berkeley Software Distribution
+431A -- DONE
+4510 -- DONE
+473L Query -- DONE (renamed 473L Query programming language)
+486 -- DONE (renamed Intel 80486)
+486SX -- DONE (renamed Intel 80486SX
+4GL -- DONE (renamed fourth generation language)
+4NF -- DONE (renamed database normalization)
+51forth -- DONE (renamed 51forth programming language)
+56 kbps -- DONE
+56k line -- DONE
+586 -- NO IMPORT: "What the Pentium was not called" isn't exactly an article. ;-)
+5ESS Switch -- DONE
+5NF -- DONE (renamed database normalization)
+5th Glove -- DONE
+6.001 -- DONE renamed to 6.001 (MIT)
+610 -- DONE
+6309 -- DONE (renamed Hitachi 6309)
+64 bit -- DONE
+6501 -- DONE (renamed MOS Technologies 6501)
+6502 -- DONE (renamed MOS Technologies 6502)
+650x -- DONE (renamed MOS Technologies 650x)
+6510 -- DONE (renamed MOS Technologies 6510)
+65816 -- DONE (renamed MOS Technologies 65816)
+6800 -- DONE (renamed Motorola 6800)
+68000 -- DONE renamed to Motorola 68000
+68020 -- DONE (renamed Motorola 68020)
+68030 -- DONE (renamed Motorola 68030)
+68040 -- DONE (renamed Motorola 68040)
+68050 -- DONE
+68060 -- DONE (renamed Motorola 68060)
+6809 -- DONE (renamed Motorola 6809)
+680x0 -- DONE renamed to Motorola 680x0
+686 -- DONE (see other meanings links)
+68HC11 -- DONE (renamed Motorola 68HC11)
+68LC040 -- DONE (renamed Motorola 68LC040)
+6x86 -- DONE (renamed Cyrix 6x86
+754 -- DONE (renamed IEEE Floating Point Standard
+80186 -- DONE (renamed Intel 80186)
+80188 -- DONE (renamed Intel 80188)
+802.2 -- DONE (renamed IEEE 802.2
+802.3 -- DONE (renamed IEEE 802.3
+80286 -- NO IMPORT (already exists)
+8031 -- DONE (renamed Intel 8051)
+80386 -- NO IMPORT (already exists)
+8048 -- DONE (renamed Intel 8048)
+80486 -- NO IMPORT (already exists)
+8051 -- DONE (renamed Intel 8051)
+8052 -- DONE (renamed Intel 8051)
+8080 -- DONE (renamed Intel 8080)
+8086 -- DONE (renamed Intel 8086)
+8088 -- NO IMPORT (already exists)
+80x86 -- DONE (renamed Intel 80x86)
+822 -- DONE (renamed RFC 822)
+82430FX -- DONE (renamed Triton II)
+82430HX -- DONE (renamed Triton II)
+82430MX -- DONE (renamed Mobile Triton)
+82430VX -- DONE (renamed Triton VX)
+8.3 -- DONE (renamed 8.3 (computing))
+8514 -- DONE (renamed 8514 (display standard))
+8514-A -- DONE (renamed 8514 (display standard))
+88000 -- DONE (renamed Motorola 88000)
+88open -- DONE
+8-bit clean -- DONE
+8N1 -- DONE
+8 queens problem -- NO IMPORT (already exists)
+8 queens puzzle -- NO IMPORT (already exists)
+8x86 -- DONE (renamed Intel 80x86)
+90-90 Rule -- DONE (renamed Ninety-Ninety Rule)
+9PAC -- DONE
+ -- NO IMPORT (what is this supposed to be?)
+= -- DONE (renamed to equals (computing))
+@ -- DONE (renamed to commercial at (computing))
+A# -- DONE (renamed to A sharp)
+A-0 -- DONE
+a1 -- DONE
+A1 security -- DONE (renamed to Orange Book)
+A20 handler -- DONE
+A-3 -- DONE (renamed to ARITH-MATIC)
+A3D -- DONE
+a56 -- DONE
+AADL -- DONE (renamed to Axiomatic Architecture Description Language)
+AAL -- DONE (renamed to ATM Adaptation Layer)
+AAP -- DONE (renamed to Associaton of American Publishers)
+AAP DTD -- DONE
+aard -- DONE
+AARP -- DONE (renamed to Apple Address Resolution Protocol)
+AARP probe packets -- DONE (renamed to AARP probe packet)
+AAUI -- DONE (renamed to Apple Attachment Unit Interface)
+A&ampB -- DONE
+abbrev -- NO IMPORT (not suitable for an encyclopedia article)
+Abbreviated Test Language for Avionics Systems -- DONE
+ABC -- DONE (renamed to ABC (programming))
+ABC ALGOL -- DONE
+ABCL/1 -- DONE
+ABCL/c+ -- DONE (renamed to ABCL/c plus)
+ABCL/R -- DONE
+ABCL/R2 -- DONE
+abduction -- DONE (renamed to abduction (logic))
+ABEND -- DONE
+ABI -- DONE (renamed to Application Binary Interface)
+ABLE -- DONE
+ABM -- DONE (renamed to Asynchronous Balanced Mode)
+ABNF -- DONE (renamed to Augmented Backus-Naur Form)
+abort -- DONE (renamed to Abort (computing))
+ABP -- 'DONE
+ABR -- DONE (renamed to Automatic baud rate detection)
+abscissa -- DONE
+ABSET -- DONE
+absolute path -- DONE
+absolute pathname -- DONE renamed to absolute path
+abstract class -- DONE
+abstract data type -- NO IMPORT (already exists)
+abstract interpretation -- DONE
+abstraction -- DONE (renamed to abstraction (programming))
+abstract machine -- DONE
+Abstract Machine Notation -- DONE
+abstract syntax -- DONE
+Abstract Syntax Notation 1 -- DONE
+abstract syntax tree -- DONE
+Abstract-Type and Scheme-Definition Language -- DONE
+Abstract Windowing Toolkit -- DONE
+Abstract Window Toolkit -- DONE (renamed to Abstract Window Toolkit)
+ABSYS -- DONE
+ACA -- DONE (renamed to Application Control Architecture)
+ACAP -- DONE (renamed to Application Configuration Access Protocol)
+Accelerated Graphics Port -- DONE
+accelerator -- DONE (renamed to Accelerator (computing))
+Accent -- DONE (renamed to Accent (programming language))
+accept -- DONE (renamed to Accept (computing routine))
+Acceptable Use Policy -- DONE
+acceptance testing -- DONE
+Acceptance, Test Or Launch Language -- DONE
+acceptor -- NO IMPORT (already have article on Finite state machine; left FOLDOC article in Talk:Finite state machine if anyone wants to merge it) 
+Access -- DONE (part when to Access query language, the communications program went to Microsoft Access, since we already have an article on Microsoft Access the database, that was dumped in Talk:Microsoft Access)
+Access Control List -- DONE
+access method -- DONE
+access permission
+access time
+ACCLAIM
+Accounting File
+accounting management
+ACCU
+accumulator -- DONE
+accuracy
+ACE
+ACF
+ACF/NCP
+ACIA
+ACID
+ACIS
+ACK
+ACL
+ACM
+ACME
+ACOM
+Acorn Archimedes
+Acorn Computer Group
+Acorn Computers Ltd.
+Acorn RISC Machine
+ACOS
+acoustic coupler
+ACP
+ACPI -- DONE
+Acrobat
+acronym
+ACSE
+ACT -- see Annual Change Traffic, Ada Core Technologies 
+ACT++
+Act1
+Act2
+Act3
+Actalk
+Actis
+activation record
+active DBMS
+Active Directory
+Active Language I
+active matrix display
+Active Monitor
+active object
+Active Reconfiguring Message
+Active Server Pages
+ActiveX
+ACT ONE
+Actor
+actor
+Actors
+actor/singer/waiter/webmaster
+Actra
+Actus
+AD
+ad
+Ada
+Ada++
+Ada 83
+Ada 95
+Ada 9X
+ADABAS
+Ada Core Technologies
+Ada/Ed
+Adaline
+Ada Lovelace
+ADAM
+Adam7
+Adamakegen
+ADAMO
+Ada-O
+Adaplan
+Adaplex
+Ada Programming Support Environment
+ADAPT
+Adaptable User Interface
+Adaptec
+adaptive answering
+Adaptive Communication Environment
+Adaptive Digital Pulse Code Modulation
+adaptive learning
+adaptive routing
+Adaptive Simulated Annealing
+Adaptive TRansform Acoustic Coding
+Adaptor
+Ada Semantic Interface Specification
+Ada Software Repository
+ADC
+ADCCP
+A/D converter
+AD/Cycle
+ADD 1 TO COBOL GIVING COBOL
+ADDD
+additive
+address
+address bus
+addressed call mode
+addressee
+addressing mode
+address mask
+address resolution
+Address Resolution Protocol
+address space
+Address Strobe
+ADELE
+ADES
+ad hoc -- NO IMPORT (already exists) 
+ad-hockery
+ad-hoc polymorphism -- NO IMPORT (already exists)
+Aditi
+adjacency
+adjacent
+ADL
+AdLog
+ADM
+ADMD
+admin
+Administration Management Domain
+administrative distance
+Administrative Domain
+admissible
+Adobe Systems, Inc.
+Adobe Type Manager
+ADPCM
+ADS
+ADSL
+ADSP
+ADSU
+ADT
+Advanced Communication Function/Network Control Program
+Advanced Communications Function
+Advanced Computing Environment
+Advanced Configuration and Power Interface -- DONE
+Advanced Data Communications Control Protocol
+Advanced Encryption Standard
+Advanced Function Presentation
+Advanced Function Printing
+Advanced Intelligent Tape
+Advanced Interactive eXecutive
+Advanced Micro Devices, Inc.
+Advanced Network Systems Architecture
+Advanced Peer-to-Peer Networking
+Advanced Power Management -- DONE
+Advanced Program-to-Program Communications
+Advanced Research Projects Agency
+Advanced Research Projects Agency Network
+Advanced Revelation
+Advanced RISC Computing Specification
+Advanced RISC Machine DONE, renamed Acorn RISC Machine and moved to ARM Ltd
+Advanced RISC Machines Ltd. DONE, renamed Advanced RISC Machines and merged with ARM Ltd
+Advanced SCSI Peripheral Interface
+Advanced Software Environment
+Advanced STatistical Analysis Program
+Advanced Technology Attachment
+Advanced Technology Attachment Interface with Extensions
+Advanced WavEffect
+ADVENT
+Adventure Definition Language
+ADVSYS
+AE
+ae
+AED
+AEGIS
+Aegis
+Aeolus
+AEP
+aeroplane rule
+AES
+AESOP
+af
+AFAC
+AFAIK
+affine transformation
+affordance
+AFIPS
+AFJ
+AFK
+aflex
+AFNOR
+AFP
+AFS
+AFUU
+ag
+agent
+aggregate type
+aggregation
+AGL
+AGM Theory for Belief Revision
+AGORA
+AGP -- DONE
+AGP graphics
+A Hardware Programming Language
+AHDL
+AHPL
+AI
+ai
+AIA
+AI-complete
+AID
+AIDA
+AIDS
+AIDX
+AIFF
+AI International
+AI koan
+AIMACO
+Aimnet
+AIR
+AIr MAterial COmmand compiler
+airplane rule
+AIT
+AIX
+AKC
+AKCL
+A. K. Erlang
+AKL
+AL
+al
+Aladdin Systems
+ALADIN
+ALAM
+Alan F. Shugart
+A-language
+A Language Encouraging Program Hierarchy
+A Language for Attributed Definitions
+A Language with an Extensible Compiler
+Alan Kay
+Alan M. Turing
+Alan Shugart
+Alan Turing
+A-law
+ALC
+Alcool-90
+ALCOR
+Aldat
+ALDES
+ALDiSP
+ALEC
+ALEF
+ALEPH
+Aleph
+aleph 0
+alert
+Alex
+Alexis
+ALF
+Alfl
+algebra
+ALGEBRAIC
+algebraic
+algebraic data type DONE
+Algebraic Interpretive Dialogue
+Algebraic Logic Functional language
+Algebraic Manipulation Package
+Algebraic Specification Language
+algebraic structure
+Algebra of Communicating Processes
+ALGOL
+ALGOL 58
+ALGOL 60
+ALGOL 60 Modified
+ALGOL 60 Revised
+ALGOL 68
+ALGOL 68C
+ALGOL 68-R
+ALGOL 68 Revised
+ALGOL 68RS
+ALGOL 68S
+ALGOL C
+ALGOL D
+ALGOL N
+ALGOL W
+ALGOL X
+ALGOL Y
+algorithim
+algorithm
+ALgorithm DEScription
+ALgorIthmic ASsembly language
+Algorithmic Language
+Algorithmic Model
+Algorithmic Processor Description Language
+Algorithmic Test Case Generation
+ALGY
+ALIAS
+alias
+aliasing
+aliasing bug
+Alice
+alife
+A-Life
+ALJABR
+Allegro
+all-elbows
+ALLIANCE
+ALLOY
+ALM
+Aloha DONE (same as below)
+Aloha Net DONE
+Alonzo Church
+ALP
+ALPAK
+ALPHA
+Alpha
+Alpha AXP 21164
+alpha/beta pruning
+alpha conversion
+Alpha EV6
+Alpha Geek
+alphanumeric
+alpha particle
+Alphard
+alpha testing
+ALPS
+alt
+ALTAC
+Altair 8800
+Altair 9000
+Alta Vista
+alt bit
+Alternating bit protocol
+altmode
+ALTRAN
+alt.sources
+ALU
+Aluminum Book
+Alvey
+AM
+am
+Amanda
+A Manufacturing Language
+amateur packet radio
+Amber
+AMBIT
+AMBIT/G
+AMBIT/L
+AMBIT/S
+AMBUSH
+AMD
+AMD 29000
+AMD 29027
+Amdahl
+Amdahl Corporation
+Amdahl's Law
+AMD Am2901
+AMD Am2903
+AMD Am2910
+AMD K7
+American National Standard
+American National Standards Institute
+American Society of Mechanical Engineers
+American Standard Code for Information Interchange DONE -- redirects to ASCII
+American Telephone and Telegraph, Inc.
+American Wire Gauge
+America On-Line, Inc.
+America's Multimedia Online
+AMI
+Amiga
+Amiga E
+Aminet
+AML
+AML/E
+AMO
+Amoeba
+AMP
+amper
+ampersand
+AMPL
+AMPLE DONE
+Amplitude Modulation
+amp off
+AMPPL-II
+AMS
+AMTRAN
+Amulet
+an
+analog
+Analog Hardware Design Language
+analogue
+analogue computer
+Analogy Model
+Analytical Engine
+Analytical Machine
+anchor
+ANCP
+AND
+ANDF
+Andorra-I
+Andorra Kernel Language
+Andorra-Prolog
+Andrei Markov
+Andrew File System
+Andrew Fluegelman
+Andrew Message System
+Andrew Project
+Andrew S. Tanenbaum
+Andrew Tanenbaum
+Andrew Toolkit
+Andy Tanenbaum
+An Evolutionary System for On-line Programming
+Angel
+angle bracket
+angry fruit salad
+ANI
+Animated GIF
+animation
+Animus
+ANL
+Anna
+annealing
+annotate
+ANNotated Ada
+annotation
+annoybot
+annoyware
+Annual Change Traffic
+annulled branch
+anonymous FTP
+ANother Tool for Language Recognition
+ANR
+ANS
+ANSA
+ANSI
+ANSI C
+ANSI Minimal BASIC
+ANSI/SPARC
+ANSI/SPARC Architecture
+ANSI/SPARC model
+ANSI X12
+ANSI Z39.50
+Anthony Hoare
+anti-aliasing
+antichain
+antisymmetric
+antivirus software
+ANTLR
+ANU
+ANU ML
+anytime algorithm -- DONE
+ao
+AOCE
+AOL
+AOP
+AOS
+APA
+Apache
+APAL
+APAREL
+A PArse REquest Language
+APC
+APDL
+apE
+API
+APIC
+APL
+APL2
+APLGOL
+APLWEB
+APM -- DONE
+Apollo Computer
+apostrophe
+app
+APPC
+AppKit
+APPLE
+Apple Attachment Unit Interface
+Apple Computer, Inc.
+Apple II
+Apple Macintosh
+Apple Newton
+Apple Open Collaboration Environment
+AppleScript
+Applesoft BASIC
+applet
+Appletalk
+AppleTalk Data Stream Protocol
+AppleTalk Filing Protocol
+application
+Application Binary Interface
+Application Configuration Access Protocol
+Application Control Architecture
+application enablement services
+Application environment specification
+Application Executive
+Application Integration Architecture
+application layer
+Application Portability Architecture
+application program
+Application Program Interface
+Application Programming Interface
+Application Protocol Data Unit
+application server
+Application Service Element
+application service provider
+applications language
+application software
+Application Software Installation Server
+Application-Specific Integrated Circuit
+Applications Programming Interface
+applications software
+Application Visualisation System
+applicative language
+Applicative Language for Digital Signal Processing
+applicative order reduction
+APPLOG
+APPN
+approximation algorithm
+April Fool's Joke
+A Programming Language
+APSE
+APT
+APX III
+aq
+AQL
+ar
+arbitrary precision calculator
+ARC
+arc
+Arcade
+ArchBSD
+Archie
+Archimedes
+architecture
+Architecture Neutral Distribution Format
+archive
+archive site
+ARCnet DONE
+ARCS
+Arctic
+arena
+ARES
+AREV
+AREXX
+arg
+argument
+Argus
+Ariel
+ARI Service
+ARITH-MATIC
+Arithmetic and Logic Unit
+arity
+arj
+Arjuna
+ARL
+ARM DONE
+ARM610
+ARM7
+ARM710
+ARM7500
+ARM8
+ARM800
+ARM Ltd
+ARMM
+armour-plated
+ARP
+ARPA
+ARPANET
+ARQ
+array
+array processor
+Array Processor Assembly Language
+Array Theory
+arrow key
+ART
+Artemis microkernel
+Artifex
+artificial intelligence
+Artificial Intelligence Lab
+Artificial Life
+artificial neural network
+Artisoft, Inc.
+Artistic license
+ARTSPEAK
+AS
+as
+as31
+AS400
+AS/400
+ASA
+asap
+asbestos
+asbestos cork award
+asbestos longjohns
+ascender
+ASCII
+ASCII art
+ASCIIbetical order
+ASCIIbonics
+ASCII character table
+ASCII graphics
+ASDIMPL
+ASDL
+ASDO IMPlementation Language
+ASE
+A* search
+ASF
+ash
+Ashmedai
+Ashton-Tate Corporation
+ASIC
+A Simulation Process-Oriented Language
+ASIS
+ASK
+ASL
+ASL+
+ASM
+ASME
+ASN
+ASN.1
+ASP
+ASPECT
+ASpecT
+aspect
+aspect-oriented programming
+aspect ratio
+ASPEN
+ASPI
+ASPIK
+Aspirin
+ASPLE
+ASPOL
+ASQC
+ASR
+assembler
+ASSEMBLY
+assembly code
+Assembly Language
+assembly language
+Assembly Language Compiler
+Assembly Language for Multics
+assertion
+ASSET
+asset management
+Asset Source for Software Engineering Technology
+assigned numbers
+assignment
+assignment problem - NO IMPORT, assignment problem is now written from scratch.
+Association Control Service Element
+Association for Computational Linguistics
+Association for Computing
+Association for Computing Machinery
+Association for Progressive Communications
+Association for SIMULA Users
+Association Française des Utilisateurs d'Unix
+Association of American Publishers
+Association of C and C++ Users
+Association of Lisp Users
+associative array
+associative memory
+Associative Memory Parallel Processing Language
+AST
+ASTAP
+AST Computers, LLC
+asterisk
+asterix
+Astral
+AST Research, Inc.
+asymmetrical modulation
+Asymmetric Digital Subscriber Line
+Asymmetric Digital Subscriber Loop
+asynchronous
+Asynchronous Balanced Mode
+Asynchronous Communications Interface Adapter
+asynchronous logic
+Asynchronous Transfer Mode
+asyncronous
+AT DONE
+at
+AT-3
+ATA
+ATA-2
+ATA-4
+ATAPI
+Atari DONE
+AT Attachment
+AT Attachment Packet Interface
+AT bus architecture -- DONE
+AtFS
+Athena
+Atherton Technology
+Athlon
+ATIS
+ATK
+ATLAS
+Atlas Autocode
+ATM
+ATM Forum
+ATMP
+atob
+ATOLL
+atomic
+A Tools Integration Standard
+ATRAC
+ATS
+at sign
+AT&T
+Attachment Unit Interface
+AT&T Bell Labs
+atto-
+attoparsec
+attribute
+Attributed File System
+Attribute Translation System
+ATX
+au
+aubergine
+audio
+audiographics
+audiographic teleconferencing
+Audio IFF
+AudioOne
+Audio Processing Technology
+Audio Video Interleave
+Augmented Backus-Naur Form
+AUI
+A'UM
+AUP
+Aurora
+Austin Kyoto Common Lisp
+authentication
+authoring
+autobaud
+autobogotiphobia
+AutoCAD
+Autocode
+AUTOCODER
+Autodesk, Inc.
+AUTOEXEC.BAT
+AUTOGRAF
+AUTOGRP
+Auto Idle
+AutoLISP -- DONE
+autoloader
+automagically
+automata
+automata theory
+Automated Engineering Design
+AUTOmated GRouPing system
+Automated Retroactive Minimal Moderation
+automated testing
+AUTOMATH
+Automatically Programmed Tools
+automatic baud rate detection
+automatic hyphenation
+Automatic Mathematical TRANslation
+Automatic Network Routing
+Automatic Number Identification
+Automatic Repeat Request
+Automatic Send Receive
+Automatic Sequence Controlled Calculator
+automation
+Automatische Rechenplanfertigung
+automaton
+Automatrix, Inc.
+Autonomous System
+Autonomous System Number
+Autopass
+autoprojector
+AUTO-PROMPT
+Autostat
+autostereogram
+A/UX
+auxiliary storage
+av
+availability
+Avalon/C++
+Avalon/Common LISP
+avatar
+average seek time
+AVI
+Avon
+AVS
+aw
+AWE
+AWG
+awk
+AWT
+aXe
+AXIOM
+axiom
+AXIOM*
+Axiomatic Architecture Description Language
+axiomatic semantics
+axiomatic set theory
+Axiom of Choice
+Axiom of Comprehension
+AXLE
+ayacc
+AYT
+az
+AZERTY
+B
+b
+B-0
+B1FF
+B1 security
+B2B
+B2 security
+B3 security
+b4
+ba
+Baan
+Babbage
+]Babbage, Charles
+babbling error
+BABEL
+BABT
+Baby AT
+BABYLON
+BACAIC
+Bachman
+Bachman Information Systems
+backbone
+backbone cabal
+backbone site
+back door
+back-end
+Back End Generator
+Back End Generator Language
+backgammon
+background
+backing store
+back link
+backoff
+BackOffice
+back-propagation
+back quote
+backside cache
+backslash
+backtick
+backtracking
+backup
+backup pumpkin
+Backus-Naur Form
+Backus Normal Form
+backward analysis
+backward chaining
+backward compatibility
+backward compatible
+backwards compatibility
+backwards compatible
+BAD
+Bad command or file name
+Bad Thing
+bag on the side
+BAL
+balanced computing
+balanced tree
+BALGOL
+BALITAC
+BALM
+balun
+bamf
+Banach algebra
+Banach inverse mapping theorem
+Banach space
+Banach-Tarski paradox
+banana label
+banana problem
+bandwidth
+bang
+bang on
+bang path
+banner
+Banyan
+BAP
+BAPI
+bar
+bar code
+bare metal
+barf
+barfmail
+barfulation
+barfulous
+barney
+Baroque
+baroque
+barrel shifter -- DONE
+base
+base 64
+baseband
+base class
+baseline
+base memory
+basename
+Base Technology
+bash
+BASIC
+Basic Assembly Language
+BASIC AUTOCODER
+Basic COBOL
+Basic Encoding Rules
+Basic Fortran
+Basic Input/Output System
+Basic JOVIAL
+Basic Language for Implementation of System Software
+Basic Multilingual Plane
+Basic Object System
+Basic Operating System
+Basic Programming Support
+Basic Rate Interface
+BASIC V
+Bastard Operator From Hell
+bastion host
+batch file
+batch processing
+bathtub curve
+baud
+baud barf
+Baudot
+Baudotbetical order
+Baudot code
+baud rate
+bawk
+bay
+baz
+bb
+BBC
+BBC Microcomputer
+BBC Networking Club
+BBL
+BBN
+bboard
+BBS
+BC
+BCBF
+BCC
+BCD
+BCL
+BC NELIAC
+BCNU
+BCPL
+BCS
+bd
+BDC
+BDL
+BDPA
+be
+BEA
+beam
+beamer
+beam search
+bean
+beanie key
+bearer channel
+bear paw
+Beats the shit outa me
+BeBOP
+BeBox
+BEDO
+Bedrock
+beep
+beeper
+BEG
+@Begin
+BEGL
+beige toaster
+Be Inc
+BEL
+belief revision
+BELL
+Bell
+bell
+Bell 103
+Bell Communications Research, Inc
+Bellcore
+bell curve
+Bell Laboratories
+Bell Labs
+bells and whistles
+bells, whistles, and gongs
+benchmark
+Bend Over, Here It Comes Again
+Benoit B. Mandelbrot
+Benoit Mandelbrot
+Bentley Systems, Inc.
+BeOS
+BER
+Berkeley
+Berkeley 4.2
+Berkeley EDIF200
+Berkeley FP
+Berkeley Internet Name Domain
+Berkeley Logo
+Berkeley Network
+Berkeley Quality Software
+Berkeley Software Design, Inc
+Berkeley Softworks
+Berkeley System Distribution
+Berkeley Unix
+Berkeley Yacc
+berklix
+Berners-Lee, Tim
+Bernoulli Box
+Bernoulli principle
+Bernstein condition
+BERR
+Bertrand
+Bertrand Meyer
+Bertrand Russell
+Berzerkeley
+Berzerkley
+best effort
+best first search
+Best Fit
+BETA
+beta
+beta abstraction
+beta conversion
+Betamaxed
+beta reduction
+beta testing
+beta version
+Bezier
+Bezier curve
+Bezier surface
+bf
+BFI
+bg
+bgh
+BGP
+bh
+BHC Code
+bi
+bib
+bible
+BIBOP
+BibTeX
+BiCapitalisation
+BiCMOS
+bidirectional printing
+Bidouilleurs Sans Argent
+bi-endian
+BIFF
+biff
+Big bag of pages
+big blue
+big-endian
+Big Gray Wall
+big iron
+BIG-LAN
+Bigloo
+bignum
+bigot
+Big Red Switch
+Big Room
+big win
+bijection
+Bill Gates
+Bill Joy
+binaries
+binary
+Binary Coded Decimal
+Binary Compatibility Standard
+binary counter
+binary exponential backoff
+binary file
+binary large object
+binary package
+binary search
+Binary Synchronous Transmission -- DONE
+binary tree
+BIND
+bindery
+binding handle
+binding-time analysis
+BinHex
+Binhex 4.0
+BinProlog
+BIOR
+BIOS
+BIP
+bipartite graph
+bipolar
+bipolar transistor
+BIPS
+Bird-Meertens Formalism
+Birds Of a Feather
+BISDN
+Bison
+Bison++
+BIST
+bisync
+bit
+bit bang
+bit bashing
+bitblt
+bit bucket
+bit decay
+bit diddling
+bite
+bitmap
+bitmap display
+bitmap font
+bitmapped display
+bit mask
+BITNET
+bitonal image
+bit-paired keyboard
+bit pattern
+bit plane
+bit-robbing
+bit rot
+bit slice
+bits per inch
+bits per pixel
+bits per second
+bit string
+bit stuffing
+bit twiddling
+bitty box
+bitwise
+bitwise complement
+bixie
+bj
+Bjarne Stroustrup
+BJC4000
+black art
+black box
+black-box testing
+Black Data Processing Associates
+black hole
+black magic
+blargh
+blast
+blat
+BLAZE
+BLAZE 2
+bleam
+bleeper
+bletcherous
+Bletchley Park
+Blind Carbon Copy
+B-LINE
+blinkenlights
+BLISS
+BLISS-10
+BLISS-11
+BLISS-32
+blit
+blitter
+blivet
+bloat
+bloatware
+BLOB
+block
+Block Diagram Compiler
+blocked records
+Block Redundancy Check
+Block Started by Symbol
+block transfer computations
+Bloggs Family, the
+Blosim
+blow an EPROM
+blow away
+blowing your buffer
+blow out
+blow past
+blow up
+BLOX
+BLT
+Blue
+Blue Book
+Blue Box
+Blue Glue
+Blue Screen of Death
+Blue Screen of Life
+Blue Sky Software
+Bluetooth 
+blue wire
+blurgle
+bm
+BMAN
+BMASF
+BMDP
+B-Method
+BMF
+BMP
+bmp
+BMWF
+bn
+BNC
+BNF
+BNR Pascal
+BNR Prolog
+bo
+boa
+board
+boat anchor
+Bob
+Bobo the Webmonkey
+BOCS
+Boehm B.
+BOEING
+BOF
+BOFH
+bogometer
+BogoMips
+bogon
+bogon filter
+bogon flux
+bogosity
+bogo-sort
+bogotify
+bogue out
+bogus
+BOHICA
+Bohr bug
+boink
+BOLERO
+Bolt, Beranek and Newman, Inc.
+bomb
+bon
+bondage-and-discipline language
+bonk/oif
+Booch method -- DONE
+bookmark
+Bookreader
+book titles
+Bookviewer
+bool
+Boolean
+Boolean algebra
+Boolean logic
+Boolean search
+Boole, George
+Booster
+boot
+boot block
+boot disk
+BOOTP
+bootstrap
+bootstrap loader
+boot virus
+Border Gateway Protocol
+borf
+Borland International, Inc.
+BOS
+Bose-Chaudhuri-Hocquenghem Code
+BOSS
+bot
+botmaster
+bottom
+bottom feeder
+bottom-unique
+bottom-up implementation
+bottom-up model
+bottom-up testing
+botwar
+bounce
+bounce message
+boundary scan
+boundary value analysis
+bounded
+boundedly complete
+bound variable
+bournebasic
+Bourne shell
+boustrophedonic
+box
+boxed comments
+boxen
+Boxer
+boxology
+Boycott Apple
+bozotic
+BPI
+bpmake
+bpp
+BPR
+BPS
+BQS
+br
+brace
+bracket
+bracket abstraction
+braille
+braille display
+Braille embosser
+Braille printer
+Brain Aid Prolog
+brain-damaged
+brain-dead
+brain dump
+brain fart
+braino
+branch
+Branch and Hang
+branch coverage testing
+branch delay slot -- DONE
+Branch on Chip Box Full
+branch prediction
+Branch Target Buffer
+branch to Fishkill
+Brazil
+BRB
+bread crumbs
+breadth first search
+break
+break-even point
+breakpoint
+breath-of-life packet
+breedle
+BRH
+BRI
+Brian Reid
+BRIDGE
+bridge
+Bridgetalk
+briefcase
+brightness
+Brilliant
+bring X to its knees
+British Broadcasting Corporation
+British Library Method
+British Standards Institute
+British Telecom
+British Telecom Research Laboratories
+brittle
+broadband
+broadcast
+broadcast quality video
+broadcast storm
+Broadway
+brochureware -- DONE
+broken
+broken arrow
+broker
+broket
+Brooks's Law
+brouter
+Brouwer Fixed-Point Theorem
+Brown and Sharpe Wire Gauge
+brown paper bag bug
+browser
+BRS
+BRUIN
+brute force
+brute force and ignorance
+brute force attack
+BS
+bs
+BS2000
+BSA
+BSD
+BSD386
+BSDI
+BSD/OS
+BSD Unix
+BSI
+BSL
+BSOD
+BSOL
+BSOM
+BSP method
+BSRAM
+BSS
+BST
+bt
+BTB
+btoa
+B-Toolkit
+BTOS
+B-tree
+Btrieve - largely done, still more to go however. - Ta bu shi da yu 02:50, 9 Dec 2004 (UTC)
+Btrieve Technologies, Inc. - DONE redirected to Btrieve 
+BTRL
+BTW
+BUAF
+BUAG
+bubble memory
+bubble sort
+bucky bits
+buffer
+buffered write-through
+buffer overflow
+bug
+bug-compatible
+bug fix
+bug fix release
+bug-for-bug compatible
+buglix
+BUGSYS
+built-in
+Built-in Self Test
+Bull
+bulletin board
+bulletin board system
+bulletproof
+Bull Information Systems
+bum
+bump
+burble
+Burge's Language
+buried treasure
+burn-in
+burn-in period
+Burroughs Corporation
+Burst EDO
+Burst Extended Data Out DRAM
+burst page
+Burst Static Random Access Memory
+bus
+bus error
+Bush, Vannevar
+Business Application Programming Interface
+Business Process Re-engineering
+Business Software Alliance
+business to business
+bus master
+bus mastering
+bus network
+Busy Beaver
+busy-loop
+busy-wait
+Butterfly Common LISP
+Butterfly Scheme
+button
+buzz
+bv
+bw
+bwBASIC
+BWQ
+by
+byacc
+by hand
+Byte
+byte
+byte-code
+byte-code compiler
+byte-code interpreter
+byte compiler
+bytesexual
+Byzantine
+bz
+bzzzt, wrong
+
+

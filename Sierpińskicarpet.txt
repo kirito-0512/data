@@ -1,0 +1,54 @@
+29635,
+Sierpińskicarpet,
+The Sierpiński carpet is a plane fractal first described by Wacław Sierpiński in 1916. The carpet is a generalization of the Cantor set to two dimensions; another is Cantor dust.
+The technique of subdividing a shape into smaller copies of itself, removing one or more copies, and continuing recursively can be extended to other shapes. For instance, subdividing an equilateral triangle into four equilateral triangles, removing the middle triangle, and recursing leads to the Sierpiński triangle. In three dimensions, a similar construction based on cubes is known as the Menger sponge.
+The construction of the Sierpiński carpet begins with a square. The square is cut into 9 congruent subsquares in a 3-by-3 grid, and the central subsquare is removed. The same procedure is then applied recursively to the remaining 8 subsquares, ad infinitum.  It can be realised as the set of points in the unit square whose coordinates written in base three do not both have a digit '1' in the same position, using the infinitesimal number representation of 
+
+
+
+0.1111
+⋯
+=
+0.2
+
+
+{\displaystyle 0.1111\dots =0.2}
+
+.[1]
+The process of recursively removing squares is an example of a finite subdivision rule.
+The area of the carpet is zero (in standard Lebesgue measure).
+The interior of the carpet is empty.
+The Hausdorff dimension of the carpet is 
+
+
+
+
+
+
+log
+⁡
+8
+
+
+log
+⁡
+3
+
+
+
+≈
+1.8928
+
+
+{\displaystyle {\frac {\log 8}{\log 3}}\approx 1.8928}
+
+.[2]
+Sierpiński demonstrated that his carpet is a universal plane curve.[3] That is: the Sierpinski carpet is a compact subset of the plane with Lebesgue covering dimension 1, and every subset of the plane with these properties is homeomorphic to some subset of the Sierpiński carpet.
+This "universality" of the Sierpiński carpet is not a true universal property in the sense of category theory: it does not uniquely characterize this space up to homeomorphism.  For example, the disjoint union of a Sierpiński carpet and a circle is also a universal plane curve.  However, in 1958 Gordon Whyburn[4] uniquely characterized the Sierpiński carpet as follows:  any curve that is locally connected and has no 'local cut-points' is homeomorphic to the Sierpinski carpet.  Here a local cut-point is a point p for which some connected neighborhood U of p has the property that U − {p}  is not connected.  So, for example, any point of the circle is a local cut point.
+In the same paper Whyburn gave another characterization of the Sierpiński carpet. Recall that a continuum is a nonempty connected compact metric space.  Suppose X is a continuum embedded in the plane.  Suppose its complement in the plane has countably many connected components C1, C2, C3, ... and suppose:
+Then X is homeomorphic to the Sierpiński carpet.
+The topic of Brownian motion on the Sierpiński carpet has attracted interest in recent years.[5] Martin Barlow and Richard Bass have shown that a random walk on the Sierpiński carpet diffuses at a slower rate than an unrestricted random walk in the plane. The latter reaches a mean distance proportional to √n after n steps, but the random walk on the discrete Sierpiński carpet reaches only a mean distance proportional to β√n for some β > 2. They also showed that this random walk satisfies stronger large deviation inequalities (so called "sub-Gaussian inequalities") and that it satisfies the elliptic Harnack inequality without satisfying the parabolic one. The existence of such an example was an open problem for many years.
+A variation of the Sierpiński carpet, called the Wallis sieve, starts in the same way, by subdividing the unit square into nine smaller squares and removing the middle of them. At the next level of subdivision, it subdivides each of the squares into 25 smaller squares and removes the middle one, and it continues at the ith step by subdividing each square into (2i + 1)2 (the odd squares[6]) smaller squares and removing the middle one. By the Wallis product, the area of the resulting set is π/4, unlike the standard Sierpiński carpet which has zero limiting area. Although the Wallis sieve has positive Lebesgue measure, no subset that is a Cartesian product of two sets of real numbers has this property, so its Jordan measure is zero.[7]
+Mobile phone and Wi-Fi fractal antennas have been produced in the form of few iterations of the Sierpiński carpet. Due to their self-similarity and scale invariance, they easily accommodate multiple frequencies. They are also easy to fabricate and smaller than conventional antennas of similar performance, thus being optimal for pocket-sized mobile phones.
+
+

@@ -1,0 +1,59 @@
+12371,
+Gaslaws,
+The basic gas laws had been discovered by the end of the 18th century, when scientists began to realize that relationships between  pressure, volume and temperature of a sample of gas could be obtained which would hold to approximation for all gases. These macroscopic gas laws were also seen to be consistent with atomic and kinetic theory, though with much scepticism over the reality of such world view. Firstly, following the invention of the Torricelli mercury barometer in mid 17th century, the pressure-volume gas law was soon revealed by Boyle while ignoring or neglecting temperature. Marriott however did notice small temperature dependence. Nonetheless it took another century and a half and the development of thermometry and the recognition of absolute zero temperature scale before discovery of the temperature dependent gas laws.
+In 1662 Robert Boyle studied the relationship between volume and pressure of a gas of fixed amount  at constant temperature. He observed that volume of a given mass of a gas is inversely proportional to its pressure at a constant temperature.
+Boyle's law, published in 1662, states that, at constant temperature, the product of the pressure and volume of a given mass of an ideal gas in a closed system is always constant. It can be verified experimentally using a pressure gauge and a variable volume container. It can also be derived from the kinetic theory of gases: if a container, with a fixed number of molecules inside, is reduced in volume, more molecules will strike a given area of the sides of the container per unit time, causing a greater pressure.
+A statement of Boyle's law is as follows:
+The concept can be represented with these formulae:
+
+
+
+
+
+P
+
+1
+
+
+
+V
+
+1
+
+
+=
+
+P
+
+2
+
+
+
+V
+
+2
+
+
+
+
+{\displaystyle P_{1}V_{1}=P_{2}V_{2}}
+
+
+where P is the pressure, and V is the volume of a gas, and k1 is the constant in this equation (and is not the same as the proportionality constants in the other equations in this article).
+Charles's law, or the law of volumes, was found in 1787 by Jacques Charles. It states that, for a given mass of an ideal gas at constant pressure, the volume is directly proportional to its absolute temperature, assuming in a closed system.
+The statement of Charles's law is as follows:
+the volume (V) of a given mass of a gas, at constant pressure (P), is directly proportional to its temperature (T).
+As a mathematical equation, Charles's law is written as either:
+
+where "V" is the volume of a gas, "T" is the absolute temperature and k2 is a proportionality constant (which is not the same as the proportionality constants in the other equations in this article).
+Gay-Lussac's law, Amontons' law or the pressure law was found by Joseph Louis Gay-Lussac in 1808. It states that, for a given mass and constant volume of an ideal gas, the pressure exerted on the sides of its container is directly proportional to its absolute temperature.
+As a mathematical equation, Gay-Lussac's law is written as either:
+Avogadro's law (hypothesized in 1811) states that at a constant temperature and pressure, the volume occupied by an ideal gas is directly proportional to the number of molecules of the gas present in the container. This gives rise to the molar volume of a gas, which at STP (273.15 K, 1 atm) is about 22.4 L. The relation is given by
+The Combined gas law or General Gas Equation is obtained by combining Boyle's Law, Charles's law, and Gay-Lussac's Law. It shows the relationship between the pressure, volume, and temperature for a fixed mass (quantity) of gas:
+This can also be written as:
+With the addition of Avogadro's law, the combined gas law develops into the ideal gas law:
+An equivalent formulation of this law is:
+These equations are exact only for an ideal gas, which neglects various intermolecular effects (see real gas). However, the ideal gas law is a good approximation for most gases under moderate pressure and temperature.
+This law has the following important consequences:
+
+

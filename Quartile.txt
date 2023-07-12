@@ -1,0 +1,454 @@
+25170,
+Quartile,
+
+In statistics, a quartile is a type of quantile which divides the number of data points into four parts, or quarters, of more-or-less equal size. The data must be ordered from smallest to largest to compute quartiles; as such, quartiles are a form of order statistic. The three main quartiles are as follows:
+Along with the minimum and maximum of the data (which are also quartiles), the three quartiles described above provide a five-number summary of the data. This summary is important in statistics because it provides information about both the center and the spread of the data. Knowing the lower and upper quartile provides information on how big the spread is and if the dataset is skewed toward one side. Since quartiles divide the number of data points evenly, the range is not the same between quartiles (i.e., Q3-Q2 ≠ Q2-Q1) and is instead known as the interquartile range (IQR). While the maximum and minimum also show the spread of the data, the upper and lower quartiles can provide more detailed information on the location of specific data points, the presence of outliers in the data, and the difference in spread between the middle 50% of the data and the outer data points.[2]
+For discrete distributions, there is no universal agreement on selecting the quartile values.[3]
+This rule is employed by the TI-83 calculator boxplot and "1-Var Stats" functions.
+The values found by this method are also known as "Tukey's hinges";[4] see also midhinge.
+If we have an ordered dataset 
+
+
+
+
+x
+
+1
+
+
+,
+
+x
+
+2
+
+
+,
+.
+.
+.
+,
+
+x
+
+n
+
+
+
+
+{\displaystyle x_{1},x_{2},...,x_{n}}
+
+, we can interpolate between data points to find the 
+
+
+
+p
+
+
+{\displaystyle p}
+
+th empirical quantile if 
+
+
+
+
+x
+
+i
+
+
+
+
+{\displaystyle x_{i}}
+
+ is in the 
+
+
+
+i
+
+/
+
+(
+n
++
+1
+)
+
+
+{\displaystyle i/(n+1)}
+
+ quantile. If we denote the integer part of a number 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ by 
+
+
+
+⌊
+a
+⌋
+
+
+{\displaystyle \lfloor a\rfloor }
+
+, then the empirical quantile function is given by,
+
+
+
+
+q
+(
+p
+
+/
+
+4
+)
+=
+
+x
+
+k
+
+
++
+α
+(
+
+x
+
+k
++
+1
+
+
+−
+
+x
+
+k
+
+
+)
+
+
+{\displaystyle q(p/4)=x_{k}+\alpha (x_{k+1}-x_{k})}
+
+,
+where 
+
+
+
+k
+=
+⌊
+p
+(
+n
++
+1
+)
+
+/
+
+4
+⌋
+
+
+{\displaystyle k=\lfloor p(n+1)/4\rfloor }
+
+ and 
+
+
+
+α
+=
+p
+(
+n
++
+1
+)
+
+/
+
+4
+−
+⌊
+p
+(
+n
++
+1
+)
+
+/
+
+4
+⌋
+
+
+{\displaystyle \alpha =p(n+1)/4-\lfloor p(n+1)/4\rfloor }
+
+.[1]
+To find the first, second, and third quartiles of the dataset we would evaluate 
+
+
+
+q
+(
+0.25
+)
+
+
+{\displaystyle q(0.25)}
+
+, 
+
+
+
+q
+(
+0.5
+)
+
+
+{\displaystyle q(0.5)}
+
+, and 
+
+
+
+q
+(
+0.75
+)
+
+
+{\displaystyle q(0.75)}
+
+ respectively.
+Ordered Data Set: 6, 7, 15, 36, 39, 40, 41, 42, 43, 47, 49
+Ordered Data Set: 7, 15, 36, 39, 40, 41
+As there are an even number of data points, the first three methods all give the same results.
+If we define a continuous probability distributions as 
+
+
+
+P
+(
+X
+)
+
+
+{\displaystyle P(X)}
+
+ where 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a real valued random variable, its cumulative distribution function (CDF) is given by
+
+
+
+
+
+F
+
+X
+
+
+(
+x
+)
+=
+P
+(
+X
+≤
+x
+)
+
+
+{\displaystyle F_{X}(x)=P(X\leq x)}
+
+.[1]
+The CDF gives the probability that the random variable 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is less than the value 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. Therefore, the first quartile is the value of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ when 
+
+
+
+
+F
+
+X
+
+
+(
+x
+)
+=
+0.25
+
+
+{\displaystyle F_{X}(x)=0.25}
+
+, the second quartile is 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ when 
+
+
+
+
+F
+
+X
+
+
+(
+x
+)
+=
+0.5
+
+
+{\displaystyle F_{X}(x)=0.5}
+
+, and the third quartile is 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ when 
+
+
+
+
+F
+
+X
+
+
+(
+x
+)
+=
+0.75
+
+
+{\displaystyle F_{X}(x)=0.75}
+
+.[5] The values of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ can be found with the quantile function 
+
+
+
+Q
+(
+p
+)
+
+
+{\displaystyle Q(p)}
+
+ where 
+
+
+
+p
+=
+0.25
+
+
+{\displaystyle p=0.25}
+
+ for the first quartile, 
+
+
+
+p
+=
+0.5
+
+
+{\displaystyle p=0.5}
+
+ for the second quartile, and 
+
+
+
+p
+=
+0.75
+
+
+{\displaystyle p=0.75}
+
+ for the third quartile. The quantile function is the inverse of the cumulative distribution function if the cumulative distribution function is monotonically increasing.
+There are methods by which to check for outliers in the discipline of statistics and statistical analysis. Outliers could be a result from a shift in the location (mean) or in the scale (variability) of the process of interest.[6] Outliers could also be evidence of a sample population that has a non-normal distribution or of a contaminated population data set. Consequently, as is the basic idea of descriptive statistics, when encountering an outlier, we have to explain this value by further analysis of the cause or origin of the outlier.  In cases of extreme observations, which are not an infrequent occurrence, the typical values must be analyzed.  In the case of quartiles, the Interquartile Range (IQR) may be used to characterize the data when there may be extremities that skew the data; the interquartile range is a relatively robust statistic (also sometimes called "resistance") compared to the range and standard deviation.  There is also a mathematical method to check for outliers and determining "fences", upper and lower limits from which to check for outliers.
+After determining the first and third quartiles and the interquartile range as outlined above, then fences are calculated using the following formula:
+where Q1 and Q3 are the first and third quartiles, respectively.  The lower fence is the "lower limit" and the upper fence is the "upper limit" of data, and any data lying outside these defined bounds can be considered an outlier.  Anything below the Lower fence or above the Upper fence can be considered such a case.  The fences provide a guideline by which to define an outlier, which may be defined in other ways. The fences define a "range" outside which an outlier exists; a way to picture this is a boundary of a fence, outside which are "outsiders" as opposed to outliers. It is common for the lower and upper fences along with the outliers to be represented by a boxplot. For a boxplot, only the vertical heights correspond to the visualized data set while horizontal width of the box is irrelevant. Outliers located outside the fences in a boxplot can be marked as any choice of symbol, such as an "x" or "o". The fences are sometimes also referred to as "whiskers" while the entire plot visual is called a "box-and-whisker" plot.
+When spotting an outlier in the data set by calculating the interquartile ranges and boxplot features, it might be simple to mistakenly view it as evidence that the population is non-normal or that the sample is contaminated. However, this method should not take place of a hypothesis test for determining normality of the population. The significance of the outliers vary depending on the sample size. If the sample is small, then it is more probable to get interquartile ranges that are unrepresentatively small, leading to narrower fences. Therefore, it would be more likely to find data that are marked as outliers.[7]
+Excel:
+The Excel function QUARTILE(array, quart) provides the desired quartile value for a given array of data, using Method 3 from above. In the Quartile function, array is the dataset of numbers that is being analyzed and quart is any of the following 5 values depending on which quartile is being calculated. [8]
+MATLAB:
+In order to calculate quartiles in Matlab, the function quantile(A,p) can be used. Where A is the vector of data being analyzed and p is the percentage that relates to the quartiles as stated below. [9]
+
+

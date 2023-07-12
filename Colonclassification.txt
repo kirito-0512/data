@@ -1,0 +1,14 @@
+6888,
+Colonclassification,
+Colon classification (CC) is a library classification system developed by Shiyali Ramamrita Ranganathan. It was an early faceted (or analytico-synthetic) classification system. The first edition of colon classification was published in 1933,[1] followed by six more editions. It is especially used in libraries in India.
+Its name originates from its use of colons to separate facets into classes. Many other classification schemes, some of which are unrelated, also use colons and other punctuation to perform various functions. Originally, CC used only the colon as a separator, but since the second edition, CC has used four other punctuation symbols to identify each facet type.
+In CC, facets describe "personality" (the most specific subject), matter, energy, space, and time (PMEST). These facets are generally associated with every item in a library, and thus form a reasonably universal sorting system.[2]
+As an example, the subject "research in the cure of tuberculosis of lungs by x-ray conducted in India in 1950" would be categorized as:
+     Medicine,Lungs;Tuberculosis:Treatment;X-ray:Research.India'1950
+This is summarized in a specific call number:
+     L,45;421:6;253:f.44'N5
+The colon classification system uses 42 main classes that are combined with other letters, numbers, and marks in a manner resembling the Library of Congress Classification.
+CC uses five primary categories, or facets, to specify the sorting of a publication. Collectively, they are called PMEST:
+Other symbols can be used to indicate components of facets called isolates, and to specify complex combinations or relationships between disciplines.
+The following are the main classes of CC, with some subclasses, the main method used to sort the subclass using the PMEST scheme and examples showing application of PMEST.
+A common example of the colon classification is:

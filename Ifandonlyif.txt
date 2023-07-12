@@ -1,0 +1,104 @@
+14922,
+Ifandonlyif,
+
+↔⇔≡⟺
+Logical symbols representing iff  
+In logic and related fields such as mathematics and philosophy, "if and only if" (shortened as "iff") is a biconditional logical connective between statements, where either both statements are true or both are false.
+The connective is biconditional (a statement of material equivalence),[1] and can be likened to the standard material conditional ("only if", equal to "if ... then") combined with its reverse ("if"); hence the name. The result is that the truth of either one of the connected statements requires the truth of the other (i.e. either both statements are true, or both are false), though it is controversial whether the connective thus defined is properly rendered by the English "if and only if"—with its pre-existing meaning. For example, P if and only if Q means that P is true whenever Q is true, and the only case in which P is true is if Q is also true, whereas in the case of P if Q, there could be other scenarios where P is true and Q is false.
+In writing, phrases commonly used as alternatives to P "if and only if" Q include: Q is necessary and sufficient for P, for P it is necessary and sufficient that Q, P is equivalent (or materially equivalent) to Q (compare with material implication), P precisely if Q, P precisely (or exactly) when Q, P exactly in case Q, and P just in case Q.[2] Some authors regard "iff" as unsuitable in formal writing;[3] others consider it a "borderline case" and tolerate its use.[4]
+In logical formulae, logical symbols, such as 
+
+
+
+↔
+
+
+{\displaystyle \leftrightarrow }
+
+ and 
+
+
+
+⇔
+
+
+{\displaystyle \Leftrightarrow }
+
+,[5] are used instead of these phrases; see § Notation below.
+The truth table of P 
+
+
+
+⇔
+
+
+{\displaystyle \Leftrightarrow }
+
+ Q is as follows:[6][7]
+It is equivalent to that produced by the XNOR gate, and opposite to that produced by the XOR gate.[8]
+The corresponding logical symbols are "
+
+
+
+↔
+
+
+{\displaystyle \leftrightarrow }
+
+", "
+
+
+
+⇔
+
+
+{\displaystyle \Leftrightarrow }
+
+",[5] and 
+
+
+
+≡
+
+
+{\displaystyle \equiv }
+
+,[9] and sometimes "iff". These are usually treated as equivalent. However, some texts of mathematical logic (particularly those on first-order logic, rather than propositional logic) make a distinction between these, in which the first, ↔, is used as a symbol in logic formulas, while ⇔ is used in reasoning about those logic formulas (e.g., in metalogic). In Łukasiewicz's Polish notation, it is the prefix symbol 
+
+
+
+E
+
+
+{\displaystyle E}
+
+.[10]
+Another term for the logical connective, i.e., the symbol in logic formulas, is exclusive nor.
+In TeX, "if and only if" is shown as a long double arrow: 
+
+
+
+
+⟺
+
+
+
+{\displaystyle \iff }
+
+ via command \iff or \Longleftrightarrow.[11]
+In most logical systems, one proves a statement of the form "P iff Q" by proving either "if P, then Q" and "if Q, then P", or "if P, then Q" and "if not-P, then not-Q". Proving these pair of statements sometimes leads to a more natural proof, since there are not obvious conditions in which one would infer a biconditional directly. An alternative is to prove the disjunction "(P and Q) or (not-P and not-Q)", which itself can be inferred directly from either of its disjuncts—that is, because "iff" is truth-functional, "P iff Q" follows if P and Q have been shown to be both true, or both false.
+Usage of the abbreviation "iff" first appeared in print in John L. Kelley's 1955 book General Topology.[12]
+Its invention is often credited to Paul Halmos, who wrote "I invented 'iff,' for  'if and only if'—but I could never believe I was really its first inventor."[13]
+It is somewhat unclear how "iff" was meant to be pronounced. In current practice, the single 'word' "iff" is almost always read as the four words "if and only if". However, in the preface of General Topology, Kelley suggests that it should be read differently: "In some cases where mathematical content requires 'if and only if' and euphony demands something less I use Halmos' 'iff'". The authors of one discrete mathematics textbook suggest:[14] "Should you need to pronounce iff, really hang on to the 'ff' so that people hear the difference from 'if'", implying that "iff" could be pronounced as [ɪfː].
+Technically, definitions are "if and only if" statements; some texts — such as Kelley's General Topology — follow the strict demands of logic, and use "if and only if" or iff in definitions of new terms.[15] 
+However, this logically correct usage of "if and only if" relatively uncommon and overlooks the linguistic fact that the "if" of a definition is interpreted as meaning "if and only if". The majority of textbooks, research papers and articles (including English Wikipedia articles) follow the linguistic convention to interpret "if" as "if and only if" whenever a mathematical definition is involved (as in "a topological space is compact if every open cover has a finite subcover").[16]
+Sufficiency is the converse of necessity. That is to say, given P→Q (i.e. if P then Q), P would be a sufficient condition for Q, and Q would be a necessary condition for P. Also, given P→Q, it is true that ¬Q→¬P (where ¬ is the negation operator, i.e. "not"). This means that the relationship between P and Q, established by P→Q, can be expressed in the following, all equivalent, ways:
+As an example, take the first example above, which states P→Q, where P is "the fruit in question is an apple" and Q is "Madison will eat the fruit in question". The following are four equivalent ways of expressing this very relationship:
+Here, the second example can be restated in the form of if...then as "If Madison will eat the fruit in question, then it is an apple"; taking this in conjunction with the first example, we find that the third example can be stated as "If the fruit in question is an apple, then Madison will eat it; and if Madison will eat the fruit, then it is an apple".
+A is a proper subset of B. A number is in A only if it is in B; a number is in B if it is in A.
+C is a subset but not a proper subset of B. A number is in B if and only if it is in C, and a number is in C if and only if it is in B.
+Euler diagrams show logical relationships among events, properties, and so forth. "P only if Q", "if P then Q", and  "P→Q" all mean that P is a subset, either proper or improper, of Q. "P if Q", "if Q then P", and Q→P all mean that Q is a proper or improper subset of P. "P if and only if Q" and "Q if and only if P" both mean that the sets P and Q are identical to each other.
+Iff is used outside the field of logic as well. Wherever logic is applied, especially in mathematical discussions, it has the same meaning as above: it is an abbreviation for if and only if, indicating that one statement is both necessary and sufficient for the other. This is an example of mathematical jargon (although, as noted above, if is more often used than iff in statements of definition).
+The elements of X are all and only the elements of Y means: "For any z in the domain of discourse, z is in X if and only if z is in Y."
+
+

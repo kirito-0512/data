@@ -1,0 +1,200 @@
+40328,
+Definitequadraticform,
+In mathematics, a definite quadratic form is a quadratic form over some real vector space V that has the same sign (always positive or always negative) for every non-zero vector of V. According to that sign, the quadratic form is called positive-definite or negative-definite.
+A semidefinite (or semi-definite) quadratic form is defined in much the same way, except that "always positive" and "always negative" are replaced by "never negative" and "never positive", respectively. In other words, it may take on zero values for some non-zero vectors of V.
+An indefinite quadratic form takes on both positive and negative values and is called an isotropic quadratic form.
+More generally, these definitions apply to any vector space over an ordered field.[1]
+Quadratic forms correspond one-to-one to symmetric bilinear forms over the same space.[2] A symmetric bilinear form is also described as definite, semidefinite, etc. according to its associated quadratic form.  A quadratic form Q and its associated symmetric bilinear form B are related by the following equations:
+The latter formula arises from expanding 
+Q
+(
+x
++
+y
+)
+=
+B
+(
+x
++
+y
+,
+x
++
+y
+)
+ 
+.
+{\displaystyle \;Q(x+y)=B(x+y,x+y)~.}
+As an example, let 
+V
+=
+R
+2
+{\displaystyle V=\mathbb {R} ^{2}}
+, and consider the quadratic form
+where 
+ 
+x
+=
+[
+x
+1
+,
+x
+2
+]
+∈
+V
+{\displaystyle ~x=[x_{1},x_{2}]\in V}
+ and c1 and c2 are constants. If  c1 > 0  and  c2 > 0 , the quadratic form Q is positive-definite, so Q evaluates to a positive number whenever 
+[
+x
+1
+,
+x
+2
+]
+≠
+[
+0
+,
+0
+]
+ 
+.
+{\displaystyle \;[x_{1},x_{2}]\neq [0,0]~.}
+ If one of the constants is positive and the other is 0, then Q is positive semidefinite and always evaluates to either 0 or a positive number. If  c1 > 0  and  c2 < 0 , or vice versa, then Q is indefinite and sometimes evaluates to a positive number and sometimes to a negative number. If  c1 < 0  and  c2 < 0 , the quadratic form is negative-definite and always evaluates to a negative number whenever 
+[
+x
+1
+,
+x
+2
+]
+≠
+[
+0
+,
+0
+]
+ 
+.
+{\displaystyle \;[x_{1},x_{2}]\neq [0,0]~.}
+ And if one of the constants is negative and the other is 0, then Q is negative semidefinite and always evaluates to either 0 or a negative number.
+In general a quadratic form in two variables will also involve a cross-product term in x1·x2:
+This quadratic form is positive-definite if 
+c
+1
+>
+0
+{\displaystyle \;c_{1}>0\;}
+ and 
+c
+1
+c
+2
+−
+c
+3
+2
+>
+0
+,
+{\displaystyle \,c_{1}c_{2}-{c_{3}}^{2}>0\;,}
+ negative-definite if 
+c
+1
+<
+0
+{\displaystyle \;c_{1}<0\;}
+ and 
+c
+1
+c
+2
+−
+c
+3
+2
+>
+0
+,
+{\displaystyle \,c_{1}c_{2}-{c_{3}}^{2}>0\;,}
+ and indefinite if 
+c
+1
+c
+2
+−
+c
+3
+2
+<
+0
+ 
+.
+{\displaystyle \;c_{1}c_{2}-{c_{3}}^{2}<0~.}
+ It is positive or negative semidefinite if 
+c
+1
+c
+2
+−
+c
+3
+2
+=
+0
+,
+{\displaystyle \;c_{1}c_{2}-{c_{3}}^{2}=0\;,}
+ with the sign of the semidefiniteness coinciding with the sign of 
+c
+1
+ 
+.
+{\displaystyle \;c_{1}~.}
+This bivariate quadratic form appears in the context of conic sections centered on the origin. If the general quadratic form above is equated to 0, the resulting equation is that of an ellipse if the quadratic form is positive or negative-definite, a hyperbola if it is indefinite, and a parabola if 
+c
+1
+c
+2
+−
+c
+3
+2
+=
+0
+ 
+.
+{\displaystyle \;c_{1}c_{2}-{c_{3}}^{2}=0~.}
+The square of the Euclidean norm in n-dimensional space, the most commonly used measure of distance, is
+In two dimensions this means that the distance between two points is the square root of the sum of the squared distances along the 
+x
+1
+{\displaystyle x_{1}}
+ axis and the 
+x
+2
+{\displaystyle x_{2}}
+ axis.
+A quadratic form can be written in terms of matrices as
+where x is any n×1 Cartesian vector 
+[
+x
+1
+,
+⋯
+,
+x
+n
+]
+T
+{\displaystyle \;[x_{1},\cdots ,x_{n}]^{\mathsf {T}}\;}
+ in which at least one element is not 0; A is an  n × n  symmetric matrix; and superscript T denotes a matrix transpose. If A is diagonal this is equivalent to a non-matrix form containing solely terms involving squared variables; but if A has any non-zero off-diagonal elements, the non-matrix form will also contain some terms involving products of two different variables.
+Positive or negative-definiteness or semi-definiteness, or indefiniteness, of this quadratic form is equivalent to the same property of A, which can be checked by considering all eigenvalues of A or by checking the signs of all of its principal minors.
+Definite quadratic forms lend themselves readily to optimization problems. Suppose the matrix quadratic form is augmented with linear terms, as
+where b is an n×1 vector of constants. The first-order conditions for a maximum or minimum are found by setting the matrix derivative to the zero vector:
+giving
+assuming A is nonsingular. If the quadratic form, and hence A, is positive-definite, the second-order conditions for a minimum are met at this point. If the quadratic form is negative-definite, the second-order conditions for a maximum are met.
+An important example of such an optimization arises in multiple regression, in which a vector of estimated parameters is sought which minimizes the sum of squared deviations from a perfect fit within the dataset.

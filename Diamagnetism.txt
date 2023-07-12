@@ -1,0 +1,335 @@
+8315,
+Diamagnetism,
+Diamagnetic materials are repelled by a magnetic field; an applied magnetic field creates an induced magnetic field in them in the opposite direction, causing a repulsive force.  In contrast, paramagnetic and ferromagnetic materials are attracted by a magnetic field. Diamagnetism is a quantum mechanical effect that occurs in all materials; when it is the only contribution to the magnetism, the material is called diamagnetic. In paramagnetic and ferromagnetic substances, the weak diamagnetic force is overcome by the attractive force of magnetic dipoles in the material. The magnetic permeability of diamagnetic materials is less than the permeability of vacuum, μ0. In most materials, diamagnetism is a weak effect which can be detected only by sensitive laboratory instruments, but a superconductor acts as a strong diamagnet because it repels a magnetic field entirely from its interior.
+Diamagnetism was first discovered when Anton Brugmans observed in 1778 that bismuth was repelled by magnetic fields.[1] In 1845, Michael Faraday demonstrated that it was a property of matter and concluded that every material responded (in either a diamagnetic or paramagnetic way) to an applied magnetic field. On a suggestion by William Whewell, Faraday first referred to the phenomenon as diamagnetic (the prefix dia- meaning through or across), then later changed it to diamagnetism.[2][3]
+A simple rule of thumb is used in chemistry to determine whether a particle (atom, ion, or molecule) is paramagnetic or diamagnetic:[4] If all electrons in the particle are paired, then the substance made of this particle is diamagnetic; If it has unpaired electrons, then the substance is paramagnetic.
+Diamagnetism is a property of all materials, and always makes a weak contribution to the material's response to a magnetic field. However, other forms of magnetism (such as ferromagnetism or paramagnetism) are so much stronger such that, when different forms of magnetism are present in a material, the diamagnetic contribution is usually negligible. Substances where the diamagnetic behaviour is the strongest effect are termed diamagnetic materials, or diamagnets. Diamagnetic materials are those that some people generally think of as non-magnetic, and include water, wood, most organic compounds such as petroleum and some plastics, and many metals including copper, particularly the heavy ones with many core electrons, such as mercury, gold and bismuth. The magnetic susceptibility values of various molecular fragments are called Pascal's constants (named after Paul Pascal [fr]).
+Diamagnetic materials, like water, or water-based materials, have a relative magnetic permeability that is less than or equal to 1, and therefore a magnetic susceptibility less than or equal to 0, since susceptibility is defined as χv = μv − 1. This means that diamagnetic materials are repelled by magnetic fields. However, since diamagnetism is such a weak property, its effects are not observable in everyday life. For example, the magnetic susceptibility of diamagnets such as water is χv = −9.05×10−6. The most strongly diamagnetic material is bismuth, χv = −1.66×10−4, although pyrolytic carbon may have a susceptibility of  χv = −4.00×10−4 in one plane. Nevertheless, these values are orders of magnitude smaller than the magnetism exhibited by paramagnets and ferromagnets. Because χv is derived from the ratio of the internal magnetic field to the applied field, it is a dimensionless value.
+In rare cases, the diamagnetic contribution can be stronger than paramagnetic contribution. This is the case for gold, which has a magnetic susceptibility less than 0 (and is thus by definition a diamagnetic material), but when measured carefully with X-ray magnetic circular dichroism, has an extremely weak paramagnetic contribution that is overcome by a stronger diamagnetic contribution.[6]
+Superconductors may be considered perfect diamagnets (χv = −1), because they expel all magnetic fields (except in a thin surface layer) due to the Meissner effect.[7]
+If a powerful magnet (such as a supermagnet) is covered with a layer of water (that is thin compared to the diameter of the magnet) then the field of the magnet significantly repels the water. This causes a slight dimple in the water's surface that may be seen by a reflection in its surface.[8][9]
+Diamagnets may be levitated in stable equilibrium in a magnetic field, with no power consumption. Earnshaw's theorem seems to preclude the possibility of static magnetic levitation. However, Earnshaw's theorem applies only to objects with positive susceptibilities, such as ferromagnets (which have a permanent positive moment) and paramagnets (which induce a positive moment). These are attracted to field maxima, which do not exist in free space. Diamagnets (which induce a negative moment) are attracted to field minima, and there can be a field minimum in free space.
+A thin slice of pyrolytic graphite, which is an unusually strongly diamagnetic material, can be stably floated in a magnetic field, such as that from rare earth permanent magnets. This can be done with all components at room temperature, making a visually effective and relatively convenient demonstration of diamagnetism.
+The Radboud University Nijmegen, the Netherlands, has conducted experiments where water and other substances were successfully levitated. Most spectacularly, a live frog (see figure) was levitated.[11]
+In September 2009, NASA's Jet Propulsion Laboratory (JPL) in Pasadena, California announced it had successfully levitated mice using a superconducting magnet,[12] an important step forward since mice are closer biologically to humans than frogs.[13] JPL said it hopes to perform experiments regarding the effects of microgravity on bone and muscle mass.
+Recent experiments studying the growth of protein crystals have led to a technique using powerful magnets to allow growth in ways that counteract Earth's gravity.[14]
+A simple homemade device for demonstration can be constructed out of bismuth plates and a few permanent magnets that levitate a permanent magnet.[15]
+The electrons in a material generally settle in orbitals, with effectively zero resistance and act like current loops. Thus it might be imagined that diamagnetism effects in general would be common, since any applied magnetic field would generate currents in these loops that would oppose the change, in a similar way to superconductors, which are essentially perfect diamagnets. However, since the electrons are rigidly held in orbitals by the charge of the protons and are further constrained by the Pauli exclusion principle, many materials exhibit diamagnetism, but typically respond very little to the applied field.
+The Bohr–Van Leeuwen theorem proves that there cannot be any diamagnetism or paramagnetism in a purely classical system. However, the classical theory of Langevin for diamagnetism gives the same prediction as the quantum theory.[16] The classical theory is given below.
+Paul Langevin's theory of diamagnetism (1905)[17] applies to materials containing atoms with closed shells (see dielectrics). A field with intensity B, applied to an electron with charge e and mass m, gives rise to Larmor precession with frequency ω = eB / 2m. The number of revolutions per unit time is  ω / 2π, so the current for an atom with Z electrons is (in SI units)[16]
+The magnetic moment of a current loop is equal to the current times the area of the loop. Suppose the field is aligned with the z axis. The average loop area can be given as 
+
+
+
+
+π
+
+⟨
+
+ρ
+
+2
+
+
+⟩
+
+
+
+
+{\displaystyle \scriptstyle \pi \left\langle \rho ^{2}\right\rangle }
+
+, where 
+
+
+
+
+
+⟨
+
+ρ
+
+2
+
+
+⟩
+
+
+
+
+{\displaystyle \scriptstyle \left\langle \rho ^{2}\right\rangle }
+
+ is the mean square distance of the electrons perpendicular to the z axis. The magnetic moment is therefore
+If the distribution of charge is spherically symmetric, we can suppose that the distribution of x,y,z coordinates are independent and identically distributed. Then 
+
+
+
+
+
+⟨
+
+x
+
+2
+
+
+⟩
+
+
+=
+
+
+⟨
+
+y
+
+2
+
+
+⟩
+
+
+=
+
+
+⟨
+
+z
+
+2
+
+
+⟩
+
+
+=
+
+
+
+1
+3
+
+
+
+⟨
+
+r
+
+2
+
+
+⟩
+
+
+
+
+{\displaystyle \scriptstyle \left\langle x^{2}\right\rangle \;=\;\left\langle y^{2}\right\rangle \;=\;\left\langle z^{2}\right\rangle \;=\;{\frac {1}{3}}\left\langle r^{2}\right\rangle }
+
+, where 
+
+
+
+
+
+⟨
+
+r
+
+2
+
+
+⟩
+
+
+
+
+{\displaystyle \scriptstyle \left\langle r^{2}\right\rangle }
+
+ is the mean square distance of the electrons from the nucleus. Therefore, 
+
+
+
+
+
+⟨
+
+ρ
+
+2
+
+
+⟩
+
+
+=
+
+
+⟨
+
+x
+
+2
+
+
+⟩
+
+
++
+
+
+⟨
+
+y
+
+2
+
+
+⟩
+
+
+=
+
+
+
+2
+3
+
+
+
+⟨
+
+r
+
+2
+
+
+⟩
+
+
+
+
+{\displaystyle \scriptstyle \left\langle \rho ^{2}\right\rangle \;=\;\left\langle x^{2}\right\rangle \;+\;\left\langle y^{2}\right\rangle \;=\;{\frac {2}{3}}\left\langle r^{2}\right\rangle }
+
+.  If 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ is the number of atoms per unit volume, the volume diamagnetic susceptibility in SI units is[18]
+In atoms, Langevin susceptibility is of the same order of magnitude as Van Vleck paramagnetic susceptibility.
+The Langevin theory is not the full picture for metals because there are also non-localized electrons. The theory that describes diamagnetism in a free electron gas is called Landau diamagnetism, named after Lev Landau,[19] and instead considers the weak counteracting field that forms when the electrons' trajectories are curved due to the Lorentz force. Landau diamagnetism, however, should be contrasted with Pauli paramagnetism, an effect associated with the polarization of delocalized electrons' spins.[20][21] For the bulk case of a 3D system and low magnetic fields, the (volume) diamagnetic susceptibility can be calculated using Landau quantization, which in SI units is
+where 
+
+
+
+
+E
+
+
+F
+
+
+
+
+
+{\displaystyle E_{\rm {F}}}
+
+ is the Fermi energy. This is equivalent to 
+
+
+
+−
+
+μ
+
+0
+
+
+
+μ
+
+
+B
+
+
+
+2
+
+
+g
+(
+
+E
+
+
+F
+
+
+
+)
+
+/
+
+3
+
+
+{\displaystyle -\mu _{0}\mu _{\rm {B}}^{2}g(E_{\rm {F}})/3}
+
+, exactly 
+
+
+
+−
+1
+
+/
+
+3
+
+
+{\textstyle -1/3}
+
+ times Pauli paramagnetic susceptibility, where 
+
+
+
+
+μ
+
+
+B
+
+
+
+=
+e
+ℏ
+
+/
+
+2
+m
+
+
+{\displaystyle \mu _{\rm {B}}=e\hbar /2m}
+
+ is the Bohr magneton and 
+
+
+
+g
+(
+E
+)
+
+
+{\displaystyle g(E)}
+
+ is the density of states (number of states per energy per volume). This formula takes into account the spin degeneracy of the carriers (spin ½ electrons).
+In doped semiconductors the ratio between Landau and Pauli susceptibilities may change due to the effective mass of the charge carriers differing from the electron mass in vacuum, increasing the diamagnetic contribution. The formula presented here only applies for the bulk; in confined systems like quantum dots, the description is altered due to quantum confinement.[22][23] Additionally, for strong magnetic fields, the susceptibility of delocalized electrons oscillates as a function of the field strength, a phenomenon known as the De Haas–Van Alphen effect, also first described theoretically by Landau.
+
+
+

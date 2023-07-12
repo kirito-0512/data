@@ -1,0 +1,47 @@
+25098,
+Phasevelocity,
+The phase velocity of a wave is the rate at which the wave propagates in any medium. This is the velocity at which the phase of any one frequency component of the wave travels. For such a component, any given phase of the wave (for example, the crest) will appear to travel at the phase velocity. The phase velocity is given in terms of the wavelength λ (lambda) and time period T as
+Equivalently, in terms of the wave's angular frequency ω, which specifies angular change per unit of time, and wavenumber (or angular wave number) k, which represent the angular change per unit of space,
+To gain some basic intuition for this equation, we consider a propagating (cosine) wave A cos(kx − ωt). We want to see how fast a particular phase of the wave travels. For example, we can choose kx - ωt = 0, the phase of the first crest. This implies  kx = ωt, and so  v = x / t = ω / k. 
+Formally, we let the phase φ = kx - ωt and see immediately that  ω = -dφ / dt and  k = dφ / dx. So, it immediately follows that  
+As a result we observe a inverse relation between the angular frequency and wavevector. If the wave has higher frequency oscillations, the wave length must be shortened for the phase velocity to remain constant.[2] Additionally, the phase velocity of electromagnetic radiation may – under certain circumstances (for example anomalous dispersion) – exceed the speed of light in vacuum, but this does not indicate any superluminal information or energy transfer.[citation needed] It was theoretically described by physicists such as Arnold Sommerfeld and Léon Brillouin.
+The previous definition of phase velocity has been demonstrated for an isolated wave. However, such a definition can be extended to a beat of waves, or to a signal composed of multiple waves. For this it is necessary to mathematically write the beat or signal as a low frequency envelope multiplying a carrier. Thus the phase velocity of the carrier determines the phase velocity of the wave set.[3]
+The group velocity of a collection of waves is defined as
+When multiple sinusoidal waves are propagating together, the resultant superposition of the waves can result in an "envelope" wave as well as a "carrier" wave that lies inside the envelope. This commonly appears in wireless communication when modulation (a change in amplitude and/or phase) is employed to send data. To gain some intuition for this definition, we consider a superposition of (cosine) waves f(x, t) with their respective angular frequencies and wavevectors. 
+So, we have a product of two waves: an envelope wave formed by  f1  and a carrier wave formed by  f2 . We call the velocity of the envelope wave the group velocity. We see that the phase velocity of  f1  is  
+In the continuous differential case, this becomes the definition of the group velocity.
+In the context of electromagnetics and optics, the frequency is some function ω(k) of the wave number, so in general, the phase velocity and the group velocity depend on specific medium and frequency. The ratio between the speed of light c and the phase velocity vp is known as the refractive index, n = c / vp = ck / ω. 
+In this way, we can obtain another form for group velocity for electromagnetics. Writing  n = n(ω), a quick way to derive this form is to observe
+We can then rearrange the above to obtain 
+From this formula, we see that the group velocity is equal to the phase velocity only when the refractive index is independent of frequency 
+
+
+
+∂
+n
+
+/
+
+∂
+ω
+=
+0
+
+
+{\textstyle \partial n/\partial \omega =0}
+
+. When this occurs, the medium is called non-dispersive, as opposed to dispersive, where various properties of the medium depend on the frequency ω. The relation 
+
+
+
+ω
+(
+k
+)
+
+
+{\displaystyle \omega (k)}
+
+ is known as the dispersion relation of the medium.
+
+

@@ -1,0 +1,46 @@
+33634,
+WikiProjectU.S.statesArchive1,
+Welcome to the U.S. states WikiProject!
+First, an important note for everyone to remember:
+A few Wikipedians have gotten together to make some suggestions about how we might organize data in articles about states, cities and towns.  These are only suggestions, things to give you focus and to get you going, and you shouldn't feel obligated in the least to follow them. But if you don't know what to write or where to begin, following the below guidelines may be helpful. Mainly, we just want you to write articles!
+This WikiProject aims primarily to coordinate content about all of the 50 U.S. States, the District of Columbia, Puerto Rico and other dependent territories. The project scope includes other Subnational entities typically counties, cities and regions and the maintenance of The United States Portal.
+WikiProject U.S. states/Archive1 is one of the United States WikiProjects.
+List of U.S. State-level WikiProjects and their sub-projects
+There shall be an article called U.S. state, which shall discuss U.S. States in general, as opposed to any particular state, and provide a list of U.S. states. It shall also list the current U.S. Federal Territories, and explain the difference between a state and a Federal territory. It shall also include a listing of U.S. states in order of admission to the Union, including the date on which it was admitted.
+Each U.S. state shall be called by the common name of the state, e.g. Texas, California. An exception to this rule is Georgia (U.S. state), since it has the same name as Georgia (country), an independent country in the Caucasus; means must be found of distinguishing between the two. A template article can be found at the bottom of this page. The article on each U.S. State shall include the following information:
+NOTE: Please only create these headings when there is more than a couple of sentences worth of information for an area. There is no need at all for an "introduction" heading.
+NOTE: Where possible use both metric and English measurements, except in the tables where being simplified is important.  Metric measurements should be used if only one is available because of its global use.
+The rest of the article should consist of a few short paragraphs. These paragraphs should give an outline of the history/politics/etc. of the country and link to a full article on them.  If any section becomes too detailed, it should be split off into a separate article with more detail as follows:
+The heading should look like:
+A notice should be placed on each temp page that should read:
+''This temporary page is being used to expand and convert the article [[_]] over to the new format agreed to at [[Wikipedia:WikiProject U.S. States|WikiProject U.S. States]]. Please feel free to add or edit anything on this page to help in the conversion process.''
+Don't forget to replace the "_" with the name of the article being converted. 
+For all lists, Use small font and two columns were appropriate (i.e. if list is 6 or greater and does not have lengthly descriptions ).
+Pages on U.S. Federal Territories are to have the same format as U.S. States above, changed as needed.
+Please try to avoid including trivia in the articles for U.S. States, unless you consider the trivia especially interesting.
+Wikipedia:Geographic references
+Don't forget to replace the "_" with the name of the article being converted. For the table, replace the X's with the proper information.
+This temporary page is being used to expand and convert the article [[_]] over to the new format agreed to at WikiProject U.S. states. Please feel free to add or edit anything on this page to help in the conversion process.
+See implementations at Ohio, Texas, New Jersey, New York, Virginia...
+The following are suggestions for some standard sections that can be developed for each state. It is not an exhaustive list. The precise order in which these sections appear has not been discussed at any great length and the order presented here should not be contrued as consensus for re-ordering sections in existing articles to match.
+Main article: Geography of _
+See also: List of _ counties
+Thumbnail version of the large (>1 Mb) state map from commons:Category:PD Atlas with the name "Map of state_name NA.png".
+Main article: History of _
+Main article: Demographics of _
+Main article: Economy of _
+Main article: Transportation in _
+Main article Sports in _
+Wikipedia links of interest
+
+{{reflist}}
+
+ U.S. Collaboration of the Month 
+The article United States Postal Service is the US Collaboration of the Month for December 2011. 
+(Shortcut: WP:USCOTM +/-)
+Help select the next USCOTM now! Nominate an article you think needs improvement or vote for one of the candidates here.
+
+
+
+Information box
+{'Country': 'United States', 'Admitted to the Union': 'Month Day, Year (NNth)', 'Capital': 'Capital city', 'Largest city': 'Largest city', ' • Governor': 'Xxxx Xxxx', ' • Upper house': '{{{Upperhouse}}}', ' • Lower house': '{{{Lowerhouse}}}', 'U.S. senators': '{{{Senators}}}', ' • Total': 'NNNNNNNN', ' • Official language': 'None', 'Latitude': 'HH°MM\'SS"W to HH°MM\'SS"W', 'Longitude': 'HH°MM\'SS"N to HH°MM\'SS"N'}

@@ -1,0 +1,40 @@
+39024,
+Hare–Clarkelectoralsystem,
+Hare-Clark is a type of single transferable vote electoral system of proportional representation used for elections in Tasmania and the Australian Capital Territory. The method for the distribution of preferences is similar to other voting systems in Australia, such as for the Australian Senate.
+The name is derived from the names of English barrister Thomas Hare, the original inventor of single transferable voting, and Attorney-General of Tasmania Andrew Inglis Clark, who introduced a modified form to Tasmania in 1896.
+Thomas Hare (1806–91) is generally credited with the conception of the single transferable vote, while Andrew Inglis Clark (1848–1907) introduced the system to Tasmania with a modified counting method.
+"The specific modification introduced by Mr A. I. Clark, Attorney-General for Tasmania, is the provision devised by him for eliminating the element of chance in the selection and distribution of quota-excesses or surplus transfer votes."[1] The provision described as "Clark's own" was to transfer all votes to 'next order of preference', rather than a random sample.[2]
+In 1896, after several failed attempts, Clark was successful in getting a system of proportional representation adopted by the Tasmanian Parliament, but it was accepted only on a trial basis for both Hobart (to elect 6 MPs) and Launceston (to elect 4 MPs). This first 'Hare-Clark system', as it was immediately known, was renewed annually until suspended in 1902. Clark, never in robust health, died at his home 'Rosebank' in Battery Point on 14 November 1907, just as the adoption of permanent proportional representation struggled through Parliament and over a year before it was used for the first time throughout Tasmania at the general election in April 1909.[2]
+Hare-Clark has been used continuously for Tasmanian state elections since 1909[3] for the House of Assembly. The Legislative Council[4] is elected by the same system as is used to elect members of the Australian House of Representatives.[4] The Hare-Clark System was adopted to be used for the Australian Capital Territory Legislative Assembly in 1992.[5][6]
+Features of Hare-Clark have evolved over time. Until 1942, candidates were listed in alphabetic order rather than grouped together by party.[3] Robson Rotation, where the order candidates appeared on ballot papers is randomised, was introduced in 1980. This has the effect of reducing any advantage a candidate has by appearing at the top of a party list,[7] so as to eliminate any influence of the so-called "donkey vote".
+After a candidate reaches a quota and is elected, all of their ballot papers are distributed to elect further candidates (according to the voters next preference on each ballot paper). The distributed votes have a lesser transfer value which depends on the excess number of votes the previously elected candidate received. 
+If no candidates are elected, the candidate with the fewest votes is eliminated and their preferences are distributed accordingly, at full value. (Non-transferable votes are set aside.)
+In terms of how the count is conducted, there are only minor differences between Hare-Clark and Australian Senate style systems. Group voting tickets were used for Senate elections prior to the 2016 Australian federal election.[8] Previously, the Senate system allowed 'above the line' voting where the party would determine the order that preferences would be distributed to other candidates. The option for a voter to have their preferences determined by group voting tickets is still used in Victoria and Western Australia. In contrast, under Hare-Clark, preferences are always determined explicitly by individual voters, with no "above the line" voting option. 
+The distribution of how-to-vote cards outside polling places on election day is also banned in Hare-Clark elections.[3]
+1. Initial count
+They are allocated to marked candidate.
+Example:
+Of the total 10,500 votes cast by the electorate, 500 are invalid.There are 10,000 valid votes remaining.
+Each candidate's total is announced.
+2. Determining the quota
+Example:
+There are 10,000 valid votes and 3 vacancies to be filled.
+The quota to be elected is 2501 votes.
+3. Declaring candidates elected
+The count is complete if there are no remaining vacancies.
+Example:
+Candidate PLATYPUS receives 3,000 first preference votes, and is more than the quota of 2,501.Candidate PLATYPUS is declared elected.
+4. Candidates with surplus votes
+Example:
+Candidate PLATYPUS has 3,000 first preference votes, which is a 499 surplus above the quota.
+The transfer value from PLATYPUS is 0.17.
+Example:
+Of the 3,000 first preference votes for Candidate PLATYPUS, 1,000 had Candidate WOMBAT as second preference. WOMBAT receives these votes but at the value of the transfer rate.
+Candidate WOMBAT has 170 added to their total. To put it another way - the proportion of PLATYPUS voters who second preferenced WOMBAT multiplied by PLATYPUS' surplus votes equals WOMBAT's new votes.
+Any candidate exceeding quota through these transfers is declared elect and those surplus votes transferred as well.
+when all surpluses have been transferred and if there are still vacancies remaining, the count proceeds to 5. 
+The count is complete if there are no remaining vacancies.
+5. Remaining candidates have not reached the quota
+The count is complete if the number of candidates remaining is the same as remaining vacancies.
+
+

@@ -1,0 +1,41 @@
+25023,
+Hazard(computerarchitecture),
+In the domain of central processing unit (CPU) design, hazards are problems with the instruction pipeline in CPU microarchitectures when the next instruction cannot execute in the following clock cycle,[1] and can potentially lead to incorrect computation results. Three common types of hazards are data hazards, structural hazards, and control hazards (branching hazards).[2]
+There are several methods used to deal with hazards, including pipeline stalls/pipeline bubbling, operand forwarding, and in the case of out-of-order execution, the scoreboarding method and the Tomasulo algorithm.
+Instructions in a pipelined processor are performed in several stages, so that at any given time several instructions are being processed in the various stages of the pipeline, such as fetch and execute. There are many different instruction pipeline microarchitectures, and instructions may be executed out-of-order. A hazard occurs when two or more of these simultaneous (possibly out of order) instructions conflict.
+Data hazards occur when instructions that exhibit data dependence modify data in different stages of a pipeline. Ignoring potential data hazards can result in race conditions (also termed race hazards). There are three situations in which a data hazard can occur:
+Read after read (RAR) is not a hazard case.
+Consider two instructions i1 and i2, with i1 occurring before i2 in program order.
+(i2 tries to read a source before i1 writes to it)
+A read after write (RAW) data hazard refers to a situation where an instruction refers to a result that has not yet been calculated or retrieved. This can occur because even though an instruction is executed after a prior instruction, the prior instruction has been processed only partly through the pipeline.
+For example:
+The first instruction is calculating a value to be saved in register R2, and the second is going to use this value to compute a result for register R4. However, in a pipeline, when operands are fetched for the 2nd operation, the results from the first have not yet been saved, and hence a data dependency occurs.
+A data dependency occurs with instruction i2, as it is dependent on the completion of instruction i1.
+(i2 tries to write a destination before it is read by i1)
+A write after read (WAR) data hazard represents a problem with concurrent execution.
+For example:
+In any situation with a chance that i2 may finish before i1 (i.e., with concurrent execution), it must be ensured that the result of register R5 is not stored before i1 has had a chance to fetch the operands.
+(i2 tries to write an operand before it is written by i1)
+A write after write (WAW) data hazard may occur in a concurrent execution environment.
+For example:
+The write back (WB) of i2 must be delayed until i1 finishes executing.
+A structural hazard occurs when two (or more) instructions that are already in pipeline need the same resource. The result is that instruction must be executed in series rather than parallel for a portion of pipeline. Structural hazards are sometime referred to as resource hazards.
+Example:
+A situation in which multiple instructions are ready to enter the execute instruction phase and there is a single ALU (Arithmetic Logic Unit). One solution to such resource hazard is to increase available resources, such as having multiple ports into main memory and multiple ALU (Arithmetic Logic Unit) units.
+Control hazard occurs when the pipeline makes wrong decisions on branch prediction and therefore brings instructions into the pipeline that must subsequently be discarded. The term branch hazard also refers to a control hazard.
+Bubbling the pipeline, also termed a pipeline break or pipeline stall, is a method to preclude data, structural, and branch hazards. As instructions are fetched, control logic determines whether a hazard could/will occur. If this is true, then the control logic inserts no operations (NOPs) into the pipeline. Thus, before the next instruction (which would cause the hazard) executes, the prior one will have had sufficient time to finish and prevent the hazard. If the number of NOPs equals the number of stages in the pipeline, the processor has been cleared of all instructions and can proceed free from hazards. All forms of stalling introduce a delay before the processor can resume execution.
+Flushing the pipeline occurs when a branch instruction jumps to a new memory location, invalidating all prior stages in the pipeline.  These prior stages are cleared, allowing the pipeline to continue at the new instruction indicated by the branch.[3][4]
+There are several main solutions and algorithms used to resolve data hazards:
+In the case of out-of-order execution, the algorithm used can be:
+The task of removing data dependencies can be delegated to the compiler, which can fill in an appropriate number of NOP instructions between dependent instructions to ensure correct operation, or re-order instructions where possible.
+For example, to write the value 3 to register 1, (which already contains a 6), and then add 7 to register 1 and store the result in register 2, i.e.:
+Following execution, register 2 should contain the value 10. However, if i1 (write 3 to register 1) does not fully exit the pipeline before i2 starts executing, it means that R1 does not contain the value 3 when i2 performs its addition. In such an event, i2 adds 7 to the old value of register 1 (6), and so register 2 contains 13 instead, i.e.:
+This error occurs because i2 reads Register 1 before i1 has committed/stored the result of its write operation to Register 1. So when i2 is reading the contents of Register 1, register 1 still contains 6, not 3.
+Forwarding (described below) helps correct such errors by depending on the fact that the output of i1 (which is 3) can be used by subsequent instructions before the value 3 is committed to/stored in Register 1.
+Forwarding applied to the example means that there is no wait to commit/store the output of i1 in Register 1 (in this example, the output is 3) before making that output available to the subsequent instruction (in this case, i2). The effect is that i2 uses the correct (the more recent) value of Register 1: the commit/store was made immediately and not pipelined.
+With forwarding enabled, the Instruction Decode/Execution (ID/EX) stage of the pipeline now has two inputs: the value read from the register specified (in this example, the value 6 from Register 1), and the new value of Register 1 (in this example, this value is 3) which is sent from the next stage Instruction Execute/Memory Access (EX/MEM). Added control logic is used to determine which input to use.
+To avoid control hazards microarchitectures can:
+In the event that a branch causes a pipeline bubble after incorrect instructions have entered the pipeline, care must be taken to prevent any of the wrongly-loaded instructions from having any effect on the processor state excluding energy wasted processing them before they were discovered to be loaded incorrectly.
+Memory latency is another factor that designers must attend to, because the delay could reduce performance. Different types of memory have different accessing time to the memory. Thus, by choosing a suitable type of memory, designers can improve the performance of the pipelined data path.[5]
+
+

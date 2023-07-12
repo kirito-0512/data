@@ -1,0 +1,57 @@
+18812,
+Morphism,
+In mathematics, particularly in category theory, a morphism is a structure-preserving map from one mathematical structure to another one of the same type. The notion of morphism recurs in much of contemporary mathematics. In set theory, morphisms are functions; in linear algebra, linear transformations; in group theory, group homomorphisms; in analysis and topology, continuous functions, and so on.
+In category theory, morphism is a broadly similar idea: the mathematical objects involved need not be sets, and the relationships between them may be something other than maps, although the morphisms  between the objects of a given category have to behave similarly to maps in that they have to admit an associative operation similar to function composition. A morphism in category theory is an abstraction of a homomorphism.[1]
+The study of morphisms and of the structures (called "objects") over which they are defined is central to category theory. Much of the terminology of morphisms, as well as the intuition underlying them, comes from concrete categories, where the objects are simply sets with some additional structure, and morphisms are structure-preserving functions. In category theory, morphisms are sometimes also called arrows.
+A category C consists of two classes, one of objects and the other of morphisms. There are two objects that are associated to every morphism, the source  and the target. A morphism f from X to Y is a morphism with source X and target Y; it is commonly written as 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f\colon X\to Y}
+
+ or 
+
+
+
+X
+
+
+
+⟶
+f
+
+
+
+Y
+,
+
+
+{\textstyle X\,{\overset {f}{\longrightarrow }}\,Y,}
+
+ the latter form being better suited for commutative diagrams.
+For many common categories, objects are sets (often with some additional structure) and morphisms are functions from an object to another object. Therefore, the source and the target of a morphism are often called domain and codomain respectively.
+Morphisms are equipped with a partial binary operation, called composition. The composition of two morphisms f and g is defined precisely when the target of f is the source of g, and is denoted g ∘ f (or sometimes simply gf). The source of g ∘ f is the source of f, and the target of g ∘ f is the target of g. The composition satisfies  two axioms:
+For a concrete category (a category in which the objects are sets, possibly with additional structure, and the morphisms are structure-preserving functions), the identity morphism is just the identity function, and composition is just ordinary composition of functions.
+The composition of morphisms is often represented by a commutative diagram. For example,
+
+The collection of all morphisms from X to Y is denoted HomC(X,Y) or simply Hom(X, Y) and called the hom-set between X and Y. Some authors write MorC(X,Y), Mor(X, Y) or C(X, Y). Note that the term hom-set is something of a misnomer, as the collection of morphisms is not required to be a set; a category where Hom(X, Y) is a set for all objects X and Y is called locally small. Because hom-sets may not be sets, some people prefer to use the term "hom-class".
+Note that the domain and codomain are in fact part of the information determining a morphism. For example, in the category of sets, where morphisms are functions, two functions may be identical as sets of ordered pairs (may have the same range), while having different codomains. The two functions are distinct from the viewpoint of category theory. Thus many authors require that the hom-classes Hom(X, Y) be disjoint. In practice, this is not a problem because if this disjointness does not hold, it can be assured by appending the domain and codomain to the morphisms (say, as the second and third components of an ordered triple).
+A morphism f: X → Y is called a monomorphism if f ∘ g1 = f ∘ g2 implies g1 = g2 for all morphisms g1, g2: Z → X. A monomorphism can be called a mono for short, and we can use monic as an adjective.[2] A morphism f has a left inverse or is a split monomorphism if there is a morphism g: Y → X such that g ∘ f = idX. Thus f ∘ g: Y → Y is idempotent; that is, (f ∘ g)2 = f ∘ (g ∘ f) ∘ g = f ∘ g. The left inverse g is also called a retraction of f.[2]
+Morphisms with left inverses are always monomorphisms, but the converse is not true in general; a monomorphism may fail to have a left inverse. In concrete categories, a function that has a left inverse is injective. Thus in concrete categories, monomorphisms are often, but not always, injective. The condition of being an injection is stronger than that of being a monomorphism, but weaker than that of being a split monomorphism.
+Dually to monomorphisms, a morphism f: X → Y is called an epimorphism if g1 ∘ f = g2 ∘ f implies g1 = g2 for all morphisms g1, g2: Y → Z. An epimorphism can be called an epi for short, and we can use epic as an adjective.[2] A morphism f has a right inverse or is a split epimorphism if there is a morphism g: Y → X such that f ∘ g = idY. The right inverse g is also called a section of f.[2]  Morphisms having a right inverse are always epimorphisms, but the converse is not true in general, as an epimorphism may fail to have a right inverse.
+If a monomorphism f splits with left inverse g, then g is a split epimorphism with right inverse f. In concrete categories, a function that has a right inverse is surjective. Thus in concrete categories, epimorphisms are often, but not always, surjective. The condition of being a surjection is stronger than that of being an epimorphism, but weaker than that of being a split epimorphism. In the category of sets, the statement that every surjection has a section is equivalent to the axiom of choice.
+A morphism that is both an epimorphism and a monomorphism is called a bimorphism.
+A morphism f: X → Y is called an isomorphism if there exists a morphism g: Y → X such that f ∘ g = idY and g ∘ f = idX. If a morphism has both left-inverse and right-inverse, then the two inverses are equal, so f is an isomorphism, and g is called simply the inverse of f. Inverse morphisms, if they exist, are unique. The inverse g is also an isomorphism, with inverse f. Two objects with an isomorphism between them are said to be isomorphic or equivalent.
+While every isomorphism is a bimorphism, a bimorphism is not necessarily an isomorphism.  For example, in the category of commutative rings the inclusion Z → Q is a bimorphism that is not an isomorphism. However, any morphism that is both an epimorphism and a split monomorphism, or both a monomorphism and a split epimorphism, must be an isomorphism. A category, such as a Set, in which every bimorphism is an isomorphism is known as a balanced category.
+A morphism f: X → X (that is, a morphism with identical source and target) is an endomorphism of X. A split endomorphism is an idempotent endomorphism f if f admits a decomposition f = h ∘ g with g ∘ h = id.  In particular, the Karoubi envelope of a category splits every idempotent morphism.
+An automorphism is a morphism that is both an endomorphism and an isomorphism.  In every category, the automorphisms of an object always form a group, called the automorphism group of the object.
+For more examples, see Category theory.
+
+

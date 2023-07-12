@@ -1,0 +1,1504 @@
+4542,
+Bra–ketnotation,
+Bra–ket notation, or Dirac notation, is a notation for linear algebra and linear operators on complex vector spaces together with their dual space both in the finite-dimensional and infinite-dimensional case. It is specifically designed to ease the types of calculations that frequently come up in quantum mechanics. Its use in quantum mechanics is quite widespread. 
+In quantum mechanics, bra–ket notation is used ubiquitously to denote quantum states. The notation uses angle brackets, 
+⟨
+{\displaystyle \langle }
+ and 
+⟩
+{\displaystyle \rangle }
+, and a vertical bar 
+|
+{\displaystyle |}
+, to construct "bras" and "kets".
+A ket is of the form 
+|
+v
+⟩
+{\displaystyle |v\rangle }
+. Mathematically it denotes a vector, 
+v
+{\displaystyle {\boldsymbol {v}}}
+, in an abstract (complex) vector space 
+V
+{\displaystyle V}
+, and physically it represents a state of some quantum system.
+A bra is of the form 
+⟨
+f
+|
+{\displaystyle \langle f|}
+. Mathematically it denotes a linear form 
+f
+:
+V
+→
+C
+{\displaystyle f:V\to \mathbb {C} }
+, i.e. a linear map that maps each vector in 
+V
+{\displaystyle V}
+ to a number in the complex plane 
+C
+{\displaystyle \mathbb {C} }
+. Letting the linear functional 
+⟨
+f
+|
+{\displaystyle \langle f|}
+ act on a vector 
+|
+v
+⟩
+{\displaystyle |v\rangle }
+ is written as 
+⟨
+f
+|
+v
+⟩
+∈
+C
+{\displaystyle \langle f|v\rangle \in \mathbb {C} }
+.
+Assume that on 
+V
+{\displaystyle V}
+ there exists an inner product 
+(
+⋅
+,
+⋅
+)
+{\displaystyle (\cdot ,\cdot )}
+ with antilinear first argument, which makes 
+V
+{\displaystyle V}
+ an inner product space. Then with this inner product each vector 
+ϕ
+≡
+|
+ϕ
+⟩
+{\displaystyle {\boldsymbol {\phi }}\equiv |\phi \rangle }
+ can be identified with a corresponding linear form, by placing the vector in the anti-linear first slot of the inner product: 
+(
+ϕ
+,
+⋅
+)
+≡
+⟨
+ϕ
+|
+{\displaystyle ({\boldsymbol {\phi }},\cdot )\equiv \langle \phi |}
+. The correspondence between these notations is then 
+(
+ϕ
+,
+ψ
+)
+≡
+⟨
+ϕ
+|
+ψ
+⟩
+{\displaystyle ({\boldsymbol {\phi }},{\boldsymbol {\psi }})\equiv \langle \phi |\psi \rangle }
+. The linear form 
+⟨
+ϕ
+|
+{\displaystyle \langle \phi |}
+ is a covector to 
+|
+ϕ
+⟩
+{\displaystyle |\phi \rangle }
+, and the set of all covectors form a subspace of the dual vector space 
+V
+∨
+{\displaystyle V^{\vee }}
+, to the initial vector space 
+V
+{\displaystyle V}
+. The purpose of this linear form 
+⟨
+ϕ
+|
+{\displaystyle \langle \phi |}
+ can now be understood in terms of making projections on the state 
+ϕ
+{\displaystyle {\boldsymbol {\phi }}}
+, to find how linearly dependent two states are, etc.
+For the vector space 
+C
+n
+{\displaystyle \mathbb {C} ^{n}}
+, kets can be identified with column vectors, and bras with row vectors. Combinations of bras, kets, and linear operators are interpreted using matrix multiplication. If 
+C
+n
+{\displaystyle \mathbb {C} ^{n}}
+ has the standard Hermitian inner product 
+(
+v
+,
+w
+)
+=
+v
+†
+w
+{\displaystyle ({\boldsymbol {v}},{\boldsymbol {w}})=v^{\dagger }w}
+, under this identification, the identification of kets and bras and vice versa provided by the inner product is taking the Hermitian conjugate (denoted 
+†
+{\displaystyle \dagger }
+).
+It is common to suppress the vector or linear form from the bra–ket notation and only use a label inside the typography for the bra or ket. For example, the spin operator 
+σ
+^
+z
+{\displaystyle {\hat {\sigma }}_{z}}
+ on a two dimensional space 
+Δ
+{\displaystyle \Delta }
+ of spinors, has eigenvalues 
+±
+1
+2
+{\textstyle \pm {\frac {1}{2}}}
+ with eigenspinors 
+ψ
++
+,
+ψ
+−
+∈
+Δ
+{\displaystyle {\boldsymbol {\psi }}_{+},{\boldsymbol {\psi }}_{-}\in \Delta }
+. In bra–ket notation, this is typically denoted as 
+ψ
++
+=
+|
++
+⟩
+{\displaystyle {\boldsymbol {\psi }}_{+}=|+\rangle }
+, and 
+ψ
+−
+=
+|
+−
+⟩
+{\displaystyle {\boldsymbol {\psi }}_{-}=|-\rangle }
+. As above, kets and bras with the same label are interpreted as kets and bras corresponding to each other using the inner product. In particular, when also identified with row and column vectors, kets and bras with the same label are identified with Hermitian conjugate column and row vectors.
+Bra–ket notation was effectively established in 1939 by Paul Dirac;[1][2] it is thus also known as Dirac notation, despite the notation having a precursor in Hermann Grassmann's use of 
+[
+ϕ
+∣
+ψ
+]
+{\displaystyle [\phi {\mid }\psi ]}
+ for inner products nearly 100 years earlier.[3][4]
+In mathematics, the term "vector" is used for an element of any vector space. In physics, however, the term "vector" tends to refer almost exclusively to quantities like displacement or velocity, which have components that relate directly to the three dimensions of space, or relativistically, to the four of spacetime. Such vectors are typically denoted with over arrows (
+r
+→
+{\displaystyle {\vec {r}}}
+), boldface (
+p
+{\displaystyle \mathbf {p} }
+) or indices (
+v
+μ
+{\displaystyle v^{\mu }}
+).
+In quantum mechanics, a quantum state is typically represented as an element of a complex Hilbert space, for example, the infinite-dimensional vector space of all possible wavefunctions (square integrable functions mapping each point of 3D space to a complex number) or some more abstract Hilbert space constructed more algebraically. To distinguish this type of vector from those described above, it is common and useful in physics to denote an element 
+ϕ
+{\displaystyle \phi }
+ of an abstract complex vector space as a ket 
+|
+ϕ
+⟩
+{\displaystyle |\phi \rangle }
+, to refer to it as a "ket" rather than as a vector, and to pronounce it "ket-
+ϕ
+{\displaystyle \phi }
+" or "ket-A" for |A⟩.
+Symbols, letters, numbers, or even words—whatever serves as a convenient label—can be used as the label inside a ket, with the 
+|
+ 
+⟩
+{\displaystyle |\ \rangle }
+ making clear that the label indicates a vector in vector space. In other words, the symbol "|A⟩" has a recognizable mathematical meaning as to the kind of variable being represented, while just the "A" by itself does not. For example, |1⟩ + |2⟩ is not necessarily equal to |3⟩. Nevertheless, for convenience, there is usually some logical scheme behind the labels inside kets, such as the common practice of labeling energy eigenkets in quantum mechanics through a listing of their quantum numbers. At its simplest, the label inside the ket is the eigenvalue of a physical operator, such as 
+x
+^
+{\displaystyle {\hat {x}}}
+, 
+p
+^
+{\displaystyle {\hat {p}}}
+, 
+L
+^
+z
+{\displaystyle {\hat {L}}_{z}}
+, etc.
+Since kets are just vectors in a Hermitian vector space, they can be manipulated using the usual rules of linear algebra. For example:
+Note how the last line above involves infinitely many different kets, one for each real number x.
+Since the ket is an element of a vector space, a bra 
+⟨
+A
+|
+{\displaystyle \langle A|}
+ is an element of its dual space, i.e. a bra is a linear functional which is a linear map from the vector space to the complex numbers. Thus, it is useful to think of kets and bras as being elements of different vector spaces (see below however) with both being different useful concepts.
+A bra 
+⟨
+ϕ
+|
+{\displaystyle \langle \phi |}
+ and a ket 
+|
+ψ
+⟩
+{\displaystyle |\psi \rangle }
+ (i.e. a functional and a vector), can be combined to an operator 
+|
+ψ
+⟩
+⟨
+ϕ
+|
+{\displaystyle |\psi \rangle \langle \phi |}
+ of rank one with outer product
+The bra–ket notation is particularly useful in Hilbert spaces which have an inner product[5] that allows Hermitian conjugation and identifying a vector with a continuous linear functional, i.e. a ket with a bra, and vice versa (see Riesz representation theorem). The inner product on Hilbert space 
+(
+ 
+,
+ 
+)
+{\displaystyle (\ ,\ )}
+ (with the first argument anti linear as preferred by physicists) is fully equivalent to an (anti-linear) identification between the space of kets and that of bras in the bra ket notation: for a vector ket 
+ϕ
+=
+|
+ϕ
+⟩
+{\displaystyle \phi =|\phi \rangle }
+ define a functional (i.e. bra) 
+f
+ϕ
+=
+⟨
+ϕ
+|
+{\displaystyle f_{\phi }=\langle \phi |}
+ by
+In the simple case where we consider the vector space 
+C
+n
+{\displaystyle \mathbb {C} ^{n}}
+, a ket can be identified with a column vector, and a bra as a row vector. If moreover we use the standard Hermitian inner product on 
+C
+n
+{\displaystyle \mathbb {C} ^{n}}
+, the bra corresponding to a ket, in particular a bra ⟨m| and a ket |m⟩ with the same label are conjugate transpose. Moreover, conventions are set up in such a way that writing bras, kets, and linear operators next to each other simply imply matrix multiplication.[6] In particular the outer product 
+|
+ψ
+⟩
+⟨
+ϕ
+|
+{\displaystyle |\psi \rangle \langle \phi |}
+ of a column and a row vector ket and bra can be identified with matrix multiplication (column vector times row vector equals matrix).
+For a finite-dimensional vector space, using a fixed orthonormal basis, the inner product can be written as a matrix multiplication of a row vector with a column vector:
+⟨
+A
+|
+B
+⟩
+≐
+A
+1
+∗
+B
+1
++
+A
+2
+∗
+B
+2
++
+⋯
++
+A
+N
+∗
+B
+N
+=
+(
+A
+1
+∗
+A
+2
+∗
+⋯
+A
+N
+∗
+)
+(
+B
+1
+B
+2
+⋮
+B
+N
+)
+{\displaystyle \langle A|B\rangle \doteq A_{1}^{*}B_{1}+A_{2}^{*}B_{2}+\cdots +A_{N}^{*}B_{N}={\begin{pmatrix}A_{1}^{*}&A_{2}^{*}&\cdots &A_{N}^{*}\end{pmatrix}}{\begin{pmatrix}B_{1}\\B_{2}\\\vdots \\B_{N}\end{pmatrix}}}
+Based on this, the bras and kets can be defined as:
+⟨
+A
+|
+≐
+(
+A
+1
+∗
+A
+2
+∗
+⋯
+A
+N
+∗
+)
+|
+B
+⟩
+≐
+(
+B
+1
+B
+2
+⋮
+B
+N
+)
+{\displaystyle {\begin{aligned}\langle A|&\doteq {\begin{pmatrix}A_{1}^{*}&A_{2}^{*}&\cdots &A_{N}^{*}\end{pmatrix}}\\|B\rangle &\doteq {\begin{pmatrix}B_{1}\\B_{2}\\\vdots \\B_{N}\end{pmatrix}}\end{aligned}}}
+and then it is understood that a bra next to a ket implies matrix multiplication.
+The conjugate transpose (also called Hermitian conjugate) of a bra is the corresponding ket and vice versa:
+⟨
+A
+|
+†
+=
+|
+A
+⟩
+,
+|
+A
+⟩
+†
+=
+⟨
+A
+|
+{\displaystyle \langle A|^{\dagger }=|A\rangle ,\quad |A\rangle ^{\dagger }=\langle A|}
+because if one starts with the bra
+(
+A
+1
+∗
+A
+2
+∗
+⋯
+A
+N
+∗
+)
+,
+{\displaystyle {\begin{pmatrix}A_{1}^{*}&A_{2}^{*}&\cdots &A_{N}^{*}\end{pmatrix}}\,,}
+then performs a complex conjugation, and then a matrix transpose, one ends up with the ket
+(
+A
+1
+A
+2
+⋮
+A
+N
+)
+{\displaystyle {\begin{pmatrix}A_{1}\\A_{2}\\\vdots \\A_{N}\end{pmatrix}}}
+Writing elements of a finite dimensional (or mutatis mutandis, countably infinite) vector space as a column vector of numbers requires picking a basis. Picking a basis is not always helpful because quantum mechanics calculations involve frequently switching between different bases (e.g. position basis, momentum basis, energy eigenbasis), and one can write something like "|m⟩" without committing to any particular basis. In situations involving two different important basis vectors, the basis vectors can be taken in the notation explicitly and here will be referred simply as "|−⟩" and "|+⟩".
+Bra–ket notation can be used even if the vector space is not a Hilbert space.
+In quantum mechanics, it is common practice to write down kets which have infinite norm, i.e. non-normalizable wavefunctions. Examples include states whose wavefunctions are Dirac delta functions or infinite plane waves. These do not, technically, belong to the Hilbert space itself. However, the definition of "Hilbert space" can be broadened to accommodate these states (see the Gelfand–Naimark–Segal construction or rigged Hilbert spaces). The bra–ket notation continues to work in an analogous way in this broader context.
+Banach spaces are a different generalization of Hilbert spaces. In a Banach space B, the vectors may be notated by kets and the continuous linear functionals by bras. Over any vector space without topology, we may also notate the vectors by kets and the linear functionals by bras. In these more general contexts, the bracket does not have the meaning of an inner product, because the Riesz representation theorem does not apply.
+The mathematical structure of quantum mechanics is based in large part on linear algebra:
+Since virtually every calculation in quantum mechanics involves vectors and linear operators, it can involve, and often does involve, bra–ket notation. A few examples follow:
+The Hilbert space of a spin-0 point particle is spanned by a "position basis" { |r⟩ }, where the label r extends over the set of all points in position space. This label is the eigenvalue of the position operator acting on such a basis state, 
+r
+^
+|
+r
+⟩
+=
+r
+|
+r
+⟩
+{\displaystyle {\hat {\mathbf {r} }}|\mathbf {r} \rangle =\mathbf {r} |\mathbf {r} \rangle }
+. Since there are an uncountably infinite number of vector components in the basis, this is an uncountably infinite-dimensional Hilbert space. The dimensions of the Hilbert space (usually infinite) and position space (usually 1, 2 or 3) are not to be conflated.
+Starting from any ket |Ψ⟩ in this Hilbert space, one may define a complex scalar function of r, known as a wavefunction,[7]
+On the left-hand side, Ψ(r) is a function mapping any point in space to a complex number; on the right-hand side, 
+is a ket consisting of a superposition of kets with relative coefficients specified by that function.
+It is then customary to define linear operators acting on wavefunctions in terms of linear operators acting on kets, by
+A
+^
+(
+r
+)
+ 
+Ψ
+(
+r
+)
+ 
+=
+def
+ 
+⟨
+r
+|
+A
+^
+|
+Ψ
+⟩
+.
+{\displaystyle {\hat {A}}(\mathbf {r} )~\Psi (\mathbf {r} )\ {\stackrel {\text{def}}{=}}\ \langle \mathbf {r} |{\hat {A}}|\Psi \rangle \,.}
+For instance, the momentum operator 
+p
+^
+{\displaystyle {\hat {\mathbf {p} }}}
+ has the following coordinate representation,[8]
+p
+^
+(
+r
+)
+ 
+Ψ
+(
+r
+)
+ 
+=
+def
+ 
+⟨
+r
+|
+p
+^
+|
+Ψ
+⟩
+=
+−
+i
+ℏ
+∇
+Ψ
+(
+r
+)
+.
+{\displaystyle {\hat {\mathbf {p} }}(\mathbf {r} )~\Psi (\mathbf {r} )\ {\stackrel {\text{def}}{=}}\ \langle \mathbf {r} |{\hat {\mathbf {p} }}|\Psi \rangle =-i\hbar \nabla \Psi (\mathbf {r} )\,.}
+One occasionally even encounters a expressions such as 
+∇
+|
+Ψ
+⟩
+{\displaystyle \nabla |\Psi \rangle }
+, though this is something of an abuse of notation. The differential operator must be understood to be an abstract operator, acting on kets, that has the effect of differentiating wavefunctions once the expression is projected onto the position basis, 
+∇
+⟨
+r
+|
+Ψ
+⟩
+,
+{\displaystyle \nabla \langle \mathbf {r} |\Psi \rangle \,,}
+even though, in the momentum basis, this operator amounts to a mere multiplication operator (by iħp). That is, to say,
+⟨
+r
+|
+p
+^
+=
+−
+i
+ℏ
+∇
+⟨
+r
+|
+ 
+,
+{\displaystyle \langle \mathbf {r} |{\hat {\mathbf {p} }}=-i\hbar \nabla \langle \mathbf {r} |~,}
+or
+p
+^
+=
+∫
+d
+3
+r
+ 
+|
+r
+⟩
+(
+−
+i
+ℏ
+∇
+)
+⟨
+r
+|
+ 
+.
+{\displaystyle {\hat {\mathbf {p} }}=\int d^{3}\mathbf {r} ~|\mathbf {r} \rangle (-i\hbar \nabla )\langle \mathbf {r} |~.}
+In quantum mechanics the expression ⟨φ|ψ⟩ is typically interpreted as the probability amplitude for the state ψ to collapse into the state φ. Mathematically, this means the coefficient for the projection of ψ onto φ. It is also described as the projection of state ψ onto state φ.
+A stationary spin-1⁄2 particle has a two-dimensional Hilbert space. One orthonormal basis is:
+|
+↑
+z
+⟩
+,
+|
+↓
+z
+⟩
+{\displaystyle |{\uparrow }_{z}\rangle \,,\;|{\downarrow }_{z}\rangle }
+where |↑z⟩ is the state with a definite value of the spin operator Sz equal to +1⁄2 and |↓z⟩ is the state with a definite value of the spin operator Sz equal to −1⁄2.
+Since these are a basis, any quantum state of the particle can be expressed as a linear combination (i.e., quantum superposition) of these two states:
+|
+ψ
+⟩
+=
+a
+ψ
+|
+↑
+z
+⟩
++
+b
+ψ
+|
+↓
+z
+⟩
+{\displaystyle |\psi \rangle =a_{\psi }|{\uparrow }_{z}\rangle +b_{\psi }|{\downarrow }_{z}\rangle }
+where aψ and bψ are complex numbers.
+A different basis for the same Hilbert space is:
+|
+↑
+x
+⟩
+,
+|
+↓
+x
+⟩
+{\displaystyle |{\uparrow }_{x}\rangle \,,\;|{\downarrow }_{x}\rangle }
+defined in terms of Sx rather than Sz.
+Again, any state of the particle can be expressed as a linear combination of these two:
+|
+ψ
+⟩
+=
+c
+ψ
+|
+↑
+x
+⟩
++
+d
+ψ
+|
+↓
+x
+⟩
+{\displaystyle |\psi \rangle =c_{\psi }|{\uparrow }_{x}\rangle +d_{\psi }|{\downarrow }_{x}\rangle }
+In vector form, you might write
+|
+ψ
+⟩
+≐
+(
+a
+ψ
+b
+ψ
+)
+or
+|
+ψ
+⟩
+≐
+(
+c
+ψ
+d
+ψ
+)
+{\displaystyle |\psi \rangle \doteq {\begin{pmatrix}a_{\psi }\\b_{\psi }\end{pmatrix}}\quad {\text{or}}\quad |\psi \rangle \doteq {\begin{pmatrix}c_{\psi }\\d_{\psi }\end{pmatrix}}}
+depending on which basis you are using. In other words, the "coordinates" of a vector depend on the basis used.
+There is a mathematical relationship between 
+a
+ψ
+{\displaystyle a_{\psi }}
+, 
+b
+ψ
+{\displaystyle b_{\psi }}
+, 
+c
+ψ
+{\displaystyle c_{\psi }}
+ and 
+d
+ψ
+{\displaystyle d_{\psi }}
+; see change of basis.
+There are some conventions and uses of notation that may be confusing or ambiguous for the non-initiated or early student.
+A cause for confusion is that the notation does not separate the inner-product operation from the notation for a (bra) vector. If a (dual space) bra-vector is constructed as a linear combination of other bra-vectors (for instance when expressing it in some basis) the notation creates some ambiguity and hides mathematical details. We can compare bra–ket notation to using bold for vectors, such as 
+ψ
+{\displaystyle {\boldsymbol {\psi }}}
+, and 
+(
+⋅
+,
+⋅
+)
+{\displaystyle (\cdot ,\cdot )}
+ for the inner product. Consider the following dual space bra-vector in the basis 
+{
+|
+e
+n
+⟩
+}
+{\displaystyle \{|e_{n}\rangle \}}
+:
+⟨
+ψ
+|
+=
+∑
+n
+⟨
+e
+n
+|
+ψ
+n
+{\displaystyle \langle \psi |=\sum _{n}\langle e_{n}|\psi _{n}}
+It has to be determined by convention if the complex numbers 
+{
+ψ
+n
+}
+{\displaystyle \{\psi _{n}\}}
+ are inside or outside of the inner product, and each convention gives different results.
+⟨
+ψ
+|
+≡
+(
+ψ
+,
+⋅
+)
+=
+∑
+n
+(
+e
+n
+,
+⋅
+)
+ψ
+n
+{\displaystyle \langle \psi |\equiv ({\boldsymbol {\psi }},\cdot )=\sum _{n}({\boldsymbol {e}}_{n},\cdot )\,\psi _{n}}
+⟨
+ψ
+|
+≡
+(
+ψ
+,
+⋅
+)
+=
+∑
+n
+(
+e
+n
+ψ
+n
+,
+⋅
+)
+=
+∑
+n
+(
+e
+n
+,
+⋅
+)
+ψ
+n
+∗
+{\displaystyle \langle \psi |\equiv ({\boldsymbol {\psi }},\cdot )=\sum _{n}({\boldsymbol {e}}_{n}\psi _{n},\cdot )=\sum _{n}({\boldsymbol {e}}_{n},\cdot )\,\psi _{n}^{*}}
+It is common to use the same symbol for labels and constants. For example, 
+α
+^
+|
+α
+⟩
+=
+α
+|
+α
+⟩
+{\displaystyle {\hat {\alpha }}|\alpha \rangle =\alpha |\alpha \rangle }
+, where the symbol 
+α
+{\displaystyle \alpha }
+ is used simultaneously as the name of the operator 
+α
+^
+{\displaystyle {\hat {\alpha }}}
+, its eigenvector 
+|
+α
+⟩
+{\displaystyle |\alpha \rangle }
+ and the associated eigenvalue 
+α
+{\displaystyle \alpha }
+. Sometimes the hat is also dropped for operators, and one can see notation such as 
+A
+|
+a
+⟩
+=
+a
+|
+a
+⟩
+{\displaystyle A|a\rangle =a|a\rangle }
+.[9]
+It is common to see the usage 
+|
+ψ
+⟩
+†
+=
+⟨
+ψ
+|
+{\displaystyle |\psi \rangle ^{\dagger }=\langle \psi |}
+, where the dagger (
+†
+{\displaystyle \dagger }
+) corresponds to the Hermitian conjugate. This is however not correct in a technical sense, since the ket, 
+|
+ψ
+⟩
+{\displaystyle |\psi \rangle }
+, represents a vector in a complex Hilbert-space 
+H
+{\displaystyle {\mathcal {H}}}
+, and the bra, 
+⟨
+ψ
+|
+{\displaystyle \langle \psi |}
+, is a linear functional on vectors in 
+H
+{\displaystyle {\mathcal {H}}}
+. In other words, 
+|
+ψ
+⟩
+{\displaystyle |\psi \rangle }
+ is just a vector, while 
+⟨
+ψ
+|
+{\displaystyle \langle \psi |}
+ is the combination of a vector and an inner product.
+This is done for a fast notation of scaling vectors. For instance, if the vector 
+|
+α
+⟩
+{\displaystyle |\alpha \rangle }
+ is scaled by 
+1
+/
+2
+{\displaystyle 1/{\sqrt {2}}}
+, it may be denoted 
+|
+α
+/
+2
+⟩
+{\displaystyle |\alpha /{\sqrt {2}}\rangle }
+. This can be ambiguous since 
+α
+{\displaystyle \alpha }
+ is simply a label for a state, and not a mathematical object on which operations can be performed. This usage is more common when denoting vectors as tensor products, where part of the labels are moved outside the designed slot, e.g. 
+|
+α
+⟩
+=
+|
+α
+/
+2
+1
+⟩
+⊗
+|
+α
+/
+2
+2
+⟩
+{\displaystyle |\alpha \rangle =|\alpha /{\sqrt {2}}_{1}\rangle \otimes |\alpha /{\sqrt {2}}_{2}\rangle }
+.
+A linear operator is a map that inputs a ket and outputs a ket. (In order to be called "linear", it is required to have certain properties.) In other words, if 
+A
+^
+{\displaystyle {\hat {A}}}
+ is a linear operator and 
+|
+ψ
+⟩
+{\displaystyle |\psi \rangle }
+ is a ket-vector, then 
+A
+^
+|
+ψ
+⟩
+{\displaystyle {\hat {A}}|\psi \rangle }
+ is another ket-vector.
+In an 
+N
+{\displaystyle N}
+-dimensional Hilbert space, we can impose a basis on the space and represent 
+|
+ψ
+⟩
+{\displaystyle |\psi \rangle }
+ in terms of its coordinates as a 
+N
+×
+1
+{\displaystyle N\times 1}
+ column vector. Using the same basis for 
+A
+^
+{\displaystyle {\hat {A}}}
+, it is represented by an 
+N
+×
+N
+{\displaystyle N\times N}
+ complex matrix. The ket-vector 
+A
+^
+|
+ψ
+⟩
+{\displaystyle {\hat {A}}|\psi \rangle }
+ can now be computed by matrix multiplication.
+Linear operators are ubiquitous in the theory of quantum mechanics. For example, observable physical quantities are represented by self-adjoint operators, such as energy or momentum, whereas transformative processes are represented by unitary linear operators such as rotation or the progression of time.
+Operators can also be viewed as acting on bras from the right hand side. Specifically, if A is a linear operator and ⟨φ| is a bra, then ⟨φ|A is another bra defined by the rule
+(in other words, a function composition). This expression is commonly written as (cf. energy inner product)
+In an N-dimensional Hilbert space, ⟨φ| can be written as a 1 × N row vector, and A (as in the previous section) is an N × N matrix. Then the bra ⟨φ|A can be computed by normal matrix multiplication.
+If the same state vector appears on both bra and ket side,
+⟨
+ψ
+|
+A
+|
+ψ
+⟩
+,
+{\displaystyle \langle \psi |{\boldsymbol {A}}|\psi \rangle \,,}
+then this expression gives the expectation value, or mean or average value, of the observable represented by operator A for the physical system in the state |ψ⟩.
+A convenient way to define linear operators on a Hilbert space H is given by the outer product: if ⟨ϕ| is a bra and |ψ⟩ is a ket, the outer product
+|
+ϕ
+⟩
+⟨
+ψ
+|
+{\displaystyle |\phi \rangle \,\langle \psi |}
+denotes the rank-one operator with the rule 
+(
+|
+ϕ
+⟩
+⟨
+ψ
+|
+)
+(
+x
+)
+=
+⟨
+ψ
+|
+x
+⟩
+|
+ϕ
+⟩
+.
+{\displaystyle {\bigl (}|\phi \rangle \langle \psi |{\bigr )}(x)=\langle \psi |x\rangle |\phi \rangle .}
+For a finite-dimensional vector space, the outer product can be understood as simple matrix multiplication:
+The outer product is an N × N matrix, as expected for a linear operator.
+One of the uses of the outer product is to construct projection operators. Given a ket |ψ⟩ of norm 1, the orthogonal projection onto the subspace spanned by |ψ⟩ is
+|
+ψ
+⟩
+⟨
+ψ
+|
+.
+{\displaystyle |\psi \rangle \,\langle \psi |\,.}
+This is an idempotent in the algebra of observables that acts on the Hilbert space.
+Just as kets and bras can be transformed into each other (making |ψ⟩ into ⟨ψ|), the element from the dual space corresponding to A|ψ⟩ is ⟨ψ|A†, where A† denotes the Hermitian conjugate (or adjoint) of the operator A. In other words,
+|
+ϕ
+⟩
+=
+A
+|
+ψ
+⟩
+if and only if
+⟨
+ϕ
+|
+=
+⟨
+ψ
+|
+A
+†
+.
+{\displaystyle |\phi \rangle =A|\psi \rangle \quad {\text{if and only if}}\quad \langle \phi |=\langle \psi |A^{\dagger }\,.}
+If A is expressed as an N × N matrix, then A† is its conjugate transpose.
+Self-adjoint operators, where A = A†, play an important role in quantum mechanics; for example, an observable is always described by a self-adjoint operator. If A is a self-adjoint operator, then ⟨ψ|A|ψ⟩ is always a real number (not complex). This implies that expectation values of observables are real.
+Bra–ket notation was designed to facilitate the formal manipulation of linear-algebraic expressions. Some of the properties that allow this manipulation are listed herein. In what follows, c1 and c2 denote arbitrary complex numbers, c* denotes the complex conjugate of c, A and B denote arbitrary linear operators, and these properties are to hold for any choice of bras and kets.
+Given any expression involving complex numbers, bras, kets, inner products, outer products, and/or linear operators (but not addition), written in bra–ket notation, the parenthetical groupings do not matter (i.e., the associative property holds). For example:
+and so forth. The expressions on the right (with no parentheses whatsoever) are allowed to be written unambiguously because of the equalities on the left. Note that the associative property does not hold for expressions that include nonlinear operators, such as the antilinear time reversal operator in physics.
+Bra–ket notation makes it particularly easy to compute the Hermitian conjugate (also called dagger, and denoted †) of expressions. The formal rules are:
+These rules are sufficient to formally write the Hermitian conjugate of any such expression; some examples are as follows:
+Two Hilbert spaces V and W may form a third space V ⊗ W by a tensor product. In quantum mechanics, this is used for describing composite systems. If a system is composed of two subsystems described in V and W respectively, then the Hilbert space of the entire system is the tensor product of the two spaces. (The exception to this is if the subsystems are actually identical particles. In that case, the situation is a little more complicated.)
+If |ψ⟩ is a ket in V and |φ⟩ is a ket in W, the tensor product of the two kets is a ket in V ⊗ W. This is written in various notations:
+See quantum entanglement and the EPR paradox for applications of this product.
+Consider a complete orthonormal system (basis),
+{
+e
+i
+ 
+|
+ 
+i
+∈
+N
+}
+,
+{\displaystyle \{e_{i}\ |\ i\in \mathbb {N} \}\,,}
+for a Hilbert space H, with respect to the norm from an inner product ⟨·,·⟩.
+From basic functional analysis, it is known that any ket 
+|
+ψ
+⟩
+{\displaystyle |\psi \rangle }
+ can also be written as
+|
+ψ
+⟩
+=
+∑
+i
+∈
+N
+⟨
+e
+i
+|
+ψ
+⟩
+|
+e
+i
+⟩
+,
+{\displaystyle |\psi \rangle =\sum _{i\in \mathbb {N} }\langle e_{i}|\psi \rangle |e_{i}\rangle ,}
+with ⟨·|·⟩ the inner product on the Hilbert space.
+From the commutativity of kets with (complex) scalars, it follows that
+∑
+i
+∈
+N
+|
+e
+i
+⟩
+⟨
+e
+i
+|
+=
+I
+{\displaystyle \sum _{i\in \mathbb {N} }|e_{i}\rangle \langle e_{i}|=\mathbb {I} }
+must be the identity operator, which sends each vector to itself.
+This, then, can be inserted in any expression without affecting its value; for example
+⟨
+v
+|
+w
+⟩
+=
+⟨
+v
+|
+(
+∑
+i
+∈
+N
+|
+e
+i
+⟩
+⟨
+e
+i
+|
+)
+|
+w
+⟩
+=
+⟨
+v
+|
+(
+∑
+i
+∈
+N
+|
+e
+i
+⟩
+⟨
+e
+i
+|
+)
+(
+∑
+j
+∈
+N
+|
+e
+j
+⟩
+⟨
+e
+j
+|
+)
+|
+w
+⟩
+=
+⟨
+v
+|
+e
+i
+⟩
+⟨
+e
+i
+|
+e
+j
+⟩
+⟨
+e
+j
+|
+w
+⟩
+,
+{\displaystyle {\begin{aligned}\langle v|w\rangle &=\langle v|\left(\sum _{i\in \mathbb {N} }|e_{i}\rangle \langle e_{i}|\right)|w\rangle \\&=\langle v|\left(\sum _{i\in \mathbb {N} }|e_{i}\rangle \langle e_{i}|\right)\left(\sum _{j\in \mathbb {N} }|e_{j}\rangle \langle e_{j}|\right)|w\rangle \\&=\langle v|e_{i}\rangle \langle e_{i}|e_{j}\rangle \langle e_{j}|w\rangle \,,\end{aligned}}}
+where, in the last line, the Einstein summation convention has been used to avoid clutter.
+In quantum mechanics, it often occurs that little or no information about the inner product ⟨ψ|φ⟩ of two arbitrary (state) kets is present, while it is still possible to say something about the expansion coefficients ⟨ψ|ei⟩ = ⟨ei|ψ⟩* and ⟨ei|φ⟩ of those vectors with respect to a specific (orthonormalized) basis. In this case, it is particularly useful to insert the unit operator into the bracket one time or more.
+For more information, see Resolution of the identity,[11]
+I
+=
+∫
+d
+x
+ 
+|
+x
+⟩
+⟨
+x
+|
+=
+∫
+d
+p
+ 
+|
+p
+⟩
+⟨
+p
+|
+,
+{\displaystyle {\mathbb {I} }=\int \!dx~|x\rangle \langle x|=\int \!dp~|p\rangle \langle p|,}
+ where 
+|
+p
+⟩
+=
+∫
+d
+x
+e
+i
+x
+p
+/
+ℏ
+|
+x
+⟩
+2
+π
+ℏ
+.
+{\displaystyle |p\rangle =\int dx{\frac {e^{ixp/\hbar }|x\rangle }{\sqrt {2\pi \hbar }}}.}
+Since ⟨x′|x⟩ = δ(x − x′), plane waves follow, 
+⟨
+x
+|
+p
+⟩
+=
+e
+i
+x
+p
+/
+ℏ
+2
+π
+ℏ
+.
+{\displaystyle \langle x|p\rangle ={\frac {e^{ixp/\hbar }}{\sqrt {2\pi \hbar }}}.}
+In his book (1958), Ch. III.20, Dirac defines the standard ket which, up to a normalization, is the translationally invariant momentum eigenstate 
+|
+ϖ
+⟩
+=
+lim
+p
+→
+0
+|
+p
+⟩
+{\textstyle |\varpi \rangle =\lim _{p\to 0}|p\rangle }
+ in the momentum representation, i.e., 
+p
+^
+|
+ϖ
+⟩
+=
+0
+{\displaystyle {\hat {p}}|\varpi \rangle =0}
+. Consequently, the corresponding wavefunction is a constant, 
+⟨
+x
+|
+ϖ
+⟩
+2
+π
+ℏ
+=
+1
+{\displaystyle \langle x|\varpi \rangle {\sqrt {2\pi \hbar }}=1}
+, and 
+|
+x
+⟩
+=
+δ
+(
+x
+^
+−
+x
+)
+|
+ϖ
+⟩
+2
+π
+ℏ
+,
+{\displaystyle |x\rangle =\delta ({\hat {x}}-x)|\varpi \rangle {\sqrt {2\pi \hbar }},}
+ as well as 
+|
+p
+⟩
+=
+exp
+⁡
+(
+i
+p
+x
+^
+/
+ℏ
+)
+|
+ϖ
+⟩
+.
+{\displaystyle |p\rangle =\exp(ip{\hat {x}}/\hbar )|\varpi \rangle .}
+Typically, when all matrix elements of an operator such as 
+⟨
+x
+|
+A
+|
+y
+⟩
+{\displaystyle \langle x|A|y\rangle }
+ are available, this resolution serves to reconstitute the full operator,
+∫
+d
+x
+d
+y
+|
+x
+⟩
+⟨
+x
+|
+A
+|
+y
+⟩
+⟨
+y
+|
+=
+A
+.
+{\displaystyle \int dx\,dy\,|x\rangle \langle x|A|y\rangle \langle y|=A\,.}
+The object physicists are considering when using bra–ket notation is a Hilbert space (a complete inner product space).
+Let 
+(
+H
+,
+⟨
+⋅
+,
+⋅
+⟩
+)
+{\displaystyle ({\mathcal {H}},\langle \cdot ,\cdot \rangle )}
+ be a Hilbert space and h ∈ H a vector in H. What physicists would denote by |h⟩ is the vector itself. That is,
+|
+h
+⟩
+∈
+H
+.
+{\displaystyle |h\rangle \in {\mathcal {H}}.}
+Let H* be the dual space of H. This is the space of linear functionals on H. The embedding 
+Φ
+:
+H
+↪
+H
+∗
+{\displaystyle \Phi :{\mathcal {H}}\hookrightarrow {\mathcal {H}}^{*}}
+ is defined by 
+Φ
+(
+h
+)
+=
+φ
+h
+{\displaystyle \Phi (h)=\varphi _{h}}
+, where for every h ∈ H the linear functional 
+φ
+h
+:
+H
+→
+C
+{\displaystyle \varphi _{h}:{\mathcal {H}}\to \mathbb {C} }
+ satisfies for every g ∈ H the functional equation 
+φ
+h
+(
+g
+)
+=
+⟨
+h
+,
+g
+⟩
+=
+⟨
+h
+∣
+g
+⟩
+{\displaystyle \varphi _{h}(g)=\langle h,g\rangle =\langle h\mid g\rangle }
+.
+Notational confusion arises when identifying φh and g with ⟨h| and |g⟩ respectively. This is because of literal symbolic substitutions. Let 
+φ
+h
+=
+H
+=
+⟨
+h
+∣
+{\displaystyle \varphi _{h}=H=\langle h\mid }
+ and let g = G = |g⟩. This gives
+φ
+h
+(
+g
+)
+=
+H
+(
+g
+)
+=
+H
+(
+G
+)
+=
+⟨
+h
+|
+(
+G
+)
+=
+⟨
+h
+|
+(
+|
+g
+⟩
+)
+.
+{\displaystyle \varphi _{h}(g)=H(g)=H(G)=\langle h|(G)=\langle h|{\bigl (}|g\rangle {\bigr )}\,.}
+One ignores the parentheses and removes the double bars.
+Moreover, mathematicians usually write the dual entity not at the first place, as the physicists do, but at the second one, and they usually use not an asterisk but an overline (which the physicists reserve for averages and the Dirac spinor adjoint) to denote complex conjugate numbers; i.e., for scalar products mathematicians usually write
+⟨
+ϕ
+,
+ψ
+⟩
+=
+∫
+ϕ
+(
+x
+)
+⋅
+ψ
+(
+x
+)
+¯
+d
+x
+,
+{\displaystyle \langle \phi ,\psi \rangle =\int \phi (x)\cdot {\overline {\psi (x)}}\,\mathrm {d} x\,,}
+whereas physicists would write for the same quantity
+⟨
+ψ
+|
+ϕ
+⟩
+=
+∫
+d
+x
+ψ
+∗
+(
+x
+)
+ϕ
+(
+x
+)
+ 
+.
+{\displaystyle \langle \psi |\phi \rangle =\int dx\,\psi ^{*}(x)\phi (x)~.}

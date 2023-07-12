@@ -1,0 +1,796 @@
+39783,
+Hypercube,
+In geometry, a hypercube is an n-dimensional analogue of a square (n = 2) and a cube (n = 3). It is a closed, compact, convex figure whose 1-skeleton consists of groups of opposite parallel line segments aligned in each of the space's dimensions, perpendicular to each other and of the same length.  A unit hypercube's longest diagonal in n dimensions is equal to 
+
+
+
+
+
+n
+
+
+
+
+{\displaystyle {\sqrt {n}}}
+
+.
+An n-dimensional hypercube is more commonly referred to as an n-cube or sometimes as an n-dimensional cube.[citation needed]  The term measure polytope (originally from Elte, 1912)[1]  is also used, notably in the work of H. S. M. Coxeter who also labels the hypercubes the γn polytopes.[2]
+The hypercube is the special case of a hyperrectangle (also called an n-orthotope).
+A unit hypercube is a hypercube whose side has length one unit.  Often, the hypercube whose corners (or vertices) are the 2n points in Rn with each coordinate equal to 0 or 1 is called the unit hypercube.
+A hypercube can be defined by increasing the numbers of dimensions of a shape:
+This can be generalized to any number of dimensions. This process of sweeping out volumes can be formalized mathematically as a Minkowski sum: the d-dimensional hypercube is the Minkowski sum of d mutually perpendicular unit-length line segments, and is therefore an example of a zonotope.
+The 1-skeleton of a hypercube is a hypercube graph.
+A unit hypercube of dimension 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ is the convex hull of all the points whose 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ Cartesian coordinates are each equal to either 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+ or 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+. This hypercube is also the cartesian product 
+
+
+
+[
+0
+,
+1
+
+]
+
+n
+
+
+
+
+{\displaystyle [0,1]^{n}}
+
+ of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ copies of the unit interval 
+
+
+
+[
+0
+,
+1
+]
+
+
+{\displaystyle [0,1]}
+
+. Another unit hypercube, centered at the origin of the ambient space, can be obtained from this one by a translation. It is the convex hull of the points whose vectors of Cartesian coordinates are
+Here the symbol 
+
+
+
+±
+
+
+{\displaystyle \pm }
+
+ means that each coordinate is either equal to 
+
+
+
+1
+
+/
+
+2
+
+
+{\displaystyle 1/2}
+
+ or to 
+
+
+
+−
+1
+
+/
+
+2
+
+
+{\displaystyle -1/2}
+
+. This unit hypercube is also the cartesian product 
+
+
+
+[
+−
+1
+
+/
+
+2
+,
+1
+
+/
+
+2
+
+]
+
+n
+
+
+
+
+{\displaystyle [-1/2,1/2]^{n}}
+
+. Any unit hypercube has an edge length of 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+ and an 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-dimensional volume of 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+.
+The 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-dimensional hypercube obtained as the convex hull of the points with coordinates 
+
+
+
+(
+±
+1
+,
+±
+1
+,
+⋯
+,
+±
+1
+)
+
+
+{\displaystyle (\pm 1,\pm 1,\cdots ,\pm 1)}
+
+ or, equivalently as the Cartesian product 
+
+
+
+[
+−
+1
+,
+1
+
+]
+
+n
+
+
+
+
+{\displaystyle [-1,1]^{n}}
+
+ is also often considered due to the simpler form of its vertex coordinates. Its edge length is 
+
+
+
+2
+
+
+{\displaystyle 2}
+
+, and its 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-dimensional volume is 
+
+
+
+
+2
+
+n
+
+
+
+
+{\displaystyle 2^{n}}
+
+.
+Every hypercube admits, as its faces, hypercubes of a lower dimension contained in its boundary. A hypercube of dimension 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ admits 
+
+
+
+2
+n
+
+
+{\displaystyle 2n}
+
+ facets, or faces of dimension 
+
+
+
+n
+−
+1
+
+
+{\displaystyle n-1}
+
+: a (
+
+
+
+1
+
+
+{\displaystyle 1}
+
+-dimensional) line segment has 
+
+
+
+2
+
+
+{\displaystyle 2}
+
+ endpoints; a (
+
+
+
+2
+
+
+{\displaystyle 2}
+
+-dimensional) square has 
+
+
+
+4
+
+
+{\displaystyle 4}
+
+ sides or edges; a 
+
+
+
+3
+
+
+{\displaystyle 3}
+
+-dimensional cube has 
+
+
+
+6
+
+
+{\displaystyle 6}
+
+ square faces; a (
+
+
+
+4
+
+
+{\displaystyle 4}
+
+-dimensional) tesseract has 
+
+
+
+8
+
+
+{\displaystyle 8}
+
+ three-dimensional cubes as its facets. The number of vertices of a hypercube of dimension 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ is 
+
+
+
+
+2
+
+n
+
+
+
+
+{\displaystyle 2^{n}}
+
+ (a usual, 
+
+
+
+3
+
+
+{\displaystyle 3}
+
+-dimensional cube has 
+
+
+
+
+2
+
+3
+
+
+=
+8
+
+
+{\displaystyle 2^{3}=8}
+
+ vertices, for instance).
+The number of the 
+
+
+
+m
+
+
+{\displaystyle m}
+
+-dimensional hypercubes (just referred to as 
+
+
+
+m
+
+
+{\displaystyle m}
+
+-cubes from here on) contained in the boundary of an 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-cube is
+The extended f-vector for an n-cube can be computed by (2,1)n, like the coefficients of polynomial products. For example a tesseract is (2,1)4 = (4,1)2 = (16,32,24,8,1).
+For example, the boundary of a 
+
+
+
+4
+
+
+{\displaystyle 4}
+
+-cube (
+
+
+
+n
+=
+4
+
+
+{\displaystyle n=4}
+
+) contains 
+
+
+
+8
+
+
+{\displaystyle 8}
+
+ cubes (
+
+
+
+3
+
+
+{\displaystyle 3}
+
+-cubes), 
+
+
+
+24
+
+
+{\displaystyle 24}
+
+ squares (
+
+
+
+2
+
+
+{\displaystyle 2}
+
+-cubes), 
+
+
+
+32
+
+
+{\displaystyle 32}
+
+ line segments (
+
+
+
+1
+
+
+{\displaystyle 1}
+
+-cubes) and 
+
+
+
+16
+
+
+{\displaystyle 16}
+
+ vertices (
+
+
+
+0
+
+
+{\displaystyle 0}
+
+-cubes). This identity can be proven by a simple combinatorial argument: for each of the 
+
+
+
+
+2
+
+n
+
+
+
+
+{\displaystyle 2^{n}}
+
+ vertices of the hypercube, there are 
+
+
+
+
+
+
+
+(
+
+
+n
+m
+
+
+)
+
+
+
+
+
+
+{\displaystyle {\tbinom {n}{m}}}
+
+ ways to choose a collection of 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ edges incident to that vertex. Each of these collections defines one of the 
+
+
+
+m
+
+
+{\displaystyle m}
+
+-dimensional faces incident to the considered vertex. Doing this for all the vertices of the hypercube, each of the 
+
+
+
+m
+
+
+{\displaystyle m}
+
+-dimensional faces of the hypercube is counted 
+
+
+
+
+2
+
+m
+
+
+
+
+{\displaystyle 2^{m}}
+
+ times since it has that many vertices, and we need to divide 
+
+
+
+
+2
+
+n
+
+
+
+
+
+
+(
+
+
+n
+m
+
+
+)
+
+
+
+
+
+
+{\displaystyle 2^{n}{\tbinom {n}{m}}}
+
+ by this number.
+The number of facets of the hypercube can be used to compute the 
+
+
+
+(
+n
+−
+1
+)
+
+
+{\displaystyle (n-1)}
+
+-dimensional volume of its boundary: that volume is 
+
+
+
+2
+n
+
+
+{\displaystyle 2n}
+
+ times the volume of a 
+
+
+
+(
+n
+−
+1
+)
+
+
+{\displaystyle (n-1)}
+
+-dimensional hypercube; that is, 
+
+
+
+2
+n
+
+s
+
+n
+−
+1
+
+
+
+
+{\displaystyle 2ns^{n-1}}
+
+ where 
+
+
+
+s
+
+
+{\displaystyle s}
+
+ is the length of the edges of the hypercube.
+These numbers can also be generated by the linear recurrence relation
+For example, extending a square via its 4 vertices adds one extra line segment (edge) per vertex. Adding the opposite square to form a cube provides 
+
+
+
+
+E
+
+1
+,
+3
+
+
+=
+12
+
+
+{\displaystyle E_{1,3}=12}
+
+ line segments.
+An n-cube can be projected inside a regular 2n-gonal polygon by a skew orthogonal projection, shown here from the line segment to the 16-cube.
+The hypercubes are one of the few families of regular polytopes that are represented in any number of dimensions.
+The hypercube (offset) family is one of three regular polytope families, labeled by Coxeter as γn. The other two are the hypercube dual family, the cross-polytopes, labeled as βn, and the simplices, labeled as αn. A fourth family, the infinite tessellations of hypercubes, he labeled as δn.
+Another related family of semiregular and uniform polytopes is the demihypercubes, which are constructed from hypercubes with alternate vertices deleted and simplex facets added in the gaps, labeled as hγn.
+n-cubes can be combined with their duals (the cross-polytopes) to form compound polytopes:
+The graph of the n-hypercube's edges is isomorphic to the Hasse diagram of the (n−1)-simplex's face lattice. This can be seen by orienting the n-hypercube so that two opposite vertices lie vertically, corresponding to the (n−1)-simplex itself and the null polytope, respectively. Each vertex connected to the top vertex then uniquely maps to one of the (n−1)-simplex's facets (n−2 faces), and each vertex connected to those vertices maps to one of the simplex's n−3 faces, and so forth, and the vertices connected to the bottom vertex map to the simplex's vertices.
+This relation may be used to generate the face lattice of an (n−1)-simplex efficiently, since face lattice enumeration algorithms applicable to general polytopes are more computationally expensive.
+Regular complex polytopes can be defined in complex Hilbert space called generalized hypercubes, γpn = p{4}2{3}...2{3}2, or ... Real solutions exist with p = 2, i.e. γ2n = γn = 2{4}2{3}...2{3}2 = {4,3,..,3}. For p > 2, they exist in 
+
+
+
+
+
+C
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {C} ^{n}}
+
+. The facets are generalized (n−1)-cube and the vertex figure are regular simplexes.
+The regular polygon perimeter seen in these orthogonal projections is called a petrie polygon. The generalized squares (n = 2) are shown with edges outlined as red and blue alternating color p-edges, while the higher n-cubes are drawn with black outlined p-edges.
+The number of m-face elements in a p-generalized n-cube are: 
+
+
+
+
+p
+
+n
+−
+m
+
+
+
+
+
+(
+
+
+n
+m
+
+
+)
+
+
+
+
+
+{\displaystyle p^{n-m}{n \choose m}}
+
+. This is pn vertices and pn facets.[5]
+Any positive integer raised to another positive integer power will yield a third integer, with this third integer being a specific type of figurate number corresponding to an n-cube with a number of dimensions corresponding to the exponential. For example, the exponent 2 will yield a square number or "perfect square", which can be arranged into a square shape with a side length corresponding to that of the base. Similarly, the exponent 3 will yield a perfect cube, an integer which can be arranged into a cube shape with a side length of the base. As a result, the act of raising a number to 2 or 3 is more commonly referred to as "squaring" and "cubing", respectively. However, the names of higher-order hypercubes do not appear to be in common use for higher powers.
+
+

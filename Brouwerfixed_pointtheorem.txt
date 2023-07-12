@@ -1,0 +1,498 @@
+4101,
+Brouwerfixed-pointtheorem,
+Brouwer's fixed-point theorem is a fixed-point theorem in topology, named after L. E. J. (Bertus) Brouwer. It states that for any continuous function 
+f
+{\displaystyle f}
+ mapping a nonempty compact convex set to itself there is a point 
+x
+0
+{\displaystyle x_{0}}
+ such that 
+f
+(
+x
+0
+)
+=
+x
+0
+{\displaystyle f(x_{0})=x_{0}}
+. The simplest forms of Brouwer's theorem are for continuous functions 
+f
+{\displaystyle f}
+ from a closed interval 
+I
+{\displaystyle I}
+ in the real numbers to itself or from a closed disk 
+D
+{\displaystyle D}
+ to itself. A more general form than the latter is for continuous functions from a nonempty convex compact subset 
+K
+{\displaystyle K}
+ of Euclidean space to itself.
+Among hundreds of fixed-point theorems,[1] Brouwer's is particularly well known, due in part to its use across numerous fields of mathematics. In its original field, this result is one of the key theorems characterizing the topology of Euclidean spaces, along with the Jordan curve theorem, the hairy ball theorem, the invariance of dimension and the Borsuk–Ulam theorem.[2] This gives it a place among the fundamental theorems of topology.[3] The theorem is also used for proving deep results about differential equations and is covered in most introductory courses on differential geometry. It appears in unlikely fields such as game theory. In economics, Brouwer's fixed-point theorem and its extension, the Kakutani fixed-point theorem, play a central role in the proof of existence of general equilibrium in market economies as developed in the 1950s by economics Nobel prize winners Kenneth Arrow and Gérard Debreu.
+The theorem was first studied in view of work on differential equations by the French mathematicians around Henri Poincaré and Charles Émile Picard. Proving results such as the Poincaré–Bendixson theorem requires the use of topological methods. This work at the end of the 19th century opened into several successive versions of the theorem. The case of differentiable mappings of the n-dimensional closed ball was first proved in 1910 by Jacques Hadamard[4] and the general case for continuous mappings by Brouwer in 1911.[5]
+The theorem has several formulations, depending on the context in which it is used and its degree of generalization. The simplest is sometimes given as follows:
+This can be generalized to an arbitrary finite dimension:
+A slightly more general version is as follows:[8]
+An even more general form is better known under a different name:
+The theorem holds only for functions that are endomorphisms (functions that have the same set as the domain and codomain) and for nonempty sets that are compact (thus, in particular, bounded and closed) and convex (or homeomorphic to convex). The following examples show why the pre-conditions are important.
+Consider the function
+with domain [-1,1]. The range of the function is [0,2]. Thus, f is not an endomorphism.
+Consider the function
+which is a continuous function from 
+R
+{\displaystyle \mathbb {R} }
+ to itself. As it shifts every point to the right, it cannot have a fixed point. The space 
+R
+{\displaystyle \mathbb {R} }
+ is convex and closed, but not bounded.
+Consider the function
+which is a continuous function from the open interval (−1,1) to itself. Since x = 1 is not part of the interval, there is not a fixed point of f(x) = x. The space (−1,1) is convex and bounded, but not closed. On the other hand, the function f does have a fixed point for the closed interval [−1,1], namely f(1) = 1.
+Convexity is not strictly necessary for BFPT. Because the properties involved (continuity, being a fixed point) are invariant under homeomorphisms, BFPT is equivalent to forms in which the domain is required to be a closed unit ball 
+D
+n
+{\displaystyle D^{n}}
+. For the same reason it holds for every set that is homeomorphic to a closed ball (and therefore also closed, bounded, connected, without holes, etc.).
+The following example shows that BFPT does not work for domains with holes. Consider the  function 
+f
+(
+x
+)
+=
+−
+x
+{\displaystyle f(x)=-x}
+, which is a continuous function from the unit circle to itself. Since -x≠x holds for any point of the unit circle, f has no fixed point. The analogous example works for the n-dimensional sphere (or any symmetric domain that does not contain the origin). The unit circle is closed and bounded, but it has a hole (and so it is not convex) . The function f does have a fixed point for the unit disc, since it takes the origin to itself.
+A formal generalization of BFPT for "hole-free" domains can be derived from the Lefschetz fixed-point theorem.[11]
+The continuous function in this theorem is not required to be bijective or surjective.
+The theorem has several "real world" illustrations. Here are some examples.
+The theorem is supposed to have originated from Brouwer's observation of a cup of gourmet coffee.[12]
+If one stirs to dissolve a lump of sugar, it appears there is always a point without motion.
+He drew the conclusion that at any moment, there is a point on the surface that is not moving.[13]
+The fixed point is not necessarily the point that seems to be motionless, since the centre of the turbulence moves a little bit.
+The result is not intuitive, since the original fixed point may become mobile when another fixed point appears.
+Brouwer is said to have added: "I can formulate this splendid result different, I take a horizontal sheet, and another identical one which I crumple, flatten and place on the other. Then a point of the crumpled sheet is in the same place as on the other sheet."[13]
+Brouwer "flattens" his sheet as with a flat iron, without removing the folds and wrinkles. Unlike the coffee cup example, the crumpled paper example also demonstrates that more than one fixed point may exist. This distinguishes Brouwer's result from other fixed-point theorems, such as Stefan Banach's, that guarantee uniqueness.
+In one dimension, the result is intuitive and easy to prove.  The continuous function f is defined on a closed interval [a, b] and takes values in the same interval.  Saying that this function has a fixed point amounts to saying that its graph (dark green in the figure on the right) intersects that of the function defined on the same interval [a, b] which maps x to x (light green).
+Intuitively, any continuous line from the left edge of the square to the right edge must necessarily intersect the green diagonal.  To prove this, consider the function g which maps x to f(x) − x. It is ≥ 0 on a and ≤ 0 on b.  By the intermediate value theorem, g has a zero in [a, b]; this zero is a fixed point.
+Brouwer is said to have expressed this as follows: "Instead of examining a surface, we will prove the theorem about a piece of string. Let us begin with the string in an unfolded state, then refold it. Let us flatten the refolded string. Again a point of the string has not changed its position with respect to its original position on the unfolded string."[13]
+The Brouwer fixed point theorem was one of the early achievements of algebraic topology, and is the basis of more general fixed point theorems which are important in functional analysis. The case n = 3 first was proved by Piers Bohl in 1904 (published in Journal für die reine und angewandte Mathematik).[14] It was later proved by L. E. J. Brouwer in 1909. Jacques Hadamard proved the general case in 1910,[4] and Brouwer found a different proof in the same year.[5]  Since these early proofs were all non-constructive indirect proofs, they ran contrary to Brouwer's intuitionist ideals. Although the existence of a fixed point is not constructive in the sense of constructivism in mathematics, methods to approximate fixed points guaranteed by Brouwer's theorem are now known.[15][16]
+At the end of the 19th century, the old problem[17] of the stability of the solar system returned into the focus of the mathematical community.[18]
+Its solution required new methods. As noted by Henri Poincaré, who worked on the three-body problem, there is no hope to find an exact solution: "Nothing is more proper to give us an idea of the hardness of the three-body problem, and generally of all problems of Dynamics where there is no uniform integral and the Bohlin series diverge."[19]
+He also noted that the search for an approximate solution is no more efficient: "the more we seek to obtain precise approximations, the more the result will diverge towards an increasing imprecision".[20]
+He studied a question analogous to that of the surface movement in a cup of coffee. What can we say, in general, about the trajectories on a surface animated by a constant flow?[21] Poincaré discovered that the answer can be found in what we now call the topological properties in the area containing the trajectory. If this area is compact, i.e. both closed and bounded, then the trajectory either becomes stationary, or it approaches a limit cycle.[22] Poincaré went further; if the area is of the same kind as a disk, as is the case for the cup of coffee, there must necessarily be a fixed point. This fixed point is invariant under all functions which associate to each point of the original surface its position after a short time interval t. If the area is a circular band, or if it is not closed,[23] then this is not necessarily the case.
+To understand differential equations better, a new branch of mathematics was born. Poincaré called it analysis situs. The French Encyclopædia Universalis defines it as the branch which "treats the properties of an object that are invariant if it is deformed in any continuous way, without tearing".[24] In 1886, Poincaré proved a result that is equivalent to Brouwer's fixed-point theorem,[25] although the connection with the subject of this article was not yet apparent.[26] A little later, he developed one of the fundamental tools for better understanding the analysis situs, now known as the fundamental group or sometimes the Poincaré group.[27] This method can be used for a very compact proof of the theorem under discussion.
+Poincaré's method was analogous to that of Émile Picard, a contemporary mathematician who generalized the Cauchy–Lipschitz theorem.[28] Picard's approach is based on a result that would later be formalised by another fixed-point theorem, named after Banach. Instead of the topological properties of the domain, this theorem uses the fact that the function in question is a contraction.
+At the dawn of the 20th century, the interest in analysis situs did not stay unnoticed. However, the necessity of a theorem equivalent to the one discussed in this article was not yet evident. Piers Bohl, a Latvian mathematician, applied topological methods to the study of differential equations.[29] In 1904 he proved the three-dimensional case of our theorem,[14] but his publication was not noticed.[30]
+It was Brouwer, finally, who gave the theorem its first patent of nobility. His goals were different from those of Poincaré. This mathematician was inspired by the foundations of mathematics, especially mathematical logic and topology. His initial interest lay in an attempt to solve Hilbert's fifth problem.[31] In 1909, during a voyage to Paris, he met Henri Poincaré, Jacques Hadamard, and Émile Borel. The ensuing discussions convinced Brouwer of the importance of a better understanding of Euclidean spaces, and were the origin of a fruitful exchange of letters with Hadamard. For the next four years, he concentrated on the proof of certain great theorems on this question. In 1912 he proved the hairy ball theorem for the two-dimensional sphere, as well as the fact that every continuous map from the two-dimensional ball to itself has a fixed point.[32] These two results in themselves were not really new. As Hadamard observed, Poincaré had shown a theorem equivalent to the hairy ball theorem.[33] The revolutionary aspect of Brouwer's approach was his systematic use of recently developed tools such as homotopy, the underlying concept of the Poincaré group. In the following year, Hadamard generalised the theorem under discussion to an arbitrary finite dimension, but he employed different methods. Hans Freudenthal comments on the respective roles as follows: "Compared to Brouwer's revolutionary methods, those of Hadamard were very traditional, but Hadamard's participation in the birth of Brouwer's ideas resembles that of a midwife more than that of a mere spectator."[34]
+Brouwer's approach yielded its fruits, and in 1910 he also found a proof that was valid for any finite dimension,[5] as well as other key theorems such as the invariance of dimension.[35] In the context of this work, Brouwer also generalized the Jordan curve theorem to arbitrary dimension and established the properties connected with the degree of a continuous mapping.[36] This branch of mathematics, originally envisioned by Poincaré and developed by Brouwer, changed its name. In the 1930s, analysis situs became algebraic topology.[37]
+The theorem proved its worth in more than one way. During the 20th century numerous fixed-point theorems were developed, and even a branch of mathematics called fixed-point theory.[38]
+Brouwer's theorem is probably the most important.[39] It is also among the foundational theorems on the topology of topological manifolds and is often used to prove other important results such as the Jordan curve theorem.[40]
+Besides the fixed-point theorems for more or less contracting functions, there are many that have emerged directly or indirectly from the result under discussion. A continuous map from a closed ball of Euclidean space to its boundary cannot be the identity on the boundary. Similarly, the Borsuk–Ulam theorem says that a continuous map from the n-dimensional sphere to Rn has a pair of antipodal points that are mapped to the same point. In the finite-dimensional case, the Lefschetz fixed-point theorem provided from 1926 a method for counting fixed points. In 1930, Brouwer's fixed-point theorem was generalized to Banach spaces.[41] This generalization is known as Schauder's fixed-point theorem, a result generalized further by S. Kakutani to set-valued functions.[42] One also meets the theorem and its variants outside topology. It can be used to prove the Hartman-Grobman theorem, which describes the qualitative behaviour of certain differential equations near certain equilibria. Similarly, Brouwer's theorem is used for the proof of the Central Limit Theorem. The theorem can also be found in existence proofs for the solutions of certain partial differential equations.[43]
+Other areas are also touched. In game theory, John Nash used the theorem to prove that in the game of Hex there is a winning strategy for white.[44] In economics, P. Bich explains that certain generalizations of the theorem show that its use is helpful for certain classical problems in game theory and generally for equilibria (Hotelling's law), financial equilibria and incomplete markets.[45]
+Brouwer's celebrity is not exclusively due to his topological work. The proofs of his great topological theorems are not constructive,[46] and Brouwer's dissatisfaction with this is partly what led him to articulate the idea of constructivity. He became the originator and zealous defender of a way of formalising mathematics that is known as intuitionism, which at the time made a stand against set theory.[47] Brouwer disavowed his original proof of the fixed-point theorem. 
+Brouwer's original 1911 proof relied on the notion of the degree of a continuous mapping, stemming from ideas in differential topology. Several modern accounts of the proof can be found in the literature, notably Milnor (1965).[48][49]
+Let 
+K
+=
+B
+(
+0
+)
+¯
+{\displaystyle K={\overline {B(0)}}}
+ denote the closed unit ball in 
+R
+n
+{\displaystyle \mathbb {R} ^{n}}
+ centered at the origin.  Suppose for simplicity that 
+f
+:
+K
+→
+K
+{\displaystyle f:K\to K}
+ is continuously differentiable.  A regular value of 
+f
+{\displaystyle f}
+ is a point 
+p
+∈
+B
+(
+0
+)
+{\displaystyle p\in B(0)}
+ such that the Jacobian of 
+f
+{\displaystyle f}
+ is non-singular at every point of the preimage of 
+p
+{\displaystyle p}
+.  In particular, by the inverse function theorem, every point of the preimage of 
+f
+{\displaystyle f}
+ lies in 
+B
+(
+0
+)
+{\displaystyle B(0)}
+ (the interior of 
+K
+{\displaystyle K}
+).  The degree of 
+f
+{\displaystyle f}
+ at a regular value 
+p
+∈
+B
+(
+0
+)
+{\displaystyle p\in B(0)}
+ is defined as the sum of the signs of the Jacobian determinant of 
+f
+{\displaystyle f}
+ over the preimages of 
+p
+{\displaystyle p}
+ under 
+f
+{\displaystyle f}
+:
+The degree is, roughly speaking, the number of "sheets" of the preimage f lying over a small open set around p, with sheets counted oppositely if they are oppositely oriented.  This is thus a generalization of winding number to higher dimensions.
+The degree satisfies the property of homotopy invariance: let 
+f
+{\displaystyle f}
+ and 
+g
+{\displaystyle g}
+ be two continuously differentiable functions, and 
+H
+t
+(
+x
+)
+=
+t
+f
++
+(
+1
+−
+t
+)
+g
+{\displaystyle H_{t}(x)=tf+(1-t)g}
+ for 
+0
+≤
+t
+≤
+1
+{\displaystyle 0\leq t\leq 1}
+.  Suppose that the point 
+p
+{\displaystyle p}
+ is a regular value of 
+H
+t
+{\displaystyle H_{t}}
+ for all t.  Then 
+deg
+p
+⁡
+f
+=
+deg
+p
+⁡
+g
+{\displaystyle \deg _{p}f=\deg _{p}g}
+.
+If there is no fixed point of the boundary of 
+K
+{\displaystyle K}
+, then the function 
+is well-defined, and
+H
+(
+t
+,
+x
+)
+=
+x
+−
+t
+f
+(
+x
+)
+sup
+x
+∈
+K
+|
+x
+−
+t
+f
+(
+x
+)
+|
+{\displaystyle H(t,x)={\frac {x-tf(x)}{\sup _{x\in K}\left|x-tf(x)\right|}}}
+defines a homotopy from the identity function to it.  The identity function has degree one at every point.  In particular, the identity function has degree one at the origin, so 
+g
+{\displaystyle g}
+ also has degree one at the origin.  As a consequence, the preimage 
+g
+−
+1
+(
+0
+)
+{\displaystyle g^{-1}(0)}
+ is not empty.  The elements of 
+g
+−
+1
+(
+0
+)
+{\displaystyle g^{-1}(0)}
+ are precisely the fixed points of the original function f.
+This requires some work to make fully general.  The definition of degree must be extended to singular values of f, and then to continuous functions.  The more modern advent of homology theory simplifies the construction of the degree, and so has become a standard proof in the literature.
+The hairy ball theorem states that on the unit sphere S in an odd-dimensional Euclidean space, there is no nowhere-vanishing continuous tangent vector field w on S. (The tangency condition means that w(x) ⋅ x = 0 for every unit vector x.) Sometimes the theorem is expressed by the statement that "there is always a place on the globe with no wind". An elementary proof of the hairy ball theorem can be found in Milnor (1978). 
+In fact, suppose first that w is continuously differentiable. By scaling, it can be assumed that w is a continuously differentiable unit tangent vector on S. It can be extended radially to a small spherical shell A of S. For  t sufficiently small, a routine computation shows that the mapping ft(x) = t x + w(x) is a contraction mapping on A and that the volume of its image is a polynomial in t. On the other hand, as a contraction mapping, ft must restrict to a homeomorphism of S onto (1 + t2)½ S and  A onto (1 + t2)½ A. This gives a contradiction, because, if the dimension n of the Euclidean space is odd, (1 + t2)n/2 is not a polynomial. 
+If w is only a continuous unit tangent vector on S, by the Weierstrass approximation theorem, it can be uniformly approximated by a polynomial map u of A into Euclidean space. The orthogonal projection on to the tangent space is given by v(x) = u(x) - u(x) ⋅ x. Thus v is polynomial and nowhere vanishing on A; by construction v/||v|| is a smooth unit tangent vector field on S, a contradiction.    
+The continuous version of the hairy ball theorem can now be used to prove the Brouwer fixed point theorem. First suppose that n is odd. If there were a fixed-point-free continuous self-mapping f of the closed unit ball B of the n-dimensional Euclidean space V, set
+Since f has no fixed points, it follows that, for x in the interior of B, the vector w(x) is non-zero; and for x in S,  the scalar  product  x ⋅ w(x) = 1 – x ⋅ f(x) is strictly positive. From the original n-dimensional space Euclidean space V, construct a new auxiliary (n + 1)-dimensional space W =  V x R, with coordinates y = (x, t). Set
+By construction X is a continuous vector field on the unit sphere of W, satisfying the tangency condition y ⋅ X(y) = 0. Moreover, X(y) is nowhere vanishing (because, if x has norm 1, then x ⋅ w(x) is non-zero; while if x has norm strictly less than 1, then t and w(x) are both non-zero). This contradiction proves the fixed point theorem when n is odd. For n even, one can apply the fixed point theorem to the closed unit ball B in n + 1 dimensions and the  mapping F(x,y) = (f(x),0).
+The advantage of this proof is that it uses only elementary techniques; more general results like the Borsuk-Ulam theorem require tools from algebraic topology.[50]
+The proof uses the observation that the boundary of the n-disk Dn is Sn−1, the (n − 1)-sphere.
+Suppose, for contradiction, that a continuous function f : Dn → Dn has no fixed point. This means that, for every point x in Dn, the points x and f(x) are distinct. Because they are distinct, for every point x in Dn, we can construct a unique ray from f(x) to x and follow the ray until it intersects the boundary Sn−1 (see illustration). By calling this intersection point F(x), we define a function F : Dn → Sn−1 sending each point in the disk to its corresponding intersection point on the boundary.  As a special case, whenever x itself is on the boundary, then the intersection point F(x) must be x.
+Consequently, F is a special type of continuous function known as a retraction: every point of the codomain (in this case Sn−1) is a fixed point of F.
+Intuitively it seems unlikely that there could be a retraction of Dn onto Sn−1, and in the case n = 1, the impossibility is more basic, because S0 (i.e., the endpoints of the closed interval D1) is not even connected. The case n = 2 is less obvious, but can be proven by using basic arguments involving the fundamental groups of the respective spaces: the retraction would induce a surjective group homomorphism from the fundamental group of D2 to that of S1, but the latter group is isomorphic to Z while the first group is trivial, so this is impossible. The case n = 2 can also be proven by contradiction based on a theorem about non-vanishing vector fields.
+For n > 2, however, proving the impossibility of the retraction is more difficult. One way is to make use of homology groups:  the homology Hn−1(Dn) is trivial, while Hn−1(Sn−1) is infinite cyclic. This shows that the retraction is impossible, because again the retraction would induce an injective group homomorphism from the latter to the former group.
+The impossibility of a retraction can also be shown using the de Rham cohomology of open subsets of Euclidean space En. For n ≥ 2, the de Rham cohomology of U = En – (0) is one-dimensional in degree 0 and n - 1, and vanishes otherwise. If a retraction existed, then U would have to be contractible and its de Rham cohomology in degree n - 1 would have to vanish, a contradiction.[51]
+As in the proof of Brouwer's fixed-point theorem for continuous maps using homology, it is reduced to proving that there is no continuous retraction F from the ball B onto its boundary ∂B. In that case it can be assumed that F is smooth, since it can be approximated using the Weierstrass approximation theorem or by convolving with non-negative smooth bump functions of sufficiently small support and integral one (i.e. mollifying). If ω is a volume form on the boundary then by Stokes' theorem,
+giving a contradiction.[52][53]
+More generally, this shows that there is no smooth retraction from any non-empty smooth oriented compact manifold M onto its boundary. The proof using Stokes' theorem is closely related to the proof using homology, because the form ω generates the de Rham cohomology group Hn-1(∂M) which is isomorphic to the homology group Hn-1(∂M) by de Rham's theorem.[54]
+The BFPT can be proved using Sperner's lemma. We now give an outline of the proof for the special case in which f is a function from the standard n-simplex, 
+Δ
+n
+,
+{\displaystyle \Delta ^{n},}
+ to itself, where
+For every point 
+P
+∈
+Δ
+n
+,
+{\displaystyle P\in \Delta ^{n},}
+ also 
+f
+(
+P
+)
+∈
+Δ
+n
+.
+{\displaystyle f(P)\in \Delta ^{n}.}
+ Hence the sum of their coordinates is equal:
+Hence, by the pigeonhole principle, for every 
+P
+∈
+Δ
+n
+,
+{\displaystyle P\in \Delta ^{n},}
+ there must be an index 
+j
+∈
+{
+0
+,
+…
+,
+n
+}
+{\displaystyle j\in \{0,\ldots ,n\}}
+ such that the 
+j
+{\displaystyle j}
+th coordinate of 
+P
+{\displaystyle P}
+ is greater than or equal to the 
+j
+{\displaystyle j}
+th coordinate of its image under f:
+Moreover, if 
+P
+{\displaystyle P}
+ lies on a k-dimensional sub-face of 
+Δ
+n
+,
+{\displaystyle \Delta ^{n},}
+ then by the same argument, the index 
+j
+{\displaystyle j}
+ can be selected from among the k + 1 coordinates which are not zero on this sub-face.
+We now use this fact to construct a Sperner coloring.  For every triangulation of 
+Δ
+n
+,
+{\displaystyle \Delta ^{n},}
+ the color of every vertex 
+P
+{\displaystyle P}
+ is an index 
+j
+{\displaystyle j}
+ such that 
+f
+(
+P
+)
+j
+≤
+P
+j
+.
+{\displaystyle f(P)_{j}\leq P_{j}.}
+By construction, this is a Sperner coloring. Hence, by Sperner's lemma, there is an n-dimensional simplex whose vertices are colored with the entire set of n + 1 available colors.
+Because f is continuous, this simplex can be made arbitrarily small by choosing an arbitrarily fine triangulation. Hence, there must be a point 
+P
+{\displaystyle P}
+ which satisfies the labeling condition in all coordinates: 
+f
+(
+P
+)
+j
+≤
+P
+j
+{\displaystyle f(P)_{j}\leq P_{j}}
+ for all 
+j
+.
+{\displaystyle j.}
+Because the sum of the coordinates of 
+P
+{\displaystyle P}
+ and 
+f
+(
+P
+)
+{\displaystyle f(P)}
+ must be equal, all these inequalities must actually be equalities. But this means that:
+That is, 
+P
+{\displaystyle P}
+ is a fixed point of 
+f
+.
+{\displaystyle f.}
+There is also a quick proof, by Morris Hirsch, based on the impossibility of a differentiable retraction.  The indirect proof starts by noting that the map f can be approximated by a smooth map retaining the property of not fixing a point; this can be done by using the Weierstrass approximation theorem or by convolving with smooth bump functions.  One then defines a retraction as above which must now be differentiable.  Such a retraction must have a non-singular value, by Sard's theorem, which is also non-singular for the restriction to the boundary (which is just the identity).  Thus the inverse image would be a 1-manifold with boundary. The boundary would have to contain at least two end points, both of which would have to lie on the boundary of the original ball—which is impossible in a retraction.[55]
+R. Bruce Kellogg, Tien-Yien Li, and James A. Yorke turned Hirsch's proof into a computable proof by observing that the retract is in fact defined everywhere except at the fixed points.[56]  For almost any point, q, on the boundary, (assuming it is not a fixed point) the one manifold with boundary mentioned above does exist and the only possibility is that it leads from q to a fixed point. It is an easy numerical task to follow such a path from q to the fixed point so the method is essentially computable.[57] gave a conceptually similar path-following version of the homotopy proof which extends to a wide variety of related problems.
+A variation of the preceding proof does not employ the Sard's theorem, and goes as follows. If 
+r
+:
+B
+→
+∂
+B
+{\displaystyle r\colon B\to \partial B}
+ is a smooth retraction, one considers the smooth deformation 
+g
+t
+(
+x
+)
+:=
+t
+r
+(
+x
+)
++
+(
+1
+−
+t
+)
+x
+,
+{\displaystyle g^{t}(x):=tr(x)+(1-t)x,}
+ and the smooth function
+Differentiating under the sign of integral it is not difficult to check that φ′(t) = 0 for all t, so φ is a constant function, which is a contradiction because φ(0) is the n-dimensional volume of the ball, while φ(1) is zero.  The geometric idea is that φ(t) is the oriented area of gt(B) (that is, the Lebesgue measure of the image of the ball via gt, taking into account multiplicity and orientation), and should remain constant (as it is very clear in the one-dimensional case). On the other hand, as the parameter t passes form 0 to 1 the map gt transforms continuously from the identity map of the ball, to the retraction r, which is a contradiction since the oriented area of the identity coincides with the volume of the ball, while the oriented area of r is necessarily 0, as its image is the boundary of the ball, a set of null measure.[58]
+A quite different proof given by David Gale is based on the game of Hex.  The basic theorem regarding Hex, first proven by John Nash, is that no game of Hex can end in a draw; the first player always has a winning strategy (although this theorem is nonconstructive, and explicit strategies have not been fully developed for board sizes of dimensions 10 x 10 or greater). This turns out to be equivalent to the Brouwer fixed-point theorem for dimension 2.  By considering n-dimensional versions of Hex, one can prove in general that Brouwer's theorem is equivalent to the determinacy theorem for Hex.[59]
+The Lefschetz fixed-point theorem says that if a continuous map f from a finite simplicial complex B to itself has only isolated fixed points, then the number of fixed points counted with multiplicities (which may be negative) is equal to the Lefschetz number
+and in particular if the Lefschetz number is nonzero then f must have a fixed point. If B is a ball (or more generally is contractible) then the Lefschetz number is one because the only non-zero simplicial homology group is: 
+H
+0
+(
+B
+)
+{\displaystyle H_{0}(B)}
+ and f acts as the identity on this group, so f has a fixed point.[60][61]
+In reverse mathematics, Brouwer's theorem can be proved in the system WKL0, and conversely over the base system RCA0 Brouwer's theorem for a square implies the weak Kőnig's lemma, so this gives a precise description of the strength of Brouwer's theorem.
+The Brouwer fixed-point theorem forms the starting point of a number of more general fixed-point theorems.
+The straightforward generalization to infinite dimensions, i.e. using the unit ball of an arbitrary Hilbert space instead of Euclidean space, is not true. The main problem here is that the unit balls of infinite-dimensional Hilbert spaces are not compact. For example, in the Hilbert space ℓ2 of square-summable real (or complex) sequences, consider the map f : ℓ2 → ℓ2 which sends a sequence (xn) from the closed unit ball of ℓ2 to the sequence (yn) defined by
+It is not difficult to check that this map is continuous, has its image in the unit sphere of ℓ2, but does not have a fixed point.
+The generalizations of the Brouwer fixed-point theorem to infinite dimensional spaces therefore all include a compactness assumption of some sort, and also often an assumption of convexity. See fixed-point theorems in infinite-dimensional spaces for a discussion of these theorems.
+There is also finite-dimensional generalization to a larger class of spaces: If 
+X
+{\displaystyle X}
+ is a product of finitely many chainable continua, then every continuous function 
+f
+:
+X
+→
+X
+{\displaystyle f:X\rightarrow X}
+ has a fixed point,[62] where a chainable continuum is a (usually but in this case not necessarily metric) compact Hausdorff space of which every open cover has a finite open refinement 
+{
+U
+1
+,
+…
+,
+U
+m
+}
+{\displaystyle \{U_{1},\ldots ,U_{m}\}}
+, such that 
+U
+i
+∩
+U
+j
+≠
+∅
+{\displaystyle U_{i}\cap U_{j}\neq \emptyset }
+ if and only if 
+|
+i
+−
+j
+|
+≤
+1
+{\displaystyle |i-j|\leq 1}
+. Examples of chainable continua include compact connected linearly ordered spaces and in particular closed intervals of real numbers.
+The Kakutani fixed point theorem generalizes the Brouwer fixed-point theorem in a different direction: it stays in Rn, but considers upper hemi-continuous set-valued functions (functions that assign to each point of the set a subset of the set). It also requires compactness and convexity of the set.
+The Lefschetz fixed-point theorem applies to (almost) arbitrary compact topological spaces, and gives a condition in terms of singular homology that guarantees the existence of fixed points; this condition is trivially satisfied for any map in the case of Dn.
+There are several fixed-point theorems which come in three equivalent variants: an algebraic topology variant, a combinatorial variant and a set-covering variant. Each variant can be proved separately using totally different arguments, but each variant can also be reduced to the other variants in its row. Additionally, each result in 
+the top row can be deduced from the one below it in the same column.[63]

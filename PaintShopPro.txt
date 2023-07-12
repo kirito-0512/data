@@ -1,0 +1,38 @@
+24894,
+PaintShopPro,
+PaintShop Pro (PSP) is a raster and vector graphics editor for Microsoft Windows. It was originally published by Jasc Software. In October 2004, Corel purchased Jasc Software and the distribution rights to PaintShop Pro. PSP functionality can be extended by Photoshop-compatible plugins.
+The X-numbered editions have been sold in two versions: PaintShop Pro, which is the basic editing program, and PaintShop Pro Ultimate, which bundles in other standalone programs, additional artistic tools and/or plugins. The particular bundled programs have varied with each numbered version and have not been sold by Corel as separate products.
+PSP comes with an interface for automating tasks with scripts written in Python.
+Originally called simply Paint Shop, the first version, 1.0, was a basic picture converter between BMP, GIF and PCX formats, conceived by Robert Voit [3][4] and developed by Joel DeRider. It was released by Robert Voit in August 1990. Paint Shop was originally distributed as shareware and is still available at many download sites (4.12 being a popular version). Most newer versions are only commercially available although some have been distributed in the United Kingdom in computer magazine CDs after they became obsolete.
+PaintShop Pro 5 added support for layers as well as CMYK and HSL colour modes, included JASC Animation Shop for creating animations and in fact was marketed as "Paint Shop Pro 5.0 with Animation Shop".[5] PaintShop Pro X6 was the first to be available as a native 64 bit version (purchase includes both versions).[6] PaintShop Pro X7 includes content-aware features such as "Magic Fill" and "Smart Edge" as well as support for XMP sidecar files that preserve edit settings for raw formats.[7]
+From 2006 to 2011 (versions XI to X3), PaintShop Pro was marketed as "Corel Paint Shop Pro Photo". Having dropped the "Photo" part of the name in version X4, Paintshop Pro X5 was derived from Ulead Photo Explorer after Corel's acquisition of Ulead.[8]
+On November 28, 2007, Corel announced that the office in Eden Prairie, Minnesota, where Paint Shop Pro was created, would be shut down, with development moving to offices in California and China.[9]
+In the table below, italicized dates are approximate, based on the earliest file timestamp on JASC or Corel's FTP server. Non-italicized dates are sourced from official press releases or notifications posted on JASC's web site.
+Supported file formats include:
+Changes over Paint Shop 2.02 includes:
+Power pack version includes Kai's Power Tools SE.
+Japanese-language version was distributed by P & A, Inc.[14]
+German version of Jasc Paint Shop Pro 6 was distributed by MicroBasic.[17]
+Italian version of Jasc Paint Shop Pro 6 was distributed by Questar.[18]
+Paint Shop Pro 7J is a localized version of Jasc Paint Shop Pro 7 for Japan market from P. & A. Inc., released on 2010-11-10.[21]
+Polish version of Jasc Paint Shop Pro 7 was distributed by Connect Distribution.[22]
+Chilean version of Jasc Paint Shop Pro 7 was distributed by Success S.A.[25]
+Argentina (Spanish) version of Jasc Paint Shop Pro 7 was distributed by Softland.[26]
+Paint Shop Power Suite includes Jasc Paint Shop Photo Album 4, Jasc Paint Shop Xtras—Creative Edition 1, Jasc Paint Shop Xtras—Creative Edition 2, Jasc Animation Shop.
+If you eject a CD while the Browser palette is generating thumbnails, Paint Shop Pro no longer becomes unstable.
+Changes from Corel Paint Shop Pro Photo X2 include:[42]
+Ultimate version includes Nik Color Efex Pro 3.0 photographic filters, buyer's choice of 21 high-quality images from Fotolia and additional Picture Tubes.[48]
+Adds face recognition, instant effects palette, graduate filter effect, Retro Lab, single RAW photo, run multiple scripts, Corel guide, photo mapping, support for Adobe Photoshop brushes, RAW/JPG pair filtering, 16-bit supported in 57 additional adjustments and effects, enhanced tools (text, crop, HDR, photo blend), Share My Trip on-line slide show creation[55]
+Ultimate bonus pack includes Reallusion FaceFilter Studio 2.0, NIK Color Efex Pro 3.0, Creative collection (with "over 100 unique brushes, textures and royalty-free backgrounds").[52]
+PaintShop Pro X6 Ultimate includes Athentech Imaging's Perfectly Clear and Reallusion's FaceFilter3 Standard.
+Picture tubes are graphic images with no background. They are often used as a starting point for complex images; that is, they are combined with other image elements to produce a final work. Tubes can also be regarded as graphic brushes based on a pre-created image; this was their original use.[80]  Instead of leaving a trace of color on the canvas, they would leave a trail of images. Popular tube subjects include alphabets, humans (also known as dollz), animal and toy figures, flowers, love messages and seasonal symbols.
+The tube system originated with PSP Pro version 5. Native tube files may be in .tub, .psp, .pspimage, and .psptube formats.[81] XnView, IrfanView, and TubeEx are separate graphics programs that can convert tube files (.tub) to .png.
+PaintShop Pro Photo X2 Ultimate was released towards the end of life of PaintShop Pro Photo X2, in September 2008. It included 150 additional picture frames and Picture Tubes, the programs Background Remover, Corel Painter Photo Essentials 4, and Photorecovery, as well as RAW support for 250 cameras and a 2GB flash drive.[82]
+Subsequent Ultimate editions were released contemporaneously with the basic version. PaintShop Pro X4 Ultimate included Nik Color Efex Pro 3.0, a voucher for 21 images from Fotolia at high quality, and additional Picture Tubes. X5 Ultimate included Reallusion FaceFilter Studio 2.0, NIK Color Efex Pro 3.0, and "over 100 unique brushes, textures and royalty-free backgrounds".[83] PaintShop Pro X6 Ultimate includes Athentech Imaging's Perfectly Clear and Reallusion's FaceFilter3 Standard.[6] PaintShop Pro X7 Ultimate includes those same two items.[7]
+The bundled extras cannot be installed unless that version of the PaintShop program is already installed. However, once a bundled extra such as a plugin has been installed, the installed files can be copied to other versions, e.g., a plugin installed under X5 can be copied to X6 and even if X5 is then uninstalled, the plugin will continue to work under X6. Corel releases a new X version roughly annually, so this ability to copy means PSP users do not have to choose between updating or continued use of Ultimate add-ons from previous versions.
+Versions X through to X8 install a third party program named PSIService.exe, a Windows service called ProtexisLicensing. Written by Protexis, this runs in the background and collects licensing information. This program communicates with a remote host.  Manually disabling the Protexis Licensing service may cause Corel Paint Shop Pro Photo to cease functioning.[citation needed]
+
+
+
+Information box
+{'Original author(s)': 'Jasc Software, Inc.', 'Developer(s)': 'Corel', 'Initial release': 'August 1990; 32 years ago', 'Stable release': '2023[1] / September 9, 2022; 9 months ago', 'Operating system': 'Windows 7 and later[2]', 'Platform': 'IA-32, x64[2]', 'Type': 'Raster graphics editor, vector graphics editor', 'License': 'Shareware', 'Website': 'www.paintshoppro.com/en/'}

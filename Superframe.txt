@@ -1,0 +1,18 @@
+41128,
+Superframe,
+In telecommunications, superframe (SF) is a T1 framing standard.  In the 1970s it replaced the original T1/D1 framing scheme of the 1960s in which the framing bit simply alternated between 0 and 1.
+Superframe is sometimes called D4 Framing to avoid confusion with single-frequency signaling.  It was first supported by the D2 channel bank, but it was first widely deployed with the D4 channel bank.
+In order to determine where each channel is located in the stream of data being received, each set of 24 channels is aligned in a frame.  The frame is 192 bits long (8 * 24), and is terminated with a 193rd bit, the framing bit, which is used to find the end of the frame.
+In order for the framing bit to be located by receiving equipment, a predictable pattern is sent on this bit.  Equipment will search for a bit which has the correct pattern, and will align its framing based on that bit.  The pattern sent is 12 bits long, so every group of 12 frames is called a superframe.  The pattern used in the 193rd bit is 100011 011100.[1][2][3]
+Each channel sends two bits of call supervision data during each superframe using robbed-bit signaling during frames 6 and 12 of the superframe.
+More specifically, after the 6th and 12th bit in the superframe pattern, the least significant data bit of each channel (bit 8; T1 data is sent big-endian and uses 1-origin numbering) is replaced by a "channel-associated signalling" bit (bits A and B, respectively).[1][2]
+Superframe remained in service in many places through the turn of the century, replaced by the improved extended superframe (ESF) of the 1980s in applications where its additional features were desired.
+In telecommunications, extended superframe (ESF) is a T1 framing standard. ESF is sometimes called D5 Framing because it was first used in the D5 channel bank, invented in the 1980s.
+It is preferred to its predecessor, superframe, because it includes a cyclic redundancy check (CRC) and 4000 bit/s channel capacity for a data link channel (used to pass out-of-band data between equipment.)  It requires less frequent synchronization than the earlier superframe format, and provides on-line, real-time monitoring of circuit capability and operating condition.
+An extended superframe is 24 frames long, and the framing bit of each frame is used in the following manner:
+The CRC is computed using the polynomial x6+x+1 over all 24×193 = 4632 bits (framing and data) of the previous superframe, but with its framing bits forced to 1 for the purpose of CRC computation.[4]  The purpose of this small CRC is not to take any immediate action, but to keep statistics on the performance of the link.
+Like the predecessor superframe, every sixth frame's least-significant data bit can be used for robbed-bit signaling of call supervision state.  However, there are four such bits (ABCD) per channel per extended superframe, rather than the two bits (AB) provided per superframe.  
+(Specifically, the robbed bits follow framing bits 6, 12, 18 and 24.)
+Unlike the superframe, it is possible to avoid robbed-bit signalling and send call supervision over the data link instead.
+This article related to telephony is a stub. You can help Wikipedia by expanding it.
+

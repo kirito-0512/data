@@ -1,0 +1,51 @@
+30728,
+Treenetwork,
+A tree topology, or star-bus topology, is a hybrid network topology in which star networks are interconnected via bus networks.[1][2] Tree networks are hierarchical, and each node can have an arbitrary number of child nodes.
+A regular tree network's topology is characterized by two parameters: the branching,  
+
+
+
+d
+
+
+{\displaystyle d}
+
+, and the
+number of generations,  
+
+
+
+G
+
+
+{\displaystyle G}
+
+.  The total number of the nodes,  
+
+
+
+N
+
+
+{\displaystyle N}
+
+, and the number of peripheral nodes  
+
+
+
+
+N
+
+p
+
+
+
+
+{\displaystyle N_{p}}
+
+, are given by  [3]
+Three parameters are crucial in determining the statistics of random tree networks, first, the branching probability, second the maximum number of allowed progenies at each branching point, and third the maximum number of generations, that a tree can attain. There are a lot of studies that address the large tree networks, however small tree networks are seldom studied.[4]
+A group at MIT has developed a set of functions for Matlab that can help in analyzing the networks. These tools could be used to study the tree networks as well.
+L. de Weck, Oliver. "MIT Strategic Engineering Research Group (SERG), Part II". Retrieved May 1, 2018.
+
+

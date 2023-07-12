@@ -1,0 +1,204 @@
+7991,
+Disperser,
+A disperser is a one-sided extractor.[1] Where an extractor requires that every event gets the same probability under the uniform distribution and the extracted distribution, only the latter is required for a disperser. So for a disperser, an event 
+
+
+
+A
+⊆
+{
+0
+,
+1
+
+}
+
+m
+
+
+
+
+{\displaystyle A\subseteq \{0,1\}^{m}}
+
+ we have:
+
+
+
+
+P
+
+r
+
+
+U
+
+m
+
+
+
+
+[
+A
+]
+>
+1
+−
+ϵ
+
+
+{\displaystyle Pr_{U_{m}}[A]>1-\epsilon }
+
+
+Definition (Disperser): A 
+
+
+
+(
+k
+,
+ϵ
+)
+
+
+{\displaystyle (k,\epsilon )}
+
+-disperser is a function
+
+
+
+
+D
+i
+s
+:
+{
+0
+,
+1
+
+}
+
+n
+
+
+×
+{
+0
+,
+1
+
+}
+
+d
+
+
+→
+{
+0
+,
+1
+
+}
+
+m
+
+
+
+
+{\displaystyle Dis:\{0,1\}^{n}\times \{0,1\}^{d}\rightarrow \{0,1\}^{m}}
+
+
+such that for every distribution 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ on 
+
+
+
+{
+0
+,
+1
+
+}
+
+n
+
+
+
+
+{\displaystyle \{0,1\}^{n}}
+
+ with 
+
+
+
+
+H
+
+∞
+
+
+(
+X
+)
+≥
+k
+
+
+{\displaystyle H_{\infty }(X)\geq k}
+
+ the support of the distribution 
+
+
+
+D
+i
+s
+(
+X
+,
+
+U
+
+d
+
+
+)
+
+
+{\displaystyle Dis(X,U_{d})}
+
+ is of size at least 
+
+
+
+(
+1
+−
+ϵ
+)
+
+2
+
+m
+
+
+
+
+{\displaystyle (1-\epsilon )2^{m}}
+
+.
+An (N, M, D, K, e)-disperser is a bipartite graph with N vertices on the left side, each with degree D, and M vertices on the right side, such that every subset of K vertices on the left side is connected to more than (1 − e)M vertices on the right.
+An extractor is a related type of graph that guarantees an even stronger property; every (N, M, D, K, e)-extractor is also an (N, M, D, K, e)-disperser.
+A disperser is a high-speed mixing device used to disperse or dissolve pigments and other solids into a liquid.
+
+This combinatorics-related article is a stub. You can help Wikipedia by expanding it.
+
+

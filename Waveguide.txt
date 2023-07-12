@@ -1,0 +1,455 @@
+40886,
+Waveguide,
+
+A waveguide is a structure that guides waves, such as sound (acoustic waveguide), light (optical waveguide), radio waves (radio-frequency waveguide) or other electromagnetic waves, with minimal loss of energy by restricting the transmission of energy to one direction.  Without the physical constraint of a waveguide, wave intensities decrease according to the inverse square law as they expand into three-dimensional space.
+There are different types of waveguides for different types of waves. The original and most common meaning[1] is a hollow conductive metal pipe used to carry high frequency radio waves, particularly microwaves.  Dielectric waveguides are used at higher radio frequencies, and transparent dielectric waveguides and optical fibers serve as waveguides for light.   In acoustics, air ducts and horns are used as waveguides for sound in musical instruments and loudspeakers, and specially-shaped metal rods conduct ultrasonic waves in ultrasonic machining.
+The geometry of a waveguide reflects its function; in addition to more common types that channel the wave in one dimension, there are two-dimensional slab waveguides which confine waves to two dimensions.   The frequency of the transmitted wave also dictates the size of a waveguide: each waveguide has a cutoff wavelength determined by its size and will not conduct waves of greater wavelength; an optical fiber that guides light will not transmit microwaves which have a much larger wavelength. Some naturally occurring structures can also act as waveguides. The SOFAR channel layer in the ocean can guide the sound of whale song across enormous distances.[2] 
+Any shape of cross section of waveguide can support EM waves. Irregular shapes are difficult to analyse. Commonly used waveguides are rectangular and circular in shape.
+The uses of waveguides for transmitting signals were known even before the term was coined. The phenomenon of sound waves guided through a taut wire have been known for a long time, as well as sound through a hollow pipe such as a cave or medical stethoscope. Other uses of waveguides are in transmitting power between the components of a system such as radio, radar or optical devices.  Waveguides are the fundamental principle of guided wave testing (GWT), one of the many methods of non-destructive evaluation.[citation needed]
+Specific examples:
+The first structure for guiding waves was proposed by J. J. Thomson in 1893, and was first experimentally tested by Oliver Lodge in 1894. The first mathematical analysis of electromagnetic waves in a metal cylinder was performed by Lord Rayleigh in 1897.[5]
+For sound waves, Lord Rayleigh published a full mathematical analysis of propagation modes in his seminal work, “The Theory of Sound”.[6] Jagadish Chandra Bose researched millimetre wavelengths using waveguides, and in 1897 described to the Royal Institution in London his research carried out in Kolkata.[7]
+The study of dielectric waveguides (such as optical fibers, see below) began as early as the 1920s, by several people, most famous of which are Rayleigh, Sommerfeld and Debye.[8] 
+Optical fiber began to receive special attention in the 1960s due to its importance to the communications industry.
+The development of radio communication initially occurred at the lower frequencies because these could be more easily propagated over large distances.  The long wavelengths made these frequencies unsuitable for use in hollow metal waveguides because of the impractically large diameter tubes required.  Consequently, research into hollow metal waveguides stalled and the work of Lord Rayleigh was forgotten for a time and had to be rediscovered by others.  Practical investigations resumed in the 1930s by George C. Southworth at Bell Labs and Wilmer L. Barrow at MIT.  Southworth at first took the theory from papers on waves in dielectric rods because the work of Lord Rayleigh was unknown to him.  This misled him somewhat; some of his experiments failed because he was not aware of the phenomenon of waveguide cutoff frequency already found in Lord Rayleigh's work.  Serious theoretical work was taken up by John R. Carson and Sallie P. Mead.  This work led to the discovery that for the TE01 mode in circular waveguide losses go down with frequency and at one time this was a serious contender for the format for long-distance telecommunications.[9]
+The importance of radar in World War II gave a great impetus to waveguide research, at least on the Allied side.  The magnetron, developed in 1940 by John Randall and Harry Boot at the University of Birmingham in the United Kingdom, provided a good power source and made microwave radar feasible.  The most important centre of US research was at the Radiation Laboratory (Rad Lab) at MIT but many others took part in the US, and in the UK such as the Telecommunications Research Establishment.  The head of the Fundamental Development Group at Rad Lab was Edward Mills Purcell.  His researchers included Julian Schwinger, Nathan Marcuvitz, Carol Gray Montgomery, and Robert H. Dicke.  Much of the Rad Lab work concentrated on finding lumped element models of waveguide structures so that components in waveguide could be analysed with standard circuit theory.  Hans Bethe was also briefly at Rad Lab, but while there he produced his small aperture theory which proved important for waveguide cavity filters, first developed at Rad Lab.  The German side, on the other hand, largely ignored the potential of waveguides in radar until very late in the war.  So much so that when radar parts from a downed British plane were sent to Siemens & Halske for analysis, even though they were recognised as microwave components, their purpose could not be identified.
+At that time, microwave techniques were badly neglected in Germany.  It was generally believed that it was of no use for electronic warfare, and those who wanted to do research work in this field were not allowed to do so.German academics were even allowed to continue publicly publishing their research in this field because it was not felt to be important.[10]
+Immediately after World War II waveguide was the technology of choice in the microwave field.  However, it has some problems; it is bulky, expensive to produce, and the cutoff frequency effect makes it difficult to produce wideband devices.  Ridged waveguide can increase bandwidth beyond an octave, but a better solution is to use a technology working in TEM mode (that is, non-waveguide) such as coaxial conductors since TEM does not have a cutoff frequency.  A shielded rectangular conductor can also be used and this has certain manufacturing advantages over coax and can be seen as the forerunner of the planar technologies (stripline and microstrip).  However, planar technologies really started to take off when printed circuits were introduced.  These methods are significantly cheaper than waveguide and have largely taken its place in most bands.  However, waveguide is still favoured in the higher microwave bands from around Ku band upwards.[11]
+A propagation mode in a waveguide is one solution of the wave equations, or, in other words, the form of the wave.[8] Due to the constraints of the boundary conditions, there are only limited frequencies and forms for the wave function which can propagate in the waveguide. The lowest frequency in which a certain mode can propagate is the cutoff frequency of that mode. The mode with the lowest cutoff frequency is the fundamental mode of the waveguide, and its cutoff frequency is the waveguide cutoff frequency.[citation needed]
+Propagation modes are computed by solving the Helmholtz equation alongside a set of boundary conditions depending on the geometrical shape and materials bounding the region. The usual assumption for infinitely long uniform waveguides allows us to assume a propagating form for the wave, i.e. stating that every field component has a known dependency on the propagation direction (i.e. 
+
+
+
+z
+
+
+{\displaystyle z}
+
+). More specifically, the common approach is to first replace all unknown time-varying unknown fields 
+
+
+
+u
+(
+x
+,
+y
+,
+z
+,
+t
+)
+
+
+{\displaystyle u(x,y,z,t)}
+
+ (assuming for simplicity to describe the fields in cartesian components) with their complex phasors representation 
+
+
+
+U
+(
+x
+,
+y
+,
+z
+)
+
+
+{\displaystyle U(x,y,z)}
+
+, sufficient to fully describe any infinitely long single-tone signal at frequency 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, (angular frequency 
+
+
+
+ω
+=
+2
+π
+f
+
+
+{\displaystyle \omega =2\pi f}
+
+), and rewrite the Helmholtz equation and boundary conditions accordingly. Then, every unknown field is forced to have a form like 
+
+
+
+U
+(
+x
+,
+y
+,
+z
+)
+=
+
+
+
+U
+^
+
+
+
+(
+x
+,
+y
+)
+
+e
+
+−
+γ
+z
+
+
+
+
+{\displaystyle U(x,y,z)={\hat {U}}(x,y)e^{-\gamma z}}
+
+, where the 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+ term represents the propagation constant (still unknown) along the direction along which the waveguide extends to infinity. The Helmholtz equation can be rewritten to accommodate such form and the resulting equality needs to be solved for 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+ and 
+
+
+
+
+
+
+U
+^
+
+
+
+(
+x
+,
+y
+)
+
+
+{\displaystyle {\hat {U}}(x,y)}
+
+, yielding in the end an eigenvalue equation for 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+ and a corresponding eigenfunction 
+
+
+
+
+
+
+U
+^
+
+
+
+(
+x
+,
+y
+
+)
+
+γ
+
+
+
+
+{\displaystyle {\hat {U}}(x,y)_{\gamma }}
+
+for each solution of the former.[12]
+The propagation constant 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+ of the guided wave is complex, in general. For a lossless case, the propagation constant might be found to take on either real or imaginary values, depending on the chosen solution of the eigenvalue equation and on the angular frequency 
+
+
+
+ω
+
+
+{\displaystyle \omega }
+
+. When 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+ is purely real, the mode is said to be "below cutoff", since the amplitude of the field phasors tends to exponentially decrease with propagation; an imaginary 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+, instead, represents modes said to be "in propagation" or "above cutoff", as the complex amplitude of the phasors does not change with 
+
+
+
+z
+
+
+{\displaystyle z}
+
+.[13]
+In circuit theory, the impedance is a generalization of electrical resistance in the case of alternating current, and is measured in ohms (
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+
+).[8]
+A waveguide in circuit theory is described by a transmission line having a length and characteristic impedance. In other words, the impedance indicates the ratio of voltage to current of the circuit component (in this case a waveguide) during propagation of the wave. This description of the waveguide was originally intended for alternating current, but is also suitable for electromagnetic and sound waves, once the wave and material properties (such as pressure, density, dielectric constant) are properly converted into electrical terms (current and impedance for example).
+Impedance matching is important when components of an electric circuit are connected (waveguide to antenna for example): The impedance ratio determines how much of the wave is transmitted forward and how much is reflected. In connecting a waveguide to an antenna a complete transmission is usually required, so an effort is made to match their impedances.
+The reflection coefficient can be calculated using: 
+
+
+
+Γ
+=
+
+
+
+
+Z
+
+2
+
+
+−
+
+Z
+
+1
+
+
+
+
+
+Z
+
+2
+
+
++
+
+Z
+
+1
+
+
+
+
+
+
+
+{\displaystyle \Gamma ={\frac {Z_{2}-Z_{1}}{Z_{2}+Z_{1}}}}
+
+, where 
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+ (Gamma) is the reflection coefficient (0 denotes full transmission, 1 full reflection, and 0.5 is a reflection of half the incoming voltage),  
+
+
+
+
+Z
+
+1
+
+
+
+
+{\displaystyle Z_{1}}
+
+ and 
+
+
+
+
+Z
+
+2
+
+
+
+
+{\displaystyle Z_{2}}
+
+ are the impedance of the first component (from  which the wave enters) and the second component, respectively.
+An impedance mismatch creates a reflected wave, which added to the incoming waves creates a standing wave. An impedance mismatch can be also quantified with the standing wave ratio (SWR or VSWR for voltage), which is connected to the impedance ratio and reflection coefficient by: 
+
+
+
+
+V
+S
+W
+R
+
+=
+
+
+
+
+|
+
+V
+
+
+|
+
+
+
+m
+a
+x
+
+
+
+
+
+
+|
+
+V
+
+
+|
+
+
+
+m
+i
+n
+
+
+
+
+
+
+=
+
+
+
+1
++
+
+|
+
+Γ
+
+|
+
+
+
+1
+−
+
+|
+
+Γ
+
+|
+
+
+
+
+
+
+{\displaystyle \mathrm {VSWR} ={\frac {|V|_{\rm {max}}}{|V|_{\rm {min}}}}={\frac {1+|\Gamma |}{1-|\Gamma |}}}
+
+, where 
+
+
+
+
+
+|
+V
+|
+
+
+
+m
+i
+n
+
+/
+
+m
+a
+x
+
+
+
+
+
+{\displaystyle \left|V\right|_{\rm {min/max}}}
+
+ are the minimum and maximum values of the voltage absolute value, and the VSWR is the voltage standing wave ratio, which value of 1 denotes full transmission, without reflection  and thus no standing wave, while very large values mean high reflection and standing wave pattern.
+Waveguides can be constructed to carry waves over a wide portion of the electromagnetic spectrum, but are especially useful in the microwave and optical frequency ranges. Depending on the frequency, they can be constructed from either conductive or dielectric materials. Waveguides are used for transferring both power and communication signals.[citation needed]
+Waveguides used at optical frequencies are typically dielectric waveguides, structures in which a dielectric material with high permittivity, and thus high index of refraction, is surrounded by a material with lower permittivity. The structure guides optical waves by total internal reflection. An example of an optical waveguide is optical fiber.[14]
+Other types of optical waveguide are also used, including photonic-crystal fiber, which guides waves by any of several distinct mechanisms. Guides in the form of a hollow tube with a highly reflective inner surface have also been used as light pipes for illumination applications. The inner surfaces may be polished metal, or may be covered with a multilayer film that guides light by Bragg reflection (this is a special case of a photonic-crystal fiber).  One can also use small prisms around the pipe which reflect light via total internal reflection [1]—such confinement is necessarily imperfect, however, since total internal reflection can never truly guide light within a lower-index core (in the prism case, some light leaks out at the prism corners).[citation needed]
+An acoustic waveguide is a physical structure for guiding sound waves. Sound in an acoustic waveguide behaves like electromagnetic waves on a transmission line. Waves on a string, like the ones in a tin can telephone, are a simple example of an acoustic waveguide. Another example are pressure waves in the pipes of an organ. The term acoustic waveguide is also used to describe elastic waves guided in micro-scale devices, like those employed in piezoelectric delay lines and in stimulated Brillouin scattering.
+Waveguides are interesting objects of study from a strictly mathematical perspective. A waveguide (or tube) is defined as type of boundary condition on the wave equation such that the wave function must be equal to zero on the boundary and that the allowed region is finite in all dimensions but one (an infinitely long cylinder is an example.) A large number of interesting results can be proven from these general conditions. It turns out that any tube with a bulge (where the width of the tube increases) admits at least one bound state that exist inside the mode gaps. The frequencies of all the bound states can be identified by using a pulse short in time.  This can be shown using the variational principles. An interesting result by Jeffrey Goldstone and Robert Jaffe[15] is that any tube of constant width with a twist, admits a bound state.[citation needed]
+Sound synthesis uses digital delay lines as computational elements to simulate wave propagation in tubes of wind instruments and the vibrating strings of string instruments.[citation needed]
+
+

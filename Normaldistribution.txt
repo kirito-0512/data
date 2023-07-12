@@ -1,0 +1,5756 @@
+21462,
+Normaldistribution,
+
+
+
+
+
+
+
+I
+
+
+(
+μ
+,
+σ
+)
+=
+
+
+(
+
+
+
+1
+
+/
+
+
+σ
+
+2
+
+
+
+
+0
+
+
+
+
+0
+
+
+2
+
+/
+
+
+σ
+
+2
+
+
+
+
+
+)
+
+
+
+
+{\displaystyle {\mathcal {I}}(\mu ,\sigma )={\begin{pmatrix}1/\sigma ^{2}&0\\0&2/\sigma ^{2}\end{pmatrix}}}
+
+
+In statistics, a normal distribution or Gaussian distribution is a type of continuous probability distribution for a real-valued random variable. The general form of its probability density function is
+The parameter 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ is the mean or expectation of the distribution (and also its median and mode), while the parameter 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+ is its standard deviation. The variance of the distribution is 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+. A random variable with a Gaussian distribution is said to be normally distributed, and is called a normal deviate.
+Normal distributions are important in statistics and are often used in the natural and social sciences to represent real-valued random variables whose distributions are not known.[2][3] Their importance is partly due to the central limit theorem. It states that, under some conditions, the average of many samples (observations) of a random variable with finite mean and variance is itself a random variable—whose distribution converges to a normal distribution as the number of samples increases. Therefore, physical quantities that are expected to be the sum of many independent processes, such as measurement errors, often have distributions that are nearly normal.[4]
+Moreover, Gaussian distributions have some unique properties that are valuable in analytic studies. For instance, any linear combination of a fixed collection of normal deviates is a normal deviate. Many results and methods, such as propagation of uncertainty and least squares parameter fitting, can be derived analytically in explicit form when the relevant variables are normally distributed.
+A normal distribution is sometimes informally called a bell curve.[5] However, many other distributions are bell-shaped (such as the Cauchy, Student's t, and logistic distributions). For other names, see Naming.
+The univariate probability distribution is generalized for vectors in the multivariate normal distribution and for matrices in the matrix normal distribution.
+The simplest case of a normal distribution is known as the standard normal distribution or unit normal distribution. This is a special case when 
+
+
+
+μ
+=
+0
+
+
+{\displaystyle \mu =0}
+
+ and 
+
+
+
+σ
+=
+1
+
+
+{\displaystyle \sigma =1}
+
+, and it is described by this probability density function (or density):
+The variable 
+
+
+
+z
+
+
+{\displaystyle z}
+
+ has a mean of 0 and a variance and standard deviation of 1. The density 
+
+
+
+φ
+(
+z
+)
+
+
+{\displaystyle \varphi (z)}
+
+ has its peak 
+
+
+
+1
+
+/
+
+
+
+2
+π
+
+
+
+
+{\displaystyle 1/{\sqrt {2\pi }}}
+
+ at 
+
+
+
+z
+=
+0
+
+
+{\displaystyle z=0}
+
+ and inflection points at 
+
+
+
+z
+=
++
+1
+
+
+{\displaystyle z=+1}
+
+ and 
+
+
+
+z
+=
+−
+1
+
+
+{\displaystyle z=-1}
+
+.
+Although the density above is most commonly known as the standard normal, a few authors have used that term to describe other versions of the normal distribution. Carl Friedrich Gauss, for example, once defined the standard normal as
+which has a variance of 1/2, and Stephen Stigler[6] once defined the standard normal as
+which has a simple functional form and a variance of 
+
+
+
+
+σ
+
+2
+
+
+=
+1
+
+/
+
+(
+2
+π
+)
+.
+
+
+{\displaystyle \sigma ^{2}=1/(2\pi ).}
+
+
+Every normal distribution is a version of the standard normal distribution, whose domain has been stretched by a factor 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+ (the standard deviation) and then translated by 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ (the mean value):
+The probability density must be scaled by 
+
+
+
+1
+
+/
+
+σ
+
+
+{\displaystyle 1/\sigma }
+
+ so that the integral is still 1.
+If 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ is a standard normal deviate, then 
+
+
+
+X
+=
+σ
+Z
++
+μ
+
+
+{\displaystyle X=\sigma Z+\mu }
+
+ will have a normal distribution with expected value 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and standard deviation 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+. This is equivalent to saying that the "standard" normal distribution 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ can be scaled/stretched by a factor of 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+ and shifted by 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ to yield a different normal distribution, called 
+
+
+
+X
+
+
+{\displaystyle X}
+
+. Conversely, if 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a normal deviate with parameters 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+, then this 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ distribution can be re-scaled and shifted via the formula 
+
+
+
+Z
+=
+(
+X
+−
+μ
+)
+
+/
+
+σ
+
+
+{\displaystyle Z=(X-\mu )/\sigma }
+
+ to convert it to the "standard" normal distribution. This variate is also called the standardized form of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+.
+The probability density of the standard Gaussian distribution (standard normal distribution, with zero mean and unit variance) is often denoted with the Greek letter 
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+
+ (phi).[7] The alternative form of the Greek letter phi, 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+, is also used quite often.
+The normal distribution is often referred to as 
+
+
+
+N
+(
+μ
+,
+
+σ
+
+2
+
+
+)
+
+
+{\displaystyle N(\mu ,\sigma ^{2})}
+
+ or 
+
+
+
+
+
+N
+
+
+(
+μ
+,
+
+σ
+
+2
+
+
+)
+
+
+{\displaystyle {\mathcal {N}}(\mu ,\sigma ^{2})}
+
+.[8] Thus when a random variable 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is normally distributed with mean 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and standard deviation 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+, one may write
+Some authors advocate using the precision 
+
+
+
+τ
+
+
+{\displaystyle \tau }
+
+ as the parameter defining the width of the distribution, instead of the deviation 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+ or the variance 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+. The precision is normally defined as the reciprocal of the variance, 
+
+
+
+1
+
+/
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle 1/\sigma ^{2}}
+
+.[9] The formula for the distribution then becomes
+This choice is claimed to have advantages in numerical computations when 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+ is very close to zero, and simplifies formulas in some contexts, such as in the Bayesian inference of variables with multivariate normal distribution.
+Alternatively, the reciprocal of the standard deviation 
+
+
+
+
+τ
+
+′
+
+
+=
+1
+
+/
+
+σ
+
+
+{\displaystyle \tau ^{\prime }=1/\sigma }
+
+ might be defined as the precision, in which case the expression of the normal distribution becomes
+According to Stigler, this formulation is advantageous because of a much simpler and easier-to-remember formula, and simple approximate formulas for the quantiles of the distribution.
+Normal distributions form an exponential family with natural parameters 
+
+
+
+
+
+θ
+
+1
+
+
+=
+
+
+μ
+
+σ
+
+2
+
+
+
+
+
+
+
+{\displaystyle \textstyle \theta _{1}={\frac {\mu }{\sigma ^{2}}}}
+
+ and 
+
+
+
+
+
+θ
+
+2
+
+
+=
+
+
+
+−
+1
+
+
+2
+
+σ
+
+2
+
+
+
+
+
+
+
+
+{\displaystyle \textstyle \theta _{2}={\frac {-1}{2\sigma ^{2}}}}
+
+, and natural statistics x and x2. The dual expectation parameters for normal distribution are η1 = μ and η2 = μ2 + σ2.
+The cumulative distribution function (CDF) of the standard normal distribution, usually denoted with the capital Greek letter 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ (phi), is the integral
+The related error function 
+
+
+
+erf
+⁡
+(
+x
+)
+
+
+{\displaystyle \operatorname {erf} (x)}
+
+ gives the probability of a random variable, with normal distribution of mean 0 and variance 1/2 falling in the range 
+
+
+
+[
+−
+x
+,
+x
+]
+
+
+{\displaystyle [-x,x]}
+
+. That is:
+These integrals cannot be expressed in terms of elementary functions, and are often said to be special functions. However, many numerical approximations are known; see below for more.
+The two functions are closely related, namely
+For a generic normal distribution with density 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, mean 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and deviation 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+, the cumulative distribution function is
+The complement of the standard normal CDF, 
+
+
+
+Q
+(
+x
+)
+=
+1
+−
+Φ
+(
+x
+)
+
+
+{\displaystyle Q(x)=1-\Phi (x)}
+
+, is often called the Q-function, especially in engineering texts.[10][11] It gives the probability that the value of a standard normal random variable 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ will exceed 
+
+
+
+x
+
+
+{\displaystyle x}
+
+: 
+
+
+
+P
+(
+X
+>
+x
+)
+
+
+{\displaystyle P(X>x)}
+
+. Other definitions of the 
+
+
+
+Q
+
+
+{\displaystyle Q}
+
+-function, all of which are simple transformations of 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+, are also used occasionally.[12]
+The graph of the standard normal CDF 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ has 2-fold rotational symmetry around the point (0,1/2); that is, 
+
+
+
+Φ
+(
+−
+x
+)
+=
+1
+−
+Φ
+(
+x
+)
+
+
+{\displaystyle \Phi (-x)=1-\Phi (x)}
+
+. Its antiderivative (indefinite integral) can be expressed as follows: 
+The CDF of the standard normal distribution can be expanded by Integration by parts into a series:
+where 
+
+
+
+!
+!
+
+
+{\displaystyle !!}
+
+ denotes the double factorial.
+An asymptotic expansion of the CDF for large x can also be derived using integration by parts. For more, see Error function#Asymptotic expansion.[13]
+A quick approximation to the standard normal distribution's CDF can be found by using a Taylor series approximation:
+
+
+
+
+Φ
+(
+x
+)
+≈
+
+
+1
+2
+
+
++
+
+
+1
+
+2
+π
+
+
+
+
+∑
+
+k
+=
+0
+
+
+n
+
+
+
+
+
+
+
+(
+
+−
+1
+
+)
+
+
+k
+
+
+
+x
+
+
+(
+
+2
+k
++
+1
+
+)
+
+
+
+
+
+
+2
+
+k
+
+
+k
+!
+
+(
+
+2
+k
++
+1
+
+)
+
+
+
+
+
+
+{\displaystyle \Phi (x)\approx {\frac {1}{2}}+{\frac {1}{\sqrt {2\pi }}}\sum _{k=0}^{n}{\frac {\left(-1\right)^{k}x^{\left(2k+1\right)}}{2^{k}k!\left(2k+1\right)}}}
+
+
+The recursive nature of the 
+
+
+
+
+e
+
+a
+
+x
+
+2
+
+
+
+
+
+
+{\displaystyle e^{ax^{2}}}
+
+family of derivatives may be used to easily construct a rapidly converging Taylor series expansion using recursive entries about any point of known value of the distribution,
+
+
+
+Φ
+(
+
+x
+
+0
+
+
+)
+
+
+{\displaystyle \Phi (x_{0})}
+
+:
+
+
+
+
+Φ
+(
+x
+)
+=
+
+∑
+
+n
+=
+0
+
+
+∞
+
+
+
+
+
+
+Φ
+
+(
+n
+)
+
+
+(
+
+x
+
+0
+
+
+)
+
+
+n
+!
+
+
+
+(
+x
+−
+
+x
+
+0
+
+
+
+)
+
+n
+
+
+
+
+{\displaystyle \Phi (x)=\sum _{n=0}^{\infty }{\frac {\Phi ^{(n)}(x_{0})}{n!}}(x-x_{0})^{n}}
+
+
+Where:
+
+
+
+
+
+Φ
+
+(
+0
+)
+
+
+(
+
+x
+
+0
+
+
+)
+=
+
+
+1
+
+2
+π
+
+
+
+
+∫
+
+−
+∞
+
+
+
+x
+
+0
+
+
+
+
+
+e
+
+−
+
+t
+
+2
+
+
+
+/
+
+2
+
+
+
+d
+t
+
+
+{\displaystyle \Phi ^{(0)}(x_{0})={\frac {1}{\sqrt {2\pi }}}\int _{-\infty }^{x_{0}}e^{-t^{2}/2}\,dt}
+
+
+
+
+
+
+
+Φ
+
+(
+1
+)
+
+
+(
+
+x
+
+0
+
+
+)
+=
+
+
+1
+
+2
+π
+
+
+
+
+e
+
+−
+
+x
+
+0
+
+
+2
+
+
+
+/
+
+2
+
+
+
+
+{\displaystyle \Phi ^{(1)}(x_{0})={\frac {1}{\sqrt {2\pi }}}e^{-x_{0}^{2}/2}}
+
+
+
+
+
+
+
+Φ
+
+(
+n
+)
+
+
+(
+
+x
+
+0
+
+
+)
+=
+−
+(
+
+x
+
+0
+
+
+
+Φ
+
+(
+n
+−
+1
+)
+
+
+(
+
+x
+
+0
+
+
+)
++
+(
+n
+−
+2
+)
+
+Φ
+
+(
+n
+−
+2
+)
+
+
+(
+
+x
+
+0
+
+
+)
+)
+
+
+{\displaystyle \Phi ^{(n)}(x_{0})=-(x_{0}\Phi ^{(n-1)}(x_{0})+(n-2)\Phi ^{(n-2)}(x_{0}))}
+
+, for all n ≥ 2.
+An application for the above Taylor series expansion is to use Newton's method to reverse the computation.  That is, if we have a value for the CDF, 
+
+
+
+Φ
+(
+x
+)
+
+
+{\displaystyle \Phi (x)}
+
+, but do not know the x needed to obtain the 
+
+
+
+Φ
+(
+x
+)
+
+
+{\displaystyle \Phi (x)}
+
+, we can use Newton's method to find x, and use the Taylor series expansion above to minimize the number of computations.  Newton's method is ideal to solve this problem because the first derivative of 
+
+
+
+Φ
+(
+x
+)
+
+
+{\displaystyle \Phi (x)}
+
+, which is an integral of the normal standard distribution, is the normal standard distribution, and is readily available to use in the Newton's method solution.
+To solve, select a known approximate solution, 
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+, to the desired 
+
+
+
+Φ
+(
+x
+)
+
+
+{\displaystyle \Phi (x)}
+
+.  
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+ may be a value from a distribution table, or an intelligent estimate followed by a computation of 
+
+
+
+Φ
+(
+
+x
+
+0
+
+
+)
+
+
+{\displaystyle \Phi (x_{0})}
+
+ using any desired means to compute. Use this value of 
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+ and the Taylor series expansion above to minimize computations.
+Repeat the following process until the difference between the computed  
+
+
+
+Φ
+(
+
+x
+
+n
+
+
+)
+
+
+{\displaystyle \Phi (x_{n})}
+
+ and the desired 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+, which we will call 
+
+
+
+Φ
+(
+
+D
+e
+s
+i
+r
+e
+d
+
+)
+
+
+{\displaystyle \Phi (\mathrm {Desired} )}
+
+, is below a chosen acceptably small error, such as 1.e-05, 1.e-15, etc.:
+
+
+
+
+
+x
+
+n
++
+1
+
+
+=
+
+x
+
+n
+
+
+−
+
+
+
+Φ
+(
+
+x
+
+n
+
+
+,
+
+x
+
+0
+
+
+,
+Φ
+(
+
+x
+
+0
+
+
+)
+)
+−
+Φ
+(
+
+D
+e
+s
+i
+r
+e
+d
+
+)
+
+
+
+Φ
+′
+
+(
+
+x
+
+n
+
+
+)
+
+
+
+
+
+{\displaystyle x_{n+1}=x_{n}-{\frac {\Phi (x_{n},x_{0},\Phi (x_{0}))-\Phi (\mathrm {Desired} )}{\Phi '(x_{n})}}}
+
+
+Where
+
+
+
+
+Φ
+(
+x
+,
+
+x
+
+0
+
+
+,
+Φ
+(
+
+x
+
+0
+
+
+)
+)
+
+
+{\displaystyle \Phi (x,x_{0},\Phi (x_{0}))}
+
+ is the 
+
+
+
+Φ
+(
+x
+)
+
+
+{\displaystyle \Phi (x)}
+
+ from a Taylor series solution using 
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+ and 
+
+
+
+Φ
+(
+
+x
+
+0
+
+
+)
+
+
+{\displaystyle \Phi (x_{0})}
+
+
+
+
+
+
+
+Φ
+′
+
+(
+x
+)
+=
+
+
+1
+
+2
+π
+
+
+
+
+e
+
+−
+
+x
+
+2
+
+
+
+/
+
+2
+
+
+
+
+{\displaystyle \Phi '(x)={\frac {1}{\sqrt {2\pi }}}e^{-x^{2}/2}}
+
+
+When the repeated computations converge to an error below the chosen acceptably small value, x will be the value needed to obtain a 
+
+
+
+Φ
+(
+x
+)
+
+
+{\displaystyle \Phi (x)}
+
+ of the desired value, 
+
+
+
+Φ
+(
+
+D
+e
+s
+i
+r
+e
+d
+
+)
+
+
+{\displaystyle \Phi (\mathrm {Desired} )}
+
+.  If 
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+ is a good beginning estimate, convergence should be rapid with only a small number of iterations needed.[citation needed]
+About 68% of values drawn from a normal distribution are within one standard deviation σ away from the mean; about 95% of the values lie within two standard deviations; and about 99.7% are within three standard deviations.[5] This fact is known as the 68-95-99.7 (empirical) rule, or the 3-sigma rule.
+More precisely, the probability that a normal deviate lies in the range between 
+
+
+
+μ
+−
+n
+σ
+
+
+{\displaystyle \mu -n\sigma }
+
+ and 
+
+
+
+μ
++
+n
+σ
+
+
+{\displaystyle \mu +n\sigma }
+
+ is given by
+To 12 significant digits, the values for 
+
+
+
+n
+=
+1
+,
+2
+,
+…
+,
+6
+
+
+{\displaystyle n=1,2,\ldots ,6}
+
+ are:[citation needed]
+For large 
+
+
+
+n
+
+
+{\displaystyle n}
+
+, one can use the approximation 
+
+
+
+1
+−
+p
+≈
+
+
+
+e
+
+−
+
+n
+
+2
+
+
+
+/
+
+2
+
+
+
+n
+
+
+π
+
+/
+
+2
+
+
+
+
+
+
+
+{\displaystyle 1-p\approx {\frac {e^{-n^{2}/2}}{n{\sqrt {\pi /2}}}}}
+
+.
+The quantile function of a distribution is the inverse of the cumulative distribution function. The quantile function of the standard normal distribution is called the probit function, and can be expressed in terms of the inverse error function:
+For a normal random variable with mean 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and variance 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+, the quantile function is
+The quantile 
+
+
+
+
+Φ
+
+−
+1
+
+
+(
+p
+)
+
+
+{\displaystyle \Phi ^{-1}(p)}
+
+ of the standard normal distribution is commonly denoted as 
+
+
+
+
+z
+
+p
+
+
+
+
+{\displaystyle z_{p}}
+
+. These values are used in hypothesis testing, construction of confidence intervals and Q–Q plots. A normal random variable 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ will exceed 
+
+
+
+μ
++
+
+z
+
+p
+
+
+σ
+
+
+{\displaystyle \mu +z_{p}\sigma }
+
+ with probability 
+
+
+
+1
+−
+p
+
+
+{\displaystyle 1-p}
+
+, and will lie outside the interval 
+
+
+
+μ
+±
+
+z
+
+p
+
+
+σ
+
+
+{\displaystyle \mu \pm z_{p}\sigma }
+
+ with probability 
+
+
+
+2
+(
+1
+−
+p
+)
+
+
+{\displaystyle 2(1-p)}
+
+. In particular, the quantile 
+
+
+
+
+z
+
+0.975
+
+
+
+
+{\displaystyle z_{0.975}}
+
+ is 1.96; therefore a normal random variable will lie outside the interval 
+
+
+
+μ
+±
+1.96
+σ
+
+
+{\displaystyle \mu \pm 1.96\sigma }
+
+ in only 5% of cases.
+The following table gives the quantile 
+
+
+
+
+z
+
+p
+
+
+
+
+{\displaystyle z_{p}}
+
+ such that 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ will lie in the range 
+
+
+
+μ
+±
+
+z
+
+p
+
+
+σ
+
+
+{\displaystyle \mu \pm z_{p}\sigma }
+
+ with a specified probability 
+
+
+
+p
+
+
+{\displaystyle p}
+
+. These values are useful to determine tolerance interval for sample averages and other statistical estimators with normal (or asymptotically normal) distributions.[citation needed] Note that the following table shows 
+
+
+
+
+
+2
+
+
+
+erf
+
+−
+1
+
+
+⁡
+(
+p
+)
+=
+
+Φ
+
+−
+1
+
+
+
+(
+
+
+
+p
++
+1
+
+2
+
+
+)
+
+
+
+{\displaystyle {\sqrt {2}}\operatorname {erf} ^{-1}(p)=\Phi ^{-1}\left({\frac {p+1}{2}}\right)}
+
+, not 
+
+
+
+
+Φ
+
+−
+1
+
+
+(
+p
+)
+
+
+{\displaystyle \Phi ^{-1}(p)}
+
+ as defined above.
+For small 
+
+
+
+p
+
+
+{\displaystyle p}
+
+, the quantile function has the useful asymptotic expansion
+
+
+
+
+
+Φ
+
+−
+1
+
+
+(
+p
+)
+=
+−
+
+
+ln
+⁡
+
+
+1
+
+p
+
+2
+
+
+
+
+−
+ln
+⁡
+ln
+⁡
+
+
+1
+
+p
+
+2
+
+
+
+
+−
+ln
+⁡
+(
+2
+π
+)
+
+
++
+
+
+o
+
+
+(
+1
+)
+.
+
+
+{\displaystyle \Phi ^{-1}(p)=-{\sqrt {\ln {\frac {1}{p^{2}}}-\ln \ln {\frac {1}{p^{2}}}-\ln(2\pi )}}+{\mathcal {o}}(1).}
+
+[citation needed]
+The normal distribution is the only distribution whose cumulants beyond the first two (i.e., other than the mean and variance) are zero. It is also the continuous distribution with the maximum entropy for a specified mean and variance.[14][15] Geary has shown, assuming that the mean and variance are finite, that the normal distribution is the only distribution where the mean and variance calculated from a set of independent draws are independent of each other.[16][17]
+The normal distribution is a subclass of the elliptical distributions. The normal distribution is symmetric about its mean, and is non-zero over the entire real line. As such it may not be a suitable model for variables that are inherently positive or strongly skewed, such as the weight of a person or the price of a share. Such variables may be better described by other distributions, such as the log-normal distribution or the Pareto distribution.
+The value of the normal distribution is practically zero when the value 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ lies more than a few standard deviations away from the mean (e.g., a spread of three standard deviations covers all but 0.27% of the total distribution). Therefore, it may not be an appropriate model when one expects a significant fraction of outliers—values that lie many standard deviations away from the mean—and least squares and other statistical inference methods that are optimal for normally distributed variables often become highly unreliable when applied to such data. In those cases, a more heavy-tailed distribution should be assumed and the appropriate robust statistical inference methods applied.
+The Gaussian distribution belongs to the family of stable distributions which are the attractors of sums of independent, identically distributed distributions whether or not the mean or variance is finite. Except for the Gaussian which is a limiting case, all stable distributions have heavy tails and infinite variance. It is one of the few distributions that are stable and that have probability density functions that can be expressed analytically, the others being the Cauchy distribution and the Lévy distribution.
+The normal distribution with density 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ (mean 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and standard deviation 
+
+
+
+σ
+>
+0
+
+
+{\displaystyle \sigma >0}
+
+) has the following properties:
+Furthermore, the density 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ of the standard normal distribution (i.e. 
+
+
+
+μ
+=
+0
+
+
+{\displaystyle \mu =0}
+
+ and 
+
+
+
+σ
+=
+1
+
+
+{\displaystyle \sigma =1}
+
+) also has the following properties:
+The plain and absolute moments of a variable 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ are the expected values of 
+
+
+
+
+X
+
+p
+
+
+
+
+{\displaystyle X^{p}}
+
+ and 
+
+
+
+
+|
+
+X
+
+
+|
+
+
+p
+
+
+
+
+{\displaystyle |X|^{p}}
+
+, respectively. If the expected value 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is zero, these parameters are called central moments; otherwise, these parameters are called non-central moments. Usually we are interested only in moments with integer order 
+
+
+
+ 
+p
+
+
+{\displaystyle \ p}
+
+.
+If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ has a normal distribution, the non-central moments exist and are finite for any 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ whose real part is greater than −1. For any non-negative integer 
+
+
+
+p
+
+
+{\displaystyle p}
+
+, the plain central moments are:[21]
+Here 
+
+
+
+n
+!
+!
+
+
+{\displaystyle n!!}
+
+ denotes the double factorial, that is, the product of all numbers from 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ to 1 that have the same parity as 
+
+
+
+n
+.
+
+
+{\displaystyle n.}
+
+
+The central absolute moments coincide with plain moments for all even orders, but are nonzero for odd orders. For any non-negative integer 
+
+
+
+p
+,
+
+
+{\displaystyle p,}
+
+
+The last formula is valid also for any non-integer 
+
+
+
+p
+>
+−
+1.
+
+
+{\displaystyle p>-1.}
+
+ When the mean 
+
+
+
+μ
+≠
+0
+,
+
+
+{\displaystyle \mu \neq 0,}
+
+ the plain and absolute moments can be expressed in terms of confluent hypergeometric functions 
+
+
+
+
+
+
+
+1
+
+
+
+F
+
+1
+
+
+
+
+{\displaystyle {}_{1}F_{1}}
+
+ and 
+
+
+
+U
+.
+
+
+{\displaystyle U.}
+
+[citation needed]
+These expressions remain valid even if 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is not an integer. See also generalized Hermite polynomials.
+The expectation of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ conditioned on the event that 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ lies in an interval 
+
+
+
+[
+a
+,
+b
+]
+
+
+{\displaystyle [a,b]}
+
+ is given by
+where 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ and 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ respectively are the density and the cumulative distribution function of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+. For 
+
+
+
+b
+=
+∞
+
+
+{\displaystyle b=\infty }
+
+ this is known as the inverse Mills ratio. Note that above, density 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is used instead of standard normal density as in inverse Mills ratio, so here we have 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+ instead of 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+.
+The Fourier transform of a normal density 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ with mean 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and standard deviation 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+ is[22]
+where 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ is the imaginary unit. If the mean 
+
+
+
+μ
+=
+0
+
+
+{\displaystyle \mu =0}
+
+, the first factor is 1, and the Fourier transform is, apart from a constant factor, a normal density on the frequency domain, with mean 0 and standard deviation 
+
+
+
+1
+
+/
+
+σ
+
+
+{\displaystyle 1/\sigma }
+
+. In particular, the standard normal distribution 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ is an eigenfunction of the Fourier transform.
+In probability theory, the Fourier transform of the probability distribution of a real-valued random variable 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is closely connected to the characteristic function 
+
+
+
+
+φ
+
+X
+
+
+(
+t
+)
+
+
+{\displaystyle \varphi _{X}(t)}
+
+ of that variable, which is defined as the expected value of 
+
+
+
+
+e
+
+i
+t
+X
+
+
+
+
+{\displaystyle e^{itX}}
+
+, as a function of the real variable 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ (the frequency parameter of the Fourier transform). This definition can be analytically extended to a complex-value variable 
+
+
+
+t
+
+
+{\displaystyle t}
+
+.[23] The relation between both is:
+The moment generating function of a real random variable 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is the expected value of 
+
+
+
+
+e
+
+t
+X
+
+
+
+
+{\displaystyle e^{tX}}
+
+, as a function of the real parameter 
+
+
+
+t
+
+
+{\displaystyle t}
+
+. For a normal distribution with density 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, mean 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and deviation 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+, the moment generating function exists and is equal to
+The cumulant generating function is the logarithm of the moment generating function, namely
+Since this is a quadratic polynomial in 
+
+
+
+t
+
+
+{\displaystyle t}
+
+, only the first two cumulants are nonzero, namely the mean 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and the variance 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+.
+Within Stein's method the Stein operator and class of a random variable  
+
+
+
+X
+∼
+
+
+N
+
+
+(
+μ
+,
+
+σ
+
+2
+
+
+)
+
+
+{\displaystyle X\sim {\mathcal {N}}(\mu ,\sigma ^{2})}
+
+ are 
+
+
+
+
+
+A
+
+
+f
+(
+x
+)
+=
+
+σ
+
+2
+
+
+
+f
+′
+
+(
+x
+)
+−
+(
+x
+−
+μ
+)
+f
+(
+x
+)
+
+
+{\displaystyle {\mathcal {A}}f(x)=\sigma ^{2}f'(x)-(x-\mu )f(x)}
+
+ and 
+
+
+
+
+
+F
+
+
+
+
+{\displaystyle {\mathcal {F}}}
+
+ the class of all absolutely continuous functions 
+
+
+
+f
+:
+
+R
+
+→
+
+R
+
+
+
+ such that 
+
+
+
+E
+
+[
+
+|
+
+
+f
+′
+
+(
+X
+)
+
+|
+
+]
+<
+∞
+
+
+{\displaystyle f:\mathbb {R} \to \mathbb {R} {\mbox{ such that }}\mathbb {E} [|f'(X)|]<\infty }
+
+.
+In the limit when 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+ tends to zero, the probability density 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ eventually tends to zero at any 
+
+
+
+x
+≠
+μ
+
+
+{\displaystyle x\neq \mu }
+
+, but grows without limit if 
+
+
+
+x
+=
+μ
+
+
+{\displaystyle x=\mu }
+
+, while its integral remains equal to 1. Therefore, the normal distribution cannot be defined as an ordinary function when 
+
+
+
+σ
+=
+0
+
+
+{\displaystyle \sigma =0}
+
+.
+However, one can define the normal distribution with zero variance as a generalized function; specifically, as Dirac's "delta function" 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+ translated by the mean 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+, that is 
+
+
+
+f
+(
+x
+)
+=
+δ
+(
+x
+−
+μ
+)
+.
+
+
+{\displaystyle f(x)=\delta (x-\mu ).}
+
+
+Its CDF is then the Heaviside step function translated by the mean 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+, namely
+Of all probability distributions over the reals with a specified mean 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and variance 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+, the normal distribution 
+
+
+
+N
+(
+μ
+,
+
+σ
+
+2
+
+
+)
+
+
+{\displaystyle N(\mu ,\sigma ^{2})}
+
+ is the one with maximum entropy.[24] If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a continuous random variable with probability density 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+, then the entropy of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is defined as[25][26][27]
+where 
+
+
+
+f
+(
+x
+)
+log
+⁡
+f
+(
+x
+)
+
+
+{\displaystyle f(x)\log f(x)}
+
+ is understood to be zero whenever 
+
+
+
+f
+(
+x
+)
+=
+0
+
+
+{\displaystyle f(x)=0}
+
+. This functional can be maximized, subject to the constraints that the distribution is properly normalized and has a specified variance, by using variational calculus. A function with two Lagrange multipliers is defined:
+where 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ is, for now, regarded as some density function with mean 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and standard deviation 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+.
+At maximum entropy, a small variation 
+
+
+
+δ
+f
+(
+x
+)
+
+
+{\displaystyle \delta f(x)}
+
+ about 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ will produce a variation 
+
+
+
+δ
+L
+
+
+{\displaystyle \delta L}
+
+ about 
+
+
+
+L
+
+
+{\displaystyle L}
+
+ which is equal to 0:
+Since this must hold for any small 
+
+
+
+δ
+f
+(
+x
+)
+
+
+{\displaystyle \delta f(x)}
+
+, the term in brackets must be zero, and solving for 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ yields:
+Using the constraint equations to solve for 
+
+
+
+
+λ
+
+0
+
+
+
+
+{\displaystyle \lambda _{0}}
+
+ and 
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+
+ yields the density of the normal distribution:
+The entropy of a normal distribution is equal to
+The central limit theorem states that under certain (fairly common) conditions, the sum of many random variables will have an approximately normal distribution. More specifically, where 
+
+
+
+
+X
+
+1
+
+
+,
+…
+,
+
+X
+
+n
+
+
+
+
+{\displaystyle X_{1},\ldots ,X_{n}}
+
+ are independent and identically distributed random variables with the same arbitrary distribution, zero mean, and variance 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+ and 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ is their
+mean scaled by 
+
+
+
+
+
+n
+
+
+
+
+{\displaystyle {\sqrt {n}}}
+
+
+Then, as 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ increases, the probability distribution of 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ will tend to the normal distribution with zero mean and variance 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+.
+The theorem can be extended to variables 
+
+
+
+(
+
+X
+
+i
+
+
+)
+
+
+{\displaystyle (X_{i})}
+
+ that are not independent and/or not identically distributed if certain constraints are placed on the degree of dependence and the moments of the distributions.
+Many test statistics, scores, and estimators encountered in practice contain sums of certain random variables in them, and even more estimators can be represented as sums of random variables through the use of influence functions. The central limit theorem implies that those statistical parameters will have asymptotically normal distributions.
+The central limit theorem also implies that certain distributions can be approximated by the normal distribution, for example:
+Whether these approximations are sufficiently accurate depends on the purpose for which they are needed, and the rate of convergence to the normal distribution. It is typically the case that such approximations are less accurate in the tails of the distribution.
+A general upper bound for the approximation error in the central limit theorem is given by the Berry–Esseen theorem, improvements of the approximation are given by the Edgeworth expansions.
+This theorem can also be used to justify modeling the sum of many uniform noise sources as Gaussian noise. See AWGN.
+The probability density, cumulative distribution, and inverse cumulative distribution of any function of one or more independent or correlated normal variables can be computed with the numerical method of ray-tracing[35] (Matlab code). In the following sections we look at some special cases.
+If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is distributed normally with mean 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and variance 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+, then
+If 
+
+
+
+
+X
+
+1
+
+
+
+
+{\displaystyle X_{1}}
+
+ and 
+
+
+
+
+X
+
+2
+
+
+
+
+{\displaystyle X_{2}}
+
+ are two independent standard normal random variables with mean 0 and variance 1, then
+The split normal distribution is most directly defined in terms of joining scaled sections of the density functions of different normal distributions and rescaling the density to integrate to one. The truncated normal distribution results from rescaling a section of a single density function.
+For any positive integer 
+
+
+
+
+n
+
+
+
+{\displaystyle {\text{n}}}
+
+, any normal distribution with mean 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and variance 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+ is the distribution of the sum of 
+
+
+
+
+n
+
+
+
+{\displaystyle {\text{n}}}
+
+ independent normal deviates, each with mean 
+
+
+
+
+
+μ
+n
+
+
+
+
+{\displaystyle {\frac {\mu }{n}}}
+
+ and variance 
+
+
+
+
+
+
+σ
+
+2
+
+
+n
+
+
+
+
+{\displaystyle {\frac {\sigma ^{2}}{n}}}
+
+. This property is called infinite divisibility.[41]
+Conversely, if 
+
+
+
+
+X
+
+1
+
+
+
+
+{\displaystyle X_{1}}
+
+ and 
+
+
+
+
+X
+
+2
+
+
+
+
+{\displaystyle X_{2}}
+
+ are independent random variables and their sum 
+
+
+
+
+X
+
+1
+
+
++
+
+X
+
+2
+
+
+
+
+{\displaystyle X_{1}+X_{2}}
+
+ has a normal distribution, then both 
+
+
+
+
+X
+
+1
+
+
+
+
+{\displaystyle X_{1}}
+
+ and 
+
+
+
+
+X
+
+2
+
+
+
+
+{\displaystyle X_{2}}
+
+ must be normal deviates.[42]
+This result is known as Cramér's decomposition theorem, and is equivalent to saying that the convolution of two distributions is normal if and only if both are normal. Cramér's theorem implies that a linear combination of independent non-Gaussian variables will never have an exactly normal distribution, although it may approach it arbitrarily closely.[28]
+Bernstein's theorem states that if 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ are independent and 
+
+
+
+X
++
+Y
+
+
+{\displaystyle X+Y}
+
+ and 
+
+
+
+X
+−
+Y
+
+
+{\displaystyle X-Y}
+
+ are also independent, then both X and Y must necessarily have normal distributions.[43][44]
+More generally, if 
+
+
+
+
+X
+
+1
+
+
+,
+…
+,
+
+X
+
+n
+
+
+
+
+{\displaystyle X_{1},\ldots ,X_{n}}
+
+ are independent random variables, then two distinct linear combinations 
+
+
+
+∑
+
+
+a
+
+k
+
+
+
+X
+
+k
+
+
+
+
+
+{\textstyle \sum {a_{k}X_{k}}}
+
+ and 
+
+
+
+∑
+
+
+b
+
+k
+
+
+
+X
+
+k
+
+
+
+
+
+{\textstyle \sum {b_{k}X_{k}}}
+
+will be independent if and only if all 
+
+
+
+
+X
+
+k
+
+
+
+
+{\displaystyle X_{k}}
+
+ are normal and 
+
+
+
+∑
+
+
+a
+
+k
+
+
+
+b
+
+k
+
+
+
+σ
+
+k
+
+
+2
+
+
+=
+0
+
+
+
+{\textstyle \sum {a_{k}b_{k}\sigma _{k}^{2}=0}}
+
+, where 
+
+
+
+
+σ
+
+k
+
+
+2
+
+
+
+
+{\displaystyle \sigma _{k}^{2}}
+
+ denotes the variance of 
+
+
+
+
+X
+
+k
+
+
+
+
+{\displaystyle X_{k}}
+
+.[43]
+The notion of normal distribution, being one of the most important distributions in probability theory, has been extended far beyond the standard framework of the univariate (that is one-dimensional) case (Case 1). All these extensions are also called normal or Gaussian laws, so a certain ambiguity in names exists.
+A random variable X has a two-piece normal distribution if it has a distribution
+where μ is the mean and σ1 and σ2 are the standard deviations of the distribution to the left and right of the mean respectively.
+The mean, variance and third central moment of this distribution have been determined[45]
+where E(X), V(X) and T(X) are the mean, variance, and third central moment respectively.
+One of the main practical uses of the Gaussian law is to model the empirical distributions of many different random variables encountered in practice. In such case a possible extension would be a richer family of distributions, having more than two parameters and therefore being able to fit the empirical distribution more accurately. The examples of such extensions are:
+It is often the case that we do not know the parameters of the normal distribution, but instead want to estimate them. That is, having a sample 
+
+
+
+(
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+)
+
+
+{\displaystyle (x_{1},\ldots ,x_{n})}
+
+ from a normal 
+
+
+
+
+
+N
+
+
+(
+μ
+,
+
+σ
+
+2
+
+
+)
+
+
+{\displaystyle {\mathcal {N}}(\mu ,\sigma ^{2})}
+
+ population we would like to learn the approximate values of parameters 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+. The standard approach to this problem is the maximum likelihood method, which requires maximization of the log-likelihood function:
+Taking derivatives with respect to 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+ and solving the resulting system of first order conditions yields the maximum likelihood estimates:
+Estimator 
+
+
+
+
+
+
+
+μ
+^
+
+
+
+
+
+
+{\displaystyle \textstyle {\hat {\mu }}}
+
+ is called the sample mean, since it is the arithmetic mean of all observations. The statistic 
+
+
+
+
+
+
+x
+¯
+
+
+
+
+
+{\displaystyle \textstyle {\overline {x}}}
+
+ is complete and sufficient for 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+, and therefore by the Lehmann–Scheffé theorem, 
+
+
+
+
+
+
+
+μ
+^
+
+
+
+
+
+
+{\displaystyle \textstyle {\hat {\mu }}}
+
+ is the uniformly minimum variance unbiased (UMVU) estimator.[46] In finite samples it is distributed normally:
+The variance of this estimator is equal to the μμ-element of the inverse Fisher information matrix 
+
+
+
+
+
+
+
+I
+
+
+
+−
+1
+
+
+
+
+
+{\displaystyle \textstyle {\mathcal {I}}^{-1}}
+
+. This implies that the estimator is finite-sample efficient. Of practical importance is the fact that the standard error of 
+
+
+
+
+
+
+
+μ
+^
+
+
+
+
+
+
+{\displaystyle \textstyle {\hat {\mu }}}
+
+ is proportional to 
+
+
+
+
+1
+
+/
+
+
+
+n
+
+
+
+
+
+{\displaystyle \textstyle 1/{\sqrt {n}}}
+
+, that is, if one wishes to decrease the standard error by a factor of 10, one must increase the number of points in the sample by a factor of 100. This fact is widely used in determining sample sizes for opinion polls and the number of trials in Monte Carlo simulations.
+From the standpoint of the asymptotic theory, 
+
+
+
+
+
+
+
+μ
+^
+
+
+
+
+
+
+{\displaystyle \textstyle {\hat {\mu }}}
+
+ is consistent, that is, it converges in probability to 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ as 
+
+
+
+n
+→
+∞
+
+
+{\displaystyle n\rightarrow \infty }
+
+. The estimator is also asymptotically normal, which is a simple corollary of the fact that it is normal in finite samples:
+The estimator 
+
+
+
+
+
+
+
+
+σ
+^
+
+
+
+
+2
+
+
+
+
+
+{\displaystyle \textstyle {\hat {\sigma }}^{2}}
+
+ is called the sample variance, since it is the variance of the sample (
+
+
+
+(
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+)
+
+
+{\displaystyle (x_{1},\ldots ,x_{n})}
+
+). In practice, another estimator is often used instead of the 
+
+
+
+
+
+
+
+
+σ
+^
+
+
+
+
+2
+
+
+
+
+
+{\displaystyle \textstyle {\hat {\sigma }}^{2}}
+
+. This other estimator is denoted  
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s^{2}}
+
+, and is also called the sample variance, which represents a certain ambiguity in terminology; its square root 
+
+
+
+s
+
+
+{\displaystyle s}
+
+ is called the sample standard deviation. The estimator 
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s^{2}}
+
+ differs from 
+
+
+
+
+
+
+
+
+σ
+^
+
+
+
+
+2
+
+
+
+
+
+{\displaystyle \textstyle {\hat {\sigma }}^{2}}
+
+ by having (n − 1) instead of n in the denominator (the so-called Bessel's correction):
+The difference between 
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s^{2}}
+
+ and 
+
+
+
+
+
+
+
+
+σ
+^
+
+
+
+
+2
+
+
+
+
+
+{\displaystyle \textstyle {\hat {\sigma }}^{2}}
+
+ becomes negligibly small for large n's. In finite samples however, the motivation behind the use of 
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s^{2}}
+
+ is that it is an unbiased estimator of the underlying parameter 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+, whereas 
+
+
+
+
+
+
+
+
+σ
+^
+
+
+
+
+2
+
+
+
+
+
+{\displaystyle \textstyle {\hat {\sigma }}^{2}}
+
+ is biased. Also, by the Lehmann–Scheffé theorem the estimator 
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s^{2}}
+
+ is uniformly minimum variance unbiased (UMVU),[46] which makes it the "best" estimator among all unbiased ones. However it can be shown that the biased estimator 
+
+
+
+
+
+
+
+
+σ
+^
+
+
+
+
+2
+
+
+
+
+
+{\displaystyle \textstyle {\hat {\sigma }}^{2}}
+
+ is "better" than the 
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s^{2}}
+
+ in terms of the mean squared error (MSE) criterion. In finite samples both 
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s^{2}}
+
+ and 
+
+
+
+
+
+
+
+
+σ
+^
+
+
+
+
+2
+
+
+
+
+
+{\displaystyle \textstyle {\hat {\sigma }}^{2}}
+
+ have scaled chi-squared distribution with (n − 1) degrees of freedom:
+The first of these expressions shows that the variance of 
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s^{2}}
+
+ is equal to 
+
+
+
+2
+
+σ
+
+4
+
+
+
+/
+
+(
+n
+−
+1
+)
+
+
+{\displaystyle 2\sigma ^{4}/(n-1)}
+
+, which is slightly greater than the σσ-element of the inverse Fisher information matrix 
+
+
+
+
+
+
+
+I
+
+
+
+−
+1
+
+
+
+
+
+{\displaystyle \textstyle {\mathcal {I}}^{-1}}
+
+. Thus, 
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s^{2}}
+
+ is not an efficient estimator for 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+, and moreover, since 
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s^{2}}
+
+ is UMVU, we can conclude that the finite-sample efficient estimator for 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+ does not exist.
+Applying the asymptotic theory, both estimators 
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s^{2}}
+
+ and 
+
+
+
+
+
+
+
+
+σ
+^
+
+
+
+
+2
+
+
+
+
+
+{\displaystyle \textstyle {\hat {\sigma }}^{2}}
+
+ are consistent, that is they converge in probability to 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+ as the sample size 
+
+
+
+n
+→
+∞
+
+
+{\displaystyle n\rightarrow \infty }
+
+. The two estimators are also both asymptotically normal:
+In particular, both estimators are asymptotically efficient for  
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+.
+By Cochran's theorem, for normal distributions the sample mean 
+
+
+
+
+
+
+
+μ
+^
+
+
+
+
+
+
+{\displaystyle \textstyle {\hat {\mu }}}
+
+ and the sample variance s2 are independent, which means there can be no gain in considering their joint distribution. There is also a converse theorem: if in a sample the sample mean and sample variance are independent, then the sample must have come from the normal distribution. The independence between 
+
+
+
+
+
+
+
+μ
+^
+
+
+
+
+
+
+{\displaystyle \textstyle {\hat {\mu }}}
+
+ and s can be employed to construct the so-called t-statistic:
+This quantity t has the Student's t-distribution with (n − 1) degrees of freedom, and it is an ancillary statistic (independent of the value of the parameters). Inverting the distribution of this t-statistics will allow us to construct the confidence interval for μ;[47] similarly, inverting the χ2 distribution of the statistic s2 will give us the confidence interval for σ2:[48]
+where tk,p and χ 2k,p  are the pth quantiles of the t- and χ2-distributions respectively. These confidence intervals are of the confidence level 1 − α, meaning that the true values μ and σ2 fall outside of these intervals with probability (or significance level) α. In practice people usually take α = 5%, resulting in the 95% confidence intervals.
+Approximate formulas can be derived from the asymptotic distributions of 
+
+
+
+
+
+
+
+μ
+^
+
+
+
+
+
+
+{\displaystyle \textstyle {\hat {\mu }}}
+
+ and s2:
+The approximate formulas become valid for large values of n, and are more convenient for the manual calculation since the standard normal quantiles zα/2 do not depend on n. In particular, the most popular value of α = 5%, results in |z0.025| = 1.96.
+Normality tests assess the likelihood that the given data set {x1, ..., xn} comes from a normal distribution. Typically the null hypothesis H0 is that the observations are distributed normally with unspecified mean μ and variance σ2, versus the alternative Ha that the distribution is arbitrary. Many tests (over 40) have been devised for this problem. The more prominent of them are outlined below:
+Diagnostic plots are more intuitively appealing but subjective at the same time, as they rely on informal human judgement to accept or reject the null hypothesis.
+Goodness-of-fit tests:
+Moment-based tests:
+Tests based on the empirical distribution function:
+Bayesian analysis of normally distributed data is complicated by the many different possibilities that may be considered:
+The formulas for the non-linear-regression cases are summarized in the conjugate prior article.
+The following auxiliary formula is useful for simplifying the posterior update equations, which otherwise become fairly tedious.
+This equation rewrites the sum of two quadratics in x by expanding the squares, grouping the terms in x, and completing the square. Note the following about the complex constant factors attached to some of the terms:
+A similar formula can be written for the sum of two vector quadratics: If x, y, z are vectors of length k, and A and B are symmetric, invertible matrices of size 
+
+
+
+k
+×
+k
+
+
+{\displaystyle k\times k}
+
+, then
+where
+Note that the form x′ A x is called a quadratic form and is a scalar:
+In other words, it sums up all possible combinations of products of pairs of elements from x, with a separate coefficient for each. In addition, since 
+
+
+
+
+x
+
+i
+
+
+
+x
+
+j
+
+
+=
+
+x
+
+j
+
+
+
+x
+
+i
+
+
+
+
+{\displaystyle x_{i}x_{j}=x_{j}x_{i}}
+
+, only the sum 
+
+
+
+
+a
+
+i
+j
+
+
++
+
+a
+
+j
+i
+
+
+
+
+{\displaystyle a_{ij}+a_{ji}}
+
+ matters for any off-diagonal elements of A, and there is no loss of generality in assuming that A is symmetric. Furthermore, if A is symmetric, then the form 
+
+
+
+
+
+x
+
+′
+
+
+A
+
+
+y
+
+=
+
+
+y
+
+′
+
+
+A
+
+
+x
+
+.
+
+
+{\displaystyle \mathbf {x} '\mathbf {A} \mathbf {y} =\mathbf {y} '\mathbf {A} \mathbf {x} .}
+
+
+Another useful formula is as follows:
+
+
+
+
+
+∑
+
+i
+=
+1
+
+
+n
+
+
+(
+
+x
+
+i
+
+
+−
+μ
+
+)
+
+2
+
+
+=
+
+∑
+
+i
+=
+1
+
+
+n
+
+
+(
+
+x
+
+i
+
+
+−
+
+
+
+x
+¯
+
+
+
+
+)
+
+2
+
+
++
+n
+(
+
+
+
+x
+¯
+
+
+
+−
+μ
+
+)
+
+2
+
+
+
+
+{\displaystyle \sum _{i=1}^{n}(x_{i}-\mu )^{2}=\sum _{i=1}^{n}(x_{i}-{\bar {x}})^{2}+n({\bar {x}}-\mu )^{2}}
+
+
+where 
+
+
+
+
+
+
+x
+¯
+
+
+
+=
+
+
+1
+n
+
+
+
+∑
+
+i
+=
+1
+
+
+n
+
+
+
+x
+
+i
+
+
+.
+
+
+{\textstyle {\bar {x}}={\frac {1}{n}}\sum _{i=1}^{n}x_{i}.}
+
+
+For a set of i.i.d. normally distributed data points X of size n where each individual point x follows 
+
+
+
+x
+∼
+
+
+N
+
+
+(
+μ
+,
+
+σ
+
+2
+
+
+)
+
+
+{\displaystyle x\sim {\mathcal {N}}(\mu ,\sigma ^{2})}
+
+ with known variance σ2, the conjugate prior distribution is also normally distributed.
+This can be shown more easily by rewriting the variance as the precision, i.e. using τ = 1/σ2. Then if 
+
+
+
+x
+∼
+
+
+N
+
+
+(
+μ
+,
+1
+
+/
+
+τ
+)
+
+
+{\displaystyle x\sim {\mathcal {N}}(\mu ,1/\tau )}
+
+ and 
+
+
+
+μ
+∼
+
+
+N
+
+
+(
+
+μ
+
+0
+
+
+,
+1
+
+/
+
+
+τ
+
+0
+
+
+)
+,
+
+
+{\displaystyle \mu \sim {\mathcal {N}}(\mu _{0},1/\tau _{0}),}
+
+ we proceed as follows.
+First, the likelihood function is (using the formula above for the sum of differences from the mean):
+Then, we proceed as follows:
+In the above derivation, we used the formula above for the sum of two quadratics and eliminated all constant factors not involving μ. The result is the kernel of a normal distribution, with mean 
+
+
+
+
+
+
+n
+τ
+
+
+
+x
+¯
+
+
+
++
+
+τ
+
+0
+
+
+
+μ
+
+0
+
+
+
+
+n
+τ
++
+
+τ
+
+0
+
+
+
+
+
+
+
+{\displaystyle {\frac {n\tau {\bar {x}}+\tau _{0}\mu _{0}}{n\tau +\tau _{0}}}}
+
+ and precision 
+
+
+
+n
+τ
++
+
+τ
+
+0
+
+
+
+
+{\displaystyle n\tau +\tau _{0}}
+
+, i.e.
+This can be written as a set of Bayesian update equations for the posterior parameters in terms of the prior parameters:
+That is, to combine n data points with total precision of nτ (or equivalently, total variance of n/σ2) and mean of values 
+
+
+
+
+
+
+x
+¯
+
+
+
+
+
+{\displaystyle {\bar {x}}}
+
+, derive a new total precision simply by adding the total precision of the data to the prior total precision, and form a new mean through a precision-weighted average, i.e. a weighted average of the data mean and the prior mean, each weighted by the associated total precision. This makes logical sense if the precision is thought of as indicating the certainty of the observations: In the distribution of the posterior mean, each of the input components is weighted by its certainty, and the certainty of this distribution is the sum of the individual certainties. (For the intuition of this, compare the expression "the whole is (or is not) greater than the sum of its parts". In addition, consider that the knowledge of the posterior comes from a combination of the knowledge of the prior and likelihood, so it makes sense that we are more certain of it than of either of its components.)
+The above formula reveals why it is more convenient to do Bayesian analysis of conjugate priors for the normal distribution in terms of the precision. The posterior precision is simply the sum of the prior and likelihood precisions, and the posterior mean is computed through a precision-weighted average, as described above. The same formulas can be written in terms of variance by reciprocating all the precisions, yielding the more ugly formulas
+For a set of i.i.d. normally distributed data points X of size n where each individual point x follows 
+
+
+
+x
+∼
+
+
+N
+
+
+(
+μ
+,
+
+σ
+
+2
+
+
+)
+
+
+{\displaystyle x\sim {\mathcal {N}}(\mu ,\sigma ^{2})}
+
+ with known mean μ, the conjugate prior of the variance has an inverse gamma distribution or a scaled inverse chi-squared distribution. The two are equivalent except for having different parameterizations. Although the inverse gamma is more commonly used, we use the scaled inverse chi-squared for the sake of convenience. The prior for σ2 is as follows:
+The likelihood function from above, written in terms of the variance, is:
+where
+Then:
+The above is also a scaled inverse chi-squared distribution where
+or equivalently
+Reparameterizing in terms of an inverse gamma distribution, the result is:
+For a set of i.i.d. normally distributed data points X of size n where each individual point x follows 
+
+
+
+x
+∼
+
+
+N
+
+
+(
+μ
+,
+
+σ
+
+2
+
+
+)
+
+
+{\displaystyle x\sim {\mathcal {N}}(\mu ,\sigma ^{2})}
+
+ with unknown mean μ and unknown variance σ2, a combined (multivariate) conjugate prior is placed over the mean and variance, consisting of a normal-inverse-gamma distribution.
+Logically, this originates as follows:
+The priors are normally defined as follows:
+The update equations can be derived, and look as follows:
+The respective numbers of pseudo-observations add the number of actual observations to them. The new mean hyperparameter is once again a weighted average, this time weighted by the relative numbers of observations. Finally, the update for 
+
+
+
+
+ν
+
+0
+
+′
+
+
+
+
+σ
+
+0
+
+
+2
+
+
+
+′
+
+
+
+{\displaystyle \nu _{0}'{\sigma _{0}^{2}}'}
+
+ is similar to the case with known mean, but in this case the sum of squared deviations is taken with respect to the observed data mean rather than the true mean, and as a result a new "interaction term" needs to be added to take care of the additional error source stemming from the deviation between prior and data mean.
+The prior distributions are
+Therefore, the joint prior is
+The likelihood function from the section above with known variance is:
+Writing it in terms of variance rather than precision, we get:
+where 
+
+
+
+S
+=
+
+∑
+
+i
+=
+1
+
+
+n
+
+
+(
+
+x
+
+i
+
+
+−
+
+
+
+x
+¯
+
+
+
+
+)
+
+2
+
+
+.
+
+
+{\textstyle S=\sum _{i=1}^{n}(x_{i}-{\bar {x}})^{2}.}
+
+
+Therefore, the posterior is (dropping the hyperparameters as conditioning factors):
+In other words, the posterior distribution has the form of a product of a normal distribution over 
+
+
+
+p
+(
+μ
+
+|
+
+
+σ
+
+2
+
+
+)
+
+
+{\textstyle p(\mu |\sigma ^{2})}
+
+ times an inverse gamma distribution over 
+
+
+
+p
+(
+
+σ
+
+2
+
+
+)
+
+
+{\textstyle p(\sigma ^{2})}
+
+, with parameters that are the same as the update equations above.
+
+The occurrence of normal distribution in practical problems can be loosely classified into four categories:
+Certain quantities in physics are distributed normally, as was first demonstrated by James Clerk Maxwell. Examples of such quantities are:
+Approximately normal distributions occur in many situations, as explained by the central limit theorem. When the outcome is produced by many small effects acting additively and independently, its distribution will be close to normal. The normal approximation will not be valid if the effects act multiplicatively (instead of additively), or if there is a single external influence that has a considerably larger magnitude than the rest of the effects.
+I can only recognize the occurrence of the normal curve – the Laplacian curve of errors – as a very abnormal phenomenon. It is roughly approximated to in certain distributions; for this reason, and on account for its beautiful simplicity, we may, perhaps, use it as a first approximation, particularly in theoretical investigations.There are statistical methods to empirically test that assumption; see the above Normality tests section.
+John Ioannidis argues that using normally distributed standard deviations as standards for validating research findings leave falsifiable predictions about phenomena that are not normally distributed untested. This includes, for example, phenomena that only appear when all necessary conditions are present and one cannot be a substitute for another in an addition-like way and phenomena that are not randomly distributed. Ioannidis argues that standard deviation-centered validation gives a false appearance of validity to hypotheses and theories where some but not all falsifiable predictions are normally distributed since the portion of falsifiable predictions that there is evidence against may and in some cases are in the non-normally distributed parts of the range of falsifiable predictions, as well as baselessly dismissing hypotheses for which none of the falsifiable predictions are normally distributed as if were they unfalsifiable when in fact they do make falsifiable predictions. It is argued by Ioannidis that many cases of mutually exclusive theories being accepted as "validated" by research journals are caused by failure of the journals to take in empirical falsifications of non-normally distributed predictions, and not because mutually exclusive theories are true, which they cannot be, although two mutually exclusive theories can both be wrong and a third one correct.[52]
+In computer simulations, especially in applications of the Monte-Carlo method, it is often desirable to generate values that are normally distributed. The algorithms listed below all generate the standard normal deviates, since a N(μ, σ2) can be generated as X = μ + σZ, where Z is standard normal. All these algorithms rely on the availability of a random number generator U capable of producing uniform random variates.
+The standard normal CDF is widely used in scientific and statistical computing.
+The values Φ(x) may be approximated very accurately by a variety of methods, such as numerical integration, Taylor series, asymptotic series and continued fractions. Different approximations are used depending on the desired level of accuracy.
+
+
+
+
+1
+−
+Φ
+
+(
+x
+)
+
+=
+1
+−
+
+(
+
+1
+−
+Φ
+
+(
+
+−
+x
+
+)
+
+
+)
+
+
+
+{\displaystyle 1-\Phi \left(x\right)=1-\left(1-\Phi \left(-x\right)\right)}
+
+
+Shore (1982) introduced simple approximations that may be incorporated in stochastic optimization models of engineering and operations research, like reliability engineering and inventory analysis. Denoting p = Φ(z), the simplest approximation for the quantile function is:
+
+
+
+
+z
+=
+
+Φ
+
+−
+1
+
+
+(
+p
+)
+=
+5.5556
+
+[
+
+1
+−
+
+
+(
+
+
+
+1
+−
+p
+
+p
+
+
+)
+
+
+0.1186
+
+
+
+]
+
+,
+
+p
+≥
+1
+
+/
+
+2
+
+
+{\displaystyle z=\Phi ^{-1}(p)=5.5556\left[1-\left({\frac {1-p}{p}}\right)^{0.1186}\right],\qquad p\geq 1/2}
+
+
+This approximation delivers for z a maximum absolute error of 0.026 (for 0.5 ≤ p ≤ 0.9999, corresponding to 0 ≤ z ≤ 3.719). For p < 1/2 replace p by 1 − p and change sign. Another approximation, somewhat less accurate, is the single-parameter approximation:
+
+
+
+
+z
+=
+−
+0.4115
+
+{
+
+
+
+
+1
+−
+p
+
+p
+
+
++
+log
+⁡
+
+[
+
+
+
+1
+−
+p
+
+p
+
+
+]
+
+−
+1
+
+}
+
+,
+
+p
+≥
+1
+
+/
+
+2
+
+
+{\displaystyle z=-0.4115\left\{{\frac {1-p}{p}}+\log \left[{\frac {1-p}{p}}\right]-1\right\},\qquad p\geq 1/2}
+
+
+The latter had served to derive a simple approximation for the loss integral of the normal distribution, defined by
+
+
+
+
+
+
+
+
+L
+(
+z
+)
+
+
+
+=
+
+∫
+
+z
+
+
+∞
+
+
+(
+u
+−
+z
+)
+φ
+(
+u
+)
+
+d
+u
+=
+
+∫
+
+z
+
+
+∞
+
+
+[
+1
+−
+Φ
+(
+u
+)
+]
+
+d
+u
+
+
+
+
+L
+(
+z
+)
+
+
+
+≈
+
+
+{
+
+
+
+0.4115
+
+(
+
+
+
+p
+
+1
+−
+p
+
+
+
+
+)
+
+−
+z
+,
+
+
+p
+<
+1
+
+/
+
+2
+,
+
+
+
+
+
+
+
+0.4115
+
+(
+
+
+
+
+1
+−
+p
+
+p
+
+
+
+)
+
+,
+
+
+p
+≥
+1
+
+/
+
+2.
+
+
+
+
+
+
+
+
+
+
+
+or, equivalently,
+
+
+
+
+
+L
+(
+z
+)
+
+
+
+≈
+
+
+{
+
+
+
+0.4115
+
+{
+
+1
+−
+log
+⁡
+
+[
+
+
+p
+
+1
+−
+p
+
+
+
+]
+
+
+}
+
+,
+
+
+p
+<
+1
+
+/
+
+2
+,
+
+
+
+
+
+
+
+0.4115
+
+
+
+
+1
+−
+p
+
+p
+
+
+
+,
+
+
+p
+≥
+1
+
+/
+
+2.
+
+
+
+
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}L(z)&=\int _{z}^{\infty }(u-z)\varphi (u)\,du=\int _{z}^{\infty }[1-\Phi (u)]\,du\\[5pt]L(z)&\approx {\begin{cases}0.4115\left({\dfrac {p}{1-p}}\right)-z,&p<1/2,\\\\0.4115\left({\dfrac {1-p}{p}}\right),&p\geq 1/2.\end{cases}}\\[5pt]{\text{or, equivalently,}}\\L(z)&\approx {\begin{cases}0.4115\left\{1-\log \left[{\frac {p}{1-p}}\right]\right\},&p<1/2,\\\\0.4115{\dfrac {1-p}{p}},&p\geq 1/2.\end{cases}}\end{aligned}}}
+
+
+This approximation is particularly accurate for the right far-tail (maximum error of 10−3 for z≥1.4). Highly accurate approximations for the CDF, based on Response Modeling Methodology (RMM, Shore, 2011, 2012), are shown in Shore (2005).
+Some more approximations can be found at: Error function#Approximation with elementary functions. In particular, small relative error on the whole domain for the CDF 
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+
+ and the quantile function 
+
+
+
+
+Φ
+
+−
+1
+
+
+
+
+{\displaystyle \Phi ^{-1}}
+
+ as well, is achieved via an explicitly invertible formula by Sergei Winitzki in 2008.
+Some authors[61][62] attribute the credit for the discovery of the normal distribution to de Moivre, who in 1738[note 2] published in the second edition of his "The Doctrine of Chances" the study of the coefficients in the binomial expansion of (a + b)n. De Moivre proved that the middle term in this expansion has the approximate magnitude of 
+
+
+
+
+2
+
+n
+
+
+
+/
+
+
+
+2
+π
+n
+
+
+
+
+{\textstyle 2^{n}/{\sqrt {2\pi n}}}
+
+, and that "If m or 1/2n be a Quantity infinitely great, then the Logarithm of the Ratio, which a Term distant from the middle by the Interval ℓ, has to the middle Term, is 
+
+
+
+−
+
+
+
+2
+ℓ
+ℓ
+
+n
+
+
+
+
+{\textstyle -{\frac {2\ell \ell }{n}}}
+
+."[63] Although this theorem can be interpreted as the first obscure expression for the normal probability law, Stigler points out that de Moivre himself did not interpret his results as anything more than the approximate rule for the binomial coefficients, and in particular de Moivre lacked the concept of the probability density function.[64]
+In 1823 Gauss published his monograph "Theoria combinationis observationum erroribus minimis obnoxiae" where among other things he introduces several important statistical concepts, such as the method of least squares, the method of maximum likelihood, and the normal distribution. Gauss used M, M′, M′′, ... to denote the measurements of some unknown quantity V, and sought the "most probable" estimator of that quantity: the one that maximizes the probability φ(M − V) · φ(M′ − V) · φ(M′′ − V) · ... of obtaining the observed experimental results. In his notation φΔ is the probability density function of the measurement errors of magnitude Δ. Not knowing what the function φ is, Gauss requires that his method should reduce to the well-known answer: the arithmetic mean of the measured values.[note 3] Starting from these principles, Gauss demonstrates that the only law that rationalizes the choice of arithmetic mean as an estimator of the location parameter, is the normal law of errors:[65]
+
+
+
+
+φ
+
+
+Δ
+
+
+=
+
+
+h
+
+√
+π
+
+
+
+
+
+e
+
+−
+
+h
+h
+
+Δ
+Δ
+
+
+,
+
+
+{\displaystyle \varphi {\mathit {\Delta }}={\frac {h}{\surd \pi }}\,e^{-\mathrm {hh} \Delta \Delta },}
+
+ 
+where h is "the measure of the precision of the observations". Using this normal law as a generic model for errors in the experiments, Gauss formulates what is now known as the non-linear weighted least squares method.[66]
+Although Gauss was the first to suggest the normal distribution law, Laplace made significant contributions.[note 4] It was Laplace who first posed the problem of aggregating several observations in 1774,[67] although his own solution led to the Laplacian distribution. It was Laplace who first calculated the value of the integral ∫ e−t2 dt = √π in 1782, providing the normalization constant for the normal distribution.[68] Finally, it was Laplace who in 1810 proved and presented to the Academy the fundamental central limit theorem, which emphasized the theoretical importance of the normal distribution.[69]
+It is of interest to note that in 1809 an Irish-American mathematician Robert Adrain published two insightful but flawed derivations of the normal probability law, simultaneously and independently from Gauss.[70] His works remained largely unnoticed by the scientific community, until in 1871 they were exhumed by Abbe.[71]
+In the middle of the 19th century Maxwell demonstrated that the normal distribution is not just a convenient mathematical tool, but may also occur in natural phenomena:[72] "The number of particles whose velocity, resolved in a certain direction, lies between x and x + dx is
+
+
+
+
+N
+⁡
+
+
+1
+
+α
+
+
+
+π
+
+
+
+
+
+
+
+e
+
+−
+
+
+
+x
+
+2
+
+
+
+α
+
+2
+
+
+
+
+
+
+
+d
+x
+
+
+{\displaystyle \operatorname {N} {\frac {1}{\alpha \;{\sqrt {\pi }}}}\;e^{-{\frac {x^{2}}{\alpha ^{2}}}}\,dx}
+
+
+Today, the concept is usually known in English as the normal distribution or Gaussian distribution.  Other less common names include Gauss distribution, Laplace-Gauss distribution, the law of error, the law of facility of errors, Laplace's second law, Gaussian law.
+Gauss himself apparently coined the term with reference to the "normal equations" involved in its applications, with normal having its technical meaning of orthogonal rather than "usual".[73] However, by the end of the 19th century some authors[note 5] had started using the name normal distribution, where the word "normal" was used as an adjective – the term now being seen as a reflection of the fact that this distribution was seen as typical, common – and thus "normal". Peirce (one of those authors) once defined "normal" thus: "...the 'normal' is not the average (or any other kind of mean) of what actually occurs, but of what would, in the long run, occur under certain circumstances."[74] Around the turn of the 20th century Pearson popularized the term normal as a designation for this distribution.[75]
+Many years ago I called the Laplace–Gaussian curve the normal curve, which name, while it avoids an international question of priority, has the disadvantage of leading people to believe that all other distributions of frequency are in one sense or another 'abnormal'. Also, it was Pearson who first wrote the distribution in terms of the standard deviation σ as in modern notation. Soon after this, in year 1915, Fisher added the location parameter to the formula for normal distribution, expressing it in the way it is written nowadays:
+
+
+
+
+d
+f
+=
+
+
+1
+
+2
+
+σ
+
+2
+
+
+π
+
+
+
+
+e
+
+−
+(
+x
+−
+m
+
+)
+
+2
+
+
+
+/
+
+(
+2
+
+σ
+
+2
+
+
+)
+
+
+
+d
+x
+.
+
+
+{\displaystyle df={\frac {1}{\sqrt {2\sigma ^{2}\pi }}}e^{-(x-m)^{2}/(2\sigma ^{2})}\,dx.}
+
+
+The term "standard normal", which denotes the normal distribution with zero mean and unit variance came into general use around the 1950s, appearing in the popular textbooks by P. G. Hoel (1947) "Introduction to mathematical statistics" and A. M. Mood (1950) "Introduction to the theory of statistics".[76]
+
+
+
+Information box
+{'Notation': '', 'Parameters': '= mean (location)\n= variance (squared scale)', 'Support': '', 'PDF': '', 'CDF': '', 'Quantile': '', 'Mean': '', 'Median': '', 'Mode': '', 'Variance': '', 'MAD': '', 'Skewness': '', 'Ex. kurtosis': '', 'Entropy': '', 'MGF': '', 'CF': '', 'Fisher information': '', 'Kullback-Leibler divergence': '', 'CVaR (ES)': '[1]'}

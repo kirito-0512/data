@@ -1,0 +1,266 @@
+32498,
+Volume,
+Volume is a measure of three-dimensional space.[1] It is often quantified numerically using SI derived units (such as the cubic metre and litre) or by various imperial or US customary units (such as the gallon, quart, cubic inch). The definition of length (cubed) is interrelated with volume. The volume of a container is generally understood to be the capacity of the container; i.e., the amount of fluid (gas or liquid) that the container could hold, rather than the amount of space the container itself displaces.
+In ancient times, volume is measured using similar-shaped natural containers and later on, standardized containers. Some simple three-dimensional shapes can have their volume easily calculated using arithmetic formulas. Volumes of more complicated shapes can be calculated with integral calculus if a formula exists for the shape's boundary. Zero-, one- and two-dimensional objects have no volume; in fourth and higher dimensions, an analogous concept to the normal volume is the hypervolume.
+The precision of volume measurements in the ancient period usually ranges between 10–50 mL (0.3–2 US fl oz; 0.4–2 imp fl oz).[2]: 8  The earliest evidence of volume calculation came from ancient Egypt and Mesopotamia as mathematical problems, approximating volume of simple shapes such as cuboids, cylinders, frustum and cones. These math problems have been written in the Moscow Mathematical Papyrus (c. 1820 BCE).[3]: 403  In the Reisner Papyrus, ancient Egyptians have written concrete units of volume for grain and liquids, as well as a table of length, width, depth, and volume for blocks of material.[2]: 116  The Egyptians use their units of length (the cubit, palm, digit) to devise their units of volume, such as the volume cubit[2]: 117  or deny[3]: 396  (1 cubit × 1 cubit × 1 cubit), volume palm (1 cubit × 1 cubit × 1 palm), and volume digit (1 cubit × 1 cubit × 1 digit).[2]: 117 
+The last three books of Euclid's Elements, written in around 300 BCE, detailed the exact formulas for calculating the volume of parallelepipeds, cones, pyramids, cylinders, and spheres. The formula were determined by prior mathematicians by using a primitive form of integration, by breaking the shapes into smaller and simpler pieces.[3]: 403  A century later, Archimedes (c. 287 – 212 BCE) devised approximate volume formula of several shapes used the method of exhaustion approach, meaning to derive solutions from previous known formulas from similar shapes. Primitive integration of shapes was also discovered independently by Liu Hui in the 3rd century CE, Zu Chongzhi in the 5th century CE, the Middle East and India.[3]: 404 
+Archimedes also devised a way to calculate the volume of an irregular object, by submerging it underwater and measure the difference between the initial and final water volume. The water volume difference is the volume of the object.[3]: 404  Though highly popularized, Archimedes probably does not submerge the golden crown to find its volume, and thus its density and purity, due to the extreme precision involved.[4] Instead, he likely have devised a primitive form of a hydrostatic balance. Here, the crown and a chunk of pure gold with a similar weight are put on both ends of a weighing scale submerged underwater, which will tip accordingly due to the Archimedes' principle.[5]
+In the Middle Ages, many units for measuring volume were made, such as the sester, amber, coomb, and seam. The sheer quantity of such units motivated British kings to standardize them, culminated in the Assize of Bread and Ale statute in 1258 by Henry III of England. The statute standardized weight, length and volume as well as introduced the peny, ounce, pound, gallon and bushel.[2]: 73–74  In 1618, the London Pharmacopoeia (medicine compound catalog) adopted the Roman gallon[6] or congius[7] as a basic unit of volume and gave a conversion table to the apothecaries' units of weight.[6] Around this time, volume measurements are becoming more precise and the uncertainty is narrowed to between 1–5 mL (0.03–0.2 US fl oz; 0.04–0.2 imp fl oz).[2]: 8 
+Around the early 17th century, Bonaventura Cavalieri applied the philosophy of modern integral calculus to calculate the volume of any object. He devised the Cavalieri's principle, which said that using thinner and thinner slices of the shape would make the resulting volume more and more accurate. This idea would then be later expanded by Pierre de Fermat, John Wallis, Isaac Barrow, James Gregory, Isaac Newton, Gottfried Wilhelm Leibniz and Maria Gaetana Agnesi in the 17th and 18th centuries to form the modern integral calculus that is still being used in the 21st century.[3]: 404 
+On 7 April 1795, the metric system was formally defined in French law using six units. Three of these are related to volume: the stère (1 m3) for volume of firewood; the litre (1 dm3) for volumes of liquid; and the gramme, for mass—defined as the mass of one cubic centimetre of water at maximum density, at about 4 °C (39 °F).[citation needed] Thirty years later in 1824, the imperial gallon was defined to be the volume occupied by ten pounds of water at 17 °C (62 °F).[3]: 394  This definition was further refined until the United Kingdom's Weights and Measures Act 1985, which makes 1 imperial gallon precisely equal to 4.54609 litres with no use of water.[8]
+The 1960 redefinition of the metre from the International Prototype Metre to the orange-red emission line of krypton-86 atoms unbounded the metre, cubic metre, and litre from physical objects. This also make the metre and metre-derived units of volume resilient to changes to the International Prototype Metre.[9] The definition of the metre was redefined again in 1983 to use the speed of light and second (which is derived from the caesium standard) and reworded for clarity in 2019.[10]
+As a measure of the Euclidean three-dimensional space, volume cannot be physically measured as a negative value, similar to length and area. Like all continuous monotonic (order-preserving) measures, volumes of bodies can be compared against each other and thus can be ordered. Volume can also be added together and be decomposed indefinitely; the latter property is integral in the Cavalieri's principle and in infinitesimal calculus of three-dimensional body as a whole.[11] A 'unit' of infinitesimally small volume in integral calculus is the volume element; this formulation is useful when working with different coordinate systems, spaces and manifolds. 
+Volume in general is a Jordan content, so the volume would satisfy these axioms:[citation needed]
+The oldest way to roughly measure a volume of an object is using the human body, such as using hand size and pinches. However, the human body's variations make it extremely unreliable. A better way to measure volume is to use roughly consistent and durable containers found in nature, such as gourds, sheep or pig stomachs, and bladders. Later on, as metallurgy and glass production improved, small volumes nowadays are usually measured using standardized human-made containers.[3]: 393  This method is common for measuring small volume of fluids or granular materials, by using a multiple or fraction of the container. For granular materials, the container is shaken or leveled off to form a roughly flat surface. This method is not the most accurate way to measure volume but is often used to measure cooking ingredients.[3]: 399 
+Air displacement pipette is used in biology and biochemistry to measure volume of fluids at the microscopic scale.[12] Calibrated measuring cups and spoons are adequate for cooking and daily life applications, however, they are not precise enough for laboratories. There, volume of liquids is measured using graduated cylinders, pipettes and volumetric flasks. The largest of such calibrated containers are petroleum storage tanks, some can hold up to 1,000,000 bbl (160,000,000 L) of fluids.[3]: 399  Even at this scale, by knowing petroleum's density and temperature, very precise volume measurement in these tanks can still be made.[3]: 403 
+For even larger volumes such as in a reservoir, the container's volume is modeled by shapes and calculated using mathematics.[3]: 403  The task of numerically computing the volume of objects is studied in the field of computational geometry in computer science, investigating efficient algorithms to perform this computation, approximately or exactly, for various types of objects. For instance, the convex volume approximation technique shows how to approximate the volume of any convex body using a membership oracle.[citation needed]
+To ease calculations, a unit of volume is equal to the volume occupied by a unit cube (with a side length of one). Because the volume occupies three dimensions, if the metre (m) is chosen as a unit of length, the corresponding unit of volume is the cubic metre (m3). The cubic metre is also a SI derived unit.[13] Therefore, volume has an unit dimension of L3.[14]
+The metric units of volume uses metric prefixes, strictly in powers of ten. When applying prefixes to units of volume, which are expressed in units of length cubed, the cube operators are applied to the unit of length including the prefix. An example of converting cubic centimetre to cubic metre is: 2.3 cm3 = 2.3 (cm)3 = 2.3 (0.01 m)3 = 0.0000023 m3 (five zeros).[15]: 143 
+Commonly used prefixes for cubed length units are the cubic millimetre (mm3), cubic centimetre (cm3), cubic decimetre (dm3), cubic metre (m3) and the cubic kilometre (km3). The conversion between the prefix units are as follows: 1000 mm3 = 1 cm3, 1000 cm3 = 1 dm3, and 1000 dm3 = 1 m3.[1] The metric system also includes the litre (L) as a unit of volume, where 1 L = 1 dm3 = 1000 cm3 = 0.001 m3.[15]: 145  For the litre unit, the commonly used prefixes are the millilitre (mL), centilitre (cL), and the litre (L), with 1000 mL = 1 L, 10 mL = 1 cL, 10 cL = 1 dL, and 10 dL = 1 L.[1]
+Litres are most commonly used for items (such as fluids and solids that can be poured) which are measured by the capacity or size of their container, whereas cubic metres (and derived units) are most commonly used for items measured either by their dimensions or their displacements.[citation needed]
+Various other imperial or U.S. customary units of volume are also in use, including:[3]: 396–398 
+Capacity is the maximum amount of material that a container can hold, measured in volume or weight. However, the contained volume does not need to fill towards the container's capacity, or vice versa. Containers can only hold a specific amount of physical volume, not weight (excluding practical concerns). For example, a 50,000 bbl (7,900,000 L) tank that can just hold 7,200 t (15,900,000 lb) of fuel oil will not be able to contain the same 7,200 t (15,900,000 lb) of naphtha, due to naphtha's lower density and thus larger volume.[3]: 390–391 
+For many shapes such as the cube, cuboid and cylinder, they have an essentially the same volume calculation formula as one for the prism: the base of the shape multiplied by its height.
+The calculation of volume is a vital part of integral calculus. One of which is calculating the volume of solids of revolution, by rotating a plane curve around a line on the same plane. The washer or disc integration method is used when integrating by an axis parallel to the axis of rotation. The general equation can be written as:
+
+
+
+V
+=
+π
+
+∫
+
+a
+
+
+b
+
+
+
+|
+
+f
+(
+x
+
+)
+
+2
+
+
+−
+g
+(
+x
+
+)
+
+2
+
+
+
+|
+
+
+d
+x
+
+
+{\displaystyle V=\pi \int _{a}^{b}\left|f(x)^{2}-g(x)^{2}\right|\,dx}
+
+where 
+
+
+
+f
+(
+x
+)
+
+
+{\textstyle f(x)}
+
+ and 
+
+
+
+g
+(
+x
+)
+
+
+{\textstyle g(x)}
+
+ are the plane curve boundaries.[16]: 1, 3  The shell integration method is used when integrating by an axis perpendicular to the axis of rotation. The equation can be written as:[16]: 6 
+
+
+
+V
+=
+2
+π
+
+∫
+
+a
+
+
+b
+
+
+x
+
+|
+
+f
+(
+x
+)
+−
+g
+(
+x
+)
+
+|
+
+
+d
+x
+
+
+{\displaystyle V=2\pi \int _{a}^{b}x|f(x)-g(x)|\,dx}
+
+ The volume of a region D in three-dimensional space is given by the triple or volume integral of the constant function 
+
+
+
+f
+(
+x
+,
+y
+,
+z
+)
+=
+1
+
+
+{\displaystyle f(x,y,z)=1}
+
+ over the region. It is usually written as:[17]: Section 14.4 
+
+
+
+
+
+∭
+
+D
+
+
+1
+
+d
+x
+
+d
+y
+
+d
+z
+.
+
+
+{\displaystyle \iiint _{D}1\,dx\,dy\,dz.}
+
+
+In cylindrical coordinates, the volume integral is
+
+
+
+
+
+∭
+
+D
+
+
+r
+
+d
+r
+
+d
+θ
+
+d
+z
+,
+
+
+{\displaystyle \iiint _{D}r\,dr\,d\theta \,dz,}
+
+
+In spherical coordinates (using the convention for angles with 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ as the azimuth and 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ measured from the polar axis; see more on conventions), the volume integral is
+
+
+
+
+
+∭
+
+D
+
+
+
+ρ
+
+2
+
+
+sin
+⁡
+φ
+
+d
+ρ
+
+d
+θ
+
+d
+φ
+.
+
+
+{\displaystyle \iiint _{D}\rho ^{2}\sin \varphi \,d\rho \,d\theta \,d\varphi .}
+
+
+A polygon mesh is a representation of the object's surface, using polygons. The volume mesh explicitly define its volume and surface properties.
+
+
+
+Information box
+{'Common symbols': 'V', 'SI unit': 'cubic metre', 'Other units': 'Litre, fluid ounce, gallon, quart, pint, tsp, fluid dram, in3, yd3, barrel', 'In SI base units': 'm3', 'Extensive?': 'yes', 'Intensive?': 'no', 'Conserved?': 'yes for solids and liquids, no for gases, and plasma[a]', 'Behaviour under\ncoord transformation': 'conserved', 'Dimension': 'L3'}

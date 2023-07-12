@@ -1,0 +1,599 @@
+7724,
+Contraposition,
+In logic and mathematics, contraposition refers to the inference of going from a conditional statement into its logically equivalent contrapositive, and an associated proof method known as proof by contraposition. The contrapositive of a statement has its antecedent and consequent inverted and flipped.
+Conditional statement 
+P
+→
+Q
+{\displaystyle P\rightarrow Q}
+. In formulas: the contrapositive of 
+P
+→
+Q
+{\displaystyle P\rightarrow Q}
+ is 
+¬
+Q
+→
+¬
+P
+{\displaystyle \neg Q\rightarrow \neg P}
+.[1]
+If P, Then Q. — If not Q, Then not P. "If it is raining, then I wear my coat"  — "If I don't wear my coat, then it isn't raining."
+The law of contraposition says that a conditional statement is true if, and only if, its contrapositive is true.[2]
+The contrapositive (
+¬
+Q
+→
+¬
+P
+{\displaystyle \neg Q\rightarrow \neg P}
+) can be compared with three other statements:
+Note that if 
+P
+→
+Q
+{\displaystyle P\rightarrow Q}
+ is true and one is given that 
+Q
+{\displaystyle Q}
+ is false (i.e., 
+¬
+Q
+{\displaystyle \neg Q}
+), then it can logically be concluded that 
+P
+{\displaystyle P}
+ must be also false (i.e., 
+¬
+P
+{\displaystyle \neg P}
+). This is often called the law of contrapositive, or the modus tollens rule of inference.[3]
+In the Euler diagram shown, if something is in A, it must be in B as well. So we can interpret "all of A is in B" as:
+It is also clear that anything that is not within B (the blue region) cannot be within A, either. This statement, which can be expressed as:
+is the contrapositive of the above statement. Therefore, one can say that
+In practice, this equivalence can be used to make proving a statement easier. For example, if one wishes to prove that every girl in the United States (A) has brown hair (B), one can either try to directly prove 
+A
+→
+B
+{\displaystyle A\to B}
+ by checking that all girls in the United States do indeed have brown hair, or try to prove 
+¬
+B
+→
+¬
+A
+{\displaystyle \neg B\to \neg A}
+ by checking that all girls without brown hair are indeed all outside the US. In particular, if one were to find at least one girl without brown hair within the US, then one would have disproved 
+¬
+B
+→
+¬
+A
+{\displaystyle \neg B\to \neg A}
+, and equivalently 
+A
+→
+B
+{\displaystyle A\to B}
+.
+In general, for any statement where A implies B, not B always implies not A. As a result, proving or disproving either one of these statements automatically proves or disproves the other, as they are logically equivalent to each other.
+A proposition Q is implicated by a proposition P when the following relationship holds:
+This states that, "if 
+P
+{\displaystyle P}
+, then 
+Q
+{\displaystyle Q}
+", or, "if Socrates is a man, then Socrates is human." In a conditional such as this, 
+P
+{\displaystyle P}
+ is the antecedent, and 
+Q
+{\displaystyle Q}
+ is the consequent. One statement is the contrapositive of the other only when its antecedent is the negated consequent of the other, and vice versa. Thus a contrapositive generally takes the form of:
+That is, "If not-
+Q
+{\displaystyle Q}
+, then not-
+P
+{\displaystyle P}
+", or, more clearly, "If 
+Q
+{\displaystyle Q}
+ is not the case, then P is not the case." Using our example, this is rendered as "If Socrates is not human, then Socrates is not a man." This statement is said to be contraposed to the original and is logically equivalent to it. Due to their logical equivalence, stating one effectively states the other; when one is true, the other is also true, and when one is false, the other is also false.
+Strictly speaking, a contraposition can only exist in two simple conditionals. However, a contraposition may also exist in two complex, universal conditionals, if they are similar. Thus, 
+∀
+x
+(
+P
+x
+→
+Q
+x
+)
+{\displaystyle \forall {x}(P{x}\to Q{x})}
+, or "All 
+P
+{\displaystyle P}
+s are 
+Q
+{\displaystyle Q}
+s," is contraposed to 
+∀
+x
+(
+¬
+Q
+x
+→
+¬
+P
+x
+)
+{\displaystyle \forall {x}(\neg Q{x}\to \neg P{x})}
+, or "All non-
+Q
+{\displaystyle Q}
+s are non-
+P
+{\displaystyle P}
+s."[4]
+In first-order logic, the conditional is defined as:
+which can be made equivalent to its contrapositive, as follows:
+Let:
+It is given that, if A is true, then B is true, and it is also given that B is not true. We can then show that A must not be true by contradiction. For if A were true, then B would have to also be true (by Modus Ponens). However, it is given that B is not true, so we have a contradiction. Therefore, A is not true (assuming that we are dealing with bivalent statements that are either true or false):
+We can apply the same process the other way round, starting with the assumptions that:
+Here, we also know that B is either true or not true. If B is not true, then A is also not true. However, it is given that A is true, so the assumption that B is not true leads to a contradiction, which means that it is not the case that B is not true. Therefore, B must be true:
+Combining the two proved statements together, we obtain the sought-after logical equivalence between a conditional and its contrapositive:
+Logical equivalence between two propositions means that they are true together or false together. To prove that contrapositives are logically equivalent, we need to understand when material implication is true or false.
+This is only false when 
+P
+{\displaystyle P}
+ is true and 
+Q
+{\displaystyle Q}
+ is false. Therefore, we can reduce this proposition to the statement "False when 
+P
+{\displaystyle P}
+ and not-
+Q
+{\displaystyle Q}
+" (i.e. "True when it is not the case that 
+P
+{\displaystyle P}
+ and not-
+Q
+{\displaystyle Q}
+"):
+The elements of a conjunction can be reversed with no effect (by commutativity):
+We define 
+R
+{\displaystyle R}
+ as equal to "
+¬
+Q
+{\displaystyle \neg Q}
+", and 
+S
+{\displaystyle S}
+ as equal to 
+¬
+P
+{\displaystyle \neg P}
+ (from this, 
+¬
+S
+{\displaystyle \neg S}
+ is equal to 
+¬
+¬
+P
+{\displaystyle \neg \neg P}
+, which is equal to just 
+P
+{\displaystyle P}
+):
+This reads "It is not the case that (R is true and S is false)", which is the definition of a material conditional. We can then make this substitution:
+By reverting R and S back into 
+P
+{\displaystyle P}
+ and 
+Q
+{\displaystyle Q}
+, we then obtain the desired contrapositive:
+Take the statement "All red objects have color." This can be equivalently expressed as "If an object is red, then it has color."
+In other words, the contrapositive is logically equivalent to a given conditional statement, though not sufficient for a biconditional.
+Similarly, take the statement "All quadrilaterals have four sides," or equivalently expressed "If a polygon is a quadrilateral, then it has four sides."
+Since the statement and the converse are both true, it is called a biconditional, and can be expressed as "A polygon is a quadrilateral if, and only if, it has four sides." (The phrase if and only if is sometimes abbreviated as iff.) That is, having four sides is both necessary to be a quadrilateral, and alone sufficient to deem it a quadrilateral.
+Because the contrapositive of a statement always has the same truth value (truth or falsity) as the statement itself, it can be a powerful tool for proving mathematical theorems (especially if the truth of the contrapositive is easier to establish than the truth of the statement itself). A proof by contraposition (contrapositive) is a direct proof of the contrapositive of a statement.[5] However, indirect methods such as proof by contradiction can also be used with contraposition, as, for example, in the proof of the irrationality of the square root of 2. By the definition of a rational number, the statement can be made that "If 
+2
+{\displaystyle {\sqrt {2}}}
+ is rational, then it can be expressed as an irreducible fraction". This statement is true because it is a restatement of a definition. The contrapositive of this statement is "If 
+2
+{\displaystyle {\sqrt {2}}}
+ cannot be expressed as an irreducible fraction, then it is not rational". This contrapositive, like the original statement, is also true. Therefore, if it can be proven that 
+2
+{\displaystyle {\sqrt {2}}}
+ cannot be expressed as an irreducible fraction, then it must be the case that 
+2
+{\displaystyle {\sqrt {2}}}
+ is not a rational number. The latter can be proved by contradiction.
+The previous example employed the contrapositive of a definition to prove a theorem. One can also prove a theorem by proving the contrapositive of the theorem's statement. To prove that if a positive integer N is a non-square number, its square root is irrational, we can equivalently prove its contrapositive, that if a positive integer N has a square root that is rational, then N is a square number. This can be shown by setting √N equal to the rational expression a/b with a and b being positive integers with no common prime factor, and squaring to obtain N = a2/b2 and noting that since N is a positive integer b=1 so that N = a2, a square number.
+In intuitionistic logic, the statement 
+P
+→
+Q
+{\displaystyle P\to Q}
+ cannot be proven to be equivalent to 
+¬
+Q
+→
+¬
+P
+{\displaystyle \lnot Q\to \lnot P}
+. We can prove that 
+P
+→
+Q
+{\displaystyle P\to Q}
+ implies 
+¬
+Q
+→
+¬
+P
+{\displaystyle \lnot Q\to \lnot P}
+, but the reverse implication, from 
+¬
+Q
+→
+¬
+P
+{\displaystyle \lnot Q\to \lnot P}
+ to 
+P
+→
+Q
+{\displaystyle P\to Q}
+, requires the law of the excluded middle or an equivalent axiom.
+Contraposition represents an instance of Bayes' theorem which in a specific form can be expressed as:
+Pr
+(
+¬
+P
+∣
+¬
+Q
+)
+=
+Pr
+(
+¬
+Q
+∣
+¬
+P
+)
+a
+(
+¬
+P
+)
+Pr
+(
+¬
+Q
+∣
+¬
+P
+)
+a
+(
+¬
+P
+)
++
+Pr
+(
+¬
+Q
+∣
+P
+)
+a
+(
+P
+)
+{\displaystyle \Pr(\lnot P\mid \lnot Q)={\frac {\Pr(\lnot Q\mid \lnot P)\,a(\lnot P)}{\Pr(\lnot Q\mid \lnot P)\,a(\lnot P)+\Pr(\lnot Q\mid P)\,a(P)}}}
+.
+In the equation above the conditional probability 
+Pr
+(
+¬
+Q
+∣
+P
+)
+{\displaystyle \Pr(\lnot Q\mid P)}
+ generalizes the logical statement 
+P
+→
+¬
+Q
+{\displaystyle P\to \lnot Q}
+, i.e. in addition to assigning TRUE or FALSE we can also assign any probability to the statement. The term 
+a
+(
+P
+)
+{\displaystyle a(P)}
+ denotes the base rate (aka. the prior probability) of 
+P
+{\displaystyle P}
+. Assume that 
+Pr
+(
+¬
+Q
+∣
+P
+)
+=
+1
+{\displaystyle \Pr(\lnot Q\mid P)=1}
+ is equivalent to 
+P
+→
+¬
+Q
+{\displaystyle P\to \lnot Q}
+ being TRUE, and that 
+Pr
+(
+¬
+Q
+∣
+P
+)
+=
+0
+{\displaystyle \Pr(\lnot Q\mid P)=0}
+ is equivalent to 
+P
+→
+¬
+Q
+{\displaystyle P\to \lnot Q}
+ being FALSE.  It is then easy to see that 
+Pr
+(
+¬
+P
+∣
+¬
+Q
+)
+=
+1
+{\displaystyle \Pr(\lnot P\mid \lnot Q)=1}
+ when 
+Pr
+(
+Q
+∣
+P
+)
+=
+1
+{\displaystyle \Pr(Q\mid P)=1}
+ i.e. when 
+P
+→
+Q
+{\displaystyle P\to Q}
+ is TRUE. This is because 
+Pr
+(
+¬
+Q
+∣
+P
+)
+=
+1
+−
+Pr
+(
+Q
+∣
+P
+)
+=
+0
+{\displaystyle \Pr(\lnot Q\mid P)=1-\Pr(Q\mid P)=0}
+ so that the fraction on the right-hand side of the equation above is equal to 1, and hence 
+Pr
+(
+¬
+P
+∣
+¬
+Q
+)
+=
+1
+{\displaystyle \Pr(\lnot P\mid \lnot Q)=1}
+ which is equivalent to  
+¬
+Q
+→
+¬
+P
+{\displaystyle \lnot Q\to \lnot P}
+ being TRUE. Hence, Bayes' theorem represents a generalization of contraposition.[6]
+Contraposition represents an instance of the subjective Bayes' theorem in subjective logic expressed as:
+(
+ω
+P
+|
+~
+Q
+A
+,
+ω
+P
+|
+~
+¬
+Q
+A
+)
+=
+(
+ω
+Q
+|
+P
+A
+,
+ω
+Q
+|
+¬
+P
+A
+)
+ϕ
+~
+a
+P
+{\displaystyle (\omega _{P{\tilde {|}}Q}^{A},\omega _{P{\tilde {|}}\lnot Q}^{A})=(\omega _{Q|P}^{A},\omega _{Q|\lnot P}^{A})\,{\widetilde {\phi \,}}\,a_{P}\,}
+,
+where 
+(
+ω
+Q
+|
+P
+A
+,
+ω
+Q
+|
+¬
+P
+A
+)
+{\displaystyle (\omega _{Q|P}^{A},\omega _{Q|\lnot P}^{A})}
+ denotes a pair of binomial conditional opinions given by source 
+A
+{\displaystyle A}
+. The parameter 
+a
+P
+{\displaystyle a_{P}}
+ denotes the base rate (aka. the prior probability) of 
+P
+{\displaystyle P}
+. The pair of derivative inverted conditional opinions is denoted 
+(
+ω
+P
+|
+~
+Q
+A
+,
+ω
+P
+|
+~
+¬
+Q
+A
+)
+{\displaystyle (\omega _{P{\tilde {|}}Q}^{A},\omega _{P{\tilde {|}}\lnot Q}^{A})}
+. The conditional opinion 
+ω
+Q
+|
+P
+A
+{\displaystyle \omega _{Q|P}^{A}}
+ generalizes the logical statement 
+P
+→
+Q
+{\displaystyle P\to Q}
+, i.e. in addition to assigning TRUE or FALSE the source 
+A
+{\displaystyle A}
+ can assign any subjective opinion to the statement. The case where 
+ω
+Q
+∣
+P
+A
+{\displaystyle \omega _{Q\mid P}^{A}}
+ is an absolute TRUE opinion is equivalent to source 
+A
+{\displaystyle A}
+ saying that 
+P
+→
+Q
+{\displaystyle P\to Q}
+ is TRUE, and the case where 
+ω
+Q
+∣
+P
+A
+{\displaystyle \omega _{Q\mid P}^{A}}
+ is an absolute FALSE opinion is equivalent to source 
+A
+{\displaystyle A}
+ saying that 
+P
+→
+Q
+{\displaystyle P\to Q}
+ is FALSE.  In the case when the conditional opinion 
+ω
+Q
+|
+P
+A
+{\displaystyle \omega _{Q|P}^{A}}
+ is absolute TRUE the subjective Bayes' theorem operator 
+ϕ
+~
+{\displaystyle {\widetilde {\phi \,}}}
+ of subjective logic produces an absolute FALSE derivative conditional opinion 
+ω
+P
+|
+~
+¬
+Q
+A
+{\displaystyle \omega _{P{\widetilde {|}}\lnot Q}^{A}}
+ and thereby an absolute TRUE derivative conditional opinion 
+ω
+¬
+P
+|
+~
+¬
+Q
+A
+{\displaystyle \omega _{\lnot P{\widetilde {|}}\lnot Q}^{A}}
+ which is equivalent to 
+¬
+Q
+→
+¬
+P
+{\displaystyle \lnot Q\to \lnot P}
+ being TRUE. Hence, the subjective Bayes' theorem represents a generalization of both contraposition and Bayes' theorem.[7]

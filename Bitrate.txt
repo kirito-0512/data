@@ -1,0 +1,73 @@
+40800,
+Bitrate,
+In telecommunications and computing, bit rate (bitrate or as a variable R) is the number of bits that are conveyed or processed per unit of time.[1]
+The bit rate is expressed in the unit bit per second (symbol: bit/s), often in conjunction with an SI prefix such as kilo (1 kbit/s = 1,000 bit/s), mega (1 Mbit/s = 1,000 kbit/s), giga (1 Gbit/s = 1,000 Mbit/s) or tera (1 Tbit/s = 1,000 Gbit/s).[2] The non-standard abbreviation bps is often used to replace the standard symbol bit/s, so that, for example, 1 Mbps is used to mean one million bits per second.
+In most computing and digital communication environments, one byte per second (symbol: B/s) corresponds to 8 bit/s.
+When quantifying large or small bit rates, SI prefixes (also known as metric prefixes or decimal prefixes) are used, thus:[3]
+Binary prefixes are sometimes used for bit rates.[4][5]
+The International Standard (IEC 80000-13) specifies different abbreviations for binary and decimal (SI) prefixes (e.g., 1 KiB/s = 1024 B/s = 8192 bit/s, and 1 MiB/s = 1024 KiB/s).
+In digital communication systems, the physical layer gross bitrate,[6] raw bitrate,[7] data signaling rate,[8] gross data transfer rate[9] or uncoded transmission rate[7] (sometimes written as a variable Rb[6][7] or fb[10]) is the total number of physically transferred bits per second over a communication link, including useful data as well as protocol overhead.
+In case of serial communications, the gross bit rate is related to the bit transmission time 
+T
+b
+{\displaystyle T_{b}}
+as:
+The gross bit rate is related to the symbol rate or modulation rate, which is expressed in bauds or symbols per second. However, the gross bit rate and the baud value are equal only when there are only two levels per symbol, representing 0 and 1, meaning that each symbol of a data transmission system carries exactly one bit of data; for example, this is not the case for modern modulation systems used in modems and LAN equipment.[11]
+For most line codes and modulation methods:
+More specifically, a line code (or baseband transmission scheme) representing the data using pulse-amplitude modulation with 
+2
+N
+{\displaystyle 2^{N}}
+ different voltage levels, can transfer 
+N
+{\displaystyle N}
+ bits per pulse. A digital modulation method (or passband transmission scheme) using 
+2
+N
+{\displaystyle 2^{N}}
+ different symbols, for example 
+2
+N
+{\displaystyle 2^{N}}
+ amplitudes, phases or frequencies, can transfer 
+N
+{\displaystyle N}
+ bits per symbol. This results in:
+An exception from the above is some self-synchronizing line codes, for example Manchester coding and return-to-zero (RTZ) coding, where each bit is represented by two pulses (signal states), resulting in:
+A theoretical upper bound for the symbol rate in baud, symbols/s or pulses/s for a certain spectral bandwidth in hertz is given by the Nyquist law:
+In practice this upper bound can only be approached for line coding schemes and for so-called vestigial sideband digital modulation. Most other digital carrier-modulated schemes, for example ASK, PSK, QAM and OFDM, can be characterized as double sideband modulation, resulting in the following relation:
+In case of parallel communication, the gross bit rate is given by
+where n is the number of parallel channels, Mi is the number of symbols or levels of the modulation in the i-th channel, and Ti is the symbol duration time, expressed in seconds, for the i-th channel.
+The physical layer net bitrate,[12] information rate,[6] useful bit rate,[13] payload rate,[14] net data transfer rate,[9] coded transmission rate,[7] effective data rate[7] or wire speed (informal language) of a digital communication channel is the capacity excluding the physical layer protocol overhead, for example time division multiplex (TDM) framing bits, redundant forward error correction (FEC) codes, equalizer training symbols and other channel coding. Error-correcting codes are common especially in wireless communication systems, broadband modem standards and modern copper-based high-speed LANs. The physical layer net bitrate is the datarate measured at a reference point in the interface between the data link layer and physical layer, and may consequently include data link and higher layer overhead.
+In modems and wireless systems, link adaptation (automatic adaptation of the data rate and the modulation and/or error coding scheme to the signal quality) is often applied. In that context, the term peak bitrate denotes the net bitrate of the fastest and least robust transmission mode, used for example when the distance is very short between sender and transmitter.[15] Some operating systems and network equipment may detect the "connection speed"[16] (informal language) of a network access technology or communication device, implying the current net bit rate. Note that the term line rate in some textbooks is defined as gross bit rate,[14] in others as net bit rate.
+The relationship between the gross bit rate and net bit rate is affected by the FEC code rate according to the following.
+The connection speed of a technology that involves forward error correction typically refers to the physical layer net bit rate in accordance with the above definition.
+For example, the net bitrate (and thus the "connection speed") of an IEEE 802.11a wireless network is the net bit rate of between 6 and 54 Mbit/s, while the gross bit rate is between 12 and 72 Mbit/s inclusive of error-correcting codes.
+The net bit rate of ISDN2 Basic Rate Interface (2 B-channels + 1 D-channel) of 64+64+16 = 144 kbit/s also refers to the payload data rates, while the D channel signalling rate is 16 kbit/s.
+The net bit rate of the Ethernet 100BASE-TX physical layer standard is 100 Mbit/s, while the gross bitrate is 125 Mbit/second, due to the 4B5B (four bit over five bit) encoding. In this case, the gross bit rate is equal to the symbol rate or pulse rate of 125 megabaud, due to the NRZI line code.
+In communications technologies without forward error correction and other physical layer protocol overhead, there is no distinction between gross bit rate and physical layer net bit rate. For example, the net as well as gross bit rate of Ethernet 10BASE-T is 10 Mbit/s. Due to the Manchester line code, each bit is represented by two pulses, resulting in a pulse rate of 20 megabaud.
+The "connection speed" of a V.92 voiceband modem typically refers to the gross bit rate, since there is no additional error-correction code. It can be up to 56,000 bit/s downstreams and 48,000 bit/s upstreams. A lower bit rate may be chosen during the connection establishment phase due to adaptive modulation – slower but more robust modulation schemes are chosen in case of poor signal-to-noise ratio. Due to data compression, the actual data transmission rate or throughput (see below) may be higher.
+The channel capacity, also known as the Shannon capacity, is a theoretical upper bound for the maximum net bitrate, exclusive of forward error correction coding, that is possible without bit errors for a certain physical analog node-to-node communication link.
+The channel capacity is proportional to the analog bandwidth in hertz. This proportionality is called Hartley's law. Consequently, the net bit rate is sometimes called digital bandwidth capacity in bit/s.
+The term throughput, essentially the same thing as digital bandwidth consumption, denotes the achieved average useful bit rate in a computer network over a logical or physical communication link or through a network node, typically measured at a reference point above the data link layer. This implies that the throughput often excludes data link layer protocol overhead. The throughput is affected by the traffic load from the data source in question, as well as from other sources sharing the same network resources. See also measuring network throughput.
+Goodput or data transfer rate refers to the achieved average net bit rate that is delivered to the application layer, exclusive of all protocol overhead, data packets retransmissions, etc. For example, in the case of file transfer, the goodput corresponds to the achieved file transfer rate. The file transfer rate in bit/s can be calculated as the file size (in bytes) divided by the file transfer time (in seconds) and multiplied by eight.
+As an example, the goodput or data transfer rate of a V.92 voiceband modem is affected by the modem physical layer and data link layer protocols. It is sometimes higher than the physical layer data rate due to V.44 data compression, and sometimes lower due to bit-errors and automatic repeat request retransmissions.
+If no data compression is provided by the network equipment or protocols, we have the following relation:
+for a certain communication path.
+These are examples of physical layer net bit rates in proposed communication standard interfaces and devices:
+In digital multimedia, bitrate represents the amount of information, or detail, that is stored per unit of time of a recording. The bitrate depends on several factors:
+Generally, choices are made about the above factors in order to achieve the desired trade-off between minimizing the bitrate and maximizing the quality of the material when it is played.
+If lossy data compression is used on audio or visual data, differences from the original signal will be introduced; if the compression is substantial, or lossy data is decompressed and recompressed, this may become noticeable in the form of compression artifacts. Whether these affect the perceived quality, and if so how much, depends on the compression scheme, encoder power, the characteristics of the input data, the listener's perceptions, the listener's familiarity with artifacts, and the listening or viewing environment.
+The bitrates in this section are approximately the minimum that the average listener in a typical listening or viewing environment, when using the best available compression, would perceive as not significantly worse than the reference standard:
+In digital multimedia, bit rate refers to the number of bits used per second to represent a continuous medium such as audio or video after source coding (data compression). The encoding bit rate of a multimedia file is its size in bytes divided by the playback time of the recording (in seconds), multiplied by eight.
+For realtime streaming multimedia, the encoding bit rate is the goodput that is required to avoid interrupt:
+The term average bitrate is used in case of variable bitrate multimedia source coding schemes. In this context, the peak bit rate is the maximum number of bits required for any short-term block of compressed data.[17]
+A theoretical lower bound for the encoding bit rate for lossless data compression is the source information rate, also known as the entropy rate.
+CD-DA, the standard audio CD, is said to have a data rate of 44.1 kHz/16, meaning that the audio data was sampled 44,100 times per second and with a bit depth of 16. CD-DA is also stereo, using a left and right channel, so the amount of audio data per second is double that of mono, where only a single channel is used.
+The bit rate of PCM audio data can be calculated with the following formula:
+For example, the bit rate of a CD-DA recording (44.1 kHz sampling rate, 16 bits per sample and two channels) can be calculated as follows:
+The cumulative size of a length of PCM audio data (excluding a file header or other metadata) can be calculated using the following formula:
+The cumulative size in bytes can be found by dividing the file size in bits by the number of bits in a byte, which is eight:
+Therefore, 80 minutes (4,800 seconds) of CD-DA data requires 846,720,000 bytes of storage:
+The MP3 audio format provides lossy data compression. Audio quality improves with increasing bitrate:
+For technical reasons (hardware/software protocols, overheads, encoding schemes, etc.) the actual bit rates used by some of the compared-to devices may be significantly higher than what is listed above. For example, telephone circuits using µlaw or A-law companding (pulse code modulation) yield 64 kbit/s.

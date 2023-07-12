@@ -1,0 +1,83 @@
+24128,
+Measuringinstrument,
+A measuring instrument is a device to measure a physical quantity. In the physical sciences, quality assurance, and engineering, measurement is the activity of obtaining and comparing physical quantities of real-world objects and events. Established standard objects and events are used as units, and the process of measurement gives a number relating the item under study and the referenced unit of measurement. Measuring instruments, and formal test methods which define the instrument's use, are the means by which these relations of numbers are obtained. All measuring instruments are subject to varying degrees of instrument error and measurement uncertainty.
+These instruments may range from simple objects such as rulers and stopwatches to electron microscopes and particle accelerators. Virtual instrumentation is widely used in the development of modern measuring instruments.
+In the past, a common time measuring instrument was the sundial. Today, the usual measuring instruments for time are clocks and watches. For highly accurate measurement of time an atomic clock is used.
+Stopwatches are also used to measure time in some sports.
+Energy is measured by an energy meter. Examples of energy meters include:
+An electricity meter measures energy directly in kilowatt-hours.
+A gas meter measures energy indirectly by recording the volume of gas used. This figure can then be converted to a measure of energy by multiplying it by the calorific value of the gas.
+A physical system that exchanges energy may be described by the amount of energy exchanged per time-interval, also called power or flux of energy.
+For the ranges of power-values see: Orders of magnitude (power).
+Action describes energy summed up over the time a process lasts (time integral over energy). Its dimension is the same as that of an angular momentum.
+For the ranges of length-values see: Orders of magnitude (length)
+For the ranges of area-values see: Orders of magnitude (area)
+If the mass density of a solid is known, weighing allows to calculate the volume.
+For the ranges of volume-values see: Orders of magnitude (volume)
+See also the section about navigation below.
+This includes basic quantities found in classical- and continuum mechanics; but strives to exclude temperature-related questions or quantities.
+For the ranges of speed-values see: Orders of magnitude (speed)
+For the ranges of mass-values see: Orders of magnitude (mass)
+For the ranges of pressure-values see: Orders of magnitude (pressure)
+For the value-ranges of angular velocity see: Orders of magnitude (angular velocity)
+For the ranges of frequency see: Orders of magnitude (frequency)
+Considerations related to electric charge dominate electricity and electronics.
+Electrical charges interact via a field. That field is called electric field.If the charge doesn't move. If the charge moves, thus realizing an electric current, especially in an electrically neutral conductor, that field is called magnetic.
+Electricity can be given a quality — a potential. And electricity has a substance-like property, the electric charge.
+Energy (or power) in elementary electrodynamics is calculated by multiplying the potential by the amount of charge (or current) found at that potential: potential times charge (or current). (See Classical electromagnetism and Covariant formulation of classical electromagnetism)
+For the ranges of charge values see: Orders of magnitude (charge)
+See also the relevant section in the article about the magnetic field.
+For the ranges of magnetic field see: Orders of magnitude (magnetic field)
+Temperature-related considerations dominate thermodynamics. There are two distinct thermal properties: A thermal potential — the temperature. For example: A glowing coal has a different thermal quality than a non-glowing one.
+And a substance-like property, — the entropy; for example: One glowing coal won't heat a pot of water, but a hundred will.
+Energy in thermodynamics is calculated by multiplying the thermal potential by the amount of entropy found at that potential:  temperature times entropy.
+Entropy can be created by friction but not annihilated.
+See also Temperature measurement and Category:Thermometers. More technically related may be seen thermal analysis methods in materials science.
+For the ranges of temperature-values see: Orders of magnitude (temperature)
+This includes thermal mass or temperature coefficient of energy, reaction energy, heat flow, ...
+Calorimeters are called passive if gauged to measure emerging energy carried by entropy, for example from chemical reactions. Calorimeters are called active or heated if they heat the sample, or reformulated: if they are gauged to fill the sample with a defined amount of entropy.
+Entropy is accessible indirectly by measurement of energy and temperature.
+Phase change calorimeter's energy value divided by absolute temperature give the entropy exchanged. Phase changes produce no entropy and therefore offer themselves as an entropy measurement concept. Thus entropy values occur indirectly by processing energy measurements at defined temperatures, without producing entropy.
+The given sample is cooled down to (almost) absolute zero (for example by submerging the sample in liquid helium). At absolute zero temperature any sample is assumed to contain no entropy (see Third law of thermodynamics for further information). Then the following two active calorimeter types can be used to fill the sample with entropy until the desired temperature has been reached: (see also Thermodynamic databases for pure substances)
+Processes transferring energy from a non-thermal carrier to heat as a carrier do produce entropy (Example: mechanical/electrical friction, established by Count Rumford).
+Either the produced entropy or heat are measured (calorimetry) or the transferred energy of the non-thermal carrier may be measured.
+Entropy lowering its temperature—without losing energy—produces entropy (Example: Heat conduction in an isolated rod; "thermal friction").
+Concerning a given sample, a proportionality factor relating temperature change and energy carried by heat. If the sample is a gas, then this coefficient depends significantly on being measured at constant volume or at constant pressure. (The terminology preference in the heading indicates that the classical use of heat bars it from having substance-like properties.)
+The temperature coefficient of energy divided by a substance-like quantity (amount of substance, mass, volume) describing the sample. Usually calculated from measurements by a division or could be measured directly using a unit amount of that sample.
+For the ranges of specific heat capacities see: Orders of magnitude (specific heat capacity)
+See also Thermal analysis, Heat.
+This includes mostly instruments which measure macroscopic properties of matter: In the fields of solid-state physics; in condensed matter physics which considers solids, liquids, and in-betweens exhibiting for example viscoelastic behavior. Furthermore, fluid mechanics, where liquids, gases, plasmas, and in-betweens like supercritical fluids are studied.
+This refers to particle density of fluids and compact(ed) solids like crystals, in contrast to bulk density of grainy or porous solids.
+For the ranges of density-values see: Orders of magnitude (density)
+This section and the following sections include instruments from the wide field of Category:Materials science, materials science.
+Such measurements also allow to access values of molecular dipoles.
+For other methods see the section in the article about magnetic susceptibility.
+See also Category:Electric and magnetic fields in matter
+Phase conversions like changes of aggregate state, chemical reactions or nuclear reactions transmuting substances, from reactants into products, or diffusion through membranes have an overall energy balance. Especially at constant pressure and constant temperature, molar energy balances define the notion of a substance potential or chemical potential or molar Gibbs energy, which gives the energetic information about whether the process is possible or not - in a closed system.
+Energy balances that include entropy consist of two parts: A balance that accounts for the changed entropy content of the substances, and another one that accounts for the energy freed or taken by that reaction itself, the Gibbs energy change.  The sum of reaction energy and energy associated to the change of entropy content is also called enthalpy. Often the whole enthalpy is carried by entropy and thus measurable calorimetrically.
+For standard conditions in chemical reactions either molar entropy content and molar Gibbs energy with respect to some chosen zero point are tabulated. Or molar entropy content and molar enthalpy with respect to some chosen zero are tabulated. (See Standard enthalpy change of formation and Standard molar entropy)
+The substance potential of a redox reaction is usually determined electrochemically current-free using reversible cells.
+Other values may be determined indirectly by calorimetry. Also by analyzing phase-diagrams.
+(See also Spectroscopy and List of materials analysis methods.)
+Microphones in general, sometimes their sensitivity is increased by the reflection- and concentration principle realized in acoustic mirrors.
+(for lux meter, see the section about human senses and human body)
+See also Category:Optical devices
+The measure of the total power of light emitted.
+Ionizing radiation includes rays of "particles" as well as rays of "waves". Especially X-rays and gamma rays transfer enough energy in non-thermal, (single-) collision processes to separate electron(s) from an atom.
+This could include chemical substances, rays of any kind, elementary particles, and quasiparticles. Many measurement devices outside this section may be used or at least become part of an identification process.
+For identification and content concerning chemical substances, see also Analytical chemistry, List of chemical analysis methods, and List of materials analysis methods.
+Photometry is the measurement of light in terms of its perceived brightness to the human eye. Photometric quantities derive from analogous radiometric quantities by weighting the contribution of each wavelength by a luminosity function that models the eye's spectral sensitivity. For the ranges of possible values, see the orders of magnitude in:
+illuminance,
+luminance, and
+luminous flux.
+Synthetic Aperture Radar (SAR) instruments measure radar brightness, Radar Cross Section (RCS), which is a function of the reflectivity and moisture of imaged objects at wavelengths which are too long to be perceived by the human eye. Black pixels mean no reflectivity (e.g. water surfaces), white pixels mean high reflectivity (e.g. urban areas). Colored pixels can be obtained by combining three gray-scaled images which usually interpret the polarization of electromagnetic waves. The combination R-G-B = HH-HV-VV combines radar images of waves sent and received horizontally (HH), sent horizontally and received vertically (HV) and sent and received vertically (VV). The calibration of such instruments is done by imaging objects (calibration targets) whose radar brightness is known.
+Blood-related parameters are listed in a blood test.
+See also: Category:Physiological instruments and Category:Medical testing equipment.
+See also Category:Meteorological instrumentation and equipment.
+See also Category:Navigational equipment and Category:Navigation.
+See also Surveying instruments.
+See also Astronomical instruments and Category:Astronomical observatories.
+Some instruments, such as telescopes and sea navigation instruments, have had military applications for many centuries. However, the role of instruments in military affairs rose exponentially with the development of technology via applied science, which began in the mid-19th century and has continued through the present day. Military instruments as a class draw on most of the categories of instrument described throughout this article, such as navigation, astronomy, optics, and imaging, and the kinetics of moving objects. Common abstract themes that unite military instruments are seeing into the distance, seeing in the dark, knowing an object's geographic location, and knowing and controlling a moving object's path and destination. Special features of these instruments may include ease of use, speed, reliability, and accuracy.
+The alternate spelling "-metre" is never used when referring to a measuring device.
+
+

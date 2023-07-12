@@ -1,0 +1,26 @@
+32624,
+Videoeditingsoftware,
+Video editing software, or a video editor is software used performing the post-production video editing of digital video sequences on a non-linear editing system. It has replaced traditional flatbed celluloid film editing tools and analog video tape editing machines.
+Video editing software serves a lot of purposes, such as filmmaking, audio commentary, and general editing of video content.
+In NLE software, the user manipulates sections of video, images, and audio on a sequence. These clips can be trimmed, cut, and manipulated in many different ways. When editing is finished, the user exports the sequence as a video file.
+NLE software is typically based on a timeline interface where sections moving image video recordings, known as clips, are laid out in sequence and played back. The NLE offers a range of tools for trimming, splicing, cutting, and arranging clips across the timeline.
+Another kind of clip is a text clip, used to add text to a video, such as title screens or movie credits.[1] Audio clips can additionally be mixed together, such as mixing a soundtrack with multiple sound effects.
+Typically, the timeline is divided into multiple rows on the y-axis for different clips playing simultaneously, whereas the x-axis represents the run time of the video.[2]
+Effects such as transitions can be performed on each clip, such as a crossfade effect going from one scene to another.
+Since video editors represent a project with a file format specific to the program, one needs to export the video file in order to publish it.
+Once a project is complete, the editor can then export to movies in a variety of formats in a context that may range from broadcast tape formats to compressed video files for web publishing (such as on an online video platform or personal website), optical media, or saved to mobile devices.
+To facilitate editing, source video typically has a higher resolution than the desired output. Therefore, higher resolution video needs to be downscaled during exporting, or after exporting in a process known as transsizing.
+As digital video editing advanced, visual effects became possible, and is part of the standard toolkit, usually found in prosumer and professional grade software.
+A common ability is to do compositing techniques such as chroma keying or luma keying, among others, which allow different objects to look as if they are in the same scene.[3]
+A different kind of visual effects is motion capture. Software such as Blender can perform motion capture to make animated objects follow an actor's movements.
+Most professional video editors are able to do color grading, which is to manipulate visual attributes of a video such as contrast to enhance output, and improve emotional impact.[4]
+Some video editors such as iMovie include stock footage available for use.
+As video editing puts great demands on storage and graphics performance, especially at high resolutions such as 4K, and for videos with many visual effects, powerful hardware is often required.
+It is not uncommon for a computer built for video editing to have a lot of drive capacity, and a powerful graphics processing unit,[5] which optimally has hardware accelerated video encoding.
+Having sufficient disk space is important  since videos can take up large amounts of storage, depending on resolution and compression format used. Each minute of a Full HD (1080p) video at 30 fps takes up 60MB of space.[6]
+When visual effects are used, a server farm can be employed to speed up the rendering process.
+Video editing software can be divided into consumer grade, which focuses on ease-of-use, along with professional grade software, which focuses on feature availability, and advanced editing techniques. The typical use case for the former is to edit personal videos on the go, when more advanced editing is not required.
+While most video editing software has been separate from the operating systems, some operating systems have had a video editor installed by default, such as Windows Movie Maker in Windows XP, or as a component of the default photo viewer, such as the Photos app on iOS.
+Some social media platforms, such as TikTok and Instagram may include a rudimentary video editor to trim clips.
+
+

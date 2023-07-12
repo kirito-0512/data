@@ -1,0 +1,2141 @@
+23582,
+Preorder,
+All definitions tacitly require the homogeneous relation 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ be transitive: for all 
+
+
+
+a
+,
+b
+,
+c
+,
+
+
+{\displaystyle a,b,c,}
+
+ if 
+
+
+
+a
+R
+b
+
+
+{\displaystyle aRb}
+
+ and 
+
+
+
+b
+R
+c
+
+
+{\displaystyle bRc}
+
+ then 
+
+
+
+a
+R
+c
+.
+
+
+{\displaystyle aRc.}
+
+ 
+A term's definition may require additional properties that are not listed in this table.
+In mathematics, especially in order theory, a preorder or quasiorder is a binary relation that is reflexive and transitive. Preorders are more general than equivalence relations and (non-strict) partial orders, both of which are special cases of a preorder: an antisymmetric (or skeletal) preorder is a partial order, and a symmetric preorder is an equivalence relation.
+The name preorder comes from the idea that preorders (that are not partial orders) are 'almost' (partial) orders, but not quite; they are neither necessarily antisymmetric nor asymmetric.  Because a preorder is a binary relation, the symbol 
+
+
+
+
+≤
+
+
+
+{\displaystyle \,\leq \,}
+
+ can be used as the notational device for the relation.  However, because they are not necessarily antisymmetric, some of the ordinary intuition associated to the symbol 
+
+
+
+
+≤
+
+
+
+{\displaystyle \,\leq \,}
+
+ may not apply.  On the other hand, a preorder can be used, in a straightforward fashion, to define a partial order and an equivalence relation.  Doing so, however, is not always useful or worthwhile, depending on the problem domain being studied.
+In words, when 
+
+
+
+a
+≤
+b
+,
+
+
+{\displaystyle a\leq b,}
+
+ one may say that b covers a or that a precedes b, or that b reduces to a.  Occasionally, the notation ← or → or 
+
+
+
+
+≲
+
+
+
+{\displaystyle \,\lesssim \,}
+
+ is used instead of 
+
+
+
+
+≤
+.
+
+
+{\displaystyle \,\leq .}
+
+
+To every preorder, there corresponds a directed graph, with elements of the set corresponding to vertices, and the order relation between pairs of elements corresponding to the directed edges between vertices. The converse is not true: most directed graphs are neither reflexive nor transitive. In general, the corresponding graphs may contain cycles.  A preorder that is antisymmetric no longer has cycles; it is a partial order, and corresponds to a directed acyclic graph.  A preorder that is symmetric is an equivalence relation; it can be thought of as having lost the direction markers on the edges of the graph.  In general, a preorder's corresponding directed graph may have many disconnected components.
+Consider a homogeneous relation 
+
+
+
+
+≤
+
+
+
+{\displaystyle \,\leq \,}
+
+ on some given set 
+
+
+
+P
+,
+
+
+{\displaystyle P,}
+
+ so that by definition, 
+
+
+
+
+≤
+
+
+
+{\displaystyle \,\leq \,}
+
+ is some subset of 
+
+
+
+P
+×
+P
+
+
+{\displaystyle P\times P}
+
+ and the notation 
+
+
+
+a
+≤
+b
+
+
+{\displaystyle a\leq b}
+
+ is used in place of 
+
+
+
+(
+a
+,
+b
+)
+∈
+
+≤
+.
+
+
+{\displaystyle (a,b)\in \,\leq .}
+
+ Then 
+
+
+
+
+≤
+
+
+
+{\displaystyle \,\leq \,}
+
+ is called a preorder or quasiorder if it is reflexive and transitive; that is, if it satisfies:
+A set that is equipped with a preorder is called a preordered set (or proset).[2] 
+For emphasis or contrast to strict preorders, a preorder may also be referred to as a non-strict preorder. 
+
+If reflexivity is replaced with irreflexivity (while keeping transitivity) then the result is called a strict preorder; explicitly, a strict preorder on 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is a homogeneous binary relation 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ on 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ that satisfies the following conditions:
+A binary relation is a strict preorder if and only if it is a strict partial order. By definition, a strict partial order is an asymmetric strict preorder, where 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ is called asymmetric if 
+
+
+
+a
+<
+b
+
+ implies 
+
+
+
+not
+
+
+ 
+b
+<
+a
+
+
+{\displaystyle a<b{\text{ implies }}{\textit {not}}\ b<a}
+
+ for all 
+
+
+
+a
+,
+b
+.
+
+
+{\displaystyle a,b.}
+
+ Conversely, every strict preorder is a strict partial order because every transitive irreflexive relation is necessarily asymmetric. 
+Although they are equivalent, the term "strict partial order" is typically preferred over "strict preorder" and readers are referred to the article on strict partial orders for details about such relations. In contrast to strict preorders, there are many (non-strict) preorders that are not (non-strict) partial orders. 
+If a preorder is also antisymmetric, that is, 
+
+
+
+a
+≤
+b
+
+
+{\displaystyle a\leq b}
+
+ and 
+
+
+
+b
+≤
+a
+
+
+{\displaystyle b\leq a}
+
+ implies 
+
+
+
+a
+=
+b
+,
+
+
+{\displaystyle a=b,}
+
+ then it is a partial order.
+On the other hand, if it is symmetric, that is, if 
+
+
+
+a
+≤
+b
+
+
+{\displaystyle a\leq b}
+
+ implies 
+
+
+
+b
+≤
+a
+,
+
+
+{\displaystyle b\leq a,}
+
+ then it is an equivalence relation.
+A preorder is total if 
+
+
+
+a
+≤
+b
+
+
+{\displaystyle a\leq b}
+
+ or 
+
+
+
+b
+≤
+a
+
+
+{\displaystyle b\leq a}
+
+ for all 
+
+
+
+a
+,
+b
+∈
+P
+.
+
+
+{\displaystyle a,b\in P.}
+
+
+The notion of a preordered set 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ can be formulated in a categorical framework as a thin category; that is, as a category with at most one morphism from an object to another. Here the objects correspond to the elements of 
+
+
+
+P
+,
+
+
+{\displaystyle P,}
+
+ and there is one morphism for objects which are related, zero otherwise. Alternately, a preordered set can be understood as an enriched category, enriched over the category 
+
+
+
+2
+=
+(
+0
+→
+1
+)
+.
+
+
+{\displaystyle 2=(0\to 1).}
+
+
+A preordered class is a class equipped with a preorder. Every set is a class and so every preordered set is a preordered class.
+In computer science, one can find examples of the following preorders.
+Further examples:
+Example of a total preorder:
+Preorders play a pivotal role in several situations:
+Every binary relation 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ on a set 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ can be extended to a preorder on 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ by taking the transitive closure and reflexive closure, 
+
+
+
+
+R
+
++
+=
+
+
+.
+
+
+{\displaystyle R^{+=}.}
+
+  The transitive closure indicates path connection in 
+
+
+
+R
+:
+x
+
+R
+
++
+
+
+y
+
+
+{\displaystyle R:xR^{+}y}
+
+ if and only if there is an 
+
+
+
+R
+
+
+{\displaystyle R}
+
+-path from 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ to 
+
+
+
+y
+.
+
+
+{\displaystyle y.}
+
+
+Left residual preorder induced by a binary relation
+Given a binary relation 
+
+
+
+R
+,
+
+
+{\displaystyle R,}
+
+ the complemented composition 
+
+
+
+R
+∖
+R
+=
+
+
+
+
+R
+
+
+T
+
+
+
+∘
+
+
+R
+¯
+
+
+
+¯
+
+
+
+
+{\displaystyle R\backslash R={\overline {R^{\textsf {T}}\circ {\overline {R}}}}}
+
+ forms a preorder called the left residual,[6] where 
+
+
+
+
+R
+
+
+T
+
+
+
+
+
+{\displaystyle R^{\textsf {T}}}
+
+ denotes the converse relation of 
+
+
+
+R
+,
+
+
+{\displaystyle R,}
+
+ and 
+
+
+
+
+
+R
+¯
+
+
+
+
+{\displaystyle {\overline {R}}}
+
+ denotes the complement relation of 
+
+
+
+R
+,
+
+
+{\displaystyle R,}
+
+ while 
+
+
+
+∘
+
+
+{\displaystyle \circ }
+
+ denotes relation composition.
+Given a preorder 
+
+
+
+
+≲
+
+
+
+{\displaystyle \,\lesssim \,}
+
+ on 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ one may define an equivalence relation 
+
+
+
+
+∼
+
+
+
+{\displaystyle \,\sim \,}
+
+ on 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ such that 
+
+
+
+
+a
+∼
+b
+
+
+ if and only if 
+
+
+a
+≲
+b
+
+
+ and 
+
+
+b
+≲
+a
+.
+
+
+{\displaystyle a\sim b\quad {\text{ if and only if }}\quad a\lesssim b\;{\text{ and }}\;b\lesssim a.}
+
+ 
+The resulting relation 
+
+
+
+
+∼
+
+
+
+{\displaystyle \,\sim \,}
+
+ is reflexive since the preorder 
+
+
+
+
+≲
+
+
+
+{\displaystyle \,\lesssim \,}
+
+ is reflexive; transitive by applying the transitivity of 
+
+
+
+
+≲
+
+
+
+{\displaystyle \,\lesssim \,}
+
+ twice; and symmetric by definition. 
+Using this relation, it is possible to construct a partial order on the quotient set of the equivalence, 
+
+
+
+S
+
+/
+
+∼
+,
+
+
+{\displaystyle S/\sim ,}
+
+ which is the set of all equivalence classes of 
+
+
+
+
+∼
+.
+
+
+{\displaystyle \,\sim .}
+
+ If the preorder is denoted by 
+
+
+
+
+R
+
++
+=
+
+
+,
+
+
+{\displaystyle R^{+=},}
+
+ then 
+
+
+
+S
+
+/
+
+∼
+
+
+{\displaystyle S/\sim }
+
+ is the set of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+-cycle equivalence classes: 
+
+
+
+
+x
+∈
+[
+y
+]
+
+
+{\displaystyle x\in [y]}
+
+ if and only if 
+
+
+
+x
+=
+y
+
+
+{\displaystyle x=y}
+
+ or 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is in an 
+
+
+
+R
+
+
+{\displaystyle R}
+
+-cycle with 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ 
+In any case, on 
+
+
+
+S
+
+/
+
+∼
+
+
+{\displaystyle S/\sim }
+
+ it is possible to define 
+
+
+
+[
+x
+]
+≤
+[
+y
+]
+
+
+{\displaystyle [x]\leq [y]}
+
+ if and only if 
+
+
+
+x
+≲
+y
+.
+
+
+{\displaystyle x\lesssim y.}
+
+ 
+That this is well-defined, meaning that its defining condition does not depend on which representatives of 
+
+
+
+[
+x
+]
+
+
+{\displaystyle [x]}
+
+ and 
+
+
+
+[
+y
+]
+
+
+{\displaystyle [y]}
+
+ are chosen, follows from the definition of 
+
+
+
+
+∼
+.
+
+
+
+{\displaystyle \,\sim .\,}
+
+ It is readily verified that this yields a partially ordered set.
+Conversely, from any partial order on a partition of a set 
+
+
+
+S
+,
+
+
+{\displaystyle S,}
+
+ it is possible to construct a preorder on 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ itself. There is a one-to-one correspondence between preorders and pairs (partition, partial order).
+Example: Let 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ be a formal theory, which is a set of sentences with certain properties (details of which can be found in the article on the subject). For instance, 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ could be a first-order theory (like Zermelo–Fraenkel set theory) or a simpler zeroth-order theory. One of the many properties of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is that it is closed under logical consequences so that, for instance, if a sentence 
+
+
+
+A
+∈
+S
+
+
+{\displaystyle A\in S}
+
+ logically implies some sentence 
+
+
+
+B
+,
+
+
+{\displaystyle B,}
+
+ which will be written as 
+
+
+
+A
+⇒
+B
+
+
+{\displaystyle A\Rightarrow B}
+
+ and also as 
+
+
+
+B
+⇐
+A
+,
+
+
+{\displaystyle B\Leftarrow A,}
+
+ then necessarily 
+
+
+
+B
+∈
+S
+
+
+{\displaystyle B\in S}
+
+ (by modus ponens). 
+The relation 
+
+
+
+
+⇐
+
+
+
+{\displaystyle \,\Leftarrow \,}
+
+ is a preorder on 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ because 
+
+
+
+A
+⇐
+A
+
+
+{\displaystyle A\Leftarrow A}
+
+ always holds and whenever 
+
+
+
+A
+⇐
+B
+
+
+{\displaystyle A\Leftarrow B}
+
+ and 
+
+
+
+B
+⇐
+C
+
+
+{\displaystyle B\Leftarrow C}
+
+ both hold then so does 
+
+
+
+A
+⇐
+C
+.
+
+
+{\displaystyle A\Leftarrow C.}
+
+ 
+Furthermore, for any 
+
+
+
+A
+,
+B
+∈
+S
+,
+
+
+{\displaystyle A,B\in S,}
+
+ 
+
+
+
+A
+∼
+B
+
+
+{\displaystyle A\sim B}
+
+ if and only if 
+
+
+
+A
+⇐
+B
+
+ and 
+
+B
+⇐
+A
+
+
+{\displaystyle A\Leftarrow B{\text{ and }}B\Leftarrow A}
+
+; that is, two sentences are equivalent with respect to 
+
+
+
+
+⇐
+
+
+
+{\displaystyle \,\Leftarrow \,}
+
+ if and only if they are logically equivalent. This particular equivalence relation 
+
+
+
+A
+∼
+B
+
+
+{\displaystyle A\sim B}
+
+ is commonly denoted with its own special symbol 
+
+
+
+A
+
+⟺
+
+B
+,
+
+
+{\displaystyle A\iff B,}
+
+ and so this symbol 
+
+
+
+
+
+⟺
+
+
+
+
+{\displaystyle \,\iff \,}
+
+ may be used instead of 
+
+
+
+
+∼
+.
+
+
+{\displaystyle \,\sim .}
+
+ The equivalence class of a sentence 
+
+
+
+A
+,
+
+
+{\displaystyle A,}
+
+ denoted by 
+
+
+
+[
+A
+]
+,
+
+
+{\displaystyle [A],}
+
+ consists of all sentences 
+
+
+
+B
+∈
+S
+
+
+{\displaystyle B\in S}
+
+ that are logically equivalent to 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ (that is, all 
+
+
+
+B
+∈
+S
+
+
+{\displaystyle B\in S}
+
+ such that 
+
+
+
+A
+
+⟺
+
+B
+
+
+{\displaystyle A\iff B}
+
+). 
+The partial order on 
+
+
+
+S
+
+/
+
+∼
+
+
+{\displaystyle S/\sim }
+
+ induced by 
+
+
+
+
+⇐
+,
+
+
+
+{\displaystyle \,\Leftarrow ,\,}
+
+ which will also be denoted by the same symbol 
+
+
+
+
+⇐
+,
+
+
+
+{\displaystyle \,\Leftarrow ,\,}
+
+ is characterized by 
+
+
+
+[
+A
+]
+⇐
+[
+B
+]
+
+
+{\displaystyle [A]\Leftarrow [B]}
+
+ if and only if 
+
+
+
+A
+⇐
+B
+,
+
+
+{\displaystyle A\Leftarrow B,}
+
+ where the right hand side condition is independent of the choice of representatives 
+
+
+
+A
+∈
+[
+A
+]
+
+
+{\displaystyle A\in [A]}
+
+ and 
+
+
+
+B
+∈
+[
+B
+]
+
+
+{\displaystyle B\in [B]}
+
+ of the equivalence classes. 
+All that has been said of 
+
+
+
+
+⇐
+
+
+
+{\displaystyle \,\Leftarrow \,}
+
+ so far can also be said of its converse relation 
+
+
+
+
+⇒
+.
+
+
+
+{\displaystyle \,\Rightarrow .\,}
+
+ 
+The preordered set 
+
+
+
+(
+S
+,
+⇐
+)
+
+
+{\displaystyle (S,\Leftarrow )}
+
+ is a directed set because if 
+
+
+
+A
+,
+B
+∈
+S
+
+
+{\displaystyle A,B\in S}
+
+ and if 
+
+
+
+C
+:=
+A
+∧
+B
+
+
+{\displaystyle C:=A\wedge B}
+
+ denotes the sentence formed by logical conjunction 
+
+
+
+
+∧
+,
+
+
+
+{\displaystyle \,\wedge ,\,}
+
+ then 
+
+
+
+A
+⇐
+C
+
+
+{\displaystyle A\Leftarrow C}
+
+ and 
+
+
+
+B
+⇐
+C
+
+
+{\displaystyle B\Leftarrow C}
+
+ where 
+
+
+
+C
+∈
+S
+.
+
+
+{\displaystyle C\in S.}
+
+ The partially ordered set 
+
+
+
+
+(
+
+S
+
+/
+
+∼
+,
+⇐
+
+)
+
+
+
+{\displaystyle \left(S/\sim ,\Leftarrow \right)}
+
+ is consequently also a directed set. 
+See Lindenbaum–Tarski algebra for a related example.
+Strict preorder induced by a preorder
+Given a preorder 
+
+
+
+
+≲
+,
+
+
+{\displaystyle \,\lesssim ,}
+
+ a new relation 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ can be defined by declaring that 
+
+
+
+a
+<
+b
+
+
+{\displaystyle a<b}
+
+ if and only if 
+
+
+
+a
+≲
+b
+
+ and not 
+
+b
+≲
+a
+.
+
+
+{\displaystyle a\lesssim b{\text{ and not }}b\lesssim a.}
+
+ 
+Using the equivalence relation 
+
+
+
+
+∼
+
+
+
+{\displaystyle \,\sim \,}
+
+ introduced above, 
+
+
+
+a
+<
+b
+
+
+{\displaystyle a<b}
+
+ if and only if 
+
+
+
+a
+≲
+b
+
+ and not 
+
+a
+∼
+b
+;
+
+
+{\displaystyle a\lesssim b{\text{ and not }}a\sim b;}
+
+ 
+and so the following holds
+
+
+
+
+a
+≲
+b
+
+
+ if and only if 
+
+
+a
+<
+b
+
+
+ or 
+
+
+a
+∼
+b
+.
+
+
+{\displaystyle a\lesssim b\quad {\text{ if and only if }}\quad a<b\;{\text{ or }}\;a\sim b.}
+
+
+The relation 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ is a strict partial order and every strict partial order can be constructed this way. 
+If the preorder 
+
+
+
+
+≲
+
+
+
+{\displaystyle \,\lesssim \,}
+
+ is antisymmetric (and thus a partial order) then the equivalence 
+
+
+
+
+∼
+
+
+
+{\displaystyle \,\sim \,}
+
+ is equality (that is, 
+
+
+
+a
+∼
+b
+
+
+{\displaystyle a\sim b}
+
+ if and only if 
+
+
+
+a
+=
+b
+
+
+{\displaystyle a=b}
+
+) and so in this case, the definition of 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ can be restated as: 
+
+
+
+
+a
+<
+b
+
+
+ if and only if 
+
+
+a
+≤
+b
+
+
+ and 
+
+
+a
+≠
+b
+
+
+(
+
+assuming 
+
+≲
+
+ is antisymmetric
+
+)
+.
+
+
+{\displaystyle a<b\quad {\text{ if and only if }}\quad a\leq b\;{\text{ and }}\;a\neq b\quad \quad ({\text{assuming }}\lesssim {\text{ is antisymmetric}}).}
+
+
+But importantly, this new condition is not used as (nor is it equivalent to) the general definition of the relation 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ (that is, 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ is not defined as: 
+
+
+
+a
+<
+b
+
+
+{\displaystyle a<b}
+
+ if and only if 
+
+
+
+a
+≲
+b
+
+ and 
+
+a
+≠
+b
+
+
+{\displaystyle a\lesssim b{\text{ and }}a\neq b}
+
+) because if the preorder 
+
+
+
+
+≲
+
+
+
+{\displaystyle \,\lesssim \,}
+
+ is not antisymmetric then the resulting relation 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ would not be transitive (consider how equivalent non-equal elements relate). 
+This is the reason for using the symbol "
+
+
+
+≲
+
+
+{\displaystyle \lesssim }
+
+" instead of the "less than or equal to" symbol "
+
+
+
+≤
+
+
+{\displaystyle \leq }
+
+", which might cause confusion for a preorder that is not antisymmetric since it might misleadingly suggest that 
+
+
+
+a
+≤
+b
+
+
+{\displaystyle a\leq b}
+
+ implies 
+
+
+
+a
+<
+b
+
+ or 
+
+a
+=
+b
+.
+
+
+{\displaystyle a<b{\text{ or }}a=b.}
+
+
+Preorders induced by a strict preorder
+Using the construction above, multiple non-strict preorders can produce the same strict preorder 
+
+
+
+
+<
+,
+
+
+
+{\displaystyle \,<,\,}
+
+ so without more information about how 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ was constructed (such knowledge of the equivalence relation 
+
+
+
+
+∼
+
+
+
+{\displaystyle \,\sim \,}
+
+ for instance), it might not be possible to reconstruct the original non-strict preorder from 
+
+
+
+
+<
+.
+
+
+
+{\displaystyle \,<.\,}
+
+ Possible (non-strict) preorders that induce the given strict preorder 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ include the following:
+If 
+
+
+
+a
+≤
+b
+
+
+{\displaystyle a\leq b}
+
+ then 
+
+
+
+a
+≲
+b
+.
+
+
+{\displaystyle a\lesssim b.}
+
+ 
+The converse holds (that is, 
+
+
+
+
+≲
+
+
+=
+
+
+≤
+
+
+
+{\displaystyle \,\lesssim \;\;=\;\;\leq \,}
+
+) if and only if whenever 
+
+
+
+a
+≠
+b
+
+
+{\displaystyle a\neq b}
+
+ then 
+
+
+
+a
+<
+b
+
+
+{\displaystyle a<b}
+
+ or 
+
+
+
+b
+<
+a
+.
+
+
+{\displaystyle b<a.}
+
+
+Note that S(n, k) refers to Stirling numbers of the second kind.
+As explained above, there is a 1-to-1 correspondence between preorders and pairs (partition, partial order). Thus the number of preorders is the sum of the number of partial orders on every partition. For example:
+For 
+
+
+
+a
+≲
+b
+,
+
+
+{\displaystyle a\lesssim b,}
+
+ the interval 
+
+
+
+[
+a
+,
+b
+]
+
+
+{\displaystyle [a,b]}
+
+ is the set of points x satisfying 
+
+
+
+a
+≲
+x
+
+
+{\displaystyle a\lesssim x}
+
+ and 
+
+
+
+x
+≲
+b
+,
+
+
+{\displaystyle x\lesssim b,}
+
+ also written 
+
+
+
+a
+≲
+x
+≲
+b
+.
+
+
+{\displaystyle a\lesssim x\lesssim b.}
+
+ It contains at least the points a and b. One may choose to extend the definition to all pairs 
+
+
+
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a,b)}
+
+ The extra intervals are all empty.
+Using the corresponding strict relation "
+
+
+
+<
+
+
+{\displaystyle <}
+
+", one can also define the interval 
+
+
+
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a,b)}
+
+ as the set of points x satisfying 
+
+
+
+a
+<
+x
+
+
+{\displaystyle a<x}
+
+ and 
+
+
+
+x
+<
+b
+,
+
+
+{\displaystyle x<b,}
+
+ also written 
+
+
+
+a
+<
+x
+<
+b
+.
+
+
+{\displaystyle a<x<b.}
+
+ An open interval may be empty even if 
+
+
+
+a
+<
+b
+.
+
+
+{\displaystyle a<b.}
+
+
+Also 
+
+
+
+[
+a
+,
+b
+)
+
+
+{\displaystyle [a,b)}
+
+ and 
+
+
+
+(
+a
+,
+b
+]
+
+
+{\displaystyle (a,b]}
+
+ can be defined similarly.
+
+

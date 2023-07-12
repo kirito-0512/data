@@ -1,0 +1,2255 @@
+8887,
+Directproduct,
+In mathematics, one can often define a direct product of objects already known, giving a new one. This generalizes the Cartesian product of the underlying sets, together with a suitably defined structure on the product set. More abstractly, one talks about the product in category theory, which formalizes these notions.
+Examples are the product of sets, groups (described below), rings, and other algebraic structures. The product of topological spaces is another instance.[dubious  – discuss]
+There is also the direct sum – in some areas this is used interchangeably, while in others it is a different concept.
+In a similar manner, we can talk about the direct product of finitely many algebraic structures, for example, 
+
+
+
+
+R
+
+×
+
+R
+
+×
+
+R
+
+×
+
+R
+
+.
+
+
+{\displaystyle \mathbb {R} \times \mathbb {R} \times \mathbb {R} \times \mathbb {R} .}
+
+ This relies on the fact that the direct product is associative up to isomorphism. That is, 
+
+
+
+(
+A
+×
+B
+)
+×
+C
+≅
+A
+×
+(
+B
+×
+C
+)
+
+
+{\displaystyle (A\times B)\times C\cong A\times (B\times C)}
+
+ for any algebraic structures 
+
+
+
+A
+,
+
+
+{\displaystyle A,}
+
+ 
+
+
+
+B
+,
+
+
+{\displaystyle B,}
+
+ and 
+
+
+
+C
+
+
+{\displaystyle C}
+
+ of the same kind. The direct product is also commutative up to isomorphism, that is, 
+
+
+
+A
+×
+B
+≅
+B
+×
+A
+
+
+{\displaystyle A\times B\cong B\times A}
+
+ for any algebraic structures 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ of the same kind. We can even talk about the direct product of infinitely many algebraic structures; for example we can take the direct product of countably many copies of 
+
+
+
+
+R
+
+,
+
+
+{\displaystyle \mathbb {R} ,}
+
+ which we write as 
+
+
+
+
+R
+
+×
+
+R
+
+×
+
+R
+
+×
+⋯
+.
+
+
+{\displaystyle \mathbb {R} \times \mathbb {R} \times \mathbb {R} \times \dotsb .}
+
+
+In group theory one can define the direct product of two groups 
+
+
+
+(
+G
+,
+∘
+)
+
+
+{\displaystyle (G,\circ )}
+
+ and 
+
+
+
+(
+H
+,
+⋅
+)
+,
+
+
+{\displaystyle (H,\cdot ),}
+
+ denoted by 
+
+
+
+G
+×
+H
+.
+
+
+{\displaystyle G\times H.}
+
+ For abelian groups which are written additively, it may also be called the direct sum of two groups, denoted by 
+
+
+
+G
+⊕
+H
+.
+
+
+{\displaystyle G\oplus H.}
+
+
+It is defined as follows:
+Note that 
+
+
+
+(
+G
+,
+∘
+)
+
+
+{\displaystyle (G,\circ )}
+
+ may be the same as 
+
+
+
+(
+H
+,
+⋅
+)
+.
+
+
+{\displaystyle (H,\cdot ).}
+
+
+This construction gives a new group. It has a normal subgroup isomorphic to 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ (given by the elements of the form 
+
+
+
+(
+g
+,
+1
+)
+
+
+{\displaystyle (g,1)}
+
+), and one isomorphic to 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ (comprising the elements 
+
+
+
+(
+1
+,
+h
+)
+
+
+{\displaystyle (1,h)}
+
+).
+The reverse also holds. There is the following recognition theorem: If a group 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ contains two normal subgroups 
+
+
+
+G
+
+ and 
+
+H
+,
+
+
+{\displaystyle G{\text{ and }}H,}
+
+ such that 
+
+
+
+K
+=
+G
+H
+
+
+{\displaystyle K=GH}
+
+ and the intersection of 
+
+
+
+G
+
+ and 
+
+H
+
+
+{\displaystyle G{\text{ and }}H}
+
+ contains only the identity, then 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ is isomorphic to 
+
+
+
+G
+×
+H
+.
+
+
+{\displaystyle G\times H.}
+
+ A relaxation of these conditions, requiring only one subgroup to be normal, gives the semidirect product.
+As an example, take as 
+
+
+
+G
+
+ and 
+
+H
+
+
+{\displaystyle G{\text{ and }}H}
+
+ two copies of the unique (up to isomorphisms) group of order 2, 
+
+
+
+
+C
+
+2
+
+
+:
+
+
+{\displaystyle C^{2}:}
+
+ say 
+
+
+
+{
+1
+,
+a
+}
+
+ and 
+
+{
+1
+,
+b
+}
+.
+
+
+{\displaystyle \{1,a\}{\text{ and }}\{1,b\}.}
+
+ Then 
+
+
+
+
+C
+
+2
+
+
+×
+
+C
+
+2
+
+
+=
+{
+(
+1
+,
+1
+)
+,
+(
+1
+,
+b
+)
+,
+(
+a
+,
+1
+)
+,
+(
+a
+,
+b
+)
+}
+,
+
+
+{\displaystyle C_{2}\times C_{2}=\{(1,1),(1,b),(a,1),(a,b)\},}
+
+ with the operation element by element. For instance, 
+
+
+
+(
+1
+,
+b
+
+)
+
+∗
+
+
+(
+a
+,
+1
+)
+=
+
+(
+
+
+1
+
+∗
+
+
+a
+,
+
+b
+
+∗
+
+
+1
+
+)
+
+=
+(
+a
+,
+b
+)
+,
+
+
+{\displaystyle (1,b)^{*}(a,1)=\left(1^{*}a,b^{*}1\right)=(a,b),}
+
+ and
+
+
+
+(
+1
+,
+b
+
+)
+
+∗
+
+
+(
+1
+,
+b
+)
+=
+
+(
+
+1
+,
+
+b
+
+2
+
+
+
+)
+
+=
+(
+1
+,
+1
+)
+.
+
+
+{\displaystyle (1,b)^{*}(1,b)=\left(1,b^{2}\right)=(1,1).}
+
+
+With a direct product, we get some natural group homomorphisms for free: the projection maps defined by
+
+
+
+
+
+
+
+
+
+π
+
+1
+
+
+:
+G
+×
+H
+→
+G
+,
+ 
+ 
+
+π
+
+1
+
+
+(
+g
+,
+h
+)
+
+
+
+=
+g
+
+
+
+
+
+π
+
+2
+
+
+:
+G
+×
+H
+→
+H
+,
+ 
+ 
+
+π
+
+2
+
+
+(
+g
+,
+h
+)
+
+
+
+=
+h
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}\pi _{1}:G\times H\to G,\ \ \pi _{1}(g,h)&=g\\\pi _{2}:G\times H\to H,\ \ \pi _{2}(g,h)&=h\end{aligned}}}
+
+
+are called the coordinate functions.
+Also, every homomorphism 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ to the direct product is totally determined by its component functions 
+
+
+
+
+f
+
+i
+
+
+=
+
+π
+
+i
+
+
+∘
+f
+.
+
+
+{\displaystyle f_{i}=\pi _{i}\circ f.}
+
+
+For any group 
+
+
+
+(
+G
+,
+∘
+)
+
+
+{\displaystyle (G,\circ )}
+
+ and any integer 
+
+
+
+n
+≥
+0
+,
+
+
+{\displaystyle n\geq 0,}
+
+ repeated application of the direct product gives the group of all 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-tuples 
+
+
+
+
+G
+
+n
+
+
+
+
+{\displaystyle G^{n}}
+
+ (for 
+
+
+
+n
+=
+0
+,
+
+
+{\displaystyle n=0,}
+
+ this is the trivial group), for example 
+
+
+
+
+
+Z
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {Z} ^{n}}
+
+ and 
+
+
+
+
+
+R
+
+
+n
+
+
+.
+
+
+{\displaystyle \mathbb {R} ^{n}.}
+
+
+The direct product for modules (not to be confused with the tensor product) is very similar to the one defined for groups above, using the Cartesian product with the operation of addition being componentwise, and the scalar multiplication just distributing over all the components. Starting from 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ we get Euclidean space 
+
+
+
+
+
+R
+
+
+n
+
+
+,
+
+
+{\displaystyle \mathbb {R} ^{n},}
+
+ the prototypical example of a real 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-dimensional vector space. The direct product of 
+
+
+
+
+
+R
+
+
+m
+
+
+
+
+{\displaystyle \mathbb {R} ^{m}}
+
+ and 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ is 
+
+
+
+
+
+R
+
+
+m
++
+n
+
+
+.
+
+
+{\displaystyle \mathbb {R} ^{m+n}.}
+
+
+Note that a direct product for a finite index 
+
+
+
+
+∏
+
+i
+=
+1
+
+
+n
+
+
+
+X
+
+i
+
+
+
+
+{\textstyle \prod _{i=1}^{n}X_{i}}
+
+ is canonically isomorphic to the direct sum 
+
+
+
+
+⨁
+
+i
+=
+1
+
+
+n
+
+
+
+X
+
+i
+
+
+.
+
+
+{\textstyle \bigoplus _{i=1}^{n}X_{i}.}
+
+ The direct sum and direct product are not isomorphic for infinite indices, where the elements of a direct sum are zero for all but for a finite number of entries. They are dual in the sense of category theory: the direct sum is the coproduct, while the direct product is the product.
+For example, consider 
+
+
+
+X
+=
+
+∏
+
+i
+=
+1
+
+
+∞
+
+
+
+R
+
+
+
+{\textstyle X=\prod _{i=1}^{\infty }\mathbb {R} }
+
+ and 
+
+
+
+Y
+=
+
+⨁
+
+i
+=
+1
+
+
+∞
+
+
+
+R
+
+,
+
+
+{\textstyle Y=\bigoplus _{i=1}^{\infty }\mathbb {R} ,}
+
+ the infinite direct product and direct sum of the real numbers. Only sequences with a finite number of non-zero elements are in 
+
+
+
+Y
+.
+
+
+{\displaystyle Y.}
+
+ For example, 
+
+
+
+(
+1
+,
+0
+,
+0
+,
+0
+,
+…
+)
+
+
+{\displaystyle (1,0,0,0,\ldots )}
+
+ is in 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ but 
+
+
+
+(
+1
+,
+1
+,
+1
+,
+1
+,
+…
+)
+
+
+{\displaystyle (1,1,1,1,\ldots )}
+
+ is not. Both of these sequences are in the direct product 
+
+
+
+X
+;
+
+
+{\displaystyle X;}
+
+ in fact, 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is a proper subset of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ (that is, 
+
+
+
+Y
+⊂
+X
+
+
+{\displaystyle Y\subset X}
+
+).[1][2]
+The direct product for a collection of topological spaces 
+
+
+
+
+X
+
+i
+
+
+
+
+{\displaystyle X_{i}}
+
+ for 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ in 
+
+
+
+I
+,
+
+
+{\displaystyle I,}
+
+ some index set, once again makes use of the Cartesian product
+
+
+
+
+
+∏
+
+i
+∈
+I
+
+
+
+X
+
+i
+
+
+.
+
+
+{\displaystyle \prod _{i\in I}X_{i}.}
+
+
+Defining the topology is a little tricky. For finitely many factors, this is the obvious and natural thing to do: simply take as a basis of open sets to be the collection of all Cartesian products of open subsets from each factor:
+
+
+
+
+
+
+B
+
+
+=
+
+{
+
+
+U
+
+1
+
+
+×
+⋯
+×
+
+U
+
+n
+
+
+ 
+:
+ 
+
+U
+
+i
+
+
+ 
+
+o
+p
+e
+n
+ 
+i
+n
+
+ 
+
+X
+
+i
+
+
+
+}
+
+.
+
+
+{\displaystyle {\mathcal {B}}=\left\{U_{1}\times \cdots \times U_{n}\ :\ U_{i}\ \mathrm {open\ in} \ X_{i}\right\}.}
+
+
+This topology is called the product topology. For example, directly defining the product topology on 
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} ^{2}}
+
+ by the open sets of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ (disjoint unions of open intervals), the basis for this topology would consist of all disjoint unions of open rectangles in the plane (as it turns out, it coincides with the usual metric topology).
+The product topology for infinite products has a twist, and this has to do with being able to make all the projection maps continuous and to make all functions into the product  continuous if and only if all its component functions are continuous (that is, to satisfy the categorical definition of product: the morphisms here are continuous functions): we take as a basis of open sets to be the collection of all Cartesian products of open subsets from each factor, as before, with the proviso that all but finitely many of the open subsets are the entire factor:
+
+
+
+
+
+
+B
+
+
+=
+
+{
+
+
+∏
+
+i
+∈
+I
+
+
+
+U
+
+i
+
+
+ 
+:
+ 
+(
+∃
+
+j
+
+1
+
+
+,
+…
+,
+
+j
+
+n
+
+
+)
+(
+
+U
+
+
+j
+
+i
+
+
+
+
+ 
+
+o
+p
+e
+n
+ 
+i
+n
+
+ 
+
+X
+
+
+j
+
+i
+
+
+
+
+)
+ 
+
+a
+n
+d
+
+ 
+(
+∀
+i
+≠
+
+j
+
+1
+
+
+,
+…
+,
+
+j
+
+n
+
+
+)
+(
+
+U
+
+i
+
+
+=
+
+X
+
+i
+
+
+)
+
+}
+
+.
+
+
+{\displaystyle {\mathcal {B}}=\left\{\prod _{i\in I}U_{i}\ :\ (\exists j_{1},\ldots ,j_{n})(U_{j_{i}}\ \mathrm {open\ in} \ X_{j_{i}})\ \mathrm {and} \ (\forall i\neq j_{1},\ldots ,j_{n})(U_{i}=X_{i})\right\}.}
+
+
+The more natural-sounding topology would be, in this case, to take products of infinitely many open subsets as before, and this does yield a somewhat interesting topology, the box topology. However it is not too difficult to find an example of bunch of continuous component functions whose product function is not continuous (see the separate entry box topology for an example and more). The problem which makes the twist necessary is ultimately rooted in the fact that the intersection of open sets is only guaranteed to be open for finitely many sets in the definition of topology.
+Products (with the product topology) are nice with respect to preserving properties of their factors; for example, the product of Hausdorff spaces is Hausdorff; the product of connected spaces is connected, and the product of compact spaces is compact. That last one, called Tychonoff's theorem, is yet another equivalence to the axiom of choice.
+For more properties and equivalent formulations, see the separate entry product topology.
+On the Cartesian product of two sets with binary relations 
+
+
+
+R
+
+ and 
+
+S
+,
+
+
+{\displaystyle R{\text{ and }}S,}
+
+ define 
+
+
+
+(
+a
+,
+b
+)
+T
+(
+c
+,
+d
+)
+
+
+{\displaystyle (a,b)T(c,d)}
+
+ as 
+
+
+
+a
+R
+c
+
+ and 
+
+b
+S
+d
+.
+
+
+{\displaystyle aRc{\text{ and }}bSd.}
+
+ If 
+
+
+
+R
+
+ and 
+
+S
+
+
+{\displaystyle R{\text{ and }}S}
+
+ are both reflexive, irreflexive, transitive, symmetric, or antisymmetric, then 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ will be also.[3] Similarly, totality of 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ is inherited from 
+
+
+
+R
+
+ and 
+
+S
+.
+
+
+{\displaystyle R{\text{ and }}S.}
+
+ Combining properties it follows that this also applies for being a preorder and being an equivalence relation. However, if 
+
+
+
+R
+
+ and 
+
+S
+
+
+{\displaystyle R{\text{ and }}S}
+
+ are connected relations, 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ need not be connected; for example, the direct product of 
+
+
+
+
+≤
+
+
+
+{\displaystyle \,\leq \,}
+
+ on 
+
+
+
+
+N
+
+
+
+{\displaystyle \mathbb {N} }
+
+ with itself does not relate 
+
+
+
+(
+1
+,
+2
+)
+
+ and 
+
+(
+2
+,
+1
+)
+.
+
+
+{\displaystyle (1,2){\text{ and }}(2,1).}
+
+
+If 
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+
+ is a fixed signature, 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ is an arbitrary (possibly infinite) index set, and 
+
+
+
+
+
+(
+
+
+A
+
+
+i
+
+
+)
+
+
+i
+∈
+I
+
+
+
+
+{\displaystyle \left(\mathbf {A} _{i}\right)_{i\in I}}
+
+ is an indexed family of 
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+
+ algebras, the direct product 
+
+
+
+
+A
+
+=
+
+∏
+
+i
+∈
+I
+
+
+
+
+A
+
+
+i
+
+
+
+
+{\textstyle \mathbf {A} =\prod _{i\in I}\mathbf {A} _{i}}
+
+ is a 
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+
+ algebra defined as follows:
+For each 
+
+
+
+i
+∈
+I
+,
+
+
+{\displaystyle i\in I,}
+
+ the 
+
+
+
+i
+
+
+{\displaystyle i}
+
+th projection 
+
+
+
+
+π
+
+i
+
+
+:
+A
+→
+
+A
+
+i
+
+
+
+
+{\displaystyle \pi _{i}:A\to A_{i}}
+
+ is defined by 
+
+
+
+
+π
+
+i
+
+
+(
+a
+)
+=
+a
+(
+i
+)
+.
+
+
+{\displaystyle \pi _{i}(a)=a(i).}
+
+ It is a surjective homomorphism between the 
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+
+ algebras 
+
+
+
+
+A
+
+
+ and 
+
+
+
+A
+
+
+i
+
+
+.
+
+
+{\displaystyle \mathbf {A} {\text{ and }}\mathbf {A} _{i}.}
+
+[4]
+As a special case, if the index set 
+
+
+
+I
+=
+{
+1
+,
+2
+}
+,
+
+
+{\displaystyle I=\{1,2\},}
+
+ the direct product of two 
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+
+ algebras 
+
+
+
+
+
+A
+
+
+1
+
+
+
+ and 
+
+
+
+A
+
+
+2
+
+
+
+
+{\displaystyle \mathbf {A} _{1}{\text{ and }}\mathbf {A} _{2}}
+
+ is obtained, written as 
+
+
+
+
+A
+
+=
+
+
+A
+
+
+1
+
+
+×
+
+
+A
+
+
+2
+
+
+.
+
+
+{\displaystyle \mathbf {A} =\mathbf {A} _{1}\times \mathbf {A} _{2}.}
+
+ If 
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+
+ just contains one binary operation 
+
+
+
+f
+,
+
+
+{\displaystyle f,}
+
+ the above definition of the direct product of groups is obtained, using the notation 
+
+
+
+
+A
+
+1
+
+
+=
+G
+,
+
+A
+
+2
+
+
+=
+H
+,
+
+
+{\displaystyle A_{1}=G,A_{2}=H,}
+
+ 
+
+
+
+
+f
+
+
+A
+
+1
+
+
+
+
+=
+∘
+,
+ 
+
+f
+
+
+A
+
+2
+
+
+
+
+=
+⋅
+,
+ 
+
+ and 
+
+
+f
+
+A
+
+
+=
+×
+.
+
+
+{\displaystyle f^{A_{1}}=\circ ,\ f^{A_{2}}=\cdot ,\ {\text{ and }}f^{A}=\times .}
+
+ Similarly, the definition of the direct product of modules is subsumed here.
+The direct product can be abstracted to an arbitrary category. In a category, given a collection of objects 
+
+
+
+(
+
+A
+
+i
+
+
+
+)
+
+i
+∈
+I
+
+
+
+
+{\displaystyle (A_{i})_{i\in I}}
+
+ indexed by a set 
+
+
+
+I
+
+
+{\displaystyle I}
+
+, a product of these objects is an object 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ together with morphisms 
+
+
+
+
+p
+
+i
+
+
+:
+A
+→
+
+A
+
+i
+
+
+
+
+{\displaystyle p_{i}\colon A\to A_{i}}
+
+ for all 
+
+
+
+i
+∈
+I
+
+
+{\displaystyle i\in I}
+
+, such that if 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ is any other object with morphisms 
+
+
+
+
+f
+
+i
+
+
+:
+B
+→
+
+A
+
+i
+
+
+
+
+{\displaystyle f_{i}\colon B\to A_{i}}
+
+ for all 
+
+
+
+i
+∈
+I
+
+
+{\displaystyle i\in I}
+
+, there exists a unique morphism 
+
+
+
+B
+→
+A
+
+
+{\displaystyle B\to A}
+
+ whose composition with 
+
+
+
+
+p
+
+i
+
+
+
+
+{\displaystyle p_{i}}
+
+ equals 
+
+
+
+
+f
+
+i
+
+
+
+
+{\displaystyle f_{i}}
+
+ for every 
+
+
+
+i
+
+
+{\displaystyle i}
+
+.  
+Such 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+(
+
+p
+
+i
+
+
+
+)
+
+i
+∈
+I
+
+
+
+
+{\displaystyle (p_{i})_{i\in I}}
+
+ do not always exist.  If they do exist, then 
+
+
+
+(
+A
+,
+(
+
+p
+
+i
+
+
+
+)
+
+i
+∈
+I
+
+
+)
+
+
+{\displaystyle (A,(p_{i})_{i\in I})}
+
+ is unique up to isomorphism, and 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is denoted 
+
+
+
+
+∏
+
+i
+∈
+I
+
+
+
+A
+
+i
+
+
+
+
+{\displaystyle \prod _{i\in I}A_{i}}
+
+.
+In the special case of the category of groups, a product always exists: the underlying set of 
+
+
+
+
+∏
+
+i
+∈
+I
+
+
+
+A
+
+i
+
+
+
+
+{\displaystyle \prod _{i\in I}A_{i}}
+
+ is the Cartesian product of the underlying sets of the 
+
+
+
+
+A
+
+i
+
+
+
+
+{\displaystyle A_{i}}
+
+, the group operation is componentwise multiplication, and the (homo)morphism 
+
+
+
+
+p
+
+i
+
+
+:
+A
+→
+
+A
+
+i
+
+
+
+
+{\displaystyle p_{i}\colon A\to A_{i}}
+
+ is the projection sending each tuple to its 
+
+
+
+i
+
+
+{\displaystyle i}
+
+th coordinate.
+Some authors draw a distinction between an internal direct product and an external direct product. If 
+
+
+
+A
+,
+B
+⊆
+X
+
+
+{\displaystyle A,B\subseteq X}
+
+ and 
+
+
+
+A
+×
+B
+≅
+X
+,
+
+
+{\displaystyle A\times B\cong X,}
+
+ then we say that 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is an internal direct product of 
+
+
+
+A
+
+ and 
+
+B
+,
+
+
+{\displaystyle A{\text{ and }}B,}
+
+ while if 
+
+
+
+A
+
+ and 
+
+B
+
+
+{\displaystyle A{\text{ and }}B}
+
+ are not subobjects then we say that this is an external direct product.
+
+

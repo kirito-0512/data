@@ -1,0 +1,271 @@
+33458,
+Well-orderingtheorem,
+In mathematics, the well-ordering theorem, also known as Zermelo's theorem, states that every set can be well-ordered. A set X is well-ordered by a strict total order if every non-empty subset of X has a least element under the ordering. The well-ordering theorem together with Zorn's lemma are the most important mathematical statements that are equivalent to the axiom of choice (often called AC, see also Axiom of choice § Equivalents).[1][2] Ernst Zermelo introduced the axiom of choice as an "unobjectionable logical principle" to prove the well-ordering theorem.[3] One can conclude from the well-ordering theorem that every set is susceptible to transfinite induction, which is considered by mathematicians to be a powerful technique.[3] One famous consequence of the theorem is the Banach–Tarski paradox.
+Georg Cantor considered the well-ordering theorem to be a "fundamental principle of thought".[4]  However, it is considered difficult or even impossible to visualize a well-ordering of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+; such a visualization would have to incorporate the axiom of choice.[5] In 1904, Gyula Kőnig claimed to have proven that such a well-ordering cannot exist.  A few weeks later, Felix Hausdorff found a mistake in the proof.[6]  It turned out, though, that in first-order logic the well-ordering theorem is equivalent to the axiom of choice, in the sense that the Zermelo–Fraenkel axioms with the axiom of choice included are sufficient to prove the well-ordering theorem, and conversely, the Zermelo–Fraenkel axioms without the axiom of choice but with the well-ordering theorem included are sufficient to prove the axiom of choice. (The same applies to Zorn's lemma.) In second-order logic, however, the well-ordering theorem is strictly stronger than the axiom of choice: from the well-ordering theorem one may deduce the axiom of choice, but from the axiom of choice one cannot deduce the well-ordering theorem.[7]
+
+There is a well-known joke about the three statements, and their relative amenability to intuition:The axiom of choice is obviously true, the well-ordering principle obviously false, and who can tell about Zorn's lemma?[8]
+The well-ordering theorem follows from the axiom of choice as follows.[9]Let the set we are trying to well-order be 
+
+
+
+A
+
+
+{\displaystyle A}
+
+, and let 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ be a choice function for the family of non-empty subsets of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+. For every ordinal 
+
+
+
+α
+
+
+{\displaystyle \alpha }
+
+, define a set 
+
+
+
+
+a
+
+α
+
+
+
+
+{\displaystyle a_{\alpha }}
+
+ that is in 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ by setting 
+
+
+
+
+a
+
+α
+
+
+ 
+=
+ 
+f
+(
+A
+∖
+{
+
+a
+
+ξ
+
+
+∣
+ξ
+<
+α
+}
+)
+
+
+{\displaystyle a_{\alpha }\ =\ f(A\smallsetminus \{a_{\xi }\mid \xi <\alpha \})}
+
+ if this complement 
+
+
+
+A
+∖
+{
+
+a
+
+ξ
+
+
+∣
+ξ
+<
+α
+}
+
+
+{\displaystyle A\smallsetminus \{a_{\xi }\mid \xi <\alpha \}}
+
+ is nonempty, or leave 
+
+
+
+
+a
+
+α
+
+
+
+
+{\displaystyle a_{\alpha }}
+
+ undefined if it is. That is, 
+
+
+
+
+a
+
+α
+
+
+
+
+{\displaystyle a_{\alpha }}
+
+ is chosen from the set of elements of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ that have not yet been assigned a place in the ordering (or undefined if the entirety of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ has been successfully enumerated). Then 
+
+
+
+⟨
+
+a
+
+α
+
+
+∣
+
+a
+
+α
+
+
+
+ is defined
+
+⟩
+
+
+{\displaystyle \langle a_{\alpha }\mid a_{\alpha }{\text{ is defined}}\rangle }
+
+ is a well-order of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ as desired.The axiom of choice can be proven from the well-ordering theorem as follows.
+An essential point of this proof is that it involves only a single arbitrary choice, that of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+; applying the well-ordering theorem to each member 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ separately would not work, since the theorem only asserts the existence of a well-ordering, and choosing for each 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ a well-ordering would require just as many choices as simply choosing an element from each 
+
+
+
+S
+
+
+{\displaystyle S}
+
+. Particularly, if 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ contains uncountably many sets, making all uncountably many choices is not allowed under the axioms of Zermelo-Fraenkel set theory without the axiom of choice.
+
+

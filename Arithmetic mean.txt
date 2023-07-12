@@ -1,0 +1,195 @@
+612,
+Arithmetic mean,
+In mathematics and statistics, the arithmetic mean ( /ˌærɪθˈmɛtɪk ˈmiːn/ arr-ith-MET-ik), arithmetic average, or just the mean or average (when the context is clear) is the sum of a collection of numbers divided by the count of numbers in the collection.[1] The collection is often a set of results from an experiment, an observational study, or a survey. The term "arithmetic mean" is preferred in some mathematics and statistics contexts because it helps distinguish it from other types of means, such as geometric and harmonic.
+In addition to mathematics and statistics, the arithmetic mean is frequently used in economics, anthropology, history, and almost every academic field to some extent. For example, per capita income is the arithmetic average income of a nation's population.
+While the arithmetic mean is often used to report central tendencies, it is not a robust statistic: it is greatly influenced by outliers (values much larger or smaller than most others). For skewed distributions, such as the distribution of income for which a few people's incomes are substantially higher than most people's, the arithmetic mean may not coincide with one's notion of "middle". In that case, robust statistics, such as the median, may provide a better description of central tendency.
+Given a data set 
+X
+=
+{
+x
+1
+,
+…
+,
+x
+n
+}
+{\displaystyle X=\{x_{1},\ldots ,x_{n}\}}
+, the arithmetic mean (also mean or average), denoted 
+x
+¯
+{\displaystyle {\bar {x}}}
+ (read 
+x
+{\displaystyle x}
+ bar), is the mean of the 
+n
+{\displaystyle n}
+ values 
+x
+1
+,
+…
+,
+x
+n
+{\displaystyle x_{1},\ldots ,x_{n}}
+.[2]
+The arithmetic mean is a data set's most commonly used and readily understood measure of central tendency. In statistics, the term average refers to any measurement of central tendency. The arithmetic mean of a set of observed data is equal to the sum of the numerical values of each observation, divided by the total number of observations. Symbolically, for a data set consisting of the values 
+x
+1
+,
+…
+,
+x
+n
+{\displaystyle x_{1},\dots ,x_{n}}
+, the arithmetic mean is defined by the formula:
+(For an explanation of the summation operator, see summation.)
+For example, if the monthly salaries of 
+10
+{\displaystyle 10}
+ employees are 
+{
+2500
+,
+2700
+,
+2400
+,
+2300
+,
+2550
+,
+2650
+,
+2750
+,
+2450
+,
+2600
+,
+2400
+}
+{\displaystyle \{2500,2700,2400,2300,2550,2650,2750,2450,2600,2400\}}
+, then the arithmetic mean is:
+If the data set is a statistical population (i.e., consists of every possible observation and not just a subset of them), then the mean of that population is called the population mean and denoted by the Greek letter 
+μ
+{\displaystyle \mu }
+. If the data set is a statistical sample (a subset of the population), it is called the sample mean (which for a data set 
+X
+{\displaystyle X}
+ is denoted as 
+X
+¯
+{\displaystyle {\overline {X}}}
+).
+The arithmetic mean can be similarly defined for vectors in multiple dimensions, not only scalar values; this is often referred to as a centroid. More generally, because the arithmetic mean is a convex combination (meaning its coefficients sum to 
+1
+{\displaystyle 1}
+), it can be defined on a convex space, not only a vector space.
+The arithmetic mean has several properties that make it interesting, especially as a measure of central tendency. These include:
+The arithmetic mean may be contrasted with the median. The median is defined such that no more than half the values are larger, and no more than half are smaller than it. If elements in the data increase arithmetically when placed in some order, then the median and arithmetic average are equal. For example, consider the data sample 
+{
+1
+,
+2
+,
+3
+,
+4
+}
+{\displaystyle \{1,2,3,4\}}
+. The mean is 
+2.5
+{\displaystyle 2.5}
+, as is the median. However, when we consider a sample that cannot be arranged to increase arithmetically, such as 
+{
+1
+,
+2
+,
+4
+,
+8
+,
+16
+}
+{\displaystyle \{1,2,4,8,16\}}
+, the median and arithmetic average can differ significantly. In this case, the arithmetic average is 
+6.2
+{\displaystyle 6.2}
+, while the median is 
+4
+{\displaystyle 4}
+. The average value can vary considerably from most values in the sample and can be larger or smaller than most.
+There are applications of this phenomenon in many fields. For example, since the 1980s, the median income in the United States has increased more slowly than the arithmetic average of income.[4]
+A weighted average, or weighted mean, is an average in which some data points count more heavily than others in that they are given more weight in the calculation.[5] For example, the arithmetic mean of 
+3
+{\displaystyle 3}
+ and 
+5
+{\displaystyle 5}
+ is 
+3
++
+5
+2
+=
+4
+{\displaystyle {\frac {3+5}{2}}=4}
+, or equivalently 
+3
+1
+2
++
+5
+1
+2
+=
+4
+{\displaystyle 3{\frac {1}{2}}+5{\frac {1}{2}}=4}
+. In contrast, a weighted mean in which the first number receives, for example, twice as much weight as the second (perhaps because it is assumed to appear twice as often in the general population from which these numbers were sampled) would be calculated as 
+3
+2
+3
++
+5
+1
+3
+=
+11
+3
+{\displaystyle 3{\frac {2}{3}}+5{\frac {1}{3}}={\frac {11}{3}}}
+. Here the weights, which necessarily sum to one, are 
+2
+3
+{\displaystyle {\frac {2}{3}}}
+ and 
+1
+3
+{\displaystyle {\frac {1}{3}}}
+, the former being twice the latter. The arithmetic mean (sometimes called the "unweighted average" or "equally weighted average") can be interpreted as a special case of a weighted average in which all weights are equal to the same number (
+1
+2
+{\displaystyle {\frac {1}{2}}}
+ in the above example and 
+1
+n
+{\displaystyle {\frac {1}{n}}}
+ in a situation with 
+n
+{\displaystyle n}
+ numbers being averaged).
+If a numerical property, and any sample of data from it, can take on any value from a continuous range instead of, for example, just integers, then the probability of a number falling into some range of possible values can be described by integrating a continuous probability distribution across this range, even when the naive probability for a sample number taking one certain value from infinitely many is zero. In this context, the analog of a weighted average, in which there are infinitely many possibilities for the precise value of the variable in each range, is called the mean of the probability distribution. The most widely encountered probability distribution is called the normal distribution; it has the property that all measures of its central tendency, including not just the mean but also the median mentioned above and the mode (the three Ms[6]), are equal. This equality does not hold for other probability distributions, as illustrated for the log-normal distribution here.
+Particular care is needed when using cyclic data, such as phases or angles. Taking the arithmetic mean of 1° and 359° yields a result of 180°.
+This is incorrect for two reasons:
+In general application, such an oversight will lead to the average value artificially moving towards the middle of the numerical range. A solution to this problem is to use the optimization formulation (that is, define the mean as the central point: the point about which one has the lowest dispersion) and redefine the difference as a modular distance (i.e., the distance on the circle: so the modular distance between 1° and 359° is 2°, not 358°).
+The arithmetic mean is often denoted by a bar (vinculum or macron), as in 
+x
+¯
+{\displaystyle {\bar {x}}}
+.[2]
+Some software (text processors, web browsers) may not display the "x̄" symbol correctly. For example, the HTML symbol "x̄" combines two codes — the base letter "x" plus a code for the line above (̄ or ¯).[7]
+In some document formats (such as PDF), the symbol may be replaced by a "¢" (cent) symbol when copied to a text processor such as Microsoft Word.

@@ -1,0 +1,37 @@
+38359,
+MediaWikiFAQ,
+This page is very ancient, amusing only for nostalgic purposes. If you want current information, see m:MediaWiki.
+
+This page aims to discuss the newest script and the changes in behaviour it causes compared to older versions of the software.
+See also MediaWiki -- New features
+Subpage functionality has been removed. The "/" is now a normal character and can still be used in page titles, although this is discouraged in favor of a "Name (category)" style. The reasons for this change are outlined in Wikipedia:Subpages.
+The namespaces now have the closest subpage-like functionality.
+A namespace is a set of pages which have a similar function within Wikipedia. This is useful to avoid mixups of user names and wikipedia articles, and for other organizational purposes. The namespace is part of the article title, divided from the actual name by a ":".
+For instance, we can have an article Vulture and another page User:Vulture. The first lives in the "blank" namespace and is an encyclopedia article, the second in the user namespace and describes a Wikipedian.
+The namespace of an article is indicated by prepending it to the title, separated with a colon. An exception is the main, "blank" namespace for regular encyclopedia articles: it is used by default if no other namespace is explicitly given.
+New namespaces cannot be created by Wikipedians. If you would like a new namespace, please post on Sourceforge: MediaWiki Feature requests, Wikipedia-L or Wikitech-L, or do some hacking and propose a patch.
+Currently, these namespaces exist:
+Pages in all these namespaces can be created and edited by all users, except for the special: and log: ones. You can link to all namespaces, like [[special:Recentchanges]] will link to special:Recentchanges.
+Many punctuation marks and special characters can now be part of the title. Details are still subject to change.
+For the moment, it should be safe to use the following characters: -, . ( ) ' / ! & : ;. It is also possible to use the underscore (_); however, those are converted to spaces.
+You cannot currently use the following: " # $ * + < > = ? @ [ ] \ ^ ` { } | ~
+The colon (:) is a special case; it is used to indicate namespaces for special pages (see above) and should only ever be used in the name of a regular title where strictly necessary for correctness (as in 2001: A Space Odyssey). Ordinary articles can never start with any of the reserved namespace prefixes followed by a colon: please note that using colons unnecessarily in article titles will complicate the management of namespaces later on.
+The titles didn't change. On subpages that didn't link back to their "parent" topic, such a link was added. Any "/Subpage" links were converted into "[[Parent/Subpage]]", with the exception of "/Talk" subpages, which have been converted to the corresponding "talk:" namespace and every link to /Talk has been converted to a link to the corresponding page in the talk: (or user_talk: etc.) namespace.
+These automatically generated links to the talk page are redundant now and can be deleted since the talk links are always shown in the lower right.
+No change here, unexpected behaviour is due to bugs and will be fixed.
+
+The old software (UseModWiki) was never planned to handle the amount of pages that we currently have. Also, there was no focused effort to implement new functions in that software, or it was just next to impossible to do. 
+It's largely a religious question, though there's no denying that Perl has many more features than PHP and it's probably faster too, when properly configured. I'm personally sad to see Perl wikipedia being replaced by PHP code: perl is wider known, more stable between versions, its development community is much larger, and I know it ;) Having said that, there's still need for better wiki to be written for wikipedia which would support namespaces together with many other features, and it's probably time to move to MySQL rather than flat-files underlying storage system, too. Magnus has volunteered his time and code and no Perl enthusiast did the same - that, I suspect, is the reason. --AV
+It seems that from all the volunteers for writing articles, none of them did volunteer to write a single line of code for the PHP wiki. So far, Clifford Adams was most helpful by giving me a short Perl script for the conversion, which I was able to translate into PHP. Anyway, I am sure Perl has more features, but I doubt that for an application like wikipedia, it has real advantages; on the contrary, as PHP was designed especially for WWW interfaces, it is probably more suited for this purpose. And, the PHP program doesn't read like a segmentation fault ;)  --Magnus Manske
+I'll stick to the MySQL version for now, since I have barely the time to maintain that one alone right now. Once it is up, and has no real bugs anymore, I could try PostgreSQL at a test site and convert it if it is really faster. --Magnus Manske
+If the app. relies much on any complex joins, than PostgreSQL will probably be able to outperform MySQL. If it's mostly simple selects from a single table, than probably not. But as the number of users increases, PostgreSQL handles locking issues much better through its Multi-Version Concurrency Control, which is essentially better than row-level locking. So if you get the chance and time permits, I think it would be worthwhile to give PostgreSQL a try. --Wesley
+It's not always just about "which is better."  There are those of us who are already running web app servers with PostgreSQL and don't want to (or can't) maintain another RDBMS just to make one app happy.  Anyway, PostgreSQL support is supposed to be almost fully working now.  I'm about to find out... -- cwilkins@boinklabs.com
+Not at all ;)
+Pages in the special: namespace, as well as the sidebar, are generated by the program that runs wikipedia. To add new special pages or expand the sidebar, one will have to change the program. If you would like a new special page, please post on wikipedia:Feature requests, Wikipedia-L or Wikitech-L, or do some hacking and propose a patch.
+Just using the old database does not work because of lots of new fields in tables.
+Thus far, the PHP script and MediaWiki have been designed to run under Linux. To install MediaWiki it would help if you're comfortable with Apache, PHP, and MySQL. The help section on Meta has information on obtaining, installing, and configuring MediaWiki and associated software for multiple platforms.
+All-In-One packages provide you with nearly-instant installation under windows, as does the Open Source Uniserver project, for instance. Security is nevertheless to be looked carefully at if you choose such a pre-configured solution. -- Berteh
+See also Wikipedia:PHP script new features.
+Return to the Wikipedia FAQ, Wikipedia software.
+
+

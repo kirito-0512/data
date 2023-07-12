@@ -1,0 +1,52 @@
+5926,
+Computation,
+A computation is any type of arithmetic or non-arithmetic calculation that is well-defined.[1][2] Common examples of computations are mathematical equations and computer algorithms.
+Mechanical or electronic devices (or, historically, people) that perform computations are known as computers. The study of computation is the field of computability, itself a sub-field of computer science.
+The notion that mathematical statements should be ‘well-defined’ had been argued by mathematicians since at least the 1600s,[3] but agreement on a suitable definition proved elusive.[4] A candidate definition was proposed independently by several mathematicians in the 1930s.[5] The best-known variant was formalised by the mathematician Alan Turing, who defined a well-defined statement or calculation as any statement that could be expressed in terms of the initialisation parameters of a Turing Machine.[6] Other (mathematically equivalent) definitions include Alonzo Church's lambda-definability, Herbrand-Gödel-Kleene's general recursiveness and Emil Post's 1-definability.[7]
+Today, any formal statement or calculation that exhibits this quality of well-definedness is termed computable, while the statement or calculation itself is referred to as a computation.
+Turing’s definition apportioned “well-definedness” to a very large class of mathematical statements, including all well-formed algebraic statements, and all statements written in modern computer programming languages.[8]
+Despite the widespread uptake of this definition, there are some mathematical concepts that have no well-defined characterisation under this definition. This includes the halting problem and the busy beaver game. It remains an open question as to whether there exists a more powerful definition of ‘well-defined’ that is able to capture both computable and 'non-computable' statements.[note 1][9]
+Some examples of mathematical statements that are computable include:
+Some examples of mathematical statements that are not computable include:
+Computation can be seen as a purely physical process occurring inside a closed physical system called a computer. Turing's 1937 proof, On Computable Numbers, with an Application to the Entscheidungsproblem, demonstrated that there is a formal equivalence between computable statements and particular physical systems, commonly called computers. Examples of such physical systems are: Turing machines, human mathematicians following strict rules, digital computers, mechanical computers, analog computers and others.
+An alternative account of computation is found throughout the works of Hilary Putnam and others. Peter Godfrey-Smith has dubbed this the "simple mapping account."[10] Gualtiero Piccinini's summary of this account states that a physical system can be said to perform a specific computation when there is a mapping between the state of that system and the computation such that the "microphysical states [of the system] mirror the state transitions between the computational states."[11]
+Philosophers such as Jerry Fodor[12] have suggested various accounts of computation with the restriction that semantic content be a necessary condition for computation (that is, what differentiates an arbitrary physical system from a computing system is that the operands of the computation represent something).  This notion attempts to prevent the logical abstraction of the mapping account of pancomputationalism, the idea that everything can be said to be computing everything.
+Gualtiero Piccinini proposes an account of computation based on mechanical philosophy. It states that physical computing systems are types of mechanisms that, by design, perform physical computation, or the manipulation (by a functional mechanism) of a "medium-independent" vehicle according to a rule. "Medium-independence" requires that the property can be instantiated[clarification needed] by multiple realizers[clarification needed] and multiple mechanisms, and that the inputs and outputs of the mechanism also be multiply realizable. In short, medium-independence allows for the use of physical variables with properties other than voltage (as in typical digital computers); this is imperative in considering other types of computation, such as that which occurs in the brain or in a quantum computer. A rule, in this sense, provides a mapping among inputs, outputs, and internal states of the physical computing system.[13]
+In the theory of computation, a diversity of mathematical models of computation has been developed.
+Typical mathematical models of computers are the following:
+Giunti calls the models studied by computation theory computational systems, and he argues that all of them are mathematical dynamical systems with discrete time and discrete state space.[14]: ch.1  He maintains that a computational system is a complex object which consists of three parts. First, a mathematical dynamical system 
+D
+S
+{\displaystyle DS}
+ with discrete time and discrete state space; second, a computational setup 
+H
+=
+(
+F
+,
+B
+F
+)
+{\displaystyle H=\left(F,B_{F}\right)}
+, which is made up of a theoretical part 
+F
+{\displaystyle F}
+, and a real part 
+B
+F
+{\displaystyle B_{F}}
+; third, an interpretation 
+I
+D
+S
+,
+H
+{\displaystyle I_{DS,H}}
+, which links the dynamical system 
+D
+S
+{\displaystyle DS}
+ with the setup 
+H
+{\displaystyle H}
+.[15]: pp.179–80 

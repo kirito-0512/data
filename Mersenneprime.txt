@@ -1,0 +1,334 @@
+18908,
+Mersenneprime,
+In mathematics, a Mersenne prime is a prime number that is one less than a power of two.  That is, it is a prime number of the form Mn = 2n − 1 for some integer n.  They are named after Marin Mersenne, a French Minim friar, who studied them in the early 17th century.  If n is a composite number then so is 2n − 1.  Therefore, an equivalent definition of the Mersenne primes is that they are the prime numbers of the form Mp = 2p − 1 for some prime p.
+The exponents n which give Mersenne primes are 2, 3, 5, 7, 13, 17, 19, 31, ... (sequence A000043 in the OEIS) and the resulting Mersenne primes are 3, 7, 31, 127, 8191, 131071, 524287, 2147483647, ... (sequence A000668 in the OEIS).
+Numbers of the form Mn = 2n − 1 without the primality requirement may be called Mersenne numbers.  Sometimes, however, Mersenne numbers are defined to have the additional requirement that n be prime.
+The smallest composite Mersenne number with prime exponent n is 211 − 1 = 2047 = 23 × 89.
+Mersenne primes were studied in antiquity because of their close connection to perfect numbers: the Euclid–Euler theorem asserts a one-to-one correspondence between even perfect numbers and Mersenne primes. Many of the largest known primes are Mersenne primes because Mersenne numbers are easier to check for primality.
+As of 2023[ref], 51 Mersenne primes are known. The largest known prime number, 282,589,933 − 1, is a Mersenne prime.[1] Since 1997, all newly found Mersenne primes have been discovered by the Great Internet Mersenne Prime Search, a distributed computing project. In December 2020, a major milestone in the project was passed after all exponents below 100 million were checked at least once.[2]
+Are there infinitely many Mersenne primes?Many fundamental questions about Mersenne primes remain unresolved. It is not even known whether the set of Mersenne primes is finite or infinite. The Lenstra–Pomerance–Wagstaff conjecture asserts that there are infinitely many Mersenne primes and predicts their order of growth. It is also not known whether infinitely many Mersenne numbers with prime exponents are composite, although this would follow from widely believed conjectures about prime numbers, for example, the infinitude of Sophie Germain primes congruent to 3 (mod 4). For these primes p, 2p + 1 (which is also prime) will divide Mp, for example, 23 | M11, 47 | M23, 167 | M83, 263 | M131, 359 | M179, 383 | M191, 479 | M239, and 503 | M251 (sequence A002515 in the OEIS). Since for these primes p, 2p + 1 is congruent to 7 mod 8, so 2 is a quadratic residue mod 2p + 1, and the multiplicative order of 2 mod 2p + 1 must divide 
+
+
+
+
+
+
+(
+2
+p
++
+1
+)
+−
+1
+
+2
+
+
+=
+p
+
+
+{\textstyle {\frac {(2p+1)-1}{2}}=p}
+
+. Since p is a prime, it must be p or 1. However, it cannot be 1 since 
+
+
+
+
+Φ
+
+1
+
+
+(
+2
+)
+=
+1
+
+
+{\displaystyle \Phi _{1}(2)=1}
+
+ and 1 has no prime factors, so it must be p. Hence, 2p + 1 divides 
+
+
+
+
+Φ
+
+p
+
+
+(
+2
+)
+=
+
+2
+
+p
+
+
+−
+1
+
+
+{\displaystyle \Phi _{p}(2)=2^{p}-1}
+
+ and 
+
+
+
+
+2
+
+p
+
+
+−
+1
+=
+
+M
+
+p
+
+
+
+
+{\displaystyle 2^{p}-1=M_{p}}
+
+ cannot be prime.
+The first four Mersenne primes are M2 = 3, M3 = 7, M5 = 31 and M7 = 127 and because the first Mersenne prime starts at M2, all Mersenne primes are congruent to 3 (mod 4). Other than M0 = 0 and M1 = 1, all other Mersenne numbers are also congruent to 3 (mod 4). Consequently, in the prime factorization of a Mersenne number ( ≥ M2 ) there must be at least one prime factor congruent to 3 (mod 4).
+A basic theorem about Mersenne numbers states that if Mp is prime, then the exponent p must also be prime. This follows from the identity
+
+
+
+
+
+
+
+
+
+2
+
+a
+b
+
+
+−
+1
+
+
+
+=
+(
+
+2
+
+a
+
+
+−
+1
+)
+⋅
+
+(
+
+1
++
+
+2
+
+a
+
+
++
+
+2
+
+2
+a
+
+
++
+
+2
+
+3
+a
+
+
++
+⋯
++
+
+2
+
+(
+b
+−
+1
+)
+a
+
+
+
+)
+
+
+
+
+
+
+
+=
+(
+
+2
+
+b
+
+
+−
+1
+)
+⋅
+
+(
+
+1
++
+
+2
+
+b
+
+
++
+
+2
+
+2
+b
+
+
++
+
+2
+
+3
+b
+
+
++
+⋯
++
+
+2
+
+(
+a
+−
+1
+)
+b
+
+
+
+)
+
+.
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}2^{ab}-1&=(2^{a}-1)\cdot \left(1+2^{a}+2^{2a}+2^{3a}+\cdots +2^{(b-1)a}\right)\\&=(2^{b}-1)\cdot \left(1+2^{b}+2^{2b}+2^{3b}+\cdots +2^{(a-1)b}\right).\end{aligned}}}
+
+
+This rules out primality for Mersenne numbers with a composite exponent, such as M4 = 24 − 1 = 15 = 3 × 5 = (22 − 1) × (1 + 22).
+Though the above examples might suggest that Mp is prime for all primes p, this is not the case, and the smallest counterexample is the Mersenne number
+The evidence at hand suggests that a randomly selected Mersenne number is much more likely to be prime than an arbitrary randomly selected odd integer of similar size.[3] Nonetheless, prime values of Mp appear to grow increasingly sparse as p increases. For example, eight of the first 11 primes p give rise to a Mersenne prime Mp (the correct terms on Mersenne's original list), while Mp is prime for only 43 of the first two million prime numbers (up to 32,452,843).
+The current lack of any simple test to determine whether a given Mersenne number is prime makes the search for Mersenne primes a difficult task, since Mersenne numbers grow very rapidly. The Lucas–Lehmer primality test (LLT) is an efficient primality test that greatly aids this task, making it much easier to test the primality of Mersenne numbers than that of most other numbers of the same size. The search for the largest known prime has somewhat of a cult following.[citation needed] Consequently, a large amount of computer power has been expended searching for new Mersenne primes, much of which is now done using distributed computing.
+Arithmetic modulo a Mersenne number is particularly efficient on a binary computer, making them popular choices when a prime modulus is desired, such as the Park–Miller random number generator.  To find a primitive polynomial of Mersenne number order requires knowing the factorization of that number, so Mersenne primes allow one to find primitive polynomials of very high order.  Such primitive trinomials are used in pseudorandom number generators with very large periods such as the Mersenne twister, generalized shift register and Lagged Fibonacci generators.
+Mersenne primes Mp are closely connected to perfect numbers. In the 4th century BC, Euclid proved that if 2p − 1 is prime, then 2p − 1(2p − 1) is a perfect number. In the 18th century, Leonhard Euler proved that, conversely, all even perfect numbers have this form.[4] This is known as the Euclid–Euler theorem. It is unknown whether there are any odd perfect numbers.
+Mersenne primes take their name from the 17th-century French scholar Marin Mersenne, who compiled what was supposed to be a list of Mersenne primes with exponents up to 257.  The exponents listed by Mersenne in 1644 were as follows:
+His list replicated the known primes of his time with exponents up to 19. His next entry, 31, was correct, but the list then became largely incorrect, as Mersenne mistakenly included M67 and M257 (which are composite) and omitted M61, M89, and M107 (which are prime). Mersenne gave little indication of how he came up with his list.[5]
+Édouard Lucas proved in 1876 that M127 is indeed prime, as Mersenne claimed. This was the largest known prime number for 75 years until 1951, when Ferrier found a larger prime, 
+
+
+
+(
+
+2
+
+148
+
+
++
+1
+)
+
+/
+
+17
+
+
+{\displaystyle (2^{148}+1)/17}
+
+, using a desk calculating machine.[6]: page 22  M61 was determined to be prime in 1883 by Ivan Mikheevich Pervushin, though Mersenne claimed it was composite, and for this reason it is sometimes called Pervushin's number. This was the second-largest known prime number, and it remained so until 1911. Lucas had shown another error in Mersenne's list in 1876. Without finding a factor, Lucas demonstrated that M67 is actually composite. No factor was found until a famous talk by Frank Nelson Cole in 1903.[7] Without speaking a word, he went to a blackboard and raised 2 to the 67th power, then subtracted one, resulting in the number 147,573,952,589,676,412,927. On the other side of the board, he multiplied 193,707,721 × 761,838,257,287 and got the same number, then returned to his seat (to applause) without speaking.[8] He later said that the result had taken him "three years of Sundays" to find.[9] A correct list of all Mersenne primes in this number range was completed and rigorously verified only about three centuries after Mersenne published his list.
+Fast algorithms for finding Mersenne primes are available, and as of June 2023[update], the six largest known prime numbers are Mersenne primes.
+The first four Mersenne primes M2 = 3, M3 = 7, M5 = 31 and M7 = 127 were known in antiquity. The fifth, M13 = 8191, was discovered anonymously before 1461; the next two (M17 and M19) were found by Pietro Cataldi in 1588. After nearly two centuries, M31 was verified to be prime by Leonhard Euler in 1772. The next (in historical, not numerical order) was M127, found by Édouard Lucas in 1876, then M61 by Ivan Mikheevich Pervushin in 1883. Two more (M89 and M107) were found early in the 20th century, by R. E. Powers in 1911 and 1914, respectively.
+The most efficient method presently known for testing the primality of Mersenne numbers is the Lucas–Lehmer primality test. Specifically, it can be shown that for prime p > 2, Mp = 2p − 1 is prime if and only if Mp divides Sp − 2, where S0 = 4 and Sk = (Sk − 1)2 − 2 for k > 0.
+During the era of manual calculation, all the exponents up to and including 257 were tested with the Lucas–Lehmer test and found to be composite. A notable contribution was made by retired Yale physics professor Horace Scudder Uhler, who did the calculations for exponents 157, 167, 193, 199, 227, and 229.[10] Unfortunately for those investigators, the interval they were testing contains the largest known relative gap between Mersenne primes: the next Mersenne prime exponent, 521, would turn out to be more than four times as large as the previous record of 127.
+The search for Mersenne primes was revolutionized by the introduction of the electronic digital computer. Alan Turing searched for them on the Manchester Mark 1 in 1949,[11] but the first successful identification of a Mersenne prime, M521, by this means was achieved at 10:00 pm on January 30, 1952, using the U.S. National Bureau of Standards Western Automatic Computer (SWAC) at the Institute for Numerical Analysis at the University of California, Los Angeles, under the direction of D. H. Lehmer, with a computer search program written and run by Prof. R. M. Robinson. It was the first Mersenne prime to be identified in thirty-eight years; the next one, M607, was found by the computer a little less than two hours later. Three more — M1279, M2203, and M2281 — were found by the same program in the next several months. M4,423 was the first prime discovered with more than 1000 digits, M44,497 was the first with more than 10,000, and M6,972,593 was the first with more than a million. In general, the number of digits in the decimal representation of Mn equals ⌊n × log102⌋ + 1, where ⌊x⌋ denotes the floor function (or equivalently ⌊log10Mn⌋ + 1).
+In September 2008, mathematicians at UCLA participating in the Great Internet Mersenne Prime Search (GIMPS) won part of a $100,000 prize from the Electronic Frontier Foundation for their discovery of a very nearly 13-million-digit Mersenne prime. The prize, finally confirmed in October 2009, is for the first known prime with at least 10 million digits.  The prime was found on a Dell OptiPlex 745 on August 23, 2008.  This was the eighth Mersenne prime discovered at UCLA.[12]
+On April 12, 2009, a GIMPS server log reported that a 47th Mersenne prime had possibly been found. The find was first noticed on June 4, 2009, and verified a week later. The prime is 242,643,801 − 1. Although it is chronologically the 47th Mersenne prime to be discovered, it is smaller than the largest known at the time, which was the 45th to be discovered.
+On January 25, 2013, Curtis Cooper, a mathematician at the University of Central Missouri, discovered a 48th Mersenne prime, 257,885,161 − 1 (a number with 17,425,170 digits), as a result of a search executed by a GIMPS server network.[13]
+On January 19, 2016, Cooper published his discovery of a 49th Mersenne prime, 274,207,281 − 1 (a number with 22,338,618 digits), as a result of a search executed by a GIMPS server network.[14][15][16] This was the fourth Mersenne prime discovered by Cooper and his team in the past ten years.
+On September 2, 2016, the Great Internet Mersenne Prime Search finished verifying all tests below M37,156,667, thus officially confirming its position as the 45th Mersenne prime.[17]
+On January 3, 2018, it was announced that Jonathan Pace, a 51-year-old electrical engineer living in Germantown, Tennessee, had found a 50th Mersenne prime, 277,232,917 − 1 (a number with 23,249,425 digits), as a result of a search executed by a GIMPS server network.[18] The discovery was made by a computer in the offices of a church in the same town.[19][20]
+On December 21, 2018, it was announced that The Great Internet Mersenne Prime Search (GIMPS) discovered the largest known prime number, 282,589,933 − 1, having 24,862,048 digits. A computer volunteered by Patrick Laroche from Ocala, Florida made the find on December 7, 2018.[21]
+In late 2020, GIMPS began using a new technique to rule out potential Mersenne primes called the Probable prime (PRP) test, based on development from Robert Gerbicz in 2017, and a simple way to verify tests developed by Krzysztof Pietrzak in 2018. Due to the low error rate and ease of proof, this nearly halved the computing time to rule out potential primes over the Lucas-Lehmer test (as two users would no longer have to perform the same test to confirm the other's result), although exponents passing the PRP test still require one to confirm their primality.[22]
+As of 2023[update], the 51 known Mersenne primes are 2p − 1 for the following p:
+Since they are prime numbers, Mersenne primes are divisible only by 1 and themselves. However, not all Mersenne numbers are Mersenne primes. Mersenne numbers are very good test cases for the special number field sieve algorithm, so often the largest number factorized with this algorithm has been a Mersenne number. As of June 2019[update], 21,193 − 1 is the record-holder,[25] having been factored with a variant of the special number field sieve that allows the factorization of several numbers at once. See integer factorization records for links to more information. The special number field sieve can factorize numbers with more than one large factor. If a number has only one very large factor then other algorithms can factorize larger numbers by first finding small factors and then running a primality test on the cofactor. As of September 2022[update], the largest completely factored number (with probable prime factors allowed) is 212,720,787 − 1 = 1,119,429,257 × 175,573,124,547,437,977 × 8,480,999,878,421,106,991 × q, where q is a 3,829,294-digit probable prime. It was discovered by a GIMPS participant with nickname "Funky Waddle".[26][27] As of September 2022[update], the Mersenne number M1277 is the smallest composite Mersenne number with no known factors; it has no prime factors below 268,[28] and is very unlikely to have any factors below 1065 (~2216).[29]
+The table below shows factorizations for the first 20 composite Mersenne numbers (sequence A244453 in the OEIS).
+The number of factors for the first 500 Mersenne numbers can be found at (sequence A046800 in the OEIS).
+In the mathematical problem Tower of Hanoi, solving a puzzle with an n-disc tower requires Mn steps, assuming no mistakes are made.[30] The number of rice grains on the whole chessboard in the wheat and chessboard problem is M64.[31]
+The asteroid with minor planet number 8191 is named 8191 Mersenne after Marin Mersenne, because 8191 is a Mersenne prime (3 Juno, 7 Iris, 31 Euphrosyne and 127 Johanna having been discovered and named during the 19th century).[32]
+In geometry, an integer right triangle that is primitive and has its even leg a power of 2 ( ≥ 4 ) generates a unique right triangle such that its inradius is always a Mersenne number. For example, if the even leg is 2n + 1 then because it is primitive it constrains the odd leg to be 4n − 1, the hypotenuse to be 4n + 1 and its inradius to be 2n − 1.[33]
+A Mersenne–Fermat number is defined as 2pr − 1/2pr − 1 − 1, with p prime, r natural number, and can be written as MF(p, r). When r = 1, it is a Mersenne number. When p = 2, it is a Fermat number. The only known Mersenne–Fermat primes with r > 1 are
+In fact, MF(p, r) = Φpr(2), where Φ is the cyclotomic polynomial.
+The simplest generalized Mersenne primes are prime numbers of the form f(2n), where f(x) is a low-degree polynomial with small integer coefficients.[35] An example is 264 − 232 + 1, in this case, n = 32, and f(x) = x2 − x + 1; another example is 2192 − 264 − 1, in this case, n = 64, and f(x) = x3 − x − 1.
+It is also natural to try to generalize primes of the form 2n − 1 to primes of the form bn − 1 (for b ≠ 2 and n > 1). However (see also theorems above), bn − 1 is always divisible by b − 1, so unless the latter is a unit, the former is not a prime. This can be remedied by allowing b to be an algebraic integer instead of an integer:
+In the ring of integers (on real numbers), if b − 1 is a unit, then b is either 2 or 0. But 2n − 1 are the usual Mersenne primes, and the formula 0n − 1 does not lead to anything interesting (since it is always −1 for all n > 0). Thus, we can regard a ring of "integers" on complex numbers instead of real numbers, like Gaussian integers and Eisenstein integers.
+If we regard the ring of Gaussian integers, we get the case b = 1 + i and b = 1 − i, and can ask (WLOG) for which n the number (1 + i)n − 1 is a Gaussian prime which will then be called a Gaussian Mersenne prime.[36]
+(1 + i)n − 1 is a Gaussian prime for the following n:
+Like the sequence of exponents for usual Mersenne primes, this sequence contains only (rational) prime numbers.
+As for all Gaussian primes, the norms (that is, squares of absolute values) of these numbers are rational primes:
+One may encounter cases where such a Mersenne prime is also an Eisenstein prime, being of the form b = 1 + ω and b = 1 − ω. In these cases, such numbers are called Eisenstein Mersenne primes.
+(1 + ω)n − 1 is an Eisenstein prime for the following n:
+The norms (that is, squares of absolute values) of these Eisenstein primes are rational primes:
+The other way to deal with the fact that bn − 1 is always divisible by b − 1, it is to simply take out this factor and ask which values of n make
+be prime. (The integer b can be either positive or negative.) If, for example, we take b = 10, we get n values of:
+These primes are called repunit primes. Another example is when we take b = −12, we get n values of:
+It is a conjecture that for every integer b which is not a perfect power, there are infinitely many values of n such that bn − 1/b − 1 is prime. (When b is a perfect power, it can be shown that there is at most one n value such that bn − 1/b − 1 is prime)
+Least n such that bn − 1/b − 1 is prime are (starting with b = 2, 0 if no such n exists)
+For negative bases b, they are (starting with b = −2, 0 if no such n exists)
+Least base b such that bprime(n) − 1/b − 1 is prime are
+For negative bases b, they are
+Another generalized Mersenne number is
+with a, b any coprime integers, a > 1 and −a < b < a. (Since an − bn is always divisible by a − b, the division is necessary for there to be any chance of finding prime numbers.)[a]  We can ask which n makes this number prime.  It can be shown that such n must be primes themselves or equal to 4, and n can be 4 if and only if a + b = 1 and a2 + b2 is prime.[b] It is a conjecture that for any pair (a, b) such that a and b are not both perfect rth powers for any r and −4ab is not a perfect fourth power, there are infinitely many values of n such that an − bn/a − b is prime.[c] However, this has not been proved for any single value of (a, b).
+*Note: if b < 0 and n is even, then the numbers n are not included in the corresponding OEIS sequence.
+When a = b + 1, it is (b + 1)n − bn, a difference of two consecutive perfect nth powers, and if an − bn is prime, then a must be b + 1, because it is divisible by a − b.
+Least n such that (b + 1)n − bn is prime are
+Least b such that (b + 1)prime(n) − bprime(n) is prime are
+
+
+
+Information box
+{'Named after': 'Marin Mersenne', 'No. of known terms': '51', 'Conjectured no. of terms': 'Infinite', 'Subsequence of': 'Mersenne numbers', 'First terms': '3, 7, 31, 127, 8191', 'Largest known term': '282,589,933 − 1 (December 7, 2018)', 'OEIS index': 'A000668\nMersenne primes (of form 2^p − 1 where p is a prime)'}

@@ -1,0 +1,414 @@
+37881,
+Uncertaintyquantification,
+Uncertainty quantification (UQ) is the science of quantitative characterization and estimation of uncertainties in both computational and real world applications. It tries to determine how likely certain outcomes are if some aspects of the system are not exactly known. An example would be to predict the acceleration of a human body in a head-on crash with another car: even if the speed was exactly known, small differences in the manufacturing of individual cars, how tightly every bolt has been tightened, etc., will lead to different results that can only be predicted in a statistical sense.
+Many problems in the natural sciences and engineering are also rife with sources of uncertainty. Computer experiments on computer simulations are the most common approach to study problems in uncertainty quantification.[1][2][3][4]
+Uncertainty can enter mathematical models and experimental measurements in various contexts. One way to categorize the sources of uncertainty is to consider:[5]
+Uncertainty is sometimes classified into two categories,[6][7] prominently seen in medical applications.[8]
+In real life applications, both kinds of uncertainties are present. Uncertainty quantification intends to explicitly express both types of uncertainty separately. The quantification for the aleatoric uncertainties can be relatively straightforward, where traditional (frequentist) probability is the most basic form. Techniques such as the Monte Carlo method are frequently used. A probability distribution can be represented by its moments (in the Gaussian case, the mean and covariance suffice, although, in general, even knowledge of all moments to arbitrarily high order still does not specify the distribution function uniquely), or more recently, by techniques such as Karhunen–Loève and polynomial chaos expansions. To evaluate epistemic uncertainties, the efforts are made to understand the (lack of) knowledge of the system, process or mechanism. Epistemic uncertainty is generally understood through the lens of Bayesian probability, where probabilities are interpreted as indicating how certain a rational person could be regarding a specific claim.
+In mathematics, uncertainty is often characterized in terms of a probability distribution.  From that perspective, epistemic uncertainty means not being certain what the relevant probability distribution is, and aleatoric uncertainty means not being certain what a random sample drawn from a probability distribution will be.
+There are two major types of problems in uncertainty quantification: one is the forward propagation of uncertainty (where the various sources of uncertainty are propagated through the model to predict the overall uncertainty in the system response) and the other is the inverse assessment of model uncertainty and parameter uncertainty (where the model parameters are calibrated simultaneously using test data). There has been a proliferation of research on the former problem and a majority of uncertainty analysis techniques were developed for it. On the other hand, the latter problem is drawing increasing attention in the engineering design community, since uncertainty quantification of a model and the subsequent predictions of the true system response(s) are of great interest in designing robust systems.
+Uncertainty propagation is the quantification of uncertainties in system output(s) propagated from uncertain inputs. It focuses on the influence on the outputs from the parametric variability listed in the sources of uncertainty. The targets of uncertainty propagation analysis can be:
+Given some experimental measurements of a system and some computer simulation results from its mathematical model, inverse uncertainty quantification estimates the discrepancy between the experiment and the mathematical model (which is called bias correction), and estimates the values of unknown parameters in the model if there are any (which is called parameter calibration or simply calibration). Generally this is a much more difficult problem than forward uncertainty propagation; however it is of great importance since it is typically implemented in a model updating process. There are several scenarios in inverse uncertainty quantification:
+Bias correction quantifies the model inadequacy, i.e. the discrepancy between the experiment and the mathematical model. The general model updating formula for bias correction is:
+where 
+
+
+
+
+y
+
+e
+
+
+(
+
+x
+
+)
+
+
+{\displaystyle y^{e}(\mathbf {x} )}
+
+ denotes the experimental measurements as a function of several input variables 
+
+
+
+
+x
+
+
+
+{\displaystyle \mathbf {x} }
+
+, 
+
+
+
+
+y
+
+m
+
+
+(
+
+x
+
+)
+
+
+{\displaystyle y^{m}(\mathbf {x} )}
+
+ denotes the computer model (mathematical model) response, 
+
+
+
+δ
+(
+
+x
+
+)
+
+
+{\displaystyle \delta (\mathbf {x} )}
+
+ denotes the additive discrepancy function (aka bias function), and 
+
+
+
+ε
+
+
+{\displaystyle \varepsilon }
+
+ denotes the experimental uncertainty. The objective is to estimate the discrepancy function 
+
+
+
+δ
+(
+
+x
+
+)
+
+
+{\displaystyle \delta (\mathbf {x} )}
+
+, and as a by-product, the resulting updated model is 
+
+
+
+
+y
+
+m
+
+
+(
+
+x
+
+)
++
+δ
+(
+
+x
+
+)
+
+
+{\displaystyle y^{m}(\mathbf {x} )+\delta (\mathbf {x} )}
+
+. A prediction confidence interval is provided with the updated model as the quantification of the uncertainty.
+Parameter calibration estimates the values of one or more unknown parameters in a mathematical model. The general model updating formulation for calibration is:
+where 
+
+
+
+
+y
+
+m
+
+
+(
+
+x
+
+,
+
+θ
+
+)
+
+
+{\displaystyle y^{m}(\mathbf {x} ,{\boldsymbol {\theta }})}
+
+ denotes the computer model response that depends on several unknown model parameters 
+
+
+
+
+θ
+
+
+
+{\displaystyle {\boldsymbol {\theta }}}
+
+, and 
+
+
+
+
+
+θ
+
+
+∗
+
+
+
+
+{\displaystyle {\boldsymbol {\theta }}^{*}}
+
+ denotes the true values of the unknown parameters in the course of experiments. The objective is to either estimate 
+
+
+
+
+
+θ
+
+
+∗
+
+
+
+
+{\displaystyle {\boldsymbol {\theta }}^{*}}
+
+, or to come up with a probability distribution of 
+
+
+
+
+
+θ
+
+
+∗
+
+
+
+
+{\displaystyle {\boldsymbol {\theta }}^{*}}
+
+ that encompasses the best knowledge of the true parameter values.
+It considers an inaccurate model with one or more unknown parameters, and its model updating formulation combines the two together:
+It is the most comprehensive model updating formulation that includes all possible sources of uncertainty, and it requires the most effort to solve.
+Much research has been done to solve uncertainty quantification problems, though a majority of them deal with uncertainty propagation. During the past one to two decades, a number of approaches for inverse uncertainty quantification problems have also been developed and have proved to be useful for most small- to medium-scale problems.
+Existing uncertainty propagation approaches include probabilistic approaches and non-probabilistic approaches. There are basically six categories of probabilistic approaches for uncertainty propagation:[9]
+For non-probabilistic approaches, interval analysis,[13] Fuzzy theory, Possibility theory and evidence theory are among the most widely used.
+The probabilistic approach is considered as the most rigorous approach to uncertainty analysis in engineering design due to its consistency with the theory of decision analysis. Its cornerstone is the calculation of probability density functions for sampling statistics.[14] This can be performed rigorously for random variables that are obtainable as transformations of Gaussian variables, leading to exact confidence intervals.
+In regression analysis and least squares problems, the standard error of parameter estimates is readily available, which can be expanded into a confidence interval.
+Several methodologies for inverse uncertainty quantification exist under the Bayesian framework. The most complicated direction is to aim at solving problems with both bias correction and parameter calibration. The challenges of such problems include not only the influences from model inadequacy and parameter uncertainty, but also the lack of data from both computer simulations and experiments. A common situation is that the input settings are not the same over experiments and simulations. Another common situation is that parameters derived from experiments are input to simulations. For computationally expensive simulations, then often a surrogate model, e.g. a Gaussian process or a Polynomial Chaos Expansion, is necessary, defining an inverse problem for finding the surrogate model that best approximates the simulations.[4]
+An approach to inverse uncertainty quantification is the modular Bayesian approach.[5][15] The modular Bayesian approach derives its name from its four-module procedure. Apart from the current available data, a prior distribution of unknown parameters should be assigned.
+To address the issue from lack of simulation results, the computer model is replaced with a Gaussian process (GP) model
+where
+
+
+
+
+d
+
+
+{\displaystyle d}
+
+ is the dimension of input variables, and 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ is the dimension of unknown parameters. While 
+
+
+
+
+
+h
+
+
+m
+
+
+(
+⋅
+)
+
+
+{\displaystyle \mathbf {h} ^{m}(\cdot )}
+
+ is pre-defined, 
+
+
+
+
+{
+
+
+
+β
+
+
+m
+
+
+,
+
+σ
+
+m
+
+
+,
+
+ω
+
+k
+
+
+m
+
+
+,
+k
+=
+1
+,
+…
+,
+d
++
+r
+
+}
+
+
+
+{\displaystyle \left\{{\boldsymbol {\beta }}^{m},\sigma _{m},\omega _{k}^{m},k=1,\ldots ,d+r\right\}}
+
+, known as hyperparameters of the GP model, need to be estimated via maximum likelihood estimation (MLE). This module can be considered as a generalized kriging method.
+Similarly with the first module, the discrepancy function is replaced with a GP model
+where
+Together with the prior distribution of unknown parameters, and data from both computer models and experiments, one can derive the maximum likelihood estimates for 
+
+
+
+
+{
+
+
+
+β
+
+
+δ
+
+
+,
+
+σ
+
+δ
+
+
+,
+
+ω
+
+k
+
+
+δ
+
+
+,
+k
+=
+1
+,
+…
+,
+d
+
+}
+
+
+
+{\displaystyle \left\{{\boldsymbol {\beta }}^{\delta },\sigma _{\delta },\omega _{k}^{\delta },k=1,\ldots ,d\right\}}
+
+. At the same time, 
+
+
+
+
+
+β
+
+
+m
+
+
+
+
+{\displaystyle {\boldsymbol {\beta }}^{m}}
+
+ from Module 1 gets updated as well.
+Bayes' theorem is applied to calculate the posterior distribution of the unknown parameters:
+where 
+
+
+
+
+φ
+
+
+
+{\displaystyle {\boldsymbol {\varphi }}}
+
+ includes all the fixed hyperparameters in previous modules.
+Fully Bayesian approach requires that not only the priors for unknown parameters 
+
+
+
+
+θ
+
+
+
+{\displaystyle {\boldsymbol {\theta }}}
+
+ but also the priors for the other hyperparameters 
+
+
+
+
+φ
+
+
+
+{\displaystyle {\boldsymbol {\varphi }}}
+
+ should be assigned. It follows the following steps:[16]
+However, the approach has significant drawbacks:
+The fully Bayesian approach requires a huge amount of calculations and may not yet be practical for dealing with the most complicated modelling situations.[16]
+The theories and methodologies for uncertainty propagation are much better established, compared with inverse uncertainty quantification. For the latter, several difficulties remain unsolved:
+
+

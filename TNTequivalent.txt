@@ -1,0 +1,24 @@
+20991,
+TNTequivalent,
+
+TNT equivalent is a convention for expressing energy, typically used to describe the energy released in an explosion. The ton of TNT is a unit of energy defined by that convention to be 4.184 gigajoules (1 gigacalorie),[1] which is the approximate energy released in the detonation of a metric ton (1,000 kilograms) of TNT. In other words, for each gram of TNT exploded, 4.184 kilojoules (or 4,184 joules) of energy are released.
+This convention intends to compare the destructiveness of an event with that of conventional explosive materials, of which TNT is a typical example, although other conventional explosives such as dynamite contain more energy.
+The "kiloton (of TNT equivalent)" is a unit of energy equal to 4.184 terajoules (4.184×1012 J).[2]
+The "megaton (of TNT equivalent)" is a unit of energy equal to 4.184 petajoules (4.184×1015 J).[3]
+The kiloton and megaton of TNT equivalent have traditionally been used to describe the energy output, and hence the destructive power, of a nuclear weapon. The TNT equivalent appears in various nuclear weapon control treaties, and has been used to characterize the energy released in asteroid impacts.[4]
+Alternative values for TNT equivalency can be calculated according to which property is being compared and when in the two detonation processes the values are measured.[5][6][7][8]
+Where for example the comparison is by energy yield, an explosive's energy is normally expressed for chemical purposes as the thermodynamic work produced by its detonation. For TNT this has been accurately measured as 4,686 J/g from a large sample of air blast experiments, and theoretically calculated to be 4,853 J/g.[9]
+However even on this basis, comparing the actual energy yields of a large nuclear device and an explosion of TNT can be slightly inaccurate. Small TNT explosions, especially in the open, don't tend to burn the carbon-particle and hydrocarbon products of the explosion. Gas-expansion and pressure-change effects tend to "freeze" the burn rapidly. A large open explosion of TNT may maintain fireball temperatures high enough so that some of those products do burn up with atmospheric oxygen.[10]
+Such differences can be substantial.  For safety purposes a range as wide as 2,673–6,702 J has been stated for a gram of TNT upon explosion.[11]
+Thus one can state that a nuclear bomb has a yield of 15 kt (6.3×1013 J), but the explosion of an actual 15,000 ton pile of TNT may yield (for example) 8×1013 J due to additional carbon/hydrocarbon oxidation not present with small open-air charges.[10]
+These complications have been sidestepped by convention. The energy released by one gram of TNT was arbitrarily defined as a matter of convention to be 4,184 J,[12] which is exactly one kilocalorie.
+A kiloton of TNT can be visualized as a cube of TNT 8.46 metres (27.8 ft) on a side.
+1 ton TNT equivalent is approximately:
+The relative effectiveness factor (RE factor) relates an explosive's demolition power to that of TNT, in units of the TNT equivalent/kg (TNTe/kg). The RE factor is the relative mass of TNT to which an explosive is equivalent: The greater the RE, the more powerful the explosive.
+This enables engineers to determine the proper masses of different explosives when applying blasting formulas developed specifically for TNT. For example, if a timber-cutting formula calls for a charge of 1 kg of TNT, then based on octanitrocubane's RE factor of 2.38, it would take only 1.0/2.38 (or 0.42) kg of it to do the same job. Using PETN, engineers would need 1.0/1.66 (or 0.60) kg to obtain the same effects as 1 kg of TNT. With ANFO or ammonium nitrate, they would require 1.0/0.74 (or 1.35) kg or 1.0/0.32 (or 3.125) kg, respectively.
+Calculating a single RE factor for an explosive is, however, impossible. It depends on the specific case or use. Given a pair of explosives, one can produce 2× the shockwave output (this depends on the distance of measuring instruments) but the difference in direct metal cutting ability may be 4× higher for one type of metal and 7× higher for another type of metal. The relative differences between two explosives with shaped charges will be even greater. The table below should be taken as an example and not as a precise source of data.
+
+
+
+Information box
+{'Unit system': 'Non-standard', 'Unit of': 'Energy', 'Symbol': 't\u2002or\u2002ton of TNT', '   SI base units': '   ≈\u20094.184 gigajoules', '   CGS': '   109 calories'}

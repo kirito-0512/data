@@ -1,0 +1,871 @@
+31911,
+Ultrafilter,
+In the mathematical field of order theory, an ultrafilter on a given partially ordered set (or "poset") 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is a certain subset of 
+
+
+
+P
+,
+
+
+{\displaystyle P,}
+
+ namely a maximal filter on 
+
+
+
+P
+;
+
+
+{\displaystyle P;}
+
+ that is, a proper filter on 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ that cannot be enlarged to a bigger proper filter on 
+
+
+
+P
+.
+
+
+{\displaystyle P.}
+
+
+If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is an arbitrary set, its power set 
+
+
+
+℘
+(
+X
+)
+,
+
+
+{\displaystyle \wp (X),}
+
+ ordered by set inclusion, is always a Boolean algebra and hence a poset, and ultrafilters on 
+
+
+
+℘
+(
+X
+)
+
+
+{\displaystyle \wp (X)}
+
+ are usually called ultrafilter on the set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+.[note 1] An ultrafilter on a set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ may be considered as a finitely additive measure on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+. In this view, every subset of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is either considered "almost everything" (has measure 1) or "almost nothing" (has measure 0), depending on whether it belongs to the given ultrafilter or not.[citation needed]
+Ultrafilters have many applications in set theory, model theory, topology[1]: 186  and combinatorics.[2]
+In order theory, an ultrafilter is a subset of a partially ordered set that is maximal among all proper filters.  This implies that any filter that properly contains an ultrafilter has to be equal to the whole poset.
+Formally, if 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is a set, partially ordered by 
+
+
+
+
+≤
+
+
+
+{\displaystyle \,\leq \,}
+
+ then 
+Every ultrafilter falls into exactly one of two categories: principal or free. A principal (or fixed, or trivial) ultrafilter is a filter containing a least element. Consequently, principal ultrafilters are of the form 
+
+
+
+
+F
+
+a
+
+
+=
+{
+x
+:
+a
+≤
+x
+}
+
+
+{\displaystyle F_{a}=\{x:a\leq x\}}
+
+ for some (but not all) elements 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ of the given poset. In this case 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ is called the principal element of the ultrafilter. Any ultrafilter that is not principal is called a free (or non-principal) ultrafilter.
+For ultrafilters on a powerset 
+
+
+
+℘
+(
+X
+)
+,
+
+
+{\displaystyle \wp (X),}
+
+ a principal ultrafilter consists of all subsets of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that contain a given element 
+
+
+
+x
+∈
+X
+.
+
+
+{\displaystyle x\in X.}
+
+ Each ultrafilter on 
+
+
+
+℘
+(
+X
+)
+
+
+{\displaystyle \wp (X)}
+
+ that is also a principal filter is of this form.[1]: 187  Therefore, an ultrafilter 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ on 
+
+
+
+℘
+(
+X
+)
+
+
+{\displaystyle \wp (X)}
+
+ is principal if and only if it contains a finite set.[note 2] If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is infinite, an ultrafilter 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ on 
+
+
+
+℘
+(
+X
+)
+
+
+{\displaystyle \wp (X)}
+
+ is hence non-principal if and only if it contains the Fréchet filter of cofinite subsets of 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+[note 3][citation needed] If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is finite, every ultrafilter is principal.[1]: 187  
+If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is infinite then the Fréchet filter is not an ultrafilter on the power set of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ but it is an ultrafilter on the finite–cofinite algebra of 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+
+Every filter on a Boolean algebra (or more generally, any subset with the finite intersection property) is contained in an ultrafilter (see ultrafilter lemma) and that free ultrafilters therefore exist, but the proofs involve the axiom of choice (AC) in the form of Zorn's lemma. On the other hand, the statement that every filter is contained in an ultrafilter does not imply AC. Indeed, it is equivalent to the Boolean prime ideal theorem (BPIT), a well-known intermediate point between the axioms of Zermelo–Fraenkel set theory (ZF) and the ZF theory augmented by the axiom of choice (ZFC). In general, proofs involving the axiom of choice do not produce explicit examples of free ultrafilters, though it is possible to find explicit examples in some models of ZFC;  for example, Gödel showed that this can be done in the constructible universe where one can write down an explicit global choice function.   In ZF without the axiom of choice, it is possible that every ultrafilter is principal.[3]
+An important special case of the concept occurs if the considered poset is a Boolean algebra.  In this case, ultrafilters are characterized by containing, for each element 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ of the Boolean algebra, exactly one of the elements 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+¬
+a
+
+
+{\displaystyle \lnot a}
+
+ (the latter being the Boolean complement of 
+
+
+
+a
+
+
+{\displaystyle a}
+
+):
+If 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is a Boolean algebra and 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is a proper filter on 
+
+
+
+P
+,
+
+
+{\displaystyle P,}
+
+ then the following statements are equivalent:
+A proof that 1. and 2. are equivalent is also given in (Burris, Sankappanavar, 2012, Corollary 3.13, p.133).[4]
+Moreover, ultrafilters on a Boolean algebra can be related to maximal ideals and homomorphisms to the 2-element Boolean algebra {true, false} (also known as 2-valued morphisms) as follows:
+Given an arbitrary set 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ its power set 
+
+
+
+℘
+(
+X
+)
+,
+
+
+{\displaystyle \wp (X),}
+
+ ordered by set inclusion, is always a Boolean algebra; hence the results of the above section apply. An (ultra)filter on 
+
+
+
+℘
+(
+X
+)
+
+
+{\displaystyle \wp (X)}
+
+ is often called just an "(ultra)filter on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+".[note 1] Given an arbitrary set 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ an ultrafilter on 
+
+
+
+℘
+(
+X
+)
+
+
+{\displaystyle \wp (X)}
+
+ is a set 
+
+
+
+
+
+U
+
+
+
+
+{\displaystyle {\mathcal {U}}}
+
+ consisting of subsets of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that:
+An equivalent form of a given 
+
+
+
+
+
+U
+
+
+
+
+{\displaystyle {\mathcal {U}}}
+
+ is a 2-valued morphism, a function 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ on 
+
+
+
+℘
+(
+X
+)
+
+
+{\displaystyle \wp (X)}
+
+ defined as 
+
+
+
+m
+(
+A
+)
+=
+1
+
+
+{\displaystyle m(A)=1}
+
+ if 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is an element of 
+
+
+
+
+
+U
+
+
+
+
+{\displaystyle {\mathcal {U}}}
+
+ and 
+
+
+
+m
+(
+A
+)
+=
+0
+
+
+{\displaystyle m(A)=0}
+
+ otherwise. Then 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ is finitely additive, and hence a content on 
+
+
+
+℘
+(
+X
+)
+,
+
+
+{\displaystyle \wp (X),}
+
+ and every property of elements of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is either true almost everywhere or false almost everywhere. However, 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ is usually not countably additive, and hence does not define a measure in the usual sense.
+For a filter 
+
+
+
+
+
+F
+
+
+
+
+{\displaystyle {\mathcal {F}}}
+
+ that is not an ultrafilter, one can define 
+
+
+
+m
+(
+A
+)
+=
+1
+
+
+{\displaystyle m(A)=1}
+
+ if 
+
+
+
+A
+∈
+
+
+F
+
+
+
+
+{\displaystyle A\in {\mathcal {F}}}
+
+ and 
+
+
+
+m
+(
+A
+)
+=
+0
+
+
+{\displaystyle m(A)=0}
+
+ if 
+
+
+
+X
+∖
+A
+∈
+
+
+F
+
+
+,
+
+
+{\displaystyle X\setminus A\in {\mathcal {F}},}
+
+ leaving 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ undefined elsewhere.[5]
+Ultrafilters on power sets are useful in topology, especially in relation to compact Hausdorff spaces, and in model theory in the construction of ultraproducts and ultrapowers. Every ultrafilter on a compact Hausdorff space converges to exactly one point. Likewise, ultrafilters on Boolean algebras play a central role in Stone's representation theorem. In set theory ultrafilters are used to show that the axiom of constructibility is incompatible with the existence of a measurable cardinal κ. This is proved by taking the ultrapower of the set theoretical universe modulo a κ-complete, non-principal ultrafilter.[6]
+The set 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ of all ultrafilters of a poset 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ can be topologized in a natural way, that is in fact closely related to the above-mentioned representation theorem. For any element 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ of 
+
+
+
+P
+
+
+{\displaystyle P}
+
+, let 
+
+
+
+
+D
+
+a
+
+
+=
+
+{
+
+U
+∈
+G
+:
+a
+∈
+U
+
+}
+
+.
+
+
+{\displaystyle D_{a}=\left\{U\in G:a\in U\right\}.}
+
+ This is most useful when 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is again a Boolean algebra, since in this situation the set of all 
+
+
+
+
+D
+
+a
+
+
+
+
+{\displaystyle D_{a}}
+
+ is a base for a compact Hausdorff topology on 
+
+
+
+G
+
+
+{\displaystyle G}
+
+. Especially, when considering the ultrafilters on a powerset 
+
+
+
+℘
+(
+S
+)
+,
+
+
+{\displaystyle \wp (S),}
+
+ the resulting topological space is the Stone–Čech compactification of a discrete space of cardinality 
+
+
+
+
+|
+
+S
+
+|
+
+.
+
+
+{\displaystyle |S|.}
+
+
+The ultraproduct construction in model theory uses ultrafilters to produce a new model starting from a sequence of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+-indexed models; for example, the compactness theorem can be proved this way.
+In the special case of ultrapowers, one gets elementary extensions of structures. For example, in nonstandard analysis, the hyperreal numbers can be constructed as an ultraproduct of the real numbers, extending the domain of discourse from real numbers to sequences of real numbers. This sequence space is regarded as a superset of the reals by identifying each real with the corresponding constant sequence. To extend the familiar functions and relations (e.g., + and <) from the reals to the hyperreals, the natural idea is to define them pointwise. But this would lose important logical properties of the reals; for example, pointwise < is not a total ordering. So instead the functions and relations are defined "pointwise modulo" 
+
+
+
+U
+
+
+{\displaystyle U}
+
+, where 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ is an ultrafilter on the index set of the sequences; by Łoś' theorem, this preserves all properties of the reals that can be stated in first-order logic. If 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ is nonprincipal, then the extension thereby obtained is nontrivial.
+In geometric group theory, non-principal ultrafilters are used to define the asymptotic cone of a group. This construction yields a rigorous way to consider looking at the group from infinity, that is the large scale geometry of the group. Asymptotic cones are particular examples of ultralimits of metric spaces.
+Gödel's ontological proof of God's existence uses as an axiom that the set of all "positive properties" is an ultrafilter.
+In social choice theory, non-principal ultrafilters are used to define a rule (called a social welfare function) for aggregating the preferences of infinitely many individuals. Contrary to Arrow's impossibility theorem for finitely many individuals, such a rule satisfies the conditions (properties) that Arrow proposes (for example, Kirman and Sondermann, 1972).[7] Mihara (1997,[8] 1999)[9] shows, however, such rules are practically of limited interest to social scientists, since they are non-algorithmic or non-computable.
+
+

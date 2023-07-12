@@ -1,0 +1,425 @@
+8263,
+Dissociationconstant,
+In chemistry, biochemistry, and pharmacology, a dissociation constant (
+
+
+
+
+K
+
+D
+
+
+
+
+{\displaystyle K_{D}}
+
+) is a specific type of equilibrium constant that measures the propensity of a larger object to separate (dissociate) reversibly into smaller components, as when a complex falls apart into its component molecules, or when a salt splits up into its component ions.  The dissociation constant is the inverse of the association constant. In the special case of salts, the dissociation constant can also be called an ionization constant.[1]
+[2]
+For a general reaction:
+in which a complex 
+
+
+
+
+
+A
+
+
+x
+
+
+
+
+B
+
+
+y
+
+
+
+
+{\displaystyle {\ce {A}}_{x}{\ce {B}}_{y}}
+
+ breaks down into x A subunits and y B subunits, the dissociation constant is defined as
+where [A], [B], and [Ax By] are the equilibrium concentrations of A, B, and the complex Ax By, respectively.
+One reason for the popularity of the dissociation constant in biochemistry and pharmacology is that in the frequently encountered case where x = y = 1, KD has a simple physical interpretation: when 
+
+
+
+[
+
+A
+
+]
+=
+
+K
+
+D
+
+
+
+
+{\displaystyle [{\ce {A}}]=K_{D}}
+
+, then 
+
+
+
+[
+
+B
+
+]
+=
+[
+
+AB
+
+]
+
+
+{\displaystyle [{\ce {B}}]=[{\ce {AB}}]}
+
+ or equivalently 
+
+
+
+
+
+
+
+[
+
+AB
+
+]
+
+
+
+[
+
+B
+
+]
+
++
+[
+
+AB
+
+]
+
+
+
+
+=
+
+
+
+1
+2
+
+
+
+
+
+{\displaystyle {\tfrac {[{\ce {AB}}]}{{[{\ce {B}}]}+[{\ce {AB}}]}}={\tfrac {1}{2}}}
+
+.  That is, KD, which has the dimensions of concentration, equals the concentration of free A at which half of the total molecules of B are associated with A.  This simple interpretation does not apply for higher values of x or y. It also presumes the absence of competing reactions, though the derivation can be extended to explicitly allow for and describe competitive binding.[citation needed]  It is useful as a quick description of the binding of a substance, in the same way that EC50 and IC50 describe the biological activities of substances.
+Experimentally, the concentration of the molecule complex [AB] is obtained indirectly from the measurement of the concentration of a free molecules, either [A] or [B].[3]
+In principle, the total amounts of molecule [A]0 and [B]0 added to the reaction are known.
+They separate into free and bound components according to the mass conservation principle:
+To track the concentration of the complex [AB], one substitutes the concentration of the free molecules ([A] or [B]), of the respective conservation equations, by the definition of the dissociation constant,
+This yields the concentration of the complex related to the concentration of either one of the free molecules
+Many biological proteins and enzymes can possess more than one binding site.[3]
+Usually, when a ligand L binds with a macromolecule M, it can influence binding kinetics of other ligands L binding to the macromolecule.
+A simplified mechanism can be formulated if the affinity of all binding sites can be considered independent of the number of ligands bound to the macromolecule. 
+This is valid for macromolecules composed of more than one, mostly identical, subunits. It can be then assumed that each of these n subunits are identical, symmetric and that they possess only one single binding site. Then, the concentration of bound ligands 
+
+
+
+
+
+
+[
+L
+]
+
+
+bound
+
+
+
+
+
+
+
+
+{\displaystyle {\ce {[L]_{bound}}}}
+
+ becomes
+In this case, 
+
+
+
+
+
+
+[
+L
+]
+
+
+
+bound
+
+
+≠
+
+
+[
+LM
+]
+
+
+
+
+{\displaystyle {\ce {[L]}}_{\text{bound}}\neq {\ce {[LM]}}}
+
+, but comprises all partially saturated forms of the macromolecule:
+where the saturation occurs stepwise
+For the derivation of the general binding equation a saturation function 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ is defined as the quotient from the portion of bound ligand to the total
+amount of the macromolecule:
+Even if all microscopic dissociation constants[clarification needed] are identical, they differ from the macroscopic ones and there are differences between each binding step.[clarification needed]
+The general relationship between both types of dissociation constants for n binding sites is
+Hence, the ratio of bound ligand to macromolecules becomes
+where 
+
+
+
+
+
+
+(
+
+
+n
+i
+
+
+)
+
+
+
+=
+
+
+
+n
+!
+
+
+(
+n
+−
+i
+)
+!
+i
+!
+
+
+
+
+
+{\displaystyle {\binom {n}{i}}={\frac {n!}{(n-i)!i!}}}
+
+ is the binomial coefficient.
+Then, the first equation is proved by applying the binomial rule
+The dissociation constant is commonly used to describe the affinity between a ligand 
+
+
+
+
+L
+
+
+
+{\displaystyle {\ce {L}}}
+
+ (such as a drug) and a protein 
+
+
+
+
+P
+
+
+
+{\displaystyle {\ce {P}}}
+
+; i.e., how tightly a ligand binds to a particular protein.  Ligand-protein affinities are influenced by  non-covalent intermolecular interactions between the two molecules such as hydrogen bonding,  electrostatic interactions, hydrophobic and van der Waals forces. Affinities can also be affected by high concentrations of other macromolecules, which causes macromolecular crowding.[4][5]
+The formation of a ligand-protein complex 
+
+
+
+
+LP
+
+
+
+{\displaystyle {\ce {LP}}}
+
+ can be described by a two-state process
+the corresponding dissociation constant is defined
+where 
+
+
+
+
+
+[
+P
+]
+
+,
+
+[
+L
+]
+
+
+
+
+{\displaystyle {\ce {[P], [L]}}}
+
+ and 
+
+
+
+
+
+[
+LP
+]
+
+
+
+
+{\displaystyle {\ce {[LP]}}}
+
+ represent molar concentrations of the protein, ligand and complex, respectively.
+The dissociation constant has molar units (M) and corresponds to the ligand concentration 
+
+
+
+
+
+[
+L
+]
+
+
+
+
+{\displaystyle {\ce {[L]}}}
+
+ at which half of the proteins are occupied at equilibrium,[6] i.e., the concentration of ligand at which the concentration of protein with ligand bound 
+
+
+
+
+
+[
+LP
+]
+
+
+
+
+{\displaystyle {\ce {[LP]}}}
+
+ equals the concentration of protein with no ligand bound 
+
+
+
+
+
+[
+P
+]
+
+
+
+
+{\displaystyle {\ce {[P]}}}
+
+.  The smaller the dissociation constant, the more tightly bound the ligand is, or the higher the affinity between ligand and protein.  For example, a ligand with a nanomolar (nM) dissociation constant binds more tightly to a particular protein than a ligand with a micromolar (μM) dissociation constant.
+Sub-picomolar dissociation constants as a result of non-covalent binding interactions between two molecules are rare.  Nevertheless, there are some important exceptions.  Biotin and avidin bind with a dissociation constant of roughly 10−15 M = 1 fM = 0.000001 nM.[7]
+Ribonuclease inhibitor proteins may also bind to ribonuclease with a similar 10−15 M affinity.[8]  
+The dissociation constant for a particular ligand-protein interaction  can change significantly with solution conditions (e.g., temperature, pH and salt concentration). The effect of different solution conditions is to effectively modify the strength of any intermolecular interactions holding a particular ligand-protein complex together.
+Drugs can produce harmful side effects through interactions with proteins for which they were not meant to or designed to interact. Therefore, much pharmaceutical research is aimed at designing drugs that bind to only their target proteins (Negative Design) with high affinity (typically 0.1-10 nM) or at improving the affinity between a particular drug and its in-vivo protein target (Positive Design).
+In the specific case of antibodies (Ab) binding to antigen (Ag), usually the term affinity constant refers to the association constant.
+This chemical equilibrium is also the ratio of the on-rate (kforward or ka) and off-rate (kback or kd) constants. Two antibodies can have the same affinity, but one may have both a high on- and off-rate constant, while the other may have both a low on- and off-rate constant.
+For the deprotonation of acids, K is known as Ka, the  acid dissociation constant.  Stronger acids, for example sulfuric or phosphoric acid, have larger dissociation constants; weaker acids, like acetic acid, have smaller dissociation constants.
+(The symbol 
+
+
+
+
+K
+
+a
+
+
+
+
+{\displaystyle K_{a}}
+
+, used for the acid dissociation constant, can lead to confusion with the association constant and it may be necessary to see the reaction or the equilibrium expression to know which is meant.)
+Acid dissociation constants are sometimes expressed by 
+
+
+
+p
+
+K
+
+a
+
+
+
+
+{\displaystyle pK_{a}}
+
+, which is defined as:
+This 
+
+
+
+
+p
+
+K
+
+
+{\displaystyle \mathrm {p} K}
+
+ notation is seen in other contexts as well; it is mainly used for covalent dissociations (i.e., reactions in which chemical bonds are made or broken) since such dissociation constants can vary greatly.
+A molecule can have several acid dissociation constants. In this regard, that is depending on the number of the protons they can give up, we define monoprotic, diprotic and triprotic acids.  The first (e.g., acetic acid or ammonium) have only one dissociable group, the second (carbonic acid, bicarbonate, glycine) have two dissociable groups and the third (e.g., phosphoric acid) have three dissociable groups. In the case of multiple pK values they are designated by indices: pK1, pK2, pK3 and so on. For amino acids, the pK1 constant refers to its carboxyl (-COOH) group, pK2 refers to its amino (-NH2) group and the pK3 is the pK value of its side chain.
+The dissociation constant of water is denoted Kw:
+The concentration of water, [H2O], is omitted by convention, which means that the value of Kw differs from the value of Keq that would be computed using that concentration.
+The value of Kw varies with temperature, as shown in the table below.  This variation must be taken into account when making precise measurements of quantities such as pH.
+
+

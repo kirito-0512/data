@@ -1,0 +1,89 @@
+19891,
+Macron(diacritic),
+A macron (/ˈmækrɒn, ˈmeɪ-/) is a diacritical mark: it is a straight bar ¯ placed above a letter, usually a vowel. Its name derives from Ancient Greek μακρόν (makrón) 'long' because it was originally used to mark long or heavy syllables in Greco-Roman metrics. It now more often marks a long vowel. In the International Phonetic Alphabet, the macron is used to indicate a mid-tone; the sign for a long vowel is instead a modified triangular colon ⟨ː⟩.
+The opposite is the breve ⟨˘⟩, which marks a short or light syllable or a short vowel.
+In Greco-Roman metrics and in the description of the metrics of other literatures, the macron was introduced and is still widely used in dictionaries and educational materials to mark a long (heavy) syllable. Even relatively recent classical Greek and Latin dictionaries[1] are still concerned with indicating only the length (weight) of syllables; that is why most still do not indicate the length of vowels in syllables that are otherwise metrically determined. Many textbooks about Ancient Rome and Greece use the macron, even if it was not actually used at that time (an apex was used if vowel length was marked in Latin).
+The following languages or transliteration systems use the macron to mark long vowels:
+The following languages or alphabets use the macron to mark tones:
+Sometimes the macron marks an omitted n or m, like the tilde:
+In romanizations of Hebrew, the macron below is typically used to mark the begadkefat consonant lenition. However, for typographical reasons a regular macron is used on p and g instead: p̄, ḡ.
+The macron is used in the orthography of a number of vernacular languages of the Solomon Islands and Vanuatu, particularly those first transcribed by Anglican missionaries. The macron has no unique value, and is simply used to distinguish between two different phonemes.
+Thus, in several languages of the Banks Islands, including Mwotlap,[16] the simple m stands for /m/, but an m with a macron (m̄) is a rounded labial-velar nasal /ŋ͡mʷ/; while the simple n stands for the common alveolar nasal /n/, an n with macron (n̄) represents the velar nasal /ŋ/; the vowel ē stands for a (short) higher /ɪ/ by contrast with plain e /ɛ/; likewise ō /ʊ/ contrasts with plain o /ɔ/.
+In Hiw orthography, the consonant r̄ stands for the prestopped velar lateral approximant /ᶢʟ/.[17]
+In Araki, the same symbol r̄ encodes the alveolar trill /r/ – by contrast with r, which encodes the alveolar flap /ɾ/.[18]
+In Bislama (orthography before 1995), Lamenu and Lewo, a macron is used on two letters m̄ p̄.[19][20] m̄ represents /mʷ/, and p̄ represents /pʷ/. The orthography after 1995 (which has no diacritics) has these written as mw and pw.
+In Kokota, ḡ is used for the velar stop /ɡ/, but g without macron is the voiced velar fricative /ɣ/.[21]
+In Marshallese, a macron is used on four letters – ā n̄ ō ū – whose pronunciations differ from the unmarked a n o u. Marshallese uses a vertical vowel system with three to four vowel phonemes, but traditionally their allophones have been written out, so vowel letters with macron are used for some of these allophones. Though the standard diacritic involved is a macron, there are no other diacritics used above letters, so in practice other diacritics can and have been used in less polished writing or print, yielding nonstandard letters like ã ñ õ û, depending on displayability of letters in computer fonts.
+In Obolo, the simple n stands for the common alveolar nasal /n/, while an n with macron (n̄) represents the velar nasal /ŋ/.[22]
+Also, in some instances, a diacritic will be written like a macron, although it represents another diacritic whose standard form is different:
+Continuing previous Latin scribal abbreviations, letters with combining macron can be used in various European languages to represent the overlines indicating various medical abbreviations, particularly including:
+Note, however, that abbreviations involving the letter h take their macron halfway up the ascending line rather than at the normal height for unicode macrons and overlines: ħ. This is separately encoded in Unicode with the symbols using bar diacritics and appears shorter than other macrons in many fonts.
+The overline is a typographical symbol similar to the macron, used in a number of ways in mathematics and science. For example, it is used to represent complex conjugation:
+
+
+
+
+z
+=
+a
++
+b
+i
+;
+
+
+
+z
+¯
+
+
+=
+a
+−
+b
+i
+
+
+{\displaystyle z=a+bi;\quad {\overline {z}}=a-bi}
+
+
+and to represent a line segment in geometry (e.g., 
+
+
+
+
+
+
+A
+B
+
+¯
+
+
+
+
+{\displaystyle {\overline {AB}}}
+
+), sample means in statistics (e.g., 
+
+
+
+
+
+X
+¯
+
+
+
+
+{\displaystyle {\overline {X}}}
+
+) and negations in logic.[24] It is also used in Hermann–Mauguin notation.[how?]
+In music, the tenuto marking resembles the macron.
+The macron is also used in German lute tablature to distinguish repeating alphabetic characters.
+The Unicode Standard encodes combining and precomposed macron characters:
+Macron-related Unicode characters not included in the table above:
+In LaTeX a macron is created with the command "\=", for example: M\=aori for Māori.
+In OpenOffice, if the extension Compose Special Characters is installed,[27] a macron may be added by following the letter with a hyphen and pressing the user's predefined shortcut key for composing special characters. A macron may also be added by following the letter with the character's four-digit hex-code, and pressing the user's predefined shortcut key for adding unicode characters.
+
+

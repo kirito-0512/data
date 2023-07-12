@@ -1,0 +1,42 @@
+30334,
+Thesaurus,
+A thesaurus (plural thesauri or thesauruses), sometimes called a synonym dictionary or dictionary of synonyms, is a reference work which arranges words by their meanings,[1][2] sometimes as a hierarchy of broader and narrower terms, sometimes simply as lists of synonyms and antonyms. They are often used by writers to help find the best word to express an idea:
+...to find the word, or words, by which [an] idea may be most fitly and aptly expressedSynonym dictionaries have a long history. The word 'thesaurus' was used in 1852 by Peter Mark Roget for his Roget's Thesaurus.
+While some works called "thesauri", such as Roget's Thesaurus, group words in a hierarchical hypernymic taxonomy of concepts, others are organized alphabetically[4][2] or in some other way.
+Most thesauri do not include definitions, but many dictionaries include listings of synonyms.
+Some thesauri and dictionary synonym notes characterize the distinctions between similar words, with notes on their "connotations and varying shades of meaning".[5] Some synonym dictionaries are primarily concerned with differentiating synonyms by meaning and usage. Usage manuals such as Fowler's Dictionary of Modern English Usage or Garner's Modern English Usage often prescribe appropriate usage of synonyms.
+Writers sometimes use thesauri to avoid repetition of words — elegant variation — which is often criticized by usage manuals: "writers sometimes use them not just to vary their vocabularies but to dress them up too much".[6]
+The word "thesaurus" comes from Latin thēsaurus, which in turn comes from Greek θησαυρός (thēsauros) 'treasure, treasury, storehouse'.[7] The word thēsauros is of uncertain etymology.[7][8][9]
+Until the 19th century, a thesaurus was any dictionary or encyclopedia,[9] as in the Thesaurus Linguae Latinae (Dictionary of the Latin Language, 1532), and the Thesaurus Linguae Graecae (Dictionary of the Greek Language, 1572). It was Roget who introduced the meaning "collection of words arranged according to sense", in 1852.[7]
+In antiquity, Philo of Byblos authored the first text that could now be called a thesaurus. In Sanskrit, the Amarakosha is a thesaurus in verse form, written in the 4th century.
+The study of synonyms became an important theme in 18th-century philosophy, and Condillac wrote, but never published, a dictionary of synonyms.[10][11]
+Some early synonym dictionaries include:
+Roget's Thesaurus, first compiled in 1805 by Peter Mark Roget, and published in 1852, follows John Wilkins' semantic arrangement of 1668. Unlike earlier synonym dictionaries, it does not include definitions or aim to help the user to choose among synonyms. It has been continuously in print since 1852, and remains widely used across the English-speaking world.[20] Roget described his thesaurus in the foreword to the first edition:[21]
+It is now nearly fifty years since I first projected a system of verbal classification similar to that on which the present work is founded. Conceiving that such a compilation might help to supply my own deficiencies, I had, in the year 1805, completed a classed catalogue of words on a small scale, but on the same principle, and nearly in the same form, as the Thesaurus now published.
+Roget's original thesaurus was organized into 1000 conceptual Heads (e.g., 806 Debt) organized into a four-level taxonomy. For example, debt is classed under V.ii.iv:[22]
+Each head includes direct synonyms: Debt, obligation, liability, ...; related concepts: interest, usance, usury; related persons: debtor, debitor, ... defaulter (808); verbs: to be in debt, to owe, ... see Borrow (788); phrases: to run up a bill or score, ...; and adjectives: in debt, indebted, owing, .... Numbers in parentheses are cross-references to other Heads.
+The book starts with a Tabular Synopsis of Categories laying out the hierarchy,[23] then the main body of the thesaurus listed by Head, and then an alphabetical index listing the different Heads under which a word may be found: Liable, subject to, 177; debt, 806; duty, 926.[24]
+Some recent versions have kept the same organization, though often with more detail under each Head.[25] Others have made modest changes such as eliminating the four-level taxonomy and adding new heads: one has 1075 Heads in fifteen Classes.[26]
+Some non-English thesauri have also adopted this model.[27]
+In addition to its taxonomic organization, the Historical Thesaurus of English (2009) includes the date when each word came to have a given meaning. It has the novel and unique goal of "charting the semantic development of the huge and varied vocabulary of English".
+Different senses of a word are listed separately. For example, three difference senses of "debt" are listed in three different places in the taxonomy:[28]
+A sum of money that is owed or due; a liability or obligation to pay
+An immaterial debt; an obligation to do something
+An offence requiring expiation (figurative, Biblical)
+Other thesauri and synonym dictionaries are organized alphabetically.
+Most repeat the list of synonyms under each word.[29][30][31][32]
+Some designate a principal entry for each concept and cross-reference it.[33][34][35]
+A third system interfiles words and conceptual headings. Francis March's Thesaurus Dictionary gives for liability: CONTINGENCY, CREDIT–DEBT, DUTY–DERELICTION, LIBERTY–SUBJECTION, MONEY, each of which is a conceptual heading.[36] The CREDIT—DEBT article has multiple subheadings, including Nouns of Agent, Verbs, Verbal Expressions, etc. Under each are listed synonyms with brief definitions, e.g. "Credit. Transference of property on promise of future payment." The conceptual headings are not organized into a taxonomy.
+Benjamin Lafaye's Synonymes français (1841) is organized around morphologically related families of synonyms (e.g. logis, logement),[37] and his Dictionnaire des synonymes de la langue française (1858) is mostly alphabetical, but also includes a section on morphologically related synonyms, which is organized by prefix, suffix, or construction.[11]
+Before Roget, most thesauri and dictionary synonym notes included discussions of the differences among near-synonyms, as do some modern ones.[32][31][30][5]
+Merriam-Webster's Dictionary of Synonyms is a stand-alone modern English synonym dictionary that does discuss differences.[33] In addition, many general English dictionaries include synonym notes.
+Several modern synonym dictionaries in French are primarily devoted to discussing the precise demarcations among synonyms.[38][11]
+Some include short definitions.[36]
+Some give illustrative phrases.[32]
+Some include lists of objects within the category (hyponyms), e.g. breeds of dogs.[32]
+Bilingual synonym dictionaries are designed for language learners. One such dictionary gives various French words listed alphabetically, with an English translation and an example of use.[39] Another one is organized taxonomically with examples, translations, and some usage notes.[40]
+In library and information science, a thesaurus is a kind of controlled vocabulary.
+A thesaurus can form part of an ontology and be represented in the Simple Knowledge Organization System (SKOS).[41]
+Thesauri are used in natural language processing for word-sense disambiguation[42] and text simplification for machine translation systems.[43]
+
+

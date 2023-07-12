@@ -1,0 +1,405 @@
+9313,
+Expandergraph,
+In graph theory, an expander graph is a sparse graph that has strong connectivity properties, quantified using vertex, edge or spectral expansion. Expander constructions have spawned research in pure and applied mathematics, with several applications to complexity theory, design of robust computer networks, and the theory of error-correcting codes.[1]
+Intuitively, an expander graph is a finite, undirected multigraph in which every subset of the vertices that  is not "too large" has a "large" boundary. Different formalisations of these notions give rise to different notions of expanders: edge expanders, vertex expanders, and spectral expanders, as defined below.
+A disconnected graph is not an expander, since the boundary of a connected component is empty. Every connected graph is an expander; however, different connected graphs have different expansion parameters. The complete graph has the best expansion property, but it has largest possible degree. Informally, a graph is a good expander if it has low degree and high expansion parameters.
+The edge expansion (also isoperimetric number or Cheeger constant) h(G) of a graph G on n vertices is defined as
+which can also be written as ∂S = E(S, S)  with S := V(G) \ S the complement of S and 
+the edges between the subsets of vertices A,B ⊆ V(G).
+In the equation, the minimum is over all nonempty sets S of at most n⁄2 vertices and ∂S is the edge boundary of S, i.e., the set of edges with exactly one endpoint in S.[2]
+Intuitively, 
+is the minimum number of edges that need to be cut in order to split the graph in two.
+The edge expansion normalizes this concept by dividing with smallest number of vertices among the two parts.
+To see how the normalization can drastically change the value, consider the following example.
+Take two complete graphs with the same number of vertices n and add n edges between the two graphs by connecting their vertices one-to-one.
+The minimum cut will be n but the edge expansion will be 1.
+Notice that in min |∂S|, the optimization can be equivalently done either over 0 ≤ |S| ≤ n⁄2 or over any non-empty subset, since  
+
+
+
+E
+(
+S
+,
+
+
+S
+¯
+
+
+)
+=
+E
+(
+
+
+S
+¯
+
+
+,
+S
+)
+
+
+{\displaystyle E(S,{\overline {S}})=E({\overline {S}},S)}
+
+. The same is not true for h(G) because of the normalization by |S|.
+If we want to write h(G) with an optimization over all non-empty subsets, we can rewrite it as 
+The vertex isoperimetric number hout(G) (also vertex expansion or magnification) of a graph G is defined as
+where ∂out(S) is the outer boundary of S, i.e., the set of vertices in V(G) \ S with at least one neighbor in S.[3] In a variant of this definition (called unique neighbor expansion) ∂out(S) is replaced by the set of vertices in V with exactly one neighbor in S.[4]
+The vertex isoperimetric number hin(G) of a graph G is defined as
+where 
+
+
+
+
+∂
+
+in
+
+
+(
+S
+)
+
+
+{\displaystyle \partial _{\text{in}}(S)}
+
+ is the inner boundary of S, i.e., the set of vertices in S with at least one neighbor in V(G) \ S.[3]
+When G is d-regular, a linear algebraic definition of expansion is possible based on the eigenvalues of the adjacency matrix A = A(G) of G, where Aij is the number of edges between vertices i and j.[5] Because A is symmetric, the spectral theorem implies that A has n real-valued eigenvalues λ1 ≥ λ2 ≥ … ≥ λn.  It is known that all these eigenvalues are in [−d, d] and more specifically, it is known that λn = −d if and only if G is bipartite.
+More formally, we refer to an n-vertex, d-regular graph with 
+as an (n, d, λ)-graph. The bound given by an (n, d, λ)-graph on λi for i ≠ 1 is useful many contexts, including the expander mixing lemma.
+Because G is regular, the uniform distribution 
+
+
+
+u
+∈
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle u\in \mathbb {R} ^{n}}
+
+ with ui = 1⁄n for all i = 1, …, n is the stationary distribution of G. That is, we have Au = du, and u is an eigenvector of A with eigenvalue λ1 = d, where d is the degree of the vertices of G. The spectral gap of G is defined to be d − λ2, and it measures the spectral expansion of the graph G.[6]
+If we set
+as this is the largest eigenvalue corresponding to an eigenvector orthogonal to u, it can be equivalently defined using the Rayleigh quotient:
+where 
+is the 2-norm of the vector 
+
+
+
+v
+∈
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle v\in \mathbb {R} ^{n}}
+
+.
+The normalized versions of these definitions are also widely used and more convenient in stating some results. Here one considers the matrix 1/dA, which is the Markov transition matrix of the graph G. Its eigenvalues are between −1 and 1. For not necessarily regular graphs, the spectrum of a graph can be defined similarly using the eigenvalues of the Laplacian matrix. For directed graphs, one considers the singular values of the adjacency matrix A, which are equal to the roots of the eigenvalues of the symmetric matrix ATA.
+The expansion parameters defined above are related to each other. In particular, for any d-regular graph G,
+Consequently, for constant degree graphs, vertex and edge expansion are qualitatively the same.
+When G is d-regular, meaning each vertex is of degree d, there is a relationship between the isoperimetric constant h(G) and the gap d − λ2 in the spectrum of the adjacency operator of G. By standard spectral graph theory, the trivial eigenvalue of the adjacency operator of a d-regular graph is λ1 = d and the first non-trivial eigenvalue is λ2. If G is connected, then λ2 < d. An inequality due to Dodziuk[7] and independently Alon and Milman[8] states that[9]
+In fact, the lower bound is tight. The lower bound is achieved in limit for the hypercube Qn, where h(G) = 1 and d – λ = 2. The upper bound is (asymptotically) achieved for a cycle, where H(Cn) = 4/n= Θ(1/n) and d – λ = 2-2cos(2
+
+
+
+π
+
+
+{\displaystyle \pi }
+
+/n) ≈ (2
+
+
+
+π
+
+
+{\displaystyle \pi }
+
+/n)^2= Θ(1/n2).[1] A better bound is given in [10] as 
+These inequalities are closely related to the Cheeger bound for Markov chains and can be seen as a discrete version of Cheeger's inequality in Riemannian geometry.
+Similar connections between vertex isoperimetric numbers and the spectral gap have also been studied:[11]
+Asymptotically speaking, the quantities h2⁄d, hout, and hin2 are all bounded above by the spectral gap O(d – λ2).
+There are three general strategies for explicitly constructing families of expander graphs.[12] The first strategy is algebraic and group-theoretic, the second strategy is analytic and uses additive combinatorics, and the third strategy is combinatorial and uses the zig-zag and related graph products. Noga Alon showed that certain graphs constructed from finite geometries are the sparsest examples of highly expanding graphs.[13]
+Algebraic constructions based on Cayley graphs are known for various variants of expander graphs. The following construction is due to Margulis and has been analysed by Gabber and Galil.[14] For every natural number n, one considers the graph Gn with the vertex set 
+
+
+
+
+
+Z
+
+
+n
+
+
+×
+
+
+Z
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {Z} _{n}\times \mathbb {Z} _{n}}
+
+, where 
+
+
+
+
+
+Z
+
+
+n
+
+
+=
+
+Z
+
+
+/
+
+n
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} _{n}=\mathbb {Z} /n\mathbb {Z} }
+
+: For every vertex 
+
+
+
+(
+x
+,
+y
+)
+∈
+
+
+Z
+
+
+n
+
+
+×
+
+
+Z
+
+
+n
+
+
+
+
+{\displaystyle (x,y)\in \mathbb {Z} _{n}\times \mathbb {Z} _{n}}
+
+, its eight adjacent vertices are
+Then the following holds:
+Theorem. For all n, the graph Gn has second-largest eigenvalue 
+
+
+
+λ
+(
+G
+)
+≤
+5
+
+
+2
+
+
+
+
+{\displaystyle \lambda (G)\leq 5{\sqrt {2}}}
+
+.By a theorem of Alon and Boppana, all sufficiently large d-regular graphs satisfy 
+
+
+
+
+λ
+
+2
+
+
+≥
+2
+
+
+d
+−
+1
+
+
+−
+o
+(
+1
+)
+
+
+{\displaystyle \lambda _{2}\geq 2{\sqrt {d-1}}-o(1)}
+
+, where λ2 is the second largest eigenvalue in absolute value.[15] As a direct consequence, we know that for every fixed d and 
+
+
+
+λ
+<
+2
+
+
+d
+−
+1
+
+
+
+
+{\displaystyle \lambda <2{\sqrt {d-1}}}
+
+ , there are only finitely many (n, d, λ)-graphs. Ramanujan graphs are d-regular graphs for which this bound is tight, satisfying [16]
+Hence Ramanujan graphs have an asymptotically smallest possible value of λ2. This makes them excellent spectral expanders.
+Lubotzky, Phillips, and Sarnak (1988), Margulis (1988), and Morgenstern (1994) show how Ramanujan graphs can be constructed explicitly.[17]
+In 1985, Alon, conjectured that most d-regular graphs on n vertices, for sufficiently large n, are almost Ramanujan.[18] That is, for ε > 0, they satisfy
+In 2003, Joel Friedman both proved the conjecture and specified what is meant by "most d-regular graphs" by showing that random d-regular graphs have 
+
+
+
+λ
+≤
+2
+
+
+d
+−
+1
+
+
++
+ε
+
+
+{\displaystyle \lambda \leq 2{\sqrt {d-1}}+\varepsilon }
+
+ for every ε > 0 with probability 1 – O(n-τ), where[19][20]
+Reingold, Vadhan, and Wigderson introduced the zig-zag product in 2003.[21]  Roughly speaking, the zig-zag product of two expander graphs produces a graph with only slightly worse expansion. Therefore, a zig-zag product can also be used to construct families of expander graphs. If G is a (n, m, λ1)-graph and H is an (m, d, λ1)-graph, then the zig-zag product G ◦ H is a (nm, d2, φ(λ1, λ2))-graph where φ has the following properties.
+Specifically,[21]
+Note that property (1) implies that the zig-zag product of two expander graphs is also an expander graph, thus zig-zag products can be used inductively to create a family of expander graphs.
+Intuitively, the construction of the zig-zag product can be thought of in the following way. Each vertex of G is blown up to a "cloud" of m vertices, each associated to a different edge connected to the vertex. Each vertex is now labeled as (v, k) where v refers to an original vertex of G and k refers to the kth edge of v. Two vertices, (v, k) and (w,l) are connected if it is possible to get from (v, k) to (w, l) through the following sequence of moves.
+There are many results that show the existence of graphs with good expansion properties through probabilistic arguments. In fact, the existence of expanders was first proved by Pinsker[22] who showed that for a randomly chosen n vertex left d regular bipartite graph,  |N(S)| ≥ (d – 2)|S| for all subsets of vertices |S| ≤ cdn with high probability, where cd is a constant depending on d that is O(d-4). Alon and Roichman [23] showed that for every group G of order n and every 1 > ε > 0, there is some c(ε) > 0 such that the Cayley graph on G with c(ε) log2 n generators is an ε expander, i.e. has second eigenvalue less than 1 – ε , with high probability.
+The original motivation for expanders is to build economical robust networks (phone or computer): an expander with bounded degree is precisely an asymptotic robust graph with the number of edges growing linearly with size (number of vertices), for all subsets.
+Expander graphs have found extensive applications in computer science, in designing algorithms, error correcting codes, extractors, pseudorandom generators, sorting networks (Ajtai, Komlós & Szemerédi (1983)) and robust computer networks. They have also been used in proofs of many important results in computational complexity theory, such as SL = L (Reingold (2008)) and the PCP theorem (Dinur (2007)). In cryptography, expander graphs are used to construct hash functions.
+In a 2006 survey of expander graphs, Hoory, Linial, and Wigderson split the study of expander graphs into four categories: extremal problems, typical behavior, explicit constructions, and algorithms. Extremal problems focus on the bounding of expansion parameters, while typical behavior problems characterize how the expansion parameters are distributed over random graphs. Explicit constructions focus on constructing graphs that optimize certain parameters, and algorithmic questions study the evaluation and estimation of parameters.
+The expander mixing lemma states that for an (n, d, λ)-graph, for any two subsets of the vertices S, T ⊆ V, the number of edges between S and T is approximately what you would expect in a random d-regular graph. The approximation is better the smaller λ is. In a random d-regular graph, as well as in an Erdős–Rényi random graph with edge probability d⁄n, we expect d⁄n • |S| • |T| edges between S and T.
+More formally, let E(S, T) denote the number of edges between S and T. If the two sets are not disjoint, edges in their intersection are counted twice, that is,
+Then the expander mixing lemma says that the following inequality holds:
+Many properties of (n, d, λ)-graphs are corollaries of the expander mixing lemmas, including the following.[1]
+
+
+
+
+χ
+(
+G
+)
+≤
+O
+
+(
+
+
+d
+
+log
+⁡
+(
+1
++
+d
+
+/
+
+λ
+)
+
+
+
+)
+
+.
+
+
+{\displaystyle \chi (G)\leq O\left({\frac {d}{\log(1+d/\lambda )}}\right).}
+
+
+
+
+
+
+⌈
+
+log
+⁡
+
+
+n
+
+log
+⁡
+(
+d
+
+/
+
+λ
+)
+
+
+
+
+⌉
+
+.
+
+
+{\displaystyle \left\lceil \log {\frac {n}{\log(d/\lambda )}}\right\rceil .}
+
+The Chernoff bound states that, when sampling many independent samples from a random variables in the range [−1, 1], with high probability the average of our samples is close to the expectation of the random variable.  The expander walk sampling lemma, due to Ajtai, Komlós & Szemerédi (1987) and Gillman (1998), states that this also holds true when sampling from a walk on an expander graph. This is particularly useful in the theory of derandomization, since sampling according to an expander walk uses many fewer random bits than sampling independently.
+Sorting networks take a set of inputs and perform a series of parallel steps to sort the inputs. A parallel step consists of performing any number of disjoint comparisons and potentially swapping pairs of compared inputs. The depth of a network is given by the number of parallel steps it takes. Expander graphs play an important role in the AKS sorting network, which achieves depth O(log n). While this is asymptotically the best known depth for a sorting network, the reliance on expanders makes the constant bound too large for practical use.
+Within the AKS sorting network, expander graphs are used to construct bounded depth ε-halvers. An ε-halver takes as input a length n permutation of (1, …, n) and halves the inputs into two disjoint sets A and B such that for each integer k ≤ n⁄2 at most εk of the k smallest inputs are in B and at most εk of the k largest inputs are in A. The sets A and B are an ε-halving.
+Following Ajtai, Komlós & Szemerédi (1983), a depth d ε-halver can be constructed as follows. Take an n vertex, degree d bipartite expander with parts X and Y of equal size such that every subset of vertices of size at most εn has at least 1 – ε/ε neighbors.
+The vertices of the graph can be thought of as registers that contain inputs and the edges can be thought of as wires that compare the inputs of two registers. At the start, arbitrarily place half of the inputs in X and half of the inputs in Y and decompose the edges into d perfect matchings. The goal is to end with X roughly containing the smaller half of the inputs and Y containing roughly the larger half of the inputs. To achieve this, sequentially process each matching by comparing the registers paired up by the edges of this matching and correct any inputs that are out of order. Specifically, for each edge of the matching, if the larger input is in the register in X and the smaller input is in the register in Y, then swap the two inputs so that the smaller one is in X and the larger one is in Y. It is clear that this process consists of d parallel steps.
+After all d rounds, take A to be the set of inputs in registers in X and B to be the set of inputs in registers in Y to obtain an ε-halving. To see this, notice that if a register u in X and v in Y are connected by an edge uv then after the matching with this edge is processed, the input in u is less than that of v. Furthermore, this property remains true throughout the rest of the process. Now, suppose for some k ≤ n⁄2 that more than εk of the inputs (1, …, k) are in B. Then by expansion properties of the graph, the registers of these inputs in Y are connected with at least 1 – ε/εk registers in X. Altogether, this constitutes more than k registers so there must be some register A in X connected to some register B in Y such that the final input of A is not in (1, …, k), while the final input of B is. This violates the previous property however, and thus the output sets  A and B must be an ε-halving.
+
+

@@ -1,0 +1,170 @@
+6174,
+Cardinality,
+In mathematics, the cardinality of a set is a measure of the number of elements of the set. For example, the set 
+A
+=
+{
+2
+,
+4
+,
+6
+}
+{\displaystyle A=\{2,4,6\}}
+ contains 3 elements, and therefore 
+A
+{\displaystyle A}
+ has a cardinality of 3. Beginning in the late 19th century, this concept was generalized to infinite sets, which allows one to distinguish between different types of infinity, and to perform arithmetic on them. There are two approaches to cardinality: one which compares sets directly using bijections and injections, and another which uses cardinal numbers.[1]
+The cardinality of a set is also called its size, when no confusion with other notions of size[2] is possible.
+The cardinality of a set 
+A
+{\displaystyle A}
+ is usually denoted 
+|
+A
+|
+{\displaystyle |A|}
+, with a vertical bar on each side;[3] this is the same notation as absolute value, and the meaning depends on context. The cardinality of a set 
+A
+{\displaystyle A}
+ may alternatively be denoted by 
+n
+(
+A
+)
+{\displaystyle n(A)}
+, 
+A
+{\displaystyle A}
+, 
+card
+⁡
+(
+A
+)
+{\displaystyle \operatorname {card} (A)}
+, or 
+#
+A
+{\displaystyle \#A}
+.
+A crude sense of cardinality, an awareness that groups of things or events compare with other groups by containing more, fewer, or the same number of instances, is observed in a variety of present-day animal species, suggesting an origin millions of years ago.[4] Human expression of cardinality is seen as early as 40000 years ago, with equating the size of a group with a group of recorded notches, or a representative collection of other things, such as sticks and shells.[5] The abstraction of cardinality as a number is evident by 3000 BCE, in Sumerian mathematics and the manipulation of numbers without reference to a specific group of things or events.[6]
+From the 6th century BCE, the writings of Greek philosophers show the first hints of the cardinality of infinite sets. While they considered the notion of infinity as an endless series of actions, such as adding 1 to a number repeatedly, they did not consider the size of an infinite set of numbers to be a thing.[7] The ancient Greek notion of infinity also considered the division of things into parts repeated without limit. In Euclid's Elements, commensurability was described as the ability to compare the length of two line segments, a and b, as a ratio, as long as there were a third segment, no matter how small, that could be laid end-to-end a whole number of times into both a and b. But with the discovery of irrational numbers, it was seen that even the infinite set of all rational numbers was not enough to describe the length of every possible line segment.[8] Still, there was no concept of infinite sets as something that had cardinality.
+To better understand infinite sets, a notion of cardinality was formulated circa 1880 by Georg Cantor, the originator of set theory. He examined the process of equating two sets with bijection, a one-to-one correspondence between the elements of two sets based on a unique relationship. In 1891, with the publication of Cantor's diagonal argument, he demonstrated that there are sets of numbers that cannot be placed in one-to-one correspondence with the set of natural numbers, i.e. uncountable sets that contain more elements than there are in the infinite set of natural numbers.[9]
+While the cardinality of a finite set is just the number of its elements, extending the notion to infinite sets usually starts with defining the notion of comparison of arbitrary sets (some of which are possibly infinite).
+If |A| ≤ |B| and |B| ≤ |A|, then |A| = |B| (a fact known as Schröder–Bernstein theorem). The axiom of choice is equivalent to the statement that |A| ≤ |B| or |B| ≤ |A| for every A, B.[11][12]
+In the above section, "cardinality" of a set was defined functionally. In other words, it was not defined as a specific object itself. However, such an object can be defined as follows.
+The relation of having the same cardinality is called equinumerosity, and this is an equivalence relation on the class of all sets. The equivalence class of a set A under this relation, then, consists of all those sets which have the same cardinality as A. There are two ways to define the "cardinality of a set":
+Assuming the axiom of choice, the cardinalities of the infinite sets are denoted
+For each ordinal 
+α
+{\displaystyle \alpha }
+, 
+ℵ
+α
++
+1
+{\displaystyle \aleph _{\alpha +1}}
+ is the least cardinal number greater than 
+ℵ
+α
+{\displaystyle \aleph _{\alpha }}
+.
+The cardinality of the natural numbers is denoted aleph-null (
+ℵ
+0
+{\displaystyle \aleph _{0}}
+), while the cardinality of the real numbers is denoted by "
+c
+{\displaystyle {\mathfrak {c}}}
+" (a lowercase fraktur script "c"), and is also referred to as the cardinality of the continuum. Cantor showed, using the diagonal argument, that 
+c
+>
+ℵ
+0
+{\displaystyle {\mathfrak {c}}>\aleph _{0}}
+. We can show that 
+c
+=
+2
+ℵ
+0
+{\displaystyle {\mathfrak {c}}=2^{\aleph _{0}}}
+, this also being the cardinality of the set of all subsets of the natural numbers.
+The continuum hypothesis says that 
+ℵ
+1
+=
+2
+ℵ
+0
+{\displaystyle \aleph _{1}=2^{\aleph _{0}}}
+, i.e. 
+2
+ℵ
+0
+{\displaystyle 2^{\aleph _{0}}}
+ is the smallest cardinal number bigger than 
+ℵ
+0
+{\displaystyle \aleph _{0}}
+, i.e. there is no set whose cardinality is strictly between that of the integers and that of the real numbers. The continuum hypothesis is independent of ZFC, a standard axiomatization of set theory; that is, it is impossible to prove the continuum hypothesis or its negation from ZFC—provided that ZFC is consistent. For more detail, see § Cardinality of the continuum below.[13][14][15]
+If the axiom of choice holds, the law of trichotomy holds for cardinality. Thus we can make the following definitions:
+Our intuition gained from finite sets breaks down when dealing with infinite sets. In the late nineteenth century Georg Cantor, Gottlob Frege, Richard Dedekind and others rejected the view that the whole cannot be the same size as the part.[16][citation needed] One example of this is Hilbert's paradox of the Grand Hotel.
+Indeed, Dedekind defined an infinite set as one that can be placed into a one-to-one correspondence with a strict subset (that is, having the same size in Cantor's sense); this notion of infinity is called Dedekind infinite. Cantor introduced the cardinal numbers, and showed—according to his bijection-based definition of size—that some infinite sets are greater than others. The smallest infinite cardinality is that of the natural numbers (
+ℵ
+0
+{\displaystyle \aleph _{0}}
+).
+One of Cantor's most important results was that the cardinality of the continuum (
+c
+{\displaystyle {\mathfrak {c}}}
+) is greater than that of the natural numbers (
+ℵ
+0
+{\displaystyle \aleph _{0}}
+); that is, there are more real numbers R than natural numbers N. Namely, Cantor showed that 
+c
+=
+2
+ℵ
+0
+=
+ℶ
+1
+{\displaystyle {\mathfrak {c}}=2^{\aleph _{0}}=\beth _{1}}
+ (see Beth one) satisfies:
+The continuum hypothesis states that there is no cardinal number between the cardinality of the reals and the cardinality of the natural numbers, that is,
+However, this hypothesis can neither be proved nor disproved within the widely accepted ZFC axiomatic set theory, if ZFC is consistent.
+Cardinal arithmetic can be used to show not only that the number of points in a real number line is equal to the number of points in any segment of that line, but that this is equal to the number of points on a plane and, indeed, in any finite-dimensional space. These results are highly counterintuitive, because they imply that there exist proper subsets and proper supersets of an infinite set S that have the same size as S, although S contains elements that do not belong to its subsets, and the supersets of S contain elements that are not included in it.
+The first of these results is apparent by considering, for instance, the tangent function, which provides a one-to-one correspondence between the interval (−½π, ½π) and R (see also Hilbert's paradox of the Grand Hotel).
+The second result was first demonstrated by Cantor in 1878, but it became more apparent in 1890, when Giuseppe Peano introduced the space-filling curves, curved lines that twist and turn enough to fill the whole of any square, or cube, or hypercube, or finite-dimensional space. These curves are not a direct proof that a line has the same number of points as a finite-dimensional space, but they can be used to obtain such a proof.
+Cantor also showed that sets with cardinality strictly greater than 
+c
+{\displaystyle {\mathfrak {c}}}
+ exist (see his generalized diagonal argument and theorem). They include, for instance:
+Both have cardinality
+The cardinal equalities 
+c
+2
+=
+c
+,
+{\displaystyle {\mathfrak {c}}^{2}={\mathfrak {c}},}
+c
+ℵ
+0
+=
+c
+,
+{\displaystyle {\mathfrak {c}}^{\aleph _{0}}={\mathfrak {c}},}
+ and 
+c
+c
+=
+2
+c
+{\displaystyle {\mathfrak {c}}^{\mathfrak {c}}=2^{\mathfrak {c}}}
+ can be demonstrated using cardinal arithmetic:
+If A and B are disjoint sets, then
+From this, one can show that in general, the cardinalities of unions and  intersections are related by the following equation:[17]

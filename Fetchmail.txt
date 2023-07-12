@@ -1,0 +1,13 @@
+40337,
+Fetchmail,
+Fetchmail is an open-source software utility for POSIX-compliant operating systems which is used to retrieve e-mail from a remote POP3, IMAP, or ODMR mail server to the user's local system. It was developed from the popclient program, written by Carl Harris.[2]
+Its chief significance is perhaps that its author, Eric S. Raymond, used it as a model to discuss his theories of open-source software development in a widely read and influential essay on software development methodologies The Cathedral and the Bazaar.
+By design, Fetchmail's only means of delivering messages is by submitting them to the local MTA/Message transfer agent or invoking a mail delivery agent[3] like procmail, maildrop, or sendmail; delivering directly to mail folders such as maildir is not supported.
+It is a C program evolved by gradual mutation from an ancestor already written in C.[4]
+Dan Bernstein, getmail creator Charles Cazabon and FreeBSD developer Terry Lambert, have criticized Fetchmail's design,[5] its number of security holes,[6] and that it was prematurely put into "maintenance mode". In 2004, a new team of maintainers took over Fetchmail development,[7] and laid out development plans that broke with design decisions that Eric Raymond had made in earlier versions.[8]
+https://sourceforge.net/directory/os:windows/?q=fetchmail
+This network-related software article is a stub. You can help Wikipedia by expanding it.
+
+
+Information box
+{'Original author(s)': 'Eric S. Raymond', 'Stable release': '6.4.37[1]  / 26 February 2023; 4 months ago', 'Repository': 'gitlab.com/fetchmail/fetchmail.git', 'Operating system': 'Unix-like', 'Type': 'Mail delivery agent', 'License': 'GNU General Public License', 'Website': 'www.fetchmail.info'}

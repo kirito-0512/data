@@ -1,0 +1,2996 @@
+32245,
+Universalproperty,
+In mathematics, more specifically in category theory, a universal property is a  property that characterizes up to an isomorphism the result of some constructions. Thus, universal properties can be used for defining some objects independently from the method chosen for constructing them. For example, the definitions of the integers from the natural numbers, of the rational numbers from the integers, of the real numbers from the rational numbers, and of polynomial rings from the field of their coefficients can all be done in terms of universal properties. In particular, the concept of universal property allows a simple proof that all constructions of real numbers are equivalent: it suffices to prove that they satisfy the same universal property. 
+Technically, a universal property is defined in terms of categories and functors by means of a universal morphism (see § Formal definition, below). Universal morphisms can also be thought more abstractly as initial or terminal objects of a comma category (see § Connection with comma categories, below). 
+Universal properties occur almost everywhere in mathematics, and the use of the concept allows the use of general properties of universal properties for easily proving some properties that would need boring verifications otherwise. For example, given a commutative ring R, the field of fractions of the quotient ring of R by a prime ideal p can be identified with the residue field of the localization of R at p; that is 
+
+
+
+
+R
+
+p
+
+
+
+/
+
+p
+
+R
+
+p
+
+
+≅
+Frac
+⁡
+(
+R
+
+/
+
+p
+)
+
+
+{\displaystyle R_{p}/pR_{p}\cong \operatorname {Frac} (R/p)}
+
+ (all these constructions can be defined by universal properties).
+Other objects that can be defined by universal properties include: all free objects, direct products and direct sums, free groups, free lattices, Grothendieck group, completion of a metric space, completion of a ring, Dedekind–MacNeille completion, product topologies, Stone–Čech compactification, tensor products, inverse limit and direct limit, kernels and cokernels, quotient groups, quotient vector spaces, and other quotient spaces.
+Before giving a formal definition of universal properties, we offer some motivation for studying such constructions.
+To understand the definition of a universal construction, it is important to look at examples. Universal constructions were not defined out of thin air, but were rather defined after mathematicians began noticing a pattern in many mathematical constructions (see Examples below). Hence, the definition may not make sense to one at first, but will become clear when one reconciles it with concrete examples.
+Let 
+
+
+
+F
+:
+
+
+C
+
+
+→
+
+
+D
+
+
+
+
+{\displaystyle F:{\mathcal {C}}\to {\mathcal {D}}}
+
+ be a functor between categories 
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}}
+
+ and 
+
+
+
+
+
+D
+
+
+
+
+{\displaystyle {\mathcal {D}}}
+
+. In what follows, let 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ be an object of 
+
+
+
+
+
+D
+
+
+
+
+{\displaystyle {\mathcal {D}}}
+
+, while 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+
+A
+′
+
+
+
+{\displaystyle A'}
+
+ are objects of 
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}}
+
+, and 
+
+
+
+h
+:
+A
+→
+
+A
+′
+
+
+
+{\displaystyle h:A\to A'}
+
+ is a morphism in 
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}}
+
+. 
+Thus, the functor 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ maps 
+
+
+
+A
+
+
+{\displaystyle A}
+
+, 
+
+
+
+
+A
+′
+
+
+
+{\displaystyle A'}
+
+ and 
+
+
+
+h
+
+
+{\displaystyle h}
+
+ in 
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}}
+
+ to 
+
+
+
+F
+(
+A
+)
+
+
+{\displaystyle F(A)}
+
+, 
+
+
+
+F
+(
+
+A
+′
+
+)
+
+
+{\displaystyle F(A')}
+
+ and 
+
+
+
+F
+(
+h
+)
+
+
+{\displaystyle F(h)}
+
+ in 
+
+
+
+
+
+D
+
+
+
+
+{\displaystyle {\mathcal {D}}}
+
+.
+A universal morphism from 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ to 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is a unique pair 
+
+
+
+(
+A
+,
+u
+:
+X
+→
+F
+(
+A
+)
+)
+
+
+{\displaystyle (A,u:X\to F(A))}
+
+ in 
+
+
+
+
+
+D
+
+
+
+
+{\displaystyle {\mathcal {D}}}
+
+ which has the following property, commonly referred to as a universal property:
+For any morphism of the form 
+
+
+
+
+f
+:
+X
+→
+F
+(
+
+A
+′
+
+)
+
+
+{\displaystyle f:X\to F(A')}
+
+ in 
+
+
+
+
+
+D
+
+
+
+
+{\displaystyle {\mathcal {D}}}
+
+, there exists a unique morphism 
+
+
+
+h
+:
+A
+→
+
+A
+′
+
+
+
+{\displaystyle h:A\to A'}
+
+ in 
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}}
+
+ such that the following diagram commutes:
+
+We can dualize this categorical concept. A universal morphism from 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ to 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a unique pair 
+
+
+
+(
+A
+,
+u
+:
+F
+(
+A
+)
+→
+X
+)
+
+
+{\displaystyle (A,u:F(A)\to X)}
+
+ that satisfies the following universal property:
+For any morphism of the form 
+
+
+
+f
+:
+F
+(
+
+A
+′
+
+)
+→
+X
+
+
+{\displaystyle f:F(A')\to X}
+
+ in 
+
+
+
+
+
+D
+
+
+
+
+{\displaystyle {\mathcal {D}}}
+
+, there exists a unique morphism 
+
+
+
+h
+:
+
+A
+′
+
+→
+A
+
+
+{\displaystyle h:A'\to A}
+
+ in 
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}}
+
+ such that the following diagram commutes:
+Note that in each definition, the arrows are reversed. Both definitions are necessary to describe universal constructions which appear in mathematics; but they also arise due to the inherent duality present in category theory.
+In either case, we say that the pair 
+
+
+
+(
+A
+,
+u
+)
+
+
+{\displaystyle (A,u)}
+
+ which behaves as above satisfies a universal property.
+Universal morphisms can be described more concisely as initial and terminal objects in a comma category (i.e. one where morphisms are seen as objects in their own right).
+Let 
+
+
+
+F
+:
+
+
+C
+
+
+→
+
+
+D
+
+
+
+
+{\displaystyle F:{\mathcal {C}}\to {\mathcal {D}}}
+
+ be a functor and 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ an object of 
+
+
+
+
+
+D
+
+
+
+
+{\displaystyle {\mathcal {D}}}
+
+. Then recall that the comma category 
+
+
+
+(
+X
+↓
+F
+)
+
+
+{\displaystyle (X\downarrow F)}
+
+ is the category where 
+Now suppose that the object 
+
+
+
+(
+A
+,
+u
+:
+X
+→
+F
+(
+A
+)
+)
+
+
+{\displaystyle (A,u:X\to F(A))}
+
+ in 
+
+
+
+(
+X
+↓
+F
+)
+
+
+{\displaystyle (X\downarrow F)}
+
+ is initial. Then
+for every object 
+
+
+
+(
+
+A
+′
+
+,
+f
+:
+X
+→
+F
+(
+
+A
+′
+
+)
+)
+
+
+{\displaystyle (A',f:X\to F(A'))}
+
+, there exists a unique morphism 
+
+
+
+h
+:
+A
+→
+
+A
+′
+
+
+
+{\displaystyle h:A\to A'}
+
+ such that the following diagram commutes. 
+Note that the equality here simply means the diagrams are the same. Also note that the diagram on the right side of the equality is the exact same as the one offered in defining a universal morphism from 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ to 
+
+
+
+F
+
+
+{\displaystyle F}
+
+. Therefore, we see that a universal morphism from 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ to 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is equivalent to an initial object in the comma category 
+
+
+
+(
+X
+↓
+F
+)
+
+
+{\displaystyle (X\downarrow F)}
+
+.
+Conversely, recall that the comma category 
+
+
+
+(
+F
+↓
+X
+)
+
+
+{\displaystyle (F\downarrow X)}
+
+ is the category where 
+Suppose 
+
+
+
+(
+A
+,
+u
+:
+F
+(
+A
+)
+→
+X
+)
+
+
+{\displaystyle (A,u:F(A)\to X)}
+
+ is a terminal object in 
+
+
+
+(
+F
+↓
+X
+)
+
+
+{\displaystyle (F\downarrow X)}
+
+. Then for every object 
+
+
+
+(
+
+A
+′
+
+,
+f
+:
+F
+(
+
+A
+′
+
+)
+→
+X
+)
+
+
+{\displaystyle (A',f:F(A')\to X)}
+
+, 
+there exists a unique morphism 
+
+
+
+h
+:
+
+A
+′
+
+→
+A
+
+
+{\displaystyle h:A'\to A}
+
+ such that the following diagrams commute. 
+The diagram on the right side of the equality is the same diagram pictured when defining a universal morphism from 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ to 
+
+
+
+X
+
+
+{\displaystyle X}
+
+. Hence, a universal morphism from 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ to 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ corresponds with a terminal object in the comma category 
+
+
+
+
+(
+F
+↓
+X
+)
+
+
+{\displaystyle (F\downarrow X)}
+
+.
+Below are a few examples, to highlight the general idea. The reader can construct numerous other examples by consulting the articles mentioned in the introduction.
+Let 
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}}
+
+ be the category of vector spaces 
+
+
+
+K
+
+
+{\displaystyle K}
+
+-Vect over a field 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ and let 
+
+
+
+
+
+D
+
+
+
+
+{\displaystyle {\mathcal {D}}}
+
+ be the category of algebras 
+
+
+
+K
+
+
+{\displaystyle K}
+
+-Alg over 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ (assumed to be unital and associative). Let
+be the forgetful functor which assigns to each algebra its underlying vector space.
+Given any vector space 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ over 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ we can construct the tensor algebra 
+
+
+
+T
+(
+V
+)
+
+
+{\displaystyle T(V)}
+
+. The tensor algebra is characterized by the fact:
+This statement is an initial property of the tensor algebra since it expresses the fact that the pair 
+
+
+
+(
+T
+(
+V
+)
+,
+i
+)
+
+
+{\displaystyle (T(V),i)}
+
+, where 
+
+
+
+i
+:
+V
+→
+U
+(
+T
+(
+V
+)
+)
+
+
+{\displaystyle i:V\to U(T(V))}
+
+ is the inclusion map, is a universal morphism from the vector space 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ to the functor 
+
+
+
+U
+
+
+{\displaystyle U}
+
+.
+Since this construction works for any vector space 
+
+
+
+V
+
+
+{\displaystyle V}
+
+, we conclude that 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ is a functor from  
+
+
+
+K
+
+
+{\displaystyle K}
+
+-Vect to 
+
+
+
+K
+
+
+{\displaystyle K}
+
+-Alg.  This means that 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ is left adjoint to the forgetful functor 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ (see the section below on relation to adjoint functors).
+A categorical product can be characterized by a universal construction. For concreteness, one may consider the Cartesian product in Set, the direct product in Grp, or the product topology in Top, where products exist.
+Let 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ be objects of a category 
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}}
+
+ with finite products. The product of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is an object 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ × 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ together with two morphisms
+such that for any other object 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ of 
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}}
+
+ and morphisms 
+
+
+
+f
+:
+Z
+→
+X
+
+
+{\displaystyle f:Z\to X}
+
+ and 
+
+
+
+g
+:
+Z
+→
+Y
+
+
+{\displaystyle g:Z\to Y}
+
+ there exists a unique morphism 
+
+
+
+h
+:
+Z
+→
+X
+×
+Y
+
+
+{\displaystyle h:Z\to X\times Y}
+
+ such that 
+
+
+
+f
+=
+
+π
+
+1
+
+
+∘
+h
+
+
+{\displaystyle f=\pi _{1}\circ h}
+
+ and 
+
+
+
+g
+=
+
+π
+
+2
+
+
+∘
+h
+
+
+{\displaystyle g=\pi _{2}\circ h}
+
+.
+To understand this characterization as a universal property, take the category 
+
+
+
+
+
+D
+
+
+
+
+{\displaystyle {\mathcal {D}}}
+
+ to be the product category 
+
+
+
+
+
+C
+
+
+×
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}\times {\mathcal {C}}}
+
+ and define the diagonal functor
+by 
+
+
+
+Δ
+(
+X
+)
+=
+(
+X
+,
+X
+)
+
+
+{\displaystyle \Delta (X)=(X,X)}
+
+ and 
+
+
+
+Δ
+(
+f
+:
+X
+→
+Y
+)
+=
+(
+f
+,
+f
+)
+
+
+{\displaystyle \Delta (f:X\to Y)=(f,f)}
+
+. Then 
+
+
+
+(
+X
+×
+Y
+,
+(
+
+π
+
+1
+
+
+,
+
+π
+
+2
+
+
+)
+)
+
+
+{\displaystyle (X\times Y,(\pi _{1},\pi _{2}))}
+
+ is a universal morphism from 
+
+
+
+Δ
+
+
+{\displaystyle \Delta }
+
+ to the object 
+
+
+
+(
+X
+,
+Y
+)
+
+
+{\displaystyle (X,Y)}
+
+ of 
+
+
+
+
+
+C
+
+
+×
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}\times {\mathcal {C}}}
+
+: if 
+
+
+
+(
+f
+,
+g
+)
+
+
+{\displaystyle (f,g)}
+
+ is any morphism from 
+
+
+
+(
+Z
+,
+Z
+)
+
+
+{\displaystyle (Z,Z)}
+
+ to 
+
+
+
+(
+X
+,
+Y
+)
+
+
+{\displaystyle (X,Y)}
+
+, then it must equal
+a morphism 
+
+
+
+Δ
+(
+h
+:
+Z
+→
+X
+×
+Y
+)
+=
+(
+h
+,
+h
+)
+
+
+{\displaystyle \Delta (h:Z\to X\times Y)=(h,h)}
+
+ from 
+
+
+
+Δ
+(
+Z
+)
+=
+(
+Z
+,
+Z
+)
+
+
+{\displaystyle \Delta (Z)=(Z,Z)}
+
+
+to 
+
+
+
+Δ
+(
+X
+×
+Y
+)
+=
+(
+X
+×
+Y
+,
+X
+×
+Y
+)
+
+
+{\displaystyle \Delta (X\times Y)=(X\times Y,X\times Y)}
+
+ followed by 
+
+
+
+(
+
+π
+
+1
+
+
+,
+
+π
+
+2
+
+
+)
+
+
+{\displaystyle (\pi _{1},\pi _{2})}
+
+. As a commutative diagram:
+For the example of the Cartesian product in Set, the morphism 
+
+
+
+(
+
+π
+
+1
+
+
+,
+
+π
+
+2
+
+
+)
+
+
+{\displaystyle (\pi _{1},\pi _{2})}
+
+ comprises the two projections 
+
+
+
+
+π
+
+1
+
+
+(
+x
+,
+y
+)
+=
+x
+
+
+{\displaystyle \pi _{1}(x,y)=x}
+
+ and 
+
+
+
+
+π
+
+2
+
+
+(
+x
+,
+y
+)
+=
+y
+
+
+{\displaystyle \pi _{2}(x,y)=y}
+
+. Given any set 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ and functions 
+
+
+
+f
+,
+g
+
+
+{\displaystyle f,g}
+
+ the unique map such that the required diagram commutes is given by 
+
+
+
+h
+=
+⟨
+x
+,
+y
+⟩
+(
+z
+)
+=
+(
+f
+(
+z
+)
+,
+g
+(
+z
+)
+)
+
+
+{\displaystyle h=\langle x,y\rangle (z)=(f(z),g(z))}
+
+.[3]
+Categorical products are a particular kind of limit in category theory. One can generalize the above example to arbitrary limits and colimits.
+Let 
+
+
+
+
+
+J
+
+
+
+
+{\displaystyle {\mathcal {J}}}
+
+ and 
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}}
+
+ be categories with 
+
+
+
+
+
+J
+
+
+
+
+{\displaystyle {\mathcal {J}}}
+
+ a small index category and let 
+
+
+
+
+
+
+C
+
+
+
+
+J
+
+
+
+
+
+{\displaystyle {\mathcal {C}}^{\mathcal {J}}}
+
+ be the corresponding functor category. The diagonal functor
+is the functor that maps each object 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ in 
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}}
+
+ to the constant functor 
+
+
+
+Δ
+(
+N
+)
+:
+
+
+J
+
+
+→
+
+
+C
+
+
+
+
+{\displaystyle \Delta (N):{\mathcal {J}}\to {\mathcal {C}}}
+
+ (i.e. 
+
+
+
+Δ
+(
+N
+)
+(
+X
+)
+=
+N
+
+
+{\displaystyle \Delta (N)(X)=N}
+
+ for each 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ in 
+
+
+
+
+
+J
+
+
+
+
+{\displaystyle {\mathcal {J}}}
+
+ and 
+
+
+
+Δ
+(
+N
+)
+(
+f
+)
+=
+
+1
+
+N
+
+
+
+
+{\displaystyle \Delta (N)(f)=1_{N}}
+
+ for each 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f:X\to Y}
+
+ in 
+
+
+
+
+
+J
+
+
+
+
+{\displaystyle {\mathcal {J}}}
+
+) and each morphism 
+
+
+
+f
+:
+N
+→
+M
+
+
+{\displaystyle f:N\to M}
+
+ in 
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}}
+
+ to the natural transformation 
+
+
+
+Δ
+(
+f
+)
+:
+Δ
+(
+N
+)
+→
+Δ
+(
+M
+)
+
+
+{\displaystyle \Delta (f):\Delta (N)\to \Delta (M)}
+
+ in 
+
+
+
+
+
+
+C
+
+
+
+
+J
+
+
+
+
+
+{\displaystyle {\mathcal {C}}^{\mathcal {J}}}
+
+ defined as, for every object 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ of 
+
+
+
+
+
+J
+
+
+
+
+{\displaystyle {\mathcal {J}}}
+
+, the component 
+
+
+
+Δ
+(
+f
+)
+(
+X
+)
+:
+Δ
+(
+N
+)
+(
+X
+)
+→
+Δ
+(
+M
+)
+(
+X
+)
+=
+f
+:
+N
+→
+M
+
+
+{\displaystyle \Delta (f)(X):\Delta (N)(X)\to \Delta (M)(X)=f:N\to M}
+
+
+at 
+
+
+
+X
+
+
+{\displaystyle X}
+
+. In other words, the natural transformation is the one defined by having constant component 
+
+
+
+f
+:
+N
+→
+M
+
+
+{\displaystyle f:N\to M}
+
+ for every object of 
+
+
+
+
+
+J
+
+
+
+
+{\displaystyle {\mathcal {J}}}
+
+.
+Given a functor 
+
+
+
+F
+:
+
+
+J
+
+
+→
+
+
+C
+
+
+
+
+{\displaystyle F:{\mathcal {J}}\to {\mathcal {C}}}
+
+ (thought of as an object in 
+
+
+
+
+
+
+C
+
+
+
+
+J
+
+
+
+
+
+{\displaystyle {\mathcal {C}}^{\mathcal {J}}}
+
+), the limit of 
+
+
+
+F
+
+
+{\displaystyle F}
+
+, if it exists, is nothing but a universal morphism from 
+
+
+
+Δ
+
+
+{\displaystyle \Delta }
+
+ to 
+
+
+
+F
+
+
+{\displaystyle F}
+
+. Dually, the colimit of 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is a universal morphism from 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ to 
+
+
+
+Δ
+
+
+{\displaystyle \Delta }
+
+.
+Defining a quantity does not guarantee its existence. Given a functor 
+
+
+
+F
+:
+
+
+C
+
+
+→
+
+
+D
+
+
+
+
+{\displaystyle F:{\mathcal {C}}\to {\mathcal {D}}}
+
+ and an object 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ of 
+
+
+
+
+
+D
+
+
+
+
+{\displaystyle {\mathcal {D}}}
+
+, 
+there may or may not exist a universal morphism from 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ to 
+
+
+
+F
+
+
+{\displaystyle F}
+
+.  If, however, a universal morphism 
+
+
+
+(
+A
+,
+u
+)
+
+
+{\displaystyle (A,u)}
+
+ does exist, then it is essentially unique. 
+Specifically, it is unique up to a unique isomorphism: if 
+
+
+
+(
+
+A
+′
+
+,
+
+u
+′
+
+)
+
+
+{\displaystyle (A',u')}
+
+ is another pair, then there exists a unique isomorphism 
+
+
+
+
+k
+:
+A
+→
+
+A
+′
+
+
+
+{\displaystyle k:A\to A'}
+
+ such that 
+
+
+
+
+u
+′
+
+=
+F
+(
+k
+)
+∘
+u
+
+
+{\displaystyle u'=F(k)\circ u}
+
+.
+This is easily seen by substituting 
+
+
+
+(
+A
+,
+
+u
+′
+
+)
+
+
+{\displaystyle (A,u')}
+
+ in the definition of a universal morphism.
+It is the pair 
+
+
+
+(
+A
+,
+u
+)
+
+
+{\displaystyle (A,u)}
+
+ which is essentially unique in this fashion. The object 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ itself is only unique up to isomorphism. Indeed, if 
+
+
+
+(
+A
+,
+u
+)
+
+
+{\displaystyle (A,u)}
+
+ is a universal morphism and 
+
+
+
+k
+:
+A
+→
+
+A
+′
+
+
+
+{\displaystyle k:A\to A'}
+
+ is any isomorphism then the pair 
+
+
+
+(
+
+A
+′
+
+,
+
+u
+′
+
+)
+
+
+{\displaystyle (A',u')}
+
+, where 
+
+
+
+
+u
+′
+
+=
+F
+(
+k
+)
+∘
+u
+
+
+{\displaystyle u'=F(k)\circ u}
+
+ is also a universal morphism.
+The definition of a universal morphism can be rephrased in a variety of ways. Let 
+
+
+
+F
+:
+
+
+C
+
+
+→
+
+
+D
+
+
+
+
+{\displaystyle F:{\mathcal {C}}\to {\mathcal {D}}}
+
+ be a functor and let 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ be an object of 
+
+
+
+
+
+D
+
+
+
+
+{\displaystyle {\mathcal {D}}}
+
+. Then the following statements are equivalent:
+
+
+
+
+(
+F
+(
+∙
+)
+∘
+u
+
+)
+
+B
+
+
+(
+f
+:
+A
+→
+B
+)
+:
+X
+→
+F
+(
+B
+)
+=
+F
+(
+f
+)
+∘
+u
+:
+X
+→
+F
+(
+B
+)
+
+
+{\displaystyle (F(\bullet )\circ u)_{B}(f:A\to B):X\to F(B)=F(f)\circ u:X\to F(B)}
+
+
+for each object 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ in 
+
+
+
+
+
+C
+
+
+.
+
+
+{\displaystyle {\mathcal {C}}.}
+
+
+The dual statements are also equivalent:
+
+
+
+
+(
+u
+∘
+F
+(
+∙
+)
+
+)
+
+B
+
+
+(
+f
+:
+B
+→
+A
+)
+:
+F
+(
+B
+)
+→
+X
+=
+u
+∘
+F
+(
+f
+)
+:
+F
+(
+B
+)
+→
+X
+
+
+{\displaystyle (u\circ F(\bullet ))_{B}(f:B\to A):F(B)\to X=u\circ F(f):F(B)\to X}
+
+
+for each object 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ in 
+
+
+
+
+
+C
+
+
+.
+
+
+{\displaystyle {\mathcal {C}}.}
+
+
+Suppose 
+
+
+
+(
+
+A
+
+1
+
+
+,
+
+u
+
+1
+
+
+)
+
+
+{\displaystyle (A_{1},u_{1})}
+
+ is a universal morphism from 
+
+
+
+
+X
+
+1
+
+
+
+
+{\displaystyle X_{1}}
+
+ to 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ and 
+
+
+
+(
+
+A
+
+2
+
+
+,
+
+u
+
+2
+
+
+)
+
+
+{\displaystyle (A_{2},u_{2})}
+
+ is a universal morphism from 
+
+
+
+
+X
+
+2
+
+
+
+
+{\displaystyle X_{2}}
+
+ to 
+
+
+
+F
+
+
+{\displaystyle F}
+
+. 
+By the universal property of universal morphisms, given any morphism 
+
+
+
+h
+:
+
+X
+
+1
+
+
+→
+
+X
+
+2
+
+
+
+
+{\displaystyle h:X_{1}\to X_{2}}
+
+ there exists a unique morphism 
+
+
+
+g
+:
+
+A
+
+1
+
+
+→
+
+A
+
+2
+
+
+
+
+{\displaystyle g:A_{1}\to A_{2}}
+
+ such that the following diagram commutes:
+If every object 
+
+
+
+
+X
+
+i
+
+
+
+
+{\displaystyle X_{i}}
+
+ of 
+
+
+
+
+
+D
+
+
+
+
+{\displaystyle {\mathcal {D}}}
+
+ admits a universal morphism to 
+
+
+
+F
+
+
+{\displaystyle F}
+
+, then the assignment 
+
+
+
+
+X
+
+i
+
+
+↦
+
+A
+
+i
+
+
+
+
+{\displaystyle X_{i}\mapsto A_{i}}
+
+ and 
+
+
+
+h
+↦
+g
+
+
+{\displaystyle h\mapsto g}
+
+ defines a functor 
+
+
+
+G
+:
+
+
+D
+
+
+→
+
+
+C
+
+
+
+
+{\displaystyle G:{\mathcal {D}}\to {\mathcal {C}}}
+
+. The maps 
+
+
+
+
+u
+
+i
+
+
+
+
+{\displaystyle u_{i}}
+
+ then define a natural transformation from 
+
+
+
+
+1
+
+
+D
+
+
+
+
+
+{\displaystyle 1_{\mathcal {D}}}
+
+ (the identity functor on 
+
+
+
+
+
+D
+
+
+
+
+{\displaystyle {\mathcal {D}}}
+
+) to 
+
+
+
+F
+∘
+G
+
+
+{\displaystyle F\circ G}
+
+. The functors 
+
+
+
+(
+F
+,
+G
+)
+
+
+{\displaystyle (F,G)}
+
+ are then a pair of adjoint functors, with 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ left-adjoint to 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ and 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ right-adjoint to 
+
+
+
+G
+
+
+{\displaystyle G}
+
+.
+Similar statements apply to the dual situation of terminal morphisms from 
+
+
+
+F
+
+
+{\displaystyle F}
+
+. If such morphisms exist for every 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ in 
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}}
+
+ one obtains a functor 
+
+
+
+G
+:
+
+
+C
+
+
+→
+
+
+D
+
+
+
+
+{\displaystyle G:{\mathcal {C}}\to {\mathcal {D}}}
+
+ which is right-adjoint to 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ (so 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is left-adjoint to 
+
+
+
+G
+
+
+{\displaystyle G}
+
+).
+Indeed, all pairs of adjoint functors arise from universal constructions in this manner. Let 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ and 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ be a pair of adjoint functors with unit 
+
+
+
+η
+
+
+{\displaystyle \eta }
+
+ and co-unit 
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+
+ 
+(see the article on adjoint functors for the definitions). Then we have a universal morphism for each object in 
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}}
+
+ and 
+
+
+
+
+
+D
+
+
+
+
+{\displaystyle {\mathcal {D}}}
+
+:
+Universal constructions are more general than adjoint functor pairs: a universal construction is like an optimization problem; it gives rise to an adjoint pair if and only if this problem has a solution for every object of 
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}}
+
+ (equivalently, every object of 
+
+
+
+
+
+D
+
+
+
+
+{\displaystyle {\mathcal {D}}}
+
+).
+Universal properties of various topological constructions were presented by Pierre Samuel in 1948. They were later used extensively by Bourbaki. The closely related concept of adjoint functors was introduced independently by Daniel Kan in 1958.
+
+

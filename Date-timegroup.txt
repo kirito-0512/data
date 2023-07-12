@@ -1,0 +1,12 @@
+41000,
+Date-timegroup,
+In communications messages, a date-time group (DTG) is a set of characters, usually in a prescribed format, used to express the year, the month, the day of the month, the hour of the day, the minute of the hour, and the time zone, if different from Coordinated Universal Time (UTC).[citation needed] The order in which these elements are presented may vary. The DTG is usually placed in the header of the message. One example is "19:18 Jul 05, 2023 (UTC)"; while another example is "19:18 05 Jul 2023".
+The DTG may indicate either the date and time a message was dispatched by a transmitting station or the date and time it was handed into a transmission facility by a user or originator for dispatch.
+The DTG may be used as a message identifier if it is unique for each message.
+A form of DTG is used in the US Military's message traffic (a form of Automated Message Handling System). In US military messages and communications (e.g., on maps showing troop movements) the format is DD HHMM (SS) Z MON YY. Although occasionally seen with spaces, it can also be written as a single string of characters. Three different formats can be found:
+Z references the military identifier of time zone:
+Example 1: 051100Z represents the 5th day of the current month 11:00 (UTC).
+Example 2: 091630Tjul11 represents  09th July 2011 4:30 pm (MST).
+Example 3: 05191846ZJul23 represents the current time of refresh: (Jul) 05 19:18:46, Jul 2023 (UTC).
+“Zulu time” does not mean “local time” unless a Zulu time zone is specified. Earth rotates in 24 hours, thus there are 24 hours in a day. The English alphabet has 26 letters; J is local time, and the other 25 letters are assigned to the 25 time zones. The International Date Line separates time zones M and Y. Zulu [Z] is a synonym for Coordinated Universal Time (UTC); and formerly a synonym for Greenwich Mean Time (GMT).[1]
+ This article incorporates public domain material from "date-time group (DTG)". Federal Standard 1037C. General Services Administration. Archived from the original on 22 January 2022.

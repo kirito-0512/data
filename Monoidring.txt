@@ -1,0 +1,69 @@
+20781,
+Monoidring,
+In abstract algebra, a monoid ring is a ring constructed from a ring and a monoid, just as a group ring is constructed from a ring and a group.
+Let R be a ring and let G be a monoid.  The monoid ring or monoid algebra of G over R, denoted R[G] or RG, is the set of formal sums 
+
+
+
+
+∑
+
+g
+∈
+G
+
+
+
+r
+
+g
+
+
+g
+
+
+{\displaystyle \sum _{g\in G}r_{g}g}
+
+,
+where 
+
+
+
+
+r
+
+g
+
+
+∈
+R
+
+
+{\displaystyle r_{g}\in R}
+
+ for each 
+
+
+
+g
+∈
+G
+
+
+{\displaystyle g\in G}
+
+ and rg = 0 for all but finitely many g, equipped with coefficient-wise addition, and the multiplication in which the elements of R commute with the elements of G.  More formally, R[G] is the set of functions φ: G → R such that {g : φ(g) ≠ 0} is finite, equipped with addition of functions, and with multiplication defined by
+If G is a group, then R[G] is also called the group ring of G over R.
+Given R and G, there is a ring homomorphism α: R → R[G] sending each r to r1 (where 1 is the identity element of G),
+and a monoid homomorphism β: G → R[G] (where the latter is viewed as a monoid under multiplication) sending each g to 1g (where 1 is the multiplicative identity of R).
+We have that α(r) commutes with β(g) for all r in R and g in G.
+The universal property of the monoid ring states that given a ring S, a ring homomorphism α': R → S, and a monoid homomorphism β': G → S to the multiplicative monoid of S,
+such that α'(r) commutes with β'(g) for all r in R and g in G, there is a unique ring homomorphism γ: R[G] → S such that composing α and β with γ produces α' and β
+'.
+The augmentation is the ring homomorphism η: R[G] → R defined by 
+The kernel of η is called the augmentation ideal.  It is a free R-module with basis consisting of 1 – g for all g in G not equal to 1.
+Given a ring R and the (additive) monoid of natural numbers N (or {xn} viewed multiplicatively), we obtain the ring R[{xn}] =: R[x] of polynomials over R.
+The monoid Nn (with the addition) gives the polynomial ring with n variables: R[Nn] =: R[X1, ..., Xn].
+If G is a semigroup, the same construction yields a semigroup ring R[G].
+
+

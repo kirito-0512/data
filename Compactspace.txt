@@ -1,0 +1,110 @@
+6042,
+Compactspace,
+In mathematics, specifically general topology, compactness is a property that seeks to generalize the notion of a closed and bounded subset of Euclidean space.[1] The idea is that a compact space has no "punctures" or "missing endpoints", i.e., it includes all limiting values of points. For example, the open interval (0,1) would not be compact because it excludes the limiting values of 0 and 1, whereas the closed interval [0,1] would be compact. Similarly, the space of rational numbers 
+Q
+{\displaystyle \mathbb {Q} }
+ is not compact, because it has infinitely many "punctures" corresponding to the irrational numbers, and the space of real numbers 
+R
+{\displaystyle \mathbb {R} }
+ is not compact either, because it excludes the two limiting values 
++
+∞
+{\displaystyle +\infty }
+ and 
+−
+∞
+{\displaystyle -\infty }
+. However, the extended real number line would be compact, since it contains both infinities. There are many ways to make this heuristic notion precise. These ways usually agree in a metric space, but may not be equivalent in other topological spaces.
+One such generalization is that a topological space is sequentially compact if every infinite sequence of points sampled from the space has an infinite subsequence that converges to some point of the space.[2]
+The Bolzano–Weierstrass theorem states that a subset of Euclidean space is compact in this sequential sense if and only if it is closed and bounded.
+Thus, if one chooses an infinite number of points in the closed unit interval [0, 1], some of those points will get arbitrarily close to some real number in that space. 
+For instance, some of the numbers in the sequence  1/2, 4/5, 1/3, 5/6, 1/4, 6/7, ... accumulate to 0 (while others accumulate to 1). 
+Since neither 0 nor 1 are members of the open unit interval (0, 1), those same sets of points would not accumulate to any point of it, so the open unit interval is not compact. Although subsets (subspaces) of Euclidean space can be compact, the entire space itself is not compact, since it is not bounded. For example, considering 
+R
+1
+{\displaystyle \mathbb {R} ^{1}}
+ (the real number line), the sequence of points  0,  1,  2,  3, ... has no subsequence that converges to any real number.
+Compactness was formally introduced by Maurice Fréchet in 1906 to generalize the Bolzano–Weierstrass theorem from spaces of geometrical points to spaces of functions. The Arzelà–Ascoli theorem and the Peano existence theorem exemplify applications of this notion of compactness to classical analysis. Following its initial introduction, various equivalent notions of compactness, including sequential compactness and limit point compactness, were developed in general metric spaces.[3] In general topological spaces, however, these notions of compactness are not necessarily equivalent. The most useful notion — and the standard definition of the unqualified term compactness — is phrased in terms of the existence of finite families of open sets that "cover" the space in the sense that each point of the space lies in some set contained in the family. This more subtle notion, introduced by Pavel Alexandrov and Pavel Urysohn in 1929, exhibits compact spaces as generalizations of finite sets. In spaces that are compact in this sense, it is often possible to patch together information that holds locally — that is, in a neighborhood of each point — into corresponding statements that hold throughout the space, and many theorems are of this character.
+The term compact set is sometimes used as a synonym for compact space, but also often refers to a compact subspace of a topological space.
+In the 19th century, several disparate mathematical properties were understood that would later be seen as consequences of compactness.  On the one hand, Bernard Bolzano (1817) had been aware that any bounded sequence of points (in the line or plane, for instance) has a subsequence that must eventually get arbitrarily close to some other point, called a limit point. 
+Bolzano's proof relied on the method of bisection: the sequence was placed into an interval that was then divided into two equal parts, and a part containing infinitely many terms of the sequence was selected. 
+The process could then be repeated by dividing the resulting smaller interval into smaller and smaller parts — until it closes down on the desired limit point. 
+The full significance of Bolzano's theorem, and its method of proof, would not emerge until almost 50 years later when it was rediscovered by Karl Weierstrass.[4]
+In the 1880s, it became clear that results similar to the Bolzano–Weierstrass theorem could be formulated for spaces of functions rather than just numbers or geometrical points. 
+The idea of regarding functions as themselves points of a generalized space dates back to the investigations of Giulio Ascoli and Cesare Arzelà.[5] 
+The culmination of their investigations, the Arzelà–Ascoli theorem, was a generalization of the Bolzano–Weierstrass theorem to families of continuous functions, the precise conclusion of which was that it was possible to extract a uniformly convergent sequence of functions from a suitable family of functions. 
+The uniform limit of this sequence then played precisely the same role as Bolzano's "limit point". 
+Towards the beginning of the twentieth century, results similar to that of Arzelà and Ascoli began to accumulate in the area of integral equations, as investigated by David Hilbert and Erhard Schmidt. 
+For a certain class of Green's functions coming from solutions of integral equations, Schmidt had shown that a property analogous to the Arzelà–Ascoli theorem held in the sense of mean convergence — or convergence in what would later be dubbed a Hilbert space. 
+This ultimately led to the notion of a compact operator as an offshoot of the general notion of a compact space. 
+It was Maurice Fréchet who, in 1906, had distilled the essence of the Bolzano–Weierstrass property and coined the term compactness to refer to this general phenomenon (he used the term already in his 1904 paper[6] which led to the famous 1906 thesis).
+However, a different notion of compactness altogether had also slowly emerged at the end of the 19th century from the study of the continuum, which was seen as fundamental for the rigorous formulation of analysis. 
+In 1870, Eduard Heine showed that a continuous function defined on a closed and bounded interval was in fact uniformly continuous. In the course of the proof, he made use of a lemma that from any countable cover of the interval by smaller open intervals, it was possible to select a finite number of these that also covered it. 
+The significance of this lemma was recognized by Émile Borel (1895), and it was generalized to arbitrary collections of intervals by Pierre Cousin (1895) and Henri Lebesgue (1904). The Heine–Borel theorem, as the result is now known, is another special property possessed by closed and bounded sets of real numbers.
+This property was significant because it allowed for the passage from local information about a set (such as the continuity of a function) to global information about the set (such as the uniform continuity of a function). 
+This sentiment was expressed by Lebesgue (1904), who also exploited it in the development of the integral now bearing his name. 
+Ultimately, the Russian school of point-set topology, under the direction of Pavel Alexandrov and Pavel Urysohn, formulated Heine–Borel compactness in a way that could be applied to the modern notion of a topological space.  Alexandrov & Urysohn (1929) showed that the earlier version of compactness due to Fréchet, now called (relative) sequential compactness, under appropriate conditions followed from the version of compactness that was formulated in terms of the existence of finite subcovers. 
+It was this notion of compactness that became the dominant one, because it was not only a stronger property, but it could be formulated in a more general setting with a minimum of additional technical machinery, as it relied only on the structure of the open sets in a space.
+Any finite space is compact; a finite subcover can be obtained by selecting, for each point, an open set containing it. A nontrivial example of a compact space is the (closed) unit interval [0,1] of real numbers. If one chooses an infinite number of distinct points in the unit interval, then there must be some accumulation point among these points in that interval. For instance, the odd-numbered terms of the sequence 1, 1/2, 1/3, 3/4, 1/5, 5/6, 1/7, 7/8, ... get arbitrarily close to 0, while the even-numbered ones get arbitrarily close to 1. The given example sequence shows the importance of including the boundary points of the interval, since the limit points must be in the space itself — an open (or half-open) interval of the real numbers is not compact. 
+It is also crucial that the interval be bounded, since in the interval [0,∞), one could choose the sequence of points 0, 1, 2, 3, ..., of which no sub-sequence ultimately gets arbitrarily close to any given real number.
+In two dimensions, closed disks are compact since for any infinite number of points sampled from a disk, some subset of those points must get arbitrarily close either to a point within the disc, or to a point on the boundary. However, an open disk is not compact, because a sequence of points can tend to the boundary — without getting arbitrarily close to any point in the interior. Likewise, spheres are compact, but a sphere missing a point is not since a sequence of points can still tend to the missing point, thereby not getting arbitrarily close to any point within the space. Lines and planes are not compact, since one can take a set of equally-spaced points in any given direction without approaching any point.
+Various definitions of compactness may apply, depending on the level of generality. 
+A subset of Euclidean space in particular is called compact if it is closed and bounded. This implies, by the Bolzano–Weierstrass theorem, that any infinite sequence from the set has a subsequence that converges to a point in the set. 
+Various equivalent notions of compactness, such as sequential compactness and limit point compactness, can be developed in general metric spaces.[3]
+In contrast, the different notions of compactness are not equivalent in general topological spaces, and the most useful notion of compactness — originally called bicompactness — is defined using covers consisting of open sets (see Open cover definition below). 
+That this form of compactness holds for closed and bounded subsets of Euclidean space is known as the Heine–Borel theorem. 
+Compactness, when defined in this manner, often allows one to take information that is known locally — in a neighbourhood of each point of the space — and to extend it to information that holds globally throughout the space. 
+An example of this phenomenon is Dirichlet's theorem, to which it was originally applied by Heine, that a continuous function on a compact interval is uniformly continuous; here, continuity is a local property of the function, and uniform continuity the corresponding global property.
+Formally, a topological space X is called compact if every  open cover of X has a finite subcover.[7] That is, X is compact if for every collection C of open subsets of X such that
+there is a finite subcollection F ⊆ C such that
+Some branches of mathematics such as algebraic geometry, typically influenced by the French school of Bourbaki, use the term quasi-compact for the general notion, and reserve the term compact for topological spaces that are both Hausdorff and quasi-compact. 
+A compact set is sometimes referred to as a compactum, plural compacta.
+A subset K of a topological space X is said to be compact if it is compact as a subspace (in the subspace topology). 
+That is, K is compact if for every arbitrary collection C of open subsets of X such that
+there is a finite subcollection F ⊆ C such that
+Compactness is a "topological" property. That is, if 
+K
+⊂
+Z
+⊂
+Y
+{\displaystyle K\subset Z\subset Y}
+, with subset Z equipped with the subspace topology, then K is compact in Z if and only if K is compact in Y.
+If X is a topological space then the following are equivalent:
+Bourbaki defines a compact space (quasi-compact space) as a topological space where each filter has a cluster point (i.e., 8. in the above).[11]
+For any subset A of Euclidean space, A is compact if and only if it is closed and bounded; this is the Heine–Borel theorem.
+As a Euclidean space is a metric space, the conditions in the next subsection also apply to all of its subsets. 
+Of all of the equivalent conditions, it is in practice easiest to verify that a subset is closed and bounded, for example, for a closed interval or closed n-ball.
+For any metric space (X, d), the following are equivalent (assuming countable choice):
+A compact metric space (X, d) also satisfies the following properties:
+For an ordered space (X, <) (i.e. a totally ordered set equipped with the order topology), the following are equivalent:
+An ordered space satisfying (any one of) these conditions is called a complete lattice.
+In addition, the following are equivalent for all ordered spaces (X, <), and (assuming countable choice) are true whenever (X, <) is compact. (The converse in general fails if (X, <) is not also metrizable.):
+Let X be a topological space and C(X) the ring of real continuous functions on X. 
+For each p ∈ X, the evaluation map 
+ev
+p
+:
+C
+(
+X
+)
+→
+R
+{\displaystyle \operatorname {ev} _{p}\colon C(X)\to \mathbb {R} }
+given by evp(f) = f(p) is a ring homomorphism. 
+The kernel of evp is a maximal ideal, since the residue field C(X)/ker evp is the field of real numbers, by the first isomorphism theorem. 
+A topological space X is pseudocompact if and only if every maximal ideal in C(X) has residue field the real numbers. 
+For completely regular spaces, this is equivalent to every maximal ideal being the kernel of an evaluation homomorphism.[14]  There are pseudocompact spaces that are not compact, though.
+In general, for non-pseudocompact spaces there are always maximal ideals m in C(X) such that the residue field C(X)/m is a (non-Archimedean) hyperreal field. 
+The framework of non-standard analysis allows for the following alternative characterization of compactness:[15] a topological space X is compact if and only if every point x of the natural extension *X is infinitely close to a point x0 of X (more precisely, x is contained in the monad of x0).
+A space X is compact if its hyperreal extension *X (constructed, for example, by the ultrapower construction) has the property that every point of *X is infinitely close to some point of X ⊂ *X. 
+For example, an open real interval X = (0, 1) is not compact because its hyperreal extension *(0,1) contains infinitesimals, which are infinitely close to 0, which is not a point of X.
+Since a continuous image of a compact space is compact, the extreme value theorem holds for such spaces: a continuous real-valued function on a nonempty compact space is bounded above and attains its supremum.[18] 
+(Slightly more generally, this is true for an upper semicontinuous function.) As a sort of converse to the above statements, the pre-image of a compact space under a proper map is compact.
+Every topological space X is an open dense subspace of a compact space having at most one point more than X, by the Alexandroff one-point compactification. 
+By the same construction, every locally compact Hausdorff space X is an open dense subspace of a compact Hausdorff space having at most one point more than X.
+A nonempty compact subset of the real numbers has a greatest element and a least element.
+Let X be a simply ordered set endowed with the order topology. 
+Then X is compact if and only if X is a complete lattice (i.e. all subsets have suprema and infima).[19]
+This article incorporates material from Examples of compact spaces on PlanetMath, which is licensed under the Creative Commons Attribution/Share-Alike License.

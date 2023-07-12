@@ -1,0 +1,464 @@
+6211,
+Context-sensitivegrammar,
+A context-sensitive grammar (CSG) is a formal grammar in which the left-hand sides and right-hand sides of any production rules may be surrounded by a context of terminal and nonterminal symbols. Context-sensitive grammars are more general than context-free grammars, in the sense that there are languages that can be described by a CSG but not by a context-free grammar. Context-sensitive grammars are less general (in the same sense) than unrestricted grammars. Thus, CSGs are positioned between context-free and unrestricted grammars in the Chomsky hierarchy.[1]
+A formal language that can be described by a context-sensitive grammar, or, equivalently, by a noncontracting grammar or a linear bounded automaton, is called a context-sensitive language. Some textbooks actually define CSGs as non-contracting,[2][3][4][5] although this is not how Noam Chomsky defined them in 1959.[6][7] This choice of definition makes no difference in terms of the languages generated (i.e. the two definitions are weakly equivalent), but it does make a difference in terms of what grammars are structurally considered context-sensitive; the latter issue was analyzed by Chomsky in 1963.[8][9]
+Chomsky introduced context-sensitive grammars as a way to describe the syntax of natural language where it is often the case that a word may or may not be appropriate in a certain place depending on the context. Walter Savitch has criticized the terminology "context-sensitive" as misleading and proposed "non-erasing" as better explaining the distinction between a CSG and an unrestricted grammar.[10]
+Although it is well known that certain features of languages (e.g. cross-serial dependency) are not context-free, it is an open question how much of CSGs' expressive power is needed to capture the context sensitivity found in natural languages. Subsequent research in this area has focused on the more computationally tractable mildly context-sensitive languages.[citation needed] The syntaxes of some visual programming languages can be described by context-sensitive graph grammars.[11]
+Let us notate a formal grammar as 
+G
+=
+(
+N
+,
+Σ
+,
+P
+,
+S
+)
+{\displaystyle G=(N,\Sigma ,P,S)}
+, with 
+N
+{\displaystyle N}
+ a set of nonterminal symbols, 
+Σ
+{\displaystyle \Sigma }
+ a set of terminal symbols, 
+P
+{\displaystyle P}
+ a set of production rules, and 
+S
+∈
+N
+{\displaystyle S\in N}
+ the start symbol.
+A string 
+u
+∈
+(
+N
+∪
+Σ
+)
+∗
+{\displaystyle u\in (N\cup \Sigma )^{*}}
+ directly yields, or directly derives to, a string 
+v
+∈
+(
+N
+∪
+Σ
+)
+∗
+{\displaystyle v\in (N\cup \Sigma )^{*}}
+, denoted as 
+u
+⇒
+v
+{\displaystyle u\Rightarrow v}
+, if v can be obtained from u by an application of some production rule in P, that is, if 
+u
+=
+γ
+L
+δ
+{\displaystyle u=\gamma L\delta }
+ and 
+v
+=
+γ
+R
+δ
+{\displaystyle v=\gamma R\delta }
+, where 
+(
+L
+→
+R
+)
+∈
+P
+{\displaystyle (L\to R)\in P}
+ is a production rule, and 
+γ
+,
+δ
+∈
+(
+N
+∪
+Σ
+)
+∗
+{\displaystyle \gamma ,\delta \in (N\cup \Sigma )^{*}}
+ is the unaffected left and right part of the string, respectively.
+More generally, u is said to yield, or derive to, v, denoted as 
+u
+⇒
+∗
+v
+{\displaystyle u\Rightarrow ^{*}v}
+, if v can be obtained from u by repeated application of production rules, that is, if 
+u
+=
+u
+1
+⇒
+.
+.
+.
+⇒
+u
+n
+=
+v
+{\displaystyle u=u_{1}\Rightarrow ...\Rightarrow u_{n}=v}
+ for some n ≥ 0 and some strings 
+u
+2
+,
+.
+.
+.
+,
+u
+n
+−
+1
+∈
+(
+N
+∪
+Σ
+)
+∗
+{\displaystyle u_{2},...,u_{n-1}\in (N\cup \Sigma )^{*}}
+. In other words, the relation 
+⇒
+∗
+{\displaystyle \Rightarrow ^{*}}
+ is the reflexive transitive closure of the relation 
+⇒
+{\displaystyle \Rightarrow }
+.
+The language of the grammar G is the set of all terminal-symbol strings derivable from its start symbol, formally: 
+L
+(
+G
+)
+=
+{
+w
+∈
+Σ
+∗
+∣
+S
+⇒
+∗
+w
+}
+{\displaystyle L(G)=\{w\in \Sigma ^{*}\mid S\Rightarrow ^{*}w\}}
+.
+Derivations that do not end in a string composed of terminal symbols only are possible, but do not contribute to L(G).
+A formal grammar is context-sensitive if each rule in P is either of the form 
+S
+→
+ε
+{\displaystyle S\to \varepsilon }
+ where 
+ε
+{\displaystyle \varepsilon }
+ is the empty string, or of the form
+with A ∈ N,[note 1] 
+α
+,
+β
+∈
+(
+N
+∪
+Σ
+∖
+{
+S
+}
+)
+∗
+{\displaystyle \alpha ,\beta \in (N\cup \Sigma \setminus \{S\})^{*}}
+,[note 2] and 
+γ
+∈
+(
+N
+∪
+Σ
+∖
+{
+S
+}
+)
++
+{\displaystyle \gamma \in (N\cup \Sigma \setminus \{S\})^{+}}
+.[note 3]
+The name context-sensitive is explained by the α and β that form the context of A and determine whether A can be replaced with γ or not.
+By contrast, in a context-free grammar, no context is present: the left hand side of every production rule is just a nonterminal.
+The string γ is not allowed to be empty.  Without this restriction, the resulting grammars become equal in power to unrestricted grammars.[10]
+A noncontracting grammar is a grammar in which for any production rule, of the form u → v, the length of u is less than or equal to the length of v.
+Every context-sensitive grammar is noncontracting, while every noncontracting grammar can be converted into an equivalent context-sensitive grammar; the two classes are weakly equivalent.[12]
+Some authors use the term context-sensitive grammar to refer to noncontracting grammars in general.
+The left-context- and right-context-sensitive grammars are defined by restricting the rules to just the form αA → αγ and to just Aβ → γβ, respectively. The languages generated by these grammars are also the full class of context-sensitive languages.[13] The equivalence was established by Penttonen normal form.[14]
+The following context-sensitive grammar, with start symbol S, generates the canonical non-context-free language { anbncn | n ≥ 1 } :[citation needed]
+Rules 1 and 2 allow for blowing-up S to anBC(BC)n−1; rules 3 to 6 allow for successively exchanging each CB to BC (four rules are needed for that since a rule CB → BC wouldn't fit into the scheme αAβ → αγβ); rules 7–10 allow replacing a non-terminals B and C with its corresponding terminals b and c respectively, provided it is in the right place.
+A generation chain for aaabbbccc is:
+More complicated grammars can be used to parse { anbncndn | n ≥ 1 }, and other languages with even more letters. Here we show a simpler approach using non-contracting grammars:[citation needed]
+Start with a kernel of regular productions generating the sentential forms
+(
+A
+B
+C
+D
+)
+n
+a
+b
+c
+d
+{\displaystyle (ABCD)^{n}abcd}
+ and then include the non contracting productions
+p
+D
+a
+:
+D
+a
+→
+a
+D
+{\displaystyle p_{Da}:Da\rightarrow aD}
+,
+p
+D
+b
+:
+D
+b
+→
+b
+D
+{\displaystyle p_{Db}:Db\rightarrow bD}
+,
+p
+D
+c
+:
+D
+c
+→
+c
+D
+{\displaystyle p_{Dc}:Dc\rightarrow cD}
+,
+p
+D
+d
+:
+D
+d
+→
+d
+d
+{\displaystyle p_{Dd}:Dd\rightarrow dd}
+,
+p
+C
+a
+:
+C
+a
+→
+a
+C
+{\displaystyle p_{Ca}:Ca\rightarrow aC}
+,
+p
+C
+b
+:
+C
+b
+→
+b
+C
+{\displaystyle p_{Cb}:Cb\rightarrow bC}
+,
+p
+C
+c
+:
+C
+c
+→
+c
+c
+{\displaystyle p_{Cc}:Cc\rightarrow cc}
+,
+p
+B
+a
+:
+B
+a
+→
+a
+B
+{\displaystyle p_{Ba}:Ba\rightarrow aB}
+,
+p
+B
+b
+:
+B
+b
+→
+b
+b
+{\displaystyle p_{Bb}:Bb\rightarrow bb}
+,
+p
+A
+a
+:
+A
+a
+→
+a
+a
+{\displaystyle p_{Aa}:Aa\rightarrow aa}
+.
+A non contracting grammar (for which there is an equivalent CSG) for the language 
+L
+C
+r
+o
+s
+s
+=
+{
+a
+m
+b
+n
+c
+m
+d
+n
+∣
+m
+≥
+1
+,
+n
+≥
+1
+}
+{\displaystyle L_{Cross}=\{a^{m}b^{n}c^{m}d^{n}\mid m\geq 1,n\geq 1\}}
+ is defined by
+With these definitions, a derivation for 
+a
+3
+b
+2
+c
+3
+d
+2
+{\displaystyle a^{3}b^{2}c^{3}d^{2}}
+ is:
+S
+⇒
+p
+0
+R
+T
+⇒
+p
+1
+2
+p
+2
+a
+3
+C
+3
+T
+⇒
+p
+3
+p
+4
+a
+3
+C
+3
+B
+2
+d
+2
+⇒
+p
+5
+6
+a
+3
+B
+2
+C
+3
+d
+2
+⇒
+p
+6
+p
+7
+a
+3
+b
+2
+C
+3
+d
+2
+⇒
+p
+8
+p
+9
+2
+a
+3
+b
+2
+c
+3
+d
+2
+{\displaystyle S\Rightarrow _{p_{0}}RT\Rightarrow _{p_{1}^{2}p_{2}}a^{3}C^{3}T\Rightarrow _{p_{3}p_{4}}a^{3}C^{3}B^{2}d^{2}\Rightarrow _{p_{5}^{6}}a^{3}B^{2}C^{3}d^{2}\Rightarrow _{p_{6}p_{7}}a^{3}b^{2}C^{3}d^{2}\Rightarrow _{p_{8}p_{9}^{2}}a^{3}b^{2}c^{3}d^{2}}
+.[citation needed]
+A noncontracting grammar for the language { a2i | i ≥ 1 } is constructed in Example 9.5 (p. 224) of (Hopcroft, Ullman, 1979):[15]
+Every context-sensitive grammar which does not generate the empty string can be transformed into a weakly equivalent one in Kuroda normal form. "Weakly equivalent" here means that the two grammars generate the same language. The normal form will not in general be context-sensitive, but will be a noncontracting grammar.[16][17]
+The Kuroda normal form is an actual normal form for non-contracting grammars.
+A formal language can be described by a context-sensitive grammar if and only if it is accepted by some linear bounded automaton (LBA).[18] In some textbooks this result is attributed solely to Landweber and Kuroda.[7] Others call it the Myhill–Landweber–Kuroda theorem.[19] (Myhill introduced the concept of deterministic LBA in 1960. Peter S. Landweber published in 1963 that the language accepted by a deterministic LBA is context sensitive. Kuroda introduced the notion of non-deterministic LBA and the equivalence between LBA and CSGs in 1964.[20][21])
+As of 2010[update][needs update] it is still an open question whether every context-sensitive language can be accepted by a deterministic LBA.[22]
+Context-sensitive languages are closed under complement. This 1988 result is known as the Immerman–Szelepcsényi theorem.[19]
+Moreover, they are closed under union, intersection, concatenation, substitution,[note 4] inverse homomorphism, and Kleene plus.[23]
+Every recursively enumerable language L can be written as h(L) for some context-sensitive language L and some string homomorphism h.[24]
+The decision problem that asks whether a certain string s belongs to the language of a given context-sensitive grammar G, is PSPACE-complete. Moreover, there are context-sensitive grammars whose languages are PSPACE-complete. In other words, there is a context-sensitive grammar G such that deciding whether a certain string s belongs to the language of G is PSPACE-complete (so G is fixed and only s is part of the input of the problem).[25]
+The emptiness problem for context-sensitive grammars (given a context-sensitive grammar G, is L(G)=∅ ?) is undecidable.[26][note 5]
+Savitch has proven the following theoretical result, on which he bases his criticism of CSGs as basis for natural language: for any recursively enumerable set R, there exists a context-sensitive language/grammar G which can be used as a sort of proxy to test membership in R in the following way: given a string s, s is in R if and only if there exists a positive integer n for which scn is in G, where c is an arbitrary symbol not part of R.[10]
+It has been shown that nearly all natural languages may in general be characterized by context-sensitive grammars, but the whole class of CSGs seems to be much bigger than natural languages.[citation needed]  Worse yet, since the aforementioned decision problem for CSGs is PSPACE-complete, that makes them totally unworkable for practical use, as a polynomial-time algorithm for a PSPACE-complete problem would imply P=NP.
+It was proven that some natural languages are not context-free, based on identifying so-called cross-serial dependencies and unbounded scrambling phenomena.[citation needed] However this does not necessarily imply that the class of CSGs is necessary to capture "context sensitivity" in the colloquial sense of these terms in natural languages. For example, linear context-free rewriting systems (LCFRSs) are strictly weaker than CSGs but can account for the phenomenon of cross-serial dependencies; one can write a LCFRS grammar for {anbncndn | n ≥ 1} for example.[27][28][29]
+Ongoing research on computational linguistics has focused on formulating other classes of languages that are "mildly context-sensitive" whose decision problems are feasible, such as tree-adjoining grammars, combinatory categorial grammars, coupled context-free languages, and linear context-free rewriting systems.  The languages generated by these formalisms properly lie between the context-free and context-sensitive languages.
+More recently, the class PTIME has been identified with range concatenation grammars, which are now considered to be the most expressive of the mild-context sensitive language classes.[29]

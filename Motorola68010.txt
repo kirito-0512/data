@@ -1,0 +1,15 @@
+38863,
+Motorola68010,
+The Motorola MC68010 processor is a 16/32-bit microprocessor from Motorola, released in 1982 as the successor to the Motorola 68000.[2] It fixes several small flaws in the 68000, and adds a few features.
+The 68010 is pin-compatible with the 68000, but is not 100% software compatible. Some of the differences were:
+In practice, the overall speed gain over a 68000 at the same frequency is less than 10%.
+The 68010 could be used with the 68451 MMU. However, aspects of its design, such as its 1 clock memory access penalty, made this configuration unpopular. Some vendors used their own MMU designs, such as Sun Microsystems in their Sun-2 workstation and Convergent Technologies in the AT&T UNIX PC/3B1.
+The 68010 was never as popular as the 68000. However, due to the 68010's small speed boost over the 68000 and its support for virtual memory, it can be found in a number of smaller Unix systems, both with the 68451 MMU (for example in the Torch Triple X), and with a custom MMU (such as the Sun-2 Workstation, AT&T UNIX PC/3B1, Convergent Technologies MiniFrame, NCR Tower XP, Apollo Computer's DN300 and DN320,[3] and HP 9000 Model 310) and various research machines. Most other vendors (such as Apple Computer) stayed with the 68000 until the 68020 was introduced. 
+Atari Games used the 68010 in some of their arcade boards such as the Atari System 1. Some owners of Amiga and Atari ST computers and Sega Genesis game consoles replaced their system's 68000 CPU with a 68010 to gain a small speed boost.[4]
+The Motorola MC68012 processor is a 16/32-bit microprocessor from the early 1980s. It is an 84-pin PGA[5] version of the Motorola 68010. The memory space was extended to 2 GB, and a read-modify-write cycle (RMC) pin, indicating that an indivisible read-modify-write cycle in progress, was added, in order to help the design of multiprocessor systems with virtual memory.[6][7] All other processors had to hold off memory accesses until the cycle was complete. All other features of the MC68010 were preserved.
+The expansion of the memory space caused an issue for any programs that used the high byte of an address to store data, a programming trick that was successful with those processors that only have a 24-bit address bus (68000 and 68010). A similar problem affected the 68020.
+
+
+
+Information box
+{'Launched': '1982', 'Designed by': 'Motorola', 'Max. CPU clock rate': '8 MHz to 16.67 MHz', 'Data width': '16 bits', 'Address width': '24 bits', 'Instruction set': 'Motorola 68000 series', 'Transistors': '69,000[1]', 'Predecessor(s)': 'Motorola 68000', 'Successor(s)': 'Motorola 68020'}

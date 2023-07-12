@@ -1,0 +1,418 @@
+21681,
+PagesneedingtranslationintoEnglish,
+This encyclopedia is written in English (see Main Page#Wikipedia languages). With this being said, this page is a place to list articles written in languages other than English, to see if they can be translated before they are listed at Wikipedia:Articles for deletion. If someone speaks the language the article is written in and can state that it is not worth translating, the item should be moved to AfD or tagged with {{prod}}. Please keep in mind that drafts are considered out of scope for this page.
+If an article has been listed here for two weeks and is still untranslated, it should be removed from Wikipedia following one of the processes laid out in our deletion policy.
+There are two main ways you can help this project:
+Note: you can click the same language multiple times, and it will give you a different article each time you click it (if there is more than one for that language).
+You can also view a list of all articles in need of post-translation cleanup for a given language at these links: 
+Albanian, Arabic, Belarusian, Bosnian, Bulgarian, Catalan, Chinese, Croatian, Dutch, Farsi, Finnish, French, German, Greek, Hindi, Hungarian, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Punjabi, Romanian, Russian, Serbian, Slovak, Spanish, Turkish, Ukrainian, Vietnamese.
+
+If you are here for the first time and have an article in a language other than English or a poorly translated article that you wish to list here to forestall possible deletion, you should start by finding the most appropriate template from among the ones listed at Wikipedia:Template messages/Translation and add it to the article page, save the page, and then follow the instructions in the banner on how to list the article here.  You might need to click '[show]' to see all the instructions.
+If you want to ask for a translation into English of an article from a another language's Wikipedia, go to Wikipedia:Translation.
+
+Listing a page here
+Most pages get listed here by subst'ing a {{Needtrans}} template, following the instructions given at any one of several translation-related templates that are added to the article page.  Many of the templates found at Wikipedia:Template messages/Translation propose adding the corresponding article here.
+See section Translation template usage below for details of the templates available for use on the main article page.
+Other ways to find articles for inclusion on this page are:
+
+Tagging
+If the article is a mere copy of (all or part of) an article in another language's Wikipedia, it can just be tagged with {{db-foreign}} to get added to Wikipedia:Candidates for speedy deletion: we want to discourage people who cut articles from one Wikipedia and paste to another without translating. You can leave a message on the contributing user's talk-page in their own language, using the templates from WP:PNT/Templates for user talk pages or using {{UE}}; this will point them to the appropriate Wikipedia in the language they used.
+
+Replacement and restoration
+Sometimes, legitimate articles are replaced by content in other languages. In this case, the last English-language version should be restored from the history.
+In addition, you may leave a message on the user's talk-page as indicated above.
+
+Notification
+When listing a page here, you might want to find the Wikipedia:Embassy, Ambassador, or Wikipedia:Local embassy member of the Wikipedia that relates to the language the article is in and invite them to move the page to their own Wikipedia. If you don't even know what language the article is in you could use Language recognition chart, and if that fails, some language identification web site, such as Xerox or What Language Is This? to find out. If you have come here from another Wikipedia, please note on this page what you think should be done with the article.
+
+Deletion
+If an article has been listed here for two weeks and is still untranslated, it should be nominated for deletion.  (See also Guide to deletion.)
+Articles that are not in English are still subject to all other forms of speedy deletion should they meet the criteria, and can be nominated for deletion by prod or afd should an editor feel they warrant deletion for a reason other than the language it is in, an article not being in English is not itself a criterion for deletion until the two week period has passed. Also, articles in other languages are still subject to blp prod. 
+
+After translation
+When a page listed here has been translated, its entry should be removed (or moved to section Cleanup  if the translation needs another pair of eyes).  
+There are also procedures to follow at the Talk page of the article itself; see template {{translated page}} and Wikipedia:Translation#How to translate.
+
+Various templates are available to tag the article page needing translator attention, and one template is available for use here at WP:PNT.
+The following templates are available to tag articles with translation issues in preparation for listing the article at WP:PNT:
+The following templates are available for use at WP:PNT to add an entry linking to the article having the translation issue:
+These templates, and other templates relating to translation issues outside the scope of WP:PNT can be found at Wikipedia:Template messages/Translation.
+
+Templates for article pages
+One of the following templates should be used at the top of the article page:
+
+Not English
+Template {{not English}} (alias: {{notenglish}}) is available
+for a page that needs translation in its entirety (so it would be appropriate to delete if not fixed):
+
+Not English section
+If there is just a section that needs translation:
+
+Cleanup translation
+Template {{cleanup translation}} (alias: {{cleanup-translation}}) is available
+if the article has been translated, but needs attention from someone approaching dual fluency in both languages:
+
+Hidden translation
+Template {{Hidden translation}} is available
+if the article was translated at an earlier point and contained factual errors, while subsequent edits fixed up the English without fixing the errors of fact. The article now looks good and not "machine-translated" anymore, but the original errors of fact are still there, papered over with a facade of good English.
+
+Rough translation
+Template {{rough translation}} is available
+if the article has been translated, but it looks to be either a machine translation or by someone who doesn't have a good command of the target language, and needs attention from a translator; more than just copyediting is required.
+
+Translate passage
+Template {{Translate passage}} is available for articles that are primarily in English, but have a brief section like a quotation, poem, excerpt, etc. in another language, that needs translation.
+
+Templates for use here
+Once you have tagged the article page with one of the templates above, the banner that appears will provide instructions on using a template to add an entry to the list of pages needing translation (titled "Pages for consideration") using the {{Needtrans}} template or the translation cleanup section (titled "Translated pages that could still use some cleanup") :
+
+Needtrans
+Template {{Needtrans}} is available for use in the list of pages needing translation.
+Follow instructions at the expanded banner generated by {{tlx|Not English]] to subst template {{Needtrans}} onto the page at the bottom of the cleanup section.  Sample invocations:
+Please consider also placing
+on the talk page of the author.
+
+Translation has been requested on the following film titles:
+--Jac16888 Talk 17:58, 25 November 2022 (UTC)Reply[reply]
+The original Chinese article is zh:周朝諸侯國列表.  Alpha514 (talk) 23:27, 11 June 2023 (UTC)Reply[reply]
+The initial language of this article was Uncertain. parts are French Gab4gab (talk) 23:54, 30 June 2023 (UTC)Reply[reply]
+
+
+Pages listed here are "mostly done" or need sources or works included in the article to be translated. They could still use some attention from someone who approaches dual-fluency. Please use the notice {{cleanup-translation}} on the page.
+The initial language of this article was Chinese. Some of the "description" sections of the tables are in Chinese script and need translating and transliterating so as to be useful.  Rincewind42 (talk) 10:46, 28 October 2016 (UTC)Reply[reply]
+The initial language of this article was Russian.   - CHAMPION (talk) (contributions) (logs)  23:22, 26 January 2017 (UTC)Reply[reply]
+The initial language of this article was Portuguese.   Hack (talk) 05:28, 2 February 2017 (UTC)Reply[reply]
+The initial language of this article was Catalan. The translated version in question is rev 707952544. This is  #1854 at WP:AN/CXT/Pages to review. Mathglot (talk) 23:39, 7 May 2017 (UTC)Reply[reply]
+The initial language of this article was Vietnamese.  Ringbang (talk) 19:46, 2 July 2017 (UTC)Reply[reply]
+The initial language of this article was Polish. The article is partly readable (see: the talk page), but the translation is of low quality (= Engrish). Magru (talk) 18:26, 1 August 2017 (UTC)Reply[reply]
+The initial language of this article was Portuguese. Appears to be word-for-word translation from Portuguese Wiki article (edits on both from the same user). Needs a second look from someone bilingual. Paris1127 (talk) 06:31, 6 August 2017 (UTC)Reply[reply]
+The initial language of this article was Portuguese.  fgnievinski (talk) 03:01, 4 September 2017 (UTC)Reply[reply]
+The initial language of this article was Korean.  AtlasDuane (talk) 13:04, 10 October 2017 (UTC)Reply[reply]
+The initial language of this article was Ukrainian. Notable (one of the few examples of a Soviet-era 'closed city' within the Ukrainian SSR), especially so given the current conflict and territorial dispute, but badly translated from the original Ukrainian. One Of Seven Billion (talk) 18:39, 10 October 2017 (UTC)Reply[reply]
+The initial language of this article was unknown. Original language is probably Azerbaijani given the subject, but this is a guess. Thryduulf (talk) 13:47, 3 January 2018 (UTC)Reply[reply]
+The initial language of this article was Romanian.  { [ ( jjj 1238 ) ] } 00:50, 6 January 2018 (UTC)Reply[reply]
+This is a translation of the Russian Wikipedia Article Савва (Сарачевич) and could use attention by someone fluent in both Russian and English.
+The initial language of this article was probably Azerbaijani. Apparent machine translation of az:Samir Bağırov. Miniapolis 00:02, 24 February 2018 (UTC)Reply[reply]
+The initial language of this article was uncertain.  SounderBruce 06:09, 29 March 2018 (UTC)Reply[reply]
+The initial language of this article was Japanese.  Atlantic306 (talk) 13:39, 3 May 2018 (UTC)Reply[reply]
+Slowking4 (talk · contribs) is an indeffed sockmaster of several blocked sockpuppets, some of which, including Beatley and duckduckstop for example, have anywhere from a handful to a few dozen machine translations from multiple languages, mostly de, es, fr, hu, it, pl and others. 
+This info was here, but was getting long, and has now been moved to the Slowking4 subpage under WP:PNT/by user. Mathglot (talk) 09:23, 27 May 2018 (UTC)Reply[reply]
+The initial language of this article was Japanese.  Atlantic306 (talk) 10:52, 6 May 2018 (UTC)Reply[reply]
+The initial language of this article was ru.  One Of Seven Billion (talk) 19:46, 23 May 2018 (UTC)Reply[reply]
+The initial language at least parts of this article was Hungarian, at least "The hard rock period" section.  — Preceding unsigned comment added by 174.7.175.152 (talk • contribs) 08:01, May 26, 2018 (UTC)
+The original Spanish article is es:Constitución argentina de 1853. Translated back in 2006 and worked on steadily since, but still has rube mistakes, even in the lead. Mathglot (talk) 00:55, 3 June 2018 (UTC)Reply[reply]
+The initial language of this article was Korean.  Eastmain (talk • contribs) 17:53, 19 June 2018 (UTC)Reply[reply]
+The initial language of this article was Russian.
+The initial language of this article was Russian. The references need to be translated. - CHAMPION (talk) (contributions) (logs)  08:45, 19 July 2018 (UTC)Reply[reply]
+The initial language of this article was Spanish.  Paris1127 (talk) 01:15, 22 July 2018 (UTC)Reply[reply]
+The initial language of this article was Russian.  Onel5969 TT me 17:39, 29 July 2018 (UTC)Reply[reply]
+The initial language of this article was Russian.  Onel5969 TT me 17:43, 29 July 2018 (UTC)Reply[reply]
+The initial language of this article was Russian.  Onel5969 TT me 17:44, 29 July 2018 (UTC)Reply[reply]
+The initial language of this article was Chuvash.  Valenciano (talk) 12:39, 7 August 2018 (UTC)Reply[reply]
+The initial language of this article was Russian. Looks like a machine translation of ru:Комаров, Игорь Анатольевич. ... discospinster talk 19:19, 7 September 2018 (UTC)Reply[reply]
+The initial language of this article was Portuguese (pt:Beco do Pinto). Thine Antique Pen (talk) 19:05, 13 September 2018 (UTC)Reply[reply]
+This article has been translated from the Vietnamese Wikipedia. Cwmhiraeth (talk) 10:39, 21 October 2018 (UTC)Reply[reply]
+The initial language of this article was Ukrainian.  Rogermx (talk) 21:29, 13 November 2018 (UTC)Reply[reply]
+The initial language of this article was Spanish (original at es:María Ponce). Not poor at all, but still needs minor cleanup and clarification (also, what should be done with the helpful Spanish quote that's in hidden-text?). Paintspot Infez (talk) 17:20, 10 December 2018 (UTC)Reply[reply]
+Looks like machine translation from Ukrainian.--Ymblanter (talk) 13:23, 3 January 2019 (UTC)Reply[reply]
+The initial language of this article was Polish. Needs cleanup of rough translation from Polish Wikipedia Auric talk 23:25, 25 January 2019 (UTC)Reply[reply]
+The initial language of this article was Russian. In section History. Auric talk 17:49, 28 January 2019 (UTC)Reply[reply]
+The initial language of this article was Portuguese.  Shillings1005 (talk) 03:08, 9 March 2019 (UTC)Reply[reply]
+The initial language of this article was Dutch.  signed, Rosguill talk 07:33, 16 March 2019 (UTC)Reply[reply]
+The initial language of this article was Portuguese. Seems to have been machine-translated from the portuguese version; the direct quotes and colloquial expressions are in particularly bad shape. gnu57 00:33, 18 March 2019 (UTC)Reply[reply]
+The initial language of this article was Czech?. Many sections are very crudely translated and are difficult to read as a Native English speaker. Not sure if translated directly from the Czech article or if it's just written by someone who doesn't speak English well.  MrAureliusRTalk! 03:33, 21 March 2019 (UTC)Reply[reply]
+The initial language of this article was Chinese. Parts of the article are understandable with a little effort, other parts need a complete rewrite Thryduulf (talk) 00:14, 18 March 2019 (UTC)Reply[reply]
+The initial language of this article was German. Bsoyka✉ 02:39, 1 May 2019 (UTC)Reply[reply]
+The initial language of this article was Ukrainian. Machine translation. Teemeah 편지 (letter)  17:52, 11 May 2019 (UTC)Reply[reply]
+The initial language of this article was Belarusian. Bad English. Bbarmadillo (talk) 21:26, 10 June 2019 (UTC)Reply[reply]
+The initial language of this article was Russian.  Auric talk 12:23, 11 June 2019 (UTC)Reply[reply]
+The initial language of this article was German. I did my best but some of the translated sentences were impenetrable gibberish.
+The initial language of this article was Russian.  Esiymbro (talk) 08:19, 4 July 2019 (UTC)Reply[reply]
+The initial language of this article was Russian.  Nightfury 07:56, 17 July 2019 (UTC)Reply[reply]
+The initial language of this article was Portuguese.   DGG ( talk ) 02:35, 18 July 2019 (UTC)Reply[reply]
+The initial language of this article was unknown (Indian language).  Baffle☿gab 22:03, 25 July 2019 (UTC)Reply[reply]
+The initial language of this article was Korean. The main editor of this article (Hoiosessi) is not fluent in English, but is fluent in Korean. In general, many portions translated from the corresponding article in Korean use fairly garbled and verbose English. Cs7-54 (talk) 13:37, 29 July 2019 (UTC)Reply[reply]
+The initial language of this article was Malayalam.  Bensci54 (talk) 20:44, 1 August 2019 (UTC)Reply[reply]
+The initial language of this article was uncertain.   Eni vak  (speak) 16:38, 2 September 2019 (UTC)Reply[reply]
+The initial language of this article was uncertain.   Eni vak  (speak) 17:19, 2 September 2019 (UTC)Reply[reply]
+The initial language of this article was Spanish.  Auric talk 15:04, 18 September 2019 (UTC)Reply[reply]
+The initial language of this article was ukrainian.  𝕎𝕚𝕜𝕚𝕎𝕒𝕣𝕣𝕚𝕠𝕣𝟡𝟡𝟙𝟡 (talk) 15:49, 18 October 2019 (UTC)Reply[reply]
+The initial language of this article was Slovak.  Ingratis (talk) 02:06, 23 October 2019 (UTC)Reply[reply]
+The initial language of this article was Russian. ProletariatetsBefrielseOrkester (talk) 15:22, 27 October 2019 (UTC)Reply[reply]
+The initial language of this article was es.  Missvain (talk) 20:50, 26 November 2019 (UTC)Reply[reply]
+The initial language of this article was Spanish.  Auric talk 14:54, 11 January 2020 (UTC)Reply[reply]
+The initial language of this article was Spanish. poor translation of Spanish wikipedia Atlantic306 (talk) 18:32, 25 January 2020 (UTC)Reply[reply]
+The initial language of this article was Serbian. Seems to be well sourced but there is an over-abundance of untranslated or unexplained Serbian words in the article. Latin could also be useful as there are extensive Latin references in the sources JaAlDo (talk) 13:27, 5 March 2020 (UTC)Reply[reply]
+The initial language of this article was uncertain.  Iseult Δx parlez moi 20:52, 9 April 2020 (UTC)Reply[reply]
+The initial language of this article was German.  Jmg38 (talk) 10:48, 15 April 2020 (UTC)Reply[reply]
+The initial language of this article was German. Was mistakenly sent to AFD as a nonsensical article, but instead turned out to be a machine translated version of the German Wikipedia article. bibliomaniac15 04:02, 21 April 2020 (UTC)Reply[reply]
+The initial language of this article was Turkish.  Hitro talk 06:59, 8 May 2020 (UTC)Reply[reply]
+The initial language of this article was Korean. The article seems to have been translated via something à la Google Translate Orcaguy (talk) 20:35, 16 May 2020 (UTC)Reply[reply]
+The initial language of this article was Polish. Probably machine translated long ago, but overall badly written and sourced.
+The initial language of this article was Spanish.  Boshtok  | Insult Liverpool |  The Seer | 02:26, 4 June 2020 (UTC)Reply[reply]
+The initial language of this article was Spanish.  Jmg38 (talk) 21:53, 7 June 2020 (UTC)Reply[reply]
+The initial language of this article was Spanish.  Paris1127 (talk) 01:21, 10 June 2020 (UTC)Reply[reply]
+The initial language of this article was fr.  BilCat (talk) 06:56, 11 June 2020 (UTC)Reply[reply]
+The initial language of this article was German.  Rathfelder (talk) 22:00, 11 June 2020 (UTC)Reply[reply]
+The initial language of this article was German.  Ionmars10 (talk) 15:51, 20 June 2020 (UTC)Reply[reply]
+The initial language of this article was Romanian.  Dondville (talk) 21:09, 1 July 2020 (UTC)Reply[reply]
+The initial language of this article was Korean. Particularly, all refs only show Korean titles, need an English Ben · Salvidrim! ✉ 13:45, 7 July 2020 (UTC)Reply[reply]
+The initial language of this article was Portuguese.  Jmg38 (talk) 20:46, 20 July 2020 (UTC)Reply[reply]
+The initial language of this article was Arabic. Looks like a machine translation to me. Baffle☿gab 09:05, 25 July 2020 (UTC)Reply[reply]
+The initial language of this article was Russian.  John B123 (talk) 17:45, 3 August 2020 (UTC)Reply[reply]
+The initial language of this article was French. My French is on the weak side, but I think I've got most of it. In particular the dozen or so French "sayings" are not translating well. Someone familiar with French legal system would be best. LilHelpa (talk) 21:32, 25 August 2020 (UTC)Reply[reply]
+The initial language of this article was Catalan. Page creator indicates this was translated from Catalan, and it has some rough edges Paris1127 (talk) 20:50, 28 August 2020 (UTC)Reply[reply]
+The initial language of this article was Hungarian. Parts of article don't make sense. Rogermx (talk) 17:20, 31 August 2020 (UTC)Reply[reply]
+The initial language of this article was Portuguese.  —S Marshall T/C 14:43, 21 September 2020 (UTC)Reply[reply]
+The initial language of this article was Persian.  Gotitbro (talk) 23:20, 30 September 2020 (UTC)Reply[reply]
+The initial language of this article was Russian.  Onel5969 TT me 13:22, 3 October 2020 (UTC)Reply[reply]
+In addition to mainly being POV, this is an apparent bad translation, likely from Ukrainian.--Ymblanter (talk) 11:05, 10 October 2020 (UTC)Reply[reply]
+The initial language of this article was Thai. Chrisrokz (talk) 20:56, 5 November 2020 (UTC)Reply[reply]
+The initial language of this article was French.  Lord Belbury (talk) 12:39, 22 November 2020 (UTC)Reply[reply]
+The initial language of this article was Japanese.  58.152.217.64 (talk) 18:11, 26 November 2020 (UTC)Reply[reply]
+The initial language of this article was Greek.  Rathfelder (talk) 23:03, 30 November 2020 (UTC)Reply[reply]
+The initial language of this article was Russian. Article uses odd language consistent with a machine translation. Most notably: "Yeltsin's Sanitary" Paris1127 (talk) 21:13, 2 December 2020 (UTC)Reply[reply]
+The initial language of this article was uncertain.  The Bushranger One ping only 06:12, 4 December 2020 (UTC)Reply[reply]
+The initial language of this article was Portuguese. Lines up with PT Wiki page, appears to be a machine translation Paris1127 (talk) 17:57, 22 December 2020 (UTC)Reply[reply]
+The initial language of this article was Russian, as it is the only other language the article is available on. Seems to be translated by a machine. Note that the title of the page contains a dubious grammatical article. Geogranerd (talk) 09:50, 24 December 2020 (UTC)Reply[reply]
+The initial language of this article was Russian. Also may need further wikilinks for integration, for which the wording can be improved. ««« SOME GADGET GEEK »»» (talk) 15:35, 1 January 2021 (UTC)Reply[reply]
+The initial language of this article was French.  RickyCourtney (talk) 18:56, 4 January 2021 (UTC)Reply[reply]
+The initial language of this article was italian.  Korvidus (talk) 20:28, 13 January 2021 (UTC)Reply[reply]
+The initial language of this article was French.  CoconutOctopus talk 18:39, 16 January 2021 (UTC)Reply[reply]
+The initial language of this article was Italian.  Wikignome Wintergreentalk 16:30, 22 January 2021 (UTC)Reply[reply]
+The initial language of this article was Russian.  WQUlrich 09:45, 14 February 2021‎ (UTC)Reply[reply]
+The initial language of this article was Russian.  Lettlerhello • contribs 22:17, 17 February 2021 (UTC)Reply[reply]
+The initial language of this article was Spanish.  Joseph2302 (talk) 16:39, 18 February 2021 (UTC)Reply[reply]
+Not a translation, but very cryptic. Topic is Korean, sources are Korean. Author is either Korean or speaks Korean. I don't. Needs help the author is not accepting from me. This may all be much less murky to someone who speaks Korean Elinruby (talk) 12:00, 23 February 2021 (UTC)Reply[reply]
+The initial language of this article was Russian.  Rogermx (talk) 23:14, 26 February 2021 (UTC)Reply[reply]
+The initial language of this article was Russian.  Rogermx (talk) 21:50, 1 March 2021 (UTC)Reply[reply]
+The initial language of this article was Russian. Russian is a guess.
+The initial language of this article was Russian.   DGG ( talk ) 22:10, 21 March 2021 (UTC)Reply[reply]
+The initial language of this article was Italian.  Shushugah (talk) 16:56, 27 March 2021 (UTC)Reply[reply]
+The initial language of this article was Russian.  Auric talk 22:59, 29 March 2021 (UTC)Reply[reply]
+The initial language of this article was Uncertain. I corrected a few wrong translations but I suspect there's more, looks like someone google translated a few Korean articles and meshed it up into wiki format. Xia talk to me  11:36, 4 April 2021 (UTC)Reply[reply]
+The initial language of this article was Spanish.  Aleksandr Sokolin (talk) 15:12, 9 April 2021 (UTC)Reply[reply]
+The initial language of this article was German.  Poor word-by-word translation. PhiH (talk) 13:40, 11 April 2021 (UTC)Reply[reply]
+The initial language of this article was Uncertain. Appears to be written by a non-English speaker Roger 8 Roger (talk) 21:36, 12 April 2021 (UTC)Reply[reply]
+The initial language of this article was Russian.  Fences&Windows 23:11, 13 April 2021 (UTC)Reply[reply]
+The initial language of this article was Portuguese. Seems like a machine translation. flod logic (talk) 13:48, 24 April 2021 (UTC)Reply[reply]
+The initial language of this article was Portuguese.  John B123 (talk) 20:16, 28 April 2021 (UTC)Reply[reply]
+Machine translation at some point, for example: 
+Speaks for itself. Wikilinking what I can identify.Elinruby (talk) 09:58, 9 May 2021 (UTC)Reply[reply]
+The initial language of this article was Spanish.  flod logic (talk) 09:25, 15 May 2021 (UTC)Reply[reply]
+The initial language of this article was Russian.  Paris1127 (talk) 02:17, 22 May 2021 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  BOVINEBOY2008 09:53, 21 June 2021 (UTC)Reply[reply]
+The initial language of this article was Russian.  Paris1127 (talk) 01:57, 5 August 2021 (UTC)Reply[reply]
+The initial language of this article was Unknown.  flod logic (talk) 08:00, 22 August 2021 (UTC)Reply[reply]
+The initial language of this article was Spanish. Appears to be a wholesale translation Paris1127 (talk) 00:36, 30 August 2021 (UTC)Reply[reply]
+The initial language of this article was Italian.  Datn (talk) 11:44, 31 August 2021 (UTC)Reply[reply]
+The initial language of this article was German. Not even the article title has been translated, for crying out loud... Fram (talk) 07:18, 22 September 2021 (UTC)Reply[reply]
+Likely translated from the jpwiki article by a native speakers. Errors and issues here and there, some lines are completely incomprehensible. Needs cleanup. Gotitbro (talk) 09:52, 30 September 2021 (UTC)Reply[reply]
+Original language probably Russian. Problems with word order; knowledge of Russian grammar might allow someone to decipher what is the subject of the verb and what is the object. Already flagged as needing wikilinks, but it’s still too incomprehensible for that. Elinruby (talk) 16:09, 2 October 2021 (UTC)Reply[reply]
+The initial language of this article was German.  Ingratis (talk) 21:18, 14 October 2021 (UTC)Reply[reply]
+The initial language of this article was Italian. Straight from it.wikipedia.org. Not incredibly challenging but a native tongue will help some awkwardness. Babegriev (talk) 06:56, 21 October 2021 (UTC)Reply[reply]
+The initial language of this article was Russian.  Paris1127 (talk) 01:44, 23 October 2021 (UTC)Reply[reply]
+The initial language of this article was Russian.  Paris1127 (talk) 20:15, 27 October 2021 (UTC)Reply[reply]
+The initial language of this article was Farsi?.  Artoria2e5 🌉 19:41, 2 November 2021 (UTC)Reply[reply]
+The initial language of this article was Arabic. Current version is almost identical to a Google translation of the Arabic page. Mako001 (talk) 07:54, 7 November 2021 (UTC)Reply[reply]
+The initial language of this article was French.  the wub "?!" 23:48, 10 November 2021 (UTC)Reply[reply]
+The initial language of this article was Russian. Says it's translated from Russian in the the Talk Page. And it shows Paris1127 (talk) 04:19, 16 November 2021 (UTC)Reply[reply]
+The initial language of this article was Dutch. This was tagged as {{cleanup|reason=Plain translation of a Dutch article, with only Dutch references and problematics}} in 2011. I am changing the tag to {{rough translation}} and listing it here as part of a cleanup of old {{cleanup}} tags. * Pppery * it has begun... 21:59, 26 November 2021 (UTC)Reply[reply]
+The initial language of this article was Italian. Vast expanses of unsourced content machine-translated (?) from the Italian (where it is also almost entirely unsourced). Justlettersandnumbers (talk) 19:23, 3 December 2021 (UTC)Reply[reply]
+The initial language of this article was Spanish.  NoonIcarus (talk) 01:28, 4 December 2021 (UTC)Reply[reply]
+The initial language of this article was Korean. this is written from korean-language sources and came out pretty garbled; needs someone familiar with the language or the topic to copyedit effectively asilvering (talk) 00:41, 7 December 2021 (UTC)Reply[reply]
+The initial language of this article was Italian.  — 3PPYB6 — TALK — CONTRIBS — SANDBOXES — LOGS — 15:17, 10 December 2021 (UTC)Reply[reply]
+The initial language of this article was German.  asilvering (talk) 01:34, 23 December 2021 (UTC)Reply[reply]
+The initial language of this article was Ukrainian.   Mako001 (talk) 06:00, 23 December 2021 (UTC)Reply[reply]
+The initial language of this article was Russian. User who created this has a history of just accepting the Google translation Paris1127 (talk) 05:28, 25 December 2021 (UTC)Reply[reply]
+The initial language of this article was French. The “land use” section was translated with minor fixes from the existing French Wikipedia article at fr:Talasani. — 3PPYB6 — TALK — CONTRIBS — 15:10, 25 December 2021 (UTC)Reply[reply]
+The initial language of this article was Spanish. Very clearly machine translated, extremely long and clunky. Sample: "Few days after the inauguration of Estadio Balear the club played the promotion, but neither did it again.[30] (Neither? Who is the other one?) But the positive dynamics were unstoppable and in 1960–61 season he (Spanish uses the same formation for he, she, formal you and "it" [including teams, which are "they" in British English] and this is notoriously hard for a machine to realise) was champion of Tercera División and won the promotion to Segunda División.[31] 2A00:23C5:E187:5F00:9412:F876:829B:3CF (talk) 16:12, 8 January 2022 (UTC)Reply[reply]
+The initial language of this article was Unknown. Very broken English. Also probably from Russian, see Special:Diff/1068488742 and pay attention to the latinized Russian.— 3PPYB6 — TALK — CONTRIBS — 18:04, 28 January 2022 (UTC)Reply[reply]
+The initial language of this article was French.  asilvering (talk) 05:21, 5 February 2022 (UTC)Reply[reply]
+The initial language of this article was Russian. Appears to be a machine translation, has been only lightly corrected since creation on 8 February 2022. Yngvadottir (talk) 05:08, 12 February 2022 (UTC)Reply[reply]
+The initial language of this article was Jp. Appears to be a machine translation, as the structure is very literal. AtlasDuane (talk) 14:58, 12 February 2022 (UTC)Reply[reply]
+The initial language of this article was Greek.  Constantine  ✍  21:34, 18 February 2022 (UTC)Reply[reply]
+The initial language of this article was Russian.  commarevival (talk) 13:10, 24 February 2022 (UTC)Reply[reply]
+The initial language of this article was Arabic?.  Rathfelder (talk) 17:53, 25 February 2022 (UTC)Reply[reply]
+The initial language of this article was most likely Spanish or Basque. The gender mismatches make this appear to be a machine translation. Needs attention by someone fluent. —David Eppstein (talk) 20:30, 8 March 2022 (UTC)Reply[reply]
+The initial language of this article was Russian. Translated using the ContentTranslation tool by someone who must be using machine translation, as the lead sentence is very poor, and the "title" of the source in footnote 7 in the References section is "Архивированная копия", which means "Archived copy". Mathglot (talk) 21:18, 9 March 2022 (UTC)Reply[reply]
+This page appears to have started as a poor-quality machine translation of the Japanese Wikipedia page ja:神道の歴史.  The article structure is largely intact so far as I've checked, so it's still pretty easy to align sentence-by-sentence.  Of chief concern that I've noticed is mistranslated / misromanized titles, such as in the #Theorizing_Shinto_and_the_Honji_Suijaku_Theory section where we see things like 三角柏伝記 mis-rendered as "Sankaku Kashiwa Denki" instead of the expected Mitsuno Kashiwa Denki, or 中臣祓訓解 appearing as "Chuushin Horaikunka" instead of the expected Nakatomi no Harae Kunge.  That said, the whole piece should be reviewed and cleaned up -- even a cursory skim reveals wording, continuity, punctuation, and grammar mistakes, mostly further down the article -- it seems that the first few paragraphs have received the most attention.  ‑‑ Eiríkr Útlendi │Tala við mig 22:55, 15 March 2022 (UTC)Reply[reply]
+The initial language of this article was I assume Russian. The page title has a typo, and the use of Graphemes in her surname rather than Grafemus is wrong. There are likely other issues. Dsp13 (talk) 12:23, 23 March 2022 (UTC)Reply[reply]
+The initial language of this article was Arabic. It seems most of the recent edits were made by someone who's first language wasn't English with seemingly extraneous details included.  FishandChipper (talk) 12:58, 25 March 2022 (UTC)Reply[reply]
+The initial language of this article was Russian.  Ffranc (talk) 10:59, 11 April 2022 (UTC)Reply[reply]
+The initial language of this article was French. Many elementary problems including false friend-style errors, and many others. Mathglot (talk) 04:39, 13 April 2022 (UTC)Reply[reply]
+The initial language of this article was Turkish. Initially written in English with Turkish sources, but very poorly translated Plantdrew (talk) 02:22, 17 April 2022 (UTC)Reply[reply]
+The initial language of this article was Polish.  HappyWithWhatYouHaveToBeHappyWith (talk) 02:26, 21 April 2022 (UTC)Reply[reply]
+The initial language of this article was Spanish. Structure (and red links) line up with Spanish article Paris1127 (talk) 02:07, 23 April 2022 (UTC)Reply[reply]
+The initial language of this article was Spanish. Doesn't appear to have been translated by anyone bilingual Paris1127 (talk) 02:17, 23 April 2022 (UTC)Reply[reply]
+The initial language of this article was Russian. Seems to have been a rush job by someone who wasn't bilingual FishandChipper (talk) 18:25, 24 April 2022 (UTC)Reply[reply]
+The initial language of this article was Spanish.  Happyecheveria (talk) 00:27, 25 April 2022 (UTC)Reply[reply]
+The initial language of this article was Bulgarian. Seems to have been a rush job by someone who wasn't bilingual FishandChipper (talk) 21:00, 25 April 2022 (UTC)Reply[reply]
+The initial language of this article was Gr. Sources and bibliography sections are not translated to English. MarioGom (talk) 12:12, 30 April 2022 (UTC)Reply[reply]
+The initial language of this article was French. I've fixed some of the worst of it, but much left to be done. Mostly just general translation, awkward-sounding English text in French sentence word order, fixing false friends, etc. Some ref consolidation needed, also; Template:Cite French law will make life easier, here. Mathglot (talk) 00:47, 2 May 2022 (UTC)Reply[reply]
+The initial language of this article was French. Largely a machine translation and (similarly poor) rearrangement of the fr.wiki article. It also needs to be checked for hoax material whilst correcting the translation, as it was created by a long blocked vandal and sockpuppeteer. Mako001 (C)  (T)  🇺🇦 14:14, 3 May 2022 (UTC)Reply[reply]
+- have put some work into this and left notes on talk page from my attempts to spot a hoax — if there is one it is subtle, but I am not ready to rule one out. There are some rather intricate political machinations in the remaining section, and making sure that part is straightened out would require a deep dive, taking a break from it. Elinruby (talk) 21:15, 17 July 2022 (UTC)Reply[reply]
+The initial language of this article was French.  — THIS IS TREY MATURIN 12:06, 27 May 2022 (UTC)Reply[reply]
+The initial language of this article was Greek.  Constantine  ✍  18:53, 30 May 2022 (UTC)Reply[reply]
+The initial language of this article was Spanish(?).  — THIS IS TREY MATURIN 01:24, 31 May 2022 (UTC)Reply[reply]
+The initial language of this article was Vietnamese. The content was Google Translated word-for-word. When reverse-translated, it was an exact match. Awful quality! K. H. the II 🌦🗽 (🌠) 09:34, 10 June 2022 (UTC)Reply[reply]
+The initial language of this article was Chinese.  {{u|Sdkb}} talk 02:34, 13 June 2022 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  Missvain (talk) 00:08, 29 June 2022 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  Schierbecker (talk) 04:03, 29 June 2022 (UTC)Reply[reply]
+The initial language of this article was Spanish. Was tagged as {{cleanup|date=March 2013|reason=Some content is unclearly and badly translated from Spanish, other may be checked}} * Pppery * it has begun... 18:43, 1 July 2022 (UTC)Reply[reply]
+The initial language of this article was Mon.  Mathglot (talk) 05:09, 5 July 2022 (UTC)Reply[reply]
+The initial language of this article was Thai. Possible Google Translated version of the Thai article Osarius 09:33, 5 July 2022 (UTC)Reply[reply]
+The initial language of this article was Thai.  Paul_012 (talk) 19:17, 7 July 2022 (UTC)Reply[reply]
+The initial language of this article was Japanese.  76.20.223.247 (talk) 16:26, 9 July 2022 (UTC)Reply[reply]
+The initial language of this article was Italian. Rough translation, inconsistent grammar RightQuark (talk) 18:05, 10 July 2022 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  Missvain (talk) 22:33, 12 July 2022 (UTC)Reply[reply]
+The initial language of this article was Russian.  StartOkayStop (talk) 04:22, 17 July 2022 (UTC)Reply[reply]
+The initial language of this article was French. Posted for entertainment value.  Google translate would do better
+The initial language of this article was Korean. Translated from the ko:국뽕, not understandable at various places. Gotitbro (talk) 22:55, 21 July 2022 (UTC)Reply[reply]
+The initial language of this article was Spanish.  184.100.102.233 (talk) 14:54, 22 July 2022 (UTC)Reply[reply]
+The initial language of this article was Arabic. Possibly word for word; correctly-spelled English yet a main character is a foreign animal and also a dowry? Possible I guess, but would prefer an Arabic speaker take a look Elinruby (talk) 06:03, 26 July 2022 (UTC)Reply[reply]
+The original Swedish article is sv:Svensk manskapsmusköt. Fixed most of the issues in the article but don't have enough knowledge of the technical terms to fix the model descriptions. flod logic (talk) 08:19, 31 July 2022 (UTC)Reply[reply]
+The initial language of this article was Amharic. One of a series of interesting and needed articles on Ethiopia that need a lot of copy-editing. Hoping for an Amharic speaker as the grammar seems to be quite different  Elinruby (talk) 13:09, 3 August 2022 (UTC)Reply[reply]
+The initial language of this article was Turkish. Looks like a Google translate article Yilku1 (talk) 03:39, 9 August 2022 (UTC)Reply[reply]
+The initial language of this article was Serbian. User talk:216.8.174.152#March_2022_2 applies here - this anonymous user has been doing pretty shoddy translation work for a while now, and this is one of those. --Joy [shallot] (talk) 15:00, 27 August 2022 (UTC)Reply[reply]
+The initial language of this article was French. This page was machine translated, as various nuances of French are translated literally. I did what I can, but maybe someone more fluent (despite the username) could give it the once over? Paris1127 (talk) 02:09, 29 August 2022 (UTC)Reply[reply]
+The initial language of this article was Japanese. This is a google translation (including reference tags) from the Japanese article.  Also contains formatting issues. lukini (talk | contribs) 18:43, 30 August 2022 (UTC)Reply[reply]
+The initial language of this article was Chinese. Between machine translating Chinese and just accepting the results and people on zh.wiki just accepting unsourced material that was posted on en.wiki, this page is problematic in 2 languages Paris1127 (talk) 19:45, 3 September 2022 (UTC)Reply[reply]
+The initial language of this article was Russian.  Ionmars10 (talk) 01:34, 4 September 2022 (UTC)Reply[reply]
+The initial language of this article was West Flemish. Multiple sections of this article read like they were written by someone without a great grasp on the English languague. More importantly, it uses and references non-English sources, meaning it is hard to verify let alone inline cite. JudoTiberius ((talk) 09:57, 6 September 2022 (UTC)Reply[reply]
+The initial language of this article was Korean. Google translated content in Reception section, hard to understand. Xia talk to me  15:27, 6 September 2022 (UTC)Reply[reply]
+The initial language of this article was Spanish.  gnu57 20:40, 6 September 2022 (UTC)Reply[reply]
+The initial language of this article was Spanish. Per edit history, a user admits to translating from es.wiki, and at least in the Doris Adriana Niño section it shows Paris1127 (talk) 23:20, 6 September 2022 (UTC)Reply[reply]
+The initial language of this article was German.   - car chasm (talk) 03:53, 7 September 2022 (UTC)Reply[reply]
+The initial language of this article was Russian.  Tigerdude9 (talk) 23:20, 7 September 2022 (UTC)Reply[reply]
+The initial language of this article was Bulgarian. Needs copyediting by a Bulgarian-English speaker to ensure that the facts match the sourcing and aren't distorted by an obvious machine translation. ♠PMC♠ (talk) 19:28, 9 September 2022 (UTC)Reply[reply]
+The initial language of this article was Arabic.  Schierbecker (talk) 06:12, 12 September 2022 (UTC)Reply[reply]
+The initial language of this article was Spanish. The whole article probably needs to be rewritten. Santi2222 (talk) 15:22,The initial language of this article was Spanish.  17 September 2022 (UTC)
+The initial language of this article was Spanish. The whole article probably needs to be rewritten. BLOCKED User:Jarabalistic Woofenmoton746 contributed much unsourced content. 0mtwb9gd5wx (talk) 23:03, 21 September 2022 (UTC)Reply[reply]
+The initial language of this article was German. Looks like an unedited machine translation perhaps?  - car chasm (talk) 06:55, 23 September 2022 (UTC)Reply[reply]
+The initial language of this article was Spanish.  Seems like a machine translation. flod logic (talk) 10:39, 24 September 2022 (UTC)Reply[reply]
+The initial language of this article was French. Was originally tagged as {{cleanup|reason=poor translation from French Wikipedia|date=May 2013}} * Pppery * it has begun... 19:35, 27 September 2022 (UTC)Reply[reply]
+The initial language of this article was Unknown. Was tagged as {{cleanup|reason=Poor translation/grammar|date=May 2013}} * Pppery * it has begun... 20:04, 27 September 2022 (UTC)Reply[reply]
+The initial language of this article was Russian. The translation isn't horrendous but it does need a bit of cleanup. Seems to have been translated from the corresponding article on ru.wiki. Pichpich (talk) 19:18, 3 October 2022 (UTC)Reply[reply]
+The initial language of this article was Spanish.  Paris1127 (talk) 17:19, 8 October 2022 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  Arthistorian1977 (talk) 17:47, 14 October 2022 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  QueenofBithynia (talk) 21:41, 17 October 2022 (UTC)Reply[reply]
+The initial language of this article was Italian.  QueenofBithynia (talk) 21:47, 17 October 2022 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  QueenofBithynia (talk) 21:58, 17 October 2022 (UTC)Reply[reply]
+The initial language of this article was German.  Yeeno  (talk) 00:37, 22 October 2022 (UTC)Reply[reply]
+The initial language of this article was Italian.  Ingratis (talk) 07:28, 22 October 2022 (UTC)Reply[reply]
+The initial language of this article was Unknown. Was tagged as {{cleanup|reason=Machine translation needs cleanup|date=March 2015}} * Pppery * it has begun... 16:43, 30 October 2022 (UTC)Reply[reply]
+The initial language of this article was French.  QueenofBithynia (talk) 18:20, 30 October 2022 (UTC)Reply[reply]
+The initial language of this article was Portuguese.  Sammi Brie (she/her • t • c) 20:38, 2 November 2022 (UTC)Reply[reply]
+The initial language of this article was Portuguese.  Sammi Brie (she/her • t • c) 20:38, 2 November 2022 (UTC)Reply[reply]
+The initial language of this article was Latvian.  Tigerdude9 (talk) 21:40, 2 November 2022 (UTC)Reply[reply]
+The first two quotations in the Reception section, translated from German, are gibberish. The quotations are found in the German Wikipedia version.  Largoplazo (talk) 23:34, 8 November 2022 (UTC)Reply[reply]
+The initial language of this article was Vietnamese. Originally listed as from Italian. However, no article exists on the IT wikipedia. Packerfan386beer here 01:10, 14 November 2022 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  Snickers2686 (talk) 02:39, 14 November 2022 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  Roger 8 Roger (talk) 08:04, 15 November 2022 (UTC)Reply[reply]
+The initial language of this article was Russian.  Tigerdude9 (talk) 23:55, 18 November 2022 (UTC)Reply[reply]
+The initial language of this article was Chinese .   Mucube (talk) 03:37, 28 November 2022 (UTC)Reply[reply]
+The initial language of this article was Vietnamese. The current English page is having a poor Google Translate-standard translation--Hwi.padam (talk) 19:30, 28 November 2022 (UTC)Reply[reply]
+The initial language of this article was French.  Mathglot (talk) 05:16, 2 December 2022 (UTC)Reply[reply]
+According to the talk page this isn't so much a bad translation as bad OCR of the 1911 Encyclopedia Britannica, but it does need serious help, preferably from someone familiar with Central Asia and the Silk Road. I've just spent a good part of a day adding references and identifying the beginning and end of sentences, but it needs much much more. The references do definitely seem to be out there, fwiw; everything I tried to verify could easily be referenced. I am interested and will probably be back, but after we're done with the sentence forensics big chunks of it will probably need to be re-written for readabily as it is difficult to follow which usurper imprisoned the rightful heir of which country, etc. Elinruby (talk) 05:36, 11 December 2022 (UTC)Reply[reply]
+Stumbleupon: Saw someone trying to flag an incorrect url for one of the publications. Page needs a lot of formatting love and apparently verification also. Much of it would not require language skills.  The web page entry in this list for Al-Massae (in Arabic) is purportedly incorrect. Google translate is sketchy but indicates it may be an Egyptian publication. At a minimum a thorough copy-edit would improve the list, and a reality check seems to also be indicated. Elinruby (talk) 23:29, 12 December 2022 (UTC)Reply[reply]
+The initial language of this article was Spanish.  Paris1127 (talk) 00:28, 13 December 2022 (UTC)Reply[reply]
+The initial language of this article was French. Expanded in November 2021 by Tunisian user, retains quirks of French Wikipedia such as writing past events in the present tense, and some phrases that are calqued from French and not used in English 81.79.136.44 (talk) 15:49, 13 December 2022 (UTC)Reply[reply]
+The initial language of this article was Vietnamese. Came across this article in a copy edit drive. Text in the tables and comments within footnotes need translating. Also, there are bare URLs for Vietnamese websites that need to be recovered from the Internet Archive Rublamb (talk) 03:28, 13 December 2022 (UTC)Reply[reply]
+The initial language of this article was Indonesian. Appears to be a machine translation of id:SMK Negeri 10 Bandung. 2A01:4C8:49:A87B:784D:19E9:1A70:699 (talk) 13:39, 14 December 2022 (UTC)Reply[reply]
+The initial language of this article was Spanish.  148.76.183.132 (talk) 14:46, 15 December 2022 (UTC)Reply[reply]
+The initial language of this article was Spanish. Poor translations throughout, signs of machine translation Paris1127 (talk) 04:44, 21 December 2022 (UTC)Reply[reply]
+The initial language of this article was Unknown . Was tagged as {{cleanup|reason=Article appears to be a mechanical translation and is not written in clear English|date=January 2014}}  * Pppery * it has begun... 17:50, 30 December 2022 (UTC)Reply[reply]
+The initial language of this article was Romanian.  Justanothersgwikieditor (talk) 06:51, 31 December 2022 (UTC)Reply[reply]
+The initial language of this article was Spanish.  Andresj (talk) 04:09, 4 January 2023 (UTC)Reply[reply]
+The initial language of this article was Russian.  Fram (talk) 08:34, 4 January 2023 (UTC)Reply[reply]
+The initial language of this article was Korean.  Holidayruin (talk) 09:39, 6 January 2023 (UTC)Reply[reply]
+The initial language of this article was Turkish.  Uness232 (talk) 21:46, 11 January 2023 (UTC)Reply[reply]
+The initial language of this article was Ukrainian.  RudolfSchreier (talk) 11:36, 13 January 2023 (UTC)Reply[reply]
+The initial language of this article was Spanish. 
+The initial language of this article was Portuguese. Awkward word choices lead me to suspect machine translation Paris1127 (talk) 03:14, 14 January 2023 (UTC)Reply[reply]
+The initial language of this article was Russian.  RudolfSchreier (talk) 12:42, 15 January 2023 (UTC)Reply[reply]
+The initial language of this article was French. --NicoSkater97 (let's talk!) 00:40, 20 January 2023 (UTC)Reply[reply]
+The initial language of this article was Italian.  Muhandes (talk) 09:03, 20 January 2023 (UTC)Reply[reply]
+Possibly from Hindustani, but it's a very technical article about raaga. Listing here in hopes it finds someone who is conversant with the terminology and its formatting conventions. Elinruby (talk) 07:21, 25 January 2023 (UTC)Reply[reply]
+Was tagged as {{Cleanup|reason=Poor translation.|date=August 2018}} * Pppery * it has begun... 17:45, 28 January 2023 (UTC)Reply[reply]
+The initial language of this article was Portuguese. Per history, it was translated from pt.wiki, and it shows Paris1127 (talk) 23:42, 29 January 2023 (UTC)Reply[reply]
+The initial language of this article was Japanese.  Auric talk 19:24, 31 January 2023 (UTC)Reply[reply]
+The initial language of this article was German. It seems that this article has been copied from another language version and there are templates and various other pieces which are in the original (Swiss-German) BoonDock (talk) 03:11, 1 February 2023 (UTC)Reply[reply]
+The initial language of this article was Portuguese.  Paris1127 (talk) 15:40, 2 February 2023 (UTC)Reply[reply]
+The initial language of this article was French.  DFlhb (talk) 17:04, 3 February 2023 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  I dream of horses (Contribs) (Talk) 19:55, 5 February 2023 (UTC)Reply[reply]
+The initial language of this article was Italian. My own translation. I'm sure it could use some correction. Largoplazo (talk) 10:51, 14 February 2023 (UTC)Reply[reply]
+The initial language of this article was Finnish.  Someone who's wrong on the internet (talk) 09:04, 24 February 2023 (UTC)Reply[reply]
+The initial language of this article was German.  Justlettersandnumbers (talk) 10:42, 24 February 2023 (UTC)Reply[reply]
+The initial language of this article was German.--Fraoch (talk) 11:39, 27 February 2023 (UTC)Reply[reply]
+The initial language of this article was Korean.  Freedom4U (talk) 00:11, 1 March 2023 (UTC)Reply[reply]
+The initial language of this article was Uncertain.    Ravenswing      01:47, 1 March 2023 (UTC)Reply[reply]
+The initial language of this article was Russian. 
+Machine translated from French. I got some of the low-hanging fruit in the first few sections but I've had enough of it for now. Watch for present tense that should be past, literally-translated personal names and the greatest hits such as mistranslation of "de" and "on" Elinruby (talk) 02:38, 4 March 2023 (UTC)Reply[reply]
+The initial language of this article was Telugu. Problems are mainly in the Plot section. It's too tangled for me to make much headway, although tried a little, with some of the easier bits. (I'm only assuming translation from Telegu, due to topic of article.) AukusRuckus (talk) 03:18, 7 March 2023 (UTC)Reply[reply]
+The initial language of this article was Ukrainian.  Arthistorian1977 (talk) 19:17, 11 March 2023 (UTC)Reply[reply]
+The initial language of this article was Unknown. Possibly translated from Chuvash (due to the topic) or potentially Russian flod logic (talk) 11:30, 13 March 2023 (UTC)Reply[reply]
+The initial language of this article was Unknown. Possibly translated from Chuvash (due to the topic) or potentially Russian flod logic (talk) 11:30, 13 March 2023 (UTC)Reply[reply]
+The initial language of this article was Unknown. Attempted to clean up a lot of it. Possibly translated from Chuvash (due to the topic) or potentially Russian flod logic (talk) 11:30, 13 March 2023 (UTC)Reply[reply]
+The initial language of this article was Portuguese. English reads well, but translation should be double-checked for false friends and similar mistakes - I see "strike of academics" that presumably should be "teachers' strike", for example asilvering (talk) 06:25, 18 March 2023 (UTC)Reply[reply]
+The initial language of this article was Russian.  Tigerdude9 (talk) 00:58, 20 March 2023 (UTC)Reply[reply]
+The initial language of this article was Russian.  Moriwen (talk) 16:06, 20 March 2023 (UTC)Reply[reply]
+The initial language of this article was Brazilian Portuguese.  Moriwen (talk) 19:50, 20 March 2023 (UTC)Reply[reply]
+Was tagged as {{Cleanup|date=November 2020|reason=The article appears to have been a bad translation and has many errors which need correcting.}} * Pppery * it has begun... 00:05, 27 March 2023 (UTC)Reply[reply]
+Tagged as {{Cleanup|reason=Theatre section needs translation to English|date=November 2020}} - entire section is in French. * Pppery * it has begun... 00:27, 27 March 2023 (UTC)Reply[reply]
+The initial language of this article was French.  Paris1127 (talk) 02:08, 27 March 2023 (UTC)Reply[reply]
+The initial language of this article was Slovak.  Rschen7754 05:34, 27 March 2023 (UTC)Reply[reply]
+The initial language of this article was Unknown.  195.187.108.130 (talk) 13:40, 27 March 2023 (UTC)Reply[reply]
+
+The initial language of this article was Arabic. Contents are unclear and confusing, especially Kamoke-Gujranwala section. Moriwen (talk) 14:51, 5 April 2023 (UTC)Reply[reply]
+The initial language of this article was Slovak.  Moriwen (talk) 19:08, 5 April 2023 (UTC)Reply[reply]
+The initial language of this article was Japanese. Recent expansion is very unclear and confusing XtraJovial (talk contribs) 16:48, 6 April 2023 (UTC)Reply[reply]
+The initial language of this article was {{{language}}}.  Bebel2024 (talk) 16:38, 16 April 2023 (UTC)Reply[reply]
+The initial language of this article was Polish. The translation from Polish is rough. The article is translated from the Polish WP article, and without transferring the refs. A complete, proper translation of the current WPpl article to replace the current WPe content would be a good idea. Veverve (talk) 14:40, 17 April 2023 (UTC)Reply[reply]
+The initial language of this article was Portuguese.  Bebel2024 (talk) 21:13, 17 April 2023 (UTC)Reply[reply]
+The initial language of this article was Portuguese.  Bebel2024 (talk) 12:49, 18 April 2023 (UTC)Reply[reply]
+The initial language of this article was Spanish.  Technopat (talk) 21:38, 20 April 2023 (UTC)Reply[reply]
+The initial language of this article was Portuguese.— Preceding unsigned comment added by Bebel2024 (talk • contribs) 
+The initial language of this article was Russian.  Tigerdude9 (talk) 23:55, 27 April 2023 (UTC)Reply[reply]
+The initial language of this article was Portuguese.— Preceding unsigned comment added by Bebel2024 (talk • contribs) 
+The initial language of this article was Portuguese.— Preceding unsigned comment added by Bebel2024 (talk • contribs) 
+The initial language of this article was Portuguese.— Preceding unsigned comment added by Bebel2024 (talk • contribs) 
+The initial language of this article was Portuguese.— Preceding unsigned comment added by Bebel2024 (talk • contribs) 
+The initial language of this article was Portuguese.— Preceding unsigned comment added by Bebel2024 (talk • contribs) 
+The initial language of this article was Portuguese.— Preceding unsigned comment added by Bebel2024 (talk • contribs) 
+The initial language of this article was German.  * Pppery * it has begun... 16:47, 30 April 2023 (UTC)Reply[reply]
+The initial language of this article was Portuguese.— Preceding unsigned comment added by Bebel2024 (talk • contribs) 
+The initial language of this article was Portuguese.— Preceding unsigned comment added by Bebel2024 (talk • contribs) 
+The initial language of this article was Portuguese.— Preceding unsigned comment added by Bebel2024 (talk • contribs) 
+The initial language of this article was Portuguese.— Preceding unsigned comment added by Bebel2024 (talk • contribs) 
+The initial language of this article was Portuguese.— Preceding unsigned comment added by Bebel2024 (talk • contribs) 
+The initial language of this article was Portuguese.  RodRabelo7 (talk) 01:24, 3 May 2023 (UTC)Reply[reply]
+The initial language of this article was Portugues— Preceding unsigned comment added by Bebel2024 (talk • contribs) 
+The initial language of this article was Portugues— Preceding unsigned comment added by Bebel2024 (talk • contribs) 
+Author probably a speaker of some Bantu language. SPI case looks open. However given it's topic article may be worth cleaning up if it can be verified Elinruby (talk) 22:07, 5 May 2023 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  UtherSRG (talk) 18:56, 6 May 2023 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  UtherSRG (talk) 18:43, 8 May 2023 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  UtherSRG (talk) 18:44, 8 May 2023 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  UtherSRG (talk) 18:45, 8 May 2023 (UTC)Reply[reply]
+The initial language of this article was Portuguese.  TheSavageNorwegian 15:30, 11 May 2023 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  UtherSRG (talk) 11:47, 16 May 2023 (UTC)Reply[reply]
+The initial language of this article was German. Translation of German article  PalauanLibertarian🗣️ 17:47, 16 May 2023 (UTC)Reply[reply]
+The initial language of this article was French. Article is readable, yet marked with grammatical errors and odd syntax. AtlasDuane (talk) 22:16, 16 May 2023 (UTC)Reply[reply]
+The initial language of this article was French. I translated the content myself and would be thankfull to have a 2nd eye checking for gramatical errors or unspotted mistranslations Imagritte (talk) 16:06, 21 May 2023 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  SounderBruce 03:27, 22 May 2023 (UTC)Reply[reply]
+The initial language of this article was French.    Ravenswing      21:20, 1 June 2023 (UTC)Reply[reply]
+The initial language of this article was Korean. This new article on a Korean monochrome painter needs a native speaker of Korean to help translate to English. Netherzone (talk) 00:22, 3 June 2023 (UTC)Reply[reply]
+The initial language of this article was Serbian.  UtherSRG (talk) 12:19, 6 June 2023 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  —S Marshall T/C 12:29, 7 June 2023 (UTC)Reply[reply]
+The initial language of this article was Serbian.  Joy (talk) 19:50, 8 June 2023 (UTC)Reply[reply]
+The initial language of this article was Uncertain.  UtherSRG (talk) 12:18, 13 June 2023 (UTC)Reply[reply]
+The initial language of this article was French. Mrfoogles (talk) 18:35, 16 June 2023 (UTC)Reply[reply]
+The initial language of this article was French. Confusing translation of French sources leading to garbled article. Possible reliance on poor sources. Pincrete (talk) 10:26, 23 June 2023 (UTC)Reply[reply]
+The initial language of this article was Ukrainian.  HappyWith (talk) 05:07, 25 June 2023 (UTC)Reply[reply]
+The initial language of this article was Russian.  1TWO3Writer (talk) 11:43, 25 June 2023 (UTC)Reply[reply]
+Tagged as {{Cleanup|reason=substandard translation that needs grammar and punctuation corrections|date=January 2013}} * Pppery * it has begun... 22:16, 25 June 2023 (UTC)Reply[reply]
+The initial language of this article was Portuguese.  Mathglot (talk) 05:44, 27 June 2023 (UTC)Reply[reply]
+The initial language of this article was Chinese. The main part was translated using Google Translate and not a single word was changed. ときさき くるみ not because they are easy, but because they are hard 20:44, 1 July 2023 (UTC)Reply[reply]
+
+

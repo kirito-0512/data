@@ -1,0 +1,1976 @@
+11336,
+FreeOn-lineDictionaryofComputingR-S,
+symbols - B --
+C - D --
+E - H --
+I - K --
+L - N --
+O - Q --
+R - S --
+T - W --
+X - Z --
+FOLDOC Status Page
+R2000 NO IMPORT - duplicate info
+R2RS NO IMPORT - insubstantial
+R3.99RS NO IMPORT - insubstantial
+R3RS NO IMPORT - insubstantial
+R4RS NO IMPORT - insubstantial
+rabbit job NO IMPORT - jargon
+RACE NO IMPORT - esoteric
+race condition DONE
+RACF NO IMPORT - insubstantial
+RAD NO IMPORT - duplicate info
+Raddle NO IMPORT - insubstantial
+Radio Frequency Interference DONE
+radiosity DONE
+RADIUS NO IMPORT - insubstantial
+radix DONE
+RAID DONE
+RAIL NO IMPORT - insubstantial
+rainbow series NO IMPORT - jargon
+rain dance DONE
+RAISE NO IMPORT - insubstantial
+RAL NO IMPORT - insubstantial
+RAM DONE
+Rambus DRAM DONE
+Rambus, Inc. DONE
+RAMDAC DONE
+RAM disk DONE
+RAM drive DONE
+RAMIS II NO IMPORT - insubstantial
+RAMTRON NO IMPORT - insubstantial
+random DONE
+random-access memory DONE
+Random Access Memory Digital-to-Analog Converter DONE
+randomness NO IMPORT - jargon
+random numbers NO IMPORT - jargon
+random testing NO IMPORT - insubstantial
+range NO IMPORT
+Rapid Application Development NO IMPORT - duplicate info
+RapidCAD DONE
+Rapidly Extensible Language, English
+rapid prototyping
+Rapidwrite NO IMPORT - esoteric
+RAPT NO IMPORT - insubstantial
+RARE NO IMPORT - insubstantial
+rare mode DONE
+RARP DONE
+RAS DONE
+RASP NO IMPORT - insubstantial
+raster NO IMPORT - duplicate info
+raster blaster NO IMPORT - jargon
+raster burn NO IMPORT - jargon
+raster font NO IMPORT - duplicate info
+rastergram DONE 
+raster graphics DONE
+raster subsystem NO IMPORT - insubstantial
+Ratatosk NO IMPORT - esoteric
+rat belt NO IMPORT - jargon
+RatC NO IMPORT - insubstantial
+Rate monotonic scheduling DONE
+RATFIV NO IMPORT - insubstantial
+RATFOR NO IMPORT - insubstantial
+rational NO IMPORT - duplicate info
+RATional Fortran NO IMPORT - insubstantial
+Rationalized C NO IMPORT - insubstantial
+rave NO IMPORT - jargon
+rave on! NO IMPORT - jargon
+raw data NO IMPORT' - non-encyclopedic
+raw mode NO IMPORT - jargon
+RAWOOP-SNAP NO IMPORT - insubstantial
+Rayleigh distribution NO IMPORT - jargon
+ray tracing DONE
+R:BASE NO IMPORT - insubstantial
+RBASIC NO IMPORT - esoteric
+RBCSP NO IMPORT - insubstantial
+RBOC DONE
+rc
+RC4 DONE
+RCA 1802
+RCA 1805
+RCC
+rc file
+RCL
+rcp
+RCS DONE
+Rdb
+rdb
+RDBA
+RDBMS DONE
+RDF DONE
+RDI
+RDL
+RDOS
+RDRAM
+RDS
+RE
+re
+README file
+Read-Only Memory
+read-only user
+real
+RealAudio DONE
+real estate
+real hack
+reality check
+real mode DONE
+real number DONE
+real operating system
+Real Programmer
+Real Programmers Don't Use Pascal
+Real Soon Now
+real-time DONE
+Realtime Disk Operating System DONE
+Real-Time Euclid
+Real-Time Mentat
+Real-Time Object-Oriented Modeling
+Real-Time Operating System DONE
+Real-Time Pascal
+Real Time Streaming Protocol DONE
+real-time structured analysis NO IMPORT - insubstantial
+real user NO IMPORT - jargon
+Real World NO IMPORT - jargon
+reaper NO IMPORT - jargon
+reassembly NO IMPORT - duplicate info
+reboot NO IMPORT - jargon
+REC NO IMPORT - insubstantial
+recipe NO IMPORT - insubstantial
+recipient NO IMPORT - insubstantial
+Recital NO IMPORT - insubstantial
+RECOL NO IMPORT - insubstantial
+Recommended Standard NO IMPORT - insubstantial
+record NO IMPORT - duplicate info
+Record Management Services DONE
+Record Separator NO IMPORT - insubstantial
+rectangle slinger NO IMPORT - jargon
+recurse NO IMPORT - duplicate info
+recursion DONE
+recursion theory NO IMPORT - duplicate info
+recursive DONE
+recursive acronym DONE
+recursive definition NO IMPORT - duplicate info
+recursive descent parser DONE
+Recursive Functional Algorithmic Language NO IMPORT - insubstantial
+Recursive Macro Actuated Generator NO IMPORT - esoteric
+recursive type DONE
+Red NO IMPORT - insubstantial
+Red Book DONE
+Red Brick Intelligent SQL NO IMPORT - insubstantial
+Redcode NO IMPORT- jargon
+redex NO IMPORT - insubstantial
+Red Hat DONE
+RediLisp NO IMPORT - insubstantial
+redirection NO IMPORT - insubstantial
+redirector DONE
+RedNet Ltd. NO IMPORT - not noteworthy
+redocumentation NO IMPORT - insubstantial
+REDUCE NO IMPORT - duplicate info
+Reduced Instruction Set Computer DONE
+reduction NO IMPORT - insubstantial
+reduction strategy NO IMPORT - insubstantial
+redundancy NO IMPORT - duplicate info
+Redundant Array of Inexpensive Disks DONE
+Redundant Arrays of Independent Disks DONE
+Redundant Arrays of Inexpensive Disks DONE
+red wire
+red zone
+re-engineering
+re-entrant
+refactoring DONE
+REFAL
+REF-ARF
+reference
+reference counting DONE
+referential integrity
+referentially transparent
+referential transparency DONE
+referer
+referrer
+REFINE
+Refined C
+Refined Fortran
+reflexive
+reflexive domain
+Reflexive transitive closure
+RefLisp
+refresh
+refreshable braille display DONE
+refreshable display
+refresh rate
+refutable
+regex DONE
+regexp DONE
+Regina
+regional network
+register DONE
+register allocation
+register assignment
+register dancing
+register set
+register spilling DONE
+Register Transfer Language DONE
+regression DONE
+regression testing DONE
+REG-SYMBOLIC
+REGTRAL
+regular expression DONE
+regular graph DONE
+rehi
+Reid, Brian
+reify
+reincarnation, cycle of
+reinvent the wheel
+relation
+relational algebra
+relational calculus
+relational database DONE
+relational database management system DONE
+relational data model
+relational DBMS DONE
+relational language
+relational model DONE
+RELATIVE
+relatively prime DONE
+relative pathname
+Relative Record Data Set
+RELCODE
+release
+released version
+REL English
+relevance
+reliability
+Reliability, Availability, Serviceability
+reliable communication
+religion of CHI
+religious issues
+REM
+remailer
+Remote Access Services DONE
+Remote Database Access
+remote echo
+Remote Job Entry
+remote login
+Remote Method Invocation
+Remote Operations Service Element
+Remote Procedure Call
+Remote Reference Layer
+Remote Spooling Communication Subsystem
+Remote Write Protocol
+removable disk
+rendering DONE
+RenderMan Shading Language
+rendezvous
+REP
+repeat
+repeater DONE
+repeating group
+repeat loop
+repetitive strain disorder
+repetitive strain injury
+REPL
+replacement algorithm
+Replay
+replication
+replicator
+reply
+Repondez s'il vous plait
+Report Program Generator
+repository
+Request For Comments
+request for proposal
+Request For Technology
+Required-COBOL
+requirements
+Requirements Acquisition and Controlled Evolution
+requirements analysis
+Requirements Engineering
+Research Systems, Inc.
+reserved memory
+resolution
+resolver
+Resource Access Control Facility
+Resource Description Framework DONE
+resource fork
+Resource Reservation Protocol
+restriction
+Restructured EXtended eXecutor
+restructuring
+retcon
+RETI
+Retrieve
+retrocomputing
+retronym
+return from interrupt
+return from the dead
+Return To Zero
+reusability
+reuse
+Reverse Address Resolution Protocol DONE
+Reverse ARP DONE
+reverse engineering
+Reverse Polish Notation
+Revised ALGOL 60
+revision
+Revision Control System
+Revolutionary Surrealist Vandal Party
+REX
+REXX DONE
+REXXWARE
+RFC
+RFC 1014
+RFC 1034
+RFC 1035
+RFC 1058
+RFC 1081
+RFC 1094
+RFC 1112
+RFC 1119
+RFC 1123
+RFC 1156
+RFC 1157
+RFC 1171
+RFC 1208
+RFC 1213
+RFC 1267
+RFC 1268
+RFC 1304
+RFC 1321
+RFC 1334
+RFC 1341
+RFC 1347
+RFC 1350
+RFC 1388
+RFC 1436
+RFC 1441
+RFC 1442
+RFC 1443
+RFC 1444
+RFC 1445
+RFC 1446
+RFC 1447
+RFC 1448
+RFC 1449
+RFC 1450
+RFC 1451
+RFC 1452
+RFC 1475
+RFC 1508
+RFC 1509
+RFC 1520
+RFC 1521
+RFC 1526
+RFC 1531
+RFC 1550
+RFC 1561
+RFC 1568
+RFC 1591
+RFC 1630
+RFC 1661
+RFC 1700
+RFC 1701
+RFC 1702
+RFC 1707
+RFC 1730
+RFC 1756
+RFC 1760
+RFC 1777
+RFC 1778
+RFC 1823
+RFC 1825
+RFC 1861
+RFC 1938
+RFC 1951
+RFC 1959
+RFC 1960
+RFC 2045
+RFC 2046
+RFC 2047
+RFC 2048
+RFC 2049
+RFC 2060
+RFC 2061
+RFC 2068
+RFC 2093
+RFC 2131
+RFC 2234
+RFC 2236
+RFC 2279
+RFC 2298
+RFC 2326
+RFC 2408
+RFC 2543
+RFC 792
+RFC 822
+RFC 826
+RFC 854
+RFC 903
+RFC 959
+RFE
+RFI
+RFP
+RFT
+RG58
+RGB DONE
+Rhapsody
+rib site
+rice box
+Richard Gabriel
+Richard P. Gabriel
+Richard Stallman DONE
+rich object
+Rich Text Format DONE
+RIFF
+RIGAL
+Rigel
+right brace
+right bracket
+right-click
+right outer join
+right parenthesis
+Right Thing
+Rijndael DONE
+ring network
+ring topology
+Riordan's Internet Privacy Enhanced Mail
+RIP DONE
+RIPE
+RIPEM
+RISC -- DONE
+RISC OS
+Risc PC
+RISC System/6000
+RISQL
+RJ-11
+RJ-45 DONE
+RJE
+RKM
+RL DONE
+rl
+RLaB
+RLE DONE
+RLF
+RLL DONE
+rlogin
+RMAG
+RMAIL
+RMI DONE
+RM-ODP
+RMON
+RMS
+RNF
+ro
+roach
+ROADS
+Robert T. Morris
+ROBEX
+RoboHELP DONE
+robot
+robust
+Rockwell Protocol Interface
+Rocky Mountain Basic
+rococo
+roff
+ROFLMAO
+rogue
+rollback
+ROM DONE
+ROM BIOS DONE
+ROME
+Rom Kernel Manual
+room
+ROOM Methodology
+room-temperature IQ
+root
+root bridge
+root directory
+root mode
+root node
+Root Normal Form
+root version
+ROSE
+Rosette
+Roskind grammars
+rot13 DONE
+rotary debugger
+rotational latency
+rotation per minute
+ROTFL
+ROTFLMAO
+ROTFLOL
+round-robin
+round tape
+round-trip time
+route DONE
+routed DONE
+route flapping DONE
+routeing DONE
+routeing domain DONE
+router DONE
+routine
+routing
+Routing Information Protocol DONE
+Routing Table Maintenance Protocol DONE
+row
+row-level locking
+Royal Veterinary and Agricultural University
+RPC DONE
+RPG
+RPI
+RPL
+RPL-1
+RPM DONE
+rpm DONE
+RPN
+Répondez s'il vous plait
+RPT
+RRL
+RRS
+RS
+RS-232 DONE
+RS-232C
+RS-232D
+RS-422
+RS-423
+RS-449
+RS-485
+RS6000 DONE
+RS/6000 DONE
+RS6K DONE
+RSA
+RSA Data Security, Inc.
+RSA encryption NO IMPORT
+RSCS
+Réseaux Associés pour la Recherche Européenne
+Réseaux IP Européens
+RS flip-flop
+rsh
+RSI
+RSL
+RSN
+rstat
+RSTS/E
+RSVP
+RTBM
+RTC++
+RT-CDL
+RTEE
+RTF DONE
+RTFAQ
+RTFB
+RTFM NO IMPORT - duplicate info
+RTFS
+RTI
+RTL
+RTL/1
+RTL/2
+RTM
+RTMP DONE
+RTOS
+RT-PC
+RTS
+RTSA
+RTSP DONE
+RTT
+RTTI
+ru
+rubi DONE
+Ruby DONE
+rude
+RUFL
+run
+RUNCIBLE
+runes NO IMPORT
+runic NO IMPORT
+run-length encoding DONE
+run time
+run-time environment
+run-time error
+run-time library
+run-time support
+run-time system
+Run-Time Type Information
+ruptime
+RUSH
+Russell
+Russell, Bertrand
+Russell's Attic
+Russell's Paradox
+rusty iron
+rusty memory
+RUTH
+rw
+rwho
+RWP
+Rx
+S
+s///
+S3
+SA
+sa NO IMPORT
+SA-110
+SAA
+Saber-C
+Saber-C++
+SAC
+SAC-1
+SAC2
+sacadm
+sacred NO IMPORT
+SAD
+SAD SAM
+SADT
+SAFARI
+safe
+safety
+safety-critical system
+saga
+sagan
+SAGE DONE
+SAIC
+SAID
+SAIL
+SAINT
+Saint Andrews Static Language
+SAL
+SALEM
+Sales Automation
+salescritter
+Sales Force Automation
+S-ALGOL
+SALT
+salt
+salt mines
+salt substrate
+SAM
+sam
+SAM76
+Samba DONE
+SAME
+same-day service
+SAMeDL
+samizdat DONE
+Sammet, Jean E.
+sample DONE
+sample rate NO IMPORT
+sampling DONE
+sampling frequency DONE
+samurai
+sandbender
+sandbox
+Sandman
+San Francisco
+sanity check
+Santa Cruz Operation DONE
+SAP DONE
+SAP AG NO IMPORT
+SAPI
+SAR
+SAS
+SASD
+SASE
+SASI
+SASL
+SASL+LV
+SASL-YACC
+SAS System
+SATAN
+Sather
+Sather-K
+satisfiability problem
+Saturday-night special
+SAVE
+say
+sb
+SB AWE32
+SBCS
+SBD
+SBM
+SB-Prolog
+SBus
+SC
+sc
+SCA
+SCADA
+scag
+scalability
+Scalable Coherent Interface
+Scalable Processor ARChitecture
+Scalable Vector Graphics
+scalar
+SCALLOP
+SCAN
+scan
+scan design
+SCANDISK
+Scan-EDF
+scanf
+Scan-In, Scan-Out
+scan line
+scanner
+scanno
+scan path
+scan register
+SCC
+SCCS
+SCEPTRE
+scheduler DONE
+scheduling DONE
+Scheduling API
+Scheduling Application Programming Interface
+Schelog
+Schema Definition Set
+Schema Representation language
+schematic capture
+schematic type variable
+Schematik
+Scheme
+Scheme84
+Scheme88
+Scheme-&gtC
+Scheme Library
+Scheme-Linda
+Scheme Object System
+Scheme Repository
+Scheme-to-C
+Schlaer-Mellor
+Schoonschip
+schroedinbug
+SCI
+Science and Engineering Research Council
+science-fiction fandom
+Scientific Data Systems
+SCL
+SCM
+SC/MP
+SCO
+Scode
+SCOOP
+SCOOPS
+SCOPE
+scope
+Scorpion
+Scott-closed
+Scott domain
+SCPI
+SCPI Consortium
+scram switch
+SCRAP
+scratch
+scratch disk
+scratch monkey
+Scratchpad I
+Scratchpad II
+scream and die
+Screamer
+screaming tty
+screen blanker
+Screen Peace
+screen reader
+screen refresh
+screen saver
+screen scraper
+screen sharing
+Screenwrite
+screw
+screwage
+scribble
+Scribe
+SCRIPT
+script
+Scriptics
+scripting language
+scrog
+SCROLL
+scroll
+scrollable list
+scroll bar
+scrolling
+scrool
+scrozzle
+scruffies
+SCSI
+SCSI-1
+SCSI-2
+SCSI-3
+SCSI adaptor
+SCSI controller
+SCSI ID
+SCSI initiator
+SCSI interface
+SCSI reconnect
+SCSI target
+ScumOS
+scuzzy
+SD
+sd
+SDDI
+SDE
+SDF
+SDH
+SDI
+SDK
+SDL
+SDL 92
+SDLC
+SDM
+SDMS
+SDRAM
+SDRC
+SDR-RAM
+SDR-SDRAM
+SDS
+SDS 92
+SDS 940
+SDSL
+SE
+se
+SEA
+Seagate Technology
+SEAL
+search-and-destroy mode
+search engine
+search problem
+search term
+SEC
+SECC
+SECD machine
+secondary cache
+secondary damage
+secondary key
+secondary storage
+second generation computer
+second generation language
+second level cache
+second normal form
+Second-Order Lambda-calculus
+second-system effect
+sector interleave
+sector interleaving
+sector map
+sector mapping
+Secure Multipurpose Internet Mail Extensions
+Secure Shell -- DONE
+Secure Sockets Layer
+Security Administrator's Integrated Network Tool
+Security Association
+Security Association ID
+security through obscurity DONE
+SED
+Sed
+SEE
+seek
+seeking
+seek time
+SEESAW
+see u see me
+SEGA
+segfault
+seggie
+segment
+segmentation
+segmentation and reassembly
+segmentation fault
+segmented address space
+segv
+SEI
+Seiko RC-4000
+SEL
+Selective Dissemination of Information
+selector
+Self
+Self-Extensible Language
+Self Extracting Archive
+self-reference
+selvage
+SEM
+semantic gap DONE
+semantic network
+semantics
+semaphore
+semi
+Semi-Automatic Ground Environment
+semicolon
+semiconductor
+Semidetached Mode
+SENDIT
+sendmail
+sendmail.cf
+Sendmail Inc.
+Seneca
+senior bit
+sensor
+sentence
+SE-OsdasfdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffDP
+SEP
+SEPIA
+SEPP
+Seque
+Sequel
+Sequenced Packet Exchange
+sequencer
+Sequent DONE
+sequential coding
+sequential file matching
+Sequential Parlog Machine
+sequential processing
+SERC
+SERCOS
+serial communications interface
+Serial Interface Adaptor
+serial line
+Serial Line Internet Protocol
+Serial Line IP
+serial port
+Serial Presence Detect
+serial processing
+Serial Storage Architecture
+serve
+servelet
+server
+serverlet
+Server Message Block
+server-parsed HTML
+server room
+servers
+server-side include
+service
+serviceability
+Service Access Point
+Service Advertising Protocol
+service provider
+servlet
+session
+Session Initiation Protocol
+session layer
+SES/workbench
+SET
+set
+set abstraction
+set associative cache
+set complement
+set comprehension
+Setext
+SETL
+SETL2
+SETL/E
+Set Priority Level
+SETS
+set theory
+set-top box
+SEUS
+seven layer model
+SEX
+sexadecimal
+sex changer
+SEXI
+Seymour Cray
+SFA
+SFBI
+SFD-ALGOL
+SFFA
+SFL
+SFLV
+sg
+SGCP
+SGI
+SGML
+sgmls
+SGML Tagger
+SGRAM
+sh
+SHACO
+SHADOW
+shadowing
+shadow ram
+shallow binding
+shambolic link
+Shape_VC
+ShapeTools
+shar
+sharchive
+Share and enjoy!
+shared memory
+Shared Time Repair of Big Electronic Systems
+shareware
+shar file
+sharp
+Sharp APL
+S-HDSL
+shebang
+SHEEP
+shelf
+shelfware
+SHELL
+shell
+shell out
+shell script
+shell variable
+shielded twisted pair
+SHIFT
+Shift In
+shift left logical
+Shift Out
+shift right logical
+shim
+shit hit the fan
+shitogram
+Shockwave
+shockwave
+Shockwave Flash
+shopbot
+short card
+Short Code
+shortcut
+shortest job first
+Short Message Service
+shotgun debugging
+shovelware
+Show-And-Tell
+showstopper
+shriek
+sht
+SHTF
+shtml
+Shub-Internet
+SHUG
+Shugart, Alan F.
+Shugart Associates
+Shugart Technology
+SI
+si
+SIA
+SICL
+SICS
+SICStus Prolog
+sidecar
+side-effect
+Siemens
+Siemens Nixdorf Informationssteme, AG
+Sierra
+SIFT
+SIG
+Sig
+sig
+sig block
+SIGBUS
+SIGhyper
+SIGLA
+SIGMA
+SIGNAL
+signal
+signalling rate
+Signalling System 7
+signal-to-noise ratio
+signature
+sig quote
+sig virus
+SIL
+Silage
+silicon
+silicon chip
+Silicon Graphics, Inc.
+Siliwood
+silly walk
+silo
+Silver Book
+silver bullet
+SIMAN
+SimCity
+SimCity 2000
+SIMD DONE
+Similix
+SIML/I
+SIMM
+Simone
+Simonyi, Charles
+SIMPAC
+SIMPAS
+SIMPL
+SIMPLE
+Simple Authentication and Security Layer
+Simple Gateway Control Protocol
+Simple Mail Transfer Protocol
+simple multicast protocol
+Simple Network Management Protocol
+Simple Network Management Protocol version 2
+Simple Network Paging Protocol
+Simple Object Access Protocol
+simplex
+simplex method
+simplex printer
+SIMPL/I
+Simplified Multicast Routing Protocol
+SIMPL-T
+SIMSCRIPT
+SIMSCRIPT I.5
+SIMSCRIPT II.5
+simship
+SIMULA
+SIMULA 67
+SIMULA I
+simulated annealing
+Simulating Digital Systems
+simulation
+SIMulation ANalysis
+Simulation Language for Alternative Modeling
+Simulation Oriented Language
+Simultaneous Engineering Environment
+Simultaneous Peripheral Operation On-Line
+simultaneous shipment
+Simware, Inc.
+SINA
+since time T equals minus infinity
+Sinclair, Clive
+Sinclair PC200
+Sinclair Radionics
+Sinclair Research
+sine wave
+single assignment
+Single ASsignment Language
+single-attached
+Single Connection Attach
+Single Connector Attachment
+Single Data Rate Random Access Memory
+Single Data Rate Synchronous Dynamic Random Access Memory
+Single Document Interface
+single-duplex
+Single Edge Contact
+Single Edge Contact Cartridge
+Single Edge Processor Package
+single-electron transistor NO IMPORT - insubstantial
+Single Electron Tunneling NO IMPORT - insubstantial
+Single Electron Tunneling Technology NO IMPORT - esoteric
+single ended NO IMPORT - insubstantial
+Single Image Random Dot Stereogram DONE
+single inheritance NO IMPORT - duplicate info
+Single In-line Memory Module NO IMPORT - duplicate info
+Single Inline Pin Package NO IMPORT - insubstantial
+Single Instruction Multiple Data NO IMPORT - duplicate info
+Single Instruction/Multiple Data NO IMPORT - duplicate info
+Single-line Digital Subscriber Line NO IMPORT - insubstantial
+Single-pair High Speed Digital Subscriber Line NO IMPORT - insubstantial
+single quote NO IMPORT - duplicate info
+single sourcing NO IMPORT - jargon
+singleton variable DONE
+Single Virtual Storage NO IMPORT - insubstantial
+siod NO IMPORT - esoteric
+SIP NO IMPORT - insubstantial
+SIPB NO IMPORT - insubstantial
+SIPLAN NO IMPORT - insubstantial
+SIPP NO IMPORT - insubstantial
+Siprol NO IMPORT - insubstantial
+SIR NO IMPORT - insubstantial
+SIRDS NO IMPORT - duplicate info
+Siri NO IMPORT - insubstantial
+SIRTS NO IMPORT - insubstantial
+SISAL - DONE
+sit NO IMPORT - duplicate info
+SITBOL NO IMPORT - insubstantial
+sitename - DONE
+sj NO IMPORT - insubstantial
+sk NO IMPORT - insubstantial
+Skel-ML
+Sketchpad NO IMPORT - duplicate info
+S/Key NO IMPORT - insubstantial
+Skill NO IMPORT - insubstantial
+Skim NO IMPORT - insubstantial
+SkipJack NO IMPORT - duplicate info
+SKOL NO IMPORT - insubstantial
+skolemisation NO IMPORT - jargon
+S-K reduction machine NO IMPORT - insubstantial
+skrog NO IMPORT - jargon
+SKsh NO IMPORT - insubstantial
+SKU NO IMPORT - jargon
+skulker NO IMPORT - jargon
+SL NO IMPORT - esoteric
+sl NO IMPORT - insubstantial
+SL5 NO IMPORT - insubstantial
+slack NO IMPORT - jargon
+slackware NO IMPORT - duplicate info
+SLAM NO IMPORT - insubstantial
+SLANG NO IMPORT - insubstantial
+S-Lang NO IMPORT - duplicate info
+slap on the side NO IMPORT - jargon
+slash NO IMPORT - duplicate info
+slashdot effect NO IMPORT - duplicate info
+slave tty NO IMPORT - insubstantial
+SLD resolution NO IMPORT - insubstantial
+sleep NO IMPORT - insubstantial, jargon
+SLIB NO IMPORT - insubstantial
+SLIM NO IMPORT - insubstantial
+slim NO IMPORT - insubstantial
+Slingshot NO IMPORT - esoteric
+SLIP DONE - merged with Serial line IP
+SlipKnot NO IMPORT - insubstantial
+SLIPS NO IMPORT - insubstantial
+SLiRP NO IMPORT - insubstantial
+SLLIC NO IMPORT - insubstantial
+slog NO IMPORT - insubstantial
+Sloop NO IMPORT - insubstantial
+slop NO IMPORT - jargon
+slopsucker NO IMPORT - jargon
+Slot 1 DONE
+Slot 2 DONE
+Slot A DONE
+slurp NO IMPORT - jargon
+sm NO IMPORT - insubstantial
+smail NO IMPORT - jargon
+SMALGOL NO IMPORT - insubstantial
+SMALL NO IMPORT - insubstantial
+Small-C NO IMPORT - duplicate info
+Small Computer System Interface NO IMPORT - duplicate info
+small-office/home-office NO IMPORT - jargon
+Small Outline DIMM DONE
+Smalltalk NO IMPORT - duplicate info
+Smalltalk-80 NO IMPORT - insubstantial
+Smalltalk/V NO IMPORT - insubstantial
+SmallVDM NO IMPORT - insubstantial
+SMALLWORLD NO IMPORT - insubstantial
+SmallWorld NO IMPORT - insubstantial
+Smarandache logic NO IMPORT - duplicate info
+SMART NO IMPORT - jargon
+smart NO IMPORT - jargon
+Smart Battery Data DONE
+smart card NO IMPORT - duplicate info
+Smartdrive NO IMPORT - esoteric
+SMARTdrv NO IMPORT - esoteric
+smart terminal NO IMPORT - duplicate info, obsolescent term
+smash case NO IMPORT - duplicate info
+smash sum
+smash the stack NO IMPORT - jargon
+SMB DONE - merged
+smbclient DONE - merged
+smblib DONE - merged
+SMBus DONE
+SMCC NO IMPORT - insubstantial
+SMDS NO IMPORT - insubstantial
+SMG NO IMPORT - insubstantial
+SMI NO IMPORT - insubstantial
+SMIL DONE - merged
+smiley NO IMPORT - duplicate info
+S-MIME NO IMPORT - insubstantial
+SML NO IMPORT - insubstantial
+SML# NO IMPORT - insubstantial
+sml2c DONE - merged into SML programming language
+SML/NJ NO IMPORT - insubstantial
+SMM NO IMPORT - insubstantial
+SMNP NO IMPORT - insubstantial
+smoke NO IMPORT - jargon
+smoke and mirrors NO IMPORT - jargon
+smoke-emitting diode NO IMPORT - jargon
+smoke test NO IMPORT - jargon
+smoking clover NO IMPORT - insubstantial
+SMoLCS NO IMPORT - insubstantial
+SMOP NO IMPORT - insubstantial
+SMP NO IMPORT - insubstantial
+SMPT NO IMPORT - insubstantial
+SMRP NO IMPORT - insubstantial
+SMS NO IMPORT - insubstantial
+SMT NO IMPORT - insubstantial
+SMTP NO IMPORT - duplicate info
+smurf NO IMPORT - jargon
+sn NO IMPORT - insubstantial
+SNA NO IMPORT - insubstantial
+snacc NO IMPORT - insubstantial
+snaf NO IMPORT - jargon
+SNAFU principle NO IMPORT - jargon
+snail mail NO IMPORT - jargon
+SNAP NO IMPORT - jargon
+Snappy NO IMPORT - insubstantial
+Snappy Video Snapshot NO IMPORT - insubstantial
+snarf NO IMPORT - jargon
+snarf & barf NO IMPORT - jargon
+snarf down NO IMPORT - jargon
+snark NO IMPORT - jargon
+sneakernet NO IMPORT - jargon
+sneck NO IMPORT - jargon
+snert NO IMPORT - jargon
+SNI NO IMPORT - insubstantial
+Sniff NO IMPORT - jargon
+sniff NO IMPORT - jargon
+sniffer NO IMPORT - insubstantial
+snivitz NO IMPORT - jargon
+SNMP NO IMPORT - duplicate info
+SNMP agent NO IMPORT - insubstantial
+SNMPv2 DONE - merged into SNMP
+SNOBOL NO IMPORT - duplicate info
+SNOBOL2 NO IMPORT - duplicate info
+SNOBOL3 NO IMPORT - duplicate info
+SNOBOL4 NO IMPORT - duplicate info
+SNOOPS NO IMPORT - insubstantial
+'Snooze NO IMPORT - jargon
+SNPP NO IMPORT - insubstantial
+SNR NO IMPORT - duplicate info
+S/N ratio NO IMPORT - duplicate info
+SO NO IMPORT - insubstantial
+so NO IMPORT - insubstantial
+SO 2 NO IMPORT - insubstantial
+SOAP NO IMPORT - insubstantial
+SOAR NO IMPORT - insubstantial
+social engineering NO IMPORT - duplicate info
+social science number NO IMPORT - jargon
+socket
+Socket 1
+Socket 2
+Socket 3
+Socket 370
+Socket 4
+Socket 5
+Socket 6
+Socket 7
+Socket 8
+SOCKS NO IMPORT - insubstantial
+SOCRATIC NO IMPORT - insubstantial
+SODA NO IMPORT - insubstantial
+SODAS NO IMPORT - insubstantial
+SO-DIMM NO IMPORT - duplicate info
+Sod's Law NO IMPORT - insubstantial
+SoftBench NO IMPORT - insubstantial
+soft boot NO IMPORT - jargon
+softcopy NO IMPORT - jargon
+Softlab NO IMPORT - insubstantial
+soft link NO IMPORT - duplicate info
+SoftModem NO IMPORT - duplicate info
+software NO IMPORT - duplicate info
+Software AG NO IMPORT - insubstantial
+software audit NO IMPORT - duplicate info
+Software BackPlane NO IMPORT - insubstantial
+software bloat NO IMPORT - jargon
+Software bus NO IMPORT - insubstantial
+Software Description Database NO IMPORT - insubstantial
+Software Developers Kit NO IMPORT - insubstantial
+software development life cycle NO IMPORT - duplicate info
+software enabling NO IMPORT - jargon
+software engineering NO IMPORT - insubstantial
+Software Engineering Environment NO IMPORT - insubstantial
+software handshaking NO IMPORT - insubstantial
+software interruptNO IMPORT - duplicate info
+software laser NO IMPORT - jargon
+software law DONE
+software life-cycle NO IMPORT - duplicate info
+Software Method NO IMPORT - insubstantial
+Software Methodology NO IMPORT - insubstantial
+software metric NO IMPORT - insubstantial
+software patent NO IMPORT - duplicate info
+software piracy NO IMPORT - duplicate info
+software pirate NO IMPORT - duplicate info
+Software Practice and Experience NO IMPORT - insubstantial
+Software Productivity Centre NO IMPORT - insubstantial
+Software Publishing Corporation NO IMPORT - insubstantial
+software reliability NO IMPORT - insubstantial
+software rot NO IMPORT - jargon
+software theft DONE
+Software through Pictures NO IMPORT - insubstantial
+software tool NO IMPORT - insubstantial
+Software Verification Research Centre NO IMPORT - insubstantial
+softwarily NO IMPORT - jargon
+softy NO IMPORT - jargon
+SOH NO IMPORT - insubstantial
+SOHIO NO IMPORT - insubstantial
+SoHo NO IMPORT - insubstantial
+SOIF NO IMPORT - esoteric
+SOJ NO IMPORT - insubstantial
+SOL NO IMPORT - insubstantial
+Solaris NO IMPORT - duplicate info
+Solaris Operating Environment NO IMPORT - not in FOLDOC?
+solid-state storage device
+SOLO NO IMPORT - insubstantial
+solution NO IMPORT - jargon
+Solution Based Modelling NO IMPORT - insubstantial
+Solve NO IMPORT - insubstantial
+SOM NO IMPORT - insubstantial
+Somar DumpAcl NO IMPORT - insubstantial
+Somar Software NO IMPORT - insubstantial
+some random X NO IMPORT - jargon
+Sonata NO IMPORT - insubstantial
+SONET NO IMPORT - duplicate info
+Sony Playstation NO IMPORT - duplicate info
+SORCERER 'NO IMPORT - esoteric
+sorcerer's apprentice mode NO IMPORT - jargon
+sort NO IMPORT - duplicate info
+sorting NO IMPORT - insubstantial
+SOS NO IMPORT - jargon
+sound NO IMPORT - insubstantial
+Sound Blaster NO IMPORT - insubstantial
+sound card NO IMPORT - insubstantial
+soundex NO IMPORT - duplicate info
+source NO IMPORT - duplicate info
+source code NO IMPORT - duplicate info
+source code escrow NO IMPORT - insubstantial
+source language NO IMPORT - duplicate info
+source of all good bits NO IMPORT - jargon
+source package NO IMPORT - insubstantial
+source route NO IMPORT - esoteric
+source routing NO IMPORT - esoteric
+southbridge NO IMPORT - duplicate info
+SP NO IMPORT - insubstantial
+SP2 NO IMPORT - out-of-date
+SP/2 NO IMPORT - out-of-date
+space NO IMPORT - insubstantial
+space-cadet keyboard DONE
+space complexity NO IMPORT - insubstantial
+space leak
+SPACEWAR NO IMPORT - duplicate info
+SPADE NO IMPORT - insubstantial
+spaghetti code NO IMPORT - jargon
+spaghetti inheritance NO IMPORT - jargon
+spam NO IMPORT - duplicate info
+spamdex NO IMPORT - jargon
+spamming NO IMPORT - duplicate info
+spanning tree algorithm NO IMPORT - insubstantial
+SPAR NO IMPORT - insubstantial
+SPARC NO IMPORT - duplicate info
+SPARC International, Inc. NO IMPORT - merged with SPARC
+SPARCStation
+SPARCstation 10
+SPARCstation 20
+SPARCsystem 4
+SPARC Xterminal 1
+SPARK NO IMPORT - insubstantial
+SPARKS NO IMPORT - insubstantial
+sparse NO IMPORT - insubstantial
+Spatial Technologies NO IMPORT - insubstantial
+spawn NO IMPORT - insubstantial
+SPC NO IMPORT - insubstantial
+SPD NO IMPORT - insubstantial
+SPDL NO IMPORT - insubstantial
+SPE NO IMPORT - insubstantial
+Speakeasy NO IMPORT - insubstantial
+speaker NO IMPORT - insubstantial
+SPEC
+Spec
+spec
+SPECbase_fp92
+SPECbase_int92
+SPECbaserate
+SPEC CFP92
+SPEC CINT92
+SPECfp92
+SPECIAL NO IMPORT - insubstantial
+special-case NO IMPORT - jargon
+Special Interest Group NO IMPORT - insubstantial
+specialisation NO IMPORT - insubstantial
+specification NO IMPORT - insubstantial
+specific markup NO IMPORT - insubstantial
+SPECint92
+SPECmark
+SPECmark89
+SPECOL NO IMPORT - insubstantial
+SPEC rate
+SPECrate_base_fp92
+SPECrate_fp92
+SPECrate_int92
+SPEC ratio
+Spectrum NO IMPORT - duplicate info
+speculative evaluation NO IMPORT - insubstantial
+speculative execution NO IMPORT - insubstantial
+Speech Application Programming Interface NO IMPORT - insubstantial
+speech recognition NO IMPORT - duplicate info
+Speech Recognition Application Program Interface NO IMPORT - insubstantial
+speech synthesis NO IMPORT - insubstantial
+SPEED NO IMPORT - insubstantial
+Speedcoding NO IMPORT - insubstantial
+Speedcoding 3 NO IMPORT - insubstantial
+SPEEDEX NO IMPORT - insubstantial
+speedometer NO IMPORT - insubstantial
+spell NO IMPORT - jargon
+spelling flame NO IMPORT - jargon
+Sperry Corporation NO IMPORT - duplicate info
+Sperry Univac NO IMPORT
+SPG NO IMPORT - insubstantial
+SPGA NO IMPORT - insubstantial
+Spice Lisp NO IMPORT - insubstantial
+SPID NO IMPORT - insubstantial
+spider NO IMPORT - duplicate info
+Spiderweb NO IMPORT - insubstantial
+spiffy NO IMPORT - jargon
+spike NO IMPORT - jargon
+spill NO IMPORT - jargon
+spin NO IMPORT - insubstantial
+spiral model NO IMPORT - insubstantial
+SPIT NO IMPORT - insubstantial
+SPITBOL NO IMPORT - insubstantial
+SP/k NO IMPORT - insubstantial
+SPL NO IMPORT - insubstantial
+SPL/1 NO IMPORT - insubstantial
+SPLash! NO IMPORT - insubstantial
+splash screen NO IMPORT - jargon
+splat NO IMPORT - jargon
+SPL/I NO IMPORT - insubstantial
+SPLINTER NO IMPORT - insubstantial
+split NO IMPORT - insubstantial
+Split-C NO IMPORT - insubstantial
+splot NO IMPORT - insubstantial
+SPLX NO IMPORT - insubstantial
+SPM NO IMPORT - insubstantial
+SPMD NO IMPORT - insubstantial
+SPML
+spod NO IMPORT - jargon
+spoiler NO IMPORT - jargon
+sponge NO IMPORT - jargon
+spoo NO IMPORT - jargon
+spoof NO IMPORT - duplicate info
+spoofing NO IMPORT - duplicate info
+spooge NO IMPORT - jargon
+SPOOL NO IMPORT - jargon
+Spool NO IMPORT - insubstantial
+spool NO IMPORT - insubstantial
+spooler NO IMPORT - jargon
+spool file NO IMPORT - jargon
+SpoolView NO IMPORT - insubstantial
+spreadsheet NO IMPORT - duplicate info
+spread spectrum communications NO IMPORT - duplicate info (spread-spectrum)
+SPRING NO IMPORT - insubstantial
+SPRINT NO IMPORT - insubstantial
+Sprintnet NO IMPORT - insubstantial
+Sprite NO IMPORT - insubstantial
+sprite NO IMPORT - insubstantial
+sprocket feed NO IMPORT - insubstantial
+SPS NO IMPORT - insubstantial
+SPSS NO IMPORT - duplicate info
+SPSS, Inc. NO IMPORT - duplicate info
+SPUR NO IMPORT - insubstantial
+SPX NO IMPORT - insubstantial
+spx NO IMPORT - jargon
+sqcap NO IMPORT - jargon
+sqcup NO IMPORT - jargon
+SQE NO IMPORT - insubstantial
+SQL NO IMPORT - duplicate info
+SQL2 NO IMPORT - duplicate info
+SQL3 NO IMPORT - duplicate info
+SQL Access Group NO IMPORT - insubstantial
+SQL/DS NO IMPORT - insubstantial
+SQL Module Language NO IMPORT - insubstantial
+SQL Server NO IMPORT - insubstantial
+SQL server NO IMPORT - insubstantial
+SQLWindows NO IMPORT - insubstantial
+SQR NO IMPORT - insubstantial
+SQRIBE NO IMPORT - insubstantial
+sqsubseteq NO IMPORT - jargon
+Square NO IMPORT - insubstantial
+square-headed boyfriend NO IMPORT - jargon
+square-headed girlfriend NO IMPORT - jargon
+square tape NO IMPORT - jargon
+Squeak
+Squiggol
+squirt the bird NO IMPORT - jargon
+SR - DONE
+sr NO IMPORT - insubstantial
+SRAM NO IMPORT - duplicate info
+SRAPI NO IMPORT - insubstantial
+SRC Modula-3 DONE
+SRDL NO IMPORT - insubstantial
+SR flip-flop DONE - merged with flip-flop
+SRI DONE
+SRI International DONE
+SRL NO IMPORT - insubstantial
+SRP NO IMPORT - insubstantial
+SS7 NO IMPORT - insubstantial
+SSA NO IMPORT - insubstantial
+SSADM NO IMPORT - insubstantial
+SSBA NO IMPORT - insubstantial
+ssh NO IMPORT - insubstantial
+SSI NO IMPORT - insubstantial
+SSII NO IMPORT - insubstantial
+SSL NO IMPORT - duplicate info
+S/SL DONE
+SSLeay NO IMPORT - insubstantial
+SSMA NO IMPORT - insubstantial
+st NO IMPORT - insubstantial
+STAB NO IMPORT - insubstantial
+STAB-11 NO IMPORT - insubstantial
+STAC NO IMPORT - insubstantial
+stac compression NO IMPORT - insubstantial
+stack NO IMPORT - duplicate info
+Stack Environment Control Dump machine NO IMPORT - duplicate info (SECD machine)
+stack frame
+stacking order NO IMPORT - insubstantial
+stack loader NO IMPORT - insubstantial
+stack overflow NO IMPORT - insubstantial
+stack pointer NO IMPORT - insubstantial
+stack puke NO IMPORT - insubstantial
+stack traceback NO IMPORT - insubstantial
+STAGE2 NO IMPORT - insubstantial
+Staggered Pin Grid Array NO IMPORT - insubstantial
+staircase NO IMPORT - jargon
+staircasing NO IMPORT - jargon
+stale pointer bug DONE
+Stallman, Richard M. NO IMPORT - duplicate info
+stand-alone NO IMPORT - jargon
+standard NO IMPORT - insubstantial
+Standard Commands for Programmable Instruments NO IMPORT - insubstantial
+Standard d'Echange et de Transfert NO IMPORT - insubstantial
+standard for robot exclusion NO IMPORT - insubstantial
+Standard for the exchange of product model data NO IMPORT - insubstantial
+Standard Generalised Markup Language NO IMPORT - duplicate info
+Standard Generalized Markup Language NO IMPORT - duplicate info
+standard input/output
+Standard Instrument Control Library NO IMPORT - insubstantial
+standard interpretation NO IMPORT - jargon
+standard I/O
+Standard Lisp NO IMPORT - duplicate info
+Standard ML
+Standard ML of New Jersey
+standard semantics NO IMPORT - jargon
+Stanford Artificial Intelligence Laboratory DONE - duplicate info
+Stanford Artificial Intelligence Language DONE
+Stanford Research Institute DONE - duplicate info
+Stanford University NO IMPORT - duplicate info
+Staple NO IMPORT - insubstantial
+STAR 0 NO IMPORT - insubstantial
+StarBurst NO IMPORT - insubstantial
+StarLISP DONE - Merged into Lisp programming language
+StarMOD NO IMPORT - insubstantial
+star network NO IMPORT - jargon
+Starset NO IMPORT - insubstantial
+STARSYS DONE (Convergent Technologies Operating System)
+start bit NO IMPORT - insubstantial
+Start Of Header NO IMPORT - insubstantial
+Start Of Text NO IMPORT - insubstantial
+start tag NO IMPORT - insubstantial
+state NO IMPORT - jargon
+state diagram NO IMPORT - duplicate info (finite state machine)
+stateless DONE
+state machine NO IMPORT - duplicate info (finite state machine)
+state transition diagram NO IMPORT - duplicate info (finite state machine)
+State University of New York NO IMPORT - insubstantial
+static database management system
+static DBMS
+static link NO IMPORT - insubstantial
+static RAM NO IMPORT - duplicate info
+static random access memory NO IMPORT - duplicate info
+static scope NO IMPORT - duplicate info (Static scoping)
+Station Management NO IMPORT - insubstantial
+Statistical Analysis System NO IMPORT - insubstantial
+Statistical Package for the Social Sciences NO IMPORT - insubstantial
+statistical time division multiplexing DONE (in my userspace, currently)
+statistics NO IMPORT - insubstantial
+StatMUX DONE (in my userspace, currently)
+STB NO IMPORT - insubstantial
+STD NO IMPORT - insubstantial
+STD 1 NO IMPORT - insubstantial
+STD 13 NO IMPORT - insubstantial
+STD 15 NO IMPORT - insubstantial
+STD 2 NO IMPORT - insubstantial
+STD 9 NO IMPORT - insubstantial
+stderr
+stdin
+stdio
+stdio.h
+STDM DONE (in my userspace, currently)
+stdout
+STDWIN NO IMPORT - insubstantial
+steam-powered NO IMPORT - jargon
+Steelman NO IMPORT - insubstantial
+steganography NO IMPORT - duplicate info
+stemmer DONE
+stemming DONE
+STENSOR NO IMPORT - insubstantial
+STEP NO IMPORT - insubstantial
+Stephen Cole Kleene DONE
+Stephen Jobs NO IMPORT - insubstantial
+Stephen Kleene DONE
+Stepstone Corp NO IMPORT - insubstantial
+stepwise refinement NO IMPORT - insubstantial
+Stereogram DONE
+Steve Jobs NO IMPORT - duplicate info
+Steve's Shell NO IMPORT - insubstantial
+Steve Wozniak NO IMPORT - insubstantial
+Sticks&Stones NO IMPORT - insubstantial
+sticky analysis NO IMPORT - insubstantial
+sticky bit
+sticky content NO IMPORT - jargon
+stiffy NO IMPORT - jargon
+STIL NO IMPORT - insubstantial
+STING DONE - merged into Lisp programming language
+STk NO IMPORT - insubstantial
+STMP NO IMPORT - irrelevant
+stochastic NO IMPORT - duplicate info
+stock-keeping unit NO IMPORT - insubstantial
+STOIC NO IMPORT - insubstantial
+stomp on NO IMPORT - jargon
+STONE NO IMPORT - insubstantial
+Stone Age NO IMPORT - jargon
+stone knives and bearskins NO IMPORT - jargon
+Stoneman NO IMPORT - insubstantial
+stop bit DONE (in my userspace, currently)
+stoppage NO IMPORT - jargon
+storage NO IMPORT - jargon
+Storage Allocation and Coding Program NO IMPORT - insubstantial
+Storage Management Services NO IMPORT - insubstantial
+store NO IMPORT - jargon
+store and forward NO IMPORT - insubstantial
+Story of Mel NO IMPORT - irrelevant
+STP NO IMPORT - insubstantial
+StP NO IMPORT - insubstantial
+STP4 NO IMPORT - insubstantial
+Strachey, Christopher NO IMPORT - insubstantial
+Strand NO IMPORT - insubstantial
+Strand88 NO IMPORT - insubstantial
+Stratus NO IMPORT - irrelevant
+Strawman NO IMPORT - insubstantial
+STREAM NO IMPORT - insubstantial
+stream DONE (in my userspace, currently)
+streaming NO IMPORT - duplicate info (streaming media)
+stream-oriented NO IMPORT - insubstantial
+STREAMS NO IMPORT - insubstantial
+strength reduction DONE
+STRESS NO IMPORT - insubstantial
+stress testing NO IMPORT - insubstantial
+strict
+strict evaluation
+strided NO IMPORT - jargon
+string NO IMPORT - duplicate info (literal string)
+String EXpression Interpreter NO IMPORT - duplicate info
+STring Oriented Interactive Compiler NO IMPORT - insubstantial
+String Oriented Symbolic Language NO IMPORT - duplicate info
+String PRocessING language NO IMPORT - jargon
+string reduction NO IMPORT - insubstantial
+stripe DONE (Data striping)
+stripe set DONE (Data striping)
+striping DONE (Data striping)
+STROBES NO IMPORT - insubstantial
+stroke NO IMPORT - insubstantial
+StrongARM NO IMPORT - duplicate info
+strongly connected component
+strongly typed NO IMPORT - duplicate info (datatype)
+strong typing NO IMPORT - duplicate info (datatype)
+Stroustrup, Bjarne NO IMPORT - insubstantial
+struct NO IMPORT - insubstantial
+structural recursion NO IMPORT - duplicate info (Structural induction)
+structured analysis NO IMPORT - insubstantial
+structured design NO IMPORT - insubstantial
+structure diagram NO IMPORT - jargon
+structured language NO IMPORT - insubstantial
+structured programming NO IMPORT - insubstantial
+Structured Query Language NO IMPORT - duplicate info
+Structure of Management Information NO IMPORT - insubstantial
+strudel NO IMPORT - jargon
+STRUDL NO IMPORT - insubstantial
+STSC APL NO IMPORT - insubstantial
+stub NO IMPORT - insubstantial
+stub network NO IMPORT - insubstantial
+stubroutine NO IMPORT - jargon
+STUDENT NO IMPORT - irrelevant
+Student PL/I NO IMPORT - insubstantial
+studly NO IMPORT - jargon
+studlycaps NO IMPORT - jargon
+Stuffit NO IMPORT - duplicate info
+Stupids NO IMPORT - jargon
+stupid-sort NO IMPORT - duplicate info
+Sturgeon's Law NO IMPORT - duplicate info
+STX NO IMPORT - insubstantial
+su NO IMPORT - duplicate info
+SUB NO IMPORT - insubstantial
+subband encoding DONE
+subclass NO IMPORT - duplicate info
+subject DONE - merged into subject-oriented programming
+subject index NO IMPORT - insubstantial
+subject-oriented programming DONE
+sublanguage NO IMPORT - insubstantial
+subnet NO IMPORT - duplicate info (subnetwork)
+subnet address NO IMPORT - duplicate info
+subnet mask NO IMPORT - duplicate info
+subnet number NO IMPORT - duplicate info
+subroutine NO IMPORT - duplicate info
+subscribe NO IMPORT - jargon
+subscribing NO IMPORT - jargon
+subseteq NO IMPORT - insubstantial
+Subset-Equational Language DONE
+Substitute NO IMPORT - insubstantial
+substrate NO IMPORT - duplicate info (integrated circuit)
+subtype NO IMPORT - insubstantial
+subtyping NO IMPORT - insubstantial
+SuccessoR NO IMPORT - insubstantial
+successor NO IMPORT - insubstantial
+sucking mud NO IMPORT - jargon
+Sue NO IMPORT - insubstantial
+sufficiently small NO IMPORT - insubstantial
+SUGAR NO IMPORT - insubstantial
+suicideware NO IMPORT - jargon
+SUIF NO IMPORT - insubstantial
+suit NO IMPORT - jargon
+suitably small NO IMPORT - jargon
+Suite Synthetique des Benchmarks de l'AFUU NO IMPORT - insubstantial
+sum NO IMPORT - duplicate info
+Summary Object Interchange Format NO IMPORT - insubstantial
+SUMMER NO IMPORT - insubstantial
+SUMMER SESSION NO IMPORT - insubstantial
+sum of products type DONE
+Sun NO IMPORT - duplicate info
+Sun-2 Workstation NO IMPORT - insubstantial
+Sun-3 Workstation NO IMPORT - insubstantial
+Sun-4 Workstation NO IMPORT - insubstantial
+sun lounge NO IMPORT - jargon
+Sun Microsystems, Inc. NO IMPORT - duplicate info
+SunOS NO IMPORT - duplicate info
+sunspots NO IMPORT - jargon
+sun-stools NO IMPORT - insubstantial
+SunView DONE
+SUNY NO IMPORT - insubstantial
+SUPER NO IMPORT - jargon
+Super 7 NO IMPORT - out of date
+superclass NO IMPORT - duplicate info
+supercombinators NO IMPORT - insubstantial
+supercompilation NO IMPORT - jargon
+supercomputer NO IMPORT - duplicate info
+superhighway NO IMPORT - jargon
+SuperJanet NO IMPORT - out of date
+SUPERMAC NO IMPORT - insubstantial
+Super Pascal DONE - merged into Pascal
+superpipelined NO IMPORT - insubstantial
+superprogrammer NO IMPORT - jargon
+superscalar NO IMPORT - insubstantial
+super source quench NO IMPORT - jargon
+SuperTalk NO IMPORT - irrelevant
+superuser NO IMPORT - jargon
+Super VGA NO IMPORT - duplicate info
+Super Video Graphics Adapter NO IMPORT - duplicate info
+Super Video Graphics Adaptor NO IMPORT - duplicate info
+Super Video Graphics Array NO IMPORT - duplicate info
+supervisor mode
+Supervisory Control and Data Acquisition NO IMPORT - jargon
+support NO IMPORT - jargon
+supremum NO IMPORT - insubstantial
+Sure NO IMPORT - irrelevant
+surfing
+SURGE NO IMPORT - irrelevant
+surjection NO IMPORT - insubstantial
+surjective NO IMPORT - insubstantial
+surrogate key DONE
+suspension NO IMPORT - insubstantial
+Suzie COBOL NO IMPORT - jargon
+sv NO IMPORT - insubstantial
+SVC NO IMPORT - jargon
+SVG NO IMPORT - duplicate info
+SVGA NO IMPORT - duplicate info
+SVGA monitor NO IMPORT - duplicate info
+SVID NO IMPORT - insubstantial
+S-Video NO IMPORT - duplicate info
+SVR4 NO IMPORT - insubstantial
+SVRC NO IMPORT - insubstantial
+SVS NO IMPORT - insubstantial
+swab NO IMPORT - insubstantial
+SWAG NO IMPORT - jargon
+swap
+swap file
+swapped in
+swapped out
+swapping 
+swap space DONE
+SweetLambda NO IMPORT - jargon
+SWI-Prolog NO IMPORT - irrelevant
+switch NO IMPORT - jargon
+Switched Multimegabit Data Service NO IMPORT - insubstantial
+switching hub NO IMPORT - insubstantial
+switch statement NO IMPORT - duplicate info
+swizzle NO IMPORT - jargon
+swung dash NO IMPORT - insubstantial
+sy NO IMPORT - insubstantial
+Sybase, Inc. NO IMPORT - duplicate info
+SYDEL NO IMPORT - insubstantial
+SYGMA NO IMPORT - insubstantial
+SYLK NO IMPORT - insubstantial
+Sylvan NO IMPORT - insubstantial
+Symantec NO IMPORT - duplicate info
+SYMBAL NO IMPORT - insubstantial
+SymbMath NO IMPORT - insubstantial
+SYMBOLANG NO IMPORT - insubstantial
+Symbolic Assembler Program NO IMPORT - insubstantial
+SYMBOLIC ASSEMBLY NO IMPORT - insubstantial
+Symbolic Automatic INTegrator NO IMPORT - insubstantial
+symbolic inference
+Symbolic Link DONE merged into existing article
+symbolic link DONE merged into existing article
+symbolic logic NO IMPORT - jargon
+Symbolic Mathematical Laboratory NO IMPORT - insubstantial
+symbolic mathematics - DONE
+Symbolic Optimal Assembly Program NO IMPORT - insubstantial
+Symbolics, Inc. NO IMPORT - insubstantial
+Symbol Manipulation Program NO IMPORT - insubstantial
+symlink DONE - merged with symbolic link
+symmetric NO IMPORT - duplicate info (Symmetry)
+symmetric key cryptography NO IMPORT - duplicate info
+Symmetric LISP DONE - Merged into LISP
+symmetric multiprocessing NO IMPORT - duplicate info
+symmetric multiprocessor NO IMPORT - duplicate info
+Symphony NO IMPORT - out of date
+SYMPL NO IMPORT - insubstantial
+SYN NO IMPORT - jargon
+sync NO IMPORT - jargon
+Synchronized Multimedia Integration Language DONE - merged into SMIL
+synchronous NO IMPORT - jargon
+Synchronous Data Link Control NO IMPORT - irrelevant
+Synchronous Digital Hierarchy NO IMPORT - duplicate info (Synchronous optical networking)
+Synchronous DRAM
+Synchronous Dynamic Random Access Memory
+Synchronous Graphics RAM
+Synchronous Graphics Random Access Memory
+Synchronous idle NO IMPORT - insubstantial
+synchronous key encryption NO IMPORT - duplicate info (PGP)
+Synchronous Optical NETwork NO IMPORT - duplicate info
+syncronous NO IMPORT - jargon
+synflood NO IMPORT - jargon
+synonym ring NO IMPORT - jargon
+syntactic salt DONE - (syntactic sugar)
+syntactic sugar DONE
+syntax NO IMPORT - duplicate info
+Syntax-Case
+syntax directed translation
+Syntax/Semantic Language
+syntax tree NO IMPORT - insubstantial
+synthesis NO IMPORT - jargon
+Synthesizer Specification Language NO IMPORT - insubstantial
+SyQuest Technology, Inc. DONE
+sysadmin NO IMPORT - jargon
+sysape NO IMPORT - jargon
+Sysdeco Mimer AB NO IMPORT - insubstantial
+sys-frog NO IMPORT - jargon
+SYSKEY DONE
+SYSLISP NO IMPORT - insubstantial
+sysop NO IMPORT - jargon
+Sysplex NO IMPORT - out of date
+sysprog NO IMPORT - jargon
+system
+System/360 NO IMPORT - duplicate info
+System 5 NO IMPORT - insubstantial
+System 7.5 NO IMPORT - duplicate info (MacOS)
+System Account Manager
+system administration NO IMPORT - duplicate info
+system administrator NO IMPORT - duplicate info
+system analysis NO IMPORT - duplicate info
+system analyst NO IMPORT - duplicate info
+system boardDONE - (motherboard)
+system call
+system catalog
+System F NO IMPORT - insubstantial
+system management NO IMPORT - insubstantial
+System Management Bus NO IMPORT - out of date
+System Management Mode NO IMPORT - out of date
+System Management Server
+system manager NO IMPORT - insubstantial
+system mangler NO IMPORT - jargon
+system operator NO IMPORT - jargon
+System Product Interpreter NO IMPORT - irrelevant
+system programming language DONE
+System R DONE - but needs expansion
+Systems Administrators Guild NO IMPORT - irrelevant
+systems analysis NO IMPORT - insubstantial
+Systems Analysis Definition NO IMPORT - insubstantial
+systems analyst NO IMPORT - insubstantial
+Systems Application Architecture NO IMPORT - irrelevant
+Systems Development Life Cycle DONE
+systems jock NO IMPORT - jargon
+Systems Network Architecture NO IMPORT - irrelevant
+system software NO IMPORT - duplicate info
+systems operator NO IMPORT - jargon
+systems programmer NO IMPORT - irrelevant
+systems programming NO IMPORT - duplicate info
+system unit NO IMPORT - duplicate info
+System V NO IMPORT - duplicate info
+System V Interface Definition NO IMPORT - jargon
+systolic array DONE
+SysVile NO IMPORT - jargon
+sz NO IMPORT - duplicate info
+
+

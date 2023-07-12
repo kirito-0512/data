@@ -1,0 +1,231 @@
+9309,
+Extractor(mathematics),
+An 
+
+
+
+(
+N
+,
+M
+,
+D
+,
+K
+,
+ϵ
+)
+
+
+{\displaystyle (N,M,D,K,\epsilon )}
+
+ -extractor is a bipartite graph with 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ nodes on the left and 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ nodes on the right such that each node on the left has 
+
+
+
+D
+
+
+{\displaystyle D}
+
+ neighbors (on the right), which has the added property that
+for any subset 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ of the left vertices of size at least 
+
+
+
+K
+
+
+{\displaystyle K}
+
+, the distribution on right vertices obtained by choosing a random node in 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and then following a random edge to get a node x on the right side is 
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+
+-close to the uniform distribution in terms of total variation distance.
+A disperser is a related graph. 
+An equivalent way to view an extractor is as a bivariate function 
+in the natural way. With this view it turns out that the extractor property is equivalent to: for any source of randomness 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ that gives 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ bits with min-entropy 
+
+
+
+log
+⁡
+K
+
+
+{\displaystyle \log K}
+
+, the distribution 
+
+
+
+E
+(
+X
+,
+
+U
+
+D
+
+
+)
+
+
+{\displaystyle E(X,U_{D})}
+
+ is 
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+
+-close to 
+
+
+
+
+U
+
+M
+
+
+
+
+{\displaystyle U_{M}}
+
+, where 
+
+
+
+
+U
+
+T
+
+
+
+
+{\displaystyle U_{T}}
+
+ denotes the uniform distribution on 
+
+
+
+[
+T
+]
+
+
+{\displaystyle [T]}
+
+.
+Extractors are interesting when they can be constructed with small 
+
+
+
+K
+,
+D
+,
+ϵ
+
+
+{\displaystyle K,D,\epsilon }
+
+ relative to 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ and 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ is as close to 
+
+
+
+K
+D
+
+
+{\displaystyle KD}
+
+ (the total randomness in the input sources) as possible.
+Extractor functions were originally researched as a way to extract randomness from weakly random sources. See randomness extractor.
+Using the probabilistic method it is easy to show that extractor graphs with really good parameters exist. The challenge is to find explicit or polynomial time computable examples of such graphs with good parameters. Algorithms that compute extractor (and disperser) graphs have found many applications in computer science.
+
+

@@ -1,0 +1,7 @@
+35509,
+51-FORTH,
+51-FORTH is an implementation of the Forth programming language for the Intel 8051 microcontroller. It was created in 1989 by Scott Gehmlich of IDACOM Electronics (which was acquired by Hewlett-Packard in 1990), and sent to Giovanni Moretti of Massey University, from whom it was propagated widely.[1] The original 51forth.zip package is available from many archive sites, along with several other implementations of Forth.
+This implementation is subroutine-threaded, with about 20 words written in assembly language, and the complete system occupying a total of about 8K of RAM. It was cross-developed from a VAX to an RTX2000 Forth system connected to dual-ported RAM accessible to the microcontroller.
+The sources and documentation are in the public domain.[citation needed]
+Information box
+{'Original author(s)': 'Scott Gehmlich[1]', 'Initial release': '1989; 34 years ago', 'Written in': 'assembly language', 'Type': 'Forth programming language', 'License': 'public domain'}

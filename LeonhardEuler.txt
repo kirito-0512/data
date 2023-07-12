@@ -1,0 +1,579 @@
+9213,
+LeonhardEuler,
+
+Leonhard Euler (/ˈɔɪlər/ OY-lər,[a] German: [ˈleːɔnhaʁt ˈɔʏlɐ] (listen);[b] 15 April 1707 – 18 September 1783) was a Swiss mathematician, physicist, astronomer, geographer, logician and engineer who founded the studies of graph theory and topology and made pioneering and influential discoveries in many other branches of mathematics such as analytic number theory, complex analysis, and infinitesimal calculus. He introduced much of modern mathematical terminology and notation, including the notion of a mathematical function.[6] He is also known for his work in mechanics, fluid dynamics, optics, astronomy and music theory.[7]
+Euler is held to be one of the greatest mathematicians in history and the greatest of the 18th century. Several great mathematicians who produced their work after Euler's death have recognised his importance in the field as shown by quotes attributed to many of them: Pierre-Simon Laplace expresses Euler's influence on mathematics: "Read Euler, read Euler, he is the master of us all."[8][c] Carl Friedrich Gauss wrote: "The study of Euler's works will remain the best school for the different fields of mathematics, and nothing else can replace it."[9][d] Euler is also widely considered to be the most prolific; his 866 publications as well as his correspondences are collected in the Opera Omnia Leonhard Euler which, when completed, will consist of 81 quarto volumes.[11][12][13] He spent most of his adult life in Saint Petersburg, Russia, and in Berlin, then the capital of Prussia.
+Euler is credited for popularizing the Greek letter 
+
+
+
+π
+
+
+{\displaystyle \pi }
+
+ (lowercase pi) to denote the ratio of a circle's circumference to its diameter, as well as first using the notation 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ for the value of a function, the letter 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ to express the imaginary unit 
+
+
+
+
+
+−
+1
+
+
+
+
+{\displaystyle {\sqrt {-1}}}
+
+, the Greek letter 
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+
+ (capital sigma) to express summations, the Greek letter 
+
+
+
+Δ
+
+
+{\displaystyle \Delta }
+
+ (uppercase delta) for finite differences, and lowercase letters to represent the sides of a triangle while representing the angles as capital letters.[14]  He gave the current definition of the constant 
+
+
+
+e
+
+
+{\displaystyle e}
+
+, the base of the natural logarithm, now known as Euler's number.[15]
+Euler was also the first practitioner of graph theory (partly as a solution for the problem of the Seven Bridges of Königsberg). He became famous for, among many other accomplishments, solving the Basel problem, after proving that the sum of the infinite series of squared integer reciprocals equaled exactly π2/6, and for discovering that the sum of the numbers of vertices and faces minus edges of a polyhedron equals 2, a number now commonly known as the Euler characteristic. In the field of physics, Euler reformulated Newton's laws of physics into new laws in his two-volume work Mechanica to better explain the motion of rigid bodies. He also made substantial contributions to the study of elastic deformations of solid objects.
+Leonhard Euler was born on 15 April 1707, in Basel, Switzerland, to Paul III Euler, a pastor of the Reformed Church, and Marguerite (née Brucker), whose ancestors include a number of well-known scholars in the classics.[16] He was the oldest of four children, having two younger sisters, Anna Maria and Maria Magdalena, and a younger brother, Johann Heinrich.[17][16] Soon after the birth of Leonhard, the Euler family moved from Basel to the town of Riehen, Switzerland, where his father became pastor in the local church and Leonhard spent most of his childhood.[16]
+From a young age, Euler received schooling in mathematics from his father, who had taken courses from Jacob Bernoulli some years earlier at the University of Basel. Around the age of eight, Euler was sent to live at his maternal grandmother's house and enrolled in the Latin school in Basel. In addition, he received private tutoring from Johannes Burckhardt, a young theologian with a keen interest in mathematics.[16]
+In 1720, at thirteen years of age, Euler enrolled at the University of Basel.[7] Attending university at such a young age was not unusual at the time.[16] The course on elementary mathematics was given by Johann Bernoulli, the younger brother of the deceased Jacob Bernoulli (who had taught Euler's father). Johann Bernoulli and Euler soon got to know each other better. Euler described Bernoulli in his autobiography:[18]
+It was during this time that Euler, backed by Bernoulli, obtained his father's consent to become a mathematician instead of a pastor.[19][20]
+In 1723, Euler received a Master of Philosophy with a dissertation that compared the philosophies of René Descartes and Isaac Newton.[16] Afterwards, he enrolled in the theological faculty of the University of Basel.[20]
+In 1726, Euler completed a dissertation on the propagation of sound with the title De Sono[21][22] with which he unsuccessfully attempted to obtain a position at the University of Basel.[23] In 1727, he entered the Paris Academy prize competition (offered annually and later biennially by the academy beginning in 1720)[24] for the first time. The problem posed that year was to find the best way to place the masts on a ship. Pierre Bouguer, who became known as "the father of naval architecture", won and Euler took second place.[25] Over the years, Euler entered this competition 15 times,[24] winning 12 of them.[25]
+Johann Bernoulli's two sons, Daniel and Nicolaus, entered into service at the Imperial Russian Academy of Sciences in Saint Petersburg in 1725, leaving Euler with the assurance they would recommend him to a post when one was available.[23] On 31 July 1726, Nicolaus died of appendicitis after spending less than a year in Russia.[26][27] When Daniel assumed his brother's position in the mathematics/physics division, he recommended that the post in physiology that he had vacated be filled by his friend Euler.[23] In November 1726, Euler eagerly accepted the offer, but delayed making the trip to Saint Petersburg while he unsuccessfully applied for a physics professorship at the University of Basel.[23]
+Euler arrived in Saint Petersburg in May 1727.[23][20] He was promoted from his junior post in the medical department of the academy to a position in the mathematics department. He lodged with Daniel Bernoulli with whom he worked in close collaboration.[28] Euler mastered Russian, settled into life in Saint Petersburg and took on an additional job as a medic in the Russian Navy.[29]
+The academy at Saint Petersburg, established by Peter the Great, was intended to improve education in Russia and to close the scientific gap with Western Europe. As a result, it was made especially attractive to foreign scholars like Euler.[25] The academy's benefactress, Catherine I, who had continued the progressive policies of her late husband, died before Euler's arrival to Saint Petersburg.[30] The Russian conservative nobility then gained power upon the ascension of the twelve-year-old Peter II.[30] The nobility, suspicious of the academy's foreign scientists, cut funding for Euler and his colleagues and prevented the entrance of foreign and non-aristocratic students into the Gymnasium and Universities.[30]
+Conditions improved slightly after the death of Peter II in 1730 and the German-influenced Anna of Russia assumed power.[31] Euler swiftly rose through the ranks in the academy and was made a professor of physics in 1731.[31] He also left the Russian Navy, refusing a promotion to lieutenant.[31] Two years later, Daniel Bernoulli, fed up with the censorship and hostility he faced at Saint Petersburg, left for Basel. Euler succeeded him as the head of the mathematics department.[32] In January 1734, he married Katharina Gsell (1707–1773), a daughter of Georg Gsell.[33] Frederick II had made an attempt to recruit the services of Euler for his newly established Berlin Academy in 1740, but Euler initially preferred to stay in St Petersburg.[34] But after Emperor Anna died and Frederick II agreed to pay 1600 ecus (the same as Euler earned in Russia) he agreed to move to Berlin. In 1741, he requested permission to leave to Berlin, arguing he was in need of a milder climate for his eyesight.[34] The Russian academy gave its consent and would pay him 200 rubles per year as one of its active members.[34]
+Concerned about the continuing turmoil in Russia, Euler left St. Petersburg in June 1741 to take up a post at the Berlin Academy, which he had been offered by Frederick the Great of Prussia.[35] He lived for 25 years in Berlin, where he wrote several hundred articles.[20] In 1748 his text on functions called the Introductio in analysin infinitorum was published and in 1755 a text on differential calculus called the Institutiones calculi differentialis was published.[36][37] In 1755, he was elected a foreign member of the Royal Swedish Academy of Sciences[38] and of the French Academy of Sciences.[39] Notable students of Euler in Berlin included Stepan Rumovsky, later considered as the first Russian astronomer.[40][41] In 1748 he declined an offer from the University of Basel to succeed the recently deceased Johann Bernoulli.[20] In 1753 he bought a house in Charlottenburg, in which he lived with his family and widowed mother.[42][43]
+Euler became the tutor for Friederike Charlotte of Brandenburg-Schwedt, the Princess of Anhalt-Dessau and Frederick's niece. He wrote over 200 letters to her in the early 1760s, which were later compiled into a volume entitled Letters of Euler on different Subjects in Natural Philosophy Addressed to a German Princess.[44] This work contained Euler's exposition on various subjects pertaining to physics and mathematics and offered valuable insights into Euler's personality and religious beliefs. It was translated into multiple languages, published across Europe and in the United States, and became more widely read than any of his mathematical works. The popularity of the Letters testifies to Euler's ability to communicate scientific matters effectively to a lay audience, a rare ability for a dedicated research scientist.[37]
+Despite Euler's immense contribution to the academy's prestige and having been put forward as a candidate for its presidency by Jean le Rond d'Alembert, Frederick II named himself as its president.[43] The Prussian king had a large circle of intellectuals in his court, and he found the mathematician unsophisticated and ill-informed on matters beyond numbers and figures. Euler was a simple, devoutly religious man who never questioned the existing social order or conventional beliefs. He was, in many ways, the polar opposite of Voltaire, who enjoyed a high place of prestige at Frederick's court. Euler was not a skilled debater and often made it a point to argue subjects that he knew little about, making him the frequent target of Voltaire's wit.[37] Frederick also expressed disappointment with Euler's practical engineering abilities, stating:
+I wanted to have a water jet in my garden: Euler calculated the force of the wheels necessary to raise the water to a reservoir, from where it should fall back through channels, finally spurting out in Sanssouci. My mill was carried out geometrically and could not raise a mouthful of water closer than fifty paces to the reservoir. Vanity of vanities! Vanity of geometry![45]Throughout his stay in Berlin, Euler maintained a strong connection to the academy in St. Petersburg and also published 109 papers in Russia.[46] He also assisted students from the St. Petersburg academy and at times accommodated Russian students in his house in Berlin.[46] In 1760, with the Seven Years' War raging, Euler's farm in Charlottenburg was sacked by advancing Russian troops.[42] Upon learning of this event, General Ivan Petrovich Saltykov paid compensation for the damage caused to Euler's estate, with Empress Elizabeth of Russia later adding a further payment of 4000 rubles—an exorbitant amount at the time.[47] Euler decided to leave Berlin in 1766 and return to Russia.[48]
+During his Berlin years (1741–1766), Euler was at the peak of his productivity. He wrote 380 works, 275 of which were published.[49] This included 125 memoirs in the Berlin Academy and over 100 memoirs sent to the St. Petersburg Academy, which had retained him as a member and paid him an annual stipend. Euler's Introductio in Analysin Infinitorum was published in two parts in 1748. In addition to his own research, Euler supervised the library, the observatory, the botanical garden, and the publication of calendars and maps from which the academy derived income.[50] He was even involved in the design of the water fountains at Sanssouci, the King's summer palace.[51]
+The political situation in Russia stabilized after Catherine the Great's accession to the throne, so in 1766 Euler accepted an invitation to return to the St. Petersburg Academy. His conditions were quite exorbitant—a 3000 ruble annual salary, a pension for his wife, and the promise of high-ranking appointments for his sons. At the university he was assisted by his student Anders Johan Lexell.[52] While living in St. Petersburg, a fire in 1771 destroyed his home.[53]
+On 7 January 1734, he married Katharina Gsell (1707–1773), daughter of Georg Gsell, a painter from the Academy Gymnasium in Saint Petersburg.[33] The young couple bought a house by the Neva River.
+Of their thirteen children, only five survived childhood,[54] three sons and two daughters.[55] Their first son was Johann Albrecht Euler, whose godfather was Christian Goldbach.[55]
+Three years after his wife's death in 1773,[53] Euler married her half-sister, Salome Abigail Gsell (1723–1794).[56] This marriage lasted until his death in 1783.
+His brother Johann Heinrich settled in St. Petersburg in 1735 and was employed as a painter at the academy.[34]
+Euler's eyesight worsened throughout his mathematical career. In 1738, three years after nearly expiring from fever,[57] he became almost blind in his right eye. Euler blamed the cartography he performed for the St. Petersburg Academy for his condition,[58] but the cause of his blindness remains the subject of speculation.[59][60] Euler's vision in that eye worsened throughout his stay in Germany, to the extent that Frederick referred to him as "Cyclops". Euler remarked on his loss of vision, stating "Now I will have fewer distractions."[58] In 1766 a cataract in his left eye was discovered. Though couching of the cataract temporarily improved his vision, complications ultimately rendered him almost totally blind in  the left eye as well.[39] However, his condition appeared to have little effect on his productivity. With the aid of his scribes, Euler's productivity in many areas of study increased;[61] and, in 1775, he produced, on average, one mathematical paper every week.[39]
+In St. Petersburg on 18 September 1783, after a lunch with his family, Euler was discussing the newly discovered planet Uranus and its orbit with Lexell when he collapsed and died from a brain hemorrhage.[59] Jacob von Staehlin [de] wrote a short obituary for the Russian Academy of Sciences and Russian mathematician Nicolas Fuss, one of Euler's disciples, wrote a more detailed eulogy,[54] which he delivered at a memorial meeting. In his eulogy for the French Academy, French mathematician and philosopher Marquis de Condorcet, wrote:
+il cessa de calculer et de vivre— ... he ceased to calculate and to live.[62]Euler was buried next to Katharina at the Smolensk Lutheran Cemetery on Vasilievsky Island. In 1837, the Russian Academy of Sciences installed a new monument, replacing his overgrown grave plaque. To commemorate the 250th anniversary of Euler's birth in 1957, his tomb was moved to the Lazarevskoe Cemetery at the Alexander Nevsky Monastery.[63]
+Euler worked in almost all areas of mathematics, including geometry, infinitesimal calculus, trigonometry, algebra, and number theory, as well as continuum physics, lunar theory, and other areas of physics. He is a seminal figure in the history of mathematics; if printed, his works, many of which are of fundamental interest, would occupy between 60 and 80 quarto volumes.[39] Euler's name is associated with a large number of topics. Euler's work averages 800 pages a year from 1725 to 1783. He also wrote over 4500 letters and hundreds of manuscripts. It has been estimated that Leonard Euler was the author of a quarter of the combined output in mathematics, physics, mechanics, astronomy, and navigation in the 18th century.[14]
+Euler introduced and popularized several notational conventions through his numerous and widely circulated textbooks. Most notably, he introduced the concept of a function[6] and was the first to write f(x) to denote the function f applied to the argument x. He also introduced the modern notation for the trigonometric functions, the letter e for the base of the natural logarithm (now also known as Euler's number), the Greek letter Σ for summations and the letter i to denote the imaginary unit.[64] The use of the Greek letter π to denote the ratio of a circle's circumference to its diameter was also popularized by Euler, although it originated with Welsh mathematician William Jones.[65]
+The development of infinitesimal calculus was at the forefront of 18th-century mathematical research, and the Bernoullis—family friends of Euler—were responsible for much of the early progress in the field. Thanks to their influence, studying calculus became the major focus of Euler's work. While some of Euler's proofs are not acceptable by modern standards of mathematical rigour[66] (in particular his reliance on the principle of the generality of algebra), his ideas led to many great advances.
+Euler is well known in analysis for his frequent use and development of power series, the expression of functions as sums of infinitely many terms,[67] such as
+
+
+
+
+
+e
+
+x
+
+
+=
+
+∑
+
+n
+=
+0
+
+
+∞
+
+
+
+
+
+x
+
+n
+
+
+
+n
+!
+
+
+
+=
+
+lim
+
+n
+→
+∞
+
+
+
+(
+
+
+
+1
+
+0
+!
+
+
+
++
+
+
+x
+
+1
+!
+
+
+
++
+
+
+
+x
+
+2
+
+
+
+2
+!
+
+
+
++
+⋯
++
+
+
+
+x
+
+n
+
+
+
+n
+!
+
+
+
+
+)
+
+.
+
+
+{\displaystyle e^{x}=\sum _{n=0}^{\infty }{x^{n} \over n!}=\lim _{n\to \infty }\left({\frac {1}{0!}}+{\frac {x}{1!}}+{\frac {x^{2}}{2!}}+\cdots +{\frac {x^{n}}{n!}}\right).}
+
+
+Euler's use of power series enabled him to solve the famous Basel problem in 1735 (he provided a more elaborate argument in 1741):[66]
+
+
+
+
+
+∑
+
+n
+=
+1
+
+
+∞
+
+
+
+
+1
+
+n
+
+2
+
+
+
+
+=
+
+lim
+
+n
+→
+∞
+
+
+
+(
+
+
+
+1
+
+1
+
+2
+
+
+
+
++
+
+
+1
+
+2
+
+2
+
+
+
+
++
+
+
+1
+
+3
+
+2
+
+
+
+
++
+⋯
++
+
+
+1
+
+n
+
+2
+
+
+
+
+
+)
+
+=
+
+
+
+π
+
+2
+
+
+6
+
+
+.
+
+
+{\displaystyle \sum _{n=1}^{\infty }{1 \over n^{2}}=\lim _{n\to \infty }\left({\frac {1}{1^{2}}}+{\frac {1}{2^{2}}}+{\frac {1}{3^{2}}}+\cdots +{\frac {1}{n^{2}}}\right)={\frac {\pi ^{2}}{6}}.}
+
+
+He introduced the constant
+
+
+
+
+γ
+=
+
+lim
+
+n
+→
+∞
+
+
+
+(
+
+1
++
+
+
+1
+2
+
+
++
+
+
+1
+3
+
+
++
+
+
+1
+4
+
+
++
+⋯
++
+
+
+1
+n
+
+
+−
+ln
+⁡
+(
+n
+)
+
+)
+
+≈
+0.5772
+,
+
+
+{\displaystyle \gamma =\lim _{n\rightarrow \infty }\left(1+{\frac {1}{2}}+{\frac {1}{3}}+{\frac {1}{4}}+\cdots +{\frac {1}{n}}-\ln(n)\right)\approx 0.5772,}
+
+
+now known as Euler's constant or the Euler–Mascheroni constant, and studied its relationship with the harmonic series, the gamma function, and values of the Riemann zeta function.[68]
+Euler introduced the use of the exponential function and logarithms in analytic proofs. He discovered ways to express various logarithmic functions using power series, and he successfully defined logarithms for negative and complex numbers, thus greatly expanding the scope of mathematical applications of logarithms.[64] He also defined the exponential function for complex numbers and discovered its relation to the trigonometric functions. For any real number φ (taken to be radians), Euler's formula states that the complex exponential function satisfies
+
+
+
+
+
+e
+
+i
+φ
+
+
+=
+cos
+⁡
+φ
++
+i
+sin
+⁡
+φ
+
+
+{\displaystyle e^{i\varphi }=\cos \varphi +i\sin \varphi }
+
+
+which was called "the most remarkable formula in mathematics" by Richard P. Feynman.[69]
+A special case of the above formula is known as Euler's identity,
+
+
+
+
+
+e
+
+i
+π
+
+
++
+1
+=
+0
+
+
+{\displaystyle e^{i\pi }+1=0}
+
+
+Euler elaborated the theory of higher transcendental functions by introducing the gamma function[70][71] and introduced a new method for solving quartic equations.[72] He found a way to calculate integrals with complex limits, foreshadowing the development of modern complex analysis. He invented the calculus of variations and formulated the Euler–Lagrange equation for reducing optimization problems in this area to the solution of differential equations.
+Euler pioneered the use of analytic methods to solve number theory problems. In doing so, he united two disparate branches of mathematics and introduced a new field of study, analytic number theory. In breaking ground for this new field, Euler created the theory of hypergeometric series, q-series, hyperbolic trigonometric functions, and the analytic theory of continued fractions. For example, he proved the infinitude of primes using the divergence of the harmonic series, and he used analytic methods to gain some understanding of the way prime numbers are distributed. Euler's work in this area led to the development of the prime number theorem.[73]
+Euler's interest in number theory can be traced to the influence of Christian Goldbach,[74] his friend in the St. Petersburg Academy.[57] Much of Euler's early work on number theory was based on the work of Pierre de Fermat. Euler developed some of Fermat's ideas and disproved some of his conjectures, such as his conjecture that all numbers of the form 
+
+
+
+
+2
+
+
+2
+
+n
+
+
+
+
++
+1
+
+
+{\textstyle 2^{2^{n}}+1}
+
+ (Fermat numbers) are prime.[75]
+Euler linked the nature of prime distribution with ideas in analysis. He proved that the sum of the reciprocals of the primes diverges. In doing so, he discovered the connection between the Riemann zeta function and prime numbers; this is known as the Euler product formula for the Riemann zeta function.[76]
+Euler invented the totient function φ(n), the number of positive integers less than or equal to the integer n that are coprime to n. Using properties of this function, he generalized Fermat's little theorem to what is now known as Euler's theorem.[77] He contributed significantly to the theory of perfect numbers, which had fascinated mathematicians since Euclid. He proved that the relationship shown between even perfect numbers and Mersenne primes (which he had earlier proved) was one-to-one, a result otherwise known as the Euclid–Euler theorem.[78] Euler also conjectured the law of quadratic reciprocity. The concept is regarded as a fundamental theorem within number theory, and his ideas paved the way for the work of Carl Friedrich Gauss, particularly Disquisitiones Arithmeticae.[79] By 1772 Euler had proved that 231 − 1 = 2,147,483,647 is a Mersenne prime. It may have remained the largest known prime until 1867.[80]
+Euler also contributed major developments to the theory of partitions of an integer.[81]
+In 1735, Euler presented a solution to the problem known as the Seven Bridges of Königsberg.[82] The city of Königsberg, Prussia was set on the Pregel River, and included two large islands that were connected to each other and the mainland by seven bridges. The problem is to decide whether it is possible to follow a path that crosses each bridge exactly once and returns to the starting point. It is not possible: there is no Eulerian circuit. This solution is considered to be the first theorem of graph theory.[82]
+Euler also discovered the formula 
+
+
+
+V
+−
+E
++
+F
+=
+2
+
+
+{\displaystyle V-E+F=2}
+
+ relating the number of vertices, edges, and faces of a convex polyhedron,[83] and hence of a planar graph. The constant in this formula is now known as the Euler characteristic for the graph (or other mathematical object), and is related to the genus of the object.[84] The study and generalization of this formula, specifically by Cauchy[85] and L'Huilier,[86] is at the origin of topology.[83]
+Some of Euler's greatest successes were in solving real-world problems analytically, and in describing numerous applications of the Bernoulli numbers, Fourier series, Euler numbers, the constants e and π, continued fractions, and integrals. He integrated Leibniz's differential calculus with Newton's Method of Fluxions, and developed tools that made it easier to apply calculus to physical problems. He made great strides in improving the numerical approximation of integrals, inventing what are now known as the Euler approximations. The most notable of these approximations are Euler's method[87] and the Euler–Maclaurin formula.[88][89][90]
+Euler helped develop the Euler–Bernoulli beam equation, which became a cornerstone of engineering.[91] Besides successfully applying his analytic tools to problems in classical mechanics, Euler applied these techniques to celestial problems. His work in astronomy was recognized by multiple Paris Academy Prizes over the course of his career. His accomplishments include determining with great accuracy the orbits of comets and other celestial bodies, understanding the nature of comets, and calculating the parallax of the Sun. His calculations contributed to the development of accurate longitude tables.[92]
+Euler made important contributions in optics.[93] He disagreed with Newton's corpuscular theory of light,[94] which was the prevailing theory of the time. His 1740s papers on optics helped ensure that the wave theory of light proposed by Christiaan Huygens would become the dominant mode of thought, at least until the development of the quantum theory of light.[95]
+In fluid dynamics, Euler was the first to predict the phenomenon of cavitation, in 1754, long before its first observation in the late 19th century, and the Euler number used in fluid flow calculations comes from his related work on the efficiency of turbines.[96] In 1757 he published an important set of equations for inviscid flow in fluid dynamics, that are now known as the Euler equations.[97]
+Euler is well known in structural engineering for his formula giving Euler's critical load, the critical buckling load of an ideal strut, which depends only on its length and flexural stiffness.[98]
+Euler is credited with using closed curves to illustrate syllogistic reasoning (1768). These diagrams have become known as Euler diagrams.[99]
+An Euler diagram is a diagrammatic means of representing sets and their relationships. Euler diagrams consist of simple closed curves (usually circles) in the plane that depict sets. Each Euler curve divides the plane into two regions or "zones": the interior, which symbolically represents the elements of the set, and the exterior, which represents all elements that are not members of the set. The sizes or shapes of the curves are not important; the significance of the diagram is in how they overlap. The spatial relationships between the regions bounded by each curve (overlap, containment or neither) corresponds to set-theoretic relationships (intersection, subset, and disjointness). Curves whose interior zones do not intersect represent disjoint sets. Two curves whose interior zones intersect represent sets that have common elements; the zone inside both curves represents the set of elements common to both sets (the intersection of the sets). A curve that is contained completely within the interior zone of another represents a subset of it.
+Euler diagrams (and their refinement to Venn diagrams) were incorporated as part of instruction in set theory as part of the new math movement in the 1960s.[100] Since then, they have come into wide use as a way of visualizing combinations of characteristics.[101]
+One of Euler's more unusual interests was the application of mathematical ideas in music. In 1739 he wrote the Tentamen novae theoriae musicae (Attempt at a New Theory of Music), hoping to eventually incorporate musical theory as part of mathematics. This part of his work, however, did not receive wide attention and was once described as too mathematical for musicians and too musical for mathematicians.[102] Even when dealing with music, Euler's approach is mainly mathematical,[103] for instance, his introduction of binary logarithms as a way of numerically describing the subdivision of octaves into fractional parts.[104] His writings on music are not particularly numerous (a few hundred pages, in his total production of about thirty thousand pages), but they reflect an early preoccupation and one that remained with him throughout his life.[103]
+A first point of Euler's musical theory is the definition of "genres", i.e. of possible divisions of the octave using the prime numbers 3 and 5. Euler describes 18 such genres, with the general definition 2mA, where A is the "exponent" of the genre (i.e. the sum of the exponents of 3 and 5) and 2m (where "m is an indefinite number, small or large, so long as the sounds are perceptible"[105]), expresses that the relation holds independently of the number of octaves concerned. The first genre, with A = 1, is the octave itself (or its duplicates); the second genre, 2m.3, is the octave divided by the fifth (fifth + fourth, C–G–C); the third genre is 2m.5, major third + minor sixth (C–E–C); the fourth is 2m.32, two-fourths and a tone (C–F–B♭–C); the fifth is 2m.3.5 (C–E–G–B–C); etc. Genres 12 (2m.33.5), 13 (2m.32.52) and 14 (2m.3.53) are corrected versions of the diatonic, chromatic and enharmonic, respectively, of the Ancients. Genre 18 (2m.33.52) is the "diatonico-chromatic", "used generally in all compositions",[106] and which turns out to be identical with the system described by Johann Mattheson.[107] Euler later envisaged the possibility of describing genres including the prime number 7.[108]
+Euler devised a specific graph, the Speculum musicum,[109][110] to illustrate the diatonico-chromatic genre, and discussed paths in this graph for specific intervals, recalling his interest in the Seven Bridges of Königsberg (see above). The device drew renewed interest as the Tonnetz in Neo-Riemannian theory (see also Lattice (music)).[111]
+Euler further used the principle of the "exponent" to propose a derivation of the gradus suavitatis (degree of suavity, of agreeableness) of intervals and chords from their prime factors – one must keep in mind that he considered just intonation, i.e. 1 and the prime numbers 3 and 5 only.[112] Formulas have been proposed extending this system to any number of prime numbers, e.g. in the form
+
+
+
+
+d
+s
+=
+
+∑
+
+i
+
+
+(
+
+k
+
+i
+
+
+
+p
+
+i
+
+
+−
+
+k
+
+i
+
+
+)
++
+1
+,
+
+
+{\displaystyle ds=\sum _{i}(k_{i}p_{i}-k_{i})+1,}
+
+
+where pi are prime numbers and ki their exponents.[113]
+Euler opposed the concepts of Leibniz's monadism and the philosophy of Christian Wolff.[114] Euler insisted that knowledge is founded in part on the basis of precise quantitative laws, something that monadism and Wolffian science were unable to provide. Euler also labelled Wolff's ideas as "heathen and atheistic".[115]
+Euler was a religious person throughout his life.[20] Much of what is known of Euler's religious beliefs can be deduced from his Letters to a German Princess and an earlier work, Rettung der Göttlichen Offenbahrung gegen die Einwürfe der Freygeister (Defense of the Divine Revelation against the Objections of the Freethinkers). These works show that Euler was a devout Christian who believed the Bible to be inspired; the Rettung was primarily an argument for the divine inspiration of scripture.[116][117]
+There is a famous legend[118] inspired by Euler's arguments with secular philosophers over religion, which is set during Euler's second stint at the St. Petersburg Academy. The French philosopher Denis Diderot was visiting Russia on Catherine the Great's invitation. However, the Empress was alarmed that the philosopher's arguments for atheism were influencing members of her court, and so Euler was asked to confront the Frenchman. Diderot was informed that a learned mathematician had produced a proof of the existence of God: he agreed to view the proof as it was presented in court. Euler appeared, advanced toward Diderot, and in a tone of perfect conviction announced this non-sequitur: "Sir, 
+
+
+
+
+
+
+a
++
+
+b
+
+n
+
+
+
+n
+
+
+=
+x
+
+
+{\displaystyle {\frac {a+b^{n}}{n}}=x}
+
+, hence God exists—reply!"
+Diderot, to whom (says the story) all mathematics was gibberish, stood dumbstruck as peals of laughter erupted from the court. Embarrassed, he asked to leave Russia, a request that was graciously granted by the Empress. However amusing the anecdote may be, it is apocryphal, given that Diderot himself did research in mathematics.[119]
+The legend was apparently first told by Dieudonné Thiébault with embellishment by Augustus De Morgan.[118]
+Euler was featured on both the sixth[120] and seventh[121] series of the Swiss 10-franc banknote and on numerous Swiss, German, and Russian postage stamps. In 1782 he was elected a Foreign Honorary Member of the American Academy of Arts and Sciences.[122] The asteroid 2002 Euler was named in his honour.[123]
+Euler has an extensive bibliography. His books include:
+It took until 1830 for the bulk of Euler's posthumous works to be individually published,[130] with an additional batch of 61 unpublished works discovered by Paul Heinrich von Fuss (Euler's great-grandson and Nicolas Fuss's son) and published as a collection in 1862.[130][131] A chronological catalog of Euler's works was compiled by Swedish mathematician Gustaf Eneström and published from 1910 to 1913.[132] The catalog, known as the Eneström index, numbers Euler's works from E1 to E866.[133] The Euler Archive was started at Dartmouth College[134] before moving to the Mathematical Association of America[135] and, most recently, to University of the Pacific in 2017.[136]
+In 1907, the Swiss Academy of Sciences created the Euler Commission and charged it with the publication of Euler's complete works. After several delays in the 19th century,[130] the first volume of the Opera Omnia, was published in 1911.[137] However, the discovery of new manuscripts continued to increase the magnitude of this project. Fortunately, the publication of Euler's Opera Omnia has made steady progress, with over 70 volumes (averaging 426 pages each) published by 2006 and 80 volumes published by 2022.[138][12][14] These volumes are organized into four series. The first series compiles the works on analysis, algebra, and number theory; it consists of 29 volumes and numbers over 14,000 pages. The 31 volumes of Series II, amounting to 10,660 pages, contain the works on mechanics, astronomy, and engineering. Series III contains 12 volumes on physics. Series IV, which contains the massive amount of Euler's correspondences, unpublished manuscripts, and notes only began compilation in 1967. The series is projected to span 16 volumes, eight volumes of which have been released as of 2022[update].[12][137][14]
+Illustration from Solutio problematis... a. 1743 propositi published in Acta Eruditorum, 1744
+The title page of Euler's Methodus inveniendi lineas curvas.
+Euler's 1760 world map.
+Euler's 1753 map of Africa.
+
+
+
+Information box
+{'Born': '15 April 1707\nBasel, Swiss Confederacy', 'Died': '18 September 1783 (aged 76) [OS: 7 September 1783]\nSaint Petersburg, Russian Empire', 'Alma mater': 'University of Basel (MPhil)', 'Known for': 'Contributionsnamesakes', 'Spouse': 'Katharina Gsell\n(m. 1734; died 1773) Salome Abigail Gsell\n(m. 1776)', 'Fields': 'Mathematics · Physics', 'Institutions': 'Imperial Russian Academy of Sciences\nBerlin Academy', 'Thesis': 'Dissertatio physica de sono (Physical dissertation on sound) (1726)', 'Doctoral advisor': 'Johann Bernoulli', 'Doctoral students': 'Johann Hennert', 'Other notable students': 'Nicolas Fuss\nStepan Rumovsky\nJoseph-Louis Lagrange (epistolary correspondent)\nAnders Johan Lexell'}

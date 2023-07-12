@@ -1,0 +1,431 @@
+27859,
+Sphere,
+
+A sphere (from Ancient Greek  σφαῖρα (sphaîra) 'globe, ball')[1] is a geometrical object that is a three-dimensional analogue to a two-dimensional circle. Formally, a sphere is the set of points that are all at the same distance r from a given point in three-dimensional space.[2] That given point is the centre of the sphere, and r is the sphere's radius. The earliest known mentions of spheres appear in the work of the ancient Greek mathematicians.
+The sphere is a fundamental object in many fields of mathematics. Spheres and nearly-spherical shapes also appear in nature and industry. Bubbles such as soap bubbles take a spherical shape in equilibrium. The Earth is often approximated as a sphere in geography, and the celestial sphere is an important concept in astronomy. Manufactured items including pressure vessels and most curved mirrors and lenses are based on spheres. Spheres roll smoothly in any direction, so most balls used in sports and toys are spherical, as are ball bearings.
+Geometrically, a sphere can be formed by rotating a circle one half revolution around an axis that intersects the center of the circle, or by rotating a semicircle one full revolution around the axis that is coincident (or concurrent) with the straight edge of the semicircle.
+As mentioned earlier r is the sphere's radius; any line from the center to a point on the sphere is also called a radius.[3]
+If a radius is extended through the center to the opposite side of the sphere, it creates a diameter. Like the radius, the length of a diameter is also called the diameter, and denoted d. Diameters are the longest line segments that can be drawn between two points on the sphere: their length is twice the radius, d = 2r. Two points on the sphere connected by a diameter are antipodal points of each other.[3]
+A unit sphere is a sphere with unit radius (r = 1). For convenience, spheres are often taken to have their center at the origin of the coordinate system, and spheres in this article have their center at the origin unless a center is mentioned.
+
+A great circle on the sphere has the same center and radius as the sphere, and divides it into two equal hemispheres.
+Although the Earth is not perfectly spherical, terms borrowed from geography are convenient to apply to the sphere.
+If a particular point on a sphere is (arbitrarily) designated as its north pole, its antipodal point is called the south pole. The great circle equidistant to each is then the equator. Great circles through the poles are called lines of longitude or meridians. A line connecting the two poles may be called the axis of rotation. Small circles on the sphere that are parallel to the equator are lines of latitude. In geometry unrelated to astronomical bodies, geocentric terminology should be used only for illustration and noted as such, unless there is no chance of misunderstanding.[3]
+Mathematicians consider a sphere to be a two-dimensional closed surface embedded in three-dimensional Euclidean space. They draw a distinction a sphere and a ball, which is a three-dimensional manifold with boundary that includes the volume contained by the sphere. An open ball excludes the sphere itself, while a closed ball includes the sphere: a closed ball is the union of the open ball and the sphere, and a sphere is the boundary of a (closed or open) ball. The distinction between ball and sphere has not always been maintained and especially older mathematical references talk about a sphere as a solid. The distinction between "circle" and "disk" in the plane is similar.
+Small spheres or balls are sometimes called spherules, e.g. in Martian spherules.
+In analytic geometry, a sphere with center (x0, y0, z0) and radius r is the locus of all points (x, y, z) such that
+Since it can be expressed as a quadratic polynomial, a sphere is a quadric surface, a type of algebraic surface.[3]
+Let a, b, c, d, e be real numbers with a ≠ 0 and put
+Then the equation
+has no real points as solutions if 
+
+
+
+ρ
+<
+0
+
+
+{\displaystyle \rho <0}
+
+ and is called the equation of an imaginary sphere. If 
+
+
+
+ρ
+=
+0
+
+
+{\displaystyle \rho =0}
+
+, the only solution of 
+
+
+
+f
+(
+x
+,
+y
+,
+z
+)
+=
+0
+
+
+{\displaystyle f(x,y,z)=0}
+
+ is the point 
+
+
+
+
+P
+
+0
+
+
+=
+(
+
+x
+
+0
+
+
+,
+
+y
+
+0
+
+
+,
+
+z
+
+0
+
+
+)
+
+
+{\displaystyle P_{0}=(x_{0},y_{0},z_{0})}
+
+ and the equation is said to be the equation of a point sphere. Finally, in the case 
+
+
+
+ρ
+>
+0
+
+
+{\displaystyle \rho >0}
+
+, 
+
+
+
+f
+(
+x
+,
+y
+,
+z
+)
+=
+0
+
+
+{\displaystyle f(x,y,z)=0}
+
+ is an equation of a sphere whose center is 
+
+
+
+
+P
+
+0
+
+
+
+
+{\displaystyle P_{0}}
+
+ and whose radius is 
+
+
+
+
+
+ρ
+
+
+
+
+{\displaystyle {\sqrt {\rho }}}
+
+.[2]
+If a in the above equation is zero then f(x, y, z) = 0 is the equation of a plane. Thus, a plane may be thought of as a sphere of infinite radius whose center is a point at infinity.[4]
+A parametric equation for the sphere with radius 
+
+
+
+r
+>
+0
+
+
+{\displaystyle r>0}
+
+ and center 
+
+
+
+(
+
+x
+
+0
+
+
+,
+
+y
+
+0
+
+
+,
+
+z
+
+0
+
+
+)
+
+
+{\displaystyle (x_{0},y_{0},z_{0})}
+
+ can be parameterized using trigonometric functions.
+The symbols used here are the same as those used in spherical coordinates. r is constant, while θ varies from 0 to π and 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ varies from 0 to 2π.
+In three dimensions, the volume inside a sphere (that is, the volume of a ball, but classically referred to as the volume of a sphere) is
+where r is the radius and d is the diameter of the sphere. Archimedes first derived this formula by showing that the volume inside a sphere is twice the volume between the sphere and the circumscribed cylinder of that sphere (having the height and diameter equal to the diameter of the sphere).[6] This may be proved by inscribing a cone upside down into semi-sphere, noting that the area of a cross section of the cone plus the area of a cross section of the sphere is the same as the area of the cross section of the circumscribing cylinder, and applying Cavalieri's principle.[7] This formula can also be derived using integral calculus, i.e. disk integration to sum the volumes of an infinite number of circular disks of infinitesimally small thickness stacked side by side and centered along the x-axis from x = −r to x = r, assuming the sphere of radius r is centered at the origin.
+At any given x, the incremental volume (δV) equals the product of the cross-sectional area of the disk at x and its thickness (δx):
+The total volume is the summation of all incremental volumes:
+In the limit as δx approaches zero,[8] this equation becomes:
+At any given x, a right-angled triangle connects x, y and r to the origin; hence, applying the Pythagorean theorem yields:
+Using this substitution gives
+which can be evaluated to give the result
+An alternative formula is found using spherical coordinates, with volume element
+so
+For most practical purposes, the volume inside a sphere inscribed in a cube can be approximated as 52.4% of the volume of the cube, since V = π/6 d3, where d is the diameter of the sphere and also the length of a side of the cube and π/6 ≈ 0.5236. For example, a sphere with diameter 1 m has 52.4% the volume of a cube with edge length 1 m, or about 0.524 m3.
+The surface area of a sphere of radius r is:
+Archimedes first derived this formula[9] from the fact that the projection to the lateral surface of a circumscribed cylinder is area-preserving.[10] Another approach to obtaining the formula comes from the fact that it equals the derivative of the formula for the volume with respect to r because the total volume inside a sphere of radius r can be thought of as the summation of the surface area of an infinite number of spherical shells of infinitesimal thickness concentrically stacked inside one another from radius 0 to radius r. At infinitesimal thickness the discrepancy between the inner and outer surface area of any given shell is infinitesimal, and the elemental volume at radius r is simply the product of the surface area at radius r and the infinitesimal thickness.
+At any given radius r,[note 1] the incremental volume (δV) equals the product of the surface area at radius r (A(r)) and the thickness of a shell (δr):
+The total volume is the summation of all shell volumes:
+In the limit as δr approaches zero[8] this equation becomes:
+Substitute V:
+Differentiating both sides of this equation with respect to r yields A as a function of r:
+This is generally abbreviated as:
+where r is now considered to be the fixed radius of the sphere.
+Alternatively, the area element on the sphere is given in spherical coordinates by dA = r2 sin θ dθ dφ. In Cartesian coordinates, the area element is[citation needed]
+The total area can thus be obtained by integration:
+The sphere has the smallest surface area of all surfaces that enclose a given volume, and it encloses the largest volume among all closed surfaces with a given surface area.[11] The sphere therefore appears in nature: for example, bubbles and small water drops are roughly spherical because the surface tension locally minimizes surface area.
+The surface area relative to the mass of a ball is called the specific surface area and can be expressed from the above stated equations as
+where ρ is the density (the ratio of mass to volume).
+A sphere can be constructed as the surface formed by rotating a circle one half revolution about any of its diameters; this is very similar to the traditional definition of a sphere as given in Euclid's Elements. Since a circle is a special type of ellipse, a sphere is a special type of ellipsoid of revolution. Replacing the circle with an ellipse rotated about its major axis, the shape becomes a prolate spheroid; rotated about the minor axis, an oblate spheroid.[12]
+A sphere is uniquely determined by four points that are not coplanar. More generally, a sphere is uniquely determined by four conditions such as passing through a point, being tangent to a plane, etc.[13] This property is analogous to the property that three non-collinear points determine a unique circle in a plane.
+Consequently, a sphere is uniquely determined by (that is, passes through) a circle and a point not in the plane of that circle.
+By examining the common solutions of the equations of two spheres, it can be seen that two spheres intersect in a circle and the plane containing that circle is called the radical plane of the intersecting spheres.[14] Although the radical plane is a real plane, the circle may be imaginary (the spheres have no real point in common) or consist of a single point (the spheres are tangent at that point).[15]
+The angle between two spheres at a real point of intersection is the dihedral angle determined by the tangent planes to the spheres at that point. Two spheres intersect at the same angle at all points of their circle of intersection.[16] They intersect at right angles (are orthogonal) if and only if the square of the distance between their centers is equal to the sum of the squares of their radii.[4]
+If f(x, y, z) = 0 and g(x, y, z) = 0 are the equations of two distinct spheres then
+is also the equation of a sphere for arbitrary values of the parameters s and t. The set of all spheres satisfying this equation is called a pencil of spheres determined by the original two spheres. In this definition a sphere is allowed to be a plane (infinite radius, center at infinity) and if both the original spheres are planes then all the spheres of the pencil are planes, otherwise there is only one plane (the radical plane) in the pencil.[4]
+In their book Geometry and the Imagination, David Hilbert and Stephan Cohn-Vossen describe eleven properties of the sphere and discuss whether these properties uniquely determine the sphere.[17] Several properties hold for the plane, which can be thought of as a sphere with infinite radius. These properties are:
+The basic elements of Euclidean plane geometry are points and lines. On the sphere, points are defined in the usual sense. The analogue of the "line" is the geodesic, which is a great circle; the defining characteristic of a great circle is that the plane containing all its points also passes through the center of the sphere. Measuring by arc length shows that the shortest path between two points lying on the sphere is the shorter segment of the great circle that includes the points.
+Many theorems from classical geometry hold true for spherical geometry as well, but not all do because the sphere fails to satisfy some of classical geometry's postulates, including the parallel postulate. In spherical trigonometry, angles are defined between great circles. Spherical trigonometry differs from ordinary trigonometry in many respects. For example, the sum of the interior angles of a spherical triangle always exceeds 180 degrees. Also, any two similar spherical triangles are congruent.
+Any pair of points on a sphere that lie on a straight line through the sphere's center (i.e. the diameter) are called antipodal points—on the sphere, the distance between them is exactly half the length of the circumference.[note 2] Any other (i.e. not antipodal) pair of distinct points on a sphere
+Spherical geometry is a form of elliptic geometry, which together with hyperbolic geometry makes up non-Euclidean geometry.
+The sphere is a smooth surface with constant Gaussian curvature at each point equal to 1/r2.[9] As per Gauss's Theorema Egregium, this curvature is independent of the sphere's embedding in 3-dimensional space. Also following from Gauss, a sphere cannot be mapped to a plane while maintaining both areas and angles. Therefore, any map projection introduces some form of distortion.
+A sphere of radius r has area element 
+
+
+
+d
+A
+=
+
+r
+
+2
+
+
+sin
+⁡
+θ
+
+d
+θ
+
+d
+φ
+
+
+{\displaystyle dA=r^{2}\sin \theta \,d\theta \,d\varphi }
+
+. This can be found from the volume element in spherical coordinates with r held constant.[9]
+A sphere of any radius centered at zero is an integral surface of the following differential form:
+This equation reflects that the position vector and tangent plane at a point are always orthogonal to each other. Furthermore, the outward-facing normal vector is equal to the position vector scaled by 1/r.
+In Riemannian geometry, the filling area conjecture states that the hemisphere is the optimal (least area) isometric filling of the Riemannian circle.
+Remarkably, it is possible to turn an ordinary sphere inside out in a three-dimensional space with possible self-intersections but without creating any creases, in a process called sphere eversion.
+The antipodal quotient of the sphere is the surface called the real projective plane, which can also be thought of as the Northern Hemisphere with antipodal points of the equator identified.
+Circles on the sphere are, like circles in the plane, made up of all points a certain distance from a fixed point on the sphere. The intersection of a sphere and a plane is a circle, a point, or empty.[18] Great circles are the intersection of the sphere with a plane passing through the center of a sphere: others are called small circles.
+More complicated surfaces may intersect a sphere in circles, too: the intersection of a sphere with a surface of revolution whose axis contains the center of the sphere (are coaxial) consists of circles and/or points if not empty. For example, the diagram to the right shows the intersection of a sphere and a cylinder, which consists of two circles. If the cylinder radius were that of the sphere, the intersection would be a single circle. If the cylinder radius were larger than that of the sphere, the intersection would be empty.
+In navigation, a rhumb line or loxodrome is an arc crossing all meridians of longitude at the same angle. Loxodromes are the same as straight lines in the Mercator projection. A rhumb line is not a spherical spiral. Except for some simple cases, the formula of a rhumb line is complicated.
+A Clelia curve is a curve on a sphere for which the longitude 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ and the colatitude 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ satisfy the equation
+Special cases are: Viviani's curve (
+
+
+
+c
+=
+1
+
+
+{\displaystyle c=1}
+
+) and spherical spirals (
+
+
+
+c
+>
+2
+
+
+{\displaystyle c>2}
+
+) such as Seiffert's spiral. Clelia curves approximate the path of satellites in polar orbit.
+The analog of a conic section on the sphere is a spherical conic, a quartic curve which can be defined in several equivalent ways, including:
+Many theorems relating to planar conic sections also extend to spherical conics.
+If a sphere is intersected by another surface, there may be more complicated spherical curves.
+The intersection of the sphere with equation 
+
+
+
+
+
+x
+
+2
+
+
++
+
+y
+
+2
+
+
++
+
+z
+
+2
+
+
+=
+
+r
+
+2
+
+
+
+
+
+{\displaystyle \;x^{2}+y^{2}+z^{2}=r^{2}\;}
+
+ and the cylinder with equation 
+
+
+
+
+(
+y
+−
+
+y
+
+0
+
+
+
+)
+
+2
+
+
++
+
+z
+
+2
+
+
+=
+
+a
+
+2
+
+
+,
+
+
+y
+
+0
+
+
+≠
+0
+
+
+
+{\displaystyle \;(y-y_{0})^{2}+z^{2}=a^{2},\;y_{0}\neq 0\;}
+
+ is not just one or two circles. It is the solution of the non-linear system of equations
+(see implicit curve and the diagram)
+An ellipsoid is a sphere that has been stretched or compressed in one or more directions. More exactly, it is the image of a sphere under an affine transformation. An ellipsoid bears the same relationship to the sphere that an ellipse does to a circle.
+Spheres can be generalized to spaces of any number of dimensions. For any natural number n, an n-sphere, often denoted S‍n, is the set of points in (n + 1)-dimensional Euclidean space that are at a fixed distance r from a central point of that space, where r is, as before, a positive real number. In particular:
+Spheres for n > 2 are sometimes called hyperspheres.
+The n-sphere of unit radius centered at the origin is denoted S‍n and is often referred to as "the" n-sphere. The ordinary sphere is a 2-sphere, because it is a 2-dimensional surface which is embedded in 3-dimensional space.
+In topology, the n-sphere is an example of a compact topological manifold without boundary. A topological sphere need not be smooth; if it is smooth, it need not be diffeomorphic to the Euclidean sphere (an exotic sphere).
+The sphere is the inverse image of a one-point set under the continuous function ‖x‖, so it is closed; Sn is also bounded, so it is compact by the Heine–Borel theorem.
+More generally, in a metric space (E,d), the sphere of center x and radius r > 0 is the set of points y such that d(x,y) = r.
+If the center is a distinguished point that is considered to be the origin of E, as in a normed space, it is not mentioned in the definition and notation. The same applies for the radius if it is taken to equal one, as in the case of a unit sphere.
+Unlike a ball, even a large sphere may be an empty set. For example, in Zn with Euclidean metric, a sphere of radius r is nonempty only if r2 can be written as sum of n squares of integers.
+An octahedron is a sphere in taxicab geometry, and a cube is a sphere in geometry using the Chebyshev distance.
+The geometry of the sphere was studied by the Greeks. Euclid's Elements defines the sphere in book XI, discusses various properties of the sphere in book XII, and shows how to inscribe the five regular polyhedra within a sphere in book XIII. Euclid does not include the area and volume of a sphere, only a theorem that the volume of a sphere varies as the third power of its diameter, probably due to Eudoxus of Cnidus. The volume and area formulas were first determined in Archimedes's On the Sphere and Cylinder by the method of exhaustion. Zenodorus was the first to state that, for a given surface area, the sphere is the solid of maximum volume.[3]
+Archimedes wrote about the problem of dividing a sphere into segments whose volumes are in a given ratio, but did not solve it. A solution by means of the parabola and hyperbola was given by Dionysodorus.[19] A similar problem — to construct a segment equal in volume to a given segment, and in surface to another segment — was solved later by al-Quhi.[3]
+An image of one of the most accurate human-made spheres, as it refracts the image of Einstein in the background. This sphere was a fused quartz gyroscope for the Gravity Probe B experiment, and differs in shape from a perfect sphere by no more than 40 atoms (less than 10 nm) of thickness. It was announced on 1 July 2008 that Australian scientists had created even more nearly perfect spheres, accurate to 0.3 nm, as part of an international hunt to find a new global standard kilogram.[20]
+Deck of playing cards illustrating engineering instruments, England, 1702. King of spades: Spheres
+
+
+
+Information box
+{'Type': 'Smooth surface\nAlgebraic surface', 'Euler char.': '2', 'Symmetry group': 'O(3)', 'Surface area': '4πr2', 'Volume': '4\n/\n3\nπr3'}

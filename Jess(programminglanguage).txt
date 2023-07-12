@@ -1,0 +1,13 @@
+37091,
+Jess(programminglanguage),
+Jess is a rule engine for the Java platform that was developed by Ernest Friedman-Hill of Sandia National Labs.[1] It is a superset of the CLIPS programming language.[1] It was first written in late 1995.[1] The language provides rule-based programming for the automation of an expert system, and is frequently termed as an expert system shell.[1] In recent years, intelligent agent systems have also developed, which depend on a similar capability.
+Rather than a procedural paradigm, where a single program has a loop that is activated only one time, the declarative paradigm used by Jess continuously applies a collection of rules to a collection of facts by a process called pattern matching. Rules can modify the collection of facts, or they can execute any Java code. It uses the Rete algorithm[1] to execute rules.
+While CLIPS is licensed as open source, Jess is not open source.
+JESS is free for educational and government use but a license is required to use JESS for commercial systems.
+Code examples:
+Sample code:
+
+
+
+Information box
+{'Developer(s)': 'Sandia National Laboratories', 'Stable release': '7.1p2 / November 5, 2008; 14 years ago', 'Platform': 'Java', 'License': 'Closed source / Public Domain', 'Website': 'www.jessrules.com'}

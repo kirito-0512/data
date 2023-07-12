@@ -1,0 +1,27 @@
+20759,
+Majorscale,
+The major scale (or Ionian mode) is one of the most commonly used musical scales, especially in Western music. It is one of the diatonic scales. Like many musical scales, it is made up of seven notes: the eighth duplicates the first at double its frequency so that it is called a higher octave of the same note (from Latin "octavus", the eighth).
+The simplest major scale to write is C major, the only major scale not requiring sharps or flats:
+The major scale has a central importance in Western music, particularly that of the common practice period and in popular music.
+In Carnatic music, it is known as Sankarabharanam. In Hindustani classical music, it is known as Bilaval.
+The intervals from the tonic (keynote) in an upward direction to the second, to the third, to the sixth, and to the seventh scale degrees of a major scale are called major.[1]A major scale is a diatonic scale. The sequence of intervals between the notes of a major scale is:
+where "whole" stands for a whole tone (a red u-shaped curve in the figure), and "half" stands for a semitone (a red angled line in the figure).[2]
+ Whole steps and  half steps are explained mathematically in a related article, Twelfth root of two.  Notably, an equal-tempered octave has twelve half steps (semitones) spaced equally in terms of the sound frequency ratio.  The sound frequency doubles for corresponding notes from one octave to the next.  The ratio is 3/2 = 1.5 for a perfect fifth, for example from C to G on a major scale, and 5/4 = 1.25 for a major third, for example from C to E.
+A major scale may be seen as two identical tetrachords separated by a whole tone. Each tetrachord consists of two whole tones followed by a semitone (i.e. whole, whole, half).
+The major scale is maximally even.
+The scale degrees are:
+The triads built on each scale degree follow a distinct pattern. The roman numeral analysis is shown in parentheses.
+The seventh chords built on each scale degree follow a distinct pattern. The roman numeral analysis is shown in parentheses.
+If a piece of music (or part of a piece of music) is in a major key, then the notes in the corresponding major scale are considered diatonic notes, while the notes outside the major scale are considered chromatic notes. Moreover, the key signature of the piece of music (or section) will generally reflect the accidentals in the corresponding major scale.
+For instance, if a piece of music is in E♭ major, then the seven pitches in the E♭ major scale (E♭, F, G, A♭, B♭, C and D) are considered diatonic pitches, and the other five pitches (E♮, F♯/G♭, A♮, B♮, and C♯/D♭) are considered chromatic pitches. In this case, the key signature will have three flats (B♭, E♭, and A♭).
+The figure below shows all 12 relative major and minor keys, with major keys on the outside and minor keys on the inside arranged around the circle of fifths.
+The numbers inside the circle show the number of sharps or flats in the key signature, with the sharp keys going clockwise, and the flat keys counterclockwise from C major (which has no sharps or flats.) The circular arrangement depends on enharmonic relationships in the circle, usually reckoned at six sharps or flats for the major keys of F♯ = G♭ and D♯ = E♭ for minor keys.[3] Seven sharps or flats make major keys (C♯ major or C♭ major) that may be more conveniently spelled with five flats or sharps (as D♭ major or B major).
+The term "major scale" is also used in the names of some other scales whose first, third, and fifth degrees form a major triad.
+The harmonic major scale[4][5] has a minor sixth. It differs from the harmonic minor scale only by raising the third degree.
+The melodic major scale is the combined scale that goes as Ionian ascending and as Aeolian dominant descending. It differs from melodic minor scale only by raising the third degree to a major third.[6]
+The double harmonic major scale[7] has a minor second and a minor sixth. It is the fifth mode of the Hungarian minor scale.
+
+
+
+Information box
+{'Modes': 'I, II, III, IV, V, VI, VII', 'Number of pitch classes': '7', 'Forte number': '7-35', 'Complement': '5-35'}

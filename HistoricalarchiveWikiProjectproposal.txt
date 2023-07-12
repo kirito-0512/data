@@ -1,0 +1,25 @@
+20006,
+HistoricalarchiveWikiProjectproposal,
+This proposal has become accepted and is superseded by Wikipedia:WikiProject and Wikipedia:WikiProject Best practices. This page is kept for historic purposes only.
+This proposal was originally written by Manning Bartlett. Original formatting viewable on Wayback Machine.
+ 
+This is a proposal for all and sundry to read and consider. Because of its length, I chose not to include it in the general "suggestions" page, although I have placed a link there [n.b. which page is this?] ("General suggestions" evolved into the Wikipedia namespace, it was the first page we had for talking about how to run the project.Manning (talk) 08:55, 1 February 2012 (UTC)). If you feel this belongs somewhere else, please feel free to move it.Reply[reply]
+My field of professional expertise is Metadata Management - that is, the information about the information. I have spent the past few days pondering how to apply this knowledge to the Wikipedia.
+I have adapted a concept from this field and (tentatively) titled it a "WikiProject". I am defining a "Project" as a comprehensive catalogue of "related information entities". Examples would include "Countries of the World", "Famous Scientists", "Games and Sports", whatever. (q.v. the Tree of life, already in existence.)
+A WikiProject is a metadata page that serves as a reference point for those who wish to be involved in a specific project.
+Note: such pages already exist in an ad hoc sense (eg: Tree of Life). However, my concept for a WikiProject page seeks to standardise and formalise this approach. also it seeks to segregate the "information" from the "management of the information".
+A WikiProject is not a place for subject information. It is a place for the management of entries within a specific subject area. Neither is it rigid in its hierarchical management. All hierarchies are arbitrary, the Wikipedia seeks to create one purely for the management of entry creation, not as a schema of knowledge.
+The value of such a metadata management model increases with the volume of contributors. In a case where only a handful of contributors are working on a project the actual value of a WikiProject page is negative - it only adds additional work. However, as the volume of contributors increases the work required to maintain the WikiProject pages is substantially less than the work required to correct the fragmentation of style and content, and the duplication which will otherwise occur. (Have you ever spent an hour tracking down and editing REDIRECTs?)
+A sample WikiProject page is laid out below for consideration:
+Title: WikiProject Musical Instruments
+Scope: This WikiProject aims to catalogue all known musical instruments.
+Parentage: This WikiProject is a child WikiProject of Music
+Descendant Wikiprojects:
+Formatting: (Discussion of how each musical instrument entry is to be formatted, sample given, including eg: Name, alternate names, description, evolution, relatives, see also, etc)
+Hierarchy definition: Instruments can be placed into one or more of the following categories - Orchestral, Brass, wind, stringed, ethnic... (notice the categories are not mutually exclusive - a trumpet is both brass and orchestral and belongs in both)
+Directory of Participants
+General Strategy and Discussion forum
+Notice that in the example the structural definitions are as fluid as everything else. The natural evolution of "proposal - consensual discussion - consolidation" will occur.  As the discussions about structure die down, the suggestion becomes the "convention".
+Anyway, this is just a proposal and I am keen to hear feedback from any and all. As this is the Wikipedia, I am aware that I am free to commence this WikiProject idea anyway. However if people are warm to the idea, it would be nice to plan and consult as we lay down the framework.
+
+

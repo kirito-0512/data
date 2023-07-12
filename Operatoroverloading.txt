@@ -1,0 +1,36 @@
+22693,
+Operatoroverloading,
+
+In computer programming, operator overloading, sometimes termed operator ad hoc polymorphism, is a specific case of polymorphism, where different operators have different implementations depending on their arguments. Operator overloading is generally defined by a programming language, a programmer, or both.
+Operator overloading is syntactic sugar, and is used because it allows programming using notation nearer to the target domain[1] and allows user-defined types a similar level of syntactic support as types built into a language. It is common, for example, in scientific computing, where it allows computing representations of mathematical objects to be manipulated with the same syntax as on paper.
+Operator overloading does not change the expressive power of a language (with functions), as it can be emulated using function calls. For example, consider variables a, b and c of some user-defined type, such as matrices:
+a + b * c
+In a language that supports operator overloading, and with the usual assumption that the '*' operator has higher precedence than the '+' operator, this is a concise way of writing:
+Add(a, Multiply(b, c))
+However, the former syntax reflects common mathematical usage.
+In this case, the addition operator is overloaded to allow addition on a user-defined type Time in C++:
+Addition is a binary operation, which means it has two operands. In C++, the arguments being passed are the operands, and the temp object is the returned value.
+The operation could also be defined as a class method, replacing lhs by the hidden this argument; However, this forces the left operand to be of type Time:
+Note that a unary operator defined as a class method would receive no apparent argument (it only works from this):
+The less-than (<) operator is often overloaded to sort a structure or class:
+Like with the previous examples, in the last example operator overloading is done within the class. In C++, after overloading the less-than operator (<), standard sorting functions can be used to sort some classes.
+Operator overloading has often been criticized[2] because it allows programmers to reassign the semantics of operators depending on the types of their operands. For example, the use of the << operator in C++ a << b shifts the bits in the variable a left by b bits if a and b are of an integer type, but if a is an output stream then the above code will attempt to write a b to the stream. Because operator overloading allows the original programmer to change the usual semantics of an operator and to catch any subsequent programmers by surprise, it is considered good practice to use operator overloading with care (the creators of Java decided not to use this feature,[3] although not necessarily for this reason).
+Another, more subtle, issue with operators is that certain rules from mathematics can be wrongly expected or unintentionally assumed. For example, the commutativity of + (i.e. that a + b == b + a) does not always apply; an example of this occurs when the operands are strings, since + is commonly overloaded to perform a concatenation of strings (i.e. "bird" + "song" yields "birdsong", while "song" + "bird" yields "songbird"). A typical counter[citation needed] to this argument comes directly from mathematics: While + is commutative on integers (and more generally any complex number), it is not commutative for other "types" of variables. In practice, + is not even always associative, for example with floating-point values due to rounding errors. Another example: In mathematics, multiplication is commutative for real and complex numbers but not commutative in matrix multiplication.
+A classification of some common programming languages is made according to whether their operators are overloadable by the programmer and whether the operators are limited to a predefined set.
+The ALGOL 68 specification allowed operator overloading.[44]
+Extract from the ALGOL 68 language specification (page 177) where the overloaded operators ¬, =, ≠, and abs are defined:
+Note that no special declaration is needed to overload an operator, and the programmer is free to create new operators. For dyadic operators their priority compared to other operators can be set:
+Ada supports overloading of operators from its inception, with the publication of the Ada 83 language standard. However, the language designers chose to preclude the definition of new operators. Only extant operators in the language may be overloaded, by defining new functions with identifiers such as "+", "*", "&" etc. Subsequent revisions of the language (in 1995 and 2005) maintain the restriction to overloading of extant operators.
+In C++, operator overloading is more refined than in ALGOL 68.[45]
+Java language designers at Sun Microsystems chose to omit overloading.[46][47][48]
+Python allows operator overloading through the implementation of methods with special names.[49] For example, the addition (+) operator can be overloaded by implementing the method obj.__add__(self, other).
+Ruby allows operator overloading as syntactic sugar for simple method calls.
+Lua allows operator overloading as syntactic sugar for method calls with the added feature that if the first operand doesn't define that operator, the method for the second operand will be used.
+Microsoft added operator overloading to C# in 2001 and to Visual Basic .NET in 2003.
+Scala treats all operators as methods and thus allows operator overloading by proxy.
+In Raku, the definition of all operators is delegated to lexical functions, and so, using function definitions, operators can be overloaded or new operators added. For example, the function defined in the Rakudo source for incrementing a Date object with "+" is:
+Since "multi" was used, the function gets added to the list of multidispatch candidates, and "+" is only overloaded for the case where the type constraints in the function signature are met.
+While the capacity for overloading includes +, *, >=, the postfix and term i, and so on, it also allows for overloading various brace operators: "[x, y]", "x[ y ]", "x{ y }", and "x( y )".
+Kotlin has supported operator overloading since its creation.
+
+

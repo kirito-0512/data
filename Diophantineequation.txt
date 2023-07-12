@@ -1,0 +1,1444 @@
+9109,
+Diophantineequation,
+
+In mathematics, a Diophantine equation is an equation, typically a polynomial equation in two or more unknowns with integer coefficients, such that the only solutions of interest are the integer ones. A linear Diophantine equation equates to a constant the sum of two or more monomials, each of degree one.  An exponential Diophantine equation is one in which unknowns can appear in exponents.
+Diophantine problems have fewer equations than unknowns and involve finding integers that solve simultaneously all equations. As such systems of equations define algebraic curves, algebraic surfaces, or, more generally, algebraic sets, their study is a part of algebraic geometry that is called Diophantine geometry.
+The word Diophantine refers to the Hellenistic mathematician of the 3rd century, Diophantus of Alexandria, who made a study of such equations and was one of the first mathematicians to introduce symbolism into algebra. The mathematical study of Diophantine problems that Diophantus initiated is now called Diophantine analysis.
+While individual equations present a kind of puzzle and have been considered throughout history, the formulation of general theories of Diophantine equations (beyond the case of linear and quadratic equations) was an achievement of the twentieth century.
+In the following Diophantine equations, w, x, y, and z are the unknowns and the other letters are given constants:
+The simplest linear Diophantine equation takes the form 
+
+
+
+
+a
+x
++
+b
+y
+=
+c
+,
+
+
+{\displaystyle ax+by=c,}
+
+ 
+where a, b and c are given integers. The solutions are described by the following theorem:
+Proof: If d is this greatest common divisor, Bézout's identity asserts the existence of integers e and f such that ae + bf = d. If c is a multiple of d, then c = dh for some integer h, and (eh, fh) is a solution. On the other hand, for every pair of integers x and y, the greatest common divisor d of a and b divides ax + by. Thus, if the equation has a solution, then c must be a multiple of d. If a = ud and b = vd, then for every solution (x, y), we have 
+
+
+
+
+
+
+
+
+a
+(
+x
++
+k
+v
+)
++
+b
+(
+y
+−
+k
+u
+)
+
+
+
+=
+a
+x
++
+b
+y
++
+k
+(
+a
+v
+−
+b
+u
+)
+
+
+
+
+
+
+=
+a
+x
++
+b
+y
++
+k
+(
+u
+d
+v
+−
+v
+d
+u
+)
+
+
+
+
+
+
+=
+a
+x
++
+b
+y
+,
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}a(x+kv)+b(y-ku)&=ax+by+k(av-bu)\\&=ax+by+k(udv-vdu)\\&=ax+by,\end{aligned}}}
+
+ 
+showing that (x + kv, y − ku) is another solution. Finally, given two solutions such that 
+
+
+
+
+a
+
+x
+
+1
+
+
++
+b
+
+y
+
+1
+
+
+=
+a
+
+x
+
+2
+
+
++
+b
+
+y
+
+2
+
+
+=
+c
+,
+
+
+{\displaystyle ax_{1}+by_{1}=ax_{2}+by_{2}=c,}
+
+ 
+one deduces that 
+
+
+
+u
+(
+
+x
+
+2
+
+
+−
+
+x
+
+1
+
+
+)
++
+v
+(
+
+y
+
+2
+
+
+−
+
+y
+
+1
+
+
+)
+=
+0.
+
+
+{\displaystyle u(x_{2}-x_{1})+v(y_{2}-y_{1})=0.}
+
+ 
+As u and v are coprime, Euclid's lemma shows that v divides x2 − x1, and thus that there exists an integer k such that both 
+
+
+
+
+
+x
+
+2
+
+
+−
+
+x
+
+1
+
+
+=
+k
+v
+,
+
+
+y
+
+2
+
+
+−
+
+y
+
+1
+
+
+=
+−
+k
+u
+.
+
+
+{\displaystyle x_{2}-x_{1}=kv,\quad y_{2}-y_{1}=-ku.}
+
+ 
+Therefore, 
+
+
+
+
+
+x
+
+2
+
+
+=
+
+x
+
+1
+
+
++
+k
+v
+,
+
+
+y
+
+2
+
+
+=
+
+y
+
+1
+
+
+−
+k
+u
+,
+
+
+{\displaystyle x_{2}=x_{1}+kv,\quad y_{2}=y_{1}-ku,}
+
+
+which completes the proof.
+The Chinese remainder theorem describes an important class of linear Diophantine systems of equations: let 
+
+
+
+
+n
+
+1
+
+
+,
+…
+,
+
+n
+
+k
+
+
+
+
+{\displaystyle n_{1},\dots ,n_{k}}
+
+ be k pairwise coprime integers greater than one, 
+
+
+
+
+a
+
+1
+
+
+,
+…
+,
+
+a
+
+k
+
+
+
+
+{\displaystyle a_{1},\dots ,a_{k}}
+
+ be k arbitrary integers, and N be the product 
+
+
+
+
+n
+
+1
+
+
+⋯
+
+n
+
+k
+
+
+.
+
+
+{\displaystyle n_{1}\cdots n_{k}.}
+
+ The Chinese remainder theorem asserts that the following linear Diophantine system has exactly one solution 
+
+
+
+(
+x
+,
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+k
+
+
+)
+
+
+{\displaystyle (x,x_{1},\dots ,x_{k})}
+
+ such that 0 ≤ x < N, and that the other solutions are obtained by adding to x a multiple of N:
+
+
+
+
+
+
+
+
+x
+
+
+
+=
+
+a
+
+1
+
+
++
+
+n
+
+1
+
+
+
+
+x
+
+1
+
+
+
+
+
+
+
+
+
+
+⋮
+
+
+
+
+x
+
+
+
+=
+
+a
+
+k
+
+
++
+
+n
+
+k
+
+
+
+
+x
+
+k
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}x&=a_{1}+n_{1}\,x_{1}\\&\;\;\vdots \\x&=a_{k}+n_{k}\,x_{k}\end{aligned}}}
+
+
+More generally, every system of linear Diophantine equations may be solved by computing the Smith normal form of its matrix, in a way that is similar to the use of the reduced row echelon form to solve a system of linear equations over a field. Using matrix notation every system of linear Diophantine equations may be written
+
+
+
+
+A
+X
+=
+C
+,
+
+
+{\displaystyle AX=C,}
+
+
+where A is an m × n matrix of integers, X is an n × 1 column matrix of unknowns and C is an m × 1 column matrix of integers.
+The computation of the Smith normal form of A provides two unimodular matrices (that is matrices that are invertible over the integers and have ±1 as determinant) U and V of respective dimensions m × m and n × n, such that the matrix
+
+
+
+
+B
+=
+[
+
+b
+
+i
+,
+j
+
+
+]
+=
+U
+A
+V
+
+
+{\displaystyle B=[b_{i,j}]=UAV}
+
+
+is such that bi,i is not zero for i not greater than some integer k, and all the other entries are zero. The system to be solved may thus be rewritten as
+
+
+
+
+B
+(
+
+V
+
+−
+1
+
+
+X
+)
+=
+U
+C
+.
+
+
+{\displaystyle B(V^{-1}X)=UC.}
+
+
+Calling yi the entries of V−1X and di those of D = UC, this leads to the system
+
+
+
+
+
+
+
+
+
+
+b
+
+i
+,
+i
+
+
+
+y
+
+i
+
+
+=
+
+d
+
+i
+
+
+,
+
+1
+≤
+i
+≤
+k
+
+
+
+
+
+0
+
+y
+
+i
+
+
+=
+
+d
+
+i
+
+
+,
+
+k
+<
+i
+≤
+n
+.
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}&b_{i,i}y_{i}=d_{i},\quad 1\leq i\leq k\\&0y_{i}=d_{i},\quad k<i\leq n.\end{aligned}}}
+
+
+This system is equivalent to the given one in the following sense: A column matrix of integers x is a solution of the given system if and only if x = Vy for some column matrix of integers y such that By = D.
+It follows that the system has a solution if and only if bi,i divides di for i ≤ k and di = 0 for i > k. If this condition is fulfilled, the solutions of the given system are
+
+
+
+
+V
+
+
+
+[
+
+
+
+
+
+
+d
+
+1
+
+
+
+b
+
+1
+,
+1
+
+
+
+
+
+
+
+
+⋮
+
+
+
+
+
+
+
+d
+
+k
+
+
+
+b
+
+k
+,
+k
+
+
+
+
+
+
+
+
+
+h
+
+k
++
+1
+
+
+
+
+
+
+⋮
+
+
+
+
+
+h
+
+n
+
+
+
+
+
+]
+
+
+
+,
+
+
+{\displaystyle V\,{\begin{bmatrix}{\frac {d_{1}}{b_{1,1}}}\\\vdots \\{\frac {d_{k}}{b_{k,k}}}\\h_{k+1}\\\vdots \\h_{n}\end{bmatrix}}\,,}
+
+
+where hk+1, …, hn are arbitrary integers.
+Hermite normal form may also be used for solving systems of linear Diophantine equations. However, Hermite normal form does not directly provide the solutions; to get the solutions from the Hermite normal form, one has to successively solve several linear equations. Nevertheless, Richard Zippel wrote that the Smith normal form "is somewhat more than is actually needed to solve linear diophantine equations. Instead of reducing the equation to diagonal form, we only need to make it triangular, which is called the Hermite normal form. The Hermite normal form is substantially easier to compute than the Smith normal form."[6]
+Integer linear programming amounts to finding some integer solutions (optimal in some sense) of linear systems that include also inequations.  Thus systems of linear Diophantine equations are basic in this context, and textbooks on integer programming usually have a treatment of systems of linear Diophantine equations.[7]
+A homogeneous Diophantine equation is a Diophantine equation that is defined by a homogeneous polynomial. A typical such equation is the equation of Fermat's Last Theorem
+As a homogeneous polynomial in n indeterminates defines a hypersurface in the projective space of dimension n − 1, solving a homogeneous Diophantine equation is the same as finding the rational points of a projective hypersurface.
+Solving a homogeneous Diophantine equation is generally a very difficult problem, even in the simplest non-trivial case of three indeterminates (in the case of two indeterminates the problem is equivalent with testing if a rational number is the dth power of another rational number). A witness of the difficulty of the problem is Fermat's Last Theorem (for d > 2, there is no integer solution of the above equation), which needed more than three centuries of mathematicians' efforts before being solved.
+For degrees higher than three, most known results are theorems asserting that there are no solutions (for example Fermat's Last Theorem) or that the number of solutions is finite (for example Falting's theorem). 
+For the degree three, there are general solving methods, which work on almost all equations that are encountered in practice, but no algorithm is known that works for every cubic equation.[8]
+Homogeneous Diophantine equations of degree two are easier to solve. The standard solving method proceeds in two steps. One has first to find one solution, or to prove that there is no solution. When a solution has been found, all solutions are then deduced.
+For proving that there is no solution, one may reduce the equation modulo p. For example, the Diophantine equation
+does not have any other solution than the trivial solution (0, 0, 0). In fact, by dividing x, y, and z by their greatest common divisor, one may suppose that they are coprime. The squares modulo 4 are congruent to 0 and 1. Thus the left-hand side of the equation is congruent to 0, 1, or 2, and the right-hand side is congruent to 0 or 3. Thus the equality may be obtained only if x, y, and z are all even, and are thus not coprime. Thus the only solution is the trivial solution (0, 0, 0). This shows that there is no rational point on a circle of radius 
+
+
+
+
+
+3
+
+
+,
+
+
+{\displaystyle {\sqrt {3}},}
+
+ centered at the origin.
+More generally, the Hasse principle allows deciding whether a homogeneous Diophantine equation of degree two has an integer solution, and computing a solution if there exist. 
+If a non-trivial integer solution is known, one may produce all other solutions in the following way.
+Let 
+be a homogeneous Diophantine equation, where 
+
+
+
+Q
+(
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+)
+
+
+{\displaystyle Q(x_{1},\ldots ,x_{n})}
+
+ is a quadratic form (that is, a homogeneous polynomial of degree 2), with integer coefficients. The trivial solution is the solution where all 
+
+
+
+
+x
+
+i
+
+
+
+
+{\displaystyle x_{i}}
+
+ are zero. If 
+
+
+
+(
+
+a
+
+1
+
+
+,
+…
+,
+
+a
+
+n
+
+
+)
+
+
+{\displaystyle (a_{1},\ldots ,a_{n})}
+
+ is a non-trivial integer solution of this equation, then 
+
+
+
+
+(
+
+
+a
+
+1
+
+
+,
+…
+,
+
+a
+
+n
+
+
+
+)
+
+
+
+{\displaystyle \left(a_{1},\ldots ,a_{n}\right)}
+
+ are the homogeneous coordinates of a rational point of the hypersurface defined by Q. Conversely, if  
+
+
+
+
+(
+
+
+
+
+p
+
+1
+
+
+q
+
+
+,
+…
+,
+
+
+
+p
+
+n
+
+
+q
+
+
+
+)
+
+
+
+{\textstyle \left({\frac {p_{1}}{q}},\ldots ,{\frac {p_{n}}{q}}\right)}
+
+ are homogeneous coordinates of a rational point of this hypersurface, where 
+
+
+
+q
+,
+
+p
+
+1
+
+
+,
+…
+,
+
+p
+
+n
+
+
+
+
+{\displaystyle q,p_{1},\ldots ,p_{n}}
+
+ are integers, then 
+
+
+
+
+(
+
+
+p
+
+1
+
+
+,
+…
+,
+
+p
+
+n
+
+
+
+)
+
+
+
+{\displaystyle \left(p_{1},\ldots ,p_{n}\right)}
+
+ is an integer solution of the Diophantine equation. Moreover, the integer solutions that define a given rational point are all sequences of the form 
+where k is any integer, and d is the greatest common divisor of the 
+
+
+
+
+p
+
+i
+
+
+.
+
+
+{\displaystyle p_{i}.}
+
+
+It follows that solving the Diophantine equation 
+
+
+
+Q
+(
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+)
+=
+0
+
+
+{\displaystyle Q(x_{1},\ldots ,x_{n})=0}
+
+ is completely reduced to finding the rational points of the corresponding projective hypersurface.
+Let now 
+
+
+
+A
+=
+
+(
+
+
+a
+
+1
+
+
+,
+…
+,
+
+a
+
+n
+
+
+
+)
+
+
+
+{\displaystyle A=\left(a_{1},\ldots ,a_{n}\right)}
+
+ be an integer solution of the equation 
+
+
+
+Q
+(
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+)
+=
+0.
+
+
+{\displaystyle Q(x_{1},\ldots ,x_{n})=0.}
+
+ As Q is a polynomial of degree two, a line passing through A crosses the hypersurface at a single other point, which is rational if and only if the line is rational (that is, if the line is defined by rational parameters). This allows parameterizing the hypersurface by the lines passing through A, and the rational points are the those that are obtained from rational lines, that is, those that correspond to rational values of the parameters.
+More precisely, one may proceed as follows. 
+By permuting the indices, one may suppose, without loss of generality that 
+
+
+
+
+a
+
+n
+
+
+≠
+0.
+
+
+{\displaystyle a_{n}\neq 0.}
+
+ Then one may pass to the affine case by considering the affine hypersurface defined by 
+which has the rational point
+If this rational point is a singular point, that is if all partial derivatives are zero at R, all lines passing through R are contained in the hypersurface, and one has a cone. The change of variables 
+does not change the rational points, and transforms q into a homogeneous polynomial in n − 1 variables. In this case, the problem may thus be solved by applying the method to an equation with fewer variables.
+If the polynomial q is a product of linear polynomials (possibly with non-rational coefficients), then it defines two hyperplanes. The intersection of these hyperplanes is a rational flat, and contains rational singular points. This case is thus a special instance of the preceding case.
+In the general case, consider the parametric equation of a line passing through R:
+Substituting this in q, one gets a polynomial of degree two in x1, that is zero for x1 = r1. It is thus divisible by x1 – r1. The quotient is linear in x1, and may be solved for expressing x1 as a quotient of two polynomials of degree at most two in 
+
+
+
+
+t
+
+2
+
+
+,
+…
+,
+
+t
+
+n
+−
+1
+
+
+,
+
+
+{\displaystyle t_{2},\ldots ,t_{n-1},}
+
+ with integer coefficients:
+Substituting this in the expressions for 
+
+
+
+
+x
+
+2
+
+
+,
+…
+,
+
+x
+
+n
+−
+1
+
+
+,
+
+
+{\displaystyle x_{2},\ldots ,x_{n-1},}
+
+ one gets, for i = 1, …, n − 1,
+where 
+
+
+
+
+f
+
+1
+
+
+,
+…
+,
+
+f
+
+n
+
+
+
+
+{\displaystyle f_{1},\ldots ,f_{n}}
+
+ are polynomials of degree at most two with integer coefficients.
+Then, one can return to the homogeneous case. Let, for i = 1, …, n, 
+be the homogenization of 
+
+
+
+
+f
+
+i
+
+
+.
+
+
+{\displaystyle f_{i}.}
+
+ These quadratic polynomials with integer coefficients form a parameterization of the projective hypersurface defined by Q:
+A point of the projective hypersurface defined by Q is rational if and only if it may be obtained from rational values of 
+
+
+
+
+t
+
+1
+
+
+,
+…
+,
+
+t
+
+n
+−
+1
+
+
+.
+
+
+{\displaystyle t_{1},\ldots ,t_{n-1}.}
+
+ As 
+
+
+
+
+F
+
+1
+
+
+,
+…
+,
+
+F
+
+n
+
+
+
+
+{\displaystyle F_{1},\ldots ,F_{n}}
+
+ are homogeneous polynomials, the point is not changed if all ti are multiplied by the same rational number. Thus, one may suppose that 
+
+
+
+
+t
+
+1
+
+
+,
+…
+,
+
+t
+
+n
+−
+1
+
+
+
+
+{\displaystyle t_{1},\ldots ,t_{n-1}}
+
+ are coprime integers. It follows that the integer solutions of the Diophantine equation are exactly the sequences 
+
+
+
+(
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+)
+
+
+{\displaystyle (x_{1},\ldots ,x_{n})}
+
+ where, for i = 1, ..., n,
+where k is an integer, 
+
+
+
+
+t
+
+1
+
+
+,
+…
+,
+
+t
+
+n
+−
+1
+
+
+
+
+{\displaystyle t_{1},\ldots ,t_{n-1}}
+
+ are coprime integers, and d is the greatest common divisor of the n integers 
+
+
+
+
+F
+
+i
+
+
+(
+
+t
+
+1
+
+
+,
+…
+,
+
+t
+
+n
+−
+1
+
+
+)
+.
+
+
+{\displaystyle F_{i}(t_{1},\ldots ,t_{n-1}).}
+
+
+One could hope that the coprimality of the ti, could imply that d = 1. Unfortunately this is not the case, as shown in the next section.
+The equation 
+is probably the first homogeneous Diophantine equation of degree two that has been studied. Its solutions are the Pythagorean triples. This is also the homogeneous equation of the unit circle. In this section, we show how the above method allows retrieving Euclid's formula for generating Pythagorean triples.
+For retrieving exactly Euclid's formula, we start from the solution (−1, 0, 1), corresponding to the point (−1, 0) of the unit circle. A line passing through this point may be parameterized by its slope:
+Putting this in the circle equation 
+one gets 
+Dividing by x + 1, results in
+which is easy to solve in x:
+It follows
+Homogenizing as described above one gets all solutions as 
+where k is any integer, s and t are coprime integers, and d is the greatest common divisor of the three numerators. In fact, d = 2 if s and t are both odd, and d = 1 if one is odd and the other is even.
+The primitive triples are the solutions where k = 1 and s > t > 0.
+This description of the solutions differs slightly from Euclid's formula because Euclid's formula considers only the solutions such that x, y, and z are all positive, and does not distinguish between two triples that differ by the exchange of x and y,
+The questions asked in Diophantine analysis include:
+These traditional problems often lay unsolved for centuries, and mathematicians gradually came to understand their depth (in some cases), rather than treat them as puzzles.
+The given information is that a father's age is 1 less than twice that of his son, and that the digits AB making up the father's age are reversed in the son's age (i.e. BA). This leads to the equation 10A + B = 2(10B + A) − 1, thus 19B − 8A = 1. Inspection gives the result A = 7, B = 3, and thus AB equals 73 years and BA equals 37 years. One may easily show that there is not any other solution with A and B positive integers less than 10.
+Many well known puzzles in the field of recreational mathematics lead to diophantine equations.  Examples include the cannonball problem, Archimedes's cattle problem and the monkey and the coconuts.
+In 1637, Pierre de Fermat scribbled on the margin of his copy of Arithmetica: "It is impossible to separate a cube into two cubes, or a fourth power into two fourth powers, or in general, any power higher than the second into two like powers." Stated in more modern language, "The equation an + bn = cn has no solutions for any n higher than 2." Following this, he wrote: "I have discovered a truly marvelous proof of this proposition, which this margin is too narrow to contain." Such a proof eluded mathematicians for centuries, however, and as such his statement became famous as Fermat's Last Theorem. It was not until 1995 that it was proven by the British mathematician Andrew Wiles.
+In 1657, Fermat attempted to solve the Diophantine equation 61x2 + 1 = y2 (solved by Brahmagupta over 1000 years earlier). The equation was eventually solved by Euler in the early 18th century, who also solved a number of other Diophantine equations. The smallest solution of this equation in positive integers is x = 226153980, y = 1766319049 (see Chakravala method).
+In 1900, David Hilbert proposed the solvability of all Diophantine equations as the tenth of his fundamental problems. In 1970, Yuri Matiyasevich solved it negatively, building on work of Julia Robinson, Martin Davis, and Hilary Putnam to prove that a general algorithm for solving all Diophantine equations cannot exist.
+Diophantine geometry, is the application of techniques from algebraic geometry which considers equations that also have a geometric meaning. The central idea of Diophantine geometry is that of a rational point, namely a solution to a polynomial equation or a system of polynomial equations, which is a vector in a prescribed field K, when K is not algebraically closed.
+The oldest general method for solving a Diophantine equation—or for proving that there is no solution— is the method of infinite descent, which was introduced by Pierre de Fermat. Another general method is the Hasse principle that uses modular arithmetic modulo all prime numbers for finding the solutions. Despite many improvements these methods cannot solve most Diophantine equations.
+The difficulty of solving Diophantine equations is illustrated by Hilbert's tenth problem, which was  set in 1900 by David Hilbert; it was to find an algorithm to determine whether a given polynomial Diophantine equation with integer coefficients has an integer solution. Matiyasevich's theorem implies that such an algorithm cannot exist.
+During the 20th century, a new approach has been deeply explored, consisting of using algebraic geometry. In fact, a Diophantine equation can be viewed as the equation of an hypersurface, and the solutions of the equation are the points of the hypersurface that have integer coordinates.
+This approach led eventually to the proof by Andrew Wiles in 1994 of Fermat's Last Theorem, stated without proof around 1637. This is another illustration of the difficulty of solving Diophantine equations.
+An example of an infinite diophantine equation is:
+
+
+
+
+n
+=
+
+a
+
+2
+
+
++
+2
+
+b
+
+2
+
+
++
+3
+
+c
+
+2
+
+
++
+4
+
+d
+
+2
+
+
++
+5
+
+e
+
+2
+
+
++
+⋯
+,
+
+
+{\displaystyle n=a^{2}+2b^{2}+3c^{2}+4d^{2}+5e^{2}+\cdots ,}
+
+
+which can be expressed as "How many ways can a given integer n be written as the sum of a square plus twice a square plus thrice a square and so on?" The number of ways this can be done for each n forms an integer sequence. Infinite Diophantine equations are related to theta functions and infinite dimensional lattices. This equation always has a solution for any positive n.[9] Compare this to:
+
+
+
+
+n
+=
+
+a
+
+2
+
+
++
+4
+
+b
+
+2
+
+
++
+9
+
+c
+
+2
+
+
++
+16
+
+d
+
+2
+
+
++
+25
+
+e
+
+2
+
+
++
+⋯
+,
+
+
+{\displaystyle n=a^{2}+4b^{2}+9c^{2}+16d^{2}+25e^{2}+\cdots ,}
+
+
+which does not always have a solution for positive n.
+If a Diophantine equation has as an additional variable or variables occurring as exponents, it is an exponential Diophantine equation. Examples include the Ramanujan–Nagell equation, 2n − 7 = x2, and the equation of the Fermat–Catalan conjecture and Beal's conjecture, am + bn = ck with inequality restrictions on the exponents. A general theory for such equations is not available; particular cases such as Catalan's conjecture have been tackled. However, the majority are solved via ad hoc methods such as Størmer's theorem or even trial and error.
+
+

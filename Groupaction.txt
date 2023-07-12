@@ -1,0 +1,2685 @@
+12781,
+Groupaction,
+In mathematics, a group action on a space is a group homomorphism of a given group into the group of transformations of the space. Similarly, a group action on a mathematical structure is a group homomorphism of a group into the automorphism group of the structure. It is said that the group acts on the space or structure. If a group acts on a structure, it will usually also act on objects built from that structure. For example, the group of Euclidean isometries acts on Euclidean space and also on the figures drawn in it. For example, it acts on the set of all triangles. Similarly, the group of symmetries of a polyhedron acts on the vertices, the edges, and the faces of the polyhedron.
+A group action on a vector space is called a representation of the group. In the case of a finite-dimensional vector space, it allows one to identify many groups with subgroups of GL(n, K), the group of the invertible matrices of dimension n over a field K.
+The symmetric group Sn acts on any set with n elements by permuting the elements of the set. Although the group of all permutations of a set depends formally on the set, the concept of group action allows one to consider a single group for studying the permutations of all sets with the same cardinality.
+If G is a group with identity element e, and X is a set, then a (left) group action α of G on X is a function
+that satisfies the following two axioms:[1]
+(with α(g, x) often shortened to gx or g ⋅ x when the action being considered is clear from context):
+for all g and h in G and all x in X.
+The group G is said to act on X (from the left). A set X together with an action of G is called a (left) G-set.
+From these two axioms, it follows that for any fixed g in G, the function from X to itself which maps x to g ⋅ x is a bijection, with inverse bijection the corresponding map for g−1. Therefore, one may equivalently define a group action of G on X as a group homomorphism from G into the symmetric group Sym(X) of all bijections from X to itself.[2]
+Likewise, a right group action of G on X is a function
+that satisfies the analogous axioms:[3]
+(with α(x, g) often shortened to xg or x ⋅ g when the action being considered is clear from context)
+for all g and h in G and all x in X.
+The difference between left and right actions is in the order in which a product gh acts on x. For a left action, h acts first, followed by g second.  For a right action, g acts first, followed by h second. Because of the formula (gh)−1 = h−1g−1, a left action can be constructed from a right action by composing with the inverse operation of the group. Also, a right action of a group G on X can be considered as a left action of its opposite group Gop on X.
+Thus, for establishing general properties of group actions, it suffices to consider only left actions. However, there are cases where this is not possible. For example, the multiplication of a group  induces both a left action and a right action on the group itself—multiplication on the left and on the right, respectively.
+Let 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ be a group acting on a set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+. The action is called faithful or effective if 
+
+
+
+g
+⋅
+x
+=
+x
+
+
+{\displaystyle g\cdot x=x}
+
+ for all 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ implies that 
+
+
+
+g
+=
+
+e
+
+G
+
+
+
+
+{\displaystyle g=e_{G}}
+
+. Equivalently, the morphism from 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ to the group of bijections of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ corresponding to the action is injective.
+The action is called free (or semiregular or fixed-point free) if the statement that 
+
+
+
+g
+⋅
+x
+=
+x
+
+
+{\displaystyle g\cdot x=x}
+
+ for some 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ already implies that 
+
+
+
+g
+=
+
+e
+
+G
+
+
+
+
+{\displaystyle g=e_{G}}
+
+. In other words, no non-trivial element of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ fixes a point of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+. This is a much stronger property than faithfulness.
+For example, the action of any group on itself by left multiplication is free. This observation implies Cayley's theorem that any group can be embedded in a symmetric group (which is infinite when the group is). A finite group may act faithfully on a set of size much smaller than its cardinality (however such an action cannot be free). For instance the abelian 2-group 
+
+
+
+(
+
+Z
+
+
+/
+
+2
+
+Z
+
+
+)
+
+n
+
+
+
+
+{\displaystyle (\mathbb {Z} /2\mathbb {Z} )^{n}}
+
+ (of cardinality 
+
+
+
+
+2
+
+n
+
+
+
+
+{\displaystyle 2^{n}}
+
+) acts faithfully on a set of size 
+
+
+
+2
+n
+
+
+{\displaystyle 2n}
+
+. This is not always the case, for example the cyclic group 
+
+
+
+
+Z
+
+
+/
+
+
+2
+
+n
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} /2^{n}\mathbb {Z} }
+
+ cannot act faithfully on a set of size less than 
+
+
+
+
+2
+
+n
+
+
+
+
+{\displaystyle 2^{n}}
+
+.
+In general the smallest set on which a faithful action can be defined can vary greatly for groups of the same size. For example, three groups of size 120 are the symmetric group 
+
+
+
+
+S
+
+5
+
+
+
+
+{\displaystyle S_{5}}
+
+, the icosahedral group 
+
+
+
+
+A
+
+5
+
+
+×
+
+Z
+
+
+/
+
+2
+
+Z
+
+
+
+{\displaystyle A_{5}\times \mathbb {Z} /2\mathbb {Z} }
+
+ and the cyclic group 
+
+
+
+
+Z
+
+
+/
+
+120
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} /120\mathbb {Z} }
+
+. The smallest sets on which faithful actions can be defined for these groups are of size 5, 7, and 16 respectively.
+The action of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is called transitive if for any two points 
+
+
+
+x
+,
+y
+∈
+X
+
+
+{\displaystyle x,y\in X}
+
+ there exists a 
+
+
+
+g
+∈
+G
+
+
+{\displaystyle g\in G}
+
+ so that 
+
+
+
+g
+⋅
+x
+=
+y
+
+
+{\displaystyle g\cdot x=y}
+
+. 
+The action is simply transitive (or sharply transitive, or regular) if it is both transitive and free. This means that  given 
+
+
+
+x
+,
+y
+∈
+X
+
+
+{\displaystyle x,y\in X}
+
+ the element 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ in the definition of transitivity is unique. If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is acted upon simply transitively by a group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ then it is called a principal homogeneous space for 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ or a 
+
+
+
+G
+
+
+{\displaystyle G}
+
+-torsor. 
+For an integer 
+
+
+
+n
+≥
+1
+
+
+{\displaystyle n\geq 1}
+
+, the action is 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-transitive if 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ has at least 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ elements, and for any pair of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-tuples 
+
+
+
+(
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+)
+,
+(
+
+y
+
+1
+
+
+,
+…
+,
+
+y
+
+n
+
+
+)
+∈
+
+X
+
+n
+
+
+
+
+{\displaystyle (x_{1},\ldots ,x_{n}),(y_{1},\ldots ,y_{n})\in X^{n}}
+
+ with pairwise distinct entries (that is 
+
+
+
+
+x
+
+i
+
+
+≠
+
+x
+
+j
+
+
+
+
+{\displaystyle x_{i}\not =x_{j}}
+
+, 
+
+
+
+
+y
+
+i
+
+
+≠
+
+y
+
+j
+
+
+
+
+{\displaystyle y_{i}\not =y_{j}}
+
+ when 
+
+
+
+i
+≠
+j
+
+
+{\displaystyle i\not =j}
+
+) there exists a 
+
+
+
+g
+∈
+G
+
+
+{\displaystyle g\in G}
+
+ such that 
+
+
+
+g
+⋅
+
+x
+
+i
+
+
+=
+
+y
+
+i
+
+
+
+
+{\displaystyle g\cdot x_{i}=y_{i}}
+
+ for 
+
+
+
+i
+=
+1
+,
+…
+,
+n
+
+
+{\displaystyle i=1,\ldots ,n}
+
+. In other words the action on the subset of 
+
+
+
+
+X
+
+n
+
+
+
+
+{\displaystyle X^{n}}
+
+ of tuples without repeated entries is transitive. For 
+
+
+
+n
+=
+2
+,
+3
+
+
+{\displaystyle n=2,3}
+
+ this is often called double, respectively triple, transitivity. The class of 2-transitive groups (that is, subgroups of a finite symmetric group whose action is 2-transitive) and more generally multiply transitive groups is well-studied in finite group theory.
+An action is sharply 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-transitive when the action on tuples without repeated entries in 
+
+
+
+
+X
+
+n
+
+
+
+
+{\displaystyle X^{n}}
+
+ is sharply transitive. 
+The action of the symmetric group of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is transitive, in fact 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-transitive for any 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ up to the cardinality of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+. If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ has cardinality 
+
+
+
+n
+,
+
+
+{\displaystyle n,}
+
+ the action of the alternating group is 
+
+
+
+(
+n
+−
+2
+)
+
+
+{\displaystyle (n-2)}
+
+-transitive but not 
+
+
+
+(
+n
+−
+1
+)
+
+
+{\displaystyle (n-1)}
+
+-transitive. 
+The action of the general linear group of a vector space 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ on the set 
+
+
+
+V
+∖
+{
+0
+}
+
+
+{\displaystyle V\setminus \{0\}}
+
+ of non-zero vectors is transitive, but not 2-transitive (similarly for the action of the special linear group if the dimension of 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ is at least 2). The action of the orthogonal group of a Euclidean space is not transitive on nonzero vectors but it is on the unit sphere.
+The action of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is called primitive if there is no partition of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ preserved by all elements of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ apart from the trivial partitions (the partition in a single piece and its dual, the partition into  singletons). 
+Assume that 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a topological space and the action of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is by homeomorphisms. 
+The action is wandering if every 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ has a  neighbourhood 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ such that there are only finitely many 
+
+
+
+g
+∈
+G
+
+
+{\displaystyle g\in G}
+
+ with 
+
+
+
+g
+⋅
+U
+∩
+U
+≠
+∅
+
+
+{\displaystyle g\cdot U\cap U\not =\emptyset }
+
+.[4]
+More generally, a point 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ is called a point of discontinuity for the action of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ if there is an open subset 
+
+
+
+U
+∋
+x
+
+
+{\displaystyle U\ni x}
+
+ such that there are only finitely many 
+
+
+
+g
+∈
+G
+
+
+{\displaystyle g\in G}
+
+ with 
+
+
+
+g
+⋅
+U
+∩
+U
+≠
+∅
+
+
+{\displaystyle g\cdot U\cap U\not =\emptyset }
+
+. The domain of discontinuity of the action is the set of all points of discontinuity. Equivalently it is the largest 
+
+
+
+G
+
+
+{\displaystyle G}
+
+-stable open subset 
+
+
+
+Ω
+⊂
+X
+
+
+{\displaystyle \Omega \subset X}
+
+ such that the action of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ on 
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+
+ is wandering.[5] In a dynamical context this is also called wandering set. 
+The action is properly discontinuous if for every compact subset 
+
+
+
+K
+⊂
+X
+
+
+{\displaystyle K\subset X}
+
+ there are finitely many 
+
+
+
+g
+∈
+G
+
+
+{\displaystyle g\in G}
+
+ such that 
+
+
+
+g
+⋅
+K
+∩
+K
+≠
+∅
+
+
+{\displaystyle g\cdot K\cap K\not =\emptyset }
+
+. This is strictly stronger than wandering; for instance the action of 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ on 
+
+
+
+
+
+R
+
+
+2
+
+
+∖
+{
+(
+0
+,
+0
+)
+}
+
+
+{\displaystyle \mathbb {R} ^{2}\setminus \{(0,0)\}}
+
+ given by 
+
+
+
+n
+⋅
+(
+x
+,
+y
+)
+=
+(
+
+2
+
+n
+
+
+x
+,
+
+2
+
+−
+n
+
+
+y
+)
+
+
+{\displaystyle n\cdot (x,y)=(2^{n}x,2^{-n}y)}
+
+ is wandering and free but not properly discontinuous.[6]
+The action by deck transformations of the fundamental group of a locally simply connected space on an covering space is wandering and free. Such actions can be characterized by the following property: every 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ has a neighbourhood 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ such that 
+
+
+
+g
+⋅
+U
+∩
+U
+=
+∅
+
+
+{\displaystyle g\cdot U\cap U=\emptyset }
+
+ for every 
+
+
+
+g
+∈
+G
+∖
+{
+
+e
+
+G
+
+
+}
+
+
+{\displaystyle g\in G\setminus \{e_{G}\}}
+
+.[7] Actions with this property are sometimes called freely discontinuous, and the largest subset on which the action is freely discontinuous is then called the free regular set.[8]
+An action of a group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ on a locally compact space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is called cocompact if there exists a compact subset 
+
+
+
+A
+⊂
+X
+
+
+{\displaystyle A\subset X}
+
+ such that 
+
+
+
+X
+=
+G
+⋅
+A
+
+
+{\displaystyle X=G\cdot A}
+
+. For a properly discontinuous action, cocompactness is equivalent to compactness of the quotient space 
+
+
+
+G
+∖
+X
+
+
+{\displaystyle G\backslash X}
+
+.
+Now assume 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is a topological group and 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ a topological space on which it acts by homeomorphisms. The action is said to be continuous if the map 
+
+
+
+G
+×
+X
+→
+X
+
+
+{\displaystyle G\times X\to X}
+
+ is continuous for the product topology.
+The action is said to be proper if the map 
+
+
+
+G
+×
+X
+→
+X
+×
+X
+
+
+{\displaystyle G\times X\to X\times X}
+
+ defined by 
+
+
+
+(
+g
+,
+x
+)
+↦
+(
+x
+,
+g
+⋅
+x
+)
+
+
+{\displaystyle (g,x)\mapsto (x,g\cdot x)}
+
+ is proper.[9] This means that given compact sets 
+
+
+
+K
+,
+
+K
+′
+
+
+
+{\displaystyle K,K'}
+
+ the set of 
+
+
+
+g
+∈
+G
+
+
+{\displaystyle g\in G}
+
+ such that 
+
+
+
+g
+⋅
+K
+∩
+
+K
+′
+
+≠
+∅
+
+
+{\displaystyle g\cdot K\cap K'\not =\emptyset }
+
+ is compact. In particular, this is equivalent to proper discontinuity when 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is a discrete group. 
+It is said to be locally free if there exists a neighbourhood 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ of 
+
+
+
+
+e
+
+G
+
+
+
+
+{\displaystyle e_{G}}
+
+ such that 
+
+
+
+g
+⋅
+x
+≠
+x
+
+
+{\displaystyle g\cdot x\not =x}
+
+ for all 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ and 
+
+
+
+g
+∈
+U
+∖
+{
+
+e
+
+G
+
+
+}
+
+
+{\displaystyle g\in U\setminus \{e_{G}\}}
+
+. 
+The action is said to be strongly continuous if the orbital map 
+
+
+
+g
+↦
+g
+⋅
+x
+
+
+{\displaystyle g\mapsto g\cdot x}
+
+ is continuous for every 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+. Contrary to what the name suggests, this is a weaker property than continuity of the action.[citation needed]
+If 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is a Lie group and 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ a differentiable manifold, then the subspace of smooth points for the action is the set of points 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ such that the map 
+
+
+
+g
+↦
+g
+⋅
+x
+
+
+{\displaystyle g\mapsto g\cdot x}
+
+ is smooth. There is a well-developed theory of Lie group actions, i.e. action which are smooth on the whole space.
+If 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ acts by linear transformations on a module over a commutative ring, the action is said to be  irreducible if there are no proper nonzero 
+
+
+
+g
+
+
+{\displaystyle g}
+
+-invariant submodules. It is said to be  semisimple if it decomposes as a direct sum of irreducible actions.
+Consider a group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ acting on a set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+. The orbit of an element 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is the set of elements in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ to which 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ can be moved by the elements of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+. The orbit of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is denoted by 
+
+
+
+G
+⋅
+x
+
+
+{\displaystyle G\cdot x}
+
+:
+
+
+
+
+G
+⋅
+x
+=
+{
+g
+⋅
+x
+:
+g
+∈
+G
+}
+.
+
+
+{\displaystyle G\cdot x=\{g\cdot x:g\in G\}.}
+
+
+The defining properties of a group guarantee that the set of orbits of (points 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in) 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ under the action of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ form a partition of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+. The associated equivalence relation is defined by saying 
+
+
+
+x
+∼
+y
+
+
+{\displaystyle x\sim y}
+
+ if and only if there exists a 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ with 
+
+
+
+g
+⋅
+x
+=
+y
+.
+
+
+{\displaystyle g\cdot x=y.}
+
+ The orbits are then the equivalence classes under this relation; two elements 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ are equivalent if and only if their orbits are the same, that is, 
+
+
+
+G
+⋅
+x
+=
+G
+⋅
+y
+.
+
+
+{\displaystyle G\cdot x=G\cdot y.}
+
+
+The group action is transitive if and only if it has exactly one orbit, that is, if there exists 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ with 
+
+
+
+G
+⋅
+x
+=
+X
+.
+
+
+{\displaystyle G\cdot x=X.}
+
+ This is the case if and only if 
+
+
+
+G
+⋅
+x
+=
+X
+
+
+{\displaystyle G\cdot x=X}
+
+ for all 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ (given that 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is non-empty).
+The set of all orbits of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ under the action of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is written as 
+
+
+
+X
+
+/
+
+G
+
+
+{\displaystyle X/G}
+
+ (or, less frequently, as 
+
+
+
+G
+∖
+X
+
+
+{\displaystyle G\backslash X}
+
+), and is called the quotient of the action. In geometric situations it may be called the orbit space, while in algebraic situations it may be called the space of coinvariants, and written 
+
+
+
+
+X
+
+G
+
+
+,
+
+
+{\displaystyle X_{G},}
+
+ by contrast with the invariants (fixed points), denoted 
+
+
+
+
+X
+
+G
+
+
+
+
+{\displaystyle X^{G}}
+
+: the coinvariants are a quotient while the invariants are a subset. The coinvariant terminology and notation are used particularly in group cohomology and group homology, which use the same superscript/subscript convention.
+If Y is a subset of X, then 
+
+
+
+G
+⋅
+Y
+
+
+{\displaystyle G\cdot Y}
+
+ denotes the set 
+
+
+
+{
+g
+⋅
+y
+:
+g
+∈
+G
+
+ and 
+
+y
+∈
+Y
+}
+.
+
+
+{\displaystyle \{g\cdot y:g\in G{\text{ and }}y\in Y\}.}
+
+ The subset Y is said to be invariant under G if 
+
+
+
+G
+⋅
+Y
+=
+Y
+
+
+{\displaystyle G\cdot Y=Y}
+
+ (which is equivalent to 
+
+
+
+G
+⋅
+Y
+⊆
+Y
+
+
+{\displaystyle G\cdot Y\subseteq Y}
+
+). In that case, G also operates on Y by  restricting the action to Y. The subset Y is called fixed under G if 
+
+
+
+g
+⋅
+y
+=
+y
+
+
+{\displaystyle g\cdot y=y}
+
+ for all g in G and all y in Y. Every subset that is fixed under G is also invariant under G, but not conversely.
+Every orbit is an invariant subset of X on which G acts transitively. Conversely, any invariant subset of X is a union of orbits. The action of G on X is transitive if and only if all elements are equivalent, meaning that there is only one orbit.
+A G-invariant element of X is 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ such that 
+
+
+
+g
+⋅
+x
+=
+x
+
+
+{\displaystyle g\cdot x=x}
+
+ for all 
+
+
+
+g
+∈
+G
+.
+
+
+{\displaystyle g\in G.}
+
+ The set of all such x is denoted 
+
+
+
+
+X
+
+G
+
+
+
+
+{\displaystyle X^{G}}
+
+ and called the G-invariants of X. When X is a G-module, XG is the zeroth cohomology group of G with coefficients in X, and the higher cohomology groups are the derived functors of the functor of G-invariants.
+Given g in G and x in X with 
+
+
+
+g
+⋅
+x
+=
+x
+,
+
+
+{\displaystyle g\cdot x=x,}
+
+ it is said that "x is a fixed point of g" or that "g fixes x". For every x in X, the stabilizer subgroup of G with respect to x (also called the isotropy group or little group[10]) is the set of all elements in G that fix x:
+
+
+
+
+
+G
+
+x
+
+
+=
+{
+g
+∈
+G
+:
+g
+⋅
+x
+=
+x
+}
+.
+
+
+{\displaystyle G_{x}=\{g\in G:g\cdot x=x\}.}
+
+
+This is a subgroup of G, though typically not a normal one. The action of G on X is free if and only if all stabilizers are trivial. The kernel N of the homomorphism with the symmetric group, 
+
+
+
+G
+→
+Sym
+⁡
+(
+X
+)
+,
+
+
+{\displaystyle G\to \operatorname {Sym} (X),}
+
+ is given by the intersection of the stabilizers Gx for all x in X. If N is trivial, the action is said to be faithful (or effective).
+Let x and y be two elements in X, and let 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ be a group element such that 
+
+
+
+y
+=
+g
+⋅
+x
+.
+
+
+{\displaystyle y=g\cdot x.}
+
+ Then the two stabilizer groups 
+
+
+
+
+G
+
+x
+
+
+
+
+{\displaystyle G_{x}}
+
+ and 
+
+
+
+
+G
+
+y
+
+
+
+
+{\displaystyle G_{y}}
+
+ are related by 
+
+
+
+
+G
+
+y
+
+
+=
+g
+
+G
+
+x
+
+
+
+g
+
+−
+1
+
+
+.
+
+
+{\displaystyle G_{y}=gG_{x}g^{-1}.}
+
+ Proof: by definition, 
+
+
+
+h
+∈
+
+G
+
+y
+
+
+
+
+{\displaystyle h\in G_{y}}
+
+ if and only if 
+
+
+
+h
+⋅
+(
+g
+⋅
+x
+)
+=
+g
+⋅
+x
+.
+
+
+{\displaystyle h\cdot (g\cdot x)=g\cdot x.}
+
+ Applying 
+
+
+
+
+g
+
+−
+1
+
+
+
+
+{\displaystyle g^{-1}}
+
+ to both sides of this equality yields 
+
+
+
+
+(
+
+
+g
+
+−
+1
+
+
+h
+g
+
+)
+
+⋅
+x
+=
+x
+;
+
+
+{\displaystyle \left(g^{-1}hg\right)\cdot x=x;}
+
+ that is, 
+
+
+
+
+g
+
+−
+1
+
+
+h
+g
+∈
+
+G
+
+x
+
+
+.
+
+
+{\displaystyle g^{-1}hg\in G_{x}.}
+
+ An opposite inclusion follows similarly by taking 
+
+
+
+h
+∈
+
+G
+
+x
+
+
+
+
+{\displaystyle h\in G_{x}}
+
+ and supposing 
+
+
+
+x
+=
+
+g
+
+−
+1
+
+
+⋅
+y
+.
+
+
+{\displaystyle x=g^{-1}\cdot y.}
+
+
+The above says that the stabilizers of elements in the same orbit are conjugate to each other. Thus, to each orbit, we can associate a conjugacy class of a subgroup of G (that is, the set of all conjugates of the subgroup). Let 
+
+
+
+(
+H
+)
+
+
+{\displaystyle (H)}
+
+ denote the conjugacy class of H. Then the orbit O has type 
+
+
+
+(
+H
+)
+
+
+{\displaystyle (H)}
+
+ if the stabilizer 
+
+
+
+
+G
+
+x
+
+
+
+
+{\displaystyle G_{x}}
+
+ of some/any x in O belongs to 
+
+
+
+(
+H
+)
+
+
+{\displaystyle (H)}
+
+. A maximal orbit type is often called a principal orbit type.
+Orbits and stabilizers are closely related. For a fixed x in X, consider the map 
+
+
+
+f
+:
+G
+→
+X
+
+
+{\displaystyle f:G\to X}
+
+ given by 
+
+
+
+g
+↦
+g
+⋅
+x
+.
+
+
+{\displaystyle g\mapsto g\cdot x.}
+
+ By definition the image 
+
+
+
+f
+(
+G
+)
+
+
+{\displaystyle f(G)}
+
+ of this map is the orbit 
+
+
+
+G
+⋅
+x
+.
+
+
+{\displaystyle G\cdot x.}
+
+ The condition for two elements to have the same image is
+
+
+
+
+f
+(
+g
+)
+=
+f
+(
+h
+)
+
+⟺
+
+g
+⋅
+x
+=
+h
+⋅
+x
+
+⟺
+
+
+g
+
+−
+1
+
+
+h
+⋅
+x
+=
+x
+
+⟺
+
+
+g
+
+−
+1
+
+
+h
+∈
+
+G
+
+x
+
+
+
+⟺
+
+h
+∈
+g
+
+G
+
+x
+
+
+.
+
+
+{\displaystyle f(g)=f(h)\iff g\cdot x=h\cdot x\iff g^{-1}h\cdot x=x\iff g^{-1}h\in G_{x}\iff h\in gG_{x}.}
+
+
+In other words, 
+
+
+
+f
+(
+g
+)
+=
+f
+(
+h
+)
+
+
+{\displaystyle f(g)=f(h)}
+
+ if and only if 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ and 
+
+
+
+h
+
+
+{\displaystyle h}
+
+ lie in the same coset for the stabilizer subgroup 
+
+
+
+
+G
+
+x
+
+
+.
+
+
+{\displaystyle G_{x}.}
+
+ Thus, the fiber 
+
+
+
+
+f
+
+−
+1
+
+
+(
+{
+y
+}
+)
+
+
+{\displaystyle f^{-1}(\{y\})}
+
+ of f over any y in G·x is contained in such a coset, and every such coset also occurs as a fiber. Therefore f induces a bijection between the set 
+
+
+
+G
+
+/
+
+
+G
+
+x
+
+
+
+
+{\displaystyle G/G_{x}}
+
+ of cosets for the stabilizer subgroup and the orbit 
+
+
+
+G
+⋅
+x
+,
+
+
+{\displaystyle G\cdot x,}
+
+ which sends 
+
+
+
+g
+
+G
+
+x
+
+
+↦
+g
+⋅
+x
+
+
+{\displaystyle gG_{x}\mapsto g\cdot x}
+
+.[11] This result is known as the orbit-stabilizer theorem.
+If G is finite then the orbit-stabilizer theorem, together with Lagrange's theorem, gives
+
+
+
+
+
+|
+
+G
+⋅
+x
+
+|
+
+=
+[
+G
+
+:
+
+
+G
+
+x
+
+
+]
+=
+
+|
+
+G
+
+|
+
+
+/
+
+
+|
+
+
+G
+
+x
+
+
+
+|
+
+,
+
+
+{\displaystyle |G\cdot x|=[G\,:\,G_{x}]=|G|/|G_{x}|,}
+
+
+in other words the length of the orbit of x times the order of its stabilizer is the  order of the group. In particular that implies that the orbit length is a divisor of the group order.
+This result is especially useful since it can be employed for counting arguments (typically in situations where X is finite as well).
+A result closely related to the orbit-stabilizer theorem is Burnside's lemma:
+
+
+
+
+
+|
+
+X
+
+/
+
+G
+
+|
+
+=
+
+
+1
+
+
+|
+
+G
+
+|
+
+
+
+
+
+∑
+
+g
+∈
+G
+
+
+
+|
+
+
+X
+
+g
+
+
+
+|
+
+,
+
+
+{\displaystyle |X/G|={\frac {1}{|G|}}\sum _{g\in G}|X^{g}|,}
+
+
+where Xg is the set of points fixed by g. This result is mainly of use when G and X are finite, when it can be interpreted as follows: the number of orbits is equal to the average number of points fixed per group element.
+Fixing a group G, the set of formal differences of finite G-sets forms a ring called the Burnside ring of G, where addition corresponds to disjoint union, and multiplication to Cartesian product.
+The notion of group action can be encoded by the action groupoid 
+
+
+
+
+G
+′
+
+=
+G
+⋉
+X
+
+
+{\displaystyle G'=G\ltimes X}
+
+ associated to the group action. The stabilizers of the action are the vertex groups of the groupoid and the orbits of the action are its components.
+If X and Y are two G-sets, a morphism from X to Y is a function f : X → Y such that f(g⋅x) = g⋅f(x) for all g in G and all x in X. Morphisms of G-sets are also called equivariant maps or G-maps.
+The composition of two morphisms is again a morphism. If a morphism f is bijective, then its inverse is also a morphism. In this case f is called an isomorphism, and the two G-sets X and Y are called isomorphic; for all practical purposes, isomorphic G-sets are indistinguishable.
+Some example isomorphisms:
+With this notion of morphism, the collection of all G-sets forms a category; this category is a Grothendieck topos (in fact, assuming a classical metalogic, this topos will even be Boolean).
+We can also consider actions of monoids on sets, by using the same two axioms as above. This does not define bijective maps and equivalence relations however. See semigroup action.
+Instead of actions on sets, we can define actions of groups and monoids on objects of an arbitrary category: start with an object X of some category, and then define an action on X as a monoid homomorphism into the monoid of endomorphisms of X. If X has an underlying set, then all definitions and facts stated above can be carried over. For example, if we take the category of vector spaces, we obtain group representations in this fashion.
+We can view a group G as a category with a single object in which every morphism is  invertible. A (left) group action is then nothing but a (covariant) functor from G to the category of sets, and a group representation is a functor from G to the category of vector spaces. A morphism between G-sets is then a natural transformation between the group action functors.  In analogy, an action of a groupoid is a functor from the groupoid to the category of sets or to some other category.
+In addition to continuous actions of topological groups on topological spaces, one also often considers smooth actions of Lie groups on smooth manifolds, regular actions of algebraic groups on algebraic varieties, and actions of group schemes on schemes. All of these are examples of group objects acting on objects of their respective category.
+Orbit of a fundamental spherical triangle (marked in red) under action of the full octahedral group.
+Orbit of a fundamental spherical triangle (marked in red) under action of the full icosahedral group.
+
+

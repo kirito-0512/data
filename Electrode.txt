@@ -1,0 +1,466 @@
+10008,
+Electrode,
+An electrode is an electrical conductor used to make contact with a nonmetallic part of a circuit (e.g. a semiconductor, an electrolyte, a vacuum or air). Electrodes are essential parts of batteries that can consist of a variety of materials depending on the type of battery.
+The electrophore, invented by Johan Wilcke, was an early version of an electrode used to study static electricity.[1]
+Electrodes are an essential part of any battery. The first electrochemical battery made was devised by Alessandro Volta and was aptly named the Voltaic cell.[2] This battery consisted of a stack of copper and zinc electrodes separated by brine-soaked paper disks. Due to fluctuation in the voltage provided by the voltaic cell it wasn't very practical. The first practical battery was invented in 1839 and named the Daniell cell after John Frederic Daniell. It still made use of the zinc–copper electrode combination. Since then many more batteries have been developed using various materials. The basis of all these is still using two electrodes, anodes and cathodes.
+'Anode' was coined by William Whewell at Michael Faraday's request, derived from the Greek words ἄνο (ano), 'upwards' and ὁδός (hodós), 'a way'.[3] The Anode is the electrode through which the conventional current enters from the electrical circuit of an electrochemical cell (battery) into the non-metallic cell. The electrons then flow to the other side of the battery. Benjamin Franklin surmised that the electrical flow moved from positive to negative.[4] The electrons flow away from the anode and the conventional current towards it. From both can be concluded that the charge of the anode is negative. The electron entering the anode comes from the oxidation reaction that takes place next to it.
+The cathode is in many ways the opposite of the anode. The name (also coined by Whewell) comes from the Greek words κάτω (kato), 'downwards' and ὁδός (hodós), 'a way'. It is the positive electrode, meaning the electrons flow from the electrical circuit through the cathode into the non-metallic part of the electrochemical cell. At the cathode, the reduction reaction takes place with the electrons arriving from the wire connected to the cathode and are absorbed by the oxidizing agent.
+A primary cell is a battery designed to be used once and then discarded. This is due to the electrochemical reactions taking place at the electrodes in the cell not being reversible. An example of a primary cell is the discardable alkaline battery commonly used in flashlights. Consisting of a zinc anode and a manganese oxide cathode in which ZnO is formed.
+The half-reactions are:
+Overall reaction:
+The ZnO is prone to clumping and will give less efficient discharge if recharged again. It is possible to recharge these batteries but is due to safety concerns advised against by the manufacturer. Other primary cells include zinc–carbon, zinc–chloride, and lithium iron disulfide.
+Contrary to the primary cell a secondary cell can be recharged. The first was the lead–acid battery, invented in 1859 by French physicist Gaston Planté. This type of battery is still the most widely used in among others automobiles.[5] The cathode consists of lead dioxide (PbO2) and the anode of solid lead. Other commonly used rechargeable batteries are nickel–cadmium, nickel–metal hydride, and Lithium-ion. The last of which will be more explained more thoroughly in this article due to its importance.
+Marcus theory is a theory originally developed by Nobel laureate Rudolph A. Marcus and explains the rate at which an electron can move from one chemical species to another,[6] for this article this can be seen as 'jumping' from the electrode to a species in the solvent or vice versa.
+We can represent the problem as calculating the transfer rate for the transfer of an electron from donor to an acceptor 
+The potential energy of the system is a function of the translational, rotational, and vibrational coordinates of the reacting species and the molecules of the surrounding medium, collectively called the reaction coordinates. The abscissa the figure to the right represents these. From the classical electron transfer theory, the expression of the reaction rate constant (probability of reaction) can be calculated, if a non-adiabatic process and parabolic potential energy are assumed, by finding the point of intersection (Qx). One important thing to note, and was noted by Marcus when he came up with the theory, the electron transfer must abide by the law of conservation of energy and the Frank-Condon principle. 
+Doing this and then rearranging this leads to the expression of the free energy activation (
+
+
+
+Δ
+
+G
+
+†
+
+
+
+
+{\displaystyle \Delta G^{\dagger }}
+
+) in terms of the overall free energy of the reaction (
+
+
+
+Δ
+
+G
+
+0
+
+
+
+
+{\displaystyle \Delta G^{0}}
+
+).
+
+
+
+
+Δ
+
+G
+
+†
+
+
+=
+
+
+1
+
+4
+λ
+
+
+
+(
+Δ
+
+G
+
+0
+
+
++
+λ
+
+)
+
+2
+
+
+
+
+{\displaystyle \Delta G^{\dagger }={\frac {1}{4\lambda }}(\Delta G^{0}+\lambda )^{2}}
+
+
+In which the 
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+
+ is the reorganisation energy.
+Filling this result in the classically derived Arrhenius equation
+
+
+
+
+k
+=
+A
+
+exp
+⁡
+
+(
+
+
+
+−
+Δ
+
+G
+
+†
+
+
+
+
+k
+T
+
+
+
+)
+
+,
+
+
+{\displaystyle k=A\,\exp \left({\frac {-\Delta G^{\dagger }}{kT}}\right),}
+
+
+leads to
+
+
+
+
+k
+=
+A
+
+exp
+⁡
+
+[
+
+
+
+−
+(
+Δ
+
+G
+
+0
+
+
++
+λ
+
+)
+
+2
+
+
+
+
+4
+λ
+k
+T
+
+
+
+]
+
+
+
+{\displaystyle k=A\,\exp \left[{\frac {-(\Delta G^{0}+\lambda )^{2}}{4\lambda kT}}\right]}
+
+
+With A being the pre-exponential factor which is usually experimentally determined,[7] although a semi classical derivation provides more information as will be explained below.
+This classically derived result qualitatively reproduced observations of a maximum electron transfer rate under the conditions 
+
+
+
+Δ
+
+G
+
+†
+
+
+=
+λ
+
+
+{\displaystyle \Delta G^{\dagger }=\lambda }
+
+.[8] For a more extensive mathematical treatment one could read the paper by Newton.[9] An interpretation of this result and what a closer look at the physical meaning of the 
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+
+ one can read the paper by Marcus.[10]
+the situation at hand can be more accurately described by using the displaced harmonic oscillator model, in this model quantum tunneling is allowed. This is needed in order to explain why even at near-zero Kelvin there still are electron transfers,[11] in contradiction to the classical theory.
+Without going into too much detail on how the derivation is done, it rests on using Fermi's golden rule from time-dependent perturbation theory with the full Hamiltonian of the system. It is possible to look at the overlap in the wavefunctions of both the reactants and the products (the right and the left side of the chemical reaction) and therefore when their energies are the same and allow for electron transfer. As touched on before this must happen because only then conservation of energy is abided by. Skipping over a few mathematical steps the probability of electron transfer can be calculated (albeit quite difficult) using the following formula
+
+
+
+
+
+w
+
+E
+T
+
+
+=
+
+
+
+
+|
+
+J
+
+
+|
+
+
+2
+
+
+
+
+ℏ
+
+2
+
+
+
+
+
+∫
+
+−
+∞
+
+
++
+∞
+
+
+d
+t
+
+
+e
+
+−
+i
+Δ
+E
+t
+
+/
+
+ℏ
+−
+g
+(
+t
+)
+
+
+
+
+{\displaystyle w_{ET}={\frac {|J|^{2}}{\hbar ^{2}}}\int _{-\infty }^{+\infty }dt\,e^{-i\Delta Et/\hbar -g(t)}}
+
+
+With 
+
+
+
+J
+
+
+{\displaystyle J}
+
+ being the electronic coupling constant describing the interaction between the two states (reactants and products) and 
+
+
+
+g
+(
+t
+)
+
+
+{\displaystyle g(t)}
+
+ being the line shape function. Taking the classical limit of this expression, meaning 
+
+
+
+ℏ
+ω
+≪
+k
+T
+
+
+{\displaystyle \hbar \omega \ll kT}
+
+, and making some substitution an expression is obtained very similar to the classically derived formula, as expected. 
+
+
+
+
+
+w
+
+E
+T
+
+
+=
+
+
+
+
+|
+
+J
+
+
+|
+
+
+2
+
+
+
+ℏ
+
+
+
+
+
+π
+
+λ
+k
+T
+
+
+
+
+exp
+⁡
+
+[
+
+
+
+−
+(
+Δ
+E
++
+λ
+
+)
+
+2
+
+
+
+
+4
+λ
+k
+T
+
+
+
+]
+
+
+
+{\displaystyle w_{ET}={\frac {|J|^{2}}{\hbar }}{\sqrt {\frac {\pi }{\lambda kT}}}\exp \left[{\frac {-(\Delta E+\lambda )^{2}}{4\lambda kT}}\right]}
+
+
+The main difference is now the pre-exponential factor has now been described by more physical parameters instead of the experimental factor 
+
+
+
+A
+
+
+{\displaystyle A}
+
+. One is once again revered to the sources as listed below for a more in-depth and rigorous mathematical derivation and interpretation.
+The physical properties of electrodes are mainly determined by the material of the electrode and the topology of the electrode. The properties required depend on the application and therefore there are many kinds of electrodes in circulation. The defining property for a material to be used as an electrode is that it be conductive. Any conducting material such as metals, semiconductors, graphite or conductive polymers can therefore be used as an electrode. Often electrodes consist of a combination of materials, each with a specific task. Typical constituents are the active materials which serve as the particles which oxidate or reduct, conductive agents which improve the conductivity of the electrode and binders which are used to contain the active particles within the electrode. The efficiency of electrochemical cells is judged by a number of properties, important quantities are the self-discharge time, the discharge voltage and the cycle performance. The physical properties of the electrodes play an important role in determining these quantities. Important properties of the electrodes are: the electrical resistivity, the specific heat capacity (c_p), the electrode potential and the hardness. Of course, for technological applications, the cost of the material is also an important factor.[12] The values of these properties at room temperature (T = 293 K) for some commonly used materials are listed in the table below.
+The surface topology of the electrode plays an important factor in determining the efficiency of an electrode. The efficiency of the electrode can be reduced due to contact resistance. To create an efficient electrode it is therefore important to design it such that it minimizes the contact resistance.
+The production of electrodes for Li-Ion batteries is done in various steps as follows:[14]
+For a given selection of constituents of the electrode, the final efficiency is determined by the internal structure of the electrode. The important factors in the internal structure in determining the performance of the electrode are:[15]
+These properties can be influenced in the production of the electrodes in a number of manners. The most important step in the manufacturing of the electrodes is creating the electrode slurry. As can be seen above, the important properties of the electrode all have to do with the even distribution of the components of the electrode. Therefore, it is very important that the electrode slurry be as homogeneous as possible. Multiple procedures have been developed to improve this mixing stage and current research is still being done.[15]
+A modern application of electrodes is in Lithium-ion batteries (li-ion batteries). A Li-ion battery is a kind of flow battery which can be seen in the image on the right.
+Furthermore, a Li-ion battery is an example of a secondary cell since it is rechargeable. It can both act as a galvanic or electrolytic cell. Li-ion batteries use lithium ions as the solute in the electrolyte which are dissolved in an organic solvent. Lithium electrodes were first studied by Gilbert N. Lewis and Frederick G. Keyes in 1913.[17] In the following century these electrodes were used to create and study the first Li-ion batteries. Li-ion batteries are very popular due to their great performance. Applications include mobile phones and electric cars. Due to their popularity, much research is being done to reduce the cost and increase the safety of Li-ion batteries. An integral part of the Li-ion batteries are their anodes and cathodes, therefore much research is being done into increasing the efficiency, safety and reducing the costs of these electrodes specifically.[18]
+In Li-ion batteries the cathode consists of a intercalated lithium compound (a layered material consisting of layers of molecules composed of lithium and other elements). A common element which makes up part of the molecules in the compound is cobalt. Another frequently used element is manganese. The best choice of compound usually depends on the application of the battery. Advantages for cobalt-based compounds over manganese-based compounds are their high specific heat capacity, high volumetric heat capacity, low self-discharge rate, high discharge voltage and high cycle durability. There are however also drawbacks in using cobalt-based compounds such as their high cost and their low thermostability. Manganese has similar advantages and a lower cost, however there are some problems associated with using manganese. The main problem is that manganese tends to dissolve into the electrolyte over time. For this reason cobalt is still the most common element which is used in the lithium compounds. There is much research being done into finding new materials which can be used to create cheaper and longer lasting Li-ion batteries [18]
+The anodes used in mass-produced Li-ion batteries are either carbon based (usually graphite) or made out of spinel lithium titanate (Li4Ti5O12).[18] Graphite anodes have been successfully implemented in many modern commercially available batteries due to its cheap price, longevity and high energy density.[19] However, it presents issues of dendrite growth, with risks of shorting the battery and posing a safety issue.[20] Li4Ti5O12 has the second largest market share of anodes, due to its stability and good rate capability, but with challenges such as low capacity.[21] During the early 2000, Silicon anode research began picking up pace, becoming one of the 2020's most promising candidates for future Lithium ion battery anodes.[22] Silicon has one of the highest gravimetric capacities when compared to graphite and  Li4Ti5O12 as well as a high volumetric one . Furthermore, Silicon has the advantage of operating under a reasonable open circuit voltage without parasitic lithium reactions.[23][24] However, Silicon anodes have a major issue of volumetric expansion during lithiation of around 360%.[25] This expansion may pulverize the anode, resulting in poor performance.[26] To fix this problem scientists looked into varying the dimensionality of the Si.[22] Many studies have been developed in Si nanowires, Si tubes as well as Si sheets.[22] As a result, composite hierarchical Si anodes have become the major technology for future applications in Lithium-ion batteries. In the early 2020's technology is reaching commercial levels with factories being built for mass production of anodes in the United States.[27]  Furthermore, metallic Lithium is another possible candidate for the anode. It boasts a higher specific capacity than Silicon, however, does come with the drawback of working with the highly unstable metallic lithium.[28] Similarly to graphite anodes, dendrite formation is another major limitation of metallic lithium, with the solid electrolyte interphase being a major design challenge.[29] In the end, if stabilized, metallic lithium would be able to produce batteries that hold the most charge, while being the lightest.[28]
+A common failure mechanism of batteries is mechanical shock, which breaks either the electrode or the system’s container, leading to poor conductivity and electrolyte leakage.[30] However, the relevance of mechanical properties of electrodes goes beyond the resistance to collisions due to its environment. During standard operation, the incorporation of ions into electrodes leads to a change in volume. This is well exemplified by Si electrodes in Lithium-ion batteries expanding around 300% during lithiation.[31] Such change may lead to the deformations in the lattice and, therefore stresses in the material. The origin of stresses may be due to geometric constraints in the electrode or inhomogeneous plating of the ion.[32] This phenomenon is very concerning as it may lead to electrode fracture and performance loss. Thus, mechanical properties are crucial to enable the development of new electrodes for long lasting batteries. A possible strategy for measuring the mechanical behavior of electrodes during operation is by using nanoindentation.[33] The method is able to analyze how the stresses evolve during the electrochemical reactions, being a valuable tool in evaluating possible pathways for coupling mechanical behavior and electrochemistry.
+More than just affecting the electrode’s morphology, stresses are also able to impact electrochemical reactions.[32][34] While the chemical driving forces are usually higher in magnitude than the mechanical energies, this is not true for Li-Ion Batteries.[35] A study by Dr. Larché established a direct relation between the applied stress and the chemical potential of the electrode.[36] Though it neglects multiple variables such as the variation of elastic constraints, it subtracts from the total chemical potential the elastic energy induced by the stress.
+
+
+
+
+μ
+=
+
+μ
+
+o
+
+
++
+k
+⋅
+T
+⋅
+log
+⁡
+(
+γ
+⋅
+x
+)
++
+Ω
+⋅
+σ
+
+
+{\displaystyle \mu =\mu ^{o}+k\cdot T\cdot \log(\gamma \cdot x)+\Omega \cdot \sigma }
+
+
+In this equation μ represents the chemical potential, with μ° being its reference value. T stands for the temperature and k the Boltzmann constant. The term γ inside the logarithm is the activity and x is the ratio of the ion to the total composition of the electrode. The novel term Ω is the partial molar volume of the ion in the host and σ corresponds to the mean stress felt by the system. The result of this equation is that diffusion, which is dependent on chemical potential, gets impacted by the added stress and, therefore changes the battery’s performance. Furthermore, mechanical stresses may also impact the electrode’s solid-electrolyte-interphase layer.[30] The interface which regulates the ion and charge transfer and can be degraded by stress. Thus, more ions in the solution will be consumed to reform it, diminishing the overall efficiency of the system.[37]
+In a vacuum tube or a semiconductor having polarity (diodes, electrolytic capacitors) the anode is the positive (+) electrode and the cathode the negative (−). The electrons enter the device through the cathode and exit the device through the anode. Many devices have other electrodes to control operation, e.g., base, gate, control grid.
+In a three-electrode cell, a counter electrode, also called an auxiliary electrode, is used only to make a connection to the electrolyte so that a current can be applied to the working electrode. The counter electrode is usually made of an inert material, such as a noble metal or graphite, to keep it from dissolving.
+In arc welding, an electrode is used to conduct current through a workpiece to fuse two pieces together. Depending upon the process, the electrode is either consumable, in the case of gas metal arc welding or shielded metal arc welding, or non-consumable, such as in gas tungsten arc welding. For a direct current system, the weld rod or stick may be a cathode for a filling type weld or an anode for other welding processes. For an alternating current arc welder, the welding electrode would not be considered an anode or cathode.
+For electrical systems which use alternating current, the electrodes are the connections from the circuitry to the object to be acted upon by the electric current but are not designated anode or cathode because the direction of flow of the electrons changes periodically, usually many times per second.
+Chemically modified electrodes are electrodes that have their surfaces chemically modified to change the electrode's physical, chemical, electrochemical, optical, electrical, and transportive properties. These electrodes are used for advanced purposes in research and investigation.[38]
+Electrodes are used to provide current through nonmetal objects to alter them in numerous ways and to measure conductivity for numerous purposes. Examples include:
+
+

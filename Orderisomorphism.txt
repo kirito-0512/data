@@ -1,0 +1,560 @@
+22398,
+Orderisomorphism,
+In the mathematical field of order theory, an order isomorphism is a special kind of monotone function that constitutes a suitable notion of isomorphism for partially ordered sets (posets). Whenever two posets are order isomorphic, they can be considered to be "essentially the same" in the sense that either of the orders can be obtained from the other just by renaming of elements. Two strictly weaker notions that relate to order isomorphisms are order embeddings and Galois connections.[1]
+Formally, given two posets 
+
+
+
+(
+S
+,
+
+≤
+
+S
+
+
+)
+
+
+{\displaystyle (S,\leq _{S})}
+
+ and 
+
+
+
+(
+T
+,
+
+≤
+
+T
+
+
+)
+
+
+{\displaystyle (T,\leq _{T})}
+
+, an order isomorphism  from 
+
+
+
+(
+S
+,
+
+≤
+
+S
+
+
+)
+
+
+{\displaystyle (S,\leq _{S})}
+
+ to 
+
+
+
+(
+T
+,
+
+≤
+
+T
+
+
+)
+
+
+{\displaystyle (T,\leq _{T})}
+
+ is a bijective function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ from 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ to 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ with the property that, for every 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+, 
+
+
+
+x
+
+≤
+
+S
+
+
+y
+
+
+{\displaystyle x\leq _{S}y}
+
+ if and only if 
+
+
+
+f
+(
+x
+)
+
+≤
+
+T
+
+
+f
+(
+y
+)
+
+
+{\displaystyle f(x)\leq _{T}f(y)}
+
+. That is, it is a bijective order-embedding.[2]
+It is also possible to define an order isomorphism to be a surjective order-embedding. The two assumptions that 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ cover all the elements of 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ and that it preserve orderings, are enough to ensure that 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is also one-to-one, for if 
+
+
+
+f
+(
+x
+)
+=
+f
+(
+y
+)
+
+
+{\displaystyle f(x)=f(y)}
+
+ then (by the assumption that 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ preserves the order) it would follow that 
+
+
+
+x
+≤
+y
+
+
+{\displaystyle x\leq y}
+
+ and 
+
+
+
+y
+≤
+x
+
+
+{\displaystyle y\leq x}
+
+, implying by the definition of a partial order that 
+
+
+
+x
+=
+y
+
+
+{\displaystyle x=y}
+
+.
+Yet another characterization of order isomorphisms is that they are exactly the monotone bijections that have a monotone inverse.[3]
+An order isomorphism from a partially ordered set to itself is called an order automorphism.[4]
+When an additional algebraic structure is imposed on the posets 
+
+
+
+(
+S
+,
+
+≤
+
+S
+
+
+)
+
+
+{\displaystyle (S,\leq _{S})}
+
+ and 
+
+
+
+(
+T
+,
+
+≤
+
+T
+
+
+)
+
+
+{\displaystyle (T,\leq _{T})}
+
+, a function from 
+
+
+
+(
+S
+,
+
+≤
+
+S
+
+
+)
+
+
+{\displaystyle (S,\leq _{S})}
+
+ to 
+
+
+
+(
+T
+,
+
+≤
+
+T
+
+
+)
+
+
+{\displaystyle (T,\leq _{T})}
+
+ must satisfy additional properties to be regarded as an isomorphism. For example, given two partially ordered groups (po-groups) 
+
+
+
+(
+G
+,
+
+≤
+
+G
+
+
+)
+
+
+{\displaystyle (G,\leq _{G})}
+
+ and 
+
+
+
+(
+H
+,
+
+≤
+
+H
+
+
+)
+
+
+{\displaystyle (H,\leq _{H})}
+
+, an isomorphism of po-groups from 
+
+
+
+(
+G
+,
+
+≤
+
+G
+
+
+)
+
+
+{\displaystyle (G,\leq _{G})}
+
+ to 
+
+
+
+(
+H
+,
+
+≤
+
+H
+
+
+)
+
+
+{\displaystyle (H,\leq _{H})}
+
+ is an order isomorphism that is also a group isomorphism, not merely a bijection that is an order embedding.[5]
+If 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is an order isomorphism, then so is its inverse function.
+Also, if 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is an order isomorphism from 
+
+
+
+(
+S
+,
+
+≤
+
+S
+
+
+)
+
+
+{\displaystyle (S,\leq _{S})}
+
+ to 
+
+
+
+(
+T
+,
+
+≤
+
+T
+
+
+)
+
+
+{\displaystyle (T,\leq _{T})}
+
+ and 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ is an order isomorphism from 
+
+
+
+(
+T
+,
+
+≤
+
+T
+
+
+)
+
+
+{\displaystyle (T,\leq _{T})}
+
+ to 
+
+
+
+(
+U
+,
+
+≤
+
+U
+
+
+)
+
+
+{\displaystyle (U,\leq _{U})}
+
+, then the function composition of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ and 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ is itself an order isomorphism, from 
+
+
+
+(
+S
+,
+
+≤
+
+S
+
+
+)
+
+
+{\displaystyle (S,\leq _{S})}
+
+ to 
+
+
+
+(
+U
+,
+
+≤
+
+U
+
+
+)
+
+
+{\displaystyle (U,\leq _{U})}
+
+.[10]
+Two partially ordered sets are said to be order isomorphic when there exists an order isomorphism from one to the other.[11] Identity functions, function inverses, and compositions of functions correspond, respectively, to the three defining characteristics of an equivalence relation: reflexivity, symmetry, and transitivity. Therefore, order isomorphism is an equivalence relation. The class of partially ordered sets can be partitioned by it into equivalence classes, families of partially ordered sets that are all isomorphic to each other. These equivalence classes are called order types.
+
+

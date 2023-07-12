@@ -1,0 +1,386 @@
+6620,
+Cotangentspace,
+In differential geometry, the cotangent space is a vector space associated with a point 
+x
+{\displaystyle x}
+ on a smooth (or differentiable) manifold 
+M
+{\displaystyle {\mathcal {M}}}
+; one can define a cotangent space for every point on a smooth manifold. Typically, the cotangent space, 
+T
+x
+∗
+M
+{\displaystyle T_{x}^{*}\!{\mathcal {M}}}
+ is defined as the dual space of the tangent space at 
+x
+{\displaystyle x}
+, 
+T
+x
+M
+{\displaystyle T_{x}{\mathcal {M}}}
+, although there are more direct definitions (see below). The elements of the cotangent space are called cotangent vectors or tangent covectors.
+All cotangent spaces at points on a connected manifold have the same dimension, equal to the dimension of the manifold. All the cotangent spaces of a manifold can be "glued together" (i.e. unioned and endowed with a topology) to form a new differentiable manifold of twice the dimension, the cotangent bundle of the manifold.
+The tangent space and the cotangent space at a point are both real vector spaces of the same dimension and therefore isomorphic to each other via many possible isomorphisms. The introduction of a Riemannian metric or a symplectic form gives rise to a natural isomorphism between the tangent space and the cotangent space at a point, associating to any tangent covector a canonical tangent vector.
+Let 
+M
+{\displaystyle {\mathcal {M}}}
+ be a smooth manifold and let 
+x
+{\displaystyle x}
+ be a point in 
+M
+{\displaystyle {\mathcal {M}}}
+. Let 
+T
+x
+M
+{\displaystyle T_{x}{\mathcal {M}}}
+ be the tangent space at 
+x
+{\displaystyle x}
+. Then the cotangent space at x is defined as the dual space of 
+T
+x
+M
+{\displaystyle T_{x}{\mathcal {M}}}
+:
+Concretely, elements of the cotangent space are linear functionals on 
+T
+x
+M
+{\displaystyle T_{x}{\mathcal {M}}}
+. That is, every element 
+α
+∈
+T
+x
+∗
+M
+{\displaystyle \alpha \in T_{x}^{*}{\mathcal {M}}}
+ is a linear map
+where 
+F
+{\displaystyle F}
+ is the underlying field of the vector space being considered, for example, the field of real numbers. The elements of 
+T
+x
+∗
+M
+{\displaystyle T_{x}^{*}\!{\mathcal {M}}}
+ are called cotangent vectors.
+In some cases, one might like to have a direct definition of the cotangent space without reference to the tangent space. Such a definition can be formulated in terms of equivalence classes of smooth functions on 
+M
+{\displaystyle {\mathcal {M}}}
+. Informally, we will say that two smooth functions f and g are equivalent at a point 
+x
+{\displaystyle x}
+ if they have the same first-order behavior near 
+x
+{\displaystyle x}
+, analogous to their linear Taylor polynomials; two functions f and g have the same first order behavior near 
+x
+{\displaystyle x}
+ if and only if the derivative of the function f − g vanishes at 
+x
+{\displaystyle x}
+. The cotangent space will then consist of all the possible first-order behaviors of a function near 
+x
+{\displaystyle x}
+.
+Let 
+M
+{\displaystyle {\mathcal {M}}}
+ be a smooth manifold and let x be a point in 
+M
+{\displaystyle {\mathcal {M}}}
+. Let 
+I
+x
+{\displaystyle I_{x}}
+be the ideal of all functions in 
+C
+∞
+(
+M
+)
+{\displaystyle C^{\infty }\!({\mathcal {M}})}
+ vanishing at 
+x
+{\displaystyle x}
+, and let 
+I
+x
+2
+{\displaystyle I_{x}^{2}}
+ be the set of functions of the form 
+∑
+i
+f
+i
+g
+i
+{\textstyle \sum _{i}f_{i}g_{i}}
+, where 
+f
+i
+,
+g
+i
+∈
+I
+x
+{\displaystyle f_{i},g_{i}\in I_{x}}
+. Then 
+I
+x
+{\displaystyle I_{x}}
+ and 
+I
+x
+2
+{\displaystyle I_{x}^{2}}
+ are both real vector spaces and the cotangent space can be defined as the quotient space 
+T
+x
+∗
+M
+=
+I
+x
+/
+I
+x
+2
+{\displaystyle T_{x}^{*}\!{\mathcal {M}}=I_{x}/I_{x}^{2}}
+ by showing that the two spaces are isomorphic to each other.
+This formulation is analogous to the construction of the cotangent space to define the Zariski tangent space in algebraic geometry. The construction also generalizes to locally ringed spaces.
+Let 
+M
+{\displaystyle M}
+ be a smooth manifold and let 
+f
+∈
+C
+∞
+(
+M
+)
+{\displaystyle f\in C^{\infty }(M)}
+ be a smooth function. The differential of 
+f
+{\displaystyle f}
+ at a point 
+x
+{\displaystyle x}
+ is the map
+where 
+X
+x
+{\displaystyle X_{x}}
+ is a tangent vector at 
+x
+{\displaystyle x}
+, thought of as a derivation. That is 
+X
+(
+f
+)
+=
+L
+X
+f
+{\displaystyle X(f)={\mathcal {L}}_{X}f}
+ is the Lie derivative of 
+f
+{\displaystyle f}
+ in the direction 
+X
+{\displaystyle X}
+, and one has 
+d
+f
+(
+X
+)
+=
+X
+(
+f
+)
+{\displaystyle \mathrm {d} f(X)=X(f)}
+.  Equivalently, we can think of tangent vectors as tangents to curves, and write
+In either case, 
+d
+f
+x
+{\displaystyle \mathrm {d} f_{x}}
+ is a linear map on 
+T
+x
+M
+{\displaystyle T_{x}M}
+ and hence it is a tangent covector at 
+x
+{\displaystyle x}
+.
+We can then define the differential map 
+d
+:
+C
+∞
+(
+M
+)
+→
+T
+x
+∗
+(
+M
+)
+{\displaystyle \mathrm {d} :C^{\infty }(M)\to T_{x}^{*}(M)}
+ at a point 
+x
+{\displaystyle x}
+ as the map which sends 
+f
+{\displaystyle f}
+ to 
+d
+f
+x
+{\displaystyle \mathrm {d} f_{x}}
+. Properties of the differential map include:
+The differential map provides the link between the two alternate definitions of the cotangent space given above. Given a function 
+f
+∈
+I
+x
+{\displaystyle f\in I_{x}}
+ (a smooth function vanishing at 
+x
+{\displaystyle x}
+) we can form the linear functional 
+d
+f
+x
+{\displaystyle \mathrm {d} f_{x}}
+ as above. Since the map 
+d
+{\displaystyle \mathrm {d} }
+ restricts to 0 on 
+I
+x
+2
+{\displaystyle I_{x}^{2}}
+ (the reader should verify this), 
+d
+{\displaystyle \mathrm {d} }
+ descends to a map from 
+I
+x
+/
+I
+x
+2
+{\displaystyle I_{x}/I_{x}^{2}}
+ to the dual of the tangent space, 
+(
+T
+x
+M
+)
+∗
+{\displaystyle (T_{x}M)^{*}}
+. One can show that this map is an isomorphism, establishing the equivalence of the two definitions.
+Just as every differentiable map 
+f
+:
+M
+→
+N
+{\displaystyle f:M\to N}
+ between manifolds induces a linear map (called the pushforward or derivative) between the tangent spaces
+every such map induces a linear map (called the pullback) between the cotangent spaces, only this time in the reverse direction:
+The pullback is naturally defined as the dual (or transpose) of the pushforward. Unraveling the definition, this means the following:
+where 
+θ
+∈
+T
+f
+(
+x
+)
+∗
+N
+{\displaystyle \theta \in T_{f(x)}^{*}N}
+ and 
+X
+x
+∈
+T
+x
+M
+{\displaystyle X_{x}\in T_{x}M}
+. Note carefully where everything lives.
+If we define tangent covectors in terms of equivalence classes of smooth maps vanishing at a point then the definition of the pullback is even more straightforward. Let 
+g
+{\displaystyle g}
+ be a smooth function on 
+N
+{\displaystyle N}
+ vanishing at 
+f
+(
+x
+)
+{\displaystyle f(x)}
+. Then the pullback of the covector determined by 
+g
+{\displaystyle g}
+ (denoted 
+d
+g
+{\displaystyle \mathrm {d} g}
+) is given by
+That is, it is the equivalence class of functions on 
+M
+{\displaystyle M}
+ vanishing at 
+x
+{\displaystyle x}
+ determined by 
+g
+∘
+f
+{\displaystyle g\circ f}
+.
+The 
+k
+{\displaystyle k}
+-th exterior power of the cotangent space, denoted 
+Λ
+k
+(
+T
+x
+∗
+M
+)
+{\displaystyle \Lambda ^{k}(T_{x}^{*}{\mathcal {M}})}
+, is another important object in differential geometry. Vectors in the 
+k
+{\displaystyle k}
+-th exterior power, or more precisely sections of the 
+k
+{\displaystyle k}
+-th exterior power of the cotangent bundle, are called differential 
+k
+{\displaystyle k}
+-forms. They can be thought of as alternating, multilinear maps on 
+k
+{\displaystyle k}
+ tangent vectors. 
+For this reason, tangent covectors are frequently called one-forms.

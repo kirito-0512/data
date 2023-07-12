@@ -1,0 +1,19 @@
+33831,
+Statistics,
+While you read this, Wikipedia develops at a rate of over 2 edits every second, performed by editors from all over the world. Currently, the English Wikipedia includes 6,680,145 articles and it averages 548 new articles per day. This amount of data can be analyzed in many ways. The best way to get an idea of the bigger picture is with statistics.
+This page shows some figures about Wikipedia, analysis of different patterns, and compiles related tools, covering various aspects of Wikipedia, whether as an encyclopedia, a website, or a community. Some provide current snapshots and others track growth and development over time. It also includes frameworks and datasets that can help you in creating your own statistics.
+Below are links to the two of the most prominent pages that serve as hubs for multiple databases and reports that provide continuous updated data regarding recent activity and development at Wikipedia. Other links further down on this page pertain to specific quantitative indicators. 
+Statistical breakdowns using lists, tables and rankings.
+As of 2022, the median article is a stub.  This typically means that it contains a few sentences on the subject.  (Elements such as images, infoboxes, and most lists are not usually counted in this calculation.)  
+
+As a rule of thumb, the more popular the article is as measured by page views, the higher quality it will be.  As of 2022, about 50% of articles at the English Wikipedia contain at least one image.
+A relatively stable 10% of editors who make over 5 edits each month make over 100 edits.
+Graph showing the number of days between every 10,000,000 edits.
+The English Wikipedia and the other Wikimedia projects can get ~10 billion views per month each. See overview at Wikimedia Statistics.
+This includes rankings overall, by time period and sudden traffic spikes.
+The analytics.wikimedia.org site provides 
+The following tools include artistic, graphs, maps and other visualization projects.
+There are some available datasets that you can download and process:
+The following statistical resources are currently unavailable or no longer updated, and listed for historical interest. They are sorted by the month in which they were last updated:
+
+

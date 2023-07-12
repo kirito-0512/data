@@ -1,0 +1,267 @@
+24764,
+Pointlesstopology,
+In mathematics, pointless topology, also called point-free topology (or pointfree topology) and locale theory, is an approach to topology that avoids mentioning points, and in which the lattices of open sets are the primitive notions.[1] In this approach it becomes possible to construct topologically interesting spaces from purely algebraic data.[2]
+The first approaches to topology were geometrical, where one started from Euclidean space and patched things together. But Marshall Stone's work on Stone duality in the 1930s showed that topology can be viewed from an algebraic point of view (lattice-theoretic). Apart from Stone, Henry Wallman was the first person to exploit this idea. Others continued this path till Charles Ehresmann and his student Jean Bénabou (and simultaneously others), made the next fundamental step in the late fifties. Their insights arose from the study of "topological" and "differentiable" categories.[2]
+Ehresmann's approach involved using a category whose objects were complete lattices which satisfied a distributive law and whose morphisms were maps which preserved finite meets and arbitrary joins. He called such lattices "local lattices"; today they are called "frames" to avoid ambiguity with other notions in lattice theory.[3]
+The theory of frames and locales in the contemporary sense was developed through the following decades (John Isbell, Peter Johnstone, Harold Simmons, Bernhard Banaschewski, Aleš Pultr, Till Plewe, Japie Vermeulen, Steve Vickers) into a lively branch of topology, with application in various fields, in particular also in theoretical computer science. For more on the history of locale theory see Johnstone's overview.[4]
+Traditionally, a topological space consists of a set of points together with a topology, a system of subsets called open sets that with the operations of  union (as join) and intersection (as  meet) forms a lattice with certain properties. Specifically, the union of any family of open sets is again an open set, and the intersection of finitely many open set is again open. In pointless topology we take these properties of the lattice as fundamental, without requiring that the lattice elements be sets of points of some underlying space and that the lattice operation be intersection and union. Rather, point-free topology is based on the concept of a "realistic spot" instead of a point without extent. These "spots" can be joined (symbol 
+
+
+
+∨
+
+
+{\displaystyle \vee }
+
+), akin to a union, and we also have a meet operation for spots (symbol 
+
+
+
+∧
+
+
+{\displaystyle \land }
+
+), akin to an intersection. Using these two operations, the spots form a complete lattice. If a spot meets a join of others it has to meet some of the constituents, which, roughly speaking, leads to the distributive law
+where the 
+
+
+
+
+a
+
+i
+
+
+
+
+{\displaystyle a_{i}}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ are spots and the index family 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ can be arbitrarily large. This distributive law is also satisfied by the lattice of open sets of a topological space.
+If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ are topological spaces with lattices of open sets denoted by 
+
+
+
+Ω
+(
+X
+)
+
+
+{\displaystyle \Omega (X)}
+
+ and 
+
+
+
+Ω
+(
+Y
+)
+
+
+{\displaystyle \Omega (Y)}
+
+, respectively, and 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f\colon X\to Y}
+
+ is a continuous map, then, since the pre-image of an open set under a continuous map is open, we obtain a map of lattices in the opposite direction: 
+
+
+
+
+f
+
+∗
+
+
+:
+Ω
+(
+Y
+)
+→
+Ω
+(
+X
+)
+
+
+{\displaystyle f^{*}\colon \Omega (Y)\to \Omega (X)}
+
+. Such "opposite-direction" lattice maps thus serve as the proper generalization of continuous maps in the point-free setting.
+The basic concept is that of a frame, a complete lattice satisfying the general distributive law above; frame homomorphisms are maps between frames that respect all joins (in particular, the least element of the lattice) and finite meets (in particular, the greatest element of the lattice). Frames, together with frame homomorphisms, form a category.
+The opposite category of the category of frames is known as the category of locales. A locale 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is thus nothing but a frame; if we consider it as a frame, we will write it as 
+
+
+
+O
+(
+X
+)
+
+
+{\displaystyle O(X)}
+
+. A locale morphism 
+
+
+
+X
+→
+Y
+
+
+{\displaystyle X\to Y}
+
+ from the locale 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ to the locale 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is given by a frame homomorphism 
+
+
+
+O
+(
+Y
+)
+→
+O
+(
+X
+)
+
+
+{\displaystyle O(Y)\to O(X)}
+
+.
+Every topological space 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ gives rise to a frame 
+
+
+
+Ω
+(
+T
+)
+
+
+{\displaystyle \Omega (T)}
+
+ of open sets and thus to a locale. A locale is called spatial if it isomorphic (in the category of locales) to a locale arising from a topological space in this manner. 
+We have seen that we have a functor 
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+
+ from the category of topological spaces and continuous maps to the category of locales. If we restrict this functor to the full subcategory of sober spaces, we obtain a full embedding of the category of sober spaces and continuous maps into the category of locales. In this sense, locales are generalizations of sober spaces.
+It is possible to translate most concepts of point-set topology into the context of locales, and prove analogous theorems. Some important facts of classical topology depending on choice principles become choice-free (that is, constructive, which is, in particular, appealing for computer science). Thus for instance, arbitrary products of compact locales are compact constructively (this is Tychonoff's theorem in point-set topology), or completions of uniform locales are constructive. This can be useful if one works in a topos that does not have the axiom of choice.[5] Other advantages include the much better behaviour of paracompactness, with arbitrary products of paracompact locales being paracompact, which is not true for paracompact spaces, or the fact that subgroups of localic groups are always closed.
+Another point where topology and locale theory diverge strongly is the concepts of subspaces versus sublocales, and density: given any collection of dense sublocales of a locale 
+
+
+
+X
+
+
+{\displaystyle X}
+
+, their intersection is also dense in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+.[6] This leads to Isbell's density theorem: every locale has a smallest dense sublocale. These results have no equivalent in the realm of topological spaces.
+A general introduction to pointless topology is
+This is, in its own words, to be read as the trailer for Johnstone's monograph (which appeared already in 1982 and can still be used for basic reference):
+There is a recent monograph
+where one also finds a more extensive bibliography.
+For relations with logic:
+For a more concise account see the respective chapters in:
+
+

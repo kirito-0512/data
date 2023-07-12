@@ -1,0 +1,408 @@
+2823,
+Antiderivative,
+In calculus, an antiderivative, inverse derivative, primitive function, primitive integral or indefinite integral[Note 1] of a function f is a differentiable function F whose derivative is equal to the original function f. This can be stated symbolically as F'  = f.[1][2] The process of solving for antiderivatives is called antidifferentiation (or indefinite integration), and its opposite operation is called differentiation, which is the process of finding a derivative. Antiderivatives are often denoted by capital Roman letters such as F and G.
+Antiderivatives are related to definite integrals through the second fundamental theorem of calculus: the definite integral of a function over a closed interval where the function is Riemann integrable is equal to the difference between the values of an antiderivative evaluated at the endpoints of the interval.
+In physics, antiderivatives arise in the context of rectilinear motion (e.g., in explaining the relationship between position, velocity and acceleration).[3] The discrete equivalent of the notion of antiderivative is antidifference.
+The function 
+F
+(
+x
+)
+=
+x
+3
+3
+{\displaystyle F(x)={\tfrac {x^{3}}{3}}}
+ is an antiderivative of 
+f
+(
+x
+)
+=
+x
+2
+{\displaystyle f(x)=x^{2}}
+, since the derivative of 
+x
+3
+3
+{\displaystyle {\tfrac {x^{3}}{3}}}
+ is 
+x
+2
+{\displaystyle x^{2}}
+, and since the derivative of a constant is zero, 
+x
+2
+{\displaystyle x^{2}}
+ will have an infinite number of antiderivatives, such as 
+x
+3
+3
+,
+x
+3
+3
++
+1
+,
+x
+3
+3
+−
+2
+{\displaystyle {\tfrac {x^{3}}{3}},{\tfrac {x^{3}}{3}}+1,{\tfrac {x^{3}}{3}}-2}
+, etc. Thus, all the antiderivatives of 
+x
+2
+{\displaystyle x^{2}}
+ can be obtained by changing the value of c in 
+F
+(
+x
+)
+=
+x
+3
+3
++
+c
+{\displaystyle F(x)={\tfrac {x^{3}}{3}}+c}
+, where c is an arbitrary constant known as the constant of integration. Essentially, the graphs of antiderivatives of a given function are vertical translations of each other, with each graph's vertical location depending upon the value c.
+More generally, the power function 
+f
+(
+x
+)
+=
+x
+n
+{\displaystyle f(x)=x^{n}}
+ has antiderivative 
+F
+(
+x
+)
+=
+x
+n
++
+1
+n
++
+1
++
+c
+{\displaystyle F(x)={\tfrac {x^{n+1}}{n+1}}+c}
+ if n ≠ −1, and 
+F
+(
+x
+)
+=
+ln
+⁡
+|
+x
+|
++
+c
+{\displaystyle F(x)=\ln |x|+c}
+ if n = −1.
+In physics, the integration of acceleration yields velocity plus a constant. The constant is the initial velocity term that would be lost upon taking the derivative of velocity, because the derivative of a constant term is zero. This same pattern applies to further integrations and derivatives of motion (position, velocity, acceleration, and so on).[3] Thus, integration produces the relations of acceleration, velocity and displacement:
+∫
+a
+d
+t
+=
+v
++
+C
+∫
+v
+d
+t
+=
+s
++
+C
+{\displaystyle {\begin{aligned}\int a\,\mathrm {d} t&=v+C\\\int v\,\mathrm {d} t&=s+C\end{aligned}}}
+Antiderivatives can be used to compute definite integrals, using the fundamental theorem of calculus: if F is an antiderivative of the integrable function f over the interval 
+[
+a
+,
+b
+]
+{\displaystyle [a,b]}
+, then:
+∫
+a
+b
+f
+(
+x
+)
+d
+x
+=
+F
+(
+b
+)
+−
+F
+(
+a
+)
+.
+{\displaystyle \int _{a}^{b}f(x)\,\mathrm {d} x=F(b)-F(a).}
+Because of this, each of the infinitely many antiderivatives of a given function f may be called the "indefinite integral" of f and written using the integral symbol with no bounds:
+∫
+f
+(
+x
+)
+d
+x
+.
+{\displaystyle \int f(x)\,\mathrm {d} x.}
+If F is an antiderivative of f, and the function f is defined on some interval, then every other antiderivative G of f differs from F by a constant: there exists a number c such that 
+G
+(
+x
+)
+=
+F
+(
+x
+)
++
+c
+{\displaystyle G(x)=F(x)+c}
+ for all x. c is called the constant of integration. If the domain of F is a disjoint union of two or more (open) intervals, then a different constant of integration may be chosen for each of the intervals. For instance
+F
+(
+x
+)
+=
+{
+−
+1
+x
++
+c
+1
+x
+<
+0
+−
+1
+x
++
+c
+2
+x
+>
+0
+{\displaystyle F(x)={\begin{cases}-{\dfrac {1}{x}}+c_{1}&x<0\\[1ex]-{\dfrac {1}{x}}+c_{2}&x>0\end{cases}}}
+is the most general antiderivative of 
+f
+(
+x
+)
+=
+1
+/
+x
+2
+{\displaystyle f(x)=1/x^{2}}
+ on its natural domain 
+(
+−
+∞
+,
+0
+)
+∪
+(
+0
+,
+∞
+)
+.
+{\displaystyle (-\infty ,0)\cup (0,\infty ).}
+Every continuous function f has an antiderivative, and one antiderivative F is given by the definite integral of f with variable upper boundary:
+F
+(
+x
+)
+=
+∫
+a
+x
+f
+(
+t
+)
+d
+t
+ 
+,
+{\displaystyle F(x)=\int _{a}^{x}f(t)\,\mathrm {d} t~,}
+for any a in the domain of f. Varying the lower boundary produces other antiderivatives, but not necessarily all possible antiderivatives. This is another formulation of the fundamental theorem of calculus.
+There are many functions whose antiderivatives, even though they exist, cannot be expressed in terms of elementary functions (like polynomials, exponential functions, logarithms, trigonometric functions, inverse trigonometric functions and their combinations). Examples of these are
+For a more detailed discussion, see also Differential Galois theory.
+Finding antiderivatives of elementary functions is often considerably harder than finding their derivatives (indeed, there is no pre-defined method for computing indefinite integrals).[4] For some elementary functions, it is impossible to find an antiderivative in terms of other elementary functions. To learn more, see elementary functions and nonelementary integral.
+There exist many properties and techniques for finding antiderivatives. These include, among others:
+Computer algebra systems can be used to automate some or all of the work involved in the symbolic techniques above, which is particularly useful when the algebraic manipulations involved are very complex or lengthy. Integrals which have already been derived can be looked up in a table of integrals.
+Non-continuous functions can have antiderivatives. While there are still open questions in this area, it is known that:
+Assuming that the domains of the functions are open intervals:
+f
+(
+x
+)
+=
+2
+x
+sin
+⁡
+(
+1
+x
+)
+−
+cos
+⁡
+(
+1
+x
+)
+{\displaystyle f(x)=2x\sin \left({\frac {1}{x}}\right)-\cos \left({\frac {1}{x}}\right)}
+with 
+f
+(
+0
+)
+=
+0
+{\displaystyle f(0)=0}
+ is not continuous at 
+x
+=
+0
+{\displaystyle x=0}
+ but has the antiderivative
+F
+(
+x
+)
+=
+x
+2
+sin
+⁡
+(
+1
+x
+)
+{\displaystyle F(x)=x^{2}\sin \left({\frac {1}{x}}\right)}
+for all values x where the series converges, and that the graph of F(x) has vertical tangent lines at all other values of x. In particular the graph has vertical tangent lines at all points in the set 
+{
+x
+n
+}
+n
+≥
+1
+{\displaystyle \{x_{n}\}_{n\geq 1}}
+.
+Moreover 
+F
+(
+x
+)
+≥
+0
+{\displaystyle F(x)\geq 0}
+ for all x where the derivative is defined. It follows that the inverse function 
+G
+=
+F
+−
+1
+{\displaystyle G=F^{-1}}
+ is differentiable everywhere and that
+g
+(
+x
+)
+=
+G
+′
+(
+x
+)
+=
+0
+{\displaystyle g(x)=G'(x)=0}
+for all x in the set 
+{
+F
+(
+x
+n
+)
+}
+n
+≥
+1
+{\displaystyle \{F(x_{n})\}_{n\geq 1}}
+ which is dense in the interval 
+[
+F
+(
+−
+1
+)
+,
+F
+(
+1
+)
+]
+.
+{\displaystyle [F(-1),F(1)].}
+ Thus g has an antiderivative G. On the other hand, it can not be true that
+∫
+F
+(
+−
+1
+)
+F
+(
+1
+)
+g
+(
+x
+)
+d
+x
+=
+G
+F
+(
+1
+)
+−
+G
+F
+(
+−
+1
+)
+=
+2
+,
+{\displaystyle \int _{F(-1)}^{F(1)}g(x)\,\mathrm {d} x=GF(1)-GF(-1)=2,}

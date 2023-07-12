@@ -1,0 +1,14 @@
+38216,
+Znotation,
+
+The Z notation /ˈzɛd/ is a formal specification language used for describing and modelling computing systems.[1] It is targeted at the clear specification of computer programs and computer-based systems in general.
+In 1974, Jean-Raymond Abrial published "Data Semantics".[2] He used a notation that would later be taught in the University of Grenoble until the end of the 1980s. While at EDF (Électricité de France), working with Bertrand Meyer, Abrial also worked on developing Z.[3] The Z notation is used in the 1980 book Méthodes de programmation.[4]
+Z was originally proposed by Abrial in 1977 with the help of Steve Schuman and Bertrand Meyer.[5] It was developed further at the Programming Research Group at Oxford University, where Abrial worked in the early 1980s, having arrived at Oxford in September 1979.
+Abrial has said that Z is so named "Because it is the ultimate language!"[6] although the name "Zermelo" is also associated with the Z notation through its use of Zermelo–Fraenkel set theory.
+In 1992, the Z User Group (ZUG) was established to oversee activities concerning the Z notation, especially meetings and conferences.[7]
+Z is based on the standard mathematical notation used in axiomatic set theory, lambda calculus, and first-order predicate logic.[8] All expressions in Z notation are typed, thereby avoiding some of the paradoxes of naive set theory. Z contains a standardized catalogue (called the mathematical toolkit) of commonly used mathematical functions and predicates, defined using Z itself. It is augmented with Z schema boxes, which can be combined using their own operators, based on standard logical operators, and also by including schemas within other schemas. This allows Z specifications to be built up into large specifications in a convenient manner.
+Because Z notation (just like the APL language, long before it) uses many non-ASCII symbols, the specification includes suggestions for rendering the Z notation symbols in ASCII and in LaTeX. There are also Unicode encodings for all standard Z symbols.[9]
+ISO completed a Z standardization effort in 2002. This standard[10] and a technical corrigendum[11] are available from ISO free:
+In 1992, Oxford University Computing Laboratory was awarded The Queen's Award for Technological Achievement for their joint development with IBM of Z notation.[12]
+
+

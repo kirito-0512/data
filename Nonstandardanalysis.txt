@@ -1,0 +1,420 @@
+21708,
+Nonstandardanalysis,
+
+The history of calculus is fraught with philosophical debates about the meaning and logical validity of fluxions or infinitesimal numbers. The standard way to resolve these debates is to define the operations of calculus using epsilon–delta procedures rather than infinitesimals. Nonstandard analysis[1][2][3] instead reformulates the calculus using a logically rigorous notion of infinitesimal numbers.
+Nonstandard analysis originated in the early 1960s by the mathematician Abraham Robinson.[4][5] He wrote:
+... the idea of infinitely small or infinitesimal quantities seems to appeal naturally to our intuition. At any rate, the use of infinitesimals was widespread during the formative stages of the Differential and Integral Calculus. As for the objection ... that the distance between two distinct real numbers cannot be infinitely small, Gottfried Wilhelm Leibniz argued that the theory of infinitesimals implies the introduction of ideal numbers which might be infinitely small or infinitely large compared with the real numbers but which were to possess the same properties as the latter.Robinson argued that this law of continuity of Leibniz's is a precursor of the transfer principle. Robinson continued:
+However, neither he nor his disciples and successors were able to give a rational development leading up to a system of this sort. As a result, the theory of infinitesimals gradually fell into disrepute and was replaced eventually by the classical theory of limits.[6]Robinson continues:
+... Leibniz's ideas can be fully vindicated and ... they lead to a novel and fruitful approach to classical Analysis and to many other branches of mathematics. The key to our method is provided by the detailed analysis of the relation between mathematical languages and mathematical structures which lies at the bottom of contemporary model theory.In 1973, intuitionist Arend Heyting praised nonstandard analysis as "a standard model of important mathematical research".[7]
+A non-zero element of an ordered field 
+
+
+
+
+F
+
+
+
+{\displaystyle \mathbb {F} }
+
+ is infinitesimal if and only if its absolute value is smaller than any element of 
+
+
+
+
+F
+
+
+
+{\displaystyle \mathbb {F} }
+
+ of the form 
+
+
+
+
+
+1
+n
+
+
+
+
+{\displaystyle {\frac {1}{n}}}
+
+, for 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ a standard natural number. Ordered fields that have infinitesimal elements are also called non-Archimedean. More generally, nonstandard analysis is any form of mathematics that relies on nonstandard models and the transfer principle. A field that satisfies the transfer principle for real numbers is called a real closed field, and nonstandard real analysis uses these fields as nonstandard models of the real numbers.
+Robinson's original approach was based on these nonstandard models of the field of real numbers. His classic foundational book on the subject Nonstandard Analysis was published in 1966 and is still in print.[8] On page 88, Robinson writes:
+The existence of nonstandard models of arithmetic was discovered by Thoralf Skolem (1934). Skolem's method foreshadows the ultrapower construction [...]Several technical issues must be addressed to develop a calculus of infinitesimals. For example, it is not enough to construct an ordered field with infinitesimals. See the article on hyperreal numbers for a discussion of some of the relevant ideas.
+In this section we outline one of the simplest approaches to defining a hyperreal field 
+
+
+
+
+
+
+∗
+
+
+
+R
+
+
+
+{\displaystyle ^{*}\mathbb {R} }
+
+. Let 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ be the field of real numbers, and let 
+
+
+
+
+N
+
+
+
+{\displaystyle \mathbb {N} }
+
+ be the semiring of natural numbers. Denote by 
+
+
+
+
+
+R
+
+
+
+N
+
+
+
+
+
+{\displaystyle \mathbb {R} ^{\mathbb {N} }}
+
+ the set of sequences of real numbers. A field 
+
+
+
+
+
+
+∗
+
+
+
+R
+
+
+
+{\displaystyle ^{*}\mathbb {R} }
+
+ is defined as a suitable quotient of 
+
+
+
+
+
+R
+
+
+
+N
+
+
+
+
+
+{\displaystyle \mathbb {R} ^{\mathbb {N} }}
+
+, as follows. Take a nonprincipal ultrafilter 
+
+
+
+F
+⊆
+P
+(
+
+N
+
+)
+
+
+{\displaystyle F\subseteq P(\mathbb {N} )}
+
+. In particular, 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ contains the Fréchet filter. Consider a pair of sequences
+We say that 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ and 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ are equivalent if they coincide on a set of indices that is a member of the ultrafilter, or in formulas:
+The quotient of 
+
+
+
+
+
+R
+
+
+
+N
+
+
+
+
+
+{\displaystyle \mathbb {R} ^{\mathbb {N} }}
+
+ by the resulting equivalence relation is a hyperreal field 
+
+
+
+
+
+
+∗
+
+
+
+R
+
+
+
+{\displaystyle ^{*}\mathbb {R} }
+
+, a situation summarized by the formula 
+
+
+
+
+
+
+∗
+
+
+
+R
+
+=
+
+
+
+R
+
+
+
+N
+
+
+
+
+
+/
+
+
+F
+
+
+
+{\displaystyle ^{*}\mathbb {R} ={\mathbb {R} ^{\mathbb {N} }}/{F}}
+
+.
+There are at least three reasons to consider nonstandard analysis: historical, pedagogical, and technical.
+Much of the earliest development of the infinitesimal calculus by Newton and Leibniz was formulated using expressions such as infinitesimal number and vanishing quantity. As noted in the article on hyperreal numbers, these formulations were widely criticized by George Berkeley and others. The challenge of developing a consistent and satisfactory theory of analysis using infinitesimals was first met by Abraham Robinson.[6]
+In 1958 Curt Schmieden and Detlef Laugwitz published an article "Eine Erweiterung der Infinitesimalrechnung"[9] ("An Extension of Infinitesimal Calculus") which proposed a construction of a ring containing infinitesimals. The ring was constructed from sequences of real numbers. Two sequences were considered equivalent if they differed only in a finite number of elements. Arithmetic operations were defined elementwise. However, the ring constructed in this way contains zero divisors and thus cannot be a field.
+H. Jerome Keisler, David Tall, and other educators maintain that the use of infinitesimals is more intuitive and more easily grasped by students than the "epsilon–delta" approach to analytic concepts.[10] This approach can sometimes provide easier proofs of results than the corresponding epsilon–delta formulation of the proof. Much of the simplification comes from applying very easy rules of nonstandard arithmetic, as follows:
+together with the transfer principle mentioned below.
+Another pedagogical application of nonstandard analysis is Edward Nelson's treatment of the theory of stochastic processes.[11]
+Some recent work has been done in analysis using concepts from nonstandard analysis, particularly in investigating limiting processes of statistics and mathematical physics. Sergio Albeverio et al.[12] discuss some of these applications.
+There are two, main, different approaches to nonstandard analysis: the semantic or model-theoretic approach and the syntactic approach. Both of these approaches apply to other areas of mathematics beyond analysis, including number theory, algebra and topology.
+Robinson's original formulation of nonstandard analysis falls into the category of the semantic approach. As developed by him in his papers, it is based on studying models (in particular saturated models) of a theory. Since Robinson's work first appeared, a simpler semantic approach (due to Elias Zakon) has been developed using purely set-theoretic objects called superstructures. In this approach a model of a theory is replaced by an object called a superstructure V(S) over a set S. Starting from a superstructure V(S) one constructs another object *V(S) using the ultrapower construction together with a mapping V(S) → *V(S) that satisfies the transfer principle. The map * relates formal properties of V(S) and *V(S). Moreover, it is possible to consider a simpler form of saturation called countable saturation. This simplified approach is also more suitable for use by mathematicians who are not specialists in model theory or logic.
+The syntactic approach requires much less logic and model theory to understand and use. This approach was developed in the mid-1970s by the mathematician Edward Nelson. Nelson introduced an entirely axiomatic formulation of nonstandard analysis that he called internal set theory (IST).[13] IST is an extension of Zermelo–Fraenkel set theory (ZF) in that alongside the basic binary membership relation ∈, it introduces a new unary predicate standard, which can be applied to elements of the mathematical universe together with some axioms for reasoning with this new predicate.
+Syntactic nonstandard analysis requires a great deal of care in applying the principle of set formation (formally known as the axiom of comprehension), which mathematicians usually take for granted. As Nelson points out, a fallacy in reasoning in IST is that of illegal set formation. For instance, there is no set in IST whose elements are precisely the standard integers (here standard is understood in the sense of the new predicate). To avoid illegal set formation, one must only use predicates of ZFC to define subsets.[13]
+Another example of the syntactic approach is the Alternative Set Theory[14] introduced by Petr Vopěnka, trying to find set-theory axioms more compatible with the nonstandard analysis than the axioms of ZF.
+Abraham Robinson's book Nonstandard analysis was published in 1966. Some of the topics developed in the book were already present in his 1961 article by the same title (Robinson 1961).[15] In addition to containing the first full treatment of nonstandard analysis, the book contains a detailed historical section where Robinson challenges some of the received opinions on the history of mathematics based on the pre–nonstandard analysis perception of infinitesimals as inconsistent entities. Thus, Robinson challenges the idea that Augustin-Louis Cauchy's "sum theorem" in Cours d'Analyse concerning the convergence of a series of continuous functions was incorrect, and proposes an infinitesimal-based interpretation of its hypothesis that results in a correct theorem.
+Abraham Robinson and Allen Bernstein used nonstandard analysis to prove that every polynomially compact linear operator on a Hilbert space has an invariant subspace.[16]
+Given an operator T on Hilbert space H, consider the orbit of a point v in H under the iterates of T. Applying Gram–Schmidt one obtains an orthonormal basis (ei) for H. Let (Hi) be the corresponding nested sequence of "coordinate" subspaces of H. The matrix ai,j expressing T with respect to (ei) is almost upper triangular, in the sense that the coefficients ai+1,i are the only nonzero sub-diagonal coefficients. Bernstein and Robinson show that if T is polynomially compact, then there is a hyperfinite index w such that the matrix coefficient aw+1,w is infinitesimal. Next, consider the subspace Hw of *H. If y in Hw has finite norm, then T(y) is infinitely close to Hw.
+Now let Tw be the operator 
+
+
+
+
+P
+
+w
+
+
+∘
+T
+
+
+{\displaystyle P_{w}\circ T}
+
+ acting on Hw, where Pw is the orthogonal projection to Hw. Denote by q the polynomial such that q(T) is compact. The subspace Hw is internal of hyperfinite dimension. By transferring upper triangularisation of operators of finite-dimensional complex vector space, there is an internal orthonormal Hilbert space basis (ek) for Hw where k runs from 1 to w, such that each of the corresponding k-dimensional subspaces Ek is T-invariant. Denote by Πk the projection to the subspace Ek. For a nonzero vector x of finite norm in H, one can assume that q(T)(x) is nonzero, or |q(T)(x)| > 1 to fix ideas. Since q(T) is a compact operator, (q(Tw))(x) is infinitely close to q(T)(x) and therefore one has also |q(Tw)(x)| > 1. Now let j be the greatest index such that 
+
+
+
+
+|
+
+q
+(
+
+T
+
+w
+
+
+)
+
+(
+
+
+Π
+
+j
+
+
+(
+x
+)
+
+)
+
+
+|
+
+<
+
+
+
+1
+2
+
+
+
+
+
+{\displaystyle |q(T_{w})\left(\Pi _{j}(x)\right)|<{\tfrac {1}{2}}}
+
+. Then the space of all standard elements infinitely close to Ej is the desired invariant subspace.
+Upon reading a preprint of the Bernstein and Robinson paper, Paul Halmos reinterpreted their proof using standard techniques.[17] Both papers appeared back-to-back in the same issue of the Pacific Journal of Mathematics. Some of the ideas used in Halmos' proof reappeared many years later in Halmos' own work on quasi-triangular operators.
+Other results were received along the line of reinterpreting or reproving previously known results. Of particular interest is Teturo Kamae's proof[18] of the individual ergodic theorem or L. van den Dries and Alex Wilkie's treatment[19] of Gromov's theorem on groups of polynomial growth. Nonstandard analysis was used by Larry Manevitz and Shmuel Weinberger to prove a result in algebraic topology.[20]
+The real contributions of nonstandard analysis lie however in the concepts and theorems that utilize the new extended language of nonstandard set theory. Among the list of new applications in mathematics there are new approaches to probability,[11]
+hydrodynamics,[21] measure theory,[22] nonsmooth and harmonic analysis,[23] etc.
+There are also applications of nonstandard analysis to the theory of stochastic processes, particularly constructions of Brownian motion as random walks. Albeverio et al.[12] have an excellent introduction to this area of research.
+As an application to mathematical education, H. Jerome Keisler wrote Elementary Calculus: An Infinitesimal Approach.[10] Covering nonstandard calculus, it develops differential and integral calculus using the hyperreal numbers, which include infinitesimal elements. These applications of nonstandard analysis depend on the existence of the standard part of a finite hyperreal r. The standard part of r, denoted st(r), is a standard real number infinitely close to r. One of the visualization devices Keisler uses is that of an imaginary infinite-magnification microscope to distinguish points infinitely close together. Keisler's book is now out of print, but is freely available from his website; see references below.
+Despite the elegance and appeal of some aspects of nonstandard analysis, criticisms have been voiced, as well, such as those by Errett Bishop, Alain Connes, and Paul Halmos, as documented at criticism of nonstandard analysis.
+Given any set S, the superstructure over a set S is the set V(S) defined by the conditions
+Thus the superstructure over S is obtained by starting from S and iterating the operation of adjoining the power set of S and taking the union of the resulting sequence. The superstructure over the real numbers includes a wealth of mathematical structures: For instance, it contains isomorphic copies of all separable metric spaces and metrizable topological vector spaces. Virtually all of mathematics that interests an analyst goes on within V(R).
+The working view of nonstandard analysis is a set *R and a mapping * : V(R) → V(*R) that satisfies some additional properties. To formulate these principles we first state some definitions.
+A formula has bounded quantification if and only if the only quantifiers that occur in the formula have range restricted over sets, that is are all of the form:
+For example, the formula
+has bounded quantification, the universally quantified variable x ranges over A, the existentially quantified variable y ranges over the powerset of B. On the other hand,
+does not have bounded quantification because the quantification of y is unrestricted.
+A set x is internal if and only if x is an element of *A for some element A of V(R). *A itself is internal if A belongs to V(R).
+We now formulate the basic logical framework of nonstandard analysis:
+One can show using ultraproducts that such a map * exists. Elements of V(R) are called standard. Elements of *R are called hyperreal numbers.
+The symbol *N denotes the nonstandard natural numbers. By the extension principle, this is a superset of N. The set *N − N is nonempty. To see this, apply countable saturation to the sequence of internal sets
+The sequence {An}n ∈ N has a nonempty intersection, proving the result.
+We begin with some definitions: Hyperreals r, s are infinitely close if and only if
+A hyperreal r is infinitesimal if and only if it is infinitely close to 0. For example, if n is a hyperinteger, i.e. an element of *N − N, then 1/n is an infinitesimal. A hyperreal r is limited (or finite) if and only if its absolute value is dominated by (less than) a standard integer. The limited hyperreals form a subring of *R containing the reals. In this ring, the infinitesimal hyperreals are an ideal.
+The set of limited hyperreals or the set of infinitesimal hyperreals are external subsets of V(*R); what this means in practice is that bounded quantification, where the bound is an internal set, never ranges over these sets.
+Example: The plane (x, y) with x and y ranging over *R is internal, and is a model of plane Euclidean geometry. The plane with x and y restricted to limited values (analogous to the Dehn plane) is external, and in this limited plane the parallel postulate is violated. For example, any line passing through the point (0, 1) on the y-axis and having infinitesimal slope is parallel to the x-axis.
+Theorem. For any limited hyperreal r there is a unique standard real denoted st(r) infinitely close to r. The mapping st is a ring homomorphism from the ring of limited hyperreals to R.
+The mapping st is also external.
+One way of thinking of the standard part of a hyperreal, is in terms of Dedekind cuts; any limited hyperreal s defines a cut by considering the pair of sets (L, U) where L is the set of standard rationals a less than s and U is the set of standard rationals b greater than s. The real number corresponding to (L, U) can be seen to satisfy the condition of being the standard part of s.
+One intuitive characterization of continuity is as follows:
+Theorem. A real-valued function f on the interval [a, b] is continuous if and only if for every hyperreal x in the interval *[a, b], we have: *f(x) ≅ *f(st(x)).
+(see microcontinuity for more details). Similarly,
+Theorem. A real-valued function f is differentiable at the real value x if and only if for every infinitesimal hyperreal number h, the value
+exists and is independent of h. In this case f′(x) is a real number and is the derivative of f at x.
+It is possible to "improve" the saturation by allowing collections of higher cardinality to be intersected. A model is κ-saturated if whenever 
+
+
+
+{
+
+A
+
+i
+
+
+
+}
+
+i
+∈
+I
+
+
+
+
+{\displaystyle \{A_{i}\}_{i\in I}}
+
+ is a collection of internal sets with the finite intersection property and 
+
+
+
+
+|
+
+I
+
+|
+
+≤
+κ
+
+
+{\displaystyle |I|\leq \kappa }
+
+,
+This is useful, for instance, in a topological space X, where we may want |2X|-saturation to ensure the intersection of a standard neighborhood base is nonempty.[24]
+For any cardinal κ, a κ-saturated extension can be constructed.[25]
+
+

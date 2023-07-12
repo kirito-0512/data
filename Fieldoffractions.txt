@@ -1,0 +1,680 @@
+25271,
+Fieldoffractions,
+Ring homomorphisms
+Algebraic structures
+Related structures
+Algebraic number theory
+p-adic number theory and decimals
+Algebraic geometry
+Noncommutative algebraic geometry
+Free algebra
+Clifford algebra
+In abstract algebra, the field of fractions of an integral domain is the smallest field in which it can be embedded. The construction of the field of fractions is modeled on the relationship between the integral domain of integers and the field of rational numbers. Intuitively, it consists of ratios between integral domain elements.
+The field of fractions of an integral domain 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is sometimes denoted by 
+
+
+
+Frac
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {Frac} (R)}
+
+ or 
+
+
+
+Quot
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {Quot} (R)}
+
+, and the construction is sometimes also called the fraction field, field of quotients, or quotient field of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+.  All four are in common usage, but are not to be confused with the quotient of a ring by an ideal, which is a quite different concept. For a commutative ring which is not an integral domain, the analogous construction is called the localization or ring of quotients.
+Given an integral domain 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ and letting 
+
+
+
+
+R
+
+∗
+
+
+=
+R
+∖
+{
+0
+}
+
+
+{\displaystyle R^{*}=R\setminus \{0\}}
+
+, we define an equivalence relation on 
+
+
+
+R
+×
+
+R
+
+∗
+
+
+
+
+{\displaystyle R\times R^{*}}
+
+ by letting 
+
+
+
+(
+n
+,
+d
+)
+∼
+(
+m
+,
+b
+)
+
+
+{\displaystyle (n,d)\sim (m,b)}
+
+ whenever 
+
+
+
+n
+b
+=
+m
+d
+
+
+{\displaystyle nb=md}
+
+. We denote the equivalence class of 
+
+
+
+(
+n
+,
+d
+)
+
+
+{\displaystyle (n,d)}
+
+ by 
+
+
+
+
+
+n
+d
+
+
+
+
+{\displaystyle {\frac {n}{d}}}
+
+. This notion of equivalence is motivated by the rational numbers 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+, which have the same property with respect to the underlying ring 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ of integers.
+Then the field of fractions is the set 
+
+
+
+
+Frac
+
+(
+R
+)
+=
+(
+R
+×
+
+R
+
+∗
+
+
+)
+
+/
+
+∼
+
+
+{\displaystyle {\text{Frac}}(R)=(R\times R^{*})/\sim }
+
+ with addition given by
+and multiplication given by 
+One may check that these operations are well-defined and that, for any integral domain 
+
+
+
+R
+
+
+{\displaystyle R}
+
+, 
+
+
+
+
+Frac
+
+(
+R
+)
+
+
+{\displaystyle {\text{Frac}}(R)}
+
+ is indeed a field. In particular, for 
+
+
+
+n
+,
+d
+≠
+0
+
+
+{\displaystyle n,d\neq 0}
+
+, the multiplicative inverse of 
+
+
+
+
+
+n
+d
+
+
+
+
+{\displaystyle {\frac {n}{d}}}
+
+ is as expected: 
+
+
+
+
+
+d
+n
+
+
+⋅
+
+
+n
+d
+
+
+=
+1
+
+
+{\displaystyle {\frac {d}{n}}\cdot {\frac {n}{d}}=1}
+
+.
+The embedding of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ in 
+
+
+
+Frac
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {Frac} (R)}
+
+ maps each 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ in 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ to the fraction 
+
+
+
+
+
+
+e
+n
+
+e
+
+
+
+
+{\displaystyle {\frac {en}{e}}}
+
+ for any nonzero 
+
+
+
+e
+∈
+R
+
+
+{\displaystyle e\in R}
+
+ (the equivalence class is independent of the choice 
+
+
+
+e
+
+
+{\displaystyle e}
+
+).  This is modeled on the identity 
+
+
+
+
+
+n
+1
+
+
+=
+n
+
+
+{\displaystyle {\frac {n}{1}}=n}
+
+.
+The field of fractions of 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is characterized by the following universal property:
+There is a categorical interpretation of this construction.  Let 
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbf {C} }
+
+ be the category of integral domains and injective ring maps.  The functor from 
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbf {C} }
+
+ to the category of fields which takes every integral domain to its fraction field and every homomorphism to the induced map on fields (which exists by the universal property) is the left adjoint of the inclusion functor from the category of fields to 
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbf {C} }
+
+. Thus the category of fields (which is a full subcategory) is a reflective subcategory of 
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbf {C} }
+
+.
+A multiplicative identity is not required for the role of the integral domain; this construction can be applied to any nonzero commutative rng 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ with no nonzero zero divisors. The embedding is given by 
+
+
+
+r
+↦
+
+
+
+r
+s
+
+s
+
+
+
+
+{\displaystyle r\mapsto {\frac {rs}{s}}}
+
+ for any nonzero 
+
+
+
+s
+∈
+R
+
+
+{\displaystyle s\in R}
+
+.[1]
+For any commutative ring 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ and any multiplicative set 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ in 
+
+
+
+R
+
+
+{\displaystyle R}
+
+, the localization 
+
+
+
+
+S
+
+−
+1
+
+
+R
+
+
+{\displaystyle S^{-1}R}
+
+ is the commutative ring consisting of fractions
+with 
+
+
+
+r
+∈
+R
+
+
+{\displaystyle r\in R}
+
+ and 
+
+
+
+s
+∈
+S
+
+
+{\displaystyle s\in S}
+
+, where now 
+
+
+
+(
+r
+,
+s
+)
+
+
+{\displaystyle (r,s)}
+
+ is equivalent to 
+
+
+
+(
+
+r
+′
+
+,
+
+s
+′
+
+)
+
+
+{\displaystyle (r',s')}
+
+ if and only if there exists 
+
+
+
+t
+∈
+S
+
+
+{\displaystyle t\in S}
+
+ such that 
+
+
+
+t
+(
+r
+
+s
+′
+
+−
+
+r
+′
+
+s
+)
+=
+0
+
+
+{\displaystyle t(rs'-r's)=0}
+
+.
+Two special cases of this are notable:
+Note that it is permitted for 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ to contain 0, but in that case 
+
+
+
+
+S
+
+−
+1
+
+
+R
+
+
+{\displaystyle S^{-1}R}
+
+ will be the trivial ring.
+The semifield of fractions of a commutative semiring with no zero divisors is the smallest semifield in which it can be embedded.
+The elements of the semifield of fractions of the commutative semiring 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ are equivalence classes written as
+with 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ in 
+
+
+
+R
+
+
+{\displaystyle R}
+
+.
+
+
