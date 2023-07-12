@@ -1,0 +1,12 @@
+13051,
+Gnumeric,
+
+Gnumeric is a spreadsheet program that is part of the GNOME Free Software Desktop Project. Gnumeric version 1.0 was released on 31 December 2001. Gnumeric is distributed as free software under the GNU General Public License; it is intended to replace proprietary spreadsheet programs like Microsoft Excel. Gnumeric was created and developed by Miguel de Icaza,[4] but he has since moved on to other projects. The maintainer as of 2002[update] was Jody Goldberg.[5]
+Gnumeric has the ability to import and export data in several file formats, including CSV, Microsoft Excel (write support for the more recent .xlsx format is incomplete[6]), Microsoft Works spreadsheets (.wks),[7] HTML, LaTeX, Lotus 1-2-3, OpenDocument and Quattro Pro; its native format is the Gnumeric file format (.gnm or .gnumeric), an XML file compressed with gzip.[8] It includes all of the spreadsheet functions of the North American edition of Microsoft Excel and many functions unique to Gnumeric.[9] Pivot tables and Visual Basic for Applications macros are not yet supported.[10]
+Gnumeric's accuracy has helped it to establish a niche for statistical analysis and other scientific tasks.[11][12] For improving the accuracy of Gnumeric, the developers are cooperating with the R Project.
+Gnumeric has an interface for the creation and editing of graphs different from other spreadsheet software. For editing a graph, Gnumeric displays a window where all the elements of the graph are listed. Other spreadsheet programs typically require the user to select the individual elements of the graph in the graph itself in order to edit them.
+
+
+
+Information box
+{'Original author(s)': 'Miguel de Icaza', 'Developer(s)': 'The GNOME Project', 'Initial release': '31 December 2001; 21 years ago', 'Stable release': '1.12.55[1][2]  / 3 February 2023', 'Preview release': 'None [±]', 'Repository': 'gitlab.gnome.org/GNOME/gnumeric/', 'Written in': 'C', 'Operating system': 'Unix-like', 'Platform': 'GTK 3', 'Type': 'Spreadsheet', 'License': 'GPL-2.0-only or GPL-3.0-only[3]', 'Website': 'gnumeric.org'}

@@ -1,0 +1,1336 @@
+7163,
+Catenary,
+In physics and geometry, a catenary (US: /ˈkætənɛri/, UK: /kəˈtiːnəri/) is the curve that an idealized hanging chain or cable assumes under its own weight when supported only at its ends in a uniform gravitational field.
+The catenary curve has a U-like shape, superficially similar in appearance to a parabola, which it is not.
+The curve appears in the design of certain types of arches and  as a cross section of the catenoid—the shape assumed by a soap film bounded by two parallel circular rings.
+The catenary is also called the alysoid, chainette,[1] or, particularly in the materials sciences, funicular.[2] Rope statics describes catenaries in a classic statics problem involving a hanging rope.[3]
+Mathematically, the catenary curve is the graph of the hyperbolic cosine function. The surface of revolution of the catenary curve, the catenoid, is a minimal surface, specifically a minimal surface of revolution. A hanging chain will assume a shape of least potential energy which is a catenary.[4] Galileo Galilei in 1638 discussed the catenary in the book Two New Sciences recognizing that it was different from a parabola. The mathematical properties of the catenary curve were studied by Robert Hooke in the 1670s, and its equation was derived by Leibniz, Huygens and Johann Bernoulli in 1691.
+Catenaries and related curves are used in architecture and engineering (e.g., in the design of bridges and arches so that forces do not result in bending moments). In the offshore oil and gas industry, "catenary" refers to a steel catenary riser, a pipeline suspended between a production platform and the seabed that adopts an approximate catenary shape. In the rail industry it refers to the overhead wiring that transfers power to trains. (This often supports a lighter contact wire, in which case it does not follow a true catenary curve.)
+In optics and electromagnetics, the hyperbolic cosine and sine functions are basic solutions to Maxwell's equations.[5] The symmetric modes consisting of two evanescent waves would form a catenary shape.[6][7][8]
+The word "catenary" is derived from the Latin word catēna, which means "chain". The English word "catenary" is usually attributed to Thomas Jefferson,[9][10]
+who wrote in a letter to Thomas Paine on the construction of an arch for a bridge:
+I have lately received from Italy a treatise on the equilibrium of arches, by the Abbé Mascheroni. It appears to be a very scientifical work. I have not yet had time to engage in it; but I find that the conclusions of his demonstrations are, that every part of the catenary is in perfect equilibrium.[11]It is often said[12] that Galileo thought the curve of a hanging chain was parabolic. However, in his Two New Sciences (1638), Galileo wrote that a hanging cord is only an approximate parabola, correctly observing that this approximation improves in accuracy as the curvature gets smaller and is almost exact when the elevation is less than 45°.[13] The fact that the curve followed by a chain is not a parabola was proven by Joachim Jungius (1587–1657); this result was published posthumously in 1669.[12]
+The application of the catenary to the construction of arches is attributed to Robert Hooke, whose "true mathematical and mechanical form" in the context of the rebuilding of St Paul's Cathedral  alluded to a catenary.[14] Some much older arches approximate catenaries, an example of which is the Arch of Taq-i Kisra in Ctesiphon.[15]
+In 1671, Hooke announced to the Royal Society that he had solved the problem of the optimal shape of an arch, and in 1675 published an encrypted solution as a Latin anagram[16] in an appendix to his Description of Helioscopes,[17] where he wrote that he had found "a true mathematical and mechanical form of all manner of Arches for Building." He did not publish the solution to this anagram[18] in his lifetime, but in 1705 his executor provided it as ut pendet continuum flexile, sic stabit contiguum rigidum inversum, meaning "As hangs a flexible cable so, inverted, stand the touching pieces of an arch."
+In 1691, Gottfried Leibniz, Christiaan Huygens, and Johann Bernoulli derived the equation in response to a challenge by Jakob Bernoulli;[12] their solutions were published in the Acta Eruditorum for June 1691.[19][20] David Gregory wrote a treatise on the catenary in 1697[12][21] in which he provided an incorrect derivation of the correct differential equation.[20]
+Euler proved in 1744 that the catenary is the curve which, when rotated about the x-axis, gives the surface of minimum surface area (the catenoid) for the given bounding circles.[1] Nicolas Fuss gave equations describing the equilibrium of a chain under any force in 1796.[22]
+Catenary arches are often used in the construction of kilns. To create the desired curve, the shape of a hanging chain of the desired dimensions is transferred to a form which is then used as a guide for the placement of bricks or other building material.[23][24]
+The Gateway Arch in St. Louis, Missouri, United States is sometimes said to be an (inverted) catenary, but this is incorrect.[25] It is close to a more general curve called a flattened catenary, with equation y = A cosh(Bx), which is a catenary if AB = 1. While a catenary is the ideal shape for a freestanding arch of constant thickness, the Gateway Arch is narrower near the top. According to the U.S. National Historic Landmark nomination for the arch, it is a "weighted catenary" instead. Its shape corresponds to the shape that a weighted chain, having lighter links in the middle, would form.[26][27] The logo for McDonald's, the Golden Arches, while intended to be two joined parabolas, is also based on the catenary.
+Catenary[28] arches under the roof of Gaudí's Casa Milà, Barcelona, Spain.
+The Sheffield Winter Garden is enclosed by a series of catenary arches.[29]
+The Gateway Arch (St. Louis, Missouri) is a flattened catenary.
+Catenary arch kiln under construction over temporary form
+In free-hanging chains, the force exerted is uniform with respect to length of the chain, and so the chain follows the catenary curve.[30] The same is true of a simple suspension bridge or "catenary bridge," where the roadway follows the cable.[31][32]
+A stressed ribbon bridge is a more sophisticated structure with the same catenary shape.[33][34]
+However, in a suspension bridge with a suspended roadway, the chains or cables support the weight of the bridge, and so do not hang freely. In most cases the roadway is flat, so when the weight of the cable is negligible compared with the weight being supported, the force exerted is uniform with respect to horizontal distance, and the result is a parabola, as discussed below (although the term "catenary" is often still used, in an informal sense). If the cable is heavy then the resulting curve is between a catenary and a parabola.[35][36]
+The catenary produced by gravity provides an advantage to heavy anchor rodes. An anchor rode (or anchor line) usually consists of chain or cable or both. Anchor rodes are used by ships, oil rigs, docks, floating wind turbines, and other marine equipment which must be anchored to the seabed.
+When the rope is slack, the catenary curve presents a lower angle of pull on the anchor or mooring device than would be the case if it were nearly straight. This enhances the performance of the anchor and raises the level of force it will resist before dragging. To maintain the catenary shape in the presence of wind, a heavy chain is needed, so that only larger ships in deeper water can rely on this effect. Smaller boats also rely on catenary to maintain maximum holding power.[37]
+The equation of a catenary in Cartesian coordinates has the form[35]
+y
+=
+a
+cosh
+⁡
+(
+x
+a
+)
+=
+a
+2
+(
+e
+x
+a
++
+e
+−
+x
+a
+)
+,
+{\displaystyle y=a\cosh \left({\frac {x}{a}}\right)={\frac {a}{2}}\left(e^{\frac {x}{a}}+e^{-{\frac {x}{a}}}\right),}
+where cosh is the hyperbolic cosine function, and where a is the distance of the lowest point above the x axis.[38] All catenary curves are similar to each other, since changing the parameter a is equivalent to a uniform scaling of the curve.
+The Whewell equation for the catenary is[35]
+tan
+⁡
+φ
+=
+s
+a
+,
+{\displaystyle \tan \varphi ={\frac {s}{a}},}
+where 
+φ
+{\displaystyle \varphi }
+ is the tangential angle and s the arc length.
+Differentiating gives
+d
+φ
+d
+s
+=
+cos
+2
+⁡
+φ
+a
+,
+{\displaystyle {\frac {d\varphi }{ds}}={\frac {\cos ^{2}\varphi }{a}},}
+and eliminating 
+φ
+{\displaystyle \varphi }
+ gives the Cesàro equation[39]
+κ
+=
+a
+s
+2
++
+a
+2
+,
+{\displaystyle \kappa ={\frac {a}{s^{2}+a^{2}}},}
+where 
+κ
+{\displaystyle \kappa }
+ is the curvature.
+The radius of curvature is then
+ρ
+=
+a
+sec
+2
+⁡
+φ
+,
+{\displaystyle \rho =a\sec ^{2}\varphi ,}
+which is the length of the normal between the curve and the x-axis.[40]
+When a parabola is rolled along a straight line, the roulette curve traced by its focus is a catenary.[41] The envelope of the directrix of the parabola is also a catenary.[42] The involute from the vertex, that is the roulette traced by a point starting at the vertex when a line is rolled on a catenary, is the tractrix.[41]
+Another roulette, formed by rolling a line on a catenary, is another line. This implies that square wheels can roll perfectly smoothly on a road made of a series of bumps in the shape of an inverted catenary curve. The wheels can be any regular polygon except a triangle, but the catenary must have parameters corresponding to the shape and dimensions of the wheels.[43]
+Over any horizontal interval, the ratio of the area under the catenary to its length equals a, independent of the interval selected. The catenary is the only plane curve other than a horizontal line with this property. Also, the geometric centroid of the area under a stretch of catenary is the midpoint of the perpendicular segment connecting the centroid of the curve itself and the x-axis.[44]
+A moving charge in a uniform electric field travels along a catenary (which tends to a parabola if the charge velocity is much less than the speed of light c).[45]
+The surface of revolution with fixed radii at either end that has minimum surface area is a catenary revolved about the x-axis.[41]
+In the mathematical model the chain (or cord, cable, rope, string, etc.) is idealized by assuming that it is so thin that it can be regarded as a curve and that it is so flexible any force of tension exerted by the chain is parallel to the chain.[46] The analysis of the curve for an optimal arch is similar except that the forces of tension become forces of compression and everything is inverted.[47]
+An underlying principle is that the chain may be considered a rigid body once it has attained equilibrium.[48] Equations which define the shape of the curve and the tension of the chain at each point may be derived by a careful inspection of the various forces acting on a segment using the fact that these forces must be in balance if the chain is in static equilibrium.
+Let the path followed by the chain be given parametrically by r = (x, y) = (x(s), y(s)) where s represents arc length and r is the position vector. This is the natural parameterization and has the property that
+d
+r
+d
+s
+=
+u
+{\displaystyle {\frac {d\mathbf {r} }{ds}}=\mathbf {u} }
+where u is a unit tangent vector.
+A differential equation for the curve may be derived as follows.[49] Let c be the lowest point on the chain, called the vertex of the catenary.[50] The slope dy/dx of the curve is zero at c since it is a minimum point. Assume r is to the right of c since the other case is implied by symmetry. The forces acting on the section of the chain from c to r are the tension of the chain at c, the tension of the chain at r, and the weight of the chain. The tension at c is tangent to the curve at c and is therefore horizontal without any vertical component and it pulls the section to the left so it may be written (−T0, 0) where T0 is the magnitude of the force. The tension at r is parallel to the curve at r and pulls the section to the right. The tension at r can be split into two components so it may be written Tu = (T cos φ, T sin φ), where T is the magnitude of the force and φ is the angle between the curve at r and the x-axis (see tangential angle). Finally, the weight of the chain is represented by (0, −λgs) where λ is the mass per unit length, g is the gravitational field strength and s is the length of the segment of chain between c and r.
+The chain is in equilibrium so the sum of three forces is 0, therefore
+T
+cos
+⁡
+φ
+=
+T
+0
+{\displaystyle T\cos \varphi =T_{0}}
+and
+T
+sin
+⁡
+φ
+=
+λ
+g
+s
+,
+{\displaystyle T\sin \varphi =\lambda gs\,,}
+and dividing these gives
+d
+y
+d
+x
+=
+tan
+⁡
+φ
+=
+λ
+g
+s
+T
+0
+.
+{\displaystyle {\frac {dy}{dx}}=\tan \varphi ={\frac {\lambda gs}{T_{0}}}\,.}
+It is convenient to write
+a
+=
+T
+0
+λ
+g
+{\displaystyle a={\frac {T_{0}}{\lambda g}}}
+which is the length of chain whose weight is equal in magnitude to the tension at c.[51]  Then
+d
+y
+d
+x
+=
+s
+a
+{\displaystyle {\frac {dy}{dx}}={\frac {s}{a}}}
+is an equation defining the curve.
+The horizontal component of the tension, T cos φ = T0 is constant and the vertical component of the tension, T sin φ = λgs is proportional to the length of chain between r and the vertex.[52]
+After deriving the equations of the curve (in the next section) 
+y
+=
+a
+cosh
+⁡
+(
+x
+a
+)
+{\textstyle y=a\cosh \left({\frac {x}{a}}\right)}
+, one can plug the equation back to obtain the simple equation 
+T
+=
+λ
+g
+s
+/
+sin
+⁡
+φ
+=
+λ
+g
+y
+{\displaystyle T=\lambda gs/\sin \varphi =\lambda gy}
+.
+The differential equation given above can be solved to produce equations for the curve.[53]
+From
+d
+y
+d
+x
+=
+s
+a
+,
+{\displaystyle {\frac {dy}{dx}}={\frac {s}{a}}\,,}
+the formula for arc length gives
+d
+s
+d
+x
+=
+1
++
+(
+d
+y
+d
+x
+)
+2
+=
+a
+2
++
+s
+2
+a
+.
+{\displaystyle {\frac {ds}{dx}}={\sqrt {1+\left({\dfrac {dy}{dx}}\right)^{2}}}={\frac {\sqrt {a^{2}+s^{2}}}{a}}\,.}
+Then
+d
+x
+d
+s
+=
+1
+d
+s
+d
+x
+=
+a
+a
+2
++
+s
+2
+{\displaystyle {\frac {dx}{ds}}={\frac {1}{\frac {ds}{dx}}}={\frac {a}{\sqrt {a^{2}+s^{2}}}}}
+and
+d
+y
+d
+s
+=
+d
+y
+d
+x
+d
+s
+d
+x
+=
+s
+a
+2
++
+s
+2
+.
+{\displaystyle {\frac {dy}{ds}}={\frac {\frac {dy}{dx}}{\frac {ds}{dx}}}={\frac {s}{\sqrt {a^{2}+s^{2}}}}\,.}
+The second of these equations can be integrated to give
+y
+=
+a
+2
++
+s
+2
++
+β
+{\displaystyle y={\sqrt {a^{2}+s^{2}}}+\beta }
+and by shifting the position of the x-axis, β can be taken to be 0. Then
+y
+=
+a
+2
++
+s
+2
+,
+y
+2
+=
+a
+2
++
+s
+2
+.
+{\displaystyle y={\sqrt {a^{2}+s^{2}}}\,,\quad y^{2}=a^{2}+s^{2}\,.}
+The x-axis thus chosen is called the directrix of the catenary.
+It follows that the magnitude of the tension at a point (x, y) is T = λgy, which is proportional to the distance between the point and the directrix.[52]
+This tension may also be expressed as T = T0 y/a .
+The integral of the expression for dx/ds can be found using standard techniques, giving[54]
+x
+=
+a
+arsinh
+⁡
+(
+s
+a
+)
++
+α
+.
+{\displaystyle x=a\operatorname {arsinh} \left({\frac {s}{a}}\right)+\alpha \,.}
+and, again, by shifting the position of the y-axis, α can be taken to be 0. Then
+x
+=
+a
+arsinh
+⁡
+(
+s
+a
+)
+,
+s
+=
+a
+sinh
+⁡
+(
+x
+a
+)
+.
+{\displaystyle x=a\operatorname {arsinh} \left({\frac {s}{a}}\right)\,,\quad s=a\sinh \left({\frac {x}{a}}\right)\,.}
+The y-axis thus chosen passes through the vertex and is called the axis of the catenary.
+These results can be used to eliminate s giving
+y
+=
+a
+cosh
+⁡
+(
+x
+a
+)
+.
+{\displaystyle y=a\cosh \left({\frac {x}{a}}\right)\,.}
+The differential equation can be solved using a different approach.[55] From
+s
+=
+a
+tan
+⁡
+φ
+{\displaystyle s=a\tan \varphi }
+it follows that
+d
+x
+d
+φ
+=
+d
+x
+d
+s
+d
+s
+d
+φ
+=
+cos
+⁡
+φ
+⋅
+a
+sec
+2
+⁡
+φ
+=
+a
+sec
+⁡
+φ
+{\displaystyle {\frac {dx}{d\varphi }}={\frac {dx}{ds}}{\frac {ds}{d\varphi }}=\cos \varphi \cdot a\sec ^{2}\varphi =a\sec \varphi }
+and
+d
+y
+d
+φ
+=
+d
+y
+d
+s
+d
+s
+d
+φ
+=
+sin
+⁡
+φ
+⋅
+a
+sec
+2
+⁡
+φ
+=
+a
+tan
+⁡
+φ
+sec
+⁡
+φ
+.
+{\displaystyle {\frac {dy}{d\varphi }}={\frac {dy}{ds}}{\frac {ds}{d\varphi }}=\sin \varphi \cdot a\sec ^{2}\varphi =a\tan \varphi \sec \varphi \,.}
+Integrating gives,
+x
+=
+a
+ln
+⁡
+(
+sec
+⁡
+φ
++
+tan
+⁡
+φ
+)
++
+α
+{\displaystyle x=a\ln(\sec \varphi +\tan \varphi )+\alpha }
+and
+y
+=
+a
+sec
+⁡
+φ
++
+β
+.
+{\displaystyle y=a\sec \varphi +\beta \,.}
+As before, the x and y-axes can be shifted so α and β can be taken to be 0. Then
+sec
+⁡
+φ
++
+tan
+⁡
+φ
+=
+e
+x
+a
+,
+{\displaystyle \sec \varphi +\tan \varphi =e^{\frac {x}{a}}\,,}
+and taking the reciprocal of both sides
+sec
+⁡
+φ
+−
+tan
+⁡
+φ
+=
+e
+−
+x
+a
+.
+{\displaystyle \sec \varphi -\tan \varphi =e^{-{\frac {x}{a}}}\,.}
+Adding and subtracting the last two equations then gives the solution
+y
+=
+a
+sec
+⁡
+φ
+=
+a
+cosh
+⁡
+(
+x
+a
+)
+,
+{\displaystyle y=a\sec \varphi =a\cosh \left({\frac {x}{a}}\right)\,,}
+and
+s
+=
+a
+tan
+⁡
+φ
+=
+a
+sinh
+⁡
+(
+x
+a
+)
+.
+{\displaystyle s=a\tan \varphi =a\sinh \left({\frac {x}{a}}\right)\,.}
+In general the parameter a is the position of the axis. The equation can be determined in this case as follows:[56]
+Relabel if necessary so that P1 is to the left of P2 and let H be the horizontal and v be the vertical distance from P1 to P2. Translate the axes so that the vertex of the catenary lies on the y-axis and its height a is adjusted so the catenary satisfies the standard equation of the curve
+y
+=
+a
+cosh
+⁡
+(
+x
+a
+)
+{\displaystyle y=a\cosh \left({\frac {x}{a}}\right)}
+and let the coordinates of P1 and P2 be (x1, y1) and (x2, y2) respectively. The curve passes through these points, so the difference of height is
+v
+=
+a
+cosh
+⁡
+(
+x
+2
+a
+)
+−
+a
+cosh
+⁡
+(
+x
+1
+a
+)
+.
+{\displaystyle v=a\cosh \left({\frac {x_{2}}{a}}\right)-a\cosh \left({\frac {x_{1}}{a}}\right)\,.}
+and the length of the curve from P1 to P2 is
+L
+=
+a
+sinh
+⁡
+(
+x
+2
+a
+)
+−
+a
+sinh
+⁡
+(
+x
+1
+a
+)
+.
+{\displaystyle L=a\sinh \left({\frac {x_{2}}{a}}\right)-a\sinh \left({\frac {x_{1}}{a}}\right)\,.}
+When L2 − v2 is expanded using these expressions the result is
+L
+2
+−
+v
+2
+=
+2
+a
+2
+(
+cosh
+⁡
+(
+x
+2
+−
+x
+1
+a
+)
+−
+1
+)
+=
+4
+a
+2
+sinh
+2
+⁡
+(
+H
+2
+a
+)
+,
+{\displaystyle L^{2}-v^{2}=2a^{2}\left(\cosh \left({\frac {x_{2}-x_{1}}{a}}\right)-1\right)=4a^{2}\sinh ^{2}\left({\frac {H}{2a}}\right)\,,}
+so
+1
+H
+L
+2
+−
+v
+2
+=
+2
+a
+H
+sinh
+⁡
+(
+H
+2
+a
+)
+.
+{\displaystyle {\frac {1}{H}}{\sqrt {L^{2}-v^{2}}}={\frac {2a}{H}}\sinh \left({\frac {H}{2a}}\right)\,.}
+This is a transcendental equation in a and must be solved numerically. Since 
+sinh
+⁡
+(
+x
+)
+/
+x
+{\displaystyle \sinh(x)/x}
+ is strictly monotonic on 
+x
+>
+0
+{\displaystyle x>0}
+,[57] there is at most one solution with a > 0 and so there is at most one position of equilibrium.
+However, if both ends of the curve (P1 and P2) are at the same level (y1 = y2), it can be shown that[58]
+a
+=
+1
+4
+L
+2
+−
+h
+2
+2
+h
+{\displaystyle a={\frac {{\frac {1}{4}}L^{2}-h^{2}}{2h}}\,}
+where L is the total length of the curve between P1 and P2 and h is the sag (vertical distance between P1, P2 and the vertex of the curve).
+It can also be shown that
+L
+=
+2
+a
+sinh
+⁡
+H
+2
+a
+{\displaystyle L=2a\sinh {\frac {H}{2a}}\,}
+and
+H
+=
+2
+a
+arcosh
+⁡
+h
++
+a
+a
+{\displaystyle H=2a\operatorname {arcosh} {\frac {h+a}{a}}\,}
+where H is the horizontal distance between P1 and P2 which are located at the same level  (H = x2 − x1).
+The horizontal traction force at P1 and P2 is T0 = λga, where λ is the mass per unit length of the chain or cable.
+Consider a chain of length 
+L
+{\displaystyle L}
+ suspended from two points of equal height and at distance 
+D
+{\displaystyle D}
+. The curve has to minimize its potential energy
+U
+=
+∫
+0
+D
+g
+ρ
+y
+1
++
+y
+′
+2
+d
+x
+{\displaystyle U=\int _{0}^{D}g\rho y{\sqrt {1+y'^{2}}}dx}
+and is subject to the constraint 
+∫
+0
+D
+1
++
+y
+′
+2
+d
+x
+=
+L
+.
+{\displaystyle \int _{0}^{D}{\sqrt {1+y'^{2}}}dx=L\,.}
+The modified Lagrangian is therefore 
+L
+=
+(
+g
+ρ
+y
+−
+λ
+)
+1
++
+y
+′
+2
+{\displaystyle {\mathcal {L}}=(g\rho y-\lambda ){\sqrt {1+y'^{2}}}}
+where 
+λ
+{\displaystyle \lambda }
+ is the Lagrange multiplier to be determined. As the independent variable 
+x
+{\displaystyle x}
+ does not appear in the Lagrangian, we can use the Beltrami identity
+L
+−
+y
+′
+∂
+L
+∂
+y
+′
+=
+C
+{\displaystyle {\mathcal {L}}-y'{\frac {\partial {\mathcal {L}}}{\partial y'}}=C}
+where 
+C
+{\displaystyle C}
+ is an integration constant, in order to obtain a first integral
+(
+g
+ρ
+y
+−
+λ
+)
+1
++
+y
+′
+2
+=
+−
+C
+{\displaystyle {\frac {(g\rho y-\lambda )}{\sqrt {1+y'^{2}}}}=-C}
+This is an ordinary first order differential equation that can be solved by the method of separation of variables. Its solution is the usual hyperbolic cosine where the parameters are obtained from the constraints.
+If the density of the chain is variable then the analysis above can be adapted to produce equations for the curve given the density, or given the curve to find the density.[59]
+Let w denote the weight per unit length of the chain, then the weight of the chain has magnitude
+∫
+c
+r
+w
+d
+s
+,
+{\displaystyle \int _{\mathbf {c} }^{\mathbf {r} }w\,ds\,,}
+where the limits of integration are c and r. Balancing forces as in the uniform chain produces
+T
+cos
+⁡
+φ
+=
+T
+0
+{\displaystyle T\cos \varphi =T_{0}}
+and
+T
+sin
+⁡
+φ
+=
+∫
+c
+r
+w
+d
+s
+,
+{\displaystyle T\sin \varphi =\int _{\mathbf {c} }^{\mathbf {r} }w\,ds\,,}
+and therefore
+d
+y
+d
+x
+=
+tan
+⁡
+φ
+=
+1
+T
+0
+∫
+c
+r
+w
+d
+s
+.
+{\displaystyle {\frac {dy}{dx}}=\tan \varphi ={\frac {1}{T_{0}}}\int _{\mathbf {c} }^{\mathbf {r} }w\,ds\,.}
+Differentiation then gives
+w
+=
+T
+0
+d
+d
+s
+d
+y
+d
+x
+=
+T
+0
+d
+2
+y
+d
+x
+2
+1
++
+(
+d
+y
+d
+x
+)
+2
+.
+{\displaystyle w=T_{0}{\frac {d}{ds}}{\frac {dy}{dx}}={\frac {T_{0}{\dfrac {d^{2}y}{dx^{2}}}}{\sqrt {1+\left({\dfrac {dy}{dx}}\right)^{2}}}}\,.}
+In terms of φ and the radius of curvature ρ this becomes
+w
+=
+T
+0
+ρ
+cos
+2
+⁡
+φ
+.
+{\displaystyle w={\frac {T_{0}}{\rho \cos ^{2}\varphi }}\,.}
+A similar analysis can be done to find the curve followed by the cable supporting a suspension bridge with a horizontal roadway.[60] If the weight of the roadway per unit length is w and the weight of the cable and the wire supporting the bridge is negligible in comparison, then the weight on the cable (see the figure in Catenary#Model of chains and arches) from c to r is wx where x is the horizontal distance between c and r. Proceeding as before gives the differential equation
+d
+y
+d
+x
+=
+tan
+⁡
+φ
+=
+w
+T
+0
+x
+.
+{\displaystyle {\frac {dy}{dx}}=\tan \varphi ={\frac {w}{T_{0}}}x\,.}
+This is solved by simple integration to get
+y
+=
+w
+2
+T
+0
+x
+2
++
+β
+{\displaystyle y={\frac {w}{2T_{0}}}x^{2}+\beta }
+and so the cable follows a parabola. If the weight of the cable and supporting wires is not negligible then the analysis is more complex.[61]
+In a catenary of equal strength, the cable is strengthened according to the magnitude of the tension at each point, so its resistance to breaking is constant along its length. Assuming that the strength of the cable is proportional to its density per unit length, the weight, w, per unit length of the chain can be written T/c, where c is constant, and the analysis for nonuniform chains can be applied.[62]
+In this case the equations for tension are
+T
+cos
+⁡
+φ
+=
+T
+0
+,
+T
+sin
+⁡
+φ
+=
+1
+c
+∫
+T
+d
+s
+.
+{\displaystyle {\begin{aligned}T\cos \varphi &=T_{0}\,,\\T\sin \varphi &={\frac {1}{c}}\int T\,ds\,.\end{aligned}}}
+Combining gives
+c
+tan
+⁡
+φ
+=
+∫
+sec
+⁡
+φ
+d
+s
+{\displaystyle c\tan \varphi =\int \sec \varphi \,ds}
+and by differentiation
+c
+=
+ρ
+cos
+⁡
+φ
+{\displaystyle c=\rho \cos \varphi }
+where ρ is the radius of curvature.
+The solution to this is
+y
+=
+c
+ln
+⁡
+(
+sec
+⁡
+(
+x
+c
+)
+)
+.
+{\displaystyle y=c\ln \left(\sec \left({\frac {x}{c}}\right)\right)\,.}
+In this case, the curve has vertical asymptotes and this limits the span to πc. Other relations are
+x
+=
+c
+φ
+,
+s
+=
+ln
+⁡
+(
+tan
+⁡
+(
+π
++
+2
+φ
+4
+)
+)
+.
+{\displaystyle x=c\varphi \,,\quad s=\ln \left(\tan \left({\frac {\pi +2\varphi }{4}}\right)\right)\,.}
+The curve was studied 1826 by Davies Gilbert and, apparently independently, by Gaspard-Gustave Coriolis in 1836.
+Recently, it was shown that this type of catenary could act as a building block of electromagnetic metasurface and was known as "catenary of equal phase gradient".[63]
+In an elastic catenary, the chain is replaced by a spring which can stretch in response to tension. The spring is assumed to stretch in accordance with Hooke's Law. Specifically, if p is the natural length of a section of spring, then the length of the spring with tension T applied has length
+s
+=
+(
+1
++
+T
+E
+)
+p
+,
+{\displaystyle s=\left(1+{\frac {T}{E}}\right)p\,,}
+where E is a constant equal to kp, where k is the stiffness of the spring.[64] In the catenary the value of T is variable, but ratio remains valid at a local level, so[65]
+d
+s
+d
+p
+=
+1
++
+T
+E
+.
+{\displaystyle {\frac {ds}{dp}}=1+{\frac {T}{E}}\,.}
+The curve followed by an elastic spring can now be derived following a similar method as for the inelastic spring.[66]
+The equations for tension of the spring are
+T
+cos
+⁡
+φ
+=
+T
+0
+,
+{\displaystyle T\cos \varphi =T_{0}\,,}
+and
+T
+sin
+⁡
+φ
+=
+λ
+0
+g
+p
+,
+{\displaystyle T\sin \varphi =\lambda _{0}gp\,,}
+from which
+d
+y
+d
+x
+=
+tan
+⁡
+φ
+=
+λ
+0
+g
+p
+T
+0
+,
+T
+=
+T
+0
+2
++
+λ
+0
+2
+g
+2
+p
+2
+,
+{\displaystyle {\frac {dy}{dx}}=\tan \varphi ={\frac {\lambda _{0}gp}{T_{0}}}\,,\quad T={\sqrt {T_{0}^{2}+\lambda _{0}^{2}g^{2}p^{2}}}\,,}
+where p is the natural length of the segment from c to r and λ0 is the mass per unit length of the spring with no tension and g is the gravitational field strength. Write
+a
+=
+T
+0
+λ
+0
+g
+{\displaystyle a={\frac {T_{0}}{\lambda _{0}g}}}
+so
+d
+y
+d
+x
+=
+tan
+⁡
+φ
+=
+p
+a
+and
+T
+=
+T
+0
+a
+a
+2
++
+p
+2
+.
+{\displaystyle {\frac {dy}{dx}}=\tan \varphi ={\frac {p}{a}}\quad {\text{and}}\quad T={\frac {T_{0}}{a}}{\sqrt {a^{2}+p^{2}}}\,.}
+Then 
+d
+x
+d
+s
+=
+cos
+⁡
+φ
+=
+T
+0
+T
+d
+y
+d
+s
+=
+sin
+⁡
+φ
+=
+λ
+0
+g
+p
+T
+,
+{\displaystyle {\begin{aligned}{\frac {dx}{ds}}&=\cos \varphi ={\frac {T_{0}}{T}}\\[6pt]{\frac {dy}{ds}}&=\sin \varphi ={\frac {\lambda _{0}gp}{T}}\,,\end{aligned}}}
+from which
+d
+x
+d
+p
+=
+T
+0
+T
+d
+s
+d
+p
+=
+T
+0
+(
+1
+T
++
+1
+E
+)
+=
+a
+a
+2
++
+p
+2
++
+T
+0
+E
+d
+y
+d
+p
+=
+λ
+0
+g
+p
+T
+d
+s
+d
+p
+=
+T
+0
+p
+a
+(
+1
+T
++
+1
+E
+)
+=
+p
+a
+2
++
+p
+2
++
+T
+0
+p
+E
+a
+.
+{\displaystyle {\begin{alignedat}{3}{\frac {dx}{dp}}&={\frac {T_{0}}{T}}{\frac {ds}{dp}}&&=T_{0}\left({\frac {1}{T}}+{\frac {1}{E}}\right)&&={\frac {a}{\sqrt {a^{2}+p^{2}}}}+{\frac {T_{0}}{E}}\\[6pt]{\frac {dy}{dp}}&={\frac {\lambda _{0}gp}{T}}{\frac {ds}{dp}}&&={\frac {T_{0}p}{a}}\left({\frac {1}{T}}+{\frac {1}{E}}\right)&&={\frac {p}{\sqrt {a^{2}+p^{2}}}}+{\frac {T_{0}p}{Ea}}\,.\end{alignedat}}}
+Integrating gives the parametric equations
+x
+=
+a
+arsinh
+⁡
+(
+p
+a
+)
++
+T
+0
+E
+p
++
+α
+,
+y
+=
+a
+2
++
+p
+2
++
+T
+0
+2
+E
+a
+p
+2
++
+β
+.
+{\displaystyle {\begin{aligned}x&=a\operatorname {arsinh} \left({\frac {p}{a}}\right)+{\frac {T_{0}}{E}}p+\alpha \,,\\[6pt]y&={\sqrt {a^{2}+p^{2}}}+{\frac {T_{0}}{2Ea}}p^{2}+\beta \,.\end{aligned}}}
+Again, the x and y-axes can be shifted so α and β can be taken to be 0. So
+x
+=
+a
+arsinh
+⁡
+(
+p
+a
+)
++
+T
+0
+E
+p
+,
+y
+=
+a
+2
++
+p
+2
++
+T
+0
+2
+E
+a
+p
+2
+{\displaystyle {\begin{aligned}x&=a\operatorname {arsinh} \left({\frac {p}{a}}\right)+{\frac {T_{0}}{E}}p\,,\\[6pt]y&={\sqrt {a^{2}+p^{2}}}+{\frac {T_{0}}{2Ea}}p^{2}\end{aligned}}}
+are parametric equations for the curve. At the rigid limit where E is large, the shape of the curve reduces to that of a non-elastic chain.
+With no assumptions being made regarding the force G acting on the chain, the following analysis can be made.[67]
+First, let T = T(s) be the force of tension as a function of s. The chain is flexible so it can only exert a force parallel to itself. Since tension is defined as the force that the chain exerts on itself, T must be parallel to the chain. In other words,
+T
+=
+T
+u
+,
+{\displaystyle \mathbf {T} =T\mathbf {u} \,,}
+where T is the magnitude of T and u is the unit tangent vector.
+Second, let G = G(s) be the external force per unit length acting on a small segment of a chain as a function of s. The forces acting on the segment of the chain between s and s + Δs are the force of tension T(s + Δs) at one end of the segment, the nearly opposite force −T(s) at the other end, and the external force acting on the segment which is approximately GΔs. These forces must balance so
+T
+(
+s
++
+Δ
+s
+)
+−
+T
+(
+s
+)
++
+G
+Δ
+s
+≈
+0
+.
+{\displaystyle \mathbf {T} (s+\Delta s)-\mathbf {T} (s)+\mathbf {G} \Delta s\approx \mathbf {0} \,.}
+Divide by Δs and take the limit as Δs → 0 to obtain
+d
+T
+d
+s
++
+G
+=
+0
+.
+{\displaystyle {\frac {d\mathbf {T} }{ds}}+\mathbf {G} =\mathbf {0} \,.}
+These equations can be used as the starting point in the analysis of a flexible chain acting under any external force. In the case of the standard catenary, G = (0, −λg) where the chain has mass λ per unit length and g is the gravitational field strength.

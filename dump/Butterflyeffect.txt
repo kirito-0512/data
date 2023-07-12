@@ -1,0 +1,98 @@
+4024,
+Butterflyeffect,
+In chaos theory, the butterfly effect is the sensitive dependence on initial conditions in which a small change in one state of a deterministic nonlinear system can result in large differences in a later state.
+The term is closely associated with the work of mathematician and meteorologist Edward Norton Lorenz. He noted that the butterfly effect is derived from the metaphorical example of the details of a tornado (the exact time of formation, the exact path taken) being influenced by minor perturbations such as a distant butterfly flapping its wings several weeks earlier. Lorenz originally used a seagull causing a storm but was persuaded to make it more poetic with the use of a butterfly and tornado by 1972.[1][2] He discovered the effect when he observed runs of his weather model with initial condition data that were rounded in a seemingly inconsequential manner. He noted that the weather model would fail to reproduce the results of runs with the unrounded initial condition data. A very small change in initial conditions had created a significantly different outcome.[3]
+The idea that small causes may have large effects in weather was earlier acknowledged by French mathematician and engineer Henri Poincaré. American mathematician and philosopher Norbert Wiener also contributed to this theory. Lorenz's work placed the concept of instability of the Earth's atmosphere onto a quantitative base and linked the concept of instability to the properties of large classes of dynamic systems which are undergoing nonlinear dynamics and deterministic chaos.[4]
+The butterfly effect concept has since been used outside the context of weather science as a broad term for any situation where a small change is supposed to be the cause of larger consequences.
+In The Vocation of Man (1800), Johann Gottlieb Fichte says "you could not remove a single grain of sand from its place without thereby ... changing something throughout all parts of the immeasurable whole".
+Chaos theory and the sensitive dependence on initial conditions were described in numerous forms of literature. This is evidenced by the case of the three-body problem by Poincaré in 1890.[5] He later proposed that such phenomena could be common, for example, in meteorology.[6]
+In 1898, Jacques Hadamard noted general divergence of trajectories in spaces of negative curvature. Pierre Duhem discussed the possible general significance of this in 1908.[5]
+In 1950, Alan Turing noted: "The displacement of a single electron by a billionth of a centimetre at one moment might make the difference between a man being killed by an avalanche a year later, or escaping."[7]
+The idea that the death of one butterfly could eventually have a far-reaching ripple effect on subsequent historical events made its earliest known appearance in "A Sound of Thunder", a 1952 short story by Ray Bradbury. "A Sound of Thunder" features time travel.[8]
+More precisely, though, almost the exact idea and the exact phrasing —of a tiny insect's wing affecting the entire atmosphere's winds— was published in a children's book which became extremely successful and well-known globally in 1962, the year before Lorenz published:
+"...whatever we do affects everything and everyone else, if even in the tiniest way. Why, when a housefly flaps his wings, a breeze goes round the world."
+-- The Princess of Pure Reason In 1961, Lorenz was running a numerical computer model to redo a weather prediction from the middle of the previous run as a shortcut. He entered the initial condition 0.506 from the printout instead of entering the full precision 0.506127 value. The result was a completely different weather scenario.[9]
+Lorenz wrote:
+At one point I decided to repeat some of the computations in order to examine what was happening in greater detail. I stopped the computer, typed in a line of numbers that it had printed out a while earlier, and set it running again. I went down the hall for a cup of coffee and returned after about an hour, during which time the computer had simulated about two months of weather. The numbers being printed were nothing like the old ones. I immediately suspected a weak vacuum tube or some other computer trouble, which was not uncommon, but before calling for service I decided to see just where the mistake had occurred, knowing that this could speed up the servicing process. Instead of a sudden break, I found that the new values at first repeated the old ones, but soon afterward differed by one and then several units in the last [decimal] place, and then began to differ in the next to the last place and then in the place before that. In fact, the differences more or less steadily doubled in size every four days or so, until all resemblance with the original output disappeared somewhere in the second month. This was enough to tell me what had happened: the numbers that I had typed in were not the exact original numbers, but were the rounded-off values that had appeared in the original printout. The initial round-off errors were the culprits; they were steadily amplifying until they dominated the solution. In 1963, Lorenz published a theoretical study of this effect in a highly cited, seminal paper called Deterministic Nonperiodic Flow[3][11] (the calculations were performed on a Royal McBee LGP-30 computer).[12][13] Elsewhere he stated:
+One meteorologist remarked that if the theory were correct, one flap of a sea gull's wings would be enough to alter the course of the weather forever. The controversy has not yet been settled, but the most recent evidence seems to favor the sea gulls.[13]Following proposals from colleagues, in later speeches and papers, Lorenz used the more poetic butterfly. According to Lorenz, when he failed to provide a title for a talk he was to present at the 139th meeting of the American Association for the Advancement of Science in 1972, Philip Merilees concocted Does the flap of a butterfly's wings in Brazil set off a tornado in Texas? as a title.[1] Although a butterfly flapping its wings has remained constant in the expression of this concept, the location of the butterfly, the consequences, and the location of the consequences have varied widely.[14]
+The phrase refers to the idea that a butterfly's wings might create tiny changes in the atmosphere that may ultimately alter the path of a tornado or delay, accelerate, or even prevent the occurrence of a tornado in another location. The butterfly does not power or directly create the tornado, but the term is intended to imply that the flap of the butterfly's wings can cause the tornado: in the sense that the flap of the wings is a part of the initial conditions of an interconnected complex web; one set of conditions leads to a tornado, while the other set of conditions doesn't. The flapping wing represents a small change in the initial condition of the system, which cascades to large-scale alterations of events (compare: domino effect). Had the butterfly not flapped its wings, the trajectory of the system might have been vastly different—but it's also equally possible that the set of conditions without the butterfly flapping its wings is the set that leads to a tornado.
+The butterfly effect presents an obvious challenge to prediction, since initial conditions for a system such as the weather can never be known to complete accuracy. This problem motivated the development of ensemble forecasting, in which a number of forecasts are made from perturbed initial conditions.[15]
+Some scientists have since argued that the weather system is not as sensitive to initial conditions as previously believed.[16] David Orrell argues that the major contributor to weather forecast error is model error, with sensitivity to initial conditions playing a relatively small role.[17][18] Stephen Wolfram also notes that the Lorenz equations are highly simplified and do not contain terms that represent viscous effects; he believes that these terms would tend to damp out small perturbations.[19] Recent studies using generalized Lorenz models that included additional dissipative terms and nonlinearity suggested that a larger heating parameter is required for the onset of chaos.[20]
+While the "butterfly effect" is often explained as being synonymous with sensitive dependence on initial conditions of the kind described by Lorenz in his 1963 paper (and previously observed by Poincaré), the butterfly metaphor was originally applied[1] to work he published in 1969[21] which took the idea a step further. Lorenz proposed a mathematical model for how tiny motions in the atmosphere scale up to affect larger systems. He found that the systems in that model could only be predicted up to a specific point in the future, and beyond that, reducing the error in the initial conditions would not increase the predictability (as long as the error is not zero). This demonstrated that a deterministic system could be "observationally indistinguishable" from a non-deterministic one in terms of predictability. Recent re-examinations of this paper suggest that it offered a significant challenge to the idea that our universe is deterministic, comparable to the challenges offered by quantum physics.[22][23]
+In the book entitled The Essence of Chaos published in 1993,[24] Lorenz defined butterfly effect as: "The phenomenon that a small alteration in the state of a dynamical system will cause subsequent states to differ greatly from the states that would have followed without the alteration." This feature is the same as sensitive dependence of solutions on initial conditions (SDIC) in .[3] In the same book, Lorenz applied the activity of skiing and developed an idealized skiing model for revealing the sensitivity of time-varying paths to initial positions. A predictability horizon is determined before the onset of SDIC.[25]
+Recurrence, the approximate return of a system toward its initial conditions, together with sensitive dependence on initial conditions, are the two main ingredients for chaotic motion. They have the practical consequence of making complex systems, such as the weather, difficult to predict past a certain time range (approximately a week in the case of weather) since it is impossible to measure the starting atmospheric conditions completely accurately.
+A dynamical system displays sensitive dependence on initial conditions if points arbitrarily close together separate over time at an exponential rate. The definition is not topological, but essentially metrical. Lorenz[24] defined sensitive dependence as follows:
+The property characterizing an orbit (i.e., a solution) if most other orbits that pass close to it at some point do not remain close to it as time advances.
+If M is the state space for the map 
+f
+t
+{\displaystyle f^{t}}
+, then 
+f
+t
+{\displaystyle f^{t}}
+ displays sensitive dependence to initial conditions if for any x in M and any δ > 0, there are y in M, with distance d(. , .) such that 
+0
+<
+d
+(
+x
+,
+y
+)
+<
+δ
+{\displaystyle 0<d(x,y)<\delta }
+ and such that
+for some positive parameter a. The definition does not require that all points from a neighborhood separate from the base point x, but it requires one positive Lyapunov exponent. In addition to a positive Lyapunov exponent, boundedness is another major feature within chaotic systems.[26]
+The simplest mathematical framework exhibiting sensitive dependence on initial conditions is provided by a particular parametrization of the logistic map:
+which, unlike most chaotic maps, has a closed-form solution:
+where the initial condition parameter 
+θ
+{\displaystyle \theta }
+ is given by 
+θ
+=
+1
+π
+sin
+−
+1
+⁡
+(
+x
+0
+1
+/
+2
+)
+{\displaystyle \theta ={\tfrac {1}{\pi }}\sin ^{-1}(x_{0}^{1/2})}
+. For rational 
+θ
+{\displaystyle \theta }
+, after a finite number of iterations 
+x
+n
+{\displaystyle x_{n}}
+ maps into a periodic sequence. But almost all 
+θ
+{\displaystyle \theta }
+ are irrational, and, for irrational 
+θ
+{\displaystyle \theta }
+, 
+x
+n
+{\displaystyle x_{n}}
+ never repeats itself – it is non-periodic. This solution equation clearly demonstrates the two key features of chaos – stretching and folding: the factor 2n shows the exponential growth of stretching, which results in sensitive dependence on initial conditions (the butterfly effect), while the squared sine function keeps 
+x
+n
+{\displaystyle x_{n}}
+ folded within the range [0, 1].
+The butterfly effect is most familiar in terms of weather; it can easily be demonstrated in standard weather prediction models, for example. The climate scientists James Annan and William Connolley explain that chaos is important in the development of weather prediction methods; models are sensitive to initial conditions. They add the caveat: "Of course the existence of an unknown butterfly flapping its wings has no direct bearing on weather forecasts, since it will take far too long for such a small perturbation to grow to a significant size, and we have many more immediate uncertainties to worry about. So the direct impact of this phenomenon on weather prediction is often somewhat wrong."[27] The two kinds of butterfly effects, including the sensitive dependence on initial conditions,[3] and the ability of a tiny perturbation to create an organized circulation at large distances,[1] are not exactly the same.[28] A comparison of the two kinds of butterfly effects[1][3] and the third kind of butterfly effect[21][22][23] has been documented.[29] In recent studies,[25][30] it was reported that both meteorological and non-meteorological linear models have shown that instability plays a role in producing a butterfly effect, which is characterized by brief but significant exponential growth resulting from a small disturbance.
+By revealing coexisting chaotic and non-chaotic attractors within Lorenz models, Shen and his colleagues proposed a revised view that "weather possesses chaos and order", in contrast to the conventional view of "weather is chaotic".[31][32][33] As a result, sensitive dependence on initial conditions (SDIC) does not always appear. Namely, SDIC appears when two orbits (i.e., solutions) become the chaotic attractor; it does not appear when two orbits move toward the same point attractor. The above animation for double pendulum motion provides an analogy. For large angles of swing the motion of the pendulum is often chaotic.[34][35] By comparison, for small angles of swing, motions are non-chaotic.
+Multistability is defined when a system (e.g., the double pendulum system) contains more than one bounded attractor that depends only on initial conditions. The multistability was illustrated using kayaking in Figure on the right side (i.e., Figure 1 of [36]) where the appearance of strong currents and a stagnant area suggests instability and local stability, respectively. As a result, when two kayaks move along strong currents, their paths display SDIC. On the other hand, when two kayaks move into a stagnant area, they become trapped, showing no typical SDIC (although a chaotic transient may occur). Such features of SDIC or no SDIC suggest two types of solutions and illustrate the nature of multistability.
+By taking into consideration time-varying multistability that is associated with the modulation of large-scale processes (e.g., seasonal forcing) and aggregated feedback of small-scale processes (e.g., convection), the above revised view is refined as follows:
+"The atmosphere possesses chaos and order; it includes, as examples, emerging organized systems (such as tornadoes) and time varying forcing from recurrent seasons."[36][37]
+The potential for sensitive dependence on initial conditions (the butterfly effect) has been studied in a number of cases in semiclassical and quantum physics including atoms in strong fields and the anisotropic Kepler problem.[38][39] Some authors have argued that extreme (exponential) dependence on initial conditions is not expected in pure quantum treatments;[40][41] however, the sensitive dependence on initial conditions demonstrated in classical motion is included in the semiclassical treatments developed by Martin Gutzwiller[42] and John B. Delos and co-workers.[43] The random matrix theory and simulations with quantum computers prove that some versions of the butterfly effect in quantum mechanics do not exist.[44]
+Other authors suggest that the butterfly effect can be observed in quantum systems. Zbyszek P. Karkuszewski et al. consider the time evolution of quantum systems which have slightly different Hamiltonians. They investigate the level of sensitivity of quantum systems to small changes in their given Hamiltonians.[45] David Poulin et al. presented a quantum algorithm to measure fidelity decay, which "measures the rate at which identical initial states diverge when subjected to slightly different dynamics". They consider fidelity decay to be "the closest quantum analog to the (purely classical) butterfly effect".[46] Whereas the classical butterfly effect considers the effect of a small change in the position and/or velocity of an object in a given Hamiltonian system, the quantum butterfly effect considers the effect of a small change in the Hamiltonian system with a given initial position and velocity.[47][48] This quantum butterfly effect has been demonstrated experimentally.[49] Quantum and semiclassical treatments of system sensitivity to initial conditions are known as quantum chaos.[40][47]

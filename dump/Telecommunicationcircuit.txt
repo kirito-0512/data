@@ -1,0 +1,11 @@
+40999,
+Telecommunicationcircuit,
+A telecommunication circuit is a path in a telecommunications network used to transmit information. Circuits have evolved from generally being built on physical connections between individual hardware cables, as in an analog phone switch, to virtual circuits established over packet switching networks.
+A telecommunication circuit may be defined as follows:[citation needed]
+In operational terms, a telecommunication circuit may be capable of transmitting information in only one direction (simplex circuit), or it may be bi-directional (duplex circuit). Bi-directional circuits may support half-duplex operation, when only one end of the channel transmits at any one time, or they may support full-duplex operation, when independent simultaneous transmission occurs in both directions.[1]
+Originally, telecommunication circuits transmitted analog signals. Radio stations used them as studio transmitter links (STLs) or as remote pickup unit (RPU) for sound reproduction, sometimes as a backup to other means.  Later lines were digital, used in pair-gain applications, such as carrier systems, or in enterprise data networks.
+A leased line, private circuit, or dedicated circuit, is a circuit that is dedicated to only one use and is typically not switched at a central office. The opposite is a switched circuit, which can be connected to different paths in a switching center or telephone exchange. Plain old telephone service (POTS) and ISDN telephone lines are switched circuits.
+On certain packet switching telecommunication circuits, a virtual circuit may be created, while sharing the physical circuit.
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).
+
+

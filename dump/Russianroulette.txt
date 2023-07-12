@@ -1,0 +1,713 @@
+37072,
+Russianroulette,
+
+Russian roulette (Russian: Русская рулетка, romanized: Russkaya ruletka) is a potentially lethal game of chance in which a player places a single round in a revolver, spins the cylinder, places the muzzle against the head or body (of the opponent or themselves), and pulls the trigger. If the loaded chamber aligns with the barrel, the weapon will fire, killing or severely injuring the player.
+Russian refers to the supposed country of origin, and roulette to the element of risk-taking and the spinning of the revolver's cylinder, which is evocative of a roulette wheel.
+According to Andrew Clarke, the first trace of Russian roulette can be found in the short story "The Fatalist", which was written in 1840 and was part of the collection A Hero of Our Time by Mikhail Lermontov, a Russian poet and writer.[1] In the story, which is set in a Cossack village, the protagonist, Grigory Alexandrovich Pechorin, claims that there is no predestination and proposes a bet in order to prove it, laying about twenty gold pieces onto a table. A lieutenant of the dragoons of the Tsar, Vulič, a man of Serbian origins with a passion for gambling, accepts the challenge and randomly takes one of a number of pistols of various calibres from its nail, cocks it and pours gunpowder onto the pan. Nobody knows if the pistol is loaded or not. "Gentlemen! Who will pay 20 gold pieces for me?", Vulič asks, putting the muzzle of the pistol to his forehead. He then asks Grigory to throw a playing card in the air, and when the card lands, he pulls the trigger. The weapon fails to fire, but when Vulič cocks the pistol again and aims it at a service cap hanging over the window, a shot rings out and smoke fills the room.[2]
+The term Russian roulette was possibly first used in a 1937 short story of the same name by Georges Surdez, published in the January 30, 1937, edition of Collier's magazine:
+'Did you ever hear of Russian Roulette?' When I said I had not, he told me all about it. When he was with the Russian army in Rumania [sic], around 1917, and things were cracking up, so that their officers felt that they were not only losing prestige, money, family, and country, but were being also dishonored before their colleagues of the Allied armies, some officer would suddenly pull out his revolver, anywhere, at the table, in a café, at a gathering of friends, remove a cartridge from the cylinder, spin the cylinder, snap it back in place, put it to his head and pull the trigger. There were five chances to one that the hammer would set off a live cartridge and blow his brains all over the place.[3]References to the term in the context of the Collier's story appeared in some newspapers during 1937.[4] The first independent appearances of the term in newspapers began in 1938 with the reports of young men being killed while playing it. The earliest instance appears to have been the death of a 21-year-old former journalism student in Austin, Texas, appearing in The Austin Statesman and some other Texas newspapers on January 8, 1938.[5][6] At least four other deaths were attributed to Russian roulette during the year: a 34-year-old policeman in Peoria, Illinois,[7][8] a 20-year-old in Houston,[9] an 18-year-old in Saratoga Springs, New York,[10] and a 16-year-old in Los Angeles.[11]
+Subsequently, the term became a metaphor for taking foolhardy risks and its usage steadily increased in reportage of diplomacy, politics, economics, medicine and sports.
+Math in this section is based on the use of a six-shot revolver with a single chamber loaded. Abnormal factors, such as the possibility of a dud round, are not included.
+With this variant, turn order is essential, because the probability of losing decreases the later one's turn is.
+Given a six-shot revolver, for any given single trial (pull), the probability of losing is 
+
+
+
+
+
+
+1
+6
+
+
+
+≈
+16.7
+%
+
+
+{\displaystyle {\tfrac {1}{6}}\approx 16.7\%}
+
+. However, since all players only come into the game if and when each of the players before them has caught an empty chamber, the all-game loss probability for player 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ (starting from 0) is reduced to 
+
+
+
+(
+
+
+
+5
+6
+
+
+
+
+)
+
+k
+
+
+⋅
+
+
+
+1
+6
+
+
+
+
+
+{\displaystyle ({\tfrac {5}{6}})^{k}\cdot {\tfrac {1}{6}}}
+
+. The all-game loss probabilities for each of the six players are hence, in order, 
+
+
+
+16.7
+%
+
+
+{\displaystyle 16.7\%}
+
+, 
+
+
+
+13.9
+%
+
+
+{\displaystyle 13.9\%}
+
+, 
+
+
+
+11.6
+%
+
+
+{\displaystyle 11.6\%}
+
+, 
+
+
+
+9.6
+%
+
+
+{\displaystyle 9.6\%}
+
+, 
+
+
+
+8.0
+%
+
+
+{\displaystyle 8.0\%}
+
+, and 
+
+
+
+6.7
+%
+
+
+{\displaystyle 6.7\%}
+
+ to 1 decimal place. More generally, for a revolver with 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ chambers, player 
+
+
+
+k
+
+
+{\displaystyle k}
+
+'s all-game loss probability is 
+
+
+
+(
+
+
+
+
+n
+−
+1
+
+n
+
+
+
+
+)
+
+k
+
+
+⋅
+
+
+
+1
+n
+
+
+
+
+
+{\displaystyle ({\tfrac {n-1}{n}})^{k}\cdot {\tfrac {1}{n}}}
+
+.
+The probability of the revolver having fired after six pulls is 
+
+
+
+1
+−
+(
+
+
+
+5
+6
+
+
+
+
+)
+
+6
+
+
+
+
+{\displaystyle 1-({\tfrac {5}{6}})^{6}}
+
+, or about 
+
+
+
+66.5
+%
+
+
+{\displaystyle 66.5\%}
+
+. More generally, for a revolver with 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ chambers, the probability of the revolver having fired after 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ pulls is 
+
+
+
+1
+−
+(
+
+
+
+
+n
+−
+1
+
+n
+
+
+
+
+)
+
+k
+
+
+
+
+{\displaystyle 1-({\tfrac {n-1}{n}})^{k}}
+
+, as this would be an instance of a geometric distribution where the success probability is 
+
+
+
+
+
+
+1
+n
+
+
+
+
+
+{\displaystyle {\tfrac {1}{n}}}
+
+.
+The average number of pulls for the gun to fire is 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ in this variant (6 pulls, for a six-shot revolver).
+With this variant, turn order has no effect on the all-game loss probability, which remains the same for all players, but influences the single-pull probability, which increases with each pull.
+Given a six-shot revolver, at pull 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ (starting from 0), the fact that all 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ previously tested chambers were empty reduces the total number of possible locations of the bullet to 
+
+
+
+
+6
+−
+k
+
+
+
+{\displaystyle {6-k}}
+
+, and the loss probability is therefore 
+
+
+
+
+
+
+1
+
+6
+−
+k
+
+
+
+
+
+
+{\displaystyle {\tfrac {1}{6-k}}}
+
+. The single-pull loss probabilities for each of the six players are hence, in order, 
+
+
+
+16.7
+%
+
+
+{\displaystyle 16.7\%}
+
+, 
+
+
+
+20
+%
+
+
+{\displaystyle 20\%}
+
+, 
+
+
+
+25
+%
+
+
+{\displaystyle 25\%}
+
+, 
+
+
+
+33.3
+%
+
+
+{\displaystyle 33.3\%}
+
+, 
+
+
+
+50
+%
+
+
+{\displaystyle 50\%}
+
+, and 
+
+
+
+100
+%
+
+
+{\displaystyle 100\%}
+
+ to 1 decimal place.[12] More generally, for a revolver with 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ chambers, the loss probability at pull 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ (starting from 0)  is 
+
+
+
+
+
+
+1
+
+n
+−
+k
+
+
+
+
+
+
+{\displaystyle {\tfrac {1}{n-k}}}
+
+.
+However, since, like in the re-spinning variant, all players only come into the game if and when each of the players before them has caught an empty chamber, the all-game loss probability for player 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ is
+
+
+
+
+
+
+
+1
+
+n
+−
+k
+
+
+
+
+⋅
+
+∏
+
+i
+=
+0
+
+
+k
+−
+1
+
+
+
+
+
+n
+−
+i
+−
+1
+
+
+n
+−
+i
+
+
+
+=
+
+
+
+n
+−
+1
+
+n
+
+
+⋅
+
+
+
+n
+−
+2
+
+
+n
+−
+1
+
+
+
+⋅
+.
+.
+.
+⋅
+
+
+
+n
+−
+k
+
+
+n
+−
+k
+−
+1
+
+
+
+⋅
+
+
+1
+
+n
+−
+k
+
+
+
+=
+
+
+1
+6
+
+
+≈
+16.7
+%
+
+
+{\displaystyle {\tfrac {1}{n-k}}\cdot \prod _{i=0}^{k-1}{\frac {n-i-1}{n-i}}={\frac {\cancel {n-1}}{n}}\cdot {\frac {n-2}{\cancel {n-1}}}\cdot ...\cdot {\frac {\cancel {n-k}}{\cancel {n-k-1}}}\cdot {\frac {1}{\cancel {n-k}}}={\frac {1}{6}}\approx 16.7\%}
+
+
+for 
+
+
+
+k
+>
+0
+
+
+{\displaystyle k>0}
+
+  and 
+
+
+
+
+
+1
+
+n
+−
+k
+
+
+
+=
+
+
+1
+6
+
+
+≈
+16.7
+%
+
+
+{\displaystyle {\frac {1}{n-k}}={\frac {1}{6}}\approx 16.7\%}
+
+ for 
+
+
+
+k
+=
+0
+
+
+{\displaystyle k=0}
+
+. Hence, the all-game loss probability for all players is 
+
+
+
+16.7
+%
+
+
+{\displaystyle 16.7\%}
+
+ to 1 decimal place.
+The probability of the revolver having fired after six pulls is 
+
+
+
+
+
+
+6
+6
+
+
+
+
+
+{\displaystyle {\tfrac {6}{6}}}
+
+ or 
+
+
+
+100
+%
+
+
+{\displaystyle 100\%}
+
+ in this variant (meaning the revolver will fire within six trigger pulls). And, more generally, after 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ pulls, it is 
+
+
+
+
+
+
+k
+n
+
+
+
+
+
+{\displaystyle {\tfrac {k}{n}}}
+
+.
+The average number of pulls for the gun to fire is 
+
+
+
+
+
+
+
+n
++
+1
+
+2
+
+
+
+
+
+{\displaystyle {\tfrac {n+1}{2}}}
+
+ in this variant (3.5 pulls, for a six-shot revolver).
+There is a drinking game based on Russian roulette. The game involves six shot glasses filled by a non-player: five are filled with water, but the sixth with vodka. Among some groups, low quality vodka is preferred, as it makes the glass representing the filled chamber less desirable. The glasses are arranged in a circle, and players take turns choosing a glass to take a shot from at random.[31]
+There is also a game called "Beer Hunter" (titled after the Russian roulette scenes in the film The Deer Hunter). In this game, six cans of beer are placed between the participants: one can is vigorously shaken, and the cans are scrambled. The participants take turns opening the cans of beer right under their noses; the person who opens the shaken can (and thus sprays beer up their nose) is deemed the loser.[32]
+
+

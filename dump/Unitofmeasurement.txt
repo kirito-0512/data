@@ -1,0 +1,105 @@
+24531,
+Unitofmeasurement,
+
+A unit of measurement is a definite magnitude of a quantity, defined and adopted by convention or by law, that is used as a standard for measurement of the same kind of quantity.[1] Any other quantity of that kind can be expressed as a multiple of the unit of measurement.[2]
+For example, a length is a physical quantity. The metre (symbol m) is a unit of length that represents a definite predetermined length. For instance, when referencing "10 metres" (or 10 m), what is actually meant is 10 times the definite predetermined length called "metre".
+The definition, agreement, and practical use of units of measurement have played a crucial role in human endeavour from early ages up to the present. A multitude of systems of units used to be very common. Now there is a global standard, the International System of Units (SI), the modern form of the metric system.
+In trade, weights and measures is often a subject of governmental regulation, to ensure fairness and transparency. The International Bureau of Weights and Measures (BIPM) is tasked with ensuring worldwide uniformity of measurements and their traceability to the International System of Units (SI).
+Metrology is the science of developing nationally and internationally accepted units of measurement.
+In physics and metrology, units are standards for measurement of physical quantities that need clear definitions to be useful. Reproducibility of experimental results is central to the scientific method. A standard system of units facilitates this. Scientific systems of units are a refinement of the concept of weights and measures historically developed for commercial purposes.[3]
+Science, medicine, and engineering often use larger and smaller units of measurement than those used in everyday life. The judicious selection of the units of measurement can aid researchers in problem solving (see, for example, dimensional analysis).
+In the social sciences, there are no standard units of measurement and the theory and practice of measurement is studied in psychometrics and the theory of conjoint measurement.
+A unit of measurement is a standardised quantity of a physical property, used as a factor to express occurring quantities of that property. Units of measurement were among the earliest tools invented by humans. Primitive societies needed rudimentary measures for many tasks: constructing dwellings of an appropriate size and shape, fashioning clothing, or bartering food or raw materials.
+The earliest known uniform systems of measurement seem to have all been created sometime in the 4th and 3rd millennia BC among the ancient peoples of Mesopotamia, Egypt and the Indus Valley, and perhaps also Elam in Persia as well.
+Weights and measures are mentioned in the Bible (Leviticus 19:35–36). It is a commandment to be honest and have fair measures.
+In the Magna Carta of 1215 (The Great Charter) with the seal of King John, put before him by the Barons of England, King John agreed in Clause 35 "There shall be one measure of wine throughout our whole realm, and one measure of ale and one measure of corn—namely, the London quart;—and one width of dyed and russet and hauberk cloths—namely, two ells below the selvage..."
+As of the 21st Century, multiple unit systems are used all over the world such as the United States Customary System, the British Customary System, and the International System. However, the United States is the only industrialized country that has not yet at least mostly converted to the Metric System. The systematic effort to develop a universally acceptable system of units dates back to 1790 when the French National Assembly charged the French Academy of Sciences to come up such a unit system. This system was the precursor to the metric system which was quickly developed in France but did not take on universal acceptance until 1875 when The Metric Convention Treaty was signed by 17 nations. After this treaty was signed, a General Conference of Weights and Measures (CGPM) was established. The CGPM produced the current SI system which was adopted in 1954 at the 10th conference of weights and measures. Currently, the United States is a dual-system society which uses both the SI system and the US Customary system.[4][5]
+The use of a single unit of measurement for some quantity has obvious drawbacks. For example, it is impractical to use the same unit for the distance between two cities and the length of a needle. Thus, historically they would develop independently. One way to make large numbers or small fractions easier to read, is to use unit prefixes.
+At some point in time though, the need to relate the two units might arise, and consequently the need to choose one unit as defining the other or vice versa. For example, an inch could be defined in terms of a barleycorn. A system of measurement is a collection of units of measurement and rules relating them to each other.
+As science progressed, a need arose to relate the measurement systems of different quantities, like length and weight and volume. The effort of attempting to relate different traditional systems between each other exposed many inconsistencies, and brought about the development of new units and systems.
+The system of units varies from country to country and some of the different system of units are CGS system of units, FPS system of units, MKS system of units and SI system of units. Among the different systems of units used in the world, the most widely used and internationally accepted one is the International System of Units, or SI system of units. The base SI units[note 1] are the second, metre, kilogram, ampere, kelvin, mole and candela. All other SI units can be derived from these base units.[note 2][6]
+Systems of measurement in modern use include the metric system, the imperial system, and United States customary units. 
+Historically many of the systems of measurement which had been in use were to some extent based on the dimensions of the human body. Such units, which may be called anthropic units, include the cubit, based on the length of the forearm; the pace, based on the length of a stride; and the foot and hand. As a result, units of measure could vary not only from location to location but from person to person. Units not based on the human body could be based on agriculture, as is the case with the furlong and the acre, both based on the amount of land able to be worked by a team of oxen.
+Metric systems of units have evolved since the adoption of the original metric system in France in 1791. The current international standard metric system is the International System of Units (abbreviated to SI). An important feature of modern systems is standardization. Each unit has a universally recognized size.
+Both the imperial units and US customary units derive from earlier English units. Imperial units were mostly used in the British Commonwealth and the former British Empire. US customary units are still the main system of measurement used in the United States outside of science, medicine, many sectors of industry, and some of government and military, and despite Congress having legally authorised metric measure on 28 July 1866.[7] Some steps towards US metrication have been made, particularly the redefinition of basic US and imperial units to derive exactly from SI units. Since the international yard and pound agreement of 1959 the US and imperial inch is now defined as exactly 0.0254 m, and the US and imperial avoirdupois pound is now defined as exactly 0.45359237 kg.[8]
+While the above systems of units are based on arbitrary unit values, formalised as standards, some unit values occur naturally in science. Systems of units based on these are called natural units. Similar to natural units, atomic units (au) are a convenient system of units of measurement used in atomic physics.
+Also a great number of unusual and non-standard units may be encountered. These may include the solar mass (2×1030 kg), the megaton (the energy released by detonating one million tons of trinitrotoluene, TNT) and the electronvolt.
+To reduce the incidence of retail fraud, many national statutes have standard definitions of weights and measures that may be used (hence "statute measure"), and these are verified by legal officers.[citation needed]
+In informal settings, a quantity may be described as multiples of that of a familiar entity, which can be easier to contextualize than a value in a formal unit system. For instance, a publication may describe an area in a foreign country as a number of multiples of the area of a region local to the readership. The propensity for certain concepts to be used frequently can give rise to loosely defined "systems" of units.[9][10]
+For most quantities a unit is necessary to communicate values of that physical quantity. For example, conveying to someone a particular length without using some sort of unit is impossible, because a length cannot be described without a reference used to make sense of the value given.
+But not all quantities require a unit of their own. Using physical laws, units of quantities can be expressed as combinations of units of other quantities. Thus only a small set of units is required. These units are taken as the base units and the other units are derived units. Thus base units are the units of the quantities which are independent of other quantities and they are the units of length, mass, time, electric current, temperature, luminous intensity and the amount of substance. Derived units are the units of the quantities which are derived from the base quantities and some of the derived units are the units of speed, work, acceleration, energy, pressure etc.[6]
+Different systems of units are based on different choices of a set of related units including fundamental and derived units.
+Following ISO 80000-1,[11] any value of a physical quantity is expressed as a comparison to a unit of that quantity. The value of a physical quantity Z is expressed as the product of a magnitude {Z} and a unit [Z]:
+For example, let 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ be "2 metres"; then, 
+
+
+
+{
+Z
+}
+=
+2
+
+
+{\displaystyle \{Z\}=2}
+
+ is the magnitude and 
+
+
+
+[
+Z
+]
+=
+
+m
+e
+t
+r
+e
+
+
+
+{\displaystyle [Z]=\mathrm {metre} }
+
+ is the unit.
+The multiplication sign is usually left out, just as it is left out between variables in the scientific notation of formulas. The convention used to express quantities is referred to as quantity calculus. In formulas the unit [Z] can be treated as if it were a specific magnitude of a kind of physical dimension: see Dimensional analysis for more on this treatment.
+Units can only be added or subtracted if they are the same type; however units can always be multiplied or divided, as George Gamow used to explain. Let 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ be "2 metres" and 
+
+
+
+W
+
+
+{\displaystyle W}
+
+ "3 seconds", then
+A distinction should be made between units and standards.[citation needed] A unit is fixed by its definition and is independent of physical conditions such as temperature. By contrast, a standard is a physical realization of a unit and realizes that unit only under certain physical conditions. For example, a metre is a unit, while a metal bar is a standard. One metre is the same length regardless of temperature, but a metal bar will be exactly one metre long only at a certain temperature.
+There are certain rules that have to be used when dealing with units:
+One example of the importance of agreed units is the failure of the NASA Mars Climate Orbiter, which was accidentally destroyed on a mission to Mars in September 1999 instead of entering orbit due to miscommunications about the value of forces: different computer programs used different units of measurement (newton versus pound force). Considerable amounts of effort, time, and money were wasted.[12][13]
+On 15 April 1999, Korean Air cargo flight 6316 from Shanghai to Seoul was lost due to the crew confusing tower instructions (in metres) and altimeter readings (in feet). Three crew and five people on the ground were killed. Thirty-seven were injured.[14][15]
+In 1983, a Boeing 767 (which thanks to its pilot's gliding skills landed safely and became known as the Gimli Glider) ran out of fuel in mid-flight because of two mistakes in figuring the fuel supply of Air Canada's first aircraft to use metric measurements.[16] This accident was the result of both confusion due to the simultaneous use of metric and Imperial measures and confusion of mass and volume measures.
+When planning his journey across the Atlantic Ocean in the 1480s, Columbus mistakenly assumed that the mile referred to in the Arabic estimate of 56⅔ miles for the size of a degree was the same as the actually much shorter Italian mile of 1,480 metres.  His estimate for the size of the degree and for the circumference of the Earth was therefore about 25% too small.[17]
+Historical
+Legal
+Metric information
+
+

@@ -1,0 +1,14 @@
+15103,
+Mailinglists,
+The projects of the Wikimedia Foundation have a number of mailing lists which are open to anyone who subscribes and a few private mailing lists open only to selected users.
+Please see the list descriptions for posting information.  Most lists are moderated, so that posts by non-members need to be manually approved.  Some lists disallow any posts by nonmembers.
+Please respect Wikiquette and avoid personal attacks on the mailing lists, especially in the subject header as this is likely to be repeated by those replying. File a request at Phabricator for problems with mailing lists or for starting a new list.
+Mailing lists are available in a number of formats: via a web archive, by email, or by NNTP using the mail-to-news gateway Gmane. Offsite archives of Wikipedia's mailing lists can be found at Gmane, MARC, Gossamer Threads, and Nabble Forums.
+Email addresses are currently obfuscated in the downloadable archives, making them unreadable by some mail readers.  To convert one of these archives to mbox format, you could use perl -p -i -e '/^From/ && s/ at /@/' filename or sed '/^From /s/ at /@/' obfuscated.mbox > clear.mbox.
+There is a complete list of public mailing lists for all Wikimedia Foundation matters at meta, including:
+The public mailing lists for the Wikipedia project include:
+The following list were active, but are now either completely shut down, or exist, but have negligible traffic. They are available in archives:
+There are various private mailing lists hosted by Wikimedia Foundation servers, although some of them allow public messaging. They facilitate internal communication among Wikimedia Foundation board members, and certain committees and subcommittees.
+The Arbitration Committee's mailing lists, including clerks and functionaries.
+
+

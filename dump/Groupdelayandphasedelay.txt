@@ -1,0 +1,649 @@
+41222,
+Groupdelayandphasedelay,
+In signal processing, group delay and phase delay are two related ways of describing how a signal's frequency components are delayed in time when passing through a linear time-invariant (LTI) system (such as a microphone, coaxial cable, amplifier, loudspeaker, telecommunications system, ethernet cable, digital filter, or analog filter). Phase delay describes the time shift of a sinusoidal component (a sine wave in steady state). Group delay describes the time shift of the envelope of a wave packet, a "pack" or "group" of oscillations centered around one frequency that travel together, formed for instance by multiplying (amplitude modulation) a sine wave by an envelope (such as a tapering function).
+These delays are usually frequency dependent,[1] which means that different frequency components experience different delays. As a result, the signal's waveform experiences distortion as it passes through the system. This distortion can cause problems such as poor fidelity in analog video and analog audio, or a high bit-error rate in a digital bit stream. However, for the ideal case of a constant group delay across the entire frequency range of a bandlimited signal and flat frequency response, the waveform will experience no distortion.
+Fourier analysis reveals how signals in time can alternatively be expressed as the sum of sinusoidal frequency components, each based on the trigonometric function 
+
+
+
+sin
+⁡
+(
+x
+)
+
+
+{\displaystyle \sin(x)}
+
+ with a fixed amplitude and phase and no beginning and no end.
+Linear time-invariant systems process each sinusoidal component independently; the property of linearity means they satisfy the superposition principle.
+The group delay and phase delay properties of a linear time-invariant (LTI) system are functions of frequency, giving the time from when a frequency component of a time varying physical quantity—for example a voltage signal—appears at the LTI system input, to the time when a copy of that same frequency component—perhaps of a different physical phenomenon—appears at the LTI system output.
+A varying phase response as a function of frequency, from which group delay and phase delay can be calculated, typically occurs in devices such as microphones, amplifiers, loudspeakers, magnetic recorders, headphones, coaxial cables, and antialiasing filters.[2] All frequency components of a signal are delayed when passed through such devices, or when propagating through space or a medium, such as air or water. 
+While a phase response describes phase shift in angular units (such as degrees or radians), the phase delay is in units of time and equals the negative of the phase shift at each frequency divided by the value of that frequency. Group delay is the negative derivative of phase shift with respect to frequency.  
+A linear time-invariant system or device has a phase response property and a phase delay property, where one can be calculated exactly from the other. Phase delay directly measures the device or system time delay of individual sinusoidal frequency components in the steady state.[3] If the phase delay function at any given frequency—within a frequency range of interest—has the same constant of proportionality between the phase at a selected frequency and the selected frequency itself, the system/device will have the ideal of linear phase, which results in a constant group delay.[1] Since phase delay is a function of frequency giving time delay, a departure from the flatness of its function graph can reveal time delay differences among the various signal frequency components, in which case those differences will contribute to signal distortion, which is manifested as the output signal waveform shape being different from that of the input signal.
+While phase delay describes the system's response to steady state sinusoidal components, group delay describes the response to amplitude modulated sinusoids.
+The group delay is a convenient measure of the linearity of the phase with respect to frequency in a modulation system.[4][5] For a modulation signal (passband signal), the information carried by the signal is carried exclusively in the wave envelope. Group delay therefore operates only with the frequency components derived from the envelope.
+A device's group delay can be exactly calculated from the device's phase response, but not the other way around.
+The simplest use case for group delay is illustrated in Figure 1 which shows a conceptual modulation system, which is itself an LTI system with a baseband output that is ideally an accurate copy of the baseband signal input. This system as a whole is referred to here as the outer LTI system/device, which contains an inner (red block) LTI system/device.  As is often the case for a radio system, the inner red LTI system in Fig 1 can represent two LTI systems in cascade, for example an amplifier driving a transmitting antenna at the sending end and the other an antenna and amplifier at the receiving end.
+Amplitude modulation creates the passband signal by shifting the baseband frequency components to a much higher frequency range.  Although the frequencies are different, the passband signal carries the same information as the baseband signal. The demodulator does the inverse, shifting the passband frequencies back down to the original baseband frequency range. Ideally, the output (baseband) signal is a time delayed version of the input (baseband) signal where the waveform shape of the output is identical to that of the input.
+In Figure 1, the outer system phase delay is the meaningful performance metric. For amplitude modulation, the inner red LTI device group delay becomes the outer LTI device phase delay. If the inner red device group delay is completely flat in the frequency range of interest, the outer device will have the ideal of a phase delay that is also completely flat, where the contribution of distortion due to the outer LTI device’s phase response—determined entirely by the inner device’s possibly different phase response—is eliminated. In that case, the group delay of the inner red device and the phase delay of the outer device give the same time delay figure for the signal as a whole, from the baseband input to the baseband output. It is significant to note that it is possible for the inner (red) device to have a very non-flat phase delay (but flat group delay), while the outer device has the ideal of a perfectly flat phase delay.  This is fortunate because in LTI device design, a flat group delay is easier to achieve than a flat phase delay.
+In an angle-modulation system—such as with frequency modulation (FM) or phase modulation (PM)—the (FM or PM) passband signal applied to an LTI system input can be analyzed as two separate passband signals, an in-phase (I) amplitude modulation AM passband signal and a quadrature-phase (Q) amplitude modulation AM passband signal, where their sum exactly reconstructs the original angle-modulation (FM or PM) passband signal. While the (FM/PM) passband signal is not amplitude modulation, and therefore has no apparent outer envelope, the I and Q passband signals do indeed have amplitude modulation envelopes.  (However, unlike with regular amplitude modulation, the I and Q envelopes do not resemble the wave shape of the baseband signals, even though 100 percent of the baseband signal is represented in a complex manner by their envelopes.)  So, for each of the I and Q passband signals, a flat group delay ensures that neither the I pass band envelope nor the Q passband envelope will have wave shape distortion, so when the I passband signal and the Q passband signal is added back together, the sum is the original FM/PM passband signal, which will also be unaltered.
+According to LTI system theory (used in control theory and digital or analog signal processing), the output signal 
+
+
+
+
+y
+(
+t
+)
+
+
+
+{\displaystyle \displaystyle y(t)}
+
+ of an LTI system can be determined by convoluting the time-domain impulse response 
+
+
+
+
+h
+(
+t
+)
+
+
+
+{\displaystyle \displaystyle h(t)}
+
+ of the LTI system with the input signal 
+
+
+
+
+x
+(
+t
+)
+
+
+
+{\displaystyle \displaystyle x(t)}
+
+. Linear time-invariant system § Fourier and Laplace transforms expresses this relationship as:
+where 
+
+
+
+∗
+
+
+{\displaystyle *}
+
+ denotes the convolution operation, 
+
+
+
+
+X
+(
+s
+)
+
+
+
+{\displaystyle \displaystyle X(s)}
+
+ and 
+
+
+
+
+H
+(
+s
+)
+
+
+
+{\displaystyle \displaystyle H(s)}
+
+ are the Laplace transforms of the input 
+
+
+
+
+x
+(
+t
+)
+
+
+
+{\displaystyle \displaystyle x(t)}
+
+ and impulse response 
+
+
+
+
+h
+(
+t
+)
+
+
+
+{\displaystyle \displaystyle h(t)}
+
+, respectively, s is the complex frequency, and 
+
+
+
+
+
+
+L
+
+
+
+−
+1
+
+
+
+
+{\displaystyle {\mathcal {L}}^{-1}}
+
+ is the inverse Laplace transform. 
+
+
+
+
+H
+(
+s
+)
+
+
+
+{\displaystyle \displaystyle H(s)}
+
+ is called the transfer function of the LTI system and, like the impulse response 
+
+
+
+
+h
+(
+t
+)
+
+
+
+{\displaystyle \displaystyle h(t)}
+
+, fully defines the input-output characteristics of the LTI system. This convolution can be evaluated by using the integral expression in the time domain, or (according to the rightmost expression) by using multiplication in the Laplace domain and then applying the inverse transform to return to time domain.
+Suppose that such a system is driven by a wave packet formed by a sinusoid multiplied by an amplitude envelope 
+
+
+
+
+
+A
+
+env
+
+
+(
+t
+)
+>
+0
+
+
+
+{\displaystyle \displaystyle A_{\text{env}}(t)>0}
+
+, so the input 
+
+
+
+
+x
+(
+t
+)
+
+
+
+{\displaystyle \displaystyle x(t)}
+
+ can be expressed in the following form:
+Also suppose that the envelope 
+
+
+
+
+
+A
+
+env
+
+
+(
+t
+)
+
+
+
+{\displaystyle \displaystyle A_{\text{env}}(t)}
+
+ is slowly changing relative to the sinusoid's frequency 
+
+
+
+
+ω
+
+
+
+{\displaystyle \displaystyle \omega }
+
+. This condition can be expressed mathematically as:
+Applying the earlier convolution equation would reveal that the output of such an LTI system is very well approximated[clarification needed] as:
+Here 
+
+
+
+
+
+τ
+
+g
+
+
+
+
+
+{\displaystyle \displaystyle \tau _{g}}
+
+ is the group delay and 
+
+
+
+
+
+τ
+
+ϕ
+
+
+
+
+
+{\displaystyle \displaystyle \tau _{\phi }}
+
+ is the phase delay, and they are given by the expressions below (and potentially are functions of the angular frequency 
+
+
+
+
+ω
+
+
+
+{\displaystyle \displaystyle \omega }
+
+). The phase of the sinusoid, as indicated by the positions of the zero crossings, is delayed in time by an amount equal to the phase delay, 
+
+
+
+
+
+τ
+
+ϕ
+
+
+
+
+
+{\displaystyle \displaystyle \tau _{\phi }}
+
+. The envelope of the sinusoid is delayed in time by the group delay, 
+
+
+
+
+
+τ
+
+g
+
+
+
+
+
+{\displaystyle \displaystyle \tau _{g}}
+
+.
+The group delay, 
+
+
+
+
+
+τ
+
+g
+
+
+
+
+
+{\displaystyle \displaystyle \tau _{g}}
+
+, and phase delay, 
+
+
+
+
+
+τ
+
+ϕ
+
+
+
+
+
+{\displaystyle \displaystyle \tau _{\phi }}
+
+, are (potentially) frequency-dependent[6] and can be computed from the unwrapped phase shift 
+
+
+
+
+ϕ
+(
+ω
+)
+
+
+
+{\displaystyle \displaystyle \phi (\omega )}
+
+. The phase delay at each frequency equals the negative of the phase shift at that frequency divided by the value of that frequency:
+The group delay at each frequency equals the negative of the slope (i.e. the derivative with respect to frequency) of the phase at that frequency:[7]
+In a linear phase system (with non-inverting gain), both 
+
+
+
+
+
+τ
+
+g
+
+
+
+
+
+{\displaystyle \displaystyle \tau _{g}}
+
+ and 
+
+
+
+
+
+τ
+
+ϕ
+
+
+
+
+
+{\displaystyle \displaystyle \tau _{\phi }}
+
+ are constant (i.e., independent of 
+
+
+
+
+ω
+
+
+
+{\displaystyle \displaystyle \omega }
+
+) and equal, and their common value equals the overall delay of the system; and the unwrapped phase shift of the system (namely 
+
+
+
+
+−
+ω
+
+τ
+
+ϕ
+
+
+
+
+
+{\displaystyle \displaystyle -\omega \tau _{\phi }}
+
+) is negative, with magnitude increasing linearly with frequency 
+
+
+
+
+ω
+
+
+
+{\displaystyle \displaystyle \omega }
+
+.
+More generally, it can be shown that for an LTI system with transfer function 
+
+
+
+
+H
+(
+s
+)
+
+
+
+{\displaystyle \displaystyle H(s)}
+
+ driven by a complex sinusoid of unit amplitude,
+the output is
+where the phase shift 
+
+
+
+
+ϕ
+
+
+
+{\displaystyle \displaystyle \phi }
+
+ is
+Circuit with negative group delay of 
+
+
+
+
+
+τ
+
+g
+
+
+
+
+
+{\displaystyle \displaystyle \tau _{g}}
+
+ = −RC = −1 ms for frequencies much lower than 1⁄RC = 1 kHz.
+LTspice AC simulation of 
+
+
+
+
+
+τ
+
+g
+
+
+
+
+
+{\displaystyle \displaystyle \tau _{g}}
+
+ from 1 Hz (
+
+
+
+
+
+τ
+
+g
+
+
+
+
+
+{\displaystyle \displaystyle \tau _{g}}
+
+ ≅ −1 ms) to 10 kHz (
+
+
+
+
+
+τ
+
+g
+
+
+
+
+
+{\displaystyle \displaystyle \tau _{g}}
+
+ ≅ 0 ms).
+Transient simulation of an input (green) wave whose output (red) is ahead by 1 ms, but with instability when the input turns on and off.
+Filters will have negative group delay over frequency ranges where its phase response is positively-sloped. If a signal is band-limited within some maximum frequency B, then it is predictable to a small degree (within time periods smaller than 1⁄B). A filter whose group delay is negative over that signal's entire frequency range is able to use the signal's predictability to provide an illusion of a non-causal time advance. However, if the signal contains an unpredictable event (such as an abrupt change which makes the signal's spectrum exceed its band-limit), then the illusion breaks down.[8] Circuits with negative group delay (e.g., Figure 2) are possible, though causality is not violated.[9]
+Negative group delay filters can be made in both digital and analog domains. Applications include compensating for the inherent delay of low-pass filters, to create zero phase filters, which can be used to quickly detect changes in the trends of sensor data or stock prices.[10]
+Group delay has some importance in the audio field and especially in the sound reproduction field.[11][12] Many components of an audio reproduction chain, notably loudspeakers and multiway loudspeaker crossover networks, introduce group delay in the audio signal.[2][12] It is therefore important to know the threshold of audibility of group delay with respect to frequency,[13][14][15] especially if the audio chain is supposed to provide high fidelity reproduction. The best thresholds of audibility table has been provided by Blauert and Laws.[16]
+Flanagan, Moore and Stone conclude that at 1, 2 and 4 kHz, a group delay of about 1.6 ms is audible with headphones in a non-reverberant condition.[17] Other experimental results suggest that when the group delay in the frequency range from 300 Hz to 1 kHz is below 1.0 ms, it is inaudible.[14]
+The waveform of any signal can be reproduced exactly by a system that has a flat frequency response and group delay over the bandwidth of the signal. Leach[18] introduced the concept of differential time-delay distortion, defined as the difference between the phase delay and the group delay:
+An ideal system should exhibit zero or negligible differential time-delay distortion.[18]
+It is possible to use digital signal processing techniques to correct the group delay distortion that arises due to the use of crossover networks in multi-way loudspeaker systems.[19] This involves considerable computational modeling of loudspeaker systems in order to successfully apply delay equalization,[20] using the Parks-McClellan FIR equiripple filter design algorithm.[1][5][21][22]
+Group delay is important in physics, and in particular in optics.
+In an optical fiber, group delay is the transit time required for optical power, traveling at a given mode's group velocity, to travel a given distance. For optical fiber dispersion measurement purposes, the quantity of interest is group delay per unit length, which is the reciprocal of the group velocity of a particular mode. The measured group delay of a signal through an optical fiber exhibits a wavelength dependence due to the various dispersion mechanisms present in the fiber.
+It is often desirable for the group delay to be constant across all frequencies; otherwise there is temporal smearing of the signal. Because group delay is 
+
+
+
+
+τ
+
+g
+
+
+(
+ω
+)
+=
+−
+
+
+
+d
+ϕ
+
+
+d
+ω
+
+
+
+
+
+{\textstyle \tau _{g}(\omega )=-{\frac {d\phi }{d\omega }}}
+
+, it therefore follows that a constant group delay can be achieved if the transfer function of the device or medium has a linear phase response (i.e., 
+
+
+
+ϕ
+(
+ω
+)
+=
+ϕ
+(
+0
+)
+−
+
+τ
+
+g
+
+
+ω
+
+
+{\displaystyle \phi (\omega )=\phi (0)-\tau _{g}\omega }
+
+ where the group delay 
+
+
+
+
+τ
+
+g
+
+
+
+
+{\displaystyle \tau _{g}}
+
+ is a constant). The degree of nonlinearity of the phase indicates the deviation of the group delay from a constant value.
+A transmitting apparatus is said to have true time delay (TTD) if the time delay is independent of the frequency of the electrical signal.[23][24] TTD allows for a wide instantaneous signal bandwidth with virtually no signal distortion such as pulse broadening during pulsed operation.
+TTD is an important characteristic of lossless and low-loss, dispersion free, transmission lines. Telegrapher's equations § Lossless transmission reveals that signals propagate through them at a speed of 
+
+
+
+1
+
+/
+
+
+
+L
+C
+
+
+
+
+{\displaystyle 1/{\sqrt {LC}}}
+
+ for a distributed inductance L and capacitance C. Hence, any signal's propagation delay through the line simply equals the length of the line divided by this speed.
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. Archived from the original on 2022-01-22.
+
+

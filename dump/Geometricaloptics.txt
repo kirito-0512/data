@@ -1,0 +1,1509 @@
+41209,
+Geometricaloptics,
+Geometrical optics, or ray optics, is a model of optics that describes light propagation in terms of rays. The ray in geometrical optics is an abstraction useful for approximating the paths along which light propagates under certain circumstances.
+The simplifying assumptions of geometrical optics include that light rays:
+Geometrical optics does not account for certain optical effects such as diffraction and interference. This simplification is useful in practice; it is an excellent approximation when the wavelength is small compared to the size of structures with which the light interacts. The techniques are particularly useful in describing geometrical aspects of imaging, including optical aberrations.
+A light ray is a line or curve that is perpendicular to the light's wavefronts (and is therefore collinear with the wave vector).
+A slightly more rigorous definition of a light ray follows from Fermat's principle, which states that the path taken between two points by a ray of light is the path that can be traversed in the least time.[1]
+Geometrical optics is often simplified by making the paraxial approximation, or "small angle approximation". The mathematical behavior then becomes linear, allowing optical components and systems to be described by simple matrices. This leads to the techniques  of Gaussian optics and paraxial ray tracing, which are used to find basic properties of optical systems, such as approximate image and object positions and magnifications.[2]
+Glossy surfaces such as mirrors reflect light in a simple, predictable way. This allows for production of reflected images that can be associated with an actual (real) or extrapolated (virtual) location in space.
+With such surfaces, the direction of the reflected ray is determined by the angle the incident ray makes with the surface normal, a line perpendicular to the surface at the point where the ray hits. The incident and reflected rays lie in a single plane, and the angle between the reflected ray and the surface normal is the same as that between the incident ray and the normal.[3] This is known as the Law of Reflection.
+For flat mirrors, the law of reflection implies that images of objects are upright and the same distance behind the mirror as the objects are in front of the mirror. The image size is the same as the object size. (The magnification of a flat mirror is equal to one.) The law also implies that mirror images are parity inverted, which is perceived as a left-right inversion.
+Mirrors with curved surfaces can be modeled by ray tracing and using the law of reflection at each point on the surface. For mirrors with parabolic surfaces, parallel rays incident on the mirror produce reflected rays that converge at a common focus. Other curved surfaces may also focus light, but with aberrations due to the diverging shape causing the focus to be smeared out in space. In particular, spherical mirrors exhibit spherical aberration. Curved mirrors can form images with magnification greater than or less than one, and the image can be upright or inverted. An upright image formed by reflection in a mirror is always virtual, while an inverted image is real and can be projected onto a screen.[3]
+Refraction occurs when light travels through an area of space that has a changing index of refraction. The simplest case of refraction occurs when there is an interface between a uniform medium with index of refraction 
+
+
+
+
+n
+
+1
+
+
+
+
+{\displaystyle n_{1}}
+
+ and another medium with index of refraction 
+
+
+
+
+n
+
+2
+
+
+
+
+{\displaystyle n_{2}}
+
+. In such situations, Snell's Law describes the resulting deflection of the light ray:
+where 
+
+
+
+
+θ
+
+1
+
+
+
+
+{\displaystyle \theta _{1}}
+
+ and 
+
+
+
+
+θ
+
+2
+
+
+
+
+{\displaystyle \theta _{2}}
+
+ are the angles between the normal (to the interface) and the incident and refracted waves, respectively. This phenomenon is also associated with a changing speed of light as seen from the definition of index of refraction provided above which implies:
+where 
+
+
+
+
+v
+
+1
+
+
+
+
+{\displaystyle v_{1}}
+
+ and 
+
+
+
+
+v
+
+2
+
+
+
+
+{\displaystyle v_{2}}
+
+ are the wave velocities through the respective media.[3]
+Various consequences of Snell's Law include the fact that for light rays traveling from a material with a high index of refraction to a material with a low index of refraction, it is possible for the interaction with the interface to result in zero transmission. This phenomenon is called total internal reflection and allows for fiber optics technology. As light signals travel down a fiber optic cable, they undergo total internal reflection allowing for essentially no light lost over the length of the cable. It is also possible to produce polarized light rays using a combination of reflection and refraction: When a refracted ray and the reflected ray form a right angle, the reflected ray has the property of "plane polarization". The angle of incidence required for such a scenario is known as Brewster's angle.[3]
+Snell's Law can be used to predict the deflection of light rays as they pass through "linear media" as long as the indexes of refraction and the geometry of the media are known. For example, the propagation of light through a prism results in the light ray being deflected depending on the shape and orientation of the prism. Additionally, since different frequencies of light have slightly different indexes of refraction in most materials, refraction can be used to produce dispersion spectra that appear as rainbows. The discovery of this phenomenon when passing light through a prism is famously attributed to Isaac Newton.[3]
+Some media have an index of refraction which varies gradually with position and, thus, light rays curve through the medium rather than travel in straight lines. This effect is what is responsible for mirages seen on hot days where the changing index of refraction of the air causes the light rays to bend creating the appearance of specular reflections in the distance (as if on the surface of a pool of water). Material that has a varying index of refraction is called a gradient-index (GRIN) material and has many useful properties used in modern optical scanning technologies including photocopiers and scanners. The phenomenon is studied in the field of gradient-index optics.[4]
+A device which produces converging or diverging light rays due to refraction is known as a lens. Thin lenses produce focal points on either side that can be modeled using the lensmaker's equation.[5] In general, two types of lenses exist: convex lenses, which cause parallel light rays to converge, and concave lenses, which cause parallel light rays to diverge. The detailed prediction of how images are produced by these lenses can be made using ray-tracing similar to curved mirrors. Similarly to curved mirrors, thin lenses follow a simple equation that determines the location of the images given a particular focal length (
+
+
+
+f
+
+
+{\displaystyle f}
+
+) and object distance (
+
+
+
+
+S
+
+1
+
+
+
+
+{\displaystyle S_{1}}
+
+):
+where 
+
+
+
+
+S
+
+2
+
+
+
+
+{\displaystyle S_{2}}
+
+ is the distance associated with the image and is considered by convention to be negative if on the same side of the lens as the object and positive if on the opposite side of the lens.[5] The focal length f is considered negative for concave lenses.
+
+Incoming parallel rays are focused by a convex lens into an inverted real image one focal length from the lens, on the far side of the lens. 
+Rays from an object at finite distance are focused further from the lens than the focal distance; the closer the object is to the lens, the further the image is from the lens. With concave lenses, incoming parallel rays diverge after going through the lens, in such a way that they seem to have originated at an upright virtual image one focal length from the lens, on the same side of the lens that the parallel rays are approaching on. 
+Rays from an object at finite distance are associated with a virtual image that is closer to the lens than the focal length, and on the same side of the lens as the object. The closer the object is to the lens, the closer the virtual image is to the lens. Likewise, the magnification of a lens is given by
+where the negative sign is given, by convention, to indicate an upright object for positive values and an inverted object for negative values. Similar to mirrors, upright images produced by single lenses are virtual while inverted images are real.[3]
+Lenses suffer from aberrations that distort images and focal points. These are due to both to geometrical imperfections and due to the changing index of refraction for different wavelengths of light (chromatic aberration).[3]
+As a mathematical study, geometrical optics emerges as a short-wavelength limit for solutions to hyperbolic partial differential equations (Sommerfeld–Runge method) or as a property of propagation of field discontinuities according to Maxwell's equations (Luneburg method).  In this short-wavelength limit, it is possible to approximate the solution locally by
+where 
+
+
+
+k
+,
+ω
+
+
+{\displaystyle k,\omega }
+
+ satisfy a dispersion relation, and the amplitude 
+
+
+
+a
+(
+t
+,
+x
+)
+
+
+{\displaystyle a(t,x)}
+
+ varies slowly.  More precisely, the leading order solution takes the form
+The phase 
+
+
+
+φ
+(
+t
+,
+x
+)
+
+/
+
+ε
+
+
+{\displaystyle \varphi (t,x)/\varepsilon }
+
+ can be linearized to recover large wavenumber 
+
+
+
+k
+:=
+
+∇
+
+x
+
+
+φ
+
+
+{\displaystyle k:=\nabla _{x}\varphi }
+
+, and frequency 
+
+
+
+ω
+:=
+−
+
+∂
+
+t
+
+
+φ
+
+
+{\displaystyle \omega :=-\partial _{t}\varphi }
+
+.  The amplitude 
+
+
+
+
+a
+
+0
+
+
+
+
+{\displaystyle a_{0}}
+
+ satisfies a transport equation.  The small parameter 
+
+
+
+ε
+
+
+
+{\displaystyle \varepsilon \,}
+
+ enters the scene due to highly oscillatory initial conditions.  Thus, when initial conditions oscillate much faster than the coefficients of the differential equation, solutions will be highly oscillatory, and transported along rays.  Assuming coefficients in the differential equation are smooth, the rays will be too.  In other words, refraction does not take place.  The motivation for this technique comes from studying the typical scenario of light propagation where short wavelength light travels along rays that minimize (more or less) its travel time.  Its full application requires tools from microlocal analysis.
+The method of obtaining equations of geometrical optics by taking the limit of zero wavelength was first described by Arnold Sommerfeld and J. Runge in 1911.[6] Their derivation was based on an oral remark by Peter Debye.[7][8] Consider a monochromatic scalar field 
+
+
+
+ψ
+(
+
+r
+
+,
+t
+)
+=
+ϕ
+(
+
+r
+
+)
+
+e
+
+i
+ω
+t
+
+
+
+
+{\displaystyle \psi (\mathbf {r} ,t)=\phi (\mathbf {r} )e^{i\omega t}}
+
+, where 
+
+
+
+ψ
+
+
+{\displaystyle \psi }
+
+ could be any of the components of electric or magnetic field and hence the function 
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+
+ satisfy the wave equation
+where 
+
+
+
+
+k
+
+o
+
+
+=
+ω
+
+/
+
+c
+=
+2
+π
+
+/
+
+
+λ
+
+o
+
+
+
+
+{\displaystyle k_{o}=\omega /c=2\pi /\lambda _{o}}
+
+ with 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ being the speed of light in vacuum. Here, 
+
+
+
+n
+(
+
+r
+
+)
+
+
+{\displaystyle n(\mathbf {r} )}
+
+ is the refractive index of the medium. Without loss of generality, let us introduce 
+
+
+
+ϕ
+=
+A
+(
+
+k
+
+o
+
+
+,
+
+r
+
+)
+
+e
+
+i
+
+k
+
+o
+
+
+S
+(
+
+r
+
+)
+
+
+
+
+{\displaystyle \phi =A(k_{o},\mathbf {r} )e^{ik_{o}S(\mathbf {r} )}}
+
+ to convert the equation to
+Since the underlying principle of geometrical optics lies in the limit 
+
+
+
+
+λ
+
+o
+
+
+∼
+
+k
+
+o
+
+
+−
+1
+
+
+→
+0
+
+
+{\displaystyle \lambda _{o}\sim k_{o}^{-1}\rightarrow 0}
+
+, the following asymptotic series is assumed,
+For large but finite value of 
+
+
+
+
+k
+
+o
+
+
+
+
+{\displaystyle k_{o}}
+
+, the series diverges, and one has to be careful in keeping only appropriate first few terms. For each value of 
+
+
+
+
+k
+
+o
+
+
+
+
+{\displaystyle k_{o}}
+
+, 
+one can find an optimum number of terms to be kept  and adding more terms than the optimum number might result in a poorer approximation.[9] Substituting the series into the equation and collecting terms of different orders, one finds
+in general,
+The first equation is known as the eikonal equation, which determines the eikonal 
+
+
+
+S
+(
+
+r
+
+)
+
+
+{\displaystyle S(\mathbf {r} )}
+
+ is a Hamilton–Jacobi equation, written for example in Cartesian coordinates becomes
+The remaining equations determine the functions 
+
+
+
+
+A
+
+m
+
+
+(
+
+r
+
+)
+
+
+{\displaystyle A_{m}(\mathbf {r} )}
+
+.
+The method of obtaining equations of geometrical optics by analysing surfaces of discontinuities of solutions to Maxwell's equations was first described by Rudolf Karl Luneburg in 1944.[10] It does not restrict the electromagnetic field to have a special form required by the Sommerfeld-Runge method which assumes the amplitude 
+
+
+
+A
+(
+
+k
+
+o
+
+
+,
+
+r
+
+)
+
+
+{\displaystyle A(k_{o},\mathbf {r} )}
+
+ and phase 
+
+
+
+S
+(
+
+r
+
+)
+
+
+{\displaystyle S(\mathbf {r} )}
+
+ satisfy the equation 
+
+
+
+
+lim
+
+
+k
+
+0
+
+
+→
+∞
+
+
+
+
+1
+
+k
+
+0
+
+
+
+
+
+(
+
+
+
+1
+A
+
+
+
+∇
+S
+⋅
+∇
+A
++
+
+
+1
+2
+
+
+
+∇
+
+2
+
+
+S
+
+)
+
+=
+0
+
+
+{\displaystyle \lim _{k_{0}\to \infty }{1 \over k_{0}}\left({1 \over A}\,\nabla S\cdot \nabla A+{1 \over 2}\nabla ^{2}S\right)=0}
+
+. This condition is satisfied by e.g. plane waves but is not additive.
+The main conclusion of Luneburg's approach is the following:
+Theorem. Suppose the fields 
+
+
+
+
+
+
+E
+→
+
+
+
+(
+x
+,
+y
+,
+z
+,
+t
+)
+
+
+{\displaystyle \mathbf {\vec {E}} (x,y,z,t)}
+
+ and 
+
+
+
+
+
+
+H
+→
+
+
+
+(
+x
+,
+y
+,
+z
+,
+t
+)
+
+
+{\displaystyle \mathbf {\vec {H}} (x,y,z,t)}
+
+ (in a linear isotropic medium described by dielectric constants 
+
+
+
+ε
+(
+x
+,
+y
+,
+z
+)
+
+
+{\displaystyle \varepsilon (x,y,z)}
+
+ and 
+
+
+
+μ
+(
+x
+,
+y
+,
+z
+)
+
+
+{\displaystyle \mu (x,y,z)}
+
+) have finite discontinuities along a (moving) surface in 
+
+
+
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {R} ^{3}}
+
+ described by the equation 
+
+
+
+ψ
+(
+x
+,
+y
+,
+z
+)
+−
+c
+t
+=
+0
+
+
+{\displaystyle \psi (x,y,z)-ct=0}
+
+. Then Maxwell's equations in the integral form imply that 
+
+
+
+ψ
+
+
+{\displaystyle \psi }
+
+ satisfies the eikonal equation:
+where 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ is the index of refraction of the medium (Gaussian units).
+An example of such surface of discontinuity is the initial wave front emanating from a source that starts radiating at a certain instant of time.
+The surfaces of field discontinuity thus become geometrical optics wave fronts with the corresponding geometrical optics fields defined as:
+Those fields obey transport equations consistent with the transport equations of the Sommerfeld-Runge approach. Light rays in Luneburg's theory are defined as trajectories orthogonal to the discontinuity surfaces and can be shown to obey Fermat's principle of least time thus establishing the identity of those rays with light rays of standard optics.
+The above developments can be generalised to anisotropic media.[11]
+The proof of Luneburg's theorem is based on investigating how Maxwell's equations govern the propagation of discontinuities of solutions. The basic technical lemma is as follows:
+A technical lemma. Let 
+
+
+
+φ
+(
+x
+,
+y
+,
+z
+,
+t
+)
+=
+0
+
+
+{\displaystyle \varphi (x,y,z,t)=0}
+
+ be a hypersurface (a 3-dimensional manifold) in spacetime 
+
+
+
+
+
+R
+
+
+4
+
+
+
+
+{\displaystyle \mathbf {R} ^{4}}
+
+ on which one or more of: 
+
+
+
+
+
+
+E
+→
+
+
+
+(
+x
+,
+y
+,
+z
+,
+t
+)
+
+
+{\displaystyle \mathbf {\vec {E}} (x,y,z,t)}
+
+, 
+
+
+
+
+
+
+H
+→
+
+
+
+(
+x
+,
+y
+,
+z
+,
+t
+)
+
+
+{\displaystyle \mathbf {\vec {H}} (x,y,z,t)}
+
+, 
+
+
+
+ε
+(
+x
+,
+y
+,
+z
+)
+
+
+{\displaystyle \varepsilon (x,y,z)}
+
+, 
+
+
+
+μ
+(
+x
+,
+y
+,
+z
+)
+
+
+{\displaystyle \mu (x,y,z)}
+
+, have a finite discontinuity. Then at each point of the hypersurface the following formulas hold:
+where the 
+
+
+
+∇
+
+
+{\displaystyle \nabla }
+
+ operator acts in the 
+
+
+
+x
+y
+z
+
+
+{\displaystyle xyz}
+
+-space (for every fixed 
+
+
+
+t
+
+
+{\displaystyle t}
+
+) and the square brackets denote the difference in values on both sides of the discontinuity surface (set up according to an arbitrary but fixed convention, e.g. the gradient 
+
+
+
+∇
+φ
+
+
+{\displaystyle \nabla \varphi }
+
+ pointing in the direction of the quantities being subtracted from).
+Sketch of proof. Start with Maxwell's equations away from the sources (Gaussian units):
+Using Stokes' theorem in 
+
+
+
+
+
+R
+
+
+4
+
+
+
+
+{\displaystyle \mathbf {R} ^{4}}
+
+ one can conclude from the first of the above equations that for any domain 
+
+
+
+D
+
+
+{\displaystyle D}
+
+ in 
+
+
+
+
+
+R
+
+
+4
+
+
+
+
+{\displaystyle \mathbf {R} ^{4}}
+
+ with a piecewise smooth (3-dimensional) boundary 
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+ the following is true:
+where 
+
+
+
+
+
+
+M
+→
+
+
+
+=
+(
+
+x
+
+N
+
+
+,
+
+y
+
+N
+
+
+,
+
+z
+
+N
+
+
+)
+
+
+{\displaystyle \mathbf {\vec {M}} =(x_{N},y_{N},z_{N})}
+
+ is the projection of the outward unit normal 
+
+
+
+(
+
+x
+
+N
+
+
+,
+
+y
+
+N
+
+
+,
+
+z
+
+N
+
+
+,
+
+t
+
+N
+
+
+)
+
+
+{\displaystyle (x_{N},y_{N},z_{N},t_{N})}
+
+ of 
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+ onto the 3D slice 
+
+
+
+t
+=
+
+
+c
+o
+n
+s
+t
+
+
+
+
+{\displaystyle t={\rm {const}}}
+
+, and 
+
+
+
+d
+S
+
+
+{\displaystyle dS}
+
+ is the volume 3-form on 
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+. Similarly, one establishes the following from the remaining Maxwell's equations:
+Now by considering arbitrary small sub-surfaces 
+
+
+
+
+Γ
+
+0
+
+
+
+
+{\displaystyle \Gamma _{0}}
+
+ of 
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+ and setting up small neighbourhoods surrounding 
+
+
+
+
+Γ
+
+0
+
+
+
+
+{\displaystyle \Gamma _{0}}
+
+ in 
+
+
+
+
+
+R
+
+
+4
+
+
+
+
+{\displaystyle \mathbf {R} ^{4}}
+
+, and subtracting the above integrals accordingly, one obtains:
+where 
+
+
+
+
+∇
+
+4
+D
+
+
+
+
+{\displaystyle \nabla ^{4D}}
+
+ denotes the gradient in the 4D 
+
+
+
+x
+y
+z
+t
+
+
+{\displaystyle xyzt}
+
+-space. And since 
+
+
+
+
+Γ
+
+0
+
+
+
+
+{\displaystyle \Gamma _{0}}
+
+ is arbitrary, the integrands must be equal to 0 which proves the lemma.
+It's now easy to show that as they propagate through a continuous medium, the discontinuity surfaces obey the eikonal equation. Specifically, if 
+
+
+
+ε
+
+
+{\displaystyle \varepsilon }
+
+ and 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ are continuous, then the discontinuities of 
+
+
+
+
+
+
+E
+→
+
+
+
+
+
+{\displaystyle \mathbf {\vec {E}} }
+
+ and 
+
+
+
+
+
+
+H
+→
+
+
+
+
+
+{\displaystyle \mathbf {\vec {H}} }
+
+ satisfy: 
+
+
+
+[
+ε
+
+
+
+E
+→
+
+
+
+]
+=
+ε
+[
+
+
+
+E
+→
+
+
+
+]
+
+
+{\displaystyle [\varepsilon \mathbf {\vec {E}} ]=\varepsilon [\mathbf {\vec {E}} ]}
+
+ and 
+
+
+
+[
+μ
+
+
+
+H
+→
+
+
+
+]
+=
+μ
+[
+
+
+
+H
+→
+
+
+
+]
+
+
+{\displaystyle [\mu \mathbf {\vec {H}} ]=\mu [\mathbf {\vec {H}} ]}
+
+. In this case the last two equations of the lemma can be written as:
+Taking the cross product of the second equation with 
+
+
+
+∇
+φ
+
+
+{\displaystyle \nabla \varphi }
+
+ and substituting the first yields:
+The continuity of 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and the second equation of the lemma imply: 
+
+
+
+∇
+φ
+⋅
+[
+
+
+
+H
+→
+
+
+
+]
+=
+0
+
+
+{\displaystyle \nabla \varphi \cdot [\mathbf {\vec {H}} ]=0}
+
+, hence, for points lying on the surface 
+
+
+
+φ
+=
+0
+
+
+{\displaystyle \varphi =0}
+
+ only:
+(Notice the presence of the discontinuity is essential in this step as we'd be dividing by zero otherwise.)
+Because of the physical considerations one can assume without loss of generality that 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ is of the following form:
+
+
+
+
+φ
+(
+x
+,
+y
+,
+z
+,
+t
+)
+=
+ψ
+(
+x
+,
+y
+,
+z
+)
+−
+c
+t
+
+
+{\displaystyle \varphi (x,y,z,t)=\psi (x,y,z)-ct}
+
+, i.e. a 2D surface moving through space, modelled as level surfaces of 
+
+
+
+ψ
+
+
+{\displaystyle \psi }
+
+. (Mathematically 
+
+
+
+ψ
+
+
+{\displaystyle \psi }
+
+ exists if 
+
+
+
+
+φ
+
+t
+
+
+≠
+0
+
+
+{\displaystyle \varphi _{t}\neq 0}
+
+ by the implicit function theorem.)
+The above equation written in terms of 
+
+
+
+ψ
+
+
+{\displaystyle \psi }
+
+ becomes:
+i.e.,
+which is the eikonal equation and it holds for all 
+
+
+
+x
+
+
+{\displaystyle x}
+
+, 
+
+
+
+y
+
+
+{\displaystyle y}
+
+, 
+
+
+
+z
+
+
+{\displaystyle z}
+
+, since the variable 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ is absent. Other laws of optics like Snell's law and Fresnel formulae can be similarly obtained by considering discontinuities in 
+
+
+
+ε
+
+
+{\displaystyle \varepsilon }
+
+ and 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+.
+In four-vector notation used in special relativity, the wave equation can be written as
+and the substitution 
+
+
+
+ψ
+=
+A
+
+e
+
+i
+S
+
+/
+
+ϵ
+
+
+
+
+{\displaystyle \psi =Ae^{iS/\epsilon }}
+
+ leads to[12]
+Therefore the eikonal equation is given by
+Once eikonal is found by solving the above equation, the wave four-vector can be found from
+
+

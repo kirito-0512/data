@@ -1,0 +1,428 @@
+7723,
+Carmichaelnumber,
+In number theory, a Carmichael number is a composite number 
+n
+{\displaystyle n}
+, which in modular arithmetic satisfies the congruence relation:
+for all integers 
+b
+{\displaystyle b}
+.[1] The relation may also be expressed[2][failed verification] in the form:
+for all integers 
+b
+{\displaystyle b}
+ which are relatively prime to 
+n
+{\displaystyle n}
+. Carmichael numbers are named after American mathematician Robert Carmichael, the term having been introduced by Nicolaas Beeger in 1950 (Øystein Ore had referred to them in 1948 as numbers with the "Fermat property", or "F numbers" for short[3]).
+They are infinite in number.[4]
+They constitute the comparatively rare instances where the strict converse of Fermat's Little Theorem does not hold.  This fact precludes the use of that theorem as an absolute test of primality.[5]
+The Carmichael numbers form the subset K1 of the Knödel numbers.
+Fermat's little theorem states that if 
+p
+{\displaystyle p}
+ is a prime number, then for any integer 
+b
+{\displaystyle b}
+, the number 
+b
+p
+−
+b
+{\displaystyle b^{p}-b}
+ is an integer multiple of 
+p
+{\displaystyle p}
+.  Carmichael numbers are composite numbers which have the same property.  Carmichael numbers are also called Fermat pseudoprimes or absolute Fermat pseudoprimes. A Carmichael number will pass a Fermat primality test to every base 
+b
+{\displaystyle b}
+ relatively prime to the number, even though it is not actually prime.
+This makes tests based on Fermat's Little Theorem less effective than strong probable prime tests such as the Baillie–PSW primality test and the Miller–Rabin primality test.
+However, no Carmichael number is either an Euler–Jacobi pseudoprime or a strong pseudoprime to every base relatively prime to it[6]
+so, in theory, either an Euler or a strong probable prime test could prove that a Carmichael number is, in fact, composite.
+Arnault[7]
+gives a 397-digit Carmichael number 
+N
+{\displaystyle N}
+ that is a strong pseudoprime to all prime bases less than 307:
+where
+is a 131-digit prime. 
+p
+{\displaystyle p}
+ is the smallest prime factor of 
+N
+{\displaystyle N}
+, so this Carmichael number is also a (not necessarily strong) pseudoprime to all bases less than 
+p
+{\displaystyle p}
+.
+As numbers become larger, Carmichael numbers become increasingly rare. For example, there are 20,138,200 Carmichael numbers between 1 and 1021 (approximately one in 50 trillion (5·1013) numbers).[8]
+An alternative and equivalent definition of Carmichael numbers is given by Korselt's criterion.
+It follows from this theorem that all Carmichael numbers are odd, since any even composite number that is square-free (and hence has only one prime factor of two) will have at least one odd prime factor, and thus 
+p
+−
+1
+∣
+n
+−
+1
+{\displaystyle p-1\mid n-1}
+ results in an even dividing an odd, a contradiction. (The oddness of Carmichael numbers also follows from the fact that 
+−
+1
+{\displaystyle -1}
+ is a Fermat witness for any even composite number.)
+From the criterion it also follows that Carmichael numbers are cyclic.[9][10] Additionally, it follows that there are no Carmichael numbers with exactly two prime divisors.
+Korselt was the first who observed the basic properties of Carmichael numbers, but he did not give any examples. In 1910, Carmichael[11] found the first and smallest such number, 561, which explains the name "Carmichael number".
+That 561 is a Carmichael number can be seen with Korselt's criterion. Indeed, 
+561
+=
+3
+⋅
+11
+⋅
+17
+{\displaystyle 561=3\cdot 11\cdot 17}
+ is square-free and 
+2
+∣
+560
+{\displaystyle 2\mid 560}
+, 
+10
+∣
+560
+{\displaystyle 10\mid 560}
+ and 
+16
+∣
+560
+{\displaystyle 16\mid 560}
+.
+The next six Carmichael numbers are (sequence A002997 in the OEIS):
+These first seven Carmichael numbers, from 561 to 8911, were all found by the Czech mathematician Václav Šimerka in 1885[12] (thus preceding not just Carmichael but also Korselt, although Šimerka did not find anything like Korselt's criterion).[13] His work, however, remained unnoticed.
+Jack Chernick[14] proved a theorem in 1939 which can be used to construct a subset of Carmichael numbers. The number 
+(
+6
+k
++
+1
+)
+(
+12
+k
++
+1
+)
+(
+18
+k
++
+1
+)
+{\displaystyle (6k+1)(12k+1)(18k+1)}
+ is a Carmichael number if its three factors are all prime. Whether this formula produces an infinite quantity of Carmichael numbers is an open question (though it is implied by Dickson's conjecture).
+Paul Erdős heuristically argued there should be infinitely many Carmichael numbers. In 1994 W. R. (Red) Alford, Andrew Granville and Carl Pomerance  used a bound on Olson's constant to show that there really do exist infinitely many Carmichael numbers. Specifically, they showed that for sufficiently large 
+n
+{\displaystyle n}
+, there are at least 
+n
+2
+/
+7
+{\displaystyle n^{2/7}}
+ Carmichael numbers between 1 and 
+n
+.
+{\displaystyle n.}
+[4]
+Thomas Wright proved that if 
+a
+{\displaystyle a}
+ and 
+m
+{\displaystyle m}
+ are relatively prime,
+then there are infinitely many Carmichael numbers in the arithmetic progression 
+a
++
+k
+⋅
+m
+{\displaystyle a+k\cdot m}
+,
+where 
+k
+=
+1
+,
+2
+,
+…
+{\displaystyle k=1,2,\ldots }
+.[15]
+Löh and Niebuhr in 1992 found some very large Carmichael numbers, including one with 1,101,518 factors and over 16 million digits.
+This has been improved to 10,333,229,505 prime factors and 295,486,761,787 digits,[16] so the largest known Carmichael number is much greater than the largest known prime.
+Carmichael numbers have at least three positive prime factors. The first Carmichael numbers with 
+k
+=
+3
+,
+4
+,
+5
+,
+…
+{\displaystyle k=3,4,5,\ldots }
+ prime factors are (sequence A006931 in the OEIS):
+The first Carmichael numbers with 4 prime factors are (sequence A074379 in the OEIS):
+The second Carmichael number (1105) can be expressed as the sum of two squares in more ways than any smaller number. The third Carmichael number (1729) is the Hardy-Ramanujan Number: the smallest number that can be expressed as the sum of two cubes (of positive numbers) in two different ways.
+Let 
+C
+(
+X
+)
+{\displaystyle C(X)}
+ denote the number of Carmichael numbers less than or equal to 
+X
+{\displaystyle X}
+. The distribution of Carmichael numbers by powers of 10 (sequence A055553 in the OEIS):[8]
+In 1953, Knödel proved the upper bound:
+for some constant 
+k
+1
+{\displaystyle k_{1}}
+.
+In 1956, Erdős improved the bound to
+for some constant 
+k
+2
+{\displaystyle k_{2}}
+.[17] He further gave a heuristic argument suggesting that this upper bound should be close to the true growth rate of 
+C
+(
+X
+)
+{\displaystyle C(X)}
+.
+In the other direction, Alford, Granville and Pomerance proved in 1994[4] that for sufficiently large X,
+In 2005, this bound was further improved by Harman[18] to
+who subsequently improved the exponent to 
+0.7039
+⋅
+0.4736
+=
+0.33336704
+>
+1
+/
+3
+{\displaystyle 0.7039\cdot 0.4736=0.33336704>1/3}
+.
+[19]
+Regarding the asymptotic distribution of Carmichael numbers, there have been several conjectures. In 1956, Erdős[17] conjectured that there were 
+X
+1
+−
+o
+(
+1
+)
+{\displaystyle X^{1-o(1)}}
+ Carmichael numbers for X sufficiently large. In 1981, Pomerance[20] sharpened Erdős' heuristic arguments to conjecture that there are at least
+Carmichael numbers up to 
+X
+{\displaystyle X}
+, where 
+L
+(
+x
+)
+=
+exp
+⁡
+(
+log
+⁡
+x
+log
+⁡
+log
+⁡
+log
+⁡
+x
+log
+⁡
+log
+⁡
+x
+)
+{\displaystyle L(x)=\exp {\left({\frac {\log x\log \log \log x}{\log \log x}}\right)}}
+.
+However, inside current computational ranges (such as the counts of Carmichael numbers performed by Pinch[8] up to 1021), these conjectures are not yet borne out by the data.
+In 2021, Daniel Larsen proved an analogue of Bertrand's postulate for Carmichael numbers first conjectured by Alford, Granville, and Pomerance in 1994.[5][21] Using techniques developed by Yitang Zhang and James Maynard to establish results concerning small gaps between primes, his work yielded the much stronger statement that, for any 
+δ
+>
+0
+{\displaystyle \delta >0}
+ and sufficiently large 
+x
+{\displaystyle x}
+ in terms of 
+δ
+{\displaystyle \delta }
+, there will always be at least  
+Carmichael numbers between 
+x
+{\displaystyle x}
+ and
+The notion of Carmichael number generalizes to a Carmichael ideal in any number field K. For any nonzero prime ideal 
+p
+{\displaystyle {\mathfrak {p}}}
+ in 
+O
+K
+{\displaystyle {\mathcal {O}}_{K}}
+, we have 
+α
+N
+(
+p
+)
+≡
+α
+mod
+p
+{\displaystyle \alpha ^{{\rm {N}}({\mathfrak {p}})}\equiv \alpha {\bmod {\mathfrak {p}}}}
+ for all 
+α
+{\displaystyle \alpha }
+ in 
+O
+K
+{\displaystyle {\mathcal {O}}_{K}}
+, where 
+N
+(
+p
+)
+{\displaystyle {\rm {N}}({\mathfrak {p}})}
+ is the norm of the ideal 
+p
+{\displaystyle {\mathfrak {p}}}
+. (This generalizes Fermat's little theorem, that 
+m
+p
+≡
+m
+mod
+p
+{\displaystyle m^{p}\equiv m{\bmod {p}}}
+ for all integers m when p is prime.) Call a nonzero ideal 
+a
+{\displaystyle {\mathfrak {a}}}
+ in 
+O
+K
+{\displaystyle {\mathcal {O}}_{K}}
+ Carmichael if it is not a prime ideal and 
+α
+N
+(
+a
+)
+≡
+α
+mod
+a
+{\displaystyle \alpha ^{{\rm {N}}({\mathfrak {a}})}\equiv \alpha {\bmod {\mathfrak {a}}}}
+ for all 
+α
+∈
+O
+K
+{\displaystyle \alpha \in {\mathcal {O}}_{K}}
+, where 
+N
+(
+a
+)
+{\displaystyle {\rm {N}}({\mathfrak {a}})}
+ is the norm of the ideal 
+a
+{\displaystyle {\mathfrak {a}}}
+.  When K is 
+Q
+{\displaystyle \mathbf {Q} }
+, the ideal 
+a
+{\displaystyle {\mathfrak {a}}}
+ is principal, and if we let a be its positive generator then the ideal 
+a
+=
+(
+a
+)
+{\displaystyle {\mathfrak {a}}=(a)}
+ is Carmichael exactly when a is a Carmichael number in the usual sense.
+When K is larger than the rationals it is easy to write down Carmichael ideals in 
+O
+K
+{\displaystyle {\mathcal {O}}_{K}}
+: for any prime number p that splits completely in K, the principal ideal 
+p
+O
+K
+{\displaystyle p{\mathcal {O}}_{K}}
+ is a Carmichael ideal. Since infinitely many prime numbers split completely in any number field, there are infinitely many Carmichael ideals in 
+O
+K
+{\displaystyle {\mathcal {O}}_{K}}
+. For example, if p is any prime number that is 1 mod 4, the ideal (p) in the Gaussian integers Z[ i ] is a Carmichael ideal.
+Both prime and Carmichael numbers satisfy the following equality:
+A positive composite integer 
+n
+{\displaystyle n}
+ is a Lucas–Carmichael number if and only if 
+n
+{\displaystyle n}
+ is square-free, and for all prime divisors 
+p
+{\displaystyle p}
+ of 
+n
+{\displaystyle n}
+, it is true that 
+p
++
+1
+∣
+n
++
+1
+{\displaystyle p+1\mid n+1}
+. The first Lucas–Carmichael numbers are:
+Quasi–Carmichael numbers are squarefree composite numbers n with the property that for every prime factor p of n, p + b divides n + b positively with b being any integer besides 0. If b = −1, these are Carmichael numbers, and if b = 1, these are Lucas–Carmichael numbers. The first Quasi–Carmichael numbers are:
+An n-Knödel number for a given positive integer n is a composite number m with the property that each i < m coprime to m satisfies 
+i
+m
+−
+n
+≡
+1
+(
+mod
+m
+)
+{\displaystyle i^{m-n}\equiv 1{\pmod {m}}}
+. The n = 1 case are Carmichael numbers.
+Carmichael numbers can be generalized using concepts of abstract algebra.
+The above definition states that a composite integer n is Carmichael
+precisely when the nth-power-raising function pn from the ring Zn of integers modulo n to itself is the identity function. The identity is the only Zn-algebra endomorphism on Zn so we can restate the definition as asking that pn be an algebra endomorphism of Zn.
+As above, pn satisfies the same property whenever n is prime.
+The nth-power-raising function pn is also defined on any Zn-algebra A. A theorem states that n is prime if and only if all such functions pn are algebra endomorphisms.
+In-between these two conditions lies the definition of Carmichael number of order m for any positive integer m as any composite number n such that pn is an endomorphism on every Zn-algebra that can be generated as Zn-module by m elements. Carmichael numbers of order 1 are just the ordinary Carmichael numbers.
+According to Howe, 17 · 31 · 41 · 43 · 89 · 97 · 167 · 331 is an order 2 Carmichael number. This product is equal to 443,372,888,629,441.[22]
+Korselt's criterion can be generalized to higher-order Carmichael numbers, as shown by Howe.
+A heuristic argument, given in the same paper, appears to suggest that there are infinitely many Carmichael numbers of order m, for any m. However, not a single Carmichael number of order 3 or above is known.

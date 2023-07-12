@@ -1,0 +1,322 @@
+33303,
+Wankelengine,
+The Wankel engine (ˈvaŋkəl̩, VUN-kell) is a type of internal combustion engine using an eccentric rotary design to convert pressure into rotating motion. The concept was invented and proven by German engineer Felix Wankel, and the commercially feasible engine designed by German engineer Hanns-Dieter Paschke. The Wankel engine's rotor, which creates the turning motion, is similar in shape to a Reuleaux triangle, with the sides having less curvature. The rotor spins inside a figure-eight-like epitrochoidal housing, around a fixed toothed gearing. The midpoint of the rotor moves in a circle around the output shaft, spinning the shaft via a cam.
+Due to its inherent poor thermodynamics, the Wankel engine has a significantly worse thermal efficiency and worse exhaust gas behaviour when compared against the Otto engine or the Diesel engine, which is why the Wankel engine has seen limited use since its introduction in the 1960s. However, its advantages of compact design, smoothness, lower weight, and fewer parts over the reciprocating piston internal combustion engines make the Wankel engine suited for applications such as chainsaws, auxiliary power units, loitering munitions, aircraft, jet skis, snowmobiles, and range extenders in cars. In the past, the Wankel engine has also been used in road vehicles such as motorcycles, and racing cars.
+The Wankel engine is a type of rotary piston engine and exists in two basic forms, the Drehkolbenmotor (DKM, "rotary piston engine"), designed by Felix Wankel (see Figure 2.) and the Kreiskolbenmotor (KKM, "circuitous piston engine"), designed by Hanns-Dieter Paschke[1] (see Figure 3.), of which only the latter has left the prototype stage. Thus, all production Wankel engines are of the KKM type.
+Felix Wankel designed a rotary compressor in the 1920s, and received his first patent for a rotary type of engine in 1934.[5] He realized that the triangular rotor of the rotary compressor could have intake and exhaust ports added producing an internal combustion engine. Eventually, in 1951, Wankel began working at German firm NSU Motorenwerke to design a rotary compressor as a supercharger for NSU's motorcycle engines. Wankel conceived the design of a triangular rotor in the compressor.[6] With the assistance of Prof. Othmar Baier [de] from Stuttgart University of Applied Sciences, the concept was defined mathematically.[7] The supercharger he designed was used for one of NSU's 50 cm³ one-cylinder two-stroke engines. The engine produced a power output of 13.5 PS (10 kW) at 12,000 rpm.[8]
+In 1954, NSU agreed upon developing a rotary internal combustion engine with Felix Wankel, based upon Wankel's design of the supercharger for their motorcycle engines. Since Wankel was known as a "difficult colleague", the development work for the DKM was carried out at Wankel's private Lindau design bureau. According to John B. Hege, Wankel received help from his friend Ernst Höppner, who was a "brilliant engineer".[9] The first working prototype, DKM 54 (see figure 2.), first ran on 1 February 1957, at the NSU research and development department Versuchsabteilung TX. It produced 21 PS (15 kW).[10][11] Soon thereafter, a second prototype of the DKM was built. It had a working chamber volume Vk of 125 cm³ and also produced 21 kW (29 PS) at 17,000 rpm.[12] It could even reach speeds of up to 25,000 rpm. However, these engine speeds caused distortion in the outer rotor's shape, thus proving impractical.[13] According to Mazda Motors engineers and historians, four units of the DKM engine were built; the design is described to have a displacement Vh of 250 cm³ (equivalent to a working chamber volume Vk of 125 cm³). The fourth unit built is said to have received several design changes, and eventually produced 29 PS (21 kW) at 17,000/min; it could reach speeds up to 22,000/min. One of the four engines built has been on static display at the Deutsches Museum Bonn (see figure. 2).[14]
+Due to its complicated design with a stationary center shaft, the DKM engine was not practical.[3] Wolf-Dieter Bensinger [de] explicitly mentions that proper engine cooling cannot be achieved in a DKM engine, and argues that this is the reason why the DKM design had to be abandoned.[15] NSU engineer Walter Froede solved this problem by using Hanns-Dieter Paschke's design and converting the DKM into what would later be known as the KKM (see figure 5.).[3] The KKM proved to be a much more practical engine, as it has easily accessible spark plugs, a simpler cooling design, and a conventional power take-off shaft.[4] Wankel disliked Froede's KKM engine because of its inner rotor's eccentric motion, which was not a pure circular motion, as Wankel had intended. He remarked that his "race horse" was turned into a "plough horse". Wankel also complained that more stresses would be placed on the KKM's apex seals due to the eccentric hula-hoop motion of the rotor. NSU could not afford to finance the development of both the DKM and the KKM, and eventually decided to drop the DKM in favor of the KKM, because the latter seemed to be the more practical design.[16]
+Wankel obtained the US patent 2,988,065 on the KKM engine on 13 June 1961.[17] Throughout the design phase of the KKM, Froede's engineering team had to solve problems such as repeated bearing seizures, the oil flow inside the engine, and the engine cooling.[18] The first fully functioning KKM engine, the KKM 125, weighing in at only 17 kg (37.5 lb) displaced 125 cm³ and produced 26 PS (19 kW) at 11,000 rpm.[19] Its first run was on 1 July 1958.[20]
+In 1963, NSU produced the first series-production Wankel engine for a car, the KKM 502 (see figure 6.). It was used in the NSU Spider sports car, of which about 2,000 were made. Despite its "teething troubles", the KKM 502 was a quite powerful engine with decent potential, smooth operation, and low noise emissions at high engine speeds. It was a single-rotor PP engine with a displacement of 996 cm3 (61 in3), a rated power of 40 kW (54 hp) at 6,000 rpm and a BMEP of 1 MPa (145 lbf/in2).[21]
+The Wankel engine has a spinning eccentric power take-off shaft, with a rotary piston riding on eccentrics on the shaft in a hula-hoop fashion. The Wankel is a 2:3 type of rotary engine, i.e., two-thirds of its ideal total geometrical volume can be attributed to displacement. Thus, its housing's inner side resembles an oval-like epitrochoid, whereas its rotary piston has a trochoid (triangular) shape (similar to a Reuleaux triangle), and the Wankel engine's rotor always forms three moving working chambers.[22] The Wankel engine's basic geometry is depicted in figure 7. Seals at the apices of the rotor seal against the periphery of the housing.[23] The rotor moves in its rotating motion guided by gears and the eccentric output shaft, not being guided by the external chamber. The rotor does not make contact with the external engine housing. The force of expanded gas pressure on the rotor exerts pressure on the center of the eccentric part of the output shaft.
+All practical Wankel engines are four-cycle (i.e., four-stroke) engines. In theory, two-cycle engines are possible, but they are impractical because the intake gas and the exhaust gas cannot be properly separated.[15] The operating principle is similar to the Otto operating principle; the Diesel operating principle with its compression ignition cannot be used in a practical Wankel engine.[24] Therefore, Wankel engines typically have a high-voltage spark ignition system.[25]
+In a Wankel engine, one side of the triangular rotor completes the four-stage Otto cycle of intake, compression, ignition, and exhaust each revolution of the rotor (see figure 8.).[26] The shape of the rotor between the fixed apexes is to minimize the volume of the geometric combustion chamber and maximize the compression ratio, respectively.[23][27] As the rotor has three sides, this gives three power pulses per revolution of the rotor. All three faces of the Wankel's rotor operate simultaneously in one revolution. As the output shaft uses toothed gearing to turn three times faster than the rotor, one power pulse is produced at each revolution of the shaft. For comparison, the four-stroke piston engine completes the Otto cycle in two revolutions of its output shaft (crankshaft). The Wankel thus produces twice as many power pulses per output shaft revolution.[28]
+Wankel engines have a much lower degree of irregularity when compared to a reciprocating piston engine, making the Wankel engine run much smoother. This is because the Wankel engine has a lower moment of inertia and less excess torque area due to its more uniform torque delivery. For instance, a two-rotor Wankel engine runs more than twice as smoothly as a four-cylinder piston engine.[29] The eccentric output shaft of a Wankel engine also does not have the stress-related contours of a reciprocating piston engine's crankshaft. The maximum revolutions of a Wankel engine are thus mainly limited by tooth load on the synchronizing gears.[30] Hardened steel gears are used for extended operation above 7,000 or 8,000 rpm. In practice, automotive Wankel engines are not operated at much higher output shaft speeds than reciprocating piston engines of similar output power. Wankel engines in auto racing are operated at speeds up to 10,000 rpm, but so are four-stroke reciprocating piston engines with relatively small displacement per cylinder. In aircraft, they are used conservatively, up to 6500 or 7500 rpm.
+In a Wankel rotary engine, the chamber volume 
+
+
+
+
+V
+
+k
+
+
+
+
+{\displaystyle V_{k}}
+
+ is equivalent to the product of the rotor surface 
+
+
+
+
+A
+
+k
+
+
+
+
+{\displaystyle A_{k}}
+
+ and the rotor path 
+
+
+
+s
+
+
+{\displaystyle s}
+
+. The rotor surface 
+
+
+
+
+A
+
+k
+
+
+
+
+{\displaystyle A_{k}}
+
+ is given by the rotor tips' path across the rotor housing and determined by the generating radius 
+
+
+
+R
+
+
+{\displaystyle R}
+
+, the rotor width 
+
+
+
+B
+
+
+{\displaystyle B}
+
+, and the parallel transfers of the rotor and the inner housing 
+
+
+
+a
+
+
+{\displaystyle a}
+
+. Since the rotor has a trochoid ("triangular") shape, sinus 60 degrees describes the interval at which the rotors get closest to the rotor housing. Therefore,
+The rotor path 
+
+
+
+s
+
+
+{\displaystyle s}
+
+ may be integrated via the eccentricity 
+
+
+
+e
+
+
+{\displaystyle e}
+
+ as follows:
+Therefore,
+For convenience, 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ may be omitted because it is difficult to determine and small:[32]
+A different approach to this is introducing 
+
+
+
+
+a
+′
+
+
+
+{\displaystyle a'}
+
+ as the farthest, and 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ as the shortest parallel transfer of the rotor and the inner housing and assuming that 
+
+
+
+
+R
+
+1
+
+
+=
+R
++
+a
+
+
+{\displaystyle R_{1}=R+a}
+
+ and 
+
+
+
+
+R
+
+2
+
+
+=
+R
++
+
+a
+′
+
+
+
+{\displaystyle R_{2}=R+a'}
+
+. Then,
+Including the parallel transfers of the rotor and the inner housing provides sufficient accuracy for determining chamber volume.[32][28]
+In a Wankel rotary engine, the eccentric shaft needs to make three full rotations (1080°) per combustion chamber in order to complete all four cycles of a four-cycle engine. Since a Wankel rotary engine has three combustion chambers, all four cycles of a four-cycle engine are completed within one full rotation of the eccentric shaft (360°).[28][37] This is different from a four cycle piston engine, which needs to make two full rotations per combustion chamber in order to complete all four cycles of a four cycle engine. Therefore, in a Wankel rotary engine, the chamber volume has to be doubled in order to obtain the displacement 
+
+
+
+
+V
+
+h
+
+
+
+
+{\displaystyle V_{h}}
+
+:
+with 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ being the number of rotors per engine. The Wankel rotary engine's displacement 
+
+
+
+
+V
+
+h
+
+
+
+
+{\displaystyle V_{h}}
+
+ is equivalent to a four strokepiston engine's displacement 
+
+
+
+
+V
+
+h
+
+
+
+
+{\displaystyle V_{h}}
+
+.[38][39]
+NSU licensed the Wankel engine's design to companies around the world, in various different forms, with many companies implementing continual improvements. In his 1973 book Rotationskolben-Verbrennungsmotoren, German engineer Wolf-Dieter Bensinger describes the following licensees, in chronological order, which is confirmed by John B. Hege:[42][43]
+According to Don Sherman, American Motors also obtained a license.[10] In 1961, the Soviet research organizations of NATI, NAMI, and VNIImotoprom commenced the development of a Wankel engine. Eventually, in 1974, development was transferred to a special design bureau at the AvtoVAZ plant.[46] John B. Hege argues that no license was issued to any Soviet car manufacturer.[47]
+Felix Wankel managed to overcome most of the problems that made previous attempts to perfect the rotary engines fail, by developing a configuration with vane seals having a tip radius equal to the amount of "oversize" of the rotor housing form, as compared to the theoretical epitrochoid, to minimize radial apex seal motion plus introducing a cylindrical gas-loaded apex pin which abutted all sealing elements to seal around the three planes at each rotor apex.[48]
+In the early days, special, dedicated production machines had to be built for different housing dimensional arrangements. However, patented designs such as U.S. Patent 3,824,746, G. J. Watt, 1974, for a "Wankel Engine Cylinder Generating Machine", U.S. Patent 3,916,738, "Apparatus for machining and/or treatment of trochoidal surfaces" and U.S. Patent 3,964,367, "Device for machining trochoidal inner walls", and others, solved the problem.
+Wankel engines have a problem not found in reciprocating piston four-stroke engines in that the block housing has intake, compression, combustion, and exhaust occurring at fixed locations around the housing. This causes a very uneven thermal load on the rotor housing.[49] In contrast, reciprocating engines perform these four strokes in one chamber, so that extremes of "freezing" intake and "flaming" exhaust are averaged and shielded by a boundary layer from overheating working parts. The use of heat pipes in an air-cooled Wankel was proposed by the University of Florida to overcome this uneven heating of the block housing.[50] Pre-heating of certain housing sections with exhaust gas improved performance and fuel economy, also reducing wear and emissions.[51]
+The boundary layer shields and the oil film act as thermal insulation, leading to a low temperature of the lubricating film (approximate maximum 200 °C or 390 °F on a water-cooled Wankel engine). This gives a more constant surface temperature. The temperature around the spark plug is about the same as the temperature in the combustion chamber of a reciprocating engine. With circumferential or axial flow cooling, the temperature difference remains tolerable.[52][53][54]
+Problems arose during research in the 1950s and 1960s. For a while, engineers were faced with what they called "chatter marks" and "devil's scratch" in the inner epitrochoid surface. They discovered that the cause was the apex seals reaching a resonating vibration, and the problem was solved by reducing the thickness and weight of the apex seals. Scratches disappeared after the introduction of more compatible materials for seals and housing coatings. Another early problem was the build-up of cracks in the stator surface near the plug hole, which was eliminated by installing the spark plugs in a separate metal insert/ copper sleeve in the housing, instead of a plug being screwed directly into the block housing.[55] Toyota found that substituting a glow-plug for the leading site spark plug improved low rpm, part load, specific fuel consumption by 7%, and also emissions and idle.[56] A later alternative solution to spark plug boss cooling was provided with a variable coolant velocity scheme for water-cooled rotaries, which has had widespread use, being patented by Curtiss-Wright,[57] with the last-listed for better air-cooled engine spark plug boss cooling. These approaches did not require a high-conductivity copper insert, but did not preclude its use. Ford tested a Wankel engine with the plugs placed in the side plates, instead of the usual placement in the housing working surface (CA 1036073 , 1978).
+Wankel engines are capable of high-speed operation, which means that they do not necessarily need to produce high torque in order to produce high power. The positioning of the intake port and intake port closing greatly affect the torque production of the engine. Early closing of the intake port increases low-end torque, but reduces high-end torque (and thus power), whereas late closing of the intake port reduces low-end torque, whilst increasing torque at high engine speeds, thus resulting in more power at higher engine speeds.[58]
+A peripheral intake port gives the highest mean effective pressure; however, side intake porting produces a more steady idle,[59] because it helps to prevent blow-back of burned gases into the intake ducts which cause "misfirings", caused by alternating cycles where the mixture ignites and fails to ignite. Peripheral porting (PP) gives the best mean effective pressure throughout the rpm range, but PP was linked also to worse idle stability and part-load performance. Early work by Toyota[60] led to the addition of a fresh air supply to the exhaust port, and proved also that a Reed-valve in the intake port or ducts[61] improved the low rpm and partial load performance of Wankel engines, by preventing blow-back of exhaust gas into the intake port and ducts, and reducing the misfire-inducing high EGR, at the cost of a small loss of power at top rpm. Elasticity is improved with a greater rotor eccentricity, analogous to a longer stroke in a reciprocating engine. Wankel engines operate better with a low-pressure exhaust system. Higher exhaust back pressure reduces mean effective pressure, more severely in peripheral intake port engines. The Mazda RX-8 Renesis engine improved performance by doubling the exhaust port area compared with earlier designs, and there have been studies of the effect of intake and exhaust piping configuration on the performance of Wankel engines.[62] Side intake ports (as used in Mazda's Renesis engine) were first proposed by Hanns-Dieter Paschke in the late 1950s. Paschke predicted that precisely calculated intake ports and intake manifolds could make a side port engine as powerful as a PP engine.[63]
+As previously described, the Wankel engine is affected by unequal thermal expansion due to the four cycles taking place in fixed places of the engine. While this puts great demands on the materials used, the simplicity of the Wankel makes it easier to use alternative materials, such as exotic alloys and ceramics. A commonplace method is, for engine housings made of aluminum, to use a spurted molybdenum layer on the engine housing for the combustion chamber area, and a spurted steel layer elsewhere. Engine housings cast from iron can be induction-brazed to make the material suited for withstanding combustion heat stress.[64]
+Among the alloys cited for Wankel housing use are A-132, Inconel 625, and 356 treated to T6 hardness. Several materials have been used for plating the housing working surface, Nikasil being one. Citroën, Daimler-Benz, Ford, A P Grazen and others applied for patents in this field. For the apex seals, the choice of materials has evolved along with the experience gained, from carbon alloys, to steel, ferritic stainless, Ferro-TiC and other materials.[65] The combination of housing plating and the apex and side seal materials was determined experimentally, to obtain the best duration of both seals and housing cover. For the shaft, steel alloys with little deformation on load are preferred, the use of Maraging steel has been proposed for this.
+Leaded gasoline fuel was the predominant type available in the first years of the Wankel engine's development. Lead is a solid lubricant, and leaded gasoline is designed to reduce the wearing of seals and housings. The first engines had the oil supply calculated with consideration of gasoline's lubricating qualities. As leaded gasoline was being phased out, Wankel engines needed an increased mix of oil in the gasoline to provide lubrication to critical engine parts. An SAE paper by David Garside extensively described Norton's choices of materials and cooling fins.[citation needed]
+Early engine designs had a high incidence of sealing loss, both between the rotor and the housing and also between the various pieces making up the housing. Also, in earlier model Wankel engines, carbon particles could become trapped between the seal and the casing, jamming the engine and requiring a partial rebuild. It was common for very early Mazda engines to require rebuilding after 50,000 miles (80,000 km). Further sealing problems arose from the uneven thermal distribution within the housings causing distortion and loss of sealing and compression. This thermal distortion also caused uneven wear between the apex seal and the rotor housing, evident on higher mileage engines.[citation needed] The problem was exacerbated when the engine was stressed before reaching operating temperature. However, Mazda Wankel engines solved these initial problems. Current engines have nearly 100 seal-related parts.[10]
+The problem of clearance for hot rotor apexes passing between the axially closer side housings in the cooler intake lobe areas was dealt with by using an axial rotor pilot radially inboard of the oils seals, plus improved inertia oil cooling of the rotor interior (C-W US 3261542 , C. Jones, 5/8/63, US 3176915 , M. Bentele, C. Jones. A.H. Raye. 7/2/62), and slightly "crowned" apex seals (different height in the center and in the extremes of seal).
+As is described in the thermodynamic disadvantages section, the Wankel engine is a very inefficient engine with a poor fuel economy. This is caused by the Wankel engine's design with its bad combustion chamber shape and huge surface area. The Wankel engine's design is, on the other hand, much less prone to engine knocking,[66] which allows using low-octane fuels without reducing compression.  As a result of the poor efficiency, the Wankel engine with peripheral exhaust port has a larger amount of unburnt hydrocarbons (HC) released into the exhaust.[67][68] The exhaust is, however, relatively low in nitrogen oxide (NOx) emissions, because the combustion is slow, and temperatures are lower than in other engines, and also because of the Wankel engine's good exhaust gas recirculation (EGR) behavior. Carbon monoxide (CO) emissions of Wankel and Otto engines are about the same.[24] The Wankel engine has a significantly higher (ΔtK>100 K) exhaust gas temperature than an Otto engine, especially under low and medium load conditions. This is because of the higher combustion frequency and slower combustion. Exhaust gas temperatures can exceed 1300 K under high load at engine speeds of 6000 min−1. To improve the exhaust gas behavior of the Wankel engine, a thermal reactor or catalyst converter may be used to reduce hydrocarbon and carbon monoxide from the exhaust.[67]
+According to Curtiss-Wright research, the factor that controls the amount of unburnt hydrocarbons in the exhaust is the rotor surface temperature, with higher temperatures resulting in fewer hydrocarbons in the exhaust.[69] Curtiss-Wright widened the rotor, keeping the rest of engine's architecture unchanged, thus reducing friction losses and increasing displacement and power output. The limiting factor for this widening was mechanical, especially shaft deflection at high rotative speeds.[70] Quenching is the dominant source of hydrocarbon at high speeds, and leakage at low speeds.[71] Using side-porting which enables closing the exhaust port around the top-dead center and reducing intake and exhaust overlap helps improving fuel consumption.[68]
+Mazda's RX-8 car with the Renesis engine (that was first presented in 1999),[41] met, in 2004, the United States' low emissions vehicle (LEV-II) standard. This was mainly achieved by using side porting: The exhaust ports, which in earlier Mazda rotary engines were located in the rotor housings, were moved to the side of the combustion chamber. This approach allowed Mazda to eliminate overlap between intake and exhaust port openings, while simultaneously increasing the exhaust port area. This design improved the combustion stability in the low-speed and light load range. The HC emissions from the side exhaust port rotary engine are 35–50% less than those from the peripheral exhaust port Wankel engine. Peripheral ported rotary engines have a better mean effective pressure, especially at high rpm and with a rectangular-shaped intake port.[72] However, the RX-8 was not improved to meet Euro 5 emission regulations and was discontinued in 2012.[73] The new Mazda 8C of the Mazda MX-30 R-EV meets the Euro 6d-ISC-FCM emissions standard. [74]
+Laser ignition was first proposed in 2011,[75] [76]but first studies of laser ignition were only conducted in 2021. It is assumed that laser ignition of lean fuel mixtures in Wankel engines could improve fuel consumption and exhaust gas behavior. In a 2021 study, a Wankel model engine was tested with laser ignition and various different gaseous and liquid fuels. Laser ignition leads to a faster center of combustion development, thus improving combustion speed, and leading to a reduction in NOx emissions. The laser pulse energy required for proper ignition is "reasonable", in the low single-digit mJ-range. A significant modification of the Wankel engine is not required for laser ignition.[77]
+Research has been undertaken into rotary compression ignition engines. The basic design parameters of the Wankel engine preclude obtaining a compression ratio sufficient for Diesel operation in a practical engine.[78] The Rolls-Royce[79] and Yanmar compression-ignition[80] approach was to use a two-stage unit (see figure 14.), with one rotor acting as compressor, while combustion takes place in the other.[81] Both engines were not functional.[78]
+A different approach from a compression ignition (Diesel) Wankel engine is a non-CI, multifuel Wankel engine that is capable of operating on a huge variety of fuels, including diesel fuel.[82] German engineer Dankwart Eiermann designed this engine at Wankel SuperTec (WST) in the early 2000s. It has a chamber volume of 500 cm³ and an indicated power ouput of 50 kW per rotor. Versions with one up to four rotors are possible.[83] The WST engine has a common-rail direct injection system and operates on a stratified charge principle. Similar to a Diesel engine and unlike a conventional Wankel engine, the WST engine compresses air rather than an air-fuel mixture in the four-cycle engine compression phase. Fuel is only injected into the compressed air shortly before top-dead centre, which results in stratified charge (i.e., no homogeneous mixture). A sparkplug is used to initiate combustion.[84] The pressure at the end of the compression phase and during combustion is lower than in a conventional Diesel engine,[83] and the fuel consumption is equivalent to that of a small IDI Diesel (i.e., >250 g/(kW·h)).[85] Diesel-fuel-powered variants of the WST Wankel engine have been used as APUs in Deutsche Bahn Diesel locomotives.[86]
+As a hydrogen/air fuel mixture is quicker to ignite with a faster-burning rate than gasoline, an important issue of hydrogen internal combustion engines is to prevent pre-ignition and backfire. In a rotary engine, each cycle of the Otto cycle occurs in different chambers. Importantly, the intake chamber is separated from the combustion chamber, keeping the air/fuel mixture away from localized hot spots. Wankel engines also do not have hot exhaust valves, which eases adapting them to hydrogen operation.[87] Another problem concerns the hydrogenate attack on the lubricating film in reciprocating engines. In a Wankel engine, the problem of a hydrogenate attack is circumvented by using ceramic apex seals.[88][89]
+In a prototype Wankel engine fitted to a Mazda RX-8 to research hydrogen operation, Wakayama et al. found that hydrogen operation improved thermal efficiency by 23% over petrol fuel operation. However, the exhaust gas behavior significantly worsened due to high NOx emissions caused by lean combustion, which meant that the vehicle failed to comply with Japan's SULEV emissions standard. To comply with emissions regulations, a supplementary stoichiometric mode had to be used, which lowered the thermal efficiency of the engine.[90]
+Prime advantages of the Wankel engine are:[91]
+Wankel engines are considerably lighter and simpler, containing far fewer moving parts than piston engines of equivalent power output. Valves or complex valve trains are eliminated by using simple ports cut into the walls of the rotor housing. Since the rotor rides directly on a large bearing on the output shaft, there are no connecting rods and no crankshaft. The elimination of reciprocating mass gives Wankel engines a low non-uniformity coefficient, meaning that they operate much smoother than comparable reciprocating piston engines. For instance, a two-rotor Wankel engine is more than twice as smooth in its operation as a four-cylinder reciprocating piston engine.[29]
+A four-stroke cylinder produces a power stroke only every other rotation of the crankshaft, with three strokes being pumping losses. The Wankel engine also has higher volumetric efficiency than a reciprocating piston engine.[96] Because of the quasi-overlap of the power strokes, the Wankel engine is very quick to react to power increases, giving a quick delivery of power when the demand arises, especially at higher engine speeds. This difference is more pronounced when compared to four-cylinder reciprocating engines and less pronounced when compared to higher cylinder counts.
+Due to the absence of hot exhaust valves, the fuel octane requirements of Wankel engines are lower than in reciprocating piston engines.[66] As a rule of thumb, it may be assumed that a Wankel engine with a working chamber volume Vk of 500 cm³ and a compression of ε=9 runs well on mediocre-quality petrol with an octane rating of just 91 RON.[24] If in a reciprocating piston engine the compression must be reduced by one unit of compression to avoid knock, then, in a comparable Wankel engine, a reduction in compression may not be required.[97]
+Because of the fewer injector count, fuel injection systems in Wankel engines are cheaper than in reciprocating piston engines. An injection system that allows stratified charge operation may help reduce rich mixture areas in undesireable parts of the engine, which improves fuel efficiency.[98]
+Wankel rotary engines mainly suffer from poor thermodynamics caused by the Wankel engine's design with its huge surface area and poor combustion chamber shape. As an effect of this, the Wankel engine has slow and incomplete combustion, which results in high fuel consumption and bad exhaust gas behavior.[66] Wankel engines can reach a typical maximum efficiency of about 30 percent.[99]
+In a Wankel rotary engine, fuel combustion is slow, because the combustion chamber is long, thin, and moving. Flame travel occurs almost exclusively in the direction of rotor movement, adding to the poor quenching of the fuel and air mixture, being the main source of unburnt hydrocarbons at high engine speeds: The trailing side of the combustion chamber naturally produces a "squeeze stream" that prevents the flame from reaching the chamber's trailing edge, which worsens the consequences of the fuel and air mixture quenching poorly. Direct fuel injection, in which fuel is injected towards the leading edge of the combustion chamber, can minimize the amount of unburnt fuel in the exhaust.[100][101]
+Although many of the disadvantages are the subject of ongoing research, the current disadvantages of the Wankel engine in production are the following:[102]
+Although in two dimensions the seal system of a Wankel looks to be even simpler than that of a corresponding multi-cylinder piston engine, in three dimensions the opposite is true. As well as the rotor apex seals evident in the conceptual diagram, the rotor must also seal against the chamber ends.
+Piston rings in reciprocating engines are not perfect seals; each has a gap to allow for expansion. The sealing at the apexes of the Wankel rotor is less critical because leakage is between adjacent chambers on adjacent strokes of the cycle, rather than to the mainshaft case. Although sealing has improved over the years, the less-than-effective sealing of the Wankel, which is mostly due to lack of lubrication, remains a factor reducing its efficiency.[106]
+The trailing side of the rotary engine's combustion chamber develops a squeeze stream that pushes back the flame front. With the conventional one or two-spark-plug system and homogenous mixture, this squeeze stream prevents the flame from propagating to the combustion chamber's trailing side in the mid and high-engine speed ranges.[107] Kawasaki dealt with that problem in its US patent US 3848574 ; Toyota obtained a 7% economy improvement by placing a glow-plug in the leading side, and using Reed-Valves in intake ducts. In two-stroke engines, metal reeds last about 15,000 km (9,300 miles) while carbon fiber, around 8,000 km (5,000 miles).[60] This poor combustion in the trailing side of the chamber is one of the reasons why there is more carbon monoxide and unburned hydrocarbons in a Wankel's exhaust stream. A side-port exhaust, as is used in the Mazda Renesis, avoids port overlap, one of the causes of this, because the unburned mixture cannot escape. The Mazda 26B avoided this problem through the use of a three spark-plug ignition system.[108]
+National agencies that tax automobiles according to displacement and regulatory bodies in automobile racing use a variety of equivalency factors to compare Wankel engines to four-stroke piston engines. Greece, for instance, taxed cars based on the working chamber volume (the face of one rotor), multiplied by the number of rotors, lowering the cost of ownership.[citation needed] Japan did the same, but applied an equivalency factor of 1.5, making Mazda's 13B engine fit just under the 2-liter tax limit. FIA used an equivalency factor of 1.8 but later increased it to 2.0, using the displacement formula described by Bensinger.
+The first rotary-engined car for sale was the 1964 NSU Rotary Spider. Rotary engines were continuously fitted in cars until 2012 when Mazda discontinued the RX-8. Mazda has announced the introduction of a rotary-engined hybrid electric car, the MX-30 R-EV for a 2023 introduction.[109]
+Mazda and NSU signed a study contract to develop the Wankel engine in 1961 and competed to bring the first Wankel-powered automobile to the market. Although Mazda produced an experimental rotary that year, NSU was the first with a rotary automobile for sale, the sporty NSU Spider in 1964; Mazda countered with a display of two- and four-rotor rotary engines at that year's Tokyo Motor Show.[10] In 1967, NSU began production of a rotary-engined luxury car, the Ro 80.[110]  NSU had not produced reliable apex seals on the rotor, though, unlike Mazda and Curtiss-Wright. NSU had problems with apex seals' wear, poor shaft lubrication, and poor fuel economy, leading to frequent engine failures, not solved until 1972, which led to large warranty costs curtailing further NSU rotary engine development. This premature release of the new rotary engine gave a poor reputation for all makes, and even when these issues were solved in the last engines produced by NSU in the second half of the '70s, sales did not recover.[10]
+By early 1978, Audi engineers Richard van Basshuysen and Gottlieb Wilmers had designed a new generation of the Audi NSU Wankel engine, the KKM 871. It was a two-rotor unit with a chamber volume Vk of 746.6 cm³, derived from an eccentricity of 17 mm, a generating radius of 118.5 mm, and equidistance of 4 mm and a housing width of 69 mm. It had double side intake ports, and a peripheral exhaust port; it was fitted with a continuously injecting Bosch K-Jetronic multipoint manifold injection system. According to the DIN 70020 standard, it produced 121 kW at 6500/min, and could provide a max. torque of 210 N·m at 3500/min.[111] Van Basshuysen and Wilmers designed the engine with either a thermal reactor, or a catalytic converter for emissions control.[112] The engine had a mass of 142 kg,[111] and a BSFC of approximately 315 g/(kW·h) at 3000/min and a BMEP of 900 kPa.[113] For testing, two KKM 871 engines were installed in Audi 100 Type 43 test cars, one with a five-speed manual gearbox, and one with a three-speed automatic gearbox.[114]
+Mazda claimed to have solved the apex seal problem, operating test engines at high speed for 300 hours without failure.[10] After years of development, Mazda's first rotary engine car was the 1967 Cosmo 110S. The company followed with a number of Wankel ("rotary" in the company's terminology) vehicles, including a bus and a pickup truck. Customers often cited the cars' smoothness of operation. However, Mazda chose a method to comply with hydrocarbon emission standards that, while less expensive to produce, increased fuel consumption.
+Mazda later abandoned the rotary in most of their automotive designs, continuing to use the engine in their sports car range only. The company normally used two-rotor designs. A more advanced twin-turbo three-rotor engine was fitted in the 1990 Eunos Cosmo sports car. In 2003, Mazda introduced the Renesis engine fitted in the RX-8. The Renesis engine relocated the ports for exhaust from the periphery of the rotary housing to the sides, allowing for larger overall ports, and better airflow.[115] The Renesis is capable of 238 hp (177 kW) with improved fuel economy, reliability, and lower emissions than previous Mazda rotary engines,[116] all from a nominal 2.6 L displacement, but this was not enough to meet more stringent emissions standards. Mazda ended production of their rotary engine in 2012 after the engine failed to meet the more stringent Euro 5 emission standards, leaving no automotive company selling a rotary-powered road vehicle.[117]
+Citroën did much research, producing the M35 and GS Birotor cars, and the RE-2 [fr] helicopter, using engines produced by Comotor, a joint venture by Citroën and NSU.
+Daimler-Benz fitted a Wankel engine in their C111 concept car. The C 111-II's engine was naturally aspirated, fitted with petrol direct injection, and had four rotors. The total displacement was 4.8 L (290 cubic inches), and the compression ration was 9.3:1 It provided a maximum torque of 433 N⋅m (44 kp⋅m) at 5,000 rpm and a produced a power output of 257 kW (350 PS) at 6,000 rpm.[41]
+American Motors Corporation (AMC) was so convinced "... that the rotary engine will play an important role as a powerplant for cars and trucks of the future ...", that the chairman, Roy D. Chapin Jr., signed an agreement in February 1973 after a year's negotiations, to build rotary engines for both passenger cars and military vehicles, as well as the right to sell any rotary engines it produced to other companies.[118][119] AMC's president, William Luneburg, did not expect dramatic development through to 1980, but Gerald C. Meyers, AMC's vice president of the engineering product group, suggested that AMC should buy the engines from Curtiss-Wright before developing its own rotary engines, and predicted a total transition to rotary power by 1984.[120]
+Plans called for the engine to be used in the AMC Pacer, but development was pushed back.[121][122] American Motors designed the unique Pacer around the engine. By 1974, AMC had decided to purchase the General Motors (GM) rotary instead of building an engine in-house.[123] Both GM and AMC confirmed the relationship would be beneficial in marketing the new engine, with AMC claiming that the GM rotary achieved good fuel economy.[124]  GM's engines had not reached production, though, when the Pacer was launched onto the market. The 1973 oil crisis played a part in frustrating the use of the rotary engine. Rising fuel prices and speculation about proposed US emission standards legislation also added to concerns.
+By 1974, GM R&D had not succeeded in producing a Wankel engine meeting both the emission requirements and good fuel economy, leading to a decision by the company to cancel the project. Because of that decision, the R&D team only partly released the results of its most recent research, which claimed to have solved the fuel-economy problem, as well as building reliable engines with a lifespan above 530,000 miles (850,000 km). Those findings were not taken into account when the cancellation order was issued. The ending of GM's rotary project required AMC, who was to purchase the engine, to reconfigure the Pacer to house its AMC straight-6 engine driving the rear wheels.[125]
+In 1974, the Soviet Union created a special engine-design bureau, which in 1978, designed an engine designated as VAZ-311 fitted into a VAZ-2101 car.[126] In 1980, the company commenced delivery of the VAZ-411 twin-rotor Wankel engine in VAZ-2106 cars, with about 200 being manufactured. Most of the production went to the security services.[127][128]
+Ford conducted research in rotary engines, resulting in patents granted: GB 1460229 , 1974, a method for fabricating housings; US 3833321  1974, side plates coating; US 3890069 , 1975, housing coating; CA 1030743 , 1978: Housings alignment; CA 1045553 , 1979, reed-valve assembly. In 1972, Henry Ford II stated that the rotary probably would not replace the piston in "my lifetime".[129]
+The Sigma MC74 powered by a Mazda 12A engine was the first engine and only team from outside Western Europe or the United States to finish the entire 24 hours of the 24 Hours of Le Mans race, in 1974. Yojiro Terada was the driver of the MC74. Mazda was the first team from outside Western Europe or the United States to win Le Mans outright. It was also the only non-piston engined car to win Le Mans, which the company accomplished in 1991 with their four-rotor 787B (5.24 L or 320 cu in displacement), rated by FIA formula at 4.708 L or 287 cu in). In the C2 class, all participants had only the same amount of fuel at their disposal, besides the unregulated C1 Category 1. This category only allowed naturally aspirated engines. The Mazdas were classified as naturally aspirated to start with 830 kg weight, 170 kg less than the supercharged competitors.[130] The cars under the Group C1 Category 1 regulations for 1991 were allowed to be another 80 kg lighter than the 787B.[131] In addition, Group C1 Category 1 had only permitted 3.5-liter naturally aspirated engines and had no fuel quantity limits.[132]
+Due to the compact size and the high power-to-weight ratio of a Wankel engine, it has been proposed for electric vehicles as range extenders to provide supplementary power when electric battery levels are low. A Wankel engine used as a generator has packaging, noise, vibration and harshness advantages when used in a passenger car, maximizing interior passenger and luggage space, as well as providing a good noise and vibration emissions profile. However, it is questionable whether or not the inherent disadvantages of the Wankel engine allow the usage of the Wankel engine as a range extender for passenger cars.[133]
+In 2010, Audi unveiled a prototype series-hybrid electric car, the A1 e-tron. It incorporated a Wankel engine with a chamber volume Vk of 254 cm³, capable of producing 18 kW at 5000/min. It was mated to an electric generator which recharged the car's batteries as needed and provided electricity directly to the electric driving motor. The package had a mass of 70 kg and could produce 15 kW of electric power.[134]
+In November 2013 Mazda announced to the motoring press a series-hybrid prototype car, the Mazda2 EV, using a Wankel engine as a range extender. The generator engine, located under the rear luggage floor, is a tiny, almost inaudible, single-rotor 330-cc unit, generating 30 hp (22 kW) at 4,500 rpm, and maintaining a continuous electric output of 20 kW.[135][136][137]
+Mazda announced that they would launch the MX-30 R-EV fitted with a Wankel engine range extender in March 2023.[109] Eventually, the car was presented at the Brussels Auto Show on 14 January 2023. The car's Wankel engine is a naturally aspirated single-rotor unit with a chamber volume Vk of 830 cm3 (50.6 in3), a compression of 11.9, and a rated power output of 55 kW (74 hp). It has petrol direct injection, exhaust gas recirculation, and an exhaust-gas treatment system with a TWC and a particulate filter. According to auto motor und sport, the engine is Euro 6d-ISC-FCM-compliant.[138]
+The first Wankel-engined motorcycle was an MZ-built MZ ES 250, fitted with a water-cooled KKM 175 W Wankel engine. This was followed by an air-cooled version, called the KKM 175 L, in 1965. The engine produced 24 bhp (18 kW) at 6,750 rpm, but the motorcycle never went into series production.[139]
+In Britain, Norton Motorcycles developed a Wankel rotary engine for motorcycles, based on the Sachs air-cooled rotor Wankel that powered the DKW/Hercules W-2000 motorcycle. This two-rotor engine was included in the Commander and F1. Norton improved on Sachs's air cooling, introducing a plenum chamber. Suzuki also made a production motorcycle powered by a Wankel engine, the RE-5, using ferroTiC alloy apex seals and an NSU rotor in a successful attempt to prolong the engine's life.
+In the early 1980s, using earlier work at BSA, Norton produced the air-cooled twin-rotor Classic, followed by the liquid-cooled Commander and the Interpol2 (a police version).[140] Subsequent Norton Wankel bikes included the Norton F1, F1 Sports, RC588, Norton RCW588, and NRS588. Norton proposed a new 588-cc twin-rotor model called the "NRV588" and a 700-cc version called the "NRV700".[141] A former mechanic at Norton, Brian Crighton, started developing his own rotary engined motorcycles line named "Roton", which won several Australian races.
+Despite successes in racing,[142] no motorcycles powered by Wankel engines have been produced for sale to the general public for road use since 1992.
+In 1972, Yamaha introduced the RZ201 at the Tokyo Motor Show, a prototype with a Wankel engine, weighing 220 kg and producing 60 hp (45 kW) from a twin-rotor 660-cc engine (US patent N3964448). In 1972, Kawasaki presented its two-rotor Kawasaki X99 rotary engine prototype (US patents N 3848574 &3991722). Both Yamaha and Kawasaki claimed to have solved the problems of poor fuel economy, high exhaust emissions, and poor engine longevity, in early Wankels, but neither prototype reached production.
+In 1974, Hercules produced W-2000 Wankel motorcycles, but low production numbers meant the project was unprofitable, and production ceased in 1977.[143]
+From 1975 to 1976, Suzuki produced its RE5 single-rotor Wankel motorcycle. It was a complex design, with both liquid cooling and oil cooling, and multiple lubrication and carburetor systems. It worked well and was smooth, but being rather heavy, and having a modest power output of 62 hp (46 kW), it did not sell well.[144]
+Suzuki opted for a complicated oil-cooling and water-cooling system, with Garside reasoning that provided the power did not exceed 80 hp (60 kW), air-cooling would suffice. David Garside cooled the interior of the rotors with filtered ram-air. This very hot air was cooled in a plenum contained within the semi-monocoque frame and afterward, once mixed with fuel, fed into the engine. This air was quite oily after running through the interior of the rotors and thus was used to lubricate the rotor tips. The exhaust pipes become very hot, with Suzuki opting for a finned exhaust manifold, twin-skinned exhausted pipes with cooling grilles, heatproof pipe wrappings, and silencers with heat shields. Garside simply tucked the pipes out of harm's way under the engine, where heat would dissipate in the breeze of the vehicle's forward motion. Suzuki opted for complicated multi-stage carburation, whilst Garside choose simple carburetors. Suzuki had three lube systems, whilst Garside had a single total-loss oil injection system which was fed to both the main bearings and the intake manifolds. Suzuki chose a single rotor that was fairly smooth, but with rough patches at 4,000 rpm; Garside opted for a turbine-smooth twin-rotor motor. Suzuki mounted the massive rotor high in the frame, but Garside put his rotors as low as possible to lower the center of gravity of the motorcycle.[145]
+Although it was said to handle well, the result was that the Suzuki was heavy, overcomplicated, expensive to manufacture, and at 62 bhp short on power. Garside's design was simpler, smoother, lighter and, at 80 hp (60 kW), significantly more powerful.[146]
+Dutch motorcycle importer and manufacturer Van Veen produced small quantities of a dual-rotor Wankel-engined OCR-1000 motorcycle between 1978 and 1980, using surplus Comotor engines. The engine of the OCR 1000, used a re-purposed engine originally intended for the Citroën GS Birotor car.[147]
+In principle, rotary engines are ideal for light aircraft, being light, compact, almost vibrationless, and with a high power-to-weight ratio. Further aviation benefits of a rotary engine include:
+Unlike cars and motorcycles, a rotary aero-engine will be sufficiently warm before full power is asked of it because of the time taken for pre-flight checks. Also, the journey to the runway has minimum cooling, which further permits the engine to reach the operating temperature for full power on take-off.[148] A Wankel aero-engine spends most of its operational time at high power outputs, with little idling.
+Since rotary engines operate at a relatively high rotational speed, at 6,000 rpm of output shaft the rotor spins only at about one-third of that speed. With relatively low torque, propeller-driven aircraft must use a propeller speed reduction unit to maintain propellers within the designed speed range. Experimental aircraft with Wankel engines use propeller speed reduction units, for example, the MidWest twin-rotor engine has a 2.95:1 reduction gearbox.
+The first rotary engine aircraft was in the late-1960s in the experimental Lockheed Q-Star civilian version of the United States Army's reconnaissance QT-2, essentially a powered Schweizer sailplane.[149] The plane was powered by a 185 hp (138 kW) Curtiss-Wright RC2-60 Wankel rotary engine.[150] The same engine model was also used in a Cessna Cardinal and a helicopter, as well as other airplanes.[91][151][152] The French company Citroën developed a rotary-powered RE-2 [fr] helicopter in the 1970s.[153] In Germany in the mid-1970s, a pusher ducted fan airplane powered by a modified NSU multi-rotor rotary engine was developed in both civilian and military versions, Fanliner and Fantrainer.[154]
+At roughly the same time as the first experiments with full-scale aircraft powered with rotary engines, model aircraft-sized versions were pioneered by a combination of the well-known Japanese O.S. Engines firm and the then-extant German Graupner aeromodelling products firm, under license from NSU. The Graupner model Wankel engine has a chamber volume Vk of 4.9 cm3, and produces 460 W at 16,000 min−1; its mass is 370 g. It was produced by O.S. engines of Japan.[155]
+Rotary engines have been fitted in homebuilt experimental aircraft, such as the ARV Super2, a couple of which were powered by the British MidWest aero-engine. Most are Mazda 12A and 13B automobile engines, converted for aviation use. This is a very cost-effective alternative to certified aircraft engines, providing engines ranging from 100 to 300 horsepower (220 kW) at a fraction of the cost of traditional piston engines. These conversions were initially in the early 1970s. Peter Garrison, a contributing editor for Flying magazine, has said that "in my opinion … the most promising engine for aviation use is the Mazda rotary."[156]
+The sailplane manufacturer Schleicher uses an Austro Engines AE50R Wankel[157][158] in its self-launching models ASK-21 Mi, ASH-26E,[159] ASH-25 M/Mi, ASH-30 Mi, ASH-31 Mi, ASW-22 BLE, and ASG-32 Mi.
+In 2013, e-Go airplanes, based in Cambridge, United Kingdom, announced that its new single-seater canard aircraft, will be powered by a rotary engine from Rotron Power.[160]
+The DA36 E-Star, an aircraft designed by Siemens, Diamond Aircraft and EADS, employs a series hybrid powertrain with the propeller being turned by a Siemens 70 kW (94 hp) electric motor. The aim is to reduce fuel consumption and emissions by up to 25%. An onboard 40 hp (30 kW) Austro Engines rotary engine and generator provides the electricity. A propeller speed reduction unit is eliminated. The electric motor uses electricity stored in batteries, with the generator engine off, to take off and climb reducing sound emissions. The series-hybrid powertrain using the Wankel engine reduces the weight of the plane by 100 kg compared with its predecessor. The DA36 E-Star first flew in June 2013, making this the first-ever flight of a series-hybrid powertrain. Diamond Aircraft state that the technology using rotary engines is scalable to a 100-seat aircraft.[161][162]
+The Wankel engine is well-suited for devices in which a human operator is in close proximity to the engine, e. g., hand-held devices such as chainsaws.[163] The excellent starting behavior and low mass make the Wankel engine also a good powerplant for portable fire pumps and portable power generators.[164]
+Small Wankel engines are being found in applications such as go-karts, personal water craft, and auxiliary power units for aircraft.[165] Kawasaki patented mixture-cooled rotary engine (US patent 3991722). Japanese diesel engine manufacturer Yanmar and Dolmar-Sachs of Germany had a rotary-engined chain saw (SAE paper 760642) and outboard boat engines, and the French Outils Wolf, made a lawnmower (Rotondor) powered by a Wankel rotary engine. To save on production costs, the rotor was in a horizontal position and there were no seals on the downside.
+The simplicity of the rotary engine makes it well-suited for mini, micro, and micro-mini engine designs. The Microelectromechanical systems (MEMS) Rotary Engine Lab at the University of California, Berkeley, has previously undertaken research towards the development of rotary engines of down to 1 mm in diameter, with displacements less than 0.1 cc. Materials include silicon and motive power includes compressed air. The goal of such research was to eventually develop an internal combustion engine with the ability to deliver 100 milliwatts of electrical power; with the engine itself serving as the rotor of the generator, with magnets built into the engine rotor itself.[166][167] Development of the miniature rotary engine stopped at UC Berkeley at the end of the DARPA contract.
+In 1976, Road & Track reported that Ingersoll-Rand would develop a Wankel engine with a chamber volume Vk of 1,500 in3 (25 dm3) with a rated power of 500 hp (373 kW) per rotor.[168] Eventually, 13 units of the proposed engine were built, albeit with a larger displacement, and covered over 90,000 operating hours combined. The engine was made with a chamber volume Vk of 2,500 in3 (41 dm3), and a power output of 550 hp (410 kW) per rotor. Both single, and twin-rotor engines were made (producing 550 hp (410 kW) or 1,100 hp (820 kW) respectively). The engines ran on natural gas and had a relatively low engine speed due to the application that they were used for.[169]
+Deere & Company acquired the Curtiss-Wright rotary division in February 1984, also making large multi-fuel prototypes, some with an 11-liter rotor for large vehicles.[170][171][172] The developers attempted to use a stratified charge concept.[170] The technology was transferred to RPI in 1991.[173][174]
+Yanmar of Japan produced some small, charge-cooled rotary engines for chainsaws and outboard engines.[175] One of its products is the LDR (rotor recess in the leading edge of the combustion chamber) engine, which has better exhaust emissions profiles, and reed-valve controlled intake ports, which improve part-load and low rpm performance.[176]
+In 1971 and 1972, Arctic Cat produced snowmobiles powered by Sachs KM 914 303-cc and KC-24 294-cc Wankel engines made in Germany.
+In the early 1970s, Outboard Marine Corporation sold snowmobiles under the Johnson and other brands, which were powered by 35 or 45 hp (26 or 34 kW) OMC engines.
+Aixro of Germany produces and sells a go-kart engine, with a 294-cc-chamber charge-cooled rotor and liquid-cooled housings. Other makers include Wankel AG, Cubewano, Rotron, and Precision Technology.
+In addition to applications as an internal combustion engine, the basic Wankel design has also been used for gas compressors, and superchargers for internal combustion engines, but in these cases, although the design still offers advantages in reliability, the basic advantages of the Wankel in size and weight over the four-stroke internal combustion engine are irrelevant. In a design using a Wankel supercharger on a Wankel engine, the supercharger is twice the size of the engine.
+The Wankel design is used in the seat belt pre-tensioner system[177] in some Mercedes-Benz[178] and Volkswagen[179] cars. When the deceleration sensors detect a potential crash, small explosive cartridges are triggered electrically, and the resulting pressurized gas feeds into tiny Wankel engines which rotate to take up the slack in the seat belt systems, anchoring the driver and passengers firmly in the seat before a collision.[180]
+
+
+

@@ -1,0 +1,3072 @@
+26215,
+Riemannmappingtheorem,
+In complex analysis, the Riemann mapping theorem states that if 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ is a non-empty simply connected open subset of the complex number plane 
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbb {C} }
+
+ which is not all of 
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbb {C} }
+
+, then there exists a biholomorphic mapping 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ (i.e. a bijective holomorphic mapping whose inverse is also holomorphic) from 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ onto the open unit disk
+This mapping is known as a Riemann mapping.[1]
+Intuitively, the condition that 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ be simply connected means that 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ does not contain any “holes”. The fact that 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is biholomorphic implies that it is a conformal map and therefore angle-preserving. Such a map may be interpreted as preserving the shape of any sufficiently small figure, while possibly rotating and scaling (but not reflecting) it.
+Henri Poincaré proved that the map 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is essentially unique: if 
+
+
+
+
+z
+
+0
+
+
+
+
+{\displaystyle z_{0}}
+
+ is an element of 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ and 
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+
+ is an arbitrary angle, then there exists precisely one f as above such that 
+
+
+
+f
+(
+
+z
+
+0
+
+
+)
+=
+0
+
+
+{\displaystyle f(z_{0})=0}
+
+ and such that the argument of the derivative of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ at the point 
+
+
+
+
+z
+
+0
+
+
+
+
+{\displaystyle z_{0}}
+
+ is equal to 
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+
+. This is an easy consequence of the Schwarz lemma.
+As a corollary of the theorem, any two simply connected open subsets of the Riemann sphere which both lack at least two points of the sphere can be conformally mapped into each other.
+The theorem was stated (under the assumption that the boundary of 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ is piecewise smooth) by Bernhard Riemann in 1851 in his PhD thesis.  Lars Ahlfors wrote once, concerning the original formulation of the theorem, that it was “ultimately formulated in terms which would defy any attempt of proof, even with modern methods”.[2] Riemann's flawed proof depended on the Dirichlet principle (which was named by Riemann himself), which was considered sound at the time. However, Karl Weierstrass found that this principle was not universally valid. Later, David Hilbert was able to prove that, to a large extent, the Dirichlet principle is valid under the hypothesis that Riemann was working with. However, in order to be valid, the Dirichlet principle needs certain hypotheses concerning the boundary of 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ which are not valid for simply connected domains in general.
+The first rigorous proof of the theorem was given by William Fogg Osgood in 1900. He proved the existence of Green's function on arbitrary simply connected domains other than 
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbb {C} }
+
+ itself; this established the Riemann mapping theorem.[3]
+Constantin Carathéodory gave another proof of the theorem in 1912, which was the first to rely purely on the methods of function theory rather than potential theory.[4] His proof used Montel's concept of normal families, which became the standard method of proof in textbooks.[5] Carathéodory continued in 1913 by resolving the additional question of whether the Riemann mapping between the domains can be extended to a homeomorphism of the boundaries (see Carathéodory's theorem).[6]
+Carathéodory's proof used Riemann surfaces and it was simplified by Paul Koebe two years later in a way that did not require them. Another proof, due to Lipót Fejér and to Frigyes Riesz, was published in 1922 and it was rather shorter than the previous ones. In this proof, like in Riemann's proof, the desired mapping was obtained as the solution of an extremal problem. The Fejér–Riesz proof was further simplified by Alexander Ostrowski and by Carathéodory.[citation needed]
+The following points detail the uniqueness and power of the Riemann mapping theorem:
+Theorem. For an open domain 
+
+
+
+G
+⊂
+
+C
+
+
+
+{\displaystyle G\subset \mathbb {C} }
+
+ the following conditions are equivalent:[9]
+(1) ⇒ (2) because any continuous closed curve, with base point 
+
+
+
+a
+∈
+G
+
+
+{\displaystyle a\in G}
+
+, can be continuously deformed to the constant curve 
+
+
+
+a
+
+
+{\displaystyle a}
+
+.  So the line integral of 
+
+
+
+f
+
+
+d
+
+z
+
+
+{\displaystyle f\,\mathrm {d} z}
+
+ over the curve is 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+.
+(2) ⇒ (3) because the integral over any piecewise smooth path 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+ from 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ to 
+
+
+
+z
+
+
+{\displaystyle z}
+
+ can be used to define a primitive.
+(3) ⇒ (4) by integrating 
+
+
+
+
+f
+
+−
+1
+
+
+
+
+d
+
+f
+
+/
+
+
+d
+
+z
+
+
+{\displaystyle f^{-1}\,\mathrm {d} f/\mathrm {d} z}
+
+ along 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+ from 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ to 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ to give a branch of the logarithm.
+(4) ⇒ (5) by taking the square root as 
+
+
+
+g
+(
+z
+)
+=
+exp
+⁡
+(
+f
+(
+x
+)
+
+/
+
+2
+)
+
+
+{\displaystyle g(z)=\exp(f(x)/2)}
+
+ where 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is a holomorphic choice of logarithm.
+(5) ⇒ (6) because if 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+ is a piecewise closed curve and 
+
+
+
+
+f
+
+n
+
+
+
+
+{\displaystyle f_{n}}
+
+ are successive square roots of 
+
+
+
+z
+−
+w
+
+
+{\displaystyle z-w}
+
+ for 
+
+
+
+w
+
+
+{\displaystyle w}
+
+ outside 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, then the winding number of 
+
+
+
+
+f
+
+n
+
+
+∘
+γ
+
+
+{\displaystyle f_{n}\circ \gamma }
+
+ about 
+
+
+
+w
+
+
+{\displaystyle w}
+
+ is 
+
+
+
+
+2
+
+n
+
+
+
+
+{\displaystyle 2^{n}}
+
+ times the winding number of 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+ about 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+. Hence the winding number of 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+ about 
+
+
+
+w
+
+
+{\displaystyle w}
+
+ must be divisible by 
+
+
+
+
+2
+
+n
+
+
+
+
+{\displaystyle 2^{n}}
+
+ for all 
+
+
+
+n
+
+
+{\displaystyle n}
+
+, so it must equal 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+.
+(6) ⇒ (7) for otherwise the extended plane 
+
+
+
+
+C
+
+∪
+{
+∞
+}
+∖
+G
+
+
+{\displaystyle \mathbb {C} \cup \{\infty \}\setminus G}
+
+ can be written as the disjoint union of two open and closed sets 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ with 
+
+
+
+∞
+∈
+B
+
+
+{\displaystyle \infty \in B}
+
+ and 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ bounded. Let 
+
+
+
+δ
+>
+0
+
+
+{\displaystyle \delta >0}
+
+ be the shortest Euclidean distance between 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ and build a square grid on 
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbb {C} }
+
+ with length 
+
+
+
+δ
+
+/
+
+4
+
+
+{\displaystyle \delta /4}
+
+ with a point 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ at the centre of a square. Let 
+
+
+
+C
+
+
+{\displaystyle C}
+
+ be the compact set of the union of all squares with distance 
+
+
+
+≤
+δ
+
+/
+
+4
+
+
+{\displaystyle \leq \delta /4}
+
+ from 
+
+
+
+A
+
+
+{\displaystyle A}
+
+. Then 
+
+
+
+C
+∩
+B
+=
+∅
+
+
+{\displaystyle C\cap B=\varnothing }
+
+ and 
+
+
+
+∂
+C
+
+
+{\displaystyle \partial C}
+
+ does not meet 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ or 
+
+
+
+B
+
+
+{\displaystyle B}
+
+: it consists of finitely many horizontal and vertical segments in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ forming a finite number of closed rectangular paths 
+
+
+
+
+γ
+
+j
+
+
+∈
+G
+
+
+{\displaystyle \gamma _{j}\in G}
+
+. Taking 
+
+
+
+
+C
+
+i
+
+
+
+
+{\displaystyle C_{i}}
+
+ to be all the squares covering 
+
+
+
+A
+
+
+{\displaystyle A}
+
+, then 
+
+
+
+
+
+1
+
+2
+π
+
+
+
+
+∫
+
+∂
+C
+
+
+
+d
+
+
+a
+r
+g
+
+(
+z
+−
+a
+)
+
+
+{\displaystyle {\frac {1}{2\pi }}\int _{\partial C}\mathrm {d} \mathrm {arg} (z-a)}
+
+ equals the sum of the winding numbers of 
+
+
+
+
+C
+
+i
+
+
+
+
+{\displaystyle C_{i}}
+
+ 
+over 
+
+
+
+a
+
+
+{\displaystyle a}
+
+, thus giving 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+. On the other hand the sum of the winding numbers of 
+
+
+
+
+γ
+
+j
+
+
+
+
+{\displaystyle \gamma _{j}}
+
+ about 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ equals 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+. Hence the winding number of at least one of the 
+
+
+
+
+γ
+
+j
+
+
+
+
+{\displaystyle \gamma _{j}}
+
+ about 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ is non-zero.
+(7) ⇒ (1) This is a purely topological argument. Let 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+ be a piecewise smooth closed curve based at 
+
+
+
+
+z
+
+0
+
+
+∈
+G
+
+
+{\displaystyle z_{0}\in G}
+
+. By approximation γ is in the same homotopy class as a rectangular path on the square grid of length 
+
+
+
+δ
+>
+0
+
+
+{\displaystyle \delta >0}
+
+ based at 
+
+
+
+
+z
+
+0
+
+
+
+
+{\displaystyle z_{0}}
+
+; such a rectangular path is determined by a succession of 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ consecutive directed vertical and horizontal sides. By induction on 
+
+
+
+N
+
+
+{\displaystyle N}
+
+, such a path can be deformed to a constant path at a corner of the grid. If the path intersects at a point 
+
+
+
+
+z
+
+1
+
+
+
+
+{\displaystyle z_{1}}
+
+, then it breaks up into two rectangular paths of length 
+
+
+
+<
+N
+
+
+{\displaystyle <N}
+
+, and thus can be deformed to the constant path at 
+
+
+
+
+z
+
+1
+
+
+
+
+{\displaystyle z_{1}}
+
+ by the induction hypothesis and elementary properties of the fundamental group. The reasoning follows a "northeast argument":[10][11] in the non self-intersecting path there will be a corner 
+
+
+
+
+z
+
+0
+
+
+
+
+{\displaystyle z_{0}}
+
+ with largest real part (easterly) and then amongst those one with largest imaginary part (northerly). Reversing direction if need be, the path go from 
+
+
+
+
+z
+
+0
+
+
+−
+δ
+
+
+{\displaystyle z_{0}-\delta }
+
+ to 
+
+
+
+
+z
+
+0
+
+
+
+
+{\displaystyle z_{0}}
+
+ and then to 
+
+
+
+
+w
+
+0
+
+
+=
+
+z
+
+0
+
+
+−
+i
+n
+δ
+
+
+{\displaystyle w_{0}=z_{0}-in\delta }
+
+ for 
+
+
+
+n
+≥
+1
+
+
+{\displaystyle n\geq 1}
+
+ and then goes leftwards to 
+
+
+
+
+w
+
+0
+
+
+−
+δ
+
+
+{\displaystyle w_{0}-\delta }
+
+. Let 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ be the open rectangle with these vertices. The winding number of the path is 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+ for points to the right of the vertical segment from 
+
+
+
+
+z
+
+0
+
+
+
+
+{\displaystyle z_{0}}
+
+ to 
+
+
+
+
+w
+
+0
+
+
+
+
+{\displaystyle w_{0}}
+
+ and 
+
+
+
+−
+1
+
+
+{\displaystyle -1}
+
+ for points to the right; and hence inside 
+
+
+
+R
+
+
+{\displaystyle R}
+
+. Since the winding number is 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+ off 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ lies in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+. If 
+
+
+
+z
+
+
+{\displaystyle z}
+
+ is a point of the path, it must lie in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+; if 
+
+
+
+z
+
+
+{\displaystyle z}
+
+ is on 
+
+
+
+∂
+R
+
+
+{\displaystyle \partial R}
+
+ but not on the path, by continuity the winding number of the path about 
+
+
+
+z
+
+
+{\displaystyle z}
+
+ is 
+
+
+
+−
+1
+
+
+{\displaystyle -1}
+
+, so 
+
+
+
+z
+
+
+{\displaystyle z}
+
+ must also lie in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+. Hence 
+
+
+
+R
+∪
+∂
+R
+⊂
+G
+
+
+{\displaystyle R\cup \partial R\subset G}
+
+. But in this case the path can be deformed by replacing the three sides of the rectangle by the fourth, resulting in two less sides (with self-intersections permitted).
+Definitions. A family 
+
+
+
+
+
+F
+
+
+
+
+{\displaystyle {\cal {F}}}
+
+ of holomorphic functions on an open domain is said to be normal if any sequence of functions in 
+
+
+
+
+
+F
+
+
+
+
+{\displaystyle {\cal {F}}}
+
+ has a subsequence that converges to a holomorphic function uniformly on compacta. 
+A family 
+
+
+
+
+
+F
+
+
+
+
+{\displaystyle {\cal {F}}}
+
+ is compact if whenever a sequence 
+
+
+
+
+f
+
+n
+
+
+
+
+{\displaystyle f_{n}}
+
+ lies in 
+
+
+
+
+
+F
+
+
+
+
+{\displaystyle {\cal {F}}}
+
+ and converges uniformly to 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ on compacta, then 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ also lies in 
+
+
+
+
+
+F
+
+
+
+
+{\displaystyle {\cal {F}}}
+
+. A family 
+
+
+
+
+
+F
+
+
+
+
+{\displaystyle {\cal {F}}}
+
+ is said to be locally bounded if their functions are uniformly bounded on each compact disk. Differentiating the  Cauchy integral formula, it follows that the derivatives of a locally bounded family are also locally bounded.[14][15]
+Remark. As a consequence of the Riemann mapping theorem, every simply connected domain in the plane is homeomorphic to the unit disk. If points are omitted, this follows from the theorem. For the whole plane, the homeomorphism 
+
+
+
+ϕ
+(
+x
+)
+=
+z
+
+/
+
+(
+1
++
+
+|
+
+z
+
+|
+
+)
+
+
+{\displaystyle \phi (x)=z/(1+|z|)}
+
+ gives a homeomorphism of 
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbb {C} }
+
+ onto 
+
+
+
+D
+
+
+{\displaystyle D}
+
+.
+Koebe's uniformization theorem for normal families also generalizes to yield uniformizers 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ for multiply-connected domains to finite parallel slit domains, where the slits have angle 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ to the x-axis. Thus if 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is a domain in 
+
+
+
+
+C
+
+∪
+{
+∞
+}
+
+
+{\displaystyle \mathbb {C} \cup \{\infty \}}
+
+ containing 
+
+
+
+∞
+
+
+{\displaystyle \infty }
+
+ and bounded by finitely many Jordan contours, there is a unique univalent function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ on 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ with
+near 
+
+
+
+∞
+
+
+{\displaystyle \infty }
+
+, maximizing 
+
+
+
+
+R
+e
+
+(
+
+e
+
+−
+2
+i
+θ
+
+
+
+a
+
+1
+
+
+)
+
+
+{\displaystyle \mathrm {Re} (e^{-2i\theta }a_{1})}
+
+ and having image 
+
+
+
+f
+(
+G
+)
+
+
+{\displaystyle f(G)}
+
+ a parallel slit domain with angle 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ to the x-axis.[22][23][24]
+The first proof that parallel slit domains were canonical domains for in the multiply connected case was given by David Hilbert in 1909. Jenkins (1958), on his book on univalent functions and conformal mappings, gave a treatment based on the work of Herbert Grötzsch and René de Possel from the early 1930s; it was the precursor of quasiconformal mappings and quadratic differentials, later developed as the technique of extremal metric due to Oswald Teichmüller.[25] Menahem Schiffer gave a treatment based on very general variational principles, summarised in addresses he gave to the International Congress of Mathematicians in 1950 and 1958. In a theorem on "boundary variation" (to distinguish it from "interior variation"), he derived a differential equation and inequality, that relied on a measure-theoretic characterisation of straight-line segments due to Ughtred Shuttleworth Haslam-Jones from 1936. Haslam-Jones' proof was regarded as difficult and was only given a satisfactory proof in the mid-1970s by Schober and Campbell–Lamoureux.[26][27][28]
+Schiff (1993) gave a proof of uniformization for parallel slit domains which was similar to the Riemann mapping theorem.  To simplify notation, horizontal slits will be taken. Firstly, by Bieberbach's inequality, any univalent function
+with 
+
+
+
+z
+
+
+{\displaystyle z}
+
+ in the open unit disk must satisfy 
+
+
+
+
+|
+
+c
+
+|
+
+≤
+2
+
+
+{\displaystyle |c|\leq 2}
+
+. As a consequence, if
+is univalent in 
+
+
+
+
+|
+
+z
+
+|
+
+>
+R
+
+
+{\displaystyle |z|>R}
+
+, then 
+
+
+
+
+|
+
+f
+(
+z
+)
+−
+
+a
+
+0
+
+
+
+|
+
+≤
+2
+
+|
+
+z
+
+|
+
+
+
+{\displaystyle |f(z)-a_{0}|\leq 2|z|}
+
+. To see this, take 
+
+
+
+S
+>
+R
+
+
+{\displaystyle S>R}
+
+ and set
+for 
+
+
+
+z
+
+
+{\displaystyle z}
+
+ in the unit disk, choosing 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ so the denominator is nowhere-vanishing, and apply the Schwarz lemma. Next the function 
+
+
+
+
+f
+
+R
+
+
+(
+z
+)
+=
+z
++
+
+R
+
+2
+
+
+
+/
+
+z
+
+
+{\displaystyle f_{R}(z)=z+R^{2}/z}
+
+ is characterized by an "extremal condition" as the unique univalent function in 
+
+
+
+z
+>
+R
+
+
+{\displaystyle z>R}
+
+ of the form 
+
+
+
+z
++
+
+a
+
+1
+
+
+
+z
+
+−
+1
+
+
++
+⋯
+
+
+{\displaystyle z+a_{1}z^{-1}+\cdots }
+
+ that maximises 
+
+
+
+
+R
+e
+
+(
+
+a
+
+1
+
+
+)
+
+
+{\displaystyle \mathrm {Re} (a_{1})}
+
+: this is an immediate consequence of Grönwall's area theorem, applied to the family of univalent functions 
+
+
+
+f
+(
+z
+R
+)
+
+/
+
+R
+
+
+{\displaystyle f(zR)/R}
+
+ in 
+
+
+
+z
+>
+1
+
+
+{\displaystyle z>1}
+
+.[29][30]
+To prove now that the multiply connected domain 
+
+
+
+G
+⊂
+
+C
+
+∪
+{
+∞
+}
+
+
+{\displaystyle G\subset \mathbb {C} \cup \{\infty \}}
+
+ can be uniformized by a horizontal parallel slit conformal mapping
+take 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ large enough that 
+
+
+
+∂
+G
+
+
+{\displaystyle \partial G}
+
+ lies in the open disk 
+
+
+
+
+|
+
+z
+
+|
+
+<
+R
+
+
+{\displaystyle |z|<R}
+
+. For 
+
+
+
+S
+>
+R
+
+
+{\displaystyle S>R}
+
+, univalency and the estimate 
+
+
+
+
+|
+
+f
+(
+z
+)
+
+|
+
+≤
+2
+
+|
+
+z
+
+|
+
+
+
+{\displaystyle |f(z)|\leq 2|z|}
+
+ imply that, if 
+
+
+
+z
+
+
+{\displaystyle z}
+
+ lies in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ with  
+
+
+
+
+|
+
+z
+
+|
+
+≤
+S
+
+
+{\displaystyle |z|\leq S}
+
+, then 
+
+
+
+
+|
+
+f
+(
+z
+)
+
+|
+
+≤
+2
+S
+
+
+{\displaystyle |f(z)|\leq 2S}
+
+. Since the family of univalent 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ are locally bounded in 
+
+
+
+G
+∖
+{
+∞
+}
+
+
+{\displaystyle G\setminus \{\infty \}}
+
+, by Montel's theorem they form a normal family. Furthermore if 
+
+
+
+
+f
+
+n
+
+
+
+
+{\displaystyle f_{n}}
+
+ is in the family and tends to 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ uniformly on compacta, then 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is also in the family and each coefficient of the Laurent expansion at 
+
+
+
+∞
+
+
+{\displaystyle \infty }
+
+ of the 
+
+
+
+
+f
+
+n
+
+
+
+
+{\displaystyle f_{n}}
+
+ tends to the corresponding coefficient of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+. This applies in particular to the coefficient: so by compactness there is a univalent 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ which maximizes 
+
+
+
+
+R
+e
+
+(
+
+a
+
+1
+
+
+)
+
+
+{\displaystyle \mathrm {Re} (a_{1})}
+
+. To check that
+is the required parallel slit transformation, suppose reductio ad absurdum that 
+
+
+
+f
+(
+G
+)
+=
+
+G
+
+1
+
+
+
+
+{\displaystyle f(G)=G_{1}}
+
+ has a compact and connected component 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ of its boundary which is not a horizontal slit. Then the complement 
+
+
+
+
+G
+
+2
+
+
+
+
+{\displaystyle G_{2}}
+
+ of 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ in 
+
+
+
+
+C
+
+∪
+{
+∞
+}
+
+
+{\displaystyle \mathbb {C} \cup \{\infty \}}
+
+ is simply connected with 
+
+
+
+
+G
+
+2
+
+
+⊃
+
+G
+
+1
+
+
+
+
+{\displaystyle G_{2}\supset G_{1}}
+
+. By the Riemann mapping theorem there is a conformal mapping
+such that 
+
+
+
+h
+(
+
+G
+
+2
+
+
+)
+
+
+{\displaystyle h(G_{2})}
+
+ is 
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbb {C} }
+
+ with a horizontal slit removed. So we have that
+and thus 
+
+
+
+
+R
+e
+
+(
+
+a
+
+1
+
+
++
+
+b
+
+1
+
+
+)
+≤
+
+R
+e
+
+(
+
+a
+
+1
+
+
+)
+
+
+{\displaystyle \mathrm {Re} (a_{1}+b_{1})\leq \mathrm {Re} (a_{1})}
+
+ by the extremality of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+. Therefore, 
+
+
+
+
+R
+e
+
+(
+
+b
+
+1
+
+
+)
+≤
+0
+
+
+{\displaystyle \mathrm {Re} (b_{1})\leq 0}
+
+. On the other hand by the Riemann mapping theorem there is a conformal mapping
+mapping from 
+
+
+
+
+|
+
+w
+
+|
+
+>
+S
+
+
+{\displaystyle |w|>S}
+
+ onto 
+
+
+
+
+G
+
+2
+
+
+
+
+{\displaystyle G_{2}}
+
+. Then
+By the strict maximality for the slit mapping in the previous paragraph, we can see that 
+
+
+
+
+R
+e
+
+(
+
+c
+
+1
+
+
+)
+<
+
+R
+e
+
+(
+
+b
+
+1
+
+
++
+
+c
+
+1
+
+
+)
+
+
+{\displaystyle \mathrm {Re} (c_{1})<\mathrm {Re} (b_{1}+c_{1})}
+
+, so that 
+
+
+
+
+R
+e
+
+(
+
+b
+
+1
+
+
+)
+>
+0
+
+
+{\displaystyle \mathrm {Re} (b_{1})>0}
+
+. The two inequalities for 
+
+
+
+
+R
+e
+
+(
+
+b
+
+1
+
+
+)
+
+
+{\displaystyle \mathrm {Re} (b_{1})}
+
+ are contradictory.[31][32][33]
+The proof of the uniqueness of the conformal parallel slit transformation is given in Goluzin (1969) and Grunsky (1978). Applying the inverse of the Joukowsky transform 
+
+
+
+h
+
+
+{\displaystyle h}
+
+ to the horizontal slit domain, it can be assumed that 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is a domain bounded by the unit circle 
+
+
+
+
+C
+
+0
+
+
+
+
+{\displaystyle C_{0}}
+
+ and contains analytic arcs 
+
+
+
+
+C
+
+i
+
+
+
+
+{\displaystyle C_{i}}
+
+ and isolated points (the images of other the inverse of the Joukowsky transform under the other parallel horizontal slits). Thus, taking a fixed 
+
+
+
+a
+∈
+G
+
+
+{\displaystyle a\in G}
+
+, there is a univalent mapping
+with its image a horizontal slit domain. Suppose that 
+
+
+
+
+F
+
+1
+
+
+(
+w
+)
+
+
+{\displaystyle F_{1}(w)}
+
+ is another uniformizer with
+The images under 
+
+
+
+
+F
+
+0
+
+
+
+
+{\displaystyle F_{0}}
+
+ or 
+
+
+
+
+F
+
+1
+
+
+
+
+{\displaystyle F_{1}}
+
+ of each 
+
+
+
+
+C
+
+i
+
+
+
+
+{\displaystyle C_{i}}
+
+ have a fixed y-coordinate so are horizontal segments. On the other hand, 
+
+
+
+
+F
+
+2
+
+
+(
+w
+)
+=
+
+F
+
+0
+
+
+(
+w
+)
+−
+
+F
+
+1
+
+
+(
+w
+)
+
+
+{\displaystyle F_{2}(w)=F_{0}(w)-F_{1}(w)}
+
+ is holomorphic in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+. If it is constant, then it must be identically zero since 
+
+
+
+
+F
+
+2
+
+
+(
+a
+)
+=
+0
+
+
+{\displaystyle F_{2}(a)=0}
+
+. Suppose 
+
+
+
+
+F
+
+2
+
+
+
+
+{\displaystyle F_{2}}
+
+ is non-constant, then by assumption 
+
+
+
+
+F
+
+2
+
+
+(
+
+C
+
+i
+
+
+)
+
+
+{\displaystyle F_{2}(C_{i})}
+
+ are all horizontal lines. If 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ is not in one of these lines, Cauchy's argument principle shows that the number of solutions of 
+
+
+
+
+F
+
+2
+
+
+(
+w
+)
+=
+t
+
+
+{\displaystyle F_{2}(w)=t}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is zero (any 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ will eventually be encircled by contours in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ close to the 
+
+
+
+
+C
+
+i
+
+
+
+
+{\displaystyle C_{i}}
+
+'s). This contradicts the fact that the non-constant holomorphic function 
+
+
+
+
+F
+
+2
+
+
+
+
+{\displaystyle F_{2}}
+
+ is an open mapping.[34]
+Given 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ and a point 
+
+
+
+
+z
+
+0
+
+
+∈
+U
+
+
+{\displaystyle z_{0}\in U}
+
+, we want to construct a function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ which maps 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ to the unit disk and 
+
+
+
+
+z
+
+0
+
+
+
+
+{\displaystyle z_{0}}
+
+ to 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+. For this sketch, we will assume that U is bounded and its boundary is smooth, much like Riemann did. Write
+where 
+
+
+
+g
+=
+u
++
+i
+v
+
+
+{\displaystyle g=u+iv}
+
+ is some (to be determined) holomorphic function with real part 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ and imaginary part 
+
+
+
+v
+
+
+{\displaystyle v}
+
+. It is then clear that 
+
+
+
+
+z
+
+0
+
+
+
+
+{\displaystyle z_{0}}
+
+ is the only zero of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+. We require 
+
+
+
+
+|
+
+f
+(
+z
+)
+
+|
+
+=
+1
+
+
+{\displaystyle |f(z)|=1}
+
+ for 
+
+
+
+z
+∈
+∂
+U
+
+
+{\displaystyle z\in \partial U}
+
+, so we need 
+on the boundary. Since 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ is the real part of a holomorphic function, we know that 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ is necessarily a harmonic function; i.e., it satisfies Laplace's equation.
+The question then becomes: does a real-valued harmonic function 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ exist that is defined on all of 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ and has the given boundary condition? The positive answer is provided by the Dirichlet principle. Once the existence of 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ has been established, the Cauchy–Riemann equations for the holomorphic function 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ allow us to find 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ (this argument depends on the assumption that 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ be simply connected). Once 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ and 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ have been constructed, one has to check that the resulting function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ does indeed have all the required properties.[35]
+The Riemann mapping theorem can be generalized to the context of Riemann surfaces: If 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ is a non-empty simply-connected open subset of a Riemann surface, then 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ is biholomorphic to one of the following: the Riemann sphere, the complex plane 
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbb {C} }
+
+, or the unit disk 
+
+
+
+D
+
+
+{\displaystyle D}
+
+. This is known as the uniformization theorem.
+In the case of a simply connected bounded domain with smooth boundary, the Riemann mapping function and all its derivatives extend by continuity to the closure of the domain. This can be proved using regularity properties of solutions of the Dirichlet boundary value problem, which follow either from the theory of Sobolev spaces for planar domains or from classical potential theory. Other methods for proving the smooth Riemann mapping theorem include the theory of kernel functions[36] or the Beltrami equation.
+Computational conformal mapping is prominently featured in problems of applied analysis and mathematical physics, as well as in engineering disciplines, such as image processing.
+In the early 1980s an elementary algorithm for computing conformal maps was discovered. Given points 
+
+
+
+
+z
+
+0
+
+
+,
+…
+,
+
+z
+
+n
+
+
+
+
+{\displaystyle z_{0},\ldots ,z_{n}}
+
+ in the plane, the algorithm computes an explicit conformal map of the unit disk onto a region bounded by a Jordan curve 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+ with 
+
+
+
+
+z
+
+0
+
+
+,
+…
+,
+
+z
+
+n
+
+
+∈
+γ
+.
+
+
+{\displaystyle z_{0},\ldots ,z_{n}\in \gamma .}
+
+ This algorithm converges for Jordan regions[37] in the sense of uniformly close boundaries. There are corresponding uniform estimates on the closed region and the closed disc for the mapping functions and their inverses. Improved estimates are obtained if the data points lie on a 
+
+
+
+
+C
+
+1
+
+
+
+
+{\displaystyle C^{1}}
+
+ curve or a K-quasicircle. The algorithm was discovered as an approximate method for conformal welding; however, it can also be viewed as a discretization of the Loewner differential equation.[38]
+The following is known about numerically approximating the conformal mapping between two planar domains.[39]
+Positive results:
+Negative results:
+
+

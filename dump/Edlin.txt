@@ -1,0 +1,19 @@
+9772,
+Edlin,
+Edlin is a line editor, and the only text editor provided with early versions of IBM PC DOS,[1] MS-DOS and OS/2.[2] Although superseded in MS-DOS 5.0 and later by the full-screen MS-DOS Editor, and by Notepad in Microsoft Windows, it continues to be included in the 32-bit versions of current Microsoft operating systems.
+Edlin was created by Tim Paterson in two weeks in 1980, for Seattle Computer Products's 86-DOS (QDOS)[3] based on the CP/M context editor ED,[4][5] itself a distant derivative of the Unix ed line editor.
+Microsoft acquired 86-DOS and sold it as MS-DOS, so Edlin was included in v1.0–v5.0 of MS-DOS. From MS-DOS 6 onwards, the only editor included was the new full-screen MS-DOS Editor. 
+Windows 95, 98 and ME ran on top of an embedded version of DOS, which reports itself as MS-DOS 7. As a successor to MS-DOS 6, this did not include Edlin. 
+However, Edlin is included in the 32-bit versions of Windows NT[6] and its derivatives—up to and including Windows 10—because the NTVDM's DOS support in those operating systems is based on MS-DOS version 5.0. However, unlike most other external DOS commands, it has not been transformed into a native Win32 program. It also does not support long filenames, which were not added to MS-DOS and MS-Windows until long after Edlin was written.
+The FreeDOS version was developed by Gregory Pietsch.[7]
+There are only a few commands. The short list can be found by entering a ? at the edlin prompt.
+When a file is open, typing L lists the contents (e.g., 1,6L lists lines 1 through 6). Each line is displayed with a line number in front of it.
+The currently selected line has a *.  To replace the contents of any line, the line number is entered and any text entered replaces the original.  While editing a line pressing Ctrl-C cancels any changes. The * marker remains on that line.
+Entering I (optionally preceded with a line number) inserts one or more lines before the * line or the line given.  When finished entering lines, Ctrl-C returns to the edlin command prompt.
+Edlin may be used as a non-interactive file editor in scripts by redirecting a series of edlin commands.
+A GPL-licensed clone of Edlin that includes long filename support is available for download as part of the FreeDOS project. This runs on operating systems such as Linux or Unix as well as MS-DOS.[8]
+
+
+
+Information box
+{'Original author(s)': 'Tim Paterson', 'Developer(s)': 'Microsoft, IBM, Gregory Pietsch', 'Initial release': '1980; 43 years ago', 'Written in': 'MS-DOS: x86 assembly language', 'Operating system': '86-DOS, IBM PC DOS, MS-DOS, FreeDOS, OS/2, eComStation, ArcaOS, Windows', 'Type': 'Line editor', 'License': 'MS-DOS: MIT\nFreeDOS, ReactOS: GPL\n86-DOS, PC DOS, OS/2, Windows: Proprietary commercial software', 'Website': 'Edlin'}

@@ -1,0 +1,9 @@
+23171,
+Domination(poker),
+Poker hand A is said to dominate poker hand B if poker hand B has three or fewer outs (cards to catch) that would improve it enough to win. Informally, domination is sometimes used to refer to any situation where one hand is highly likely to beat another. The term drawing dead is used to denote a domination situation with zero outs.
+In hold'em poker variations, domination usually refers to one of five situations involving the hole cards:
+The following table shows examples of common domination situations. The percentages represent preflop pot equity in a heads up confrontation (percentage of winning plus half the percentage of splitting the pot).
+The green percentages denote the three common domination situations noted above. In contrast, the brown  percentages denote non-domination situations. After the flop domination becomes more complex and there are many domination situations which do not warrant exhaustive treatment however most commonly domination is maintained: 
+However a situation can emerge where domination is lost. This can either be a result of :
+
+

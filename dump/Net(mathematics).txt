@@ -1,0 +1,9318 @@
+22170,
+Net(mathematics),
+In mathematics, more specifically in general topology and related branches, a net or Moore–Smith sequence is a generalization of the notion of a sequence. In essence, a sequence is a function whose domain is the natural numbers. The codomain of this function is usually some topological space.
+The motivation for generalizing the notion of a sequence is that, in the context of topology, sequences do not fully encode all information about functions between topological spaces. In particular, the following two conditions are, in general, not equivalent for a map 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ between topological spaces 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+:
+While condition 1 always guarantees condition 2, the converse is not necessarily true if the topological spaces are not both first-countable. In particular, the two conditions are equivalent for metric spaces. The spaces for which the converse holds are the sequential spaces.
+The concept of a net, first introduced by E. H. Moore and Herman L. Smith in 1922,[1] is to generalize the notion of a sequence so that the above conditions (with "sequence" being replaced by "net" in condition 2) are in fact equivalent for all maps of topological spaces. In particular, rather than being defined on a countable linearly ordered set, a net is defined on an arbitrary directed set. This allows for theorems similar to the assertion that the conditions 1 and 2 above are equivalent to hold in the context of topological spaces that do not necessarily have a countable or linearly ordered neighbourhood basis around a point. Therefore, while sequences do not encode sufficient information about functions between topological spaces, nets do, because collections of open sets in topological spaces are much like directed sets in behavior. The term "net" was coined by John L. Kelley.[2][3]
+Nets are one of the many tools used in topology to generalize certain concepts that may not be general enough in the context of metric spaces. A related notion, that of the filter, was developed in 1937 by Henri Cartan.
+Any function whose domain is a directed set is called a net. If this function takes values in some set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ then it may also be referred to as a net in 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ Explicitly, a net in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a function of the form 
+
+
+
+f
+:
+A
+→
+X
+
+
+{\displaystyle f:A\to X}
+
+ where 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is some directed set. Elements of a net's domain are called its indices. 
+A directed set is a non-empty set 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ together with a preorder, typically automatically assumed to be denoted by 
+
+
+
+
+≤
+
+
+
+{\displaystyle \,\leq \,}
+
+ (unless indicated otherwise), with the property that it is also (upward) directed, which means that for any 
+
+
+
+a
+,
+b
+∈
+A
+,
+
+
+{\displaystyle a,b\in A,}
+
+ there exists some 
+
+
+
+c
+∈
+A
+
+
+{\displaystyle c\in A}
+
+ such that 
+
+
+
+a
+≤
+c
+
+
+{\displaystyle a\leq c}
+
+ and 
+
+
+
+b
+≤
+c
+.
+
+
+{\displaystyle b\leq c.}
+
+ 
+In words, this property means that given any two elements (of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+), there is always some element that is "above" both of them (that is, that is greater than or equal to each of them); in this way, directed sets generalize the notion of "a direction" in a mathematically rigorous way. 
+The natural numbers 
+
+
+
+
+N
+
+
+
+{\displaystyle \mathbb {N} }
+
+ together with the usual integer comparison 
+
+
+
+
+≤
+
+
+
+{\displaystyle \,\leq \,}
+
+ preorder form the archetypical example of a directed set. Indeed, a net whose domain is the natural numbers is a sequence because by definition, a sequence in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is just a function from 
+
+
+
+
+N
+
+=
+{
+1
+,
+2
+,
+…
+}
+
+
+{\displaystyle \mathbb {N} =\{1,2,\ldots \}}
+
+ into 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ It is in this way that nets are generalizations of sequences. Importantly though, unlike the natural numbers, directed sets are not required to be total orders or even partial orders. 
+Moreover, directed sets are allowed to have greatest elements and/or maximal elements, which is the reason why when using nets, caution is advised when using the induced strict preorder 
+
+
+
+
+<
+
+
+
+{\displaystyle \,<\,}
+
+ instead of the original (non-strict) preorder 
+
+
+
+
+≤
+
+
+{\displaystyle \,\leq }
+
+; in particular, if a directed set 
+
+
+
+(
+A
+,
+≤
+)
+
+
+{\displaystyle (A,\leq )}
+
+ has a greatest element 
+
+
+
+a
+∈
+A
+
+
+{\displaystyle a\in A}
+
+ then there does not exist any 
+
+
+
+b
+∈
+A
+
+
+{\displaystyle b\in A}
+
+ such that 
+
+
+
+a
+<
+b
+
+
+{\displaystyle a<b}
+
+ (in contrast, there always exists some 
+
+
+
+b
+∈
+A
+
+
+{\displaystyle b\in A}
+
+ such that 
+
+
+
+a
+≤
+b
+
+
+{\displaystyle a\leq b}
+
+).
+Nets are frequently denoted using notation that is similar to (and inspired by) that used with sequences. 
+A net in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ may be denoted by 
+
+
+
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+,
+
+
+{\displaystyle \left(x_{a}\right)_{a\in A},}
+
+ where unless there is reason to think otherwise, it should automatically be assumed that the set 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is directed and that its associated preorder is denoted by 
+
+
+
+
+≤
+.
+
+
+{\displaystyle \,\leq .}
+
+ 
+However, notation for nets varies with some authors using, for instance, angled brackets 
+
+
+
+
+
+⟨
+
+x
+
+a
+
+
+⟩
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle \left\langle x_{a}\right\rangle _{a\in A}}
+
+ instead of parentheses. 
+A net in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ may also be written as 
+
+
+
+
+x
+
+∙
+
+
+=
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+,
+
+
+{\displaystyle x_{\bullet }=\left(x_{a}\right)_{a\in A},}
+
+ which expresses the fact that this net 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ is a function 
+
+
+
+
+x
+
+∙
+
+
+:
+A
+→
+X
+
+
+{\displaystyle x_{\bullet }:A\to X}
+
+ whose value at an element 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ in its domain is denoted by 
+
+
+
+
+x
+
+a
+
+
+
+
+{\displaystyle x_{a}}
+
+ instead of the usual parentheses notation 
+
+
+
+
+x
+
+∙
+
+
+(
+a
+)
+
+
+{\displaystyle x_{\bullet }(a)}
+
+ that is typically used with functions (this subscript notation being taken from sequences). As in the field of algebraic topology, the filled disk or "bullet" denotes the location where arguments to the net (that is, elements 
+
+
+
+a
+∈
+A
+
+
+{\displaystyle a\in A}
+
+ of the net's domain) are placed; it helps emphasize that the net is a function and also reduces the number of indices and other symbols that must be written when referring to it later.
+Nets are primarily used in the fields of Analysis and Topology, where they are used to characterize many important topological properties that (in general), sequences are unable to characterize (this shortcoming of sequences motivated the study of sequential spaces and Fréchet–Urysohn spaces). Nets are intimately related to filters, which are also often used in topology. Every net may be associated with a filter and every filter may be associated with a net, where the properties of these associated objects are closely tied together (see the article about Filters in topology for more details). Nets directly generalize sequences and they may often be used very similarly to sequences. Consequently, the learning curve for using nets is typically much less steep than that for filters, which is why many mathematicians, especially analysts, prefer them over filters. However, filters, and especially ultrafilters, have some important technical advantages over nets that ultimately result in nets being encountered much less often than filters outside of the fields of Analysis and Topology.
+A subnet is not merely the restriction of a net 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ to a directed subset of 
+
+
+
+A
+;
+
+
+{\displaystyle A;}
+
+ see the linked page for a definition.
+Every non-empty totally ordered set is directed. Therefore, every function on such a set is a net. In particular, the natural numbers with the usual order form such a set, and a sequence is a function on the natural numbers, so every sequence is a net.
+Another important example is as follows. Given a point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in a topological space, let 
+
+
+
+
+N
+
+x
+
+
+
+
+{\displaystyle N_{x}}
+
+ denote the set of all neighbourhoods containing 
+
+
+
+x
+.
+
+
+{\displaystyle x.}
+
+ Then 
+
+
+
+
+N
+
+x
+
+
+
+
+{\displaystyle N_{x}}
+
+ is a directed set, where the direction is given by reverse inclusion, so that 
+
+
+
+S
+≥
+T
+
+
+{\displaystyle S\geq T}
+
+ if and only if 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is contained in 
+
+
+
+T
+.
+
+
+{\displaystyle T.}
+
+ For 
+
+
+
+S
+∈
+
+N
+
+x
+
+
+,
+
+
+{\displaystyle S\in N_{x},}
+
+ let 
+
+
+
+
+x
+
+S
+
+
+
+
+{\displaystyle x_{S}}
+
+ be a point in 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+ Then 
+
+
+
+
+(
+
+x
+
+S
+
+
+)
+
+
+
+{\displaystyle \left(x_{S}\right)}
+
+ is a net. As 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ increases with respect to 
+
+
+
+
+≥
+,
+
+
+{\displaystyle \,\geq ,}
+
+ the points 
+
+
+
+
+x
+
+S
+
+
+
+
+{\displaystyle x_{S}}
+
+ in the net are constrained to lie in decreasing neighbourhoods of 
+
+
+
+x
+,
+
+
+{\displaystyle x,}
+
+ so intuitively speaking, we are led to the idea that 
+
+
+
+
+x
+
+S
+
+
+
+
+{\displaystyle x_{S}}
+
+ must tend towards 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in some sense. We can make this limiting concept precise.
+A subnet of a sequence is not necessarily a sequence.[4] 
+For an example, let 
+
+
+
+X
+=
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle X=\mathbb {R} ^{n}}
+
+ and let 
+
+
+
+
+x
+
+i
+
+
+=
+0
+
+
+{\displaystyle x_{i}=0}
+
+ for every 
+
+
+
+i
+∈
+
+N
+
+,
+
+
+{\displaystyle i\in \mathbb {N} ,}
+
+ so that 
+
+
+
+
+x
+
+∙
+
+
+=
+(
+0
+
+)
+
+i
+∈
+
+N
+
+
+
+:
+
+N
+
+→
+X
+
+
+{\displaystyle x_{\bullet }=(0)_{i\in \mathbb {N} }:\mathbb {N} \to X}
+
+ is the constant zero sequence. 
+Let 
+
+
+
+I
+=
+{
+r
+∈
+
+R
+
+:
+r
+>
+0
+}
+
+
+{\displaystyle I=\{r\in \mathbb {R} :r>0\}}
+
+ be directed by the usual order 
+
+
+
+
+≤
+
+
+
+{\displaystyle \,\leq \,}
+
+ and let 
+
+
+
+
+s
+
+r
+
+
+=
+0
+
+
+{\displaystyle s_{r}=0}
+
+ for each 
+
+
+
+r
+∈
+R
+.
+
+
+{\displaystyle r\in R.}
+
+ 
+Define 
+
+
+
+φ
+:
+I
+→
+
+N
+
+
+
+{\displaystyle \varphi :I\to \mathbb {N} }
+
+ by letting 
+
+
+
+φ
+(
+r
+)
+=
+⌈
+r
+⌉
+
+
+{\displaystyle \varphi (r)=\lceil r\rceil }
+
+ be the ceiling of 
+
+
+
+r
+.
+
+
+{\displaystyle r.}
+
+ 
+The map 
+
+
+
+φ
+:
+I
+→
+
+N
+
+
+
+{\displaystyle \varphi :I\to \mathbb {N} }
+
+ is an order morphism whose image is cofinal in its codomain and 
+
+
+
+
+(
+
+
+x
+
+∙
+
+
+∘
+φ
+
+)
+
+(
+r
+)
+=
+
+x
+
+φ
+(
+r
+)
+
+
+=
+0
+=
+
+s
+
+r
+
+
+
+
+{\displaystyle \left(x_{\bullet }\circ \varphi \right)(r)=x_{\varphi (r)}=0=s_{r}}
+
+ holds for every 
+
+
+
+r
+∈
+R
+.
+
+
+{\displaystyle r\in R.}
+
+ This shows that 
+
+
+
+
+
+(
+
+s
+
+r
+
+
+)
+
+
+r
+∈
+R
+
+
+=
+
+x
+
+∙
+
+
+∘
+φ
+
+
+{\displaystyle \left(s_{r}\right)_{r\in R}=x_{\bullet }\circ \varphi }
+
+ is a subnet of the sequence 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ (where this subnet is not a subsequence of 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ because it is not even a sequence since its domain is an uncountable set).
+
+A net 
+
+
+
+
+x
+
+∙
+
+
+=
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle x_{\bullet }=\left(x_{a}\right)_{a\in A}}
+
+ is said to be eventually or residually in a set 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ if there exists some 
+
+
+
+a
+∈
+A
+
+
+{\displaystyle a\in A}
+
+ such that for every 
+
+
+
+b
+∈
+A
+
+
+{\displaystyle b\in A}
+
+ with 
+
+
+
+b
+≥
+a
+,
+
+
+{\displaystyle b\geq a,}
+
+ the point 
+
+
+
+
+x
+
+b
+
+
+∈
+S
+.
+
+
+{\displaystyle x_{b}\in S.}
+
+ 
+And it is said to be frequently or cofinally in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ if for every 
+
+
+
+a
+∈
+A
+
+
+{\displaystyle a\in A}
+
+ there exists some 
+
+
+
+b
+∈
+A
+
+
+{\displaystyle b\in A}
+
+ such that 
+
+
+
+b
+≥
+a
+
+
+{\displaystyle b\geq a}
+
+ and 
+
+
+
+
+x
+
+b
+
+
+∈
+S
+.
+
+
+{\displaystyle x_{b}\in S.}
+
+[4] 
+A point is called a limit point (respectively, cluster point) of a net if that net is eventually (respectively, cofinally) in every neighborhood of that point.
+Explicitly, a point 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ is said to be an accumulation point or cluster point of a net if for every neighborhood 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ of 
+
+
+
+x
+,
+
+
+{\displaystyle x,}
+
+ the net is frequently in 
+
+
+
+U
+.
+
+
+{\displaystyle U.}
+
+[4]
+A point 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ is called a limit point or limit of the net 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ if (and only if)
+in which case, this net is then also said to converge to/towards 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and to have 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ as a limit.
+Intuitively, convergence of a net 
+
+
+
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle \left(x_{a}\right)_{a\in A}}
+
+ means that the values 
+
+
+
+
+x
+
+a
+
+
+
+
+{\displaystyle x_{a}}
+
+ come and stay as close as we want to 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ for large enough 
+
+
+
+a
+.
+
+
+{\displaystyle a.}
+
+ 
+The example net given above on the neighborhood system of a point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ does indeed converge to 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ according to this definition.
+Notation for limits
+If the net 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ converges in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ to a point 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ then this fact may be expressed by writing any of the following:
+
+
+
+
+
+
+
+
+
+
+x
+
+∙
+
+
+
+
+
+
+→
+
+
+
+
+x
+
+
+
+
+
+
+ in 
+
+X
+
+
+
+
+
+
+x
+
+a
+
+
+
+
+
+
+→
+
+
+
+
+x
+
+
+
+
+
+
+ in 
+
+X
+
+
+
+
+
+lim
+
+
+
+
+
+
+
+x
+
+∙
+
+
+
+
+
+
+→
+
+
+
+
+x
+
+
+
+
+
+
+ in 
+
+X
+
+
+
+
+
+lim
+
+a
+∈
+A
+
+
+
+
+
+
+x
+
+a
+
+
+
+
+
+
+→
+
+
+
+
+x
+
+
+
+
+
+
+ in 
+
+X
+
+
+
+
+
+lim
+
+
+
+
+
+
+
+a
+
+
+
+
+
+
+x
+
+a
+
+
+
+
+
+
+→
+
+
+
+
+x
+
+
+
+
+
+
+ in 
+
+X
+
+
+
+
+
+
+{\displaystyle {\begin{alignedat}{4}&x_{\bullet }&&\to \;&&x&&\;\;{\text{ in }}X\\&x_{a}&&\to \;&&x&&\;\;{\text{ in }}X\\\lim _{}\;&x_{\bullet }&&\to \;&&x&&\;\;{\text{ in }}X\\\lim _{a\in A}\;&x_{a}&&\to \;&&x&&\;\;{\text{ in }}X\\\lim _{}{}_{a}\;&x_{a}&&\to \;&&x&&\;\;{\text{ in }}X\\\end{alignedat}}}
+
+
+where if the topological space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is clear from context then the words "in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+" may be omitted.
+If 
+
+
+
+
+lim
+
+
+
+
+x
+
+∙
+
+
+→
+x
+
+
+{\displaystyle \lim _{}x_{\bullet }\to x}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and if this limit in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is unique (uniqueness in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ means that if 
+
+
+
+y
+∈
+X
+
+
+{\displaystyle y\in X}
+
+ is such that 
+
+
+
+
+lim
+
+
+
+
+x
+
+∙
+
+
+→
+y
+,
+
+
+{\displaystyle \lim _{}x_{\bullet }\to y,}
+
+ then necessarily 
+
+
+
+x
+=
+y
+
+
+{\displaystyle x=y}
+
+) then this fact may be indicated by writing
+
+
+
+
+
+lim
+
+
+
+
+x
+
+∙
+
+
+=
+x
+
+ 
+ 
+
+ or 
+
+ 
+ 
+
+
+lim
+
+
+
+
+x
+
+a
+
+
+=
+x
+
+ 
+ 
+
+ or 
+
+ 
+ 
+
+
+lim
+
+a
+∈
+A
+
+
+
+x
+
+a
+
+
+=
+x
+
+
+{\displaystyle \lim _{}x_{\bullet }=x\;~~{\text{ or }}~~\;\lim _{}x_{a}=x\;~~{\text{ or }}~~\;\lim _{a\in A}x_{a}=x}
+
+
+where an equals sign is used in place of the arrow 
+
+
+
+→
+.
+
+
+{\displaystyle \to .}
+
+[5] In a Hausdorff space, every net has at most one limit so the limit of a convergent net in a Hausdorff space is always unique.[5] 
+Some authors instead use the notation "
+
+
+
+
+lim
+
+
+
+
+x
+
+∙
+
+
+=
+x
+
+
+{\displaystyle \lim _{}x_{\bullet }=x}
+
+" to mean 
+
+
+
+
+lim
+
+
+
+
+x
+
+∙
+
+
+→
+x
+
+
+{\displaystyle \lim _{}x_{\bullet }\to x}
+
+ without also requiring that the limit be unique; however, if this notation is defined in this way then the equals sign 
+
+
+
+=
+
+
+{\displaystyle =}
+
+ is no longer guaranteed to denote a transitive relationship and so no longer denotes equality. Specifically, without the uniqueness requirement, if 
+
+
+
+x
+,
+y
+∈
+X
+
+
+{\displaystyle x,y\in X}
+
+ are distinct and if each is also a limit of 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ then 
+
+
+
+
+lim
+
+
+
+
+x
+
+∙
+
+
+=
+x
+
+
+{\displaystyle \lim _{}x_{\bullet }=x}
+
+ and 
+
+
+
+
+lim
+
+
+
+
+x
+
+∙
+
+
+=
+y
+
+
+{\displaystyle \lim _{}x_{\bullet }=y}
+
+ could be written (using the equals sign 
+
+
+
+=
+
+
+{\displaystyle =}
+
+) despite 
+
+
+
+x
+=
+y
+
+
+{\displaystyle x=y}
+
+ being false.
+Bases and subbases
+Given a subbase 
+
+
+
+
+
+B
+
+
+
+
+{\displaystyle {\mathcal {B}}}
+
+ for the topology on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ (where note that every base for a topology is also a subbase) and given a point 
+
+
+
+x
+∈
+X
+,
+
+
+{\displaystyle x\in X,}
+
+ a net 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ converges to 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ if and only if it is eventually in every neighborhood 
+
+
+
+U
+∈
+
+
+B
+
+
+
+
+{\displaystyle U\in {\mathcal {B}}}
+
+ of 
+
+
+
+x
+.
+
+
+{\displaystyle x.}
+
+ This characterization extends to neighborhood subbases (and so also neighborhood bases) of the given point 
+
+
+
+x
+.
+
+
+{\displaystyle x.}
+
+
+Convergence in metric spaces
+Suppose 
+
+
+
+(
+X
+,
+d
+)
+
+
+{\displaystyle (X,d)}
+
+ is a metric space (or a pseudometric space) and 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is endowed with the metric topology. 
+If 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ is a point and 
+
+
+
+
+x
+
+∙
+
+
+=
+
+
+(
+
+x
+
+i
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle x_{\bullet }=\left(x_{i}\right)_{a\in A}}
+
+ is a net, then 
+
+
+
+
+x
+
+∙
+
+
+→
+x
+
+
+{\displaystyle x_{\bullet }\to x}
+
+ in 
+
+
+
+(
+X
+,
+d
+)
+
+
+{\displaystyle (X,d)}
+
+ if and only if 
+
+
+
+d
+
+(
+
+x
+,
+
+x
+
+∙
+
+
+
+)
+
+→
+0
+
+
+{\displaystyle d\left(x,x_{\bullet }\right)\to 0}
+
+ in 
+
+
+
+
+R
+
+,
+
+
+{\displaystyle \mathbb {R} ,}
+
+ where 
+
+
+
+d
+
+(
+
+x
+,
+
+x
+
+∙
+
+
+
+)
+
+:=
+
+
+(
+
+d
+
+(
+
+x
+,
+
+x
+
+a
+
+
+
+)
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle d\left(x,x_{\bullet }\right):=\left(d\left(x,x_{a}\right)\right)_{a\in A}}
+
+ is a net of real numbers. 
+In plain English, this characterization says that a net converges to a point in a metric space if and only if the distance between the net and the point converges to zero. 
+If 
+
+
+
+(
+X
+,
+‖
+⋅
+‖
+)
+
+
+{\displaystyle (X,\|\cdot \|)}
+
+ is a normed space (or a seminormed space) then 
+
+
+
+
+x
+
+∙
+
+
+→
+x
+
+
+{\displaystyle x_{\bullet }\to x}
+
+ in 
+
+
+
+(
+X
+,
+‖
+⋅
+‖
+)
+
+
+{\displaystyle (X,\|\cdot \|)}
+
+ if and only if 
+
+
+
+
+‖
+
+x
+−
+
+x
+
+∙
+
+
+
+‖
+
+→
+0
+
+
+{\displaystyle \left\|x-x_{\bullet }\right\|\to 0}
+
+ in 
+
+
+
+
+R
+
+,
+
+
+{\displaystyle \mathbb {R} ,}
+
+ where 
+
+
+
+
+‖
+
+x
+−
+
+x
+
+∙
+
+
+
+‖
+
+:=
+
+
+(
+
+‖
+
+x
+−
+
+x
+
+a
+
+
+
+‖
+
+)
+
+
+a
+∈
+A
+
+
+.
+
+
+{\displaystyle \left\|x-x_{\bullet }\right\|:=\left(\left\|x-x_{a}\right\|\right)_{a\in A}.}
+
+
+Convergence in topological subspaces
+If the set 
+
+
+
+S
+=
+{
+x
+}
+∪
+
+{
+
+
+x
+
+a
+
+
+:
+a
+∈
+A
+
+}
+
+
+
+{\displaystyle S=\{x\}\cup \left\{x_{a}:a\in A\right\}}
+
+ is endowed with the subspace topology induced on it by 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ then 
+
+
+
+
+lim
+
+
+
+
+x
+
+∙
+
+
+→
+x
+
+
+{\displaystyle \lim _{}x_{\bullet }\to x}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ if and only if 
+
+
+
+
+lim
+
+
+
+
+x
+
+∙
+
+
+→
+x
+
+
+{\displaystyle \lim _{}x_{\bullet }\to x}
+
+ in 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+ In this way, the question of whether or not the net 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ converges to the given point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ depends solely on this topological subspace 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ consisting of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and the image of (that is, the points of) the net 
+
+
+
+
+x
+
+∙
+
+
+.
+
+
+{\displaystyle x_{\bullet }.}
+
+
+A net in the product space has a limit if and only if each projection has a limit.
+Explicitly, let 
+
+
+
+
+
+(
+
+X
+
+i
+
+
+)
+
+
+i
+∈
+I
+
+
+
+
+{\displaystyle \left(X_{i}\right)_{i\in I}}
+
+ be topological spaces, endow their Cartesian product
+
+
+
+
+
+
+∏
+
+
+
+X
+
+∙
+
+
+:=
+
+∏
+
+i
+∈
+I
+
+
+
+X
+
+i
+
+
+
+
+{\displaystyle {\textstyle \prod }X_{\bullet }:=\prod _{i\in I}X_{i}}
+
+
+with the product topology, and that for every index 
+
+
+
+l
+∈
+I
+,
+
+
+{\displaystyle l\in I,}
+
+ denote the canonical projection to 
+
+
+
+
+X
+
+l
+
+
+
+
+{\displaystyle X_{l}}
+
+ by
+
+
+
+
+
+
+
+
+
+π
+
+l
+
+
+:
+
+
+
+
+
+
+∏
+
+
+
+X
+
+∙
+
+
+
+
+
+
+→
+
+
+
+
+X
+
+l
+
+
+
+
+
+
+
+
+
+
+(
+
+x
+
+i
+
+
+)
+
+
+i
+∈
+I
+
+
+
+
+
+
+↦
+
+
+
+
+x
+
+l
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{alignedat}{4}\pi _{l}:\;&&{\textstyle \prod }X_{\bullet }&&\;\to \;&X_{l}\\[0.3ex]&&\left(x_{i}\right)_{i\in I}&&\;\mapsto \;&x_{l}\\\end{alignedat}}}
+
+
+Let 
+
+
+
+
+f
+
+∙
+
+
+=
+
+
+(
+
+f
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle f_{\bullet }=\left(f_{a}\right)_{a\in A}}
+
+ be a net in 
+
+
+
+
+
+∏
+
+
+
+X
+
+∙
+
+
+
+
+{\displaystyle {\textstyle \prod }X_{\bullet }}
+
+ directed by 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and for every index 
+
+
+
+i
+∈
+I
+,
+
+
+{\displaystyle i\in I,}
+
+ let 
+
+
+
+
+
+π
+
+i
+
+
+
+(
+
+f
+
+∙
+
+
+)
+
+ 
+
+
+
+
+=
+
+
+
+
+def
+
+
+
+
+
+
+ 
+
+
+(
+
+
+π
+
+i
+
+
+
+(
+
+f
+
+a
+
+
+)
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle \pi _{i}\left(f_{\bullet }\right)~{\stackrel {\scriptscriptstyle {\text{def}}}{=}}~\left(\pi _{i}\left(f_{a}\right)\right)_{a\in A}}
+
+
+denote the result of "plugging 
+
+
+
+
+f
+
+∙
+
+
+
+
+{\displaystyle f_{\bullet }}
+
+ into 
+
+
+
+
+π
+
+i
+
+
+
+
+{\displaystyle \pi _{i}}
+
+", which results in the net 
+
+
+
+
+π
+
+i
+
+
+
+(
+
+f
+
+∙
+
+
+)
+
+:
+A
+→
+
+X
+
+i
+
+
+.
+
+
+{\displaystyle \pi _{i}\left(f_{\bullet }\right):A\to X_{i}.}
+
+ 
+It is sometimes useful to think of this definition in terms of function composition: the net 
+
+
+
+
+π
+
+i
+
+
+
+(
+
+f
+
+∙
+
+
+)
+
+
+
+{\displaystyle \pi _{i}\left(f_{\bullet }\right)}
+
+ is equal to the composition of the net 
+
+
+
+
+f
+
+∙
+
+
+:
+A
+→
+
+
+∏
+
+
+
+X
+
+∙
+
+
+
+
+{\displaystyle f_{\bullet }:A\to {\textstyle \prod }X_{\bullet }}
+
+ with the projection 
+
+
+
+
+π
+
+i
+
+
+:
+
+
+∏
+
+
+
+X
+
+∙
+
+
+→
+
+X
+
+i
+
+
+;
+
+
+{\displaystyle \pi _{i}:{\textstyle \prod }X_{\bullet }\to X_{i};}
+
+ that is, 
+
+
+
+
+π
+
+i
+
+
+
+(
+
+f
+
+∙
+
+
+)
+
+ 
+
+
+
+
+=
+
+
+
+
+def
+
+
+
+
+
+
+ 
+
+π
+
+i
+
+
+
+∘
+
+
+f
+
+∙
+
+
+.
+
+
+{\displaystyle \pi _{i}\left(f_{\bullet }\right)~{\stackrel {\scriptscriptstyle {\text{def}}}{=}}~\pi _{i}\,\circ \,f_{\bullet }.}
+
+
+For any given point 
+
+
+
+L
+=
+
+
+(
+
+L
+
+i
+
+
+)
+
+
+i
+∈
+I
+
+
+∈
+
+
+
+∏
+
+i
+∈
+I
+
+
+
+
+
+X
+
+i
+
+
+,
+
+
+{\displaystyle L=\left(L_{i}\right)_{i\in I}\in {\textstyle \prod \limits _{i\in I}}X_{i},}
+
+ the net 
+
+
+
+
+f
+
+∙
+
+
+
+
+{\displaystyle f_{\bullet }}
+
+ converges to 
+
+
+
+L
+
+
+{\displaystyle L}
+
+ in the product space 
+
+
+
+
+
+∏
+
+
+
+X
+
+∙
+
+
+
+
+{\displaystyle {\textstyle \prod }X_{\bullet }}
+
+ if and only if for every index 
+
+
+
+i
+∈
+I
+,
+
+
+{\displaystyle i\in I,}
+
+ 
+
+
+
+
+π
+
+i
+
+
+
+(
+
+f
+
+∙
+
+
+)
+
+
+
+
+
+
+=
+
+
+
+
+def
+
+
+
+
+
+
+
+
+
+(
+
+
+π
+
+i
+
+
+
+(
+
+f
+
+a
+
+
+)
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle \pi _{i}\left(f_{\bullet }\right)\;{\stackrel {\scriptscriptstyle {\text{def}}}{=}}\;\left(\pi _{i}\left(f_{a}\right)\right)_{a\in A}}
+
+ converges to 
+
+
+
+
+L
+
+i
+
+
+
+
+{\displaystyle L_{i}}
+
+ in 
+
+
+
+
+X
+
+i
+
+
+.
+
+
+{\displaystyle X_{i}.}
+
+[6] 
+And whenever the net 
+
+
+
+
+f
+
+∙
+
+
+
+
+{\displaystyle f_{\bullet }}
+
+ clusters at 
+
+
+
+L
+
+
+{\displaystyle L}
+
+ in 
+
+
+
+
+
+∏
+
+
+
+X
+
+∙
+
+
+
+
+{\displaystyle {\textstyle \prod }X_{\bullet }}
+
+ then 
+
+
+
+
+π
+
+i
+
+
+
+(
+
+f
+
+∙
+
+
+)
+
+
+
+{\displaystyle \pi _{i}\left(f_{\bullet }\right)}
+
+ clusters at 
+
+
+
+
+L
+
+i
+
+
+
+
+{\displaystyle L_{i}}
+
+ for every index 
+
+
+
+i
+∈
+I
+.
+
+
+{\displaystyle i\in I.}
+
+[7] However, the converse does not hold in general.[7] For example, suppose 
+
+
+
+
+X
+
+1
+
+
+=
+
+X
+
+2
+
+
+=
+
+R
+
+
+
+{\displaystyle X_{1}=X_{2}=\mathbb {R} }
+
+ and let 
+
+
+
+
+f
+
+∙
+
+
+=
+
+
+(
+
+f
+
+a
+
+
+)
+
+
+a
+∈
+
+N
+
+
+
+
+
+{\displaystyle f_{\bullet }=\left(f_{a}\right)_{a\in \mathbb {N} }}
+
+ denote the sequence 
+
+
+
+(
+1
+,
+1
+)
+,
+(
+0
+,
+0
+)
+,
+(
+1
+,
+1
+)
+,
+(
+0
+,
+0
+)
+,
+…
+
+
+{\displaystyle (1,1),(0,0),(1,1),(0,0),\ldots }
+
+ that alternates between 
+
+
+
+(
+1
+,
+1
+)
+
+
+{\displaystyle (1,1)}
+
+ and 
+
+
+
+(
+0
+,
+0
+)
+.
+
+
+{\displaystyle (0,0).}
+
+ Then 
+
+
+
+
+L
+
+1
+
+
+:=
+0
+
+
+{\displaystyle L_{1}:=0}
+
+ and 
+
+
+
+
+L
+
+2
+
+
+:=
+1
+
+
+{\displaystyle L_{2}:=1}
+
+ are cluster points of both 
+
+
+
+
+π
+
+1
+
+
+
+(
+
+f
+
+∙
+
+
+)
+
+
+
+{\displaystyle \pi _{1}\left(f_{\bullet }\right)}
+
+ and 
+
+
+
+
+π
+
+2
+
+
+
+(
+
+f
+
+∙
+
+
+)
+
+
+
+{\displaystyle \pi _{2}\left(f_{\bullet }\right)}
+
+ in 
+
+
+
+
+X
+
+1
+
+
+×
+
+X
+
+2
+
+
+=
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle X_{1}\times X_{2}=\mathbb {R} ^{2}}
+
+ but 
+
+
+
+
+(
+
+
+L
+
+1
+
+
+,
+
+L
+
+2
+
+
+
+)
+
+=
+(
+0
+,
+1
+)
+
+
+{\displaystyle \left(L_{1},L_{2}\right)=(0,1)}
+
+ is not a cluster point of 
+
+
+
+
+f
+
+∙
+
+
+
+
+{\displaystyle f_{\bullet }}
+
+ since the open ball of radius 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+ centered at 
+
+
+
+(
+0
+,
+1
+)
+
+
+{\displaystyle (0,1)}
+
+ does not contain even a single point 
+
+
+
+
+f
+
+∙
+
+
+
+
+{\displaystyle f_{\bullet }}
+
+
+Tychonoff's theorem and relation to the axiom of choice
+If no 
+
+
+
+L
+∈
+X
+
+
+{\displaystyle L\in X}
+
+ is given but for every 
+
+
+
+i
+∈
+I
+,
+
+
+{\displaystyle i\in I,}
+
+ there exists some 
+
+
+
+
+L
+
+i
+
+
+∈
+
+X
+
+i
+
+
+
+
+{\displaystyle L_{i}\in X_{i}}
+
+ such that 
+
+
+
+
+π
+
+i
+
+
+
+(
+
+f
+
+∙
+
+
+)
+
+→
+
+L
+
+i
+
+
+
+
+{\displaystyle \pi _{i}\left(f_{\bullet }\right)\to L_{i}}
+
+ in 
+
+
+
+
+X
+
+i
+
+
+
+
+{\displaystyle X_{i}}
+
+ then the tuple defined by 
+
+
+
+L
+=
+
+
+(
+
+L
+
+i
+
+
+)
+
+
+i
+∈
+I
+
+
+
+
+{\displaystyle L=\left(L_{i}\right)_{i\in I}}
+
+ will be a limit of 
+
+
+
+
+f
+
+∙
+
+
+
+
+{\displaystyle f_{\bullet }}
+
+ in 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ 
+However, the axiom of choice might be need to be assumed in order to conclude that this tuple 
+
+
+
+L
+
+
+{\displaystyle L}
+
+ exists; the axiom of choice is not needed in some situations, such as when 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ is finite or when every 
+
+
+
+
+L
+
+i
+
+
+∈
+
+X
+
+i
+
+
+
+
+{\displaystyle L_{i}\in X_{i}}
+
+ is the unique limit of the net 
+
+
+
+
+π
+
+i
+
+
+
+(
+
+f
+
+∙
+
+
+)
+
+
+
+{\displaystyle \pi _{i}\left(f_{\bullet }\right)}
+
+ (because then there is nothing to choose between), which happens for example, when every 
+
+
+
+
+X
+
+i
+
+
+
+
+{\displaystyle X_{i}}
+
+ is a Hausdorff space. If 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ is infinite and 
+
+
+
+
+
+∏
+
+
+
+X
+
+∙
+
+
+=
+
+
+
+∏
+
+j
+∈
+I
+
+
+
+
+
+X
+
+j
+
+
+
+
+{\displaystyle {\textstyle \prod }X_{\bullet }={\textstyle \prod \limits _{j\in I}}X_{j}}
+
+ is not empty, then the axiom of choice would (in general) still be needed to conclude that the projections 
+
+
+
+
+π
+
+i
+
+
+:
+
+
+∏
+
+
+
+X
+
+∙
+
+
+→
+
+X
+
+i
+
+
+
+
+{\displaystyle \pi _{i}:{\textstyle \prod }X_{\bullet }\to X_{i}}
+
+ are surjective maps.
+The axiom of choice is equivalent to Tychonoff's theorem, which states that the product of any collection of compact topological spaces is compact. 
+But if every compact space is also Hausdorff, then the so called "Tychonoff's theorem for compact Hausdorff spaces" can be used instead, which is equivalent to the ultrafilter lemma and so strictly weaker than the axiom of choice. 
+Nets can be used to give short proofs of both version of Tychonoff's theorem by using the characterization of net convergence given above together with the fact that a space is compact if and only if every net has a convergent subnet.
+A point 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ is a cluster point of a given net if and only if it has a subset that converges to 
+
+
+
+x
+.
+
+
+{\displaystyle x.}
+
+[8]
+If 
+
+
+
+
+x
+
+∙
+
+
+=
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle x_{\bullet }=\left(x_{a}\right)_{a\in A}}
+
+ is a net in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ then the set of all cluster points of 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is equal to[7]
+
+
+
+
+
+⋂
+
+a
+∈
+A
+
+
+
+cl
+
+X
+
+
+⁡
+
+(
+
+x
+
+≥
+a
+
+
+)
+
+
+
+{\displaystyle \bigcap _{a\in A}\operatorname {cl} _{X}\left(x_{\geq a}\right)}
+
+
+where 
+
+
+
+
+x
+
+≥
+a
+
+
+:=
+
+{
+
+
+x
+
+b
+
+
+:
+b
+≥
+a
+,
+b
+∈
+A
+
+}
+
+
+
+{\displaystyle x_{\geq a}:=\left\{x_{b}:b\geq a,b\in A\right\}}
+
+ for each 
+
+
+
+a
+∈
+A
+.
+
+
+{\displaystyle a\in A.}
+
+ 
+If 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ is a cluster point of some subnet of 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ then 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is also a cluster point of 
+
+
+
+
+x
+
+∙
+
+
+.
+
+
+{\displaystyle x_{\bullet }.}
+
+[8]
+A net 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ in set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is called a universal net or an ultranet if for every subset 
+
+
+
+S
+⊆
+X
+,
+
+
+{\displaystyle S\subseteq X,}
+
+ 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ is eventually in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ or 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ is eventually in the complement 
+
+
+
+X
+∖
+S
+.
+
+
+{\displaystyle X\setminus S.}
+
+[4]
+Ultranets are closely related to ultrafilters. 
+Every constant net is an ultranet. Every subnet of an ultranet is an ultranet.[7] Every net has some subnet that is an ultranet.[4] 
+If 
+
+
+
+
+x
+
+∙
+
+
+=
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle x_{\bullet }=\left(x_{a}\right)_{a\in A}}
+
+ is an ultranet in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f:X\to Y}
+
+ is a function then 
+
+
+
+f
+∘
+
+x
+
+∙
+
+
+=
+
+
+(
+
+f
+
+(
+
+x
+
+a
+
+
+)
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle f\circ x_{\bullet }=\left(f\left(x_{a}\right)\right)_{a\in A}}
+
+ is an ultranet in 
+
+
+
+Y
+.
+
+
+{\displaystyle Y.}
+
+[4]
+Given 
+
+
+
+x
+∈
+X
+,
+
+
+{\displaystyle x\in X,}
+
+ an ultranet clusters at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ if and only it converges to 
+
+
+
+x
+.
+
+
+{\displaystyle x.}
+
+[4]
+Every limit of a sequence and limit of a function can be interpreted as a limit of a net (as described below). 
+The definition of the value of a Riemann integral can be interpreted as a limit of a net of Riemann sums where the net's directed set is the set of all partitions of the interval of integration, partially ordered by inclusion.
+Interpret the set 
+
+
+
+
+
+R
+
+
+
+R
+
+
+
+
+
+{\displaystyle \mathbb {R} ^{\mathbb {R} }}
+
+ of all functions with prototype 
+
+
+
+f
+:
+
+R
+
+→
+
+R
+
+
+
+{\displaystyle f:\mathbb {R} \to \mathbb {R} }
+
+ as the Cartesian product 
+
+
+
+
+
+
+∏
+
+x
+∈
+
+R
+
+
+
+
+
+
+R
+
+
+
+{\displaystyle {\textstyle \prod \limits _{x\in \mathbb {R} }}\mathbb {R} }
+
+ (by identifying a function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ with the tuple 
+
+
+
+(
+f
+(
+x
+)
+
+)
+
+x
+∈
+
+R
+
+
+
+,
+
+
+{\displaystyle (f(x))_{x\in \mathbb {R} },}
+
+ and conversely) and endow it with the product topology. This (product) topology on 
+
+
+
+
+
+R
+
+
+
+R
+
+
+
+
+
+{\displaystyle \mathbb {R} ^{\mathbb {R} }}
+
+ is identical to the topology of pointwise convergence. Let 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ denote the set of all functions 
+
+
+
+f
+:
+
+R
+
+→
+{
+0
+,
+1
+}
+
+
+{\displaystyle f:\mathbb {R} \to \{0,1\}}
+
+ that are equal to 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+ everywhere except for at most finitely many points (that is, such that the set 
+
+
+
+{
+x
+:
+f
+(
+x
+)
+=
+0
+}
+
+
+{\displaystyle \{x:f(x)=0\}}
+
+ is finite). Then the constant 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+ function 
+
+
+
+
+0
+
+:
+
+R
+
+→
+{
+0
+}
+
+
+{\displaystyle \mathbf {0} :\mathbb {R} \to \{0\}}
+
+ belongs to the closure of 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ in 
+
+
+
+
+
+R
+
+
+
+R
+
+
+
+;
+
+
+{\displaystyle \mathbb {R} ^{\mathbb {R} };}
+
+ that is, 
+
+
+
+
+0
+
+∈
+
+cl
+
+
+
+R
+
+
+
+R
+
+
+
+
+
+⁡
+E
+.
+
+
+{\displaystyle \mathbf {0} \in \operatorname {cl} _{\mathbb {R} ^{\mathbb {R} }}E.}
+
+[7] This will be proven by constructing a net in 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ that converges to 
+
+
+
+
+0
+
+.
+
+
+{\displaystyle \mathbf {0} .}
+
+ However, there does not exist any sequence in 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ that converges to 
+
+
+
+
+0
+
+,
+
+
+{\displaystyle \mathbf {0} ,}
+
+[9] which makes this one instance where (non-sequence) nets must be used because sequences alone can not reach the desired conclusion. Compare elements of 
+
+
+
+
+
+R
+
+
+
+R
+
+
+
+
+
+{\displaystyle \mathbb {R} ^{\mathbb {R} }}
+
+ pointwise in the usual way by declaring that 
+
+
+
+f
+≥
+g
+
+
+{\displaystyle f\geq g}
+
+ if and only if 
+
+
+
+f
+(
+x
+)
+≥
+g
+(
+x
+)
+
+
+{\displaystyle f(x)\geq g(x)}
+
+ for all 
+
+
+
+x
+.
+
+
+{\displaystyle x.}
+
+ This pointwise comparison is a partial order that makes 
+
+
+
+(
+E
+,
+≥
+)
+
+
+{\displaystyle (E,\geq )}
+
+ a directed set since given any 
+
+
+
+f
+,
+g
+∈
+E
+,
+
+
+{\displaystyle f,g\in E,}
+
+ their pointwise minimum 
+
+
+
+m
+:=
+min
+{
+f
+,
+g
+}
+
+
+{\displaystyle m:=\min\{f,g\}}
+
+ belongs to 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ and satisfies 
+
+
+
+f
+≥
+m
+
+
+{\displaystyle f\geq m}
+
+ and 
+
+
+
+g
+≥
+m
+.
+
+
+{\displaystyle g\geq m.}
+
+ This partial order turns the identity map 
+
+
+
+Id
+:
+(
+E
+,
+≥
+)
+→
+E
+
+
+{\displaystyle \operatorname {Id} :(E,\geq )\to E}
+
+ (defined by 
+
+
+
+f
+↦
+f
+
+
+{\displaystyle f\mapsto f}
+
+) into an 
+
+
+
+E
+
+
+{\displaystyle E}
+
+-valued net. This net converges pointwise to 
+
+
+
+
+0
+
+
+
+{\displaystyle \mathbf {0} }
+
+ in 
+
+
+
+
+
+R
+
+
+
+R
+
+
+
+,
+
+
+{\displaystyle \mathbb {R} ^{\mathbb {R} },}
+
+ which implies that 
+
+
+
+
+0
+
+
+
+{\displaystyle \mathbf {0} }
+
+ belongs to the closure of 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ in 
+
+
+
+
+
+R
+
+
+
+R
+
+
+
+.
+
+
+{\displaystyle \mathbb {R} ^{\mathbb {R} }.}
+
+
+A sequence 
+
+
+
+
+a
+
+1
+
+
+,
+
+a
+
+2
+
+
+,
+…
+
+
+{\displaystyle a_{1},a_{2},\ldots }
+
+ in a topological space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ can be considered a net in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ defined on 
+
+
+
+
+N
+
+.
+
+
+{\displaystyle \mathbb {N} .}
+
+
+The net is eventually in a subset 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ if there exists an 
+
+
+
+N
+∈
+
+N
+
+
+
+{\displaystyle N\in \mathbb {N} }
+
+ such that for every integer 
+
+
+
+n
+≥
+N
+,
+
+
+{\displaystyle n\geq N,}
+
+ the point 
+
+
+
+
+a
+
+n
+
+
+
+
+{\displaystyle a_{n}}
+
+ is in 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+
+So 
+
+
+
+lim
+
+
+
+
+n
+
+
+
+a
+
+n
+
+
+→
+L
+
+
+{\displaystyle \lim {}_{n}a_{n}\to L}
+
+ if and only if for every neighborhood 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ of 
+
+
+
+L
+,
+
+
+{\displaystyle L,}
+
+ the net is eventually in 
+
+
+
+V
+.
+
+
+{\displaystyle V.}
+
+
+The net is frequently in a subset 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ if and only if for every 
+
+
+
+N
+∈
+
+N
+
+
+
+{\displaystyle N\in \mathbb {N} }
+
+ there exists some integer 
+
+
+
+n
+≥
+N
+
+
+{\displaystyle n\geq N}
+
+ such that 
+
+
+
+
+a
+
+n
+
+
+∈
+S
+,
+
+
+{\displaystyle a_{n}\in S,}
+
+ that is, if and only if infinitely many elements of the sequence are in 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+ Thus a point 
+
+
+
+y
+∈
+X
+
+
+{\displaystyle y\in X}
+
+ is a cluster point of the net if and only if every neighborhood 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ of 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ contains infinitely many elements of the sequence.
+Fix a point 
+
+
+
+c
+∈
+M
+
+
+{\displaystyle c\in M}
+
+ in a metric space 
+
+
+
+(
+M
+,
+d
+)
+
+
+{\displaystyle (M,d)}
+
+ that has at least two point (such as 
+
+
+
+M
+:=
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle M:=\mathbb {R} ^{n}}
+
+ with the Euclidean metric with 
+
+
+
+c
+:=
+0
+
+
+{\displaystyle c:=0}
+
+ being the origin, for example) and direct the set 
+
+
+
+I
+:=
+M
+∖
+{
+c
+}
+
+
+{\displaystyle I:=M\setminus \{c\}}
+
+ reversely according to distance from 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ by declaring that 
+
+
+
+i
+≤
+j
+
+
+{\displaystyle i\leq j}
+
+ if and only if 
+
+
+
+d
+(
+j
+,
+c
+)
+≤
+d
+(
+i
+,
+c
+)
+.
+
+
+{\displaystyle d(j,c)\leq d(i,c).}
+
+ In other words, the relation is "has at least the same distance to 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ as", so that "large enough" with respect to this relation means "close enough to 
+
+
+
+c
+
+
+{\displaystyle c}
+
+". 
+Given any function with domain 
+
+
+
+M
+,
+
+
+{\displaystyle M,}
+
+ its restriction to 
+
+
+
+I
+:=
+M
+∖
+{
+c
+}
+
+
+{\displaystyle I:=M\setminus \{c\}}
+
+ can be canonically interpreted as a net directed by 
+
+
+
+(
+I
+,
+≤
+)
+.
+
+
+{\displaystyle (I,\leq ).}
+
+[7]
+A net 
+
+
+
+f
+:
+M
+∖
+{
+c
+}
+→
+X
+
+
+{\displaystyle f:M\setminus \{c\}\to X}
+
+ is eventually in a subset 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of a topological space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ if and only if there exists some 
+
+
+
+n
+∈
+M
+∖
+{
+c
+}
+
+
+{\displaystyle n\in M\setminus \{c\}}
+
+ such that for every 
+
+
+
+m
+∈
+M
+∖
+{
+c
+}
+
+
+{\displaystyle m\in M\setminus \{c\}}
+
+ satisfying 
+
+
+
+d
+(
+m
+,
+c
+)
+≤
+d
+(
+n
+,
+c
+)
+,
+
+
+{\displaystyle d(m,c)\leq d(n,c),}
+
+ the point 
+
+
+
+f
+(
+m
+)
+
+
+{\displaystyle f(m)}
+
+ is in 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+ 
+Such a net 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ converges in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ to a given point 
+
+
+
+L
+∈
+X
+
+
+{\displaystyle L\in X}
+
+ if and only if 
+
+
+
+
+lim
+
+m
+→
+c
+
+
+f
+(
+m
+)
+→
+L
+
+
+{\displaystyle \lim _{m\to c}f(m)\to L}
+
+ in the usual sense (meaning that for every neighborhood 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ of 
+
+
+
+L
+,
+
+
+{\displaystyle L,}
+
+ 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is eventually in 
+
+
+
+V
+
+
+{\displaystyle V}
+
+).[7]
+The net 
+
+
+
+f
+:
+M
+∖
+{
+c
+}
+→
+X
+
+
+{\displaystyle f:M\setminus \{c\}\to X}
+
+ is frequently in a subset 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ if and only if for every 
+
+
+
+n
+∈
+M
+∖
+{
+c
+}
+
+
+{\displaystyle n\in M\setminus \{c\}}
+
+ there exists some 
+
+
+
+m
+∈
+M
+∖
+{
+c
+}
+
+
+{\displaystyle m\in M\setminus \{c\}}
+
+ with 
+
+
+
+d
+(
+m
+,
+c
+)
+≤
+d
+(
+n
+,
+c
+)
+
+
+{\displaystyle d(m,c)\leq d(n,c)}
+
+ such that 
+
+
+
+f
+(
+m
+)
+
+
+{\displaystyle f(m)}
+
+ is in 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+
+Consequently, a point 
+
+
+
+L
+∈
+X
+
+
+{\displaystyle L\in X}
+
+ is a cluster point of the net 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ if and only if for every neighborhood 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ of 
+
+
+
+L
+,
+
+
+{\displaystyle L,}
+
+ the net is frequently in 
+
+
+
+V
+.
+
+
+{\displaystyle V.}
+
+
+Consider a well-ordered set 
+
+
+
+[
+0
+,
+c
+]
+
+
+{\displaystyle [0,c]}
+
+ with limit point 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ and a function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ from 
+
+
+
+[
+0
+,
+t
+)
+
+
+{\displaystyle [0,t)}
+
+ to a topological space 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ This function is a net on 
+
+
+
+[
+0
+,
+t
+)
+.
+
+
+{\displaystyle [0,t).}
+
+
+It is eventually in a subset 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ if there exists an 
+
+
+
+r
+∈
+[
+0
+,
+t
+)
+
+
+{\displaystyle r\in [0,t)}
+
+ such that for every 
+
+
+
+s
+∈
+[
+r
+,
+t
+)
+
+
+{\displaystyle s\in [r,t)}
+
+ the point 
+
+
+
+f
+(
+s
+)
+
+
+{\displaystyle f(s)}
+
+ is in 
+
+
+
+V
+.
+
+
+{\displaystyle V.}
+
+
+So 
+
+
+
+
+lim
+
+x
+→
+t
+
+
+f
+(
+x
+)
+→
+L
+
+
+{\displaystyle \lim _{x\to t}f(x)\to L}
+
+ if and only if for every neighborhood 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ of 
+
+
+
+L
+,
+
+
+{\displaystyle L,}
+
+ 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is eventually in 
+
+
+
+V
+.
+
+
+{\displaystyle V.}
+
+
+The net 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is frequently in a subset 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ if and only if for every 
+
+
+
+r
+∈
+[
+0
+,
+t
+)
+
+
+{\displaystyle r\in [0,t)}
+
+ there exists some 
+
+
+
+s
+∈
+[
+r
+,
+t
+)
+
+
+{\displaystyle s\in [r,t)}
+
+ such that 
+
+
+
+f
+(
+s
+)
+∈
+V
+.
+
+
+{\displaystyle f(s)\in V.}
+
+
+A point 
+
+
+
+y
+∈
+X
+
+
+{\displaystyle y\in X}
+
+ is a cluster point of the net 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ if and only if for every neighborhood 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ of 
+
+
+
+y
+,
+
+
+{\displaystyle y,}
+
+ the net is frequently in 
+
+
+
+V
+.
+
+
+{\displaystyle V.}
+
+
+The first example is a special case of this with 
+
+
+
+c
+=
+ω
+.
+
+
+{\displaystyle c=\omega .}
+
+
+See also ordinal-indexed sequence.
+The analogue of "subsequence" for nets is the notion of a "subnet". There are several different non-equivalent definitions of "subnet" and this article will use the definition introduced in 1970 by Stephen Willard,[10] which is as follows: 
+If 
+
+
+
+
+x
+
+∙
+
+
+=
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle x_{\bullet }=\left(x_{a}\right)_{a\in A}}
+
+ and 
+
+
+
+
+s
+
+∙
+
+
+=
+
+
+(
+
+s
+
+i
+
+
+)
+
+
+i
+∈
+I
+
+
+
+
+{\displaystyle s_{\bullet }=\left(s_{i}\right)_{i\in I}}
+
+ are nets then 
+
+
+
+
+s
+
+∙
+
+
+
+
+{\displaystyle s_{\bullet }}
+
+ is called a subnet or Willard-subnet[10] of 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ if there exists an order-preserving map 
+
+
+
+h
+:
+I
+→
+A
+
+
+{\displaystyle h:I\to A}
+
+ such that 
+
+
+
+h
+(
+I
+)
+
+
+{\displaystyle h(I)}
+
+ is a cofinal subset of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+
+
+s
+
+i
+
+
+=
+
+x
+
+h
+(
+i
+)
+
+
+
+
+ for all 
+
+i
+∈
+I
+.
+
+
+{\displaystyle s_{i}=x_{h(i)}\quad {\text{ for all }}i\in I.}
+
+ 
+The map 
+
+
+
+h
+:
+I
+→
+A
+
+
+{\displaystyle h:I\to A}
+
+ is called order-preserving and an order homomorphism if whenever 
+
+
+
+i
+≤
+j
+
+
+{\displaystyle i\leq j}
+
+ then 
+
+
+
+h
+(
+i
+)
+≤
+h
+(
+j
+)
+.
+
+
+{\displaystyle h(i)\leq h(j).}
+
+ 
+The set 
+
+
+
+h
+(
+I
+)
+
+
+{\displaystyle h(I)}
+
+ being cofinal in 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ means that for every 
+
+
+
+a
+∈
+A
+,
+
+
+{\displaystyle a\in A,}
+
+ there exists some 
+
+
+
+b
+∈
+h
+(
+I
+)
+
+
+{\displaystyle b\in h(I)}
+
+ such that 
+
+
+
+b
+≥
+a
+.
+
+
+{\displaystyle b\geq a.}
+
+
+Virtually all concepts of topology can be rephrased in the language of nets and limits. This may be useful to guide the intuition since the notion of limit of a net is very similar to that of limit of a sequence. The following set of theorems and lemmas help cement that similarity:
+Closed sets and closure
+A subset 
+
+
+
+S
+⊆
+X
+
+
+{\displaystyle S\subseteq X}
+
+ is closed in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ if and only if every limit point of every convergent net in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ necessarily belongs to 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+ 
+Explicitly, a subset 
+
+
+
+S
+⊆
+X
+
+
+{\displaystyle S\subseteq X}
+
+ is closed if and only if whenever 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ and 
+
+
+
+
+s
+
+∙
+
+
+=
+
+
+(
+
+s
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle s_{\bullet }=\left(s_{a}\right)_{a\in A}}
+
+ is a net valued in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ (meaning that 
+
+
+
+
+s
+
+a
+
+
+∈
+S
+
+
+{\displaystyle s_{a}\in S}
+
+ for all 
+
+
+
+a
+∈
+A
+
+
+{\displaystyle a\in A}
+
+) such that 
+
+
+
+lim
+
+
+
+
+
+
+
+s
+
+∙
+
+
+→
+x
+
+
+{\displaystyle \lim {}_{}s_{\bullet }\to x}
+
+ in 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ then necessarily 
+
+
+
+x
+∈
+S
+.
+
+
+{\displaystyle x\in S.}
+
+
+More generally, if 
+
+
+
+S
+⊆
+X
+
+
+{\displaystyle S\subseteq X}
+
+ is any subset then a point 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ is in the closure of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ if and only if there exists a net 
+
+
+
+
+
+(
+
+s
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle \left(s_{a}\right)_{a\in A}}
+
+ in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ with limit 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ and such that 
+
+
+
+
+s
+
+a
+
+
+∈
+S
+
+
+{\displaystyle s_{a}\in S}
+
+ for every index 
+
+
+
+a
+∈
+A
+.
+
+
+{\displaystyle a\in A.}
+
+[8]
+Open sets and characterizations of topologies
+A subset 
+
+
+
+S
+⊆
+X
+
+
+{\displaystyle S\subseteq X}
+
+ is open if and only if no net in 
+
+
+
+X
+∖
+S
+
+
+{\displaystyle X\setminus S}
+
+ converges to a point of 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+[11] Also, subset 
+
+
+
+S
+⊆
+X
+
+
+{\displaystyle S\subseteq X}
+
+ is open if and only if every net converging to an element of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is eventually contained in 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+ 
+It is these characterizations of "open subset" that allow nets to characterize topologies. 
+Topologies can also be characterized by closed subsets since a set is open if and only if its complement is closed. So the characterizations of "closed set" in terms of nets can also be used to characterize topologies. 
+Continuity
+A function 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f:X\to Y}
+
+ between topological spaces is continuous at a given point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ if and only if for every net 
+
+
+
+
+x
+
+∙
+
+
+=
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle x_{\bullet }=\left(x_{a}\right)_{a\in A}}
+
+ in its domain, if 
+
+
+
+
+lim
+
+
+
+
+x
+
+∙
+
+
+→
+x
+
+
+{\displaystyle \lim _{}x_{\bullet }\to x}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ then 
+
+
+
+lim
+
+
+f
+
+(
+
+x
+
+∙
+
+
+)
+
+→
+f
+(
+x
+)
+
+
+{\displaystyle \lim {}f\left(x_{\bullet }\right)\to f(x)}
+
+ in 
+
+
+
+Y
+.
+
+
+{\displaystyle Y.}
+
+[8] 
+Said more succinctly, a function 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f:X\to Y}
+
+ is continuous if and only if whenever 
+
+
+
+
+x
+
+∙
+
+
+→
+x
+
+
+{\displaystyle x_{\bullet }\to x}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ then 
+
+
+
+f
+
+(
+
+x
+
+∙
+
+
+)
+
+→
+f
+(
+x
+)
+
+
+{\displaystyle f\left(x_{\bullet }\right)\to f(x)}
+
+ in 
+
+
+
+Y
+.
+
+
+{\displaystyle Y.}
+
+ 
+In general, this statement would not be true if the word "net" was replaced by "sequence"; that is, it is necessary to allow for directed sets other than just the natural numbers if 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is not a first-countable space (or not a sequential space).
+(
+
+
+
+
+⟹
+
+
+
+{\displaystyle \implies }
+
+) 
+Let 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ be continuous at point 
+
+
+
+x
+,
+
+
+{\displaystyle x,}
+
+ and let 
+
+
+
+
+x
+
+∙
+
+
+=
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle x_{\bullet }=\left(x_{a}\right)_{a\in A}}
+
+ be a net such that 
+
+
+
+
+lim
+
+
+
+
+x
+
+∙
+
+
+→
+x
+.
+
+
+{\displaystyle \lim _{}x_{\bullet }\to x.}
+
+
+Then for every open neighborhood 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ of 
+
+
+
+f
+(
+x
+)
+,
+
+
+{\displaystyle f(x),}
+
+ its preimage under 
+
+
+
+f
+,
+
+
+{\displaystyle f,}
+
+ 
+
+
+
+V
+:=
+
+f
+
+−
+1
+
+
+(
+U
+)
+,
+
+
+{\displaystyle V:=f^{-1}(U),}
+
+ is a neighborhood of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ (by the continuity of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+).
+Thus the interior of 
+
+
+
+V
+,
+
+
+{\displaystyle V,}
+
+ which is denoted by 
+
+
+
+int
+⁡
+V
+,
+
+
+{\displaystyle \operatorname {int} V,}
+
+ is an open neighborhood of 
+
+
+
+x
+,
+
+
+{\displaystyle x,}
+
+ and consequently 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ is eventually in 
+
+
+
+int
+⁡
+V
+.
+
+
+{\displaystyle \operatorname {int} V.}
+
+ Therefore 
+
+
+
+
+
+(
+
+f
+
+(
+
+x
+
+a
+
+
+)
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle \left(f\left(x_{a}\right)\right)_{a\in A}}
+
+ is eventually in 
+
+
+
+f
+(
+int
+⁡
+V
+)
+
+
+{\displaystyle f(\operatorname {int} V)}
+
+ and thus also eventually in 
+
+
+
+f
+(
+V
+)
+
+
+{\displaystyle f(V)}
+
+ which is a subset of 
+
+
+
+U
+.
+
+
+{\displaystyle U.}
+
+ Thus 
+
+
+
+
+lim
+
+
+
+
+
+(
+
+f
+
+(
+
+x
+
+a
+
+
+)
+
+
+)
+
+
+a
+∈
+A
+
+
+→
+f
+(
+x
+)
+,
+
+
+{\displaystyle \lim _{}\left(f\left(x_{a}\right)\right)_{a\in A}\to f(x),}
+
+ and this direction is proven.
+(
+
+
+
+⟸
+
+
+{\displaystyle \Longleftarrow }
+
+) 
+Let 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ be a point such that for every net 
+
+
+
+
+x
+
+∙
+
+
+=
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle x_{\bullet }=\left(x_{a}\right)_{a\in A}}
+
+ such that 
+
+
+
+
+lim
+
+
+
+
+x
+
+∙
+
+
+→
+x
+,
+
+
+{\displaystyle \lim _{}x_{\bullet }\to x,}
+
+ 
+
+
+
+
+lim
+
+
+
+
+
+(
+
+f
+
+(
+
+x
+
+a
+
+
+)
+
+
+)
+
+
+a
+∈
+A
+
+
+→
+f
+(
+x
+)
+.
+
+
+{\displaystyle \lim _{}\left(f\left(x_{a}\right)\right)_{a\in A}\to f(x).}
+
+ Now suppose that 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is not continuous at 
+
+
+
+x
+.
+
+
+{\displaystyle x.}
+
+
+Then there is a neighborhood 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ of 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ whose preimage under 
+
+
+
+f
+,
+
+
+{\displaystyle f,}
+
+ 
+
+
+
+V
+,
+
+
+{\displaystyle V,}
+
+ is not a neighborhood of 
+
+
+
+x
+.
+
+
+{\displaystyle x.}
+
+ Because 
+
+
+
+f
+(
+x
+)
+∈
+U
+,
+
+
+{\displaystyle f(x)\in U,}
+
+ necessarily 
+
+
+
+x
+∈
+V
+.
+
+
+{\displaystyle x\in V.}
+
+ Now the set of open neighborhoods of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ with the containment preorder is a directed set (since the intersection of every two such neighborhoods is an open neighborhood of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ as well).
+We construct a net 
+
+
+
+
+x
+
+∙
+
+
+=
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle x_{\bullet }=\left(x_{a}\right)_{a\in A}}
+
+ such that for every open neighborhood of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ whose index is 
+
+
+
+a
+,
+
+
+{\displaystyle a,}
+
+ 
+
+
+
+
+x
+
+a
+
+
+
+
+{\displaystyle x_{a}}
+
+ is a point in this neighborhood that is not in 
+
+
+
+V
+
+
+{\displaystyle V}
+
+; that there is always such a point follows from the fact that no open neighborhood of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is included in 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ (because by assumption, 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is not a neighborhood of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+).
+It follows that 
+
+
+
+f
+
+(
+
+x
+
+a
+
+
+)
+
+
+
+{\displaystyle f\left(x_{a}\right)}
+
+ is not in 
+
+
+
+U
+.
+
+
+{\displaystyle U.}
+
+
+Now, for every open neighborhood 
+
+
+
+W
+
+
+{\displaystyle W}
+
+ of 
+
+
+
+x
+,
+
+
+{\displaystyle x,}
+
+ this neighborhood is a member of the directed set whose index we denote 
+
+
+
+
+a
+
+0
+
+
+.
+
+
+{\displaystyle a_{0}.}
+
+ For every 
+
+
+
+b
+≥
+
+a
+
+0
+
+
+,
+
+
+{\displaystyle b\geq a_{0},}
+
+ the member of the directed set whose index is 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ is contained within 
+
+
+
+W
+
+
+{\displaystyle W}
+
+; therefore 
+
+
+
+
+x
+
+b
+
+
+∈
+W
+.
+
+
+{\displaystyle x_{b}\in W.}
+
+ Thus 
+
+
+
+
+lim
+
+
+
+
+x
+
+∙
+
+
+→
+x
+.
+
+
+{\displaystyle \lim _{}x_{\bullet }\to x.}
+
+ and by our assumption 
+
+
+
+
+lim
+
+
+
+
+
+(
+
+f
+
+(
+
+x
+
+a
+
+
+)
+
+
+)
+
+
+a
+∈
+A
+
+
+→
+f
+(
+x
+)
+.
+
+
+{\displaystyle \lim _{}\left(f\left(x_{a}\right)\right)_{a\in A}\to f(x).}
+
+
+But 
+
+
+
+int
+⁡
+U
+
+
+{\displaystyle \operatorname {int} U}
+
+ is an open neighborhood of 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ and thus 
+
+
+
+f
+
+(
+
+x
+
+a
+
+
+)
+
+
+
+{\displaystyle f\left(x_{a}\right)}
+
+ is eventually in 
+
+
+
+int
+⁡
+U
+
+
+{\displaystyle \operatorname {int} U}
+
+ and therefore also in 
+
+
+
+U
+,
+
+
+{\displaystyle U,}
+
+ in contradiction to 
+
+
+
+f
+
+(
+
+x
+
+a
+
+
+)
+
+
+
+{\displaystyle f\left(x_{a}\right)}
+
+ not being in 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ for every 
+
+
+
+a
+.
+
+
+{\displaystyle a.}
+
+
+This is a contradiction so 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ must be continuous at 
+
+
+
+x
+.
+
+
+{\displaystyle x.}
+
+ This completes the proof. 
+Compactness
+A space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is compact if and only if every net 
+
+
+
+
+x
+
+∙
+
+
+=
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle x_{\bullet }=\left(x_{a}\right)_{a\in A}}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ has a subnet with a limit in 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ This can be seen as a generalization of the Bolzano–Weierstrass theorem and Heine–Borel theorem.
+(
+
+
+
+
+⟹
+
+
+
+{\displaystyle \implies }
+
+) 
+First, suppose that 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is compact. We will need the following observation (see finite intersection property). Let 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ be any non-empty set and 
+
+
+
+
+
+{
+
+C
+
+i
+
+
+}
+
+
+i
+∈
+I
+
+
+
+
+{\displaystyle \left\{C_{i}\right\}_{i\in I}}
+
+ be a collection of closed subsets of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that 
+
+
+
+
+⋂
+
+i
+∈
+J
+
+
+
+C
+
+i
+
+
+≠
+∅
+
+
+{\displaystyle \bigcap _{i\in J}C_{i}\neq \varnothing }
+
+ for each finite 
+
+
+
+J
+⊆
+I
+.
+
+
+{\displaystyle J\subseteq I.}
+
+ Then 
+
+
+
+
+⋂
+
+i
+∈
+I
+
+
+
+C
+
+i
+
+
+≠
+∅
+
+
+{\displaystyle \bigcap _{i\in I}C_{i}\neq \varnothing }
+
+ as well. Otherwise, 
+
+
+
+
+
+{
+
+C
+
+i
+
+
+c
+
+
+}
+
+
+i
+∈
+I
+
+
+
+
+{\displaystyle \left\{C_{i}^{c}\right\}_{i\in I}}
+
+ would be an open cover for 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ with no finite subcover contrary to the compactness of 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+
+Let 
+
+
+
+
+x
+
+∙
+
+
+=
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle x_{\bullet }=\left(x_{a}\right)_{a\in A}}
+
+ be a net in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ directed by 
+
+
+
+A
+.
+
+
+{\displaystyle A.}
+
+ For every 
+
+
+
+a
+∈
+A
+
+
+{\displaystyle a\in A}
+
+ define
+
+
+
+
+
+E
+
+a
+
+
+≜
+
+{
+
+
+x
+
+b
+
+
+:
+b
+≥
+a
+
+}
+
+.
+
+
+{\displaystyle E_{a}\triangleq \left\{x_{b}:b\geq a\right\}.}
+
+
+The collection 
+
+
+
+{
+cl
+⁡
+
+(
+
+E
+
+a
+
+
+)
+
+:
+a
+∈
+A
+}
+
+
+{\displaystyle \{\operatorname {cl} \left(E_{a}\right):a\in A\}}
+
+ has the property that every finite subcollection has non-empty intersection. Thus, by the remark above, we have that
+
+
+
+
+
+⋂
+
+a
+∈
+A
+
+
+cl
+⁡
+
+E
+
+a
+
+
+≠
+∅
+
+
+{\displaystyle \bigcap _{a\in A}\operatorname {cl} E_{a}\neq \varnothing }
+
+
+and this is precisely the set of cluster points of 
+
+
+
+
+x
+
+∙
+
+
+.
+
+
+{\displaystyle x_{\bullet }.}
+
+ By the proof given in the next section, it is equal to the set of limits of convergent subnets of 
+
+
+
+
+x
+
+∙
+
+
+.
+
+
+{\displaystyle x_{\bullet }.}
+
+ Thus 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ has a convergent subnet.
+(
+
+
+
+⟸
+
+
+{\displaystyle \Longleftarrow }
+
+) 
+Conversely, suppose that every net in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ has a convergent subnet. For the sake of contradiction, let 
+
+
+
+
+{
+
+
+U
+
+i
+
+
+:
+i
+∈
+I
+
+}
+
+
+
+{\displaystyle \left\{U_{i}:i\in I\right\}}
+
+ be an open cover of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ with no finite subcover. Consider 
+
+
+
+D
+≜
+{
+J
+⊂
+I
+:
+
+|
+
+J
+
+|
+
+<
+∞
+}
+.
+
+
+{\displaystyle D\triangleq \{J\subset I:|J|<\infty \}.}
+
+ Observe that 
+
+
+
+D
+
+
+{\displaystyle D}
+
+ is a directed set under inclusion and for each 
+
+
+
+C
+∈
+D
+,
+
+
+{\displaystyle C\in D,}
+
+ there exists an 
+
+
+
+
+x
+
+C
+
+
+∈
+X
+
+
+{\displaystyle x_{C}\in X}
+
+ such that 
+
+
+
+
+x
+
+C
+
+
+∉
+
+U
+
+a
+
+
+
+
+{\displaystyle x_{C}\notin U_{a}}
+
+ for all 
+
+
+
+a
+∈
+C
+.
+
+
+{\displaystyle a\in C.}
+
+ Consider the net 
+
+
+
+
+
+(
+
+x
+
+C
+
+
+)
+
+
+C
+∈
+D
+
+
+.
+
+
+{\displaystyle \left(x_{C}\right)_{C\in D}.}
+
+ This net cannot have a convergent subnet, because for each 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ there exists 
+
+
+
+c
+∈
+I
+
+
+{\displaystyle c\in I}
+
+ such that 
+
+
+
+
+U
+
+c
+
+
+
+
+{\displaystyle U_{c}}
+
+ is a neighbourhood of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+; however, for all 
+
+
+
+B
+⊇
+{
+c
+}
+,
+
+
+{\displaystyle B\supseteq \{c\},}
+
+ we have that 
+
+
+
+
+x
+
+B
+
+
+∉
+
+U
+
+c
+
+
+.
+
+
+{\displaystyle x_{B}\notin U_{c}.}
+
+ This is a contradiction and completes the proof.
+The set of cluster points of a net is equal to the set of limits of its convergent subnets.
+Let 
+
+
+
+
+x
+
+∙
+
+
+=
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle x_{\bullet }=\left(x_{a}\right)_{a\in A}}
+
+ be a net in a topological space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ (where as usual 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ automatically assumed to be a directed set) and also let 
+
+
+
+y
+∈
+X
+.
+
+
+{\displaystyle y\in X.}
+
+ If 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ is a limit of a subnet of 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ then 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ is a cluster point of 
+
+
+
+
+x
+
+∙
+
+
+.
+
+
+{\displaystyle x_{\bullet }.}
+
+
+Conversely, assume that 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ is a cluster point of 
+
+
+
+
+x
+
+∙
+
+
+.
+
+
+{\displaystyle x_{\bullet }.}
+
+
+Let 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ be the set of pairs 
+
+
+
+(
+U
+,
+a
+)
+
+
+{\displaystyle (U,a)}
+
+ where 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ is an open neighborhood of 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+a
+∈
+A
+
+
+{\displaystyle a\in A}
+
+ is such that 
+
+
+
+
+x
+
+a
+
+
+∈
+U
+.
+
+
+{\displaystyle x_{a}\in U.}
+
+
+The map 
+
+
+
+h
+:
+B
+→
+A
+
+
+{\displaystyle h:B\to A}
+
+ mapping 
+
+
+
+(
+U
+,
+a
+)
+
+
+{\displaystyle (U,a)}
+
+ to 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ is then cofinal.
+Moreover, giving 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ the product order (the neighborhoods of 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ are ordered by inclusion) makes it a directed set, and the net 
+
+
+
+
+
+(
+
+y
+
+b
+
+
+)
+
+
+b
+∈
+B
+
+
+
+
+{\displaystyle \left(y_{b}\right)_{b\in B}}
+
+ defined by 
+
+
+
+
+y
+
+b
+
+
+=
+
+x
+
+h
+(
+b
+)
+
+
+
+
+{\displaystyle y_{b}=x_{h(b)}}
+
+ converges to 
+
+
+
+y
+.
+
+
+{\displaystyle y.}
+
+
+A net has a limit if and only if all of its subnets have limits. In that case, every limit of the net is also a limit of every subnet.
+In general, a net in a space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ can have more than one limit, but if 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a Hausdorff space, the limit of a net, if it exists, is unique. Conversely, if 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is not Hausdorff, then there exists a net on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ with two distinct limits.  Thus the uniqueness of the limit is equivalent to the Hausdorff condition on the space, and indeed this may be taken as the definition.  This result depends on the directedness condition; a set indexed by a general preorder or partial order may have distinct limit points even in a Hausdorff space.
+A Cauchy net generalizes the notion of Cauchy sequence to nets defined on uniform spaces.[12]
+A net 
+
+
+
+
+x
+
+∙
+
+
+=
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle x_{\bullet }=\left(x_{a}\right)_{a\in A}}
+
+ is a Cauchy net if for every entourage 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ there exists 
+
+
+
+c
+∈
+A
+
+
+{\displaystyle c\in A}
+
+ such that for all 
+
+
+
+a
+,
+b
+≥
+c
+,
+
+
+{\displaystyle a,b\geq c,}
+
+ 
+
+
+
+
+(
+
+
+x
+
+a
+
+
+,
+
+x
+
+b
+
+
+
+)
+
+
+
+{\displaystyle \left(x_{a},x_{b}\right)}
+
+ is a member of 
+
+
+
+V
+.
+
+
+{\displaystyle V.}
+
+[12][13] More generally, in a Cauchy space, a net 
+
+
+
+
+x
+
+∙
+
+
+
+
+{\displaystyle x_{\bullet }}
+
+ is Cauchy if the filter generated by the net is a Cauchy filter.
+A topological vector space (TVS) is called complete if every Cauchy net converges to some point. A normed space, which is a special type of topological vector space, is a complete TVS (equivalently, a Banach space) if and only if every Cauchy sequence converges to some point (a property that is called sequential completeness). Although Cauchy nets are not needed to describe completeness of normed spaces, they are needed to describe completeness of more general (possibly non-normable) topological vector spaces.
+A filter is another idea in topology that allows for a general definition for convergence in general topological spaces. The two ideas are equivalent in the sense that they give the same concept of convergence.[14] More specifically, for every filter base an associated net can be constructed, and convergence of the filter base implies convergence of the associated net—and the other way around (for every net there is a filter base, and convergence of the net implies convergence of the filter base).[15] For instance, any net 
+
+
+
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+
+
+{\displaystyle \left(x_{a}\right)_{a\in A}}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ induces a filter base of tails 
+
+
+
+
+{
+
+
+{
+
+
+x
+
+a
+
+
+:
+a
+∈
+A
+,
+
+a
+
+0
+
+
+≤
+a
+
+}
+
+:
+
+a
+
+0
+
+
+∈
+A
+
+}
+
+
+
+{\displaystyle \left\{\left\{x_{a}:a\in A,a_{0}\leq a\right\}:a_{0}\in A\right\}}
+
+ where the filter in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ generated by this filter base is called the net's eventuality filter. This correspondence allows for any theorem that can be proven with one concept to be proven with the other.[15] For instance, continuity of a function from one topological space to the other can be characterized either by the convergence of a net in the domain implying the convergence of the corresponding net in the codomain, or by the same statement with filter bases.
+Robert G. Bartle argues that despite their equivalence, it is useful to have both concepts.[15] He argues that nets are enough like sequences to make natural proofs and definitions in analogy to sequences, especially ones using sequential elements, such as is common in analysis, while filters are most useful in algebraic topology. In any case, he shows how the two can be used in combination to prove various theorems in general topology.
+Limit superior and limit inferior of a net of real numbers can be defined in a similar manner as for sequences.[16][17][18] Some authors work even with more general structures than the real line, like complete lattices.[19]
+For a net 
+
+
+
+
+
+(
+
+x
+
+a
+
+
+)
+
+
+a
+∈
+A
+
+
+,
+
+
+{\displaystyle \left(x_{a}\right)_{a\in A},}
+
+ put
+
+
+
+
+lim sup
+
+x
+
+a
+
+
+=
+
+lim
+
+a
+∈
+A
+
+
+
+sup
+
+b
+⪰
+a
+
+
+
+x
+
+b
+
+
+=
+
+inf
+
+a
+∈
+A
+
+
+
+sup
+
+b
+⪰
+a
+
+
+
+x
+
+b
+
+
+.
+
+
+{\displaystyle \limsup x_{a}=\lim _{a\in A}\sup _{b\succeq a}x_{b}=\inf _{a\in A}\sup _{b\succeq a}x_{b}.}
+
+
+Limit superior of a net of real numbers has many properties analogous to the case of sequences. For example,
+
+
+
+
+lim sup
+(
+
+x
+
+a
+
+
++
+
+y
+
+a
+
+
+)
+≤
+lim sup
+
+x
+
+a
+
+
++
+lim sup
+
+y
+
+a
+
+
+,
+
+
+{\displaystyle \limsup(x_{a}+y_{a})\leq \limsup x_{a}+\limsup y_{a},}
+
+
+where equality holds whenever one of the nets is convergent.
+
+

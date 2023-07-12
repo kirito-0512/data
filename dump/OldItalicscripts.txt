@@ -1,0 +1,32 @@
+9452,
+OldItalicscripts,
+
+The Old Italic scripts are a family of ancient writing systems used in the Italian Peninsula between about 700 and 100 BC, for various languages spoken in that time and place. The most notable member is the Etruscan alphabet, which was the immediate ancestor of the Latin alphabet currently used by English and many other languages of the world. The runic alphabets used in northern Europe are believed to have been separately derived from one of these alphabets by the 2nd century AD.[2]
+The Old Italic alphabets ultimately derive from the Phoenician alphabet, but the general consensus is that the Etruscan alphabet was imported from the Euboean Greek colonies of Cumae and Ischia (Pithekoūsai) situated in the Gulf of Naples in the 8th century BC; this Euboean alphabet is also called 'Cumaean' (after Cumae), or 'Chalcidian' (after its metropolis Chalcis).[3] The Cumaean hypothesis is supported by the 1957–58 excavations of Veii by the British School at Rome, which found pieces of Greek pottery indicating that contacts between the Etruscan city of Veii and the Greek colonies of Cumae and Ischia have existed ever since the second half of the 8th century.[3] Other scholars posit a different hypothetical Western Greek alphabet that was even older than those attested to have given rise to the Etruscan letters.[3] Whatever the case, the Etruscans added the c, the q and the combination of vh or hv (for /f/) in order to spell sounds that did not exist in Ancient Greek.[4] The development and usage of their own Greek-derived alphabet arguably marked the end of the Villanovan culture and ushered in the Etruscan Orientalising period.[4]: 19 
+As the Etruscans were the leading civilization of Italy in that period, it is widely accepted that they spread their alphabet across the peninsula, and the other Old Italic scripts were derived from theirs.[4] Scholars provide three reasons: Etruscans and non-Etruscans had strong contacts in the 8th and 7th centuries, surviving inscriptions from other languages appear later (after the end of the 8th century) than the earliest Etruscan ones (first amongst the Umbrians, Faliscans, Latins, and Sabines to the south, in the 6th century also in the Po Valley and amongst the Cisalpine Celtic, Venetic and Raetic tribes), and the letters used in these texts are evidently based on the Etruscan version of the Western Greek alphabet.[4] However, some of them, including the Latin alphabet, retained certain Greek letters that the Etruscans themselves dropped at a rather early stage.[citation needed]
+The Old Italic alphabets were used for various different languages, which included some Indo-European ones (predominantly from the Italic branch, but also in Gaulish and probably in inscriptions interpreted as Proto-Germanic) and some non-Indo-European ones (such as Etruscan itself).[citation needed]
+The following table shows the ancient Italic scripts that are presumed[by whom?] to be related to the Etruscan alphabet. Symbols that are assumed to be correspondent are placed on the same column. Many symbols occur with two or more variant forms in the same script; only one variant is shown here. The notations [←] and [→] indicate that the shapes shown were used when writing right-to-left and left-to-right, respectively.
+Warning: For the languages marked [?] the appearance of the "Letters" in the table is whatever one's browser's Unicode font shows for the corresponding code points in the Old Italic Unicode block. The same code point represents different symbol shapes in different languages; therefore, to display those glyph images properly one needs to use a Unicode font specific to that language.
+Egyptian hieroglyphs 32nd c. BCE
+
+Adlam (slight influence from Arabic) 1989 CE
+Hangul 1443 CE
+Various Indo-European languages belonging to the Italic branch (Faliscan and members of the Sabellian group, including Oscan, Umbrian, and South Picene, and other Indo-European branches such as Venetic) originally used the alphabet. Faliscan, Oscan, Umbrian, North Picene, and South Picene all derive from an Etruscan form of the alphabet.[10][11]
+
+The Nucerian alphabet is based on inscriptions found in southern Italy (Nocera Superiore, Sorrento, Vico Equense and other places). It is attested only between the 6th and the 5th century BC.
+The most important sign is the /S/, shaped like a fir tree, and possibly a derivation from the Phoenician alphabet.[citation needed]
+Missing from the above table:
+The alphabet of Sanzeno (also, of Bolzano), about 100 Rhaetic inscriptions.[citation needed]
+The alphabet of Magrè (near Schio), east Raetian inscriptions.[citation needed]
+Alphabet of Este: Similar but not identical to that of Magrè, Venetic inscriptions.[citation needed]
+Inscribed abecedarium on rock drawings in Valcamonica.[citation needed]
+21 of the 26 archaic Etruscan letters were adopted for Old Latin from the 7th century BC, either directly from the Cumae alphabet, or via archaic Etruscan forms, compared to the classical Etruscan alphabet retaining B, D, K, O, Q, X but dropping Θ, Ξ, Ϻ, Φ, and Ψ.[citation needed]
+The South Picene alphabet, known from the 6th century BC, is most like the southern Etruscan alphabet in that it uses Q for /k/ and K for /g/.
+⟨.⟩ is a reduced ⟨o⟩ and ⟨:⟩ is a reduced ⟨8⟩, used for /f/.[12]
+The Old Italic alphabets were unified and added to the Unicode Standard in March 2001 with the release of version 3.1. The Unicode block for Old Italic is U+10300–U+1032F without specification of a particular alphabet (i.e. the Old Italic alphabets are considered equivalent, and the font used will determine the variant).[13]
+Writing direction (right-to-left, left-to-right, or boustrophedon) varies based on the language and even the time period. For simplicity most scholars use left-to-right and this is the Unicode default direction for the Old Italic block. For this reason, the glyphs in the code chart are shown with left-to-right orientation.[14]
+
+
+
+Information box
+{'Script type': 'Alphabet', 'Direction': 'right-to-left script, left-to-right ', 'Parent systems': 'Phoenician\nGreek\nOld Italic', 'Child systems': 'Runic, Latin alphabet', 'ISO 15924': 'Ital (210), Old Italic (Etruscan, Oscan, etc.)', 'Unicode alias': 'Old Italic', 'Unicode range': 'U+10300–U+1032F[1]'}

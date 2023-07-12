@@ -1,0 +1,328 @@
+24846,
+Primarycolor,
+
+A set of primary colors or primary colours (see spelling differences) consists of colorants or colored lights that can be mixed in varying amounts to produce a gamut of colors. This is the essential method used to create the perception of a broad range of colors in, e.g., electronic displays, color printing, and paintings. Perceptions associated with a given combination of primary colors can be predicted by an appropriate mixing model (e.g., additive, subtractive) that reflects the physics of how light interacts with physical media, and ultimately the retina.
+Primary colors can also be conceptual (not necessarily real), either as additive mathematical elements of a color space or as irreducible phenomenological categories in domains such as psychology and philosophy. Color space primaries are precisely defined and empirically rooted in psychophysical colorimetry experiments which are foundational for understanding color vision.  Primaries of some color spaces are complete (that is, all visible colors are described in terms of their primaries weighted by nonnegative primary intensity coefficients) but necessarily imaginary[1] (that is, there is no plausible way that those primary colors could be represented physically, or perceived). Phenomenological accounts of primary colors, such as the psychological primaries, have been used as the conceptual basis for practical color applications even though they are not a quantitative description in and of themselves.
+Sets of color space primaries are generally arbitrary, in the sense that there is no one set of primaries that can be considered the canonical set. Primary pigments or light sources are selected for a given application on the basis of subjective preferences as well as practical factors such as cost, stability, availability etc.
+The concept of primary colors has a long, complex history. The choice of primary colors has changed over time in different domains that study color. Descriptions of primary colors come from areas including philosophy, art history, color order systems, and scientific work involving the physics of light and perception of color.
+Art education materials commonly use red, yellow, and blue as primary colors, sometimes suggesting that they can mix all colors. No set of real colorants or lights can mix all possible colors, however. In physics, the three primary colors are typically red, green and blue, after the different types of photoreceptor pigments in the cone cells.[2][3]
+The perception elicited by multiple light sources co-stimulating the same area of the retina is additive, i.e., predicted via summing the spectral power distributions (the intensity of each wavelength) of the individual light sources assuming a color matching context.[4]: 17–22   For example, a purple spotlight on a dark background could be matched with coincident blue and red spotlights that are both dimmer than the purple spotlight. If the intensity of the purple spotlight was doubled it could be matched by doubling the intensities of both the red and blue spotlights that matched the original purple.  The principles of additive color mixing are embodied in Grassmann's laws.[5] Additive mixing is sometimes described as "additive color matching"[6] to emphasize the fact the predictions based on additivity only apply assuming the color matching context. Additivity relies on assumptions of the color matching context such as the match being in the foveal field of view, under appropriate luminance, etc.[7]
+Additive mixing of coincident spot lights was applied in the experiments used to derive the CIE 1931 colorspace (see color space primaries section). The original monochromatic primaries of the wavelengths of 435.8 nm (violet), 546.1 nm (green), and 700 nm (red) were used in this application due to the convenience they afforded to the experimental work.[8]
+Small red, green, and blue elements (with controllable brightness) in electronic displays mix additively from an appropriate viewing distance to synthesize compelling colored images. This specific type of additive mixing is described as partitive mixing.[4]: 21–22  Red, green, and blue light are popular primaries for partitive mixing since primary lights with those hues provide a large triangular chromaticity gamut.[9]
+The exact colors chosen for additive primaries are a compromise between the available technology (including considerations such as cost and power usage) and the need for large chromaticity gamut. For example, in 1953 the NTSC specified primaries that were representative of the phosphors available in that era for color CRTs. Over decades, market pressures for brighter colors resulted in CRTs using primaries that deviated significantly from the original standard.[10]  Currently, ITU-R BT.709-5 primaries are typical for high-definition television.[11]
+The subtractive color mixing model predicts the resultant spectral power distribution of light filtered through overlaid partially absorbing materials, usually in the context of an underlying reflective surface such as white paper.[4]: 22–23 [12] Each layer partially absorbs some wavelengths of light from the illumination while letting others pass through, resulting in a colored appearance. The resultant spectral power distribution is predicted by the wavelength-by-wavelength product of the spectral reflectance of the illumination and the product of the spectral reflectances of all of the layers.[13] Overlapping layers of ink in printing mix subtractively over reflecting white paper, while the reflected light mixes in a partitive way to generate color images.[4]: 30–33 [14]  Importantly, unlike additive mixture, the color of the mixture is not well predicted by the colors of the individual dyes or inks. The typical number of inks in such a printing process is 3 (CMY) or 4 (CMYK), but can commonly range to 6 (e.g., Pantone hexachrome). In general, using fewer inks as primaries results in more economical printing but using more may result in better color reproduction.[15]
+Cyan (C), magenta (M), and yellow (Y) are good chromatic subtractive primaries in that filters with those colors can be overlaid to yield a surprisingly large chromaticity gamut.[16] A black (K) ink (from the older "key plate") is also used in CMYK systems to augment C, M and Y inks or dyes due to both being more efficient in terms of time and expense and less likely to introduce visible defects.[17] Before the color names cyan and magenta were in common use, these primaries were often known as blue and red, respectively, and their exact color has changed over time with access to new pigments and technologies.[18] Organizations such as Fogra,[19] European Color Initiative and SWOP publish colorimetric CMYK standards for the printing industry.[20]
+Color theorists since the seventeenth century, and many artists and designers since that time, have taken red, yellow, and blue to be the primary colors (see history below).  This RYB system, in "traditional color theory", is often used to order and compare colors, and sometimes proposed as a system of mixing pigments to get a wide range of, or "all", colors.[22]  
+O'Connor describes the role of RYB primaries in traditional color theory:[23]
+A cornerstone component of traditional color theory, the RYB conceptual color model underpins the notion that the creation of an exhaustive gamut of color nuances occurs via intermixture of red, yellow, and blue pigments, especially when applied in conjunction with white and black pigment color. In the literature relating to traditional color theory and RYB color, red, yellow, and blue are often referred to as primary colors and represent exemplar hues rather than specific hues that are more pure, unique, or proprietary variants of these hues.Traditional color theory is based on experience with pigments, more than on the science of light.  In 1920, Snow and Froehlich explained: "It does not matter to the makers of dyes if, as the physicist says, red light and green light in mixture make yellow light, when they find by experiment that red pigment and green pigment in mixture produce gray.  No matter what the spectroscope may demonstrate regarding the combination of yellow rays of light and blue rays of light, the fact remains that yellow pigment mixed with the blue pigment produces green pigment."[24]
+The widespread adoption of teaching of RYB as primary colors in post-secondary art schools in the twentieth century has been attributed to the influence of the Bauhaus, where Johannes Itten developed his ideas on color during his time there in the 1920s, and of his book on color[25][26] published in 1961.[21]
+In discussing color design for the web, Jason Beaird writes: "The reason many digital artists still keep a red, yellow, and blue color wheel handy is because the color schemes and concepts of traditional color theory are based on that model. ... Even though I design mostly for the Web—a medium that's displayed in RGB—I still use red, yellow, and blue as the basis for my color selection.  I believe that color combinations created using the red, yellow, and blue color wheel are more aesthetically pleasing, and that good design is about aesthetics."[27]
+Of course, the notion that all colors can be mixed from RYB primaries is not true, just as it is not true in any system of real primaries.[28] 
+For example, if the blue pigment is a deep Prussian blue, then a muddy desaturated green may be the best that can be had by mixing with yellow.[29]  To achieve a larger gamut of colors via mixing, the blue and red pigments used in illustrative materials such as the Color Mixing Guide in the image are often closer to peacock blue (a blue-green or cyan) and carmine (or crimson or magenta) respectively.[29][30][31] 
+Printers traditionally used inks of such colors, known as "process blue" and "process red", before modern color science and the printing industry converged on the process colors (and names) cyan and magenta[29][31]
+(this is not to say that RYB is the same as CMY, or that it is exactly subtractive, but that there is a range of ways to conceptualize traditional RYB as a subtractive system in the framework of modern color science).
+The first known use of red, yellow, and blue as "simple" or "primary" colors, by Chalcidius, ca. AD 300, was possibly based on the art of paint mixing.[33]
+Mixing pigments for the purpose of creating realistic paintings with diverse color gamuts is known to have been practiced at least since Ancient Greece (see history section). The identity of a/the set of minimal pigments to mix diverse gamuts has long been the subject of speculation by theorists whose claims have changed over time, for example, Pliny's white, black, one or another red, and "sil", which might have been yellow or blue; Robert Boyle's white, black, red, yellow, and blue; and variations with more or fewer "primary" color or pigments.  Some writers and artists have found these schemes difficult to reconcile with the actual practice of painting.[34]: 29–38  Nonetheless, it has long been known that limited palettes consisting of a small set of pigments are sufficient to mix a diverse gamut of colors.[35][36][37][38][39]
+The set of pigments available to mix diverse gamuts of color (in various media such as oil, watercolor, acrylic, gouache, and pastel) is large and has changed throughout history.[40][41] There is no consensus on a specific set of pigments that are considered primary colors –  the choice of pigments depends entirely on the artist's subjective preference of subject and style of art, as well as material considerations like lightfastness and mixing behavior.[42] A variety of limited palettes have been employed by artists for their work.[43][44]
+The color of light (i.e., the spectral power distribution) reflected from illuminated surfaces coated in paint mixes is not well approximated by a subtractive or additive mixing model.[45] Color predictions that incorporate light scattering effects of pigment particles and paint layer thickness require approaches based on the Kubelka–Munk equations,[46] but even such approaches are not expected to predict the color of paint mixtures precisely due to inherent limitations.[47]  Artists typically rely on mixing experience and "recipes"[48][49] to mix desired colors from a small initial set of primaries and do not use mathematical modeling.
+MacEvoy explains why artists often chose a palette closer to RYB than to CMY:  "Because the 'optimal' pigments in practice produce unsatisfactory mixtures; because the alternative selections are less granulating, more transparent, and mix darker values; and because visual preferences have demanded relatively saturated yellow to red mixtures, obtained at the expense of relatively dull green and purple mixtures. Artists jettisoned 'theory' to obtain the best color mixtures in practice."[50]
+Color space primaries are derived from canonical colorimetric experiments that represent a standardized model of an observer (i.e., a set of color matching functions) adopted by Commission Internationale de l'Eclairage (CIE) standards. The abbreviated account of color space primaries in this section is based on descriptions in Colorimetry - Understanding The CIE System.[58]
+The CIE 1931 standard observer is derived experiments in which participants observing a foveal 2° bipartite field with a dark surround. Half of the field is illuminated with a monochromatic test stimulus (ranging from 380 nm to 780 nm) and the other half is the matching stimulus illuminated with three coincident monochromatic primary lights: 700 nm for red (R), 546.1 nm for green (G), and 435.8 nm for blue (B).[58]: 29  These primaries correspond to CIE RGB color space. The intensities of the primary lights could be adjusted by the participant observer until the matching stimulus matched the test stimulus, as predicted by Grassman's laws of additive mixing. Different standard observers from other color matching experiments have been derived since 1931. The variations in experiments include choices of primary lights, field of view, number of participants etc.[59] but the presentation below is representative of those results.
+Matching was performed across many participants in incremental steps along the range of test stimulus wavelengths (380 nm to 780 nm) to ultimately yield the color matching functions:  
+
+
+
+
+
+r
+¯
+
+
+(
+λ
+)
+
+
+{\displaystyle {\overline {r}}(\lambda )}
+
+, 
+
+
+
+
+
+g
+¯
+
+
+(
+λ
+)
+
+
+{\displaystyle {\overline {g}}(\lambda )}
+
+ and 
+
+
+
+
+
+b
+¯
+
+
+(
+λ
+)
+
+
+{\displaystyle {\overline {b}}(\lambda )}
+
+ that represent the relative intensities of red, green, and blue light to match each wavelength (
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+
+). These functions imply that 
+
+
+
+[
+C
+]
+
+
+{\displaystyle [C]}
+
+ units of the test stimulus with any spectral power distribution, 
+
+
+
+P
+(
+λ
+)
+
+
+{\displaystyle P(\lambda )}
+
+, can be matched by [R], [G], and [B] units of each primary where:[58]: 28 
+    (Eq. 1)Each integral term in the above equation is known as a tristimulus value and measures amounts in the adopted units. No set of real primary lights can match another monochromatic light under additive mixing so at least one of the color matching functions is negative for each wavelength. A negative tristimulus value corresponds to that primary being added to the test stimulus instead of the matching stimulus to achieve a match.
+The negative tristimulus values made certain types of calculations difficult, so the CIE put forth new color matching functions 
+
+
+
+
+
+x
+¯
+
+
+(
+λ
+)
+
+
+{\displaystyle {\overline {x}}(\lambda )}
+
+, 
+
+
+
+
+
+y
+¯
+
+
+(
+λ
+)
+
+
+{\displaystyle {\overline {y}}(\lambda )}
+
+, and 
+
+
+
+
+
+z
+¯
+
+
+(
+λ
+)
+
+
+{\displaystyle {\overline {z}}(\lambda )}
+
+ defined by the following linear transformation:[58]: 30 
+    (Eq. 2)These new color matching functions correspond to imaginary primary lights X, Y, and Z (CIE XYZ color space). All colors can be matched by finding the amounts [X], [Y], and [Z] analogously to  [R], [G], and [B] as defined in Eq. 1. The functions 
+
+
+
+
+
+x
+¯
+
+
+(
+λ
+)
+
+
+{\displaystyle {\overline {x}}(\lambda )}
+
+, 
+
+
+
+
+
+y
+¯
+
+
+(
+λ
+)
+
+
+{\displaystyle {\overline {y}}(\lambda )}
+
+, and 
+
+
+
+
+
+z
+¯
+
+
+(
+λ
+)
+
+
+{\displaystyle {\overline {z}}(\lambda )}
+
+ based on the specifications that they should be nonnegative for all wavelengths, 
+
+
+
+
+
+y
+¯
+
+
+(
+λ
+)
+
+
+{\displaystyle {\overline {y}}(\lambda )}
+
+ be equal to photometric luminance, and that 
+
+
+
+[
+X
+]
+=
+[
+Y
+]
+=
+[
+Z
+]
+
+
+{\displaystyle [X]=[Y]=[Z]}
+
+ for an equienergy (i.e., a uniform spectral power distribution) test stimulus.[58]: 30 
+Derivations use the color matching functions, along with data from other experiments, to ultimately yield the cone fundamentals: 
+
+
+
+
+
+l
+¯
+
+
+(
+λ
+)
+
+
+{\displaystyle {\overline {l}}(\lambda )}
+
+, 
+
+
+
+
+
+m
+¯
+
+
+(
+λ
+)
+
+
+{\displaystyle {\overline {m}}(\lambda )}
+
+ and 
+
+
+
+
+
+s
+¯
+
+
+(
+λ
+)
+
+
+{\displaystyle {\overline {s}}(\lambda )}
+
+. These functions correspond to the response curves for the three types of color photoreceptors found in the human retina: long-wavelength (L), medium-wavelength (M), and short-wavelength (S) cones. The three cone fundamentals are related to the original color matching functions by the following linear transformation (specific to a 10° field):[58]: 227 
+    (Eq. 3)The L, M, and S primaries correspond to imaginary lights that stimulate only the L, M, and S cones respectively. These primaries are the basis for LMS color space, which has significant physiological relevance as these three photoreceptors mediate trichromatic color vision in humans. 
+The R, G, and, B primaries as described here are real in that they represent physical lights but incomplete since some colors cannot be matched with primary intensity coefficients that are all nonnegative. The X, Y, Z and the L, M, S primaries  are imaginary, since none can be represented by real lights or colorants, and complete since all colors can be defined in terms of primary intensity coefficients that are all nonnegative. Other color spaces such as sRGB[60] and scRGB[61] are partially defined in terms of linear transformations from CIE XYZ which have their own specific primaries. The choice of which color space to use is essentially arbitrary and depends on the utility to a specific application.[1]
+The color-matching context is always three-dimensional (as seen in all the previously described color spaces) but more general color appearance models like CIECAM02 describe color in more dimensions[62] and can be used to predict how colors appear under different viewing conditions.
+Humans are normally trichromats and use three (or more) primaries for color reproduction applications requiring a diverse gamuts.[63] Some humans are monochromats or dichromats, corresponding to specific forms of color blindness in which color vision is mediated by only one or two of the types of color receptors. Participants with color blindness in color matching experiments were essential in the determination of cone fundamentals.[64]   
+There is one scholarly report of a functional human tetrachromat.[65] Most other mammals are dichromats[66] while birds and many fish are tetrachromats.[67]
+The opponent process was proposed by Ewald Hering in which he described the four "simple" or "primary" colors (einfache or grundfarben) as red, green, yellow and blue.[69] To Hering, colors appeared either as these pure colors or as "psychological mixes" of two of them. Furthermore, these colors were organized in "opponent" pairs, red vs. green and yellow vs. blue so that mixing could occur across pairs (e.g., a yellowish green or a yellowish red) but not within a pair (i.e., greenish red cannot be imagined).  An achromatic opponent process along black and white is also part of Hering's explanation of color perception. Hering asserted that we did not know why these color relationships were true but knew that they were.[70] Red, green, yellow, and blue (sometimes with white and black[71]) are known as the psychological primaries. Although there is a great deal of evidence for the opponent process in the form of neural mechanisms,[72] there is currently no clear mapping of the psychological primaries to neural substrates.[73]
+The psychological primaries were applied by Richard S. Hunter as the primaries for Hunter L,a,b colorspace that led to the creation of CIELAB.[74] The Natural Color System is also directly inspired by the psychological primaries.[75]
+Philosophical writing from ancient Greece has described notions of primary colors but they can be difficult to interpret in terms of modern color science. Theophrastus (ca. 371–287 BCE) described Democritus’ position that the primary colors were white, black, red, and green.[76]: 4  In Classical Greece, Empedocles identified white, black, red, and, (depending on the interpretation) either yellow or green as primary colors.[76]: 8  Aristotle described a notion in which white and black could be mixed in different ratios to yield chromatic colors;[76]: 12   this idea had considerable influence in Western thinking about color. François d'Aguilon's notion of the five primary colors (white, yellow, red, blue, black) was influenced by Aristotle's idea of the chromatic colors being made of black and white.[76]: 87 The 20th century philosopher Ludwig Wittgenstein explored color-related ideas using red, green, blue, and yellow as primary colors.[77]
+[78]
+Isaac Newton used the term "primary color" to describe the colored spectral components of sunlight.[80][81] A number of color theorists did not agree with Newton's work, David Brewster advocated that red, yellow, and blue light could be combined into any spectral hue late into the 1840s.[82][83] Thomas Young proposed red, green, and violet as the three primary colors, while James Clerk Maxwell favored changing violet to blue.[84] Hermann von Helmholtz proposed "a slightly purplish red, a vegetation-green, slightly yellowish, and an ultramarine-blue" as a trio.[85] Newton, Young, Maxwell, and Helmholtz were all prominent contributors to "modern color science"[86]: 1–39  that ultimately described the perception of color in terms of the three types of retinal photoreceptors.
+John Gage's The Fortunes Of Apelles provides a summary of the history of primary colors[34] as pigments in painting and describes the evolution of the idea as complex.  Gage begins by describing Pliny the Elder's account of notable Greek painters who used four primaries.[87] Pliny distinguished the pigments (i.e., substances) from their apparent colors: white from Milos (ex albis), red from Sinope (ex rubris), Attic yellow (sil) and atramentum (ex nigris). Sil was historically confused as a blue pigment between the 16th and 17th centuries leading to claims about white, black, red, and blue being the fewest colors required for painting. Thomas Bardwell, an 18th century Norwich portrait painter, was skeptical of practical relevance of Pliny's account.[88]
+Robert Boyle, the Irish chemist, introduced the term primary color in English in 1664 and claimed that there were five primary colors (white, black, red, yellow, and blue).[35][89]  The German painter Joachim von Sandrart eventually proposed removing white and black from the primaries and that one only needed red, yellow, blue, and green to paint "the whole creation".[34]: 36 
+Red, yellow, and blue as primaries became a popular notion in the 18th and 19th centuries. Jacob Christoph Le Blon, an engraver, was the first to use separate plates for each color in mezzotint printmaking: yellow, red, and blue, plus black to add shades and contrast. Le Blon used primitive in 1725 to describe red, yellow, and blue in a very similar sense as Boyle used primary.[86]: 6  Moses Harris, an entomologist and engraver, also describes red, yellow, and blue as "primitive" colors in 1766.[90] Léonor Mérimée described red, yellow, and blue in his book on painting (originally published in French in 1830) as the three simple/primitive colors that can make a "great variety" of tones and colors found in nature.[91] George Field, a chemist, used the word primary to describe red, yellow, and blue in 1835.[92] Michel Eugène Chevreul, also a chemist, discussed red, yellow, and blue as "primary" colors in 1839.[93]
+[94]
+Historical perspectives[76][97] on color order systems[98] ("catalogs" of color) that were proposed in the 18th and 19th centuries describe them as using red, yellow and blue pigments as chromatic primaries. Tobias Mayer (a German mathematician, physicist, and astronomer)  described a triangular bipyramid with red, yellow and blue at the 3 vertices in the same plane, white at the top vertex and black and the bottom vertex in a public lecture in 1758.[76]: 115  There are 11 planes of colors between the white and black vertices inside the triangular bipyramid. Mayer did not seem to distinguish between colored light and colorant though he used vermilion, orpiment (King’s yellow), and Bergblau (azurite) in partially complete colorings of planes in his solid.[99]: 79  Johann Heinrich Lambert (a Swiss mathematician, physicist, and astronomer) proposed a triangular pyramid with gamboge, carmine, and Prussian blue as primaries and only white at the top vertex (since Lambert could produce a mixture that was sufficiently black with those pigments).[76]: 123   Lambert's work on this system was published in 1772.[100] Philipp Otto Runge (the Romantic German painter) firmly believed in the theory of red, yellow and blue as the primary colors[99]: 87  (again without distinguishing light color and colorant). His color sphere was ultimately described in an essay titled Farben-Kugel[99]   (color ball) published by Goethe  in 1810.[99]: 84   His spherical model of colors equally spaced red, yellow and blue longitudinally with orange, green and violet in between them and white and black at opposite poles.[99]: 85 
+Numerous authors have taught that red, yellow, and blue (RYB) are the primary colors in art education materials since at least the 19th century, following the ideas tabulated above from earlier centuries.[101][102][103]
+A wide variety of contemporary educational sources also describe the RYB primaries. These sources range from children's books[104] and art material manufacturers[105] to painting[106] and color guides.[107] Art education materials often suggest that RYB primaries can be mixed to create all other colors.[108][109]
+Albert Munsell, an American painter (and creator of the Munsell color system), referred to the notion of RYB primaries as "mischief", "a widely accepted error", and underspecified in his book A Color Notation, first published in 1905.[110]
+Itten's ideas about RYB primaries have been criticized[111] as ignoring modern color science[76]: 282  with demonstrations that some of Itten's claims about mixing RYB primaries are impossible.[112]
+
+

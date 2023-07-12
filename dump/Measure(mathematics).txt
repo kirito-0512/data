@@ -1,0 +1,2740 @@
+19873,
+Measure(mathematics),
+In mathematics, the concept of a measure is a generalization and formalization of geometrical measures (length, area, volume) and other common notions, such as magnitude, mass, and probability of events. These seemingly distinct concepts have many similarities and can often be treated together in a single mathematical context. Measures are foundational in probability theory, integration theory, and can be generalized to assume negative values, as with electrical charge. Far-reaching generalizations (such as spectral measures and projection-valued measures) of measure are widely used in quantum physics and physics in general.
+The intuition behind this concept dates back to ancient Greece, when Archimedes tried to calculate the area of a circle. But it was not until the late 19th and early 20th centuries that measure theory became a branch of mathematics. The foundations of modern measure theory were laid in the works of Émile Borel, Henri Lebesgue, Nikolai Luzin, Johann Radon, Constantin Carathéodory, and Maurice Fréchet, among others.
+Let 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ be a set and 
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+
+ a 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+-algebra over 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ A set function 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ from 
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+
+ to the extended real number line is called a measure if the following conditions hold:
+If at least one set 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ has finite measure, then the requirement 
+
+
+
+μ
+(
+∅
+)
+=
+0
+
+
+{\displaystyle \mu (\varnothing )=0}
+
+ is met automatically due to countable additivity:
+
+
+
+
+μ
+(
+E
+)
+=
+μ
+(
+E
+∪
+∅
+)
+=
+μ
+(
+E
+)
++
+μ
+(
+∅
+)
+,
+
+
+{\displaystyle \mu (E)=\mu (E\cup \varnothing )=\mu (E)+\mu (\varnothing ),}
+
+
+and therefore 
+
+
+
+μ
+(
+∅
+)
+=
+0.
+
+
+{\displaystyle \mu (\varnothing )=0.}
+
+
+If the condition of non-negativity is dropped, and 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ takes on at most one of the values of 
+
+
+
+±
+∞
+,
+
+
+{\displaystyle \pm \infty ,}
+
+ then 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ is called a signed measure.
+The pair 
+
+
+
+(
+X
+,
+Σ
+)
+
+
+{\displaystyle (X,\Sigma )}
+
+ is called a measurable space, and the members of 
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+
+ are called measurable sets.
+A triple 
+
+
+
+(
+X
+,
+Σ
+,
+μ
+)
+
+
+{\displaystyle (X,\Sigma ,\mu )}
+
+ is called a measure space. A probability measure is a measure with total measure one – that is, 
+
+
+
+μ
+(
+X
+)
+=
+1.
+
+
+{\displaystyle \mu (X)=1.}
+
+ A probability space is a measure space with a probability measure.
+For measure spaces that are also topological spaces various compatibility conditions can be placed for the measure and the topology. Most measures met in practice in analysis (and in many cases also in probability theory) are Radon measures. Radon measures have an alternative definition in terms of linear functionals on the locally convex topological vector space of continuous functions with compact support. This approach is taken by Bourbaki (2004) and a number of other sources. For more details, see the article on Radon measures.
+Some important measures are listed here.
+Other 'named' measures used in various theories include: Borel measure, Jordan measure, ergodic measure, Gaussian measure, Baire measure, Radon measure, Young measure, and Loeb measure.
+In physics an example of a measure is spatial distribution of mass (see for example, gravity potential), or another non-negative extensive property, conserved (see conservation law for a list of these) or not. Negative values lead to signed measures, see "generalizations" below.
+Let 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ be a measure.
+If 
+
+
+
+
+E
+
+1
+
+
+
+
+{\displaystyle E_{1}}
+
+ and 
+
+
+
+
+E
+
+2
+
+
+
+
+{\displaystyle E_{2}}
+
+ are measurable sets with 
+
+
+
+
+E
+
+1
+
+
+⊆
+
+E
+
+2
+
+
+
+
+{\displaystyle E_{1}\subseteq E_{2}}
+
+ then
+
+
+
+
+μ
+(
+
+E
+
+1
+
+
+)
+≤
+μ
+(
+
+E
+
+2
+
+
+)
+.
+
+
+{\displaystyle \mu (E_{1})\leq \mu (E_{2}).}
+
+
+For any countable sequence 
+
+
+
+
+E
+
+1
+
+
+,
+
+E
+
+2
+
+
+,
+
+E
+
+3
+
+
+,
+…
+
+
+{\displaystyle E_{1},E_{2},E_{3},\ldots }
+
+ of (not necessarily disjoint) measurable sets 
+
+
+
+
+E
+
+n
+
+
+
+
+{\displaystyle E_{n}}
+
+ in 
+
+
+
+Σ
+:
+
+
+{\displaystyle \Sigma :}
+
+
+
+
+
+
+μ
+
+(
+
+
+⋃
+
+i
+=
+1
+
+
+∞
+
+
+
+E
+
+i
+
+
+
+)
+
+≤
+
+∑
+
+i
+=
+1
+
+
+∞
+
+
+μ
+(
+
+E
+
+i
+
+
+)
+.
+
+
+{\displaystyle \mu \left(\bigcup _{i=1}^{\infty }E_{i}\right)\leq \sum _{i=1}^{\infty }\mu (E_{i}).}
+
+
+If 
+
+
+
+
+E
+
+1
+
+
+,
+
+E
+
+2
+
+
+,
+
+E
+
+3
+
+
+,
+…
+
+
+{\displaystyle E_{1},E_{2},E_{3},\ldots }
+
+ are measurable sets that are increasing (meaning that 
+
+
+
+
+E
+
+1
+
+
+⊆
+
+E
+
+2
+
+
+⊆
+
+E
+
+3
+
+
+⊆
+…
+
+
+{\displaystyle E_{1}\subseteq E_{2}\subseteq E_{3}\subseteq \ldots }
+
+) then the union of the sets 
+
+
+
+
+E
+
+n
+
+
+
+
+{\displaystyle E_{n}}
+
+ is measurable and
+
+
+
+
+μ
+
+(
+
+
+⋃
+
+i
+=
+1
+
+
+∞
+
+
+
+E
+
+i
+
+
+
+)
+
+ 
+=
+ 
+
+lim
+
+i
+→
+∞
+
+
+μ
+(
+
+E
+
+i
+
+
+)
+=
+
+sup
+
+i
+≥
+1
+
+
+μ
+(
+
+E
+
+i
+
+
+)
+.
+
+
+{\displaystyle \mu \left(\bigcup _{i=1}^{\infty }E_{i}\right)~=~\lim _{i\to \infty }\mu (E_{i})=\sup _{i\geq 1}\mu (E_{i}).}
+
+
+If 
+
+
+
+
+E
+
+1
+
+
+,
+
+E
+
+2
+
+
+,
+
+E
+
+3
+
+
+,
+…
+
+
+{\displaystyle E_{1},E_{2},E_{3},\ldots }
+
+ are measurable sets that are decreasing (meaning that 
+
+
+
+
+E
+
+1
+
+
+⊇
+
+E
+
+2
+
+
+⊇
+
+E
+
+3
+
+
+⊇
+…
+
+
+{\displaystyle E_{1}\supseteq E_{2}\supseteq E_{3}\supseteq \ldots }
+
+) then the intersection of the sets 
+
+
+
+
+E
+
+n
+
+
+
+
+{\displaystyle E_{n}}
+
+ is measurable; furthermore, if at least one of the 
+
+
+
+
+E
+
+n
+
+
+
+
+{\displaystyle E_{n}}
+
+ has finite measure then
+
+
+
+
+μ
+
+(
+
+
+⋂
+
+i
+=
+1
+
+
+∞
+
+
+
+E
+
+i
+
+
+
+)
+
+=
+
+lim
+
+i
+→
+∞
+
+
+μ
+(
+
+E
+
+i
+
+
+)
+=
+
+inf
+
+i
+≥
+1
+
+
+μ
+(
+
+E
+
+i
+
+
+)
+.
+
+
+{\displaystyle \mu \left(\bigcap _{i=1}^{\infty }E_{i}\right)=\lim _{i\to \infty }\mu (E_{i})=\inf _{i\geq 1}\mu (E_{i}).}
+
+
+This property is false without the assumption that at least one of the 
+
+
+
+
+E
+
+n
+
+
+
+
+{\displaystyle E_{n}}
+
+ has finite measure. For instance, for each 
+
+
+
+n
+∈
+
+N
+
+,
+
+
+{\displaystyle n\in \mathbb {N} ,}
+
+ let 
+
+
+
+
+E
+
+n
+
+
+=
+[
+n
+,
+∞
+)
+⊆
+
+R
+
+,
+
+
+{\displaystyle E_{n}=[n,\infty )\subseteq \mathbb {R} ,}
+
+ which all have infinite Lebesgue measure, but the intersection is empty.
+A measurable set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is called a null set if 
+
+
+
+μ
+(
+X
+)
+=
+0.
+
+
+{\displaystyle \mu (X)=0.}
+
+ A subset of a null set is called a negligible set. A negligible set need not be measurable, but every measurable negligible set is automatically a null set. A measure is called complete if every negligible set is measurable.
+A measure can be extended to a complete one by considering the σ-algebra of subsets 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ which differ by a negligible set from a measurable set 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ that is, such that the symmetric difference of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is contained in a null set. One defines 
+
+
+
+μ
+(
+Y
+)
+
+
+{\displaystyle \mu (Y)}
+
+ to equal 
+
+
+
+μ
+(
+X
+)
+.
+
+
+{\displaystyle \mu (X).}
+
+
+If 
+
+
+
+f
+:
+X
+→
+[
+0
+,
++
+∞
+]
+
+
+{\displaystyle f:X\to [0,+\infty ]}
+
+ is 
+
+
+
+(
+Σ
+,
+
+
+B
+
+
+(
+[
+0
+,
++
+∞
+]
+)
+)
+
+
+{\displaystyle (\Sigma ,{\cal {B}}([0,+\infty ]))}
+
+-measurable, then
+
+
+
+
+μ
+{
+x
+∈
+X
+:
+f
+(
+x
+)
+≥
+t
+}
+=
+μ
+{
+x
+∈
+X
+:
+f
+(
+x
+)
+>
+t
+}
+
+
+{\displaystyle \mu \{x\in X:f(x)\geq t\}=\mu \{x\in X:f(x)>t\}}
+
+
+for almost all 
+
+
+
+t
+∈
+X
+.
+
+
+{\displaystyle t\in X.}
+
+[1] This property is used in connection with Lebesgue integral.
+Both 
+
+
+
+F
+(
+t
+)
+:=
+μ
+{
+x
+∈
+X
+:
+f
+(
+x
+)
+>
+t
+}
+
+
+{\displaystyle F(t):=\mu \{x\in X:f(x)>t\}}
+
+ and 
+
+
+
+G
+(
+t
+)
+:=
+μ
+{
+x
+∈
+X
+:
+f
+(
+x
+)
+≥
+t
+}
+
+
+{\displaystyle G(t):=\mu \{x\in X:f(x)\geq t\}}
+
+ are monotonically non-increasing functions of 
+
+
+
+t
+,
+
+
+{\displaystyle t,}
+
+ so both of them have at most countably many discontinuities and thus they are continuous almost everywhere, relative to the Lebesgue measure. 
+If 
+
+
+
+t
+<
+0
+
+
+{\displaystyle t<0}
+
+ then 
+
+
+
+{
+x
+∈
+X
+:
+f
+(
+x
+)
+≥
+t
+}
+=
+X
+=
+{
+x
+∈
+X
+:
+f
+(
+x
+)
+>
+t
+}
+,
+
+
+{\displaystyle \{x\in X:f(x)\geq t\}=X=\{x\in X:f(x)>t\},}
+
+ so that 
+
+
+
+F
+(
+t
+)
+=
+G
+(
+t
+)
+,
+
+
+{\displaystyle F(t)=G(t),}
+
+ as desired. 
+If 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ is such that 
+
+
+
+μ
+{
+x
+∈
+X
+:
+f
+(
+x
+)
+>
+t
+}
+=
++
+∞
+
+
+{\displaystyle \mu \{x\in X:f(x)>t\}=+\infty }
+
+ then monotonicity implies
+
+
+
+
+μ
+{
+x
+∈
+X
+:
+f
+(
+x
+)
+≥
+t
+}
+=
++
+∞
+,
+
+
+{\displaystyle \mu \{x\in X:f(x)\geq t\}=+\infty ,}
+
+
+so that 
+
+
+
+F
+(
+t
+)
+=
+G
+(
+t
+)
+,
+
+
+{\displaystyle F(t)=G(t),}
+
+ as required. 
+If 
+
+
+
+μ
+{
+x
+∈
+X
+:
+f
+(
+x
+)
+>
+t
+}
+=
++
+∞
+
+
+{\displaystyle \mu \{x\in X:f(x)>t\}=+\infty }
+
+ for all 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ then we are done, so assume otherwise. Then there is a unique 
+
+
+
+
+t
+
+0
+
+
+∈
+{
+−
+∞
+}
+∪
+[
+0
+,
++
+∞
+)
+
+
+{\displaystyle t_{0}\in \{-\infty \}\cup [0,+\infty )}
+
+ such that 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is infinite to the left of 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ (which can only happen when 
+
+
+
+
+t
+
+0
+
+
+≥
+0
+
+
+{\displaystyle t_{0}\geq 0}
+
+) and finite to the right. 
+Arguing as above, 
+
+
+
+μ
+{
+x
+∈
+X
+:
+f
+(
+x
+)
+≥
+t
+}
+=
++
+∞
+
+
+{\displaystyle \mu \{x\in X:f(x)\geq t\}=+\infty }
+
+ when 
+
+
+
+t
+<
+
+t
+
+0
+
+
+.
+
+
+{\displaystyle t<t_{0}.}
+
+ Similarly, if 
+
+
+
+
+t
+
+0
+
+
+≥
+0
+
+
+{\displaystyle t_{0}\geq 0}
+
+ and 
+
+
+
+F
+
+(
+
+t
+
+0
+
+
+)
+
+=
++
+∞
+
+
+{\displaystyle F\left(t_{0}\right)=+\infty }
+
+ then 
+
+
+
+F
+
+(
+
+t
+
+0
+
+
+)
+
+=
+G
+
+(
+
+t
+
+0
+
+
+)
+
+.
+
+
+{\displaystyle F\left(t_{0}\right)=G\left(t_{0}\right).}
+
+
+For 
+
+
+
+t
+>
+
+t
+
+0
+
+
+,
+
+
+{\displaystyle t>t_{0},}
+
+ let 
+
+
+
+
+t
+
+n
+
+
+
+
+{\displaystyle t_{n}}
+
+ be a monotonically non-decreasing sequence converging to 
+
+
+
+t
+.
+
+
+{\displaystyle t.}
+
+ The monotonically non-increasing sequence 
+
+
+
+{
+x
+∈
+X
+:
+f
+(
+x
+)
+>
+
+t
+
+n
+
+
+}
+
+
+{\displaystyle \{x\in X:f(x)>t_{n}\}}
+
+ of members of 
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+
+ has at least one finitely 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+-measurable component, and
+
+
+
+
+{
+x
+∈
+X
+:
+f
+(
+x
+)
+≥
+t
+}
+=
+
+⋂
+
+n
+
+
+{
+x
+∈
+X
+:
+f
+(
+x
+)
+>
+
+t
+
+n
+
+
+}
+.
+
+
+{\displaystyle \{x\in X:f(x)\geq t\}=\bigcap _{n}\{x\in X:f(x)>t_{n}\}.}
+
+
+Continuity from above guarantees that
+
+
+
+
+μ
+{
+x
+∈
+X
+:
+f
+(
+x
+)
+≥
+t
+}
+=
+
+lim
+
+
+t
+
+n
+
+
+↑
+t
+
+
+μ
+{
+x
+∈
+X
+:
+f
+(
+x
+)
+>
+
+t
+
+n
+
+
+}
+.
+
+
+{\displaystyle \mu \{x\in X:f(x)\geq t\}=\lim _{t_{n}\uparrow t}\mu \{x\in X:f(x)>t_{n}\}.}
+
+
+The right-hand side 
+
+
+
+
+lim
+
+
+t
+
+n
+
+
+↑
+t
+
+
+F
+
+(
+
+t
+
+n
+
+
+)
+
+
+
+{\displaystyle \lim _{t_{n}\uparrow t}F\left(t_{n}\right)}
+
+ then equals 
+
+
+
+F
+(
+t
+)
+=
+μ
+{
+x
+∈
+X
+:
+f
+(
+x
+)
+>
+t
+}
+
+
+{\displaystyle F(t)=\mu \{x\in X:f(x)>t\}}
+
+ if 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ is a point of continuity of 
+
+
+
+F
+.
+
+
+{\displaystyle F.}
+
+ Since 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is continuous almost everywhere, this completes the proof.
+Measures are required to be countably additive. However, the condition can be strengthened as follows.
+For any set 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ and any set of nonnegative 
+
+
+
+
+r
+
+i
+
+
+,
+i
+∈
+I
+
+
+{\displaystyle r_{i},i\in I}
+
+ define:
+
+
+
+
+
+∑
+
+i
+∈
+I
+
+
+
+r
+
+i
+
+
+=
+sup
+
+{
+
+
+∑
+
+i
+∈
+J
+
+
+
+r
+
+i
+
+
+:
+
+|
+
+J
+
+|
+
+<
+∞
+,
+J
+⊆
+I
+
+}
+
+.
+
+
+{\displaystyle \sum _{i\in I}r_{i}=\sup \left\lbrace \sum _{i\in J}r_{i}:|J|<\infty ,J\subseteq I\right\rbrace .}
+
+
+That is, we define the sum of the 
+
+
+
+
+r
+
+i
+
+
+
+
+{\displaystyle r_{i}}
+
+ to be the supremum of all the sums of finitely many of them.
+A measure 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ on 
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+
+ is 
+
+
+
+κ
+
+
+{\displaystyle \kappa }
+
+-additive if for any 
+
+
+
+λ
+<
+κ
+
+
+{\displaystyle \lambda <\kappa }
+
+ and any family of disjoint sets 
+
+
+
+
+X
+
+α
+
+
+,
+α
+<
+λ
+
+
+{\displaystyle X_{\alpha },\alpha <\lambda }
+
+ the following hold:
+
+
+
+
+
+⋃
+
+α
+∈
+λ
+
+
+
+X
+
+α
+
+
+∈
+Σ
+
+
+{\displaystyle \bigcup _{\alpha \in \lambda }X_{\alpha }\in \Sigma }
+
+
+
+
+
+
+μ
+
+(
+
+
+⋃
+
+α
+∈
+λ
+
+
+
+X
+
+α
+
+
+
+)
+
+=
+
+∑
+
+α
+∈
+λ
+
+
+μ
+
+(
+
+X
+
+α
+
+
+)
+
+.
+
+
+{\displaystyle \mu \left(\bigcup _{\alpha \in \lambda }X_{\alpha }\right)=\sum _{\alpha \in \lambda }\mu \left(X_{\alpha }\right).}
+
+
+The second condition is equivalent to the statement that the ideal of null sets is 
+
+
+
+κ
+
+
+{\displaystyle \kappa }
+
+-complete.
+A measure space 
+
+
+
+(
+X
+,
+Σ
+,
+μ
+)
+
+
+{\displaystyle (X,\Sigma ,\mu )}
+
+ is called finite if 
+
+
+
+μ
+(
+X
+)
+
+
+{\displaystyle \mu (X)}
+
+ is a finite real number (rather than 
+
+
+
+∞
+
+
+{\displaystyle \infty }
+
+). Nonzero finite measures are analogous to probability measures in the sense that any finite measure 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ is proportional to the probability measure 
+
+
+
+
+
+1
+
+μ
+(
+X
+)
+
+
+
+μ
+.
+
+
+{\displaystyle {\frac {1}{\mu (X)}}\mu .}
+
+ A measure 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ is called σ-finite if 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ can be decomposed into a countable union of measurable sets of finite measure. Analogously, a set in a measure space is said to have a σ-finite measure if it is a countable union of sets with finite measure.
+For example, the real numbers with the standard Lebesgue measure are σ-finite but not finite. Consider the closed intervals 
+
+
+
+[
+k
+,
+k
++
+1
+]
+
+
+{\displaystyle [k,k+1]}
+
+ for all integers 
+
+
+
+k
+;
+
+
+{\displaystyle k;}
+
+ there are countably many such intervals, each has measure 1, and their union is the entire real line. Alternatively, consider the real numbers with the counting measure, which assigns to each finite set of reals the number of points in the set. This measure space is not σ-finite, because every set with finite measure contains only finitely many points, and it would take uncountably many such sets to cover the entire real line. The σ-finite measure spaces have some very convenient properties; σ-finiteness can be compared in this respect to the Lindelöf property of topological spaces.[original research?] They can be also thought of as a vague generalization of the idea that a measure space may have 'uncountable measure'.
+Let 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ be a set, let 
+
+
+
+
+
+A
+
+
+
+
+{\displaystyle {\cal {A}}}
+
+ be a sigma-algebra on 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ and let 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ be a measure on 
+
+
+
+
+
+A
+
+
+.
+
+
+{\displaystyle {\cal {A}}.}
+
+ We say 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ is semifinite to mean that for all 
+
+
+
+A
+∈
+
+μ
+
+pre
+
+
+{
++
+∞
+}
+,
+
+
+{\displaystyle A\in \mu ^{\text{pre}}\{+\infty \},}
+
+ 
+
+
+
+
+
+P
+
+
+(
+A
+)
+∩
+
+μ
+
+pre
+
+
+(
+
+
+R
+
+
+>
+0
+
+
+)
+≠
+∅
+.
+
+
+{\displaystyle {\cal {P}}(A)\cap \mu ^{\text{pre}}(\mathbb {R} _{>0})\neq \emptyset .}
+
+[2]
+Semifinite measures generalize sigma-finite measures, in such a way that some big theorems of measure theory that hold for sigma-finite but not arbitrary measures can be extended with little modification to hold for semifinite measures. (To-do: add examples of such theorems; cf. the talk page.)
+The zero measure is sigma-finite and thus semifinite. In addition, the zero measure is clearly less than or equal to 
+
+
+
+μ
+.
+
+
+{\displaystyle \mu .}
+
+ It can be shown there is a greatest measure with these two properties:
+Theorem (semifinite part)[6] — For any measure 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ on 
+
+
+
+
+
+A
+
+
+,
+
+
+{\displaystyle {\cal {A}},}
+
+ there exists, among semifinite measures on 
+
+
+
+
+
+A
+
+
+
+
+{\displaystyle {\cal {A}}}
+
+ that are less than or equal to 
+
+
+
+μ
+,
+
+
+{\displaystyle \mu ,}
+
+ a greatest element 
+
+
+
+
+μ
+
+sf
+
+
+.
+
+
+{\displaystyle \mu _{\text{sf}}.}
+
+
+We say the semifinite part of 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ to mean the semifinite measure 
+
+
+
+
+μ
+
+sf
+
+
+
+
+{\displaystyle \mu _{\text{sf}}}
+
+ defined in the above theorem. We give some nice, explicit formulas, which some authors may take as definition, for the semifinite part:
+Since 
+
+
+
+
+μ
+
+sf
+
+
+
+
+{\displaystyle \mu _{\text{sf}}}
+
+ is semifinite, it follows that if 
+
+
+
+μ
+=
+
+μ
+
+sf
+
+
+
+
+{\displaystyle \mu =\mu _{\text{sf}}}
+
+ then 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ is semifinite. It is also evident that if 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ is semifinite then 
+
+
+
+μ
+=
+
+μ
+
+sf
+
+
+.
+
+
+{\displaystyle \mu =\mu _{\text{sf}}.}
+
+
+Every 
+
+
+
+0
+−
+∞
+
+
+{\displaystyle 0-\infty }
+
+ measure that is not the zero measure is not semifinite. (Here, we say 
+
+
+
+0
+−
+∞
+
+
+{\displaystyle 0-\infty }
+
+ measure to mean a measure whose range lies in 
+
+
+
+{
+0
+,
++
+∞
+}
+
+
+{\displaystyle \{0,+\infty \}}
+
+: 
+
+
+
+(
+∀
+A
+∈
+
+
+A
+
+
+)
+(
+μ
+(
+A
+)
+∈
+{
+0
+,
++
+∞
+}
+)
+.
+
+
+{\displaystyle (\forall A\in {\cal {A}})(\mu (A)\in \{0,+\infty \}).}
+
+) Below we give examples of 
+
+
+
+0
+−
+∞
+
+
+{\displaystyle 0-\infty }
+
+ measures that are not zero measures.
+Measures that are not semifinite are very wild when restricted to certain sets.[Note 1] Every measure is, in a sense, semifinite once its 
+
+
+
+0
+−
+∞
+
+
+{\displaystyle 0-\infty }
+
+ part (the wild part) is taken away.Theorem (Luther decomposition)[11][12] — For any measure 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ on 
+
+
+
+
+
+A
+
+
+,
+
+
+{\displaystyle {\cal {A}},}
+
+ there exists a 
+
+
+
+0
+−
+∞
+
+
+{\displaystyle 0-\infty }
+
+ measure 
+
+
+
+ξ
+
+
+{\displaystyle \xi }
+
+ on 
+
+
+
+
+
+A
+
+
+
+
+{\displaystyle {\cal {A}}}
+
+ such that 
+
+
+
+μ
+=
+ν
++
+ξ
+
+
+{\displaystyle \mu =\nu +\xi }
+
+ for some semifinite measure 
+
+
+
+ν
+
+
+{\displaystyle \nu }
+
+ on 
+
+
+
+
+
+A
+
+
+.
+
+
+{\displaystyle {\cal {A}}.}
+
+ In fact, among such measures 
+
+
+
+ξ
+,
+
+
+{\displaystyle \xi ,}
+
+ there exists a least measure 
+
+
+
+
+μ
+
+0
+−
+∞
+
+
+.
+
+
+{\displaystyle \mu _{0-\infty }.}
+
+ Also, we have 
+
+
+
+μ
+=
+
+μ
+
+sf
+
+
++
+
+μ
+
+0
+−
+∞
+
+
+.
+
+
+{\displaystyle \mu =\mu _{\text{sf}}+\mu _{0-\infty }.}
+
+
+We say the 
+
+
+
+
+0
+−
+∞
+
+
+
+{\displaystyle \mathbf {0-\infty } }
+
+ part of 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ to mean the measure 
+
+
+
+
+μ
+
+0
+−
+∞
+
+
+
+
+{\displaystyle \mu _{0-\infty }}
+
+ defined in the above theorem. Here is an explicit formula for 
+
+
+
+
+μ
+
+0
+−
+∞
+
+
+
+
+{\displaystyle \mu _{0-\infty }}
+
+: 
+
+
+
+
+μ
+
+0
+−
+∞
+
+
+=
+(
+sup
+{
+μ
+(
+B
+)
+−
+
+μ
+
+sf
+
+
+(
+B
+)
+:
+B
+∈
+
+
+P
+
+
+(
+A
+)
+∩
+
+μ
+
+sf
+
+
+pre
+
+
+(
+
+
+R
+
+
+≥
+0
+
+
+)
+}
+
+)
+
+A
+∈
+
+
+A
+
+
+
+
+.
+
+
+{\displaystyle \mu _{0-\infty }=(\sup\{\mu (B)-\mu _{\text{sf}}(B):B\in {\cal {P}}(A)\cap \mu _{\text{sf}}^{\text{pre}}(\mathbb {R} _{\geq 0})\})_{A\in {\cal {A}}}.}
+
+
+Localizable measures are a special case of semifinite measures and a generalization of sigma-finite measures.
+Let 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ be a set, let 
+
+
+
+
+
+A
+
+
+
+
+{\displaystyle {\cal {A}}}
+
+ be a sigma-algebra on 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ and let 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ be a measure on 
+
+
+
+
+
+A
+
+
+.
+
+
+{\displaystyle {\cal {A}}.}
+
+
+A measure is said to be s-finite if it is a countable sum of bounded measures. S-finite measures are more general than sigma-finite ones and have applications in the theory of stochastic processes.
+If the axiom of choice is assumed to be true, it can be proved that not all subsets of Euclidean space are Lebesgue measurable; examples of such sets include the Vitali set, and the non-measurable sets postulated by the Hausdorff paradox and the Banach–Tarski paradox.
+For certain purposes, it is useful to have a "measure" whose values are not restricted to the non-negative reals or infinity. For instance, a countably additive set function with values in the (signed) real numbers is called a signed measure, while such a function with values in the complex numbers is called a complex measure. Observe, however, that complex measure is necessarily of finite variation, hence complex measures include finite signed measures but not, for example, the Lebesgue measure.
+Measures that take values in Banach spaces have been studied extensively.[19] A measure that takes values in the set of self-adjoint projections on a Hilbert space is called a projection-valued measure; these are used in functional analysis for the spectral theorem. When it is necessary to distinguish the usual measures which take non-negative values from generalizations, the term positive measure is used. Positive measures are closed under conical combination but not general linear combination, while signed measures are the linear closure of positive measures.
+Another generalization is the finitely additive measure, also known as a content. This is the same as a measure except that instead of requiring countable additivity we require only finite additivity. Historically, this definition was used first. It turns out that in general, finitely additive measures are connected with notions such as Banach limits, the dual of 
+
+
+
+
+L
+
+∞
+
+
+
+
+{\displaystyle L^{\infty }}
+
+ and the Stone–Čech compactification. All these are linked in one way or another to the axiom of choice.  Contents remain useful in certain technical problems in geometric measure theory; this is the theory of Banach measures.
+A charge is a generalization in both directions: it is a finitely additive, signed measure.[20] (Cf. ba space for information about bounded charges, where we say a charge is bounded to mean its range its a bounded subset of R.)
+
+

@@ -1,0 +1,13 @@
+12823,
+Garbagein,garbageout,
+In computer science, garbage in, garbage out (GIGO) is the concept that flawed, or nonsense (garbage) input data produces nonsense output. Rubbish in, rubbish out (RIRO) is an alternate wording.[1][2][3]
+The principle applies to all logical argumentation: soundness implies validity, but validity does not imply soundness.
+The expression was popular in the early days of computing. The first known use is in a 1957 syndicated newspaper article about US Army mathematicians and their work with early computers,[4] in which an Army Specialist named William D. Mellin explained that computers cannot think for themselves, and that "sloppily programmed" inputs inevitably lead to incorrect outputs. The underlying principle was noted by the inventor of the first programmable computing device design:
+On two occasions I have been asked, "Pray, Mr. Babbage, if you put into the machine wrong figures, will the right answers come out?" ... I am not able rightly to apprehend the kind of confusion of ideas that could provoke such a question.More recently, the Marine Accident Investigation Branch comes to a similar conclusion:
+A loading computer is an effective and useful tool for the safe running of a ship. However, its output can only be as accurate as the information entered into it.The term may have been derived from last-in, first-out (LIFO) or first-in, first-out (FIFO).[7]
+This phrase can be used as an explanation for the poor quality of a digitized audio or video file. Although digitizing can be the first step in cleaning up a signal, it does not, by itself, improve the quality. Defects in the original analog signal will be faithfully recorded, but might be identified and removed by a subsequent step by digital signal processing.
+GIGO is also used to describe failures in human decision-making due to faulty, incomplete, or imprecise data.
+In audiology, GIGO describes the process that occurs at the dorsal cochlear nucleus (DCN) when auditory neuropathy spectrum disorder is present. This occurs when the neural firing from the cochlea has become unsynchronized, resulting in a static-filled sound being input into the DCN and then passed up the chain to the auditory cortex.[8] The term was applied by Dan Schwartz at the 2012 Worldwide ANSD Conference, St. Petersburg, Florida, on 16 March 2012; and adopted as industry jargon to describe the electrical signal received by the dorsal cochlear nucleus and passed up the auditory chain to the superior olivary complex on the way to the auditory cortex destination.[citation needed]
+GIGO was the name of a Usenet gateway program to FidoNet, MAUSnet, e.a.[9]
+
+

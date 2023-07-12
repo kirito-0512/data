@@ -1,0 +1,12 @@
+25752,
+Metrics(networking),
+
+Router metrics are configuration values used by a router to make routing decisions. A metric is typically one of many fields in a routing table. Router metrics help the router choose the best route among multiple feasible routes to a destination. The route will go in the direction of the gateway with the lowest metric. 
+A router metric is typically based on information such as path length, bandwidth, load, hop count, path cost, delay, maximum transmission unit (MTU), reliability and communications cost.
+A metric can include:
+In EIGRP, metrics is represented by an integer from 0 to 4,294,967,295 (The size of a 32-bit integer). In Microsoft Windows XP routing it ranges from 1 to 9999.
+A metric can be considered as:[1]
+Router metrics are metrics used by a router to make routing decisions. It is typically one of many fields in a routing table.
+Router metrics can contain any number of values that help the router determine the best route among multiple routes to a destination. A router metric typically based on information like path length, bandwidth, load, hop count, path cost, delay, MTU, reliability and communications cost.
+
+

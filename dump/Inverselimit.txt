@@ -1,0 +1,448 @@
+15109,
+Inverselimit,
+In mathematics, the inverse limit (also called the projective limit) is a construction that allows one to "glue together" several related objects, the precise gluing process being specified by morphisms between the objects. Thus, inverse limits can be defined in any category although their existence depends on the category that is considered. They are a special case of the concept of limit in category theory. 
+By working in the dual category, that is by reverting the arrows, an inverse limit becomes a direct limit or inductive limit, and a limit becomes a colimit.
+We start with the definition of an inverse system (or projective system) of groups and homomorphisms. Let 
+
+
+
+(
+I
+,
+≤
+)
+
+
+{\displaystyle (I,\leq )}
+
+ be a directed poset (not all authors require I to be directed). Let (Ai)i∈I be a family of groups and suppose we have a family of homomorphisms 
+
+
+
+
+f
+
+i
+j
+
+
+:
+
+A
+
+j
+
+
+→
+
+A
+
+i
+
+
+
+
+{\displaystyle f_{ij}:A_{j}\to A_{i}}
+
+ for all 
+
+
+
+i
+≤
+j
+
+
+{\displaystyle i\leq j}
+
+ (note the order) with the following properties:
+Then the pair 
+
+
+
+(
+(
+
+A
+
+i
+
+
+
+)
+
+i
+∈
+I
+
+
+,
+(
+
+f
+
+i
+j
+
+
+
+)
+
+i
+≤
+j
+∈
+I
+
+
+)
+
+
+{\displaystyle ((A_{i})_{i\in I},(f_{ij})_{i\leq j\in I})}
+
+ is called an inverse system of groups and morphisms over 
+
+
+
+I
+
+
+{\displaystyle I}
+
+, and the morphisms 
+
+
+
+
+f
+
+i
+j
+
+
+
+
+{\displaystyle f_{ij}}
+
+ are called the transition morphisms of the system.
+We define the inverse limit of the inverse system 
+
+
+
+(
+(
+
+A
+
+i
+
+
+
+)
+
+i
+∈
+I
+
+
+,
+(
+
+f
+
+i
+j
+
+
+
+)
+
+i
+≤
+j
+∈
+I
+
+
+)
+
+
+{\displaystyle ((A_{i})_{i\in I},(f_{ij})_{i\leq j\in I})}
+
+ as a particular subgroup of the direct product of the 
+
+
+
+
+A
+
+i
+
+
+
+
+{\displaystyle A_{i}}
+
+'s:
+The inverse limit 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ comes equipped with natural projections πi: A → Ai which pick out the ith component of the direct product for each 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ in 
+
+
+
+I
+
+
+{\displaystyle I}
+
+. The inverse limit and the natural projections satisfy a universal property described in the next section.
+This same construction may be carried out if the 
+
+
+
+
+A
+
+i
+
+
+
+
+{\displaystyle A_{i}}
+
+'s are sets,[1] semigroups,[1] topological spaces,[1] rings, modules (over a fixed ring), algebras (over a fixed ring), etc., and the homomorphisms are morphisms in the corresponding category. The inverse limit will also belong to that category.
+The inverse limit can be defined abstractly in an arbitrary category by means of a universal property. Let 
+
+
+
+(
+
+X
+
+i
+
+
+,
+
+f
+
+i
+j
+
+
+)
+
+
+{\textstyle (X_{i},f_{ij})}
+
+ be an inverse system of objects and morphisms  in a category C (same definition as above). The inverse limit of this system is an object X in C together with morphisms πi: X → Xi (called projections) satisfying πi = 
+
+
+
+
+f
+
+i
+j
+
+
+
+
+{\displaystyle f_{ij}}
+
+ ∘ πj for all i ≤ j. The pair (X, πi)  must be universal in the sense that for any other such pair (Y, ψi) there exists a unique morphism u: Y → X such that the diagram
+commutes for all i ≤ j. The inverse limit is often denoted
+with the inverse system 
+
+
+
+(
+
+X
+
+i
+
+
+,
+
+f
+
+i
+j
+
+
+)
+
+
+{\textstyle (X_{i},f_{ij})}
+
+ being understood.
+In some categories, the inverse limit of certain inverse systems does not exist. If it does, however, it is unique in a strong sense: given any two inverse limits X and X' of an inverse system, there exists a unique isomorphism X′ → X commuting with the projection maps.
+Inverse systems and inverse limits in a category C admit an alternative description in terms of functors. Any partially ordered set I can be considered as a small category where the morphisms consist of arrows i → j if and only if i ≤ j. An inverse system is then just a contravariant functor I → C. Let 
+
+
+
+
+C
+
+
+I
+
+
+o
+p
+
+
+
+
+
+
+
+{\displaystyle C^{I^{\mathrm {op} }}}
+
+ be the category of these functors (with natural transformations as morphisms). An object X of C can be considered a trivial inverse system, where all objects are equal to X and all arrow are the identity of X. This defines a "trivial functor" from C to 
+
+
+
+
+C
+
+
+I
+
+
+o
+p
+
+
+
+
+
+.
+
+
+{\displaystyle C^{I^{\mathrm {op} }}.}
+
+ The inverse limit, if it exists, is defined as a right adjoint of this trivial functor.
+For an abelian category C, the inverse limit functor
+is left exact. If I is ordered (not simply partially ordered) and countable, and C is the category Ab of abelian groups, the Mittag-Leffler condition is a condition on the transition morphisms fij that ensures the exactness of 
+
+
+
+
+
+lim
+←
+
+
+
+
+{\displaystyle \varprojlim }
+
+. Specifically, Eilenberg constructed a functor
+(pronounced "lim one") such that if (Ai, fij), (Bi, gij), and (Ci, hij) are three inverse systems of abelian groups, and
+is a short exact sequence of inverse systems, then
+is an exact sequence in Ab.
+If the ranges of the morphisms of an inverse system of abelian groups (Ai, fij) are stationary, that is, for every k there exists j ≥ k such that for all i ≥ j :
+
+
+
+
+f
+
+k
+j
+
+
+(
+
+A
+
+j
+
+
+)
+=
+
+f
+
+k
+i
+
+
+(
+
+A
+
+i
+
+
+)
+
+
+{\displaystyle f_{kj}(A_{j})=f_{ki}(A_{i})}
+
+ one says that the system satisfies the Mittag-Leffler condition.
+The name "Mittag-Leffler" for this condition was given by Bourbaki in their chapter on uniform structures for a similar result about inverse limits of complete Hausdorff uniform spaces. Mittag-Leffler used a similar argument in the proof of Mittag-Leffler's theorem.
+The following situations are examples where the Mittag-Leffler condition is satisfied: 
+An example where 
+
+
+
+
+
+lim
+←
+
+
+⁡
+
+
+
+
+1
+
+
+
+
+{\displaystyle \varprojlim {}^{1}}
+
+ is non-zero is obtained by taking I to be the non-negative integers, letting Ai = piZ, Bi = Z, and Ci = Bi / Ai = Z/piZ. Then
+where Zp denotes the p-adic integers.
+More generally, if C is an arbitrary abelian category that has enough injectives, then so does CI, and the right derived functors of the inverse limit functor can thus be defined. The nth right derived functor is denoted
+In the case where C satisfies Grothendieck's axiom (AB4*), Jan-Erik Roos generalized the functor lim1 on AbI to series of functors limn such that
+It was thought for almost 40 years that Roos had proved (in Sur les foncteurs dérivés de lim. Applications. ) that lim1 Ai = 0 for (Ai, fij) an inverse system with surjective transition morphisms and I the set of non-negative integers (such inverse systems are often called "Mittag-Leffler sequences"). However, in 2002, Amnon Neeman and Pierre Deligne constructed an example of such a system in a category satisfying (AB4) (in addition to (AB4*)) with lim1 Ai ≠ 0. Roos has since shown (in "Derived functors of inverse limits revisited") that his result is correct if C has a set of generators (in addition to satisfying (AB3) and (AB4*)).
+Barry Mitchell has shown (in "The cohomological dimension of a directed set") that if I has cardinality 
+
+
+
+
+ℵ
+
+d
+
+
+
+
+{\displaystyle \aleph _{d}}
+
+ (the dth infinite cardinal), then Rnlim is zero for all n ≥ d + 2. This applies to the I-indexed diagrams in the category of R-modules, with R a commutative ring; it is not necessarily true in an arbitrary abelian category (see Roos' "Derived functors of inverse limits revisited" for examples of abelian categories in which limn, on diagrams indexed by a countable set, is nonzero for n > 1).
+The categorical dual of an inverse limit is a direct limit (or inductive limit). More general concepts are the limits and colimits of category theory. The terminology is somewhat confusing: inverse limits are a class of limits, while direct limits are a class of colimits.
+
+

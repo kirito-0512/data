@@ -1,0 +1,8 @@
+18846,
+Matrixring,
+In abstract algebra, a matrix ring is a set of matrices with entries in a ring R that form a ring under matrix addition and matrix multiplication (Lam 1999). The set of all n × n matrices with entries in R is a matrix ring denoted Mn(R)[1][2][3][4] (alternative notations: Matn(R)[2] and Rn×n[5]).  Some sets of infinite matrices form infinite matrix rings. Any subring of a matrix ring is a matrix ring.  Over a rng, one can form matrix rngs.
+When R is a commutative ring, the matrix ring Mn(R) is an associative algebra over R, and may be called a matrix algebra.  In this setting, if M is a matrix and r is in R, then the matrix rM is the matrix M with each of its entries multiplied by r.
+In fact, R needs to be only a semiring for Mn(R) to be defined. In this case, Mn(R) is a semiring, called the matrix semiring. Similarly, if R is a commutative semiring, then Mn(R) is a matrix semialgebra.
+For example, if R is the Boolean semiring (the two-element Boolean algebra R = {0,1} with 1 + 1 = 1),[7]: 7  then Mn(R) is the semiring of binary relations on an n-element set with union as addition, composition of relations as multiplication, the empty relation (zero matrix) as the zero, and the identity relation (identity matrix) as the unity.[7]: 8 
+
+

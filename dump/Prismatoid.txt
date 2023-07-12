@@ -1,0 +1,53 @@
+23917,
+Prismatoid,
+In geometry, a prismatoid is a polyhedron whose vertices all lie in two parallel planes. Its lateral faces can be trapezoids or triangles.[1] If both planes have the same number of vertices, and the lateral faces are either parallelograms or trapezoids, it is called a prismoid.[2]
+If the areas of the two parallel faces are A1 and A3, the cross-sectional area of the intersection of the prismatoid with a plane midway between the two parallel faces is A2, and the height (the distance between the two parallel faces) is h, then the volume of the prismatoid is given by[3]
+
+
+
+
+V
+=
+
+
+
+h
+(
+
+A
+
+1
+
+
++
+4
+
+A
+
+2
+
+
++
+
+A
+
+3
+
+
+)
+
+6
+
+
+.
+
+
+{\displaystyle V={\frac {h(A_{1}+4A_{2}+A_{3})}{6}}.}
+
+
+This formula follows immediately by integrating the area parallel to the two planes of vertices by Simpson's rule, since that rule is exact for integration of polynomials of degree up to 3, and in this case the area is at most a quadratic function in the height.
+Families of prismatoids include:
+In general, a polytope is prismatoidal if its vertices exist in two hyperplanes. For example, in four dimensions, two polyhedra can be placed in two parallel 3-spaces, and connected with polyhedral sides.
+
+This polyhedron-related article is a stub. You can help Wikipedia by expanding it.
+

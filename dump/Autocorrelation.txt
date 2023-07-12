@@ -1,0 +1,1376 @@
+2724,
+Autocorrelation,
+Autocorrelation, sometimes known as serial correlation in the discrete time case, is the correlation of a signal with a delayed copy of itself as a function of delay. Informally, it is the similarity between observations of a random variable as a function of the time lag between them. The analysis of autocorrelation is a mathematical tool for finding repeating patterns, such as the presence of a periodic signal obscured by noise, or identifying the missing fundamental frequency  in a signal implied by its harmonic frequencies. It is often used in signal processing for analyzing functions or series of values, such as time domain signals.
+Different fields of study define autocorrelation differently, and not all of these definitions are equivalent. In some fields, the term is used interchangeably with autocovariance.
+Unit root processes, trend-stationary processes, autoregressive processes, and moving average processes are specific forms of processes with autocorrelation.
+In statistics, the autocorrelation of a real or complex random process is the Pearson correlation between values of the process at different times, as a function of the two times or of the time lag. Let 
+{
+X
+t
+}
+{\displaystyle \left\{X_{t}\right\}}
+ be a random process, and 
+t
+{\displaystyle t}
+ be any point in time (
+t
+{\displaystyle t}
+ may be an integer for a discrete-time process or a real number for a continuous-time process). Then 
+X
+t
+{\displaystyle X_{t}}
+ is the value (or realization) produced by a given run of the process at time 
+t
+{\displaystyle t}
+. Suppose that the process has mean 
+μ
+t
+{\displaystyle \mu _{t}}
+ and variance 
+σ
+t
+2
+{\displaystyle \sigma _{t}^{2}}
+ at time 
+t
+{\displaystyle t}
+, for each 
+t
+{\displaystyle t}
+. Then the definition of the auto-correlation function between times 
+t
+1
+{\displaystyle t_{1}}
+ and 
+t
+2
+{\displaystyle t_{2}}
+ is[1]: p.388 [2]: p.165 
+    (Eq.1)where 
+E
+{\displaystyle \operatorname {E} }
+ is the expected value operator and the bar represents complex conjugation. Note that the expectation may not be well defined.
+Subtracting the mean before multiplication yields the auto-covariance function between times 
+t
+1
+{\displaystyle t_{1}}
+ and 
+t
+2
+{\displaystyle t_{2}}
+:[1]: p.392 [2]: p.168 
+    (Eq.2)Note that this expression is not well defined for all time series or processes, because the mean may not exist, or the variance may be zero (for a constant process) or infinite (for processes with distribution lacking well-behaved moments, such as certain types of power law).
+If 
+{
+X
+t
+}
+{\displaystyle \left\{X_{t}\right\}}
+ is a wide-sense stationary process then the mean 
+μ
+{\displaystyle \mu }
+ and the variance 
+σ
+2
+{\displaystyle \sigma ^{2}}
+ are time-independent, and further the autocovariance function depends only on the lag between 
+t
+1
+{\displaystyle t_{1}}
+ and 
+t
+2
+{\displaystyle t_{2}}
+: the autocovariance depends only on the time-distance between the pair of values but not on their position in time. This further implies that the autocovariance and auto-correlation can be expressed as a function of the time-lag, and that this would be an even function of the lag  
+τ
+=
+t
+2
+−
+t
+1
+{\displaystyle \tau =t_{2}-t_{1}}
+. This gives the more familiar forms for the auto-correlation function[1]: p.395 
+    (Eq.3)and the auto-covariance function:
+    (Eq.4)In particular, note that 
+K
+X
+X
+⁡
+(
+0
+)
+=
+σ
+2
+.
+{\displaystyle \operatorname {K} _{XX}(0)=\sigma ^{2}.}
+It is common practice in some disciplines (e.g. statistics and time series analysis) to normalize the autocovariance function to get a time-dependent Pearson correlation coefficient. However, in other disciplines (e.g. engineering) the normalization is usually dropped and the terms "autocorrelation" and "autocovariance" are used interchangeably.
+The definition of the auto-correlation coefficient of a stochastic process is[2]: p.169 
+ρ
+X
+X
+(
+t
+1
+,
+t
+2
+)
+=
+K
+X
+X
+⁡
+(
+t
+1
+,
+t
+2
+)
+σ
+t
+1
+σ
+t
+2
+=
+E
+⁡
+[
+(
+X
+t
+1
+−
+μ
+t
+1
+)
+(
+X
+t
+2
+−
+μ
+t
+2
+)
+¯
+]
+σ
+t
+1
+σ
+t
+2
+.
+{\displaystyle \rho _{XX}(t_{1},t_{2})={\frac {\operatorname {K} _{XX}(t_{1},t_{2})}{\sigma _{t_{1}}\sigma _{t_{2}}}}={\frac {\operatorname {E} \left[(X_{t_{1}}-\mu _{t_{1}}){\overline {(X_{t_{2}}-\mu _{t_{2}})}}\right]}{\sigma _{t_{1}}\sigma _{t_{2}}}}.}
+If the function 
+ρ
+X
+X
+{\displaystyle \rho _{XX}}
+ is well defined, its value must lie in the range 
+[
+−
+1
+,
+1
+]
+{\displaystyle [-1,1]}
+, with 1 indicating perfect correlation and −1 indicating perfect anti-correlation.
+For a wide-sense stationary (WSS) process, the definition is
+ρ
+X
+X
+(
+τ
+)
+=
+K
+X
+X
+⁡
+(
+τ
+)
+σ
+2
+=
+E
+⁡
+[
+(
+X
+t
++
+τ
+−
+μ
+)
+(
+X
+t
+−
+μ
+)
+¯
+]
+σ
+2
+{\displaystyle \rho _{XX}(\tau )={\frac {\operatorname {K} _{XX}(\tau )}{\sigma ^{2}}}={\frac {\operatorname {E} \left[(X_{t+\tau }-\mu ){\overline {(X_{t}-\mu )}}\right]}{\sigma ^{2}}}}
+.
+The normalization is important both because the interpretation of the autocorrelation as a correlation provides a scale-free measure of the strength of statistical dependence, and because the normalization has an effect on the statistical properties of the estimated autocorrelations.
+The fact that the auto-correlation function 
+R
+X
+X
+{\displaystyle \operatorname {R} _{XX}}
+ is an even function can be stated as[2]: p.171 
+R
+X
+X
+⁡
+(
+t
+1
+,
+t
+2
+)
+=
+R
+X
+X
+⁡
+(
+t
+2
+,
+t
+1
+)
+¯
+{\displaystyle \operatorname {R} _{XX}(t_{1},t_{2})={\overline {\operatorname {R} _{XX}(t_{2},t_{1})}}}
+respectively for a WSS process:[2]: p.173 
+R
+X
+X
+⁡
+(
+τ
+)
+=
+R
+X
+X
+⁡
+(
+−
+τ
+)
+¯
+.
+{\displaystyle \operatorname {R} _{XX}(\tau )={\overline {\operatorname {R} _{XX}(-\tau )}}.}
+For a WSS process:[2]: p.174 
+|
+R
+X
+X
+⁡
+(
+τ
+)
+|
+≤
+R
+X
+X
+⁡
+(
+0
+)
+{\displaystyle \left|\operatorname {R} _{XX}(\tau )\right|\leq \operatorname {R} _{XX}(0)}
+Notice that 
+R
+X
+X
+⁡
+(
+0
+)
+{\displaystyle \operatorname {R} _{XX}(0)}
+ is always real.
+The Cauchy–Schwarz inequality, inequality for stochastic processes:[1]: p.392 
+|
+R
+X
+X
+⁡
+(
+t
+1
+,
+t
+2
+)
+|
+2
+≤
+E
+⁡
+[
+|
+X
+t
+1
+|
+2
+]
+E
+⁡
+[
+|
+X
+t
+2
+|
+2
+]
+{\displaystyle \left|\operatorname {R} _{XX}(t_{1},t_{2})\right|^{2}\leq \operatorname {E} \left[|X_{t_{1}}|^{2}\right]\operatorname {E} \left[|X_{t_{2}}|^{2}\right]}
+The autocorrelation of a continuous-time white noise signal will have a strong peak (represented by a Dirac delta function) at 
+τ
+=
+0
+{\displaystyle \tau =0}
+ and will be exactly 
+0
+{\displaystyle 0}
+ for all other 
+τ
+{\displaystyle \tau }
+.
+The Wiener–Khinchin theorem relates the autocorrelation function 
+R
+X
+X
+{\displaystyle \operatorname {R} _{XX}}
+ to the power spectral density 
+S
+X
+X
+{\displaystyle S_{XX}}
+ via the Fourier transform:
+R
+X
+X
+⁡
+(
+τ
+)
+=
+∫
+−
+∞
+∞
+S
+X
+X
+(
+f
+)
+e
+i
+2
+π
+f
+τ
+d
+f
+{\displaystyle \operatorname {R} _{XX}(\tau )=\int _{-\infty }^{\infty }S_{XX}(f)e^{i2\pi f\tau }\,{\rm {d}}f}
+S
+X
+X
+(
+f
+)
+=
+∫
+−
+∞
+∞
+R
+X
+X
+⁡
+(
+τ
+)
+e
+−
+i
+2
+π
+f
+τ
+d
+τ
+.
+{\displaystyle S_{XX}(f)=\int _{-\infty }^{\infty }\operatorname {R} _{XX}(\tau )e^{-i2\pi f\tau }\,{\rm {d}}\tau .}
+For real-valued functions, the symmetric autocorrelation function has a real symmetric transform, so the Wiener–Khinchin theorem can be re-expressed in terms of real cosines only:
+R
+X
+X
+⁡
+(
+τ
+)
+=
+∫
+−
+∞
+∞
+S
+X
+X
+(
+f
+)
+cos
+⁡
+(
+2
+π
+f
+τ
+)
+d
+f
+{\displaystyle \operatorname {R} _{XX}(\tau )=\int _{-\infty }^{\infty }S_{XX}(f)\cos(2\pi f\tau )\,{\rm {d}}f}
+S
+X
+X
+(
+f
+)
+=
+∫
+−
+∞
+∞
+R
+X
+X
+⁡
+(
+τ
+)
+cos
+⁡
+(
+2
+π
+f
+τ
+)
+d
+τ
+.
+{\displaystyle S_{XX}(f)=\int _{-\infty }^{\infty }\operatorname {R} _{XX}(\tau )\cos(2\pi f\tau )\,{\rm {d}}\tau .}
+The (potentially time-dependent) auto-correlation matrix (also called second moment) of a (potentially time-dependent) random vector 
+X
+=
+(
+X
+1
+,
+…
+,
+X
+n
+)
+T
+{\displaystyle \mathbf {X} =(X_{1},\ldots ,X_{n})^{\rm {T}}}
+ is an 
+n
+×
+n
+{\displaystyle n\times n}
+ matrix containing as elements the autocorrelations of all pairs of elements of the random vector 
+X
+{\displaystyle \mathbf {X} }
+. The autocorrelation matrix is used in various digital signal processing algorithms.
+For a random vector 
+X
+=
+(
+X
+1
+,
+…
+,
+X
+n
+)
+T
+{\displaystyle \mathbf {X} =(X_{1},\ldots ,X_{n})^{\rm {T}}}
+ containing random elements whose expected value and variance exist, the auto-correlation matrix is defined by[3]: p.190 [1]: p.334 
+    (Eq.5)where 
+T
+{\displaystyle {}^{\rm {T}}}
+ denotes transposition and has dimensions 
+n
+×
+n
+{\displaystyle n\times n}
+.
+Written component-wise:
+R
+X
+X
+=
+[
+E
+⁡
+[
+X
+1
+X
+1
+]
+E
+⁡
+[
+X
+1
+X
+2
+]
+⋯
+E
+⁡
+[
+X
+1
+X
+n
+]
+E
+⁡
+[
+X
+2
+X
+1
+]
+E
+⁡
+[
+X
+2
+X
+2
+]
+⋯
+E
+⁡
+[
+X
+2
+X
+n
+]
+⋮
+⋮
+⋱
+⋮
+E
+⁡
+[
+X
+n
+X
+1
+]
+E
+⁡
+[
+X
+n
+X
+2
+]
+⋯
+E
+⁡
+[
+X
+n
+X
+n
+]
+]
+{\displaystyle \operatorname {R} _{\mathbf {X} \mathbf {X} }={\begin{bmatrix}\operatorname {E} [X_{1}X_{1}]&\operatorname {E} [X_{1}X_{2}]&\cdots &\operatorname {E} [X_{1}X_{n}]\\\\\operatorname {E} [X_{2}X_{1}]&\operatorname {E} [X_{2}X_{2}]&\cdots &\operatorname {E} [X_{2}X_{n}]\\\\\vdots &\vdots &\ddots &\vdots \\\\\operatorname {E} [X_{n}X_{1}]&\operatorname {E} [X_{n}X_{2}]&\cdots &\operatorname {E} [X_{n}X_{n}]\\\\\end{bmatrix}}}
+If 
+Z
+{\displaystyle \mathbf {Z} }
+ is a complex random vector, the autocorrelation matrix is instead defined by
+R
+Z
+Z
+≜
+ 
+E
+⁡
+[
+Z
+Z
+H
+]
+.
+{\displaystyle \operatorname {R} _{\mathbf {Z} \mathbf {Z} }\triangleq \ \operatorname {E} [\mathbf {Z} \mathbf {Z} ^{\rm {H}}].}
+Here 
+H
+{\displaystyle {}^{\rm {H}}}
+ denotes Hermitian transposition.
+For example, if 
+X
+=
+(
+X
+1
+,
+X
+2
+,
+X
+3
+)
+T
+{\displaystyle \mathbf {X} =\left(X_{1},X_{2},X_{3}\right)^{\rm {T}}}
+ is a random vector, then 
+R
+X
+X
+{\displaystyle \operatorname {R} _{\mathbf {X} \mathbf {X} }}
+ is a 
+3
+×
+3
+{\displaystyle 3\times 3}
+ matrix whose 
+(
+i
+,
+j
+)
+{\displaystyle (i,j)}
+-th entry is 
+E
+⁡
+[
+X
+i
+X
+j
+]
+{\displaystyle \operatorname {E} [X_{i}X_{j}]}
+.
+In signal processing, the above definition is often used without the normalization, that is, without subtracting the mean and dividing by the variance. When the autocorrelation function is normalized by mean and variance, it is sometimes referred to as the autocorrelation coefficient[4] or autocovariance function.
+Given a signal 
+f
+(
+t
+)
+{\displaystyle f(t)}
+, the continuous autocorrelation 
+R
+f
+f
+(
+τ
+)
+{\displaystyle R_{ff}(\tau )}
+ is most often defined as the continuous cross-correlation integral of 
+f
+(
+t
+)
+{\displaystyle f(t)}
+ with itself, at lag 
+τ
+{\displaystyle \tau }
+.[1]: p.411 
+    (Eq.6)where 
+f
+(
+t
+)
+¯
+{\displaystyle {\overline {f(t)}}}
+ represents the complex conjugate of 
+f
+(
+t
+)
+{\displaystyle f(t)}
+. Note that the parameter 
+t
+{\displaystyle t}
+ in the integral is a dummy variable and is only necessary to calculate the integral. It has no specific meaning.
+The discrete autocorrelation 
+R
+{\displaystyle R}
+ at lag 
+ℓ
+{\displaystyle \ell }
+ for a discrete-time signal 
+y
+(
+n
+)
+{\displaystyle y(n)}
+ is
+    (Eq.7)The above definitions work for signals that are square integrable, or square summable, that is, of finite energy. Signals that "last forever" are treated instead as random processes, in which case different definitions are needed, based on expected values. For wide-sense-stationary random processes, the autocorrelations are defined as
+R
+f
+f
+(
+τ
+)
+=
+E
+⁡
+[
+f
+(
+t
+)
+f
+(
+t
+−
+τ
+)
+¯
+]
+R
+y
+y
+(
+ℓ
+)
+=
+E
+⁡
+[
+y
+(
+n
+)
+y
+(
+n
+−
+ℓ
+)
+¯
+]
+.
+{\displaystyle {\begin{aligned}R_{ff}(\tau )&=\operatorname {E} \left[f(t){\overline {f(t-\tau )}}\right]\\R_{yy}(\ell )&=\operatorname {E} \left[y(n)\,{\overline {y(n-\ell )}}\right].\end{aligned}}}
+For processes that are not stationary, these will also be functions of 
+t
+{\displaystyle t}
+, or 
+n
+{\displaystyle n}
+.
+For processes that are also ergodic, the expectation can be replaced by the limit of a time average. The autocorrelation of an ergodic process is sometimes defined as or equated to[4]
+R
+f
+f
+(
+τ
+)
+=
+lim
+T
+→
+∞
+1
+T
+∫
+0
+T
+f
+(
+t
++
+τ
+)
+f
+(
+t
+)
+¯
+d
+t
+R
+y
+y
+(
+ℓ
+)
+=
+lim
+N
+→
+∞
+1
+N
+∑
+n
+=
+0
+N
+−
+1
+y
+(
+n
+)
+y
+(
+n
+−
+ℓ
+)
+¯
+.
+{\displaystyle {\begin{aligned}R_{ff}(\tau )&=\lim _{T\rightarrow \infty }{\frac {1}{T}}\int _{0}^{T}f(t+\tau ){\overline {f(t)}}\,{\rm {d}}t\\R_{yy}(\ell )&=\lim _{N\rightarrow \infty }{\frac {1}{N}}\sum _{n=0}^{N-1}y(n)\,{\overline {y(n-\ell )}}.\end{aligned}}}
+These definitions have the advantage that they give sensible well-defined single-parameter results for periodic functions, even when those functions are not the output of stationary ergodic processes.
+Alternatively, signals that last forever can be treated by a short-time autocorrelation function analysis, using finite time integrals. (See short-time Fourier transform for a related process.)
+If 
+f
+{\displaystyle f}
+ is a continuous periodic function of period 
+T
+{\displaystyle T}
+, the integration from 
+−
+∞
+{\displaystyle -\infty }
+ to 
+∞
+{\displaystyle \infty }
+ is replaced by integration over any interval 
+[
+t
+0
+,
+t
+0
++
+T
+]
+{\displaystyle [t_{0},t_{0}+T]}
+ of length 
+T
+{\displaystyle T}
+:
+R
+f
+f
+(
+τ
+)
+≜
+∫
+t
+0
+t
+0
++
+T
+f
+(
+t
++
+τ
+)
+f
+(
+t
+)
+¯
+d
+t
+{\displaystyle R_{ff}(\tau )\triangleq \int _{t_{0}}^{t_{0}+T}f(t+\tau ){\overline {f(t)}}\,dt}
+which is equivalent to
+R
+f
+f
+(
+τ
+)
+≜
+∫
+t
+0
+t
+0
++
+T
+f
+(
+t
+)
+f
+(
+t
+−
+τ
+)
+¯
+d
+t
+{\displaystyle R_{ff}(\tau )\triangleq \int _{t_{0}}^{t_{0}+T}f(t){\overline {f(t-\tau )}}\,dt}
+In the following, we will describe properties of one-dimensional autocorrelations only, since most properties are easily transferred from the one-dimensional case to the multi-dimensional cases. These properties hold for wide-sense stationary processes.[5]
+Multi-dimensional autocorrelation is defined similarly. For example, in three dimensions the autocorrelation of a square-summable discrete signal would be
+R
+(
+j
+,
+k
+,
+ℓ
+)
+=
+∑
+n
+,
+q
+,
+r
+x
+n
+,
+q
+,
+r
+x
+¯
+n
+−
+j
+,
+q
+−
+k
+,
+r
+−
+ℓ
+.
+{\displaystyle R(j,k,\ell )=\sum _{n,q,r}x_{n,q,r}\,{\overline {x}}_{n-j,q-k,r-\ell }.}
+When mean values are subtracted from signals before computing an autocorrelation function, the resulting function is usually called an auto-covariance function.
+For data expressed as a discrete sequence, it is frequently necessary to compute the autocorrelation with high computational efficiency. A brute force method based on the signal processing definition 
+R
+x
+x
+(
+j
+)
+=
+∑
+n
+x
+n
+x
+¯
+n
+−
+j
+{\displaystyle R_{xx}(j)=\sum _{n}x_{n}\,{\overline {x}}_{n-j}}
+ can be used when the signal size is small. For example, to calculate the autocorrelation of the real signal sequence 
+x
+=
+(
+2
+,
+3
+,
+−
+1
+)
+{\displaystyle x=(2,3,-1)}
+ (i.e. 
+x
+0
+=
+2
+,
+x
+1
+=
+3
+,
+x
+2
+=
+−
+1
+{\displaystyle x_{0}=2,x_{1}=3,x_{2}=-1}
+, and 
+x
+i
+=
+0
+{\displaystyle x_{i}=0}
+ for all other values of i) by hand, we first recognize that the definition just given is the same as the "usual" multiplication, but with right shifts, where each vertical addition gives the autocorrelation for particular lag values:
+2
+3
+−
+1
+×
+2
+3
+−
+1
+−
+2
+−
+3
+1
+6
+9
+−
+3
++
+4
+6
+−
+2
+−
+2
+3
+14
+3
+−
+2
+{\displaystyle {\begin{array}{rrrrrr}&2&3&-1\\\times &2&3&-1\\\hline &-2&-3&1\\&&6&9&-3\\+&&&4&6&-2\\\hline &-2&3&14&3&-2\end{array}}}
+Thus the required autocorrelation sequence is 
+R
+x
+x
+=
+(
+−
+2
+,
+3
+,
+14
+,
+3
+,
+−
+2
+)
+{\displaystyle R_{xx}=(-2,3,14,3,-2)}
+, where 
+R
+x
+x
+(
+0
+)
+=
+14
+,
+{\displaystyle R_{xx}(0)=14,}
+R
+x
+x
+(
+−
+1
+)
+=
+R
+x
+x
+(
+1
+)
+=
+3
+,
+{\displaystyle R_{xx}(-1)=R_{xx}(1)=3,}
+ and 
+R
+x
+x
+(
+−
+2
+)
+=
+R
+x
+x
+(
+2
+)
+=
+−
+2
+,
+{\displaystyle R_{xx}(-2)=R_{xx}(2)=-2,}
+ the autocorrelation for other lag values being zero. In this calculation we do not perform the carry-over operation during addition as is usual in normal multiplication. Note that we can halve the number of operations required by exploiting the inherent symmetry of the autocorrelation. If the signal happens to be periodic, i.e. 
+x
+=
+(
+…
+,
+2
+,
+3
+,
+−
+1
+,
+2
+,
+3
+,
+−
+1
+,
+…
+)
+,
+{\displaystyle x=(\ldots ,2,3,-1,2,3,-1,\ldots ),}
+ then we get a circular autocorrelation (similar to circular convolution) where the left and right tails of the previous autocorrelation sequence will overlap and give 
+R
+x
+x
+=
+(
+…
+,
+14
+,
+1
+,
+1
+,
+14
+,
+1
+,
+1
+,
+…
+)
+{\displaystyle R_{xx}=(\ldots ,14,1,1,14,1,1,\ldots )}
+ which has the same period as the signal sequence 
+x
+.
+{\displaystyle x.}
+ The procedure can be regarded as an application of the convolution property of Z-transform of a discrete signal.
+While the brute force algorithm is order n2, several efficient algorithms exist which can compute the autocorrelation in order n log(n). For example, the Wiener–Khinchin theorem allows computing the autocorrelation from the raw data X(t) with two fast Fourier transforms (FFT):[6][page needed]
+F
+R
+(
+f
+)
+=
+FFT
+⁡
+[
+X
+(
+t
+)
+]
+S
+(
+f
+)
+=
+F
+R
+(
+f
+)
+F
+R
+∗
+(
+f
+)
+R
+(
+τ
+)
+=
+IFFT
+⁡
+[
+S
+(
+f
+)
+]
+{\displaystyle {\begin{aligned}F_{R}(f)&=\operatorname {FFT} [X(t)]\\S(f)&=F_{R}(f)F_{R}^{*}(f)\\R(\tau )&=\operatorname {IFFT} [S(f)]\end{aligned}}}
+where IFFT denotes the inverse fast Fourier transform. The asterisk denotes complex conjugate.
+Alternatively, a multiple τ correlation can be performed by using brute force calculation for low τ values, and then progressively binning the X(t) data with a logarithmic density to compute higher values, resulting in the same n log(n) efficiency, but with lower memory requirements.[7][8]
+For a discrete process with known mean and variance for which we observe 
+n
+{\displaystyle n}
+ observations 
+{
+X
+1
+,
+X
+2
+,
+…
+,
+X
+n
+}
+{\displaystyle \{X_{1},\,X_{2},\,\ldots ,\,X_{n}\}}
+, an estimate of the autocorrelation coefficient may be obtained as
+R
+^
+(
+k
+)
+=
+1
+(
+n
+−
+k
+)
+σ
+2
+∑
+t
+=
+1
+n
+−
+k
+(
+X
+t
+−
+μ
+)
+(
+X
+t
++
+k
+−
+μ
+)
+{\displaystyle {\hat {R}}(k)={\frac {1}{(n-k)\sigma ^{2}}}\sum _{t=1}^{n-k}(X_{t}-\mu )(X_{t+k}-\mu )}
+for any positive integer 
+k
+<
+n
+{\displaystyle k<n}
+. When the true mean 
+μ
+{\displaystyle \mu }
+ and variance 
+σ
+2
+{\displaystyle \sigma ^{2}}
+ are known, this estimate is unbiased. If the true mean and variance of the process are not known there are several possibilities:
+The advantage of estimates of the last type is that the set of estimated autocorrelations, as a function of 
+k
+{\displaystyle k}
+, then form a function which is a valid autocorrelation in the sense that it is possible to define a theoretical process having exactly that autocorrelation. Other estimates can suffer from the problem that, if they are used to calculate the variance of a linear combination of the 
+X
+{\displaystyle X}
+'s, the variance calculated may turn out to be negative.[11]
+In regression analysis using time series data, autocorrelation in a variable of interest is typically modeled either with an autoregressive model (AR), a moving average model (MA), their combination as an autoregressive-moving-average model (ARMA), or an extension of the latter called an autoregressive integrated moving average model (ARIMA). With multiple interrelated data series, vector autoregression (VAR) or its extensions are used.
+In ordinary least squares (OLS), the adequacy of a model specification can be checked in part by establishing whether there is autocorrelation of the regression residuals. Problematic autocorrelation of the errors, which themselves are unobserved, can generally be detected because it produces autocorrelation in the observable residuals. (Errors are also known as "error terms" in econometrics.) Autocorrelation of the errors violates the ordinary least squares assumption that the error terms are uncorrelated, meaning that the Gauss Markov theorem does not apply, and that OLS estimators are no longer the Best Linear Unbiased Estimators (BLUE). While it does not bias the OLS coefficient estimates, the standard errors tend to be underestimated (and the t-scores overestimated) when the autocorrelations of the errors at low lags are positive.
+The traditional test for the presence of first-order autocorrelation is the Durbin–Watson statistic or, if the explanatory variables include a lagged dependent variable, Durbin's h statistic. The Durbin-Watson can be linearly mapped however to the Pearson correlation between values and their lags.[12]  A more flexible test, covering autocorrelation of higher orders and applicable whether or not the regressors include lags of the dependent variable, is the Breusch–Godfrey test. This involves an auxiliary regression, wherein the residuals obtained from estimating the model of interest are regressed on (a) the original regressors and (b) k lags of the residuals, where 'k' is the order of the test. The simplest version of the test statistic from this auxiliary regression is TR2, where T is the sample size and R2 is the coefficient of determination. Under the null hypothesis of no autocorrelation, this statistic is asymptotically distributed as 
+χ
+2
+{\displaystyle \chi ^{2}}
+ with k degrees of freedom.
+Responses to nonzero autocorrelation include generalized least squares and the Newey–West HAC estimator (Heteroskedasticity and Autocorrelation Consistent).[13]
+In the estimation of a moving average model (MA), the autocorrelation function is used to determine the appropriate number of lagged error terms to be included. This is based on the fact that for an MA process of order q, we have 
+R
+(
+τ
+)
+≠
+0
+{\displaystyle R(\tau )\neq 0}
+, for 
+τ
+=
+0
+,
+1
+,
+…
+,
+q
+{\displaystyle \tau =0,1,\ldots ,q}
+, and 
+R
+(
+τ
+)
+=
+0
+{\displaystyle R(\tau )=0}
+, for 
+τ
+>
+q
+{\displaystyle \tau >q}
+.
+Serial dependence is closely linked to the notion of autocorrelation, but represents a distinct concept (see Correlation and dependence). In particular, it is possible to have serial dependence but no (linear) correlation. In some fields however, the two terms are used as synonyms.
+A  time series of a random variable has serial dependence if the value at some time 
+t
+{\displaystyle t}
+ in the series is statistically dependent on the value at another time 
+s
+{\displaystyle s}
+. A series is serially independent if there is no dependence between any pair.
+If a time series 
+{
+X
+t
+}
+{\displaystyle \left\{X_{t}\right\}}
+ is stationary, then statistical dependence between the pair 
+(
+X
+t
+,
+X
+s
+)
+{\displaystyle (X_{t},X_{s})}
+ would imply that there is statistical dependence between all pairs of values at the same lag 
+τ
+=
+s
+−
+t
+{\displaystyle \tau =s-t}
+.

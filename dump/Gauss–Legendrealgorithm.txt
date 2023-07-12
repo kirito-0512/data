@@ -1,0 +1,149 @@
+12916,
+Gauss–Legendrealgorithm,
+The Gauss–Legendre algorithm is an algorithm to compute the digits of π. It is notable for being rapidly convergent, with only 25 iterations producing 45 million correct digits of π. However, it has some drawbacks (for example, it is computer memory-intensive) and therefore all record-breaking calculations for many years have used other methods, almost always the Chudnovsky algorithm. For details, see Chronology of computation of π.
+The method is based on the individual work of Carl Friedrich Gauss (1777–1855) and Adrien-Marie Legendre (1752–1833) combined with modern algorithms for multiplication and square roots. It repeatedly replaces two numbers by their arithmetic and geometric mean, in order to approximate their arithmetic-geometric mean.
+The version presented below is also known as the Gauss–Euler, Brent–Salamin (or Salamin–Brent) algorithm;[1] it was independently discovered in 1975 by Richard Brent and Eugene Salamin. It was used to compute the first 206,158,430,000 decimal digits of π on September 18 to 20, 1999, and the results were checked with Borwein's algorithm.
+The first three iterations give (approximations given up to and including the first incorrect digit):
+The algorithm has quadratic convergence, which essentially means that the number of correct digits doubles with each iteration of the algorithm.
+The arithmetic–geometric mean of two numbers, a0 and b0, is found by calculating the limit of the sequences
+which both converge to the same limit.
+If 
+
+
+
+
+a
+
+0
+
+
+=
+1
+
+
+{\displaystyle a_{0}=1}
+
+ and 
+
+
+
+
+b
+
+0
+
+
+=
+cos
+⁡
+φ
+
+
+{\displaystyle b_{0}=\cos \varphi }
+
+ then the limit is 
+
+
+
+
+
+π
+
+2
+K
+(
+sin
+⁡
+φ
+)
+
+
+
+
+
+{\textstyle {\pi  \over 2K(\sin \varphi )}}
+
+ where 
+
+
+
+K
+(
+k
+)
+
+
+{\displaystyle K(k)}
+
+ is the complete elliptic integral of the first kind
+If 
+
+
+
+
+c
+
+0
+
+
+=
+sin
+⁡
+φ
+
+
+{\displaystyle c_{0}=\sin \varphi }
+
+, 
+
+
+
+
+c
+
+i
++
+1
+
+
+=
+
+a
+
+i
+
+
+−
+
+a
+
+i
++
+1
+
+
+
+
+{\displaystyle c_{i+1}=a_{i}-a_{i+1}}
+
+, then
+where 
+
+
+
+E
+(
+k
+)
+
+
+{\displaystyle E(k)}
+
+ is the complete elliptic integral of the second kind:
+Gauss knew of both of these results.[2]
+[3]
+[4]
+Legendre proved the following identity: 
+The Gauss-Legendre algorithm can be proven to give results converging to π using only integral calculus. This is done here[5] and here.[6]
+
+

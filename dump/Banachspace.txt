@@ -1,0 +1,5306 @@
+6278,
+Banachspace,
+In mathematics, more specifically in functional analysis, a Banach space (pronounced [ˈbanax]) is a complete normed vector space. Thus, a Banach space is a vector space with a metric that allows the computation of vector length and distance between vectors and is complete in the sense that a Cauchy sequence of vectors always converges to a well-defined limit that is within the space.
+Banach spaces are named after the Polish mathematician Stefan Banach, who introduced this concept and studied it systematically in 1920–1922 along with Hans Hahn and Eduard Helly.[1]
+Maurice René Fréchet was the first to use the term "Banach space" and Banach in turn then coined the term "Fréchet space".[2]
+Banach spaces originally grew out of the study of function spaces by Hilbert, Fréchet, and Riesz earlier in the century. Banach spaces play a central role in functional analysis. In other areas of analysis, the spaces under study are often Banach spaces.
+A Banach space is a complete normed space 
+(
+X
+,
+‖
+⋅
+‖
+)
+.
+{\displaystyle (X,\|\cdot \|).}
+A normed space is a pair[note 1]
+(
+X
+,
+‖
+⋅
+‖
+)
+{\displaystyle (X,\|\cdot \|)}
+ consisting of a vector space 
+X
+{\displaystyle X}
+ over a scalar field 
+K
+{\displaystyle \mathbb {K} }
+ (where 
+K
+{\displaystyle \mathbb {K} }
+ is commonly 
+R
+{\displaystyle \mathbb {R} }
+ or 
+C
+{\displaystyle \mathbb {C} }
+) together with a distinguished[note 2]
+norm 
+‖
+⋅
+‖
+:
+X
+→
+R
+.
+{\displaystyle \|\cdot \|:X\to \mathbb {R} .}
+ Like all norms, this norm induces a translation invariant[note 3]
+distance function, called the canonical or (norm) induced metric, defined for all vectors 
+x
+,
+y
+∈
+X
+{\displaystyle x,y\in X}
+ by[note 4]
+d
+(
+x
+,
+y
+)
+:=
+‖
+y
+−
+x
+‖
+=
+‖
+x
+−
+y
+‖
+.
+{\displaystyle d(x,y):=\|y-x\|=\|x-y\|.}
+This makes 
+X
+{\displaystyle X}
+ into a metric space 
+(
+X
+,
+d
+)
+.
+{\displaystyle (X,d).}
+A sequence 
+x
+1
+,
+x
+2
+,
+…
+{\displaystyle x_{1},x_{2},\ldots }
+ is called Cauchy in 
+(
+X
+,
+d
+)
+{\displaystyle (X,d)}
+ or 
+d
+{\displaystyle d}
+-Cauchy or 
+‖
+⋅
+‖
+{\displaystyle \|\cdot \|}
+-Cauchy if for every real 
+r
+>
+0
+,
+{\displaystyle r>0,}
+ there exists some index 
+N
+{\displaystyle N}
+ such that
+d
+(
+x
+n
+,
+x
+m
+)
+=
+‖
+x
+n
+−
+x
+m
+‖
+<
+r
+{\displaystyle d\left(x_{n},x_{m}\right)=\left\|x_{n}-x_{m}\right\|<r}
+whenever 
+m
+{\displaystyle m}
+ and 
+n
+{\displaystyle n}
+ are greater than 
+N
+.
+{\displaystyle N.}
+The normed space 
+(
+X
+,
+‖
+⋅
+‖
+)
+{\displaystyle (X,\|\cdot \|)}
+ is called a Banach space and the canonical metric 
+d
+{\displaystyle d}
+ is called a complete metric if 
+(
+X
+,
+d
+)
+{\displaystyle (X,d)}
+ is a complete metric space, which by definition means for every Cauchy sequence 
+x
+1
+,
+x
+2
+,
+…
+{\displaystyle x_{1},x_{2},\ldots }
+ in 
+(
+X
+,
+d
+)
+,
+{\displaystyle (X,d),}
+ there exists some 
+x
+∈
+X
+{\displaystyle x\in X}
+ such that
+lim
+n
+→
+∞
+x
+n
+=
+x
+ in 
+(
+X
+,
+d
+)
+{\displaystyle \lim _{n\to \infty }x_{n}=x\;{\text{ in }}(X,d)}
+where because 
+‖
+x
+n
+−
+x
+‖
+=
+d
+(
+x
+n
+,
+x
+)
+,
+{\displaystyle \left\|x_{n}-x\right\|=d\left(x_{n},x\right),}
+ this sequence's convergence to 
+x
+{\displaystyle x}
+ can equivalently be expressed as:
+lim
+n
+→
+∞
+‖
+x
+n
+−
+x
+‖
+=
+0
+ in 
+R
+.
+{\displaystyle \lim _{n\to \infty }\left\|x_{n}-x\right\|=0\;{\text{ in }}\mathbb {R} .}
+The norm 
+‖
+⋅
+‖
+{\displaystyle \|\cdot \|}
+ of a normed space 
+(
+X
+,
+‖
+⋅
+‖
+)
+{\displaystyle (X,\|\cdot \|)}
+ is called a complete norm if 
+(
+X
+,
+‖
+⋅
+‖
+)
+{\displaystyle (X,\|\cdot \|)}
+ is a Banach space.
+L-semi-inner product
+For any normed space 
+(
+X
+,
+‖
+⋅
+‖
+)
+,
+{\displaystyle (X,\|\cdot \|),}
+ there exists an L-semi-inner product 
+⟨
+⋅
+,
+⋅
+⟩
+{\displaystyle \langle \cdot ,\cdot \rangle }
+ on 
+X
+{\displaystyle X}
+ such that 
+‖
+x
+‖
+=
+⟨
+x
+,
+x
+⟩
+{\textstyle \|x\|={\sqrt {\langle x,x\rangle }}}
+ for all 
+x
+∈
+X
+{\displaystyle x\in X}
+; in general, there may be infinitely many L-semi-inner products that satisfy this condition. L-semi-inner products are a generalization of inner products, which are what fundamentally distinguish Hilbert spaces from all other Banach spaces. This shows that all normed spaces (and hence all Banach spaces) can be considered as being generalizations of (pre-)Hilbert spaces.
+Characterization in terms of series
+The vector space structure allows one to relate the behavior of Cauchy sequences to that of converging series of vectors. 
+A normed space 
+X
+{\displaystyle X}
+ is a Banach space if and only if each absolutely convergent series in 
+X
+{\displaystyle X}
+ converges in 
+X
+,
+{\displaystyle X,}
+[3]
+∑
+n
+=
+1
+∞
+‖
+v
+n
+‖
+<
+∞
+ implies that 
+∑
+n
+=
+1
+∞
+v
+n
+ 
+ 
+ converges in 
+ 
+ 
+X
+.
+{\displaystyle \sum _{n=1}^{\infty }\|v_{n}\|<\infty \quad {\text{ implies that }}\quad \sum _{n=1}^{\infty }v_{n}\ \ {\text{ converges in }}\ \ X.}
+The canonical metric 
+d
+{\displaystyle d}
+ of a normed space 
+(
+X
+,
+‖
+⋅
+‖
+)
+{\displaystyle (X,\|\cdot \|)}
+ induces the usual metric topology 
+τ
+d
+{\displaystyle \tau _{d}}
+ on 
+X
+,
+{\displaystyle X,}
+ which is referred to as the canonical or norm induced topology. 
+Every normed space is automatically assumed to carry this Hausdorff topology, unless indicated otherwise. 
+With this topology, every Banach space is a Baire space, although there exist normed spaces that are Baire but not Banach.[4] The norm 
+‖
+⋅
+‖
+:
+(
+X
+,
+τ
+d
+)
+→
+R
+{\displaystyle \|\,\cdot \,\|:\left(X,\tau _{d}\right)\to \mathbb {R} }
+ is always a continuous function with respect to the topology that it induces.
+The open and closed balls of radius 
+r
+>
+0
+{\displaystyle r>0}
+ centered at a point 
+x
+∈
+X
+{\displaystyle x\in X}
+ are, respectively, the sets 
+B
+r
+(
+x
+)
+:=
+{
+z
+∈
+X
+:
+‖
+z
+−
+x
+‖
+<
+r
+}
+ and 
+C
+r
+(
+x
+)
+:=
+{
+z
+∈
+X
+:
+‖
+z
+−
+x
+‖
+≤
+r
+}
+.
+{\displaystyle B_{r}(x):=\{z\in X:\|z-x\|<r\}\qquad {\text{ and }}\qquad C_{r}(x):=\{z\in X:\|z-x\|\leq r\}.}
+Any such ball is a convex and bounded subset of 
+X
+,
+{\displaystyle X,}
+ but a compact ball/neighborhood exists if and only if 
+X
+{\displaystyle X}
+ is a finite-dimensional vector space. 
+In particular, no infinite–dimensional normed space can be locally compact or have the Heine–Borel property. 
+If 
+x
+0
+{\displaystyle x_{0}}
+ is a vector and 
+s
+≠
+0
+{\displaystyle s\neq 0}
+ is a scalar then 
+x
+0
++
+s
+B
+r
+(
+x
+)
+=
+B
+|
+s
+|
+r
+(
+x
+0
++
+s
+x
+)
+ and 
+x
+0
++
+s
+C
+r
+(
+x
+)
+=
+C
+|
+s
+|
+r
+(
+x
+0
++
+s
+x
+)
+.
+{\displaystyle x_{0}+sB_{r}(x)=B_{|s|r}\left(x_{0}+sx\right)\qquad {\text{ and }}\qquad x_{0}+sC_{r}(x)=C_{|s|r}\left(x_{0}+sx\right).}
+Using 
+s
+:=
+1
+{\displaystyle s:=1}
+ shows that this norm-induced topology is translation invariant, which means that for any 
+x
+∈
+X
+{\displaystyle x\in X}
+ and 
+S
+⊆
+X
+,
+{\displaystyle S\subseteq X,}
+ the subset 
+S
+{\displaystyle S}
+ is open (respectively, closed) in 
+X
+{\displaystyle X}
+ if and only if this is true of its translation 
+x
++
+S
+:=
+{
+x
++
+s
+:
+s
+∈
+S
+}
+.
+{\displaystyle x+S:=\{x+s:s\in S\}.}
+Consequently, the norm induced topology is completely determined by any neighbourhood basis at the origin. Some common neighborhood bases at the origin include:
+{
+B
+r
+(
+0
+)
+:
+r
+>
+0
+}
+,
+{
+C
+r
+(
+0
+)
+:
+r
+>
+0
+}
+,
+{
+B
+r
+n
+(
+0
+)
+:
+n
+∈
+N
+}
+,
+ or 
+{
+C
+r
+n
+(
+0
+)
+:
+n
+∈
+N
+}
+{\displaystyle \left\{B_{r}(0):r>0\right\},\qquad \left\{C_{r}(0):r>0\right\},\qquad \left\{B_{r_{n}}(0):n\in \mathbb {N} \right\},\qquad {\text{ or }}\qquad \left\{C_{r_{n}}(0):n\in \mathbb {N} \right\}}
+where 
+r
+1
+,
+r
+2
+,
+…
+{\displaystyle r_{1},r_{2},\ldots }
+ is a sequence in of positive real numbers that converges to 
+0
+{\displaystyle 0}
+ in 
+R
+{\displaystyle \mathbb {R} }
+ (such as 
+r
+n
+:=
+1
+/
+n
+{\displaystyle r_{n}:=1/n}
+ or 
+r
+n
+:=
+1
+/
+2
+n
+{\displaystyle r_{n}:=1/2^{n}}
+ for instance). 
+So for example, every open subset 
+U
+{\displaystyle U}
+ of 
+X
+{\displaystyle X}
+ can be written as a union 
+U
+=
+⋃
+x
+∈
+I
+B
+r
+x
+(
+x
+)
+=
+⋃
+x
+∈
+I
+x
++
+B
+r
+x
+(
+0
+)
+=
+⋃
+x
+∈
+I
+x
++
+r
+x
+B
+1
+(
+0
+)
+{\displaystyle U=\bigcup _{x\in I}B_{r_{x}}(x)=\bigcup _{x\in I}x+B_{r_{x}}(0)=\bigcup _{x\in I}x+r_{x}B_{1}(0)}
+indexed by some subset 
+I
+⊆
+U
+,
+{\displaystyle I\subseteq U,}
+ where every 
+r
+x
+{\displaystyle r_{x}}
+ may be picked from the aforementioned sequence 
+r
+1
+,
+r
+2
+,
+…
+{\displaystyle r_{1},r_{2},\ldots }
+ (the open balls can be replaced with closed balls, although then the indexing set 
+I
+{\displaystyle I}
+ and radii 
+r
+x
+{\displaystyle r_{x}}
+ may also need to be replaced). 
+Additionally, 
+I
+{\displaystyle I}
+ can always be chosen to be countable if 
+X
+{\displaystyle X}
+ is a separable space, which by definition means that 
+X
+{\displaystyle X}
+ contains some countable dense subset. 
+Homeomorphism classes of separable Banach spaces
+All finite–dimensional normed spaces are separable Banach spaces and any two Banach spaces of the same finite dimension are linearly homeomorphic. 
+Every separable infinite–dimensional Hilbert Space is linearly isometrically isomorphic to the separable Hilbert sequence space 
+ℓ
+2
+(
+N
+)
+{\displaystyle \ell ^{2}(\mathbb {N} )}
+ with its usual norm 
+‖
+⋅
+‖
+2
+.
+{\displaystyle \|\cdot \|_{2}.}
+The Anderson–Kadec theorem states that every infinite–dimensional separable Fréchet space is homeomorphic to the product space 
+∏
+i
+∈
+N
+R
+{\textstyle \prod _{i\in \mathbb {N} }\mathbb {R} }
+ of countably many copies of 
+R
+{\displaystyle \mathbb {R} }
+ (this homeomorphism need not be a linear map).[5][6] 
+Thus all infinite–dimensional separable Fréchet spaces are homeomorphic to each other (or said differently, their topology is unique up to a homeomorphism). 
+Since every Banach space is a Fréchet space, this is also true of all infinite–dimensional separable Banach spaces, including 
+ℓ
+2
+(
+N
+)
+.
+{\displaystyle \ell ^{2}(\mathbb {N} ).}
+In fact, 
+ℓ
+2
+(
+N
+)
+{\displaystyle \ell ^{2}(\mathbb {N} )}
+ is even homeomorphic to its own unit sphere 
+{
+x
+∈
+ℓ
+2
+(
+N
+)
+:
+‖
+x
+‖
+2
+=
+1
+}
+,
+{\displaystyle \left\{x\in \ell ^{2}(\mathbb {N} ):\|x\|_{2}=1\right\},}
+ which stands in sharp contrast to finite–dimensional spaces (the Euclidean plane 
+R
+2
+{\displaystyle \mathbb {R} ^{2}}
+ is not homeomorphic to the unit circle, for instance). 
+This pattern in homeomorphism classes extends to generalizations of metrizable (locally Euclidean) topological manifolds known as metric Banach manifolds, which are metric spaces that are around every point, locally homeomorphic to some open subset of a given Banach space (metric Hilbert manifolds and metric Fréchet manifolds are defined similarly).[6] 
+For example, every open subset 
+U
+{\displaystyle U}
+ of a Banach space 
+X
+{\displaystyle X}
+ is canonically a metric Banach manifold modeled on 
+X
+{\displaystyle X}
+ since the inclusion map 
+U
+→
+X
+{\displaystyle U\to X}
+ is an open local homeomorphism. 
+Using Hilbert space microbundles, David Henderson showed[7] in 1969 that every metric manifold modeled on a separable infinite–dimensional Banach (or Fréchet) space can be topologically embedded as an open subset of 
+ℓ
+2
+(
+N
+)
+{\displaystyle \ell ^{2}(\mathbb {N} )}
+ and, consequently, also admits a unique smooth structure making it into a 
+C
+∞
+{\displaystyle C^{\infty }}
+ Hilbert manifold. 
+Compact and convex subsets
+There is a compact subset 
+S
+{\displaystyle S}
+ of 
+ℓ
+2
+(
+N
+)
+{\displaystyle \ell ^{2}(\mathbb {N} )}
+ whose convex hull 
+co
+⁡
+(
+S
+)
+{\displaystyle \operatorname {co} (S)}
+ is not closed and thus also not compact (see this footnote[note 5] for an example).[8] 
+However, like in all Banach spaces, the closed convex hull 
+co
+¯
+S
+{\displaystyle {\overline {\operatorname {co} }}S}
+ of this (and every other) compact subset will be compact.[9] But if a normed space is not complete then it is in general not guaranteed that 
+co
+¯
+S
+{\displaystyle {\overline {\operatorname {co} }}S}
+ will be compact whenever 
+S
+{\displaystyle S}
+ is; an example[note 5] can even be found in a (non-complete) pre-Hilbert vector subspace of 
+ℓ
+2
+(
+N
+)
+.
+{\displaystyle \ell ^{2}(\mathbb {N} ).}
+As a topological vector space
+This norm-induced topology also makes 
+(
+X
+,
+τ
+d
+)
+{\displaystyle \left(X,\tau _{d}\right)}
+ into what is known as a topological vector space (TVS), which by definition is a vector space endowed with a topology making the operations of addition and scalar multiplication continuous. It is emphasized that the TVS 
+(
+X
+,
+τ
+d
+)
+{\displaystyle \left(X,\tau _{d}\right)}
+ is only a vector space together with a certain type of topology; that is to say, when considered as a TVS, it is not associated with any particular norm or metric (both of which are "forgotten"). This Hausdorff TVS 
+(
+X
+,
+τ
+d
+)
+{\displaystyle \left(X,\tau _{d}\right)}
+ is even locally convex because the set of all open balls centered at the origin forms a neighbourhood basis at the origin consisting of convex balanced open sets. This TVS is also normable, which by definition refers to any TVS whose topology is induced by some (possibly unknown) norm.  Normable TVSs are characterized by being Hausdorff and having a bounded convex neighborhood of the origin. 
+All Banach spaces are barrelled spaces, which means that every barrel is neighborhood of the origin (all closed balls centered at the origin are barrels, for example) and guarantees that the Banach–Steinhaus theorem holds. 
+Comparison of complete metrizable vector topologies
+The open mapping theorem implies that if 
+τ
+{\displaystyle \tau }
+ and 
+τ
+2
+{\displaystyle \tau _{2}}
+ are topologies on 
+X
+{\displaystyle X}
+ that make both 
+(
+X
+,
+τ
+)
+{\displaystyle (X,\tau )}
+ and 
+(
+X
+,
+τ
+2
+)
+{\displaystyle \left(X,\tau _{2}\right)}
+ into complete metrizable TVS (for example, Banach or Fréchet spaces) and if one topology is finer or coarser than the other then they must be equal (that is, if 
+τ
+⊆
+τ
+2
+{\displaystyle \tau \subseteq \tau _{2}}
+ or 
+τ
+2
+⊆
+τ
+{\displaystyle \tau _{2}\subseteq \tau }
+ then 
+τ
+=
+τ
+2
+{\displaystyle \tau =\tau _{2}}
+).[10]
+So for example, if 
+(
+X
+,
+p
+)
+{\displaystyle (X,p)}
+ and 
+(
+X
+,
+q
+)
+{\displaystyle (X,q)}
+ are Banach spaces with topologies 
+τ
+p
+{\displaystyle \tau _{p}}
+ and 
+τ
+q
+{\displaystyle \tau _{q}}
+ and if one of these spaces has some open ball that is also an open subset of the other space (or equivalently, if one of 
+p
+:
+(
+X
+,
+τ
+q
+)
+→
+R
+{\displaystyle p:\left(X,\tau _{q}\right)\to \mathbb {R} }
+ or 
+q
+:
+(
+X
+,
+τ
+p
+)
+→
+R
+{\displaystyle q:\left(X,\tau _{p}\right)\to \mathbb {R} }
+ is continuous) then their topologies are identical and their norms are equivalent.
+Complete norms and equivalent norms
+Two norms, 
+p
+{\displaystyle p}
+ and 
+q
+,
+{\displaystyle q,}
+ on a vector space 
+X
+{\displaystyle X}
+ are said to be equivalent if they induce the same topology;[11] this happens if and only if there exist positive real numbers 
+c
+,
+C
+>
+0
+{\displaystyle c,C>0}
+ such that 
+c
+q
+(
+x
+)
+≤
+p
+(
+x
+)
+≤
+C
+q
+(
+x
+)
+{\textstyle cq(x)\leq p(x)\leq Cq(x)}
+ for all 
+x
+∈
+X
+.
+{\displaystyle x\in X.}
+ If 
+p
+{\displaystyle p}
+ and 
+q
+{\displaystyle q}
+ are two equivalent norms on a vector space 
+X
+{\displaystyle X}
+ then 
+(
+X
+,
+p
+)
+{\displaystyle (X,p)}
+ is a Banach space if and only if 
+(
+X
+,
+q
+)
+{\displaystyle (X,q)}
+ is a Banach space. 
+See this footnote for an example of a continuous norm on a Banach space that is not equivalent to that Banach space's given norm.[note 6][11] 
+All norms on a finite-dimensional vector space are equivalent and every finite-dimensional normed space is a Banach space.[12]
+Complete norms vs complete metrics
+A metric 
+D
+{\displaystyle D}
+ on a vector space 
+X
+{\displaystyle X}
+ is induced by a norm on 
+X
+{\displaystyle X}
+ if and only if 
+D
+{\displaystyle D}
+ is translation invariant[note 3] and absolutely homogeneous, which means that 
+D
+(
+s
+x
+,
+s
+y
+)
+=
+|
+s
+|
+D
+(
+x
+,
+y
+)
+{\displaystyle D(sx,sy)=|s|D(x,y)}
+ for all scalars 
+s
+{\displaystyle s}
+ and all 
+x
+,
+y
+∈
+X
+,
+{\displaystyle x,y\in X,}
+ in which case the function 
+‖
+x
+‖
+:=
+D
+(
+x
+,
+0
+)
+{\displaystyle \|x\|:=D(x,0)}
+ defines a norm on 
+X
+{\displaystyle X}
+ and the canonical metric induced by 
+‖
+⋅
+‖
+{\displaystyle \|\cdot \|}
+ is equal to 
+D
+.
+{\displaystyle D.}
+Suppose that 
+(
+X
+,
+‖
+⋅
+‖
+)
+{\displaystyle (X,\|\cdot \|)}
+ is a normed space and that 
+τ
+{\displaystyle \tau }
+ is the norm topology induced on 
+X
+.
+{\displaystyle X.}
+ Suppose that 
+D
+{\displaystyle D}
+ is any metric on 
+X
+{\displaystyle X}
+ such that the topology that 
+D
+{\displaystyle D}
+ induces on 
+X
+{\displaystyle X}
+ is equal to 
+τ
+.
+{\displaystyle \tau .}
+ If 
+D
+{\displaystyle D}
+ is translation invariant[note 3] then 
+(
+X
+,
+‖
+⋅
+‖
+)
+{\displaystyle (X,\|\cdot \|)}
+ is a Banach space if and only if 
+(
+X
+,
+D
+)
+{\displaystyle (X,D)}
+ is a complete metric space.[13] 
+If 
+D
+{\displaystyle D}
+ is not translation invariant, then it may be possible for 
+(
+X
+,
+‖
+⋅
+‖
+)
+{\displaystyle (X,\|\cdot \|)}
+ to be a Banach space but for 
+(
+X
+,
+D
+)
+{\displaystyle (X,D)}
+ to not be a complete metric space[14] (see this footnote[note 7] for an example). In contrast, a theorem of Klee,[15][16][note 8] which also applies to all metrizable topological vector spaces, implies that if there exists any[note 9] complete metric 
+D
+{\displaystyle D}
+ on 
+X
+{\displaystyle X}
+ that induces the norm topology 
+τ
+{\displaystyle \tau }
+ on 
+X
+,
+{\displaystyle X,}
+ then 
+(
+X
+,
+‖
+⋅
+‖
+)
+{\displaystyle (X,\|\cdot \|)}
+ is a Banach space.
+A Fréchet space is a locally convex topological vector space whose topology is induced by some translation-invariant complete metric. 
+Every Banach space is a Fréchet space but not conversely; indeed, there even exist Fréchet spaces on which no norm is a continuous function (such as the space of real sequences 
+R
+N
+=
+∏
+i
+∈
+N
+R
+{\textstyle \mathbb {R} ^{\mathbb {N} }=\prod _{i\in \mathbb {N} }\mathbb {R} }
+ with the product topology). 
+However, the topology of every Fréchet space is induced by some countable family of real-valued (necessarily continuous) maps called seminorms, which are generalizations of norms. 
+It is even possible for a Fréchet space to have a topology that is induced by a countable family of norms (such norms would necessarily be continuous)[note 10][17] 
+but to not be a Banach/normable space because its topology can not be defined by any single norm. 
+An example of such a space is the Fréchet space 
+C
+∞
+(
+K
+)
+,
+{\displaystyle C^{\infty }(K),}
+ whose definition can be found in the article on spaces of test functions and distributions.
+Complete norms vs complete topological vector spaces
+There is another notion of completeness besides metric completeness and that is the notion of a complete topological vector space (TVS) or TVS-completeness, which uses the theory of uniform spaces. 
+Specifically, the notion of TVS-completeness uses a unique translation-invariant uniformity, called the canonical uniformity, that depends only on vector subtraction and the topology 
+τ
+{\displaystyle \tau }
+ that the vector space is endowed with, and so in particular, this notion of TVS completeness is independent of whatever norm induced the topology 
+τ
+{\displaystyle \tau }
+ (and even applies to TVSs that are not even metrizable). 
+Every Banach space is a complete TVS. Moreover, a normed space is a Banach space (that is, its norm-induced metric is complete) if and only if it is complete as a topological vector space. 
+If 
+(
+X
+,
+τ
+)
+{\displaystyle (X,\tau )}
+ is a metrizable topological vector space (such as any norm induced topology, for example), then 
+(
+X
+,
+τ
+)
+{\displaystyle (X,\tau )}
+ is a complete TVS if and only if it is a sequentially complete TVS, meaning that it is enough to check that every Cauchy sequence in 
+(
+X
+,
+τ
+)
+{\displaystyle (X,\tau )}
+ converges in 
+(
+X
+,
+τ
+)
+{\displaystyle (X,\tau )}
+ to some point of 
+X
+{\displaystyle X}
+ (that is, there is no need to consider the more general notion of arbitrary Cauchy nets).
+If 
+(
+X
+,
+τ
+)
+{\displaystyle (X,\tau )}
+ is a topological vector space whose topology is induced by some (possibly unknown) norm (such spaces are called normable), then 
+(
+X
+,
+τ
+)
+{\displaystyle (X,\tau )}
+ is a complete topological vector space if and only if 
+X
+{\displaystyle X}
+ may be assigned a norm 
+‖
+⋅
+‖
+{\displaystyle \|\cdot \|}
+ that induces on 
+X
+{\displaystyle X}
+ the topology 
+τ
+{\displaystyle \tau }
+ and also makes 
+(
+X
+,
+‖
+⋅
+‖
+)
+{\displaystyle (X,\|\cdot \|)}
+ into a Banach space. 
+A Hausdorff locally convex topological vector space 
+X
+{\displaystyle X}
+ is normable if and only if its strong dual space 
+X
+b
+′
+{\displaystyle X_{b}^{\prime }}
+ is normable,[18] in which case 
+X
+b
+′
+{\displaystyle X_{b}^{\prime }}
+ is a Banach space (
+X
+b
+′
+{\displaystyle X_{b}^{\prime }}
+ denotes the strong dual space of 
+X
+,
+{\displaystyle X,}
+ whose topology is a generalization of the dual norm-induced topology on the continuous dual space 
+X
+′
+{\displaystyle X^{\prime }}
+; see this footnote[note 11] for more details). 
+If 
+X
+{\displaystyle X}
+ is a metrizable locally convex TVS, then 
+X
+{\displaystyle X}
+ is normable if and only if 
+X
+b
+′
+{\displaystyle X_{b}^{\prime }}
+ is a Fréchet–Urysohn space.[19] 
+This shows that in the category of locally convex TVSs, Banach spaces are exactly those complete spaces that are both metrizable and have metrizable strong dual spaces.
+Every normed space can be isometrically embedded onto a dense vector subspace of some Banach space, where this Banach space is called a completion of the normed space. This Hausdorff completion is unique up to isometric isomorphism.
+More precisely, for every normed space 
+X
+,
+{\displaystyle X,}
+ there exist a Banach space 
+Y
+{\displaystyle Y}
+ and a mapping 
+T
+:
+X
+→
+Y
+{\displaystyle T:X\to Y}
+ such that 
+T
+{\displaystyle T}
+ is an isometric mapping and 
+T
+(
+X
+)
+{\displaystyle T(X)}
+ is dense in 
+Y
+.
+{\displaystyle Y.}
+ If 
+Z
+{\displaystyle Z}
+ is another Banach space such that there is an isometric isomorphism from 
+X
+{\displaystyle X}
+ onto a dense subset of 
+Z
+,
+{\displaystyle Z,}
+ then 
+Z
+{\displaystyle Z}
+ is isometrically isomorphic to 
+Y
+.
+{\displaystyle Y.}
+This Banach space 
+Y
+{\displaystyle Y}
+ is the Hausdorff completion of the normed space 
+X
+.
+{\displaystyle X.}
+ The underlying metric space for 
+Y
+{\displaystyle Y}
+ is the same as the metric completion of 
+X
+,
+{\displaystyle X,}
+ with the vector space operations extended from 
+X
+{\displaystyle X}
+ to 
+Y
+.
+{\displaystyle Y.}
+ The completion of 
+X
+{\displaystyle X}
+ is sometimes denoted by 
+X
+^
+.
+{\displaystyle {\widehat {X}}.}
+If 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ are normed spaces over the same ground field 
+K
+,
+{\displaystyle \mathbb {K} ,}
+ the set of all continuous 
+K
+{\displaystyle \mathbb {K} }
+-linear maps 
+T
+:
+X
+→
+Y
+{\displaystyle T:X\to Y}
+ is denoted by 
+B
+(
+X
+,
+Y
+)
+.
+{\displaystyle B(X,Y).}
+ In infinite-dimensional spaces, not all linear maps are continuous. A linear mapping from a normed space 
+X
+{\displaystyle X}
+ to another normed space is continuous if and only if it is bounded on the closed unit ball of 
+X
+.
+{\displaystyle X.}
+ Thus, the vector space 
+B
+(
+X
+,
+Y
+)
+{\displaystyle B(X,Y)}
+ can be given the operator norm
+‖
+T
+‖
+=
+sup
+{
+‖
+T
+x
+‖
+Y
+∣
+x
+∈
+X
+,
+ 
+‖
+x
+‖
+X
+≤
+1
+}
+.
+{\displaystyle \|T\|=\sup \left\{\|Tx\|_{Y}\mid x\in X,\ \|x\|_{X}\leq 1\right\}.}
+For 
+Y
+{\displaystyle Y}
+ a Banach space, the space 
+B
+(
+X
+,
+Y
+)
+{\displaystyle B(X,Y)}
+ is a Banach space with respect to this norm.  In categorical contexts, it is sometimes convenient to restrict the function space between two Banach spaces to only the short maps; in that case the space 
+B
+(
+X
+,
+Y
+)
+{\displaystyle B(X,Y)}
+ reappears as a natural bifunctor.[20]
+If 
+X
+{\displaystyle X}
+ is a Banach space, the space 
+B
+(
+X
+)
+=
+B
+(
+X
+,
+X
+)
+{\displaystyle B(X)=B(X,X)}
+ forms a unital Banach algebra; the multiplication operation is given by the composition of linear maps.
+If 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ are normed spaces, they are isomorphic normed spaces if there exists a linear bijection 
+T
+:
+X
+→
+Y
+{\displaystyle T:X\to Y}
+ such that 
+T
+{\displaystyle T}
+ and its inverse 
+T
+−
+1
+{\displaystyle T^{-1}}
+ are continuous. If one of the two spaces 
+X
+{\displaystyle X}
+ or 
+Y
+{\displaystyle Y}
+ is complete (or reflexive, separable, etc.) then so is the other space. Two normed spaces 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ are isometrically isomorphic if in addition, 
+T
+{\displaystyle T}
+ is an isometry, that is, 
+‖
+T
+(
+x
+)
+‖
+=
+‖
+x
+‖
+{\displaystyle \|T(x)\|=\|x\|}
+ for every 
+x
+{\displaystyle x}
+ in 
+X
+.
+{\displaystyle X.}
+ The Banach–Mazur distance 
+d
+(
+X
+,
+Y
+)
+{\displaystyle d(X,Y)}
+ between two isomorphic but not isometric spaces 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ gives a measure of how much the two spaces 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ differ.
+Every continuous linear operator is a bounded linear operator and if dealing only with normed spaces then the converse is also true. That is, a linear operator between two normed spaces is bounded if and only if it is a continuous function. So in particular, because the scalar field (which is 
+R
+{\displaystyle \mathbb {R} }
+ or 
+C
+{\displaystyle \mathbb {C} }
+) is a normed space, a linear functional on a normed space is a bounded linear functional if and only if it is a continuous linear functional. This allows for continuity-related results (like those below) to be applied to Banach spaces. Although boundedness is the same as continuity for linear maps between normed spaces, the term "bounded" is more commonly used when dealing primarily with Banach spaces.
+If 
+f
+:
+X
+→
+R
+{\displaystyle f:X\to \mathbb {R} }
+ is a subadditive function (such as a norm, a sublinear function, or real linear functional), then[21] 
+f
+{\displaystyle f}
+ is continuous at the origin if and only if 
+f
+{\displaystyle f}
+ is uniformly continuous on all of 
+X
+{\displaystyle X}
+; and if in addition 
+f
+(
+0
+)
+=
+0
+{\displaystyle f(0)=0}
+ then 
+f
+{\displaystyle f}
+ is continuous if and only if its absolute value 
+|
+f
+|
+:
+X
+→
+[
+0
+,
+∞
+)
+{\displaystyle |f|:X\to [0,\infty )}
+ is continuous, which happens if and only if 
+{
+x
+∈
+X
+:
+|
+f
+(
+x
+)
+|
+<
+1
+}
+{\displaystyle \{x\in X:|f(x)|<1\}}
+ is an open subset of 
+X
+.
+{\displaystyle X.}
+[21][note 12] 
+And very importantly for applying the Hahn–Banach theorem, a linear functional 
+f
+{\displaystyle f}
+ is continuous if and only if this is true of its real part 
+Re
+⁡
+f
+{\displaystyle \operatorname {Re} f}
+ and moreover, 
+‖
+Re
+⁡
+f
+‖
+=
+‖
+f
+‖
+{\displaystyle \|\operatorname {Re} f\|=\|f\|}
+ and the real part 
+Re
+⁡
+f
+{\displaystyle \operatorname {Re} f}
+ completely determines 
+f
+,
+{\displaystyle f,}
+ which is why the Hahn–Banach theorem is often stated only for real linear functionals.
+Also, a linear functional 
+f
+{\displaystyle f}
+ on 
+X
+{\displaystyle X}
+ is continuous if and only if the seminorm 
+|
+f
+|
+{\displaystyle |f|}
+ is continuous, which happens if and only if there exists a continuous seminorm 
+p
+:
+X
+→
+R
+{\displaystyle p:X\to \mathbb {R} }
+ such that 
+|
+f
+|
+≤
+p
+{\displaystyle |f|\leq p}
+; this last statement involving the linear functional 
+f
+{\displaystyle f}
+ and seminorm 
+p
+{\displaystyle p}
+ is encountered in many versions of the Hahn–Banach theorem.
+The Cartesian product 
+X
+×
+Y
+{\displaystyle X\times Y}
+ of two normed spaces is not canonically equipped with a norm. However, several equivalent norms are commonly used,[22] such as
+‖
+(
+x
+,
+y
+)
+‖
+1
+=
+‖
+x
+‖
++
+‖
+y
+‖
+,
+‖
+(
+x
+,
+y
+)
+‖
+∞
+=
+max
+(
+‖
+x
+‖
+,
+‖
+y
+‖
+)
+{\displaystyle \|(x,y)\|_{1}=\|x\|+\|y\|,\qquad \|(x,y)\|_{\infty }=\max(\|x\|,\|y\|)}
+which correspond (respectively) to the coproduct and product in the category of Banach spaces and short maps (discussed above).[20]  For finite (co)products, these norms give rise to isomorphic normed spaces, and the product 
+X
+×
+Y
+{\displaystyle X\times Y}
+ (or the direct sum 
+X
+⊕
+Y
+{\displaystyle X\oplus Y}
+) is complete if and only if the two factors are complete.
+If 
+M
+{\displaystyle M}
+ is a closed linear subspace of a normed space 
+X
+,
+{\displaystyle X,}
+ there is a natural norm on the quotient space 
+X
+/
+M
+,
+{\displaystyle X/M,}
+‖
+x
++
+M
+‖
+=
+inf
+m
+∈
+M
+‖
+x
++
+m
+‖
+.
+{\displaystyle \|x+M\|=\inf \limits _{m\in M}\|x+m\|.}
+The quotient 
+X
+/
+M
+{\displaystyle X/M}
+ is a Banach space when 
+X
+{\displaystyle X}
+ is complete.[23] The quotient map from 
+X
+{\displaystyle X}
+ onto 
+X
+/
+M
+,
+{\displaystyle X/M,}
+ sending 
+x
+∈
+X
+{\displaystyle x\in X}
+ to its class 
+x
++
+M
+,
+{\displaystyle x+M,}
+ is linear, onto and has norm 
+1
+,
+{\displaystyle 1,}
+ except when 
+M
+=
+X
+,
+{\displaystyle M=X,}
+ in which case the quotient is the null space.
+The closed linear subspace 
+M
+{\displaystyle M}
+ of 
+X
+{\displaystyle X}
+ is said to be a complemented subspace of 
+X
+{\displaystyle X}
+ if 
+M
+{\displaystyle M}
+ is the range of a surjective bounded linear projection 
+P
+:
+X
+→
+M
+.
+{\displaystyle P:X\to M.}
+ In this case, the space 
+X
+{\displaystyle X}
+ is isomorphic to the direct sum of 
+M
+{\displaystyle M}
+ and 
+ker
+⁡
+P
+,
+{\displaystyle \ker P,}
+ the kernel of the projection 
+P
+.
+{\displaystyle P.}
+Suppose that 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ are Banach spaces and that 
+T
+∈
+B
+(
+X
+,
+Y
+)
+.
+{\displaystyle T\in B(X,Y).}
+ There exists a canonical factorization of 
+T
+{\displaystyle T}
+ as[23]
+T
+=
+T
+1
+∘
+π
+,
+ 
+ 
+ 
+T
+:
+X
+ 
+⟶
+π
+ 
+X
+/
+k
+e
+r
+(
+T
+)
+ 
+⟶
+T
+1
+ 
+Y
+{\displaystyle T=T_{1}\circ \pi ,\ \ \ T:X\ {\overset {\pi }{\longrightarrow }}\ X/ker(T)\ {\overset {T_{1}}{\longrightarrow }}\ Y}
+where the first map 
+π
+{\displaystyle \pi }
+ is the quotient map, and the second map 
+T
+1
+{\displaystyle T_{1}}
+ sends every class 
+x
++
+ker
+⁡
+T
+{\displaystyle x+\ker T}
+ in the quotient to the image 
+T
+(
+x
+)
+{\displaystyle T(x)}
+ in 
+Y
+.
+,
+{\displaystyle Y.,}
+ This is well defined because all elements in the same class have the same image. The mapping 
+T
+1
+{\displaystyle T_{1}}
+ is a linear bijection from 
+X
+/
+ker
+⁡
+T
+{\displaystyle X/\ker T}
+ onto the range 
+T
+(
+X
+)
+,
+{\displaystyle T(X),}
+ whose inverse need not be bounded.
+Basic examples[24] of Banach spaces include: the Lp spaces 
+L
+p
+{\displaystyle L^{p}}
+ and their special cases, the sequence spaces 
+ℓ
+p
+{\displaystyle \ell ^{p}}
+ that consist of scalar sequences indexed by natural numbers 
+N
+{\displaystyle \mathbb {N} }
+; among them, the space 
+ℓ
+1
+{\displaystyle \ell ^{1}}
+ of absolutely summable sequences and the space 
+ℓ
+2
+{\displaystyle \ell ^{2}}
+ of square summable sequences; the space 
+c
+0
+{\displaystyle c_{0}}
+ of sequences tending to zero and the space 
+ℓ
+∞
+{\displaystyle \ell ^{\infty }}
+ of bounded sequences; the space 
+C
+(
+K
+)
+{\displaystyle C(K)}
+ of continuous scalar functions on a compact Hausdorff space 
+K
+,
+{\displaystyle K,}
+ equipped with the max norm,
+‖
+f
+‖
+C
+(
+K
+)
+=
+max
+{
+|
+f
+(
+x
+)
+|
+:
+x
+∈
+K
+}
+,
+f
+∈
+C
+(
+K
+)
+.
+{\displaystyle \|f\|_{C(K)}=\max\{|f(x)|:x\in K\},\quad f\in C(K).}
+According to the Banach–Mazur theorem, every Banach space is isometrically isomorphic to a subspace of some 
+C
+(
+K
+)
+.
+{\displaystyle C(K).}
+[25] For every separable Banach space 
+X
+,
+{\displaystyle X,}
+ there is a closed subspace 
+M
+{\displaystyle M}
+ of 
+ℓ
+1
+{\displaystyle \ell ^{1}}
+ such that 
+X
+:=
+ℓ
+1
+/
+M
+.
+{\displaystyle X:=\ell ^{1}/M.}
+[26]
+Any Hilbert space serves as an example of a Banach space. A Hilbert space 
+H
+{\displaystyle H}
+ on 
+K
+=
+R
+,
+C
+{\displaystyle \mathbb {K} =\mathbb {R} ,\mathbb {C} }
+ is complete for a norm of the form
+‖
+x
+‖
+H
+=
+⟨
+x
+,
+x
+⟩
+,
+{\displaystyle \|x\|_{H}={\sqrt {\langle x,x\rangle }},}
+where
+⟨
+⋅
+,
+⋅
+⟩
+:
+H
+×
+H
+→
+K
+{\displaystyle \langle \cdot ,\cdot \rangle :H\times H\to \mathbb {K} }
+is the inner product, linear in its first argument that satisfies the following:
+⟨
+y
+,
+x
+⟩
+=
+⟨
+x
+,
+y
+⟩
+¯
+,
+ for all 
+x
+,
+y
+∈
+H
+⟨
+x
+,
+x
+⟩
+≥
+0
+,
+ for all 
+x
+∈
+H
+⟨
+x
+,
+x
+⟩
+=
+0
+ if and only if 
+x
+=
+0.
+{\displaystyle {\begin{aligned}\langle y,x\rangle &={\overline {\langle x,y\rangle }},\quad {\text{ for all }}x,y\in H\\\langle x,x\rangle &\geq 0,\quad {\text{ for all }}x\in H\\\langle x,x\rangle =0{\text{ if and only if }}x&=0.\end{aligned}}}
+For example, the space 
+L
+2
+{\displaystyle L^{2}}
+ is a Hilbert space.
+The Hardy spaces, the Sobolev spaces are examples of Banach spaces that are related to 
+L
+p
+{\displaystyle L^{p}}
+ spaces and have additional structure. They are important in different branches of analysis, Harmonic analysis and Partial differential equations among others.
+A Banach algebra is a Banach space 
+A
+{\displaystyle A}
+ over 
+K
+=
+R
+{\displaystyle \mathbb {K} =\mathbb {R} }
+ or 
+C
+,
+{\displaystyle \mathbb {C} ,}
+ together with a structure of algebra over 
+K
+{\displaystyle \mathbb {K} }
+, such that the product map 
+A
+×
+A
+∋
+(
+a
+,
+b
+)
+↦
+a
+b
+∈
+A
+{\displaystyle A\times A\ni (a,b)\mapsto ab\in A}
+ is continuous. An equivalent norm on 
+A
+{\displaystyle A}
+ can be found so that 
+‖
+a
+b
+‖
+≤
+‖
+a
+‖
+‖
+b
+‖
+{\displaystyle \|ab\|\leq \|a\|\|b\|}
+ for all 
+a
+,
+b
+∈
+A
+.
+{\displaystyle a,b\in A.}
+If 
+X
+{\displaystyle X}
+ is a normed space and 
+K
+{\displaystyle \mathbb {K} }
+ the underlying field (either the real or the complex numbers), the continuous dual space is the space of continuous linear maps from 
+X
+{\displaystyle X}
+ into 
+K
+,
+{\displaystyle \mathbb {K} ,}
+ or continuous linear functionals. 
+The notation for the continuous dual is 
+X
+′
+=
+B
+(
+X
+,
+K
+)
+{\displaystyle X^{\prime }=B(X,\mathbb {K} )}
+ in this article.[27] 
+Since 
+K
+{\displaystyle \mathbb {K} }
+ is a Banach space (using the absolute value as norm), the dual 
+X
+′
+{\displaystyle X^{\prime }}
+ is a Banach space, for every normed space 
+X
+.
+{\displaystyle X.}
+The main tool for proving the existence of continuous linear functionals is the Hahn–Banach theorem.
+Hahn–Banach theorem — Let 
+X
+{\displaystyle X}
+ be a vector space over the field 
+K
+=
+R
+,
+C
+.
+{\displaystyle \mathbb {K} =\mathbb {R} ,\mathbb {C} .}
+ Let further
+Then, there exists a linear functional 
+F
+:
+X
+→
+K
+{\displaystyle F:X\to \mathbb {K} }
+ so that 
+F
+|
+Y
+=
+f
+,
+ and 
+ for all 
+x
+∈
+X
+,
+ 
+ 
+Re
+⁡
+(
+F
+(
+x
+)
+)
+≤
+p
+(
+x
+)
+.
+{\displaystyle F{\big \vert }_{Y}=f,\quad {\text{ and }}\quad {\text{ for all }}x\in X,\ \ \operatorname {Re} (F(x))\leq p(x).}
+In particular, every continuous linear functional on a subspace of a normed space can be continuously extended to the whole space, without increasing the norm of the functional.[28] 
+An important special case is the following: for every vector 
+x
+{\displaystyle x}
+ in a normed space 
+X
+,
+{\displaystyle X,}
+ there exists a continuous linear functional 
+f
+{\displaystyle f}
+ on 
+X
+{\displaystyle X}
+ such that
+f
+(
+x
+)
+=
+‖
+x
+‖
+X
+,
+‖
+f
+‖
+X
+′
+≤
+1.
+{\displaystyle f(x)=\|x\|_{X},\quad \|f\|_{X^{\prime }}\leq 1.}
+When 
+x
+{\displaystyle x}
+ is not equal to the 
+0
+{\displaystyle \mathbf {0} }
+ vector, the functional 
+f
+{\displaystyle f}
+ must have norm one, and is called a norming functional for 
+x
+.
+{\displaystyle x.}
+The Hahn–Banach separation theorem states that two disjoint non-empty convex sets in a real Banach space, one of them open, can be separated by a closed affine hyperplane. 
+The open convex set lies strictly on one side of the hyperplane, the second convex set lies on the other side but may touch the hyperplane.[29]
+A subset 
+S
+{\displaystyle S}
+ in a Banach space 
+X
+{\displaystyle X}
+ is total if the linear span of 
+S
+{\displaystyle S}
+ is dense in 
+X
+.
+{\displaystyle X.}
+ The subset 
+S
+{\displaystyle S}
+ is total in 
+X
+{\displaystyle X}
+ if and only if the only continuous linear functional that vanishes on 
+S
+{\displaystyle S}
+ is the 
+0
+{\displaystyle \mathbf {0} }
+ functional: this equivalence follows from the Hahn–Banach theorem.
+If 
+X
+{\displaystyle X}
+ is the direct sum of two closed linear subspaces 
+M
+{\displaystyle M}
+ and 
+N
+,
+{\displaystyle N,}
+ then the dual 
+X
+′
+{\displaystyle X^{\prime }}
+ of 
+X
+{\displaystyle X}
+ is isomorphic to the direct sum of the duals of 
+M
+{\displaystyle M}
+ and 
+N
+.
+{\displaystyle N.}
+[30] 
+If 
+M
+{\displaystyle M}
+ is a closed linear subspace in 
+X
+,
+{\displaystyle X,}
+ one can associate the orthogonal of 
+M
+{\displaystyle M}
+ in the dual,
+M
+b
+o
+t
+=
+{
+x
+′
+∈
+X
+:
+x
+′
+(
+m
+)
+=
+0
+,
+ 
+ for all 
+m
+∈
+M
+}
+.
+{\displaystyle M^{bot}=\left\{x^{\prime }\in X:x^{\prime }(m)=0,\ {\text{ for all }}m\in M\right\}.}
+The orthogonal 
+M
+⊥
+{\displaystyle M^{\bot }}
+ is a closed linear subspace of the dual. The dual of 
+M
+{\displaystyle M}
+ is isometrically isomorphic to 
+X
+′
+/
+M
+⊥
+.
+{\displaystyle X'/M^{\bot }.}
+The dual of 
+X
+/
+M
+{\displaystyle X/M}
+ is isometrically isomorphic to 
+M
+⊥
+.
+{\displaystyle M^{\bot }.}
+[31]
+The dual of a separable Banach space need not be separable, but:
+Theorem[32] — Let 
+X
+{\displaystyle X}
+ be a normed space. If 
+X
+′
+{\displaystyle X'}
+ is separable, then 
+X
+{\displaystyle X}
+ is separable.
+When 
+X
+′
+{\displaystyle X'}
+ is separable, the above criterion for totality can be used for proving the existence of a countable total subset in 
+X
+.
+{\displaystyle X.}
+The weak topology on a Banach space 
+X
+{\displaystyle X}
+ is the coarsest topology on 
+X
+{\displaystyle X}
+ for which all elements 
+x
+′
+{\displaystyle x^{\prime }}
+ in the continuous dual space 
+X
+′
+{\displaystyle X^{\prime }}
+ are continuous. 
+The norm topology is therefore finer than the weak topology. 
+It follows from the Hahn–Banach separation theorem that the weak topology is Hausdorff, and that a norm-closed convex subset of a Banach space is also weakly closed.[33] 
+A norm-continuous linear map between two Banach spaces 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ is also weakly continuous, that is, continuous from the weak topology of 
+X
+{\displaystyle X}
+ to that of 
+Y
+.
+{\displaystyle Y.}
+[34]
+If 
+X
+{\displaystyle X}
+ is infinite-dimensional, there exist linear maps which are not continuous. The space 
+X
+∗
+{\displaystyle X^{*}}
+ of all linear maps from 
+X
+{\displaystyle X}
+ to the underlying field 
+K
+{\displaystyle \mathbb {K} }
+ (this space 
+X
+∗
+{\displaystyle X^{*}}
+ is called the algebraic dual space, to distinguish it from 
+X
+′
+{\displaystyle X^{\prime }}
+ also induces a topology on 
+X
+{\displaystyle X}
+ which is finer than the weak topology, and much less used in functional analysis.
+On a dual space 
+X
+′
+,
+{\displaystyle X^{\prime },}
+ there is a topology weaker than the weak topology of 
+X
+′
+,
+{\displaystyle X^{\prime },}
+ called weak* topology. 
+It is the coarsest topology on 
+X
+′
+{\displaystyle X^{\prime }}
+ for which all evaluation maps 
+x
+′
+∈
+X
+′
+↦
+x
+′
+(
+x
+)
+,
+{\displaystyle x^{\prime }\in X^{\prime }\mapsto x^{\prime }(x),}
+ where 
+x
+{\displaystyle x}
+ ranges over 
+X
+,
+{\displaystyle X,}
+ are continuous. 
+Its importance comes from the Banach–Alaoglu theorem.
+Banach–Alaoglu theorem — Let 
+X
+{\displaystyle X}
+ be a normed vector space. Then the closed unit ball 
+B
+=
+{
+x
+∈
+X
+:
+‖
+x
+‖
+≤
+1
+}
+{\displaystyle B=\left\{x\in X:\|x\|\leq 1\right\}}
+ of the dual space is compact in the weak* topology.
+The Banach–Alaoglu theorem can be proved using Tychonoff's theorem about infinite products of compact Hausdorff spaces. 
+When 
+X
+{\displaystyle X}
+ is separable, the unit ball 
+B
+′
+{\displaystyle B^{\prime }}
+ of the dual is a metrizable compact in the weak* topology.[35]
+The dual of 
+c
+0
+{\displaystyle c_{0}}
+ is isometrically isomorphic to 
+ℓ
+1
+{\displaystyle \ell ^{1}}
+: for every bounded linear functional 
+f
+{\displaystyle f}
+ on 
+c
+0
+,
+{\displaystyle c_{0},}
+ there is a unique element 
+y
+=
+{
+y
+n
+}
+∈
+ℓ
+1
+{\displaystyle y=\left\{y_{n}\right\}\in \ell ^{1}}
+ such that
+f
+(
+x
+)
+=
+∑
+n
+∈
+N
+x
+n
+y
+n
+,
+x
+=
+{
+x
+n
+}
+∈
+c
+0
+,
+ 
+ 
+and
+ 
+ 
+‖
+f
+‖
+(
+c
+0
+)
+′
+=
+‖
+y
+‖
+ℓ
+1
+.
+{\displaystyle f(x)=\sum _{n\in \mathbb {N} }x_{n}y_{n},\qquad x=\{x_{n}\}\in c_{0},\ \ {\text{and}}\ \ \|f\|_{(c_{0})'}=\|y\|_{\ell _{1}}.}
+The dual of 
+ℓ
+1
+{\displaystyle \ell ^{1}}
+ is isometrically isomorphic to 
+ℓ
+∞
+{\displaystyle \ell ^{\infty }}
+. 
+The dual of Lebesgue space 
+L
+p
+(
+[
+0
+,
+1
+]
+)
+{\displaystyle L^{p}([0,1])}
+ is isometrically isomorphic to 
+L
+q
+(
+[
+0
+,
+1
+]
+)
+{\displaystyle L^{q}([0,1])}
+ when 
+1
+≤
+p
+<
+∞
+{\displaystyle 1\leq p<\infty }
+ and 
+1
+p
++
+1
+q
+=
+1.
+{\displaystyle {\frac {1}{p}}+{\frac {1}{q}}=1.}
+For every vector 
+y
+{\displaystyle y}
+ in a Hilbert space 
+H
+,
+{\displaystyle H,}
+ the mapping
+x
+∈
+H
+→
+f
+y
+(
+x
+)
+=
+⟨
+x
+,
+y
+⟩
+{\displaystyle x\in H\to f_{y}(x)=\langle x,y\rangle }
+defines a continuous linear functional 
+f
+y
+{\displaystyle f_{y}}
+ on 
+H
+.
+{\displaystyle H.}
+The Riesz representation theorem states that every continuous linear functional on 
+H
+{\displaystyle H}
+ is of the form 
+f
+y
+{\displaystyle f_{y}}
+ for a uniquely defined vector 
+y
+{\displaystyle y}
+ in 
+H
+.
+{\displaystyle H.}
+The mapping 
+y
+∈
+H
+→
+f
+y
+{\displaystyle y\in H\to f_{y}}
+ is an antilinear isometric bijection from 
+H
+{\displaystyle H}
+ onto its dual 
+H
+′
+.
+{\displaystyle H'.}
+When the scalars are real, this map is an isometric isomorphism.
+When 
+K
+{\displaystyle K}
+ is a compact Hausdorff topological space, the dual 
+M
+(
+K
+)
+{\displaystyle M(K)}
+ of 
+C
+(
+K
+)
+{\displaystyle C(K)}
+ is the space of Radon measures in the sense of Bourbaki.[36] 
+The subset 
+P
+(
+K
+)
+{\displaystyle P(K)}
+ of 
+M
+(
+K
+)
+{\displaystyle M(K)}
+ consisting of non-negative measures of mass 1 (probability measures) is a convex w*-closed subset of the unit ball of 
+M
+(
+K
+)
+.
+{\displaystyle M(K).}
+The extreme points of 
+P
+(
+K
+)
+{\displaystyle P(K)}
+ are the Dirac measures on 
+K
+.
+{\displaystyle K.}
+The set of Dirac measures on 
+K
+,
+{\displaystyle K,}
+ equipped with the w*-topology, is homeomorphic to 
+K
+.
+{\displaystyle K.}
+Banach–Stone Theorem — If 
+K
+{\displaystyle K}
+ and 
+L
+{\displaystyle L}
+ are compact Hausdorff spaces and if 
+C
+(
+K
+)
+{\displaystyle C(K)}
+ and 
+C
+(
+L
+)
+{\displaystyle C(L)}
+ are isometrically isomorphic, then the topological spaces 
+K
+{\displaystyle K}
+ and 
+L
+{\displaystyle L}
+ are homeomorphic.[37][38]
+The result has been extended by Amir[39] and Cambern[40] to the case when the multiplicative Banach–Mazur distance between 
+C
+(
+K
+)
+{\displaystyle C(K)}
+ and 
+C
+(
+L
+)
+{\displaystyle C(L)}
+ is 
+<
+2.
+{\displaystyle <2.}
+The theorem is no longer true when the distance is 
+=
+2.
+{\displaystyle =2.}
+[41]
+In the commutative Banach algebra 
+C
+(
+K
+)
+,
+{\displaystyle C(K),}
+ the maximal ideals are precisely kernels of Dirac measures on 
+K
+,
+{\displaystyle K,}
+I
+x
+=
+ker
+⁡
+δ
+x
+=
+{
+f
+∈
+C
+(
+K
+)
+:
+f
+(
+x
+)
+=
+0
+}
+,
+x
+∈
+K
+.
+{\displaystyle I_{x}=\ker \delta _{x}=\{f\in C(K):f(x)=0\},\quad x\in K.}
+More generally, by the Gelfand–Mazur theorem, the maximal ideals of a unital commutative Banach algebra can be identified with its characters—not merely as sets but as topological spaces: the former with the hull-kernel topology and the latter with the w*-topology. 
+In this identification, the maximal ideal space can be viewed as a w*-compact subset of the unit ball in the dual 
+A
+′
+.
+{\displaystyle A'.}
+Theorem — If 
+K
+{\displaystyle K}
+ is a compact Hausdorff space, then the maximal ideal space 
+Ξ
+{\displaystyle \Xi }
+ of the Banach algebra 
+C
+(
+K
+)
+{\displaystyle C(K)}
+ is homeomorphic to 
+K
+.
+{\displaystyle K.}
+[37]
+Not every unital commutative Banach algebra is of the form 
+C
+(
+K
+)
+{\displaystyle C(K)}
+ for some compact Hausdorff space 
+K
+.
+{\displaystyle K.}
+ However, this statement holds if one places 
+C
+(
+K
+)
+{\displaystyle C(K)}
+ in the smaller category of commutative C*-algebras. 
+Gelfand's representation theorem for commutative C*-algebras states that every commutative unital C*-algebra 
+A
+{\displaystyle A}
+ is isometrically isomorphic to a 
+C
+(
+K
+)
+{\displaystyle C(K)}
+ space.[42] 
+The Hausdorff compact space 
+K
+{\displaystyle K}
+ here is again the maximal ideal space, also called the spectrum of 
+A
+{\displaystyle A}
+ in the C*-algebra context.
+If 
+X
+{\displaystyle X}
+ is a normed space, the (continuous) dual 
+X
+″
+{\displaystyle X''}
+ of the dual 
+X
+′
+{\displaystyle X'}
+ is called bidual, or second dual of 
+X
+.
+{\displaystyle X.}
+For every normed space 
+X
+,
+{\displaystyle X,}
+ there is a natural map,
+{
+F
+X
+:
+X
+→
+X
+″
+F
+X
+(
+x
+)
+(
+f
+)
+=
+f
+(
+x
+)
+ for all 
+x
+∈
+X
+,
+ and for all 
+f
+∈
+X
+′
+{\displaystyle {\begin{cases}F_{X}:X\to X''\\F_{X}(x)(f)=f(x)&{\text{ for all }}x\in X,{\text{ and for all }}f\in X'\end{cases}}}
+This defines 
+F
+X
+(
+x
+)
+{\displaystyle F_{X}(x)}
+ as a continuous linear functional on 
+X
+′
+,
+{\displaystyle X^{\prime },}
+ that is, an element of 
+X
+′
+′
+.
+{\displaystyle X^{\prime \prime }.}
+ The map 
+F
+X
+:
+x
+→
+F
+X
+(
+x
+)
+{\displaystyle F_{X}:x\to F_{X}(x)}
+ is a linear map from 
+X
+{\displaystyle X}
+ to 
+X
+′
+′
+.
+{\displaystyle X^{\prime \prime }.}
+As a consequence of the existence of a norming functional 
+f
+{\displaystyle f}
+ for every 
+x
+∈
+X
+,
+{\displaystyle x\in X,}
+ this map 
+F
+X
+{\displaystyle F_{X}}
+ is isometric, thus injective.
+For example, the dual of 
+X
+=
+c
+0
+{\displaystyle X=c_{0}}
+ is identified with 
+ℓ
+1
+,
+{\displaystyle \ell ^{1},}
+ and the dual of 
+ℓ
+1
+{\displaystyle \ell ^{1}}
+ is identified with 
+ℓ
+∞
+,
+{\displaystyle \ell ^{\infty },}
+ the space of bounded scalar sequences. 
+Under these identifications, 
+F
+X
+{\displaystyle F_{X}}
+ is the inclusion map from 
+c
+0
+{\displaystyle c_{0}}
+ to 
+ℓ
+∞
+.
+{\displaystyle \ell ^{\infty }.}
+ It is indeed isometric, but not onto.
+If 
+F
+X
+{\displaystyle F_{X}}
+ is surjective, then the normed space 
+X
+{\displaystyle X}
+ is called reflexive (see below). 
+Being the dual of a normed space, the bidual 
+X
+″
+{\displaystyle X''}
+ is complete, therefore, every reflexive normed space is a Banach space.
+Using the isometric embedding 
+F
+X
+,
+{\displaystyle F_{X},}
+ it is customary to consider a normed space 
+X
+{\displaystyle X}
+ as a subset of its bidual. 
+When 
+X
+{\displaystyle X}
+ is a Banach space, it is viewed as a closed linear subspace of 
+X
+′
+′
+.
+{\displaystyle X^{\prime \prime }.}
+ If 
+X
+{\displaystyle X}
+ is not reflexive, the unit ball of 
+X
+{\displaystyle X}
+ is a proper subset of the unit ball of 
+X
+′
+′
+.
+{\displaystyle X^{\prime \prime }.}
+The Goldstine theorem states that the unit ball of a normed space is weakly*-dense in the unit ball of the bidual. 
+In other words, for every 
+x
+″
+{\displaystyle x''}
+ in the bidual, there exists a net 
+(
+x
+i
+)
+i
+∈
+I
+{\displaystyle \left(x_{i}\right)_{i\in I}}
+ in 
+X
+{\displaystyle X}
+ so that
+sup
+i
+∈
+I
+‖
+x
+i
+‖
+≤
+‖
+x
+″
+‖
+,
+ 
+ 
+x
+″
+(
+f
+)
+=
+lim
+i
+f
+(
+x
+i
+)
+,
+f
+∈
+X
+′
+.
+{\displaystyle \sup _{i\in I}\left\|x_{i}\right\|\leq \|x''\|,\ \ x''(f)=\lim _{i}f\left(x_{i}\right),\quad f\in X'.}
+The net may be replaced by a weakly*-convergent sequence when the dual 
+X
+′
+{\displaystyle X'}
+ is separable. 
+On the other hand, elements of the bidual of 
+ℓ
+1
+{\displaystyle \ell ^{1}}
+ that are not in 
+ℓ
+1
+{\displaystyle \ell ^{1}}
+ cannot be weak*-limit of sequences in 
+ℓ
+1
+,
+{\displaystyle \ell ^{1},}
+ since 
+ℓ
+1
+{\displaystyle \ell ^{1}}
+ is weakly sequentially complete.
+Here are the main general results about Banach spaces that go back to the time of Banach's book (Banach (1932)) and are related to the Baire category theorem. 
+According to this theorem, a complete metric space (such as a Banach space, a Fréchet space or an F-space) cannot be equal to a union of countably many closed subsets with empty interiors. 
+Therefore, a Banach space cannot be the union of countably many closed subspaces, unless it is already equal to one of them; a Banach space with a countable Hamel basis is finite-dimensional.
+Banach–Steinhaus Theorem — Let 
+X
+{\displaystyle X}
+ be a Banach space and 
+Y
+{\displaystyle Y}
+ be a normed vector space. Suppose that 
+F
+{\displaystyle F}
+ is a collection of continuous linear operators from 
+X
+{\displaystyle X}
+ to 
+Y
+.
+{\displaystyle Y.}
+ The uniform boundedness principle states that if for all 
+x
+{\displaystyle x}
+ in 
+X
+{\displaystyle X}
+ we have 
+sup
+T
+∈
+F
+‖
+T
+(
+x
+)
+‖
+Y
+<
+∞
+,
+{\displaystyle \sup _{T\in F}\|T(x)\|_{Y}<\infty ,}
+ then 
+sup
+T
+∈
+F
+‖
+T
+‖
+Y
+<
+∞
+.
+{\displaystyle \sup _{T\in F}\|T\|_{Y}<\infty .}
+The Banach–Steinhaus theorem is not limited to Banach spaces. 
+It can be extended for example to the case where 
+X
+{\displaystyle X}
+ is a Fréchet space, provided the conclusion is modified as follows: under the same hypothesis, there exists a neighborhood 
+U
+{\displaystyle U}
+ of 
+0
+{\displaystyle \mathbf {0} }
+ in 
+X
+{\displaystyle X}
+ such that all 
+T
+{\displaystyle T}
+ in 
+F
+{\displaystyle F}
+ are uniformly bounded on 
+U
+,
+{\displaystyle U,}
+sup
+T
+∈
+F
+sup
+x
+∈
+U
+‖
+T
+(
+x
+)
+‖
+Y
+<
+∞
+.
+{\displaystyle \sup _{T\in F}\sup _{x\in U}\;\|T(x)\|_{Y}<\infty .}
+The Open Mapping Theorem — Let 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ be Banach spaces and 
+T
+:
+X
+→
+Y
+{\displaystyle T:X\to Y}
+ be a surjective continuous linear operator, then 
+T
+{\displaystyle T}
+ is an open map.
+Corollary — Every one-to-one bounded linear operator from a Banach space onto a Banach space is an isomorphism.
+The First Isomorphism Theorem for Banach spaces — Suppose that 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ are Banach spaces and that 
+T
+∈
+B
+(
+X
+,
+Y
+)
+.
+{\displaystyle T\in B(X,Y).}
+ Suppose further that the range of 
+T
+{\displaystyle T}
+ is closed in 
+Y
+.
+{\displaystyle Y.}
+ Then 
+X
+/
+ker
+⁡
+T
+{\displaystyle X/\ker T}
+ is isomorphic to 
+T
+(
+X
+)
+.
+{\displaystyle T(X).}
+This result is a direct consequence of the preceding Banach isomorphism theorem and of the canonical factorization of bounded linear maps.
+Corollary — If a Banach space 
+X
+{\displaystyle X}
+ is the internal direct sum of closed subspaces 
+M
+1
+,
+…
+,
+M
+n
+,
+{\displaystyle M_{1},\ldots ,M_{n},}
+ then 
+X
+{\displaystyle X}
+ is isomorphic to 
+M
+1
+⊕
+⋯
+⊕
+M
+n
+.
+{\displaystyle M_{1}\oplus \cdots \oplus M_{n}.}
+This is another consequence of Banach's isomorphism theorem, applied to the continuous bijection from 
+M
+1
+⊕
+⋯
+⊕
+M
+n
+{\displaystyle M_{1}\oplus \cdots \oplus M_{n}}
+ onto 
+X
+{\displaystyle X}
+ sending 
+m
+1
+,
+⋯
+,
+m
+n
+{\displaystyle m_{1},\cdots ,m_{n}}
+ to the sum 
+m
+1
++
+⋯
++
+m
+n
+.
+{\displaystyle m_{1}+\cdots +m_{n}.}
+The Closed Graph Theorem — Let 
+T
+:
+X
+→
+Y
+{\displaystyle T:X\to Y}
+ be a linear mapping between Banach spaces. The graph of 
+T
+{\displaystyle T}
+ is closed in 
+X
+×
+Y
+{\displaystyle X\times Y}
+ if and only if 
+T
+{\displaystyle T}
+ is continuous.
+The normed space 
+X
+{\displaystyle X}
+ is called reflexive when the natural map
+{
+F
+X
+:
+X
+→
+X
+″
+F
+X
+(
+x
+)
+(
+f
+)
+=
+f
+(
+x
+)
+ for all 
+x
+∈
+X
+,
+ and for all 
+f
+∈
+X
+′
+{\displaystyle {\begin{cases}F_{X}:X\to X''\\F_{X}(x)(f)=f(x)&{\text{ for all }}x\in X,{\text{ and for all }}f\in X'\end{cases}}}
+is surjective. Reflexive normed spaces are Banach spaces.
+Theorem — If 
+X
+{\displaystyle X}
+ is a reflexive Banach space, every closed subspace of 
+X
+{\displaystyle X}
+ and every quotient space of 
+X
+{\displaystyle X}
+ are reflexive.
+This is a consequence of the Hahn–Banach theorem. 
+Further, by the open mapping theorem, if there is a bounded linear operator from the Banach space 
+X
+{\displaystyle X}
+ onto the Banach space 
+Y
+,
+{\displaystyle Y,}
+ then 
+Y
+{\displaystyle Y}
+ is reflexive.
+Theorem — If 
+X
+{\displaystyle X}
+ is a Banach space, then 
+X
+{\displaystyle X}
+ is reflexive if and only if 
+X
+′
+{\displaystyle X^{\prime }}
+ is reflexive.
+Corollary — Let 
+X
+{\displaystyle X}
+ be a reflexive Banach space. Then 
+X
+{\displaystyle X}
+ is separable if and only if 
+X
+′
+{\displaystyle X^{\prime }}
+ is separable.
+Indeed, if the dual 
+Y
+′
+{\displaystyle Y^{\prime }}
+ of a Banach space 
+Y
+{\displaystyle Y}
+ is separable, then 
+Y
+{\displaystyle Y}
+ is separable. 
+If 
+X
+{\displaystyle X}
+ is reflexive and separable, then the dual of 
+X
+′
+{\displaystyle X^{\prime }}
+ is separable, so 
+X
+′
+{\displaystyle X^{\prime }}
+ is separable.
+Theorem — Suppose that 
+X
+1
+,
+…
+,
+X
+n
+{\displaystyle X_{1},\ldots ,X_{n}}
+ are normed spaces and that 
+X
+=
+X
+1
+⊕
+⋯
+⊕
+X
+n
+.
+{\displaystyle X=X_{1}\oplus \cdots \oplus X_{n}.}
+ Then 
+X
+{\displaystyle X}
+ is reflexive if and only if each 
+X
+j
+{\displaystyle X_{j}}
+ is reflexive.
+Hilbert spaces are reflexive. The 
+L
+p
+{\displaystyle L^{p}}
+ spaces are reflexive when 
+1
+<
+p
+<
+∞
+.
+{\displaystyle 1<p<\infty .}
+ More generally, uniformly convex spaces are reflexive, by the Milman–Pettis theorem. 
+The spaces 
+c
+0
+,
+ℓ
+1
+,
+L
+1
+(
+[
+0
+,
+1
+]
+)
+,
+C
+(
+[
+0
+,
+1
+]
+)
+{\displaystyle c_{0},\ell ^{1},L^{1}([0,1]),C([0,1])}
+ are not reflexive. 
+In these examples of non-reflexive spaces 
+X
+,
+{\displaystyle X,}
+ the bidual 
+X
+″
+{\displaystyle X''}
+ is "much larger" than 
+X
+.
+{\displaystyle X.}
+Namely, under the natural isometric embedding of 
+X
+{\displaystyle X}
+ into 
+X
+″
+{\displaystyle X''}
+ given by the Hahn–Banach theorem, the quotient 
+X
+′
+′
+/
+X
+{\displaystyle X^{\prime \prime }/X}
+ is infinite-dimensional, and even nonseparable. 
+However, Robert C. James has constructed an example[43] of a non-reflexive space, usually called "the James space" and denoted by 
+J
+,
+{\displaystyle J,}
+[44] such that the quotient 
+J
+′
+′
+/
+J
+{\displaystyle J^{\prime \prime }/J}
+ is one-dimensional. 
+Furthermore, this space 
+J
+{\displaystyle J}
+ is isometrically isomorphic to its bidual.
+Theorem — A Banach space 
+X
+{\displaystyle X}
+ is reflexive if and only if its unit ball is compact in the weak topology.
+When 
+X
+{\displaystyle X}
+ is reflexive, it follows that all closed and bounded convex subsets of 
+X
+{\displaystyle X}
+ are weakly compact. 
+In a Hilbert space 
+H
+,
+{\displaystyle H,}
+ the weak compactness of the unit ball is very often used in the following way: every bounded sequence in 
+H
+{\displaystyle H}
+ has weakly convergent subsequences.
+Weak compactness of the unit ball provides a tool for finding solutions in reflexive spaces to certain optimization problems. 
+For example, every convex continuous function on the unit ball 
+B
+{\displaystyle B}
+ of a reflexive space attains its minimum at some point in 
+B
+.
+{\displaystyle B.}
+As a special case of the preceding result, when 
+X
+{\displaystyle X}
+ is a reflexive space over 
+R
+,
+{\displaystyle \mathbb {R} ,}
+ every continuous linear functional 
+f
+{\displaystyle f}
+ in 
+X
+′
+{\displaystyle X^{\prime }}
+ attains its maximum 
+‖
+f
+‖
+{\displaystyle \|f\|}
+ on the unit ball of 
+X
+.
+{\displaystyle X.}
+The following theorem of Robert C. James provides a converse statement.
+James' Theorem — For a Banach space the following two properties are equivalent:
+The theorem can be extended to give a characterization of weakly compact convex sets.
+On every non-reflexive Banach space 
+X
+,
+{\displaystyle X,}
+ there exist continuous linear functionals that are not norm-attaining. 
+However, the Bishop–Phelps theorem[45] states that norm-attaining functionals are norm dense in the dual 
+X
+′
+{\displaystyle X^{\prime }}
+ of 
+X
+.
+{\displaystyle X.}
+A sequence 
+{
+x
+n
+}
+{\displaystyle \left\{x_{n}\right\}}
+ in a Banach space 
+X
+{\displaystyle X}
+ is weakly convergent to a vector 
+x
+∈
+X
+{\displaystyle x\in X}
+ if 
+{
+f
+(
+x
+n
+)
+}
+{\displaystyle \left\{f\left(x_{n}\right)\right\}}
+ converges to 
+f
+(
+x
+)
+{\displaystyle f(x)}
+ for every continuous linear functional 
+f
+{\displaystyle f}
+ in the dual 
+X
+′
+.
+{\displaystyle X^{\prime }.}
+ The sequence 
+{
+x
+n
+}
+{\displaystyle \left\{x_{n}\right\}}
+ is a weakly Cauchy sequence if 
+{
+f
+(
+x
+n
+)
+}
+{\displaystyle \left\{f\left(x_{n}\right)\right\}}
+ converges to a scalar limit 
+L
+(
+f
+)
+,
+,
+{\displaystyle L(f),,}
+ for every 
+f
+{\displaystyle f}
+ in 
+X
+′
+.
+{\displaystyle X^{\prime }.}
+A sequence 
+{
+f
+n
+}
+{\displaystyle \left\{f_{n}\right\}}
+ in the dual 
+X
+′
+{\displaystyle X^{\prime }}
+ is weakly* convergent to a functional 
+f
+∈
+X
+′
+{\displaystyle f\in X^{\prime }}
+ if 
+f
+n
+(
+x
+)
+{\displaystyle f_{n}(x)}
+ converges to 
+f
+(
+x
+)
+{\displaystyle f(x)}
+ for every 
+x
+{\displaystyle x}
+ in 
+X
+.
+{\displaystyle X.}
+Weakly Cauchy sequences, weakly convergent and weakly* convergent sequences are norm bounded, as a consequence of the Banach–Steinhaus theorem.
+When the sequence 
+{
+x
+n
+}
+{\displaystyle \left\{x_{n}\right\}}
+ in 
+X
+{\displaystyle X}
+ is a weakly Cauchy sequence, the limit 
+L
+{\displaystyle L}
+ above defines a bounded linear functional on the dual 
+X
+′
+,
+{\displaystyle X^{\prime },}
+ that is, an element 
+L
+{\displaystyle L}
+ of the bidual of 
+X
+,
+{\displaystyle X,}
+ and 
+L
+{\displaystyle L}
+ is the limit of 
+{
+x
+n
+}
+{\displaystyle \left\{x_{n}\right\}}
+ in the weak*-topology of the bidual. 
+The Banach space 
+X
+{\displaystyle X}
+ is weakly sequentially complete if every weakly Cauchy sequence is weakly convergent in 
+X
+.
+{\displaystyle X.}
+It follows from the preceding discussion that reflexive spaces are weakly sequentially complete.
+Theorem [46] — For every measure 
+μ
+,
+{\displaystyle \mu ,}
+ the space 
+L
+1
+(
+μ
+)
+{\displaystyle L^{1}(\mu )}
+ is weakly sequentially complete.
+An orthonormal sequence in a Hilbert space is a simple example of a weakly convergent sequence, with limit equal to the 
+0
+{\displaystyle \mathbf {0} }
+ vector. 
+The unit vector basis of 
+ℓ
+p
+{\displaystyle \ell ^{p}}
+ for 
+1
+<
+p
+<
+∞
+,
+{\displaystyle 1<p<\infty ,}
+ or of 
+c
+0
+,
+{\displaystyle c_{0},}
+ is another example of a weakly null sequence, that is, a sequence that converges weakly to 
+0
+.
+{\displaystyle \mathbf {0} .}
+For every weakly null sequence in a Banach space, there exists a sequence of convex combinations of vectors from the given sequence that is norm-converging to 
+0
+.
+{\displaystyle \mathbf {0} .}
+[47]
+The unit vector basis of 
+ℓ
+1
+{\displaystyle \ell ^{1}}
+ is not weakly Cauchy. 
+Weakly Cauchy sequences in 
+ℓ
+1
+{\displaystyle \ell ^{1}}
+ are weakly convergent, since 
+L
+1
+{\displaystyle L^{1}}
+-spaces are weakly sequentially complete. 
+Actually, weakly convergent sequences in 
+ℓ
+1
+{\displaystyle \ell ^{1}}
+ are norm convergent.[48] This means that 
+ℓ
+1
+{\displaystyle \ell ^{1}}
+ satisfies Schur's property.
+Weakly Cauchy sequences and the 
+ℓ
+1
+{\displaystyle \ell ^{1}}
+ basis are the opposite cases of the dichotomy established in the following deep result of H. P. Rosenthal.[49]
+Theorem[50] — Let 
+{
+x
+n
+}
+n
+∈
+N
+{\displaystyle \left\{x_{n}\right\}_{n\in \mathbb {N} }}
+ be a bounded sequence in a Banach space. Either 
+{
+x
+n
+}
+n
+∈
+N
+{\displaystyle \left\{x_{n}\right\}_{n\in \mathbb {N} }}
+ has a weakly Cauchy subsequence, or it admits a subsequence equivalent to the standard unit vector basis of 
+ℓ
+1
+.
+{\displaystyle \ell ^{1}.}
+A complement to this result is due to Odell and Rosenthal (1975).
+Theorem[51] — Let 
+X
+{\displaystyle X}
+ be a separable Banach space. The following are equivalent:
+By the Goldstine theorem, every element of the unit ball 
+B
+′
+′
+{\displaystyle B^{\prime \prime }}
+ of 
+X
+′
+′
+{\displaystyle X^{\prime \prime }}
+ is weak*-limit of a net in the unit ball of 
+X
+.
+{\displaystyle X.}
+ When 
+X
+{\displaystyle X}
+ does not contain 
+ℓ
+1
+,
+{\displaystyle \ell ^{1},}
+ every element of 
+B
+′
+′
+{\displaystyle B^{\prime \prime }}
+ is weak*-limit of a sequence in the unit ball of 
+X
+.
+{\displaystyle X.}
+[52]
+When the Banach space 
+X
+{\displaystyle X}
+ is separable, the unit ball of the dual 
+X
+′
+,
+{\displaystyle X^{\prime },}
+ equipped with the weak*-topology, is a metrizable compact space 
+K
+,
+{\displaystyle K,}
+[35] and every element 
+x
+′
+′
+{\displaystyle x^{\prime \prime }}
+ in the bidual 
+X
+′
+′
+{\displaystyle X^{\prime \prime }}
+ defines a bounded function on 
+K
+{\displaystyle K}
+:
+x
+′
+∈
+K
+↦
+x
+″
+(
+x
+′
+)
+,
+|
+x
+″
+(
+x
+′
+)
+|
+≤
+‖
+x
+″
+‖
+.
+{\displaystyle x'\in K\mapsto x''(x'),\quad \left|x''(x')\right|\leq \left\|x''\right\|.}
+This function is continuous for the compact topology of 
+K
+{\displaystyle K}
+ if and only if 
+x
+′
+′
+{\displaystyle x^{\prime \prime }}
+ is actually in 
+X
+,
+{\displaystyle X,}
+ considered as subset of 
+X
+′
+′
+.
+{\displaystyle X^{\prime \prime }.}
+Assume in addition for the rest of the paragraph that 
+X
+{\displaystyle X}
+ does not contain 
+ℓ
+1
+.
+{\displaystyle \ell ^{1}.}
+By the preceding result of Odell and Rosenthal, the function 
+x
+′
+′
+{\displaystyle x^{\prime \prime }}
+ is the pointwise limit on 
+K
+{\displaystyle K}
+ of a sequence 
+{
+x
+n
+}
+⊆
+X
+{\displaystyle \left\{x_{n}\right\}\subseteq X}
+ of continuous functions on 
+K
+,
+{\displaystyle K,}
+ it is therefore a first Baire class function on 
+K
+.
+{\displaystyle K.}
+The unit ball of the bidual is a pointwise compact subset of the first Baire class on 
+K
+.
+{\displaystyle K.}
+[53]
+When 
+X
+{\displaystyle X}
+ is separable, the unit ball of the dual is weak*-compact by the Banach–Alaoglu theorem and metrizable for the weak* topology,[35] hence every bounded sequence in the dual has weakly* convergent subsequences. 
+This applies to separable reflexive spaces, but more is true in this case, as stated below.
+The weak topology of a Banach space 
+X
+{\displaystyle X}
+ is metrizable if and only if 
+X
+{\displaystyle X}
+ is finite-dimensional.[54] If the dual 
+X
+′
+{\displaystyle X'}
+ is separable, the weak topology of the unit ball of 
+X
+{\displaystyle X}
+ is metrizable. 
+This applies in particular to separable reflexive Banach spaces. 
+Although the weak topology of the unit ball is not metrizable in general, one can characterize weak compactness using sequences.
+Eberlein–Šmulian theorem[55] — A set 
+A
+{\displaystyle A}
+ in a Banach space is relatively weakly compact if and only if every sequence 
+{
+a
+n
+}
+{\displaystyle \left\{a_{n}\right\}}
+ in 
+A
+{\displaystyle A}
+ has a weakly convergent subsequence.
+A Banach space 
+X
+{\displaystyle X}
+ is reflexive if and only if each bounded sequence in 
+X
+{\displaystyle X}
+ has a weakly convergent subsequence.[56]
+A weakly compact subset 
+A
+{\displaystyle A}
+ in 
+ℓ
+1
+{\displaystyle \ell ^{1}}
+ is norm-compact. Indeed, every sequence in 
+A
+{\displaystyle A}
+ has weakly convergent subsequences by Eberlein–Šmulian, that are norm convergent by the Schur property of 
+ℓ
+1
+.
+{\displaystyle \ell ^{1}.}
+A way to classify Banach spaces is through the probabilistic notion of type and cotype, these two measure how far a Banach space is from a Hilbert space.
+A Schauder basis in a Banach space 
+X
+{\displaystyle X}
+ is a sequence 
+{
+e
+n
+}
+n
+≥
+0
+{\displaystyle \left\{e_{n}\right\}_{n\geq 0}}
+ of vectors in 
+X
+{\displaystyle X}
+ with the property that for every vector 
+x
+∈
+X
+,
+{\displaystyle x\in X,}
+ there exist uniquely defined scalars 
+{
+x
+n
+}
+n
+≥
+0
+{\displaystyle \left\{x_{n}\right\}_{n\geq 0}}
+ depending on 
+x
+,
+{\displaystyle x,}
+ such that
+x
+=
+∑
+n
+=
+0
+∞
+x
+n
+e
+n
+,
+i.e.,
+x
+=
+lim
+n
+P
+n
+(
+x
+)
+,
+ 
+P
+n
+(
+x
+)
+:=
+∑
+k
+=
+0
+n
+x
+k
+e
+k
+.
+{\displaystyle x=\sum _{n=0}^{\infty }x_{n}e_{n},\quad {\textit {i.e.,}}\quad x=\lim _{n}P_{n}(x),\ P_{n}(x):=\sum _{k=0}^{n}x_{k}e_{k}.}
+Banach spaces with a Schauder basis are necessarily separable, because the countable set of finite linear combinations with rational coefficients (say) is dense.
+It follows from the Banach–Steinhaus theorem that the linear mappings 
+{
+P
+n
+}
+{\displaystyle \left\{P_{n}\right\}}
+ are uniformly bounded by some constant 
+C
+.
+{\displaystyle C.}
+Let 
+{
+e
+n
+∗
+}
+{\displaystyle \left\{e_{n}^{*}\right\}}
+ denote the coordinate functionals which assign to every 
+x
+{\displaystyle x}
+ in 
+X
+{\displaystyle X}
+ the coordinate 
+x
+n
+{\displaystyle x_{n}}
+ of 
+x
+{\displaystyle x}
+ in the above expansion. 
+They are called biorthogonal functionals. When the basis vectors have norm 
+1
+,
+{\displaystyle 1,}
+ the coordinate functionals 
+{
+e
+n
+∗
+}
+{\displaystyle \left\{e_{n}^{*}\right\}}
+ have norm 
+≤
+2
+C
+{\displaystyle \,\leq 2C}
+ in the dual of 
+X
+.
+{\displaystyle X.}
+Most classical separable spaces have explicit bases. 
+The Haar system 
+{
+h
+n
+}
+{\displaystyle \left\{h_{n}\right\}}
+ is a basis for 
+L
+p
+(
+[
+0
+,
+1
+]
+)
+,
+1
+≤
+p
+<
+∞
+.
+{\displaystyle L^{p}([0,1]),1\leq p<\infty .}
+The trigonometric system is a basis in 
+L
+p
+(
+T
+)
+{\displaystyle L^{p}(\mathbf {T} )}
+ when 
+1
+<
+p
+<
+∞
+.
+{\displaystyle 1<p<\infty .}
+The Schauder system is a basis in the space 
+C
+(
+[
+0
+,
+1
+]
+)
+.
+{\displaystyle C([0,1]).}
+[57] 
+The question of whether the disk algebra 
+A
+(
+D
+)
+{\displaystyle A(\mathbf {D} )}
+ has a basis[58] remained open for more than forty years, until Bočkarev showed in 1974 that 
+A
+(
+D
+)
+{\displaystyle A(\mathbf {D} )}
+ admits a basis constructed from the Franklin system.[59]
+Since every vector 
+x
+{\displaystyle x}
+ in a Banach space 
+X
+{\displaystyle X}
+ with a basis is the limit of 
+P
+n
+(
+x
+)
+,
+{\displaystyle P_{n}(x),}
+ with 
+P
+n
+{\displaystyle P_{n}}
+ of finite rank and uniformly bounded, the space 
+X
+{\displaystyle X}
+ satisfies the bounded approximation property. 
+The first example by Enflo of a space failing the approximation property was at the same time the first example of a separable Banach space without a Schauder basis.[60]
+Robert C. James characterized reflexivity in Banach spaces with a basis: the space 
+X
+{\displaystyle X}
+ with a Schauder basis is reflexive if and only if the basis is both shrinking and boundedly complete.[61] 
+In this case, the biorthogonal functionals form a basis of the dual of 
+X
+.
+{\displaystyle X.}
+Let 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ be two 
+K
+{\displaystyle \mathbb {K} }
+-vector spaces. The tensor product 
+X
+⊗
+Y
+{\displaystyle X\otimes Y}
+ of 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ is a 
+K
+{\displaystyle \mathbb {K} }
+-vector space 
+Z
+{\displaystyle Z}
+ with a bilinear mapping 
+T
+:
+X
+×
+Y
+→
+Z
+{\displaystyle T:X\times Y\to Z}
+ which has the following universal property:
+The image under 
+T
+{\displaystyle T}
+ of a couple 
+(
+x
+,
+y
+)
+{\displaystyle (x,y)}
+ in 
+X
+×
+Y
+{\displaystyle X\times Y}
+ is denoted by 
+x
+⊗
+y
+,
+{\displaystyle x\otimes y,}
+ and called a simple tensor. 
+Every element 
+z
+{\displaystyle z}
+ in 
+X
+⊗
+Y
+{\displaystyle X\otimes Y}
+ is a finite sum of such simple tensors.
+There are various norms that can be placed on the tensor product of the underlying vector spaces, amongst others the projective cross norm and injective cross norm introduced by A. Grothendieck in 1955.[62]
+In general, the tensor product of complete spaces is not complete again. When working with Banach spaces, it is customary to say that the projective tensor product[63] of two Banach spaces 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ is the completion 
+X
+⊗
+^
+π
+Y
+{\displaystyle X{\widehat {\otimes }}_{\pi }Y}
+ of the algebraic tensor product 
+X
+⊗
+Y
+{\displaystyle X\otimes Y}
+ equipped with the projective tensor norm, and similarly for the injective tensor product[64] 
+X
+⊗
+^
+ε
+Y
+.
+{\displaystyle X{\widehat {\otimes }}_{\varepsilon }Y.}
+Grothendieck proved in particular that[65]
+C
+(
+K
+)
+⊗
+^
+ε
+Y
+≃
+C
+(
+K
+,
+Y
+)
+,
+L
+1
+(
+[
+0
+,
+1
+]
+)
+⊗
+^
+π
+Y
+≃
+L
+1
+(
+[
+0
+,
+1
+]
+,
+Y
+)
+,
+{\displaystyle {\begin{aligned}C(K){\widehat {\otimes }}_{\varepsilon }Y&\simeq C(K,Y),\\L^{1}([0,1]){\widehat {\otimes }}_{\pi }Y&\simeq L^{1}([0,1],Y),\end{aligned}}}
+where 
+K
+{\displaystyle K}
+ is a compact Hausdorff space, 
+C
+(
+K
+,
+Y
+)
+{\displaystyle C(K,Y)}
+ the Banach space of continuous functions from 
+K
+{\displaystyle K}
+ to 
+Y
+{\displaystyle Y}
+ and 
+L
+1
+(
+[
+0
+,
+1
+]
+,
+Y
+)
+{\displaystyle L^{1}([0,1],Y)}
+ the space of Bochner-measurable and integrable functions from 
+[
+0
+,
+1
+]
+{\displaystyle [0,1]}
+ to 
+Y
+,
+{\displaystyle Y,}
+ and where the isomorphisms are isometric. 
+The two isomorphisms above are the respective extensions of the map sending the tensor 
+f
+⊗
+y
+{\displaystyle f\otimes y}
+ to the vector-valued function 
+s
+∈
+K
+→
+f
+(
+s
+)
+y
+∈
+Y
+.
+{\displaystyle s\in K\to f(s)y\in Y.}
+Let 
+X
+{\displaystyle X}
+ be a Banach space. The tensor product 
+X
+′
+⊗
+^
+ε
+X
+{\displaystyle X'{\widehat {\otimes }}_{\varepsilon }X}
+ is identified isometrically with the closure in 
+B
+(
+X
+)
+{\displaystyle B(X)}
+ of the set of finite rank operators. 
+When 
+X
+{\displaystyle X}
+ has the approximation property, this closure coincides with the space of compact operators on 
+X
+.
+{\displaystyle X.}
+For every Banach space 
+Y
+,
+{\displaystyle Y,}
+ there is a natural norm 
+1
+{\displaystyle 1}
+ linear map
+Y
+⊗
+^
+π
+X
+→
+Y
+⊗
+^
+ε
+X
+{\displaystyle Y{\widehat {\otimes }}_{\pi }X\to Y{\widehat {\otimes }}_{\varepsilon }X}
+obtained by extending the identity map of the algebraic tensor product. Grothendieck related the approximation problem to the question of whether this map is one-to-one when 
+Y
+{\displaystyle Y}
+ is the dual of 
+X
+.
+{\displaystyle X.}
+Precisely, for every Banach space 
+X
+,
+{\displaystyle X,}
+ the map
+X
+′
+⊗
+^
+π
+X
+ 
+⟶
+X
+′
+⊗
+^
+ε
+X
+{\displaystyle X'{\widehat {\otimes }}_{\pi }X\ \longrightarrow X'{\widehat {\otimes }}_{\varepsilon }X}
+is one-to-one if and only if 
+X
+{\displaystyle X}
+ has the approximation property.[66]
+Grothendieck conjectured that 
+X
+⊗
+^
+π
+Y
+{\displaystyle X{\widehat {\otimes }}_{\pi }Y}
+ and 
+X
+⊗
+^
+ε
+Y
+{\displaystyle X{\widehat {\otimes }}_{\varepsilon }Y}
+ must be different whenever 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ are infinite-dimensional Banach spaces. 
+This was disproved by Gilles Pisier in 1983.[67] 
+Pisier constructed an infinite-dimensional Banach space 
+X
+{\displaystyle X}
+ such that 
+X
+⊗
+^
+π
+X
+{\displaystyle X{\widehat {\otimes }}_{\pi }X}
+ and 
+X
+⊗
+^
+ε
+X
+{\displaystyle X{\widehat {\otimes }}_{\varepsilon }X}
+ are equal. Furthermore, just as Enflo's example, this space 
+X
+{\displaystyle X}
+ is a "hand-made" space that fails to have the approximation property. On the other hand, Szankowski proved that the classical space 
+B
+(
+ℓ
+2
+)
+{\displaystyle B\left(\ell ^{2}\right)}
+ does not have the approximation property.[68]
+A necessary and sufficient condition for the norm of a Banach space 
+X
+{\displaystyle X}
+ to be associated to an inner product is the parallelogram identity:
+Parallelogram identity — for all 
+x
+,
+y
+∈
+X
+:
+‖
+x
++
+y
+‖
+2
++
+‖
+x
+−
+y
+‖
+2
+=
+2
+(
+‖
+x
+‖
+2
++
+‖
+y
+‖
+2
+)
+.
+{\displaystyle x,y\in X:\qquad \|x+y\|^{2}+\|x-y\|^{2}=2\left(\|x\|^{2}+\|y\|^{2}\right).}
+It follows, for example, that the Lebesgue space 
+L
+p
+(
+[
+0
+,
+1
+]
+)
+{\displaystyle L^{p}([0,1])}
+ is a Hilbert space only when 
+p
+=
+2.
+{\displaystyle p=2.}
+If this identity is satisfied, the associated inner product is given by the polarization identity. In the case of real scalars, this gives:
+⟨
+x
+,
+y
+⟩
+=
+1
+4
+(
+‖
+x
++
+y
+‖
+2
+−
+‖
+x
+−
+y
+‖
+2
+)
+.
+{\displaystyle \langle x,y\rangle ={\tfrac {1}{4}}\left(\|x+y\|^{2}-\|x-y\|^{2}\right).}
+For complex scalars, defining the inner product so as to be 
+C
+{\displaystyle \mathbb {C} }
+-linear in 
+x
+,
+{\displaystyle x,}
+ antilinear in 
+y
+,
+{\displaystyle y,}
+ the polarization identity gives:
+⟨
+x
+,
+y
+⟩
+=
+1
+4
+(
+‖
+x
++
+y
+‖
+2
+−
+‖
+x
+−
+y
+‖
+2
++
+i
+(
+‖
+x
++
+i
+y
+‖
+2
+−
+‖
+x
+−
+i
+y
+‖
+2
+)
+)
+.
+{\displaystyle \langle x,y\rangle ={\tfrac {1}{4}}\left(\|x+y\|^{2}-\|x-y\|^{2}+i\left(\|x+iy\|^{2}-\|x-iy\|^{2}\right)\right).}
+To see that the parallelogram law is sufficient, one observes in the real case that 
+⟨
+x
+,
+y
+⟩
+{\displaystyle \langle x,y\rangle }
+ is symmetric, and in the complex case, that it satisfies the Hermitian symmetry property and 
+⟨
+i
+x
+,
+y
+⟩
+=
+i
+⟨
+x
+,
+y
+⟩
+.
+{\displaystyle \langle ix,y\rangle =i\langle x,y\rangle .}
+ The parallelogram law implies that 
+⟨
+x
+,
+y
+⟩
+{\displaystyle \langle x,y\rangle }
+ is additive in 
+x
+.
+{\displaystyle x.}
+It follows that it is linear over the rationals, thus linear by continuity.
+Several characterizations of spaces isomorphic (rather than isometric) to Hilbert spaces are available. 
+The parallelogram law can be extended to more than two vectors, and weakened by the introduction of a two-sided inequality with a constant 
+c
+≥
+1
+{\displaystyle c\geq 1}
+: Kwapień proved that if
+c
+−
+2
+∑
+k
+=
+1
+n
+‖
+x
+k
+‖
+2
+≤
+Ave
+±
+⁡
+‖
+∑
+k
+=
+1
+n
+±
+x
+k
+‖
+2
+≤
+c
+2
+∑
+k
+=
+1
+n
+‖
+x
+k
+‖
+2
+{\displaystyle c^{-2}\sum _{k=1}^{n}\left\|x_{k}\right\|^{2}\leq \operatorname {Ave} _{\pm }\left\|\sum _{k=1}^{n}\pm x_{k}\right\|^{2}\leq c^{2}\sum _{k=1}^{n}\left\|x_{k}\right\|^{2}}
+for every integer 
+n
+{\displaystyle n}
+ and all families of vectors
+{
+x
+1
+,
+…
+,
+x
+n
+}
+⊆
+X
+,
+{\displaystyle \left\{x_{1},\ldots ,x_{n}\right\}\subseteq X,}
+ then the Banach space 
+X
+{\displaystyle X}
+ is isomorphic to a Hilbert space.[69] 
+Here, 
+Ave
+±
+{\displaystyle \operatorname {Ave} _{\pm }}
+ denotes the average over the 
+2
+n
+{\displaystyle 2^{n}}
+ possible choices of signs 
+±
+1.
+{\displaystyle \pm 1.}
+In the same article, Kwapień proved that the validity of a Banach-valued Parseval's theorem for the Fourier transform characterizes Banach spaces isomorphic to Hilbert spaces.
+Lindenstrauss and Tzafriri proved that a Banach space in which every closed linear subspace is complemented (that is, is the range of a bounded linear projection) is isomorphic to a Hilbert space.[70] The proof rests upon Dvoretzky's theorem about Euclidean sections of high-dimensional centrally symmetric convex bodies. In other words, Dvoretzky's theorem states that for every integer 
+n
+,
+{\displaystyle n,}
+ any finite-dimensional normed space, with dimension sufficiently large compared to 
+n
+,
+{\displaystyle n,}
+ contains subspaces nearly isometric to the 
+n
+{\displaystyle n}
+-dimensional Euclidean space.
+The next result gives the solution of the so-called homogeneous space problem. An infinite-dimensional Banach space 
+X
+{\displaystyle X}
+ is said to be homogeneous if it is isomorphic to all its infinite-dimensional closed subspaces. A Banach space isomorphic to 
+ℓ
+2
+{\displaystyle \ell ^{2}}
+ is homogeneous, and Banach asked for the converse.[71]
+Theorem[72] — A Banach space isomorphic to all its infinite-dimensional closed subspaces is isomorphic to a separable Hilbert space.
+An infinite-dimensional Banach space is hereditarily indecomposable when no subspace of it can be isomorphic to the direct sum of two infinite-dimensional Banach spaces. 
+The Gowers dichotomy theorem[72] asserts that every infinite-dimensional Banach space 
+X
+{\displaystyle X}
+ contains, either a subspace 
+Y
+{\displaystyle Y}
+ with unconditional basis, or a hereditarily indecomposable subspace 
+Z
+,
+{\displaystyle Z,}
+ and in particular, 
+Z
+{\displaystyle Z}
+ is not isomorphic to its closed hyperplanes.[73] 
+If 
+X
+{\displaystyle X}
+ is homogeneous, it must therefore have an unconditional basis. It follows then from the partial solution obtained by Komorowski and Tomczak–Jaegermann, for spaces with an unconditional basis,[74] that 
+X
+{\displaystyle X}
+ is isomorphic to 
+ℓ
+2
+.
+{\displaystyle \ell ^{2}.}
+If 
+T
+:
+X
+→
+Y
+{\displaystyle T:X\to Y}
+ is an isometry from the Banach space 
+X
+{\displaystyle X}
+ onto the Banach space 
+Y
+{\displaystyle Y}
+ (where both 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ are vector spaces over 
+R
+{\displaystyle \mathbb {R} }
+), then the Mazur–Ulam theorem states that 
+T
+{\displaystyle T}
+ must be an affine transformation. 
+In particular, if 
+T
+(
+0
+X
+)
+=
+0
+Y
+,
+{\displaystyle T(0_{X})=0_{Y},}
+ this is 
+T
+{\displaystyle T}
+ maps the zero of 
+X
+{\displaystyle X}
+ to the zero of 
+Y
+,
+{\displaystyle Y,}
+ then 
+T
+{\displaystyle T}
+ must be linear. This result implies that the metric in Banach spaces, and more generally in normed spaces, completely captures their linear structure.
+Finite dimensional Banach spaces are homeomorphic as topological spaces, if and only if they have the same dimension as real vector spaces.
+Anderson–Kadec theorem (1965–66) proves[75] that any two infinite-dimensional separable Banach spaces are homeomorphic as topological spaces. Kadec's theorem was extended by Torunczyk, who proved[76] that any two Banach spaces are homeomorphic if and only if  they have the same density character, the minimum cardinality of a dense subset.
+When two compact Hausdorff spaces 
+K
+1
+{\displaystyle K_{1}}
+ and 
+K
+2
+{\displaystyle K_{2}}
+ are homeomorphic, the Banach spaces 
+C
+(
+K
+1
+)
+{\displaystyle C\left(K_{1}\right)}
+ and 
+C
+(
+K
+2
+)
+{\displaystyle C\left(K_{2}\right)}
+ are isometric. Conversely, when 
+K
+1
+{\displaystyle K_{1}}
+ is not homeomorphic to 
+K
+2
+,
+{\displaystyle K_{2},}
+ the (multiplicative) Banach–Mazur distance between 
+C
+(
+K
+1
+)
+{\displaystyle C\left(K_{1}\right)}
+ and 
+C
+(
+K
+2
+)
+{\displaystyle C\left(K_{2}\right)}
+ must be greater than or equal to 
+2
+,
+{\displaystyle 2,}
+ see above the results by Amir and Cambern. 
+Although uncountable compact metric spaces can have different homeomorphy types, one has the following result due to Milutin:[77]
+Theorem[78] — Let 
+K
+{\displaystyle K}
+ be an uncountable compact metric space. Then 
+C
+(
+K
+)
+{\displaystyle C(K)}
+ is isomorphic to  
+C
+(
+[
+0
+,
+1
+]
+)
+.
+{\displaystyle C([0,1]).}
+The situation is different for countably infinite compact Hausdorff spaces. 
+Every countably infinite compact 
+K
+{\displaystyle K}
+ is homeomorphic to some closed interval of ordinal numbers
+⟨
+1
+,
+α
+⟩
+=
+{
+γ
+ 
+:
+ 
+1
+≤
+γ
+≤
+α
+}
+{\displaystyle \langle 1,\alpha \rangle =\{\gamma \ :\ 1\leq \gamma \leq \alpha \}}
+equipped with the order topology, where 
+α
+{\displaystyle \alpha }
+ is a countably infinite ordinal.[79] 
+The Banach space 
+C
+(
+K
+)
+{\displaystyle C(K)}
+ is then isometric to C(⟨1, α⟩). When 
+α
+,
+β
+{\displaystyle \alpha ,\beta }
+ are two countably infinite ordinals, and assuming 
+α
+≤
+β
+,
+{\displaystyle \alpha \leq \beta ,}
+ the spaces C(⟨1, α⟩) and C(⟨1, β⟩) are isomorphic if and only if β < αω.[80]
+For example, the Banach spaces
+C
+(
+⟨
+1
+,
+ω
+⟩
+)
+,
+ 
+C
+(
+⟨
+1
+,
+ω
+ω
+⟩
+)
+,
+ 
+C
+(
+⟨
+1
+,
+ω
+ω
+2
+⟩
+)
+,
+ 
+C
+(
+⟨
+1
+,
+ω
+ω
+3
+⟩
+)
+,
+⋯
+,
+C
+(
+⟨
+1
+,
+ω
+ω
+ω
+⟩
+)
+,
+⋯
+{\displaystyle C(\langle 1,\omega \rangle ),\ C(\langle 1,\omega ^{\omega }\rangle ),\ C(\langle 1,\omega ^{\omega ^{2}}\rangle ),\ C(\langle 1,\omega ^{\omega ^{3}}\rangle ),\cdots ,C(\langle 1,\omega ^{\omega ^{\omega }}\rangle ),\cdots }
+are mutually non-isomorphic.
+Glossary of symbols for the table below:
+Several concepts of a derivative may be defined on a Banach space. See the articles on the Fréchet derivative and the Gateaux derivative for details. 
+The Fréchet derivative allows for an extension of the concept of a total derivative to Banach spaces. The Gateaux derivative allows for an extension of a directional derivative to locally convex topological vector spaces. 
+Fréchet differentiability is a stronger condition than Gateaux differentiability. 
+The quasi-derivative is another generalization of directional derivative that implies a stronger condition than Gateaux differentiability, but a weaker condition than Fréchet differentiability.
+Several important spaces in functional analysis, for instance the space of all infinitely often differentiable functions 
+R
+→
+R
+,
+{\displaystyle \mathbb {R} \to \mathbb {R} ,}
+ or the space of all distributions on 
+R
+,
+{\displaystyle \mathbb {R} ,}
+ are complete but are not normed vector spaces and hence not Banach spaces. 
+In Fréchet spaces one still has a complete metric, while LF-spaces are complete uniform vector spaces arising as limits of Fréchet spaces.

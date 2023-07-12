@@ -1,0 +1,239 @@
+27791,
+SophieGermain,
+
+Marie-Sophie Germain (French: [maʁi sɔfi ʒɛʁmɛ̃]; 1 April 1776 – 27 June 1831) was a French mathematician, physicist, and philosopher. Despite initial opposition from her parents and difficulties presented by society, she gained education from books in her father's library, including ones by Euler, and from correspondence with famous mathematicians such as Lagrange, Legendre, and Gauss (under the pseudonym of Monsieur LeBlanc). One of the pioneers of elasticity theory, she won the grand prize from the Paris Academy of Sciences for her essay on the subject. Her work on Fermat's Last Theorem provided a foundation for mathematicians exploring the subject for hundreds of years after.[1] Because of prejudice against her sex, she was unable to make a career out of mathematics, but she worked independently throughout her life.[2] Before her death, Gauss had recommended that she be awarded an honorary degree, but that never occurred.[3] On 27 June 1831, she died from breast cancer. At the centenary of her life, a street and a girls’ school were named after her. The Academy of Sciences established the Sophie Germain Prize in her honour.
+Marie-Sophie Germain was born in a house on Rue Saint-Denis on April 1, 1776, in Paris, France. According to most sources, her father, Ambroise-François, was a wealthy silk merchant,[4][5][6] though some believe he was a goldsmith.[7] In 1789, he was elected as a representative of the bourgeoisie to the États-Généraux, which he saw change into the Constitutional Assembly. It is therefore assumed that Sophie witnessed many discussions between her father and his friends on politics and philosophy. Gray proposes that after his political career, Ambroise-François became the director of a bank; in any case, the family remained well-off enough to support Germain throughout her adult life.[7]
+Marie-Sophie had one younger sister, Angélique-Ambroise, and one older sister, Marie-Madeline. Her mother was also named Marie-Madeline, and this plethora of "Maries" may have been the reason she went by Sophie. Germain's nephew Armand-Jacques Lherbette, Marie-Madeline's son, published some of Germain's work after she died (see Work in Philosophy).[5]
+When Germain was 13, the Bastille fell, and the revolutionary atmosphere of the city forced her to stay inside. For entertainment, she turned to her father's library. Here she found J. E. Montucla's L'Histoire des Mathématiques, and his story of the death of Archimedes intrigued her.[5]
+Germain thought that if the geometry method, which at that time referred to all of pure mathematics,[5] could hold such fascination for Archimedes, it was a subject worthy of study.[8] So she pored over every book on mathematics in her father's library, even teaching herself Latin and Greek, so she could read works like those of Sir Isaac Newton and Leonhard Euler. She also enjoyed Traité d'Arithmétique by Étienne Bézout and Le Calcul Différentiel by Jacques Antoine-Joseph Cousin. Later, Cousin visited Germain at home, encouraging her in her studies.[9]
+Germain's parents did not at all approve of her sudden fascination with mathematics, which was then thought inappropriate for a woman. When night came, they would deny her warm clothes and a fire for her bedroom to try to keep her from studying, but after they left, she would take out candles, wrap herself in quilts and do mathematics.[10] After some time, her mother even secretly supported her.[9]
+In 1794, when Germain was 18, the École Polytechnique opened.[6] As a woman, Germain was barred from attending, but the new system of education made the "lecture notes available to all who asked".[9] The new method also required the students to "submit written observations".[11] Germain obtained the lecture notes and began sending her work to Joseph Louis Lagrange, a faculty member. She used the name of a former student Monsieur Antoine-Auguste Le Blanc,[9][12] "fearing", as she later explained to Gauss, "the ridicule attached to a female scientist".[13]  When Lagrange saw the intelligence of M. Le Blanc, he requested a meeting, and thus Sophie was forced to disclose her true identity. Fortunately, Lagrange did not mind that Germain was a woman,[9] and he became her mentor.[6]
+Germain first became interested in number theory in 1798 when Adrien-Marie Legendre published Essai sur la théorie des nombres.[14] After studying the work, she opened correspondence with him on number theory, and later, elasticity. Legendre included some of Germain's work in the Supplément to his second edition of the Théorie des Nombres, where he calls it très ingénieuse ("very ingenious"). See also Her work on Fermat's Last Theorem below.[15]
+Germain's interest in number theory was renewed when she read Carl Friedrich Gauss' monumental work Disquisitiones Arithmeticae.[14] After three years of working through the exercises and trying her own proofs for some of the theorems,[16] she wrote, again under the pseudonym of M. Le Blanc,[9] to the author himself, who was one year younger than she.[17] The first letter, dated 21 November 1804,[18] discussed Gauss' Disquisitiones and presented some of Germain's work on Fermat's Last Theorem. In the letter, Germain claimed to have proved the theorem for n = p − 1, where p is a prime number of the form p = 8k + 7.[19] However, her proof contained a weak assumption, and Gauss' reply did not comment on Germain's proof.[20]
+Around 1807 (sources differ),[21] during the Napoleonic wars, the French were occupying the German town of Braunschweig, where Gauss lived. Germain, concerned that he might suffer the fate of Archimedes, wrote to General Pernety (Joseph Marie de Pernety [fr]), a family friend, requesting that he ensure Gauss' safety. [9] General Pernety sent the chief of a battalion to meet with Gauss personally to see that he was safe.[21] As it turned out, Gauss was fine, but he was confused by the mention of Sophie's name.[21]
+Three months after the incident, Germain disclosed her true identity to Gauss.[13]  He replied:[22]
+How can I describe my astonishment and admiration on seeing my esteemed correspondent M. Le Blanc metamorphosed into this celebrated person ... when a woman, because of her sex, our customs and prejudices, encounters infinitely more obstacles than men in familiarising herself with [number theory's] knotty problems, yet overcomes these fetters and penetrates that which is most hidden, she doubtless has the noblest courage, extraordinary talent, and superior genius.
+Gauss' letters to Olbers show that his praise for Germain was sincere.[21][23] In the same 1807 letter, Germain claimed that if 
+
+
+
+
+x
+
+n
+
+
++
+
+y
+
+n
+
+
+
+
+{\displaystyle x^{n}+y^{n}}
+
+ is of the form 
+
+
+
+
+h
+
+2
+
+
++
+n
+
+f
+
+2
+
+
+
+
+{\displaystyle h^{2}+nf^{2}}
+
+, then 
+
+
+
+x
++
+y
+
+
+{\displaystyle x+y}
+
+ is also of that form. Gauss replied with a counterexample: 
+
+
+
+
+15
+
+11
+
+
++
+
+8
+
+11
+
+
+
+
+{\displaystyle 15^{11}+8^{11}}
+
+ can be written as 
+
+
+
+
+h
+
+2
+
+
++
+11
+
+f
+
+2
+
+
+
+
+{\displaystyle h^{2}+11f^{2}}
+
+, but 
+
+
+
+15
++
+8
+
+
+{\displaystyle 15+8}
+
+ cannot.[19][24]
+Although Gauss thought well of Germain, his replies to her letters were often delayed, and he generally did not review her work.[20] Eventually his interests turned away from number theory, and in 1809 the letters ceased.[20] Despite the friendship of Germain and Gauss, they never met.[25]
+When Germain's correspondence with Gauss ceased, she took interest in a contest sponsored by the Paris Academy of Sciences concerning Ernst Chladni's experiments with vibrating metal plates. The object of the competition, as stated by the Academy, was "to give the mathematical theory of the vibration of an elastic surface and to compare the theory to experimental evidence". Lagrange's comment that a solution to the problem would require the invention of a new branch of analysis deterred all but two contestants, Denis Poisson and Germain. Then Poisson was elected to the Academy, thus becoming a judge instead of a contestant,[26] and leaving Germain as the only entrant to the competition.[27]
+In 1809 Germain began work. Legendre assisted by giving her equations, references, and current research.[28] She submitted her paper early in the fall of 1811 and did not win the prize. The judging commission felt that "the true equations of the movement were not established", even though "the experiments presented ingenious results".[26] Lagrange was able to use Germain's work to derive an equation that was "correct under special assumptions".[18]
+The contest was extended by two years, and Germain decided to try again for the prize. At first Legendre continued to offer support, but then he refused all help.[26] Germain's anonymous[18] 1813 submission was still littered with mathematical errors, especially involving double integrals,[27] and it received only an honorable mention because "the fundamental base of the theory [of elastic surfaces] was not established".[26] The contest was extended once more, and Germain began work on her third attempt. This time she consulted with Poisson.[18] In 1814 he published his own work on elasticity and did not acknowledge Germain's help (although he had worked with her on the subject and, as a judge on the Academy commission, had had access to her work).[27]
+Germain submitted her third paper, "Recherches sur la théorie des surfaces élastiques",[18] under her own name, and on 8 January 1816[27] she became the first woman to win a prize from the Paris Academy of Sciences.[29] She did not appear at the ceremony to receive her award.[18] Although Germain had at last been awarded the prix extraordinaire,[20] the Academy was still not fully satisfied.[30] Germain had derived the correct differential equation (a special case of the Kirchhoff–Love equation),[31] but her method did not predict experimental results with great accuracy, as she had relied on an incorrect equation from Euler,[18] which led to incorrect boundary conditions.[31] Here is Germain's final equation for the vibration of a plane lamina:
+where N2 is a constant.[18][32][33]
+After winning the Academy contest, she was still not able to attend its sessions because of the Academy's tradition of excluding women other than the wives of members. Seven years later this situation was transformed, when she made friends with Joseph Fourier, a secretary of the Academy, who obtained tickets to the sessions for her.[28]
+Germain published her prize-winning essay at her own expense in 1821, mostly because she wanted to present her work in opposition to that of Poisson. In the essay she pointed out some of the errors in his method.[18]
+In 1826 she submitted a revised version of her 1821 essay to the Academy. According to Andrea Del Centina, the revision included attempts to clarify her work by "introducing certain simplifying hypotheses". This put the Academy in an awkward position, as they felt the paper to be "inadequate and trivial", but they did not want to "treat her as a professional colleague, as they would any man, by simply rejecting the work". So Augustin-Louis Cauchy, who had been appointed to review her work, recommended her to publish it, and she followed his advice.[34]
+One further work of Germain's on elasticity was published posthumously in 1831, her "Mémoire sur la courbure des surfaces". She used the mean curvature in her research (see Honors in number theory).[18]
+Germain's best work was in number theory,[4] and her most significant contribution to number theory dealt with Fermat's Last Theorem.[15] In 1815, after the elasticity contest, the Academy offered a prize for a proof of Fermat's Last Theorem.[35] It reawakened Germain's interest in number theory, and she wrote to Gauss again after ten years of no correspondence.[14]
+In the letter, Germain said that number theory was her preferred field and that it was in her mind all the time she was studying elasticity.[35] She outlined a strategy for a general proof of Fermat's Last Theorem, including a proof for a special case.[36] Germain's letter to Gauss contained her substantial progress toward a proof. She asked Gauss whether her approach to the theorem was worth pursuing. Gauss never answered.[37]
+Fermat's Last Theorem can be divided into two cases. Case 1 involves all powers p that do not divide any of x, y, or z. Case 2 includes all p that divide at least one of x, y, or z. Germain proposed the following, commonly called "Sophie Germain's theorem":[38]
+Let p be an odd prime. If there exists an auxiliary prime P = 2Np + 1 (N is any positive integer not divisible by 3) such that:
+Then the first case of Fermat's Last Theorem holds true for p.[39]
+Germain used this result to prove the first case of Fermat's Last Theorem for all odd primes p < 100, but according to Andrea Del Centina, "she had actually shown that it holds for every exponent p < 197".[39] L. E. Dickson later used Germain's theorem to prove the first case of Fermat's Last Theorem for all odd primes less than 1700.[40]
+In an unpublished manuscript titled Remarque sur l'impossibilité de satisfaire en nombres entiers a l'équation xp + yp = zp,[38] Germain showed that any counterexamples to Fermat's theorem for p > 5 must be numbers "whose size frightens the imagination",[41] around 40 digits long.[42]  Germain did not publish this work. Her theorem is known only because of the footnote in Legendre's treatise on number theory, where he used it to prove Fermat's Last Theorem for p = 5 (see Correspondence with Legendre).[41]  Germain also proved or nearly proved several results that were attributed to Lagrange or were rediscovered years later.[1] Del Centina states that "after almost two hundred years her ideas were still central",[1] but ultimately her method did not work.[41]
+In addition to mathematics, Germain studied philosophy and psychology.[9] She wanted to classify facts and generalize them into laws that could form a system of psychology and sociology, which were then just coming into existence. Her philosophy was highly praised by Auguste Comte.[43]
+Two of her philosophical works, Pensées diverses and Considérations générales sur l'état des sciences et des lettres, aux différentes époques de leur culture, were published, both posthumously. This was due in part to the efforts of Lherbette, her nephew, who collected her philosophical writings and published them.[44] Pensées is a history of science and mathematics with Germain's commentary.[45] In Considérations, the work admired by Comte, Germain argues that there are no differences between the sciences and the humanities.[46]
+In 1829 Germain learned that she had breast cancer. Despite the pain,[47] she continued to work. In 1831 Crelle's Journal published her paper on the curvature of elastic surfaces and "a note about finding y and z in 
+
+
+
+
+
+
+
+4
+(
+
+x
+
+p
+
+
+−
+1
+)
+
+
+x
+−
+1
+
+
+
+
+=
+
+y
+
+2
+
+
+±
+p
+
+z
+
+2
+
+
+
+
+{\displaystyle {\tfrac {4(x^{p}-1)}{x-1}}=y^{2}\pm pz^{2}}
+
+".[18] Mary Gray records: "She also published in Annales de chimie et de physique an examination of principles which led to the discovery of the laws of equilibrium and movement of elastic solids."[18] On 27 June 1831, she died in the house at 13 rue de Savoie.[25]
+Despite Germain's intellectual achievements, her death certificate lists her as a "rentière – annuitant"[48] (property holder),[49] not a "mathématicienne".[48] But her work was not unappreciated by everyone. When the matter of honorary degrees came up at the University of Göttingen in 1837—six years after Germain's death—Gauss lamented: "she [Germain] proved to the world that even a woman can accomplish something worthwhile in the most rigorous and abstract of the sciences and for that reason would well have deserved an honorary degree".[50]
+Germain's resting place in the Père Lachaise Cemetery in Paris is marked by a gravestone.[25][7]  At the centennial celebration of her life, a street and a girls' school were named after her, and a plaque was placed at the house where she died. The school houses a bust commissioned by the Paris City Council.[7]
+In January 2020, Satellogic, a high-resolution Earth observation imaging and analytics company, launched a ÑuSat type micro-satellite named in honor of Sophie Germain.[51]
+E. Dubouis defined a sophien of a prime n to be a prime θ where θ = kn + 1, for such n that yield θ such that xn = yn + 1 (mod θ) has no solutions when x and y are prime to n.[52]
+A Sophie Germain prime is a prime p such that 2p + 1 is also prime.[39]
+The Germain curvature (also called mean curvature) is 
+
+
+
+(
+
+k
+
+1
+
+
++
+
+k
+
+2
+
+
+)
+
+/
+
+2
+
+
+{\displaystyle (k_{1}+k_{2})/2}
+
+,[50] where k1 and k2 are the maximum and minimum values of the normal curvature.[18]
+Sophie Germain's identity states that for any {x, y},
+Vesna Petrovich found that the educated world's response to the publication in 1821 of Germain's prize-winning essay "ranged from polite to indifferent".[29] Yet, some critics had high praise for it. Of her essay in 1821, Cauchy said: "[it] was a work for which the name of its author and the importance of the subject both deserved the attention of mathematicians".[25] Germain was also included in H. J. Mozans' book "Woman in Science",[53] although Marilyn Bailey Ogilvie claims that the biography "is inaccurate and the notes and bibliography are unreliable".[54] Nevertheless, it quotes the mathematician Claude-Louis Navier as saying that "it is a work which few men are able to read and which only one woman was able to write".[48]
+Germain's contemporaries also had good things to say relating to her work in mathematics.  Gauss certainly thought highly of her and recognized that European culture presented special difficulties to a woman in mathematics (see Correspondence with Gauss).
+The modern view generally acknowledges that although Germain had great talent as a mathematician, her haphazard education had left her without the strong base she needed to truly excel. As explained by Gray, "Germain's work in elasticity suffered generally from an absence of rigor, which might be attributed to her lack of formal training in the rudiments of analysis."[55] Petrovich adds: "This proved to be a major handicap when she could no longer be regarded as a young prodigy to be admired but was judged by her peer mathematicians."[56]
+Notwithstanding the problems with Germain's theory of vibrations, Gray states that "Germain's work was fundamental in the development of a general theory of elasticity."[27] Mozans writes, however, that when the Eiffel tower was built and the architects inscribed the names of 72 great French scientists, Germain's name was not among them, despite the salience of her work to the tower's construction. Mozans asked: "Was she excluded from this list ... because she was a woman? It would seem so."[48]
+Concerning her early work in number theory, J. H. Sampson states: "She was clever with formal algebraic manipulations; but there is little evidence that she really understood the Disquisitiones, and her work of that period that has come down to us seems to touch only on rather superficial matters."[15] Gray adds on to say "The inclination of sympathetic mathematicians to praise her work rather than to provide substantive criticism from which she might learn was crippling to her mathematical development."[49] Yet Marilyn Bailey Ogilvie recognizes that "Sophie Germain's creativity manifested itself in pure and applied mathematics ... [she] provided imaginative and provocative solutions to several important problems",[46] and, as Petrovich proposes, it may have been her very lack of training that gave her unique insights and approaches.[29] Louis Bucciarelli and Nancy Dworsky, Germain's biographers, summarize as follows: "All the evidence argues that Sophie Germain had a mathematical brilliance that never reached fruition due to a lack of rigorous training available only to men."[28]
+Germain was referenced and quoted in David Auburn's 2001 play Proof. The protagonist is a young struggling female mathematician, Catherine, who found great inspiration in the work of Germain. Germain was also mentioned in John Madden's film adaptation of the same name in a conversation between Catherine (Gwyneth Paltrow) and Hal (Jake Gyllenhaal).
+In the fictional work "The Last Theorem" by Arthur C. Clarke and Frederik Pohl, Sophie Germain was credited with inspiring the central character, Ranjit Subramanian, to solve Fermat's Last Theorem.
+A new musical about Sophie Germain's life, entitled The Limit, premiered at VAULT Festival in London, 2019.[57]
+The Sophie Germain Prize (French: Prix Sophie Germain), awarded annually by the Foundation Sophie Germain, is conferred by the Academy of Sciences in Paris. Its purpose is to honour a French mathematician for research in the foundations of mathematics. This award, in the amount of €8,000, was established in 2003, under the auspices of the Institut de France.[58]
+
+
+
+Information box
+{'Born': 'Marie-Sophie Germain\n1 April 1776\nParis, France', 'Died': '27 June 1831 (aged 55)\nParis, France', 'Known for': "Elasticity theory\nnumber theory\nMean curvature\nSophie Germain prime\nSophie Germain's theorem\nGermain−Lagrange plate equation", 'Fields': 'Mathematician, physicist, and philosopher', 'Academic advisors': 'Carl Friedrich Gauss (epistolary correspondent)'}

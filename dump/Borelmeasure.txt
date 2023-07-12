@@ -1,0 +1,126 @@
+4322,
+Borelmeasure,
+In mathematics, specifically in measure theory, a Borel measure on  a topological space is a measure that is defined on all open sets (and thus on all Borel sets).[1] Some authors require additional restrictions on the measure, as described below.
+Let 
+X
+{\displaystyle X}
+ be a locally compact Hausdorff space, and let 
+B
+(
+X
+)
+{\displaystyle {\mathfrak {B}}(X)}
+ be the smallest σ-algebra that contains the open sets of 
+X
+{\displaystyle X}
+; this is known as the σ-algebra of Borel sets.  A Borel measure is any measure 
+μ
+{\displaystyle \mu }
+ defined on the σ-algebra of Borel sets.[2] A few authors require in addition that 
+μ
+{\displaystyle \mu }
+ is locally finite, meaning that 
+μ
+(
+C
+)
+<
+∞
+{\displaystyle \mu (C)<\infty }
+ for every compact set 
+C
+{\displaystyle C}
+.  If a Borel measure 
+μ
+{\displaystyle \mu }
+ is both inner regular and outer regular, it is called a regular Borel measure. If 
+μ
+{\displaystyle \mu }
+ is both inner regular, outer regular, and locally finite, it is called a Radon measure.
+The real line 
+R
+{\displaystyle \mathbb {R} }
+ with its usual topology is a locally compact Hausdorff space; hence we can define a Borel measure on it. In this case, 
+B
+(
+R
+)
+{\displaystyle {\mathfrak {B}}(\mathbb {R} )}
+ is the smallest σ-algebra that contains the open intervals of 
+R
+{\displaystyle \mathbb {R} }
+. While there are many Borel measures μ, the choice of Borel measure that assigns 
+μ
+(
+(
+a
+,
+b
+]
+)
+=
+b
+−
+a
+{\displaystyle \mu ((a,b])=b-a}
+ for every half-open interval 
+(
+a
+,
+b
+]
+{\displaystyle (a,b]}
+ is sometimes called "the" Borel measure on 
+R
+{\displaystyle \mathbb {R} }
+. This measure turns out to be the restriction to the Borel σ-algebra of the Lebesgue measure 
+λ
+{\displaystyle \lambda }
+, which is a complete measure and is defined on the Lebesgue σ-algebra. The Lebesgue σ-algebra is actually the completion of the Borel σ-algebra, which means that it is the smallest σ-algebra that contains all the Borel sets and can be equipped with a complete measure. Also, the Borel measure and the Lebesgue measure coincide on the Borel sets (i.e., 
+λ
+(
+E
+)
+=
+μ
+(
+E
+)
+{\displaystyle \lambda (E)=\mu (E)}
+ for every Borel measurable set, where 
+μ
+{\displaystyle \mu }
+ is the Borel measure described above).
+If X and Y are second-countable, Hausdorff topological spaces, then the set of Borel subsets 
+B
+(
+X
+×
+Y
+)
+{\displaystyle B(X\times Y)}
+ of their product coincides with the product of the sets 
+B
+(
+X
+)
+×
+B
+(
+Y
+)
+{\displaystyle B(X)\times B(Y)}
+ of Borel subsets of X and Y.[3] That is, the Borel functor
+from the category of second-countable Hausdorff spaces to the category of measurable spaces preserves finite products.
+The Lebesgue–Stieltjes integral is the ordinary Lebesgue integral with respect to a measure known as the Lebesgue–Stieltjes measure, which may be associated to any function of bounded variation on the real line.  The Lebesgue–Stieltjes measure is a regular Borel measure, and conversely every regular Borel measure on the real line is of this kind.[4]
+One can define the Laplace transform of a finite Borel measure μ on the real line by the Lebesgue integral[5]
+An important special case is where μ is a probability measure or, even more specifically, the Dirac delta function. In operational calculus, the Laplace transform of a measure is often treated as though the measure came from a distribution function f.  In that case, to avoid potential confusion, one often writes
+where the lower limit of 0− is shorthand notation for
+This limit emphasizes that any point mass located at 0 is entirely captured by the Laplace transform.  Although with the Lebesgue integral, it is not necessary to take such a limit, it does appear more naturally in connection with the Laplace–Stieltjes transform.
+Given a Borel measure μ on a metric space X such that μ(X) > 0 and μ(B(x, r)) ≤ rs holds for some constant s > 0 and for every ball B(x, r) in X, then the Hausdorff dimension dimHaus(X) ≥ s. A partial converse is provided by the Frostman lemma:[6]
+Lemma: Let A be a Borel subset of Rn, and let s > 0. Then the following are equivalent:
+The Cramér–Wold theorem in measure theory states that a Borel probability measure on 
+R
+k
+{\displaystyle \mathbb {R} ^{k}}
+ is uniquely determined by the totality of its one-dimensional projections.[7] It is used as a method for proving joint convergence results. The theorem is named after Harald Cramér and Herman Ole Andreas Wold.

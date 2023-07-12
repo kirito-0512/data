@@ -1,0 +1,684 @@
+7929,
+Differentiablefunction,
+In mathematics, a differentiable function of one real variable is a function whose derivative exists at each point in its domain. In other words, the graph of a differentiable function has a non-vertical tangent line at each interior point in its domain. A differentiable function is smooth (the function is locally well approximated as a linear function at each interior point) and does not contain any break, angle, or cusp.
+If x0 is an interior point in the domain of a function f, then f is said to be differentiable at x0 if the derivative 
+
+
+
+
+f
+′
+
+(
+
+x
+
+0
+
+
+)
+
+
+{\displaystyle f'(x_{0})}
+
+ exists. In other words, the graph of f has a non-vertical tangent line at the point (x0, f(x0)). f is said to be differentiable on U if it is differentiable at every point of U. f is said to be continuously differentiable if its derivative is also a continuous function over the domain of the function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+. Generally speaking, f is said to be of class 
+
+
+
+
+C
+
+k
+
+
+
+
+{\displaystyle C^{k}}
+
+ if its first 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ derivatives 
+
+
+
+
+f
+
+′
+
+
+(
+x
+)
+,
+
+f
+
+′
+′
+
+
+(
+x
+)
+,
+…
+,
+
+f
+
+(
+k
+)
+
+
+(
+x
+)
+
+
+{\displaystyle f^{\prime }(x),f^{\prime \prime }(x),\ldots ,f^{(k)}(x)}
+
+ exist and are continuous over the domain of the function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+.
+A function 
+
+
+
+f
+:
+U
+→
+
+R
+
+
+
+{\displaystyle f:U\to \mathbb {R} }
+
+, defined on an open set 
+
+
+
+U
+⊂
+
+R
+
+
+
+{\displaystyle U\subset \mathbb {R} }
+
+, is said to be differentiable at 
+
+
+
+a
+∈
+U
+
+
+{\displaystyle a\in U}
+
+ if the derivative
+exists. This implies that the function is continuous at a.
+This function f is said to be differentiable on U if it is differentiable at every point of U. In this case, the derivative of f is thus a function from U into 
+
+
+
+
+R
+
+.
+
+
+{\displaystyle \mathbb {R} .}
+
+
+A continuous function is not necessarily differentiable, but a differentiable function is necessarily continuous (at every point where it is differentiable) as being shown below (in the section Differentiability and continuity). A function is said to be continuously differentiable if its derivative is also a continuous function; there exists a function that is differentiable but not continuously differentiable as being shown below (in the section Differentiability classes).
+If f is differentiable at a point x0, then f must also be continuous at x0.  In particular, any differentiable function must be continuous at every point in its domain. The converse does not hold: a continuous function need not be differentiable. For example, a function with a bend, cusp, or vertical tangent may be continuous, but fails to be differentiable at the location of the anomaly.
+Most functions that occur in practice have derivatives at all points or at almost every point. However, a result of Stefan Banach states that the set of functions that have a derivative at some point is a meagre set in the space of all continuous functions.[1] Informally, this means that differentiable functions are very atypical among continuous functions. The first known example of a function that is continuous everywhere but differentiable nowhere is the Weierstrass function.
+A function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is said to be continuously differentiable if the derivative 
+
+
+
+
+f
+
+′
+
+
+(
+x
+)
+
+
+{\displaystyle f^{\prime }(x)}
+
+ exists and is itself a continuous function. Although the derivative of a differentiable function never has a jump discontinuity, it is possible for the derivative to have an essential discontinuity. For example, the function
+
+
+
+
+f
+(
+x
+)
+
+=
+
+
+
+{
+
+
+
+
+x
+
+2
+
+
+sin
+⁡
+(
+1
+
+/
+
+x
+)
+
+
+
+ if 
+
+x
+≠
+0
+
+
+
+
+0
+
+
+
+ if 
+
+x
+=
+0
+
+
+
+
+
+
+
+
+{\displaystyle f(x)\;=\;{\begin{cases}x^{2}\sin(1/x)&{\text{ if }}x\neq 0\\0&{\text{ if }}x=0\end{cases}}}
+
+
+is differentiable at 0, since
+
+
+
+
+
+f
+′
+
+(
+0
+)
+=
+
+lim
+
+ε
+→
+0
+
+
+
+(
+
+
+
+
+ε
+
+2
+
+
+sin
+⁡
+(
+1
+
+/
+
+ε
+)
+−
+0
+
+ε
+
+
+)
+
+=
+0
+
+
+{\displaystyle f'(0)=\lim _{\varepsilon \to 0}\left({\frac {\varepsilon ^{2}\sin(1/\varepsilon )-0}{\varepsilon }}\right)=0}
+
+
+exists. However, for 
+
+
+
+x
+≠
+0
+,
+
+
+{\displaystyle x\neq 0,}
+
+ differentiation rules imply
+
+
+
+
+
+f
+′
+
+(
+x
+)
+=
+2
+x
+sin
+⁡
+(
+1
+
+/
+
+x
+)
+−
+cos
+⁡
+(
+1
+
+/
+
+x
+)
+
+,
+
+
+{\displaystyle f'(x)=2x\sin(1/x)-\cos(1/x)\;,}
+
+
+which has no limit as 
+
+
+
+x
+→
+0.
+
+
+{\displaystyle x\to 0.}
+
+ Thus, this example shows the existence of a function that is differentiable but not continuously differentiable (i.e., the derivative is not a continuous function). Nevertheless, Darboux's theorem implies that the derivative of any function satisfies the conclusion of the intermediate value theorem.
+Similarly to how continuous functions are said to be of class 
+
+
+
+
+C
+
+0
+
+
+,
+
+
+{\displaystyle C^{0},}
+
+ continuously differentiable functions are sometimes said to be of class 
+
+
+
+
+C
+
+1
+
+
+.
+
+
+{\displaystyle C^{1}.}
+
+ A function is of class 
+
+
+
+
+C
+
+2
+
+
+
+
+{\displaystyle C^{2}}
+
+ if the first and second derivative of the function both exist and are continuous. More generally, a function is said to be of class 
+
+
+
+
+C
+
+k
+
+
+
+
+{\displaystyle C^{k}}
+
+ if the first 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ derivatives 
+
+
+
+
+f
+
+′
+
+
+(
+x
+)
+,
+
+f
+
+′
+′
+
+
+(
+x
+)
+,
+…
+,
+
+f
+
+(
+k
+)
+
+
+(
+x
+)
+
+
+{\displaystyle f^{\prime }(x),f^{\prime \prime }(x),\ldots ,f^{(k)}(x)}
+
+ all exist and are continuous. If derivatives 
+
+
+
+
+f
+
+(
+n
+)
+
+
+
+
+{\displaystyle f^{(n)}}
+
+ exist for all positive integers 
+
+
+
+n
+,
+
+
+{\displaystyle n,}
+
+ the function is smooth or equivalently, of class 
+
+
+
+
+C
+
+∞
+
+
+.
+
+
+{\displaystyle C^{\infty }.}
+
+
+A function of several real variables f: Rm → Rn is said to be differentiable at a point x0 if there exists a linear map J: Rm → Rn such that
+If a function is differentiable at x0, then all of the partial derivatives exist at x0, and the linear map J is given by the Jacobian matrix, an n × m matrix in this case. A similar formulation of the higher-dimensional derivative is provided by the fundamental increment lemma found in single-variable calculus.
+If all the partial derivatives of a function exist in a neighborhood of a point x0 and are continuous at the point x0, then the function is differentiable at that point x0.
+However, the existence of the partial derivatives (or even of all the directional derivatives) does not guarantee that a function is differentiable at a point. For example, the function f: R2 → R defined by
+is not differentiable at (0, 0), but all of the partial derivatives and directional derivatives exist at this point. For a continuous example, the function
+is not differentiable at (0, 0), but again all of the partial derivatives and directional derivatives exist.
+In complex analysis, complex-differentiability is defined using the same definition as single-variable real functions. This is allowed by the possibility of dividing complex numbers. So, a function 
+
+
+
+f
+:
+
+C
+
+→
+
+C
+
+
+
+{\displaystyle f:\mathbb {C} \to \mathbb {C} }
+
+ is said to be differentiable at 
+
+
+
+x
+=
+a
+
+
+{\displaystyle x=a}
+
+ when
+Although this definition looks similar to the differentiability of single-variable real functions, it is however a more restrictive condition. A function 
+
+
+
+f
+:
+
+C
+
+→
+
+C
+
+
+
+{\displaystyle f:\mathbb {C} \to \mathbb {C} }
+
+, that is complex-differentiable at a point 
+
+
+
+x
+=
+a
+
+
+{\displaystyle x=a}
+
+ is automatically differentiable at that point, when viewed as a function 
+
+
+
+f
+:
+
+
+R
+
+
+2
+
+
+→
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle f:\mathbb {R} ^{2}\to \mathbb {R} ^{2}}
+
+. This is because the complex-differentiability implies that
+However, a function 
+
+
+
+f
+:
+
+C
+
+→
+
+C
+
+
+
+{\displaystyle f:\mathbb {C} \to \mathbb {C} }
+
+ can be differentiable as a multi-variable function, while not being complex-differentiable. For example, 
+
+
+
+f
+(
+z
+)
+=
+
+
+
+z
++
+
+
+z
+¯
+
+
+
+2
+
+
+
+
+{\displaystyle f(z)={\frac {z+{\overline {z}}}{2}}}
+
+ is differentiable at every point, viewed as the 2-variable real function 
+
+
+
+f
+(
+x
+,
+y
+)
+=
+x
+
+
+{\displaystyle f(x,y)=x}
+
+, but it is not complex-differentiable at any point.
+Any function that is complex-differentiable in a neighborhood of a point is called holomorphic at that point. Such a function is necessarily infinitely differentiable, and in fact analytic.
+If M is a differentiable manifold, a real or complex-valued function f on M is said to be differentiable at a point p if it is differentiable with respect to some (or any) coordinate chart defined around p. If M and N are differentiable manifolds, a function f: M → N is said to be differentiable at a point p if it is differentiable with respect to some (or any) coordinate charts defined around p and f(p).
+
+

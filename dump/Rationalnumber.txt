@@ -1,0 +1,943 @@
+25419,
+Rationalnumber,
+In mathematics, a rational number is a number that can be expressed as the quotient or fraction 
+
+
+
+
+
+
+p
+q
+
+
+
+
+
+{\displaystyle {\tfrac {p}{q}}}
+
+ of two integers, a numerator p and a non-zero denominator q.[1] For example, 
+
+
+
+
+
+
+
+−
+3
+
+7
+
+
+
+
+
+{\displaystyle {\tfrac {-3}{7}}}
+
+ is a rational number, as is every integer (e.g., 5 = 5/1). The set of all rational numbers, also referred to as "the rationals",[2] the field of rationals[3] or the field of rational numbers is usually denoted by boldface Q,[4] or blackboard bold 
+
+
+
+
+Q
+
+.
+
+
+{\displaystyle \mathbb {Q} .}
+
+[5]
+A rational number is a real number. The real numbers that are rational are those whose decimal expansion either terminates after a finite number of digits (example: 3/4 = 0.75), or eventually begins to repeat the same finite sequence of digits over and over (example: 9/44 = 0.20454545...).[6] This statement is true not only in base 10, but also in every other integer base, such as the binary and hexadecimal ones (see Repeating decimal § Extension to other bases).
+A real number that is not rational is called irrational.[7] Irrational numbers include the square root of 2 (
+
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\sqrt {2}}}
+
+), π, e, and the golden ratio (φ). Since the set of rational numbers is countable, and the set of real numbers is uncountable, almost all real numbers are irrational.[1]
+Rational numbers can be formally defined as equivalence classes of pairs of integers (p, q) with q ≠ 0, using the equivalence relation defined as follows:
+The fraction 
+
+
+
+
+
+
+p
+q
+
+
+
+
+
+{\displaystyle {\tfrac {p}{q}}}
+
+ then denotes the equivalence class of (p, q).[8]
+Rational numbers together with addition and multiplication form a field which contains the integers, and is contained in any field containing the integers. In other words, the field of rational numbers is a prime field, and a field has characteristic zero if and only if it contains the rational numbers as a subfield. Finite extensions of 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ are called algebraic number fields, and the algebraic closure of 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ is the field of algebraic numbers.[9]
+In mathematical analysis, the rational numbers form a dense subset of the real numbers. The real numbers can be constructed from the rational numbers by completion, using Cauchy sequences, Dedekind cuts, or infinite decimals (see Construction of the real numbers).
+The term rational in reference to the set 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ refers to the fact that a rational number represents a ratio of two integers. In mathematics, "rational" is often used as a noun abbreviating "rational number". The adjective rational sometimes means that the coefficients are rational numbers. For example, a rational point is a point with rational coordinates (i.e., a point whose coordinates are rational numbers); a rational matrix is a matrix of rational numbers; a rational polynomial may be a polynomial with rational coefficients, although the term "polynomial over the rationals" is generally preferred, to avoid confusion between "rational expression" and "rational function" (a polynomial is a rational expression and defines a rational function, even if its coefficients are not rational numbers). However, a rational curve is not a curve defined over the rationals, but a curve which can be parameterized by rational functions.
+Although nowadays rational numbers are defined in terms of ratios, the term rational is not a derivation of ratio. On the contrary, it is ratio that is derived from rational: the first use of ratio with its modern meaning was attested in English about 1660,[10] while the use of rational for qualifying numbers appeared almost a century earlier, in 1570.[11] This meaning of rational came from the mathematical meaning of irrational, which was first used in 1551, and it was used in "translations of Euclid (following his peculiar use of ἄλογος)".[12][13]
+This unusual history originated in the fact that ancient Greeks "avoided heresy by forbidding themselves from thinking of those [irrational] lengths as numbers".[14] So such lengths were irrational, in the sense of illogical, that is "not to be spoken about" (ἄλογος in Greek).[15]
+This etymology is similar to that of imaginary numbers and real numbers.
+Every rational number may be expressed in a unique way as an irreducible fraction 
+
+
+
+
+
+
+a
+b
+
+
+
+,
+
+
+{\displaystyle {\tfrac {a}{b}},}
+
+ where a and b are coprime integers and b > 0. This is often called the canonical form of the rational number.
+Starting from a rational number 
+
+
+
+
+
+
+a
+b
+
+
+
+,
+
+
+{\displaystyle {\tfrac {a}{b}},}
+
+ its canonical form may be obtained by dividing a and b by their greatest common divisor, and, if b < 0, changing the sign of the resulting numerator and denominator.
+Any integer n can be expressed as the rational number 
+
+
+
+
+
+
+n
+1
+
+
+
+,
+
+
+{\displaystyle {\tfrac {n}{1}},}
+
+ which is its canonical form as a rational number.
+If both fractions are in canonical form, then: 
+If both denominators are positive (particularly if both fractions are in canonical form):
+On the other hand, if either denominator is negative, then each fraction with a negative denominator must first be converted into an equivalent form with a positive denominator—by changing the signs of both its numerator and denominator.[8]
+Two fractions are added as follows:
+If both fractions are in canonical form, the result is in canonical form if and only if b, d are coprime integers.[8][16]
+If both fractions are in canonical form, the result is in canonical form if and only if b, d are coprime integers.[16]
+The rule for multiplication is:
+where the result may be a reducible fraction—even if both original fractions are in canonical form.[8][16]
+Every rational number 
+
+
+
+
+
+
+a
+b
+
+
+
+
+
+{\displaystyle {\tfrac {a}{b}}}
+
+ has an additive inverse, often called its opposite,
+If 
+
+
+
+
+
+
+a
+b
+
+
+
+
+
+{\displaystyle {\tfrac {a}{b}}}
+
+ is in canonical form, the same is true for its opposite.
+A nonzero rational number 
+
+
+
+
+
+
+a
+b
+
+
+
+
+
+{\displaystyle {\tfrac {a}{b}}}
+
+ has a multiplicative inverse, also called its reciprocal,
+If 
+
+
+
+
+
+
+a
+b
+
+
+
+
+
+{\displaystyle {\tfrac {a}{b}}}
+
+ is in canonical form, then the canonical form of its reciprocal is either 
+
+
+
+
+
+
+b
+a
+
+
+
+
+
+{\displaystyle {\tfrac {b}{a}}}
+
+ or 
+
+
+
+
+
+
+
+−
+b
+
+
+−
+a
+
+
+
+
+,
+
+
+{\displaystyle {\tfrac {-b}{-a}},}
+
+ depending on the sign of a.
+If b, c, d are nonzero, the division rule is 
+Thus, dividing 
+
+
+
+
+
+
+a
+b
+
+
+
+
+
+{\displaystyle {\tfrac {a}{b}}}
+
+ by 
+
+
+
+
+
+
+c
+d
+
+
+
+
+
+{\displaystyle {\tfrac {c}{d}}}
+
+ is equivalent to multiplying 
+
+
+
+
+
+
+a
+b
+
+
+
+
+
+{\displaystyle {\tfrac {a}{b}}}
+
+ by the reciprocal of 
+
+
+
+
+
+
+c
+d
+
+
+
+:
+
+
+{\displaystyle {\tfrac {c}{d}}:}
+
+[16]
+If n is a non-negative integer, then
+The result is in canonical form if the same is true for 
+
+
+
+
+
+
+a
+b
+
+
+
+.
+
+
+{\displaystyle {\tfrac {a}{b}}.}
+
+ In particular, 
+If a ≠ 0, then
+If 
+
+
+
+
+
+
+a
+b
+
+
+
+
+
+{\displaystyle {\tfrac {a}{b}}}
+
+ is in canonical form, the canonical form of the result is 
+
+
+
+
+
+
+
+b
+
+n
+
+
+
+a
+
+n
+
+
+
+
+
+
+
+{\displaystyle {\tfrac {b^{n}}{a^{n}}}}
+
+ if a > 0 or n is even. Otherwise, the canonical form of the result is 
+
+
+
+
+
+
+
+−
+
+b
+
+n
+
+
+
+
+−
+
+a
+
+n
+
+
+
+
+
+
+.
+
+
+{\displaystyle {\tfrac {-b^{n}}{-a^{n}}}.}
+
+
+A finite continued fraction is an expression such as
+where an are integers. Every rational number 
+
+
+
+
+
+
+a
+b
+
+
+
+
+
+{\displaystyle {\tfrac {a}{b}}}
+
+ can be represented as a finite continued fraction, whose coefficients an can be determined by applying the Euclidean algorithm to (a, b).
+are different ways to represent the same rational value.
+The rational numbers may be built as equivalence classes of ordered pairs of integers.[8][16]
+More precisely, let 
+
+
+
+(
+
+Z
+
+×
+(
+
+Z
+
+∖
+{
+0
+}
+)
+)
+
+
+{\displaystyle (\mathbb {Z} \times (\mathbb {Z} \setminus \{0\}))}
+
+ be the set of the pairs (m, n) of integers such n ≠ 0. An equivalence relation is defined on this set by 
+Addition and multiplication can be defined by the following rules:
+This equivalence relation is a congruence relation, which means that it is compatible with the addition and multiplication defined above; the set of rational numbers 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ is the defined as the quotient set by this equivalence relation, 
+
+
+
+(
+
+Z
+
+×
+(
+
+Z
+
+∖
+{
+0
+}
+)
+)
+
+/
+
+∼
+,
+
+
+{\displaystyle (\mathbb {Z} \times (\mathbb {Z} \backslash \{0\}))/\sim ,}
+
+ equipped with the addition and the multiplication induced by the above operations. (This construction can be carried out with any integral domain and produces its field of fractions.)[8]
+The equivalence class of a pair (m, n) is denoted 
+
+
+
+
+
+
+m
+n
+
+
+
+.
+
+
+{\displaystyle {\tfrac {m}{n}}.}
+
+  
+Two pairs (m1, n1) and (m2, n2) belong to the same equivalence class (that is are equivalent) if and only if 
+This means that 
+if and only if[8][16]
+Every equivalence class 
+
+
+
+
+
+
+m
+n
+
+
+
+
+
+{\displaystyle {\tfrac {m}{n}}}
+
+ may be represented by infinitely many pairs, since
+Each equivalence class contains a unique canonical representative element. The canonical representative is the unique pair (m, n) in the equivalence class such that m and n are coprime, and n > 0. It is called the representation in lowest terms of the rational number.
+The integers may be considered to be rational numbers identifying the integer n with the rational number 
+
+
+
+
+
+
+n
+1
+
+
+
+.
+
+
+{\displaystyle {\tfrac {n}{1}}.}
+
+
+A total order may be defined on the rational numbers, that extends the natural order of the integers. One has
+If 
+The set 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ of all rational numbers, together with the addition and multiplication operations shown above, forms a field.[8]
+
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ has no field automorphism other than the identity. (A field automorphism must fix 0 and 1; as it must fix the sum and the difference  of two fixed elements, it must fix every integer; as it must fix the quotient of two fixed elements, it must fix every rational number, and is thus the identity.)
+
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ is a prime field, which is a field that has no subfield other than itself.[17] The rationals are the smallest field with characteristic zero. Every field of characteristic zero contains a unique subfield isomorphic to 
+
+
+
+
+Q
+
+.
+
+
+{\displaystyle \mathbb {Q} .}
+
+
+With the order defined above, 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ is an ordered field[16] that has no subfield other than itself, and is the smallest ordered field, in the sense that every ordered field contains a unique subfield isomorphic to 
+
+
+
+
+Q
+
+.
+
+
+{\displaystyle \mathbb {Q} .}
+
+
+
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ is the field of fractions of the integers 
+
+
+
+
+Z
+
+.
+
+
+{\displaystyle \mathbb {Z} .}
+
+[18] The algebraic closure of 
+
+
+
+
+Q
+
+,
+
+
+{\displaystyle \mathbb {Q} ,}
+
+ i.e. the field of roots of rational polynomials, is the field of algebraic numbers.
+The rationals are a densely ordered set: between any two rationals, there sits another one, and, therefore, infinitely many other ones.[8] For example, for any two fractions such that 
+(where 
+
+
+
+b
+,
+d
+
+
+{\displaystyle b,d}
+
+ are positive), we have
+Any totally ordered set which is countable, dense (in the above sense), and has no least or greatest element is order isomorphic to the rational numbers.[19]
+The set of all rational numbers is countable, as is illustrated in the figure to the right. As a rational number can be expressed as a ratio of two integers, it is possible to assign two integers to any point on a square lattice as in a Cartesian coordinate system, such that any grid point corresponds to a rational number. This method, however, exhibits a form of redundancy, as several different grid points will correspond to the same rational number; these are highlighted in red on the provided graphic. An obvious example can be seen in the line going diagonally towards the bottom right; such ratios will always equal 1, as any non-zero number divided by itself will always equal one.
+It is possible to generate all of the rational numbers without such redundancies: examples include the Calkin–Wilf tree and Stern–Brocot tree.
+As the set of all rational numbers is countable, and the set of all real numbers (as well as the set of irrational numbers) is uncountable, the set of rational numbers is a null set, that is, almost all real numbers are irrational, in the sense of Lebesgue measure.
+The rationals are a dense subset of the real numbers; every real number has rational numbers arbitrarily close to it.[8] A related property is that rational numbers are the only numbers with finite expansions as regular continued fractions.[20]
+In the usual topology of the real numbers, the rationals are neither an open set nor a closed set.[21]
+By virtue of their order, the rationals carry an order topology. The rational numbers, as a subspace of the real numbers, also carry a subspace topology. The rational numbers form a metric space by using the absolute difference metric 
+
+
+
+d
+(
+x
+,
+y
+)
+=
+
+|
+
+x
+−
+y
+
+|
+
+,
+
+
+{\displaystyle d(x,y)=|x-y|,}
+
+ and this yields a third topology on 
+
+
+
+
+Q
+
+.
+
+
+{\displaystyle \mathbb {Q} .}
+
+ All three topologies coincide and turn the rationals into a topological field. The rational numbers are an important example of a space which is not locally compact. The rationals are characterized topologically as the unique countable metrizable space without isolated points. The space is also totally disconnected. The rational numbers do not form a complete metric space, and the real numbers are the completion of 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ under the metric 
+
+
+
+d
+(
+x
+,
+y
+)
+=
+
+|
+
+x
+−
+y
+
+|
+
+
+
+{\displaystyle d(x,y)=|x-y|}
+
+ above.[16]
+In addition to the absolute value metric mentioned above, there are other metrics which turn 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ into a topological field:
+Let p be a prime number and for any non-zero integer a, let 
+
+
+
+
+|
+
+a
+
+
+|
+
+
+p
+
+
+=
+
+p
+
+−
+n
+
+
+,
+
+
+{\displaystyle |a|_{p}=p_{-n},}
+
+ where pn is the highest power of p dividing a.
+In addition set 
+
+
+
+
+|
+
+0
+
+
+|
+
+
+p
+
+
+=
+0.
+
+
+{\displaystyle |0|_{p}=0.}
+
+ For any rational number 
+
+
+
+
+
+a
+b
+
+
+,
+
+
+{\displaystyle {\frac {a}{b}},}
+
+ we set 
+Then 
+defines a metric on 
+
+
+
+
+Q
+
+.
+
+
+{\displaystyle \mathbb {Q} .}
+
+[22]
+The metric space 
+
+
+
+(
+
+Q
+
+,
+
+d
+
+p
+
+
+)
+
+
+{\displaystyle (\mathbb {Q} ,d_{p})}
+
+ is not complete, and its completion is the p-adic number field 
+
+
+
+
+
+Q
+
+
+p
+
+
+.
+
+
+{\displaystyle \mathbb {Q} _{p}.}
+
+ Ostrowski's theorem states that any non-trivial absolute value on the rational numbers 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ is equivalent to either the usual real absolute value or a p-adic absolute value.
+
+

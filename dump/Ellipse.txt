@@ -1,0 +1,6897 @@
+9277,
+Ellipse,
+In mathematics, an ellipse is a plane curve surrounding two focal points, such that for all points on the curve, the sum of the two distances to the focal points is a constant. It generalizes a circle, which is the special type of ellipse in which the two focal points are the same. The elongation of an ellipse is measured by its eccentricity 
+
+
+
+e
+
+
+{\displaystyle e}
+
+, a number ranging from 
+
+
+
+e
+=
+0
+
+
+{\displaystyle e=0}
+
+ (the limiting case of a circle) to 
+
+
+
+e
+=
+1
+
+
+{\displaystyle e=1}
+
+ (the limiting case of infinite elongation, no longer an ellipse but a parabola).
+An ellipse has a simple algebraic solution for its area, but only approximations for its perimeter (also known as circumference), for which integration is required to obtain an exact solution.
+Analytically, the equation of a standard ellipse centered at the origin with width 
+
+
+
+2
+a
+
+
+{\displaystyle 2a}
+
+ and height 
+
+
+
+2
+b
+
+
+{\displaystyle 2b}
+
+ is:
+Assuming 
+
+
+
+a
+≥
+b
+
+
+{\displaystyle a\geq b}
+
+, the foci are 
+
+
+
+(
+±
+c
+,
+0
+)
+
+
+{\displaystyle (\pm c,0)}
+
+ for 
+
+
+
+c
+=
+
+
+
+a
+
+2
+
+
+−
+
+b
+
+2
+
+
+
+
+
+
+{\textstyle c={\sqrt {a^{2}-b^{2}}}}
+
+. The standard parametric equation is:
+Ellipses are the closed type of conic section: a plane curve tracing the intersection of a cone with a plane (see figure). Ellipses have many similarities with the other two forms of conic sections, parabolas and hyperbolas, both of which are open and unbounded. An angled cross section of a cylinder is also an ellipse.
+An ellipse may also be defined in terms of one focal point and a line outside the ellipse called the directrix: for all points on the ellipse, the ratio between the distance to the focus and the distance to the directrix is a constant. This constant ratio is the above-mentioned eccentricity:
+Ellipses are common in physics, astronomy and engineering. For example, the orbit of each planet in the Solar System is approximately an ellipse with the Sun at one focus point (more precisely, the focus is the barycenter of the Sun–planet pair). The same is true for moons orbiting planets and all other systems of two astronomical bodies. The shapes of planets and stars are often well described by ellipsoids. A circle viewed from a side angle looks like an ellipse: that is, the ellipse is the image of a circle under parallel or perspective projection. The ellipse is also the simplest Lissajous figure formed when the horizontal and vertical motions are sinusoids with the same frequency: a similar effect leads to elliptical polarization of light in optics.
+The name, ἔλλειψις (élleipsis, "omission"), was given by Apollonius of Perga in his Conics.
+An ellipse can be defined geometrically as a set or locus of points in the Euclidean plane:
+The midpoint 
+
+
+
+C
+
+
+{\displaystyle C}
+
+ of the line segment joining the foci is called the center of the ellipse. The line through the foci is called the major axis, and the line perpendicular to it through the center is the minor axis. The major axis intersects the ellipse at two vertices 
+
+
+
+
+V
+
+1
+
+
+,
+
+V
+
+2
+
+
+
+
+{\displaystyle V_{1},V_{2}}
+
+, which have distance 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ to the center. The distance 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ of the foci to the center is called the focal distance or linear eccentricity. The quotient 
+
+
+
+e
+=
+
+
+
+c
+a
+
+
+
+
+
+{\displaystyle e={\tfrac {c}{a}}}
+
+ is the eccentricity.
+The case 
+
+
+
+
+F
+
+1
+
+
+=
+
+F
+
+2
+
+
+
+
+{\displaystyle F_{1}=F_{2}}
+
+ yields a circle and is included as a special type of ellipse.
+The equation 
+
+
+
+
+|
+
+P
+
+F
+
+2
+
+
+
+|
+
++
+
+|
+
+P
+
+F
+
+1
+
+
+
+|
+
+=
+2
+a
+
+
+{\displaystyle |PF_{2}|+|PF_{1}|=2a}
+
+ can be viewed in a different way (see figure):
+
+
+
+
+
+c
+
+2
+
+
+
+
+{\displaystyle c_{2}}
+
+ is called the circular directrix (related to focus 
+
+
+
+
+F
+
+2
+
+
+
+
+{\displaystyle F_{2}}
+
+) of the ellipse.[1][2] This property should not be confused with the definition of an ellipse using a directrix line below.
+Using Dandelin spheres, one can prove that any section of a cone with a plane is an ellipse, assuming the plane does not contain the apex and has slope less than that of the lines on the cone.
+The standard form of an ellipse in Cartesian coordinates assumes that the origin is the center of the ellipse, the x-axis is the major axis, and:
+For an arbitrary point 
+
+
+
+(
+x
+,
+y
+)
+
+
+{\displaystyle (x,y)}
+
+ the distance to the focus 
+
+
+
+(
+c
+,
+0
+)
+
+
+{\displaystyle (c,0)}
+
+ is
+
+
+
+
+
+
+(
+x
+−
+c
+
+)
+
+2
+
+
++
+
+y
+
+2
+
+
+
+
+
+
+{\textstyle {\sqrt {(x-c)^{2}+y^{2}}}}
+
+ and to the other focus 
+
+
+
+
+
+(
+x
++
+c
+
+)
+
+2
+
+
++
+
+y
+
+2
+
+
+
+
+
+
+{\textstyle {\sqrt {(x+c)^{2}+y^{2}}}}
+
+. Hence the point 
+
+
+
+(
+x
+,
+
+y
+)
+
+
+{\displaystyle (x,\,y)}
+
+ is on the ellipse whenever:
+Removing the radicals by suitable squarings and using 
+
+
+
+
+b
+
+2
+
+
+=
+
+a
+
+2
+
+
+−
+
+c
+
+2
+
+
+
+
+{\displaystyle b^{2}=a^{2}-c^{2}}
+
+ (see diagram) produces the standard equation of the ellipse:[3]
+or, solved for y:
+The width and height parameters 
+
+
+
+a
+,
+
+b
+
+
+{\displaystyle a,\;b}
+
+ are called the semi-major and semi-minor axes. The top and bottom points 
+
+
+
+
+V
+
+3
+
+
+=
+(
+0
+,
+
+b
+)
+,
+
+
+V
+
+4
+
+
+=
+(
+0
+,
+
+−
+b
+)
+
+
+{\displaystyle V_{3}=(0,\,b),\;V_{4}=(0,\,-b)}
+
+ are the co-vertices. The distances from a point 
+
+
+
+(
+x
+,
+
+y
+)
+
+
+{\displaystyle (x,\,y)}
+
+ on the ellipse to the left and right foci are 
+
+
+
+a
++
+e
+x
+
+
+{\displaystyle a+ex}
+
+ and 
+
+
+
+a
+−
+e
+x
+
+
+{\displaystyle a-ex}
+
+.
+It follows from the equation that the ellipse is symmetric with respect to the coordinate axes and hence with respect to the origin.
+Throughout this article, the semi-major and semi-minor axes are denoted 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+, respectively, i.e. 
+
+
+
+a
+≥
+b
+>
+0
+ 
+.
+
+
+{\displaystyle a\geq b>0\ .}
+
+
+In principle, the canonical ellipse equation 
+
+
+
+
+
+
+
+x
+
+2
+
+
+
+a
+
+2
+
+
+
+
+
++
+
+
+
+
+y
+
+2
+
+
+
+b
+
+2
+
+
+
+
+
+=
+1
+
+
+{\displaystyle {\tfrac {x^{2}}{a^{2}}}+{\tfrac {y^{2}}{b^{2}}}=1}
+
+ may have 
+
+
+
+a
+<
+b
+
+
+{\displaystyle a<b}
+
+ (and hence the ellipse would be taller than it is wide). This form can be converted to the standard form by transposing the variable names 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ and the parameter names 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+.
+
+
+{\displaystyle b.}
+
+
+This is the distance from the center to a focus:  
+
+
+
+c
+=
+
+
+
+a
+
+2
+
+
+−
+
+b
+
+2
+
+
+
+
+
+
+{\displaystyle c={\sqrt {a^{2}-b^{2}}}}
+
+.
+The eccentricity can be expressed as:
+assuming 
+
+
+
+a
+>
+b
+.
+
+
+{\displaystyle a>b.}
+
+ An ellipse with equal axes (
+
+
+
+a
+=
+b
+
+
+{\displaystyle a=b}
+
+) has zero eccentricity, and is a circle.
+The length of the chord through one focus, perpendicular to the major axis, is called the latus rectum. One half of it is the semi-latus rectum 
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+
+. A calculation shows:
+The semi-latus rectum 
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+
+ is equal to the radius of curvature at the vertices (see section curvature).
+An arbitrary line 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ intersects an ellipse at 0, 1, or 2 points, respectively called an exterior line, tangent and secant. Through any point of an ellipse there is a unique tangent. The tangent at a point 
+
+
+
+(
+
+x
+
+1
+
+
+,
+
+
+y
+
+1
+
+
+)
+
+
+{\displaystyle (x_{1},\,y_{1})}
+
+ of the ellipse 
+
+
+
+
+
+
+
+x
+
+2
+
+
+
+a
+
+2
+
+
+
+
+
++
+
+
+
+
+y
+
+2
+
+
+
+b
+
+2
+
+
+
+
+
+=
+1
+
+
+{\displaystyle {\tfrac {x^{2}}{a^{2}}}+{\tfrac {y^{2}}{b^{2}}}=1}
+
+ has the coordinate equation:
+A vector parametric equation of the tangent is:
+Proof:
+Let 
+
+
+
+(
+
+x
+
+1
+
+
+,
+
+
+y
+
+1
+
+
+)
+
+
+{\displaystyle (x_{1},\,y_{1})}
+
+ be a point on an ellipse and 
+
+
+
+
+
+
+x
+→
+
+
+
+=
+
+
+(
+
+
+
+
+x
+
+1
+
+
+
+
+
+
+
+y
+
+1
+
+
+
+
+
+)
+
+
++
+s
+
+
+(
+
+
+
+u
+
+
+
+
+v
+
+
+
+)
+
+
+
+
+{\textstyle {\vec {x}}={\begin{pmatrix}x_{1}\\y_{1}\end{pmatrix}}+s{\begin{pmatrix}u\\v\end{pmatrix}}}
+
+ be the equation of any line 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ containing 
+
+
+
+(
+
+x
+
+1
+
+
+,
+
+
+y
+
+1
+
+
+)
+
+
+{\displaystyle (x_{1},\,y_{1})}
+
+. Inserting the line's equation into the ellipse equation and respecting 
+
+
+
+
+
+
+x
+
+1
+
+
+2
+
+
+
+a
+
+2
+
+
+
+
++
+
+
+
+y
+
+1
+
+
+2
+
+
+
+b
+
+2
+
+
+
+
+=
+1
+
+
+{\displaystyle {\frac {x_{1}^{2}}{a^{2}}}+{\frac {y_{1}^{2}}{b^{2}}}=1}
+
+ yields:
+There are then cases:
+Using (1) one finds that 
+
+
+
+
+
+(
+
+
+
+−
+
+y
+
+1
+
+
+
+a
+
+2
+
+
+
+
+
+x
+
+1
+
+
+
+b
+
+2
+
+
+
+
+
+)
+
+
+
+
+{\displaystyle {\begin{pmatrix}-y_{1}a^{2}&x_{1}b^{2}\end{pmatrix}}}
+
+ is a tangent vector at point 
+
+
+
+(
+
+x
+
+1
+
+
+,
+
+
+y
+
+1
+
+
+)
+
+
+{\displaystyle (x_{1},\,y_{1})}
+
+, which proves the vector equation.
+If 
+
+
+
+(
+
+x
+
+1
+
+
+,
+
+y
+
+1
+
+
+)
+
+
+{\displaystyle (x_{1},y_{1})}
+
+ and 
+
+
+
+(
+u
+,
+v
+)
+
+
+{\displaystyle (u,v)}
+
+ are two points of the ellipse such that 
+
+
+
+
+
+
+
+x
+
+1
+
+
+u
+
+
+a
+
+2
+
+
+
+
++
+
+
+
+
+
+y
+
+1
+
+
+v
+
+
+b
+
+2
+
+
+
+
+
+=
+0
+
+
+{\textstyle {\frac {x_{1}u}{a^{2}}}+{\tfrac {y_{1}v}{b^{2}}}=0}
+
+, then the points lie on two conjugate diameters (see below). (If 
+
+
+
+a
+=
+b
+
+
+{\displaystyle a=b}
+
+, the ellipse is a circle and "conjugate" means "orthogonal".)
+If the standard ellipse is shifted to have center 
+
+
+
+
+(
+
+
+x
+
+∘
+
+
+,
+
+
+y
+
+∘
+
+
+
+)
+
+
+
+{\displaystyle \left(x_{\circ },\,y_{\circ }\right)}
+
+, its equation is
+The axes are still parallel to the x- and y-axes.
+In analytic geometry, the ellipse is defined as a quadric: the set of points 
+
+
+
+(
+X
+,
+
+Y
+)
+
+
+{\displaystyle (X,\,Y)}
+
+ of the Cartesian plane that, in non-degenerate cases, satisfy the implicit equation[5][6]
+provided 
+
+
+
+
+B
+
+2
+
+
+−
+4
+A
+C
+<
+0.
+
+
+{\displaystyle B^{2}-4AC<0.}
+
+
+To distinguish the degenerate cases from the non-degenerate case, let ∆ be the determinant
+Then the ellipse is a non-degenerate real ellipse if and only if C∆ < 0. If C∆ > 0, we have an imaginary ellipse, and if ∆ = 0, we have a point ellipse.[7]: p.63 
+The general equation's coefficients can be obtained from known semi-major axis 
+
+
+
+a
+
+
+{\displaystyle a}
+
+, semi-minor axis 
+
+
+
+b
+
+
+{\displaystyle b}
+
+, center coordinates 
+
+
+
+
+(
+
+
+x
+
+∘
+
+
+,
+
+
+y
+
+∘
+
+
+
+)
+
+
+
+{\displaystyle \left(x_{\circ },\,y_{\circ }\right)}
+
+, and rotation angle 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ (the angle from the positive horizontal axis to the ellipse's major axis) using the formulae:
+These expressions can be derived from the canonical equation
+by an affine transformation of the coordinates 
+
+
+
+(
+x
+,
+
+y
+)
+
+
+{\displaystyle (x,\,y)}
+
+:
+Conversely, the canonical form parameters can be obtained from the general form coefficients by the equations:[citation needed]
+Using trigonometric functions, a parametric representation of the standard ellipse 
+
+
+
+
+
+
+
+x
+
+2
+
+
+
+a
+
+2
+
+
+
+
+
++
+
+
+
+
+y
+
+2
+
+
+
+b
+
+2
+
+
+
+
+
+=
+1
+
+
+{\displaystyle {\tfrac {x^{2}}{a^{2}}}+{\tfrac {y^{2}}{b^{2}}}=1}
+
+ is:
+The parameter t (called the eccentric anomaly in astronomy) is not the angle of 
+
+
+
+(
+x
+(
+t
+)
+,
+y
+(
+t
+)
+)
+
+
+{\displaystyle (x(t),y(t))}
+
+ with the x-axis, but has a geometric meaning due to Philippe de La Hire (see Drawing ellipses below).[8]
+With the substitution 
+
+
+
+u
+=
+tan
+⁡
+
+(
+
+
+t
+2
+
+
+)
+
+
+
+{\textstyle u=\tan \left({\frac {t}{2}}\right)}
+
+ and trigonometric formulae one obtains
+and the rational parametric equation of an ellipse
+which covers any point of the ellipse 
+
+
+
+
+
+
+
+x
+
+2
+
+
+
+a
+
+2
+
+
+
+
+
++
+
+
+
+
+y
+
+2
+
+
+
+b
+
+2
+
+
+
+
+
+=
+1
+
+
+{\displaystyle {\tfrac {x^{2}}{a^{2}}}+{\tfrac {y^{2}}{b^{2}}}=1}
+
+ except the left vertex 
+
+
+
+(
+−
+a
+,
+
+0
+)
+
+
+{\displaystyle (-a,\,0)}
+
+.
+For 
+
+
+
+u
+∈
+[
+0
+,
+
+1
+]
+,
+
+
+{\displaystyle u\in [0,\,1],}
+
+ this formula represents the right upper quarter of the ellipse moving counter-clockwise with increasing 
+
+
+
+u
+.
+
+
+{\displaystyle u.}
+
+ The left vertex is the limit 
+
+
+
+
+lim
+
+u
+→
+±
+∞
+
+
+(
+x
+(
+u
+)
+,
+
+y
+(
+u
+)
+)
+=
+(
+−
+a
+,
+
+0
+)
+
+.
+
+
+{\textstyle \lim _{u\to \pm \infty }(x(u),\,y(u))=(-a,\,0)\;.}
+
+
+Alternately, if the parameter 
+
+
+
+[
+u
+:
+v
+]
+
+
+{\displaystyle [u:v]}
+
+ is considered to be a point on the real projective line 
+
+
+
+
+P
+
+(
+
+R
+
+)
+
+
+{\textstyle \mathbf {P} (\mathbf {R} )}
+
+, then the corresponding rational parametrization is
+Then 
+
+
+
+[
+1
+:
+0
+]
+↦
+(
+−
+a
+,
+
+0
+)
+.
+
+
+{\textstyle [1:0]\mapsto (-a,\,0).}
+
+
+Rational representations of conic sections are commonly used in computer-aided design (see Bezier curve).
+A parametric representation, which uses the slope 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ of the tangent at a point of the ellipse
+can be obtained from the derivative of the standard representation 
+
+
+
+
+
+
+x
+→
+
+
+
+(
+t
+)
+=
+(
+a
+cos
+⁡
+t
+,
+
+b
+sin
+⁡
+t
+
+)
+
+
+T
+
+
+
+
+
+{\displaystyle {\vec {x}}(t)=(a\cos t,\,b\sin t)^{\mathsf {T}}}
+
+:
+With help of trigonometric formulae one obtains:
+Replacing 
+
+
+
+cos
+⁡
+t
+
+
+{\displaystyle \cos t}
+
+ and 
+
+
+
+sin
+⁡
+t
+
+
+{\displaystyle \sin t}
+
+ of the standard representation yields:
+Here 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ is the slope of the tangent at the corresponding ellipse point, 
+
+
+
+
+
+
+
+c
+→
+
+
+
+
++
+
+
+
+
+{\displaystyle {\vec {c}}_{+}}
+
+ is the upper and 
+
+
+
+
+
+
+
+c
+→
+
+
+
+
+−
+
+
+
+
+{\displaystyle {\vec {c}}_{-}}
+
+ the lower half of the ellipse. The vertices
+
+
+
+(
+±
+a
+,
+
+0
+)
+
+
+{\displaystyle (\pm a,\,0)}
+
+, having vertical tangents, are not covered by the representation.
+The equation of the tangent at point 
+
+
+
+
+
+
+
+c
+→
+
+
+
+
+±
+
+
+(
+m
+)
+
+
+{\displaystyle {\vec {c}}_{\pm }(m)}
+
+ has the form 
+
+
+
+y
+=
+m
+x
++
+n
+
+
+{\displaystyle y=mx+n}
+
+. The still unknown 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ can be determined by inserting the coordinates of the corresponding ellipse point 
+
+
+
+
+
+
+
+c
+→
+
+
+
+
+±
+
+
+(
+m
+)
+
+
+{\displaystyle {\vec {c}}_{\pm }(m)}
+
+:
+This description of the tangents of an ellipse is an essential tool for the determination of the orthoptic of an ellipse. The orthoptic article contains another proof, without differential calculus and trigonometric formulae.
+Another definition of an ellipse uses affine transformations:
+An affine transformation of the Euclidean plane has the form 
+
+
+
+
+
+
+x
+→
+
+
+
+↦
+
+
+
+f
+→
+
+
+
+
+
+
+0
+
+
++
+A
+
+
+
+x
+→
+
+
+
+
+
+{\displaystyle {\vec {x}}\mapsto {\vec {f}}\!_{0}+A{\vec {x}}}
+
+, where 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is a regular matrix (with non-zero determinant) and 
+
+
+
+
+
+
+f
+→
+
+
+
+
+
+
+0
+
+
+
+
+{\displaystyle {\vec {f}}\!_{0}}
+
+ is an arbitrary vector. If 
+
+
+
+
+
+
+f
+→
+
+
+
+
+
+
+1
+
+
+,
+
+
+
+f
+→
+
+
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\vec {f}}\!_{1},{\vec {f}}\!_{2}}
+
+ are the column vectors of the matrix 
+
+
+
+A
+
+
+{\displaystyle A}
+
+, the unit circle 
+
+
+
+(
+cos
+⁡
+(
+t
+)
+,
+sin
+⁡
+(
+t
+)
+)
+
+
+{\displaystyle (\cos(t),\sin(t))}
+
+, 
+
+
+
+0
+≤
+t
+≤
+2
+π
+
+
+{\displaystyle 0\leq t\leq 2\pi }
+
+, is mapped onto the ellipse:
+Here 
+
+
+
+
+
+
+f
+→
+
+
+
+
+
+
+0
+
+
+
+
+{\displaystyle {\vec {f}}\!_{0}}
+
+ is the center and 
+
+
+
+
+
+
+f
+→
+
+
+
+
+
+
+1
+
+
+,
+
+
+
+
+f
+→
+
+
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\vec {f}}\!_{1},\;{\vec {f}}\!_{2}}
+
+ are the directions of two conjugate diameters, in general not perpendicular.
+The four vertices of the ellipse are 
+
+
+
+
+
+
+p
+→
+
+
+
+(
+
+t
+
+0
+
+
+)
+,
+
+
+
+
+p
+→
+
+
+
+
+(
+
+
+t
+
+0
+
+
+±
+
+
+
+π
+2
+
+
+
+
+)
+
+,
+
+
+
+
+p
+→
+
+
+
+
+(
+
+
+t
+
+0
+
+
++
+π
+
+)
+
+
+
+{\displaystyle {\vec {p}}(t_{0}),\;{\vec {p}}\left(t_{0}\pm {\tfrac {\pi }{2}}\right),\;{\vec {p}}\left(t_{0}+\pi \right)}
+
+, for a parameter 
+
+
+
+t
+=
+
+t
+
+0
+
+
+
+
+{\displaystyle t=t_{0}}
+
+ defined by:
+(If 
+
+
+
+
+
+
+f
+→
+
+
+
+
+
+
+1
+
+
+⋅
+
+
+
+f
+→
+
+
+
+
+
+
+2
+
+
+=
+0
+
+
+{\displaystyle {\vec {f}}\!_{1}\cdot {\vec {f}}\!_{2}=0}
+
+, then 
+
+
+
+
+t
+
+0
+
+
+=
+0
+
+
+{\displaystyle t_{0}=0}
+
+.) This is derived as follows. The tangent vector at point 
+
+
+
+
+
+
+p
+→
+
+
+
+(
+t
+)
+
+
+{\displaystyle {\vec {p}}(t)}
+
+ is:
+At a vertex parameter 
+
+
+
+t
+=
+
+t
+
+0
+
+
+
+
+{\displaystyle t=t_{0}}
+
+, the tangent is perpendicular to the major/minor axes, so:
+Expanding and applying the identities 
+
+
+
+
+
+cos
+
+2
+
+
+⁡
+t
+−
+
+sin
+
+2
+
+
+⁡
+t
+=
+cos
+⁡
+2
+t
+,
+ 
+ 
+2
+sin
+⁡
+t
+cos
+⁡
+t
+=
+sin
+⁡
+2
+t
+
+
+
+{\displaystyle \;\cos ^{2}t-\sin ^{2}t=\cos 2t,\ \ 2\sin t\cos t=\sin 2t\;}
+
+ gives the equation for 
+
+
+
+t
+=
+
+t
+
+0
+
+
+
+.
+
+
+{\displaystyle t=t_{0}\;.}
+
+
+From Apollonios theorem (see below) one obtains:
+The area of an ellipse 
+
+
+
+
+
+
+
+x
+→
+
+
+
+=
+
+
+
+
+f
+→
+
+
+
+
+0
+
+
++
+
+
+
+
+f
+→
+
+
+
+
+1
+
+
+cos
+⁡
+t
++
+
+
+
+
+f
+→
+
+
+
+
+2
+
+
+sin
+⁡
+t
+
+
+
+{\displaystyle \;{\vec {x}}={\vec {f}}_{0}+{\vec {f}}_{1}\cos t+{\vec {f}}_{2}\sin t\;}
+
+ is
+With the abbreviations
+
+
+
+
+
+M
+=
+
+
+
+
+f
+→
+
+
+
+
+1
+
+
+2
+
+
++
+
+
+
+
+f
+→
+
+
+
+
+2
+
+
+2
+
+
+,
+ 
+N
+=
+
+|
+
+det
+(
+
+
+
+
+f
+→
+
+
+
+
+1
+
+
+,
+
+
+
+
+f
+→
+
+
+
+
+2
+
+
+)
+
+|
+
+
+
+{\displaystyle \;M={\vec {f}}_{1}^{2}+{\vec {f}}_{2}^{2},\ N=\left|\det({\vec {f}}_{1},{\vec {f}}_{2})\right|}
+
+  the statements of Apollonios's theorem can be written as:
+Solving this nonlinear system for 
+
+
+
+a
+,
+b
+
+
+{\displaystyle a,b}
+
+ yields the semiaxes:
+Solving the parametric representation for 
+
+
+
+
+cos
+⁡
+t
+,
+sin
+⁡
+t
+
+
+
+{\displaystyle \;\cos t,\sin t\;}
+
+ by Cramer's rule and using 
+
+
+
+
+
+cos
+
+2
+
+
+⁡
+t
++
+
+sin
+
+2
+
+
+⁡
+t
+−
+1
+=
+0
+
+
+
+{\displaystyle \;\cos ^{2}t+\sin ^{2}t-1=0\;}
+
+, one obtains the implicit representation
+Conversely: If the equation
+of an ellipse centered at the origin is given, then the two vectors 
+point to two conjugate points and the tools developed above are applicable.
+Example: For the ellipse with equation 
+
+
+
+
+
+x
+
+2
+
+
++
+2
+x
+y
++
+3
+
+y
+
+2
+
+
+−
+1
+=
+0
+
+
+
+{\displaystyle \;x^{2}+2xy+3y^{2}-1=0\;}
+
+ the vectors are 
+For 
+
+
+
+
+
+
+
+f
+→
+
+
+
+
+0
+
+
+=
+
+
+
+(
+
+
+0
+0
+
+
+)
+
+
+
+,
+
+
+
+
+
+f
+→
+
+
+
+
+1
+
+
+=
+a
+
+
+
+(
+
+
+
+cos
+⁡
+θ
+
+
+sin
+⁡
+θ
+
+
+
+)
+
+
+
+,
+
+
+
+
+
+f
+→
+
+
+
+
+2
+
+
+=
+b
+
+
+
+(
+
+
+
+−
+sin
+⁡
+θ
+
+
+
+cos
+⁡
+θ
+
+
+
+)
+
+
+
+
+
+{\displaystyle {\vec {f}}_{0}={0 \choose 0},\;{\vec {f}}_{1}=a{\cos \theta  \choose \sin \theta },\;{\vec {f}}_{2}=b{-\sin \theta  \choose \;\cos \theta }}
+
+ one obtains a parametric representation of the standard ellipse rotated by angle 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+:
+The definition of an ellipse in this section gives a parametric representation of an arbitrary ellipse, even in space, if one allows 
+
+
+
+
+
+
+f
+→
+
+
+
+
+
+
+0
+
+
+,
+
+
+
+f
+→
+
+
+
+
+
+
+1
+
+
+,
+
+
+
+f
+→
+
+
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\vec {f}}\!_{0},{\vec {f}}\!_{1},{\vec {f}}\!_{2}}
+
+ to be vectors in space.
+In polar coordinates, with the origin at the center of the ellipse and with the angular coordinate 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ measured from the major axis, the ellipse's equation is[7]: p. 75 
+where 
+
+
+
+e
+
+
+{\displaystyle e}
+
+ is the eccentricity, not Euler's number
+If instead we use polar coordinates with the origin at one focus, with the angular coordinate 
+
+
+
+θ
+=
+0
+
+
+{\displaystyle \theta =0}
+
+ still measured from the major axis, the ellipse's equation is
+where the sign in the denominator is negative if the reference direction 
+
+
+
+θ
+=
+0
+
+
+{\displaystyle \theta =0}
+
+ points towards the center (as illustrated on the right), and positive if that direction points away from the center.
+In the slightly more general case of an ellipse with one focus at the origin and the other focus at angular coordinate 
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+
+, the polar form is
+The angle 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ in these formulas is called the true anomaly of the point. The numerator of these formulas is the semi-latus rectum 
+
+
+
+ℓ
+=
+a
+(
+1
+−
+
+e
+
+2
+
+
+)
+
+
+{\displaystyle \ell =a(1-e^{2})}
+
+.
+Each of the two lines parallel to the minor axis, and at a distance of 
+
+
+
+d
+=
+
+
+
+a
+
+2
+
+
+c
+
+
+=
+
+
+a
+e
+
+
+
+
+{\textstyle d={\frac {a^{2}}{c}}={\frac {a}{e}}}
+
+ from it, is called a directrix of the ellipse (see diagram).
+The proof for the pair 
+
+
+
+
+F
+
+1
+
+
+,
+
+l
+
+1
+
+
+
+
+{\displaystyle F_{1},l_{1}}
+
+ follows from the fact that 
+
+
+
+
+
+|
+
+P
+
+F
+
+1
+
+
+
+|
+
+
+2
+
+
+=
+(
+x
+−
+c
+
+)
+
+2
+
+
++
+
+y
+
+2
+
+
+,
+ 
+
+
+|
+
+P
+
+l
+
+1
+
+
+
+|
+
+
+2
+
+
+=
+
+
+(
+
+x
+−
+
+
+
+
+a
+
+2
+
+
+c
+
+
+
+
+)
+
+
+2
+
+
+
+
+{\displaystyle \left|PF_{1}\right|^{2}=(x-c)^{2}+y^{2},\ \left|Pl_{1}\right|^{2}=\left(x-{\tfrac {a^{2}}{c}}\right)^{2}}
+
+ and 
+
+
+
+
+y
+
+2
+
+
+=
+
+b
+
+2
+
+
+−
+
+
+
+
+b
+
+2
+
+
+
+a
+
+2
+
+
+
+
+
+
+x
+
+2
+
+
+
+
+{\displaystyle y^{2}=b^{2}-{\tfrac {b^{2}}{a^{2}}}x^{2}}
+
+ satisfy the equation
+The second case is proven analogously.
+The converse is also true and can be used to define an ellipse (in a manner similar to the definition of a parabola):
+The extension to 
+
+
+
+e
+=
+0
+
+
+{\displaystyle e=0}
+
+, which is the eccentricity of a circle, is not allowed in this context in the Euclidean plane. However, one may consider the directrix of a circle to be the line at infinity in the projective plane.
+(The choice 
+
+
+
+e
+=
+1
+
+
+{\displaystyle e=1}
+
+ yields a parabola, and if 
+
+
+
+e
+>
+1
+
+
+{\displaystyle e>1}
+
+, a hyperbola.)
+Let 
+
+
+
+F
+=
+(
+f
+,
+
+0
+)
+,
+ 
+e
+>
+0
+
+
+{\displaystyle F=(f,\,0),\ e>0}
+
+, and assume 
+
+
+
+(
+0
+,
+
+0
+)
+
+
+{\displaystyle (0,\,0)}
+
+ is a point on the curve.
+The directrix 
+
+
+
+l
+
+
+{\displaystyle l}
+
+ has equation 
+
+
+
+x
+=
+−
+
+
+
+f
+e
+
+
+
+
+
+{\displaystyle x=-{\tfrac {f}{e}}}
+
+. With 
+
+
+
+P
+=
+(
+x
+,
+
+y
+)
+
+
+{\displaystyle P=(x,\,y)}
+
+, the relation 
+
+
+
+
+|
+
+P
+F
+
+
+|
+
+
+2
+
+
+=
+
+e
+
+2
+
+
+
+|
+
+P
+l
+
+
+|
+
+
+2
+
+
+
+
+{\displaystyle |PF|^{2}=e^{2}|Pl|^{2}}
+
+ produces the equations
+The substitution 
+
+
+
+p
+=
+f
+(
+1
++
+e
+)
+
+
+{\displaystyle p=f(1+e)}
+
+ yields
+This is the equation of an ellipse (
+
+
+
+e
+<
+1
+
+
+{\displaystyle e<1}
+
+), or a parabola (
+
+
+
+e
+=
+1
+
+
+{\displaystyle e=1}
+
+), or a hyperbola (
+
+
+
+e
+>
+1
+
+
+{\displaystyle e>1}
+
+). All of these non-degenerate conics have, in common, the origin as a vertex (see diagram).
+If 
+
+
+
+e
+<
+1
+
+
+{\displaystyle e<1}
+
+, introduce new parameters 
+
+
+
+a
+,
+
+b
+
+
+{\displaystyle a,\,b}
+
+ so that 
+
+
+
+1
+−
+
+e
+
+2
+
+
+=
+
+
+
+
+b
+
+2
+
+
+
+a
+
+2
+
+
+
+
+
+,
+
+ and 
+
+ 
+p
+=
+
+
+
+
+b
+
+2
+
+
+a
+
+
+
+
+
+{\displaystyle 1-e^{2}={\tfrac {b^{2}}{a^{2}}},{\text{ and }}\ p={\tfrac {b^{2}}{a}}}
+
+, and then the equation above becomes
+which is the equation of an ellipse with center 
+
+
+
+(
+a
+,
+
+0
+)
+
+
+{\displaystyle (a,\,0)}
+
+, the x-axis as major axis, and
+the major/minor semi axis 
+
+
+
+a
+,
+
+b
+
+
+{\displaystyle a,\,b}
+
+.
+Because of 
+
+
+
+c
+⋅
+
+
+
+
+a
+
+2
+
+
+c
+
+
+
+=
+
+a
+
+2
+
+
+
+
+{\displaystyle c\cdot {\tfrac {a^{2}}{c}}=a^{2}}
+
+ point 
+
+
+
+
+L
+
+1
+
+
+
+
+{\displaystyle L_{1}}
+
+ of directrix 
+
+
+
+
+l
+
+1
+
+
+
+
+{\displaystyle l_{1}}
+
+ (see diagram) and focus 
+
+
+
+
+F
+
+1
+
+
+
+
+{\displaystyle F_{1}}
+
+ are inverse with respect to the circle inversion at circle 
+
+
+
+
+x
+
+2
+
+
++
+
+y
+
+2
+
+
+=
+
+a
+
+2
+
+
+
+
+{\displaystyle x^{2}+y^{2}=a^{2}}
+
+ (in diagram green). Hence 
+
+
+
+
+L
+
+1
+
+
+
+
+{\displaystyle L_{1}}
+
+ can be constructed as shown in the diagram. Directrix 
+
+
+
+
+l
+
+1
+
+
+
+
+{\displaystyle l_{1}}
+
+ is the perpendicular to the main axis at point 
+
+
+
+
+L
+
+1
+
+
+
+
+{\displaystyle L_{1}}
+
+.
+If the focus is 
+
+
+
+F
+=
+
+(
+
+
+f
+
+1
+
+
+,
+
+
+f
+
+2
+
+
+
+)
+
+
+
+{\displaystyle F=\left(f_{1},\,f_{2}\right)}
+
+ and the directrix 
+
+
+
+u
+x
++
+v
+y
++
+w
+=
+0
+
+
+{\displaystyle ux+vy+w=0}
+
+, one obtains the equation
+(The right side of the equation uses the Hesse normal form of a line to calculate the distance 
+
+
+
+
+|
+
+P
+l
+
+|
+
+
+
+{\displaystyle |Pl|}
+
+.)
+An ellipse possesses the following property:
+Because the tangent is perpendicular to the normal, the statement is true for the tangent and the supplementary angle of the angle between the lines to the foci (see diagram), too.
+Let 
+
+
+
+L
+
+
+{\displaystyle L}
+
+ be the point on the line 
+
+
+
+
+
+
+P
+
+F
+
+2
+
+
+
+¯
+
+
+
+
+{\displaystyle {\overline {PF_{2}}}}
+
+ with the distance 
+
+
+
+2
+a
+
+
+{\displaystyle 2a}
+
+ to the focus 
+
+
+
+
+F
+
+2
+
+
+
+
+{\displaystyle F_{2}}
+
+, 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ is the semi-major axis of the ellipse. Let line 
+
+
+
+w
+
+
+{\displaystyle w}
+
+ be the bisector of the supplementary angle to the angle between the lines 
+
+
+
+
+
+
+P
+
+F
+
+1
+
+
+
+¯
+
+
+,
+
+
+
+
+P
+
+F
+
+2
+
+
+
+¯
+
+
+
+
+{\displaystyle {\overline {PF_{1}}},\,{\overline {PF_{2}}}}
+
+. In order to prove that 
+
+
+
+w
+
+
+{\displaystyle w}
+
+ is the tangent line at point 
+
+
+
+P
+
+
+{\displaystyle P}
+
+, one checks that any point 
+
+
+
+Q
+
+
+{\displaystyle Q}
+
+ on line 
+
+
+
+w
+
+
+{\displaystyle w}
+
+ which is different from 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ cannot be on the ellipse. Hence 
+
+
+
+w
+
+
+{\displaystyle w}
+
+ has only point 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ in common with the ellipse and is, therefore, the tangent at point 
+
+
+
+P
+
+
+{\displaystyle P}
+
+.
+From the diagram and the triangle inequality one recognizes that 
+
+
+
+2
+a
+=
+
+|
+
+L
+
+F
+
+2
+
+
+
+|
+
+<
+
+|
+
+Q
+
+F
+
+2
+
+
+
+|
+
++
+
+|
+
+Q
+L
+
+|
+
+=
+
+|
+
+Q
+
+F
+
+2
+
+
+
+|
+
++
+
+|
+
+Q
+
+F
+
+1
+
+
+
+|
+
+
+
+{\displaystyle 2a=\left|LF_{2}\right|<\left|QF_{2}\right|+\left|QL\right|=\left|QF_{2}\right|+\left|QF_{1}\right|}
+
+ holds, which means: 
+
+
+
+
+|
+
+Q
+
+F
+
+2
+
+
+
+|
+
++
+
+|
+
+Q
+
+F
+
+1
+
+
+
+|
+
+>
+2
+a
+
+
+{\displaystyle \left|QF_{2}\right|+\left|QF_{1}\right|>2a}
+
+ . The equality 
+
+
+
+
+|
+
+Q
+L
+
+|
+
+=
+
+|
+
+Q
+
+F
+
+1
+
+
+
+|
+
+
+
+{\displaystyle \left|QL\right|=\left|QF_{1}\right|}
+
+ is true from the Angle bisector theorem because 
+
+
+
+
+
+
+|
+
+P
+L
+
+|
+
+
+|
+
+P
+
+F
+
+1
+
+
+
+|
+
+
+
+=
+
+
+
+|
+
+Q
+L
+
+|
+
+
+|
+
+Q
+
+F
+
+1
+
+
+
+|
+
+
+
+
+
+{\displaystyle {\frac {\left|PL\right|}{\left|PF_{1}\right|}}={\frac {\left|QL\right|}{\left|QF_{1}\right|}}}
+
+  and 
+
+
+
+
+|
+
+P
+L
+
+|
+
+=
+
+|
+
+P
+
+F
+
+1
+
+
+
+|
+
+
+
+{\displaystyle \left|PL\right|=\left|PF_{1}\right|}
+
+ . But if 
+
+
+
+Q
+
+
+{\displaystyle Q}
+
+ is a point of the ellipse, the sum should be 
+
+
+
+2
+a
+
+
+{\displaystyle 2a}
+
+.
+The rays from one focus are reflected by the ellipse to the second focus. This property has optical and acoustic applications similar to the reflective property of a parabola (see whispering gallery).
+A circle has the following property:
+An affine transformation preserves parallelism and midpoints of line segments, so this property is true for any ellipse. (Note that the parallel chords and the diameter are no longer orthogonal.)
+Two diameters 
+
+
+
+
+d
+
+1
+
+
+,
+
+
+d
+
+2
+
+
+
+
+{\displaystyle d_{1},\,d_{2}}
+
+ of an ellipse are conjugate if the midpoints of chords parallel to 
+
+
+
+
+d
+
+1
+
+
+
+
+{\displaystyle d_{1}}
+
+ lie on 
+
+
+
+
+d
+
+2
+
+
+ 
+.
+
+
+{\displaystyle d_{2}\ .}
+
+
+From the diagram one finds:
+Conjugate diameters in an ellipse generalize orthogonal diameters in a circle.
+In the parametric equation for a general ellipse given above,
+any pair of points 
+
+
+
+
+
+
+p
+→
+
+
+
+(
+t
+)
+,
+ 
+
+
+
+p
+→
+
+
+
+(
+t
++
+π
+)
+
+
+{\displaystyle {\vec {p}}(t),\ {\vec {p}}(t+\pi )}
+
+ belong to a diameter, and the pair 
+
+
+
+
+
+
+p
+→
+
+
+
+
+(
+
+t
++
+
+
+
+π
+2
+
+
+
+
+)
+
+,
+ 
+
+
+
+p
+→
+
+
+
+
+(
+
+t
+−
+
+
+
+π
+2
+
+
+
+
+)
+
+
+
+{\displaystyle {\vec {p}}\left(t+{\tfrac {\pi }{2}}\right),\ {\vec {p}}\left(t-{\tfrac {\pi }{2}}\right)}
+
+ belong to its conjugate diameter.
+For the common parametric representation 
+
+
+
+(
+a
+cos
+⁡
+t
+,
+b
+sin
+⁡
+t
+)
+
+
+{\displaystyle (a\cos t,b\sin t)}
+
+ of the ellipse with equation 
+
+
+
+
+
+
+
+x
+
+2
+
+
+
+a
+
+2
+
+
+
+
+
++
+
+
+
+
+y
+
+2
+
+
+
+b
+
+2
+
+
+
+
+
+=
+1
+
+
+{\displaystyle {\tfrac {x^{2}}{a^{2}}}+{\tfrac {y^{2}}{b^{2}}}=1}
+
+ one gets: The points 
+In case of a circle the last equation collapses to 
+
+
+
+
+x
+
+1
+
+
+
+x
+
+2
+
+
++
+
+y
+
+1
+
+
+
+y
+
+2
+
+
+=
+0
+ 
+.
+
+
+{\displaystyle x_{1}x_{2}+y_{1}y_{2}=0\ .}
+
+
+For an ellipse with semi-axes 
+
+
+
+a
+,
+
+b
+
+
+{\displaystyle a,\,b}
+
+ the following is true:[9][10]
+Let the ellipse be in the canonical form with parametric equation
+The two points 
+
+
+
+
+
+
+
+c
+→
+
+
+
+
+1
+
+
+=
+
+
+
+p
+→
+
+
+
+(
+t
+)
+,
+ 
+
+
+
+
+c
+→
+
+
+
+
+2
+
+
+=
+
+
+
+p
+→
+
+
+
+
+(
+
+t
++
+
+
+π
+2
+
+
+
+)
+
+
+
+{\displaystyle {\vec {c}}_{1}={\vec {p}}(t),\ {\vec {c}}_{2}={\vec {p}}\left(t+{\frac {\pi }{2}}\right)}
+
+ are on conjugate diameters (see previous section). From trigonometric formulae one obtains 
+
+
+
+
+
+
+
+c
+→
+
+
+
+
+2
+
+
+=
+(
+−
+a
+sin
+⁡
+t
+,
+
+b
+cos
+⁡
+t
+
+)
+
+
+T
+
+
+
+
+
+{\displaystyle {\vec {c}}_{2}=(-a\sin t,\,b\cos t)^{\mathsf {T}}}
+
+ and
+The area of the triangle generated by 
+
+
+
+
+
+
+
+c
+→
+
+
+
+
+1
+
+
+,
+
+
+
+
+
+c
+→
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\vec {c}}_{1},\,{\vec {c}}_{2}}
+
+ is
+and from the diagram it can be seen that the area of the parallelogram is 8 times that of 
+
+
+
+
+A
+
+Δ
+
+
+
+
+{\displaystyle A_{\Delta }}
+
+. Hence
+For the ellipse 
+
+
+
+
+
+
+
+x
+
+2
+
+
+
+a
+
+2
+
+
+
+
+
++
+
+
+
+
+y
+
+2
+
+
+
+b
+
+2
+
+
+
+
+
+=
+1
+
+
+{\displaystyle {\tfrac {x^{2}}{a^{2}}}+{\tfrac {y^{2}}{b^{2}}}=1}
+
+ the intersection points of orthogonal tangents lie on the circle  
+
+
+
+
+x
+
+2
+
+
++
+
+y
+
+2
+
+
+=
+
+a
+
+2
+
+
++
+
+b
+
+2
+
+
+
+
+{\displaystyle x^{2}+y^{2}=a^{2}+b^{2}}
+
+.
+This circle is called orthoptic or director circle of the ellipse (not to be confused with the circular directrix defined above).
+Ellipses appear in descriptive geometry as images (parallel or central projection) of circles. There exist various tools to draw an ellipse. Computers provide the fastest and most accurate method for drawing an ellipse. However, technical tools (ellipsographs) to draw an ellipse without a computer exist. The principle of ellipsographs were known to Greek mathematicians such as Archimedes and Proklos.
+If there is no ellipsograph available, one can draw an ellipse using an approximation by the four osculating circles at the vertices.
+For any method described below, knowledge of the axes and the semi-axes is necessary (or equivalently: the foci and the semi-major axis).
+If this presumption is not fulfilled one has to know at least two conjugate diameters. With help of Rytz's construction the axes and semi-axes can be retrieved.
+The following construction of single points of an ellipse is due to de La Hire.[11]  It is based on the standard parametric representation 
+
+
+
+(
+a
+cos
+⁡
+t
+,
+
+b
+sin
+⁡
+t
+)
+
+
+{\displaystyle (a\cos t,\,b\sin t)}
+
+ of an ellipse:
+de La Hire's method
+Animation of the method
+The characterization of an ellipse as the locus of points so that sum of the distances to the foci is constant leads to a method of drawing one using two drawing pins, a length of string, and a pencil. In this method, pins are pushed into the paper at two points, which become the ellipse's foci. A string is tied at each end to the two pins; its length after tying is 
+
+
+
+2
+a
+
+
+{\displaystyle 2a}
+
+. The tip of the pencil then traces an ellipse if it is moved while keeping the string taut. Using two pegs and a rope, gardeners use this procedure to outline an elliptical flower bed—thus it is called the gardener's ellipse.
+A similar method for drawing confocal ellipses with a closed string is due to the Irish bishop Charles Graves.
+The two following methods rely on the parametric representation (see section parametric representation, above):
+This representation can be modeled technically by two simple methods. In both cases center, the axes and semi axes 
+
+
+
+a
+,
+
+b
+
+
+{\displaystyle a,\,b}
+
+ have to be known.
+The first method starts with
+The point, where the semi axes meet is marked by 
+
+
+
+P
+
+
+{\displaystyle P}
+
+. If the strip slides with both ends on the axes of the desired ellipse, then point 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ traces the ellipse. For the proof one shows that point 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ has the parametric representation 
+
+
+
+(
+a
+cos
+⁡
+t
+,
+
+b
+sin
+⁡
+t
+)
+
+
+{\displaystyle (a\cos t,\,b\sin t)}
+
+, where parameter 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ is the angle of the slope of the paper strip.
+A technical realization of the motion of the paper strip can be achieved by a Tusi couple (see animation). The device is able to draw any ellipse with a fixed sum 
+
+
+
+a
++
+b
+
+
+{\displaystyle a+b}
+
+, which is the radius of the large circle. This restriction may be a disadvantage in real life. More flexible is the second paper strip method.
+Ellipse construction: paper strip method 1
+Ellipses with Tusi couple. Two examples: red and cyan.
+A variation of the paper strip method 1 uses the observation that the midpoint 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ of the paper strip is moving on the circle with center 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ (of the ellipse) and radius 
+
+
+
+
+
+
+
+a
++
+b
+
+2
+
+
+
+
+
+{\displaystyle {\tfrac {a+b}{2}}}
+
+. Hence, the paperstrip can be cut at point 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ into halves, connected again by a joint at 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ and the sliding end 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ fixed at the center 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ (see diagram). After this operation the movement of the unchanged half of the paperstrip is unchanged.[12] This variation requires only one sliding shoe.
+Variation of the paper strip method 1
+Animation of the variation of the paper strip method 1
+The second method starts with
+One marks the point, which divides the strip into two substrips of length 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ and 
+
+
+
+a
+−
+b
+
+
+{\displaystyle a-b}
+
+. The strip is positioned onto the axes as described in the diagram. Then the free end of the strip traces an ellipse, while the strip is moved. For the proof, one recognizes that the tracing point can be described parametrically by 
+
+
+
+(
+a
+cos
+⁡
+t
+,
+
+b
+sin
+⁡
+t
+)
+
+
+{\displaystyle (a\cos t,\,b\sin t)}
+
+, where parameter 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ is the angle of slope of the paper strip.
+This method is the base for several ellipsographs (see section below).
+Similar to the variation of the paper strip method 1 a variation of the paper strip method 2 can be established (see diagram) by cutting the part between the axes into halves.
+Trammel of Archimedes (principle)
+Ellipsograph due to Benjamin Bramer
+Variation of the paper strip method 2
+Most ellipsograph drafting instruments are based on the second paperstrip method.From Metric properties below, one obtains:
+The diagram shows an easy way to find the centers of curvature 
+
+
+
+
+C
+
+1
+
+
+=
+
+(
+
+a
+−
+
+
+
+
+b
+
+2
+
+
+a
+
+
+
+,
+0
+
+)
+
+,
+
+
+C
+
+3
+
+
+=
+
+(
+
+0
+,
+b
+−
+
+
+
+
+a
+
+2
+
+
+b
+
+
+
+
+)
+
+
+
+{\displaystyle C_{1}=\left(a-{\tfrac {b^{2}}{a}},0\right),\,C_{3}=\left(0,b-{\tfrac {a^{2}}{b}}\right)}
+
+ at vertex 
+
+
+
+
+V
+
+1
+
+
+
+
+{\displaystyle V_{1}}
+
+ and co-vertex 
+
+
+
+
+V
+
+3
+
+
+
+
+{\displaystyle V_{3}}
+
+, respectively:
+(proof: simple calculation.)
+The centers for the remaining vertices are found by symmetry.
+With help of a French curve one draws a curve, which has smooth contact to the osculating circles.
+The following method to construct single points of an ellipse relies on the Steiner generation of a conic section:
+For the generation of points of the ellipse 
+
+
+
+
+
+
+
+x
+
+2
+
+
+
+a
+
+2
+
+
+
+
+
++
+
+
+
+
+y
+
+2
+
+
+
+b
+
+2
+
+
+
+
+
+=
+1
+
+
+{\displaystyle {\tfrac {x^{2}}{a^{2}}}+{\tfrac {y^{2}}{b^{2}}}=1}
+
+ one uses the pencils at the vertices 
+
+
+
+
+V
+
+1
+
+
+,
+
+
+V
+
+2
+
+
+
+
+{\displaystyle V_{1},\,V_{2}}
+
+. Let 
+
+
+
+P
+=
+(
+0
+,
+
+b
+)
+
+
+{\displaystyle P=(0,\,b)}
+
+ be an upper co-vertex of the ellipse and 
+
+
+
+A
+=
+(
+−
+a
+,
+
+2
+b
+)
+,
+
+B
+=
+(
+a
+,
+
+2
+b
+)
+
+
+{\displaystyle A=(-a,\,2b),\,B=(a,\,2b)}
+
+.
+
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is the center of the rectangle 
+
+
+
+
+V
+
+1
+
+
+,
+
+
+V
+
+2
+
+
+,
+
+B
+,
+
+A
+
+
+{\displaystyle V_{1},\,V_{2},\,B,\,A}
+
+. The side  
+
+
+
+
+
+
+A
+B
+
+¯
+
+
+
+
+{\displaystyle {\overline {AB}}}
+
+ of the rectangle is divided into n equal spaced line segments and this division is projected parallel with the diagonal 
+
+
+
+A
+
+V
+
+2
+
+
+
+
+{\displaystyle AV_{2}}
+
+ as direction onto the line segment  
+
+
+
+
+
+
+
+V
+
+1
+
+
+B
+
+¯
+
+
+
+
+{\displaystyle {\overline {V_{1}B}}}
+
+ and assign the division as shown in the diagram. The parallel projection together with the reverse of the orientation is part of the projective mapping between the pencils at 
+
+
+
+
+V
+
+1
+
+
+
+
+{\displaystyle V_{1}}
+
+ and 
+
+
+
+
+V
+
+2
+
+
+
+
+{\displaystyle V_{2}}
+
+ needed. The intersection points of any two related lines   
+
+
+
+
+V
+
+1
+
+
+
+B
+
+i
+
+
+
+
+{\displaystyle V_{1}B_{i}}
+
+ and 
+
+
+
+
+V
+
+2
+
+
+
+A
+
+i
+
+
+
+
+{\displaystyle V_{2}A_{i}}
+
+ are points of the uniquely defined ellipse. With help of the points 
+
+
+
+
+C
+
+1
+
+
+,
+
+…
+
+
+{\displaystyle C_{1},\,\dotsc }
+
+ the points of the second quarter of the ellipse can be determined. Analogously one obtains the points of the lower half of the ellipse.
+Steiner generation can also be defined for hyperbolas and parabolas. It is sometimes called a parallelogram method because one can use other points rather than the vertices, which starts with a parallelogram instead of a rectangle.
+The ellipse is a special case of the hypotrochoid when 
+
+
+
+R
+=
+2
+r
+
+
+{\displaystyle R=2r}
+
+, as shown in the adjacent image. The special case of a moving circle with radius 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ inside a circle with radius 
+
+
+
+R
+=
+2
+r
+
+
+{\displaystyle R=2r}
+
+ is called a Tusi couple.
+A circle with equation 
+
+
+
+
+
+(
+
+x
+−
+
+x
+
+∘
+
+
+
+)
+
+
+2
+
+
++
+
+
+(
+
+y
+−
+
+y
+
+∘
+
+
+
+)
+
+
+2
+
+
+=
+
+r
+
+2
+
+
+
+
+{\displaystyle \left(x-x_{\circ }\right)^{2}+\left(y-y_{\circ }\right)^{2}=r^{2}}
+
+ is uniquely determined by three points 
+
+
+
+
+(
+
+
+x
+
+1
+
+
+,
+
+y
+
+1
+
+
+
+)
+
+,
+
+
+(
+
+
+x
+
+2
+
+
+,
+
+
+y
+
+2
+
+
+
+)
+
+,
+
+
+(
+
+
+x
+
+3
+
+
+,
+
+
+y
+
+3
+
+
+
+)
+
+
+
+{\displaystyle \left(x_{1},y_{1}\right),\;\left(x_{2},\,y_{2}\right),\;\left(x_{3},\,y_{3}\right)}
+
+ not on a line. A simple way to determine the parameters 
+
+
+
+
+x
+
+∘
+
+
+,
+
+y
+
+∘
+
+
+,
+r
+
+
+{\displaystyle x_{\circ },y_{\circ },r}
+
+ uses the inscribed angle theorem for circles:
+Usually one measures inscribed angles by a degree or radian θ, but here the following measurement is more convenient:
+For four points  
+
+
+
+
+P
+
+i
+
+
+=
+
+(
+
+
+x
+
+i
+
+
+,
+
+
+y
+
+i
+
+
+
+)
+
+,
+ 
+i
+=
+1
+,
+
+2
+,
+
+3
+,
+
+4
+,
+
+
+
+{\displaystyle P_{i}=\left(x_{i},\,y_{i}\right),\ i=1,\,2,\,3,\,4,\,}
+
+ no three of them on a line, we have the following (see diagram):
+At first the measure is available only for chords not parallel to the y-axis, but the final formula works for any chord.
+For example, for 
+
+
+
+
+P
+
+1
+
+
+=
+(
+2
+,
+
+0
+)
+,
+
+
+P
+
+2
+
+
+=
+(
+0
+,
+
+1
+)
+,
+
+
+P
+
+3
+
+
+=
+(
+0
+,
+
+0
+)
+
+
+{\displaystyle P_{1}=(2,\,0),\;P_{2}=(0,\,1),\;P_{3}=(0,\,0)}
+
+ the three-point equation is:
+Using vectors, dot products and determinants this formula can be arranged more clearly, letting 
+
+
+
+
+
+
+x
+→
+
+
+
+=
+(
+x
+,
+
+y
+)
+
+
+{\displaystyle {\vec {x}}=(x,\,y)}
+
+:
+The center of the circle 
+
+
+
+
+(
+
+
+x
+
+∘
+
+
+,
+
+
+y
+
+∘
+
+
+
+)
+
+
+
+{\displaystyle \left(x_{\circ },\,y_{\circ }\right)}
+
+ satisfies:
+The radius is the distance between any of the three points and the center.
+This section, we consider the family of ellipses defined by equations 
+
+
+
+
+
+
+
+
+(
+
+x
+−
+
+x
+
+∘
+
+
+
+)
+
+
+2
+
+
+
+a
+
+2
+
+
+
+
+
++
+
+
+
+
+
+(
+
+y
+−
+
+y
+
+∘
+
+
+
+)
+
+
+2
+
+
+
+b
+
+2
+
+
+
+
+
+=
+1
+
+
+{\displaystyle {\tfrac {\left(x-x_{\circ }\right)^{2}}{a^{2}}}+{\tfrac {\left(y-y_{\circ }\right)^{2}}{b^{2}}}=1}
+
+ with a fixed eccentricity 
+
+
+
+e
+
+
+{\displaystyle e}
+
+. It is convenient to use the parameter:
+and to write the ellipse equation as:
+where q is fixed and 
+
+
+
+
+x
+
+∘
+
+
+,
+
+
+y
+
+∘
+
+
+,
+
+a
+
+
+{\displaystyle x_{\circ },\,y_{\circ },\,a}
+
+ vary over the real numbers. (Such ellipses have their axes parallel to the coordinate axes: if 
+
+
+
+q
+<
+1
+
+
+{\displaystyle q<1}
+
+, the major axis is parallel to the x-axis; if 
+
+
+
+q
+>
+1
+
+
+{\displaystyle q>1}
+
+, it is parallel to the y-axis.)
+Like a circle, such an ellipse is determined by three points not on a line.
+For this family of ellipses, one introduces the following q-analog angle measure, which is not a function of the usual angle measure θ:[13][14]
+At first the measure is available only for chords which are not parallel to the y-axis. But the final formula works for any chord. The proof follows from a straightforward calculation. For the direction of proof given that the points are on an ellipse, one can assume that the center of the ellipse is the origin.
+For example, for 
+
+
+
+
+P
+
+1
+
+
+=
+(
+2
+,
+
+0
+)
+,
+
+
+P
+
+2
+
+
+=
+(
+0
+,
+
+1
+)
+,
+
+
+P
+
+3
+
+
+=
+(
+0
+,
+
+0
+)
+
+
+{\displaystyle P_{1}=(2,\,0),\;P_{2}=(0,\,1),\;P_{3}=(0,\,0)}
+
+ and 
+
+
+
+q
+=
+4
+
+
+{\displaystyle q=4}
+
+ one obtains the three-point form
+Analogously to the circle case, the equation can be written more clearly using vectors:
+where 
+
+
+
+∗
+
+
+{\displaystyle *}
+
+ is the modified dot product 
+
+
+
+
+
+
+u
+→
+
+
+
+∗
+
+
+
+v
+→
+
+
+
+=
+
+u
+
+x
+
+
+
+v
+
+x
+
+
++
+
+
+q
+
+
+
+
+u
+
+y
+
+
+
+v
+
+y
+
+
+.
+
+
+{\displaystyle {\vec {u}}*{\vec {v}}=u_{x}v_{x}+{\color {blue}q}\,u_{y}v_{y}.}
+
+
+Any ellipse can be described in a suitable coordinate system by an equation 
+
+
+
+
+
+
+
+x
+
+2
+
+
+
+a
+
+2
+
+
+
+
+
++
+
+
+
+
+y
+
+2
+
+
+
+b
+
+2
+
+
+
+
+
+=
+1
+
+
+{\displaystyle {\tfrac {x^{2}}{a^{2}}}+{\tfrac {y^{2}}{b^{2}}}=1}
+
+. The equation of the tangent at a point 
+
+
+
+
+P
+
+1
+
+
+=
+
+(
+
+
+x
+
+1
+
+
+,
+
+
+y
+
+1
+
+
+
+)
+
+
+
+{\displaystyle P_{1}=\left(x_{1},\,y_{1}\right)}
+
+ of the ellipse is 
+
+
+
+
+
+
+
+
+x
+
+1
+
+
+x
+
+
+a
+
+2
+
+
+
+
+
++
+
+
+
+
+
+y
+
+1
+
+
+y
+
+
+b
+
+2
+
+
+
+
+
+=
+1.
+
+
+{\displaystyle {\tfrac {x_{1}x}{a^{2}}}+{\tfrac {y_{1}y}{b^{2}}}=1.}
+
+ If one allows point 
+
+
+
+
+P
+
+1
+
+
+=
+
+(
+
+
+x
+
+1
+
+
+,
+
+
+y
+
+1
+
+
+
+)
+
+
+
+{\displaystyle P_{1}=\left(x_{1},\,y_{1}\right)}
+
+ to be an arbitrary point different from the origin, then
+This relation between points and lines is a bijection.
+The inverse function maps
+Such a relation between points and lines generated by a conic is called pole-polar relation or polarity. The pole is the point; the polar the line.
+By calculation one can confirm the following properties of the pole-polar relation of the ellipse:
+Pole-polar relations exist for hyperbolas and parabolas as well.
+All metric properties given below refer to an ellipse with equation
+    (1)except for the section on the area enclosed by a tilted ellipse, where the generalized form of Eq.(1) will be given.
+The area 
+
+
+
+
+A
+
+ellipse
+
+
+
+
+{\displaystyle A_{\text{ellipse}}}
+
+ enclosed by an ellipse is:
+    (2)where 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ are the lengths of the semi-major and semi-minor axes, respectively.  The area formula 
+
+
+
+π
+a
+b
+
+
+{\displaystyle \pi ab}
+
+ is intuitive: start with a circle of radius 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ (so its area is 
+
+
+
+π
+
+b
+
+2
+
+
+
+
+{\displaystyle \pi b^{2}}
+
+) and stretch it by a factor 
+
+
+
+a
+
+/
+
+b
+
+
+{\displaystyle a/b}
+
+ to make an ellipse. This scales the area by the same factor: 
+
+
+
+π
+
+b
+
+2
+
+
+(
+a
+
+/
+
+b
+)
+=
+π
+a
+b
+.
+
+
+{\displaystyle \pi b^{2}(a/b)=\pi ab.}
+
+[15] However, using the same approach for the circumference would be fallacious – compare the integrals 
+
+
+
+∫
+f
+(
+x
+)
+
+d
+x
+
+
+{\textstyle \int f(x)\,dx}
+
+ and 
+
+
+
+∫
+
+
+1
++
+
+f
+
+′
+
+2
+
+
+
+(
+x
+)
+
+
+
+d
+x
+
+
+{\textstyle \int {\sqrt {1+f'^{2}(x)}}\,dx}
+
+. It is also easy to rigorously prove the area formula using integration as follows.  Equation (1) can be rewritten as 
+
+
+
+y
+(
+x
+)
+=
+b
+
+
+1
+−
+
+x
+
+2
+
+
+
+/
+
+
+a
+
+2
+
+
+
+
+.
+
+
+{\textstyle y(x)=b{\sqrt {1-x^{2}/a^{2}}}.}
+
+  For 
+
+
+
+x
+∈
+[
+−
+a
+,
+a
+]
+,
+
+
+{\displaystyle x\in [-a,a],}
+
+ this curve is the top half of the ellipse.  So twice the integral of 
+
+
+
+y
+(
+x
+)
+
+
+{\displaystyle y(x)}
+
+ over the interval 
+
+
+
+[
+−
+a
+,
+a
+]
+
+
+{\displaystyle [-a,a]}
+
+ will be the area of the ellipse:
+The second integral is the area of a circle of radius 
+
+
+
+a
+,
+
+
+{\displaystyle a,}
+
+ that is, 
+
+
+
+π
+
+a
+
+2
+
+
+.
+
+
+{\displaystyle \pi a^{2}.}
+
+ So
+An ellipse defined implicitly by 
+
+
+
+A
+
+x
+
+2
+
+
++
+B
+x
+y
++
+C
+
+y
+
+2
+
+
+=
+1
+
+
+{\displaystyle Ax^{2}+Bxy+Cy^{2}=1}
+
+ has area 
+
+
+
+2
+π
+
+/
+
+
+
+4
+A
+C
+−
+
+B
+
+2
+
+
+
+
+.
+
+
+{\displaystyle 2\pi /{\sqrt {4AC-B^{2}}}.}
+
+
+The area can also be expressed in terms of eccentricity and the length of the semi-major axis as 
+
+
+
+
+a
+
+2
+
+
+π
+
+
+1
+−
+
+e
+
+2
+
+
+
+
+
+
+{\displaystyle a^{2}\pi {\sqrt {1-e^{2}}}}
+
+ (obtained by solving for flattening, then computing the semi-minor axis).
+So far we have dealt with erect ellipses, whose major and minor axes are parallel to the 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ axes. However, some applications require tilted ellipses. In charged-particle beam optics, for instance, the enclosed area of an erect or tilted ellipse is an important property of the beam, its emittance. In this case a simple formula still applies, namely
+    (3)where 
+
+
+
+
+y
+
+int
+
+
+
+
+{\displaystyle y_{\text{int}}}
+
+, 
+
+
+
+
+x
+
+int
+
+
+
+
+{\displaystyle x_{\text{int}}}
+
+ are intercepts and 
+
+
+
+
+x
+
+max
+
+
+
+
+{\displaystyle x_{\text{max}}}
+
+, 
+
+
+
+
+y
+
+max
+
+
+
+
+{\displaystyle y_{\text{max}}}
+
+ are maximum values. It follows directly from Apollonios's theorem.
+The circumference 
+
+
+
+C
+
+
+{\displaystyle C}
+
+ of an ellipse is:
+where again 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ is the length of the semi-major axis, 
+
+
+
+e
+=
+
+
+1
+−
+
+b
+
+2
+
+
+
+/
+
+
+a
+
+2
+
+
+
+
+
+
+{\textstyle e={\sqrt {1-b^{2}/a^{2}}}}
+
+ is the eccentricity, and the function 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ is the complete elliptic integral of the second kind,
+which is in general not an elementary function.
+The circumference of the ellipse may be evaluated in terms of 
+
+
+
+E
+(
+e
+)
+
+
+{\displaystyle E(e)}
+
+ using Gauss's arithmetic-geometric mean;[16] this is a quadratically converging iterative method (see here for details).
+The exact infinite series is:
+where 
+
+
+
+n
+!
+!
+
+
+{\displaystyle n!!}
+
+ is the double factorial (extended to negative odd integers by the recurrence relation 
+
+
+
+(
+2
+n
+−
+1
+)
+!
+!
+=
+(
+2
+n
++
+1
+)
+!
+!
+
+/
+
+(
+2
+n
++
+1
+)
+
+
+{\displaystyle (2n-1)!!=(2n+1)!!/(2n+1)}
+
+, for 
+
+
+
+n
+≤
+0
+
+
+{\displaystyle n\leq 0}
+
+).  This series converges, but by expanding in terms of 
+
+
+
+h
+=
+(
+a
+−
+b
+
+)
+
+2
+
+
+
+/
+
+(
+a
++
+b
+
+)
+
+2
+
+
+,
+
+
+{\displaystyle h=(a-b)^{2}/(a+b)^{2},}
+
+ James Ivory[17] and Bessel[18] derived an expression that converges much more rapidly:
+Srinivasa Ramanujan gave two close approximations for the circumference in §16 of "Modular Equations and Approximations to 
+
+
+
+π
+
+
+{\displaystyle \pi }
+
+";[19] they are
+and
+where 
+
+
+
+h
+
+
+{\displaystyle h}
+
+ takes on the same meaning as above. The errors in these approximations, which were obtained empirically, are of order 
+
+
+
+
+h
+
+3
+
+
+
+
+{\displaystyle h^{3}}
+
+ and 
+
+
+
+
+h
+
+5
+
+
+,
+
+
+{\displaystyle h^{5},}
+
+ respectively.
+More generally, the arc length of a portion of the circumference, as a function of the angle subtended (or x coordinates of any two points on the upper half of the ellipse), is given by an incomplete elliptic integral. The upper half of an ellipse is parameterized by
+Then the arc length 
+
+
+
+s
+
+
+{\displaystyle s}
+
+ from 
+
+
+
+ 
+
+x
+
+1
+
+
+ 
+
+
+{\displaystyle \ x_{1}\ }
+
+ to 
+
+
+
+ 
+
+x
+
+2
+
+
+ 
+
+
+{\displaystyle \ x_{2}\ }
+
+ is:
+This is equivalent to
+where 
+
+
+
+E
+(
+z
+∣
+m
+)
+
+
+{\displaystyle E(z\mid m)}
+
+ is the incomplete elliptic integral of the second kind with parameter 
+
+
+
+m
+=
+
+k
+
+2
+
+
+.
+
+
+{\displaystyle m=k^{2}.}
+
+
+Some lower and upper bounds on the circumference of the canonical ellipse 
+
+
+
+ 
+
+x
+
+2
+
+
+
+/
+
+
+a
+
+2
+
+
++
+
+y
+
+2
+
+
+
+/
+
+
+b
+
+2
+
+
+=
+1
+ 
+
+
+{\displaystyle \ x^{2}/a^{2}+y^{2}/b^{2}=1\ }
+
+ with 
+
+
+
+ 
+a
+≥
+b
+ 
+
+
+{\displaystyle \ a\geq b\ }
+
+ are[20]
+Here the upper bound 
+
+
+
+ 
+2
+π
+a
+ 
+
+
+{\displaystyle \ 2\pi a\ }
+
+ is the circumference of a circumscribed concentric circle passing through the endpoints of the ellipse's major axis, and the lower bound 
+
+
+
+4
+
+
+
+a
+
+2
+
+
++
+
+b
+
+2
+
+
+
+
+
+
+{\displaystyle 4{\sqrt {a^{2}+b^{2}}}}
+
+ is the perimeter of an inscribed rhombus with vertices at the endpoints of the major and the minor axes.
+The curvature is given by 
+
+
+
+κ
+=
+
+
+1
+
+
+a
+
+2
+
+
+
+b
+
+2
+
+
+
+
+
+
+
+(
+
+
+
+
+x
+
+2
+
+
+
+a
+
+4
+
+
+
+
++
+
+
+
+y
+
+2
+
+
+
+b
+
+4
+
+
+
+
+
+)
+
+
+−
+
+
+3
+2
+
+
+
+
+ 
+,
+
+
+{\displaystyle \kappa ={\frac {1}{a^{2}b^{2}}}\left({\frac {x^{2}}{a^{4}}}+{\frac {y^{2}}{b^{4}}}\right)^{-{\frac {3}{2}}}\ ,}
+
+
+radius of curvature at point 
+
+
+
+(
+x
+,
+y
+)
+
+
+{\displaystyle (x,y)}
+
+:
+Radius of curvature at the two vertices 
+
+
+
+(
+±
+a
+,
+0
+)
+
+
+{\displaystyle (\pm a,0)}
+
+ and the centers of curvature:
+Radius of curvature at the two co-vertices 
+
+
+
+(
+0
+,
+±
+b
+)
+
+
+{\displaystyle (0,\pm b)}
+
+ and the centers of curvature:
+Ellipses appear in triangle geometry as
+Ellipses appear as plane sections of the following quadrics:
+Ellipsoid
+Elliptic cone
+Elliptic cylinder
+Hyperboloid of one sheet
+Hyperboloid of two sheets
+If the water's surface is disturbed at one focus of an elliptical water tank, the circular waves of that disturbance, after reflecting off the walls, converge simultaneously to a single point: the second focus. This is a consequence of the total travel length being the same along any wall-bouncing path between the two foci.
+Similarly, if a light source is placed at one focus of an elliptic mirror, all light rays on the plane of the ellipse are reflected to the second focus. Since no other smooth curve has such a property, it can be used as an alternative definition of an ellipse. (In the special case of a circle with a source at its center all light would be reflected back to the center.) If the ellipse is rotated along its major axis to produce an ellipsoidal mirror (specifically, a prolate spheroid), this property holds for all rays out of the source. Alternatively, a cylindrical mirror with elliptical cross-section can be used to focus light from a linear fluorescent lamp along a line of the paper; such mirrors are used in some document scanners.
+Sound waves are reflected in a similar way, so in a large elliptical room a person standing at one focus can hear a person standing at the other focus remarkably well. The effect is even more evident under a vaulted roof shaped as a section of a prolate spheroid. Such a room is called a whisper chamber. The same effect can be demonstrated with two reflectors shaped like the end caps of such a spheroid, placed facing each other at the proper distance. Examples are the National Statuary Hall at the United States Capitol (where John Quincy Adams is said to have used this property for eavesdropping on political matters); the Mormon Tabernacle at Temple Square in Salt Lake City, Utah; at an exhibit on sound at the Museum of Science and Industry in Chicago; in front of the University of Illinois at Urbana–Champaign Foellinger Auditorium; and also at a side chamber of the Palace of Charles V, in the Alhambra.
+In the 17th century, Johannes Kepler discovered that the orbits along which the planets travel around the Sun are ellipses with the Sun [approximately] at one focus, in his first law of planetary motion. Later, Isaac Newton explained this as a corollary of his law of universal gravitation.
+More generally, in the gravitational two-body problem, if the two bodies are bound to each other (that is, the total energy is negative), their orbits are similar ellipses with the common barycenter being one of the foci of each ellipse. The other focus of either ellipse has no known physical significance. The orbit of either body in the reference frame of the other is also an ellipse, with the other body at the same focus.
+Keplerian elliptical orbits are the result of any radially directed attraction force whose strength is inversely proportional to the square of the distance. Thus, in principle, the motion of two oppositely charged particles in empty space would also be an ellipse. (However, this conclusion ignores losses due to electromagnetic radiation and quantum effects, which become significant when the particles are moving at high speed.)
+For elliptical orbits, useful relations involving the eccentricity 
+
+
+
+e
+
+
+{\displaystyle e}
+
+ are:
+where
+Also, in terms of 
+
+
+
+
+r
+
+a
+
+
+
+
+{\displaystyle r_{a}}
+
+ and 
+
+
+
+
+r
+
+p
+
+
+
+
+{\displaystyle r_{p}}
+
+, the semi-major axis 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ is their arithmetic mean, the semi-minor axis 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ is their geometric mean, and the semi-latus rectum 
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+
+ is their harmonic mean. In other words,
+The general solution for a harmonic oscillator in two or more dimensions is also an ellipse. Such is the case, for instance, of a long pendulum that is free to move in two dimensions; of a mass attached to a fixed point by a perfectly elastic spring; or of any object that moves under influence of an attractive force that is directly proportional to its distance from a fixed attractor. Unlike Keplerian orbits, however, these "harmonic orbits" have the center of attraction at the geometric center of the ellipse, and have fairly simple equations of motion.
+In electronics, the relative phase of two sinusoidal signals can be compared by feeding them to the vertical and horizontal inputs of an oscilloscope. If the Lissajous figure display is an ellipse, rather than a straight line, the two signals are out of phase.
+Two non-circular gears with the same elliptical outline, each pivoting around one focus and positioned at the proper angle, turn smoothly while maintaining contact at all times. Alternatively, they can be connected by a link chain or timing belt, or in the case of a bicycle the main chainring may be elliptical, or an ovoid similar to an ellipse in form. Such elliptical gears may be used in mechanical equipment to produce variable angular speed or torque from a constant rotation of the driving axle, or in the case of a bicycle to allow a varying crank rotation speed with inversely varying mechanical advantage.
+Elliptical bicycle gears make it easier for the chain to slide off the cog when changing gears.[21]
+An example gear application would be a device that winds thread onto a conical bobbin on a spinning machine. The bobbin would need to wind faster when the thread is near the apex than when it is near the base.[22]
+In statistics, a bivariate random vector 
+
+
+
+(
+X
+,
+Y
+)
+
+
+{\displaystyle (X,Y)}
+
+ is jointly elliptically distributed if its iso-density contours—loci of equal values of the density function—are ellipses. The concept extends to an arbitrary number of elements of the random vector, in which case in general the iso-density contours are ellipsoids. A special case is the multivariate normal distribution. The elliptical distributions are important in finance because if rates of return on assets are jointly elliptically distributed then all portfolios can be characterized completely by their mean and variance—that is, any two portfolios with identical mean and variance of portfolio return have identical distributions of portfolio return.[25][26]
+Drawing an ellipse as a graphics primitive is common in standard display libraries, such as the MacIntosh QuickDraw API, and Direct2D on Windows. Jack Bresenham at IBM is most famous for the invention of 2D drawing primitives, including line and circle drawing, using only fast integer operations such as addition and branch on carry bit. M. L. V. Pitteway extended Bresenham's algorithm for lines to conics in 1967.[27] Another efficient generalization to draw ellipses was invented in 1984 by Jerry Van Aken.[28]
+In 1970 Danny Cohen presented at the "Computer Graphics 1970" conference in England a linear algorithm for drawing ellipses and circles. In 1971, L. B. Smith published similar algorithms for all conic sections and proved them to have good properties.[29] These algorithms need only a few multiplications and additions to calculate each vector.
+It is beneficial to use a parametric formulation in computer graphics because the density of points is greatest where there is the most curvature. Thus, the change in slope between each successive point is small, reducing the apparent "jaggedness" of the approximation.
+Composite Bézier curves may also be used to draw an ellipse to sufficient accuracy, since any ellipse may be construed as an affine transformation of a circle. The spline methods used to draw a circle may be used to draw an ellipse, since the constituent Bézier curves behave appropriately under such transformations.
+It is sometimes useful to find the minimum bounding ellipse on a set of points. The ellipsoid method is quite useful for solving this problem.
+
+

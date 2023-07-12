@@ -1,0 +1,23 @@
+23783,
+Normal-formgame,
+In game theory, normal form is a description of a game. Unlike extensive form, normal-form representations are not graphical per se, but rather represent the game by way of a matrix. While this approach can be of greater use in identifying strictly dominated strategies and Nash equilibria, some information is lost as compared to extensive-form representations. The normal-form representation of a game includes all perceptible and conceivable strategies, and their corresponding payoffs, for each player.
+In static games of complete, perfect information, a normal-form representation of a game is a specification of players' strategy spaces and payoff functions. A strategy space for a player is the set of all strategies available to that player, whereas a strategy is a complete plan of action for every stage of the game, regardless of whether that stage actually arises in play. A payoff function for a player is a mapping from the cross-product of players' strategy spaces to that player's set of payoffs (normally the set of real numbers, where the number represents a cardinal or ordinal utility—often cardinal in the normal-form representation) of a player, i.e. the payoff function of a player takes as its input a strategy profile (that is a specification of strategies for every player) and yields a representation of payoff as its output.
+The matrix provided is a normal-form representation of a game in which players move simultaneously (or at least do not observe the other player's move before making their own) and receive the payoffs as specified for the combinations of actions played. For example, if player 1 plays top and player 2 plays left, player 1 receives 4 and player 2 receives 3. In each cell, the first number represents the payoff to the row player (in this case player 1), and the second number represents the payoff to the column player (in this case player 2).
+Often, symmetric games (where the payoffs do not depend on which player chooses each action) are represented with only one payoff. This is the payoff for the row player. For example, the payoff matrices on the right and left below represent the same game.
+The topological space of games with related payoff matrices can also be mapped, with adjacent games having the most similar matrices. This shows how incremental incentive changes can change the game.
+The payoff matrix facilitates elimination of dominated strategies, and it is usually used to illustrate this concept. For example, in the prisoner's dilemma, we can see that each prisoner can either "cooperate" or "defect". If exactly one prisoner defects, he gets off easily and the other prisoner is locked up for a long time. However, if they both defect, they will both be locked up for a shorter time. One can determine that Cooperate is strictly dominated by Defect. One must compare the first numbers in each column, in this case 0 > −1 and −2 > −5. This shows that no matter what the column player chooses, the row player does better by choosing Defect. Similarly, one compares the second payoff in each row; again 0 > −1 and −2 > −5. This shows that no matter what row does, column does better by choosing Defect. This demonstrates the unique Nash equilibrium of this game is (Defect, Defect).
+These matrices only represent games in which moves are simultaneous (or, more generally, information is imperfect). The above matrix does not represent the game in which player 1 moves first, observed by player 2, and then player 2 moves, because it does not specify each of player 2's strategies in this case. In order to represent this sequential game we must specify all of player 2's actions, even in contingencies that can never arise in the course of the game. In this game, player 2 has actions, as before, Left and Right. Unlike before he has four strategies, contingent on player 1's actions. The strategies are:
+On the right is the normal-form representation of this game.
+In order for a game to be in normal form, we are provided with the following data:
+There is a finite set I of players, each player is denoted by i. Each player i has a finite k number of pure strategies
+A pure strategy profile is an association of strategies to players, that is an I-tuple
+such that
+A payoff function is a function
+whose intended interpretation is the award given to a single player at the outcome of the game. Accordingly, to completely specify a game, the payoff function has to be specified for each player in the player set I= {1, 2, ..., I}.
+Definition: A game in normal form is a structure
+where:
+is a set of players,
+is an I-tuple of pure strategy sets, one for each player, and
+is an I-tuple of payoff functions.
+
+

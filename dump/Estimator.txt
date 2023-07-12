@@ -1,0 +1,1227 @@
+10043,
+Estimator,
+In statistics, an estimator is a rule for calculating an estimate of a given quantity based on observed data: thus the rule (the estimator), the quantity of interest (the estimand) and its result (the estimate) are distinguished.[1] For example, the sample mean is a commonly used estimator of the population mean.
+There are point and interval estimators. The point estimators yield single-valued results. This is in contrast to an interval estimator, where the result would be a range of plausible values. "Single value" does not necessarily mean "single number", but includes vector valued or function valued estimators.
+Estimation theory is concerned with the properties of estimators; that is, with defining properties that can be used to compare different estimators (different rules for creating estimates) for the same quantity, based on the same data. Such properties can be used to determine the best rules to use under given circumstances. However, in robust statistics, statistical theory goes on to consider the balance between having good properties, if tightly defined assumptions hold, and having less good properties that hold under wider conditions.
+An "estimator" or "point estimate" is a statistic (that is, a function of the data) that is used to infer the value of an unknown parameter in a statistical model. A common way of phrasing it is "the estimator is the method selected to obtain an estimate of an unknown parameter". 
+The parameter being estimated is sometimes called the estimand. It can be either finite-dimensional (in parametric and semi-parametric models), or infinite-dimensional (semi-parametric and non-parametric models).[2] If the parameter is denoted 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ then the estimator is traditionally written by adding a circumflex over the symbol: 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta }}}
+
+. Being a function of the data, the estimator is itself a random variable; a particular realization of this random variable is called the "estimate". Sometimes the words "estimator" and "estimate" are used interchangeably.
+The definition places virtually no restrictions on which functions of the data can be called the "estimators". The attractiveness of different estimators can be judged by looking at their properties, such as unbiasedness, mean square error, consistency, asymptotic distribution, etc. The construction and comparison of estimators are the subjects of the estimation theory. In the context of decision theory, an estimator is a type of decision rule, and its performance may be evaluated through the use of loss functions.
+When the word "estimator" is used without a qualifier, it usually refers to point estimation. The estimate in this case is a single point in the parameter space. There also exists another type of estimator: interval estimators, where the estimates are subsets of the parameter space.
+The problem of density estimation arises in two applications. Firstly, in estimating the probability density functions of random variables and secondly in estimating the spectral density function of a time series. In these problems the estimates are functions that can be thought of as point estimates in an infinite dimensional space, and there are corresponding interval estimation problems.
+Suppose a fixed parameter 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ needs to be estimated. Then an "estimator" is a function that maps the sample space to a set of sample estimates. An estimator of 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ is usually denoted by the symbol 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta }}}
+
+. It is often convenient to express the theory using the algebra of random variables: thus if X is used to denote a random variable corresponding to the observed data, the estimator (itself treated as a random variable) is symbolised as a function of that random variable, 
+
+
+
+
+
+
+θ
+^
+
+
+
+(
+X
+)
+
+
+{\displaystyle {\widehat {\theta }}(X)}
+
+. The estimate for a particular observed data value 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ (i.e. for 
+
+
+
+X
+=
+x
+
+
+{\displaystyle X=x}
+
+) is then  
+
+
+
+
+
+
+θ
+^
+
+
+
+(
+x
+)
+
+
+{\displaystyle {\widehat {\theta }}(x)}
+
+, which is a fixed value. Often an abbreviated notation is used in which 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta }}}
+
+ is interpreted directly as a random variable, but this can cause confusion.
+The following definitions and attributes are relevant.[3]
+For a given sample 
+
+
+
+x
+
+
+{\displaystyle x}
+
+, the "error" of the estimator 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta }}}
+
+ is defined as
+where 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ is the parameter being estimated. The error, e, depends not only on the estimator (the estimation formula or procedure), but also on the sample.
+The mean squared error of 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta }}}
+
+ is defined as the expected value (probability-weighted average, over all samples) of the squared errors; that is,
+It is used to indicate how far, on average, the collection of estimates are from the single parameter being estimated. Consider the following analogy. Suppose the parameter is the bull's-eye of a target, the estimator is the process of shooting arrows at the target, and the individual arrows are estimates (samples). Then high MSE means the average distance of the arrows from the bull's eye is high, and low MSE means the average distance from the bull's eye is low. The arrows may or may not be clustered. For example, even if all arrows hit the same point, yet grossly miss the target, the MSE is still relatively large. However, if the MSE is relatively low then the arrows are likely more highly clustered (than highly dispersed) around the target.
+For a given sample 
+
+
+
+x
+
+
+{\displaystyle x}
+
+, the sampling deviation of the estimator 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta }}}
+
+ is defined as
+where 
+
+
+
+E
+⁡
+(
+
+
+
+θ
+^
+
+
+
+(
+X
+)
+)
+
+
+{\displaystyle \operatorname {E} ({\widehat {\theta }}(X))}
+
+ is the expected value of the estimator. The sampling deviation, d, depends not only on the estimator, but also on the sample.
+The variance of 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta }}}
+
+ is the expected value of the squared sampling deviations; that is, 
+
+
+
+Var
+⁡
+(
+
+
+
+θ
+^
+
+
+
+)
+=
+E
+⁡
+[
+(
+
+
+
+θ
+^
+
+
+
+−
+E
+⁡
+[
+
+
+
+θ
+^
+
+
+
+]
+
+)
+
+2
+
+
+]
+
+
+{\displaystyle \operatorname {Var} ({\widehat {\theta }})=\operatorname {E} [({\widehat {\theta }}-\operatorname {E} [{\widehat {\theta }}])^{2}]}
+
+. It is used to indicate how far, on average, the collection of estimates are from the expected value of the estimates. (Note the difference between MSE and variance.) If the parameter is the bull's-eye of a target, and the arrows are estimates, then a relatively high variance means the arrows are dispersed, and a relatively low variance means the arrows are clustered. Even if the variance is low, the cluster of arrows may still be far off-target, and even if the variance is high, the diffuse collection of arrows may still be unbiased. Finally, even if all arrows grossly miss the target, if they nevertheless all hit the same point, the variance is zero.
+The bias of 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta }}}
+
+ is defined as 
+
+
+
+B
+(
+
+
+
+θ
+^
+
+
+
+)
+=
+E
+⁡
+(
+
+
+
+θ
+^
+
+
+
+)
+−
+θ
+
+
+{\displaystyle B({\widehat {\theta }})=\operatorname {E} ({\widehat {\theta }})-\theta }
+
+. It is the distance between the average of the collection of estimates, and the single parameter being estimated. The bias of 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta }}}
+
+ is a function of the true value of 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ so saying that the bias of 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta }}}
+
+ is 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ means that for every 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ the bias of 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta }}}
+
+ is 
+
+
+
+b
+
+
+{\displaystyle b}
+
+. 
+There are two kinds of estimators: biased estimators and unbiased estimators. Whether an estimator is biased or not can be identified by the relationship between 
+
+
+
+E
+⁡
+(
+
+
+
+θ
+^
+
+
+
+)
+−
+θ
+
+
+{\displaystyle \operatorname {E} ({\widehat {\theta }})-\theta }
+
+ and 0:
+The bias is also the expected value of the error, since 
+
+
+
+E
+⁡
+(
+
+
+
+θ
+^
+
+
+
+)
+−
+θ
+=
+E
+⁡
+(
+
+
+
+θ
+^
+
+
+
+−
+θ
+)
+
+
+{\displaystyle \operatorname {E} ({\widehat {\theta }})-\theta =\operatorname {E} ({\widehat {\theta }}-\theta )}
+
+. If the parameter is the bull's eye of a target and the arrows are estimates, then a relatively high absolute value for the bias means the average position of the arrows is off-target, and a relatively low absolute bias means the average position of the arrows is on target. They may be dispersed, or may be clustered. The relationship between bias and variance is analogous to the relationship between accuracy and precision.
+The estimator 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta }}}
+
+ is an unbiased estimator of 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ if and only if 
+
+
+
+B
+(
+
+
+
+θ
+^
+
+
+
+)
+=
+0
+
+
+{\displaystyle B({\widehat {\theta }})=0}
+
+. Bias is a property of the estimator, not of the estimate. Often, people refer to a "biased estimate" or an "unbiased estimate", but they really are talking about an "estimate from a biased estimator", or an "estimate from an unbiased estimator". Also, people often confuse the "error" of a single estimate with the "bias" of an estimator. That the error for one estimate is large, does not mean the estimator is biased. In fact, even if all estimates have astronomical absolute values for their errors, if the expected value of the error is zero, the estimator is unbiased. Also, an estimator's being biased does not preclude the error of an estimate from being zero in a particular instance. The ideal situation is to have an unbiased estimator with low variance, and also try to limit the number of samples where the error is extreme (that is, have few outliers). Yet unbiasedness is not essential. Often, if just a little bias is permitted, then an estimator can be found with lower mean squared error and/or fewer outlier sample estimates.
+An alternative to the version of "unbiased" above, is "median-unbiased", where the median of the distribution of estimates agrees with the true value; thus, in the long run half the estimates will be too low and half too high. While this applies immediately only to scalar-valued estimators, it can be extended to any measure of central tendency of a distribution: see median-unbiased estimators.
+In a practical problem, 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta }}}
+
+ can always have functional relationship with 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+. For example, A genetic theory states there is a type of leave, starchy green, occur with probability 
+
+
+
+
+p
+
+1
+
+
+=
+1
+
+/
+
+4
+⋅
+(
+θ
++
+2
+)
+
+
+{\displaystyle p_{1}=1/4\cdot (\theta +2)}
+
+, with 
+
+
+
+0
+<
+θ
+<
+1
+
+
+{\displaystyle 0<\theta <1}
+
+.
+For 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ leaves, the random variable 
+
+
+
+
+N
+
+1
+
+
+
+
+{\displaystyle N_{1}}
+
+, the number of starchy green leaves, can be modeled with a 
+
+
+
+B
+i
+n
+(
+n
+,
+
+p
+
+1
+
+
+)
+
+
+{\displaystyle Bin(n,p_{1})}
+
+ distribution. The number can be used to express the following estimator for 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+: 
+
+
+
+
+
+
+θ
+^
+
+
+
+=
+4
+
+/
+
+n
+⋅
+
+N
+
+1
+
+
+−
+2
+
+
+{\displaystyle {\widehat {\theta }}=4/n\cdot N_{1}-2}
+
+. One can show that 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta }}}
+
+ is an unbiased estimator for 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+:
+
+
+
+
+E
+[
+
+
+
+θ
+^
+
+
+
+]
+=
+E
+[
+4
+
+/
+
+n
+⋅
+
+N
+
+1
+
+
+−
+2
+]
+
+
+{\displaystyle E[{\widehat {\theta }}]=E[4/n\cdot N_{1}-2]}
+
+
+
+
+
+
+=
+4
+
+/
+
+n
+⋅
+E
+[
+
+N
+
+1
+
+
+]
+−
+2
+
+
+{\displaystyle =4/n\cdot E[N_{1}]-2}
+
+
+
+
+
+
+=
+4
+
+/
+
+n
+⋅
+n
+
+p
+
+1
+
+
+−
+2
+
+
+{\displaystyle =4/n\cdot np_{1}-2}
+
+
+
+
+
+
+=
+4
+⋅
+
+p
+
+1
+
+
+−
+2
+
+
+{\displaystyle =4\cdot p_{1}-2}
+
+
+
+
+
+
+=
+4
+⋅
+1
+
+/
+
+4
+⋅
+(
+θ
++
+2
+)
+−
+2
+
+
+{\displaystyle =4\cdot 1/4\cdot (\theta +2)-2}
+
+
+
+
+
+
+=
+θ
++
+2
+−
+2
+
+
+{\displaystyle =\theta +2-2}
+
+
+
+
+
+
+=
+θ
+
+
+{\displaystyle =\theta }
+
+.
+A consistent sequence of estimators is a sequence of estimators that converge in probability to the quantity being estimated as the index (usually the sample size) grows without bound. In other words, increasing the sample size increases the probability of the estimator being close to the population parameter.
+Mathematically, a sequence of estimators {tn; n ≥ 0} is a consistent estimator for parameter θ if and only if, for all ε > 0, no matter how small, we have
+The consistency defined above may be called weak consistency. The sequence is strongly consistent, if it converges almost surely to the true value.
+An estimator that converges to a multiple of a parameter can be made into a consistent estimator by multiplying the estimator by a scale factor, namely the true value divided by the asymptotic value of the estimator. This occurs frequently in estimation of scale parameters by measures of statistical dispersion.
+An asymptotically normal estimator is a consistent estimator whose distribution around the true parameter θ approaches a normal distribution with standard deviation shrinking in proportion to 
+
+
+
+1
+
+/
+
+
+
+n
+
+
+
+
+{\displaystyle 1/{\sqrt {n}}}
+
+ as the sample size n grows.  Using 
+
+
+
+
+
+→
+
+D
+
+
+
+
+
+{\displaystyle {\xrightarrow {D}}}
+
+ to denote convergence in distribution, tn is asymptotically normal if
+for some V.
+In this formulation V/n can be called the asymptotic variance of the estimator. However, some authors also call V the asymptotic variance.
+Note that convergence will not necessarily have occurred for any finite "n", therefore this value is only an approximation to the true variance of the estimator, while in the limit the asymptotic variance (V/n) is simply zero. To be more specific, the distribution of the estimator tn converges weakly to a dirac delta function centered at 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+.
+The central limit theorem implies asymptotic normality of the sample mean 
+
+
+
+
+
+
+X
+¯
+
+
+
+
+
+{\displaystyle {\bar {X}}}
+
+ as an estimator of the true mean.
+More generally, maximum likelihood estimators are asymptotically normal under fairly weak regularity conditions — see the asymptotics section of the maximum likelihood article. However, not all estimators are asymptotically normal; the simplest examples are found when the true value of a parameter lies on the boundary of the allowable parameter region.
+The efficiency of an estimator is used to estimate the quantity of interest in a "minimum error" manner. In reality, there is not an explicit best estimator; there can only be a better estimator. The good or not of the efficiency of an estimator is based on the choice of a particular loss function, and it is reflected by two naturally desirable properties of estimators: to be unbiased 
+
+
+
+E
+⁡
+(
+
+
+
+θ
+^
+
+
+
+)
+−
+θ
+=
+0
+
+
+{\displaystyle \operatorname {E} ({\widehat {\theta }})-\theta =0}
+
+ and have minimal mean squared error (MSE) 
+
+
+
+E
+⁡
+[
+(
+
+
+
+θ
+^
+
+
+
+−
+θ
+
+)
+
+2
+
+
+]
+
+
+{\displaystyle \operatorname {E} [({\widehat {\theta }}-\theta )^{2}]}
+
+. These cannot in general both be satisfied simultaneously: an unbiased estimator may have a lower mean squared error than any biased estimator (see estimator bias).
+A function relates the mean squared error with the estimator bias.[4]
+
+
+
+
+E
+⁡
+[
+(
+
+
+
+θ
+^
+
+
+
+−
+θ
+
+)
+
+2
+
+
+]
+=
+(
+E
+⁡
+(
+
+
+
+θ
+^
+
+
+
+)
+−
+θ
+
+)
+
+2
+
+
++
+Var
+⁡
+(
+θ
+)
+ 
+
+
+{\displaystyle \operatorname {E} [({\widehat {\theta }}-\theta )^{2}]=(\operatorname {E} ({\widehat {\theta }})-\theta )^{2}+\operatorname {Var} (\theta )\ }
+
+
+The first term represents the mean squared error; the second term represents the square of the estimator bias; and the third term represents the variance of the sample. The quality of the estimator can be identified from the comparison between the variance, the square of the estimator bias, or the MSE. The variance of the good estimator (good efficiency) would be smaller than the variance of the bad estimator (bad efficiency). The square of a estimator bias with a good estimator would be smaller than the estimator bias with a bad estimator. The MSE of a good estimator would be smaller than the MSE of the bad estimator. Suppose there are two estimator, 
+
+
+
+
+θ
+
+1
+
+
+
+
+{\displaystyle \theta _{1}}
+
+ is the good estimator and 
+
+
+
+
+θ
+
+2
+
+
+
+
+{\displaystyle \theta _{2}}
+
+ is the bad estimator. The above relationship can be expressed by the following formulas.
+
+
+
+
+Var
+⁡
+(
+
+θ
+
+1
+
+
+)
+<
+Var
+⁡
+(
+
+θ
+
+2
+
+
+)
+
+
+{\displaystyle \operatorname {Var} (\theta _{1})<\operatorname {Var} (\theta _{2})}
+
+
+
+
+
+
+
+|
+
+E
+⁡
+(
+
+
+θ
+
+
+1
+
+
+)
+−
+θ
+
+|
+
+<
+
+|
+
+E
+⁡
+(
+
+
+θ
+
+2
+
+
+
+)
+−
+θ
+
+|
+
+
+
+{\displaystyle |\operatorname {E} ({\theta }_{1})-\theta |<|\operatorname {E} ({\theta _{2}})-\theta |}
+
+
+
+
+
+
+MSE
+⁡
+(
+
+θ
+
+1
+
+
+)
+<
+MSE
+⁡
+(
+
+θ
+
+2
+
+
+)
+
+
+{\displaystyle \operatorname {MSE} (\theta _{1})<\operatorname {MSE} (\theta _{2})}
+
+
+Besides using formula to identify the efficiency of the estimator, it can also be identified through the graph. If an estimator is efficient, in the frequency vs. value graph, there will be a curve with high frequency at the center and low frequency on the two sides. For example:
+If an estimator is not efficient, the frequency vs. value graph, there will be a relatively more gentle curve.
+To put it simply, the good estimator has a narrow curve, while the bad estimator has a large curve. Plotting these two curves on one graph with a shared y-axis, the difference becomes more obvious.
+Among unbiased estimators, there often exists one with the lowest variance, called the minimum variance unbiased estimator (MVUE). In some cases an unbiased efficient estimator exists, which, in addition to having the lowest variance among unbiased estimators, satisfies the Cramér–Rao bound, which is an absolute lower bound on variance for statistics of a variable.
+Concerning such "best unbiased estimators", see also Cramér–Rao bound, Gauss–Markov theorem, Lehmann–Scheffé theorem, Rao–Blackwell theorem.
+
+

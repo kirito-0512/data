@@ -1,0 +1,82 @@
+25063,
+Productofrings,
+Ring homomorphisms
+Algebraic structures
+Related structures
+Algebraic number theory
+p-adic number theory and decimals
+Algebraic geometry
+Noncommutative algebraic geometry
+Free algebra
+Clifford algebra
+In mathematics, a product of rings or direct product of rings is a ring that is formed by the Cartesian product of the underlying sets of several rings (possibly an infinity), equipped with componentwise operations. It is a direct product in the category of rings.
+Since direct products are defined up to an isomorphism, one says colloquially that a ring is the product of some rings if it is isomorphic to the direct product of these rings. For example, the Chinese remainder theorem may be stated as: if m and n are coprime integers, the quotient ring 
+
+
+
+
+Z
+
+
+/
+
+m
+n
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} /mn\mathbb {Z} }
+
+ is the product of 
+
+
+
+
+Z
+
+
+/
+
+m
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} /m\mathbb {Z} }
+
+ and 
+
+
+
+
+Z
+
+
+/
+
+n
+
+Z
+
+.
+
+
+{\displaystyle \mathbb {Z} /n\mathbb {Z} .}
+
+
+An important example is Z/nZ, the ring of integers modulo n. If n is written as a product of prime powers (see Fundamental theorem of arithmetic),
+where the pi are distinct primes, then Z/nZ is naturally isomorphic to the product
+This follows from the Chinese remainder theorem.
+If R = Πi∈I Ri is a product of rings, then for every i in I we have a surjective ring homomorphism pi : R → Ri which projects the product on the i th coordinate. The product R together with the projections pi has the following universal property: 
+This shows that the product of rings is an instance of products in the sense of category theory. 
+When I is finite, the underlying additive group of Πi∈I Ri coincides with the direct sum of the additive groups of the Ri. In this case, some authors call R the "direct sum of the rings Ri" and write ⊕i∈I Ri, but this is incorrect from the point of view of category theory, since it is usually not a coproduct in the category of rings (with identity): for example, when two or more of the Ri are non-trivial, the inclusion map Ri → R fails to map 1 to 1 and hence is not a ring homomorphism.
+(A finite coproduct in the category of commutative algebras over a commutative ring is a tensor product of algebras. A coproduct in the category of algebras is a free product of algebras.)
+Direct products are commutative and associative up to natural isomorphism, meaning that it doesn't matter in which order one forms the direct product.
+If Ai is an ideal of Ri for each i in I, then A = Πi∈I Ai is an ideal of R.  If I is finite, then the converse is true, i.e., every ideal of R is of this form.  However, if I is infinite and the rings Ri are non-trivial, then the converse is false: the set of elements with all but finitely many nonzero coordinates forms an ideal which is not a direct product of ideals of the Ri.  The ideal A is a prime ideal in R if all but one of the Ai are equal to Ri and the remaining Ai is a prime ideal in Ri. However, the converse is not true when I is infinite. For example, the direct sum of the Ri form an ideal not contained in any such A, but the axiom of choice gives that it is contained in some maximal ideal which is a fortiori prime.
+An element x in R is a unit if and only if all of its components are units, i.e., if and only if pi (x) is a unit in Ri for every i in I. The group of units of R is the product of the groups of units of the Ri.
+A product of two or more non-trivial rings always has nonzero zero divisors: if x is an element of the product whose coordinates are  all zero except pi (x) and y is an element of the product with all coordinates zero except pj (y) where i ≠ j, then xy = 0 in the product ring.
+
+

@@ -1,0 +1,7 @@
+40811,
+Block(telecommunications),
+In telecommunications a block is one of:
+A block transfer attempt is a coordinated sequence of user and telecommunication system activities undertaken to effect transfer of an individual block from a source user to a destination user. 
+A block transfer attempt begins when the first bit of the block crosses the functional interface between the source user and the telecommunication system. A block transfer attempt ends either in successful block transfer or in block transfer failure.
+Successful block transfer is the transfer of a correct, nonduplicate, user information block between the source user and intended destination user. Successful block transfer occurs when the last bit of the transferred block crosses the functional interface between the telecommunications system and the intended destination user. Successful block transfer can only occur within a defined maximum block transfer time after initiation of a block transfer attempt.
+This article related to telecommunications is a stub. You can help Wikipedia by expanding it.

@@ -1,0 +1,24 @@
+33858,
+Traffic,
+See Wikipedia:Statistics and Wikipedia:Milestones.
+A proper explanation of hits vs. files served vs. pages served needs to go here.
+The effect of the new page-caching code on measured traffic should also be explained.
+Alexa.com independently compiles traffic ranking figures. For regular tracking of this information, see Wikipedia:Awareness statistics.
+
+Some late 2002 / early 2003 daily traffic figures for the English-language Wikipedia in hits/day: 
+
+Traffic data is measured in hits per day for each 24-hour period, from 00:00:00 UTC to 23:59:99 UTC.
+Data set for the graph above:
+Average hits per hour in the period Aug 25 2002 - Sep 20 2002
+
+Data for this graph:
+September 4, 2002: Server load average is currently running at between 5 and 6.
+September 11, 2002: 
+On the first anniversary of the WTC attacks, the server was running at 13786 hits/hour in the period 20020911 20:00 to 20:59. If running continuously at this rate, this would equate to a daily hit rate of 330000 hits/day. (Note that the actual whole-day traffic for this day was only 260034 hits.) The server struggled to keep pace with the load on this day.
+A few representative "uptime" results for September 11, 2002:
+In the minute 20020911 20:35, the server served 305 hits, a rate of just over 5 hits per second sustained, equivalent to a sustained rate of just under 440,000 hits/day. It did this at a loadav of around 19, rather than the typical loadav of 5 or 6.
+
+A snapshot of the top 100 of who is sending traffic to Wikipedia.
+This is for about a week, ending September 6, 2002:
+
+

@@ -1,0 +1,608 @@
+25985,
+Rutherfordscattering,
+In particle physics, Rutherford scattering is the elastic scattering of charged particles by the Coulomb interaction.  It is a physical phenomenon explained by Ernest Rutherford in 1911[1] that led to the development of the planetary Rutherford model of the atom and eventually the Bohr model.  Rutherford scattering was first referred to as Coulomb scattering because it relies only upon the static electric (Coulomb) potential, and the minimum distance between particles is set entirely by this potential. The classical Rutherford scattering process of alpha particles against gold nuclei is an example of "elastic scattering" because neither the alpha particles nor the gold nuclei are internally excited.  The Rutherford formula (see below) further neglects the recoil kinetic energy of the massive target nucleus.
+The initial discovery was made by Hans Geiger and Ernest Marsden in 1909 when they performed the gold foil experiment in collaboration with Rutherford, in which they fired a beam of alpha particles (helium nuclei) at foils of gold leaf only a few atoms thick. At the time of the experiment, the atom was thought to be analogous to a plum pudding (as proposed by J. J. Thomson), with the negatively-charged electrons (the plums) studded throughout a positive spherical matrix (the pudding). If the plum-pudding model were correct, the positive "pudding", being more spread out than in the correct model of a concentrated nucleus, would not be able to exert such large coulombic forces, and the alpha particles should only be deflected by small angles as they pass through.
+However, the intriguing results showed that around 1 in 20,000 [2] alpha particles were deflected by very large angles (over 90°), while the rest passed through with little deflection. From this, Rutherford concluded that the majority of the mass was concentrated in a minute, positively-charged region (the nucleus) surrounded by electrons. When a (positive) alpha particle approached sufficiently close to the nucleus, it was repelled strongly enough to rebound at high angles. The small size of the nucleus explained the small number of alpha particles that were repelled in this way. Rutherford showed, using the method outlined below, that the size of the nucleus was less than about 10−14 m (how much less than this size, Rutherford could not tell from this experiment alone; see more below on this problem of lowest possible size).  As a visual example, Figure 1 shows the deflection of an alpha particle by a nucleus in the gas of a cloud chamber.
+Rutherford scattering is now exploited by the materials science community in an analytical technique called Rutherford backscattering.
+The differential cross section can be derived from the equations of motion for two charged point particles interacting through a central potential.  In general, the equations of motion describing two particles interacting under a central force can be decoupled into the center of mass and the motion of the particles relative to one another. Consider the situation where one particle (labelled 1), with mass 
+
+
+
+
+m
+
+1
+
+
+
+
+{\displaystyle m_{1}}
+
+and charge 
+
+
+
+
+q
+
+1
+
+
+=
+
+Z
+
+1
+
+
+e
+
+
+{\displaystyle q_{1}=Z_{1}e}
+
+ with 
+
+
+
+e
+>
+0
+
+
+{\displaystyle e>0}
+
+ the elementary charge, is incident from very far away with some initial speed 
+
+
+
+
+v
+
+10
+
+
+
+
+{\displaystyle v_{10}}
+
+ on a second particle (labelled 2) with mass 
+
+
+
+
+m
+
+2
+
+
+
+
+{\displaystyle m_{2}}
+
+ and charge 
+
+
+
+
+q
+
+2
+
+
+=
+
+Z
+
+2
+
+
+e
+
+
+{\displaystyle q_{2}=Z_{2}e}
+
+ initially at rest.  For the case of light alpha particles scattering off heavy nuclei, as in the experiment performed by Rutherford, the reduced mass, essentially the mass of the alpha particle and the nucleus off of which it scatters, is essentially stationary in the lab frame.
+Substituting into the Binet equation, with the origin of coordinate system 
+
+
+
+(
+r
+,
+θ
+)
+
+
+{\displaystyle (r,\theta )}
+
+ for particle 1 on the target (scatterer, particle 2), yields the equation of trajectory as
+where u = 1/r and b is the impact parameter.
+The general solution of the above differential equation is
+and the boundary condition is
+Solving the equations u → 0 using those boundary conditions:
+and its derivative du/dθ → −1/b using those boundary conditions
+We can obtain
+At the deflection angle Θ after collision, 
+
+
+
+u
+→
+0.
+
+
+{\displaystyle u\to 0.}
+
+:
+Then deflection angle Θ can be expressed as: 
+b can be solved to give
+To find the scattering cross section from this result consider its definition
+Given the Coulomb potential and the initial kinetic energy of the incoming particles, the scattering angle Θ is uniquely determined by the impact parameter b. Therefore, the number of particles scattered into an angle between Θ and Θ + dΘ must be the same as the number of particles with associated impact parameters between b and b + db. For an incident intensity I, this implies the following equality
+For a radially symmetric scattering potential, as in the case of the Coulomb potential, dΩ = 2π sin Θ dΘ, yielding the expression for the scattering cross section
+Plugging in the previously derived expression for the impact parameter b(Θ) we find the Rutherford differential scattering cross section
+This same result can be expressed alternatively as
+where α ≈ 1/137 is the dimensionless fine structure constant, EK10 is the initial non-relativistic kinetic energy of particle 1 in MeV, and ħc ≈ 197 MeV·fm.
+For head-on collisions between alpha particles and the nucleus (with zero impact parameter), all the kinetic energy of the alpha particle is turned into potential energy and the particle is at rest. The distance from the center of the alpha particle to the center of the nucleus (rmin) at this point is an upper limit for the nuclear radius, if it is evident from the experiment that the scattering process obeys the cross section formula given above.
+Applying the inverse-square law between the charges on the alpha particle and nucleus, one can write:
+Assumptions:
+1. There are no external forces acting on the system. Thus the total energy (K.E.+P.E.) of the system is constant.
+2. Initially the alpha particles are at a very large distance from the nucleus.
+Rearranging:
+For an alpha particle:
+Substituting these in gives the value of about 2.7×10−14 m, or 27 fm. (The true radius is about 7.3 fm.)  The true radius of the nucleus is not recovered in these experiments because the alphas do not have enough energy to penetrate to more than 27 fm of the nuclear center, as noted, when the actual radius of gold is 7.3 fm. Rutherford realized this, and also realized that actual impact of the alphas on gold causing any force-deviation from that of the 1/r coulomb potential would change the form of his scattering curve at high scattering angles (the smallest impact parameters) from a hyperbola to something else. This was not seen, indicating that the surface of the gold nucleus had not been "touched" so that Rutherford also knew the gold nucleus (or the sum of the gold and alpha radii) was smaller than 27 fm.
+The extension of low-energy Rutherford-type scattering to relativistic energies and particles that have intrinsic spin is beyond the scope of this article.  For example, electron scattering from the proton is described as Mott scattering,[3] with a cross section that reduces to the Rutherford formula for non-relativistic electrons.   If no internal energy excitation of the beam or target particle occurs, the process is called "elastic scattering", since energy and momentum have to be conserved in any case.  If the collision causes one or the other of the constituents to become excited, or if new particles are created in the interaction, then the process is said to be "inelastic scattering".
+Target recoil can be handled fairly easily.  We still consider the situation described above, with particle 2 initially at rest in the laboratory frame.  The above results all apply in the center of mass frame.  In the lab frame, denoted by a subscript L, the scattering angle for a general central potential is
+
+
+
+
+tan
+⁡
+
+Θ
+
+L
+
+
+=
+
+
+
+sin
+⁡
+Θ
+
+
+s
++
+cos
+⁡
+Θ
+
+
+
+
+
+{\displaystyle \tan \Theta _{L}={\frac {\sin \Theta }{s+\cos \Theta }}}
+
+
+where 
+
+
+
+s
+=
+
+m
+
+1
+
+
+
+/
+
+
+m
+
+2
+
+
+
+
+{\displaystyle s=m_{1}/m_{2}}
+
+.  For 
+
+
+
+s
+≪
+cos
+⁡
+Θ
+
+
+{\displaystyle s\ll \cos \Theta }
+
+, 
+
+
+
+
+Θ
+
+L
+
+
+≈
+Θ
+
+
+{\displaystyle \Theta _{L}\approx \Theta }
+
+.  For a heavy particle 1, 
+
+
+
+s
+≫
+1
+
+
+{\displaystyle s\gg 1}
+
+ and 
+
+
+
+
+Θ
+
+L
+
+
+≈
+sin
+⁡
+Θ
+
+/
+
+s
+
+
+{\displaystyle \Theta _{L}\approx \sin \Theta /s}
+
+, that is, the incident particle is deflected through a very small angle.  The final kinetic energy of particle 2 in the lab frame, 
+
+
+
+
+E
+
+K
+2
+L
+
+′
+
+
+
+{\displaystyle E_{K2L}'}
+
+, is
+
+
+
+
+
+
+
+E
+
+K
+2
+L
+
+′
+
+
+E
+
+K
+1
+L
+
+
+
+
+=
+F
+
+cos
+
+2
+
+
+⁡
+
+
+
+π
+−
+Θ
+
+2
+
+
+,
+
+F
+≡
+
+
+
+4
+s
+
+
+(
+1
++
+s
+
+)
+
+2
+
+
+
+
+
+
+
+{\displaystyle {\frac {E_{K2L}'}{E_{K1L}}}=F\cos ^{2}{\frac {\pi -\Theta }{2}},\qquad F\equiv {\frac {4s}{(1+s)^{2}}}}
+
+
+F is between 0 and 1, and satisfies 
+
+
+
+F
+(
+1
+
+/
+
+s
+)
+=
+F
+(
+s
+)
+
+
+{\displaystyle F(1/s)=F(s)}
+
+, meaning it is the same if we switch the particle masses.  The energy ratio maximizes at F for a head-on collision with 
+
+
+
+b
+=
+0
+
+
+{\displaystyle b=0}
+
+ and thus 
+
+
+
+Θ
+=
+π
+
+
+{\displaystyle \Theta =\pi }
+
+.  For 
+
+
+
+s
+≪
+1
+
+
+{\displaystyle s\ll 1}
+
+, 
+
+
+
+F
+≈
+4
+s
+
+
+{\displaystyle F\approx 4s}
+
+.  It maximizes at 1 for 
+
+
+
+s
+=
+1
+
+
+{\displaystyle s=1}
+
+, which means that in a head-on collision with equal masses, all of particle 1's energy is transferred to particle 2.  For 
+
+
+
+s
+≫
+1
+
+
+{\displaystyle s\gg 1}
+
+, or a heavy incident particle,  
+
+
+
+F
+≈
+4
+
+/
+
+s
+
+
+{\displaystyle F\approx 4/s}
+
+ and approaches zero, meaning the incident particle keeps almost all of its kinetic energy.  For any central potential, the differential cross-section in the lab frame is related to that in the center-of-mass frame by
+
+
+
+
+
+
+
+
+d
+σ
+
+
+d
+Ω
+
+
+
+
+L
+
+
+=
+
+
+
+(
+1
++
+2
+s
+cos
+⁡
+Θ
++
+
+s
+
+2
+
+
+
+)
+
+3
+
+/
+
+2
+
+
+
+
+1
++
+s
+cos
+⁡
+Θ
+
+
+
+
+
+
+d
+σ
+
+
+d
+Ω
+
+
+
+
+
+{\displaystyle {\frac {d\sigma }{d\Omega }}_{L}={\frac {(1+2s\cos \Theta +s^{2})^{3/2}}{1+s\cos \Theta }}{\frac {d\sigma }{d\Omega }}}
+
+
+To give a sense of the importance of recoil, we evaluate the head-on energy ratio F for an incident alpha particle (mass number 
+
+
+
+≈
+4
+
+
+{\displaystyle \approx 4}
+
+) scattering off a gold nucleus (mass number 
+
+
+
+≈
+197
+
+
+{\displaystyle \approx 197}
+
+): 
+
+
+
+F
+≈
+0.0780
+
+
+{\displaystyle F\approx 0.0780}
+
+.  In the opposite case of gold incident on an alpha, F has the same value, as noted above.  For the more extreme case of an electron scattering off a proton, 
+
+
+
+s
+≈
+1
+
+/
+
+1836
+
+
+{\displaystyle s\approx 1/1836}
+
+ and 
+
+
+
+F
+≈
+0.00218
+
+
+{\displaystyle F\approx 0.00218}
+
+.
+
+

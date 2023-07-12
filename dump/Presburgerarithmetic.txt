@@ -1,0 +1,862 @@
+23756,
+Presburgerarithmetic,
+Presburger arithmetic is the first-order theory of the natural numbers with addition, named in honor of Mojżesz Presburger, who introduced it in 1929. The signature of Presburger arithmetic contains only the addition operation and equality, omitting the multiplication operation entirely. The axioms include a schema of induction.
+Presburger arithmetic is much weaker than Peano arithmetic, which includes both addition and multiplication operations. Unlike Peano arithmetic, Presburger arithmetic is a decidable theory. This means it is possible to algorithmically determine, for any sentence in the language of Presburger arithmetic, whether that sentence is provable from the axioms of Presburger arithmetic. The asymptotic running-time computational complexity of this algorithm is at least doubly exponential, however, as shown by Fischer & Rabin (1974).
+The language of Presburger arithmetic contains constants 0 and 1 and a binary function +, interpreted as addition.
+In this language, the axioms of Presburger arithmetic are the universal closures of the following:
+(5) is an axiom schema of induction, representing infinitely many axioms. These cannot be replaced by any finite number of axioms, that is, Presburger arithmetic is not finitely axiomatizable in first-order logic.[1]
+Presburger arithmetic can be viewed as a first-order theory with equality containing precisely all consequences of the above axioms. Alternatively, it can be defined as the set of those sentences that are true in the intended interpretation: the structure of non-negative integers with constants 0, 1, and the addition of non-negative integers.
+Presburger arithmetic is designed to be complete and decidable. Therefore, it cannot formalize concepts such as divisibility or primality, or, more generally, any number concept leading to multiplication of variables. However, it can formulate individual instances of divisibility; for example, it proves "for all x, there exists y : (y + y = x) ∨ (y + y + 1 = x)". This states that every number is either even or odd.
+Mojżesz Presburger proved Presburger arithmetic to be:
+The decidability of Presburger arithmetic can be shown using quantifier elimination, supplemented by reasoning about arithmetical congruence.[2][3][4][5] The steps used to justify a quantifier elimination algorithm can be used to define recursive axiomatizations that do not necessarily contain the axiom schema of induction.[2][6]
+In contrast, Peano arithmetic, which is Presburger arithmetic augmented with multiplication, is not decidable, as a consequence of the negative answer to the Entscheidungsproblem. By Gödel's incompleteness theorem, Peano arithmetic is incomplete and its consistency is not internally provable (but see Gentzen's consistency proof).
+The decision problem for Presburger arithmetic is an interesting example in computational complexity theory and computation. Let n be the length of a statement in Presburger arithmetic. Then Fischer & Rabin (1974) proved that, in the worst case, the proof of the statement in first order logic has length at least 
+
+
+2
+
+
+2
+
+c
+n
+
+
+
+
+2^{2^{cn}}
+
+, for some constant c>0. Hence, their decision algorithm for Presburger arithmetic has runtime at least exponential. Fischer and Rabin also proved that for any reasonable axiomatization (defined precisely in their paper), there exist theorems of length n which have doubly exponential length proofs. Intuitively, this suggests there are computational limits on what can be proven by computer programs. Fischer and Rabin's work also implies that Presburger arithmetic can be used to define formulas which correctly calculate any algorithm as long as the inputs are less than relatively large bounds. The bounds can be increased, but only by using new formulas. On the other hand, a triply exponential upper bound on a decision procedure for Presburger Arithmetic was proved by Oppen (1978).
+A more tight complexity bound was shown using alternating complexity classes by Berman (1980). The set of true statements in Presburger arithmetic (PA) is shown complete for TimeAlternations(22nO(1), n). Thus, its complexity is between double exponential nondeterministic time (2-NEXP) and double exponential space (2-EXPSPACE). Completeness is under polynomial time many-to-one reductions. (Also, note that while Presburger arithmetic is commonly abbreviated PA, in mathematics in general PA usually means Peano arithmetic.)
+For a more fine-grained result, let PA(i) be the set of true Σi PA statements, and PA(i, j) the set of true Σi PA statements with each quantifier block limited to j variables.  '<' is considered to be quantifier-free; here, bounded quantifiers are counted as quantifiers.
+PA(1, j) is in P, while PA(1) is NP-complete.[7]
+For i > 0 and j > 2, PA(i + 1, j) is ΣiP-complete. The hardness result only needs j>2 (as opposed to j=1) in the last quantifier block.
+For i>0, PA(i+1) is ΣiEXP-complete.[8]
+Short 
+
+
+Σ
+
+n
+
+
+\Sigma _{n}
+
+ Presburger Arithmetic (
+
+
+n
+>
+2
+
+n>2
+
+) is 
+
+
+
+
+Σ
+
+n
+−
+2
+
+
+P
+
+
+
+
+{\displaystyle \Sigma _{n-2}^{P}}
+
+ complete (and thus NP complete for 
+
+
+n
+=
+3
+
+n=3
+
+).  Here, 'short' requires bounded (i.e. 
+
+
+O
+(
+1
+)
+
+O(1)
+
+) sentence size except that integer constants are unbounded (but their number of bits in binary counts against input size).  Also, 
+
+
+Σ
+
+2
+
+
+\Sigma _{2}
+
+ two variable PA (without the restriction of being 'short') is NP-complete.[9] Short 
+
+
+Π
+
+2
+
+
+\Pi _{2}
+
+ (and thus 
+
+
+Σ
+
+2
+
+
+\Sigma _{2}
+
+) PA is in P, and this extends to fixed-dimensional parametric integer linear programming.[10]
+Because Presburger arithmetic is decidable, automatic theorem provers for Presburger arithmetic exist. For example, the Coq proof assistant system features the tactic omega for Presburger arithmetic and the Isabelle proof assistant contains a verified quantifier elimination procedure by Nipkow (2010). The double exponential complexity of the theory makes it infeasible to use the theorem provers on complicated formulas, but this behavior occurs only in the presence of nested quantifiers: Nelson & Oppen (1978) describe an automatic theorem prover which uses the simplex algorithm on an extended Presburger arithmetic without nested quantifiers to prove some of the instances of quantifier-free Presburger arithmetic formulas. More recent satisfiability modulo theories solvers use complete integer programming techniques to handle quantifier-free fragment of Presburger arithmetic theory.[11]
+Presburger arithmetic can be extended to include multiplication by constants, since multiplication is repeated addition. Most array subscript calculations then fall within the region of decidable problems.[12] This approach is the basis of at least five proof-of-correctness systems for computer programs, beginning with the Stanford Pascal Verifier in the late 1970s and continuing through to Microsoft's Spec# system of 2005.
+Some properties are now given about integer relations definable in Presburger Arithmetic. For the sake of simplicity, all relations considered in this section are over non-negative integers.
+A relation is  Presburger-definable if and only if it is a semilinear set.[13]
+A unary integer relation 
+
+R
+R
+
+, that is, a set of non-negative integers, is Presburger-definable if and only if it is ultimately periodic. That is, if there exists a threshold 
+
+
+
+t
+∈
+
+N
+
+
+
+{\displaystyle t\in \mathbb {N} }
+
+ and a positive period 
+
+
+
+p
+∈
+
+
+N
+
+
+>
+0
+
+
+
+
+{\displaystyle p\in \mathbb {N} ^{>0}}
+
+ such that, for all integer 
+
+n
+n
+
+ such that 
+
+
+
+
+|
+
+n
+
+|
+
+≥
+t
+
+
+{\displaystyle |n|\geq t}
+
+, 
+
+
+
+n
+∈
+R
+
+
+{\displaystyle n\in R}
+
+ if and only if 
+
+
+
+n
++
+p
+∈
+R
+
+
+{\displaystyle n+p\in R}
+
+.
+By the Cobham–Semenov theorem, a relation is Presburger-definable if and only if it is definable in Büchi arithmetic of base 
+
+k
+k
+
+ for all 
+
+
+
+k
+≥
+2
+
+
+{\displaystyle k\geq 2}
+
+.[14][15] A relation definable in Büchi arithmetic of base 
+
+k
+k
+
+ and 
+
+
+k
+′
+
+k'
+
+ for 
+
+k
+k
+
+ and 
+
+
+k
+′
+
+k'
+
+ being multiplicatively independent integers is Presburger definable.
+An integer relation 
+
+R
+R
+
+ is Presburger-definable if and only if all sets of integers which are definable in first order logic with addition and 
+
+R
+R
+
+ (that is, Presburger Arithmetic plus a predicate for 
+
+R
+R
+
+) are Presburger-definable.[16] Equivalently, for each relation 
+
+R
+R
+
+ which is not Presburger-definable, there exists a first-order formula with addition and 
+
+R
+R
+
+ which defines a set of integers which is not definable using only addition.
+Presburger-definable relations admit another characterization: by Muchnik's theorem.[17] It is more complicated to state, but led to the proof of the two former characterizations. Before Muchnik's theorem can be stated, some additional definitions must be introduced.
+Let 
+
+
+
+R
+⊆
+
+
+N
+
+
+d
+
+
+
+
+{\displaystyle R\subseteq \mathbb {N} ^{d}}
+
+ be a set, the section 
+
+
+
+
+x
+
+i
+
+
+=
+j
+
+
+{\displaystyle x_{i}=j}
+
+ of 
+
+R
+R
+
+, for 
+
+
+
+i
+<
+d
+
+
+{\displaystyle i<d}
+
+ and 
+
+
+
+j
+∈
+
+N
+
+
+
+{\displaystyle j\in \mathbb {N} }
+
+ is defined as 
+Given two sets 
+
+
+
+R
+,
+S
+⊆
+
+
+N
+
+
+d
+
+
+
+
+{\displaystyle R,S\subseteq \mathbb {N} ^{d}}
+
+ and a 
+
+d
+d
+
+-tuple of integers 
+
+
+
+(
+
+p
+
+0
+
+
+,
+…
+,
+
+p
+
+d
+−
+1
+
+
+)
+∈
+
+
+N
+
+
+d
+
+
+
+
+{\displaystyle (p_{0},\ldots ,p_{d-1})\in \mathbb {N} ^{d}}
+
+, the set 
+
+R
+R
+
+ is called 
+
+
+
+(
+
+p
+
+0
+
+
+,
+…
+,
+
+p
+
+d
+−
+1
+
+
+)
+
+
+{\displaystyle (p_{0},\dots ,p_{d-1})}
+
+-periodic in 
+
+S
+S
+
+ if, for all 
+
+
+
+(
+
+x
+
+0
+
+
+,
+…
+,
+
+x
+
+d
+−
+1
+
+
+)
+∈
+S
+
+
+{\displaystyle (x_{0},\dots ,x_{d-1})\in S}
+
+ such that 
+
+
+
+(
+
+x
+
+0
+
+
++
+
+p
+
+0
+
+
+,
+…
+,
+
+x
+
+d
+−
+1
+
+
++
+
+p
+
+d
+−
+1
+
+
+)
+∈
+S
+,
+
+
+{\displaystyle (x_{0}+p_{0},\dots ,x_{d-1}+p_{d-1})\in S,}
+
+ then 
+
+
+
+(
+
+x
+
+0
+
+
+,
+…
+,
+
+x
+
+d
+−
+1
+
+
+)
+∈
+R
+
+
+{\displaystyle (x_{0},\ldots ,x_{d-1})\in R}
+
+ if and only if 
+
+
+
+(
+
+x
+
+0
+
+
++
+
+p
+
+0
+
+
+,
+…
+,
+
+x
+
+d
+−
+1
+
+
++
+
+p
+
+d
+−
+1
+
+
+)
+∈
+R
+
+
+{\displaystyle (x_{0}+p_{0},\dots ,x_{d-1}+p_{d-1})\in R}
+
+. For 
+
+
+
+s
+∈
+
+N
+
+
+
+{\displaystyle s\in \mathbb {N} }
+
+, the set  
+
+R
+R
+
+ is said to be 
+
+s
+s
+
+-periodic in 
+
+S
+S
+
+ if it is 
+
+
+
+(
+
+p
+
+0
+
+
+,
+…
+,
+
+p
+
+d
+−
+1
+
+
+)
+
+
+{\displaystyle (p_{0},\ldots ,p_{d-1})}
+
+-periodic for some 
+
+
+
+(
+
+p
+
+0
+
+
+,
+…
+,
+
+p
+
+d
+−
+1
+
+
+)
+∈
+
+
+Z
+
+
+d
+
+
+
+
+{\displaystyle (p_{0},\dots ,p_{d-1})\in \mathbb {Z} ^{d}}
+
+ such that  
+Finally, for 
+
+
+
+k
+,
+
+x
+
+0
+
+
+,
+…
+,
+
+x
+
+d
+−
+1
+
+
+∈
+
+N
+
+
+
+{\displaystyle k,x_{0},\dots ,x_{d-1}\in \mathbb {N} }
+
+ let 
+denote the cube of size 
+
+k
+k
+
+ whose lesser corner is 
+
+
+
+(
+
+x
+
+0
+
+
+,
+…
+,
+
+x
+
+d
+−
+1
+
+
+)
+
+
+{\displaystyle (x_{0},\dots ,x_{d-1})}
+
+.
+Muchnik's Theorem — 
+
+
+
+R
+⊆
+
+
+N
+
+
+d
+
+
+
+
+{\displaystyle R\subseteq \mathbb {N} ^{d}}
+
+ is Presburger-definable if and only if:
+Intuitively, the integer 
+
+s
+s
+
+ represents the length of a shift, the integer 
+
+k
+k
+
+ is the size of the cubes and 
+
+t
+t
+
+ is the threshold before the periodicity. This result remains true when the condition 
+is replaced either by 
+
+
+
+min
+(
+
+x
+
+0
+
+
+,
+…
+,
+
+x
+
+d
+−
+1
+
+
+)
+>
+t
+
+
+{\displaystyle \min(x_{0},\ldots ,x_{d-1})>t}
+
+ or by 
+
+
+
+max
+(
+
+x
+
+0
+
+
+,
+…
+,
+
+x
+
+d
+−
+1
+
+
+)
+>
+t
+
+
+{\displaystyle \max(x_{0},\ldots ,x_{d-1})>t}
+
+.
+This characterization led to the so-called "definable criterion for definability in Presburger arithmetic", that is: there exists a first-order formula with addition and a 
+
+d
+d
+
+-ary predicate 
+
+R
+R
+
+ which holds if and only if 
+
+R
+R
+
+ is interpreted by a Presburger-definable relation. Muchnik's theorem also allows one to prove that it is decidable whether an automatic sequence accepts a Presburger-definable set.
+
+

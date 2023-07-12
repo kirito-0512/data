@@ -1,0 +1,213 @@
+12778,
+Groupvelocity,
+The group velocity of a wave is the velocity with which the overall envelope shape of the wave's amplitudes—known as the modulation or envelope of the wave—propagates through space.
+For example, if a stone is thrown into the middle of a very still pond, a circular pattern of waves with a quiescent center appears in the water, also known as a capillary wave. The expanding ring of waves is the wave group or wave packet, within which one can discern individual waves that travel faster than the group as a whole. The amplitudes of the individual waves grow as they emerge from the trailing edge of the group and diminish as they approach the leading edge of the group.
+The idea of a group velocity distinct from a wave's phase velocity was first proposed by W.R. Hamilton in 1839, and the first full treatment was by Rayleigh in his "Theory of Sound" in 1877.[2]
+The group velocity vg is defined by the equation:[3][4][5][6]
+where ω is the wave's angular frequency (usually expressed in radians per second), and k is the angular wavenumber (usually expressed in radians per meter). The phase velocity is: vp = ω/k.
+The function ω(k), which gives ω as a function of k, is known as the dispersion relation.
+One derivation of the formula for group velocity is as follows.[8][9]
+Consider a wave packet as a function of position x and time t: α(x,t).
+Let A(k) be its Fourier transform at time t = 0,
+By the superposition principle, the wavepacket at any time  t is
+where  ω is implicitly a function of  k.
+Assume that the wave packet  α is almost monochromatic, so that  A(k) is sharply peaked around a central wavenumber k0.
+Then, linearization gives
+where 
+(see next section for discussion of this step). Then, after some algebra,
+There are two factors in this expression. The first factor, 
+
+
+
+
+e
+
+i
+
+(
+
+
+k
+
+0
+
+
+x
+−
+
+ω
+
+0
+
+
+t
+
+)
+
+
+
+
+
+{\displaystyle e^{i\left(k_{0}x-\omega _{0}t\right)}}
+
+, describes a perfect monochromatic wave with wavevector  k0, with peaks and troughs moving at the phase velocity 
+
+
+
+
+ω
+
+0
+
+
+
+/
+
+
+k
+
+0
+
+
+
+
+{\displaystyle \omega _{0}/k_{0}}
+
+  within the envelope of the wavepacket.
+The other factor, 
+gives the envelope of the wavepacket. This envelope function depends on position and time only through the combination 
+
+
+
+(
+x
+−
+
+ω
+
+0
+
+′
+
+t
+)
+
+
+{\displaystyle (x-\omega '_{0}t)}
+
+.
+Therefore, the envelope of the wavepacket travels at velocity 
+which explains the group velocity formula.
+For light, the refractive index n, vacuum wavelength  λ0, and wavelength in the medium  λ, are related by
+with  vp = ω/k the phase velocity.
+The group velocity, therefore, can be calculated by any of the following formulas,
+Part of the previous derivation is the Taylor series approximation that:
+If the wavepacket has a relatively large frequency spread, or if the dispersion ω(k) has sharp variations (such as due to a resonance), or if the packet travels over very long distances, this assumption is not valid, and higher-order terms in the Taylor expansion become important.
+As a result, the envelope of the wave packet not only moves, but also distorts, in a manner that can be described by the material's group velocity dispersion. Loosely speaking, different frequency-components of the wavepacket travel at different speeds, with the faster components moving towards the front of the wavepacket and the slower moving towards the back. Eventually, the wave packet gets stretched out. This is an important effect in the propagation of signals through optical fibers and in the design of high-power, short-pulse lasers.
+The group velocity of a collection of waves is defined as
+When multiple sinusoidal waves are propagating together, the resultant superposition of the waves can result in an "envelope" wave as well as a "carrier" wave that lies inside the envelope. This commonly appears in wireless communication when modulation (a change in amplitude and/or phase) is employed to send data. To gain some intuition for this definition, we consider a superposition of (cosine) waves f(x, t) with their respective angular frequencies and wavevectors. 
+So, we have a product of two waves: an envelope wave formed by  f1  and a carrier wave formed by  f2 . We call the velocity of the envelope wave the group velocity. We see that the phase velocity of  f1  is  
+In the context of electromagnetics and optics, the frequency is some function ω(k) of the wave number, so in general, the phase velocity and the group velocity depend on specific medium and frequency. The ratio between the speed of light c and the phase velocity vp is known as the refractive index, n = c / vp = ck / ω. 
+In this way, we can obtain another form for group velocity for electromagnetics. Writing  n = n(ω), a quick way to derive this form is to observe
+We can then rearrange the above to obtain 
+For waves traveling through three dimensions, such as light waves, sound waves, and matter waves, the formulas for phase and group velocity are generalized in a straightforward way:[10]
+where 
+
+
+
+
+
+
+
+∇
+→
+
+
+
+
+
+k
+
+
+
+
+ω
+
+
+{\displaystyle {\vec {\nabla }}_{\mathbf {k} }\,\omega }
+
+ means the gradient of the angular frequency ω as a function of the wave vector 
+
+
+
+
+k
+
+
+
+{\displaystyle \mathbf {k} }
+
+, and 
+
+
+
+
+
+
+
+k
+
+^
+
+
+
+
+
+{\displaystyle {\hat {\mathbf {k} }}}
+
+ is the unit vector in direction k.
+If the waves are propagating through an anisotropic (i.e., not rotationally symmetric) medium, for example a crystal, then the phase velocity vector and group velocity vector may point in different directions.
+The group velocity is often thought of as the velocity at which energy or information is conveyed along a wave. In most cases this is accurate, and the group velocity can be thought of as the signal velocity of the waveform. However, if the wave is travelling through an absorptive or gainful medium, this does not always hold. In these cases the group velocity may not be a well-defined quantity, or may not be a meaningful quantity.
+In his text “Wave Propagation in Periodic Structures”,[11] Brillouin argued that in a dissipative medium the group velocity ceases to have a clear physical meaning. An example concerning the transmission of electromagnetic waves through an atomic gas is given by Loudon.[12] Another example is mechanical waves in the solar photosphere: The waves are damped (by radiative heat flow from the peaks to the troughs), and related to that, the energy velocity is often substantially lower than the waves' group velocity.[13]
+Despite this ambiguity, a common way to extend the concept of group velocity to complex media is to consider spatially damped plane wave solutions inside the medium, which are characterized by a complex-valued wavevector. Then, the imaginary part of the wavevector is arbitrarily discarded and the usual formula for group velocity is applied to the real part of wavevector, i.e.,
+Or, equivalently, in terms of the real part of complex refractive index, n = n + iκ, one has[14]
+It can be shown that this generalization of group velocity continues to be related to the apparent speed of the peak of a wavepacket.[15] The above definition is not universal, however: alternatively one may consider the time damping of standing waves (real k, complex ω), or, allow group velocity to be a complex-valued quantity.[16][17] Different considerations yield distinct velocities, yet all definitions agree for the case of a lossless, gainless medium.
+The above generalization of group velocity for complex media can behave strangely, and the example of anomalous dispersion serves as a good illustration.
+At the edges of a region of anomalous dispersion, 
+
+
+
+
+v
+
+
+g
+
+
+
+
+
+{\displaystyle v_{\rm {g}}}
+
+ becomes infinite (surpassing even the speed of light in vacuum), and 
+
+
+
+
+v
+
+
+g
+
+
+
+
+
+{\displaystyle v_{\rm {g}}}
+
+ may easily become negative 
+(its sign opposes Rek) inside the band of anomalous dispersion.[18][19][20]
+Since the 1980s, various experiments have verified that it is possible for the group velocity (as defined above) of laser light pulses sent through lossy materials, or gainful materials, to significantly exceed the speed of light in vacuum c. The peaks of wavepackets were also seen to move faster than c.
+In all these cases, however, there is no possibility that signals could be carried faster than the speed of light in vacuum, since the high value of vg does not help to speed up the true motion of the sharp wavefront that would occur at the start of any real signal. Essentially the seemingly superluminal transmission is an artifact of the narrow band approximation used above to define group velocity and happens because of resonance phenomena in the intervening medium. In a wide band analysis it is seen that the apparently paradoxical speed of propagation of the signal envelope is actually the result of local interference of a wider band of frequencies over many cycles, all of which propagate perfectly causally and at phase velocity. The result is akin to the fact that shadows can travel faster than light, even if the light causing them always propagates at light speed; since the phenomenon being measured is only loosely connected with causality, it does not necessarily respect the rules of causal propagation, even if it under normal circumstances does so and leads to a common intuition.[14][18][19][21][22]
+
+

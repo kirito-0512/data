@@ -1,0 +1,393 @@
+41031,
+Diffractiongrating,
+
+In optics, a diffraction grating is an optical component with a periodic structure that diffracts light into several beams travelling in different directions (i.e., different diffraction angles). The emerging coloration is a form of structural coloration.[1][2] The directions or diffraction angles of these beams depend on the wave (light) incident angle to the diffraction grating, the spacing or distance between adjacent diffracting elements (e.g., parallel slits for a transmission grating) on the grating, and the wavelength of the incident light. The grating acts as a dispersive element. Because of this, diffraction gratings are commonly used in monochromators and spectrometers, but other applications are also possible such as optical encoders for high precision motion control[3] and wavefront measurement.[4][5]
+For typical applications, a reflective grating has ridges or rulings on its surface while a transmissive grating has transmissive or hollow slits on its surface.[6] Such a grating modulates the amplitude of an incident wave on it to create a diffraction pattern. There are also gratings that modulate the phases of incident waves rather than the amplitude, and these type of gratings can be produced frequently by using holography.[7]
+James Gregory (1638–1675) observed the diffraction patterns caused by a bird feather, which was effectively the first diffraction grating (in a natural form) to be discovered, about a year after Isaac Newton's prism experiments.[8] The first man-made diffraction grating was made around 1785 by Philadelphia inventor David Rittenhouse, who strung hairs between two finely threaded screws.[9][10] This was similar to notable German physicist Joseph von Fraunhofer's wire diffraction grating in 1821.[11][12] The principles of diffraction were discovered by Thomas Young[13] and Augustin-Jean Fresnel.[14][15] Using these principles, Fraunhofer was the first who used a diffraction grating to obtain line spectra and the first who measured the wavelengths of spectral lines with a diffraction grating.
+Gratings with the lowest line-distance (d) were created, in the 1860s, by Friedrich Adolph Nobert (1806–1881) in Greifswald;[16] then the two Americans Lewis Morris Rutherfurd (1816–1892) and William B. Rogers (1804–1882) took over the lead;[17][18] and, by the end of the 19th century, the concave gratings of Henry Augustus Rowland (1848–1901) were the best available.[19][20]
+A diffraction grating can create "rainbow" colors when it is illuminated by a wide-spectrum (e.g., continuous) light source. Rainbow-like colors from closely spaced narrow tracks on optical data storage disks such as CDs or DVDs are an example of light diffraction caused by diffraction gratings. A usual diffraction grating has parallel lines (It is true for 1-dimensional gratings, but 2 or 3-dimensional gratings are also possible and they have their own applications such as wavefront measurement), while a CD has a spiral of finely spaced data tracks. Diffraction colors also appear when one looks at a bright point source through a translucent fine-pitch umbrella-fabric covering. Decorative patterned plastic films based on reflective grating patches are inexpensive and commonplace. A similar color separation seen from thin layers of oil (or gasoline, etc.) on water, known as iridescence, are not caused by diffraction from a grating but rather by thin film interference from the closely stacked transmissive layers.
+For a diffraction grating, the relationship between the grating spacing (i.e., the distance between adjacent grating grooves or slits), the angle of the wave (light) incidence to the grating, and the diffracted wave from the grating, is known as the grating equation. Like many other optical formulas, the grating equation can be derived by using the Huygens–Fresnel principle, stating that each point on a wavefront of a propagating wave can be considered to act as a point wave source, and a wavefront at any subsequent point can be found by adding together the contributions from each of these individual point wave sources on the previous wavefront.
+Gratings may be of the 'reflective' or 'transmissive' type, analogous to a mirror or lens, respectively. A grating has a 'zero-order mode' (where the integer order of diffraction m is set to zero), in which a ray of light behaves according to the laws of reflection (like a mirror) and refraction (like a lens), respectively.
+An idealized diffraction grating is made up of a set of slits of spacing 
+
+
+
+d
+
+
+{\displaystyle d}
+
+, that must be wider than the wavelength of interest to cause diffraction. Assuming a plane wave of monochromatic light of wavelength 
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+
+ at normal incidence on a grating (I.e., wavefronts of the incident wave are parallel to the grating main plane), each slit in the grating acts as a quasi point wave source from which light propagates in all directions (although this is typically limited to the forward hemisphere from the point source). Of course, every point on every slit to which the incident wave reaches plays as a point wave source for the diffraction wave and all these contributions to the diffraction wave determine the detailed diffraction wave light property distribution, but diffraction angles (at the grating) at which the diffraction wave intensity is highest are determined only by these quasi point sources corresponding the slits in the grating. After the incident light (wave) interacts with the grating, the resulting diffracted light from the grating is composed of the sum of interfering wave components emanating from each slit in the grating; At any given point in space through which the diffracted light may pass, typically called observation point, the path length from each slit in the grating to the given point varies, so the phase of the wave emanating from each of the slits at that point also varies. As a result, the sum of the diffracted waves from the grating slits at the given observation point creates a peak, valley, or some degree between them in light intensity through additive and destructive interference. When the difference between the light paths from adjacent slits to the observation point is equal to an odd integer-multiple of the half of the wavelength, l
+
+
+
+l
+(
+λ
+
+/
+
+2
+)
+
+
+{\displaystyle l(\lambda /2)}
+
+ with an odd integer 
+
+
+
+l
+
+
+{\displaystyle l}
+
+, the waves are out of phase at that point, and thus cancel each other to create the (locally) minimum light intensity. Similarly, when the path difference is a multiple of 
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+
+, the waves are in phase and the (locally) maximum intensity occurs. For light at the normal incidence to the grating, the intensity maxima occur at diffraction angles 
+
+
+
+
+θ
+
+m
+
+
+
+
+{\displaystyle \theta _{m}}
+
+, which satisfy the relationship 
+
+
+
+d
+sin
+⁡
+
+θ
+
+m
+
+
+=
+m
+λ
+
+
+{\displaystyle d\sin \theta _{m}=m\lambda }
+
+, where 
+
+
+
+
+θ
+
+m
+
+
+
+
+{\displaystyle \theta _{m}}
+
+ is the angle between the diffracted ray and the grating's normal vector, 
+
+
+
+d
+
+
+{\displaystyle d}
+
+ is the distance from the center of one slit to the center of the adjacent slit, and 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ is an integer representing the propagation-mode of interest called the diffraction order.
+When a plane light wave is normally incident on the grating, the diffracted light has maxima at diffraction angles 
+
+
+
+
+θ
+
+m
+
+
+
+
+{\displaystyle \theta _{m}}
+
+ given by the diffraction equation as
+
+
+
+
+d
+sin
+⁡
+
+θ
+
+m
+
+
+=
+m
+λ
+.
+
+
+{\displaystyle d\sin \theta _{m}=m\lambda .}
+
+
+It can be shown that if the plane wave is incident at any arbitrary angle 
+
+
+
+
+θ
+
+i
+
+
+
+
+{\displaystyle \theta _{i}}
+
+ to the grating normal, the grating equation becomes
+
+
+
+
+d
+(
+sin
+⁡
+
+θ
+
+i
+
+
+−
+sin
+⁡
+
+θ
+
+m
+
+
+)
+=
+m
+λ
+
+
+{\displaystyle d(\sin \theta _{i}-\sin \theta _{m})=m\lambda }
+
+
+or 
+
+
+
+d
+(
+sin
+⁡
+
+θ
+
+m
+
+
+−
+sin
+⁡
+
+θ
+
+i
+
+
+)
+=
+m
+λ
+.
+
+
+{\displaystyle d(\sin \theta _{m}-\sin \theta _{i})=m\lambda .}
+
+ Either choice is fine as long as the choice is kept through diffraction-related calculations. The resulting difference between two choices is the signs of diffraction orders, e.g., 
+
+
+
+m
+=
+1
+
+
+{\displaystyle m=1}
+
+ in  the first choice becomes 
+
+
+
+m
+=
+−
+1
+
+
+{\displaystyle m=-1}
+
+ in the second choice. When solved for diffracted angle at which the diffracted wave intensity are maximized, the equation becomes
+
+
+
+
+
+θ
+
+m
+
+
+=
+arcsin
+
+
+(
+
+sin
+⁡
+
+θ
+
+i
+
+
+−
+
+
+
+m
+λ
+
+d
+
+
+
+)
+
+.
+
+
+{\displaystyle \theta _{m}=\arcsin \!\left(\sin \theta _{i}-{\frac {m\lambda }{d}}\right).}
+
+
+The diffracted light that corresponds to direct transmission for a transmissive diffraction grating or specular reflection for a reflective grating is called the zero order, and is denoted 
+
+
+
+m
+=
+0
+
+
+{\displaystyle m=0}
+
+. The other diffracted light intensity maxima occur at angles 
+
+
+
+
+θ
+
+m
+
+
+
+
+{\displaystyle \theta _{m}}
+
+ represented by non-zero integer diffraction orders 
+
+
+
+m
+
+
+{\displaystyle m}
+
+. Note that 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ can be positive or negative, corresponding to diffracted orders on the both sides of the zero order diffracted beam.
+Even if the grating equation is derived from a specific grating such as the grating in the right diagram (This grating is called a blazed grating.), the equation can apply to any regular structure of the same spacing, because the phase relationship between light scattered from adjacent diffracting elements of the grating remains the same. The detailed diffracted light property distribution (e.g., intensity) depends on the detailed structure of the grating elements as well as on the number of elements in the grating, but it always gives maxima in the directions given by the grating equation.
+Depending on how a grating modulates incident light on it to cause the diffracted light, there are the following grating types.[21]
+An optical axis diffraction grating, in which the optical axis is spatially and periodically modulated, is also considered either a reflection or transmission phase diffraction grating.
+The grating equation applies to all these gratings due to the same phase relationship between the diffracted waves from adjacent diffracting elements of the gratings, even if the detailed distribution of the diffracted wave property depends on the detailed structure of each grating.
+Quantum electrodynamics (QED) offers another derivation of the properties of a diffraction grating in terms of photons as particles (at some level). QED can be described intuitively with the path integral formulation of quantum mechanics. As such it can model photons as potentially following all paths from a source to a final point, each path with a certain probability amplitude. These probability amplitudes can be represented as a complex number or equivalent vector—or, as Richard Feynman simply calls them in his book on QED, "arrows".
+For the probability that a certain event will happen, one sums the probability amplitudes for all of the possible ways in which the event can occur, and then takes the square of the length of the result. The probability amplitude for a photon from a monochromatic source to arrive at a certain final point at a given time, in this case, can be modeled as an arrow that spins rapidly until it is evaluated when the photon reaches its final point. For example, for the probability that a photon will reflect off of a mirror and be observed at a given point a given amount of time later, one sets the photon's probability amplitude spinning as it leaves the source, follows it to the mirror, and then to its final point, even for paths that do not involve bouncing off of the mirror at equal angles. One can then evaluate the probability amplitude at the photon's final point; next, one can integrate over all of these arrows (see vector sum), and square the length of the result to obtain the probability that this photon will reflect off of the mirror in the pertinent fashion. The times these paths take are what determine the angle of the probability amplitude arrow, as they can be said to "spin" at a constant rate (which is related to the frequency of the photon).
+The times of the paths near the classical reflection site of the mirror are nearly the same, so the probability amplitudes point in nearly the same direction—thus, they have a sizable sum. Examining the paths towards the edges of the mirror reveals that the times of nearby paths are quite different from each other, and thus we wind up summing vectors that cancel out quickly. So, there is a higher probability that light will follow a near-classical reflection path than a path further out. However, a diffraction grating can be made out of this mirror, by scraping away areas near the edge of the mirror that usually cancel nearby amplitudes out—but now, since the photons don't reflect from the scraped-off portions, the probability amplitudes that would all point, for instance, at forty-five degrees, can have a sizable sum. Thus, this lets light of the right frequency sum to a larger probability amplitude, and as such possess a larger probability of reaching the appropriate final point.
+This particular description involves many simplifications: a point source, a "surface" that light can reflect off of (thus neglecting the interactions with electrons) and so forth. The biggest simplification is perhaps in the fact that the "spinning" of the probability amplitude arrows is actually more accurately explained as a "spinning" of the source, as the probability amplitudes of photons do not "spin" while they are in transit. We obtain the same variation in probability amplitudes by letting the time at which the photon left the source be indeterminate—and the time of the path now tells us when the photon would have left the source, and thus what the angle of its "arrow" would be. However, this model and approximation is a reasonable one to illustrate a diffraction grating conceptually. Light of a different frequency may also reflect off of the same diffraction grating, but with a different final point.[22]
+The wavelength dependence in the grating equation shows that the grating separates an incident polychromatic beam into its constituent wavelength components at different angles, i.e., it is angular dispersive.  Each wavelength of input beam spectrum is sent into a different direction, producing a rainbow of colors under white light illumination.  This is visually similar to the operation of a prism, although the mechanism is very different.  A prism refracts waves of different wavelengths at different angles due to their different refractive indices, while a grating diffracts different wavelengths at different angles due to interference at each wavelength.
+The diffracted beams corresponding to consecutive orders may overlap, depending on the spectral content of the incident beam and the grating density. The higher the spectral order, the greater the overlap into the next order.
+The grating equation shows that the angles of the diffracted orders only depend on the grooves' period, and not on their shape. By controlling the cross-sectional profile of the grooves, it is possible to concentrate most of the diffracted optical energy in a particular order for a given wavelength. A triangular profile is commonly used. This technique is called blazing. The incident angle and wavelength for which the diffraction is most efficient (the ratio of the diffracted optical energy to the incident energy is the highest) are often called blazing angle and blazing wavelength. The efficiency of a grating may also depend on the polarization of the incident light. Gratings are usually designated by their groove density, the number of grooves per unit length, usually expressed in grooves per millimeter (g/mm), also equal to the inverse of the groove period. The groove period must be on the order of the wavelength of interest; the spectral range covered by a grating is dependent on groove spacing and is the same for ruled and holographic gratings with the same grating constant (meaning groove density or the groove period). The maximum wavelength that a grating can diffract is equal to twice the grating period, in which case the incident and diffracted light are at ninety degrees (90°) to the grating normal. To obtain frequency dispersion over a wider frequency one must use a prism. The optical regime, in which the use of gratings is most common, corresponds to wavelengths between 100 nm and 10 µm. In that case, the groove density can vary from a few tens of grooves per millimeter, as in echelle gratings, to a few thousands of grooves per millimeter.
+When groove spacing is less than half the wavelength of light, the only present order is the m = 0 order. Gratings with such small periodicity (with respect to the incident light wavelength) are called subwavelength gratings and exhibit special optical properties. Made on an isotropic material the subwavelength gratings give rise to form birefringence, in which the material behaves as if it were birefringent.
+SR gratings are named due to its surface structure of depressions (low relief) and elevations (high relief). Originally, high-resolution gratings were ruled by high-quality ruling engines whose construction was a large undertaking. Henry Joseph Grayson designed a machine to make diffraction gratings, succeeding with one of 120,000 lines to the inch (approx. 4,724 lines per mm) in 1899. Later, photolithographic techniques created gratings via holographic interference patterns. A holographic grating has sinusoidal grooves as the result of an optical sinusoidal interference pattern on the grating material during its fabrication, and may not be as efficient as ruled gratings, but are often preferred in monochromators because they produce less stray light. A copying technique can make high quality replicas from master gratings of either type, thereby lowering fabrication costs.
+Semiconductor technology today is also utilized to etch holographically patterned gratings into robust materials such as fused silica. In this way, low stray-light holography is combined with the high efficiency of deep, etched transmission gratings, and can be incorporated into high volume, low cost semiconductor manufacturing technology.
+Another method for manufacturing diffraction gratings uses a photosensitive gel sandwiched between two substrates. A holographic interference pattern exposes the gel, which is later developed. These gratings, called volume phase holography diffraction gratings (or VPH diffraction gratings) have no physical grooves, but instead a periodic modulation of the refractive index within the gel. This removes much of the surface scattering effects typically seen in other types of gratings. These gratings also tend to have higher efficiencies, and allow for the inclusion of complicated patterns into a single grating. A VPH diffraction grating is typically a transmission grating, through which incident light passes and is diffracted, but a VPH reflection grating can also be made by tilting the direction of a refractive index modulation with respect to the grating surface.[23] In older versions of such gratings, environmental susceptibility was a trade-off, as the gel had to be contained at low temperature and humidity. Typically, the photosensitive substances are sealed between two substrates that make them resistant to humidity, and thermal and mechanical stresses. VPH diffraction gratings are not destroyed by accidental touches and are more scratch resistant than typical relief gratings.
+A new technology for grating insertion into integrated photonic lightwave circuits is digital planar holography (DPH). DPH gratings are generated in computer and fabricated on one or several interfaces of an optical waveguide planar by using standard micro-lithography or nano-imprinting methods, compatible with mass-production. Light propagates inside the DPH gratings, confined by the refractive index gradient, which provides longer interaction path and greater flexibility in light steering.
+Diffraction gratings are often used in monochromators, spectrometers, lasers, wavelength division multiplexing devices, optical pulse compressing devices, and many other optical instruments.
+Ordinary pressed CD and DVD media are every-day examples of diffraction gratings and can be used to demonstrate the effect by reflecting sunlight off them onto a white wall. This is a side effect of their manufacture, as one surface of a CD has many small pits in the plastic, arranged in a spiral; that surface has a thin layer of metal applied to make the pits more visible. The structure of a DVD is optically similar, although it may have more than one pitted surface, and all pitted surfaces are inside the disc.[24][25]
+Due to the sensitivity to the refractive index of the media, diffraction grating can be used as sensor of fluid properties.[26]
+In a standard pressed vinyl record when viewed from a low angle perpendicular to the grooves, a similar but less defined effect to that in a CD/DVD is seen. This is due to viewing angle (less than the critical angle of reflection of the black vinyl) and the path of the light being reflected due to this being changed by the grooves, leaving a rainbow relief pattern behind.
+Diffraction gratings are also used to distribute evenly the frontlight of e-readers such as the Nook Simple Touch with GlowLight.[27]
+Some everyday electronic components contain fine and regular
+patterns, and as a result readily serve as diffraction
+gratings.  For example, CCD sensors from discarded mobile phones and
+cameras can be removed from the device.  With a laser pointer,
+diffraction can reveal the spatial structure of the CCD
+sensors.[28]
+This can be done for LCD or LED displays of smart phones as well.
+Because such displays are usually protected just by transparent
+casing, experiments can be done without damaging the phones.
+If accurate measurements are not intended, a spotlight can reveal
+the diffraction patterns.
+Striated muscle is the most commonly found natural diffraction grating[29] and, this has helped physiologists in determining the structure of such muscle. Aside from this, the chemical structure of crystals can be thought of as diffraction gratings for types of electromagnetic radiation other than visible light, this is the basis for techniques such as X-ray crystallography.
+Most commonly confused with diffraction gratings are the iridescent colors of peacock feathers, mother-of-pearl, and butterfly wings. Iridescence in birds,[30] fish[31] and insects[30][32] is often caused by thin-film interference rather than a diffraction grating. Diffraction produces the entire spectrum of colors as the viewing angle changes, whereas thin-film interference usually produces a much narrower range. The surfaces of flowers can also create a diffraction, but the cell structures in plants are usually too irregular to produce the fine slit geometry necessary for a diffraction grating.[33] The iridescence signal of flowers is thus only appreciable very locally and hence not visible to man and flower visiting insects.[34][35] However, natural gratings do occur in some invertebrate animals, like the peacock spiders,[36] the antennae of seed shrimp, and have even been discovered in Burgess Shale fossils.[37][38]
+Diffraction grating effects are sometimes seen in meteorology. Diffraction coronas are colorful rings surrounding a source of light, such as the sun. These are usually observed much closer to the light source than halos, and are caused by very fine particles, like water droplets, ice crystals, or smoke particles in a hazy sky. When the particles are all nearly the same size they diffract the incoming light at very specific angles. The exact angle depends on the size of the particles. Diffraction coronas are commonly observed around light sources, like candle flames or street lights, in the fog. Cloud iridescence is caused by diffraction, occurring along coronal rings when the particles in the clouds are all uniform in size.[39]
+
+

@@ -1,0 +1,578 @@
+6233,
+Connectedspace,
+In topology and related branches of mathematics, a connected space is a topological space that cannot be represented as the union of two or more disjoint non-empty open subsets. Connectedness is one of the principal topological properties that are used to distinguish topological spaces.
+A subset of a topological space 
+X
+{\displaystyle X}
+ is a connected set if it is a connected space when viewed as a subspace of 
+X
+{\displaystyle X}
+.
+Some related but stronger conditions are path connected, simply connected, and 
+n
+{\displaystyle n}
+-connected. Another related notion is locally connected, which neither implies nor follows from connectedness.
+A topological space 
+X
+{\displaystyle X}
+ is said to be disconnected if it is the union of two disjoint non-empty open sets. Otherwise, 
+X
+{\displaystyle X}
+ is said to be connected.  A subset of a topological space is said to be connected if it is connected under its subspace topology. Some authors exclude the empty set (with its unique topology) as a connected space, but this article does not follow that practice.
+For a topological space 
+X
+{\displaystyle X}
+ the following conditions are equivalent:
+Historically this modern formulation of the notion of connectedness (in terms of no partition of 
+X
+{\displaystyle X}
+ into two separated sets) first appeared (independently) with N.J. Lennes, Frigyes Riesz, and Felix Hausdorff at the beginning of the 20th century.  See [1] for details.
+Given some point 
+x
+{\displaystyle x}
+ in a topological space 
+X
+,
+{\displaystyle X,}
+ the union of any collection of connected subsets such that each contains 
+x
+{\displaystyle x}
+ will once again be a connected subset. 
+The connected component of a point 
+x
+{\displaystyle x}
+ in 
+X
+{\displaystyle X}
+ is the union of all connected subsets of 
+X
+{\displaystyle X}
+ that contain 
+x
+;
+{\displaystyle x;}
+ it is the unique largest (with respect to 
+⊆
+{\displaystyle \subseteq }
+) connected subset of 
+X
+{\displaystyle X}
+ that contains 
+x
+.
+{\displaystyle x.}
+The maximal connected subsets (ordered by inclusion 
+⊆
+{\displaystyle \subseteq }
+) of a non-empty topological space are called the connected components of the space.
+The components of any topological space 
+X
+{\displaystyle X}
+ form a partition of 
+X
+{\displaystyle X}
+: they are disjoint, non-empty and their union is the whole space.
+Every component is a closed subset of the original space. It follows that, in the case where their number is finite, each component is also an open subset. However, if their number is infinite, this might not be the case; for instance, the connected components of the set of the rational numbers are the one-point sets (singletons), which are not open. Proof: Any two distinct rational numbers 
+q
+1
+<
+q
+2
+{\displaystyle q_{1}<q_{2}}
+ are in different components. Take an irrational number 
+q
+1
+<
+r
+<
+q
+2
+,
+{\displaystyle q_{1}<r<q_{2},}
+ and then set 
+A
+=
+{
+q
+∈
+Q
+:
+q
+<
+r
+}
+{\displaystyle A=\{q\in \mathbb {Q} :q<r\}}
+ and 
+B
+=
+{
+q
+∈
+Q
+:
+q
+>
+r
+}
+.
+{\displaystyle B=\{q\in \mathbb {Q} :q>r\}.}
+ Then 
+(
+A
+,
+B
+)
+{\displaystyle (A,B)}
+ is a separation of 
+Q
+,
+{\displaystyle \mathbb {Q} ,}
+ and 
+q
+1
+∈
+A
+,
+q
+2
+∈
+B
+{\displaystyle q_{1}\in A,q_{2}\in B}
+. Thus each component is a one-point set.
+Let 
+Γ
+x
+{\displaystyle \Gamma _{x}}
+ be the connected component of 
+x
+{\displaystyle x}
+ in a topological space 
+X
+,
+{\displaystyle X,}
+ and 
+Γ
+x
+′
+{\displaystyle \Gamma _{x}'}
+ be the intersection of all clopen sets containing 
+x
+{\displaystyle x}
+ (called quasi-component of 
+x
+.
+{\displaystyle x.}
+) Then 
+Γ
+x
+⊂
+Γ
+x
+′
+{\displaystyle \Gamma _{x}\subset \Gamma '_{x}}
+ where the equality holds if 
+X
+{\displaystyle X}
+ is compact Hausdorff or locally connected.
+[2]
+A space in which all components are one-point sets is called totally disconnected. Related to this property, a space 
+X
+{\displaystyle X}
+ is called totally separated if, for any two distinct elements 
+x
+{\displaystyle x}
+ and 
+y
+{\displaystyle y}
+ of 
+X
+{\displaystyle X}
+, there exist disjoint open sets 
+U
+{\displaystyle U}
+ containing 
+x
+{\displaystyle x}
+ and 
+V
+{\displaystyle V}
+ containing 
+y
+{\displaystyle y}
+ such that 
+X
+{\displaystyle X}
+ is the union of 
+U
+{\displaystyle U}
+ and 
+V
+{\displaystyle V}
+. Clearly, any totally separated space is totally disconnected, but the converse does not hold. For example take two copies of the rational numbers 
+Q
+{\displaystyle \mathbb {Q} }
+, and identify them at every point except zero. The resulting space, with the quotient topology, is totally disconnected. However, by considering the two copies of zero, one sees that the space is not totally separated. In fact, it is not even Hausdorff, and the condition of being totally separated is strictly stronger than the condition of being Hausdorff.
+An example of a space that is not connected is a plane with an infinite line deleted from it. Other examples of disconnected spaces (that is, spaces which are not connected) include the plane with an annulus removed, as well as the union of two disjoint closed disks, where all examples of this paragraph bear the subspace topology induced by two-dimensional Euclidean space.
+A path-connected space is a stronger notion of connectedness, requiring the structure of a path. A path from a point 
+x
+{\displaystyle x}
+ to a point 
+y
+{\displaystyle y}
+ in a topological space 
+X
+{\displaystyle X}
+ is a continuous function 
+f
+{\displaystyle f}
+ from the unit interval 
+[
+0
+,
+1
+]
+{\displaystyle [0,1]}
+ to 
+X
+{\displaystyle X}
+ with 
+f
+(
+0
+)
+=
+x
+{\displaystyle f(0)=x}
+ and 
+f
+(
+1
+)
+=
+y
+{\displaystyle f(1)=y}
+. A path-component of 
+X
+{\displaystyle X}
+ is an equivalence class of 
+X
+{\displaystyle X}
+ under the equivalence relation which makes 
+x
+{\displaystyle x}
+ equivalent to 
+y
+{\displaystyle y}
+ if there is a path from 
+x
+{\displaystyle x}
+ to 
+y
+{\displaystyle y}
+. The space 
+X
+{\displaystyle X}
+ is said to be path-connected (or pathwise connected or 
+0
+{\displaystyle \mathbf {0} }
+-connected) if there is exactly one path-component, i.e. if there is a path joining any two points in 
+X
+{\displaystyle X}
+. Again, many authors exclude the empty space (by this definition, however, the empty space is not path-connected because it has zero path-components; there is a unique equivalence relation on the empty set which has zero equivalence classes).
+Every path-connected space is connected. The converse is not always true: examples of connected spaces that are not path-connected include the extended long line 
+L
+∗
+{\displaystyle L^{*}}
+ and the topologist's sine curve.
+Subsets of the real line 
+R
+{\displaystyle \mathbb {R} }
+ are connected if and only if they are path-connected; these subsets are the intervals of 
+R
+{\displaystyle \mathbb {R} }
+.
+Also, open subsets of 
+R
+n
+{\displaystyle \mathbb {R} ^{n}}
+ or 
+C
+n
+{\displaystyle \mathbb {C} ^{n}}
+ are connected if and only if they are path-connected.
+Additionally, connectedness and path-connectedness are the same for finite topological spaces.
+A space 
+X
+{\displaystyle X}
+ is said to be arc-connected or arcwise connected if any two topologically distinguishable points can be joined by an arc, which is an embedding 
+f
+:
+[
+0
+,
+1
+]
+→
+X
+{\displaystyle f:[0,1]\to X}
+. An arc-component of 
+X
+{\displaystyle X}
+ is a maximal arc-connected subset of 
+X
+{\displaystyle X}
+; or equivalently an equivalence class of the equivalence relation of whether two points can be joined by an arc or by a path whose points are topologically indistinguishable.
+Every Hausdorff space that is path-connected is also arc-connected; more generally this is true for a 
+Δ
+{\displaystyle \Delta }
+-Hausdorff space, which is a space where each image of a path is closed. An example of a space which is path-connected but not arc-connected is given by the line with two origins; its two copies of 
+0
+{\displaystyle 0}
+ can be connected by a path but not by an arc.
+Intuition for path-connected spaces does not readily transfer to arc-connected spaces. Let 
+X
+{\displaystyle X}
+ be the line with two origins. The following are facts whose analogues hold for path-connected spaces, but do not hold for arc-connected spaces:
+A topological space is said to be locally connected at a point 
+x
+{\displaystyle x}
+ if every neighbourhood of 
+x
+{\displaystyle x}
+ contains a connected open neighbourhood. It is locally connected if it has a base of connected sets. It can be shown that a space 
+X
+{\displaystyle X}
+ is locally connected if and only if every component of every open set of 
+X
+{\displaystyle X}
+ is open.
+Similarly, a topological space is said to be locally path-connected if it has a base of path-connected sets.
+An open subset of a locally path-connected space is connected if and only if it is path-connected.
+This generalizes the earlier statement about 
+R
+n
+{\displaystyle \mathbb {R} ^{n}}
+ and 
+C
+n
+{\displaystyle \mathbb {C} ^{n}}
+, each of which is locally path-connected. More generally, any topological manifold is locally path-connected.
+Locally connected does not imply connected, nor does locally path-connected imply path connected. A simple example of a locally connected (and locally path-connected) space that is not connected (or path-connected) is the union of two separated intervals in 
+R
+{\displaystyle \mathbb {R} }
+, such as 
+(
+0
+,
+1
+)
+∪
+(
+2
+,
+3
+)
+{\displaystyle (0,1)\cup (2,3)}
+.
+A classical example of a connected space that is not locally connected is the so called topologist's sine curve, defined as 
+T
+=
+{
+(
+0
+,
+0
+)
+}
+∪
+{
+(
+x
+,
+sin
+⁡
+(
+1
+x
+)
+)
+:
+x
+∈
+(
+0
+,
+1
+]
+}
+{\displaystyle T=\{(0,0)\}\cup \left\{\left(x,\sin \left({\tfrac {1}{x}}\right)\right):x\in (0,1]\right\}}
+, with the Euclidean topology induced by inclusion in 
+R
+2
+{\displaystyle \mathbb {R} ^{2}}
+.
+The intersection of connected sets is not necessarily connected.
+The union of connected sets is not necessarily connected, as can be seen by considering 
+X
+=
+(
+0
+,
+1
+)
+∪
+(
+1
+,
+2
+)
+{\displaystyle X=(0,1)\cup (1,2)}
+.
+Each ellipse is a connected set, but the union is not connected, since it can be partitioned to two disjoint open sets 
+U
+{\displaystyle U}
+ and 
+V
+{\displaystyle V}
+.
+This means that, if the union 
+X
+{\displaystyle X}
+ is disconnected, then the collection 
+{
+X
+i
+}
+{\displaystyle \{X_{i}\}}
+ can be partitioned to two sub-collections, such that the unions of the sub-collections are disjoint and open in 
+X
+{\displaystyle X}
+ (see picture). This implies that in several cases, a union of connected sets is necessarily connected. In particular:
+The set difference of connected sets is not necessarily connected. However, if 
+X
+⊇
+Y
+{\displaystyle X\supseteq Y}
+ and their difference 
+X
+∖
+Y
+{\displaystyle X\setminus Y}
+ is disconnected (and thus can be written as a union of two open sets 
+X
+1
+{\displaystyle X_{1}}
+ and 
+X
+2
+{\displaystyle X_{2}}
+), then the union of 
+Y
+{\displaystyle Y}
+ with each such component is connected (i.e. 
+Y
+∪
+X
+i
+{\displaystyle Y\cup X_{i}}
+ is connected for all 
+i
+{\displaystyle i}
+).
+By contradiction, suppose 
+Y
+∪
+X
+1
+{\displaystyle Y\cup X_{1}}
+ is not connected. So it can be written as the union of two disjoint open sets, e.g. 
+Y
+∪
+X
+1
+=
+Z
+1
+∪
+Z
+2
+{\displaystyle Y\cup X_{1}=Z_{1}\cup Z_{2}}
+. Because 
+Y
+{\displaystyle Y}
+ is connected, it must be entirely contained in one of these components, say 
+Z
+1
+{\displaystyle Z_{1}}
+, and thus 
+Z
+2
+{\displaystyle Z_{2}}
+ is contained in 
+X
+1
+{\displaystyle X_{1}}
+. Now we know that:
+X
+=
+(
+Y
+∪
+X
+1
+)
+∪
+X
+2
+=
+(
+Z
+1
+∪
+Z
+2
+)
+∪
+X
+2
+=
+(
+Z
+1
+∪
+X
+2
+)
+∪
+(
+Z
+2
+∩
+X
+1
+)
+{\displaystyle X=\left(Y\cup X_{1}\right)\cup X_{2}=\left(Z_{1}\cup Z_{2}\right)\cup X_{2}=\left(Z_{1}\cup X_{2}\right)\cup \left(Z_{2}\cap X_{1}\right)}
+The two sets in the last union are disjoint and open in 
+X
+{\displaystyle X}
+, so there is a separation of 
+X
+{\displaystyle X}
+, contradicting the fact that 
+X
+{\displaystyle X}
+ is connected.
+Graphs have path connected subsets, namely those subsets for which every pair of points has a path of edges joining them.
+But it is not always possible to find a topology on the set of points which induces the same connected sets. The 5-cycle graph (and any 
+n
+{\displaystyle n}
+-cycle with 
+n
+>
+3
+{\displaystyle n>3}
+ odd) is one such example.
+As a consequence, a notion of connectedness can be formulated independently of the topology on a space. To wit, there is a category of connective spaces consisting of sets with collections of connected subsets satisfying connectivity axioms; their morphisms are those functions which map connected sets to connected sets (Muscat & Buhagiar 2006). Topological spaces and graphs are special cases of connective spaces; indeed, the finite connective spaces are precisely the finite graphs.
+However, every graph can be canonically made into a topological space, by treating vertices as points and edges as copies of the unit interval (see topological graph theory#Graphs as topological spaces). Then one can show that the graph is connected (in the graph theoretical sense) if and only if it is connected as a topological space.
+There are stronger forms of connectedness for topological spaces, for instance: 
+In general, any path connected space must be connected but there exist connected spaces that are not path connected. The deleted comb space furnishes such an example, as does the above-mentioned topologist's sine curve.

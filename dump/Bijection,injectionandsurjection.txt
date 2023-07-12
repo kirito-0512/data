@@ -1,0 +1,59 @@
+3299,
+Bijection,injectionandsurjection,
+bijective
+injective-only
+injective
+surjective-only
+general 
+In mathematics, injections, surjections, and bijections are classes of functions distinguished by the manner in which arguments (input expressions from the domain) and images (output expressions from the codomain) are related or mapped to each other.
+A function maps elements from its domain to elements in its codomain. Given a function 
+f
+:
+X
+→
+Y
+{\displaystyle f\colon X\to Y}
+:
+An injective function need not be surjective (not all elements of the codomain may be associated with arguments), and a surjective function need not be injective (some images may be associated with more than one argument). The four possible combinations of injective and surjective features are illustrated in the adjacent diagrams.
+A function is injective (one-to-one) if each possible element of the codomain is mapped to by at most one argument. Equivalently, a function is injective if it maps distinct arguments to distinct images. An injective function is an injection.[1] The formal definition is the following.
+The following are some facts related to injections:
+A function is surjective or onto if each element of the codomain is mapped to by at least one element of the domain. In other words, each element of the codomain has a non-empty preimage. Equivalently, a function is surjective if its image is equal to its codomain. A surjective function is a surjection.[1] The formal definition is the following.
+The following are some facts related to surjections:
+A function is bijective if it is both injective and surjective. A bijective function is also called a bijection or a one-to-one correspondence. A function is bijective if and only if every possible image is mapped to by exactly one argument.[1] This equivalent condition is formally expressed as follows:
+The following are some facts related to bijections:
+Suppose that one wants to define what it means for two sets to "have the same number of elements". One way to do this is to say that two sets "have the same number of elements", if and only if all the elements of one set can be paired with the elements of the other, in such a way that each element is paired with exactly one element. Accordingly, one can define two sets to "have the same number of elements"—if there is a bijection between them. In which case, the two sets are said to have the same cardinality.
+Likewise, one can say that set 
+X
+{\displaystyle X}
+ "has fewer than or the same number of elements" as set 
+Y
+{\displaystyle Y}
+, if there is an injection from 
+X
+{\displaystyle X}
+ to 
+Y
+{\displaystyle Y}
+; one can also say that set 
+X
+{\displaystyle X}
+ "has fewer than the number of elements" in set 
+Y
+{\displaystyle Y}
+, if there is an injection from 
+X
+{\displaystyle X}
+ to 
+Y
+{\displaystyle Y}
+, but not a bijection between 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+.
+It is important to specify the domain and codomain of each function, since by changing these, functions which appear to be the same may have different properties. 
+In the category of sets, injections, surjections, and bijections correspond precisely to monomorphisms, epimorphisms, and isomorphisms, respectively.[5]
+The Oxford English Dictionary records the use of the word injection as a noun by S. Mac Lane in Bulletin of the American Mathematical Society (1950), and injective as an adjective by Eilenberg and Steenrod in Foundations of Algebraic Topology (1952).[6]
+However, it was not until the French Bourbaki group coined the injective-surjective-bijective terminology (both as nouns and adjectives) that they achieved widespread adoption.[7]

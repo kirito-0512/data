@@ -1,0 +1,509 @@
+30507,
+Haltingproblem,
+
+In computability theory, the halting problem is the problem of determining, from a description of an arbitrary computer program and an input, whether the program will finish running, or continue to run forever. The halting problem is undecidable, meaning that no general algorithm exists that solves the halting problem for all possible program–input pairs. 
+A key part of the formal statement of the problem is a mathematical definition of a computer and program, usually via a Turing machine. The proof then shows, for any program f that might determine whether programs halt, that a "pathological" program g, called with some input, can pass its own source and its input to f and then specifically do the opposite of what f predicts g will do. No f can exist that handles this case, thus showing undecidability. This proof is significant to practical computing efforts, defining a class of applications which no programming invention can possibly perform perfectly.
+The halting problem is a decision problem about properties of computer programs on a fixed Turing-complete model of computation, i.e., all programs that can be written in some given programming language that is general enough to be equivalent to a Turing machine. The problem is to determine, given a program and an input to the program, whether the program will eventually halt when run with that input. In this abstract framework, there are no resource limitations on the amount of memory or time required for the program's execution; it can take arbitrarily long and use an arbitrary amount of storage space before halting. The question is simply whether the given program will ever halt on a particular input.
+For example, in pseudocode, the program
+does not halt; rather, it goes on forever in an infinite loop. On the other hand, the program
+does halt.
+While deciding whether these programs halt is simple, more complex programs prove problematic. One approach to the problem might be to run the program for some number of steps and check if it halts. However, as long as the program is running, it is unknown whether it will eventually halt or run forever. Turing proved no algorithm exists that always correctly decides whether, for a given arbitrary program and input, the program halts when run with that input. The essence of Turing's proof is that any such algorithm can be made to produce contradictory output and therefore cannot be correct.
+Some infinite loops can be quite useful. For instance, event loops are typically coded as infinite loops.[1] However, most subroutines are intended to finish.[2] In particular, in hard real-time computing, programmers attempt to write subroutines that are not only guaranteed to finish, but are also guaranteed to finish before a given deadline.[3]
+Sometimes these programmers use some general-purpose (Turing-complete) programming language,
+but attempt to write in a restricted style—such as MISRA C or SPARK—that makes it easy to prove that the resulting subroutines finish before the given deadline.[citation needed]
+Other times these programmers apply the rule of least power—they deliberately use a computer language that is not quite fully Turing-complete. Frequently, these are languages that guarantee all subroutines finish, such as Coq.[citation needed]
+The difficulty in the halting problem lies in the requirement that the decision procedure must work for all programs and inputs. A particular program either halts on a given input or does not halt. Consider one algorithm that always answers "halts" and another that always answers "does not halt". For any specific program and input, one of these two algorithms answers correctly, even though nobody may know which one. Yet neither algorithm solves the halting problem generally.
+There are programs (interpreters) that simulate the execution of whatever source code they are given. Such programs can demonstrate that a program does halt if this is the case: the interpreter itself will eventually halt its simulation, which shows that the original program halted. However, an interpreter will not halt if its input program does not halt, so this approach cannot solve the halting problem as stated; it does not successfully answer "does not halt" for programs that do not halt.
+The halting problem is theoretically decidable for linear bounded automata (LBAs) or deterministic machines with finite memory. A machine with finite memory has a finite number of configurations, and thus any deterministic program on it must eventually either halt or repeat a previous configuration:[4]
+...any finite-state machine, if left completely to itself, will fall eventually into a perfectly periodic repetitive pattern. The duration of this repeating pattern cannot exceed the number of internal states of the machine...However, a computer with a million small parts, each with two states, would have at least 21,000,000 possible states:[5]
+This is a 1 followed by about three hundred thousand zeroes ... Even if such a machine were to operate at the frequencies of cosmic rays, the aeons of galactic evolution would be as nothing compared to the time of a journey through such a cycle:Although a machine may be finite, and finite automata "have a number of theoretical limitations":[5]
+...the magnitudes involved should lead one to suspect that theorems and arguments based chiefly on the mere finiteness [of] the state diagram may not carry a great deal of significance.It can also be decided automatically whether a nondeterministic machine with finite memory halts on none, some, or all of the possible sequences of nondeterministic decisions, by enumerating states after each possible decision.
+In April 1936, Alonzo Church published his proof of the undecidability of a problem in the lambda calculus. Turing's proof was published later, in January 1937. Since then, many other undecidable problems have been described, including the halting problem which emerged in the 1950s.
+Many papers and textbooks refer the definition and proof of undecidability of the halting problem to Turing's 1936 paper. However, this is not correct.[19][24] Turing did not use the terms "halt" or "halting" in any of his published works, including his 1936 paper.[25] A search of the academic literature from 1936 to 1958 showed that the first published material using the term “halting problem” was Rogers (1957). However, Rogers says he had a draft of Davis (1958) available to him,[19] and Martin Davis states in the introduction that "the expert will perhaps find some novelty in the arrangement and treatment of topics",[26] so the terminology must be attributed to Davis.[19][24] Davis stated in a letter that he had been referring to the halting problem since 1952.[23] The usage in Davis's book is as follows:[27]
+"[...] we wish to determine whether or not [a Turing machine] Z, if placed in a given initial state, will eventually halt. We call this problem the halting problem for Z. [...]
+Theorem 2.2 There exists a Turing machine whose halting problem is recursively unsolvable.
+
+A related problem is the printing problem for a simple Turing machine Z with respect to a symbol Si".A possible precursor to Davis's formulation is Kleene's 1952 statement, which differs only in wording:[19] [22]
+there is no algorithm for deciding whether any given machine, when started from any given situation, eventually stops.The halting problem is Turing equivalent to both Davis's printing problem ("does a Turing machine starting from a given state ever print a given symbol?") and to the printing problem considered in Turing's 1936 paper ("does a Turing machine starting from a blank tape ever print a given symbol?"). However, Turing equivalence is rather loose and does not mean that the two problems are the same. There are machines which print but do not halt, and halt but not print. The printing and halting problems address different issues and exhibit important conceptual and technical differences. Thus, Davis was simply being modest when he said:[19]
+It might also be mentioned that the unsolvability of essentially these problems was first obtained by Turing.In his original proof Turing formalized the concept of algorithm by introducing Turing machines.  However, the result is in no way specific to them; it applies equally to any other model of computation that is equivalent in its computational power to Turing machines, such as Markov algorithms, Lambda calculus, Post systems, register machines, or tag systems.
+What is important is that the formalization allows a straightforward mapping of algorithms to some data type that the algorithm can operate upon.  For example, if the formalism lets algorithms define functions over strings (such as Turing machines) then there should be a mapping of these algorithms to strings, and if the formalism lets algorithms define functions over natural numbers (such as computable functions) then there should be a mapping of algorithms to natural numbers. The mapping to strings is usually the most straightforward, but strings over an alphabet with n characters can also be mapped to numbers by interpreting them as numbers in an n-ary numeral system.
+The conventional representation of decision problems is the set of objects possessing the property in question. The halting set
+represents the halting problem.
+This set is recursively enumerable, which means there is a computable function that lists all of the pairs (i, x) it contains. However, the complement of this set is not recursively enumerable.[28]
+There are many equivalent formulations of the halting problem; any set whose Turing degree equals that of the halting problem is such a formulation.  Examples of such sets include:
+Christopher Strachey outlined a proof by contradiction that the halting problem is not solvable.[29][30] The proof proceeds as follows: Suppose that there exists a total computable function halts(f) that returns true if the subroutine f halts (when run with no inputs) and returns false otherwise. Now consider the following subroutine:
+halts(g) must either return true or false, because halts was assumed to be total. If halts(g) returns true, then g will call loop_forever and never halt, which is a contradiction. If halts(g) returns false, then g will halt, because it will not call loop_forever; this is also a contradiction.  Overall, g does the opposite of what halts says g should do, so halts(g) can not return a truth value that is consistent with whether g halts. Therefore, the initial assumption that halts is a total computable function must be false.
+The concept above shows the general method of the proof, but the computable function halts does not directly take a subroutine as an argument; instead it takes the source code of a program. Moreover, the definition of g is self-referential. A rigorous proof addresses these issues. The overall goal is to show that there is no total computable function that decides whether an arbitrary program i halts on arbitrary input x; that is, the following function h (for "halts") is not computable:[31]
+Here program i refers to the i th program in an enumeration of all the programs of a fixed Turing-complete model of computation.
+Possible values for a total computable function f arranged in a 2D array. The orange cells are the diagonal. The values of f(i,i) and g(i) are shown at the bottom; U indicates that the function g is undefined for a particular input value.
+The proof proceeds by directly establishing that no total computable function with two arguments can be the required function h.   As in the sketch of the concept, given any total computable binary function f, the following partial function g is also computable by some program e:
+The verification that g is computable relies on the following constructs (or their equivalents):
+The following pseudocode for e illustrates a straightforward way to compute g:
+Because g is partial computable, there must be a program e that computes g, by the assumption that the model of computation is Turing-complete. This program is one of all the programs on which the halting function h is defined. The next step of the proof shows that h(e,e) will not have the same value as f(e,e).
+It follows from the definition of g that exactly one of the following two cases must hold:
+In either case, f cannot be the same function as h. Because f was an arbitrary total computable function with two arguments, all such functions must differ from h.
+This proof is analogous to Cantor's diagonal argument. One may visualize a two-dimensional array with one column and one row for each natural number, as indicated in the table above. The value of f(i,j) is placed at column i, row j. Because f is assumed to be a total computable function, any element of the array can be calculated using f. The construction of the function g can be visualized using the main diagonal of this array.  If the array has a 0 at position (i,i), then g(i) is 0. Otherwise, g(i) is undefined. The contradiction comes from the fact that there is some column e of the array corresponding to g itself. Now assume f was the halting function h, if g(e) is defined (g(e) = 0 in this case), g(e) halts so f(e,e) = 1.  But g(e) = 0 only when f(e,e) = 0, contradicting f(e,e) = 1. Similarly, if g(e) is not defined, then halting function f(e,e) = 0, which leads to g(e) = 0 under g's construction. This contradicts the assumption of g(e) not being defined. In both cases contradiction arises. Therefore any arbitrary computable function f cannot be the halting function h.
+A typical method of proving a problem 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ to be undecidable is to reduce the halting problem to 
+
+
+
+P
+
+
+{\displaystyle P}
+
+.
+For example, there cannot be a general algorithm that decides whether a given statement about natural numbers is true or false. The reason for this is that the proposition stating that a certain program will halt given a certain input can be converted into an equivalent statement about natural numbers. If an algorithm could find the truth value of every statement about natural numbers, it could certainly find the truth value of this one; but that would determine whether the original program halts.
+Rice's theorem generalizes the theorem that the halting problem is unsolvable. It states that for any non-trivial property, there is no general decision procedure that, for all programs, decides whether the partial function implemented by the input program has that property. (A partial function is a function which may not always produce a result, and so is used to model programs, which can either produce results or fail to halt.)  For example, the property "halt for the input 0" is undecidable. Here, "non-trivial" means that the set of partial functions that satisfy the property is neither the empty set nor the set of all partial functions. For example, "halts or fails to halt on input 0" is clearly true of all partial functions, so it is a trivial property, and can be decided by an algorithm that simply reports "true." Also, this theorem holds only for properties of the partial function implemented by the program; Rice's Theorem does not apply to properties of the program itself. For example, "halt on input 0 within 100 steps" is not a property of the partial function that is implemented by the program—it is a property of the program implementing the partial function and is very much decidable.
+Gregory Chaitin has defined a halting probability, represented by the symbol Ω, a type of real number that informally is said to represent the probability that a randomly produced program halts.  These numbers have the same Turing degree as the halting problem. It is a normal and transcendental number which can be defined but cannot be completely computed. This means one can prove that there is no algorithm which produces the digits of Ω, although its first few digits can be calculated in simple cases.
+Since the negative answer to the halting problem shows that there are problems that cannot be solved by a Turing machine, the Church–Turing thesis limits what can be accomplished by any machine that implements effective methods. However, not all machines conceivable to human imagination are subject to the Church–Turing thesis (e.g. oracle machines). It is an open question whether there can be actual deterministic physical processes that, in the long run, elude simulation by a Turing machine, and in particular whether any such hypothetical process could usefully be harnessed in the form of a calculating machine (a hypercomputer) that could solve the halting problem for a Turing machine amongst other things. It is also an open question whether any such unknown physical processes are involved in the working of the human brain, and whether humans can solve the halting problem.[32]
+Turing's proof shows that there can be no mechanical, general method (i.e., a Turing machine or a program in some equivalent model of computation) to determine whether algorithms halt. However, each individual instance of the halting problem has a definitive answer, which may or may not be practically computable. Given a specific algorithm and input, one can often show that it halts or does not halt, and in fact computer scientists often do just that as part of a correctness proof. There are some heuristics that can be used in an automated fashion to attempt to construct a proof, which frequently succeed on typical programs. This field of research is known as automated termination analysis.
+Some results have been established on the theoretical performance of halting problem heuristics, in particular the fraction of programs of a given size that may be correctly classified by a recursive algorithm. These results do not give precise numbers because the fractions are uncomputable and also highly dependent on the choice of program encoding used to determine "size". For example, consider classifying programs by their number of states and using a specific "Turing semi-infinite tape" model of computation that errors (without halting) if the program runs off the left side of the tape. Then 
+
+
+
+
+lim
+
+n
+→
+∞
+
+
+P
+(
+x
+
+
+halts is decidable
+
+∣
+x
+
+
+has
+
+
+n
+
+
+states
+
+)
+=
+1
+
+
+{\displaystyle \lim _{n\to \infty }P(x\,{\text{halts is decidable}}\mid x\,{\text{has}}\,n\,{\text{states}})=1}
+
+, over programs 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ chosen uniformly by number of states. But this result is in some sense "trivial" because these decidable programs are simply the ones that fall off the tape, and the heuristic is simply to predict not halting due to error. Thus a seemingly irrelevant detail, namely the treatment of programs with errors, can turn out to be the deciding factor in determining the fraction of programs.[33]
+To avoid these issues, several restricted notions of the "size" of a program have been developed. A dense Gödel numbering assigns numbers to programs such that each computable function occurs a positive fraction in each sequence of indices from 1 to n, i.e. a Gödelization φ is dense iff for all 
+
+
+
+i
+
+
+{\displaystyle i}
+
+, there exists a 
+
+
+
+c
+>
+0
+
+
+{\displaystyle c>0}
+
+ such that 
+
+
+
+
+lim inf
+
+n
+→
+∞
+
+
+#
+{
+j
+∈
+
+N
+
+:
+0
+≤
+j
+<
+n
+,
+
+ϕ
+
+i
+
+
+=
+
+ϕ
+
+j
+
+
+}
+
+/
+
+n
+≥
+c
+
+
+{\displaystyle \liminf _{n\to \infty }\#\{j\in \mathbb {N} :0\leq j<n,\phi _{i}=\phi _{j}\}/n\geq c}
+
+. For example, a numbering that assigns indexes 
+
+
+
+
+2
+
+n
+
+
+
+
+{\displaystyle 2^{n}}
+
+ to nontrivial programs and all other indices the error state is not dense, but there exists a dense Gödel numbering of syntactically correct Brainfuck programs.[34] A dense Gödel numbering is called optimal if, for any other Gödel numbering 
+
+
+
+α
+
+
+{\displaystyle \alpha }
+
+, there is a 1-1 total recursive function 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ and a constant 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ such that for all 
+
+
+
+i
+
+
+{\displaystyle i}
+
+, 
+
+
+
+
+α
+
+i
+
+
+=
+
+ϕ
+
+f
+(
+i
+)
+
+
+
+
+{\displaystyle \alpha _{i}=\phi _{f(i)}}
+
+ and 
+
+
+
+f
+(
+i
+)
+≤
+c
+i
+
+
+{\displaystyle f(i)\leq ci}
+
+. This condition ensures that all programs have indices not much larger than their indices in any other Gödel numbering. Optimal Gödel numberings are constructed by numbering the inputs of a universal Turing machine.[35] A third notion of size uses universal machines operating on binary strings and measures the length of the string needed to describe the input program. A universal machine U is a machine for which every other machine V there exists a total computable function h such that 
+
+
+
+V
+(
+x
+)
+=
+U
+(
+h
+(
+x
+)
+)
+
+
+{\displaystyle V(x)=U(h(x))}
+
+. An optimal machine is a universal machine that achieves the Kolmogorov complexity invariance  bound, i.e. for every machine V, there exists c such that for all outputs x, if a V-program of length n outputs x, then there exists a U-program of at most length 
+
+
+
+n
++
+c
+
+
+{\displaystyle n+c}
+
+ outputting x.[36]
+We consider partial computable functions (algorithms) 
+
+
+
+A
+
+
+{\displaystyle A}
+
+. For each 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ we consider the fraction 
+
+
+
+
+ϵ
+
+n
+
+
+(
+A
+)
+
+
+{\displaystyle \epsilon _{n}(A)}
+
+ of errors among all programs of size metric at most 
+
+
+
+n
+
+
+{\displaystyle n}
+
+, counting each program 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ for which 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ fails to terminate, produces a "don't know" answer, or produces a wrong answer, i.e. 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ halts and 
+
+
+
+A
+(
+x
+)
+
+
+{\displaystyle A(x)}
+
+ outputs DOES_NOT_HALT, or 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ does not halt and 
+
+
+
+A
+(
+x
+)
+
+
+{\displaystyle A(x)}
+
+ outputs HALTS. The behavior may be described as follows, for dense Gödelizations and optimal machines:[34][36]
+The complex nature of these bounds is due to the oscillatory behavior of 
+
+
+
+
+ϵ
+
+n
+
+
+(
+A
+)
+
+
+{\displaystyle \epsilon _{n}(A)}
+
+. There are infrequently occurring new varieties of programs that come in arbitrarily large "blocks", and a constantly growing fraction of repeats. If the blocks of new varieties are fully included, the error rate is at least 
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+
+, but between blocks the fraction of correctly categorized repeats can be arbitrarily high. In particular a "tally" heuristic that simply remembers the first N inputs and recognizes their equivalents allows reaching an arbitrarily low error rate infinitely often.[34]
+The concepts raised by Gödel's incompleteness theorems are very similar to those raised by the halting problem, and the proofs are quite similar. In fact, a weaker form of the First Incompleteness Theorem is an easy consequence of the undecidability of the halting problem. This weaker form differs from the standard statement of the incompleteness theorem by asserting that an axiomatization of the natural numbers that is both complete and sound is impossible. The "sound" part is the weakening: it means that we require the axiomatic system in question to prove only true statements about natural numbers. Since soundness implies consistency, this weaker form can be seen as a corollary of the strong form. It is important to observe that the statement of the standard form of Gödel's First Incompleteness Theorem is completely unconcerned with the truth value of a statement, but only concerns the issue of whether it is possible to find it through a mathematical proof.
+The weaker form of the theorem can be proved from the undecidability of the halting problem as follows.[37] Assume that we have a sound (and hence consistent) and complete axiomatization of all true first-order logic statements about natural numbers. Then we can build an algorithm that enumerates all these statements. This means that there is an algorithm N(n) that, given a natural number n, computes a true first-order logic statement about natural numbers, and that for all true statements, there is at least one n such that N(n) yields that statement. Now suppose we want to decide if the algorithm with representation a halts on input i.  We know that this statement can be expressed with a first-order logic statement, say H(a, i).  Since the axiomatization is complete it follows that either there is an n such that N(n) =  H(a, i) or there is an n' such that N(n') = ¬ H(a, i).  So if we iterate over all n until we either find H(a, i) or its negation, we will always halt, and furthermore, the answer it gives us will be true (by soundness). This means that this gives us an algorithm to decide the halting problem. Since we know that there cannot be such an algorithm, it follows that the assumption that there is a consistent and complete axiomatization of all true first-order logic statements about natural numbers must be false.
+Many variants of the halting problem can be found in computability textbooks.[38] Typically, these problems are RE-complete and describe sets of complexity 
+
+
+
+
+Σ
+
+1
+
+
+0
+
+
+
+
+{\displaystyle \Sigma _{1}^{0}}
+
+ in the arithmetical hierarchy, the same as the standard halting problem. The variants are thus undecidable, and the standard halting problem reduces to each variant and vice-versa. However, some variants have a higher degree of unsolvability and cannot be reduced to the standard halting problem. The next two examples are common.
+The universal halting problem, also known (in recursion theory) as totality, is the problem of determining whether a given computer program will halt for every input (the name totality comes from the equivalent question of whether the computed function is total).
+This problem is not only undecidable, as the halting problem is, but highly undecidable. In terms of the arithmetical hierarchy, it is 
+
+
+
+
+Π
+
+2
+
+
+0
+
+
+
+
+{\displaystyle \Pi _{2}^{0}}
+
+-complete.[39]
+This means, in particular, that it cannot be decided even with an oracle for the halting problem.
+There are many programs that, for some inputs, return a correct answer to the halting problem, while for other inputs they do not return an answer at all. 
+However the problem "given program p, is it a partial halting solver" (in the sense described) is at least as hard as the halting problem.
+To see this, assume that there is an algorithm PHSR ("partial halting solver recognizer") to do that. Then it can be used to solve the halting problem,
+as follows:
+To test whether input program x halts on y, construct a program p that on input (x,y) reports true and diverges on all other inputs.
+Then test p with PHSR.
+The above argument is a reduction of the halting problem to PHS recognition, and in the same manner, 
+harder problems such as halting on all inputs can also be reduced, implying that PHS recognition is not only undecidable, but higher in the arithmetical hierarchy, specifically 
+
+
+
+
+Π
+
+2
+
+
+0
+
+
+
+
+{\displaystyle \Pi _{2}^{0}}
+
+-complete.
+A lossy Turing machine is a Turing machine in which part of the tape may non-deterministically disappear. The halting problem is decidable for a lossy Turing machine but non-primitive recursive.[40]
+A machine with an oracle for the halting problem can determine whether particular Turing machines will halt on particular inputs, but they cannot determine, in general, whether machines equivalent to themselves will halt.
+
+

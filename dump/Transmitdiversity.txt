@@ -1,0 +1,10 @@
+41060,
+Transmitdiversity,
+
+Transmit diversity is radio communication using signals that originate from two or more independent sources that have been modulated with identical information-bearing signals and that may vary in their transmission characteristics at any given instant.  
+It can help overcome the effects of fading, outages, and circuit failures. When using diversity transmission and reception, the amount of received signal improvement depends on the independence of the fading characteristics of the signal as well as circuit outages and failures.
+Considering antenna diversity, in many systems additional antennas may be expensive or impractical at the remote or even at the base station. In these cases, transmit diversity can be used to provide diversity benefit at a receiver with multiple transmit antennas only. With transmit diversity, multiple antennas transmit delayed versions of a signal, creating frequency-selective fading, which is equalized at the receiver to provide diversity gain.
+Since transmit diversity with N antennas results in N sources of interference to other users, the interference environment will be different from conventional systems with one transmit antenna. Thus even if transmit diversity has almost the same performance as receive diversity in noise-limited environments, the performance in interference-limited environments will differ.
+
+This article about wireless technology is a stub. You can help Wikipedia by expanding it.
+

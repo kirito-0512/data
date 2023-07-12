@@ -1,0 +1,41 @@
+1858,
+Aromatic compound,
+Aromatic compounds, also known as "mono- and polycyclic aromatic hydrocarbons",[1] are organic compounds containing one or more aromatic rings. The word "aromatic" originates from the past grouping of molecules based on smell, before their general chemical properties were understood. The current definition of aromatic compounds does not have any relation with their smell.
+Heteroarenes are closely related, since at least one carbon atom of CH group is replaced by one of the heteroatoms oxygen, nitrogen, or sulfur. Examples of non-benzene compounds with aromatic properties are furan, a heterocyclic compound with a five-membered ring that includes a single oxygen atom, and pyridine, a heterocyclic compound with a six-membered ring containing one nitrogen atom. Hydrocarbons without an aromatic ring are called aliphatic.
+Benzene, 
+C
+6
+H
+6
+{\displaystyle {\ce {C6H6}}}
+, is the least complex aromatic hydrocarbon, and it was the first one named as such. The nature of its bonding was first recognized by August Kekulé in the 19th century. Each carbon atom in the hexagonal cycle has four electrons to share. One goes to the hydrogen atom, and one to each of the two neighboring carbons. This leaves one electron to share with one of the two neighboring carbon atoms, thus creating a double bond with one carbon and leaving a single bond with the other, which is why some representations of the benzene molecule portray it as a hexagon with alternating single and double bonds.
+Other depictions of the structure portray the hexagon with a circle inside it, to indicate that the six electrons are floating around in delocalized molecular orbitals the size of the ring itself. This represents the equivalent nature of the six carbon-carbon bonds all of bond order 1.5; the equivalency is explained by resonance forms. The electrons are visualized as floating above and below the ring, with the electromagnetic fields they generate acting to keep the ring flat.
+General properties of aromatic hydrocarbons:
+The circle symbol for aromaticity was introduced by Sir Robert Robinson and his student James Armit in 1925[2] and popularized starting in 1959 by the Morrison & Boyd textbook on organic chemistry. The proper use of the symbol is debated: some publications use it to any cyclic π system, while others use it only for those π systems that obey Hückel's rule. Jensen[3] argues that, in line with Robinson's original proposal, the use of the circle symbol should be limited to monocyclic 6 π-electron systems. In this way the circle symbol for a six-center six-electron bond can be compared to the Y symbol for a three-center two-electron bond.
+Aromatic ring systems participate in many organic reactions.
+In aromatic substitution one substituent on the arene ring, usually hydrogen, is replaced by another substituent. The two main types are electrophilic aromatic substitution, when the active reagent is an electrophile, and nucleophilic aromatic substitution, when the reagent is a nucleophile. In radical-nucleophilic aromatic substitution, the active reagent is a radical. An example of electrophilic aromatic substitution is the nitration of salicylic acid:[4]
+In coupling reactions a metal catalyzes a coupling between two formal radical fragments. Common coupling reactions with arenes result in the formation of new carbon–carbon bonds e.g., alkylarenes, vinyl arenes, biraryls, new carbon–nitrogen bonds (anilines) or new carbon–oxygen bonds (aryloxy compounds). An example is a direct arylation of perfluorobenzenes[5]
+Hydrogenation of arenes create saturated rings. The compound 1-naphthol is completely reduced to a mixture of decalin-ol isomers.[6]
+The compound resorcinol, hydrogenated with Raney nickel in presence of aqueous sodium hydroxide forms an enolate which is alkylated with methyl iodide to 2-methyl-1,3-cyclohexandione:[7]
+Cycloaddition reactions are not common. Unusual thermal Diels–Alder reactivity of arenes can be found in the Wagner-Jauregg reaction. Other photochemical cycloaddition reactions with alkenes occur through excimers.
+In dearomatization reactions the aromaticity of the reactant is permanently lost.
+Benzene derivatives have from one to six substituents attached to the central benzene core. Examples of benzene compounds with just one substituent are phenol, which carries a hydroxyl group, and toluene with a methyl group. When there is more than one substituent present on the ring, their spatial relationship becomes important for which the arene substitution patterns ortho, meta, and para are devised. For example, three isomers exist for cresol because the methyl group and the hydroxyl group can be placed next to each other (ortho), one position removed from each other (meta), or two positions removed from each other (para). Xylenol has two methyl groups in addition to the hydroxyl group, and, for this structure, 6 isomers exist.
+Toluene
+Ethylbenzene
+p-Xylene
+m-Xylene
+Mesitylene
+Durene
+2-Phenylhexane
+Biphenyl
+Phenol
+Aniline
+Nitrobenzene
+Benzoic acid
+Aspirin
+Paracetamol
+Picric acid
+The arene ring has the ability to stabilize charges. This is seen in, for example, phenol (C6H5–OH), which is acidic at the hydroxyl (OH), since a charge on this oxygen (alkoxide –O−) is partially delocalized into the benzene ring.
+Other monocyclic aromatic hydrocarbon include Cyclotetradecaheptaene or Cyclooctadecanonaene.
+Polynuclear aromatic hydrocarbons (PAHs) are aromatic hydrocarbons that consist of fused aromatic rings and do not contain heteroatoms or carry substituents.[8] Naphthalene is the simplest example of a PAH. PAHs occur in oil, coal, and tar deposits, and are produced as byproducts of fuel burning (whether fossil fuel or biomass). As pollutants, they are of concern because some compounds have been identified as carcinogenic, mutagenic, and teratogenic. PAHs are also found in cooked foods. Studies have shown that high levels of PAHs are found, for example, in meat cooked at high temperatures such as grilling or barbecuing, and in smoked fish.[9][10][11]
+They are also found in the interstellar medium, in comets, and in meteorites and are a candidate molecule to act as a basis for the earliest forms of life. In graphene the PAH motif is extended to large 2D sheets.

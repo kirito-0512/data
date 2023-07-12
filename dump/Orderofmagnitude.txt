@@ -1,0 +1,269 @@
+22657,
+Orderofmagnitude,
+An order of magnitude is an approximation of the logarithm of a value relative to some contextually understood reference value, usually 10, interpreted as the base of the logarithm and the representative of values of magnitude one. Logarithmic distributions are common in nature and considering the order of magnitude of values sampled from such a distribution can be more intuitive. When the reference value is 10, the order of magnitude can be understood as the number of digits in the base-10 representation of the value. Similarly, if the reference value is one of some powers of 2, since computers store data in a binary format, the magnitude can be understood in terms of the amount of computer memory needed to store that value[citation needed].
+Differences in order of magnitude can be measured on a base-10 logarithmic scale in “decades” (i.e., factors of ten).[1] Examples of numbers of different magnitudes can be found at Orders of magnitude (numbers).
+Generally, the order of magnitude of a number is the smallest power of 10 used to represent that number.[2] To work out the order of magnitude of a number 
+
+
+
+N
+
+
+{\displaystyle N}
+
+, the number is first expressed in the following form:
+where 
+
+
+
+
+
+1
+
+10
+
+
+
+≤
+a
+<
+
+
+10
+
+
+
+
+{\displaystyle {\frac {1}{\sqrt {10}}}\leq a<{\sqrt {10}}}
+
+, or approximately 
+
+
+
+0.316
+≲
+a
+≲
+3.16
+
+
+{\displaystyle 0.316\lesssim a\lesssim 3.16}
+
+. Then, 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ represents the order of magnitude of the number. The order of magnitude can be any integer. The table below enumerates the order of magnitude of some numbers in light of this definition:
+The geometric mean of 
+
+
+
+
+10
+
+b
+−
+1
+
+/
+
+2
+
+
+
+
+{\displaystyle 10^{b-1/2}}
+
+ and 
+
+
+
+
+10
+
+b
++
+1
+
+/
+
+2
+
+
+
+
+{\displaystyle 10^{b+1/2}}
+
+ is 
+
+
+
+
+10
+
+b
+
+
+
+
+{\displaystyle 10^{b}}
+
+, meaning that a value of exactly 
+
+
+
+
+10
+
+b
+
+
+
+
+{\displaystyle 10^{b}}
+
+ (i.e., 
+
+
+
+a
+=
+1
+
+
+{\displaystyle a=1}
+
+) represents a geometric halfway point within the range of possible values of 
+
+
+
+a
+
+
+{\displaystyle a}
+
+.
+Some use a simpler definition where 
+
+
+
+0.5
+≤
+a
+<
+5
+
+
+{\displaystyle 0.5\leq a<5}
+
+,[3] perhaps because the arithmetic mean of 
+
+
+
+
+10
+
+b
+
+
+
+
+{\displaystyle 10^{b}}
+
+ and 
+
+
+
+
+10
+
+b
++
+c
+
+
+
+
+{\displaystyle 10^{b+c}}
+
+ approaches 
+
+
+
+5
+×
+
+10
+
+b
++
+c
+−
+1
+
+
+
+
+{\displaystyle 5\times 10^{b+c-1}}
+
+ for increasing 
+
+
+
+c
+
+
+{\displaystyle c}
+
+.[citation needed] This definition has the effect of lowering the values of 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ slightly:
+Orders of magnitude are used to make approximate comparisons.  If numbers differ by one order of magnitude, x is about ten times different in quantity than y.  If values differ by two orders of magnitude, they differ by a factor of about 100. Two numbers of the same order of magnitude have roughly the same scale: the larger value is less than ten times the smaller value.
+The growing amounts of Internet data have led to addition of new SI prefixes over time, most recently in 2022.[4]
+The order of magnitude of a number is, intuitively speaking, the number of powers of 10 contained in the number.  More precisely, the order of magnitude of a number can be defined in terms of the common logarithm, usually as the integer part of the logarithm, obtained by truncation.  For example, the number 4000000 has a logarithm (in base 10) of 6.602; its order of magnitude is 6.  When truncating, a number of this order of magnitude is between 106 and 107. In a similar example, with the phrase "He had a seven-figure income", the order of magnitude is the number of figures minus one, so it is very easily determined without a calculator to 6. An order of magnitude is an approximate position on a logarithmic scale.
+An order-of-magnitude estimate of a variable, whose precise value is unknown, is an estimate rounded to the nearest power of ten.  For example, an order-of-magnitude estimate for a variable between about 3 billion and 30 billion (such as the human population of the Earth) is 10 billion. To round a number to its nearest order of magnitude, one rounds its logarithm to the nearest integer.  Thus 4000000, which has a logarithm (in base 10) of 6.602, has 7 as its nearest order of magnitude, because "nearest" implies rounding rather than truncation.  For a number written in scientific notation, this logarithmic rounding scale requires rounding up to the next power of ten when the multiplier is greater than the square root of ten (about 3.162). For example, the nearest order of magnitude for 1.7×108 is 8, whereas the nearest order of magnitude for 3.7×108 is 9. An order-of-magnitude estimate is sometimes also called a zeroth order approximation.
+An order-of-magnitude difference between two values is a factor of 10.  For example, the mass of the planet Saturn is 95 times that of Earth, so Saturn is two orders of magnitude more massive than Earth.  Order-of-magnitude differences are called decades when measured on a logarithmic scale.
+Other orders of magnitude may be calculated using bases other than 10. The ancient Greeks ranked the nighttime brightness of celestial bodies by 6 levels in which each level was the fifth root of one hundred (about 2.512) as bright as the nearest weaker level of brightness, and thus the brightest level being 5 orders of magnitude brighter than the weakest indicates that it is (1001/5)5 or a factor of 100 times brighter.
+The different decimal numeral systems of the world use a larger base to better envision the size of the number, and have created names for the powers of this larger base. The table shows  what number the order of magnitude aim at for base 10 and for base 1000000. It can be seen that the order of magnitude is included in the number name in this example, because bi- means 2 and tri- means 3 (these make sense in the long scale only), and the suffix -illion tells that the base is 1000000. But the number names billion, trillion themselves (here with other meaning than in the first chapter) are not names of the orders of magnitudes, they are names of "magnitudes", that is the numbers 1000000000000 etc.
+SI units in the table at right are used together with SI prefixes, which were devised with mainly base 1000 magnitudes in mind. The IEC standard prefixes with base 1024 were invented for use in electronic technology.
+The ancient apparent magnitudes for the brightness of stars uses the base 
+
+
+
+
+
+100
+
+5
+
+
+
+≈
+2.512
+
+
+{\displaystyle {\sqrt[{5}]{100}}\approx 2.512}
+
+ and is reversed. The modernized version has however turned into a logarithmic scale with non-integer values.
+For extremely large numbers, a generalized order of magnitude can be based on their double logarithm or super-logarithm. Rounding these downward to an integer gives categories between very "round numbers", rounding them to the nearest integer and applying the inverse function gives the "nearest" round number.
+The double logarithm yields the categories:
+(the first two mentioned, and the extension to the left, may not be very useful, they merely demonstrate how the sequence mathematically continues to the left).
+The super-logarithm yields the categories:
+The "midpoints" which determine which round number is nearer are in the first case:
+and, depending on the interpolation method, in the second case
+For extremely small numbers (in the sense of close to zero) neither method is suitable directly, but the generalized order of magnitude of the reciprocal can be considered.
+Similar to the logarithmic scale one can have a double logarithmic scale (example provided here) and super-logarithmic scale. The intervals above all have the same length on them, with the "midpoints" actually midway. More generally, a point midway between two points corresponds to the generalised f-mean with f(x) the corresponding function log log x or slog x. In the case of log log x, this mean of two numbers (e.g. 2 and 16 giving 4) does not depend on the base of the logarithm, just like in the case of log x (geometric mean, 2 and 8 giving 4), but unlike in the case of log log log x (4 and 65536 giving 16 if the base is 2, but not otherwise).
+
+

@@ -1,0 +1,69 @@
+6011,
+Chomskyhierarchy,
+The Chomsky hierarchy (infrequently referred to as the Chomsky–Schützenberger hierarchy[1]) in the fields of formal language theory, computer science, and linguistics, is a containment hierarchy of classes of formal grammars. A formal grammar describes how to form strings from a language's alphabet that are valid according to the language's syntax. Linguist Noam Chomsky theorized that four different classes of formal grammars existed that could generate increasingly complex languages. Each class can completely generate the language of all inferior classes.
+The general idea of a hierarchy of grammars was first described by linguist Noam Chomsky in Chomsky 1956. Marcel-Paul Schützenberger also played a role in the development of the theory of formal languages; the paper Chomsky & Schützenberger 1963 describes the modern hierarchy including context-free grammars.[1]
+Independently and alongside linguists, mathematicians were developing computation models (automata). Parsing a sentence in a language is similar to computation, and the grammars described by Chomsky proved to both resemble and be equivalent in computational power to various machine models.[2]
+The following table summarizes each of Chomsky's four types of grammars, the class of language it generates, the type of automaton that recognizes it, and the form its rules must have.
+Note that the set of grammars corresponding to recursive languages is not a member of this hierarchy; these would be properly between Type-0 and Type-1.
+Every regular language is context-free, every context-free language is context-sensitive, every context-sensitive language is recursive and every recursive language is recursively enumerable. These are all proper inclusions, meaning that there exist recursively enumerable languages that are not context-sensitive, context-sensitive languages that are not context-free and context-free languages that are not regular.[5]
+Type-0 grammars include all formal grammars. They generate exactly all languages that can be recognized by a Turing machine. These languages are also known as the recursively enumerable or Turing-recognizable languages.[6] Note that this is different from the recursive languages, which can be decided by an always-halting Turing machine.
+Type-1 grammars generate context-sensitive languages. These grammars have rules of the form 
+α
+A
+β
+→
+α
+γ
+β
+\alpha A\beta \rightarrow \alpha \gamma \beta
+ with 
+A
+A
+ a nonterminal and 
+α
+\alpha
+, 
+β
+\beta
+ and 
+γ
+\gamma
+ strings of terminals and/or nonterminals. The strings 
+α
+\alpha
+ and 
+β
+\beta
+ may be empty, but 
+γ
+\gamma
+ must be nonempty.  The rule 
+S
+→
+ϵ
+S\rightarrow \epsilon
+ is allowed if 
+S
+S
+ does not appear on the right side of any rule.  The languages described by these grammars are exactly all languages that can be recognized by a linear bounded automaton (a nondeterministic Turing machine whose tape is bounded by a constant times the length of the input.)
+Type-2 grammars generate the context-free languages. These are defined by rules of the form 
+A
+→
+α
+{\displaystyle A\rightarrow \alpha }
+ with 
+A
+A
+ being a nonterminal and 
+α
+\alpha
+ being a string of terminals and/or nonterminals. These languages are exactly all languages that can be recognized by a non-deterministic pushdown automaton. Context-free languages—or rather its subset of deterministic context-free language—are the theoretical basis for the phrase structure of most programming languages, though their syntax also includes context-sensitive name resolution due to declarations and scope. Often a subset of grammars is used to make parsing easier, such as by an LL parser.
+Type-3 grammars generate the regular languages. Such a grammar restricts its rules to a single nonterminal on the left-hand side and a right-hand side consisting of a single terminal, possibly followed by a single nonterminal (right regular). Alternatively, the right-hand side of the grammar can consist of a single terminal, possibly preceded by a single nonterminal (left regular). These generate the same languages. However, if left-regular rules and right-regular rules are combined, the language need no longer be regular. The rule 
+S
+→
+ε
+S\rightarrow \varepsilon
+ is also allowed here if 
+S
+S
+ does not appear on the right side of any rule. These languages are exactly all languages that can be decided by a finite state automaton. Additionally, this family of formal languages can be obtained by regular expressions. Regular languages are commonly used to define search patterns and the lexical structure of programming languages.

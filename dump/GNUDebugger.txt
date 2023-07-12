@@ -1,0 +1,28 @@
+13052,
+GNUDebugger,
+The GNU Debugger (GDB) is a portable debugger that runs on many Unix-like systems and works for many programming languages, including Ada, Assembly, C, C++, D, Fortran, Go, Objective-C, OpenCL C, Modula-2, Pascal, Rust,[2] and partially others.[3]
+GDB was first written by Richard Stallman in 1986 as part of his GNU system, after his GNU Emacs was "reasonably stable".[4] GDB is free software released under the GNU General Public License (GPL). It was modeled after the DBX debugger, which came with Berkeley Unix distributions.[4]
+From 1990 to 1993 it was maintained by John Gilmore.[5] Now it is maintained by the GDB Steering Committee which is appointed by the Free Software Foundation.[6]
+GDB offers extensive facilities for tracing and altering the execution of computer programs. The user can monitor and modify the values of programs' internal variables, and even call functions independently of the program's normal behavior.
+GDB target processors (as of 2003) include: Alpha, ARM, AVR, H8/300, Altera Nios/Nios II, System/370, System 390, X86 and its 64-bit extension X86-64, IA-64 "Itanium", Motorola 68000, MIPS, PA-RISC, PowerPC, SuperH, SPARC, and VAX. Lesser-known target processors supported in the standard release have included A29K, ARC, ETRAX CRIS, D10V, D30V, FR-30, FR-V, Intel i960, 68HC11, Motorola 88000, MCORE, MN10200, MN10300, NS32K, Stormy16, and Z8000.  (Newer releases will likely not support some of these.) GDB has compiled-in simulators for even lesser-known target processors such like M32R or V850.[7]
+GDB is still actively being developed. As of version 7.0 new features include support for Python scripting[8] and as of version 7.8 GNU Guile scripting as well.[9] Since version 7.0, support for "reversible debugging" — allowing a debugging session to step backward, much like rewinding a crashed program to see what happened — is available.[10]
+GDB offers a "remote" mode often used when debugging embedded systems. Remote operation is when GDB runs on one machine and the program being debugged runs on another. GDB can communicate to the remote "stub" that understands GDB protocol through a serial device or TCP/IP.[11] A stub program can be created by linking to the appropriate stub files provided with GDB, which implement the target side of the communication protocol.[12] Alternatively, gdbserver can be used to remotely debug the program without needing to change it in any way.
+The same mode is also used by KGDB for debugging a running Linux kernel on the source level with gdb. With KGDB, kernel developers can debug a kernel in much the same way as they debug application programs. It makes it possible to place breakpoints in kernel code, step through the code, and observe variables. On architectures where hardware debugging registers are available, watchpoints can be set which trigger breakpoints when specified memory addresses are executed or accessed. KGDB requires an additional machine which is connected to the machine to be debugged using a serial cable or Ethernet. On FreeBSD, it is also possible to debug using FireWire direct memory access (DMA).[13]
+The debugger does not contain its own graphical user interface, and defaults to a command-line interface, although it does contain a text user interface. Several front-ends have been built for it, such as UltraGDB, Xxgdb, Data Display Debugger (DDD), Nemiver, KDbg, the Xcode debugger, GDBtk/Insight, Seer, and HP Wildebeest Debugger GUI (WDB GUI). IDEs such as Codelite, Code::Blocks, Dev-C++, Geany, GNAT Programming Studio (GPS), KDevelop, Qt Creator, Lazarus, MonoDevelop, Eclipse, NetBeans, and Visual Studio can interface with GDB. GNU Emacs has a "GUD mode" and tools for Vim exist (e.g. clewn). These offer facilities similar to debuggers found in IDEs.
+Some other debugging tools have been designed to work with GDB, such as memory leak detectors.
+GDB uses a system call named ptrace (the name is an abbreviation of "process trace") to observe and control the execution of another process, and examine and change the process' memory and registers.
+A breakpoint is implemented by replacing an instruction at a given memory address with another special instruction. Executing breakpoint instruction causes SIGTRAP.
+Consider the following source-code written in C:
+Using the GCC compiler on Linux, the code above must be compiled using the -g flag in order to include appropriate debug information on the binary generated, thus making it possible to inspect it using GDB.  Assuming that the file containing the code above is named example.c, the command for the compilation could be:
+And the binary can now be run:
+Since the example code, when executed, generates a segmentation fault, GDB can be used to inspect the problem.
+The problem is present in line 7, and occurs when calling the function strlen (because its argument, s, is NULL).
+Depending on the implementation of strlen (inline or not), the output can be different, e.g.:
+To fix the problem, the variable a (in the function main) must contain a valid string.  Here is a fixed version of the code:
+Recompiling and running the executable again inside GDB now gives a correct result:
+GDB prints the output of printf in the screen, and then informs the user that the program exited normally.
+
+
+
+Information box
+{'Developer(s)': 'GNU Project', 'Initial release': '1986; 37 years ago', 'Stable release': '13.2[1]  / 27 May 2023', 'Repository': 'sourceware.org/git/binutils-gdb.git', 'Written in': 'C, C++, Python', 'Operating system': 'Unix-like, Windows', 'Type': 'Debugger', 'License': 'GPLv3', 'Website': 'www.gnu.org/software/gdb'}

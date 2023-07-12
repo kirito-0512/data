@@ -1,0 +1,349 @@
+2998,
+Acceleration,
+In mechanics, acceleration is the rate of change of the velocity of an object with respect to time. Accelerations are vector quantities (in that they have magnitude and direction).[1][2] The orientation of an object's acceleration is given by the orientation of the net force acting on that object. The magnitude of an object's acceleration, as described by Newton's Second Law,[3] is the combined effect of two causes:
+The SI unit for acceleration is metre per second squared (m⋅s−2, 
+m
+s
+2
+{\displaystyle \mathrm {\tfrac {m}{s^{2}}} }
+).
+For example, when a vehicle starts from a standstill (zero velocity, in an inertial frame of reference) and travels in a straight line at increasing speeds, it is accelerating in the direction of travel. If the vehicle turns, an acceleration occurs toward the new direction and changes its motion vector.  The acceleration of the vehicle in its current direction of motion is called a linear (or tangential during circular motions) acceleration, the reaction to which the passengers on board experience as a force pushing them back into their seats. When changing direction, the effecting acceleration is called radial (or centripetal during circular motions) acceleration, the reaction to which the passengers experience as a centrifugal force. If the speed of the vehicle decreases, this is an acceleration in the opposite direction of the velocity vector (mathematically a negative, if the movement is unidimensional and the velocity is positive), sometimes called deceleration[4][5] or retardation, and passengers experience the reaction to deceleration as an inertial force pushing them forward.  Such negative accelerations are often achieved by retrorocket burning in spacecraft.[6] Both acceleration and deceleration are treated the same, as they are both changes in velocity. Each of these accelerations (tangential, radial, deceleration) is felt by passengers until their relative (differential) velocity are neutralized in reference to the acceleration due to change in speed.
+An object's average acceleration over a period of time is its change in velocity, 
+Δ
+v
+{\displaystyle \Delta \mathbf {v} }
+, divided by the duration of the period, 
+Δ
+t
+{\displaystyle \Delta t}
+. Mathematically,
+a
+¯
+=
+Δ
+v
+Δ
+t
+.
+{\displaystyle {\bar {\mathbf {a} }}={\frac {\Delta \mathbf {v} }{\Delta t}}.}
+Instantaneous acceleration, meanwhile, is the limit of the average acceleration over an infinitesimal interval of time. In the terms of calculus, instantaneous acceleration is the derivative of the velocity vector with respect to time:
+a
+=
+lim
+Δ
+t
+→
+0
+Δ
+v
+Δ
+t
+=
+d
+v
+d
+t
+.
+{\displaystyle \mathbf {a} =\lim _{{\Delta t}\to 0}{\frac {\Delta \mathbf {v} }{\Delta t}}={\frac {d\mathbf {v} }{dt}}.}
+As acceleration is defined as the derivative of velocity, v, with respect to time t and velocity is defined as the derivative of position, x, with respect to time, acceleration can be thought of as the second derivative of x with respect to t:
+a
+=
+d
+v
+d
+t
+=
+d
+2
+x
+d
+t
+2
+.
+{\displaystyle \mathbf {a} ={\frac {d\mathbf {v} }{dt}}={\frac {d^{2}\mathbf {x} }{dt^{2}}}.}
+(Here and elsewhere, if motion is in a straight line, vector quantities can be substituted by scalars in the equations.)
+By the fundamental theorem of calculus, it can be seen that the integral of the acceleration function a(t) is the velocity function v(t); that is, the area under the curve of an acceleration vs. time (a vs. t) graph corresponds to the change of velocity.
+Δ
+v
+=
+∫
+a
+d
+t
+.
+{\displaystyle \mathbf {\Delta v} =\int \mathbf {a} \,dt.}
+Likewise, the integral of the jerk function j(t), the derivative of the acceleration function, can be used to find  the change of acceleration at a certain time:
+Δ
+a
+=
+∫
+j
+d
+t
+.
+{\displaystyle \mathbf {\Delta a} =\int \mathbf {j} \,dt.}
+Acceleration has the dimensions of velocity (L/T) divided by time, i.e. L T−2. The SI unit of acceleration is the metre per second squared (m s−2); or "metre per second per second", as the velocity in metres per second changes by the acceleration value, every second.
+An object moving in a circular motion—such as a satellite orbiting the Earth—is accelerating due to the change of direction of motion, although its speed may be constant. In this case it is said to be undergoing centripetal (directed towards the center) acceleration.
+Proper acceleration, the acceleration of a body relative to a free-fall condition, is measured by an instrument called an accelerometer.
+In classical mechanics, for a body with constant mass, the (vector) acceleration of the body's center of mass is proportional to the net force vector (i.e. sum of all forces) acting on it (Newton's second law):
+F
+=
+m
+a
+⟹
+a
+=
+F
+m
+,
+{\displaystyle \mathbf {F} =m\mathbf {a} \quad \implies \quad \mathbf {a} ={\frac {\mathbf {F} }{m}},}
+where F is the net force acting on the body, m is  the mass of the body, and a is the center-of-mass acceleration. As speeds approach the speed of light, relativistic effects become increasingly large.
+The velocity of a particle moving on a curved path as a function of time can be written as:
+v
+(
+t
+)
+=
+v
+(
+t
+)
+v
+(
+t
+)
+v
+(
+t
+)
+=
+v
+(
+t
+)
+u
+t
+(
+t
+)
+,
+{\displaystyle \mathbf {v} (t)=v(t){\frac {\mathbf {v} (t)}{v(t)}}=v(t)\mathbf {u} _{\mathrm {t} }(t),}
+with v(t) equal to the speed of travel along the path, and
+u
+t
+=
+v
+(
+t
+)
+v
+(
+t
+)
+,
+{\displaystyle \mathbf {u} _{\mathrm {t} }={\frac {\mathbf {v} (t)}{v(t)}}\,,}
+a unit vector tangent to the path pointing in the direction of motion at the chosen moment in time. Taking into account both the changing speed v(t) and the changing direction of ut, the acceleration of a particle moving on a curved path can be written using the chain rule of differentiation[7] for the product of two functions of time as:
+a
+=
+d
+v
+d
+t
+=
+d
+v
+d
+t
+u
+t
++
+v
+(
+t
+)
+d
+u
+t
+d
+t
+=
+d
+v
+d
+t
+u
+t
++
+v
+2
+r
+u
+n
+ 
+,
+{\displaystyle {\begin{alignedat}{3}\mathbf {a} &={\frac {d\mathbf {v} }{dt}}\\&={\frac {dv}{dt}}\mathbf {u} _{\mathrm {t} }+v(t){\frac {d\mathbf {u} _{\mathrm {t} }}{dt}}\\&={\frac {dv}{dt}}\mathbf {u} _{\mathrm {t} }+{\frac {v^{2}}{r}}\mathbf {u} _{\mathrm {n} }\ ,\end{alignedat}}}
+where un is the  unit (inward) normal vector to the particle's trajectory (also called the principal normal), and r is its instantaneous radius of curvature based upon the osculating circle at time t. These components are called the tangential acceleration and the normal or radial acceleration (or centripetal acceleration in circular motion, see also circular motion and centripetal force).
+Geometrical analysis of three-dimensional space curves, which explains tangent, (principal) normal and binormal, is described by the Frenet–Serret formulas.[8][9]
+Uniform or constant acceleration is a type of motion in which the velocity of an object changes by an equal amount in every equal time period.
+A frequently cited example of uniform acceleration is that of an object in free fall in a uniform gravitational field. The acceleration of a falling body in the absence of resistances to motion is dependent only on the gravitational field strength g (also called acceleration due to gravity). By Newton's Second Law the force 
+F
+g
+{\displaystyle \mathbf {F_{g}} }
+ acting on a body is given by:
+F
+g
+=
+m
+g
+.
+{\displaystyle \mathbf {F_{g}} =m\mathbf {g} .}
+Because of the simple analytic properties of the case of constant acceleration, there are simple formulas relating the displacement, initial and time-dependent velocities, and acceleration to the time elapsed:[10]
+s
+(
+t
+)
+=
+s
+0
++
+v
+0
+t
++
+1
+2
+a
+t
+2
+=
+s
+0
++
+1
+2
+(
+v
+0
++
+v
+(
+t
+)
+)
+t
+v
+(
+t
+)
+=
+v
+0
++
+a
+t
+v
+2
+(
+t
+)
+=
+v
+0
+2
++
+2
+a
+⋅
+[
+s
+(
+t
+)
+−
+s
+0
+]
+,
+{\displaystyle {\begin{aligned}\mathbf {s} (t)&=\mathbf {s} _{0}+\mathbf {v} _{0}t+{\tfrac {1}{2}}\mathbf {a} t^{2}=\mathbf {s} _{0}+{\tfrac {1}{2}}\left(\mathbf {v} _{0}+\mathbf {v} (t)\right)t\\\mathbf {v} (t)&=\mathbf {v} _{0}+\mathbf {a} t\\{v^{2}}(t)&={v_{0}}^{2}+2\mathbf {a\cdot } [\mathbf {s} (t)-\mathbf {s} _{0}],\end{aligned}}}
+where
+In particular, the motion can be resolved into two orthogonal parts, one of constant velocity and the other according to the above equations.  As Galileo showed, the net result is parabolic motion, which describes, e.g., the trajectory of a projectile in vacuum near the surface of Earth.[11]
+In uniform circular motion, that is moving with constant speed along a circular path, a particle experiences an acceleration resulting from the change of the direction of the velocity vector, while its magnitude remains constant. The derivative of the location of a point on a curve with respect to time, i.e. its velocity, turns out to be always exactly tangential to the curve, respectively orthogonal to the radius in this point. Since in uniform motion the velocity in the tangential direction does not change, the acceleration must be in radial direction, pointing to the center of the circle. This acceleration constantly changes the direction of the velocity to be tangent in the neighboring point, thereby rotating the velocity vector along the circle.
+Expressing centripetal acceleration vector in polar components, where 
+r
+{\displaystyle \mathbf {r} }
+ is a vector from the centre of the circle to the particle with magnitude equal to this distance, and considering the orientation of the acceleration towards the center, yields
+a
+c
+=
+−
+v
+2
+|
+r
+|
+⋅
+r
+|
+r
+|
+.
+{\displaystyle \mathbf {a_{c}} =-{\frac {v^{2}}{|\mathbf {r} |}}\cdot {\frac {\mathbf {r} }{|\mathbf {r} |}}\,.}
+As usual in rotations, the speed 
+v
+{\displaystyle v}
+ of a particle may be expressed as an angular speed with respect to a point at the distance 
+r
+{\displaystyle r}
+ as
+ω
+=
+v
+r
+.
+{\displaystyle \omega ={\frac {v}{r}}.}
+Thus 
+a
+c
+=
+−
+ω
+2
+r
+.
+{\displaystyle \mathbf {a_{c}} =-\omega ^{2}\mathbf {r} \,.}
+This acceleration and the mass of the particle determine the necessary centripetal force, directed toward the centre of the circle, as the net force acting on this particle to keep it in this uniform circular motion. The so-called 'centrifugal force', appearing to act outward on the body, is a so-called pseudo force experienced in the frame of reference of the body in circular motion, due to the body's linear momentum, a vector tangent to the circle of motion.
+In a nonuniform circular motion, i.e., the speed along the curved path is changing, the acceleration has a non-zero component tangential to the curve, and is not confined to the principal normal, which directs to the center of the osculating circle, that determines the radius 
+r
+{\displaystyle r}
+ for the centripetal acceleration. The tangential component is given by the angular acceleration 
+α
+{\displaystyle \alpha }
+, i.e., the rate of change 
+α
+=
+ω
+˙
+{\displaystyle \alpha ={\dot {\omega }}}
+ of the angular speed 
+ω
+{\displaystyle \omega }
+ times the radius 
+r
+{\displaystyle r}
+. That is,
+a
+t
+=
+r
+α
+.
+{\displaystyle a_{t}=r\alpha .}
+The sign of the tangential component of the acceleration is determined by the sign of the angular acceleration (
+α
+{\displaystyle \alpha }
+), and the tangent is always directed at right angles to the radius vector.
+The special theory of relativity describes the behavior of objects traveling relative to other objects at speeds approaching that of light in vacuum. Newtonian mechanics is exactly revealed to be an approximation to reality, valid to great accuracy at lower speeds. As the relevant speeds increase toward the speed of light, acceleration no longer follows classical equations.
+As speeds approach that of light, the acceleration produced by a given force decreases, becoming infinitesimally small as light speed is approached; an object with mass can approach this speed asymptotically, but never reach it.
+Unless the state of motion of an object is known, it is impossible to distinguish whether an observed force is due to gravity or to acceleration—gravity and inertial acceleration have identical effects. Albert Einstein called this the equivalence principle, and said that only observers who feel no force at all—including the force of gravity—are justified in concluding that they are not accelerating.[12]
+Information box
+{'Common symbols': 'a', 'SI unit': 'm/s2, m·s−2, m s−2', 'Derivations from\nother quantities': '', 'Dimension': ''}

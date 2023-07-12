@@ -1,0 +1,35 @@
+40985,
+Cutbacktechnique,
+In telecommunications, a cutback technique is a destructive technique for determining certain optical fiber transmission characteristics, such as attenuation and bandwidth.
+The measurement technique consists of:
+The cut should be made to retain 1 meter or more of the fiber, in order to establish equilibrium mode distribution conditions for the second measurement. In a multimode fiber, the lack of an equilibrium mode distribution could introduce errors in the measurement due to output coupling effects. In a single-mode fiber, measuring a shorter cutback fiber could result in significant transmission of cladding modes (light carried in the cladding rather than the core of the optical fiber), distorting the measurement. The errors introduced will result in conservative results (i.e., higher transmission losses and lower bandwidths) than would be realized under equilibrium conditions.
+The benefit of this technique is that it allows measurement of the fiber characteristics without introducing errors due to variation in the launch conditions. For example, the coupling efficiency of the light source is kept consistent between the initial and the cutback measurements.
+Several characteristics may be determined using the same test fiber.
+Since the attenuation is defined as proportional to the logarithm of the ratio between 
+P
+(
+x
+)
+{\displaystyle P(x)}
+ and 
+P
+(
+y
+)
+{\displaystyle P(y)}
+, where 
+P
+{\displaystyle P}
+ is the power at point 
+x
+{\displaystyle x}
+ and 
+y
+{\displaystyle y}
+ respectively. Using the cutback technique, the power transmitted through a fiber of known length is measured and compared with the same measurement for the same fiber cut to a length of 
+2
+m
+{\displaystyle 2m}
+ approximately.
+A variation of the cutback technique is the substitution method, in which measurements are made on a full-length of fiber, and then on a short length of fiber having the same characteristics (core size, numerical aperture), with the results from the short length being subtracted to give the results for the full length.
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. Archived from the original on 2022-01-22.

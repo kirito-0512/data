@@ -1,0 +1,239 @@
+26322,
+Richtermagnitudescale,
+
+The Richter scale[1] (/ˈrɪktər/), also called the Richter magnitude scale, Richter's magnitude scale, and the Gutenberg–Richter scale,[2] is a measure of the strength of earthquakes, developed by Charles Francis Richter and presented in his landmark 1935 paper, where he called it the "magnitude scale".[3] This was later revised and renamed the local magnitude scale, denoted as ML or ML .[4]
+Because of various shortcomings of the original ML  scale, most seismological authorities now use other similar scales such as the moment magnitude scale (Mw ) to report earthquake magnitudes, but much of the news media still erroneously refers to these as "Richter" magnitudes. All magnitude scales retain the logarithmic character of the original and are scaled to have roughly comparable numeric values (typically in the middle of the scale). Due to the variance in earthquakes,  it is essential to understand the Richter scale uses logarithms simply to make the measurements manageable (i.e., a magnitude 3 quake factors 10³ while a magnitude 5 quake is 100 times stronger than that).[5]
+The Richter magnitude of an earthquake is determined from the logarithm of the amplitude of waves recorded by seismographs (adjustments are included to compensate for the variation in the distance between the various seismographs and the epicenter of the earthquake). The original formula is:[6]
+where A is the maximum excursion of the Wood-Anderson seismograph, the empirical function A0 depends only on the epicentral distance of the station, 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+. In practice, readings from all observing stations are averaged after adjustment with station-specific corrections to obtain the ML  value.[6]
+Because of the logarithmic basis of the scale, each whole number increase in magnitude represents a tenfold increase in measured amplitude; in terms of energy, each whole number increase corresponds to an increase of about 31.6 times the amount of energy released, and each increase of 0.2 corresponds to approximately a doubling of the energy released.
+Events with magnitudes greater than 4.5 are strong enough to be recorded by a seismograph anywhere in the world, so long as its sensors are not located in the earthquake's shadow.[7][8][9]
+The following describes the typical effects of earthquakes of various magnitudes near the epicenter.[10] The values are typical only. They should be taken with extreme caution since intensity and thus ground effects depend not only on the magnitude but also on the distance to the epicenter, the depth of the earthquake's focus beneath the epicenter, the location of the epicenter, and geological conditions.
+(Based on U.S. Geological Survey documents.)[14]
+The intensity and death toll depend on several factors (earthquake depth, epicenter location, and population density, to name a few) and can vary widely.
+Millions of minor earthquakes occur every year worldwide, equating to hundreds every hour every day.[15] On the other hand, earthquakes of magnitude ≥8.0 occur about once a year, on average.[15] The largest recorded earthquake was the Great Chilean earthquake of May 22, 1960, which had a magnitude of 9.5 on the moment magnitude scale.[16]
+Seismologist Susan Hough has suggested that a magnitude 10 quake may represent a very approximate upper limit for what the Earth's tectonic zones are capable of, which would be the result of the largest known continuous belt of faults rupturing together (along the Pacific coast of the Americas).[17] A research at the Tohoku University in Japan found that a magnitude 10 earthquake was theoretically possible if a combined 3,000 kilometres (1,900 mi) of faults from the Japan Trench to the Kuril–Kamchatka Trench ruptured together and moved by 60 metres (200 ft) (or if a similar large-scale rupture occurred elsewhere). Such an earthquake would cause ground motions for up to an hour, with tsunamis hitting shores while the ground is still shaking, and if this kind of earthquake occurred, it would probably be a 1-in-10,000 year event.[18]
+Prior to the development of the magnitude scale, the only measure of an earthquake's strength or "size" was a subjective assessment of the intensity of shaking observed near the epicenter of the earthquake, categorized by various seismic intensity scales such as the Rossi-Forel scale. ("Size" is used in the sense of the quantity of energy released, not the size of the area affected by shaking, though higher-energy earthquakes do tend to affect a wider area, depending on the local geology.) In 1883, John Milne surmised that the shaking of large earthquakes might generate waves detectable around the globe, and in 1899 E. Von Rehbur Paschvitz observed in Germany seismic waves attributable to an earthquake in Tokyo.[19] In the 1920s, Harry O. Wood and John A. Anderson developed the Wood–Anderson seismograph, one of the first practical instruments for recording seismic waves.[20] Wood then built, under the auspices of the California Institute of Technology and the Carnegie Institute, a network of seismographs stretching across Southern California.[21] He also recruited the young and unknown Charles Richter to measure the seismograms and locate the earthquakes generating the seismic waves.[22]
+In 1931, Kiyoo Wadati showed how he had measured, for several strong earthquakes in Japan, the amplitude of the shaking observed at various distances from the epicenter. He then plotted the logarithm of the amplitude against the distance and found a series of curves that showed a rough correlation with the estimated magnitudes of the earthquakes.[23] Richter resolved some difficulties with this method[24] and then, using data collected by his colleague Beno Gutenberg, he produced similar curves, confirming that they could be used to compare the relative magnitudes of different earthquakes.[25]
+Additional developments were required produce a practical method of assigning an absolute measure of magnitude . First, to span the wide range of possible values, Richter adopted Gutenberg's suggestion of a logarithmic scale, where each step represents a tenfold increase of magnitude, similar to the magnitude scale used by astronomers for star brightness.[26] Second, he wanted a magnitude of zero to be around the limit of human perceptibility.[27] Third, he specified the Wood–Anderson seismograph as the standard instrument for producing seismograms. Magnitude was then defined as "the logarithm of the maximum trace amplitude, expressed in microns", measured at a distance of 100 km (62 mi). The scale was calibrated by defining a magnitude 0 shock as one that produces (at a distance of 100 km (62 mi)) a maximum amplitude of 1 micron (1 µm, or 0.001 millimeters) on a seismogram recorded by a Wood-Anderson torsion seismometer.[28] Finally, Richter calculated a table of distance corrections,[29] in that for distances less than 200 kilometers[30] the attenuation is strongly affected by the structure and properties of the regional geology.[31]
+When Richter presented the resulting scale in 1935, he called it (at the suggestion of Harry Wood) simply a "magnitude" scale.[32] "Richter magnitude" appears to have originated when Perry Byerly told the press that the scale was Richter's and "should be referred to as such."[33] In 1956, Gutenberg and Richter, while still referring to "magnitude scale", labelled it "local magnitude", with the symbol ML , to distinguish it from two other scales they had developed, the surface wave magnitude (MS) and body wave magnitude (MB) scales.[34]
+The Richter scale was defined in 1935 for particular circumstances and instruments; the particular circumstances refer to it being defined for Southern California and "implicitly incorporates the attenuative properties of Southern California crust and mantle."[35] The particular instrument used would become saturated by strong earthquakes and unable to record high values. The scale was replaced in the 1970s by the moment magnitude scale (MMS, symbol Mw ); for earthquakes adequately measured by the Richter scale, numerical values are approximately the same. Although values measured for earthquakes now are Mw , they are frequently reported by the press as Richter values, even for earthquakes of magnitude over 8, when the Richter scale becomes meaningless.
+The Richter and MMS scales measure the energy released by an earthquake; another scale, the Mercalli intensity scale, classifies earthquakes by their effects, from detectable by instruments but not noticeable, to catastrophic. The energy and effects are not necessarily strongly correlated; a shallow earthquake in a populated area with soil of certain types can be far more intense in effects than a much more energetic deep earthquake in an isolated area.
+Several scales have historically been described as the "Richter scale",[citation needed] especially the local magnitude ML  and the surface wave Ms  scale. In addition, the body wave magnitude, mb , and the moment magnitude, Mw , abbreviated MMS, have been widely used for decades. A couple of new techniques to measure magnitude are in the development stage by seismologists.
+All magnitude scales have been designed to give numerically similar results. This goal has been achieved well for ML , Ms , and Mw .[36][37] The mb  scale gives somewhat different values than the other scales. The reason for so many different ways to measure the same thing is that at different distances, for different hypocentral depths, and for different earthquake sizes, the amplitudes of different types of elastic waves must be measured.
+ML  is the scale used for the majority of earthquakes reported (tens of thousands) by local and regional seismological observatories. For large earthquakes worldwide, the moment magnitude scale (MMS) is most common, although Ms  is also reported frequently.
+The seismic moment, M0 , is proportional to the area of the rupture times the average slip that took place in the earthquake, thus it measures the physical size of the event. Mw  is derived from it empirically as a quantity without units, just a number designed to conform to the Ms  scale.[38] A spectral analysis is required to obtain M0 , whereas the other magnitudes are derived from a simple measurement of the amplitude of a specifically defined wave.
+All scales, except Mw , saturate for large earthquakes, meaning they are based on the amplitudes of waves which have a wavelength shorter than the rupture length of the earthquakes. These short waves (high frequency waves) are too short a yardstick to measure the extent of the event. The resulting effective upper limit of measurement for ML  is about 7 and about 8.5[39] for Ms .[40]
+New techniques to avoid the saturation problem and to measure magnitudes rapidly for very large earthquakes are being developed. One of these is based on the long-period P-wave;[41] the other is based on a recently discovered channel wave.[42]
+The energy release of an earthquake,[43] which closely correlates to its destructive power, scales with the 3⁄2 power of the shaking amplitude (see Moment magnitude scale for an explanation). Thus, a difference in magnitude of 1.0 is equivalent to a factor of 31.6 (
+
+
+
+=
+(
+
+
+10
+
+1.0
+
+
+
+
+)
+
+(
+3
+
+/
+
+2
+)
+
+
+
+
+{\displaystyle =({10^{1.0}})^{(3/2)}}
+
+) in the energy released; a difference in magnitude of 2.0 is equivalent to a factor of 1000 (
+
+
+
+=
+(
+
+
+10
+
+2.0
+
+
+
+
+)
+
+(
+3
+
+/
+
+2
+)
+
+
+
+
+{\displaystyle =({10^{2.0}})^{(3/2)}}
+
+) in the energy released.[44] The elastic energy radiated is best derived from an integration of the radiated spectrum, but an estimate can be based on mb  because most energy is carried by the high frequency waves.
+These formulae for Richter magnitude ML  are alternatives to using Richter correlation tables based on Richter standard seismic event (
+
+
+
+
+M
+
+
+L
+
+
+
+=
+0
+
+
+{\displaystyle M_{\mathrm {L} }=0}
+
+, 
+
+
+
+A
+=
+0.001
+
+m
+m
+
+
+
+{\displaystyle A=0.001\mathrm {mm} }
+
+, 
+
+
+
+D
+=
+100
+
+k
+m
+
+
+
+{\displaystyle D=100\mathrm {km} }
+
+). Below, 
+
+
+
+
+Δ
+
+
+
+{\displaystyle \textstyle \Delta }
+
+ is the epicentral distance (in kilometers unless otherwise specified).
+where 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is the amplitude (maximum ground displacement) of the P-wave, in micrometers, measured at 0.8 Hz.
+For distances 
+
+
+
+D
+
+
+{\displaystyle D}
+
+ less than 200 km,
+and for distances between 200 km and 600 km,
+where 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is seismograph signal amplitude in mm and 
+
+
+
+D
+
+
+{\displaystyle D}
+
+ is in km.
+where 
+
+
+
+τ
+
+
+{\displaystyle \tau }
+
+ is the duration of the surface wave in seconds, and 
+
+
+
+Δ
+
+
+{\displaystyle \Delta }
+
+ is in degrees. ML  is mainly between 5 and 8.
+where 
+
+
+
+F
+−
+P
+
+
+{\displaystyle F-P}
+
+ is the total duration of oscillation in seconds. ML  is mainly between 3 and 5.
+where 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is the amplitude in micrometers.
+
+

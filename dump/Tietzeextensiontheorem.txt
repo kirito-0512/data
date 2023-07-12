@@ -1,0 +1,619 @@
+31404,
+Tietzeextensiontheorem,
+In topology, the Tietze extension theorem (also known as the Tietze–Urysohn–Brouwer extension theorem or Urysohn-Brouwer lemma[1]) states that continuous functions on a closed subset of a normal topological space can be extended to the entire space, preserving boundedness if necessary.
+If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a normal space and
+
+
+
+
+f
+:
+A
+→
+
+R
+
+
+
+{\displaystyle f:A\to \mathbb {R} }
+
+
+is a continuous map from a closed subset 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ into the real numbers 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ carrying the standard topology, then there exists a continuous extension of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ to 
+
+
+
+X
+;
+
+
+{\displaystyle X;}
+
+ that is, there exists a map
+
+
+
+
+F
+:
+X
+→
+
+R
+
+
+
+{\displaystyle F:X\to \mathbb {R} }
+
+
+continuous on all of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ with 
+
+
+
+F
+(
+a
+)
+=
+f
+(
+a
+)
+
+
+{\displaystyle F(a)=f(a)}
+
+ for all 
+
+
+
+a
+∈
+A
+.
+
+
+{\displaystyle a\in A.}
+
+ Moreover, 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ may be chosen such that 
+
+
+
+
+sup
+{
+
+|
+
+f
+(
+a
+)
+
+|
+
+:
+a
+∈
+A
+}
+ 
+=
+ 
+sup
+{
+
+|
+
+F
+(
+x
+)
+
+|
+
+:
+x
+∈
+X
+}
+,
+
+
+{\displaystyle \sup\{|f(a)|:a\in A\}~=~\sup\{|F(x)|:x\in X\},}
+
+
+that is, if 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is bounded then 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ may be chosen to be bounded (with the same bound as 
+
+
+
+f
+
+
+{\displaystyle f}
+
+).
+L. E. J. Brouwer and Henri Lebesgue proved a special case of the theorem, when 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a finite-dimensional real vector space. Heinrich Tietze extended it to all metric spaces, and Pavel Urysohn proved the theorem as stated here, for normal topological spaces.[2][3]
+This theorem is equivalent to Urysohn's lemma (which is also equivalent to the normality of the space) and is widely applicable, since all metric spaces and all compact Hausdorff spaces are normal. It can be generalized by replacing 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ with 
+
+
+
+
+
+R
+
+
+J
+
+
+
+
+{\displaystyle \mathbb {R} ^{J}}
+
+ for some indexing set 
+
+
+
+J
+,
+
+
+{\displaystyle J,}
+
+ any retract of 
+
+
+
+
+
+R
+
+
+J
+
+
+,
+
+
+{\displaystyle \mathbb {R} ^{J},}
+
+ or any normal absolute retract whatsoever.
+If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a metric space, 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ a non-empty subset of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+f
+:
+A
+→
+
+R
+
+
+
+{\displaystyle f:A\to \mathbb {R} }
+
+ is a Lipschitz continuous function with Lipschitz constant 
+
+
+
+K
+,
+
+
+{\displaystyle K,}
+
+ then 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ can be extended to a Lipschitz continuous function 
+
+
+
+F
+:
+X
+→
+
+R
+
+
+
+{\displaystyle F:X\to \mathbb {R} }
+
+ with same constant 
+
+
+
+K
+.
+
+
+{\displaystyle K.}
+
+
+This theorem is also valid for Hölder continuous functions, that is, if 
+
+
+
+f
+:
+A
+→
+
+R
+
+
+
+{\displaystyle f:A\to \mathbb {R} }
+
+ is Hölder continuous function with constant less than or equal to 
+
+
+
+1
+,
+
+
+{\displaystyle 1,}
+
+ then 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ can be extended to a Hölder continuous function 
+
+
+
+F
+:
+X
+→
+
+R
+
+
+
+{\displaystyle F:X\to \mathbb {R} }
+
+ with the same constant.[4]
+Another variant (in fact, generalization) of Tietze's theorem is due to H.Tong and  Z. Ercan:[5]
+Let 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ be a closed subset of a normal topological space 
+
+
+
+X
+.
+
+
+{\displaystyle X.}
+
+ If 
+
+
+
+f
+:
+X
+→
+
+R
+
+
+
+{\displaystyle f:X\to \mathbb {R} }
+
+ is an upper semicontinuous function, 
+
+
+
+g
+:
+X
+→
+
+R
+
+
+
+{\displaystyle g:X\to \mathbb {R} }
+
+ a lower semicontinuous function, and 
+
+
+
+h
+:
+A
+→
+
+R
+
+
+
+{\displaystyle h:A\to \mathbb {R} }
+
+ a continuous function such that 
+
+
+
+f
+(
+x
+)
+≤
+g
+(
+x
+)
+
+
+{\displaystyle f(x)\leq g(x)}
+
+ for each 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ and 
+
+
+
+f
+(
+a
+)
+≤
+h
+(
+a
+)
+≤
+g
+(
+a
+)
+
+
+{\displaystyle f(a)\leq h(a)\leq g(a)}
+
+ for each 
+
+
+
+a
+∈
+A
+
+
+{\displaystyle a\in A}
+
+, then there is a continuous
+extension 
+
+
+
+H
+:
+X
+→
+
+R
+
+
+
+{\displaystyle H:X\to \mathbb {R} }
+
+ of 
+
+
+
+h
+
+
+{\displaystyle h}
+
+ such that 
+
+
+
+f
+(
+x
+)
+≤
+H
+(
+x
+)
+≤
+g
+(
+x
+)
+
+
+{\displaystyle f(x)\leq H(x)\leq g(x)}
+
+ for each 
+
+
+
+x
+∈
+X
+.
+
+
+{\displaystyle x\in X.}
+
+ 
+This theorem is also valid with some additional hypothesis if 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is replaced by a general locally solid Riesz space.[5]
+
+

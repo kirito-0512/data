@@ -1,0 +1,196 @@
+5916,
+Circumference,
+In geometry, the circumference (from Latin circumferens, meaning "carrying around") is the perimeter of a circle or ellipse.[1] That is, the circumference would be the arc length of the circle, as if it were opened up and straightened out to a line segment.[2] More generally, the perimeter is the curve length around any closed figure. 
+Circumference may also refer to the circle itself, that is, the locus corresponding to the edge of a disk. 
+The circumference of a sphere is the circumference, or length, of any one of its great circles.
+The circumference of a circle is the distance around it, but if, as in many elementary treatments, distance is defined in terms of straight lines, this cannot be used as a definition. Under these circumstances, the circumference of a circle may be defined as the limit of the perimeters of inscribed regular polygons as the number of sides increases without bound.[3] The term circumference is used when measuring physical objects, as well as when considering abstract geometric forms.
+The circumference of a circle is related to one of the most important mathematical constants. This constant, pi, is represented by the Greek letter 
+π
+.
+{\displaystyle \pi .}
+ The first few decimal digits of the numerical value of 
+π
+{\displaystyle \pi }
+ are 3.141592653589793 ...[4] Pi is defined as the ratio of a circle's circumference 
+C
+{\displaystyle C}
+ to its diameter 
+d
+:
+{\displaystyle d:}
+π
+=
+C
+d
+.
+{\displaystyle \pi ={\frac {C}{d}}.}
+Or, equivalently, as the ratio of the circumference to twice the radius. The above formula can be rearranged to solve for the circumference:
+C
+=
+π
+⋅
+d
+=
+2
+π
+⋅
+r
+.
+{\displaystyle {C}=\pi \cdot {d}=2\pi \cdot {r}.\!}
+The use of the mathematical constant π is ubiquitous in mathematics, engineering, and science.
+In Measurement of a Circle written circa 250 BCE, Archimedes showed that this ratio (
+C
+/
+d
+,
+{\displaystyle C/d,}
+ since he did not use the name π) was greater than 310/71 but less than 31/7 by calculating the perimeters of an inscribed and a circumscribed regular polygon of 96 sides.[5] This method for approximating π was used for centuries, obtaining more accuracy by using polygons of larger and larger number of sides. The last such calculation was performed in 1630 by Christoph Grienberger who used polygons with 1040 sides.
+Circumference is used by some authors to denote the perimeter of an ellipse. There is no general formula for the circumference of an ellipse in terms of the semi-major and semi-minor axes of the ellipse that uses only elementary functions. However, there are approximate formulas in terms of these parameters. One such approximation, due to Euler (1773), for the canonical ellipse, 
+x
+2
+a
+2
++
+y
+2
+b
+2
+=
+1
+,
+{\displaystyle {\frac {x^{2}}{a^{2}}}+{\frac {y^{2}}{b^{2}}}=1,}
+is 
+C
+e
+l
+l
+i
+p
+s
+e
+∼
+π
+2
+(
+a
+2
++
+b
+2
+)
+.
+{\displaystyle C_{\rm {ellipse}}\sim \pi {\sqrt {2\left(a^{2}+b^{2}\right)}}.}
+Some lower and upper bounds on the circumference of the canonical ellipse with 
+a
+≥
+b
+{\displaystyle a\geq b}
+ are:[6]
+2
+π
+b
+≤
+C
+≤
+2
+π
+a
+,
+{\displaystyle 2\pi b\leq C\leq 2\pi a,}
+π
+(
+a
++
+b
+)
+≤
+C
+≤
+4
+(
+a
++
+b
+)
+,
+{\displaystyle \pi (a+b)\leq C\leq 4(a+b),}
+4
+a
+2
++
+b
+2
+≤
+C
+≤
+π
+2
+(
+a
+2
++
+b
+2
+)
+.
+{\displaystyle 4{\sqrt {a^{2}+b^{2}}}\leq C\leq \pi {\sqrt {2\left(a^{2}+b^{2}\right)}}.}
+Here the upper bound 
+2
+π
+a
+{\displaystyle 2\pi a}
+ is the circumference of a circumscribed concentric circle passing through the endpoints of the ellipse's major axis, and the lower bound 
+4
+a
+2
++
+b
+2
+{\displaystyle 4{\sqrt {a^{2}+b^{2}}}}
+ is the perimeter of an inscribed rhombus with vertices at the endpoints of the major and minor axes.
+The circumference of an ellipse can be expressed exactly in terms of the complete elliptic integral of the second kind.[7] More precisely,
+C
+e
+l
+l
+i
+p
+s
+e
+=
+4
+a
+∫
+0
+π
+/
+2
+1
+−
+e
+2
+sin
+2
+⁡
+θ
+ 
+d
+θ
+,
+{\displaystyle C_{\rm {ellipse}}=4a\int _{0}^{\pi /2}{\sqrt {1-e^{2}\sin ^{2}\theta }}\ d\theta ,}
+where 
+a
+{\displaystyle a}
+ is the length of the semi-major axis and 
+e
+{\displaystyle e}
+ is the eccentricity 
+1
+−
+b
+2
+/
+a
+2
+.
+{\displaystyle {\sqrt {1-b^{2}/a^{2}}}.}

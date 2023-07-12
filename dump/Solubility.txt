@@ -1,0 +1,239 @@
+37730,
+Solubility,
+
+In chemistry, solubility is the ability of a substance, the solute, to form a solution with another substance, the solvent. Insolubility is the opposite property, the inability of the solute to form such a solution.
+The extent of the solubility of a substance in a specific solvent is generally measured as the concentration of the solute in a saturated solution, one in which no more solute can be dissolved.[1] At this point, the two substances are said to be at the solubility equilibrium.  For some solutes and solvents, there may be no such limit, in which case the two substances are said to be "miscible in all proportions" (or just "miscible").[2]
+The solute can be a solid, a liquid, or a gas, while the solvent is usually solid or liquid.  Both may be pure substances, or may themselves be solutions. Gases are always miscible in all proportions, except in very extreme situations,[3] and a solid or liquid can be "dissolved" in a gas only by passing into the gaseous state first. 
+The solubility mainly depends on the composition of solute and solvent (including their pH and the presence of other dissolved substances) as well as on temperature and pressure.  The dependency can often be explained in terms of interactions between the particles (atoms, molecules, or ions) of the two substances, and of thermodynamic concepts such as enthalpy and entropy.
+Under certain conditions, the concentration of the solute can exceed its usual solubility limit. The result is a supersaturated solution, which is metastable and will rapidly exclude the excess solute if a suitable nucleation site appears.[4]
+The concept of solubility does not apply when there is an irreversible chemical reaction between the two substances, such as the reaction of calcium hydroxide with hydrochloric acid; even though one might say, informally, that one "dissolved" the other. The solubility is also not the same as the rate of solution, which is how fast a solid solute dissolves in a liquid solvent. This property depends on many other variables, such as the physical form of the two substances and the manner and intensity of mixing.
+The concept and measure of solubility are extremely important in many sciences besides chemistry, such as geology, biology, physics, and oceanography, as well as in engineering, medicine, agriculture, and even in non-technical activities like painting, cleaning, cooking, and brewing.  Most chemical reactions of scientific, industrial, or practical interest only happen after the reagents have been dissolved in a suitable solvent. Water is by far the most common such solvent.
+The term "soluble" is sometimes used for materials that can form colloidal suspensions of very fine solid particles in a liquid.[5]  The quantitative solubility of such substances is generally not well-defined, however.
+The solubility of a specific solute in a specific solvent is generally expressed as the concentration of a saturated solution of the two.[1]  Any of the several ways of expressing concentration of solutions can be used, such as the mass, volume, or amount in moles of the solute for a specific mass, volume, or mole amount of the solvent or of the solution.
+In particular, chemical handbooks often express the solubility as grams of solute per 100 millilitres of solvent (g/(100 mL)), or as grams of solute per decilitre of solvent (g/dL); or, less commonly, as grams of solute per litre of solvent (g/L).  The quantity of solvent can instead be expressed in mass, as grams of solute per 100 grams of solvent (g/(100 g)), or as grams of solute per kilogram of solvent (g/kg). The number may be expressed as a percentage in this case, and the abbreviation "w/w" may be used to indicate "weight per weight".[6] (The values in g/L and g/kg are similar for water, but that may not be the case for other solvents.)
+Alternatively, the solubility of a solute can be expressed in moles instead of mass. For example, if the quantity of solvent is given in kilograms, the value is the molality of the solution (mol/kg).
+The solubility of a substance in a liquid may also be expressed as the quantity of solute per quantity of solution, rather than of solvent. For example, following the common practice in titration, it may be expressed as moles of solute per litre of solution (mol/L), the molarity of the latter. 
+In more specialized contexts the solubility may be given by the mole fraction (moles of solute per total moles of solute plus solvent) or by the mass fraction at equilibrium (mass of solute per mass of solute plus solvent). Both are dimensionless numbers between 0 and 1 which may be expressed as percentages (%).
+For solutions of liquids or gases in liquids, the quantities of both substances may be given volume rather than mass or mole amount; such as litre of solute per litre of solvent, or litre of solute per litre of solution.  The value may be given as a percentage, and the abbreviation "v/v" for "volume per volume" may be used to indicate this choice.
+Conversion between these various ways of measuring solubility may not be trivial, since it may require knowing the density of the solution — which is often not measured, and cannot be predicted.  While the total mass is conserved by dissolution, the final volume may be different from both the volume of the solvent and the sum of the two volumes.[7]
+Moreover, many solids (such as acids and salts) will dissociate in non-trivial ways when dissolved; conversely, the solvent may form coordination complexes with the molecules or ions of the solute.  In those cases, the sum of the moles of molecules of solute and solvent is not really the total moles of independent particles solution. To sidestep that problem, the solubility per mole of solution is usually computed and quoted as if the solute does not dissociate or form complexes -- that is, by pretending that the mole amount of solution is the sum of the mole amounts of the two substances.
+The extent of solubility ranges widely, from infinitely soluble (without limit, i. e. miscible[2]) such as ethanol in water, to essentially insoluble, such as titanium dioxide in water. A number of other descriptive terms are also used to qualify the extent of solubility for a given application. For example, U.S. Pharmacopoeia gives the following terms, according to the mass msv of solvent required to dissolve one unit of mass msu of solute:[8] (The solubilities of the examples are approximate, for water at 20-25 °C.)
+The thresholds to describe something as insoluble, or similar terms, may depend on the application. For example, one source states that substances are described as "insoluble" when their solubility is less than 0.1 g per 100 mL of solvent.[9]
+Solubility occurs under dynamic equilibrium, which means that solubility results from the simultaneous and opposing processes of dissolution and phase joining (e.g. precipitation of solids). The solubility equilibrium occurs when the two processes proceed at equal and opposite rates.
+The term solubility is also used in some fields where the solute is altered by solvolysis.  For example, many metals and their oxides are said to be "soluble in hydrochloric acid", although in fact the aqueous acid irreversibly degrades the solid to give soluble products. It is also true that most ionic solids are dissolved by polar solvents, but such processes are reversible.  In those cases where the solute is not recovered upon evaporation of the solvent, the process is referred to as solvolysis. The thermodynamic concept of solubility does not apply straightforwardly to solvolysis.
+When a solute dissolves, it may form several species in the solution. For example, an aqueous suspension of ferrous hydroxide, Fe(OH)2, will contain the series [Fe(H2O)x(OH)x](2x)+ as well as other species.  Furthermore, the solubility of ferrous hydroxide and the composition of its soluble components depend on pH. In general, solubility in the solvent phase can be given only for a specific solute that is thermodynamically stable, and the value of the solubility will include all the species in the solution (in the example above, all the iron-containing complexes).
+Solubility is defined for specific phases. For example, the solubility of aragonite and calcite in water are expected to differ, even though they are both polymorphs of calcium carbonate and have the same chemical formula.
+The solubility of one substance in another is determined by the balance of intermolecular forces between the solvent and solute, and the entropy change that accompanies the solvation. Factors such as temperature and pressure will alter this balance, thus changing the solubility.
+Solubility may also strongly depend on the presence of other species dissolved in the solvent, for example, complex-forming anions (ligands) in liquids. Solubility will also depend on the excess or deficiency of a common ion in the solution, a phenomenon known as the common-ion effect. To a lesser extent, solubility will depend on the ionic strength of solutions. The last two effects can be quantified using the equation for solubility equilibrium.
+For a solid that dissolves in a redox reaction, solubility is expected to depend on the potential (within the range of potentials under which the solid remains the thermodynamically stable phase). For example, solubility of gold in high-temperature water is observed to be almost an order of magnitude higher (i.e. about ten times higher) when the redox potential is controlled using a highly oxidizing Fe3O4-Fe2O3 redox buffer than with a moderately oxidizing Ni-NiO buffer.[10]
+Solubility (metastable, at concentrations approaching saturation) also depends on the physical size of the crystal or droplet of solute (or, strictly speaking, on the specific surface area or molar surface area of the solute).[11] For quantification, see the equation in the article on solubility equilibrium. For highly defective crystals, solubility may increase with the increasing degree of disorder. Both of these effects occur because of the dependence of solubility constant on the Gibbs energy of the crystal. The last two effects, although often difficult to measure, are of practical importance.[citation needed]  For example, they provide the driving force for precipitate aging (the crystal size spontaneously increasing with time).
+The solubility of a given solute in a given solvent is function of temperature. Depending on the change in enthalpy (ΔH) of the dissolution reaction, i.e., on the endothermic (ΔH > 0) or exothermic (ΔH < 0) character of the dissolution reaction, the solubility of a given compound may increase or decrease with temperature. The van 't Hoff equation relates the change of solubility equilibrium constant (Ksp) to temperature change and to reaction enthalpy change. For most solids and liquids, their solubility increases with temperature because their dissolution reaction is endothermic (ΔH > 0).[12]  In liquid water at high temperatures, (e.g. that approaching the critical temperature), the solubility of ionic solutes tends to decrease due to the change of properties and structure of liquid water; the lower dielectric constant results in a less polar solvent and in a change of hydration energy affecting the ΔG of the dissolution reaction.
+Gaseous solutes exhibit more complex behavior with temperature. As the temperature is raised, gases usually become less soluble in water (exothermic dissolution reaction related to their hydration) (to a minimum, which is below 120 °C for most permanent gases[13]), but more soluble in organic solvents (endothermic dissolution reaction related to their solvation).[12]
+The chart shows solubility curves for some typical solid inorganic salts in liquid water (temperature is in degrees Celsius, i.e. kelvins minus 273.15).[14] Many salts behave like barium nitrate and disodium hydrogen arsenate, and show a large increase in solubility with temperature (ΔH > 0). Some solutes (e.g. sodium chloride in water) exhibit solubility that is fairly independent of temperature (ΔH ≈ 0). A few, such as calcium sulfate (gypsum) and cerium(III) sulfate, become less soluble in water as temperature increases (ΔH < 0).[15] This is also the case for calcium hydroxide (portlandite), whose solubility at 70 °C is about half of its value at 25 °C. The dissolution of calcium hydroxide in water is also an exothermic process (ΔH < 0) and obeys the van 't Hoff equation and Le Chatelier's principle. A lowering of temperature favors the removal of dissolution heat from the system and thus favors dissolution of Ca(OH)2: so portlandite solubility increases at low temperature. This temperature dependence is sometimes referred to as "retrograde" or "inverse" solubility. Occasionally, a more complex pattern is observed, as with sodium sulfate, where the less soluble decahydrate crystal (mirabilite) loses water of crystallization at 32 °C to form a more soluble anhydrous phase (thenardite) with a smaller change in Gibbs free energy (ΔG) in the dissolution reaction.[citation needed]
+The solubility of organic compounds nearly always increases with temperature. The technique of recrystallization, used for purification of solids, depends on a solute's different solubilities in hot and cold solvent. A few exceptions exist, such as certain cyclodextrins.[16]
+For condensed phases (solids and liquids), the pressure dependence of solubility is typically weak and usually neglected in practice. Assuming an ideal solution, the dependence can be quantified as:
+where the index 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ iterates the components, 
+
+
+
+
+N
+
+i
+
+
+
+
+{\displaystyle N_{i}}
+
+ is the mole fraction of the 
+
+
+
+i
+
+
+{\displaystyle i}
+
+-th component in the solution, 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is the pressure, the index 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ refers to constant temperature, 
+
+
+
+
+V
+
+i
+,
+a
+q
+
+
+
+
+{\displaystyle V_{i,aq}}
+
+ is the partial molar volume of the 
+
+
+
+i
+
+
+{\displaystyle i}
+
+-th component in the solution, 
+
+
+
+
+V
+
+i
+,
+c
+r
+
+
+
+
+{\displaystyle V_{i,cr}}
+
+ is the partial molar volume of the 
+
+
+
+i
+
+
+{\displaystyle i}
+
+-th component in the dissolving solid, and 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is the universal gas constant.[17]
+The pressure dependence of solubility does occasionally have practical significance. For example, precipitation fouling of oil fields and wells by calcium sulfate (which decreases its solubility with decreasing pressure) can result in decreased productivity with time.
+Henry's law is used to quantify the solubility of gases in solvents.  The solubility of a gas in a solvent is directly proportional to the partial pressure of that gas above the solvent. This relationship is similar to Raoult's law and can be written as:
+where 
+
+
+
+
+k
+
+
+H
+
+
+
+
+
+{\displaystyle k_{\rm {H}}}
+
+ is a temperature-dependent constant (for example, 769.2 L·atm/mol for dioxygen (O2) in water at 298 K), 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is the partial pressure (in atm), and 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ is the concentration of the dissolved gas in the liquid (in mol/L).
+The solubility of gases is sometimes also quantified using Bunsen solubility coefficient.
+In the presence of small bubbles, the solubility of the gas does not depend on the bubble radius in any other way than through the effect of the radius on pressure (i.e. the solubility of gas in the liquid in contact with small bubbles is increased due to pressure increase by Δp = 2γ/r; see Young–Laplace equation).[18]
+Henry's law is valid for gases that do not undergo change of chemical speciation on dissolution. Sieverts' law shows a case when this assumption does not hold.
+The carbon dioxide solubility in seawater is also affected by temperature, pH of the solution, and by the carbonate buffer. The decrease of solubility of carbon dioxide in seawater when temperature increases is also an important retroaction factor (positive feedback) exacerbating past and future climate changes as observed in ice cores from the Vostok site in Antarctica. At the geological time scale, because of the Milankovich cycles, when the astronomical parameters of the Earth orbit and its rotation axis progressively change and modify the solar irradiance at the Earth surface, temperature starts to increase. When a deglaciation period is initiated, the progressive warming of the oceans releases CO2 into the atmosphere because of its lower solubility in warmer sea water. In turn, higher levels of CO2 in the atmosphere increase the greenhouse effect and carbon dioxide acts as an amplifier of the general warming.
+A popular aphorism used for predicting solubility is "like dissolves like" also expressed in the Latin language as "Similia similibus solventur".[19] This statement indicates that a solute will dissolve best in a solvent that has a similar chemical structure to itself, based on favorable entropy of mixing. This view is simplistic, but it is a useful rule of thumb. The overall solvation capacity of a solvent depends primarily on its polarity.[a] For example, a very polar (hydrophilic) solute such as urea is very soluble in highly polar water, less soluble in fairly polar methanol, and practically insoluble in non-polar solvents such as benzene. In contrast, a non-polar or lipophilic solute such as naphthalene is insoluble in water, fairly soluble in methanol, and highly soluble in non-polar benzene.[20]
+In even more simple terms a simple ionic compound (with positive and negative ions) such as sodium chloride (common salt) is easily soluble in a highly polar solvent (with some separation of positive (δ+) and negative (δ-) charges in the covalent molecule) such as water, as thus the sea is salty as it accumulates dissolved salts since early geological ages.
+The solubility is favored by entropy of mixing (ΔS) and depends on enthalpy of dissolution (ΔH) and the hydrophobic effect. The free energy of dissolution (Gibbs energy) depends on temperature and is given by the relationship: ΔG = ΔH – TΔS. Smaller ΔG means greater solubility. 
+Chemists often exploit differences in solubilities to separate and purify compounds from reaction mixtures, using the technique of liquid-liquid extraction. This applies in vast areas of chemistry from drug synthesis to spent nuclear fuel reprocessing.
+Dissolution is not an instantaneous process. The rate of solubilization (in kg/s) is related to the solubility product and the surface area of the material.  The speed at which a solid dissolves may depend on its crystallinity or lack thereof in the case of amorphous solids and the surface area (crystallite size) and the presence of polymorphism. Many practical systems illustrate this effect, for example in designing methods for controlled drug delivery. In some cases, solubility equilibria can take a long time to establish (hours, days, months, or many years; depending on the nature of the solute and other factors).
+The rate of dissolution can be often expressed by the Noyes–Whitney equation or the Nernst and Brunner equation[21] of the form:
+where:
+For dissolution limited by diffusion (or mass transfer if mixing is present), 
+
+
+
+
+C
+
+s
+
+
+
+
+{\displaystyle C_{s}}
+
+ is equal to the solubility of the substance. When the dissolution rate of a pure substance is normalized to the surface area of the solid (which usually changes with time during the dissolution process), then it is expressed in kg/m2s and referred to as "intrinsic dissolution rate". The intrinsic dissolution rate is defined by the United States Pharmacopeia.
+Dissolution rates vary by orders of magnitude between different systems. Typically, very low dissolution rates parallel low solubilities, and substances with high solubilities exhibit high dissolution rates, as suggested by the Noyes-Whitney equation.
+Solubility constants are used to describe saturated solutions of ionic compounds  of relatively low solubility (see solubility equilibrium). The solubility constant is a special case of an equilibrium constant. Since it is a product of ion concentrations in equilibrium, it is also known as the solubility product. It describes the balance between dissolved ions from the salt and undissolved salt. The solubility constant is also "applicable" (i.e. useful) to precipitation, the reverse of the dissolving reaction. As with other equilibrium constants, temperature can affect the numerical value of solubility constant. While the solubility constant is not as simple as solubility, the value of this constant is generally independent of the presence of other species in the solvent.
+The Flory–Huggins solution theory is a theoretical model describing the solubility of polymers. The Hansen solubility parameters and the Hildebrand solubility parameters are empirical methods for the prediction of solubility. It is also possible to predict solubility from other physical constants such as the enthalpy of fusion.
+The octanol-water partition coefficient, usually expressed as its logarithm (Log P), is a measure of differential solubility of a compound in a hydrophobic solvent (1-octanol) and a hydrophilic solvent (water). The logarithm of these two values enables compounds to be ranked in terms of hydrophilicity (or hydrophobicity).
+The energy change associated with dissolving is usually given per mole of solute as the enthalpy of solution.
+Solubility is of fundamental importance in a large number of scientific disciplines and practical applications, ranging from ore processing and nuclear reprocessing to the use of medicines, and the transport of pollutants.
+Solubility is often said to be one of the "characteristic properties of a substance", which means that solubility is commonly used to describe the substance, to indicate a substance's polarity, to help to distinguish it from other substances, and as a guide to applications of the substance. For example, indigo is described as "insoluble in water, alcohol, or ether but soluble in chloroform, nitrobenzene, or concentrated sulfuric acid".[22]
+Solubility of a substance is useful when separating mixtures. For example, a mixture of salt (sodium chloride) and silica may be separated by dissolving the salt in water, and filtering off the undissolved silica. The synthesis of chemical compounds, by the milligram in a laboratory, or by the ton in industry, both make use of the relative solubilities of the desired product, as well as unreacted starting materials, byproducts, and side products to achieve separation.
+Another example of this is the synthesis of benzoic acid from phenylmagnesium bromide and dry ice. Benzoic acid is more soluble in an organic solvent such as dichloromethane or diethyl ether, and when shaken with this organic solvent in a separatory funnel, will preferentially dissolve in the organic layer. The other reaction products, including the magnesium bromide, will remain in the aqueous layer, clearly showing that separation based on solubility is achieved. This process, known as liquid–liquid extraction, is an important technique in synthetic chemistry. Recycling is used to ensure maximum extraction.
+In flowing systems, differences in solubility often determine the dissolution-precipitation driven transport of species. This happens when different parts of the system experience different conditions. Even slightly different conditions can result in significant effects, given sufficient time.
+For example, relatively low solubility compounds are found to be soluble in more extreme environments, resulting in geochemical and geological effects of the activity of hydrothermal fluids in the Earth's crust. These are often the source of high quality economic mineral deposits and precious or semi-precious gems. In the same way, compounds with low solubility will dissolve over extended time (geological time), resulting in significant effects such as extensive cave systems or Karstic land surfaces.
+Some ionic compounds (salts) dissolve in water, which arises because of the attraction between positive and negative charges (see: solvation).  For example, the salt's positive ions (e.g. Ag+) attract the partially negative oxygen atom in H2O.  Likewise, the salt's negative ions (e.g. Cl−) attract the partially positive hydrogens in H2O. Note: the oxygen atom is partially negative because it is more electronegative than hydrogen, and vice versa (see: chemical polarity).
+However, there is a limit to how much salt can be dissolved in a given volume of water. This concentration is the solubility and related to the solubility product, Ksp. This equilibrium constant depends on the type of salt (AgCl vs. NaCl, for example), temperature, and the common ion effect.
+One can calculate the amount of AgCl that will dissolve in 1 liter of pure water as follows:
+[Ag+] = [Cl−], in the absence of other silver or chloride salts, so
+The result: 1 liter of water can dissolve 1.34 × 10−5 moles of AgCl at room temperature.  Compared with other salts, AgCl is poorly soluble in water. For instance, table salt (NaCl) has a much higher Ksp = 36 and is, therefore, more soluble. The following table gives an overview of solubility rules for various ionic compounds.
+The principle outlined above under polarity, that like dissolves like, is the usual guide to solubility with organic systems. For example, petroleum jelly will dissolve in gasoline because both petroleum jelly and gasoline are non-polar hydrocarbons. It will not, on the other hand, dissolve in ethyl alcohol or water, since the polarity of these solvents is too high. Sugar will not dissolve in gasoline, since sugar is too polar in comparison with gasoline. A mixture of gasoline and sugar can therefore be separated by filtration or extraction with water.
+This term is often used in the field of metallurgy to refer to the extent that an alloying element will dissolve into the base metal without forming a separate phase. The solvus or solubility line (or curve) is the line (or lines) on a phase diagram that give the limits of solute addition. That is, the lines show the maximum amount of a component that can be added to another component and still be in solid solution.  In the solid's crystalline structure, the 'solute' element can either take the place of the matrix within the lattice (a substitutional position; for example, chromium in iron) or take a place in a space between the lattice points (an interstitial position; for example, carbon in iron).
+In microelectronic fabrication, solid solubility refers to the maximum concentration of impurities one can place into the substrate.
+In solid compounds (as opposed to elements), the solubility of a solute element can also depend on the phases separating out in equilibrium. For example, amount of Sn soluble in the ZnSb phase can depend significantly on whether the phases separating out in equilibrium are (Zn4Sb3+Sn(L)) or (ZnSnSb2+Sn(L))[24]. Besides these, the ZnSb compound with Sn as a solute can separate out into other combinations of phases after the solubility limit is reached depending on the initial chemical composition during synthesis. Each combination produces a different solubility of Sn in ZnSb. Hence solubility studies in compounds, concluded upon the first instance of observing secondary phases separating out might underestimate solubility.[25] While the maximum number of phases separating out at once in equilibrium can be determined by the Gibb's phase rule, for chemical compounds there is no limit on the number of such phase separating combinations itself. Hence, establishing the "maximum solubility" in solid compounds experimentally can be difficult, requiring equilibration of many samples. If the dominant crystallographic defect (mostly interstitial or substitutional point defects) involved in the solid-solution can be chemically intuited beforehand, then using some simple thermodynamic guidelines can considerably reduce the number of samples required to establish maximum solubility. [26]
+Many substances dissolve congruently (i.e. the composition of the solid and the dissolved solute stoichiometrically match). However, some substances may dissolve incongruently, whereby the composition of the solute in solution does not match that of the solid. This solubilization is accompanied by alteration of the "primary solid" and possibly formation of a secondary solid phase. However, in general, some primary solid also remains and a complex solubility equilibrium establishes. For example, dissolution of albite may result in formation of gibbsite.[27]
+In this case, the solubility of albite is expected to depend on the solid-to-solvent ratio. This kind of solubility is of great importance in geology, where it results in formation of metamorphic rocks.
+In principle, both congruent and incongruent dissolution can lead to the formation of secondary solid phases in equilibrium. So, in the field of Materials Science, the solubility for both cases is described more generally on chemical composition phase diagrams.
+Solubility is a property of interest in many aspects of science, including but not limited to: environmental predictions, biochemistry, pharmacy, drug-design, agrochemical design, and protein ligand binding. Aqueous solubility is of fundamental interest owing to the vital biological and transportation functions played by water.[28][29][30] In addition, to this clear scientific interest in water solubility and solvent effects; accurate predictions of solubility are important industrially. The ability to accurately predict a molecule's solubility represents potentially large financial savings in many chemical product development processes, such as pharmaceuticals.[31] In the pharmaceutical industry, solubility predictions form part of the early stage lead optimisation process of drug candidates. Solubility remains a concern all the way to formulation.[31] A number of methods have been applied to such predictions including quantitative structure–activity relationships (QSAR), quantitative structure–property relationships (QSPR) and data mining. These models provide efficient predictions of solubility and represent the current standard. The draw back such models is that they can lack physical insight. A method founded in physical theory, capable of achieving similar levels of accuracy at an sensible cost, would be a powerful tool scientifically and industrially.[32][33][34][35]
+Methods founded in physical theory tend to use thermodynamic cycles, a concept from classical thermodynamics. The two common thermodynamic cycles used involve either the calculation of the free energy of sublimation (solid to gas without going through a liquid state) and the free energy of solvating a gaseous molecule (gas to solution), or the free energy of fusion (solid to a molten phase) and the free energy of mixing (molten to solution). These two process are represented in the following diagrams.
+These cycles have been used for attempts at first principles predictions (solving using the fundamental physical equations) using physically motivated solvent models,[33] to create parametric equations and QSPR models[36][34] and combinations of the two.[34] The use of these cycles enables the calculation of the solvation free energy indirectly via either gas (in the sublimation cycle) or a melt (fusion cycle). This is helpful as calculating the free energy of solvation directly is extremely difficult. The free energy of solvation can be converted to a solubility value using various formulae, the most general case being shown below, where the numerator is the free energy of solvation, R is the gas constant and T is the temperature in kelvins.[33]
+Well known fitted equations for solubility prediction are the general solubility equations. These equations stem from the work of Yalkowsky et al.[37][38] The original formula is given first, followed by a revised formula which takes a different assumption of complete miscibility in octanol.[38]
+These equations are founded on the principles of the fusion cycle.
+
+

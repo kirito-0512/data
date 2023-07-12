@@ -1,0 +1,30 @@
+6627,
+CommonDesktopEnvironment,
+The Common Desktop Environment (CDE) is a desktop environment for Unix and OpenVMS, based on the Motif widget toolkit. It was part of the UNIX 98 Workstation Product Standard,[3] and was for a long time the Unix desktop associated with commercial Unix workstations. It helped to influence early implementations of successor projects such as KDE and GNOME desktop environment, which largely replaced CDE following the turn of the century.
+After a long history as proprietary software, CDE was released as free software on August 6, 2012, under the GNU Lesser General Public License, version 2.0 or later.[4] Since its release as free software, CDE has been ported to Linux and BSD derivatives.
+Hewlett-Packard, IBM, SunSoft, and USL announced CDE in June 1993 as a joint development within the Common Open Software Environment (COSE) initiative. Each development group contributed its own technology to CDE:[5]
+After its release, HP endorsed CDE as the new standard desktop for Unix, and provided documentation and software for migrating HP VUE customizations to CDE.[6]
+In March 1994 CDE became the responsibility of the "new OSF", a merger of the Open Software Foundation and Unix International;[7]
+in September 1995, the merger of Motif and CDE into a single project, CDE/Motif, was announced.[8] OSF became part of the newly formed Open Group in 1996.[9]
+In February 1997, the Open Group released their last major version of CDE, version 2.1.[10]
+Red Hat Linux was the only Linux distribution that proprietary CDE was ported to. In 1997, Red Hat began offering a version of CDE licensed from TriTeal Corporation. In 1998, Xi Graphics, a company specializing in the X Windowing System, offered a version of CDE bundled with Red Hat Linux, called Xi Graphics maXimum cde/OS. These were phased out, and Red Hat moved to the GNOME desktop.
+Until about 2000, users of Unix desktops regarded CDE as the de facto standard, but at that time, other desktop environments such as GNOME and K Desktop Environment 2 were quickly becoming mature, and became widespread on Linux systems.
+In 2001, Sun Microsystems announced that they would phase out CDE as the standard desktop environment in Solaris in favor of GNOME. Solaris 10, released in early 2005, includes both CDE and the GNOME-based Java Desktop System. The OpenSolaris project, begun around the same time, did not include CDE, and had no intent to make Solaris CDE available as open-source.[11] The original release of Solaris 11 in November 2011 only contained GNOME as standard desktop, though some CDE libraries, such as Motif and ToolTalk, remained for binary compatibility but Oracle Solaris 11.4, released in August 2018, removed support for the CDE runtime environment and background services.[12]
+From its launch until 2012, CDE was proprietary software.
+Motif, the toolkit on which CDE is built, was released by The Open Group in 2000 as "Open Motif," under a "revenue sharing" license. That license did not meet either the open source or free software definitions. The Open Group had wished to make Motif open source, but did not succeed doing so at that time.[19]
+In 2006, a petition was created asking The Open Group to release the source code for CDE and Motif under a free license.[20] On August 6, 2012, CDE was released under the LGPL-2.0-or-later license.[4][21] The CDE source code was then released to SourceForge.
+The free software project OpenCDE had been started in 2010 to reproduce the look and feel, organization, and feature set of CDE.[22] In August 2012, when CDE was released as free software, OpenCDE was officially deprecated in favor of CDE.[23]
+On October 23, 2012, the Motif widget toolkit was also released under the LGPL-2.1-or-later license.[24] This allowed CDE to become a completely free and open source desktop environment.
+Shortly after CDE was released as free software, a Linux live CD was created based on Debian 6 with CDE 2.2.0c pre-installed, called CDEbian.[25] The live CD has since been discontinued.
+The Debian-based Linux distribution SparkyLinux[26] offers binary packages of CDE that can be installed with APT. As of March 2023, CDE is also included in the NuTyX GNU/Linux distribution which offers an ISO download image with it,[27] in FreeBSD[28] and in source form in pkgsrc[29] which is the default package manager of NetBSD.
+In March 2014, the first stable release of CDE, version 2.2.1, was made since its release as free software.[30]
+Beginning with version 2.2.2, released in July 2014, CDE is able to compile under FreeBSD 10 with the default Clang compiler.[31]
+Since version 2.3.0, released in July 2018, CDE uses TIRPC on Linux, so that the portmapper rpcbind does not need to be run in insecure mode. It does not use Xprint anymore, and can be compiled on the BSDs without installing first a custom version of Motif. Multihead display support with Xinerama has been improved.
+Since its release as free software, CDE has been ported to:[32]
+Future project goals of the CDE project include:
+CDE File manager
+Reading Linux kernel man pages in CDE
+HP 9000 C360 displaying the CDE login manager, dtlogin
+HP 9000 model B180L running HP-UX and CDE
+Information box
+{'Original author(s)': 'The Open Group', 'Developer(s)': 'CDE Project (modern)', 'Initial release': 'June 1993; 30 years ago', 'Stable release': '2.5.1[1]  / 1 October 2022', 'Repository': 'sf.net/p/cdesktopenv/code/ci/master/tree/', 'Written in': 'C, C++', 'Operating system': 'Unix, Unix-like, OpenVMS', 'Size': '58.8 MB (source code)[2]', 'Available in': 'English, Chinese, French, German, Greek, Japanese, Italian, Korean, Spanish, Swedish', 'Type': 'Desktop environment', 'License': '2012: LGPL-2.0-or-later\nOriginal: Proprietary', 'Website': 'sourceforge.net/projects/cdesktopenv/'}

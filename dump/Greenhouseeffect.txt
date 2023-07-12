@@ -1,0 +1,333 @@
+12395,
+Greenhouseeffect,
+
+The greenhouse effect occurs when greenhouse gases in a planet's atmosphere cause some of the heat radiated from the planet's surface to build up at the planet's surface. This process happens because stars emit shortwave radiation that passes through greenhouse gases, but planets emit longwave radiation that is partly absorbed by greenhouse gases. That difference reduces the rate at which a planet can cool off in response to being warmed by its host star. Adding to greenhouse gases further reduces the rate a planet emits radiation to space, raising its average surface temperature.
+The Earth's average surface temperature would be about −18 °C (−0.4 °F) without the greenhouse effect,[1][2] compared to Earth's 20th century average of about 14 °C (57 °F), or a more recent average of about 15 °C (59 °F).[3][4] In addition to naturally present greenhouse gases, 
+burning of fossil fuels has increased amounts of carbon dioxide and methane in the atmosphere.[5][6] As a result, global warming of about 1.2 °C (2.2 °F) has occurred since the industrial revolution,[7] accelerating to a rate of 0.18 °C (0.32 °F) per decade more recently.[8]
+Wavelengths of radiation emitted by the Sun and Earth differ because their surface temperatures are different. The Sun is about 5,500 °C (9,900 °F), so it emits most of its energy as shortwave radiation in near infrared and visible wavelengths (as sunlight). The Earth's surface temperatures are much lower, so it emits longwave radiation at far infrared wavelengths (also sometimes called thermal radiation or radiated heat).[6] The wavelengths of radiation that an atmospheric gas absorbs can be measured, with greenhouse gases absorbing more longwave radiation than shortwave radiation.
+The term greenhouse effect comes from an analogy to greenhouses which become warmer in sunlight. Greenhouse effect is actually a misnomer since heating in the usual greenhouse is due to the reduction of convection,[9][10] while the greenhouse effect works by preventing absorbed heat from leaving a planet through radiative transfer.[5]
+A greenhouse is not primarily warmed by the greenhouse effect.[11]
+Both greenhouses and the greenhouse effect work by retaining heat from sunlight, but the way they do so differs. Generally, heat may be transferred into and through the air by radiation, conduction, and convection. Greenhouses mainly retain heat by blocking convection (the movement of air).[12][13] In contrast, the greenhouse effect retains heat by restricting the flow of longwave radiation through the air and into space.
+Matter emits thermal radiation in an amount that is directly proportional to the fourth power of its temperature. Some of the radiation emitted by the Earth's surface is absorbed by greenhouse gases and clouds. Without this absorption, Earth’s surface would have an average temperature of −18 °C (−0.4 °F). However, because some of the radiation is absorbed, Earth’s average surface temperature is around 15 °C (59 °F). Thus, the Earth’s greenhouse effect may be measured as a temperature change of 33 °C (59 °F).
+Thermal radiation is characterized by how much energy it carries, typically in watts per square meter (W/m2). Scientists also measure the greenhouse effect based on how much more radiation leaves the Earth's surface than reaches space.[14]: 968 [14]: 934 [15][16][17] Currently, radiation leaves the surface at an average rate of 398 W/m2, but only 239 W/m2 reaches space. Thus, the Earth's greenhouse effect can also be measured as an energy change of 159 W/m2.[14]: 968 [14]: 934  Also, the greenhouse effect can be expressed as a fraction (0.40) or percentage (40%) of the radiation that leaves Earth’s surface but does not reach space.[14]: 968 [15][18]
+Whether the greenhouse effect is expressed as a change in temperature or as a change in thermal radiation, the same effect is being measured.[15]
+Hotter matter emits shorter wavelengths of radiation. As a result, the Sun emits shortwave radiation as sunlight while the Earth and its atmosphere emit longwave radiation. Sunlight includes ultraviolet, visible light, and near-infrared radiation.[19]: 2251 
+Sunlight is reflected and absorbed the Earth and its atmosphere. The atmosphere and clouds reflect about 23% and absorb 23%. The surface reflects 7% and absorbs 48%.[20] Overall, Earth reflects about 30% of the incoming sunlight,[21][22] and absorbs the rest (240 W/m2).[14]: 934 
+The Earth and its atmosphere emit longwave radiation, also known as thermal infrared or terrestrial radiation.[19]: 2251  Informally, longwave radiation is sometimes called thermal radiation. Outgoing longwave radiation (OLR) is the radiation from Earth and its atmosphere that passes through the atmosphere and into space.
+The greenhouse effect can be directly seen in graphs of Earth's outgoing longwave radiation as a function of frequency (or wavelength). The area between the curve for longwave radiation emitted by Earth's surface and the curve for outgoing longwave radiation indicates the size of the greenhouse effect.[17]
+Different substances are responsible for reducing the radiation energy reaching space at different frequencies; for some frequencies, multiple substances play a role.[16] Carbon dioxide is understood to be responsible for the dip in outgoing radiation (and associated rise in the greenhouse effect) at around 667 cm−1 (equivalent to a wavelength of 15 microns).[23]
+The power of outgoing longwave radiation emitted by a planet corresponds to the effective temperature of the planet. The effective temperature is the temperature that a planet radiating with a uniform temperature (a blackbody) would need to have in order to radiate the same amount of energy.
+This concept may be used to compare the amount of longwave radiation emitted to space and the amount of longwave radiation emitted by the surface:
+Earth's surface temperature is often reported in terms of the average near-surface air temperature. This is about 15 °C (59 °F),[4][26] a bit lower than the effective surface temperature. This value is 33 °C (59 °F) warmer than Earth's overall effective temperature.
+Energy flux is the rate of energy flow per unit area. Energy flux is expressed in units of W/m2, which is the number of joules of energy that pass through a square meter each second. Most fluxes quoted in high-level discussions of climate are global values, which means they are the total flow of energy over the entire globe, divided by the surface area of the Earth, 5.1×1014 m2 (5.1×108 km2; 2.0×108 sq mi).[27]
+The fluxes of radiation arriving at and leaving the Earth are important because radiative transfer is the only process capable of exchanging energy between Earth and the rest of the universe.[28]: 145 
+The temperature of a planet depends on the balance between incoming radiation and outgoing radiation. If incoming radiation exceeds outgoing radiation, a planet will warm. If outgoing radiation exceeds incoming radiation, a planet will cool. A planet will tend towards a state of radiative equilibrium, in which the power of outgoing radiation equals the power of absorbed incoming radiation.[29]
+Earth's energy imbalance is the amount by which the power of incoming sunlight absorbed by Earth's surface or atmosphere exceeds the power of outgoing longwave radiation emitted to space. Energy imbalance is the fundamental measurement that drives surface temperature.[30] A UN presentation says "The EEI is the most critical number defining the prospects for continued global warming and climate change."[31]
+Earth's energy imbalance (EEI) was about 0.7 W/m2 as of around 2015, indicating that Earth as a whole is accumulating thermal energy and is in a process of becoming warmer.[14]: 934 
+Simplified models are sometimes used to support understanding of how the greenhouse effect comes about and how this affects surface temperature. The greenhouse effect can be seen to occur in a simplified model in which the air is treated as if it is single uniform layer exchanging radiation with the ground and space.[33] Additionally, non-radiative forms of heat transfer are sometimes ignored, such as convection and latent heat transfer.[34]
+One simplification is to treat all outgoing longwave radiation as being emitted from an altitude where the air temperature equals the overall effective temperature for planetary emissions, 
+
+
+
+
+T
+
+
+e
+f
+f
+
+
+
+
+
+{\displaystyle T_{\mathrm {eff} }}
+
+.[35] Some authors have referred to this altitude as the effective radiating level (ERL), and suggest that as the CO2 concentration increases, the ERL must rise to maintain the same mass of CO2 above that level.[36]
+This approach is less accurate than accounting for variation in radiation wavelength by emission altitude. However, it can be useful in supporting a simplified understanding of the greenhouse effect.[35] For instance, it can be used to explain how the greenhouse effect increases as the concentration of greenhouse gases increase.[37][36][38]
+Earth's overall equivalent emission altitude has been increasing with a trend of 23 m (75 ft)/decade, which is said to be consistent with a global mean surface warming of 0.12 °C (0.22 °F)/decade over the period 1979–2011.[35]
+Each layer of the atmosphere with greenhouse gases absorbs some of the longwave radiation being radiated upwards from lower layers. It also emits longwave radiation in all directions, both upwards and downwards, in equilibrium with the amount it has absorbed. This results in less radiative heat loss and more warmth below. Increasing the concentration of the gases increases the amount of absorption and emission, and thereby causing more heat to be retained at the surface and in the layers below.[25]
+In the lower portion of the atmosphere, the troposphere, the air temperature decreases (or "lapses") with increasing altitude. The rate at which temperature changes with altitude is called the lapse rate.[39]
+On Earth, the air temperature decreases by about 6.5℃/km (3.6℉ per 1000 ft), on average, although this varies.[39]
+The temperature lapse is caused by convection. Air warmed by the surface rises. As it rises, air expands and cools.  Simultaneously, other air descends, compresses, and warms. This process creates a vertical temperature gradient within the atmosphere.[39]
+Greenhouse gases make the atmosphere near Earth's surface mostly opaque to longwave radiation. The atmosphere only becomes transparent to longwave radiation at higher altitudes, where the air is less dense, there is less water vapor, and reduced pressure broadening of absorption lines limits the wavelengths that gas molecules can absorb.[40][28]
+For any given wavelength, the longwave radiation that reaches space is emitted by a particular radiating layer of the atmosphere. The intensity of the emitted radiation is determined by the weighted average air temperature within that layer. So, for any given wavelength of radiation emitted to space, there is an associated effective emission temperature (or brightness temperature).[41][28]
+A given wavelength of radiation may also be said to have an effective emission altitude, which is a weighted average of the altitudes within the radiating layer.
+The effective emission temperature and altitude vary by wavelength (or frequency). This phenomenon may be seen by examining plots of radiation emitted to space.[41]
+Earth's surface radiates longwave radiation with wavelengths in the range of 4–100 microns.[42] Greenhouse gases that were largely transparent to incoming solar radiation are more absorbent for some wavelengths in this range.[42]
+The atmosphere near the Earth's surface is largely opaque to longwave radiation and most heat loss from the surface is by evaporation and convection. However radiative energy losses become increasingly important higher in the atmosphere, largely because of the decreasing concentration of water vapor, an important greenhouse gas.
+Rather than thinking of longwave radiation headed to space as coming from the surface itself, it is more realistic to think of this outgoing radiation as being emitted by a layer in the mid-troposphere, which is effectively coupled to the surface by a lapse rate. The difference in temperature between these two locations explains the difference between surface emissions and emissions to space, i.e., it explains the greenhouse effect.[43][38]
+A simple picture assumes a steady state, but in the real world, the day/night (diurnal) cycle, as well as the seasonal cycle and weather disturbances, complicate matters. Solar heating applies only during daytime. At night the atmosphere cools somewhat, but not greatly because the thermal inertia of the climate system resists changes both day and night, as well as for longer periods.[44] Diurnal temperature changes decrease with height in the atmosphere.
+A greenhouse gas (GHG) is a gas which contributes to the trapping of heat by impeding the flow of longwave radiation out of a planet's atmosphere. Greenhouse gases contribute most of the greenhouse effect in Earth's energy budget.[45]
+Gases which can absorb and emit longwave radiation are said to be infrared active[46] and act as greenhouse gases.
+Most gases whose molecules have two different atoms (such as carbon monoxide, CO), and all gases with three or more atoms (including H2O and CO2), are infrared active and act as greenhouse gases. (Technically, this is because when these molecules vibrate, those vibrations modify the molecular dipole moment, or asymmetry in the distribution of electrical charge.   See Infrared spectroscopy.)[45]
+Gases with only one atom (such as argon, Ar) or with two identical atoms (such as nitrogen, N2, and oxygen, O2) are not infrared active. They are transparent to longwave radiation, and, for practical purposes, do not absorb or emit longwave radiation. (This is because their molecules are symmetrical and so do not have a dipole moment.) Such gases make up more than 99% of the dry atmosphere.[45]
+Greenhouse gases absorb and emit longwave radiation within specific ranges of wavelengths (organized as spectral lines or bands).[45]
+When greenhouse gases absorb radiation, they distribute the acquired energy to the surrounding air as thermal energy (i.e., kinetic energy of gas molecules). Energy is transferred from greenhouse gas molecules to other molecules via molecular collisions.[47]
+Contrary to what is sometimes said, greenhouse gases do not "re-emit" photons after they are absorbed. Because each molecule experiences billions of collisions per second, any energy a greenhouse gas molecule receives by absorbing a photon will be redistributed to other molecules before there is a chance for a new photon to be emitted.[47]
+In a separate process, greenhouse gases emit longwave radiation, at a rate determined by the air temperature. This thermal energy is either absorbed by other greenhouse gas molecules or leaves the atmosphere, cooling it.[47]
+By their percentage contribution to the overall greenhouse effect on Earth, the four major greenhouse gases are:[48][49]
+It is not practical to assign a specific percentage to each gas because the absorption and emission bands of the gases overlap (hence the ranges given above). A water molecule only stays in the atmosphere for an average 8 to 10 days, which corresponds with high variability in the contribution from clouds and humidity at any particular time and location.[50]: 1–41 
+There are other influential gases that contribute to the greenhouse effect, including nitrous oxide (N2O), perfluorocarbons (PFCs), chlorofluorocarbons (CFCs), hydrofluorocarbons (HFCs), and sulfur hexafluoride (SF6).[50]: AVII-60  These gases are mostly produced through human activities, thus they have played important parts in climate change.
+The concentration of a greenhouse gas is typically measured in parts per million (ppm) or parts per billion (ppb) by volume. A CO2 concentration of 420 ppm means that 420 out of every million air molecules is a CO2 molecule.
+Greenhouse gas concentrations changed as follows from 1750 to 2019:[52]
+Air is warmed by latent heat (buoyant water vapor condensing into water droplets and releasing heat), thermals (warm air rising from below), and by sunlight being absorbed in the atmosphere. Atmospheric gases warmed by these effects cool the air by emitting more radiation than they absorb. Warming and cooling of air are well balanced, on average, so that the atmosphere maintains a roughly stable average temperature.[28]: 139 [53]
+Longwave radiation flows both upward and downward due to absorption and emission in the atmosphere. These canceling energy flows reduce radiative surface cooling (net upward radiative energy flow). Latent heat transport and thermals provide non-radiative cooling which partially compensates for this reduction, but there is still a net reduction in surface cooling, for a given surface temperature.[28]: 139 [53]
+Greenhouse gases impact the top-of-atmosphere (TOA) energy budget by reducing the flux of longwave radiation emitted to space, for a given surface temperature. Thus, greenhouse gases alter the energy balance at TOA. This means that the surface temperature needs to be higher (than the planet's effective temperature, i.e., the temperature associated with emissions to space), in order for the outgoing energy emitted to space to balance the incoming energy from sunlight.[28]: 139 [53] It is important to focus on the top-of-atmosphere (TOA) energy budget (rather than the surface energy budget) when reasoning about the warming effect of greenhouse gases.[54]: 414 
+Clouds and aerosols have both cooling effects, associated with reflecting sunlight back to space, and warming effects, associated with trapping thermal radiation.
+On average, clouds have a strong net cooling effect. However, the mix of cooling and warming effects varies, depending on detailed characteristics of particular clouds (including their  type, height, and optical properties).[55] Thin cirrus clouds can have a net warming effect. Clouds can absorb and emit infrared radiation and thus affect the radiative properties of the atmosphere.[56]
+Clouds include liquid clouds, mixed-phase clouds and ice clouds. Liquid clouds are low clouds and have negative radiative forcing. Mixed-phase clouds are clouds coexisted with both liquid water and solid ice at subfreezing temperatures and their radiative properties (optical depth or optical thickness) are substantially influenced by the liquid content. Ice clouds are high clouds and their radiative forcing depends on the ice crystal number concentration, cloud thickness and ice water content.
+The radiative properties of liquid clouds depend strongly on cloud microphysical properties, such as cloud liquid water content and cloud drop size distribution. The liquid clouds with higher liquid water content and smaller water droplets will have a stronger negative radiative forcing. The cloud liquid contents are usually related to the surface and atmospheric circulations. Over the warm ocean, the atmosphere is usually rich with water vapor and thus the liquid clouds contain higher liquid water content. When the moist air flows converge in the clouds and generate strong updrafts, the water content can be much higher. Aerosols will influence the cloud drop size distribution. For example, in the polluted industrial regions with lots of aerosols, the water droplets in liquid clouds are often small.
+The mixed phase clouds have negative radiative forcing. The radiative forcing of mix-phase clouds has a larger uncertainty than liquid clouds. One reason is that the microphysics are much more complicated because the coexistence of both liquid and solid water. For example, Wegener–Bergeron–Findeisen process can deplete large amounts of water droplets and enlarge small ice crystals to large ones in a short period of time. Hallett-Mossop process[57] will shatter the liquid droplets in the collision with large ice crystals and freeze into a lot of small ice splinters. The cloud radiative properties can change dramatically during these processes because small ice crystals can reflect much more sun lights and generate larger negative radiative forcing, compared with large water droplets.
+Cirrus clouds can either enhance or reduce the greenhouse effects, depending on the cloud thickness.[58] Thin cirrus is usually considered to have positive radiative forcing and thick cirrus has negative radiative forcing.[59] Ice water content and ice size distribution also determines cirrus radiative properties. The larger ice water content is, the more cooling effects cirrus have. When cloud ice water contents are the same, cirrus with more smaller ice crystals have larger cooling effects, compared with cirrus with fewer larger ice crystals. Some scientists suggest doing some cirrus seeding into thin cirrus clouds in order to decrease the size of ice crystals and thus reduce their greenhouse effects, but some other studies doubt its efficiency and think it would be useless to fight with global warming.[60]
+There are two major sources of atmospheric aerosols, natural sources, and anthropogenic sources.[61] Natural sources of aerosols include desert dust, sea salt, volcanic ash, volatile organic compounds (VOC) from vegetation and smoke from forest fires. Aerosols generated from human activities include fossil fuel burning, deforestation fires, and burning of agricultural waste. The amount of anthropogenic aerosols has been dramatically increased since preindustrial times, which is considered as a major contribution to the global air pollution. Since these aerosols have different chemical compositions and physical properties, they can produce different radiative forcing effects, to warm or cool the global climate.
+The impact of atmospheric aerosols on climate can be classified as direct or indirect with respect to radiative forcing of the climate system. Aerosols can directly scatter and absorb solar and infrared radiance in the atmosphere, hence it has a direct radiative forcing to the global climate system. Aerosols can also act as cloud condensation nuclei (CCN) to form clouds, resulting in changing the formation and precipitation efficiency of liquid water, ice and mixed phase clouds, thereby causing an indirect radiative forcing associated with these changes in cloud properties.[62][63]
+Aerosols that mainly scatter solar radiation can reflect solar radiation back to space, which will cool the global climate. All of the atmospheric aerosols have the capability to scatter incoming solar radiation, but only a few types of aerosols can absorb solar radiation. These include black carbon (BC), organic carbon (OC) and mineral dust, which can induce non-negligible warming effects.[64] The emission of black carbon is significant in developing countries, such as China and India. Black carbon can be transported over long distances, and mixed with other aerosols along the way. Solar-absorption efficiency has a positive correlation with the ratio of black carbon to sulphate.[65]
+Particle size and mixing ratio can not only determine the absorption efficiency of BC, but also affect the lifetime of BC. The surface albedo of snow and ice can be reduced due to the deposition of absorbing aerosols, which will also cause heating effects.[66] The heating effects of black carbon at high elevations can be as important as carbon dioxide in the melting of snowpacks and glaciers.[67] In addition to these absorbing aerosols, it is found that the stratospheric aerosols can also induce local warming by increasing longwave radiation reaching the surface and reducing outgoing longwave radiation.[68]
+Strengthening of the greenhouse effect through human activities is known as the enhanced (or anthropogenic) greenhouse effect.[70]  As well as being inferred from measurements by ARGO, CERES and other instruments throughout the 21st century,[50]: 7–17  this increase in radiative forcing from human activity has been observed directly,[71][72] and is attributable mainly to increased atmospheric carbon dioxide levels.[73] According to the 2014 Assessment Report  from the Intergovernmental Panel on Climate Change, "atmospheric concentrations of carbon dioxide, methane and nitrous oxide are unprecedented in at least the last 800,000 years. Their effects, together with those of other anthropogenic drivers, have been detected throughout the climate system and are extremely likely to have been the dominant cause of the observed warming since the mid-20th century'".[74]
+CO2 is produced by fossil fuel burning and other activities such as cement production and tropical deforestation.[75]  Measurements of CO2 from the Mauna Loa Observatory show that concentrations have increased from about 313 parts per million (ppm)[76] in 1960, passing the 400 ppm milestone in 2013.[77]  The current observed amount of CO2 exceeds the geological record maxima (≈300 ppm) from ice core data.[78] The effect of combustion-produced carbon dioxide on the global climate, a special case of the greenhouse effect first described in 1896 by Svante Arrhenius, has also been called the Callendar effect.
+Over the past 800,000 years,[79] ice core data shows that carbon dioxide has varied from values as low as 180 ppm to the pre-industrial level of 270 ppm.[80] Paleoclimatologists consider variations in carbon dioxide concentration to be a fundamental factor influencing climate variations over this time scale.[81][82]
+A given flux of thermal radiation has an associated effective radiating temperature or effective temperature. Effective temperature is the temperature that a black body (a perfect absorber/emitter) would need to be to emit that much thermal radiation.[83] Thus, the overall effective temperature of a planet is given by
+where OLR is the average flux (power per unit area) of outgoing longwave radiation emitted to space and 
+
+σ
+\sigma
+
+ is the Stefan-Boltzmann constant. Similarly, the effective temperature of the surface is given by
+where SLR is the average flux of longwave radiation emitted by the surface. (OLR is a conventional abbreviation. SLR is used here to denote the flux of surface-emitted longwave radiation, although there is no standard abbreviation for this.)[84]
+The IPCC reports the greenhouse effect, G, as being 159 W m-2 (based on data published in 2015), where G is the flux of longwave thermal radiation that leaves the surface minus the flux of outgoing longwave radiation that reaches space:[14]: 968 [15][17][16]
+Alternatively, the greenhouse effect can be described using the normalized greenhouse effect, g̃, defined as
+The normalized greenhouse effect is the fraction of the amount of thermal radiation emitted by the surface that does not reach space.
+Based on the IPCC numbers from 2015, g̃ = 0.40. In other words, 40 percent less thermal radiation reaches space than what leaves the surface.[14]: 968 [15][18]
+Sometimes the greenhouse effect is quantified as a temperature difference. This temperature difference is closely related to the quantities above.
+When the greenhouse effect is expressed as a temperature difference, 
+
+
+
+Δ
+
+T
+
+
+G
+H
+E
+
+
+
+
+
+{\displaystyle \Delta T_{\mathrm {GHE} }}
+
+, this refers to the effective temperature associated with thermal radiation emissions from the surface minus the effective temperature associated with emissions to space:
+Informal discussions of the greenhouse effect often compare the actual surface temperature to the temperature that the planet would have if there were no greenhouse gases. However, in formal technical discussions, when the size of the greenhouse effect is quantified as a temperature, this is generally done using the above formula. The formula refers to the effective surface temperature rather than the actual surface temperature, and compares the surface with the top of the atmosphere, rather than comparing reality to a hypothetical situation.[84]
+The temperature difference, 
+
+
+
+Δ
+
+T
+
+
+G
+H
+E
+
+
+
+
+
+{\displaystyle \Delta T_{\mathrm {GHE} }}
+
+, indicates how much warmer a planet's surface is than the planet's overall effective temperature.
+Earth's top-of-atmosphere (TOA) energy imbalance (EEI) is the amount by which the power of incoming radiation exceeds the power of outgoing radiation:[31]
+where ASR is the mean flux of absorbed solar radiation. ASR may be expanded as
+where 
+
+A
+A
+
+ is the albedo (reflectivity) of the planet and MSI is the mean solar irradiance incoming at the top of the atmosphere.
+The radiative equilibrium temperature of a planet can be expressed as
+A planet's temperature will tend to shift towards a state of radiative equilibrium, in which the TOA energy imbalance is zero, i.e., 
+
+
+
+
+E
+E
+I
+
+=
+0
+
+
+{\displaystyle \mathrm {EEI} =0}
+
+. When the planet is in radiative equilibrium, the overall effective temperature of the planet is given by
+Thus, the concept of radiative equilibrium is important because it indicates what effective temperature a planet will tend towards having.[85][32]
+If, in addition to knowing the effective temperature, 
+
+
+
+
+T
+
+
+e
+f
+f
+
+
+
+
+
+{\displaystyle T_{\mathrm {eff} }}
+
+, we know the value of the greenhouse effect, then we know the mean (average) surface temperature of the planet.
+This is why the quantity known as the greenhouse effect is important: it is one of the few quantities that go into determining the planet's mean surface temperature.
+Typically, a planet will be close to radiative equilibrium, with the rates of incoming and outgoing energy being well-balanced. Under such conditions, the planet's equilibrium temperature is determined by the mean solar irradiance and the planetary albedo (how much sunlight is reflected back to space instead of being absorbed).
+The greenhouse effect measures how much warmer the surface is than the overall effective temperature of the planet. So, the effective surface temperature, 
+
+
+
+
+T
+
+
+s
+u
+r
+f
+a
+c
+e
+,
+e
+f
+f
+
+
+
+
+
+{\displaystyle T_{\mathrm {surface,eff} }}
+
+, is, using the definition of 
+
+
+
+Δ
+
+T
+
+
+G
+H
+E
+
+
+
+
+
+{\displaystyle \Delta T_{\mathrm {GHE} }}
+
+,
+One could also express the relationship between 
+
+
+
+
+T
+
+
+s
+u
+r
+f
+a
+c
+e
+,
+e
+f
+f
+
+
+
+
+
+{\displaystyle T_{\mathrm {surface,eff} }}
+
+ and 
+
+
+
+
+T
+
+
+e
+f
+f
+
+
+
+
+
+{\displaystyle T_{\mathrm {eff} }}
+
+ using G or g̃.
+So, the principle that a larger greenhouse effect corresponds to a higher surface temperature, if everything else (i.e., the factors that determine 
+
+
+
+
+T
+
+
+e
+f
+f
+
+
+
+
+
+{\displaystyle T_{\mathrm {eff} }}
+
+) is held fixed, is true as a matter of definition.
+Note that the greenhouse effect influences the temperature of the planet as a whole, in tandem with the planet's tendency to move toward radiative equilibrium.[86]
+In the solar system, apart from the Earth, at least two other planets and a moon also have a greenhouse effect.
+The greenhouse effect on Venus is particularly large, and it brings the surface temperature to as high as 735 K (462 °C; 863 °F). This is due to its very dense atmosphere which consists of about 97% carbon dioxide.[90]
+Although Venus is about 30% closer to the Sun, it absorbs (and is warmed by) less sunlight than Earth, because Venus reflects 77% of incident sunlight while Earth reflects around 30%. In the absence of a greenhouse effect, the surface of Venus would be expected to have a temperature of 232 K (−41 °C; −42 °F). Thus, contrary to what one might think, being nearer to the Sun is not a reason why Venus is warmer than Earth.[91][92][93]
+Due to its high pressure, the CO2 in the atmosphere of Venus exhibits continuum absorption (absorption over a broad range of wavelengths) and is not limited to absorption within the bands relevant to its absorption on Earth.[41]
+Mars has about 70 times as much carbon dioxide as Earth,[94] but experiences only a small greenhouse effect, about 6 K (11 °F).[87] The greenhouse effect is small due to the lack of water vapor and the overall thinness of the atmosphere.[95]
+The same radiative transfer calculations that predict warming on Earth accurately explain the temperature on Mars, given its atmospheric composition.[96][97][84]
+Saturn's moon Titan has both a greenhouse effect and an anti-greenhouse effect. The presence of nitrogen (N2), methane (CH4), and hydrogen (H2) in the atmosphere contribute to a greenhouse effect, increasing the surface temperature by 21 K (38 °F) over the expected temperature of the body without these gases.[88][98]
+While the gases N2 and H2 ordinarily do not absorb infrared radiation, these gases absorb thermal radiation on Titan due to pressure-induced collisions, the large mass and thickness of the atmosphere, and the long wavelengths of the thermal radiation from the cold surface.[41][88][98]
+The existence of a high-altitude haze, which absorbs wavelengths of solar radiation but is transparent to infrared, contribute to an anti-greenhouse effect of approximately 9 K (16 °F).[88][98]
+The net result of these two effects is a warming of 21 K − 9 K = 12 K (22 °F), so Titan's surface temperature of 94 K (−179 °C; −290 °F) is 12 K warmer than it would be if there were no atmosphere.[88][98]
+One cannot predict the relative sizes of the greenhouse effects on different bodies simply by comparing the amount of greenhouse gases in their atmospheres. This is because factors other than the quantity of these gases also play a role in determining the size of the greenhouse effect.
+Overall atmospheric pressure affects how much thermal radiation each molecule of a greenhouse gas can absorb. High pressure leads to more absorption and low pressure leads to less.[41]
+This is due to "pressure broadening" of spectral lines. When the total atmospheric pressure is higher, collisions between molecules occur at a higher rate. Collisions broaden the width of absorption lines, allowing a greenhouse gas to absorb thermal radiation over a broader range of wavelengths.[54]: 226 
+Each molecule in the air near Earth's surface experiences about 7 billion collisions per second. This rate is lower at higher altitudes, where the pressure and temperature are both lower.[99] This means that greenhouse gases are able to absorb more wavelengths in the lower atmosphere than they can in the upper atmosphere.[40][28]
+On other planets, pressure broadening means that each molecule of a greenhouse gas is more effective at trapping thermal radiation if the total atmospheric pressure is high (as on Venus), and less effective at trapping thermal radiation if the atmospheric pressure is low (as on Mars).[41]
+There are sometimes misunderstandings about how the greenhouse effect functions and raises temperatures.
+The surface budget fallacy is a common error in thinking.[54]: 413  It involves thinking that an increased CO2 concentration could only cause warming by increasing the downward thermal radiation to the surface, as a result of making the atmosphere a better emitter. If the atmosphere near the surface is already nearly opaque to thermal radiation, this would mean that increasing CO2 could not lead to higher temperatures. However, it is a mistake to focus on the surface energy budget rather than the top-of-atmosphere energy budget. Regardless of what happens at the surface, increasing the concentration of CO2 tends to reduce the thermal radiation reaching space (OLR), leading to a TOA energy imbalance that leads to warming. Earlier researchers like Callendar (1938) and Plass (1959) focused on the surface budget, but the work of Manabe in the 1960s clarified the importance of the top-of-atmosphere energy budget.[54]: 414 
+Among those who do not believe in the greenhouse effect, there is a fallacy that the greenhouse effect involves greenhouse gases sending heat from the cool atmosphere to the planet's warm surface, in violation of the Second Law of Thermodynamics.[100][101] However, this idea reflects a misunderstanding. Radiation heat flow is the net energy flow after the flows of radiation in both directions have been taken into account.[86] Radiation heat flow occurs in the direction from the surface to the atmosphere and space,[6] as is to be expected given that the surface is warmer than the atmosphere and space. While greenhouse gases emit thermal radiation downward to the surface, this is part of the normal process of radiation heat transfer.[102] The downward thermal radiation simply reduces the upward thermal radiation net energy flow (radiation heat flow), i.e., it reduces cooling.[47]
+The greenhouse effect involves greenhouse gases reducing the rate of radiative cooling to space, relative to what would happen if those gases were not present. This occurs because greenhouse gases block the outflow of radiative heat at low altitudes, but emit thermal radiation at high altitudes where the air is cooler and thermal radiation rates are lower.
+In a location where there is a strong temperature inversion, so that the air is warmer than the surface, it is possible for this effect to be reversed, so that the presence of greenhouse gases increases the rate of radiative cooling to space. In this case, the rate of thermal radiation emission to space is greater than the rate at which thermal radiation is emitted by the surface. Thus, the local value of the greenhouse effect is negative.[103][104]
+Recent studies have shown that, at times, there is a negative greenhouse effect over parts of Antarctica.[103][104]
+The anti-greenhouse effect is a mechanism similar and symmetrical to the greenhouse effect: in the greenhouse effect:
+In the anti-greenhouse effect:[88]
+This effect has been discovered to exist on Saturn's moon Titan.[105][88]
+A runaway greenhouse effect occurs when greenhouse gases accumulate in the atmosphere through a positive feedback cycle to such an extent that they substantially block radiated heat from escaping into space, thus greatly increasing the temperature of the planet.[106]
+A runaway greenhouse effect involving carbon dioxide and water vapor has for many years been hypothesized to have occurred on Venus;[107] this idea is still largely accepted.[108] The planet Venus experienced a runaway greenhouse effect, resulting in an atmosphere which is 96% carbon dioxide, and a surface atmospheric pressure roughly the same as found 900 m (3,000 ft) underwater on Earth. Venus may have had water oceans, but they would have boiled off as the mean surface temperature rose to the current 735 K (462 °C; 863 °F).[109][110][111]
+A 2012 journal article stated that almost all lines of evidence indicate that is unlikely to be possible to trigger a full runaway greenhouse on Earth, merely by adding greenhouse gases to the atmosphere.[112] However, the authors cautioned that "our understanding of the dynamics, thermodynamics, radiative transfer and cloud physics of hot and steamy atmospheres is weak", and that we "cannot therefore completely rule out the possibility that human actions might cause a transition, if not to full runaway, then at least to a much warmer climate state than the present one".[112] A 2013 article concluded that runaway greenhouse "could in theory be triggered by increased greenhouse forcing", but that "anthropogenic emissions are probably insufficient".[113]
+Earth is expected to experience a runaway greenhouse effect "in about 2 billion years as solar luminosity increases".[112]
+The existence of the greenhouse effect, while not named as such, was proposed by Joseph Fourier in 1824.[114] The argument and the evidence were further strengthened by Claude Pouillet in 1827 and 1838. In 1856 Eunice Newton Foote demonstrated that the warming effect of the sun is greater for air with water vapour than for dry air, and the effect is even greater with carbon dioxide. She concluded that "An atmosphere of that gas would give to our earth a high temperature..."[115][116]
+John Tyndall was the first to measure the infrared absorption and emission of various gases and vapors. From 1859 onwards, he showed that the effect was due to a very small proportion of the atmosphere, with the main gases having no effect, and was largely due to water vapor, though small percentages of hydrocarbons and carbon dioxide had a significant effect.[117] The effect was more fully quantified by Svante Arrhenius in 1896, who made the first quantitative prediction of global warming due to a hypothetical doubling of atmospheric carbon dioxide.[118] However, the term "greenhouse" was not used to refer to this effect by any of these scientists; the term was first used in this way by Nils Gustaf Ekholm in 1901.[119][120]
+
+

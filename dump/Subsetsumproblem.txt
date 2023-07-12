@@ -1,0 +1,734 @@
+36811,
+Subsetsumproblem,
+The subset sum problem (SSP) is a decision problem in computer science. In its most general formulation, there is a multiset 
+
+S
+S
+
+ of integers and a target-sum 
+
+T
+T
+
+, and the question is to decide whether any subset of the integers sum to precisely 
+
+T
+T
+
+.[1] The problem is known to be NP-hard. Moreover, some restricted variants of it are NP-complete too, for example:[1]
+SSP can also be regarded as an optimization problem: find a subset whose sum is at most T, and subject to that, as close as possible to T. It is NP-hard, but there are several algorithms that can solve it reasonably quickly in practice.
+SSP is a special case of the knapsack problem and of the multiple subset sum problem.
+The run-time complexity of SSP depends on two parameters: 
+As both n and L grow large, SSP is NP-hard. The complexity of the best known algorithms is exponential in the smaller of the two parameters n and L. The problem is NP-hard even when all input integers are positive  (and the target-sum T is a part of the input). This can be proved by a direct reduction from 3SAT.[2] It can also be proved by reduction from 3-dimensional matching (3DM):[3]
+The following variants are also known to be NP-hard:
+The analogous counting problem #SSP, which asks to enumerate the number of subsets summing to the target, is #P-complete.[4]
+There are several ways to solve SSP in time exponential in n.[5]
+The most naïve algorithm would be to cycle through all subsets of n numbers and, for every one of them, check if the subset sums to the right number. The running time is of order 
+
+
+
+O
+(
+
+2
+
+n
+
+
+⋅
+n
+)
+
+
+{\displaystyle O(2^{n}\cdot n)}
+
+, since there are 
+
+
+2
+
+n
+
+
+2^{n}
+
+ subsets and, to check each subset, we need to sum at most n elements.
+The algorithm can be implemented by depth-first search of a binary tree: each level in the tree corresponds to an input number; the left branch corresponds to excluding the number from the set, and the right branch corresponds to including the number (hence the name Inclusion-Exclusion). The memory required is 
+
+
+O
+(
+n
+)
+
+O(n)
+
+. The run-time can be improved by several heuristics:[5]
+In 1974, Horowitz and Sahni[6] published a faster exponential-time algorithm, which runs in time 
+
+
+
+O
+(
+
+2
+
+n
+
+/
+
+2
+
+
+⋅
+(
+n
+
+/
+
+2
+)
+)
+
+
+{\displaystyle O(2^{n/2}\cdot (n/2))}
+
+, but requires much more space - 
+
+
+
+O
+(
+
+2
+
+n
+
+/
+
+2
+
+
+)
+
+
+{\displaystyle O(2^{n/2})}
+
+. The algorithm splits arbitrarily the n elements into two sets of 
+
+
+n
+
+/
+
+2
+
+n/2
+
+ each. For each of these two sets, it stores a list of the sums of all 
+
+
+2
+
+n
+
+/
+
+2
+
+
+2^{n/2}
+
+ possible subsets of its elements. Each of these two lists is then sorted. Using even the fastest comparison sorting algorithm, Mergesort for this step would take time 
+
+
+
+O
+(
+
+2
+
+n
+
+/
+
+2
+
+
+n
+)
+
+
+{\displaystyle O(2^{n/2}n)}
+
+.  However, given a sorted list of sums for 
+
+k
+k
+
+ elements, the list can be expanded to two sorted lists with the introduction of a (
+
+
+k
++
+1
+
+k+1
+
+)th element, and these two sorted lists can be merged in time 
+
+
+
+O
+(
+
+2
+
+k
+
+
+)
+
+
+{\displaystyle O(2^{k})}
+
+.  Thus, each list can be generated in sorted form in time 
+
+
+O
+(
+
+2
+
+n
+
+/
+
+2
+
+
+)
+
+O(2^{n/2})
+
+.  Given the two sorted lists, the algorithm can check if an element of the first array and an element of the second array sum up to T in time 
+
+
+O
+(
+
+2
+
+n
+
+/
+
+2
+
+
+)
+
+O(2^{n/2})
+
+. To do that, the algorithm passes through the first array in decreasing order (starting at the largest element) and the second array in increasing order (starting at the smallest element). Whenever the sum of the current element in the first array and the current element in the second array is more than T, the algorithm moves to the next element in the first array. If it is less than T, the algorithm moves to the next element in the second array. If two elements that sum to T are found, it stops. (The sub-problem for two elements sum is known as two-sum.[7])
+In 1981, Schroeppel and Shamir presented an algorithm[8] based on Horowitz and Sanhi, that requires similar runtime - 
+
+
+
+O
+(
+
+2
+
+n
+
+/
+
+2
+
+
+⋅
+(
+n
+
+/
+
+4
+)
+)
+
+
+{\displaystyle O(2^{n/2}\cdot (n/4))}
+
+, much less space - 
+
+
+
+O
+(
+
+2
+
+n
+
+/
+
+4
+
+
+)
+
+
+{\displaystyle O(2^{n/4})}
+
+. Rather than generating and storing all subsets of n/2 elements in advance, they partition the elements into 4 sets of n/4 elements each, and generate subsets of n/2 element pairs dynamically using a min heap, which yields the above time and space complexities since this can be done in 
+
+
+
+O
+(
+
+k
+
+2
+
+
+log
+⁡
+(
+k
+)
+)
+
+
+{\displaystyle O(k^{2}\log(k))}
+
+ and space 
+
+
+O
+(
+k
+)
+
+O(k)
+
+ given 4 lists of length k.
+Due to space requirements, the HS algorithm is practical for up to about 50 integers, and the SS algorithm is practical for up to 100 integers.[5]
+In 2010, Howgrave-Graham and Joux[9] presented a probabilistic algorithm that runs faster than all previous ones - in time 
+
+
+
+O
+(
+
+2
+
+.337
+n
+
+
+)
+
+
+{\displaystyle O(2^{.337n})}
+
+ using space 
+
+
+
+O
+(
+
+2
+
+.256
+n
+
+
+)
+
+
+{\displaystyle O(2^{.256n})}
+
+. It solves only the decision problem, cannot prove there is no solution for a given sum, and does not return the subset sum closest to T.
+The techniques of Howgrave-Graham and Joux were subsequently extended [10] bringing the time-complexity to 
+
+
+
+O
+(
+
+2
+
+.291
+n
+
+
+)
+
+
+{\displaystyle O(2^{.291n})}
+
+.
+SSP can be solved in pseudo-polynomial time using dynamic programming. Suppose we have the following sequence of elements in an instance:
+We define a state as a pair (i, s) of integers. This state represents the fact that
+Each state (i, s) has two next states:
+Starting from the initial state (0, 0), it is possible to use any graph search algorithm (e.g. BFS) to search the state (N, T). If the state is found, then by backtracking we can find a subset with a sum of exactly T.
+The run-time of this algorithm is at most linear in the number of states. The number of states is at most N times the number of different possible sums. Let A be the sum of the negative values and B the sum of the positive values; the number of different possible sums is at most B-A, so the total runtime is in 
+
+
+
+O
+(
+N
+(
+B
+−
+A
+)
+)
+
+
+{\displaystyle O(N(B-A))}
+
+. For example, if all input values are positive and bounded by some constant C, then B is at most N C, so the time required is 
+
+
+
+O
+(
+
+N
+
+2
+
+
+C
+)
+
+
+{\displaystyle O(N^{2}C)}
+
+.
+This solution does not count as polynomial time in complexity theory because 
+
+
+B
+−
+A
+
+B-A
+
+ is not polynomial in the size of the problem, which is the number of bits used to represent it. This algorithm is polynomial in the values of A and B, which are exponential in their numbers of bits. However, Subset Sum encoded in unary is in P, since then the size of the encoding is linear in B-A. Hence, Subset Sum is only weakly NP-Complete.
+For the case that each 
+
+
+x
+
+i
+
+
+x_{i}
+
+ is positive and bounded by a fixed constant C, in 1999, Pisinger found a linear time algorithm having time complexity 
+
+
+
+O
+(
+N
+C
+)
+
+
+{\displaystyle O(NC)}
+
+ (note that this is for the version of the problem where the target sum is not necessarily zero, as otherwise the problem would be trivial).[11] In 2015, Koiliaris and Xu found a deterministic 
+
+
+
+
+
+
+O
+~
+
+
+
+(
+T
+
+
+N
+
+
+)
+
+
+{\displaystyle {\tilde {O}}(T{\sqrt {N}})}
+
+ algorithm for the subset sum problem where T is the sum we need to find.[12] In 2017, Bringmann found a randomized 
+
+
+
+
+
+
+O
+~
+
+
+
+(
+T
++
+N
+)
+
+
+{\displaystyle {\tilde {O}}(T+N)}
+
+ time algorithm.[13]
+In 2014, Curtis and Sanches found a simple recursion highly scalable in SIMD machines having 
+
+
+
+O
+(
+N
+(
+m
+−
+
+x
+
+min
+
+
+)
+
+/
+
+p
+)
+
+
+{\displaystyle O(N(m-x_{\min })/p)}
+
+ time and 
+
+
+
+O
+(
+N
++
+m
+−
+
+x
+
+min
+
+
+)
+
+
+{\displaystyle O(N+m-x_{\min })}
+
+ space, where p is the number of processing elements, 
+
+
+
+m
+=
+min
+(
+s
+,
+∑
+
+x
+
+i
+
+
+−
+s
+)
+
+
+{\displaystyle m=\min(s,\sum x_{i}-s)}
+
+ and 
+
+
+
+
+x
+
+min
+
+
+
+
+{\displaystyle x_{\min }}
+
+ is the lowest integer.[14] This is the best theoretical parallel complexity known so far.
+A comparison of practical results and the solution of hard instances of the SSP is discussed by Curtis and Sanches.[15]
+Suppose all inputs are positive. An approximation algorithm to SSP aims to find a subset of S with a sum of at most T and at least r times the optimal sum, where r is a number in (0,1) called the approximation ratio.
+The following very simple algorithm has an approximation ratio of 1/2:[16]
+When this algorithm terminates, either all inputs are in the subset (which is obviously optimal), or there is an input that does not fit. The first such input is smaller than all previous inputs that are in the subset and the sum of inputs in the subset is more than T/2 otherwise the input also is less than T/2 and it would fit in the set. Such a sum greater than T/2  is obviously more than OPT/2.
+The following algorithm attains, for every 
+
+
+ϵ
+>
+0
+
+\epsilon >0
+
+, an approximation ratio of 
+
+
+(
+1
+−
+ϵ
+)
+
+(1-\epsilon )
+
+. Its run time is polynomial in n and 
+
+
+1
+
+/
+
+ϵ
+
+1/\epsilon
+
+. Recall that n is the number of inputs and T is the upper bound to the subset sum.
+Note that without the trimming step (the inner "for each" loop), the list L would contain the sums of all 
+
+
+2
+
+n
+
+
+2^{n}
+
+ subsets of inputs. The trimming step does two things:
+These properties together guarantee that the list L contains no more than 
+
+
+n
+
+/
+
+ϵ
+
+n/\epsilon
+
+ elements; therefore the run-time is polynomial in 
+
+
+n
+
+/
+
+ϵ
+
+n/\epsilon
+
+.
+When the algorithm ends, if the optimal sum is in L, then it is returned and we are done. Otherwise, it must have been removed in a previous trimming step.  Each trimming step introduces an additive error of at most 
+
+
+
+ϵ
+T
+
+/
+
+n
+
+
+{\displaystyle \epsilon T/n}
+
+,  so n steps together introduce an error of at most 
+
+
+
+ϵ
+T
+
+
+{\displaystyle \epsilon T}
+
+. Therefore, the returned solution is at least 
+
+
+
+
+OPT
+
+−
+ϵ
+T
+
+
+{\displaystyle {\text{OPT}}-\epsilon T}
+
+ which is at least 
+
+
+
+(
+1
+−
+ϵ
+)
+
+OPT
+
+
+
+{\displaystyle (1-\epsilon ){\text{OPT}}}
+
+ .
+The above algorithm provides an exact solution to SSP in the case that the input numbers are small (and non-negative). If any sum of the numbers can be specified with at most P bits, then solving the problem approximately with 
+
+
+
+ϵ
+=
+
+2
+
+−
+P
+
+
+
+
+{\displaystyle \epsilon =2^{-P}}
+
+ is equivalent to solving it exactly. Then, the polynomial time algorithm for approximate subset sum becomes an exact algorithm with running time polynomial in n and 
+
+
+2
+
+P
+
+
+2^{P}
+
+ (i.e., exponential in P).
+Kellerer, Mansini, Pferschy and Speranza[17] and Kellerer, Pferschy and Pisinger[18] present other FPTAS-s for subset sum.
+
+

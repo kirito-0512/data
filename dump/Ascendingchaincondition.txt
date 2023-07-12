@@ -1,0 +1,110 @@
+20982,
+Ascendingchaincondition,
+In mathematics, the ascending chain condition (ACC) and descending chain condition (DCC) are finiteness properties satisfied by some algebraic structures, most importantly ideals in certain commutative rings.[1][2][3] These conditions played an important role in the development of the structure theory of commutative rings in the works of David Hilbert, Emmy Noether, and Emil Artin.
+The conditions themselves can be stated in an abstract form, so that they make sense for any partially ordered set. This point of view is useful in abstract algebraic dimension theory due to Gabriel and Rentschler.
+A partially ordered set (poset) P is said to satisfy the ascending chain condition (ACC) if no infinite strictly ascending sequence 
+of elements of P exists.[4] 
+Equivalently,[note 1] every weakly ascending sequence
+of elements of P eventually stabilizes, meaning that there exists a positive integer n such that
+Similarly, P is said to satisfy the descending chain condition (DCC) if there is no infinite descending chain of elements of P.[4] Equivalently, every weakly descending sequence
+of elements of P eventually stabilizes.
+Consider the ring
+of integers. Each ideal of 
+Z
+{\displaystyle \mathbb {Z} }
+ consists of all multiples of some number 
+n
+{\displaystyle n}
+. For example, the ideal
+consists of all multiples of 
+6
+{\displaystyle 6}
+. Let
+be the ideal consisting of all multiples of 
+2
+{\displaystyle 2}
+. The ideal 
+I
+{\displaystyle I}
+ is contained inside the ideal 
+J
+{\displaystyle J}
+, since every multiple of 
+6
+{\displaystyle 6}
+ is also a multiple of 
+2
+{\displaystyle 2}
+. In turn, the ideal 
+J
+{\displaystyle J}
+ is contained in the ideal 
+Z
+{\displaystyle \mathbb {Z} }
+, since every multiple of 
+2
+{\displaystyle 2}
+ is a multiple of 
+1
+{\displaystyle 1}
+. However, at this point there is no larger ideal; we have "topped out" at 
+Z
+{\displaystyle \mathbb {Z} }
+.
+In general, if 
+I
+1
+,
+I
+2
+,
+I
+3
+,
+…
+{\displaystyle I_{1},I_{2},I_{3},\dots }
+ are ideals of 
+Z
+{\displaystyle \mathbb {Z} }
+ such that 
+I
+1
+{\displaystyle I_{1}}
+ is contained in 
+I
+2
+{\displaystyle I_{2}}
+, 
+I
+2
+{\displaystyle I_{2}}
+ is contained in 
+I
+3
+{\displaystyle I_{3}}
+, and so on, then there is some 
+n
+{\displaystyle n}
+ for which all 
+I
+n
+=
+I
+n
++
+1
+=
+I
+n
++
+2
+=
+⋯
+{\displaystyle I_{n}=I_{n+1}=I_{n+2}=\cdots }
+. That is, after some point all the ideals are equal to each other. Therefore, the ideals of 
+Z
+{\displaystyle \mathbb {Z} }
+ satisfy the ascending chain condition, where ideals are ordered by set inclusion. Hence 
+Z
+{\displaystyle \mathbb {Z} }
+ is a Noetherian ring.

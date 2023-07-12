@@ -1,0 +1,24 @@
+20036,
+Metasyntacticvariable,
+A metasyntactic variable is a specific word or set of words identified as a placeholder in computer science and specifically computer programming. These words are commonly found in source code and are intended to be modified or substituted before real-world usage. For example, foo and bar are used in over 330 Internet Engineering Task Force Requests for Comments, the documents which define foundational internet technologies like HTTP (web), TCP/IP, and email protocols.[1][2]
+By mathematical analogy, a metasyntactic variable is a word that is a variable for other words, just as in algebra letters are used as variables for numbers.[1]
+Metasyntactic variables are used to name entities such as variables, functions, and commands whose exact identity is unimportant and serve only to demonstrate a concept, which is useful for teaching programming.
+Due to English being the foundation-language, or lingua franca, of most computer programming languages, these variables are commonly seen even in programs and examples of programs written for other spoken-language audiences.
+The typical names may depend however on the subculture that has developed around a given programming language.
+Metasyntactic variables used commonly across all programming languages include foobar, foo, bar, baz, qux, quux, corge, grault, garply, waldo, fred, plugh, xyzzy, and thud; several of these words are references to the game Colossal Cave Adventure.[1][3]
+A complete reference can be found in a MIT Press book titled The Hacker's Dictionary.
+In Japanese, the words hoge (ほげ)[4] and fuga (ふが) are commonly used, with other common words and variants being piyo (ぴよ), hogera (ほげら), and hogehoge (ほげほげ).[5][circular reference] The origin of hoge as a metasyntactic variable is not known, but it is believed to date to the early 1980s.[5]
+In France, the word toto is widely used, with variants tata, titi, tutu as related placeholders. One commonly-raised source for the use of toto is a reference to the stock character used to tell jokes with Tête à Toto.[citation needed]
+In the following example the function name foo and the variable name bar are both metasyntactic variables. Lines beginning with // are comments.
+Function prototypes with examples of different argument passing mechanisms:[6]
+Example showing the function overloading capabilities of the C++ language
+Spam, ham, and eggs are the principal metasyntactic variables used in the Python programming language.[7] This is a reference to the famous comedy sketch, "Spam", by Monty Python, the eponym of the language.[8]
+In the following example spam, ham, and eggs are metasyntactic variables and lines beginning with # are comments.
+Both the IETF RFCs and computer programming languages are rendered in plain text, making it necessary to distinguish metasyntactic variables by a naming convention, since it would not be obvious from context.
+Here is an example from the official IETF document explaining the e-mail protocols (from RFC 772 - cited in RFC 3092):
+(The documentation for texinfo emphasizes the distinction between metavariables and mere variables used in a programming language being documented in some texinfo file as: "Use the @var command to indicate metasyntactic variables. A metasyntactic variable is something that stands for another piece of text. For example, you should use a metasyntactic variable in the documentation of a function to describe the arguments that are passed to that function. Do not use @var for the names of particular variables in programming languages. These are specific names from a program, so @code is correct for them."[9])
+Another point reflected in the above example is the convention that a metavariable is to be uniformly substituted with the same instance in all its appearances in a given schema. This is in contrast with nonterminal symbols in formal grammars where the nonterminals on the right of a production can be substituted by different instances.[10]
+It is common to use the name ACME in example SQL Databases and as placeholder company-name for the purpose of teaching. The term 'ACME Database' is commonly used to mean a training or example-only set of database data used solely for training or testing. 
+ACME is also commonly used in documentation which shows SQL usage examples, a common practice with in many educational texts as well as technical documentation from companies such as Microsoft and Oracle.[11][12][13]
+
+

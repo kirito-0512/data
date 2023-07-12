@@ -1,0 +1,53 @@
+40646,
+Brun'stheorem,
+In number theory, Brun's theorem states that the sum of the reciprocals of the twin primes (pairs of prime numbers which differ by 2) converges to a finite value known as Brun's constant, usually denoted by B2 (sequence A065421 in the OEIS). Brun's theorem was proved by Viggo Brun in 1919, and it has historical importance in the introduction of sieve methods.
+The convergence of the sum of reciprocals of twin primes follows from bounds on the density of the sequence of twin primes.
+Let 
+π
+2
+(
+x
+)
+{\displaystyle \pi _{2}(x)}
+ denote the number of primes p ≤ x for which p + 2 is also prime (i.e. 
+π
+2
+(
+x
+)
+{\displaystyle \pi _{2}(x)}
+ is the number of twin primes with the smaller at most x). Then, for x ≥ 3, we have
+That is, twin primes are less frequent than prime numbers by nearly a logarithmic factor.
+It follows from this bound that the sum of the reciprocals of the twin primes converges, or stated in other words, the twin primes form a small set. In explicit terms, the sum
+either has finitely many terms or has infinitely many terms but is convergent: its value is known as Brun's constant.
+If it were the case that the sum diverged, then that fact would imply that there are infinitely many twin primes. Because the sum of the reciprocals of the twin primes instead converges, it is not possible to conclude from this result that there are finitely many or infinitely many twin primes. Brun's constant could be an irrational number only if there are infinitely many twin primes.
+The series converges extremely slowly. Thomas Nicely remarks that after summing the first billion (109) terms, the relative error is still more than 5%.[1]
+By calculating the twin primes up to 1014 (and discovering the Pentium FDIV bug along the way), Nicely heuristically estimated Brun's constant to be 1.902160578.[1] Nicely has extended his computation to 1.6×1015 as of 18 January 2010 but this is not the largest computation of its type.
+In 2002, Pascal Sebah and Patrick Demichel used all twin primes up to 1016 to give the estimate[2] that B2 ≈ 1.902160583104. Hence,
+The last is based on extrapolation from the sum 1.830484424658... for the twin primes below 1016. Dominic Klyve showed conditionally (in an unpublished thesis) that B2 < 2.1754 (assuming the extended Riemann hypothesis). It has been shown unconditionally that B2 < 2.347.[3]
+There is also a Brun's constant for prime quadruplets. A prime quadruplet is a pair of two twin prime pairs, separated by a distance of 4 (the smallest possible distance). The first prime quadruplets are (5, 7, 11, 13), (11, 13, 17, 19), (101, 103, 107, 109). Brun's constant for prime quadruplets, denoted by B4, is the sum of the reciprocals of all prime quadruplets:
+with value:
+This constant should not be confused with the Brun's constant for cousin primes, as prime pairs of the form (p, p + 4), which is also written as B4. Wolf derived an estimate for the Brun-type sums Bn of 4/n.
+Let 
+C
+2
+=
+0.6601
+…
+{\displaystyle C_{2}=0.6601\ldots }
+ (sequence A005597 in the OEIS) be the twin prime constant. Then it is conjectured that
+In particular,
+for every 
+ε
+>
+0
+{\displaystyle \varepsilon >0}
+ and all sufficiently large x.
+Many special cases of the above have been proved.  Most recently, Jie Wu proved that for sufficiently large x,
+where 4.5 corresponds to 
+ε
+≈
+3.18
+{\displaystyle \varepsilon \approx 3.18}
+ in the above.
+The digits of Brun's constant were used in a bid of $1,902,160,540 in the Nortel patent auction. The bid was posted by Google and was one of three Google bids based on mathematical constants.[4] Furthermore, academic research on the constant ultimately resulted in the Pentium FDIV bug becoming a notable public relations fiasco for Intel.[5][6]

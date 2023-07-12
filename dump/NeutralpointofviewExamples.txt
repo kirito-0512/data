@@ -1,0 +1,23 @@
+21771,
+NeutralpointofviewExamples,
+This is a stab at creating an example section to help distinguish neutral vs non-neutral writing. I created it because the actual "Neutral Point of View" page now has an awful lot of commentary on it and it is getting difficult to get much guidance. I have tried to glean my examples on the basis of the majority opinion on that page. Feel free to dissent.
+In general, facts are items that are not known to be disputed at all by otherwise reasonable people.
+Easy ones – The following statements are legitimate statements of fact (or would be if I hadn't made them up):
+More difficult examples:
+Even more difficult example:
+(Oh, and I have no idea if the thing about Scientologists and Crick and Watson is true or not, just go with it for now.)
+If you're stuck: Go with more detail rather than less. Do not present any viewpoint as "right". Your indecisiveness will be sorted out by the other editors, have no concerns about that.
+What to do if you believe something is "ABSOLUTELY RIGHT, dammit!" You'll be pleased to know there is a forum for your profound insights and wisdom.
+Test how you are doing...
+Location: You are writing a universal encyclopedia to an international audience, so any assumption over location or "common sense" familiarity with geography should not be taken. For example: 
+Now wait a minute.. What nationality was he? It may look obvious for Britons that "Kent" refers to a county in south-east England (and more obvious that Wells was English!), but not for the rest of the world. The Kent (disambiguation) page lists other places named Kent.
+Cultural: Avoid cultural assumptions. A previous version of the article on thanksgiving didn't explain what thanksgiving actually is: it assumed the reader was familiar with the term.  Many nations have a holiday with that name.
+Measurements: Various cultures use differing standards of measurement. See Wikipedia:Manual of Style (dates and numbers), Wikipedia:Measurements Debate.
+Symbols: The $ symbol is used by over 60 countries in the world. Although '$' used alone is widely identified with the United States dollar, the other countries have as much right to employ it.  If there is any possibility of confusion, use 'US$'.  Note also that the £ symbol is used for pound currencies other than the British pound: if it would otherwise be unclear, use GB£.
+Dates: Wherever possible, use the long date format ('November 18, 2005' or '18 November 2005'). If you need to use a shorter date format, do not use the 10/4/01 format. To a British person, this means April 10, to an American this means October 4, to others it means April 1, 2010. Use the medium format (Oct 4 or Apr 10)
+Seasons:. "The summer of 1994–1995" makes perfect sense to residents of New Zealand but is likely to confuse anyone from the northern hemisphere. Try to use month names wherever possible. Some people argue that if an article is about a specific region then this should not be necessary. However I tested this on some people and frankly, "summer" has a specific meaning for most people. (For others, it means "Christmas.") Try to say June to August, and in the worst case, say "Northern summer". Also Americans use the term "fall" to describe the season between summer and winter, most of the rest of the English-speaking world calls this season "autumn".
+Try to avoid using expressions which are unique to your country, region, hemisphere.
+An example: Australians use the symbol "A$" all the time. To a non-Australian this could mean "Armenia", "Aruba"... use "Au$" or "Aus$" at first occurrence (a clearer abbreviation for Australia, using one of its ISO country codes).  Another option is the standardized abbreviation "AUD" (used without "$"). In either case, use the {{Abbr}} template to indicate the meaning at first occurrence: {{Abbr|Au$|Australian dollar}}. Same goes for any other country. In the worst case, if you are going to use an easily mistaken symbol regularly but don't want to annotate it inline for some reason, put a footnote: Please note: "$" refers to the Zimbabwean dollar unless otherwise indicated..  (See also the "Symbols" entry, above.)
+Expressions: "Joe lucked out". To one person, this means Joe had some bad luck. To others it means Joe had some good luck. To some this might not mean anything. 'Nuff said.
+
+

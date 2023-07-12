@@ -1,0 +1,673 @@
+6026,
+Countableset,
+In mathematics, a set is countable if either it is finite or it can be made in one to one correspondence with the set of natural numbers.[a] Equivalently, a set is countable if there exists an injective function from it into the natural numbers; this means that each element in the set may be associated to a unique natural number, or that the elements of the set can be counted one at a time, although the counting may never finish due to an infinite number of elements.
+In more technical terms, assuming the axiom of countable choice, a set is countable if its cardinality (the number of elements of the set) is not greater than that of the natural numbers. A countable set that is not finite is said to be countably infinite.
+The concept is attributed to Georg Cantor, who proved the existence of uncountable sets, that is, sets that are not countable; for example the set of the real numbers.
+Although the terms "countable" and "countably infinite" as defined here are quite common, the terminology is not universal.[1] An alternative style uses countable to mean what is here called countably infinite, and at most countable to mean what is here called countable.[2][3] To avoid ambiguity, one may limit oneself to the terms "at most countable" and "countably infinite", although with respect to concision this is the worst of both worlds.[citation needed] The reader is advised to check the definition in use when encountering the term "countable" in the literature.
+The terms enumerable[4] and denumerable[5][6] may also be used, e.g. referring to countable and countably infinite respectively,[7] but as definitions vary the reader is once again advised to check the definition in use.[8]
+A set 
+S
+{\displaystyle S}
+ is countable if:
+All of these definitions are equivalent.
+A set 
+S
+{\displaystyle S}
+ is countably infinite if:
+A set is uncountable if it is not countable, i.e. its cardinality is greater than 
+ℵ
+0
+{\displaystyle \aleph _{0}}
+.[9]
+In 1874, in his first set theory article, Cantor proved that the set of real numbers is uncountable, thus showing that not all infinite sets are countable.[16] In 1878, he used one-to-one correspondences to define and compare cardinalities.[17] In 1883, he extended the natural numbers with his infinite ordinals, and used sets of ordinals to produce an infinity of sets having different infinite cardinalities.[18]
+A set is a collection of elements, and may be described in many ways. One way is simply to list all of its elements; for example, the set consisting of the integers 3, 4, and 5 may be denoted 
+{
+3
+,
+4
+,
+5
+}
+{\displaystyle \{3,4,5\}}
+, called roster form.[19] This is only effective for small sets, however; for larger sets, this would be time-consuming and error-prone. Instead of listing every single element, sometimes an ellipsis ("...") is used to represent many elements between the starting element and the end element in a set, if the writer believes that the reader can easily guess what ... represents; for example, 
+{
+1
+,
+2
+,
+3
+,
+…
+,
+100
+}
+{\displaystyle \{1,2,3,\dots ,100\}}
+ presumably denotes the set of integers from 1 to 100. Even in this case, however, it is still possible to list all the elements, because the number of elements in the set is finite. If we number the elements of the set 1, 2, and so on, up to 
+n
+{\displaystyle n}
+, this gives us the usual definition of "sets of size 
+n
+{\displaystyle n}
+".
+Some sets are infinite; these sets have more than 
+n
+{\displaystyle n}
+ elements where 
+n
+{\displaystyle n}
+ is any integer that can be specified. (No matter how large the specified integer 
+n
+{\displaystyle n}
+ is, such as 
+n
+=
+10
+1000
+{\displaystyle n=10^{1000}}
+, infinite sets have more than 
+n
+{\displaystyle n}
+ elements.) For example, the set of natural numbers, denotable by 
+{
+0
+,
+1
+,
+2
+,
+3
+,
+4
+,
+5
+,
+…
+}
+{\displaystyle \{0,1,2,3,4,5,\dots \}}
+,[a] has infinitely many elements, and we cannot use any natural number to give its size. It might seem natural to divide the sets into different classes: put all the sets containing one element together; all the sets containing two elements together; ...; finally, put together all infinite sets and consider them as having the same size. This view works well for countably infinite sets and was the prevailing assumption before Georg Cantor's work. For example, there are infinitely many odd integers, infinitely many even integers, and also infinitely many integers overall. We can consider all these sets to have the same "size" because we can arrange things such that, for every integer, there is a distinct even integer:
+…
+−
+2
+→
+−
+4
+,
+−
+1
+→
+−
+2
+,
+0
+→
+0
+,
+1
+→
+2
+,
+2
+→
+4
+⋯
+{\displaystyle \ldots \,-\!2\!\rightarrow \!-\!4,\,-\!1\!\rightarrow \!-\!2,\,0\!\rightarrow \!0,\,1\!\rightarrow \!2,\,2\!\rightarrow \!4\,\cdots }
+or, more generally, 
+n
+→
+2
+n
+{\displaystyle n\rightarrow 2n}
+ (see picture). What we have done here is arrange the integers and the even integers into a one-to-one correspondence (or bijection), which is a function that maps between two sets such that each element of each set corresponds to a single element in the other set. This mathematical notion of "size", cardinality, is that two sets are of the same size if and only if there is a bijection between them. We call all sets that are in one-to-one correspondence with the integers countably infinite and say they have cardinality 
+ℵ
+0
+{\displaystyle \aleph _{0}}
+.
+Georg Cantor showed that not all infinite sets are countably infinite. For example, the real numbers cannot be put into one-to-one correspondence with the natural numbers (non-negative integers). The set of real numbers has a greater cardinality than the set of natural numbers and is said to be uncountable.
+By definition, a set 
+S
+{\displaystyle S}
+ is countable if there exists a bijection between 
+S
+{\displaystyle S}
+ and a subset of the natural numbers 
+N
+=
+{
+0
+,
+1
+,
+2
+,
+…
+}
+{\displaystyle \mathbb {N} =\{0,1,2,\dots \}}
+. For example, define the correspondence
+a
+↔
+1
+,
+ 
+b
+↔
+2
+,
+ 
+c
+↔
+3
+{\displaystyle a\leftrightarrow 1,\ b\leftrightarrow 2,\ c\leftrightarrow 3}
+Since every element of 
+S
+=
+{
+a
+,
+b
+,
+c
+}
+{\displaystyle S=\{a,b,c\}}
+ is paired with precisely one element of 
+{
+1
+,
+2
+,
+3
+}
+{\displaystyle \{1,2,3\}}
+, and vice versa, this defines a bijection, and shows that 
+S
+{\displaystyle S}
+ is countable. Similarly we can show all finite sets are countable.
+As for the case of infinite sets, a set 
+S
+{\displaystyle S}
+ is countably infinite if there is a bijection between 
+S
+{\displaystyle S}
+ and all of 
+N
+{\displaystyle \mathbb {N} }
+. As examples, consider the sets 
+A
+=
+{
+1
+,
+2
+,
+3
+,
+…
+}
+{\displaystyle A=\{1,2,3,\dots \}}
+, the set of positive integers, and 
+B
+=
+{
+0
+,
+2
+,
+4
+,
+6
+,
+…
+}
+{\displaystyle B=\{0,2,4,6,\dots \}}
+, the set of even integers. We can show these sets are countably infinite by exhibiting a bijection to the natural numbers. This can be achieved using the assignments 
+n
+↔
+n
++
+1
+{\displaystyle n\leftrightarrow n+1}
+ and 
+n
+↔
+2
+n
+{\displaystyle n\leftrightarrow 2n}
+, so that
+0
+↔
+1
+,
+1
+↔
+2
+,
+2
+↔
+3
+,
+3
+↔
+4
+,
+4
+↔
+5
+,
+…
+0
+↔
+0
+,
+1
+↔
+2
+,
+2
+↔
+4
+,
+3
+↔
+6
+,
+4
+↔
+8
+,
+…
+{\displaystyle {\begin{matrix}0\leftrightarrow 1,&1\leftrightarrow 2,&2\leftrightarrow 3,&3\leftrightarrow 4,&4\leftrightarrow 5,&\ldots \\[6pt]0\leftrightarrow 0,&1\leftrightarrow 2,&2\leftrightarrow 4,&3\leftrightarrow 6,&4\leftrightarrow 8,&\ldots \end{matrix}}}
+Every countably infinite set is countable, and every infinite countable set is countably infinite. Furthermore, any subset of the natural numbers is countable, and more generally:
+Theorem — A subset of a countable set is countable.[20]
+The set of all ordered pairs of natural numbers (the Cartesian product of two sets of natural numbers, 
+N
+×
+N
+{\displaystyle \mathbb {N} \times \mathbb {N} }
+ is countably infinite, as can be seen by following a path like the one in the picture:  The resulting mapping proceeds as follows:
+0
+↔
+(
+0
+,
+0
+)
+,
+1
+↔
+(
+1
+,
+0
+)
+,
+2
+↔
+(
+0
+,
+1
+)
+,
+3
+↔
+(
+2
+,
+0
+)
+,
+4
+↔
+(
+1
+,
+1
+)
+,
+5
+↔
+(
+0
+,
+2
+)
+,
+6
+↔
+(
+3
+,
+0
+)
+,
+…
+{\displaystyle 0\leftrightarrow (0,0),1\leftrightarrow (1,0),2\leftrightarrow (0,1),3\leftrightarrow (2,0),4\leftrightarrow (1,1),5\leftrightarrow (0,2),6\leftrightarrow (3,0),\ldots }
+This mapping covers all such ordered pairs.
+This form of triangular mapping recursively generalizes to 
+n
+{\displaystyle n}
+-tuples of natural numbers, i.e., 
+(
+a
+1
+,
+a
+2
+,
+a
+3
+,
+…
+,
+a
+n
+)
+{\displaystyle (a_{1},a_{2},a_{3},\dots ,a_{n})}
+ where 
+a
+i
+{\displaystyle a_{i}}
+ and 
+n
+{\displaystyle n}
+ are natural numbers, by repeatedly mapping the first two elements of an 
+n
+{\displaystyle n}
+-tuple to a natural number. For example, 
+(
+0
+,
+2
+,
+3
+)
+{\displaystyle (0,2,3)}
+ can be written as 
+(
+(
+0
+,
+2
+)
+,
+3
+)
+{\displaystyle ((0,2),3)}
+. Then 
+(
+0
+,
+2
+)
+{\displaystyle (0,2)}
+ maps to 5 so 
+(
+(
+0
+,
+2
+)
+,
+3
+)
+{\displaystyle ((0,2),3)}
+ maps to 
+(
+5
+,
+3
+)
+{\displaystyle (5,3)}
+, then 
+(
+5
+,
+3
+)
+{\displaystyle (5,3)}
+ maps to 39. Since a different 2-tuple, that is a pair such as 
+(
+a
+,
+b
+)
+{\displaystyle (a,b)}
+, maps to a different natural number, a difference between two n-tuples by a single element is enough to ensure the n-tuples being mapped to different natural numbers. So, an injection from the set of 
+n
+{\displaystyle n}
+-tuples to the set of natural numbers 
+N
+{\displaystyle \mathbb {N} }
+ is proved. For the set of 
+n
+{\displaystyle n}
+-tuples made by the Cartesian product of finitely many different sets, each element in each tuple has the correspondence to a natural number, so every tuple can be written in natural numbers then the same logic is applied to prove the theorem.
+Theorem — The Cartesian product of finitely many countable sets is countable.[21][b]
+The set of all integers 
+Z
+{\displaystyle \mathbb {Z} }
+ and the set of all rational numbers 
+Q
+{\displaystyle \mathbb {Q} }
+ may intuitively seem much bigger than 
+N
+{\displaystyle \mathbb {N} }
+. But looks can be deceiving. If a pair is treated as the numerator and denominator of a vulgar fraction (a fraction in the form of 
+a
+/
+b
+{\displaystyle a/b}
+ where 
+a
+{\displaystyle a}
+ and 
+b
+≠
+0
+{\displaystyle b\neq 0}
+ are integers), then for every positive fraction, we can come up with a distinct natural number corresponding to it. This representation also includes the natural numbers, since every natural number 
+n
+{\displaystyle n}
+ is also a fraction 
+n
+/
+1
+{\displaystyle n/1}
+. So we can conclude that there are exactly as many positive rational numbers as there are positive integers. This is also true for all rational numbers, as can be seen below.
+Theorem — 
+Z
+{\displaystyle \mathbb {Z} }
+ (the set of all integers) and 
+Q
+{\displaystyle \mathbb {Q} }
+ (the set of all rational numbers) are countable.[c]
+In a similar manner, the set of algebraic numbers is countable.[23][d]
+Sometimes more than one mapping is useful: a set 
+A
+{\displaystyle A}
+ to be shown as countable is one-to-one mapped (injection) to another set 
+B
+{\displaystyle B}
+, then 
+A
+{\displaystyle A}
+ is proved as countable if 
+B
+{\displaystyle B}
+ is one-to-one mapped to the set of natural numbers. For example, the set of positive rational numbers can easily be one-to-one mapped to the set of natural number pairs (2-tuples) because 
+p
+/
+q
+{\displaystyle p/q}
+ maps to 
+(
+p
+,
+q
+)
+{\displaystyle (p,q)}
+. Since the set of natural number pairs is one-to-one mapped (actually one-to-one correspondence or bijection) to the set of natural numbers as shown above, the positive rational number set is proved as countable.
+Theorem — Any finite union of countable sets is countable.[24][25][e]
+With the foresight of knowing that there are uncountable sets, we can wonder whether or not this last result can be pushed any further. The answer is "yes" and "no", we can extend it, but we need to assume a new axiom to do so.
+Theorem — (Assuming the axiom of countable choice) The union of countably many countable sets is countable.[f]
+For example, given countable sets 
+a
+,
+b
+,
+c
+,
+…
+{\displaystyle {\textbf {a}},{\textbf {b}},{\textbf {c}},\dots }
+, we first assign each element of each set a tuple, then we assign each tuple an index using a variant of the triangular enumeration we saw above:
+Index
+Tuple
+Element
+0
+(
+0
+,
+0
+)
+a
+0
+1
+(
+0
+,
+1
+)
+a
+1
+2
+(
+1
+,
+0
+)
+b
+0
+3
+(
+0
+,
+2
+)
+a
+2
+4
+(
+1
+,
+1
+)
+b
+1
+5
+(
+2
+,
+0
+)
+c
+0
+6
+(
+0
+,
+3
+)
+a
+3
+7
+(
+1
+,
+2
+)
+b
+2
+8
+(
+2
+,
+1
+)
+c
+1
+9
+(
+3
+,
+0
+)
+d
+0
+10
+(
+0
+,
+4
+)
+a
+4
+⋮
+{\displaystyle {\begin{array}{c|c|c }{\text{Index}}&{\text{Tuple}}&{\text{Element}}\\\hline 0&(0,0)&{\textbf {a}}_{0}\\1&(0,1)&{\textbf {a}}_{1}\\2&(1,0)&{\textbf {b}}_{0}\\3&(0,2)&{\textbf {a}}_{2}\\4&(1,1)&{\textbf {b}}_{1}\\5&(2,0)&{\textbf {c}}_{0}\\6&(0,3)&{\textbf {a}}_{3}\\7&(1,2)&{\textbf {b}}_{2}\\8&(2,1)&{\textbf {c}}_{1}\\9&(3,0)&{\textbf {d}}_{0}\\10&(0,4)&{\textbf {a}}_{4}\\\vdots &&\end{array}}}
+We need the axiom of countable choice to index all the sets 
+a
+,
+b
+,
+c
+,
+…
+{\displaystyle {\textbf {a}},{\textbf {b}},{\textbf {c}},\dots }
+ simultaneously.
+Theorem — The set of all finite-length sequences of natural numbers is countable.
+This set is the union of the length-1 sequences, the length-2 sequences, the length-3 sequences, each of which is a countable set (finite Cartesian product). So we are talking about a countable union of countable sets, which is countable by the previous theorem.
+Theorem — The set of all finite subsets of the natural numbers is countable.
+The elements of any finite subset can be ordered into a finite sequence. There are only countably many finite sequences, so also there are only countably many finite subsets.
+Theorem — Let 
+S
+{\displaystyle S}
+ and 
+T
+{\displaystyle T}
+ be sets.
+These follow from the definitions of countable set as injective / surjective functions.[g]
+Cantor's theorem asserts that if 
+A
+{\displaystyle A}
+ is a set and 
+P
+(
+A
+)
+{\displaystyle {\mathcal {P}}(A)}
+ is its power set, i.e. the set of all subsets of 
+A
+{\displaystyle A}
+, then there is no surjective function from 
+A
+{\displaystyle A}
+ to 
+P
+(
+A
+)
+{\displaystyle {\mathcal {P}}(A)}
+. A proof is given in the article Cantor's theorem. As an immediate consequence of this and the Basic Theorem above we have:
+Proposition — The set 
+P
+(
+N
+)
+{\displaystyle {\mathcal {P}}(\mathbb {N} )}
+ is not countable; i.e. it is uncountable.
+For an elaboration of this result see Cantor's diagonal argument.
+The set of real numbers is uncountable,[h] and so is the set of all infinite sequences of natural numbers.
+If there is a set that is a standard model (see inner model) of ZFC set theory, then there is a minimal standard model (see Constructible universe). The Löwenheim–Skolem theorem can be used to show that this minimal model is countable. The fact that the notion of "uncountability" makes sense even in this model, and in particular that this model M contains elements that are:
+was seen as paradoxical in the early days of set theory, see Skolem's paradox for more.
+The minimal standard model includes all the algebraic numbers and all effectively computable transcendental numbers, as well as many other kinds of numbers.
+Countable sets can be totally ordered in various ways, for example:
+In both examples of well orders here, any subset has a least element; and in both examples of non-well orders, some subsets do not have a least element.
+This is the key definition that determines whether a total order is also a well order.

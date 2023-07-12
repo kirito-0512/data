@@ -1,0 +1,239 @@
+8361,
+Definablerealnumber,
+Informally, a definable real number is a real number that can be uniquely specified by its description.  The description may be expressed as a construction or as a formula of a formal language. For example, the positive square root of 2, 
+2
+{\displaystyle {\sqrt {2}}}
+, can be defined as the unique positive solution to the equation 
+x
+2
+=
+2
+{\displaystyle x^{2}=2}
+, and it can be constructed with a compass and straightedge.
+Different choices of a formal language or its interpretation give rise to different notions of definability.  Specific varieties of definable numbers include the  constructible numbers of geometry, the algebraic numbers, and the computable numbers. Because formal languages can have only countably many formulas, every notion of definable numbers has at most countably many definable real numbers. However, by Cantor's diagonal argument, there are uncountably many real numbers, so almost every real number is undefinable.
+One way of specifying a real number uses geometric techniques. A real number 
+r
+{\displaystyle r}
+ is a constructible number if there is a method to construct a line segment of length 
+r
+{\displaystyle r}
+ using a compass and straightedge, beginning with a fixed line segment of length 1.
+Each positive integer, and each positive rational number, is constructible. The positive square root of 2 is constructible.  However, the cube root of 2 is not constructible; this is related to the impossibility of doubling the cube.
+A real number 
+r
+{\displaystyle r}
+ is called a real algebraic number if there is a polynomial 
+p
+(
+x
+)
+{\displaystyle p(x)}
+, with only integer coefficients, so that 
+r
+{\displaystyle r}
+ is a root of 
+p
+{\displaystyle p}
+, that is, 
+p
+(
+r
+)
+=
+0
+{\displaystyle p(r)=0}
+.  
+Each real algebraic number can be defined individually using the order relation on the reals. For example, if a polynomial 
+q
+(
+x
+)
+{\displaystyle q(x)}
+ has 5 real roots, the third one can be defined as the unique 
+r
+{\displaystyle r}
+ such that 
+q
+(
+r
+)
+=
+0
+{\displaystyle q(r)=0}
+ and such that there are two distinct numbers less than 
+r
+{\displaystyle r}
+ at which 
+q
+{\displaystyle q}
+ is zero.
+All rational numbers are algebraic, and all constructible numbers are algebraic.  There are numbers such as the cube root of 2 which are algebraic but not constructible.
+The real algebraic numbers form a subfield of the real numbers. This means that 0 and 1 are algebraic numbers and, moreover, if 
+a
+{\displaystyle a}
+ and 
+b
+{\displaystyle b}
+ are algebraic numbers, then so are 
+a
++
+b
+{\displaystyle a+b}
+, 
+a
+−
+b
+{\displaystyle a-b}
+, 
+a
+b
+{\displaystyle ab}
+ and, if 
+b
+{\displaystyle b}
+ is nonzero, 
+a
+/
+b
+{\displaystyle a/b}
+.
+The real algebraic numbers also have the property, which goes beyond being a subfield of the reals, that for each positive integer 
+n
+{\displaystyle n}
+ and each real algebraic number 
+a
+{\displaystyle a}
+, all of the 
+n
+{\displaystyle n}
+th roots of 
+a
+{\displaystyle a}
+ that are real numbers are also algebraic.
+There are only countably many algebraic numbers, but there are uncountably many real numbers, so in the sense of cardinality most real numbers are not algebraic.  This nonconstructive proof that not all real numbers are algebraic was first published by
+Georg Cantor in his 1874 paper "On a Property of the Collection of All Real Algebraic Numbers".
+Non-algebraic numbers are called transcendental numbers. The best known transcendental numbers are π and e.
+A real number is a computable number if there is an algorithm that, given a natural number 
+n
+{\displaystyle n}
+, produces a decimal expansion for the number accurate to 
+n
+{\displaystyle n}
+ decimal places.  This notion was introduced by Alan Turing in 1936.[1]
+The computable numbers include the algebraic numbers along with many transcendental numbers including 
+π
+{\displaystyle \pi }
+ and 
+e
+{\displaystyle e}
+. Like the algebraic numbers, the computable numbers also form a subfield of the real numbers, and the positive computable numbers are closed under taking 
+n
+{\displaystyle n}
+th roots for each positive 
+n
+{\displaystyle n}
+.
+Not all real numbers are computable.  Specific examples of noncomputable real numbers include the limits of Specker sequences, and algorithmically random real numbers such as Chaitin's Ω numbers.
+Another notion of definability comes from the formal theories of arithmetic, such as Peano arithmetic. The language of arithmetic has symbols for 0, 1, the successor operation, addition, and multiplication, intended to be interpreted in the usual way over the natural numbers. Because no variables of this language range over the real numbers, a different sort of definability is needed to refer to real numbers. A real number 
+a
+{\displaystyle a}
+ is definable in the language of arithmetic (or arithmetical) if its Dedekind cut can be defined as a predicate in that language; that is, if there is a first-order formula 
+φ
+{\displaystyle \varphi }
+ in the language of arithmetic, with three free variables, such that
+∀
+m
+∀
+n
+∀
+p
+(
+φ
+(
+n
+,
+m
+,
+p
+)
+⟺
+(
+−
+1
+)
+p
+⋅
+n
+m
++
+1
+<
+a
+)
+.
+{\displaystyle \forall m\,\forall n\,\forall p\left(\varphi (n,m,p)\iff {\frac {(-1)^{p}\cdot n}{m+1}}<a\right).}
+Here m, n, and p range over nonnegative integers.
+The second-order language of arithmetic is the same as the first-order language, except that variables and quantifiers are allowed to range over sets of naturals. A real that is second-order definable in the language of arithmetic is called analytical.
+Every computable real number is arithmetical, and the arithmetical numbers form a subfield of the reals, as do the analytical numbers. Every arithmetical number is analytical, but not every analytical number is arithmetical. Because there are only countably many analytical numbers, most real numbers are not analytical, and thus also not arithmetical.
+Every computable number is arithmetical, but not every arithmetical number is computable. For example, the limit of a Specker sequence is an arithmetical number that is not computable.
+The definitions of arithmetical and analytical reals can be stratified into the arithmetical hierarchy and analytical hierarchy. In general, a real is computable if and only if its Dedekind cut is at level 
+Δ
+1
+0
+{\displaystyle \Delta _{1}^{0}}
+ of the arithmetical hierarchy, one of the lowest levels.  Similarly, the reals with arithmetical Dedekind cuts form the lowest level of the analytical hierarchy.
+A real number 
+a
+{\displaystyle a}
+ is first-order definable in the language of set theory, without parameters, if there is a formula 
+φ
+{\displaystyle \varphi }
+ in the language of set theory, with one free variable, such that 
+a
+{\displaystyle a}
+ is the unique real number such that 
+φ
+(
+a
+)
+{\displaystyle \varphi (a)}
+ holds.[2]  This notion cannot be expressed as a formula in the language of set theory.
+All analytical numbers, and in particular all computable numbers, are definable in the language of set theory. Thus the real numbers definable in the language of set theory include all familiar real numbers such as 0, 1, 
+π
+{\displaystyle \pi }
+, 
+e
+{\displaystyle e}
+, et cetera, along with all algebraic numbers. Assuming that they form a set in the model, the real numbers definable in the language of set theory over a particular model of ZFC form a field. 
+Each set model 
+M
+{\displaystyle M}
+ of ZFC set theory that contains uncountably many real numbers must contain real numbers that are not definable within 
+M
+{\displaystyle M}
+ (without parameters). This follows from the fact that there are only countably many formulas, and so only countably many elements of 
+M
+{\displaystyle M}
+ can be definable over 
+M
+{\displaystyle M}
+.  Thus, if 
+M
+{\displaystyle M}
+ has uncountably many real numbers, one can prove from "outside" 
+M
+{\displaystyle M}
+ that not every real number of 
+M
+{\displaystyle M}
+ is definable over 
+M
+{\displaystyle M}
+.  
+This argument becomes more problematic if it is applied to class models of ZFC, such as the von Neumann universe. The assertion "the real number 
+x
+{\displaystyle x}
+ is definable over the class model 
+N
+{\displaystyle N}
+" cannot be expressed as a formula of ZFC.[3][4] Similarly, the question of whether the von Neumann universe contains real numbers that it cannot define cannot be expressed as a sentence in the language of ZFC. Moreover, there are countable models of ZFC in which all real numbers, all sets of real numbers, functions on the reals, etc. are definable.[3][4]

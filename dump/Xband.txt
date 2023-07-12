@@ -1,0 +1,36 @@
+34140,
+Xband,
+The X band is the designation for a band of frequencies in the microwave radio region of the electromagnetic spectrum. In some cases, such as in communication engineering, the frequency range of the X band is rather indefinitely set at approximately 7.0–11.2 GHz.[citation needed] In radar engineering, the frequency range is specified by the Institute of Electrical and Electronics Engineers (IEEE) as 8.0–12.0 GHz. The X band is used for radar, satellite communication, and wireless computer networks.
+X band is used in radar applications including continuous-wave, pulsed, single-polarization, dual-polarization, synthetic aperture radar, and phased arrays. X band radar frequency sub-bands are used in civil, military, and government institutions for weather monitoring, air traffic control, maritime vessel traffic control, defense tracking, and vehicle speed detection for law enforcement.[1]
+X band is often used in modern radars. The shorter wavelengths of the X band allow for higher resolution imagery from high-resolution imaging radars for target identification and discrimination.
+X band 10.15 to 10.7 GHz segment is used for terrestrial broadband in many countries, such as Brazil, Mexico, Saudi Arabia, Denmark, Ukraine, Spain and Ireland.[2] Alvarion, CBNL, CableFree and Ogier make systems for this, though each has a proprietary airlink.   DOCSIS (Data Over Cable Service Interface Specification) the standard used for providing cable internet to customers, uses some X band frequencies.   The home / Business CPE has a single coaxial cable with a power adapter connecting to an ordinary cable modem. The local oscillator is usually 9750 MHz, the same as for Ku band satellite TV LNB. Two way applications such as broadband typically use a 350 MHz TX offset.
+Portions of the X band are assigned by the International Telecommunication Union (ITU) exclusively for deep space telecommunications. The primary user of this allocation is the American NASA Deep Space Network (DSN)[citation needed]. DSN facilities are  in Goldstone, California (in the Mojave Desert), near Canberra, Australia, and near Madrid, Spain.
+These three stations, located approximately 120 degrees apart in longitude, provide continual communications from the Earth to almost any point in the Solar System independent of Earth rotation. DSN stations are capable of using the older and lower S band deep-space radio communications allocations, and some higher frequencies on a more-or-less experimental basis, such as in the K band.
+Notable deep space probe programs that have employed X band communications include the Viking Mars landers; the Voyager missions to Jupiter, Saturn, and beyond; the Galileo Jupiter orbiter; the New Horizons mission to Pluto and the Kuiper belt, the Curiosity rover and the Cassini-Huygens Saturn orbiter.[3]
+The new European double Mars Mission ExoMars will also use X band communication, on the instrument LaRa, to study the internal structure of Mars, and to make precise measurements of the rotation and orientation of Mars by monitoring two-way Doppler frequency shifts between the surface platform and Earth. It will also detect variations in angular momentum due to the redistribution of masses, such as the migration of ice from the polar caps to the atmosphere.
+An important use of the X band communications came with the two Viking program landers. When the planet Mars was passing near or behind the Sun, as seen from the Earth, a Viking lander would transmit two simultaneous continuous-wave carriers, one in the S band and one in the X band in the direction of the Earth, where they were picked up by DSN ground stations. By making simultaneous measurements at the two different frequencies, the resulting data enabled theoretical physicists to verify the mathematical predictions of Albert Einstein's General Theory of Relativity. These results are some of the best confirmations of the General Theory of Relativity.
+The International Telecommunication Union (ITU), the international body which allocates radio frequencies for civilian use, is not  authorised to allocate frequency bands for military radio communication.  This is also the case pertaining to X band military communications satellites. However, in order to meet military radio spectrum requirements, e.g. for fixed-satellite service and mobile-satellite service, the NATO nations negotiated the NATO Joint Civil/Military Frequency Agreement (NJFA).[4]
+2. 7250-7300 MHz is paired with 7975-8025 MHz for the MOBILE-SATELLlTE allocation.3. The FIXED and MOBILE services are not to be implemented in the band 7250-7300 MHz in most NATO countries, including ITU Region 2.4. In the band 7300-7750 MHz the transportable earth stations cannot claim protection
+from the other services.
+The Radio Regulations of the International Telecommunication Union allow amateur radio operations in the frequency range 10.000 to 10.500 GHz,[5] and amateur satellite operations are allowed in the range 10.450 to 10.500 GHz.  This is known as the 3-centimeter band by amateurs and the X-band by AMSAT.
+Motion detectors often use 10.525 GHz.[6]  10.4 GHz is proposed for traffic light crossing detectors.
+Comreg in Ireland has allocated 10.450 GHz for Traffic Sensors as SRD.[7]
+Many electron paramagnetic resonance (EPR) spectrometers operate near 9.8 GHz.
+Particle accelerators may be powered by X-band RF sources. The frequencies are then standardized at 11.9942 GHz (Europe) or 11.424 GHz (US),[8][9] which is the second harmonic of C-band and fourth harmonic of S-band. The European X-band frequency is used for the Compact Linear Collider (CLIC).
+ELF    3 Hz/100 Mm    30 Hz/10 Mm
+SLF   30 Hz/10 Mm    300 Hz/1 Mm
+ULF  300 Hz/1 Mm       3 kHz/100 km
+VLF    3 kHz/100 km   30 kHz/10 km
+LF   30 kHz/10 km   300 kHz/1 km
+MF  300 kHz/1 km      3 MHz/100 m
+HF    3 MHz/100 m    30 MHz/10 m
+VHF   30 MHz/10 m    300 MHz/1 m
+UHF  300 MHz/1 m       3 GHz/100 mm
+SHF    3 GHz/100 mm   30 GHz/10 mm
+EHF   30 GHz/10 mm   300 GHz/1 mm
+THF  300 GHz/1 mm      3 THz/0.1 mm
+
+
+
+Information box
+{'Frequency range': '8.0 – 12.0 GHz', 'Wavelength range': '3.75 – 2.5 cm', 'Related bands': 'I / J bands (NATO)\nSHF (ITU)'}

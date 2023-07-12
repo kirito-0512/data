@@ -1,0 +1,400 @@
+24977,
+Product(mathematics),
+In mathematics, a product is the result of multiplication, or an expression that identifies objects (numbers or variables) to be multiplied, called factors. For example, 21 is the product of 3 and 7 (the result of multiplication), and 
+
+
+x
+⋅
+(
+2
++
+x
+)
+
+x\cdot (2+x)
+
+ is the product of 
+
+x
+x
+
+ and 
+
+
+(
+2
++
+x
+)
+
+(2+x)
+
+ (indicating that the two factors should be multiplied together).
+The order in which real or complex numbers are multiplied has no bearing on the product; this is known as the commutative law of multiplication. When matrices or members of various other associative algebras are multiplied, the product usually depends on the order of the factors. Matrix multiplication, for example, is non-commutative, and so is multiplication in other algebras in general as well.
+There are many different kinds of products in mathematics: besides being able to multiply just numbers, polynomials or matrices, one can also define products on many different algebraic structures.
+The product operator for the product of a sequence is denoted by the capital Greek letter pi Π (in analogy to the use of the capital Sigma Σ as summation symbol).[1] For example, the expression 
+
+
+
+
+
+∏
+
+i
+=
+1
+
+
+6
+
+
+
+i
+
+2
+
+
+
+
+
+{\displaystyle \textstyle \prod _{i=1}^{6}i^{2}}
+
+is another way of writing 
+
+
+
+1
+⋅
+4
+⋅
+9
+⋅
+16
+⋅
+25
+⋅
+36
+
+
+{\displaystyle 1\cdot 4\cdot 9\cdot 16\cdot 25\cdot 36}
+
+.[2]
+The product of a sequence consisting of only one number is just that number itself; the product of no factors at all is known as the empty product, and is equal to 1.
+Commutative rings have a product operation.
+Residue classes in the rings 
+
+
+
+Z
+
+
+/
+
+N
+
+Z
+
+
+\mathbb {Z} /N\mathbb {Z}
+
+ can be added:
+and multiplied:
+Two functions from the reals to itself can be multiplied in another way, called the convolution.
+If
+then the integral
+is well defined and is called the convolution.
+Under the Fourier transform, convolution becomes point-wise function multiplication.
+The product of two polynomials is given by the following:
+with
+There are many different kinds of products in linear algebra. Some of these have confusingly similar names (outer product, exterior product) with very different meanings, while others have very different names (outer product, tensor product, Kronecker product) and yet convey essentially the same idea. A brief overview of these is given in the following sections.
+By the very definition of a vector space, one can form the product of any scalar with any vector, giving a map 
+
+
+
+
+R
+
+×
+V
+→
+V
+
+
+{\displaystyle \mathbb {R} \times V\rightarrow V}
+
+.
+A scalar product is a bi-linear map:
+with the following conditions, that 
+
+
+
+v
+⋅
+v
+>
+0
+
+
+{\displaystyle v\cdot v>0}
+
+ for all 
+
+
+
+0
+≠
+v
+∈
+V
+
+
+{\displaystyle 0\not =v\in V}
+
+.
+From the scalar product, one can define a norm by letting 
+
+
+
+‖
+v
+‖
+:=
+
+
+v
+⋅
+v
+
+
+
+
+{\displaystyle \|v\|:={\sqrt {v\cdot v}}}
+
+.
+The scalar product also allows one to define an angle between two vectors:
+In 
+
+n
+n
+
+-dimensional Euclidean space, the standard scalar product (called the dot product) is given by:
+The cross product of two vectors in 3-dimensions is a vector perpendicular to the two factors, with length equal to the area of the parallelogram spanned by the two factors.
+The cross product can also be expressed as the formal[a] determinant:
+A linear mapping can be defined as a function f between two vector spaces V and W with underlying field F, satisfying[3]
+If one only considers finite dimensional vector spaces, then
+in which bV and bW denote the bases of V and W, and vi denotes the component of v on bVi, and Einstein summation convention is applied.
+Now we consider the composition of two linear mappings between finite dimensional vector spaces. Let the linear mapping f map V to W, and let the linear mapping g map W to U. Then one can get
+Or in matrix form:
+in which the i-row, j-column element of F, denoted by Fij, is fji, and Gij=gji.
+The composition of more than two linear mappings can be similarly represented by a chain of matrix multiplication.
+Given two matrices
+their product is given by
+There is a relationship between the composition of linear functions and the product of two matrices. To see this, let r = dim(U), s = dim(V) and t = dim(W) be the (finite) dimensions of vector spaces U, V and W. Let 
+
+
+
+
+
+
+U
+
+
+=
+{
+
+u
+
+1
+
+
+,
+…
+,
+
+u
+
+r
+
+
+}
+
+
+{\displaystyle {\mathcal {U}}=\{u_{1},\ldots ,u_{r}\}}
+
+ be a basis of U, 
+
+
+
+
+
+
+V
+
+
+=
+{
+
+v
+
+1
+
+
+,
+…
+,
+
+v
+
+s
+
+
+}
+
+
+{\displaystyle {\mathcal {V}}=\{v_{1},\ldots ,v_{s}\}}
+
+ be a basis of V and 
+
+
+
+
+
+
+W
+
+
+=
+{
+
+w
+
+1
+
+
+,
+…
+,
+
+w
+
+t
+
+
+}
+
+
+{\displaystyle {\mathcal {W}}=\{w_{1},\ldots ,w_{t}\}}
+
+ be a basis of W. In terms of this basis, let
+
+
+
+
+A
+=
+
+M
+
+
+V
+
+
+
+
+U
+
+
+
+(
+f
+)
+∈
+
+
+R
+
+
+s
+×
+r
+
+
+
+
+{\displaystyle A=M_{\mathcal {V}}^{\mathcal {U}}(f)\in \mathbb {R} ^{s\times r}}
+
+
+be the matrix representing f : U → V and 
+
+
+
+
+B
+=
+
+M
+
+
+W
+
+
+
+
+V
+
+
+
+(
+g
+)
+∈
+
+
+R
+
+
+r
+×
+t
+
+
+
+
+{\displaystyle B=M_{\mathcal {W}}^{\mathcal {V}}(g)\in \mathbb {R} ^{r\times t}}
+
+ 
+be the matrix representing g : V → W. Then
+is the matrix representing 
+
+
+
+g
+∘
+f
+:
+U
+→
+W
+
+
+{\displaystyle g\circ f:U\rightarrow W}
+
+.
+In other words: the matrix product is the description in coordinates of the composition of linear functions.
+Given two finite dimensional vector spaces V and W, the tensor product of them can be defined as a (2,0)-tensor satisfying:
+where V* and W* denote the dual spaces of V and W.[4]
+For infinite-dimensional vector spaces, one also has the:
+The tensor product, outer product and Kronecker product all convey the same general idea.  The differences between these are that the Kronecker product is just a tensor product of matrices, with respect to a previously-fixed basis, whereas the tensor product is usually given in its intrinsic definition. The outer product is simply the Kronecker product, limited to vectors (instead of matrices).
+In general, whenever one has two mathematical objects that can be combined in a way that behaves like a linear algebra tensor product, then this can be most generally understood as the internal product of a monoidal category.  That is, the monoidal category captures precisely the meaning of a tensor product; it captures exactly the notion of why it is that tensor products behave the way they do.  More precisely, a monoidal category is the class of all things (of a given type) that have a tensor product.
+Other kinds of products in linear algebra include:
+In set theory, a Cartesian product is a mathematical operation which returns a set (or product set) from multiple sets. That is, for sets A and B, the Cartesian product A × B is the set of all ordered pairs (a, b)—where a ∈ A and b ∈ B.[5]
+The class of all things (of a given type) that have Cartesian products is called a Cartesian category. Many of these are Cartesian closed categories. Sets are an example of such objects.
+The empty product on numbers and most algebraic structures has the value of 1 (the identity element of multiplication), just like the empty sum has the value of 0 (the identity element of addition). However, the concept of the empty product is more general, and requires special treatment in logic, set theory, computer programming and category theory.
+Products over other kinds of algebraic structures include:
+A few of the above products are examples of the general notion of an internal product in a monoidal category; the rest are describable by the general notion of a product in category theory.
+All of the previous examples are special cases or examples of the general notion of a product. For the general treatment of the concept of a product, see product (category theory), which describes how to combine two objects of some kind to create an object, possibly of a different kind.  But also, in category theory, one has:
+
+
+
+Information box
+{'': ''}

@@ -1,0 +1,705 @@
+23539,
+Probabilityaxioms,
+The Kolmogorov axioms are the foundations of probability theory introduced by Russian mathematician Andrey Kolmogorov in 1933.[1] These axioms remain central and have direct contributions to mathematics, the physical sciences, and real-world probability cases.[2] An alternative approach to formalising probability, favoured by some Bayesians, is given by Cox's theorem.[3][4]
+The assumptions as to setting up the axioms can be summarised as follows: Let 
+
+
+
+(
+Ω
+,
+F
+,
+P
+)
+
+
+{\displaystyle (\Omega ,F,P)}
+
+ be a measure space with 
+
+
+
+P
+(
+E
+)
+
+
+{\displaystyle P(E)}
+
+ being the probability of some event E, and 
+
+
+
+P
+(
+Ω
+)
+=
+1
+
+
+{\displaystyle P(\Omega )=1}
+
+. Then 
+
+
+
+(
+Ω
+,
+F
+,
+P
+)
+
+
+{\displaystyle (\Omega ,F,P)}
+
+ is a probability space, with sample space 
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+
+, event space 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ and probability measure 
+
+
+
+P
+
+
+{\displaystyle P}
+
+.[1]
+The probability of an event is a non-negative real number:
+where 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is the event space. It follows that 
+
+
+
+P
+(
+E
+)
+
+
+{\displaystyle P(E)}
+
+ is always finite, in contrast with more general measure theory.  Theories which assign negative probability relax the first axiom.
+This is the assumption of unit measure: that the probability that at least one of the elementary events in the entire sample space will occur is 1
+This is the assumption of σ-additivity:
+Some authors consider merely finitely additive probability spaces, in which case one just needs an algebra of sets, rather than a σ-algebra.[5] Quasiprobability distributions in general relax the third axiom.
+From the Kolmogorov axioms, one can deduce other useful rules for studying probabilities. The proofs[6][7][8] of these rules are a very insightful procedure that illustrates the power of the third axiom, and its interaction with the remaining two axioms. Four of the immediate corollaries and their proofs are shown below:
+If A is a subset of, or equal to B, then the probability of A is less than, or equal to the probability of B.
+In order to verify the monotonicity property, we set 
+
+
+
+
+E
+
+1
+
+
+=
+A
+
+
+{\displaystyle E_{1}=A}
+
+ and 
+
+
+
+
+E
+
+2
+
+
+=
+B
+∖
+A
+
+
+{\displaystyle E_{2}=B\setminus A}
+
+, where 
+
+
+
+A
+⊆
+B
+
+
+{\displaystyle A\subseteq B}
+
+ and 
+
+
+
+
+E
+
+i
+
+
+=
+∅
+
+
+{\displaystyle E_{i}=\varnothing }
+
+ for 
+
+
+
+i
+≥
+3
+
+
+{\displaystyle i\geq 3}
+
+. From the properties of the empty set (
+
+
+
+∅
+
+
+{\displaystyle \varnothing }
+
+), it is easy to see that the sets 
+
+
+
+
+E
+
+i
+
+
+
+
+{\displaystyle E_{i}}
+
+ are pairwise disjoint and 
+
+
+
+
+E
+
+1
+
+
+∪
+
+E
+
+2
+
+
+∪
+⋯
+=
+B
+
+
+{\displaystyle E_{1}\cup E_{2}\cup \cdots =B}
+
+. Hence, we obtain from the third axiom that
+Since, by the first axiom, the left-hand side of this equation is a series of non-negative numbers, and since it converges to 
+
+
+
+P
+(
+B
+)
+
+
+{\displaystyle P(B)}
+
+ which is finite, we obtain both 
+
+
+
+P
+(
+A
+)
+≤
+P
+(
+B
+)
+
+
+{\displaystyle P(A)\leq P(B)}
+
+ and 
+
+
+
+P
+(
+∅
+)
+=
+0
+
+
+{\displaystyle P(\varnothing )=0}
+
+.
+In many cases, 
+
+
+
+∅
+
+
+{\displaystyle \varnothing }
+
+ is not the only event with probability 0.
+
+
+
+
+P
+(
+∅
+∪
+∅
+)
+=
+P
+(
+∅
+)
+
+
+{\displaystyle P(\varnothing \cup \varnothing )=P(\varnothing )}
+
+ since 
+
+
+
+∅
+∪
+∅
+=
+∅
+
+
+{\displaystyle \varnothing \cup \varnothing =\varnothing }
+
+,
+
+
+
+
+P
+(
+∅
+)
++
+P
+(
+∅
+)
+=
+P
+(
+∅
+)
+
+
+{\displaystyle P(\varnothing )+P(\varnothing )=P(\varnothing )}
+
+ by applying the third axiom to the left-hand side 
+(note 
+
+
+
+∅
+
+
+{\displaystyle \varnothing }
+
+ is disjoint with itself), and so
+
+
+
+
+P
+(
+∅
+)
+=
+0
+
+
+{\displaystyle P(\varnothing )=0}
+
+ by subtracting 
+
+
+
+P
+(
+∅
+)
+
+
+{\displaystyle P(\varnothing )}
+
+ from each side of the equation.
+
+
+
+
+P
+
+(
+
+A
+
+c
+
+
+)
+
+=
+P
+(
+Ω
+−
+A
+)
+=
+1
+−
+P
+(
+A
+)
+
+
+{\displaystyle P\left(A^{c}\right)=P(\Omega -A)=1-P(A)}
+
+
+Given 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+
+A
+
+c
+
+
+
+
+{\displaystyle A^{c}}
+
+ are mutually exclusive and that 
+
+
+
+A
+∪
+
+A
+
+c
+
+
+=
+Ω
+
+
+{\displaystyle A\cup A^{c}=\Omega }
+
+:
+
+
+
+
+P
+(
+A
+∪
+
+A
+
+c
+
+
+)
+=
+P
+(
+A
+)
++
+P
+(
+
+A
+
+c
+
+
+)
+
+
+{\displaystyle P(A\cup A^{c})=P(A)+P(A^{c})}
+
+ ... (by axiom 3)
+and,      
+
+
+
+P
+(
+A
+∪
+
+A
+
+c
+
+
+)
+=
+P
+(
+Ω
+)
+=
+1
+
+
+{\displaystyle P(A\cup A^{c})=P(\Omega )=1}
+
+                    ... (by axiom 2)
+
+
+
+
+⇒
+P
+(
+A
+)
++
+P
+(
+
+A
+
+c
+
+
+)
+=
+1
+
+
+{\displaystyle \Rightarrow P(A)+P(A^{c})=1}
+
+
+
+
+
+
+∴
+P
+(
+
+A
+
+c
+
+
+)
+=
+1
+−
+P
+(
+A
+)
+
+
+{\displaystyle \therefore P(A^{c})=1-P(A)}
+
+
+It immediately follows from the monotonicity property that
+Given the complement rule 
+
+
+
+P
+(
+
+E
+
+c
+
+
+)
+=
+1
+−
+P
+(
+E
+)
+
+
+{\displaystyle P(E^{c})=1-P(E)}
+
+ and axiom 1 
+
+
+
+P
+(
+
+E
+
+c
+
+
+)
+≥
+0
+
+
+{\displaystyle P(E^{c})\geq 0}
+
+:
+
+
+
+
+1
+−
+P
+(
+E
+)
+≥
+0
+
+
+{\displaystyle 1-P(E)\geq 0}
+
+
+
+
+
+
+⇒
+1
+≥
+P
+(
+E
+)
+
+
+{\displaystyle \Rightarrow 1\geq P(E)}
+
+
+
+
+
+
+∴
+0
+≤
+P
+(
+E
+)
+≤
+1
+
+
+{\displaystyle \therefore 0\leq P(E)\leq 1}
+
+
+Another important property is:
+This is called the addition law of probability, or the sum rule.
+That is, the probability that an event in A or B will happen is the sum of the probability of an event in A and the probability of an event in B, minus the probability of an event that is in both A and B. The proof of this is as follows:
+Firstly,
+So,
+Also,
+and eliminating 
+
+
+
+P
+(
+B
+∖
+(
+A
+∩
+B
+)
+)
+
+
+{\displaystyle P(B\setminus (A\cap B))}
+
+ from both equations gives us the desired result.
+An extension of the addition law to any number of sets is the inclusion–exclusion principle.
+Setting B to the complement Ac of A in the addition law gives
+That is, the probability that any event will not happen (or the event's complement) is 1 minus the probability that it will.
+Consider a single coin-toss, and assume that the coin will either land heads (H) or tails (T) (but not both).  No assumption is made as to whether the coin is fair.
+We may define:
+Kolmogorov's axioms imply that:
+The probability of neither heads nor tails, is 0.
+The probability of either heads or tails, is 1.
+The sum of the probability of heads and the probability of tails, is 1.
+
+

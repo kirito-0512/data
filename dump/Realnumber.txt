@@ -1,0 +1,1519 @@
+25415,
+Realnumber,
+In mathematics, a real number is a number that can be used to measure a continuous one-dimensional quantity such as a distance, duration or temperature. Here, continuous means that pairs of values can have arbitrarily small differences.[a] Every real number can be almost uniquely represented by an infinite decimal expansion.[b][1]
+The real numbers are fundamental in calculus (and more generally in all mathematics), in particular by their role in the classical definitions of limits, continuity and derivatives.[c]
+The set of real numbers is denoted R or 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+[2] and is sometimes called "the reals".[3]
+The adjective real, used in the 17th century by René Descartes, distinguishes real numbers from imaginary numbers such as the square roots of −1.[4]
+The real numbers include the rational numbers, such as the integer −5 and the fraction 4 / 3. The rest of the real numbers are called irrational numbers, and include algebraic numbers (such as the square root √2 = 1.414...) and transcendental numbers (such as π = 3.1415...).[4]
+Real numbers can be thought of as all points on a line called the number line or real line, where the points corresponding to integers (..., −2, −1, 0, 1, 2, ...) are equally spaced.
+Conversely, analytic geometry is the association of points on lines (especially axis lines) to real numbers such that geometric displacements are proportional to differences between corresponding numbers.
+The informal descriptions above of the real numbers are not sufficient for ensuring the correctness of proofs of theorems involving real numbers. The realization that a better definition was needed, and the elaboration of such a definition was a major development of 19th-century mathematics and is the foundation of real analysis, the study of real functions and real-valued sequences. A current axiomatic definition is that real numbers form the unique (up to an isomorphism) Dedekind-complete ordered field.[d] Other common definitions of real numbers include equivalence classes of Cauchy sequences (of rational numbers), Dedekind cuts, and infinite decimal representations. All these definitions satisfy the axiomatic definition and are thus equivalent.
+Real numbers are completely characterized by their fundamental properties that can be summarized by saying that they form an ordered field that is Dedekind complete. Here, "completely characterized" means that there is a unique isomorphism between any two Dedekind complete ordered fields, and thus that their elements have exactly the same properties. This implies that one can manipulate real numbers and compute with them, without knowing how they can be defined; this is what mathematicians and physicists did during several centuries before the first formal definitions were provided in the second half of the 19th century. See Construction of the real numbers for details about these formal definitions and the proof of their equivalence.
+The real numbers form an ordered field. Intuitively, this means that methods and rules of elementary arithmetic apply to them. More precisely, there are two binary operations, addition and multiplication, and a total order that have the following properties.
+Many other properties can be deduced from the above ones. In particular:
+Several other operations are commonly used, which can be deduced from the above ones.
+The total order that is considered above is denoted 
+
+
+
+a
+<
+b
+
+
+{\displaystyle a<b}
+
+ and read as "a is less than b". Three other order relations are also commonly used:
+The real numbers 0 and 1 are commonly identified with the natural numbers 0 and 1. This allows identifying any natural number n with the sum of n real numbers equal to 1.
+This identification can be pursued by identifying a negative integer 
+
+
+
+−
+n
+
+
+{\displaystyle -n}
+
+ (where 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ is a natural number) with the additive inverse 
+
+
+
+−
+n
+
+
+{\displaystyle -n}
+
+ of the real number identified with 
+
+
+
+n
+.
+
+
+{\displaystyle n.}
+
+ Similarly a rational number 
+
+
+
+p
+
+/
+
+q
+
+
+{\displaystyle p/q}
+
+ (where p and q are integers and 
+
+
+
+q
+≠
+0
+
+
+{\displaystyle q\neq 0}
+
+) is identified with the division of the real numbers identified with p and q.
+These identifications make the set 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ of the rational numbers an ordered subfield of the real numbers 
+
+
+
+
+R
+
+.
+
+
+{\displaystyle \mathbb {R} .}
+
+ The Dedekind completeness described below implies that some real numbers, such as 
+
+
+
+
+
+2
+
+
+,
+
+
+{\displaystyle {\sqrt {2}},}
+
+ are not rational numbers; they are called irrational numbers.
+The above identifications make sense, since natural numbers, integers and real numbers are generally not defined by their individual nature, but by defining properties (axioms). So, the identification of natural numbers with some real numbers is justified by the fact that Peano axioms are satisfied by these real numbers, with the addition with 1 taken as the successor function.
+Formally, one has a injective homomorphism of ordered monoids from the natural numbers 
+
+
+
+
+N
+
+
+
+{\displaystyle \mathbb {N} }
+
+ to the integers 
+
+
+
+
+Z
+
+,
+
+
+{\displaystyle \mathbb {Z} ,}
+
+ an injective homomorphism of ordered rings from 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ to the rational numbers 
+
+
+
+
+Q
+
+,
+
+
+{\displaystyle \mathbb {Q} ,}
+
+ and an injective homomorphism of ordered fields from 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ to the real numbers 
+
+
+
+
+R
+
+.
+
+
+{\displaystyle \mathbb {R} .}
+
+ The identifications consist of not distinguishing the source and the image of each injective homomorphism, and thus to write 
+These identifications are formally abuses of notation, and are generally harmless. It is only in very specific situations, that one must avoid them and replace them by using explicitly the above homomorphisms. This is the case in constructive mathematics and computer programming. In the latter case, these homomorphisms are interpreted as type conversions that can often be done  automatically by the compiler.
+Previous properties do not distinguish real numbers from rational numbers. This distinction is provided by Dedekind completeness, which states that every upper bounded set of real numbers admits a least upper bound. This means the following. A set of real numbers 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is upper bounded if there is a real number 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ such that 
+
+
+
+s
+≤
+u
+
+
+{\displaystyle s\leq u}
+
+ for all 
+
+
+
+s
+∈
+S
+
+
+{\displaystyle s\in S}
+
+; such a 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ is called a upper bound of 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+ So, Dedekind completeness means that, if S is upper bounded, it has a upper bound that is less than any other upper bound.
+Dedekind completeness implies other sorts of completeness (see below), but also has some important consequences.
+The last two properties are summarized by saying that the real numbers form a real closed field. This implies the real version of the fundamental theorem of algebra, namely that every polynomial with real coefficients can be factored into polynomials with real coefficients of degree at most two.
+A key property of real numbers is their decimal representation. A decimal representation consists of a nonnegative integer k and an infinite sequence of decimal digits (nonnegative integers less than 10)
+that is written
+(Commonly, one supposes, without loss of generality, that either 
+
+
+
+k
+=
+0
+
+
+{\displaystyle k=0}
+
+ or 
+
+
+
+
+a
+
+k
+
+
+≠
+0.
+
+
+{\displaystyle a_{k}\neq 0.}
+
+)
+For example, for 
+
+
+
+3.14159
+⋯
+,
+
+
+{\displaystyle 3.14159\cdots ,}
+
+ one has 
+
+
+
+k
+=
+0
+,
+
+
+{\displaystyle k=0,}
+
+ 
+
+
+
+
+b
+
+0
+
+
+=
+3
+,
+
+
+{\displaystyle b_{0}=3,}
+
+ 
+
+
+
+
+a
+
+1
+
+
+=
+1
+,
+
+
+{\displaystyle a_{1}=1,}
+
+ 
+
+
+
+
+a
+
+2
+
+
+=
+4
+,
+
+
+{\displaystyle a_{2}=4,}
+
+ etc.
+Such a decimal representation specifies a unique nonnegative real number as the least upper bound of the decimal fractions that are obtained by truncating the sequence. More precisely, given a positive integer n, the truncation of the sequence at the place n is the finite sequence 
+
+
+
+
+b
+
+k
+
+
+,
+
+b
+
+k
+−
+1
+
+
+,
+…
+,
+
+b
+
+0
+
+
+,
+
+a
+
+1
+
+
+,
+
+a
+
+2
+
+
+,
+…
+,
+
+a
+
+n
+
+
+,
+
+
+{\displaystyle b_{k},b_{k-1},\ldots ,b_{0},a_{1},a_{2},\ldots ,a_{n},}
+
+ which defines the decimal number 
+The real number defined by the sequence is the least upper bound of the 
+
+
+
+
+D
+
+n
+
+
+,
+
+
+{\displaystyle D_{n},}
+
+ which exists by Dedekind completeness.
+Conversely, given a nonnegative real number a, one can define a decimal representation of a by induction, as follows. Define 
+
+
+
+
+b
+
+k
+
+
+⋯
+
+b
+
+0
+
+
+
+
+{\displaystyle b_{k}\cdots b_{0}}
+
+ as decimal representation of the largest integer 
+
+
+
+
+D
+
+0
+
+
+
+
+{\displaystyle D_{0}}
+
+ such that 
+
+
+
+
+D
+
+0
+
+
+≤
+a
+
+
+{\displaystyle D_{0}\leq a}
+
+ (this integer exists because of the Archimedean property). Then, supposing by induction that the decimal fraction 
+
+
+
+
+D
+
+i
+
+
+
+
+{\displaystyle D_{i}}
+
+ has been defined for 
+
+
+
+i
+<
+n
+,
+
+
+{\displaystyle i<n,}
+
+ one defines 
+
+
+
+
+a
+
+n
+
+
+
+
+{\displaystyle a_{n}}
+
+ as the largest  digit such that 
+
+
+
+
+D
+
+n
+−
+1
+
+
++
+
+a
+
+n
+
+
+
+/
+
+
+10
+
+n
+
+
+≤
+a
+,
+
+
+{\displaystyle D_{n-1}+a_{n}/10^{n}\leq a,}
+
+ and one sets 
+
+
+
+
+D
+
+n
+
+
+=
+
+D
+
+n
+−
+1
+
+
++
+
+a
+
+n
+
+
+
+/
+
+
+10
+
+n
+
+
+.
+
+
+{\displaystyle D_{n}=D_{n-1}+a_{n}/10^{n}.}
+
+
+One can use the defining properties of the real numbers to show that a is the least upper bound of the 
+
+
+
+
+D
+
+n
+
+
+.
+
+
+{\displaystyle D_{n}.}
+
+ So, the resulting sequence of digits is called a decimal representation of a.
+Another decimal representation can be obtained by replacing 
+
+
+
+≤
+a
+
+
+{\displaystyle \leq a}
+
+ with 
+
+
+
+<
+a
+
+
+{\displaystyle <a}
+
+ in the preceding construction. These two representations are identical, unless a is a decimal fraction of the form 
+
+
+
+
+
+m
+
+10
+
+h
+
+
+
+
+.
+
+
+{\textstyle {\frac {m}{10^{h}}}.}
+
+ In this case, in the first decimal representation, all 
+
+
+
+
+a
+
+n
+
+
+
+
+{\displaystyle a_{n}}
+
+ are zero for 
+
+
+
+n
+>
+h
+,
+
+
+{\displaystyle n>h,}
+
+ and, in the second representation, all 
+
+
+
+
+a
+
+n
+
+
+
+
+{\displaystyle a_{n}}
+
+  9. (see 0.999... for details).
+In summary, there is a bijection between the real numbers and the decimal representations that do not end with infinitely many trailing 9.
+The preceding considerations apply directly for every numeral base 
+
+
+
+B
+≥
+2
+,
+
+
+{\displaystyle B\geq 2,}
+
+ simply by replacing 10 with 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ and 9 with 
+
+
+
+B
+−
+1.
+
+
+{\displaystyle B-1.}
+
+
+A main reason for using real numbers is so that many sequences have limits. More formally, the reals are complete (in the sense of metric spaces or uniform spaces, which is a different sense than the Dedekind completeness of the order in the previous section):
+A sequence (xn) of real numbers is called a Cauchy sequence if for any ε > 0 there exists an integer N (possibly depending on ε) such that the distance |xn − xm| is less than ε for all n and m that are both greater than N. This definition, originally provided by Cauchy, formalizes the fact that the xn eventually come and remain arbitrarily close to each other.
+A sequence (xn) converges to the limit x if its elements eventually come and remain arbitrarily close to x, that is, if for any ε > 0 there exists an integer N (possibly depending on ε) such that the distance |xn − x| is less than ε for n greater than N.
+Every convergent sequence is a Cauchy sequence, and the converse is true for real numbers, and this means that the topological space of the real numbers is complete.
+The set of rational numbers is not complete. For example, the sequence (1; 1.4; 1.41; 1.414; 1.4142; 1.41421; ...), where each term adds a digit of the decimal expansion of the positive square root of 2, is Cauchy but it does not converge to a rational number (in the real numbers, in contrast, it converges to the positive square root of 2).
+The completeness property of the reals is the basis on which calculus, and, more generally mathematical analysis are built. In particular, the test that a sequence is a Cauchy sequence allows proving that a sequence has a limit, without computing it, and even without knowing it.
+For example, the standard series of the exponential function
+converges to a real number for every x, because the sums
+can be made arbitrarily small (independently of M) by choosing N sufficiently large. This proves that the sequence is Cauchy, and thus converges, showing that 
+
+
+
+
+e
+
+x
+
+
+
+
+{\displaystyle e^{x}}
+
+ is well defined for every x.
+The real numbers are often described as "the complete ordered field", a phrase that can be interpreted in several ways.
+First, an order can be lattice-complete. It is easy to see that no ordered field can be lattice-complete, because it can have no largest element (given any element z, z + 1 is larger).
+Additionally, an order can be Dedekind-complete, see § Axiomatic approach. The uniqueness result at the end of that section justifies using the word "the" in the phrase "complete ordered field" when this is the sense of "complete" that is meant. This sense of completeness is most closely related to the construction of the reals from Dedekind cuts, since that construction starts from an ordered field (the rationals) and then forms the Dedekind-completion of it in a standard way.
+These two notions of completeness ignore the field structure. However, an ordered group (in this case, the additive group of the field) defines a uniform structure, and uniform structures have a notion of completeness; the description in § Completeness is a special case. (We refer to the notion of completeness in uniform spaces rather than the related and better known notion for metric spaces, since the definition of metric space relies on already having a characterization of the real numbers.) It is not true that 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is the only uniformly complete ordered field, but it is the only uniformly complete Archimedean field, and indeed one often hears the phrase "complete Archimedean field" instead of "complete ordered field". Every uniformly complete Archimedean field must also be Dedekind-complete (and vice versa), justifying using "the" in the phrase "the complete Archimedean field". This sense of completeness is most closely related to the construction of the reals from Cauchy sequences (the construction carried out in full in this article), since it starts with an Archimedean field (the rationals) and forms the uniform completion of it in a standard way.
+But the original use of the phrase "complete Archimedean field" was by David Hilbert, who meant still something else by it. He meant that the real numbers form the largest Archimedean field in the sense that every other Archimedean field is a subfield of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+. Thus 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is "complete" in the sense that nothing further can be added to it without making it no longer an Archimedean field. This sense of completeness is most closely related to the construction of the reals from surreal numbers, since that construction starts with a proper class that contains every ordered field (the surreals) and then selects from it the largest Archimedean subfield.
+The set of all real numbers is uncountable, in the sense that while both the set of all natural numbers {1, 2, 3, 4, ...}  and the set of all real numbers are infinite sets, there can be no one-to-one function from the real numbers to the natural numbers. The cardinality of the set of all real numbers is denoted by 
+
+
+
+
+
+c
+
+
+.
+
+
+{\displaystyle {\mathfrak {c}}.}
+
+ and called the cardinality of the continuum. It is strictly greater than the cardinality of the set of all natural numbers (denoted 
+
+
+
+
+ℵ
+
+0
+
+
+
+
+{\displaystyle \aleph _{0}}
+
+ and called 'aleph-naught'), and equals the cardinality of the power set of the set of the natural numbers.
+The statement that there is no subset of the reals with cardinality strictly greater than 
+
+
+
+
+ℵ
+
+0
+
+
+
+
+{\displaystyle \aleph _{0}}
+
+ and strictly smaller than 
+
+
+
+
+
+c
+
+
+
+
+{\displaystyle {\mathfrak {c}}}
+
+ is known as the continuum hypothesis (CH). It is neither provable nor refutable using the axioms of Zermelo–Fraenkel set theory including the axiom of choice (ZFC)—the standard foundation of modern mathematics. In fact, some models of ZFC satisfy CH, while others violate it.[5]
+As a topological space, the real numbers are separable. This is because the set of rationals, which is countable, is dense in the real numbers. The irrational numbers are also dense in the real numbers, however they are uncountable and have the same cardinality as the reals.
+The real numbers form a metric space: the distance between x and y is defined as the absolute value |x − y|. By virtue of being a totally ordered set, they also carry an order topology; the topology arising from the metric and the one arising from the order are identical, but yield different presentations for the topology—in the order topology as ordered intervals, in the metric topology as epsilon-balls. The Dedekind cuts construction uses the order topology presentation, while the Cauchy sequences construction uses the metric topology presentation. The reals form a contractible (hence connected and simply connected), separable and complete metric space of Hausdorff dimension 1. The real numbers are locally compact but not compact. There are various properties that uniquely specify them; for instance, all unbounded, connected, and separable order topologies are necessarily homeomorphic to the reals.
+Every nonnegative real number has a square root in 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+, although no negative number does. This shows that the order on 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is determined by its algebraic structure. Also, every polynomial of odd degree admits at least one real root: these two properties make 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ the premier example of a real closed field. Proving this is the first half of one proof of the fundamental theorem of algebra.
+The reals carry a canonical measure, the Lebesgue measure, which is the Haar measure on their structure as a topological group normalized such that the unit interval [0;1] has measure 1. There exist sets of real numbers that are not Lebesgue measurable, e.g. Vitali sets.
+The supremum axiom of the reals refers to subsets of the reals and is therefore a second-order logical statement. It is not possible to characterize the reals with first-order logic alone: the Löwenheim–Skolem theorem implies that there exists a countable dense subset of the real numbers satisfying exactly the same sentences in first-order logic as the real numbers themselves. The set of hyperreal numbers satisfies the same first order sentences as 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+. Ordered fields that satisfy the same first-order sentences as 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ are called nonstandard models of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+. This is what makes nonstandard analysis work; by proving a first-order statement in some nonstandard model (which may be easier than proving it in 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+), we know that the same statement must also be true of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+.
+The field 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ of real numbers is an extension field of the field 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ of rational numbers, and 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ can therefore be seen as a vector space over 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+. Zermelo–Fraenkel set theory with the axiom of choice guarantees the existence of a basis of this vector space: there exists a set B of real numbers such that every real number can be written uniquely as a finite linear combination of elements of this set, using rational coefficients only, and such that no element of B is a rational linear combination of the others. However, this existence theorem is purely theoretical, as such a base has never been explicitly described.
+The well-ordering theorem implies that the real numbers can be well-ordered if the axiom of choice is assumed: there exists a total order on 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ with the property that every nonempty subset of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ has a least element in this ordering. (The standard ordering ≤ of the real numbers is not a well-ordering since e.g. an open interval does not contain a least element in this ordering.) Again, the existence of such a well-ordering is purely theoretical, as it has not been explicitly described. If V=L is assumed in addition to the axioms of ZF, a well ordering of the real numbers can be shown to be explicitly definable by a formula.[6]
+A real number may be either computable or uncomputable; either algorithmically random or not; and either arithmetically random or not.
+Simple fractions were used by the Egyptians around 1000 BC; the Vedic "Shulba Sutras" ("The rules of chords") in c. 600 BC include what may be the first "use" of irrational numbers. The concept of irrationality was implicitly accepted by early Indian mathematicians such as Manava (c. 750–690 BC), who was aware that the square roots of certain numbers, such as 2 and 61, could not be exactly determined.[7] Around 500 BC, the Greek mathematicians led by Pythagoras also realized that the square root of 2 is irrational.
+The Middle Ages brought about the acceptance of zero, negative numbers, integers, and fractional numbers, first by Indian and Chinese mathematicians, and then by Arabic mathematicians, who were also the first to treat irrational numbers as algebraic objects (the latter being made possible by the development of algebra).[8] Arabic mathematicians merged the concepts of "number" and "magnitude" into a more general idea of real numbers.[9] The Egyptian mathematician Abū Kāmil Shujā ibn Aslam (c. 850–930) was the first to accept irrational numbers as solutions to quadratic equations, or as coefficients in an equation (often in the form of square roots, cube roots and fourth roots).[10] In Europe, such numbers, not commensurable with the numerical unit, were called irrational or surd ("deaf").
+In the 16th century, Simon Stevin created the basis for modern decimal notation, and insisted that there is no difference between rational and irrational numbers in this regard.
+In the 17th century, Descartes introduced the term "real" to describe roots of a polynomial, distinguishing them from "imaginary" ones.
+In the 18th and 19th centuries, there was much work on irrational and transcendental numbers. Lambert (1761) gave a flawed proof that π cannot be rational; Legendre (1794) completed the proof[11] and showed that π is not the square root of a rational number.[12] Liouville (1840) showed that neither e nor e2 can be a root of an integer quadratic equation, and then established the existence of transcendental numbers; Cantor (1873) extended and greatly simplified this proof.[13] Hermite (1873) proved that e is transcendental, and Lindemann (1882), showed that π is transcendental. Lindemann's proof was much simplified by Weierstrass (1885), Hilbert (1893), Hurwitz,[14] and Gordan.[15]
+The developers of calculus used real numbers without having defined them rigorously. The first rigorous definition was published by Cantor in 1871. In 1874, he showed that the set of all real numbers is uncountably infinite, but the set of all algebraic numbers is countably infinite. Cantor's first uncountability proof was different from his famous diagonal argument published in 1891.
+The real number system 
+
+
+
+(
+
+R
+
+;
+
+
++
+
+
+;
+
+
+⋅
+
+
+;
+
+
+<
+
+
+)
+
+
+{\displaystyle (\mathbb {R} ;{}+{};{}\cdot {};{}<{})}
+
+ can be defined axiomatically up to an isomorphism, which is described hereinafter. There are also many ways to construct "the" real number system, and a popular approach involves starting from natural numbers, then defining rational numbers algebraically, and finally defining real numbers as equivalence classes of their Cauchy sequences or as Dedekind cuts, which are certain subsets of rational numbers.[16] Another approach is to start from some rigorous axiomatization of Euclidean geometry (say of Hilbert or of Tarski), and then define the real number system geometrically. All these constructions of the real numbers have been shown to be equivalent, in the sense that the resulting number systems are isomorphic.
+Let 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ denote the set of all real numbers, then:
+The last property is what differentiates the real numbers from the rational numbers (and from other more exotic ordered fields). For example, 
+
+
+
+{
+x
+∈
+
+Q
+
+:
+
+x
+
+2
+
+
+<
+2
+}
+
+
+{\displaystyle \{x\in \mathbb {Q} :x^{2}<2\}}
+
+ has a rational upper bound (e.g., 1.42), but no least rational upper bound, because 
+
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\sqrt {2}}}
+
+ is not rational.
+These properties imply the Archimedean property (which is not implied by other definitions of completeness), which states that the set of integers has no upper bound in the reals. In fact, if this were false, then the integers would have a least upper bound N; then, N – 1 would not be an upper bound, and there would be an integer n such that n > N – 1, and thus n + 1 > N, which is a contradiction with the upper-bound property of N.
+The real numbers are uniquely specified by the above properties. More precisely, given any two Dedekind-complete ordered fields 
+
+
+
+
+
+R
+
+
+1
+
+
+
+
+{\displaystyle \mathbb {R} _{1}}
+
+ and 
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} _{2}}
+
+, there exists a unique field isomorphism from 
+
+
+
+
+
+R
+
+
+1
+
+
+
+
+{\displaystyle \mathbb {R} _{1}}
+
+ to 
+
+
+
+
+
+R
+
+2
+
+
+
+
+
+{\displaystyle \mathbb {R_{2}} }
+
+. This uniqueness allows us to think of them as essentially the same mathematical object.
+For another axiomatization of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+, see Tarski's axiomatization of the reals.
+The real numbers can be constructed as a completion of the rational numbers, in such a way that a sequence defined by a decimal or binary expansion like (3; 3.1; 3.14; 3.141; 3.1415; ...) converges to a unique real number—in this case π. For details and other constructions of real numbers, see construction of the real numbers.
+In the physical sciences, most physical constants such as the universal gravitational constant, and physical variables, such as position, mass, speed, and electric charge, are modeled using real numbers. In fact, the fundamental physical theories such as classical mechanics, electromagnetism, quantum mechanics, general relativity and the standard model are described using mathematical structures, typically smooth manifolds or Hilbert spaces, that are based on the real numbers, although actual measurements of physical quantities are of finite accuracy and precision.
+Physicists have occasionally suggested that a more fundamental theory would replace the real numbers with quantities that do not form a continuum, but such proposals remain speculative.[17]
+The real numbers are most often formalized using the Zermelo–Fraenkel axiomatization of set theory, but some mathematicians study the real numbers with other logical foundations of mathematics. In particular, the real numbers are also studied in reverse mathematics and in constructive mathematics.[18]
+The hyperreal numbers as developed by Edwin Hewitt, Abraham Robinson and others extend the set of the real numbers by introducing infinitesimal and infinite numbers, allowing for building infinitesimal calculus in a way closer to the original intuitions of Leibniz, Euler, Cauchy and others.
+Edward Nelson's internal set theory enriches the Zermelo–Fraenkel set theory syntactically by introducing a unary predicate "standard". In this approach, infinitesimals are (non-"standard") elements of the set of the real numbers (rather than being elements of an extension thereof, as in Robinson's theory).
+The continuum hypothesis posits that the cardinality of the set of the real numbers is 
+
+
+
+
+ℵ
+
+1
+
+
+
+
+{\displaystyle \aleph _{1}}
+
+; i.e. the smallest infinite cardinal number after 
+
+
+
+
+ℵ
+
+0
+
+
+
+
+{\displaystyle \aleph _{0}}
+
+, the cardinality of the integers. Paul Cohen proved in 1963 that it is an axiom independent of the other axioms of set theory; that is: one may choose either the continuum hypothesis or its negation as an axiom of set theory, without contradiction.
+Electronic calculators and computers cannot operate on arbitrary real numbers, because finite computers cannot directly store infinitely many digits or other infinite representations. Nor do they usually even operate on arbitrary definable real numbers, which are inconvenient to manipulate.
+Instead, computers typically work with finite-precision approximations called floating-point numbers, a representation similar to scientific notation. The achievable precision is limited by the data storage space allocated for each number, whether as fixed-point, floating-point, or arbitrary-precision numbers, or some other representation. Most scientific computation uses binary floating-point arithmetic, often a 64-bit representation with around 16 decimal digits of precision. Real numbers satisfy the usual rules of arithmetic, but floating-point numbers do not. The field of numerical analysis studies the stability and accuracy of numerical algorithms implemented with approximate arithmetic.
+Alternately, computer algebra systems can operate on irrational quantities exactly by manipulating symbolic formulas for them (such as 
+
+
+
+
+
+2
+
+
+,
+
+
+{\textstyle {\sqrt {2}},}
+
+ 
+
+
+
+arctan
+⁡
+5
+,
+
+
+{\textstyle \arctan 5,}
+
+ or 
+
+
+
+
+∫
+
+0
+
+
+1
+
+
+
+x
+
+x
+
+
+
+d
+x
+
+
+{\textstyle \int _{0}^{1}x^{x}\,dx}
+
+) rather than their rational or decimal approximation.[19] But exact and symbolic arithmetic also have limitations: for instance, they are computationally more expensive; it is not in general possible to determine whether two symbolic expressions are equal (the constant problem); and arithmetic operations can cause exponential explosion in the size of representation of a single number (for instance, squaring a rational number roughly doubles the number of digits in its numerator and denominator, and squaring a polynomial roughly doubles its number of terms), overwhelming finite computer storage.[20]
+A real number is called computable if there exists an algorithm that yields its digits. Because there are only countably many algorithms,[21] but an uncountable number of reals, almost all real numbers fail to be computable. Moreover, the equality of two computable numbers is an undecidable problem. Some constructivists accept the existence of only those reals that are computable. The set of definable numbers is broader, but still only countable.
+In set theory, specifically descriptive set theory, the Baire space is used as a surrogate for the real numbers since the latter have some topological properties (connectedness) that are a technical inconvenience. Elements of Baire space are referred to as "reals".
+The set of all real numbers is denoted 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ (blackboard bold) or R (upright bold). As it is naturally endowed with the structure of a field, the expression field of real numbers is frequently used when its algebraic properties are under consideration.
+The sets of positive real numbers and negative real numbers are often noted 
+
+
+
+
+
+R
+
+
++
+
+
+
+
+{\displaystyle \mathbb {R} ^{+}}
+
+ and 
+
+
+
+
+
+R
+
+
+−
+
+
+
+
+{\displaystyle \mathbb {R} ^{-}}
+
+,[22] respectively; 
+
+
+
+
+
+R
+
+
++
+
+
+
+
+{\displaystyle \mathbb {R} _{+}}
+
+ and 
+
+
+
+
+
+R
+
+
+−
+
+
+
+
+{\displaystyle \mathbb {R} _{-}}
+
+ are also used.[23] The non-negative real numbers can be noted 
+
+
+
+
+
+R
+
+
+≥
+0
+
+
+
+
+{\displaystyle \mathbb {R} _{\geq 0}}
+
+ but one often sees this set noted 
+
+
+
+
+
+R
+
+
++
+
+
+∪
+{
+0
+}
+.
+
+
+{\displaystyle \mathbb {R} ^{+}\cup \{0\}.}
+
+[22] In French mathematics, the positive real numbers and negative real numbers commonly include zero, and these sets are noted respectively 
+
+
+
+
+
+R
+
++
+
+
+
+
+
+{\displaystyle \mathbb {R_{+}} }
+
+ and 
+
+
+
+
+
+R
+
+
+−
+
+
+.
+
+
+{\displaystyle \mathbb {R} _{-}.}
+
+[23] In this understanding, the respective sets without zero are called strictly positive real numbers and strictly negative real numbers, and are noted 
+
+
+
+
+
+R
+
+
++
+
+
+∗
+
+
+
+
+{\displaystyle \mathbb {R} _{+}^{*}}
+
+ and 
+
+
+
+
+
+R
+
+
+−
+
+
+∗
+
+
+.
+
+
+{\displaystyle \mathbb {R} _{-}^{*}.}
+
+[23]
+The notation 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ refers to the set of the n-tuples of elements of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ (real coordinate space), which can be identified to the Cartesian product of n copies of 
+
+
+
+
+R
+
+.
+
+
+{\displaystyle \mathbb {R} .}
+
+ It is an n-dimensional vector space over the field of the real numbers, often called the coordinate space of dimension n; this space may be identified to the n-dimensional Euclidean space as soon as a Cartesian coordinate system has been chosen in the latter. In this identification, a point of the Euclidean space is identified with the tuple of its Cartesian coordinates.
+In mathematics, real is used as an adjective, meaning that the underlying field is the field of the real numbers (or the real field). For example, real matrix, real polynomial and real Lie algebra. The word is also used as a noun, meaning a real number (as in "the set of all reals").
+The real numbers can be generalized and extended in several different directions:
+
+

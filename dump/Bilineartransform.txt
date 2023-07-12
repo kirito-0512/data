@@ -1,0 +1,825 @@
+4628,
+Bilineartransform,
+The bilinear transform (also known as Tustin's method, after Arnold Tustin) is used in digital signal processing and discrete-time control theory to transform continuous-time system representations to discrete-time and vice versa.
+The bilinear transform is a special case of a conformal mapping (namely, a Möbius transformation), often used to convert a transfer function 
+H
+a
+(
+s
+)
+{\displaystyle H_{a}(s)}
+ of a linear, time-invariant (LTI) filter in the continuous-time domain (often called an analog filter) to a transfer function 
+H
+d
+(
+z
+)
+{\displaystyle H_{d}(z)}
+ of a linear, shift-invariant filter in the discrete-time domain (often called a digital filter although there are analog filters constructed with switched capacitors that are discrete-time filters). It maps positions on the 
+j
+ω
+{\displaystyle j\omega }
+ axis, 
+R
+e
+[
+s
+]
+=
+0
+{\displaystyle \mathrm {Re} [s]=0}
+, in the s-plane to the unit circle, 
+|
+z
+|
+=
+1
+{\displaystyle |z|=1}
+, in the z-plane.  Other bilinear transforms can be used to warp the frequency response of any discrete-time linear system (for example to approximate the non-linear frequency resolution of the human auditory system) and are implementable in the discrete domain by replacing a system's unit delays 
+(
+z
+−
+1
+)
+{\displaystyle \left(z^{-1}\right)}
+ with first order all-pass filters.
+The transform preserves stability and maps every point of the frequency response of the continuous-time filter, 
+H
+a
+(
+j
+ω
+a
+)
+{\displaystyle H_{a}(j\omega _{a})}
+ to a corresponding point in the frequency response of the discrete-time filter, 
+H
+d
+(
+e
+j
+ω
+d
+T
+)
+{\displaystyle H_{d}(e^{j\omega _{d}T})}
+ although to a somewhat different frequency, as shown in the Frequency warping section below.  This means that for every feature that one sees in the frequency response of the analog filter, there is a corresponding feature, with identical gain and phase shift, in the frequency response of the digital filter but, perhaps, at a somewhat different frequency.  This is barely noticeable at low frequencies but is quite evident at frequencies close to the Nyquist frequency.
+The bilinear transform is a first-order Padé approximant of the natural logarithm function that is an exact mapping of the z-plane to the s-plane.  When the Laplace transform is performed on a discrete-time signal (with each element of the discrete-time sequence attached to a correspondingly delayed unit impulse), the result is precisely the Z transform of the discrete-time sequence with the substitution of
+where 
+T
+{\displaystyle T}
+ is the numerical integration step size of the trapezoidal rule used in the bilinear transform derivation;[1] or, in other words, the sampling period. The above bilinear approximation can be solved for 
+s
+{\displaystyle s}
+ or a similar approximation for 
+s
+=
+(
+1
+/
+T
+)
+ln
+⁡
+(
+z
+)
+{\displaystyle s=(1/T)\ln(z)}
+ can be performed.
+The inverse of this mapping (and its first-order bilinear approximation) is
+The bilinear transform essentially uses this first order approximation and substitutes into the continuous-time transfer function, 
+H
+a
+(
+s
+)
+{\displaystyle H_{a}(s)}
+That is
+A continuous-time causal filter is stable if the poles of its transfer function fall in the left half of the complex s-plane. A discrete-time causal filter is stable if the poles of its transfer function fall inside the unit circle in the complex z-plane. The bilinear transform maps the left half of the complex s-plane to the interior of the unit circle in the z-plane. Thus, filters designed in the continuous-time domain that are stable are converted to filters in the discrete-time domain that preserve that stability.
+Likewise, a continuous-time filter is minimum-phase if the zeros of its transfer function fall in the left half of the complex s-plane. A discrete-time filter is minimum-phase if the zeros of its transfer function fall inside the unit circle in the complex z-plane. Then the same mapping property assures that continuous-time filters that are minimum-phase are converted to discrete-time filters that preserve that property of being minimum-phase.
+A general LTI system has the transfer function
+H
+a
+(
+s
+)
+=
+b
+0
++
+b
+1
+s
++
+b
+2
+s
+2
++
+⋯
++
+b
+Q
+s
+Q
+a
+0
++
+a
+1
+s
++
+a
+2
+s
+2
++
+⋯
++
+a
+P
+s
+P
+{\displaystyle H_{a}(s)={\frac {b_{0}+b_{1}s+b_{2}s^{2}+\cdots +b_{Q}s^{Q}}{a_{0}+a_{1}s+a_{2}s^{2}+\cdots +a_{P}s^{P}}}}
+The order of the transfer function N is the greater of P and Q (in practice this is most likely P as the transfer function must be proper for the system to be stable). Applying the bilinear transform
+s
+=
+K
+z
+−
+1
+z
++
+1
+{\displaystyle s=K{\frac {z-1}{z+1}}}
+where K is defined as either 2/T or otherwise if using frequency warping, gives
+H
+d
+(
+z
+)
+=
+b
+0
++
+b
+1
+(
+K
+z
+−
+1
+z
++
+1
+)
++
+b
+2
+(
+K
+z
+−
+1
+z
++
+1
+)
+2
++
+⋯
++
+b
+Q
+(
+K
+z
+−
+1
+z
++
+1
+)
+Q
+a
+0
++
+a
+1
+(
+K
+z
+−
+1
+z
++
+1
+)
++
+a
+2
+(
+K
+z
+−
+1
+z
++
+1
+)
+2
++
+⋯
++
+b
+P
+(
+K
+z
+−
+1
+z
++
+1
+)
+P
+{\displaystyle H_{d}(z)={\frac {b_{0}+b_{1}\left(K{\frac {z-1}{z+1}}\right)+b_{2}\left(K{\frac {z-1}{z+1}}\right)^{2}+\cdots +b_{Q}\left(K{\frac {z-1}{z+1}}\right)^{Q}}{a_{0}+a_{1}\left(K{\frac {z-1}{z+1}}\right)+a_{2}\left(K{\frac {z-1}{z+1}}\right)^{2}+\cdots +b_{P}\left(K{\frac {z-1}{z+1}}\right)^{P}}}}
+Multiplying the numerator and denominator by the largest power of (z + 1)−1 present, (z + 1)-N, gives
+H
+d
+(
+z
+)
+=
+b
+0
+(
+z
++
+1
+)
+N
++
+b
+1
+K
+(
+z
+−
+1
+)
+(
+z
++
+1
+)
+N
+−
+1
++
+b
+2
+K
+2
+(
+z
+−
+1
+)
+2
+(
+z
++
+1
+)
+N
+−
+2
++
+⋯
++
+b
+Q
+K
+Q
+(
+z
+−
+1
+)
+Q
+(
+z
++
+1
+)
+N
+−
+Q
+a
+0
+(
+z
++
+1
+)
+N
++
+a
+1
+K
+(
+z
+−
+1
+)
+(
+z
++
+1
+)
+N
+−
+1
++
+a
+2
+K
+2
+(
+z
+−
+1
+)
+2
+(
+z
++
+1
+)
+N
+−
+2
++
+⋯
++
+a
+P
+K
+P
+(
+z
+−
+1
+)
+P
+(
+z
++
+1
+)
+N
+−
+P
+{\displaystyle H_{d}(z)={\frac {b_{0}(z+1)^{N}+b_{1}K(z-1)(z+1)^{N-1}+b_{2}K^{2}(z-1)^{2}(z+1)^{N-2}+\cdots +b_{Q}K^{Q}(z-1)^{Q}(z+1)^{N-Q}}{a_{0}(z+1)^{N}+a_{1}K(z-1)(z+1)^{N-1}+a_{2}K^{2}(z-1)^{2}(z+1)^{N-2}+\cdots +a_{P}K^{P}(z-1)^{P}(z+1)^{N-P}}}}
+It can be seen here that after the transformation, the degree of the numerator and denominator are both N.
+Consider then the pole-zero form of the continuous-time transfer function
+H
+a
+(
+s
+)
+=
+(
+s
+−
+ξ
+1
+)
+(
+s
+−
+ξ
+2
+)
+⋯
+(
+s
+−
+ξ
+Q
+)
+(
+s
+−
+p
+1
+)
+(
+s
+−
+p
+2
+)
+⋯
+(
+s
+−
+p
+P
+)
+{\displaystyle H_{a}(s)={\frac {(s-\xi _{1})(s-\xi _{2})\cdots (s-\xi _{Q})}{(s-p_{1})(s-p_{2})\cdots (s-p_{P})}}}
+The roots of the numerator and denominator polynomials, ξi and pi, are the zeros and poles of the system. The bilinear transform is a one-to-one mapping, hence these can be transformed to the z-domain using
+z
+=
+K
++
+s
+K
+−
+s
+{\displaystyle z={\frac {K+s}{K-s}}}
+yielding some of the discretized transfer function's zeros and poles ξ'i and p'i
+ξ
+i
+′
+=
+K
++
+ξ
+i
+K
+−
+ξ
+i
+1
+≤
+i
+≤
+Q
+p
+i
+′
+=
+K
++
+p
+i
+K
+−
+p
+i
+1
+≤
+i
+≤
+P
+{\displaystyle {\begin{aligned}\xi '_{i}&={\frac {K+\xi _{i}}{K-\xi _{i}}}\quad 1\leq i\leq Q\\p'_{i}&={\frac {K+p_{i}}{K-p_{i}}}\quad 1\leq i\leq P\end{aligned}}}
+As described above, the degree of the numerator and denominator are now both N, in other words there is now an equal number of zeros and poles. The multiplication by (z + 1)-N means the additional zeros or poles are
+[2]
+ξ
+i
+′
+=
+−
+1
+Q
+<
+i
+≤
+N
+p
+i
+′
+=
+−
+1
+P
+<
+i
+≤
+N
+{\displaystyle {\begin{aligned}\xi '_{i}&=-1\quad Q<i\leq N\\p'_{i}&=-1\quad P<i\leq N\end{aligned}}}
+Given the full set of zeros and poles, the z-domain transfer function is then
+H
+d
+(
+z
+)
+=
+(
+z
+−
+ξ
+1
+′
+)
+(
+z
+−
+ξ
+2
+′
+)
+⋯
+(
+z
+−
+ξ
+N
+′
+)
+(
+z
+−
+p
+1
+′
+)
+(
+z
+−
+p
+2
+′
+)
+⋯
+(
+z
+−
+p
+N
+′
+)
+{\displaystyle H_{d}(z)={\frac {(z-\xi '_{1})(z-\xi '_{2})\cdots (z-\xi '_{N})}{(z-p'_{1})(z-p'_{2})\cdots (z-p'_{N})}}}
+As an example take a simple low-pass RC filter.  This continuous-time filter has a transfer function
+If we wish to implement this filter as a digital filter, we can apply the bilinear transform by substituting for 
+s
+{\displaystyle s}
+ the formula above; after some reworking, we get the following filter representation:
+The coefficients of the denominator are the 'feed-backward' coefficients and the coefficients of the numerator are the 'feed-forward' coefficients used to implement a real-time digital filter.
+It is possible to relate the coefficients of a continuous-time, analog filter with those of a similar discrete-time digital filter created through the bilinear transform process. Transforming a general, first-order continuous-time filter with the given transfer function
+using the bilinear transform (without prewarping any frequency specification) requires the substitution of
+where
+However, if the frequency warping compensation as described below is used in the bilinear transform, so that both analog and digital filter gain and phase agree at frequency 
+ω
+0
+{\displaystyle \omega _{0}}
+, then
+This results in a discrete-time digital filter with coefficients expressed in terms of the coefficients of the original continuous time filter:
+Normally the constant term in the denominator must be normalized to 1 before deriving the corresponding difference equation.  This results in
+The difference equation (using the Direct form I) is
+A similar process can be used for a general second-order filter with the given transfer function
+This results in a discrete-time digital biquad filter with coefficients expressed in terms of the coefficients of the original continuous time filter:
+Again, the constant term in the denominator is generally normalized to 1 before deriving the corresponding difference equation.  This results in
+The difference equation (using the Direct form I) is
+To determine the frequency response of a continuous-time filter, the transfer function 
+H
+a
+(
+s
+)
+{\displaystyle H_{a}(s)}
+ is evaluated at 
+s
+=
+j
+ω
+a
+{\displaystyle s=j\omega _{a}}
+ which is on the 
+j
+ω
+{\displaystyle j\omega }
+ axis.  Likewise, to determine the frequency response of a discrete-time filter, the transfer function 
+H
+d
+(
+z
+)
+{\displaystyle H_{d}(z)}
+ is evaluated at 
+z
+=
+e
+j
+ω
+d
+T
+{\displaystyle z=e^{j\omega _{d}T}}
+ which is on the unit circle, 
+|
+z
+|
+=
+1
+{\displaystyle |z|=1}
+.  The bilinear transform maps the 
+j
+ω
+{\displaystyle j\omega }
+ axis of the s-plane (of which is the domain of 
+H
+a
+(
+s
+)
+{\displaystyle H_{a}(s)}
+) to the unit circle of the z-plane, 
+|
+z
+|
+=
+1
+{\displaystyle |z|=1}
+ (which is the domain of 
+H
+d
+(
+z
+)
+{\displaystyle H_{d}(z)}
+), but it is not the same mapping 
+z
+=
+e
+s
+T
+{\displaystyle z=e^{sT}}
+ which also maps the 
+j
+ω
+{\displaystyle j\omega }
+ axis to the unit circle.  When the actual frequency of 
+ω
+d
+{\displaystyle \omega _{d}}
+ is input to the discrete-time filter designed by use of the bilinear transform, then it is desired to know at what frequency, 
+ω
+a
+{\displaystyle \omega _{a}}
+, for the continuous-time filter that this 
+ω
+d
+{\displaystyle \omega _{d}}
+ is mapped to.
+This shows that every point on the unit circle in the discrete-time filter z-plane, 
+z
+=
+e
+j
+ω
+d
+T
+{\displaystyle z=e^{j\omega _{d}T}}
+ is mapped to a point on the 
+j
+ω
+{\displaystyle j\omega }
+ axis on the continuous-time filter s-plane, 
+s
+=
+j
+ω
+a
+{\displaystyle s=j\omega _{a}}
+. That is, the discrete-time to continuous-time frequency mapping of the bilinear transform is
+and the inverse mapping is
+The discrete-time filter behaves at frequency 
+ω
+d
+{\displaystyle \omega _{d}}
+ the same way that the continuous-time filter behaves at frequency 
+(
+2
+/
+T
+)
+tan
+⁡
+(
+ω
+d
+T
+/
+2
+)
+{\displaystyle (2/T)\tan(\omega _{d}T/2)}
+.  Specifically, the gain and phase shift that the discrete-time filter has at frequency 
+ω
+d
+{\displaystyle \omega _{d}}
+ is the same gain and phase shift that the continuous-time filter has at frequency 
+(
+2
+/
+T
+)
+tan
+⁡
+(
+ω
+d
+T
+/
+2
+)
+{\displaystyle (2/T)\tan(\omega _{d}T/2)}
+.  This means that every feature, every "bump" that is visible in the frequency response of the continuous-time filter is also visible in the discrete-time filter, but at a different frequency.  For low frequencies (that is, when 
+ω
+d
+≪
+2
+/
+T
+{\displaystyle \omega _{d}\ll 2/T}
+ or 
+ω
+a
+≪
+2
+/
+T
+{\displaystyle \omega _{a}\ll 2/T}
+), then the features are mapped to a slightly different frequency; 
+ω
+d
+≈
+ω
+a
+{\displaystyle \omega _{d}\approx \omega _{a}}
+.
+One can see that the entire continuous frequency range
+is mapped onto the fundamental frequency interval
+The continuous-time filter frequency 
+ω
+a
+=
+0
+{\displaystyle \omega _{a}=0}
+ corresponds to the discrete-time filter frequency 
+ω
+d
+=
+0
+{\displaystyle \omega _{d}=0}
+ and the continuous-time filter frequency 
+ω
+a
+=
+±
+∞
+{\displaystyle \omega _{a}=\pm \infty }
+ correspond to the discrete-time filter frequency 
+ω
+d
+=
+±
+π
+/
+T
+.
+{\displaystyle \omega _{d}=\pm \pi /T.}
+One can also see that there is a nonlinear relationship between 
+ω
+a
+{\displaystyle \omega _{a}}
+ and 
+ω
+d
+.
+{\displaystyle \omega _{d}.}
+  This effect of the bilinear transform is called frequency warping. The continuous-time filter can be designed to compensate for this frequency warping by setting 
+ω
+a
+=
+2
+T
+tan
+⁡
+(
+ω
+d
+T
+2
+)
+{\displaystyle \omega _{a}={\frac {2}{T}}\tan \left(\omega _{d}{\frac {T}{2}}\right)}
+ for every frequency specification that the designer has control over (such as corner frequency or center frequency).  This is called pre-warping the filter design.
+It is possible, however, to compensate for the frequency warping by pre-warping a frequency specification 
+ω
+0
+{\displaystyle \omega _{0}}
+ (usually a resonant frequency or the frequency of the most significant feature of the frequency response) of the continuous-time system.  These pre-warped specifications may then be used in the bilinear transform to obtain the desired discrete-time system. When designing a digital filter as an approximation of a continuous time filter, the frequency response (both amplitude and phase) of the digital filter can be made to match the frequency response of the continuous filter at a specified frequency 
+ω
+0
+{\displaystyle \omega _{0}}
+, as well as matching at DC, if the following transform is substituted into the continuous filter transfer function.[3] This is a modified version of Tustin's transform shown above.
+However, note that this transform becomes the original transform
+as 
+ω
+0
+→
+0
+{\displaystyle \omega _{0}\to 0}
+.
+The main advantage of the warping phenomenon is the absence of aliasing distortion of the frequency response characteristic, such as observed with Impulse invariance.

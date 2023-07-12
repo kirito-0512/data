@@ -1,0 +1,17 @@
+13591,
+LinuxDocumentationProject,
+The Linux Documentation Project (LDP) is a dormant all-volunteer project that maintains a large collection of GNU and Linux-related documentation and publishes the collection online.[1] It began as a way for hackers to share their documentation with each other and with their users, and for users to share documentation with each other. Its documents tend to be oriented towards experienced users such as professional system administrators, but it also contains tutorials for beginners. 
+The LDP originally began as an FTP site in 1992, but it went on the World Wide Web at MetaLab in 1993.[1] It is believed to have been the first Linux related website ever.[citation needed]
+Today, the LDP serves over 475 documents contributed by even more authors. About a dozen of them are book length, and most of those are available in print from major technical publishers including O'Reilly.
+On 1 September 2008, LDP started a wiki to allow a better interaction with the authors and the users, with a plan to convert documentation to the wiki format[2] 
+and a list of pages to be ported.[3]
+Presently (as of July 2020), the LDP is no longer active; the last entry under "Recent Changes" dates from 2016-01-29,[4] 
+the last guide inserted from Mar 2014.[5]
+The LDP published many HOWTO documents, which instruct a user on the specific steps to take to achieve a desired goal.[6] 
+These goals are sometimes very specific, such as configuring a particular modem, and sometimes very broad, such as how to administer a network for an ISP.
+Very broad topics were covered in the guides, which are book-length documents, usually on broad subjects such as security or networking.
+The LDP also published Frequently Asked Question (FAQ) lists, man pages and other documents, as well as two webzines, the Linux Gazette and Linux Focus.
+Much of the LDP collection is licensed under the GNU Free Documentation License (GFDL). Many other licenses are also used, as long as they are freely distributable. Current policy recommends the GFDL.
+Linux Network Administrator's Guide is one book in the series.
+
+

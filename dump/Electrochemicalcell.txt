@@ -1,0 +1,61 @@
+10339,
+Electrochemicalcell,
+
+An electrochemical cell is a device that generates electrical energy from chemical reactions. Electrical energy can also be applied to these cells to cause chemical reactions to occur.[1] Electrochemical cells which generate an electric current are called voltaic or galvanic cells and those that generate chemical reactions, via electrolysis for example, are called electrolytic cells.[2]
+Both galvanic and electrolytic cells can be thought of as having two half-cells: consisting of separate oxidation and reduction reactions. 
+When one or more electrochemical cells are connected in parallel or series they make a battery. Primary cells are single use batteries.
+A galvanic cell (voltaic cell) named after Luigi Galvani (Alessandro Volta) is an electrochemical cell that generates electrical energy from spontaneous redox reactions.[3]
+A wire connects two different metals (ex. Zinc and Copper). Each metal is in a separate solution; often the aqueous sulphate or nitrate forms of the metal, however more generally metal salts and water which conduct current.[4] A salt bridge or porous membrane connects the two solutions, keeping electric neutrality and the avoidance of charge accumulation. The metal's differences in oxidation/reduction potential drive the reaction until equilibrium.[1]
+Key Features:
+- spontaneous reaction
+- generates electric current
+- current flows through a wire, and ions flow through a salt bridge
+- anode (negative), cathode (positive)
+Galvanic cells consists of two half-cells.  Each half-cell consists of an electrode and an electrolyte (both half cells may use the same or different electrolytes).
+The chemical reactions in the cell involve the electrolyte, electrodes, and/or an external substance (fuel cells may use hydrogen gas as a reactant). In a full electrochemical cell, species from one half-cell lose electrons (oxidation) to their electrode while species from the other half-cell gain electrons (reduction) from their electrode.
+A salt bridge (e.g., filter paper soaked in KNO3, NaCl, or some other electrolyte) is used to ionically connect two half-cells with different electrolytes, but it prevents the solutions from mixing and unwanted side reactions. An alternative to a salt bridge is to allow direct contact (and mixing) between the two half-cells, for example in simple electrolysis of water.
+As electrons flow from one half-cell to the other through an external circuit, a difference in charge is established. If no ionic contact were provided, this charge difference would quickly prevent the further flow of electrons. A salt bridge allows the flow of negative or positive ions to maintain a steady-state charge distribution between the oxidation and reduction vessels, while keeping the contents otherwise separate. Other devices for achieving separation of solutions are porous pots and gelled solutions. A porous pot is used in the Bunsen cell.
+Each half-cell has a characteristic voltage (depending on the metal and its characteristic reduction potential). Each reaction is undergoing an equilibrium reaction between different oxidation states of the ions: when equilibrium is reached, the cell cannot provide further voltage. In the half-cell performing oxidation, the closer the equilibrium lies to the ion/atom with the more positive oxidation state the more potential this reaction will provide.[1] Likewise, in the reduction reaction, the closer the equilibrium lies to the ion/atom with the more negative oxidation state the higher the potential.
+The cell potential can be predicted through the use of electrode potentials (the voltages of each half-cell). These half-cell potentials are defined relative to the assignment of 0 volts to the standard hydrogen electrode (SHE). (See table of standard electrode potentials). The difference in voltage between electrode potentials gives a prediction for the potential measured. When calculating the difference in voltage, one must first rewrite the half-cell reaction equations to obtain a balanced oxidation-reduction equation.
+Cell potentials have a possible range of roughly zero to 6 volts. Cells using water-based electrolytes are usually limited to cell potentials less than about 2.5 volts due to high reactivity of the powerful oxidizing and reducing agents with water that is needed to produce a higher voltage. Higher cell potentials are possible with cells using other solvents instead of water. For instance, lithium cells with a voltage of 3 volts are commonly available.
+The cell potential depends on the concentration of the reactants, as well as their type. As the cell is discharged, the concentration of the reactants decreases and the cell potential also decreases.
+  An electrolytic cell is an electrochemical cell that drives a non-spontaneous redox reaction through the application of electrical energy.[5] They
+are often used to decompose chemical compounds, in a process called electrolysis—the Greek word lysis means to break up.
+Important examples of electrolysis are the decomposition of water into hydrogen and oxygen, and bauxite into aluminium and other chemicals. Electroplating (e.g. of copper, silver, nickel or chromium) is done using an electrolytic cell. Electrolysis is a technique that uses a direct electric current (DC).
+An electrolytic cell has three characteristic components:
+- an electrolyte
+Usually a solution of water or other solvents in which ions are dissolved. Molten salts such as sodium chloride are also electrolytes. When driven by an external voltage applied to the electrodes, the ions in the electrolyte are attracted to an electrode with the opposite charge,
+where charge-transferring (also called faradaic or redox) reactions can take place.
+- two electrodes (a cathode and an anode)
+Only with an external electrical potential (i.e. voltage) of correct polarity and sufficient magnitude can an electrolytic cell decompose a normally stable, or inert chemical compound in the solution. The electrical energy provided can produce a chemical reaction which would not occur spontaneously otherwise.
+Key Features:
+- non-spontaneous reaction
+- generates current
+- current flows through a wire, and ions flow through salt bridge
+- anode (positive), cathode (negative)
+A primary cell produces current by irreversible chemical reactions (ex. small disposable batteries) and is not rechargeable.
+They are used for their portability, low cost, and short lifetime.
+Primary cells are made in a range of standard sizes to power small household appliances such as flashlights and portable radios.
+As chemical reactions proceed in a primary cell, the battery uses up the chemicals that generate the power; when they are 
+gone, the battery stops producing electricity.
+Primary batteries make up about 90% of the $50 billion battery market, but secondary batteries have been gaining market share.  About 15 billion primary batteries are thrown away worldwide every year,[6] virtually all ending up in landfills.  Due to the toxic heavy metals and strong acids or alkalis they contain, batteries are hazardous waste.  Most municipalities classify them as such and require separate disposal. The energy needed to manufacture a battery is about 50 times greater than the energy it contains.[7][8][9][10] Due to their high pollutant content compared to their small energy content, the primary battery is considered a wasteful, environmentally unfriendly technology.  Due mainly to increasing sales of wireless devices and cordless tools, which cannot be economically powered by primary batteries and come with integral rechargeable batteries, the secondary battery industry has high growth and has slowly been replacing the primary battery in high end products.
+A secondary cell produces current by reversible chemical reactions (ex. lead-acid battery car battery) and is rechargeable.
+Lead-acid batteries are used in an automobile to start an engine and to operate the car's electrical accessories when the engine is not running. The alternator, once the car is running, recharges the battery.
+It can perform as a galvanic cell and an electrolytic cell. It is a convenient way to store electricity: when current flows one way, the levels of one or more chemicals build up (charging); while it is discharging, they reduce and the resulting electromotive force can do work.
+They are used for their high voltage, low costs, reliability, and long lifetime.
+A fuel cell is an electrochemical cell that reacts hydrogen fuel with oxygen or another oxidizing agent, to convert chemical energy to electricty.
+Fuel cells are different from batteries in requiring a continuous source of fuel and oxygen (usually from air) to sustain the chemical reaction, whereas in a battery the chemical energy comes from chemicals already present in the battery.
+Fuel cells can produce electricity continuously for as long as fuel and oxygen are supplied.
+They are used for primary and backup power for commercial, industrial and residential buildings and in remote or inaccessible areas. They are also used to power fuel cell vehicles, including forklifts, automobiles, buses, boats, motorcycles and submarines.
+Fuel cells are classified by the type of electrolyte they use and by the difference in startup time, which ranges from 1 second for proton-exchange membrane fuel cells (PEM fuel cells, or PEMFC) to 10 minutes for solid oxide fuel cells (SOFC).
+There are many types of fuel cells, but they all consist of:
+- anode
+At the anode a catalyst causes the fuel to undergo oxidation reactions that generate protons (positively charged hydrogen ions) and electrons. The protons flow from the anode to the cathode through the electrolyte after the reaction. At the same time, electrons are drawn from the anode to the cathode through an external circuit, producing direct current electricity.
+- cathode
+At the cathode, another catalyst causes hydrogen ions, electrons, and oxygen to react, forming water.
+- electrolyte
+Allows positively charged hydrogen ions (protons) to move between the two sides of the fuel cell.
+A related technology are flow batteries, in which the fuel can be regenerated by recharging. Individual fuel cells produce relatively small electrical potentials, about 0.7 volts, so cells are "stacked", or placed in series, to create sufficient voltage to meet an application's requirements.[11] In addition to electricity, fuel cells produce water, heat and, depending on the fuel source, very small amounts of nitrogen dioxide and other emissions. The energy efficiency of a fuel cell is generally between 40 and 60%; however, if waste heat is captured in a cogeneration scheme, efficiencies up to 85% can be obtained.
+In 2022, the global fuel cell market was estimated to be $6.3 billion, and is expected to increase by 19.9% by 2030.[12] Many countries are attempting to enter the market by setting renewable energy GW goals.[13]
+
+

@@ -1,0 +1,496 @@
+991,
+Absolute value,
+In mathematics, the absolute value or modulus of a real number 
+x
+{\displaystyle x}
+, denoted 
+|
+x
+|
+{\displaystyle |x|}
+, is the non-negative value of 
+x
+{\displaystyle x}
+ without regard to its sign. Namely, 
+|
+x
+|
+=
+x
+{\displaystyle |x|=x}
+ if 
+x
+{\displaystyle x}
+ is a positive number, and 
+|
+x
+|
+=
+−
+x
+{\displaystyle |x|=-x}
+ if 
+x
+{\displaystyle x}
+ is negative (in which case negating 
+x
+{\displaystyle x}
+ makes 
+−
+x
+{\displaystyle -x}
+ positive), and 
+|
+0
+|
+=
+0
+{\displaystyle |0|=0}
+. For example, the absolute value of 3 is 3, and the absolute value of −3 is also 3. The absolute value of a number may be thought of as its distance from zero.
+Generalisations of the absolute value for real numbers occur in a wide variety of mathematical settings. For example, an absolute value is also defined for the complex numbers, the quaternions, ordered rings, fields and vector spaces. The absolute value is closely related to the notions of magnitude, distance, and norm in various mathematical and physical contexts.
+In 1806, Jean-Robert Argand introduced the term module, meaning unit of measure in French, specifically for the complex absolute value,[1][2] and it was borrowed into English in 1866 as the Latin equivalent modulus.[1] The term absolute value has been used in this sense from at least 1806 in French[3] and 1857 in English.[4] The notation |x|, with a vertical bar on each side, was introduced by Karl Weierstrass in 1841.[5] Other names for absolute value include numerical value[1] and magnitude.[1] In programming languages and computational software packages, the absolute value of x is generally represented by abs(x), or a similar expression.
+The vertical bar notation also appears in a number of other mathematical contexts: for example, when applied to a set, it denotes its cardinality; when applied to a matrix, it denotes its determinant.  Vertical bars denote the absolute value only for algebraic objects for which the notion of an absolute value is defined, notably an element of a normed division algebra, for example a real number, a complex number, or a quaternion.  A closely related but distinct notation is the use of vertical bars for either the Euclidean norm[6] or sup norm[7] of a vector in 
+R
+n
+{\displaystyle \mathbb {R} ^{n}}
+, although double vertical bars with subscripts (
+‖
+⋅
+‖
+2
+{\displaystyle \|\cdot \|_{2}}
+ and 
+‖
+⋅
+‖
+∞
+{\displaystyle \|\cdot \|_{\infty }}
+, respectively) are a more common and less ambiguous notation.
+For any real number 
+x
+{\displaystyle x}
+, the absolute value or modulus of 
+x
+{\displaystyle x}
+ is denoted by 
+|
+x
+|
+{\displaystyle |x|}
+, with a vertical bar on each side of the quantity, and is defined as[8]
+|
+x
+|
+=
+{
+x
+,
+if 
+x
+≥
+0
+−
+x
+,
+if 
+x
+<
+0.
+{\displaystyle |x|={\begin{cases}x,&{\text{if }}x\geq 0\\-x,&{\text{if }}x<0.\end{cases}}}
+The absolute value of 
+x
+{\displaystyle x}
+ is thus always either a positive number or zero, but never negative. When 
+x
+{\displaystyle x}
+ itself is negative (
+x
+<
+0
+{\displaystyle x<0}
+), then its absolute value is necessarily positive (
+|
+x
+|
+=
+−
+x
+>
+0
+{\displaystyle |x|=-x>0}
+).
+From an analytic geometry point of view, the absolute value of a real number is that number's distance from zero along the real number line, and more generally the absolute value of the difference of two real numbers (their absolute difference) is the distance between them.[9] The notion of an abstract distance function in mathematics can be seen to be a generalisation of the absolute value of the difference (see "Distance" below).
+Since the square root symbol represents the unique positive square root, when applied to a positive number, it follows that
+|
+x
+|
+=
+x
+2
+.
+{\displaystyle |x|={\sqrt {x^{2}}}.}
+This is equivalent to the definition above, and may be used as an alternative definition of the absolute value of real numbers.[10]
+The absolute value has the following four fundamental properties (a, b are real numbers), that are used for generalization of this notion to other domains:
+Non-negativity, positive definiteness, and multiplicativity are readily apparent from the definition.  To see that subadditivity holds, first note that 
+|
+a
++
+b
+|
+=
+s
+(
+a
++
+b
+)
+{\displaystyle |a+b|=s(a+b)}
+ where 
+s
+=
+±
+1
+{\displaystyle s=\pm 1}
+, with its sign chosen to make the result positive. Now, since 
+−
+1
+⋅
+x
+≤
+|
+x
+|
+{\displaystyle -1\cdot x\leq |x|}
+ and 
++
+1
+⋅
+x
+≤
+|
+x
+|
+{\displaystyle +1\cdot x\leq |x|}
+, it follows that, whichever of 
+±
+1
+{\displaystyle \pm 1}
+ is the value of 
+s
+{\displaystyle s}
+, one has 
+s
+⋅
+x
+≤
+|
+x
+|
+{\displaystyle s\cdot x\leq |x|}
+ for all real 
+x
+{\displaystyle x}
+. Consequently, 
+|
+a
++
+b
+|
+=
+s
+⋅
+(
+a
++
+b
+)
+=
+s
+⋅
+a
++
+s
+⋅
+b
+≤
+|
+a
+|
++
+|
+b
+|
+{\displaystyle |a+b|=s\cdot (a+b)=s\cdot a+s\cdot b\leq |a|+|b|}
+, as desired.
+Some additional useful properties are given below.  These are either immediate consequences of the definition or implied by the four fundamental properties above.
+Two other useful properties concerning inequalities are:
+These relations may be used to solve inequalities involving absolute values. For example:
+The absolute value, as "distance from zero", is used to define the absolute difference between arbitrary real numbers, the standard metric on the real numbers.
+Since the complex numbers are not ordered, the definition given at the top for the real absolute value cannot be directly applied to complex numbers. However, the geometric interpretation of the absolute value of a real number as its distance from 0 can be generalised. The absolute value of a complex number is defined by the Euclidean distance of its corresponding point in the complex plane from the origin.  This can be computed using the Pythagorean theorem: for any complex number
+z
+=
+x
++
+i
+y
+,
+{\displaystyle z=x+iy,}
+where 
+x
+{\displaystyle x}
+ and 
+y
+{\displaystyle y}
+ are real numbers, the absolute value or modulus of 
+z
+{\displaystyle z}
+ is denoted 
+|
+z
+|
+{\displaystyle |z|}
+ and is defined by[11]
+|
+z
+|
+=
+Re
+⁡
+(
+z
+)
+2
++
+Im
+⁡
+(
+z
+)
+2
+=
+x
+2
++
+y
+2
+,
+{\displaystyle |z|={\sqrt {\operatorname {Re} (z)^{2}+\operatorname {Im} (z)^{2}}}={\sqrt {x^{2}+y^{2}}},}
+the Pythagorean addition of 
+x
+{\displaystyle x}
+ and 
+y
+{\displaystyle y}
+, where 
+Re
+⁡
+(
+z
+)
+=
+x
+{\displaystyle \operatorname {Re} (z)=x}
+ and 
+Im
+⁡
+(
+z
+)
+=
+y
+{\displaystyle \operatorname {Im} (z)=y}
+ denote the real and imaginary parts of 
+z
+{\displaystyle z}
+, respectively.  When the imaginary part 
+y
+{\displaystyle y}
+ is zero, this coincides with the definition of the absolute value of the real number 
+x
+{\displaystyle x}
+.
+When a complex number 
+z
+{\displaystyle z}
+ is expressed in its polar form as 
+z
+=
+r
+e
+i
+θ
+,
+{\displaystyle z=re^{i\theta },}
+ its absolute value is 
+|
+z
+|
+=
+r
+.
+{\displaystyle |z|=r.}
+Since the product of any complex number 
+z
+{\displaystyle z}
+ and its complex conjugate 
+z
+¯
+=
+x
+−
+i
+y
+{\displaystyle {\bar {z}}=x-iy}
+, with the same absolute value, is always the non-negative real number 
+(
+x
+2
++
+y
+2
+)
+{\displaystyle \left(x^{2}+y^{2}\right)}
+, the absolute value of a complex number 
+z
+{\displaystyle z}
+ is the square root of  
+z
+⋅
+z
+¯
+,
+{\displaystyle z\cdot {\overline {z}},}
+ which is therefore called the absolute square or squared modulus of 
+z
+{\displaystyle z}
+:
+|
+z
+|
+=
+z
+⋅
+z
+¯
+.
+{\displaystyle |z|={\sqrt {z\cdot {\overline {z}}}}.}
+This generalizes the alternative definition for reals: 
+|
+x
+|
+=
+x
+⋅
+x
+{\textstyle |x|={\sqrt {x\cdot x}}}
+.
+The complex absolute value shares the four fundamental properties given above for the real absolute value. The identity 
+|
+z
+|
+2
+=
+|
+z
+2
+|
+{\displaystyle |z|^{2}=|z^{2}|}
+ is a special case of multiplicativity that is often useful by itself.
+The real absolute value function is continuous everywhere. It is differentiable everywhere except for x = 0.  It is monotonically decreasing on the interval (−∞, 0] and monotonically increasing on the interval [0, +∞). Since a real number and its opposite have the same absolute value, it is an even function, and is hence not invertible. The real absolute value function is a piecewise linear, convex function.
+For both real and complex numbers the absolute value function is idempotent (meaning that the absolute value of any absolute value is itself).
+The absolute value function of a real number returns its value irrespective of its sign, whereas the sign (or signum) function returns a number's sign irrespective of its value. The following equations show the relationship between these two functions:
+or
+and for x ≠ 0,
+The real absolute value function has a derivative for every x ≠ 0, but is not differentiable at x = 0. Its derivative for x ≠ 0 is given by the step function:[12][13]
+The real absolute value function is an example of a continuous function that achieves a global minimum where the derivative does not exist.
+The subdifferential of |x| at x = 0 is the interval [−1, 1].[14]
+The complex absolute value function is continuous everywhere but complex differentiable nowhere because it violates the Cauchy–Riemann equations.[12]
+The second derivative of |x| with respect to x is zero everywhere except zero, where it does not exist. As a generalised function, the second derivative may be taken as two times the Dirac delta function.
+The antiderivative (indefinite integral) of the real absolute value function is
+where C is an arbitrary constant of integration. This is not a complex antiderivative because complex antiderivatives can only exist for complex-differentiable (holomorphic) functions, which the complex absolute value function is not.
+The absolute value is closely related to the idea of distance. As noted above, the absolute value of a real or complex number is the distance from that number to the origin, along the real number line, for real numbers, or in the complex plane, for complex numbers, and more generally, the absolute value of the difference of two real or complex numbers is the distance between them.
+The standard Euclidean distance between two points
+and
+in Euclidean n-space is defined as:
+This can be seen as a generalisation, since for 
+a
+1
+{\displaystyle a_{1}}
+ and 
+b
+1
+{\displaystyle b_{1}}
+ real, i.e. in a 1-space, according to the alternative definition of the absolute value,
+and for 
+a
+=
+a
+1
++
+i
+a
+2
+{\displaystyle a=a_{1}+ia_{2}}
+ and 
+b
+=
+b
+1
++
+i
+b
+2
+{\displaystyle b=b_{1}+ib_{2}}
+ complex numbers, i.e. in a 2-space,
+The above shows that the "absolute value"-distance, for real and complex numbers, agrees with the standard Euclidean distance, which they inherit as a result of considering them as one and two-dimensional Euclidean spaces, respectively.
+The properties of the absolute value of the difference of two real or complex numbers: non-negativity, identity of indiscernibles, symmetry and the triangle inequality given above, can be seen to motivate the more general notion of a distance function as follows:
+A real valued function d on a set X × X is called a metric (or a distance function) on X, if it satisfies the following four axioms:[15]
+The definition of absolute value given for real numbers above can be extended to any ordered ring. That is, if a is an element of an ordered ring R, then the absolute value of a, denoted by |a|, is defined to be:[16]
+where −a is the additive inverse of a, 0 is the additive identity, and < and ≥ have the usual meaning with respect to the ordering in the ring.
+The four fundamental properties of the absolute value for real numbers can be used to generalise the notion of absolute value to an arbitrary field, as follows.
+A real-valued function v on a field F is called an absolute value (also a modulus, magnitude, value, or valuation)[17] if it satisfies the following four axioms:
+Where 0 denotes the additive identity of F. It follows from positive-definiteness and multiplicativity that v(1) = 1, where 1 denotes the multiplicative identity of F. The real and complex absolute values defined above are examples of absolute values for an arbitrary field.
+If v is an absolute value on F, then the function d on F × F, defined by d(a, b) = v(a − b), is a metric and the following are equivalent:
+An absolute value which satisfies any (hence all) of the above conditions is said to be non-Archimedean, otherwise it is said to be Archimedean.[18]
+Again the fundamental properties of the absolute value for real numbers can be used, with a slight modification, to generalise the notion to an arbitrary vector space.
+A real-valued function on a vector space V over a field F, represented as ‖ · ‖, is called an absolute value, but more usually a norm, if it satisfies the following axioms:
+For all a in F, and v, u in V,
+The norm of a vector is also called its length or magnitude.
+In the case of Euclidean space 
+R
+n
+{\displaystyle \mathbb {R} ^{n}}
+, the function defined by
+is a norm called the Euclidean norm. When the real numbers 
+R
+{\displaystyle \mathbb {R} }
+ are considered as the one-dimensional vector space 
+R
+1
+{\displaystyle \mathbb {R} ^{1}}
+, the absolute value is a norm, and is the p-norm (see Lp space) for any p. In fact the absolute value is the "only" norm on 
+R
+1
+{\displaystyle \mathbb {R} ^{1}}
+, in the sense that, for every norm ‖ · ‖ on 
+R
+1
+{\displaystyle \mathbb {R} ^{1}}
+, ‖x‖ = ‖1‖ ⋅ |x|.
+The complex absolute value is a special case of the norm in an inner product space, which is identical to the Euclidean norm when the complex plane is identified as the Euclidean plane 
+R
+2
+{\displaystyle \mathbb {R} ^{2}}
+.
+Every composition algebra A has an involution x → x* called its conjugation. The product in A of an element x and its conjugate x* is written N(x) = x x* and called the norm of x.
+The real numbers 
+R
+{\displaystyle \mathbb {R} }
+, complex numbers 
+C
+{\displaystyle \mathbb {C} }
+, and quaternions 
+H
+{\displaystyle \mathbb {H} }
+ are all composition algebras with norms given by definite quadratic forms. The absolute value in these division algebras is given by the square root of the composition algebra norm.
+In general the norm of a composition algebra may be a quadratic form that is not definite and has null vectors. However, as in the case of division algebras, when an element x has a non-zero norm, then x has a multiplicative inverse given by x*/N(x).

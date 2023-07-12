@@ -1,0 +1,113 @@
+6239,
+Contractionmapping,
+ In mathematics, a contraction mapping, or contraction or contractor, on a metric space (M, d) is a function f from M to itself, with the property that there is some real number 
+0
+≤
+k
+<
+1
+{\displaystyle 0\leq k<1}
+ such that for all x and y in M,
+The smallest such value of k is called the Lipschitz constant of f.  Contractive maps are sometimes called Lipschitzian maps.  If the above condition is instead satisfied for
+k ≤ 1, then the mapping is said to be a non-expansive map.
+More generally, the idea of a contractive mapping can be defined for maps between metric spaces. Thus, if (M, d) and (N, d') are two metric spaces, then 
+f
+:
+M
+→
+N
+{\displaystyle f:M\rightarrow N}
+ is a contractive mapping if there is a constant 
+0
+≤
+k
+<
+1
+{\displaystyle 0\leq k<1}
+ such that
+for all x and y in M.
+Every contraction mapping is Lipschitz continuous and hence uniformly continuous (for a Lipschitz continuous function, the constant k is no longer necessarily less than 1).
+A contraction mapping has at most one fixed point. Moreover, the Banach fixed-point theorem states that every contraction mapping on a non-empty complete metric space has a unique fixed point, and that for any x in M the iterated function sequence x, f (x), f (f (x)), f (f (f (x))), ... converges to the fixed point. This concept is very useful for iterated function systems where contraction mappings are often used. Banach's fixed-point theorem is also applied in proving the existence of solutions of ordinary differential equations, and is used in one proof of the inverse function theorem.[1]
+Contraction mappings play an important role in dynamic programming problems.[2][3]
+A non-expansive mapping with 
+k
+=
+1
+{\displaystyle k=1}
+ can be generalized to a firmly non-expansive mapping in a Hilbert space 
+H
+{\displaystyle {\mathcal {H}}}
+ if the following holds for all x and y in 
+H
+{\displaystyle {\mathcal {H}}}
+:
+where
+This is a special case of 
+α
+{\displaystyle \alpha }
+ averaged nonexpansive operators with 
+α
+=
+1
+/
+2
+{\displaystyle \alpha =1/2}
+.[4] A firmly non-expansive mapping is always non-expansive, via the Cauchy–Schwarz inequality.
+The class of firmly non-expansive maps is closed under convex combinations, but not compositions.[5] This class includes proximal mappings of proper, convex, lower-semicontinuous functions, hence it also includes orthogonal projections onto non-empty closed convex sets. The class of firmly nonexpansive operators is equal to the set of resolvents of maximally monotone operators.[6] Surprisingly, while iterating non-expansive maps has no guarantee to find a fixed point (e.g. multiplication by -1), firm non-expansiveness is sufficient to guarantee global convergence to a fixed point, provided a fixed point exists. More precisely, if 
+Fix
+f
+:=
+{
+x
+∈
+H
+ 
+|
+ 
+f
+(
+x
+)
+=
+x
+}
+≠
+∅
+{\displaystyle {\text{Fix}}f:=\{x\in {\mathcal {H}}\ |\ f(x)=x\}\neq \varnothing }
+, then for any initial point 
+x
+0
+∈
+H
+{\displaystyle x_{0}\in {\mathcal {H}}}
+, iterating
+(
+∀
+n
+∈
+N
+)
+x
+n
++
+1
+=
+f
+(
+x
+n
+)
+{\displaystyle (\forall n\in \mathbb {N} )\quad x_{n+1}=f(x_{n})}
+yields convergence to a fixed point 
+x
+n
+→
+z
+∈
+Fix
+f
+{\displaystyle x_{n}\to z\in {\text{Fix}}f}
+. This convergence might be weak in an infinite-dimensional setting.[5]
+A subcontraction map or subcontractor is a map f on a metric space (M, d) such that
+If the image of a subcontractor f is compact, then f has a fixed point.[7]
+In a locally convex space (E, P) with topology given by a set P of seminorms, one can define for any p ∈ P a p-contraction as a map f such that there is some kp < 1 such that p(f(x) − f(y)) ≤ kp p(x − y). If f is a p-contraction for all p ∈ P and (E, P) is sequentially complete, then f has a fixed point, given as limit of any sequence xn+1 = f(xn), and if (E, P) is Hausdorff, then the fixed point is unique.[8]

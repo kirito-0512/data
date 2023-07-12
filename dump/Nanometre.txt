@@ -1,0 +1,14 @@
+21837,
+Nanometre,
+The nanometre (international spelling as used by the International Bureau of Weights and Measures; SI symbol: nm) or nanometer (American spelling) is a unit of length in the International System of Units (SI), equal to one billionth (short scale) of a metre (0.000000001 m) and to 1000 picometres. One nanometre can be expressed in scientific notation as 1×10−9 m, and as 1/1000000000 metres.
+The nanometre was formerly known as the millimicrometre – or, more commonly, the millimicron for short –  since it is 1/1000 of a micrometre, and was often denoted by the symbol mμ or, more rarely, as μμ (which  is confusing, since μμ should logically refer to a millionth of a micron).[1][2][3]
+The name combines the SI prefix nano- (from the Ancient Greek νάνος, nanos, "dwarf") with the parent unit name metre (from Greek μέτρον, metrοn, "unit of measurement").
+Nanotechnologies are based on phenomena typically occurring on a scale of nanometres (see nanoscopic scale).[1]
+The nanometre is often used to express dimensions on an atomic scale: the diameter of a helium atom, for example, is about 0.06 nm, and that of a ribosome is about 20 nm. The nanometre is also commonly used to specify the wavelength of electromagnetic radiation near the visible part of the spectrum: visible light ranges from around 400 to 700 nm.[4] The ångström, which is equal to 0.1 nm, was formerly used for these purposes.
+Since the late 1980s, in usages such as the 32 nm and the 22 nm semiconductor node, it has also been used to describe typical feature sizes in successive generations of the ITRS Roadmap for miniaturized semiconductor device fabrication in the semiconductor industry.
+The CJK Compatibility block in Unicode has the symbol U+339A ㎚ SQUARE NM.
+
+
+
+Information box
+{'Unit system': 'SI', 'Unit of': 'length', 'Symbol': 'nm', '   SI units': '   1×10−9 m\n1×103 pm', '   Natural units': '   6.1877×1025 ℓP\n18.897 a0', '   imperial/US units': '   3.9370×10−8 in'}

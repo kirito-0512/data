@@ -1,0 +1,367 @@
+7532,
+Centrifugalforce,
+In Newtonian mechanics, the centrifugal force is an inertial force (also called a "fictitious" or "pseudo" force) that appears to act on all objects when viewed in a rotating frame of reference. It is directed away from an axis which is parallel to the axis of rotation and passing through the coordinate system's origin. If the axis of rotation passes through the coordinate system's origin, the centrifugal force is directed radially outwards from that axis. The magnitude of centrifugal force F on an object of mass m at the distance r from the origin of a frame of reference rotating with angular velocity ω is: 
+F
+=
+m
+ω
+2
+r
+{\displaystyle F=m\omega ^{2}r}
+The concept of centrifugal force can be applied in rotating devices, such as centrifuges, centrifugal pumps, centrifugal governors, and centrifugal clutches, and in centrifugal railways, planetary orbits and banked curves, when they are analyzed in a rotating coordinate system.
+Confusingly, the term has sometimes also been used for the reactive centrifugal force, a real inertial-frame-independent Newtonian force that exists as a reaction to a centripetal force.
+From 1659, the Neo-Latin term vi centrifuga ("centrifugal force") is attested in Christiaan Huygens' notes and letters.[1][2] Note, that in Latin centrum means "center" and ‑fugus (from fugiō) means "fleeing, avoiding". Thus, centrifugus means "fleeing from the center" in a literal translation.
+In 1673, in Horologium Oscillatorium, Huygens writes (as translated by Richard J. Blackwell):[3]
+There is another kind of oscillation in addition to the one we have examined up to this point; namely, a motion in which a suspended weight is moved around through the circumference of a circle. From this we were led to the construction of another clock at about the same time we invented the first one. [...] I originally intended to publish here a lengthy description of these clocks, along with matters pertaining to circular motion and centrifugal force[a], as it might be called, a subject about which I have more to say than I am able to do at present. But, in order that those interested in these things can sooner enjoy these new and not useless speculations, and in order that their publication not be prevented by some accident, I have decided, contrary to my plan, to add this fifth part [...].
+The same year, Isaac Newton received Huygens work via Henry Oldenburg and replied "I pray you return [Mr. Huygens] my humble thanks [...] I am glad we can expect another discourse of the vis centrifuga, which speculation may prove of good use in natural philosophy and astronomy, as well as mechanics".[1][4]
+In 1687, in Principia, Newton further develops vis centrifuga ("centrifugal force"). Around this time, the concept is also further evolved by Newton, Gottfried Wilhelm Leibniz, and Robert Hooke.
+In the late 18th century, the modern conception of the centrifugal force evolved as a "fictitious force" arising in a rotating reference.[citation needed]
+Centrifugal force has also played a role in debates in classical mechanics about detection of absolute motion. Newton suggested two arguments to answer the question of whether absolute rotation can be detected: the rotating bucket argument, and the rotating spheres argument.[5] According to Newton, in each scenario the centrifugal force would be observed in the object's local frame (the frame where the object is stationary) only if the frame were rotating with respect to absolute space.
+Around 1883, Mach's principle was proposed where, instead of absolute rotation, the motion of the distant stars relative to the local inertial frame gives rise through some (hypothetical) physical law to the centrifugal force and other inertia effects. Today's view is based upon the idea of an inertial frame of reference, which privileges observers for which the laws of physics take on their simplest form, and in particular, frames that do not use centrifugal forces in their equations of motion in order to describe motions correctly.
+Around 1914, the analogy between centrifugal force (sometimes used to create artificial gravity) and gravitational forces led to the equivalence principle of general relativity.[6][7]
+Centrifugal force is an outward force apparent in a rotating reference frame.[8][9][10][11] It does not exist when a system is described relative to an inertial frame of reference.
+All measurements of position and velocity must be made relative to some frame of reference. For example, an analysis of the motion of an object in an airliner in flight could be made relative to the airliner, to the surface of the Earth, or even to the Sun.[12] A reference frame that is at rest (or one that moves with no rotation and at constant velocity) relative to the "fixed stars" is generally taken to be an inertial frame. Any system can be analyzed in an inertial frame (and so with no centrifugal force).  However, it is often more convenient to describe a rotating system by using a rotating frame—the calculations are simpler, and descriptions more intuitive.  When this choice is made, fictitious forces, including the centrifugal force, arise.
+In a reference frame rotating about an axis through its origin, all objects, regardless of their state of motion, appear to be under the influence of a radially (from the axis of rotation) outward force that is proportional to their mass, to the distance from the axis of rotation of the frame, and to the square of the angular velocity of the frame.[13][14] This is the centrifugal force. As humans usually experience centrifugal force from within the rotating reference frame, e.g. on a merry-go-round or vehicle, this is much more well-known than centripetal force.
+Motion relative to a rotating frame results in another fictitious force: the Coriolis force. If the rate of rotation of the frame changes, a third fictitious force (the Euler force) is required. These fictitious forces are necessary for the formulation of correct equations of motion in a rotating reference frame[15][16] and allow Newton's laws to be used in their normal form in such a frame (with one exception: the fictitious forces do not obey Newton's third law: they have no equal and opposite counterparts).[15] Newton's third law requires the counterparts to exist within the same frame of reference, hence centrifugal and centripetal force, which do not, are not action and reaction (as is sometimes erroneously contended).
+A common experience that gives rise to the idea of a centrifugal force is encountered by passengers riding in a vehicle, such as a car, that is changing direction. If a car is traveling at a constant speed along a straight road, then a passenger inside is not accelerating and, according to Newton's second law of motion, the net force acting on them is therefore zero (all forces acting on them cancel each other out). If the car enters a curve that bends to the left, the passenger experiences an apparent force that seems to be pulling them towards the right. This is the fictitious centrifugal force. It is needed within the passengers' local frame of reference to explain their sudden tendency to start accelerating to the right relative to the car—a tendency which they must resist by applying a rightward force to the car (for instance, a frictional force against the seat) in order to remain in a fixed position inside. Since they push the seat toward the right, Newton's third law says that the seat pushes them towards the left. The centrifugal force must be included in the passenger's reference frame (in which the passenger remains at rest): it counteracts the leftward force applied to the passenger by the seat, and explains why this otherwise unbalanced force does not cause them to accelerate.[17] However, it would be apparent to a stationary observer watching from an overpass above that the frictional force exerted on the passenger by the seat is not being balanced; it constitutes a net force to the left, causing the passenger to accelerate toward the inside of the curve, as they must in order to keep moving with the car rather than proceeding in a straight line as they otherwise would. Thus the "centrifugal force" they feel is the result of a "centrifugal tendency" caused by inertia.[18] Similar effects are encountered in aeroplanes and roller coasters where the magnitude of the apparent force is often reported in "G's".
+If a stone is whirled round on a string, in a horizontal plane, the only real force acting on the stone in the horizontal plane is applied by the string (gravity acts vertically). There is a net force on the stone in the horizontal plane which acts toward the center.
+In an inertial frame of reference, were it not for this net force acting on the stone, the stone would travel in a straight line, according to Newton's first law of motion. In order to keep the stone moving in a circular path, a centripetal force, in this case provided by the string, must be continuously applied to the stone. As soon as it is removed (for example if the string breaks) the stone moves in a straight line, as viewed from above. In this inertial frame, the concept of centrifugal force is not required as all motion can be properly described using only real forces and Newton's laws of motion.
+In a frame of reference rotating with the stone around the same axis as the stone, the stone is stationary. However, the force applied by the string is still acting on the stone. If one were to apply Newton's laws in their usual (inertial frame) form, one would conclude that the stone should accelerate in the direction of the net applied force—towards the axis of rotation—which it does not do. The centrifugal force and other fictitious forces must be included along with the real forces in order to apply Newton's laws of motion in the rotating frame.
+The Earth constitutes a rotating reference frame because it rotates once every 23 hours and 56 minutes around its axis. Because the rotation is slow, the fictitious forces it produces are often small, and in everyday situations can generally be neglected. Even in calculations requiring high precision, the centrifugal force is generally not explicitly included, but rather lumped in with the gravitational force: the strength and direction of the local "gravity" at any point on the Earth's surface is actually a combination of gravitational and centrifugal forces. However, the fictitious forces can be of arbitrary size. For example, in an Earth-bound reference system (where the earth is represented as stationary), the fictitious force (the net of Coriolis and centrifugal forces) is enormous and is responsible for the Sun orbiting around the Earth. This is due to the large mass and velocity of the Sun (relative to the Earth).
+If an object is weighed with a simple spring balance at one of the Earth's poles, there are two forces acting on the object: the Earth's gravity, which acts in a downward direction, and the equal and opposite restoring force in the spring, acting upward. Since the object is stationary and not accelerating, there is no net force acting on the object and the force from the spring is equal in magnitude to the force of gravity on the object. In this case, the balance shows the value of the force of gravity on the object.
+When the same object is weighed on the equator, the same two real forces act upon the object. However, the object is moving in a circular path as the Earth rotates and therefore experiencing a centripetal acceleration. When considered in an inertial frame (that is to say, one that is not rotating with the Earth), the non-zero acceleration means that force of gravity will not balance with the force from the spring. In order to have a net centripetal force, the magnitude of the restoring force of the spring must be less than the magnitude of force of gravity. Less restoring force in the spring is reflected on the scale as less weight — about 0.3% less at the equator than at the poles.[19]  In the Earth reference frame (in which the object being weighed is at rest), the object does not appear to be accelerating; however, the two real forces, gravity and the force from the spring, are the same magnitude and do not balance. The centrifugal force must be included to make the sum of the forces be zero to match the apparent lack of acceleration.
+Note: In fact, the observed weight difference is more — about 0.53%. Earth's gravity is a bit stronger at the poles than at the equator, because the Earth is not a perfect sphere, so an object at the poles is slightly closer to the center of the Earth than one at the equator; this effect combines with the centrifugal force to produce the observed weight difference.[20]
+For the following formalism, the rotating frame of reference is regarded as a special case of a non-inertial reference frame that is rotating relative to an inertial reference frame denoted the stationary frame.
+In a rotating frame of reference, the time derivatives of any vector function P of time—such as the velocity and acceleration vectors of an object—will differ from its time derivatives in the stationary frame. If P1 P2, P3 are the components of P with respect to unit vectors i, j, k directed along the axes of the rotating frame (i.e. P = P1 i + P2 j +P3 k), then the first time derivative [dP/dt] of P with respect to the rotating frame is, by definition, dP1/dt i + dP2/dt j + dP3/dt k.  If the absolute angular velocity of the rotating frame is ω then the derivative dP/dt of P with respect to the stationary frame is related to [dP/dt] by the equation:[21]
+d
+P
+d
+t
+=
+[
+d
+P
+d
+t
+]
++
+ω
+×
+P
+ 
+,
+{\displaystyle {\frac {\mathrm {d} {\boldsymbol {P}}}{\mathrm {d} t}}=\left[{\frac {\mathrm {d} {\boldsymbol {P}}}{\mathrm {d} t}}\right]+{\boldsymbol {\omega }}\times {\boldsymbol {P}}\ ,}
+where 
+×
+{\displaystyle \times }
+ denotes the vector cross product. In other words, the rate of change of P in the stationary frame is the sum of its apparent rate of change in the rotating frame and a rate of rotation 
+ω
+×
+P
+{\displaystyle {\boldsymbol {\omega }}\times {\boldsymbol {P}}}
+ attributable to the motion of the rotating frame. The vector ω has magnitude ω equal to the rate of rotation and is directed along the axis of rotation according to the right-hand rule.
+Newton's law of motion for a particle of mass m written in vector form is:
+F
+=
+m
+a
+ 
+,
+{\displaystyle {\boldsymbol {F}}=m{\boldsymbol {a}}\ ,}
+where F is the vector sum of the physical forces applied to the particle and a is the absolute acceleration (that is, acceleration in an inertial frame) of the particle, given by:
+a
+=
+d
+2
+r
+d
+t
+2
+ 
+,
+{\displaystyle {\boldsymbol {a}}={\frac {\mathrm {d} ^{2}{\boldsymbol {r}}}{\mathrm {d} t^{2}}}\ ,}
+where r is the position vector of the particle.
+By applying the transformation above from the stationary to the rotating frame three times (twice to 
+d
+r
+d
+t
+{\textstyle {\frac {\mathrm {d} {\boldsymbol {r}}}{\mathrm {d} t}}}
+ and once to 
+d
+d
+t
+[
+d
+r
+d
+t
+]
+{\textstyle {\frac {\mathrm {d} }{\mathrm {d} t}}\left[{\frac {\mathrm {d} {\boldsymbol {r}}}{\mathrm {d} t}}\right]}
+), the absolute acceleration of the particle can be written as:
+a
+=
+d
+2
+r
+d
+t
+2
+=
+d
+d
+t
+d
+r
+d
+t
+=
+d
+d
+t
+(
+[
+d
+r
+d
+t
+]
++
+ω
+×
+r
+ 
+)
+=
+[
+d
+2
+r
+d
+t
+2
+]
++
+ω
+×
+[
+d
+r
+d
+t
+]
++
+d
+ω
+d
+t
+×
+r
++
+ω
+×
+d
+r
+d
+t
+=
+[
+d
+2
+r
+d
+t
+2
+]
++
+ω
+×
+[
+d
+r
+d
+t
+]
++
+d
+ω
+d
+t
+×
+r
++
+ω
+×
+(
+[
+d
+r
+d
+t
+]
++
+ω
+×
+r
+ 
+)
+=
+[
+d
+2
+r
+d
+t
+2
+]
++
+d
+ω
+d
+t
+×
+r
++
+2
+ω
+×
+[
+d
+r
+d
+t
+]
++
+ω
+×
+(
+ω
+×
+r
+)
+ 
+.
+{\displaystyle {\begin{aligned}{\boldsymbol {a}}&={\frac {\mathrm {d} ^{2}{\boldsymbol {r}}}{\mathrm {d} t^{2}}}={\frac {\mathrm {d} }{\mathrm {d} t}}{\frac {\mathrm {d} {\boldsymbol {r}}}{\mathrm {d} t}}={\frac {\mathrm {d} }{\mathrm {d} t}}\left(\left[{\frac {\mathrm {d} {\boldsymbol {r}}}{\mathrm {d} t}}\right]+{\boldsymbol {\omega }}\times {\boldsymbol {r}}\ \right)\\&=\left[{\frac {\mathrm {d} ^{2}{\boldsymbol {r}}}{\mathrm {d} t^{2}}}\right]+{\boldsymbol {\omega }}\times \left[{\frac {\mathrm {d} {\boldsymbol {r}}}{\mathrm {d} t}}\right]+{\frac {\mathrm {d} {\boldsymbol {\omega }}}{\mathrm {d} t}}\times {\boldsymbol {r}}+{\boldsymbol {\omega }}\times {\frac {\mathrm {d} {\boldsymbol {r}}}{\mathrm {d} t}}\\&=\left[{\frac {\mathrm {d} ^{2}{\boldsymbol {r}}}{\mathrm {d} t^{2}}}\right]+{\boldsymbol {\omega }}\times \left[{\frac {\mathrm {d} {\boldsymbol {r}}}{\mathrm {d} t}}\right]+{\frac {\mathrm {d} {\boldsymbol {\omega }}}{\mathrm {d} t}}\times {\boldsymbol {r}}+{\boldsymbol {\omega }}\times \left(\left[{\frac {\mathrm {d} {\boldsymbol {r}}}{\mathrm {d} t}}\right]+{\boldsymbol {\omega }}\times {\boldsymbol {r}}\ \right)\\&=\left[{\frac {\mathrm {d} ^{2}{\boldsymbol {r}}}{\mathrm {d} t^{2}}}\right]+{\frac {\mathrm {d} {\boldsymbol {\omega }}}{\mathrm {d} t}}\times {\boldsymbol {r}}+2{\boldsymbol {\omega }}\times \left[{\frac {\mathrm {d} {\boldsymbol {r}}}{\mathrm {d} t}}\right]+{\boldsymbol {\omega }}\times ({\boldsymbol {\omega }}\times {\boldsymbol {r}})\ .\end{aligned}}}
+The apparent acceleration in the rotating frame is 
+[
+d
+2
+r
+d
+t
+2
+]
+{\displaystyle \left[{\frac {\mathrm {d} ^{2}{\boldsymbol {r}}}{\mathrm {d} t^{2}}}\right]}
+. An observer unaware of the rotation would expect this to be zero in the absence of outside forces. However, Newton's laws of motion apply only in the inertial frame and describe dynamics in terms of the absolute acceleration 
+d
+2
+r
+d
+t
+2
+{\displaystyle {\frac {\mathrm {d} ^{2}{\boldsymbol {r}}}{\mathrm {d} t^{2}}}}
+. Therefore, the observer perceives the extra terms as contributions due to fictitious forces. These terms in the apparent acceleration are independent of mass; so it appears that each of these fictitious forces, like gravity, pulls on an object in proportion to its mass. When these forces are added, the equation of motion has the form:[22][23][24]
+F
+−
+m
+d
+ω
+d
+t
+×
+r
+−
+2
+m
+ω
+×
+[
+d
+r
+d
+t
+]
+−
+m
+ω
+×
+(
+ω
+×
+r
+)
+=
+m
+[
+d
+2
+r
+d
+t
+2
+]
+ 
+.
+{\displaystyle {\boldsymbol {F}}-m{\frac {\mathrm {d} {\boldsymbol {\omega }}}{\mathrm {d} t}}\times {\boldsymbol {r}}-2m{\boldsymbol {\omega }}\times \left[{\frac {\mathrm {d} {\boldsymbol {r}}}{\mathrm {d} t}}\right]-m{\boldsymbol {\omega }}\times ({\boldsymbol {\omega }}\times {\boldsymbol {r}})=m\left[{\frac {\mathrm {d} ^{2}{\boldsymbol {r}}}{\mathrm {d} t^{2}}}\right]\ .}
+From the perspective of the rotating frame, the additional force terms are experienced just like the real external forces and contribute to the apparent acceleration.[25][26] The additional terms on the force side of the equation can be recognized as, reading from left to right, the Euler force 
+−
+m
+d
+ω
+/
+d
+t
+×
+r
+{\displaystyle -m\mathrm {d} {\boldsymbol {\omega }}/\mathrm {d} t\times {\boldsymbol {r}}}
+, the Coriolis force 
+−
+2
+m
+ω
+×
+[
+d
+r
+/
+d
+t
+]
+{\displaystyle -2m{\boldsymbol {\omega }}\times \left[\mathrm {d} {\boldsymbol {r}}/\mathrm {d} t\right]}
+, and the centrifugal force 
+−
+m
+ω
+×
+(
+ω
+×
+r
+)
+{\displaystyle -m{\boldsymbol {\omega }}\times ({\boldsymbol {\omega }}\times {\boldsymbol {r}})}
+, respectively.[27] Unlike the other two fictitious forces, the centrifugal force always points radially outward from the axis of rotation of the rotating frame, with magnitude mω2r, and unlike the Coriolis force in particular, it is independent of the motion of the particle in the rotating frame. As expected, for a non-rotating inertial frame of reference 
+(
+ω
+=
+0
+)
+{\displaystyle ({\boldsymbol {\omega }}=0)}
+ the centrifugal force and all other fictitious forces disappear.[28] Similarly, as the centrifugal force is proportional to the distance from object to the axis of rotation of the frame, the centrifugal force vanishes for objects that lie upon the axis.
+Three scenarios were suggested by Newton to answer the question of whether the absolute rotation of a local frame can be detected; that is, if an observer can decide whether an observed object is rotating or if the observer is rotating.[29][30]
+In these scenarios, the effects attributed to centrifugal force are only observed in the local frame (the frame in which the object is stationary) if the object is undergoing absolute rotation relative to an inertial frame. By contrast, in an inertial frame, the observed effects arise as a consequence of the inertia and the known forces without the need to introduce a centrifugal force. Based on this argument, the privileged frame, wherein the laws of physics take on the simplest form, is a stationary frame in which no fictitious forces need to be invoked.
+Within this view of physics, any other phenomenon that is usually attributed to centrifugal force can be used to identify absolute rotation. For example, the oblateness of a sphere of freely flowing material is often explained in terms of centrifugal force. The oblate spheroid shape reflects, following Clairaut's theorem, the balance between containment by gravitational attraction and dispersal by centrifugal force. That the Earth is itself an oblate spheroid, bulging at the equator where the radial distance and hence the centrifugal force is larger, is taken as one of the evidences for its absolute rotation.[31]
+The operations of numerous common rotating mechanical systems are most easily conceptualized in terms of centrifugal force. For example:
+Nevertheless, all of these systems can also be described without requiring the concept of centrifugal force, in terms of motions and forces in a stationary frame, at the cost of taking somewhat more care in the consideration of forces and motions within the system.
+While the majority of the scientific literature uses the term centrifugal force to refer to the particular fictitious force that arises in rotating frames, there are a few limited instances in the literature of the term applied to other distinct physical concepts. One of these instances occurs in Lagrangian mechanics. Lagrangian mechanics formulates mechanics in terms of generalized coordinates {qk}, which can be as simple as the usual polar coordinates 
+(
+r
+,
+ 
+θ
+)
+{\displaystyle (r,\ \theta )}
+ or a much more extensive list of variables.[33][34] Within this formulation the motion is described in terms of generalized forces, using in place of Newton's laws the Euler–Lagrange equations. Among the generalized forces, those involving the square of the time derivatives {(dqk  ⁄ dt )2} are sometimes called centrifugal forces.[35][36][37][38] In the case of motion in a central potential the Lagrangian centrifugal force has the same form as the fictitious centrifugal force derived in a co-rotating frame.[39] However, the Lagrangian use of "centrifugal force" in other, more general cases has only a limited connection to the Newtonian definition.
+In another instance the term refers to the reaction force to a centripetal force, or reactive centrifugal force. A body undergoing curved motion, such as circular motion, is accelerating toward a center at any particular point in time. This centripetal acceleration is provided by a centripetal force, which is exerted on the body in curved motion by some other body. In accordance with Newton's third law of motion, the body in curved motion exerts an equal and opposite force on the other body. This reactive force is exerted by the body in curved motion on the other body that provides the centripetal force and its direction is from that other body toward the body in curved motion.[40][41]
+[42][43]
+This reaction force is sometimes described as a centrifugal inertial reaction,[44][45] that is, a force that is centrifugally directed, which is a reactive force equal and opposite to the centripetal force that is curving the path of the mass.
+The concept of the reactive centrifugal force is sometimes used in mechanics and engineering. It is sometimes referred to as just centrifugal force rather than as reactive centrifugal force[46][47] although this usage is deprecated in elementary mechanics.[48]

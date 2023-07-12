@@ -1,0 +1,835 @@
+14623,
+Integer,
+
+An integer is the number zero (0), a positive natural number (1, 2, 3, etc.) or a negative integer with a minus sign (−1, −2, −3, etc.).[1] The negative numbers are the additive inverses of the corresponding positive numbers.[2] In the language of mathematics, the set of integers is often denoted by the boldface Z or blackboard bold 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+.[3][4]
+The set of natural numbers 
+
+
+
+
+N
+
+
+
+{\displaystyle \mathbb {N} }
+
+ is a subset of 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+, which in turn is a subset of the set of all rational numbers 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+, itself a subset of the real numbers 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+.[a] Like the natural numbers, 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is countably infinite. An integer may be regarded as a real number that can be written without a fractional component. For example, 21, 4, 0, and −2048 are integers, while 9.75, 5+1/2, and √2 are not.[8]
+The integers form the smallest group and the smallest ring containing the natural numbers. In algebraic number theory, the integers are sometimes qualified as rational integers to distinguish them from the more general algebraic integers. In fact, (rational) integers are algebraic integers that are also rational numbers.
+The word integer comes from the Latin integer meaning "whole" or (literally) "untouched", from in ("not") plus tangere ("to touch"). "Entire" derives from the same origin via the French word entier, which means both entire and integer.[9] Historically the term was used for a number that was a multiple of 1,[10][11] or to the whole part of a mixed number.[12][13] Only positive integers were considered, making the term synonymous with the natural numbers. The definition of integer expanded over time to include negative numbers as their usefulness was recognized.[14] For example Leonhard Euler in his 1765 Elements of Algebra defined integers to include both positive and negative numbers.[15] However, European mathematicians, for the most part, resisted the concept of negative numbers until the middle of the 19th century.[14]
+The use of the letter Z to denote the set of integers comes from the German word Zahlen ("numbers")[3][4] and has been attributed to David Hilbert.[16] The earliest known use of the notation in a textbook occurs in Algébre written by the collective Nicolas Bourbaki, dating to 1947.[3][17] The notation was not adopted immediately, for example another textbook used the letter J[18] and a 1960 paper used Z to denote the non-negative integers.[19] But by 1961, Z was generally used by modern algebra texts to denote the positive and negative integers.[20]
+The symbol 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is often annotated to denote various sets, with varying usage amongst different authors: 
+
+
+
+
+
+Z
+
+
++
+
+
+
+
+{\displaystyle \mathbb {Z} ^{+}}
+
+,
+
+
+
+
+
+Z
+
+
++
+
+
+
+
+{\displaystyle \mathbb {Z} _{+}}
+
+ or 
+
+
+
+
+
+Z
+
+
+>
+
+
+
+
+{\displaystyle \mathbb {Z} ^{>}}
+
+ for the positive integers, 
+
+
+
+
+
+Z
+
+
+0
++
+
+
+
+
+{\displaystyle \mathbb {Z} ^{0+}}
+
+ or 
+
+
+
+
+
+Z
+
+
+≥
+
+
+
+
+{\displaystyle \mathbb {Z} ^{\geq }}
+
+ for non-negative integers, and 
+
+
+
+
+
+Z
+
+
+≠
+
+
+
+
+{\displaystyle \mathbb {Z} ^{\neq }}
+
+ for non-zero integers. Some authors use 
+
+
+
+
+
+Z
+
+
+∗
+
+
+
+
+{\displaystyle \mathbb {Z} ^{*}}
+
+ for non-zero integers, while others use it for non-negative integers, or for {–1, 1} (the group of units of 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+). Additionally, 
+
+
+
+
+
+Z
+
+
+p
+
+
+
+
+{\displaystyle \mathbb {Z} _{p}}
+
+ is used to denote either the set of integers modulo p (i.e., the set of congruence classes of integers), or the set of p-adic integers.[21][22]
+The whole numbers were synonymous with the integers up until the early 1950s.[23][24][25] In the late 1950s, as part of the New Math movement,[26] American elementary school teachers began teaching that "whole numbers" referred to the natural numbers, excluding negative numbers, while "integer" included the negative numbers.[27][28] "Whole number" remains ambiguous to the present day.[29]
+Ring homomorphisms
+Algebraic structures
+Related structures
+Algebraic number theory
+p-adic number theory and decimals
+Algebraic geometry
+Noncommutative algebraic geometry
+Free algebra
+Clifford algebra
+Like the natural numbers, 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is closed under the operations of addition and multiplication, that is, the sum and product of any two integers is an integer. However, with the inclusion of the negative natural numbers (and importantly, 0), 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+, unlike the natural numbers, is also closed under subtraction.[30]
+The integers form a unital ring which is the most basic one, in the following sense: for any unital ring, there is a unique ring homomorphism from the integers into this ring. This universal property, namely to be an initial object in the category of rings, characterizes the ring 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+.
+
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is not closed under division, since the quotient of two integers (e.g., 1 divided by 2) need not be an integer. Although the natural numbers are closed under exponentiation, the integers are not (since the result can be a fraction when the exponent is negative).
+The following table lists some of the basic properties of addition and multiplication for any integers a, b and c:
+The first five properties listed above for addition say that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+, under addition, is an abelian group. It is also a cyclic group, since every non-zero integer can be written as a finite sum 1 + 1 + ... + 1 or (−1) + (−1) + ... + (−1). In fact, 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ under addition is the only infinite cyclic group—in the sense that any infinite cyclic group is isomorphic to 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+.
+The first four properties listed above for multiplication say that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ under multiplication is a commutative monoid. However, not every integer has a multiplicative inverse (as is the case of the number 2), which means that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ under multiplication is not a group.
+All the rules from the above property table (except for the last), when taken together, say that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ together with addition and multiplication is a commutative ring with unity. It is the prototype of all objects of such algebraic structure. Only those equalities of expressions are true in 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ for all values of variables, which are true in any unital commutative ring. Certain non-zero integers map to zero in certain rings.
+The lack of zero divisors in the integers (last property in the table) means that the commutative ring 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is an integral domain.
+The lack of multiplicative inverses, which is equivalent to the fact that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is not closed under division, means that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is not a field. The smallest field containing the integers as a subring is the field of rational numbers. The process of constructing the rationals from the integers can be mimicked to form the field of fractions of any integral domain. And back, starting from an algebraic number field (an extension of rational numbers), its ring of integers can be extracted, which includes 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ as its subring.
+Although ordinary division is not defined on 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+, the division "with remainder" is defined on them. It is called Euclidean division, and possesses the following important property: given two integers a and b with b ≠ 0, there exist unique integers q and r such that a = q × b + r and 0 ≤ r <  |b|, where |b| denotes the absolute value of b. The integer q is called the quotient and r is called the remainder of the division of a by b. The Euclidean algorithm for computing greatest common divisors works by a sequence of Euclidean divisions.
+The above says that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is a Euclidean domain. This implies that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is a principal ideal domain, and any positive integer can be written as the products of primes in an essentially unique way.[31] This is the fundamental theorem of arithmetic.
+
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is a totally ordered set without upper or lower bound. The ordering of 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is given by:
+:... −3 < −2 < −1 < 0 < 1 < 2 < 3 < ...
+An integer is positive if it is greater than zero, and negative if it is less than zero. Zero is defined as neither negative nor positive.
+The ordering of integers is compatible with the algebraic operations in the following way:
+Thus it follows that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ together with the above ordering is an ordered ring.
+The integers are the only nontrivial totally ordered abelian group whose positive elements are well-ordered.[32] This is equivalent to the statement that any Noetherian valuation ring is either a field—or a discrete valuation ring.
+In elementary school teaching, integers are often intuitively defined as the union of the (positive) natural numbers, zero, and the negations of the natural numbers. This can be formalized as follows.[33] First construct the set of natural numbers according to the Peano axioms, call this 
+
+
+
+P
+
+
+{\displaystyle P}
+
+. Then construct a set 
+
+
+
+
+P
+
+−
+
+
+
+
+{\displaystyle P^{-}}
+
+ which is disjoint from 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ and in one-to-one correspondence with 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ via a function 
+
+
+
+ψ
+
+
+{\displaystyle \psi }
+
+. For example, take 
+
+
+
+
+P
+
+−
+
+
+
+
+{\displaystyle P^{-}}
+
+ to be the ordered pairs 
+
+
+
+(
+1
+,
+n
+)
+
+
+{\displaystyle (1,n)}
+
+ with the mapping 
+
+
+
+ψ
+=
+n
+↦
+(
+1
+,
+n
+)
+
+
+{\displaystyle \psi =n\mapsto (1,n)}
+
+. Finally let 0 be some object not in 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ or 
+
+
+
+
+P
+
+−
+
+
+
+
+{\displaystyle P^{-}}
+
+, for example the ordered pair 
+
+
+
+(
+0
+,
+0
+)
+
+
+{\displaystyle (0,0)}
+
+. Then the integers are defined to be the union 
+
+
+
+P
+∪
+
+P
+
+−
+
+
+∪
+{
+0
+}
+
+
+{\displaystyle P\cup P^{-}\cup \{0\}}
+
+. 
+The traditional arithmetic operations can then be defined on the integers in a piecewise fashion, for each of positive numbers, negative numbers, and zero. For example negation is defined as follows:
+
+
+
+
+−
+x
+=
+
+
+{
+
+
+
+ψ
+(
+x
+)
+,
+
+
+
+if 
+
+x
+∈
+P
+
+
+
+
+
+ψ
+
+−
+1
+
+
+(
+x
+)
+,
+
+
+
+if 
+
+x
+∈
+
+P
+
+−
+
+
+
+
+
+
+0
+,
+
+
+
+if 
+
+x
+=
+0
+
+
+
+
+
+
+
+
+{\displaystyle -x={\begin{cases}\psi (x),&{\text{if }}x\in P\\\psi ^{-1}(x),&{\text{if }}x\in P^{-}\\0,&{\text{if }}x=0\end{cases}}}
+
+
+The traditional style of definition leads to many different cases (each arithmetic operation needs to be defined on each combination of types of integer) and makes it tedious to prove that integers obey the various laws of arithmetic.[34]
+In modern set-theoretic mathematics, a more abstract construction[35][36] allowing one to define arithmetical operations without any case distinction is often used instead.[37] The integers can thus be formally constructed as the equivalence classes of ordered pairs of natural numbers (a,b).[38]
+The intuition is that (a,b) stands for the result of subtracting b from a.[38] To confirm our expectation that 1 − 2 and 4 − 5 denote the same number, we define an equivalence relation ~ on these pairs with the following rule:
+precisely when
+Addition and multiplication of integers can be defined in terms of the equivalent operations on the natural numbers;[38] by using [(a,b)] to denote the equivalence class having (a,b) as a member, one has:
+The negation (or additive inverse) of an integer is obtained by reversing the order of the pair:
+Hence subtraction can be defined as the addition of the additive inverse:
+The standard ordering on the integers is given by:
+It is easily verified that these definitions are independent of the choice of representatives of the equivalence classes.
+Every equivalence class has a unique member that is of the form (n,0) or (0,n) (or both at once). The natural number n is identified with the class [(n,0)] (i.e., the natural numbers are embedded into the integers by map sending n to [(n,0)]), and the class [(0,n)] is denoted −n (this covers all remaining classes, and gives the class [(0,0)] a second time since −0 = 0.
+Thus, [(a,b)] is denoted by
+If the natural numbers are identified with the corresponding integers (using the embedding mentioned above), this convention creates no ambiguity.
+This notation recovers the familiar representation of the integers as {..., −2, −1, 0, 1, 2, ...} .
+Some examples are:
+In theoretical computer science, other approaches for the construction of integers are used by automated theorem provers and term rewrite engines.
+Integers are represented as algebraic terms built using a few basic operations (e.g.,  zero, succ, pred) and, possibly, using natural numbers, which are assumed to be already constructed (using, say, the Peano approach).
+There exist at least ten such constructions of signed integers.[39] These constructions differ in several ways: the number of basic operations used for the construction, the number (usually, between 0 and 2) and the types of arguments accepted by these operations; the presence or absence of natural numbers as arguments of some of these operations, and the fact that these operations are free constructors or not, i.e., that the same integer can be represented using only one or many algebraic terms.
+The technique for the construction of integers presented in the previous section corresponds to the particular case where there is a single basic operation pair
+
+
+
+(
+x
+,
+y
+)
+
+
+{\displaystyle (x,y)}
+
+ that takes as arguments two natural numbers 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+, and returns an integer (equal to 
+
+
+
+x
+−
+y
+
+
+{\displaystyle x-y}
+
+). This operation is not free since the integer 0 can be written pair(0,0), or pair(1,1), or pair(2,2), etc. This technique of construction is used by the proof assistant Isabelle; however, many other tools use alternative construction techniques, notable those based upon free constructors, which are simpler and can be implemented more efficiently in computers.
+An integer is often a primitive data type in computer languages. However, integer data types can only represent a subset of all integers, since practical computers are of finite capacity. Also, in the common two's complement representation, the inherent definition of sign distinguishes between "negative" and "non-negative" rather than "negative, positive, and 0". (It is, however, certainly possible for a computer to determine whether an integer value is truly positive.) Fixed length integer approximation data types (or subsets) are denoted int or Integer in several programming languages (such as Algol68, C, Java, Delphi, etc.).
+Variable-length representations of integers, such as bignums, can store any integer that fits in the computer's memory. Other integer data types are implemented with a fixed size, usually a number of bits which is a power of 2 (4, 8, 16, etc.) or a memorable number of decimal digits (e.g., 9 or 10).
+The cardinality of the set of integers is equal to ℵ0 (aleph-null). This is readily demonstrated by the construction of a bijection, that is, a function that is injective and surjective from 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ to 
+
+
+
+
+N
+
+=
+{
+0
+,
+1
+,
+2
+,
+.
+.
+.
+}
+.
+
+
+{\displaystyle \mathbb {N} =\{0,1,2,...\}.}
+
+ Such a function may be defined as
+with graph (set of the pairs 
+
+
+
+(
+x
+,
+f
+(
+x
+)
+)
+
+
+{\displaystyle (x,f(x))}
+
+ is
+Its inverse function is defined by
+with graph
+This article incorporates material from Integer on PlanetMath, which is licensed under the Creative Commons Attribution/Share-Alike License.
+
+

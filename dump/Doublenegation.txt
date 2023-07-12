@@ -1,0 +1,105 @@
+21688,
+Doublenegation,
+In propositional logic, double negation is the theorem that states that "If a statement is true, then it is not the case that the statement is not true."[citation needed] This is expressed by saying that a proposition A is logically equivalent to not (not-A), or by the formula A ≡ ~(~A) where the sign ≡ expresses logical equivalence and the sign ~ expresses negation.[1]
+Like the law of the excluded middle, this principle is considered to be a law of thought in classical logic,[2] but it is disallowed by intuitionistic logic.[3]  The principle was stated as a theorem of propositional logic by Russell and Whitehead in  Principia Mathematica as:
+Double negation elimination and double negation introduction are two valid rules of replacement. They are the inferences that, if not not-A is true, then A is true, and its converse, that, if A is true, then not not-A is true, respectively. The rule allows one to introduce or eliminate a negation from a formal proof. The rule is based on the equivalence of, for example, It is false that it is not raining. and It is raining.
+The double negation introduction rule is:
+and the double negation elimination rule is:
+Where "
+
+
+
+⇒
+
+
+{\displaystyle \Rightarrow }
+
+" is a metalogical symbol representing "can be replaced in a proof with."
+In logics that have both rules, negation is an involution.
+The double negation introduction rule may be written in sequent notation:
+The double negation elimination rule may be written as:
+In rule form:
+and
+or as a tautology (plain propositional calculus sentence):
+and
+These can be combined into a single biconditional formula:
+Since biconditionality is an equivalence relation, any instance of ¬¬A in a well-formed formula can be replaced by A, leaving unchanged the truth-value of the well-formed formula.
+Double negative elimination is a theorem of classical logic, but not of weaker logics such as intuitionistic logic and minimal logic. Double negation introduction is a theorem of both intuitionistic logic and minimal logic, as is 
+
+
+
+¬
+¬
+¬
+A
+⊢
+¬
+A
+
+
+{\displaystyle \neg \neg \neg A\vdash \neg A}
+
+.
+Because of their constructive character, a statement such as It's not the case that it's not raining is weaker than It's raining. The latter requires a proof of rain, whereas the former merely requires a proof that rain would not be contradictory. This distinction also arises in natural language in the form of litotes.
+In Hilbert-style deductive systems for propositional logic, double negation is not always taken as an axiom (see list of Hilbert systems), and is rather a theorem. We describe a proof of this theorem in the system of three axioms proposed by Jan Łukasiewicz:
+We use the lemma 
+
+
+
+p
+→
+p
+
+
+{\displaystyle p\to p}
+
+ proved here, which we refer to as (L1), and use the following additional lemma, proved here:
+We first prove 
+
+
+
+¬
+¬
+p
+→
+p
+
+
+{\displaystyle \neg \neg p\to p}
+
+. For shortness, we denote 
+
+
+
+q
+→
+(
+r
+→
+q
+)
+
+
+{\displaystyle q\to (r\to q)}
+
+ by φ0. We also use repeatedly the method of the hypothetical syllogism metatheorem as a shorthand for several proof steps.
+We now prove 
+
+
+
+p
+→
+¬
+¬
+p
+
+
+{\displaystyle p\to \neg \neg p}
+
+.
+And the proof is complete.
+
+
+
+Information box
+{'Type': 'Theorem', 'Field': 'Propositional calculus\nClassical logic', 'Statement': 'If a statement is true, then it is not the case that the statement is not true."', 'Symbolic statement': ''}

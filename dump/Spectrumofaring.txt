@@ -1,0 +1,1571 @@
+37291,
+Spectrumofaring,
+In commutative algebra, the prime spectrum (or simply the spectrum) of a ring R is the set of all prime ideals of R, and is usually denoted by 
+
+
+
+Spec
+⁡
+
+R
+
+
+
+{\displaystyle \operatorname {Spec} {R}}
+
+;[1] in algebraic geometry it is simultaneously a topological space equipped with the sheaf of rings 
+
+
+
+
+
+O
+
+
+
+
+{\displaystyle {\mathcal {O}}}
+
+.[2]
+For any ideal I of R, define 
+
+
+
+
+V
+
+I
+
+
+
+
+{\displaystyle V_{I}}
+
+ to be the set of prime ideals containing I. We can put a topology on 
+
+
+
+Spec
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {Spec} (R)}
+
+ by defining the collection of closed sets to be
+This topology is called the Zariski topology.
+A basis for the Zariski topology can be constructed as follows.  For f ∈ R, define Df to be the set of prime ideals of R not containing f.  Then each Df is an open subset of 
+
+
+
+Spec
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {Spec} (R)}
+
+, and 
+
+
+
+{
+
+D
+
+f
+
+
+:
+f
+∈
+R
+}
+
+
+{\displaystyle \{D_{f}:f\in R\}}
+
+ is a basis for the Zariski topology.
+
+
+
+
+Spec
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {Spec} (R)}
+
+ is a compact space, but almost never Hausdorff: in fact, the maximal ideals in R are precisely the closed points in this topology. By the same reasoning, it is not, in general, a T1 space.[3] However, 
+
+
+
+Spec
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {Spec} (R)}
+
+ is always a Kolmogorov space (satisfies the T0 axiom); it is also a spectral space.
+Given the space 
+
+
+
+X
+=
+Spec
+⁡
+(
+R
+)
+
+
+{\displaystyle X=\operatorname {Spec} (R)}
+
+ with the Zariski topology, the structure sheaf OX is defined on the distinguished open subsets Df by setting Γ(Df, OX) = Rf, the localization of R by the powers of f. It can be shown that this defines a B-sheaf and therefore that it defines a sheaf. In more detail, the distinguished open subsets are a basis of the Zariski topology, so for an arbitrary open set U, written as the union of {Dfi}i∈I, we set Γ(U,OX) = limi∈I Rfi. One may check that this presheaf is a sheaf, so 
+
+
+
+Spec
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {Spec} (R)}
+
+ is a ringed space. Any ringed space isomorphic to one of this form is called an affine scheme. General schemes are obtained by gluing affine schemes together.
+Similarly, for a module M over the ring R, we may define a sheaf 
+
+
+
+
+
+
+M
+~
+
+
+
+
+
+{\displaystyle {\tilde {M}}}
+
+ on 
+
+
+
+Spec
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {Spec} (R)}
+
+. On the distinguished open subsets set Γ(Df, 
+
+
+
+
+
+
+M
+~
+
+
+
+
+
+{\displaystyle {\tilde {M}}}
+
+) = Mf, using the localization of a module. As above, this construction extends to a presheaf on all open subsets of 
+
+
+
+Spec
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {Spec} (R)}
+
+ and satisfies gluing axioms. A sheaf of this form is called a quasicoherent sheaf.
+If P is a point in 
+
+
+
+Spec
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {Spec} (R)}
+
+, that is, a prime ideal, then the stalk of the structure sheaf at P equals the localization of R at the ideal P, and this is a local ring.  Consequently, 
+
+
+
+Spec
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {Spec} (R)}
+
+ is a locally ringed space.
+If R is an integral domain, with field of fractions K, then we can describe the ring Γ(U,OX) more concretely as follows.  We say that an element f in K is regular at a point P in X if it can be represented as a fraction f = a/b with b not in P.  Note that this agrees with the notion of a regular function in algebraic geometry.  Using this definition, we can describe Γ(U,OX) as precisely the set of elements of K which are regular at every point P in U.
+It is useful to use the language of category theory and observe that 
+
+
+
+Spec
+
+
+{\displaystyle \operatorname {Spec} }
+
+ is a functor. Every ring homomorphism 
+
+
+
+f
+:
+R
+→
+S
+
+
+{\displaystyle f:R\to S}
+
+ induces a continuous map 
+
+
+
+Spec
+⁡
+(
+f
+)
+:
+Spec
+⁡
+(
+S
+)
+→
+Spec
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {Spec} (f):\operatorname {Spec} (S)\to \operatorname {Spec} (R)}
+
+ (since the preimage of any prime ideal in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is a prime ideal in 
+
+
+
+R
+
+
+{\displaystyle R}
+
+). In this way, 
+
+
+
+Spec
+
+
+{\displaystyle \operatorname {Spec} }
+
+ can be seen as a contravariant functor from the category of commutative rings to the category of topological spaces. Moreover, for every prime 
+
+
+
+
+
+p
+
+
+
+
+{\displaystyle {\mathfrak {p}}}
+
+ the homomorphism 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ descends to homomorphisms
+of local rings. Thus 
+
+
+
+Spec
+
+
+{\displaystyle \operatorname {Spec} }
+
+ even defines a contravariant functor from the category of commutative rings to the category of locally ringed spaces. In fact it is the universal such functor hence can be used to define the functor 
+
+
+
+Spec
+
+
+{\displaystyle \operatorname {Spec} }
+
+ up to natural isomorphism.[citation needed]
+The functor 
+
+
+
+Spec
+
+
+{\displaystyle \operatorname {Spec} }
+
+ yields a contravariant equivalence between the category of commutative rings and the category of affine schemes; each of these categories is often thought of as the opposite category of the other.
+Following on from the example, in algebraic geometry one studies algebraic sets, i.e. subsets of Kn (where K is an algebraically closed field) that are defined as the common zeros of a set of polynomials in n variables. If A is such an algebraic set, one considers the commutative ring R of all polynomial functions A → K. The maximal ideals of R correspond to the points of A (because K is algebraically closed), and the prime ideals of R correspond to the subvarieties of A (an algebraic set is called irreducible or a variety if it cannot be written as the union of two proper algebraic subsets).
+The spectrum of R therefore consists of the points of A together with elements for all subvarieties of A. The points of A are closed in the spectrum, while the elements corresponding to subvarieties have a closure consisting of all their points and subvarieties. If one only considers the points of A, i.e. the maximal ideals in R, then the Zariski topology defined above coincides with the Zariski topology defined on algebraic sets (which has precisely the algebraic subsets as closed sets). Specifically, the maximal ideals in R, i.e. 
+
+
+
+MaxSpec
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {MaxSpec} (R)}
+
+, together with the Zariski topology, is homeomorphic to A also with the Zariski topology.
+One can thus view the topological space 
+
+
+
+Spec
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {Spec} (R)}
+
+ as an "enrichment" of the topological space A (with Zariski topology): for every subvariety of A, one additional non-closed point has been introduced, and this point "keeps track" of the corresponding subvariety. One thinks of this point as the generic point for the subvariety. Furthermore, the sheaf on 
+
+
+
+Spec
+⁡
+(
+R
+)
+
+
+{\displaystyle \operatorname {Spec} (R)}
+
+ and the sheaf of polynomial functions on A are essentially identical. By studying spectra of polynomial rings instead of algebraic sets with Zariski topology, one can generalize the concepts of algebraic geometry to non-algebraically closed fields and beyond, eventually arriving at the language of schemes.
+Here are some examples of schemes that are not affine schemes. They are constructed from gluing affine schemes together.
+Some authors (notably M. Hochster) consider topologies on prime spectra other than Zariski topology.
+First, there is the notion of constructible topology: given a ring A, the subsets of 
+
+
+
+Spec
+⁡
+(
+A
+)
+
+
+{\displaystyle \operatorname {Spec} (A)}
+
+ of the form 
+
+
+
+
+φ
+
+∗
+
+
+(
+Spec
+⁡
+B
+)
+,
+φ
+:
+A
+→
+B
+
+
+{\displaystyle \varphi ^{*}(\operatorname {Spec} B),\varphi :A\to B}
+
+ satisfy the axioms for closed sets in a topological space. This topology on 
+
+
+
+Spec
+⁡
+(
+A
+)
+
+
+{\displaystyle \operatorname {Spec} (A)}
+
+ is called the constructible topology.[7][8]
+In Hochster (1969), Hochster considers what he calls the patch topology on a prime spectrum.[9][10][11] By definition, the patch topology is the smallest topology in which the sets of the forms 
+
+
+
+V
+(
+I
+)
+
+
+{\displaystyle V(I)}
+
+ and 
+
+
+
+Spec
+⁡
+(
+A
+)
+−
+V
+(
+f
+)
+
+
+{\displaystyle \operatorname {Spec} (A)-V(f)}
+
+ are closed.
+There is a relative version of the functor 
+
+
+
+Spec
+
+
+{\displaystyle \operatorname {Spec} }
+
+ called global 
+
+
+
+Spec
+
+
+{\displaystyle \operatorname {Spec} }
+
+, or relative 
+
+
+
+Spec
+
+
+{\displaystyle \operatorname {Spec} }
+
+.  If 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is a scheme, then relative 
+
+
+
+Spec
+
+
+{\displaystyle \operatorname {Spec} }
+
+ is denoted by 
+
+
+
+
+
+
+Spec
+_
+
+
+
+S
+
+
+
+
+{\displaystyle {\underline {\operatorname {Spec} }}_{S}}
+
+ or 
+
+
+
+
+
+S
+p
+e
+c
+
+
+S
+
+
+
+
+{\displaystyle \mathbf {Spec} _{S}}
+
+. If 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is clear from the context, then relative Spec may be denoted by 
+
+
+
+
+
+Spec
+_
+
+
+
+
+{\displaystyle {\underline {\operatorname {Spec} }}}
+
+ or 
+
+
+
+
+S
+p
+e
+c
+
+
+
+{\displaystyle \mathbf {Spec} }
+
+.  For a scheme 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ and a quasi-coherent sheaf of 
+
+
+
+
+
+
+O
+
+
+
+S
+
+
+
+
+{\displaystyle {\mathcal {O}}_{S}}
+
+-algebras 
+
+
+
+
+
+A
+
+
+
+
+{\displaystyle {\mathcal {A}}}
+
+, there is a scheme 
+
+
+
+
+
+
+Spec
+_
+
+
+
+S
+
+
+(
+
+
+A
+
+
+)
+
+
+{\displaystyle {\underline {\operatorname {Spec} }}_{S}({\mathcal {A}})}
+
+ and a morphism 
+
+
+
+f
+:
+
+
+
+Spec
+_
+
+
+
+S
+
+
+(
+
+
+A
+
+
+)
+→
+S
+
+
+{\displaystyle f:{\underline {\operatorname {Spec} }}_{S}({\mathcal {A}})\to S}
+
+ such that for every open affine 
+
+
+
+U
+⊆
+S
+
+
+{\displaystyle U\subseteq S}
+
+, there is an isomorphism 
+
+
+
+
+f
+
+−
+1
+
+
+(
+U
+)
+≅
+Spec
+⁡
+(
+
+
+A
+
+
+(
+U
+)
+)
+
+
+{\displaystyle f^{-1}(U)\cong \operatorname {Spec} ({\mathcal {A}}(U))}
+
+, and such that for open affines 
+
+
+
+V
+⊆
+U
+
+
+{\displaystyle V\subseteq U}
+
+, the inclusion 
+
+
+
+
+f
+
+−
+1
+
+
+(
+V
+)
+→
+
+f
+
+−
+1
+
+
+(
+U
+)
+
+
+{\displaystyle f^{-1}(V)\to f^{-1}(U)}
+
+ is induced by the restriction map 
+
+
+
+
+
+A
+
+
+(
+U
+)
+→
+
+
+A
+
+
+(
+V
+)
+
+
+{\displaystyle {\mathcal {A}}(U)\to {\mathcal {A}}(V)}
+
+.  That is, as ring homomorphisms induce opposite maps of spectra, the restriction maps of a sheaf of algebras induce the inclusion maps of the spectra that make up the Spec of the sheaf.
+Global Spec has a universal property similar to the universal property for ordinary Spec.  More precisely, just as Spec and the global section functor are contravariant right adjoints between the category of commutative rings and schemes, global Spec and the direct image functor for the structure map are contravariant right adjoints between the category of commutative 
+
+
+
+
+
+
+O
+
+
+
+S
+
+
+
+
+{\displaystyle {\mathcal {O}}_{S}}
+
+-algebras and schemes over 
+
+
+
+S
+
+
+{\displaystyle S}
+
+.[dubious  – discuss]  In formulas,
+where 
+
+
+
+π
+:
+X
+→
+S
+
+
+{\displaystyle \pi \colon X\to S}
+
+ is a morphism of schemes.
+The relative spec is the correct tool for parameterizing the family of lines through the origin of 
+
+
+
+
+
+A
+
+
+
+C
+
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {A} _{\mathbb {C} }^{2}}
+
+ over 
+
+
+
+X
+=
+
+
+P
+
+
+a
+,
+b
+
+
+1
+
+
+.
+
+
+{\displaystyle X=\mathbb {P} _{a,b}^{1}.}
+
+ Consider the sheaf of algebras 
+
+
+
+
+
+A
+
+
+=
+
+
+
+O
+
+
+
+X
+
+
+[
+x
+,
+y
+]
+,
+
+
+{\displaystyle {\mathcal {A}}={\mathcal {O}}_{X}[x,y],}
+
+ and let 
+
+
+
+
+
+I
+
+
+=
+(
+a
+y
+−
+b
+x
+)
+
+
+{\displaystyle {\mathcal {I}}=(ay-bx)}
+
+ be a sheaf of ideals of 
+
+
+
+
+
+A
+
+
+.
+
+
+{\displaystyle {\mathcal {A}}.}
+
+ Then the relative spec 
+
+
+
+
+
+
+Spec
+_
+
+
+
+X
+
+
+(
+
+
+A
+
+
+
+/
+
+
+
+I
+
+
+)
+→
+
+
+P
+
+
+a
+,
+b
+
+
+1
+
+
+
+
+{\displaystyle {\underline {\operatorname {Spec} }}_{X}({\mathcal {A}}/{\mathcal {I}})\to \mathbb {P} _{a,b}^{1}}
+
+ parameterizes the desired family. In fact, the fiber over 
+
+
+
+[
+α
+:
+β
+]
+
+
+{\displaystyle [\alpha :\beta ]}
+
+ is the line through the origin of 
+
+
+
+
+
+A
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {A} ^{2}}
+
+ containing the point 
+
+
+
+(
+α
+,
+β
+)
+.
+
+
+{\displaystyle (\alpha ,\beta ).}
+
+ Assuming 
+
+
+
+α
+≠
+0
+,
+
+
+{\displaystyle \alpha \neq 0,}
+
+ the fiber can be computed by looking at the composition of pullback diagrams
+where the composition of the bottom arrows
+gives the line containing the point 
+
+
+
+(
+α
+,
+β
+)
+
+
+{\displaystyle (\alpha ,\beta )}
+
+ and the origin. This example can be generalized to parameterize the family of lines through the origin of 
+
+
+
+
+
+A
+
+
+
+C
+
+
+
+n
++
+1
+
+
+
+
+{\displaystyle \mathbb {A} _{\mathbb {C} }^{n+1}}
+
+ over 
+
+
+
+X
+=
+
+
+P
+
+
+
+a
+
+0
+
+
+,
+.
+.
+.
+,
+
+a
+
+n
+
+
+
+
+n
+
+
+
+
+{\displaystyle X=\mathbb {P} _{a_{0},...,a_{n}}^{n}}
+
+ by letting 
+
+
+
+
+
+A
+
+
+=
+
+
+
+O
+
+
+
+X
+
+
+[
+
+x
+
+0
+
+
+,
+.
+.
+.
+,
+
+x
+
+n
+
+
+]
+
+
+{\displaystyle {\mathcal {A}}={\mathcal {O}}_{X}[x_{0},...,x_{n}]}
+
+ and 
+
+
+
+
+
+I
+
+
+=
+
+(
+
+2
+×
+2
+
+ minors of 
+
+
+
+(
+
+
+
+
+a
+
+0
+
+
+
+
+⋯
+
+
+
+a
+
+n
+
+
+
+
+
+
+
+x
+
+0
+
+
+
+
+⋯
+
+
+
+x
+
+n
+
+
+
+
+
+)
+
+
+
+)
+
+.
+
+
+{\displaystyle {\mathcal {I}}=\left(2\times 2{\text{ minors of }}{\begin{pmatrix}a_{0}&\cdots &a_{n}\\x_{0}&\cdots &x_{n}\end{pmatrix}}\right).}
+
+
+From the perspective of representation theory, a prime ideal I corresponds to a module R/I, and the spectrum of a ring corresponds to irreducible cyclic representations of R, while more general subvarieties correspond to possibly reducible representations that need not be cyclic. Recall that abstractly, the representation theory of a group is the study of modules over its group algebra.
+The connection to representation theory is clearer if one considers the polynomial ring 
+
+
+
+R
+=
+K
+[
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+]
+
+
+{\displaystyle R=K[x_{1},\dots ,x_{n}]}
+
+ or, without a basis, 
+
+
+
+R
+=
+K
+[
+V
+]
+.
+
+
+{\displaystyle R=K[V].}
+
+ As the latter formulation makes clear, a polynomial ring is the group algebra over a vector space, and writing in terms of 
+
+
+
+
+x
+
+i
+
+
+
+
+{\displaystyle x_{i}}
+
+ corresponds to choosing a basis for the vector space. Then an ideal I, or equivalently a module 
+
+
+
+R
+
+/
+
+I
+,
+
+
+{\displaystyle R/I,}
+
+ is a cyclic representation of R (cyclic meaning generated by 1 element as an R-module; this generalizes 1-dimensional representations).
+In the case that the field is algebraically closed (say, the complex numbers), every maximal ideal corresponds to a point in n-space, by the nullstellensatz (the maximal ideal generated by 
+
+
+
+(
+
+x
+
+1
+
+
+−
+
+a
+
+1
+
+
+)
+,
+(
+
+x
+
+2
+
+
+−
+
+a
+
+2
+
+
+)
+,
+…
+,
+(
+
+x
+
+n
+
+
+−
+
+a
+
+n
+
+
+)
+
+
+{\displaystyle (x_{1}-a_{1}),(x_{2}-a_{2}),\ldots ,(x_{n}-a_{n})}
+
+ corresponds to the point 
+
+
+
+(
+
+a
+
+1
+
+
+,
+…
+,
+
+a
+
+n
+
+
+)
+
+
+{\displaystyle (a_{1},\ldots ,a_{n})}
+
+). These representations of 
+
+
+
+K
+[
+V
+]
+
+
+{\displaystyle K[V]}
+
+ are then parametrized by the dual space 
+
+
+
+
+V
+
+∗
+
+
+,
+
+
+{\displaystyle V^{*},}
+
+ the covector being given by sending each 
+
+
+
+
+x
+
+i
+
+
+
+
+{\displaystyle x_{i}}
+
+ to the corresponding 
+
+
+
+
+a
+
+i
+
+
+
+
+{\displaystyle a_{i}}
+
+. Thus a representation of 
+
+
+
+
+K
+
+n
+
+
+
+
+{\displaystyle K^{n}}
+
+ (K-linear maps 
+
+
+
+
+K
+
+n
+
+
+→
+K
+
+
+{\displaystyle K^{n}\to K}
+
+) is given by a set of n numbers, or equivalently a covector 
+
+
+
+
+K
+
+n
+
+
+→
+K
+.
+
+
+{\displaystyle K^{n}\to K.}
+
+
+Thus, points in n-space, thought of as the max spec of 
+
+
+
+R
+=
+K
+[
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+]
+,
+
+
+{\displaystyle R=K[x_{1},\dots ,x_{n}],}
+
+ correspond precisely to 1-dimensional representations of R, while finite sets of points correspond to finite-dimensional representations (which are reducible, corresponding geometrically to being a union, and algebraically to not being a prime ideal). The non-maximal ideals then correspond to infinite-dimensional representations.
+The term "spectrum" comes from the use in operator theory.
+Given a linear operator T on a finite-dimensional vector space V, one can consider the vector space with operator as a module over the polynomial ring in one variable R=K[T], as in the structure theorem for finitely generated modules over a principal ideal domain. Then the spectrum of K[T] (as a ring) equals the spectrum of T (as an operator).
+Further, the geometric structure of the spectrum of the ring (equivalently, the algebraic structure of the module) captures the behavior of the spectrum of the operator, such as algebraic multiplicity and geometric multiplicity. For instance, for the 2×2 identity matrix has corresponding module:
+the 2×2 zero matrix has module
+showing geometric multiplicity 2 for the zero eigenvalue,
+while a non-trivial 2×2 nilpotent matrix has module
+showing algebraic multiplicity 2 but geometric multiplicity 1.
+In more detail:
+The spectrum can be generalized from rings to C*-algebras in operator theory, yielding the notion of the spectrum of a C*-algebra. Notably, for a Hausdorff space, the algebra of scalars (the bounded continuous functions on the space, being analogous to regular functions) is a commutative C*-algebra, with the space being recovered as a topological space from 
+
+
+
+MaxSpec
+
+
+{\displaystyle \operatorname {MaxSpec} }
+
+ of the algebra of scalars, indeed functorially so; this is the content of the Banach–Stone theorem. Indeed, any commutative C*-algebra can be realized as the algebra of scalars of a Hausdorff space in this way, yielding the same correspondence as between a ring and its spectrum. Generalizing to non-commutative C*-algebras yields noncommutative topology.
+
+

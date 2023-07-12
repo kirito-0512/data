@@ -1,0 +1,25 @@
+13709,
+Hilbert'sfifthproblem,
+Hilbert's fifth problem is the fifth mathematical problem from the problem list publicized in 1900 by mathematician David Hilbert, and concerns the characterization of Lie groups.
+The theory of Lie groups describes continuous symmetry in mathematics; its importance there and in theoretical physics (for example quark theory) grew steadily in the twentieth century. In rough terms, Lie group theory is the common ground of group theory and the theory of topological manifolds. The question Hilbert asked was an acute one of making this precise: is there any difference if a restriction to smooth manifolds is imposed?
+The expected answer was in the negative (the classical groups, the most central examples in Lie group theory, are smooth manifolds). This was eventually confirmed in the early 1950s. Since the precise notion of "manifold" was not available to Hilbert, there is room for some debate about the formulation of the problem in contemporary mathematical language.
+A modern formulation of the problem (in its simplest interpretation) is as follows:[1]
+An equivalent formulation of this problem closer to that of Hilbert, in terms of composition laws, goes as follows:[2]
+In this form the problem was solved by Montgomery–Zippin and Gleason. 
+A stronger interpretation (viewing 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ as a transformation group rather than an abstract group) results in the Hilbert–Smith conjecture about group actions on manifolds, which in full generality is still open. It is known classically for actions on 2-dimensional manifolds and has recently been solved for three dimensions by John Pardon.
+The first major result was that of John von Neumann in 1933,[3]giving an affirmative answer for compact groups. The locally compact abelian group case was solved in 1934 by Lev Pontryagin. The final resolution, at least in the interpretation of what Hilbert meant given above, came with the work of Andrew Gleason, Deane Montgomery and Leo Zippin in the 1950s.
+In 1953, Hidehiko Yamabe obtained further results about topological groups that may not be manifolds:[a]
+It follows that every locally compact group contains an open subgroup that is a projective limit of Lie groups, by van Dantzig's theorem (this last statement is called the Gleason–Yamabe Theorem in Tao (2014, Theorem 1.1.17)).
+An important condition in the theory is no small subgroups.  A topological group G, or a partial piece of a group like F above, is said to have no small subgroups if there is a neighbourhood N of e containing no subgroup bigger than {e}. For example, the circle group satisfies the condition, while the p-adic integers Zp as additive group does not, because N will contain the subgroups: pk Zp, for all large integers k. This gives an idea of what the difficulty is like in the problem. In the Hilbert–Smith conjecture case it is a matter of a known reduction to whether Zp can act faithfully on a closed manifold. Gleason, Montgomery and Zippin characterized Lie groups amongst locally compact groups, as those having no small subgroups.
+Researchers have also considered Hilbert's fifth problem without supposing finite dimensionality. This was the subject of Per Enflo's doctoral thesis; his work is discussed in Benyamini & Lindenstrauss (2000, Chapter 17).
+
+

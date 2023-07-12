@@ -1,0 +1,870 @@
+10346,
+Gravitationalredshift,
+In physics and general relativity, gravitational redshift (known as Einstein shift in older literature)[1][2] is the phenomenon that electromagnetic waves or photons travelling out of a gravitational well (seem to) lose energy. This loss of energy corresponds to a decrease in the wave frequency and increase in the wavelength, known more generally as a redshift. The opposite effect, in which photons (seem to) gain energy when travelling into a gravitational well, is known as a gravitational blueshift (a type of blueshift). The effect was first described by Einstein in 1907,[3][4] eight years before his publication of the full theory of relativity.
+Gravitational redshift can be interpreted as a consequence of the equivalence principle (that gravity and acceleration are equivalent and the redshift is caused by the Doppler effect)[5] or as a consequence of the mass-energy equivalence and conservation of energy ('falling' photons gain energy),[6][7] though there are numerous subtleties that complicate a rigorous derivation.[5][8] A gravitational redshift can also equivalently be interpreted as gravitational time dilation at the source of the radiation:[8][2] if two oscillators (attached to transmitters producing electromagnetic radiation) are operating at different gravitational potentials, the oscillator at the higher gravitational potential (farther from the attracting body) will seem to ‘tick’ faster; that is, when observed from the same location, it will have a higher measured frequency than the oscillator at the lower gravitational potential (closer to the attracting body).
+To first approximation, gravitational redshift is proportional to the difference in gravitational potential divided by the speed of light squared, 
+
+
+
+z
+=
+Δ
+U
+
+/
+
+
+c
+
+2
+
+
+
+
+{\displaystyle z=\Delta U/c^{2}}
+
+, thus resulting in a very small effect. Light escaping from the surface of the sun was predicted by Einstein in 1911 to be redshifted by roughly 2 ppm or 2 × 10−6.[9] Navigational signals from GPS satellites orbiting at 20,000 km altitude are perceived blueshifted by approximately 0.5 ppb or 5 × 10−10,[10] corresponding to a (negligible) increase of less than 1 Hz in the frequency of a 1.5 GHz GPS radio signal (however, the accompanying gravitational time dilation affecting the atomic clock in the satellite is crucially important for accurate navigation[11]). On the surface of the Earth the gravitational potential is proportional to height, 
+
+
+
+Δ
+U
+=
+g
+Δ
+h
+
+
+{\displaystyle \Delta U=g\Delta h}
+
+, and the corresponding redshift is roughly 10−16 (0.1 part per quadrillion) per meter of change in elevation and/or altitude.
+In astronomy, the magnitude of a gravitational redshift is often expressed as the velocity that would create an equivalent shift through the relativistic Doppler effect. In such units, the 2 ppm sunlight redshift corresponds to a 633 m/s receding velocity, roughly of the same magnitude as convective motions in the sun, thus complicating the measurement.[9] The GPS satellite gravitational blueshift velocity equivalent is less than 0.2 m/s, which is negligible compared to the actual Doppler shift resulting from its orbital velocity. In astronomical objects with strong gravitational fields the redshift can be much greater; for example, light from the surface of a white dwarf is gravitationally redshifted on average by around 50 km/s/c (around 170 ppm).[12]
+Observing the gravitational redshift in the solar system is one of the classical tests of general relativity.[13] Measuring the gravitational redshift to high precision with atomic clocks can serve as a test of Lorentz symmetry and guide searches for dark matter.
+Einstein's theory of general relativity incorporates the equivalence principle, which can be stated in various different ways. One such statement is that gravitational effects are locally undetectable for a free-falling observer. Therefore, in a laboratory experiment at the surface of the earth, all gravitational effects should be equivalent to the effects that would have been observed if the laboratory had been accelerating through outer space at g. One consequence is a gravitational Doppler effect. If a light pulse is emitted at the floor of the laboratory, then a free-falling observer says that by the time it reaches the ceiling, the ceiling has accelerated away from it, and therefore when observed by a detector fixed to the ceiling, it will be observed to have been Doppler shifted toward the red end of the spectrum. This shift, which the free-falling observer considers to be a kinematical Doppler shift, is thought of by the laboratory observer as a gravitational redshift. Such an effect was verified in the 1959 Pound–Rebka experiment. In a case such as this, where the gravitational field is uniform, the change in wavelength is given by
+where 
+
+
+Δ
+y
+
+\Delta y
+
+ is the change in height. Since this prediction arises directly from the equivalence principle, it does not require any of the mathematical apparatus of general relativity, and its verification does not specifically support general relativity over any other theory that incorporates the equivalence principle.
+On Earth's surface (or in a spaceship accelerating at 1g), the gravitational redshift is approximately 1.1 × 10−16, the equivalent of a 3.3 × 10−8 m/s Doppler shift, for every meter of height differential.
+When the field is not uniform, the simplest and most useful case to consider is that of a spherically symmetric field. By Birkhoff's theorem, such a field is described in general relativity by the Schwarzschild metric, 
+
+
+
+d
+
+τ
+
+2
+
+
+=
+
+(
+
+1
+−
+
+r
+
+S
+
+
+
+/
+
+R
+
+)
+
+d
+
+t
+
+2
+
+
++
+…
+
+
+{\displaystyle d\tau ^{2}=\left(1-r_{\text{S}}/R\right)dt^{2}+\ldots }
+
+, where 
+
+
+d
+τ
+
+d\tau
+
+ is the clock time of an observer at distance R from the center, 
+
+
+d
+t
+
+dt
+
+ is the time measured by an observer at infinity, 
+
+
+
+
+r
+
+S
+
+
+
+
+{\displaystyle r_{\text{S}}}
+
+ is the Schwarzschild radius 
+
+
+
+2
+G
+M
+
+/
+
+
+c
+
+2
+
+
+
+
+{\displaystyle 2GM/c^{2}}
+
+, "..." represents terms that vanish if the observer is at rest, 
+
+G
+G
+
+ is Newton's gravitational constant, 
+
+M
+M
+
+ the mass of the gravitating body, and 
+
+c
+c
+
+ the speed of light. The result is that frequencies and wavelengths are shifted according to the ratio
+where
+This can be related to the redshift parameter conventionally defined as 
+
+
+
+z
+=
+
+λ
+
+∞
+
+
+
+/
+
+
+λ
+
+e
+
+
+−
+1
+
+
+{\displaystyle z=\lambda _{\infty }/\lambda _{\text{e}}-1}
+
+.
+In the case where neither the emitter nor the observer is at infinity, the transitivity of Doppler shifts allows us to generalize the result to 
+
+
+
+
+λ
+
+1
+
+
+
+/
+
+
+λ
+
+2
+
+
+=
+
+
+[
+
+
+(
+
+1
+−
+
+r
+
+S
+
+
+
+/
+
+
+R
+
+1
+
+
+
+)
+
+
+/
+
+
+(
+
+1
+−
+
+r
+
+S
+
+
+
+/
+
+
+R
+
+2
+
+
+
+)
+
+
+]
+
+
+1
+
+/
+
+2
+
+
+
+
+{\displaystyle \lambda _{1}/\lambda _{2}=\left[\left(1-r_{\text{S}}/R_{1}\right)/\left(1-r_{\text{S}}/R_{2}\right)\right]^{1/2}}
+
+. The redshift formula for the frequency 
+
+
+ν
+=
+c
+
+/
+
+λ
+
+\nu =c/\lambda
+
+ is 
+
+
+
+
+ν
+
+o
+
+
+
+/
+
+
+ν
+
+e
+
+
+=
+
+λ
+
+e
+
+
+
+/
+
+
+λ
+
+o
+
+
+
+
+{\displaystyle \nu _{o}/\nu _{\text{e}}=\lambda _{\text{e}}/\lambda _{o}}
+
+. When 
+
+
+
+
+R
+
+1
+
+
+−
+
+R
+
+2
+
+
+
+
+{\displaystyle R_{1}-R_{2}}
+
+ is small, these results are consistent with the equation given above based on the equivalence principle.
+The redshift ratio may also be expressed in terms of a (Newtonian) escape velocity 
+
+
+v
+
+e
+
+
+v_{\text{e}}
+
+ at 
+
+
+
+
+R
+
+e
+
+
+=
+2
+G
+M
+
+/
+
+
+v
+
+e
+
+
+2
+
+
+
+
+{\displaystyle R_{\text{e}}=2GM/v_{\text{e}}^{2}}
+
+, resulting in the corresponding Lorentz factor:
+For an object compact enough to have an event horizon, the redshift is not defined for photons emitted inside the Schwarzschild radius, both because signals cannot escape from inside the horizon and because an object such as the emitter cannot be stationary inside the horizon, as was assumed above. Therefore, this formula only applies when 
+
+
+
+
+R
+
+e
+
+
+
+
+{\displaystyle R_{\text{e}}}
+
+ is larger than 
+
+
+
+
+r
+
+S
+
+
+
+
+{\displaystyle r_{\text{S}}}
+
+. When the photon is emitted at a distance equal to the Schwarzschild radius, the redshift will be infinitely large, and it will not escape to any finite distance from the Schwarzschild sphere. When the photon is emitted at an infinitely large distance, there is no redshift.
+In the Newtonian limit, i.e. when 
+
+
+
+
+R
+
+e
+
+
+
+
+{\displaystyle R_{\text{e}}}
+
+ is sufficiently large compared to the Schwarzschild radius 
+
+
+
+
+r
+
+S
+
+
+
+
+{\displaystyle r_{\text{S}}}
+
+, the redshift can be approximated as
+where 
+
+g
+g
+
+ is the gravitational acceleration at 
+
+
+
+
+R
+
+e
+
+
+
+
+{\displaystyle R_{\text{e}}}
+
+. For Earth's surface with respect to infinity, z is approximately 7 × 10−10 (the equivalent of a 0.2 m/s radial Doppler shift); for the Moon it is approximately 3 × 10−11 (about 1 cm/s). The value for the surface of the sun is about 2 × 10−6, corresponding to 0.64 km/s. (For non-relativisitc velocities, the radial Doppler equivalent velocity can be approximated by multiplying z with the speed of light.)
+The z-value can be expressed succinctly in terms of the escape velocity at 
+
+
+
+
+R
+
+e
+
+
+
+
+{\displaystyle R_{\text{e}}}
+
+, since the gravitational potential is equal to half the square of the escape velocity, thus:
+where 
+
+
+v
+
+e
+
+
+v_{\text{e}}
+
+ is the escape velocity at 
+
+
+
+
+R
+
+e
+
+
+
+
+{\displaystyle R_{\text{e}}}
+
+.
+It can also be related to the circular orbit velocity 
+
+
+
+
+v
+
+o
+
+
+
+
+{\displaystyle v_{\text{o}}}
+
+ at 
+
+
+
+
+R
+
+e
+
+
+
+
+{\displaystyle R_{\text{e}}}
+
+, which equals 
+
+
+
+
+v
+
+e
+
+
+
+/
+
+
+
+2
+
+
+
+
+{\displaystyle v_{\text{e}}/{\sqrt {2}}}
+
+, thus
+For example, the gravitational blueshift of distant starlight due to the sun's gravity, which the Earth is orbiting at about 30 km/s, would be approximately 1 × 10−8 or the equivalent of a 3 m/s radial Doppler shift.
+For an object in a (circular) orbit, the gravitational redshift is of comparable magnitude as the transverse Doppler effect, 
+
+
+
+z
+≈
+
+
+
+1
+2
+
+
+
+
+β
+
+2
+
+
+
+
+{\displaystyle z\approx {\tfrac {1}{2}}\beta ^{2}}
+
+ where β=v/c, while both are much smaller than the radial Doppler effect, for which 
+
+
+
+z
+≈
+β
+
+
+{\displaystyle z\approx \beta }
+
+.
+A number of experimenters initially claimed to have identified the effect using astronomical measurements, and the effect was considered to have been finally identified in the spectral lines of the star Sirius B by W.S. Adams in 1925.[14] However, measurements by Adams have been criticized as being too low[14][15] and these observations are now considered to be measurements of spectra that are unusable because of scattered light from the primary, Sirius A.[15] The first accurate measurement of the gravitational redshift of a white dwarf was done by Popper in 1954, measuring a 21 km/s gravitational redshift of 40 Eridani B.[15] The redshift of Sirius B was finally measured by Greenstein et al. in 1971, obtaining the value for the gravitational redshift of 89±16 km/s, with more accurate measurements by the Hubble Space Telescope, showing 80.4±4.8 km/s.[16][citation needed]
+James W. Brault, a graduate student of Robert Dicke at Princeton University, measured the gravitational redshift of the sun using optical methods in 1962.[17] In 2020, a team of scientists published the most accurate measurement of the solar gravitational redshift so far, made by analyzing Fe spectral lines in sunlight reflected by the moon; their measurement of a mean global 638 ± 6m/s lineshift is in agreement with the theoretical value of 633.1 m/s.[18][19] Measuring the solar redshift is complicated by the Doppler shift caused by the motion of the sun's surface, which is of similar magnitude as the gravitational effect.[19]
+In 2011 the group of Radek Wojtak of the Niels Bohr Institute at the University of Copenhagen collected data from 8000 galaxy clusters and found that the light coming from the cluster centers tended to be red-shifted compared to the cluster edges, confirming the energy loss due to gravity.[20]
+In 2018, the star S2 made its closest approach to Sgr A*, the 4-million solar mass supermassive black hole at the centre of the Milky Way, reaching 7650 km/s or about 2.5% of the speed of light while passing the black hole at a distance of just 120 AU, or 1400 Schwarzschild radii. Independent analyses by the GRAVITY collaboration[21][22][23][24] (led by Reinhard Genzel) and the KECK/UCLA Galactic Center Group[25][26] (led by Andrea Ghez) revealed a combined transverse Doppler and gravitational redshift up to 200 km/s/c, in agreement with general relativity predictions.
+In 2021, Mediavilla (IAC, Spain) & Jiménez-Vicente (UGR, Spain) were able to use measurements of the gravitational redshift in quasars up to cosmological redshift of z~3 to confirm the predictions of Einstein's Equivalence Principle and the lack of cosmological evolution within 13%.[27]
+The effect is now considered to have been definitively verified by the experiments of Pound, Rebka and Snider between 1959 and 1965. The Pound–Rebka experiment of 1959 measured the gravitational redshift in spectral lines using a terrestrial 57Fe gamma source over a vertical height of 22.5 metres.[28] This paper was the first determination of the gravitational redshift which used measurements of the change in wavelength of gamma-ray photons generated with the Mössbauer effect, which generates radiation with a very narrow line width. The accuracy of the gamma-ray measurements was typically 1%.
+An improved experiment was done by Pound and Snider in 1965, with an accuracy better than the 1% level.[29]
+A very accurate gravitational redshift experiment was performed in 1976,[30] where a hydrogen maser clock on a rocket was launched to a height of 10,000 km, and its rate compared with an identical clock on the ground. It tested the gravitational redshift to 0.007%.
+Later tests can be done with the Global Positioning System (GPS), which must account for the gravitational redshift in its timing system, and physicists have analyzed timing data from the GPS to confirm other tests. When the first satellite was launched, it showed the predicted shift of 38 microseconds per day. This rate of the discrepancy is sufficient to substantially impair the function of GPS within hours if not accounted for. An excellent account of the role played by general relativity in the design of GPS can be found in Ashby 2003.[31]
+In 2010 an experiment placed two aluminum-ion quantum clocks close to each other, but with the second elevated 33 cm compared to the first, making the gravitational red shift effect visible in everyday lab scales.[32]
+[33]
+In 2020 a group at the University of Tokyo measured the gravitational redshift of two strontium-87 optical lattice clocks.[34] The measurement took place at Tokyo Tower where the clocks were separated by approximately 450 m and connected by telecom fibers. The gravitational redshift can be expressed as
+where 
+
+
+
+Δ
+ν
+=
+
+ν
+
+2
+
+
+−
+
+ν
+
+1
+
+
+
+
+{\displaystyle \Delta \nu =\nu _{2}-\nu _{1}}
+
+ is the gravitational redshift, 
+
+
+
+
+ν
+
+1
+
+
+
+
+{\displaystyle \nu _{1}}
+
+ is the optical clock transition frequency, 
+
+
+
+Δ
+U
+=
+
+U
+
+2
+
+
+−
+
+U
+
+1
+
+
+
+
+{\displaystyle \Delta U=U_{2}-U_{1}}
+
+ is the difference in gravitational potential, and 
+
+α
+\alpha
+
+ denotes the violation from general relativity. By Ramsey spectroscopy of the strontium-87 optical clock transition (429 THz, 698 nm) the group determined the gravitational redshift between the two optical clocks to be 21.18 Hz, corresponding to a z-value of approximately 5 × 10−14. Their measured value of 
+
+α
+\alpha
+
+, 
+
+
+
+(
+1.4
+±
+9.1
+)
+×
+
+10
+
+−
+5
+
+
+
+
+{\displaystyle (1.4\pm 9.1)\times 10^{-5}}
+
+, is an agreement with recent measurements made with hydrogen masers in elliptical orbits.[35][36]
+In October 2021 a group at JILA led by physicist Jun Ye reported a measurement of gravitational redshift in the submillimeter scale. The measurement is done on the 87Sr clock transition between the top and the bottom of a millimeter-tall ultracold cloud of 100,000 strontium atoms in an optical lattice.[37][38]
+The gravitational weakening of light from high-gravity stars was predicted by John Michell in 1783 and Pierre-Simon Laplace in 1796, using Isaac Newton's concept of light corpuscles (see: emission theory) and who predicted that some stars would have a gravity so strong that light would not be able to escape. The effect of gravity on light was then explored by Johann Georg von Soldner (1801), who calculated the amount of deflection of a light ray by the sun, arriving at the Newtonian answer which is half the value predicted by general relativity. All of this early work assumed that light could slow down and fall, which is inconsistent with the modern understanding of light waves.
+Once it became accepted that light was an electromagnetic wave, it was clear that the frequency of light should not change from place to place, since waves from a source with a fixed frequency keep the same frequency everywhere. One way around this conclusion would be if time itself were altered—if clocks at different points had different rates. This was precisely Einstein's conclusion in 1911.[39] He considered an accelerating box, and noted that according to the special theory of relativity, the clock rate at the "bottom" of the box (the side away from the direction of acceleration) was slower than the clock rate at the "top" (the side toward the direction of acceleration). Indeed, in a frame moving (in 
+
+x
+x
+
+ direction) with velocity 
+
+v
+v
+
+ relative to the rest frame, the clocks at a nearby position 
+
+
+d
+x
+
+dx
+
+ are ahead by 
+
+
+
+(
+d
+x
+
+/
+
+c
+)
+(
+v
+
+/
+
+c
+)
+
+
+{\displaystyle (dx/c)(v/c)}
+
+ (to the first order); so an acceleration 
+
+g
+g
+
+ (that changes speed by 
+
+
+
+g
+
+/
+
+d
+t
+
+
+{\displaystyle g/dt}
+
+ per time 
+
+
+d
+t
+
+dt
+
+) makes clocks at the position 
+
+
+d
+x
+
+dx
+
+ to be ahead by 
+
+
+
+(
+d
+x
+
+/
+
+c
+)
+(
+g
+
+/
+
+c
+)
+d
+t
+
+
+{\displaystyle (dx/c)(g/c)dt}
+
+, that is, tick at a rate 
+The equivalence principle implies that this change in clock rate is the same whether the acceleration 
+
+g
+g
+
+ is that of an accelerated frame without gravitational effects, or caused by a gravitational field in a stationary frame. Since acceleration due to gravitational potential 
+
+V
+V
+
+ is 
+
+
+
+−
+d
+V
+
+/
+
+d
+x
+
+
+{\displaystyle -dV/dx}
+
+, we get
+so –- in weak fields –- the change 
+
+
+Δ
+R
+
+\Delta R
+
+ in the clock rate is equal to 
+
+
+
+−
+Δ
+V
+
+/
+
+
+c
+
+2
+
+
+
+
+{\displaystyle -\Delta V/c^{2}}
+
+. 
+Since the light would be slowed down by gravitational time dilation (as seen by outside observer), the regions with lower gravitational potential would act like a medium with higher refractive index causing light to deflect. This reasoning allowed Einstein in 1911 to reproduce the incorrect Newtonian value for the deflection of light.[39] At the time he only considered the time-dilating manifestation of gravity, which is the dominating contribution at non-relativistic speeds; however relativistic objects travel through space a comparable amount as they do though time, so purely spatial curvature becomes just as important. After constructing the full theory of general relativity, Einstein solved in 1915[40] the full post-Newtonian approximation for the Sun's gravity and calculated the correct amount of light deflection – double the Newtonian value. Einstein's prediction was confirmed by many experiments, starting with Arthur Eddington's 1919 solar eclipse expedition.
+The changing rates of clocks allowed Einstein to conclude that light waves change frequency as they move, and the frequency/energy relationship for photons allowed him to see that this was best interpreted as the effect of the gravitational field on the mass–energy of the photon. To calculate the changes in frequency in a nearly static gravitational field, only the time component of the metric tensor is important, and the lowest order approximation is accurate enough for ordinary stars and planets, which are much bigger than their Schwarzschild radius.
+
+

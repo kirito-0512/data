@@ -1,0 +1,97 @@
+40720,
+Noisetemperature(antenna),
+In radio frequency (RF) applications such as radio, radar and telecommunications, noise temperature of an antenna is a measure of the noise power density contributed by the antenna to the overall RF receiver system.  It is defined as "The temperature of a resistor having an available thermal noise power per unit bandwidth equal to that at the antenna’s output at a specified frequency."[1]  In other words, antenna noise temperature is a parameter that describes how much noise an antenna produces in a given environment.  This temperature is not the physical temperature of the antenna. Moreover, an antenna does not have an intrinsic "antenna temperature" associated with it; rather the temperature depends on its gain pattern, pointing direction, and the thermal environment that it is placed in.
+In RF applications, noise power is defined using the relationship 
+
+
+
+
+P
+
+n
+o
+i
+s
+e
+
+
+=
+k
+T
+B
+
+
+{\displaystyle P_{noise}=kTB}
+
+, where k is Boltzmann's constant, T is the noise temperature, and B is the noise bandwidth.  Typically the noise bandwidth is determined by the bandwidth of the intermediate frequency (IF) filter of the radio receiver.  Thus, we can define the noise temperature as:
+Because 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ is a constant, we can effectively think of 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ as noise power spectral density (in 
+
+
+
+
+
+
+W
+
+
+Hz
+
+
+
+
+
+{\displaystyle {\frac {\textrm {W}}{\textrm {Hz}}}}
+
+,) normalized by 
+
+
+
+k
+
+
+{\displaystyle k}
+
+.
+Antenna noise is only one of the contributors to the overall noise temperature of an RF receiver system, so it is typically subscripted, such as 
+
+
+
+
+T
+
+A
+
+
+
+
+{\displaystyle T_{A}}
+
+.  It is added directly to the effective noise temperature of the receiver to obtain the overall system noise temperature:[2]
+Antenna noise temperature has contributions from many sources, including:
+Galactic noise is high below 1000 MHz.  At around 150 MHz, it is approximately 1000 K.  At 2500 MHz, it has leveled off to around 10 K.
+Earth has an accepted standard temperature of 288 K.
+The level of the sun's contribution depends on the solar flux.  It is given by
+The antenna noise temperature depends on antenna coupling to all noise sources in its environment as well as on noise generated within the antenna. That is, in a directional antenna, the portion of the noise source that the antenna's main and side lobes intersect contribute proportionally.
+For example, a satellite antenna may not receive noise contribution from the earth in its main lobe, but sidelobes will contribute a portion of the 288K earth noise to its overall noise temperature.
+The Arrl Uhf/Microwave Experimenter's Manual. Newington: American Radio Relay League. 1990. ISBN 0-87259-312-6.
+"ITU P.372 : Radio noise". ITU. Retrieved 4 July 2019.
+
+

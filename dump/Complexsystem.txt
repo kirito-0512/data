@@ -1,0 +1,78 @@
+37438,
+Complexsystem,
+Collective intelligence
+Collective action
+Self-organized criticality
+Herd mentality
+Phase transition
+Agent-based modelling
+Synchronization
+Ant colony optimization
+Particle swarm optimization
+Swarm behaviour
+Social network analysis
+Small-world networks
+Centrality
+Motifs
+Graph theory
+Scaling
+Robustness
+Systems biology
+Dynamic networks
+Evolutionary computation
+Genetic algorithms
+Genetic programming
+Artificial life
+Machine learning
+Evolutionary developmental biology
+Artificial intelligence
+Evolutionary robotics
+Reaction–diffusion systems
+Partial differential equations
+Dissipative structures
+Percolation
+Cellular automata
+Spatial ecology
+Self-replication
+Information theory
+Entropy
+Feedback 
+Goal-oriented
+Homeostasis 
+Operationalization
+Second-order cybernetics
+Self-reference
+System dynamics
+Systems science
+Systems thinking
+Sensemaking
+Variety
+Ordinary differential equations
+Phase space
+Attractors
+Population dynamics
+Chaos
+Multistability
+Bifurcation
+Rational choice theory
+Bounded rationality
+A complex system is a system composed of many components which may interact with each other. Examples of complex systems are Earth's global climate, organisms, the human brain, infrastructure such as power grid, transportation or communication systems, complex software and electronic systems, social and economic organizations (like cities), an ecosystem, a living cell, and ultimately the entire universe.
+Complex systems are systems whose behavior is intrinsically difficult to model due to the dependencies, competitions, relationships, or other types of interactions between their parts or between a given system and its environment. Systems that are "complex" have distinct properties that arise from these relationships, such as nonlinearity, emergence, spontaneous order, adaptation, and feedback loops, among others. Because such systems appear in a wide variety of fields, the commonalities among them have become the topic of their independent area of research. In many cases, it is useful to represent such a system as a network where the nodes represent the components and links to their interactions.
+The term complex systems often refers to the study of complex systems, which is an approach to science that investigates how relationships between a system's parts give rise to its collective behaviors and how the system interacts and forms relationships with its environment.[1] The study of complex systems regards collective, or system-wide, behaviors as the fundamental object of study; for this reason, complex systems can be understood as an alternative paradigm to reductionism, which attempts to explain systems in terms of their constituent parts and the individual interactions between them.
+As an interdisciplinary domain, complex systems draws contributions from many different fields, such as the study of self-organization and critical phenomena from physics, that of spontaneous order from the social sciences, chaos from mathematics, adaptation from biology, and many others. Complex systems is therefore often used as a broad term encompassing a research approach to problems in many diverse disciplines, including statistical physics, information theory, nonlinear dynamics, anthropology, computer science, meteorology, sociology, economics, psychology, and biology.
+Complex adaptive systems are special cases of complex systems that are adaptive in that they have the capacity to change and learn from experience. Examples of complex adaptive systems include the stock market, social insect and ant colonies, the biosphere and the ecosystem, the brain and the immune system, the cell and the developing embryo, the cities, manufacturing businesses and any human social group-based endeavor in a cultural and social system such as political parties or communities.[3]
+Complex systems may have the following features:[4]
+While the explicit study of complex systems dates at least to the 1970s,[19] the first research institute focused on complex systems, the Santa Fe Institute, was founded in 1984.[20][21] Early Santa Fe Institute participants included physics Nobel laureates Murray Gell-Mann and Philip Anderson, economics Nobel laureate Kenneth Arrow, and Manhattan Project scientists George Cowan and Herb Anderson.[22] Today, there are over 50 institutes and research centers focusing on complex systems.[citation needed]
+Since the late 1990s, the interest of mathematical physicists in researching economic phenomena has been on the rise. The proliferation of cross-disciplinary research with the application of solutions originated from the physics epistemology has entailed a gradual paradigm shift in the theoretical articulations and methodological approaches in economics, primarily in financial economics. The development has resulted in the emergence of a new branch of discipline, namely "econophysics," which is broadly defined as a cross-discipline that applies statistical physics methodologies which are mostly based on the complex systems theory and the chaos theory for economics analysis.[23]
+The 2021 Nobel Prize in Physics was awarded to Syukuro Manabe, Klaus Hasselmann, and Giorgio Parisi for their work to understand complex systems. Their work was used to create more accurate computer models of the effect of global warming on the Earth's climate.[24]
+The traditional approach to dealing with complexity is to reduce or constrain it. Typically, this involves compartmentalization: dividing a large system into separate parts. Organizations, for instance, divide their work into departments that each deal with separate issues. Engineering systems are often designed using modular components. However, modular designs become susceptible to failure when issues arise that bridge the divisions.
+Over the last decades, within the emerging field of complexity economics, new predictive tools have been developed to explain economic growth. Such is the case with the models built by the Santa Fe Institute in 1989 and the more recent economic complexity index (ECI), introduced by the MIT physicist Cesar A. Hidalgo and the Harvard economist Ricardo Hausmann. 
+Recurrence quantification analysis has been employed to detect the characteristic of business cycles and economic development. To this end, Orlando et al.[25] developed the so-called recurrence quantification correlation index (RQCI) to test correlations of RQA on a sample signal and then investigated the application to business time series. The said index has been proven to detect hidden changes in time series. Further, Orlando et al.,[26] over an extensive dataset, shown that recurrence quantification analysis may help in anticipating transitions from laminar (i.e. regular) to turbulent (i.e. chaotic) phases such as USA GDP in 1949, 1953, etc. Last but not least, it has been demonstrated that recurrence quantification analysis can detect differences between macroeconomic variables and highlight hidden features of economic dynamics.
+Focusing on issues of student persistence with their studies, Forsman, Moll and Linder explore the "viability of using complexity science as a frame to extend methodological applications for physics education research", finding that "framing a social network analysis within a complexity science perspective offers a new and powerful applicability across a broad range of PER topics".[27]
+Complexity science has been applied to living organisms, and in particular to biological systems. One of the areas of research is the emergence and evolution of intelligent systems. Analyses of the parameters of intellectual systems, patterns of their emergence and evolution, distinctive features, and the constants and limits of their structures and functions made it possible to measure and compare the capacity of communications (~100 to 300 million m/s), to quantify the number of components in intellectual systems (~1011 neurons), and to calculate the number of successful links responsible for cooperation (~1014  synapses)[28] 
+Within the emerging field of fractal physiology, bodily signals, such as heart rate or brain activity, are characterized using entropy or fractal indices. The goal is often to assess the state and the health of the underlying system, and diagnose potential disorders and illnesses.
+Complex systems theory is rooted in chaos theory, which in turn has its origins more than a century ago in the work of the French mathematician Henri Poincaré. Chaos is sometimes viewed as extremely complicated information, rather than as an absence of order.[29] Chaotic systems remain deterministic, though their long-term behavior can be difficult to predict with any accuracy. With perfect knowledge of the initial conditions and the relevant equations describing the chaotic system's behavior, one can theoretically make perfectly accurate predictions of the system, though in practice this is impossible to do with arbitrary accuracy. Ilya Prigogine argued[30] that complexity is non-deterministic and gives no way whatsoever to precisely predict the future.[31]
+The emergence of complex systems theory shows a domain between deterministic order and randomness which is complex.[32] This is referred to as the "edge of chaos".[33]
+When one analyzes complex systems, sensitivity to initial conditions, for example, is not an issue as important as it is within chaos theory, in which it prevails. As stated by Colander,[34] the study of complexity is the opposite of the study of chaos. Complexity is about how a huge number of extremely complicated and dynamic sets of relationships can generate some simple behavioral patterns, whereas chaotic behavior, in the sense of deterministic chaos, is the result of a relatively small number of non-linear interactions.[32] For recent examples in economics and business see Stoop et al.[35] who discussed Android's market position, Orlando [36] who explained the corporate dynamics in terms of mutual synchronization and chaos regularization of bursts in a group of chaotically bursting cells and Orlando et al.[37]  who modelled financial data (Financial Stress Index, swap and equity, emerging and developed, corporate and government, short and long maturity) with a low-dimensional deterministic model.
+Therefore, the main difference between chaotic systems and complex systems is their history.[38] Chaotic systems do not rely on their history as complex ones do. Chaotic behavior pushes a system in equilibrium into chaotic order, which means, in other words, out of what we traditionally define as 'order'.[clarification needed] On the other hand, complex systems evolve far from equilibrium at the edge of chaos. They evolve at a critical state built up by a history of irreversible and unexpected events, which physicist Murray Gell-Mann called "an accumulation of frozen accidents".[39] In a sense chaotic systems can be regarded as a subset of complex systems distinguished precisely by this absence of historical dependence. Many real complex systems are, in practice and over long but finite periods, robust. However, they do possess the potential for radical qualitative change of kind whilst retaining systemic integrity. Metamorphosis serves as perhaps more than a metaphor for such transformations.
+A complex system is usually composed of many components and their interactions. Such a system can be represented by a network where nodes represent the components and links represent their interactions.[40][41] For example, the Internet can be represented as a network composed of nodes (computers) and links (direct connections between computers). Other examples of complex networks include social networks, financial institution interdependencies,[42] airline networks,[43] and biological networks.

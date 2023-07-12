@@ -1,0 +1,26 @@
+11139,
+PhaseIIfeaturerequestsInterfaceanduserpreferences,
+This page is obsolete!
+It is an archive of old feature requests that were still active on 2002 July 20, when we moved from Phase II to Phase III of the software.
+Many requests were implemented then, while others became obsolete due to being rejected by the community.
+See Wikipedia:Feature requests for current requests.
+Please see the PHP wikipedia under development. Most of the requests I see here are already working there. Please help me squish the bugs so we can switch over soon. --Magnus Manske
+Text Text Text Text Text Text Text Text Text Text Text Text Text 
+______Next "semi-paragraph": Text Text Text Text Text Text Text Text Text
+When I use six spaces (instead of the underlines used above) to begin a new "semi-paragraph" (a break not as strong as a <p>) Wikipedia leaves the paragraph unformatted. IMO it was better not to use <pre>text<pre> automatically. And I wonder why <a href="xxxx">xxx</a> doesn´t work, why it can´t become automatically translated to Wikipedia syntax. Sporadic writers like me may want to use simple things like target="_blank" - things that don´t spoil consistency nor security - why not implement better filtering? I see you´re coding Wikipedia in PHP now, so performance should not be a problem. 
+Another thing I´d like to have is modification dates, in an extended view mainly for writers. And tables or div layers to paint colors were cool, maybe even transparent colors (CSS?) to show overlapping and several sucessive changes. User:Grasso
+
+Requests for what goes on outside of the entries--the menubars up top and bottom, etc., user preferences.
+
+
+
+
+
+
+
+
+
+
+
+
+

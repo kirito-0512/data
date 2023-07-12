@@ -1,0 +1,777 @@
+4734,
+Bernoulli'sinequality,
+In mathematics, Bernoulli's inequality (named after Jacob Bernoulli) is an inequality that approximates exponentiations of 
+1
++
+x
+{\displaystyle 1+x}
+. It is often employed in real analysis. It has several useful variants:[1]
+Jacob Bernoulli first published the inequality in his treatise "Positiones Arithmeticae de Seriebus Infinitis" (Basel, 1689), where he used the inequality often.[3]
+According to Joseph E. Hofmann, Über die Exercitatio Geometrica des M. A. Ricci (1963), p. 177, the inequality is actually due to Sluse in his Mesolabum (1668 edition), Chapter IV "De maximis & minimis".[3]
+Bernoulli's inequality can be proved for the case in which 
+r
+{\displaystyle r}
+ is an integer, using mathematical induction in the following form:
+For 
+r
+=
+0
+{\displaystyle r=0}
+,
+is equivalent to 
+1
+≥
+1
+{\displaystyle 1\geq 1}
+ which is true.
+Similarly, for 
+r
+=
+1
+{\displaystyle r=1}
+ we have
+Now suppose the statement is true for 
+r
+=
+k
+{\displaystyle r=k}
+:
+Then it follows that 
+since 
+x
+2
+≥
+0
+{\displaystyle x^{2}\geq 0}
+ as well as 
+x
++
+2
+≥
+0
+{\displaystyle x+2\geq 0}
+. By the modified induction we conclude the statement is true for every non-negative integer 
+r
+{\displaystyle r}
+.
+The exponent 
+r
+{\displaystyle r}
+ can be generalized to an arbitrary real number as follows: if 
+x
+>
+−
+1
+{\displaystyle x>-1}
+, then
+for 
+r
+≤
+0
+{\displaystyle r\leq 0}
+ or 
+≥
+1
+{\displaystyle \geq 1}
+, and
+for 
+0
+≤
+r
+≤
+1
+{\displaystyle 0\leq r\leq 1}
+.
+This generalization can be proved by comparing derivatives. The strict versions of these inequalities require 
+x
+≠
+0
+{\displaystyle x\neq 0}
+ and 
+r
+≠
+0
+,
+1
+{\displaystyle r\neq 0,1}
+.
+Instead of 
+(
+1
++
+x
+)
+n
+{\displaystyle (1+x)^{n}}
+ the inequality holds also in the form 
+(
+1
++
+x
+1
+)
+(
+1
++
+x
+2
+)
+…
+(
+1
++
+x
+r
+)
+≥
+1
++
+x
+1
++
+x
+2
++
+⋯
++
+x
+r
+{\displaystyle (1+x_{1})(1+x_{2})\dots (1+x_{r})\geq 1+x_{1}+x_{2}+\dots +x_{r}}
+ where 
+x
+1
+,
+x
+2
+,
+…
+,
+x
+r
+{\displaystyle x_{1},x_{2},\dots ,x_{r}}
+ are real numbers, all greater than 
+−
+1
+{\displaystyle -1}
+, all with the same sign. Bernoulli's inequality is a special case when 
+x
+1
+=
+x
+2
+=
+⋯
+=
+x
+r
+=
+x
+{\displaystyle x_{1}=x_{2}=\dots =x_{r}=x}
+. This generalized inequality can be proved by mathematical induction.
+In the first step we take 
+n
+=
+1
+{\displaystyle n=1}
+. In this case the inequality 
+1
++
+x
+1
+≥
+1
++
+x
+1
+{\displaystyle 1+x_{1}\geq 1+x_{1}}
+ is obviously true.
+In the second step we assume validity of the inequality for 
+r
+{\displaystyle r}
+ numbers and deduce validity for 
+r
++
+1
+{\displaystyle r+1}
+ numbers.
+We assume that
+(
+1
++
+x
+1
+)
+(
+1
++
+x
+2
+)
+…
+(
+1
++
+x
+r
+)
+≥
+1
++
+x
+1
++
+x
+2
++
+⋯
++
+x
+r
+{\displaystyle (1+x_{1})(1+x_{2})\dots (1+x_{r})\geq 1+x_{1}+x_{2}+\dots +x_{r}}
+is valid. After multiplying both sides with a positive number 
+(
+x
+r
++
+1
++
+1
+)
+{\displaystyle (x_{r+1}+1)}
+ we get:
+(
+1
++
+x
+1
+)
+(
+1
++
+x
+2
+)
+…
+(
+1
++
+x
+r
+)
+(
+1
++
+x
+r
++
+1
+)
+≥
+(
+1
++
+x
+1
++
+x
+2
++
+⋯
++
+x
+r
+)
+(
+1
++
+x
+r
++
+1
+)
+≥
+(
+1
++
+x
+1
++
+x
+2
++
+⋯
++
+x
+r
+)
+⋅
+1
++
+(
+1
++
+x
+1
++
+x
+2
++
+⋯
++
+x
+r
+)
+⋅
+x
+r
++
+1
+≥
+(
+1
++
+x
+1
++
+x
+2
++
+⋯
++
+x
+r
+)
++
+x
+r
++
+1
++
+x
+1
+x
+r
++
+1
++
+x
+2
+x
+r
++
+1
++
+⋯
++
+x
+r
+x
+r
++
+1
+{\displaystyle {\begin{alignedat}{2}(1+x_{1})(1+x_{2})\dots (1+x_{r})(1+x_{r+1})\geq &(1+x_{1}+x_{2}+\dots +x_{r})(1+x_{r+1})\\\geq &(1+x_{1}+x_{2}+\dots +x_{r})\cdot 1+(1+x_{1}+x_{2}+\dots +x_{r})\cdot x_{r+1}\\\geq &(1+x_{1}+x_{2}+\dots +x_{r})+x_{r+1}+x_{1}x_{r+1}+x_{2}x_{r+1}+\dots +x_{r}x_{r+1}\\\end{alignedat}}}
+As 
+x
+1
+,
+x
+2
+,
+…
+x
+r
+,
+x
+r
++
+1
+{\displaystyle x_{1},x_{2},\dots x_{r},x_{r+1}}
+ all have the same sign, the products 
+x
+1
+x
+r
++
+1
+,
+x
+2
+x
+r
++
+1
+,
+…
+x
+r
+x
+r
++
+1
+{\displaystyle x_{1}x_{r+1},x_{2}x_{r+1},\dots x_{r}x_{r+1}}
+ are all positive numbers. So the quantity on the right-hand side can be bounded as follows:
+(
+1
++
+x
+1
++
+x
+2
++
+⋯
++
+x
+r
+)
++
+x
+r
++
+1
++
+x
+1
+x
+r
++
+1
++
+x
+2
+x
+r
++
+1
++
+⋯
++
+x
+r
+x
+r
++
+1
+≥
+1
++
+x
+1
++
+x
+2
++
+⋯
++
+x
+r
++
+x
+r
++
+1
+,
+{\displaystyle (1+x_{1}+x_{2}+\dots +x_{r})+x_{r+1}+x_{1}x_{r+1}+x_{2}x_{r+1}+\dots +x_{r}x_{r+1}\geq 1+x_{1}+x_{2}+\dots +x_{r}+x_{r+1},}
+what was to be shown.
+The following inequality estimates the 
+r
+{\displaystyle r}
+-th power of 
+1
++
+x
+{\displaystyle 1+x}
+ from the other side. For any real numbers 
+x
+{\displaystyle x}
+ and 
+r
+{\displaystyle r}
+ with 
+r
+>
+0
+{\displaystyle r>0}
+, one has
+where 
+e
+=
+{\displaystyle e=}
+ 2.718.... This may be proved using the inequality 
+(
+1
++
+1
+/
+k
+)
+k
+<
+e
+{\displaystyle (1+1/k)^{k}<e}
+.
+An alternative form of Bernoulli's inequality for  
+t
+≥
+1
+{\displaystyle t\geq 1}
+ and  
+0
+≤
+x
+≤
+1
+{\displaystyle 0\leq x\leq 1}
+  is:
+This can be proved (for any integer 
+t
+{\displaystyle t}
+) by using the formula for geometric series: (using 
+y
+=
+1
+−
+x
+{\displaystyle y=1-x}
+)
+or equivalently 
+x
+t
+≥
+1
+−
+(
+1
+−
+x
+)
+t
+.
+{\displaystyle xt\geq 1-(1-x)^{t}.}
+An elementary proof for 
+0
+≤
+r
+≤
+1
+{\displaystyle 0\leq r\leq 1}
+ and x ≥ -1 can be given using weighted AM-GM. 
+Let 
+λ
+1
+,
+λ
+2
+{\displaystyle \lambda _{1},\lambda _{2}}
+ be two non-negative real constants. By weighted AM-GM on 
+1
+,
+1
++
+x
+{\displaystyle 1,1+x}
+ with weights 
+λ
+1
+,
+λ
+2
+{\displaystyle \lambda _{1},\lambda _{2}}
+ respectively, we get
+Note that 
+and
+so our inequality is equivalent to
+After substituting 
+r
+=
+λ
+2
+λ
+1
++
+λ
+2
+{\displaystyle r={\dfrac {\lambda _{2}}{\lambda _{1}+\lambda _{2}}}}
+ (bearing in mind that this implies 
+0
+≤
+r
+≤
+1
+{\displaystyle 0\leq r\leq 1}
+) our inequality turns into 
+which is Bernoulli's inequality.
+Bernoulli's inequality 
+    (1)is equivalent to
+    (2)and by the formula for geometric series (using y = 1 + x) we get
+    (3)which leads to
+    (4)Now if 
+x
+≥
+0
+{\displaystyle x\geq 0}
+ then by monotony of the powers each summand 
+(
+1
++
+x
+)
+k
+−
+1
+=
+(
+1
++
+x
+)
+k
+−
+1
+k
+≥
+0
+{\displaystyle (1+x)^{k}-1=(1+x)^{k}-1^{k}\geq 0}
+, and therefore their sum is greater 
+0
+{\displaystyle 0}
+ and hence the product on the LHS of (4).
+If 
+0
+≥
+x
+≥
+−
+2
+{\displaystyle 0\geq x\geq -2}
+ then by the same arguments 
+1
+≥
+(
+1
++
+x
+)
+k
+{\displaystyle 1\geq (1+x)^{k}}
+ and thus
+all addends 
+(
+1
++
+x
+)
+k
+−
+1
+{\displaystyle (1+x)^{k}-1}
+ are non-positive and hence so is their sum. Since the product of two non-positive numbers is non-negative, we get again
+(4).
+One can prove Bernoulli's inequality for x ≥ 0 using the binomial theorem. It is true trivially for r = 0, so suppose r is a positive integer. Then 
+(
+1
++
+x
+)
+r
+=
+1
++
+r
+x
++
+(
+r
+2
+)
+x
+2
++
+.
+.
+.
++
+(
+r
+r
+)
+x
+r
+.
+{\displaystyle (1+x)^{r}=1+rx+{\tbinom {r}{2}}x^{2}+...+{\tbinom {r}{r}}x^{r}.}
+ Clearly 
+(
+r
+2
+)
+x
+2
++
+.
+.
+.
++
+(
+r
+r
+)
+x
+r
+≥
+0
+,
+{\displaystyle {\tbinom {r}{2}}x^{2}+...+{\tbinom {r}{r}}x^{r}\geq 0,}
+ and hence 
+(
+1
++
+x
+)
+r
+≥
+1
++
+r
+x
+{\displaystyle (1+x)^{r}\geq 1+rx}
+ as required.
+For 
+0
+≠
+x
+≥
+−
+1
+{\displaystyle 0\neq x\geq -1}
+ the function 
+h
+(
+α
+)
+=
+(
+1
++
+x
+)
+α
+{\displaystyle h(\alpha )=(1+x)^{\alpha }}
+ is strictly convex. Therefore for 
+0
+<
+α
+<
+1
+{\displaystyle 0<\alpha <1}
+ holds
+and the reversed inequality is valid for 
+α
+<
+0
+{\displaystyle \alpha <0}
+ and 
+α
+>
+1
+{\displaystyle \alpha >1}
+.

@@ -1,0 +1,30 @@
+31332,
+InternationalObfuscatedCCodeContest,
+The International Obfuscated C Code Contest (abbreviated IOCCC) is a computer programming contest for the most creatively obfuscated C code. Held annually, it is described as "celebrating [C's] syntactical opaqueness".[1] The winning code for the 27th contest, held in 2020, was released in July 2020.[2] Previous contests were held in the years 1984–1996, 1998, 2000, 2001, 2004–2006, 2011–2015 and 2018–2020.
+Entries are evaluated anonymously by a panel of judges. The judging process is documented in the competition guidelines[3] and consists of elimination rounds. By tradition, no information is given about the total number of entries for each competition. Winning entries are awarded with a category, such as "Worst Abuse of the C preprocessor" or "Most Erratic Behavior", and then announced on the official IOCCC website. The contest states that being announced on the IOCCC website is the reward for winning.
+The IOCCC was started by Landon Curt Noll and Larry Bassel in 1984 while employed at National Semiconductor's Genix porting group. The idea for the contest came after they compared notes with each other about some poorly written code that they had to fix, notably the Bourne shell, which used macros to emulate ALGOL 68 syntax, and a buggy version of finger for BSD.[4] The contest itself was the topic of a quiz question in the 1993 Computer Bowl.[5] After a hiatus of five years starting in 2006, the contest returned in 2011.[6]
+Compared with other programming contests, the IOCCC is described as "not all that serious" by Michael Swaine, editor of Dr. Dobb's Journal.[7]
+Each year, the rules of the contest are published on the IOCCC website. All material is published under Creative Commons license BY-SA 3.0 Unported.[8] Rules vary from year to year and are posted with a set of guidelines that attempt to convey the spirit of the rules.
+Hacking the contest rules is a tradition. — Landon Curt Noll, 2011[6]The rules are often deliberately written with loopholes that contestants are encouraged to find and abuse.[3] Entries that take advantage of loopholes can cause the rules for the following year's contest to be adjusted.[3]
+Entries often employ strange or unusual tricks, such as using the C preprocessor to do things it was not designed to do (in some cases "spectacularly", according to Dr. Dobbs,[9] with one entry creating an 11-bit ALU in the C preprocessor[10]), or avoiding commonly used constructs in the C programming language in favor of much more obscure ways of achieving the same thing.
+Contributions have included source code formatted to resemble images, text, etc., after the manner of ASCII art, preprocessor redefinitions to make code harder to read, and self-modifying code. In several years, an entry was submitted that required a new definition of some of the rules for the next year. This is regarded as a high honor. An example is the world's shortest self-reproducing program. The entry was a program designed to output its own source code, and which had zero bytes of source code. When the program ran, it printed out zero bytes, equivalent to its source code.[11]
+In the effort to take obfuscation to its extremes, contestants have produced programs which skirt around the edges of C standards, or result in constructs which trigger rarely used code path combinations in compilers. As a result, several of the past entries may not compile directly in a modern compiler, and some may cause crashes.
+Within the code size limit of only a few kilobytes, contestants have managed to do complicated things – a 2004 winner turned out an operating system.[12]
+Toledo Nanochess is a chess engine created by Mexican software developer Oscar Toledo Gutiérrez, a five-time winner of the IOCCC. In accordance with IOCCC rules, it is 1255 characters long. The author claims that it is the world's smallest chess program written in C.
+The source code for Toledo Nanochess and other engines is available.[13]
+Because Toledo Nanochess is based on Toledo's winning entry from the 18th IOCCC (Best Game[14]), it is heavily obfuscated.[15]
+On February 2, 2014, the author published the book Toledo Nanochess: The commented source code, which contains the fully commented source code.[16]
+As of February 7, 2010, it appears to be one of only two chess engines written in less than 2 kilobytes of C that are able to play full legal chess moves, along with Micro-Max by Dutch physicist H. G. Muller. In 2014 the 1 kilobyte barrier was broken by Super Micro Chess[17] – a derivative of Micro-Max – totaling 760 characters (spaces and newlines included).[18] There is also a smaller version of Toledo's engine, the Toledo Picochess, consisting of 944 non-blank characters.
+Source code excerpt
+Below is a 1988 entry which calculates pi by looking at its own area:[19]
+(This entry was written in K&R C; it does not work correctly in ANSI C without some changes.[20])
+Another example is the following flight simulator, the winner of the 1998 IOCCC,[21] as listed and described in Calculated Bets: Computers, Gambling, and Mathematical Modeling to Win (2001)[22] and shown below:
+This program needs the following command line on a Linux system to be compiled:[21]
+In order to run the binary file (banks) it has to be supplied with a .sc scenery file via stdin input:[21]
+Below is a 2011 entry which downsamples an ascii image by Don, Yang:[23]
+
+If the program is run using its own source as the input, the result is:
+
+
+Information box
+{'Status': 'Active', 'Genre': 'Coding contest', 'Frequency': 'Annually', 'Years active': '1984–1996, 1998, 2000, 2001, 2004–2006, 2011–2015, 2018-present', 'Inaugurated': '1984', 'Founders': 'Landon Curt Noll, Larry Bassel', 'Website': 'www.ioccc.org'}

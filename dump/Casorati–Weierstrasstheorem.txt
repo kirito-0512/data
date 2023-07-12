@@ -1,0 +1,347 @@
+33868,
+Casorati–Weierstrasstheorem,
+In complex analysis, a branch of mathematics, the Casorati–Weierstrass theorem describes the behaviour of holomorphic functions near their essential singularities. It is named for Karl Theodor Wilhelm Weierstrass and Felice Casorati. In Russian literature it is called Sokhotski's theorem.
+Start with some open subset 
+U
+{\displaystyle U}
+ in the complex plane containing the number 
+z
+0
+{\displaystyle z_{0}}
+, and a function 
+f
+{\displaystyle f}
+ that is holomorphic on 
+U
+∖
+{
+z
+0
+}
+{\displaystyle U\setminus \{z_{0}\}}
+, but has an essential singularity at 
+z
+0
+{\displaystyle z_{0}}
+ . The Casorati–Weierstrass theorem then states that 
+This can also be stated as follows: 
+Or in still more descriptive terms:
+The theorem is considerably strengthened by Picard's great theorem, which states, in the notation above, that 
+f
+{\displaystyle f}
+ assumes every complex value, with one possible exception, infinitely often on 
+V
+{\displaystyle V}
+.
+In the case that 
+f
+{\displaystyle f}
+ is an entire function and 
+a
+=
+∞
+{\displaystyle a=\infty }
+, the theorem says that the values 
+f
+(
+z
+)
+{\displaystyle f(z)}
+ approach every complex number and 
+∞
+{\displaystyle \infty }
+, as 
+z
+{\displaystyle z}
+ tends to infinity.
+It is remarkable that this does not hold for holomorphic maps in higher dimensions, as the famous example of Pierre Fatou shows.[1]
+The function f(z) = exp(1/z) has an essential singularity at 0, but the function g(z) = 1/z3 does not (it has a pole at 0).
+Consider the function
+f
+(
+z
+)
+=
+e
+1
+/
+z
+.
+{\displaystyle f(z)=e^{1/z}.}
+This function has the following Laurent series about the essential singular point at 0:
+f
+(
+z
+)
+=
+∑
+n
+=
+0
+∞
+1
+n
+!
+z
+−
+n
+.
+{\displaystyle f(z)=\sum _{n=0}^{\infty }{\frac {1}{n!}}z^{-n}.}
+Because 
+f
+′
+(
+z
+)
+=
+−
+−
+e
+1
+/
+z
+z
+2
+{\displaystyle f'(z)=-{\frac {-e^{{1}/{z}}}{z^{2}}}}
+ exists for all points z ≠ 0 we know that f(z) is analytic in a punctured neighborhood of z = 0. Hence it is an isolated singularity, as well as being an essential singularity. 
+Using a change of variable to polar coordinates 
+z
+=
+r
+e
+i
+θ
+{\displaystyle z=re^{i\theta }}
+ our function, f(z) = e1/z becomes:
+f
+(
+z
+)
+=
+e
+1
+r
+e
+−
+i
+θ
+=
+e
+1
+r
+cos
+⁡
+(
+θ
+)
+e
+−
+1
+r
+i
+sin
+⁡
+(
+θ
+)
+.
+{\displaystyle f(z)=e^{{\frac {1}{r}}e^{-i\theta }}=e^{{\frac {1}{r}}\cos(\theta )}e^{-{\frac {1}{r}}i\sin(\theta )}.}
+Taking the absolute value of both sides:
+|
+f
+(
+z
+)
+|
+=
+|
+e
+1
+r
+cos
+⁡
+θ
+|
+|
+e
+−
+1
+r
+i
+sin
+⁡
+(
+θ
+)
+|
+=
+e
+1
+r
+cos
+⁡
+θ
+.
+{\displaystyle \left|f(z)\right|=\left|e^{{\frac {1}{r}}\cos \theta }\right|\left|e^{-{\frac {1}{r}}i\sin(\theta )}\right|=e^{{\frac {1}{r}}\cos \theta }.}
+Thus, for values of θ such that cos θ > 0, we have 
+f
+(
+z
+)
+→
+∞
+{\displaystyle f(z)\to \infty }
+ as 
+r
+→
+0
+{\displaystyle r\to 0}
+, and for 
+cos
+⁡
+θ
+<
+0
+{\displaystyle \cos \theta <0}
+, 
+f
+(
+z
+)
+→
+0
+{\displaystyle f(z)\to 0}
+ as 
+r
+→
+0
+{\displaystyle r\to 0}
+.
+Consider what happens, for example when z takes values on a circle of diameter 1/R tangent to the imaginary axis. This circle is given by r = (1/R) cos θ. Then,
+f
+(
+z
+)
+=
+e
+R
+[
+cos
+⁡
+(
+R
+tan
+⁡
+θ
+)
+−
+i
+sin
+⁡
+(
+R
+tan
+⁡
+θ
+)
+]
+{\displaystyle f(z)=e^{R}\left[\cos \left(R\tan \theta \right)-i\sin \left(R\tan \theta \right)\right]}
+and
+|
+f
+(
+z
+)
+|
+=
+e
+R
+.
+{\displaystyle \left|f(z)\right|=e^{R}.}
+Thus,
+|
+f
+(
+z
+)
+|
+{\displaystyle \left|f(z)\right|}
+ may take any positive value other than zero by the appropriate choice of R. As 
+z
+→
+0
+{\displaystyle z\to 0}
+ on the circle, 
+θ
+→
+π
+2
+{\textstyle \theta \to {\frac {\pi }{2}}}
+ with R fixed. So this part of the equation:
+[
+cos
+⁡
+(
+R
+tan
+⁡
+θ
+)
+−
+i
+sin
+⁡
+(
+R
+tan
+⁡
+θ
+)
+]
+{\displaystyle \left[\cos \left(R\tan \theta \right)-i\sin \left(R\tan \theta \right)\right]}
+takes on all values on the unit circle infinitely often. Hence f(z) takes on the value of every number in the complex plane except for zero infinitely often.
+A short proof of the theorem is as follows:
+Take as given that function f is meromorphic on some punctured neighborhood V \ {z0}, and that z0 is an essential singularity. Assume by way of contradiction that some value b exists that the function can never get close to; that is: assume that there is some complex value b and some ε > 0 such that ‖f(z) − b‖ ≥ ε for all z in V at which f is defined.
+Then the new function:
+g
+(
+z
+)
+=
+1
+f
+(
+z
+)
+−
+b
+{\displaystyle g(z)={\frac {1}{f(z)-b}}}
+must be holomorphic on V \ {z0}, with zeroes at the poles of f, and bounded by 1/ε. It can therefore be analytically continued (or continuously extended, or holomorphically extended) to all of V by Riemann's analytic continuation theorem. So the original function can be expressed in terms of g:
+f
+(
+z
+)
+=
+1
+g
+(
+z
+)
++
+b
+{\displaystyle f(z)={\frac {1}{g(z)}}+b}
+for all arguments z in V \ {z0}. Consider the two possible cases for
+lim
+z
+→
+z
+0
+g
+(
+z
+)
+.
+{\displaystyle \lim _{z\to z_{0}}g(z).}
+If the limit is 0, then f has a pole at z0 . If the limit is not 0, then z0 is a removable singularity of f . Both possibilities contradict the assumption that the point z0 is an essential singularity of the function f . Hence the assumption is false and the theorem holds.
+The history of this important theorem is described by Collingwood and Lohwater.[2] It was published by Weierstrass in 1876 (in German) and by Sokhotski in 1868 in his Master thesis (in Russian). So it was called Sokhotski's theorem in the Russian literature and Weierstrass's theorem in the Western literature. The same theorem was published by Casorati in 1868, and by Briot and Bouquet in the first edition of their book (1859).[3]
+However, Briot and Bouquet removed this theorem from the second edition (1875).

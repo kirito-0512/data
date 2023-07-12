@@ -1,0 +1,3707 @@
+12543,
+Groupoid,
+In mathematics, especially in category theory and homotopy theory, a groupoid (less often Brandt groupoid or virtual group) generalises the notion of group in several equivalent ways. A groupoid can be seen as a:
+In the presence of dependent typing, a category in general can be viewed as a typed monoid, and similarly, a groupoid can be viewed as simply a typed group. The morphisms take one from one object to another, and form a dependent family of types, thus morphisms might be typed 
+
+
+
+g
+:
+A
+→
+B
+
+
+{\displaystyle g:A\rightarrow B}
+
+,  
+
+
+
+h
+:
+B
+→
+C
+
+
+{\displaystyle h:B\rightarrow C}
+
+, say. Composition is then a total function: 
+
+
+
+∘
+:
+(
+B
+→
+C
+)
+→
+(
+A
+→
+B
+)
+→
+A
+→
+C
+
+
+{\displaystyle \circ :(B\rightarrow C)\rightarrow (A\rightarrow B)\rightarrow A\rightarrow C}
+
+, so that 
+
+
+
+h
+∘
+g
+:
+A
+→
+C
+
+
+{\displaystyle h\circ g:A\rightarrow C}
+
+.
+Special cases include:
+Groupoids are often used to reason about geometrical objects such as manifolds. Heinrich Brandt (1927) introduced groupoids implicitly via Brandt semigroups.[2]
+A groupoid is an algebraic structure 
+
+
+
+(
+G
+,
+∗
+)
+
+
+{\displaystyle (G,\ast )}
+
+ consisting of a non-empty set 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ and a binary partial function  '
+
+
+
+∗
+
+
+{\displaystyle \ast }
+
+'  defined on 
+
+
+
+G
+
+
+{\displaystyle G}
+
+.
+A groupoid is a set 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ with a unary operation 
+
+
+
+
+
+
+
+−
+1
+
+
+:
+G
+→
+G
+,
+
+
+{\displaystyle {}^{-1}:G\to G,}
+
+ and a partial function 
+
+
+
+∗
+:
+G
+×
+G
+⇀
+G
+
+
+{\displaystyle *:G\times G\rightharpoonup G}
+
+.  Here * is not a binary operation because it is not necessarily defined for all pairs of elements of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+.  The precise conditions under which 
+
+
+
+∗
+
+
+{\displaystyle *}
+
+ is defined are not articulated here and vary by situation.
+The operations 
+
+
+
+∗
+
+
+{\displaystyle \ast }
+
+ and −1 have the following axiomatic properties:  For all 
+
+
+
+a
+
+
+{\displaystyle a}
+
+, 
+
+
+
+b
+
+
+{\displaystyle b}
+
+, and 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+,
+Two easy and convenient properties follow from these axioms:
+A groupoid is a small category in which every morphism is an isomorphism, i.e., invertible.[1] More explicitly, a groupoid G is:
+satisfying, for any f : x → y, g : y → z, and h : z → w:
+If f is an element of G(x,y) then x is called the source of f, written s(f), and y is called the target of f, written t(f). A groupoid G is sometimes denoted as 
+
+
+
+
+G
+
+1
+
+
+⇉
+
+G
+
+0
+
+
+
+
+{\displaystyle G_{1}\rightrightarrows G_{0}}
+
+, where 
+
+
+
+
+G
+
+1
+
+
+
+
+{\displaystyle G_{1}}
+
+ is the set of all morphisms, and the two arrows 
+
+
+
+
+G
+
+1
+
+
+→
+
+G
+
+0
+
+
+
+
+{\displaystyle G_{1}\to G_{0}}
+
+ represent the source and the target.
+More generally, one can consider a groupoid object in an arbitrary category admitting finite fiber products.
+The algebraic and category-theoretic definitions are equivalent, as we now show. Given a groupoid in the category-theoretic sense, let G be the disjoint union of all of the sets G(x,y) (i.e. the sets of morphisms from x to y). Then 
+
+
+
+
+c
+o
+m
+p
+
+
+
+{\displaystyle \mathrm {comp} }
+
+ and 
+
+
+
+
+i
+n
+v
+
+
+
+{\displaystyle \mathrm {inv} }
+
+ become partial operations on G, and 
+
+
+
+
+i
+n
+v
+
+
+
+{\displaystyle \mathrm {inv} }
+
+ will in fact be defined everywhere. We define ∗ to be 
+
+
+
+
+c
+o
+m
+p
+
+
+
+{\displaystyle \mathrm {comp} }
+
+ and −1 to be 
+
+
+
+
+i
+n
+v
+
+
+
+{\displaystyle \mathrm {inv} }
+
+, which gives a groupoid in the algebraic sense. Explicit reference to G0 (and hence to 
+
+
+
+
+i
+d
+
+
+
+{\displaystyle \mathrm {id} }
+
+) can be dropped.
+Conversely, given a groupoid G in the algebraic sense, define an equivalence relation 
+
+
+
+∼
+
+
+{\displaystyle \sim }
+
+ on its elements by
+
+
+
+
+a
+∼
+b
+
+
+{\displaystyle a\sim b}
+
+ iff a ∗ a−1 = b ∗ b−1. Let G0 be the set of equivalence classes of 
+
+
+
+∼
+
+
+{\displaystyle \sim }
+
+, i.e. 
+
+
+
+
+G
+
+0
+
+
+:=
+G
+
+/
+
+
+
+∼
+
+
+{\displaystyle G_{0}:=G/\!\!\sim }
+
+. Denote  a ∗ a−1 by 
+
+
+
+
+1
+
+x
+
+
+
+
+{\displaystyle 1_{x}}
+
+ if 
+
+
+
+a
+∈
+G
+
+
+{\displaystyle a\in G}
+
+ with 
+
+
+
+x
+∈
+
+G
+
+0
+
+
+
+
+{\displaystyle x\in G_{0}}
+
+.
+Now define 
+
+
+
+G
+(
+x
+,
+y
+)
+
+
+{\displaystyle G(x,y)}
+
+ as the set of all elements f such that 
+
+
+
+
+1
+
+x
+
+
+∗
+f
+∗
+
+1
+
+y
+
+
+
+
+{\displaystyle 1_{x}*f*1_{y}}
+
+ exists. Given 
+
+
+
+f
+∈
+G
+(
+x
+,
+y
+)
+
+
+{\displaystyle f\in G(x,y)}
+
+ and 
+
+
+
+g
+∈
+G
+(
+y
+,
+z
+)
+,
+
+
+{\displaystyle g\in G(y,z),}
+
+ their composite is defined as 
+
+
+
+g
+f
+:=
+f
+∗
+g
+∈
+G
+(
+x
+,
+z
+)
+
+
+{\displaystyle gf:=f*g\in G(x,z)}
+
+. To see that this is well defined, observe that since 
+
+
+
+(
+
+1
+
+x
+
+
+∗
+f
+)
+∗
+
+1
+
+y
+
+
+
+
+{\displaystyle (1_{x}*f)*1_{y}}
+
+ and 
+
+
+
+
+1
+
+y
+
+
+∗
+(
+g
+∗
+
+1
+
+z
+
+
+)
+
+
+{\displaystyle 1_{y}*(g*1_{z})}
+
+ exist, so does 
+
+
+
+(
+
+1
+
+x
+
+
+∗
+f
+∗
+
+1
+
+y
+
+
+)
+∗
+(
+g
+∗
+
+1
+
+z
+
+
+)
+=
+f
+∗
+g
+
+
+{\displaystyle (1_{x}*f*1_{y})*(g*1_{z})=f*g}
+
+. The identity morphism on x is then 
+
+
+
+
+1
+
+x
+
+
+
+
+{\displaystyle 1_{x}}
+
+, and the category-theoretic inverse of f is f−1.
+Sets in the definitions above may be replaced with classes, as is generally the case in category theory.
+Given a groupoid G, the vertex groups or isotropy groups or object groups in G are the subsets of the form G(x,x), where x is any object of G. It follows easily from the axioms above that these are indeed groups, as every pair of elements is composable and inverses are in the same vertex group.
+The orbit of a groupoid G at a point 
+
+
+
+x
+∈
+X
+
+
+{\displaystyle x\in X}
+
+ is given by the set 
+
+
+
+s
+(
+
+t
+
+−
+1
+
+
+(
+x
+)
+)
+⊂
+X
+
+
+{\displaystyle s(t^{-1}(x))\subset X}
+
+ containing every point that can be joined to x by an morphism in G. If two points 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ are in the same orbits, their vertex groups 
+
+
+
+G
+(
+x
+)
+
+
+{\displaystyle G(x)}
+
+ and 
+
+
+
+G
+(
+y
+)
+
+
+{\displaystyle G(y)}
+
+ are isomorphic: if 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is any morphism from 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ to 
+
+
+
+y
+
+
+{\displaystyle y}
+
+, then the isomorphism is given by the mapping 
+
+
+
+g
+→
+f
+g
+
+f
+
+−
+1
+
+
+
+
+{\displaystyle g\to fgf^{-1}}
+
+.
+Orbits form a partition of the set X, and a groupoid is called transitive if it has only one orbit (equivalently, if it is connected as a category). In that case, all the vertex groups are isomorphic (on the other hand, this is not a sufficient condition for transitivity; see the section below for counterexamples).
+A subgroupoid of 
+
+
+
+G
+⇉
+X
+
+
+{\displaystyle G\rightrightarrows X}
+
+ is a subcategory 
+
+
+
+H
+⇉
+Y
+
+
+{\displaystyle H\rightrightarrows Y}
+
+ that is itself a groupoid. It is called wide or full if it is wide or full as a subcategory i.e., respectively, if 
+
+
+
+X
+=
+Y
+
+
+{\displaystyle X=Y}
+
+ or 
+
+
+
+G
+(
+x
+,
+y
+)
+=
+H
+(
+x
+,
+y
+)
+
+
+{\displaystyle G(x,y)=H(x,y)}
+
+ for every 
+
+
+
+x
+,
+y
+∈
+Y
+
+
+{\displaystyle x,y\in Y}
+
+.
+A groupoid morphism is simply a functor between two (category-theoretic) groupoids.
+Particular kinds of morphisms of groupoids are of interest. A morphism 
+
+
+
+p
+:
+E
+→
+B
+
+
+{\displaystyle p:E\to B}
+
+ of groupoids is called a fibration if for each object 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ of 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ and each morphism 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ of 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ starting at 
+
+
+
+p
+(
+x
+)
+
+
+{\displaystyle p(x)}
+
+ there is a morphism 
+
+
+
+e
+
+
+{\displaystyle e}
+
+ of 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ starting at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ such that 
+
+
+
+p
+(
+e
+)
+=
+b
+
+
+{\displaystyle p(e)=b}
+
+. A fibration is called a covering morphism or covering of groupoids if further such an 
+
+
+
+e
+
+
+{\displaystyle e}
+
+ is unique. The covering morphisms of groupoids are especially useful because they can be used to model covering maps of spaces.[4]
+It is also true that the category of covering morphisms of a given groupoid 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ is equivalent to the category of actions of the groupoid 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ on sets.
+Given a topological space 
+
+
+
+X
+
+
+{\displaystyle X}
+
+, let 
+
+
+
+
+G
+
+0
+
+
+
+
+{\displaystyle G_{0}}
+
+ be the set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+. The morphisms from the point 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ to the point 
+
+
+
+q
+
+
+{\displaystyle q}
+
+ are equivalence classes of continuous paths from 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ to 
+
+
+
+q
+
+
+{\displaystyle q}
+
+, with two paths being equivalent if they are homotopic.
+Two such morphisms are composed by first following the first path, then the second; the homotopy equivalence guarantees that this composition is associative. This groupoid is called the fundamental groupoid of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+, denoted 
+
+
+
+
+π
+
+1
+
+
+(
+X
+)
+
+
+{\displaystyle \pi _{1}(X)}
+
+ (or sometimes, 
+
+
+
+
+Π
+
+1
+
+
+(
+X
+)
+
+
+{\displaystyle \Pi _{1}(X)}
+
+).[5] The usual fundamental group 
+
+
+
+
+π
+
+1
+
+
+(
+X
+,
+x
+)
+
+
+{\displaystyle \pi _{1}(X,x)}
+
+ is then the vertex group for the point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+.
+The orbits of the fundamental groupoid 
+
+
+
+
+π
+
+1
+
+
+(
+X
+)
+
+
+{\displaystyle \pi _{1}(X)}
+
+ are the path-connected components of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+. Accordingly, the fundamental groupoid of a path-connected space is transitive, and we recover the known fact that the fundamental groups at any base point are isomorphic. Moreover, in this case, the fundamental groupoid and the fundamental groups are equivalent as categories (see the section below for the general theory).
+An important extension of this idea is to consider the fundamental groupoid 
+
+
+
+
+π
+
+1
+
+
+(
+X
+,
+A
+)
+
+
+{\displaystyle \pi _{1}(X,A)}
+
+ where 
+
+
+
+A
+⊂
+X
+
+
+{\displaystyle A\subset X}
+
+ is a chosen set of "base points". Here 
+
+
+
+
+π
+
+1
+
+
+(
+X
+,
+A
+)
+
+
+{\displaystyle \pi _{1}(X,A)}
+
+ is a (wide) subgroupoid of 
+
+
+
+
+π
+
+1
+
+
+(
+X
+)
+
+
+{\displaystyle \pi _{1}(X)}
+
+, where one considers only paths whose endpoints belong to 
+
+
+
+A
+
+
+{\displaystyle A}
+
+. The set 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ may be chosen according to the geometry of the situation at hand.
+If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a setoid, i.e. a set with an equivalence relation 
+
+
+
+∼
+
+
+{\displaystyle \sim }
+
+, then a groupoid "representing" this equivalence relation can be formed as follows:
+The vertex groups of this groupoid are always trivial; moreover, this groupoid is in general not transitive and its orbits are precisely the equivalence classes. There are two extreme examples:
+
+
+
+
+
+X
+
+1
+
+
+⇉
+
+X
+
+0
+
+
+
+
+{\displaystyle X_{1}\rightrightarrows X_{0}}
+
+A Čech groupoid[6]p. 5 is a special kind of groupoid associated to an equivalence relation given by an open cover 
+
+
+
+
+
+U
+
+
+=
+{
+
+U
+
+i
+
+
+
+}
+
+i
+∈
+I
+
+
+
+
+{\displaystyle {\mathcal {U}}=\{U_{i}\}_{i\in I}}
+
+ of some manifold 
+
+
+
+X
+
+
+{\displaystyle X}
+
+. Its objects are given by the disjoint union
+
+
+
+
+
+
+
+G
+
+
+
+0
+
+
+=
+∐
+
+U
+
+i
+
+
+
+
+{\displaystyle {\mathcal {G}}_{0}=\coprod U_{i}}
+
+,and its arrows are the intersections
+
+
+
+
+
+
+
+G
+
+
+
+1
+
+
+=
+∐
+
+U
+
+i
+j
+
+
+
+
+{\displaystyle {\mathcal {G}}_{1}=\coprod U_{ij}}
+
+.
+The source and target maps are then given by the induced maps
+
+
+
+
+
+
+
+s
+=
+
+ϕ
+
+j
+
+
+:
+
+U
+
+i
+j
+
+
+→
+
+U
+
+j
+
+
+
+
+
+
+t
+=
+
+ϕ
+
+i
+
+
+:
+
+U
+
+i
+j
+
+
+→
+
+U
+
+i
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}s=\phi _{j}:U_{ij}\to U_{j}\\t=\phi _{i}:U_{ij}\to U_{i}\end{aligned}}}
+
+and the inclusion map
+
+
+
+ε
+:
+
+U
+
+i
+
+
+→
+
+U
+
+i
+i
+
+
+
+
+{\displaystyle \varepsilon :U_{i}\to U_{ii}}
+
+giving the structure of a groupoid. In fact, this can be further extended by setting
+
+
+
+
+
+
+G
+
+
+
+n
+
+
+=
+
+
+
+G
+
+
+
+1
+
+
+
+×
+
+
+
+
+G
+
+
+
+0
+
+
+
+
+⋯
+
+×
+
+
+
+
+G
+
+
+
+0
+
+
+
+
+
+
+
+G
+
+
+
+1
+
+
+
+
+{\displaystyle {\mathcal {G}}_{n}={\mathcal {G}}_{1}\times _{{\mathcal {G}}_{0}}\cdots \times _{{\mathcal {G}}_{0}}{\mathcal {G}}_{1}}
+
+as the 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-iterated fiber product where the 
+
+
+
+
+
+
+G
+
+
+
+n
+
+
+
+
+{\displaystyle {\mathcal {G}}_{n}}
+
+ represents 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-tuples of composable arrows. The structure map of the fiber product is implicitly the target map, since
+
+
+
+
+
+
+
+
+U
+
+i
+j
+k
+
+
+
+
+→
+
+
+
+U
+
+i
+j
+
+
+
+
+
+
+↓
+
+
+
+↓
+
+
+
+
+
+U
+
+i
+k
+
+
+
+
+→
+
+
+
+U
+
+i
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{matrix}U_{ijk}&\to &U_{ij}\\\downarrow &&\downarrow \\U_{ik}&\to &U_{i}\end{matrix}}}
+
+is a cartesian diagram where the maps to 
+
+
+
+
+U
+
+i
+
+
+
+
+{\displaystyle U_{i}}
+
+ are the target maps. This construction can be seen as a model for some ∞-groupoids. Also, another artifact of this construction is k-cocycles
+
+
+
+[
+σ
+]
+∈
+
+
+
+
+H
+ˇ
+
+
+
+
+k
+
+
+(
+
+
+U
+
+
+,
+
+
+A
+_
+
+
+)
+
+
+{\displaystyle [\sigma ]\in {\check {H}}^{k}({\mathcal {U}},{\underline {A}})}
+
+for some constant sheaf of abelian groups can be represented as a function
+
+
+
+σ
+:
+∐
+
+U
+
+
+i
+
+1
+
+
+⋯
+
+i
+
+k
+
+
+
+
+→
+A
+
+
+{\displaystyle \sigma :\coprod U_{i_{1}\cdots i_{k}}\to A}
+
+giving an explicit representation of cohomology classes.
+If the group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ acts on the set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+, then we can form the action groupoid (or transformation groupoid) representing this group action as follows:
+More explicitly, the action groupoid is a small category with 
+
+
+
+
+o
+b
+
+(
+C
+)
+=
+X
+
+
+{\displaystyle \mathrm {ob} (C)=X}
+
+ and 
+
+
+
+
+h
+o
+m
+
+(
+C
+)
+=
+G
+×
+X
+
+
+{\displaystyle \mathrm {hom} (C)=G\times X}
+
+ and with source and target maps 
+
+
+
+s
+(
+g
+,
+x
+)
+=
+x
+
+
+{\displaystyle s(g,x)=x}
+
+ and 
+
+
+
+t
+(
+g
+,
+x
+)
+=
+g
+x
+
+
+{\displaystyle t(g,x)=gx}
+
+. It is often denoted 
+
+
+
+G
+⋉
+X
+
+
+{\displaystyle G\ltimes X}
+
+ (or 
+
+
+
+X
+⋊
+G
+
+
+{\displaystyle X\rtimes G}
+
+ for a right action). Multiplication (or composition) in the groupoid is then 
+
+
+
+(
+h
+,
+y
+)
+(
+g
+,
+x
+)
+=
+(
+h
+g
+,
+x
+)
+
+
+{\displaystyle (h,y)(g,x)=(hg,x)}
+
+ which is defined provided 
+
+
+
+y
+=
+g
+x
+
+
+{\displaystyle y=gx}
+
+.
+For 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+, the vertex group consists of those 
+
+
+
+(
+g
+,
+x
+)
+
+
+{\displaystyle (g,x)}
+
+ with 
+
+
+
+g
+x
+=
+x
+
+
+{\displaystyle gx=x}
+
+, which is just the isotropy subgroup at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ for the given action (which is why vertex groups are also called isotropy groups). Similarly, the orbits of the action groupoid are the orbit of the group action, and the groupoid is transitive if and only if the group action is transitive.
+Another way to describe 
+
+
+
+G
+
+
+{\displaystyle G}
+
+-sets is the functor category 
+
+
+
+[
+
+G
+r
+
+,
+
+S
+e
+t
+
+]
+
+
+{\displaystyle [\mathrm {Gr} ,\mathrm {Set} ]}
+
+, where 
+
+
+
+
+G
+r
+
+
+
+{\displaystyle \mathrm {Gr} }
+
+ is the groupoid (category) with one element and isomorphic to the group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+. Indeed, every functor 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ of this category defines a set 
+
+
+
+X
+=
+F
+(
+
+G
+r
+
+)
+
+
+{\displaystyle X=F(\mathrm {Gr} )}
+
+ and for every 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ (i.e. for every morphism in 
+
+
+
+
+G
+r
+
+
+
+{\displaystyle \mathrm {Gr} }
+
+) induces a bijection 
+
+
+
+
+F
+
+g
+
+
+
+
+{\displaystyle F_{g}}
+
+ : 
+
+
+
+X
+→
+X
+
+
+{\displaystyle X\to X}
+
+. The categorical structure of the functor 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ assures us that 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ defines a 
+
+
+
+G
+
+
+{\displaystyle G}
+
+-action on the set 
+
+
+
+G
+
+
+{\displaystyle G}
+
+. The (unique) representable functor 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ : 
+
+
+
+
+G
+r
+
+→
+
+S
+e
+t
+
+
+
+{\displaystyle \mathrm {Gr} \to \mathrm {Set} }
+
+ is the Cayley representation of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+. In fact, this functor is isomorphic to 
+
+
+
+
+H
+o
+m
+
+(
+
+G
+r
+
+,
+−
+)
+
+
+{\displaystyle \mathrm {Hom} (\mathrm {Gr} ,-)}
+
+ and so sends 
+
+
+
+
+o
+b
+
+(
+
+G
+r
+
+)
+
+
+{\displaystyle \mathrm {ob} (\mathrm {Gr} )}
+
+ to the set 
+
+
+
+
+H
+o
+m
+
+(
+
+G
+r
+
+,
+
+G
+r
+
+)
+
+
+{\displaystyle \mathrm {Hom} (\mathrm {Gr} ,\mathrm {Gr} )}
+
+ which is by definition the "set" 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ and the morphism 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ of 
+
+
+
+
+G
+r
+
+
+
+{\displaystyle \mathrm {Gr} }
+
+ (i.e. the element 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+) to the permutation 
+
+
+
+
+F
+
+g
+
+
+
+
+{\displaystyle F_{g}}
+
+ of the set 
+
+
+
+G
+
+
+{\displaystyle G}
+
+. We deduce from the Yoneda embedding that the group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is isomorphic to the group 
+
+
+
+{
+
+F
+
+g
+
+
+∣
+g
+∈
+G
+}
+
+
+{\displaystyle \{F_{g}\mid g\in G\}}
+
+, a subgroup of the group of permutations of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+.
+Consider the group action of 
+
+
+
+
+Z
+
+
+/
+
+2
+
+
+{\displaystyle \mathbb {Z} /2}
+
+ on the finite set 
+
+
+
+X
+=
+{
+−
+2
+,
+−
+1
+,
+0
+,
+1
+,
+2
+}
+
+
+{\displaystyle X=\{-2,-1,0,1,2\}}
+
+ which takes each number to its negative, so 
+
+
+
+−
+2
+↦
+2
+
+
+{\displaystyle -2\mapsto 2}
+
+ and 
+
+
+
+1
+↦
+−
+1
+
+
+{\displaystyle 1\mapsto -1}
+
+. The quotient groupoid 
+
+
+
+[
+X
+
+/
+
+G
+]
+
+
+{\displaystyle [X/G]}
+
+ is the set of equivalence classes from this group action 
+
+
+
+{
+[
+0
+]
+,
+[
+1
+]
+,
+[
+2
+]
+}
+
+
+{\displaystyle \{[0],[1],[2]\}}
+
+, and 
+
+
+
+[
+0
+]
+
+
+{\displaystyle [0]}
+
+ has a group action of 
+
+
+
+
+Z
+
+
+/
+
+2
+
+
+{\displaystyle \mathbb {Z} /2}
+
+ on it.
+Any finite group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ which maps to 
+
+
+
+G
+L
+(
+n
+)
+
+
+{\displaystyle GL(n)}
+
+ give a group action on the affine space 
+
+
+
+
+
+A
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {A} ^{n}}
+
+ (since this is the group of automorphisms). Then, a quotient groupoid can be of the forms 
+
+
+
+[
+
+
+A
+
+
+n
+
+
+
+/
+
+G
+]
+
+
+{\displaystyle [\mathbb {A} ^{n}/G]}
+
+, which has one point with stabilizer 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ at the origin. Examples like these form the basis for the theory of orbifolds. Another commonly studied family of orbifolds are weighted projective spaces 
+
+
+
+
+P
+
+(
+
+n
+
+1
+
+
+,
+…
+,
+
+n
+
+k
+
+
+)
+
+
+{\displaystyle \mathbb {P} (n_{1},\ldots ,n_{k})}
+
+ and subspaces of them, such as Calabi–Yau orbifolds.
+Given a diagram of groupoids with groupoid morphisms
+where 
+
+
+
+f
+:
+X
+→
+Z
+
+
+{\displaystyle f:X\to Z}
+
+ and 
+
+
+
+g
+:
+Y
+→
+Z
+
+
+{\displaystyle g:Y\to Z}
+
+, we can form the groupoid 
+
+
+
+X
+
+×
+
+Z
+
+
+Y
+
+
+{\displaystyle X\times _{Z}Y}
+
+ whose objects are triples 
+
+
+
+(
+x
+,
+ϕ
+,
+y
+)
+
+
+{\displaystyle (x,\phi ,y)}
+
+, where 
+
+
+
+x
+∈
+
+Ob
+
+(
+X
+)
+
+
+{\displaystyle x\in {\text{Ob}}(X)}
+
+, 
+
+
+
+y
+∈
+
+Ob
+
+(
+Y
+)
+
+
+{\displaystyle y\in {\text{Ob}}(Y)}
+
+, and 
+
+
+
+ϕ
+:
+f
+(
+x
+)
+→
+g
+(
+y
+)
+
+
+{\displaystyle \phi :f(x)\to g(y)}
+
+ in 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+. Morphisms can be defined as a pair of morphisms 
+
+
+
+(
+α
+,
+β
+)
+
+
+{\displaystyle (\alpha ,\beta )}
+
+ where 
+
+
+
+α
+:
+x
+→
+
+x
+′
+
+
+
+{\displaystyle \alpha :x\to x'}
+
+ and 
+
+
+
+β
+:
+y
+→
+
+y
+′
+
+
+
+{\displaystyle \beta :y\to y'}
+
+ such that for triples 
+
+
+
+(
+x
+,
+ϕ
+,
+y
+)
+,
+(
+
+x
+′
+
+,
+
+ϕ
+′
+
+,
+
+y
+′
+
+)
+
+
+{\displaystyle (x,\phi ,y),(x',\phi ',y')}
+
+, there is a commutative diagram in 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ of 
+
+
+
+f
+(
+α
+)
+:
+f
+(
+x
+)
+→
+f
+(
+
+x
+′
+
+)
+
+
+{\displaystyle f(\alpha ):f(x)\to f(x')}
+
+, 
+
+
+
+g
+(
+β
+)
+:
+g
+(
+y
+)
+→
+g
+(
+
+y
+′
+
+)
+
+
+{\displaystyle g(\beta ):g(y)\to g(y')}
+
+ and the 
+
+
+
+ϕ
+,
+
+ϕ
+′
+
+
+
+{\displaystyle \phi ,\phi '}
+
+.[7]
+A two term complex
+of objects in a concrete Abelian category can be used to form a groupoid. It has as objects the set 
+
+
+
+
+C
+
+0
+
+
+
+
+{\displaystyle C_{0}}
+
+ and as arrows the set 
+
+
+
+
+C
+
+1
+
+
+⊕
+
+C
+
+0
+
+
+
+
+{\displaystyle C_{1}\oplus C_{0}}
+
+; the source morphism is just the projection onto 
+
+
+
+
+C
+
+0
+
+
+
+
+{\displaystyle C_{0}}
+
+ while the target morphism is the addition of projection onto 
+
+
+
+
+C
+
+1
+
+
+
+
+{\displaystyle C_{1}}
+
+ composed with 
+
+
+
+d
+
+
+{\displaystyle d}
+
+ and projection onto 
+
+
+
+
+C
+
+0
+
+
+
+
+{\displaystyle C_{0}}
+
+. That is, given 
+
+
+
+
+c
+
+1
+
+
++
+
+c
+
+0
+
+
+∈
+
+C
+
+1
+
+
+⊕
+
+C
+
+0
+
+
+
+
+{\displaystyle c_{1}+c_{0}\in C_{1}\oplus C_{0}}
+
+, we have
+Of course, if the abelian category is the category of coherent sheaves on a scheme, then this construction can be used to form a presheaf of groupoids.
+While puzzles such as the Rubik's Cube can be modeled using group theory (see Rubik's Cube group), certain puzzles are better modeled as groupoids.[8]
+The transformations of the fifteen puzzle form a groupoid (not a group, as not all moves can be composed).[9][10][11] This groupoid acts on configurations.
+The Mathieu groupoid is a groupoid introduced by John Horton Conway acting on 13 points such that the elements fixing a point form a copy of the Mathieu group M12.
+If a groupoid has only one object, then the set of its morphisms forms a group. Using the algebraic definition, such a groupoid is literally just a group.[12] Many concepts of group theory generalize to groupoids, with the notion of functor replacing that of group homomorphism.
+Every transitive/connected groupoid - that is, as explained above, one in which any two objects are connected by at least one morphism - is isomorphic to an action groupoid (as defined above) 
+
+
+
+(
+G
+,
+X
+)
+
+
+{\displaystyle (G,X)}
+
+. By transitivity, there will only be one orbit under the action.
+Note that the isomorphism just mentioned is not unique, and there is no natural choice. Choosing such an isomorphism for a transitive groupoid essentially amounts to picking one object 
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+, a group isomorphism 
+
+
+
+h
+
+
+{\displaystyle h}
+
+ from 
+
+
+
+G
+(
+
+x
+
+0
+
+
+)
+
+
+{\displaystyle G(x_{0})}
+
+ to 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, and for each 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ other than 
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+, a morphism in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ from 
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+
+ to 
+
+
+
+x
+
+
+{\displaystyle x}
+
+.
+If a groupoid is not transitive, then it is isomorphic to a disjoint union of groupoids of the above type, also called its connected components (possibly with different groups 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ and sets 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ for each connected component).
+In category-theoretic terms, each connected component of a groupoid is equivalent (but not isomorphic) to a groupoid with a single object, that is, a single group. Thus any groupoid is equivalent to a multiset of unrelated groups. In other words, for equivalence instead of isomorphism, one does not need to specify the sets 
+
+
+
+X
+
+
+{\displaystyle X}
+
+, but only the groups 
+
+
+
+G
+.
+
+
+{\displaystyle G.}
+
+ For example,
+The collapse of a groupoid into a mere collection of groups loses some information, even from a category-theoretic point of view, because it is not natural. Thus when groupoids arise in terms of other structures, as in the above examples, it can be helpful to maintain the entire groupoid. Otherwise, one must choose a way to view each 
+
+
+
+G
+(
+x
+)
+
+
+{\displaystyle G(x)}
+
+ in terms of a single group, and this choice can be arbitrary. In the example from topology, one would have to make a coherent choice of paths (or equivalence classes of paths) from each point 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ to each point 
+
+
+
+q
+
+
+{\displaystyle q}
+
+ in the same path-connected component.
+As a more illuminating example, the classification of groupoids with one endomorphism does not reduce to purely group theoretic considerations. This is analogous to the fact that the classification of vector spaces with one endomorphism is nontrivial.
+Morphisms of groupoids come in more kinds than those of groups: we have, for example, fibrations, covering morphisms, universal morphisms, and quotient morphisms. Thus a subgroup 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ of a group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ yields an action of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ on the set of cosets of 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ and hence a covering morphism 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ from, say, 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ to 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, where 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ is a groupoid with vertex groups isomorphic to 
+
+
+
+H
+
+
+{\displaystyle H}
+
+. In this way, presentations of the group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ can be "lifted" to presentations of the groupoid 
+
+
+
+K
+
+
+{\displaystyle K}
+
+, and this is a useful way of obtaining information about presentations of the subgroup 
+
+
+
+H
+
+
+{\displaystyle H}
+
+. For further information, see the books by Higgins and by Brown in the References.
+The category whose objects are groupoids and whose morphisms are groupoid morphisms is called the groupoid category, or the category of groupoids, and is denoted by Grpd.
+The category Grpd is, like the category of small categories, Cartesian closed: for any groupoids 
+
+
+
+H
+,
+K
+
+
+{\displaystyle H,K}
+
+ we can construct a groupoid 
+
+
+
+GPD
+⁡
+(
+H
+,
+K
+)
+
+
+{\displaystyle \operatorname {GPD} (H,K)}
+
+ whose objects are the morphisms 
+
+
+
+H
+→
+K
+
+
+{\displaystyle H\to K}
+
+ and whose arrows are the natural equivalences of morphisms. Thus if 
+
+
+
+H
+,
+K
+
+
+{\displaystyle H,K}
+
+ are just groups, then such arrows are the conjugacies of morphisms. The main result is that for any groupoids 
+
+
+
+G
+,
+H
+,
+K
+
+
+{\displaystyle G,H,K}
+
+ there is a natural bijection
+
+
+
+
+Grpd
+⁡
+(
+G
+×
+H
+,
+K
+)
+≅
+Grpd
+⁡
+(
+G
+,
+GPD
+⁡
+(
+H
+,
+K
+)
+)
+.
+
+
+{\displaystyle \operatorname {Grpd} (G\times H,K)\cong \operatorname {Grpd} (G,\operatorname {GPD} (H,K)).}
+
+
+This result is of interest even if all the groupoids 
+
+
+
+G
+,
+H
+,
+K
+
+
+{\displaystyle G,H,K}
+
+ are just groups.
+Another important property of Grpd is that it is both complete and cocomplete.
+The inclusion 
+
+
+
+i
+:
+
+G
+r
+p
+d
+
+→
+
+C
+a
+t
+
+
+
+{\displaystyle i:\mathbf {Grpd} \to \mathbf {Cat} }
+
+ has both a left and a right adjoint:
+Here, 
+
+
+
+C
+[
+
+C
+
+−
+1
+
+
+]
+
+
+{\displaystyle C[C^{-1}]}
+
+ denotes the localization of a category that inverts every morphism, and 
+
+
+
+
+C
+o
+r
+e
+
+(
+C
+)
+
+
+{\displaystyle \mathrm {Core} (C)}
+
+ denotes the subcategory of all isomorphisms.
+The nerve functor 
+
+
+
+N
+:
+
+G
+r
+p
+d
+
+→
+
+s
+S
+e
+t
+
+
+
+{\displaystyle N:\mathbf {Grpd} \to \mathbf {sSet} }
+
+ embeds Grpd as a full subcategory of the category of simplicial sets. The nerve of a groupoid is always a Kan complex.
+The nerve has a left adjoint
+Here, 
+
+
+
+
+π
+
+1
+
+
+(
+X
+)
+
+
+{\displaystyle \pi _{1}(X)}
+
+ denotes the fundamental groupoid of the simplicial set X.
+
+There is an additional structure which can be derived from groupoids internal to the category of groupoids, double-groupoids.[13][14] Because Grpd is a 2-category, these objects form a 2-category instead of a 1-category since there is extra structure. Essentially, these are groupoids 
+
+
+
+
+
+
+G
+
+
+
+1
+
+
+,
+
+
+
+G
+
+
+
+0
+
+
+
+
+{\displaystyle {\mathcal {G}}_{1},{\mathcal {G}}_{0}}
+
+ with functors
+
+
+
+s
+,
+t
+:
+
+
+
+G
+
+
+
+1
+
+
+→
+
+
+
+G
+
+
+
+0
+
+
+
+
+{\displaystyle s,t:{\mathcal {G}}_{1}\to {\mathcal {G}}_{0}}
+
+and an embedding given by an identity functor
+
+
+
+i
+:
+
+
+
+G
+
+
+
+0
+
+
+→
+
+
+
+G
+
+
+
+1
+
+
+
+
+{\displaystyle i:{\mathcal {G}}_{0}\to {\mathcal {G}}_{1}}
+
+One way to think about these 2-groupoids is they contain objects, morphisms, and squares which can compose together vertically and horizontally. For example, given squares
+
+
+
+
+
+
+
+∙
+
+
+→
+
+
+∙
+
+
+
+
+↓
+
+
+
+↓
+
+
+
+
+∙
+
+
+
+→
+
+a
+
+
+
+
+∙
+
+
+
+
+
+
+{\displaystyle {\begin{matrix}\bullet &\to &\bullet \\\downarrow &&\downarrow \\\bullet &\xrightarrow {a} &\bullet \end{matrix}}}
+
+ and 
+
+
+
+
+
+
+
+∙
+
+
+
+→
+
+a
+
+
+
+
+∙
+
+
+
+
+↓
+
+
+
+↓
+
+
+
+
+∙
+
+
+→
+
+
+∙
+
+
+
+
+
+
+{\displaystyle {\begin{matrix}\bullet &\xrightarrow {a} &\bullet \\\downarrow &&\downarrow \\\bullet &\to &\bullet \end{matrix}}}
+
+with 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ the same morphism, they can be vertically conjoined giving a diagram
+
+
+
+
+
+
+
+∙
+
+
+→
+
+
+∙
+
+
+
+
+↓
+
+
+
+↓
+
+
+
+
+∙
+
+
+
+→
+
+a
+
+
+
+
+∙
+
+
+
+
+↓
+
+
+
+↓
+
+
+
+
+∙
+
+
+→
+
+
+∙
+
+
+
+
+
+
+{\displaystyle {\begin{matrix}\bullet &\to &\bullet \\\downarrow &&\downarrow \\\bullet &\xrightarrow {a} &\bullet \\\downarrow &&\downarrow \\\bullet &\to &\bullet \end{matrix}}}
+
+which can be converted into another square by composing the vertical arrows. There is a similar composition law for horizontal attachments of squares.
+When studying geometrical objects, the arising groupoids often carry a topology, turning them into topological groupoids, or even some differentiable structure, turning them into Lie groupoids. These last objects can be also studied in terms of their associated Lie algebroids, in analogy to the relation between Lie groups and Lie algebras.
+Groupoids arising from geometry often possess further structures which interact with the groupoid multiplication. For instance, in Poisson geometry one has the notion of a symplectic groupoid, which is a Lie groupoid endowed with a compatible symplectic form. Similarly, one can have groupoids with a compatible Riemannian metric, or complex structure, etc.
+
+

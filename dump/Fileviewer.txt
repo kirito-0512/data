@@ -1,0 +1,11 @@
+11385,
+Fileviewer,
+A file viewer is a software application that represents the data stored in a computer file in a human-readable form. The file contents are formatted in a meaningful way, then displayed on the screen, printed out, or read aloud using speech synthesis.
+File viewer applications can be split into the following categories:
+Such division of functionality was initially a result of software licensing for proprietary file formats, such as all file formats can be read freely but software license may exist that limits file creation and modification algorithms to be used only by licensor. For example, database software DBASE used proprietary algorithm for creating .DBF files, but Norton Commander had a built-in viewer for .DBF files. Acrobat Reader supports viewing of .PDF files, but another software application such as Adobe Photoshop, LibreOffice or Microsoft Word is required to create .PDF files.
+File viewers need to have structure information about the file format to be viewed in order to handle different byte orders, code pages or newline styles. On contrary, media file viewers, such as Video Player applications may have initially very small number of file formats or none recognized, but rely on video codecs to play various media, making their capability to read and represent media file data to the user expandable.
+Some file viewer may be classified as filters that translate binary files into plain text (e.g., antiword). However, depending on the competence of the translating routines, some information may be lost.
+Image viewers display graphics files onscreen. Some viewers such as IrfanView are capable of reading multiple graphics file formats but some such as JPEGview are dedicated to a single format. Common image viewer features include thumbnail preview and creation, image zooming and rotation, color balance and gamma correction, resizing, etc.
+A web browser is a type of file viewer, which renders HTML markup into a human-friendly presentation. Although HTML is stored in plain text files, viewing an HTML file in a browser and in a text editor produces significantly different results. Web browsers may also be used to view multimedia files such as images, videos, pre-formatted documents, interactive environments, 3D models, augmented reality and virtual reality applets etc.
+
+

@@ -1,0 +1,195 @@
+14838,
+Inertialframeofreference,
+
+In classical physics and special relativity, an inertial frame of reference  (also called inertial space, or Galilean reference frame) is a frame of reference that is not undergoing any acceleration. It is a frame in which an isolated physical object—an object with zero net force acting on it—is perceived to move with a constant velocity or, equivalently, it is a frame of reference in which Newton's first law of motion holds.[1] 
+All inertial frames are in a state of constant, rectilinear motion with respect to one another; in other words, an accelerometer moving with any of them would detect zero acceleration.
+It has been observed that celestial objects which are far away from other objects and which are in uniform motion with respect to the cosmic microwave background radiation maintain such uniform motion.[2]
+Measurements in one inertial frame can be converted to measurements in another by a simple transformation - the Galilean transformation in Newtonian physics and the Lorentz transformation in special relativity.[3]
+In analytical mechanics, an inertial frame of reference can be defined as a frame of reference that describes time and space homogeneously, isotropically, and in a time-independent manner.[4]
+In general relativity
+In a non-inertial reference frame, viewed from a classical physics and special relativity perspective, the interactions between the fundamental constituents of the observable universe (the physics of a system) vary depending on the acceleration of that frame with respect to an inertial frame. Viewed from this perspective and due to the phenomenon of inertia, the 'usual' physical forces between two bodies have to be supplemented by apparently sourceless inertial forces.[10][11] 
+Viewed from a general relativity theory perspective, appearing inertial forces (the supplementary external causes) are attributed to geodesic motion in spacetime.
+In classical mechanics, for example, a ball dropped towards the ground does not move exactly straight down because the Earth is rotating. This means the frame of reference of an observer on Earth is not inertial. As a consequence, the Coriolis effect—an apparent force— must be taken into account to predict the respective small horizontal motion. Another example of an apparent force appearing in rotating reference frames concerns the centrifugal effect, the centrifugal force.
+
+The motion of a body can only be described relative to something else—other bodies, observers, or a set of spacetime coordinates. These are called frames of reference. According to the first postulate of special relativity, all physical laws take their simplest form in an inertial frame, and there exist multiple inertial frames interrelated by uniform translation: [12]Special principle of relativity: If a system of coordinates K is chosen so that, in relation to it, physical laws hold good in their simplest form, the same laws hold good in relation to any other system of coordinates K' moving in uniform translation relatively to K.This simplicity manifests itself in that inertial frames have self-contained physics without the need for external causes, while physics in non-inertial frames have external causes.[9] The principle of simplicity can be used within Newtonian physics as well as in special relativity:[13][14]
+The laws of Newtonian mechanics do not always hold in their simplest form...If, for instance, an observer is placed on a disc rotating relative to the earth, he/she will sense a 'force' pushing him/her toward the periphery of the disc, which is not caused by any interaction with other bodies. Here, the acceleration is not the consequence of the usual force, but of the so-called inertial force. Newton's laws hold in their simplest form only in a family of reference frames, called inertial frames. This fact represents the essence of the Galilean principle of relativity:   The laws of mechanics have the same form in all inertial frames.In practical terms, the equivalence of inertial reference frames means that scientists within a box moving with a constant absolute velocity cannot determine this velocity by any experiment. Otherwise, the differences would set up an absolute standard reference frame.[15][16] According to this definition, supplemented with the constancy of the speed of light, inertial frames of reference transform among themselves according to the Poincaré group of symmetry transformations, of which the Lorentz transformations are a subgroup.[17] In Newtonian mechanics, inertial frames of reference are related by the Galilean group of symmetries.
+Newton posited an absolute space considered well-approximated by a frame of reference stationary relative to the fixed stars. An inertial frame was then one in uniform translation relative to absolute space. However, some "relativists",[18] even at the time of Newton, felt that absolute space was a defect of the formulation, and should be replaced.
+The expression inertial frame of reference (German: Inertialsystem) was coined by Ludwig Lange in 1885, to replace Newton's definitions of "absolute space and time" by a more operational definition.[19][20] As translated by Iro, Lange proposed the following definition:[21]
+A reference frame in which a mass point thrown from the same point in three different (non co-planar) directions follows rectilinear paths each time it is thrown, is called an inertial frame.
+The inadequacy of the notion of "absolute space" in Newtonian mechanics is spelled out by Blagojević:[22]The utility of operational definitions was carried much further in the special theory of relativity.[23] Some historical background including Lange's definition is provided by DiSalle, who says in summary:[24]
+The original question, "relative to what frame of reference do the laws of motion hold?" is revealed to be wrongly posed. For the laws of motion essentially determine a class of reference frames, and (in principle) a procedure for constructing them.Classical theories that use the Galilean transformation postulate the equivalence of all inertial reference frames. Some theories may even postulate the existence of a privileged frame which provides absolute space and absolute time. The Galilean transformation transforms coordinates from one inertial reference frame, 
+
+
+
+
+s
+
+
+
+{\displaystyle \mathbf {s} }
+
+, to another, 
+
+
+
+
+
+s
+
+
+′
+
+
+
+
+{\displaystyle \mathbf {s} ^{\prime }}
+
+, by simple addition or subtraction of coordinates:
+where r0 and t0 represent shifts in the origin of space and time, and v is the relative velocity of the two inertial reference frames. Under Galilean transformations, the time t2 − t1 between two events is the same for all reference frames and the distance between two simultaneous events (or, equivalently, the length of any object, |r2 − r1|) is also the same.
+Within the realm of Newtonian mechanics, an inertial frame of reference, or inertial reference frame, is one in which Newton's first law of motion is valid.[25] However, the principle of special relativity generalizes the notion of inertial frame to include all physical laws, not simply Newton's first law.
+Newton viewed the first law as valid in any reference frame that is in uniform motion relative to the fixed stars;[26] that is, neither rotating nor accelerating relative to the stars.[27] Today the notion of "absolute space" is abandoned, and an inertial frame in the field of classical mechanics is defined as:[28][29]
+An inertial frame of reference is one in which the motion of a particle not subject to forces is in a straight line at constant speed.Hence, with respect to an inertial frame, an object or body accelerates only when a physical force is applied, and (following Newton's first law of motion), in the absence of a net force, a body at rest will remain at rest and a body in motion will continue to move uniformly—that is, in a straight line and at constant speed. Newtonian inertial frames transform among each other according to the Galilean group of symmetries.
+If this rule is interpreted as saying that straight-line motion is an indication of zero net force, the rule does not identify inertial reference frames because straight-line motion can be observed in a variety of frames. If the rule is interpreted as defining an inertial frame, then we have to be able to determine when zero net force is applied. The problem was summarized by Einstein:[30]
+The weakness of the principle of inertia lies in this, that it involves an argument in a circle: a mass moves without acceleration if it is sufficiently far from other bodies; we know that it is sufficiently far from other bodies only by the fact that it moves without acceleration.There are several approaches to this issue. One approach is to argue that all real forces drop off with distance from their sources in a known manner, so we have only to be sure that a body is far enough away from all sources to ensure that no force is present.[31] A possible issue with this approach is the historically long-lived view that the distant universe might affect matters (Mach's principle). Another approach is to identify all real sources for real forces and account for them. A possible issue with this approach is that we might miss something, or account inappropriately for their influence, perhaps, again, due to Mach's principle and an incomplete understanding of the universe. A third approach is to look at the way the forces transform when we shift reference frames. Fictitious forces, those that arise due to the acceleration of a frame, disappear in inertial frames, and have complicated rules of transformation in general cases. On the basis of universality of physical law and the request for frames where the laws are most simply expressed, inertial frames are distinguished by the absence of such fictitious forces.
+
+Newton enunciated a principle of relativity himself in one of his corollaries to the laws of motion:[32][33] The motions of bodies included in a given space are the same among themselves, whether that space is at rest or moves uniformly forward in a straight line.This principle differs from the special principle in two ways: first, it is restricted to mechanics, and second, it makes no mention of simplicity. It shares with the special principle the invariance of the form of the description among mutually translating reference frames.[34] The role of fictitious forces in classifying reference frames is pursued further below.
+It is important to note some assumptions made above about the various inertial frames of reference. Newton, for instance, employed universal time, as explained by the following example. Suppose that you own two clocks, which both tick at exactly the same rate. You synchronize them so that they both display exactly the same time. The two clocks are now separated and one clock is on a fast moving train, traveling at constant velocity towards the other. According to Newton, these two clocks will still tick at the same rate and will both show the same time. Newton says that the rate of time as measured in one frame of reference should be the same as the rate of time in another. That is, there exists a "universal" time and all other times in all other frames of reference will run at the same rate as this universal time irrespective of their position and velocity. This concept of time and simultaneity was later generalized by Einstein in his special theory of relativity (1905) where he developed transformations between inertial frames of reference based upon the universal nature of physical laws and their economy of expression (Lorentz transformations).
+Frames of reference are especially important in special relativity, because when a frame of reference is moving at some significant fraction of the speed of light, then the flow of time in that frame does not necessarily apply in another frame. The speed of light is considered to be the only true constant between moving frames of reference.
+The definition of inertial reference frame can also be extended beyond three-dimensional Euclidean space. Newton's assumed a Euclidean space, but general relativity uses a more general geometry. As an example of why this is important, consider the geometry of an ellipsoid. In this geometry, a "free" particle is defined as one at rest or traveling at constant speed on a geodesic path. Two free particles may begin at the same point on the surface, traveling with the same constant speed in different directions. After a length of time, the two particles collide on the opposite side of the ellipsoid. Both "free" particles traveled with a constant speed, satisfying the definition that no forces were acting. No acceleration occurred and so Newton's first law held true. This means that the particles were in inertial frames of reference. Since no forces were acting, it was the geometry of the situation which caused the two particles to meet each other again. In a similar way, it is now common to describe[35] that we exist in a four-dimensional geometry known as spacetime. In this picture, the curvature of this 4D space is responsible for the way in which two bodies with mass are drawn together even if no forces are acting. This curvature of spacetime replaces the force known as gravity in Newtonian mechanics and special relativity.
+Einstein's theory of special relativity, like Newtonian mechanics, postulates the equivalence of all inertial reference frames. However, because special relativity postulates that the speed of light in free space is invariant, the transformation between inertial frames is the Lorentz transformation, not the Galilean transformation which is used in Newtonian mechanics. The invariance of the speed of light leads to counter-intuitive phenomena, such as time dilation and length contraction, and the relativity of simultaneity, which have been extensively verified experimentally.[36] The Lorentz transformation reduces to the Galilean transformation as the speed of light approaches infinity or as the relative velocity between frames approaches zero.[37]
+Here the relation between inertial and non-inertial observational frames of reference is considered. The basic difference between these frames is the need in non-inertial frames for fictitious forces, as described below.
+
+General relativity is based upon the principle of equivalence:[38][39]There is no experiment observers can perform to distinguish whether an acceleration arises because of a gravitational force or because their reference frame is accelerating.This idea was introduced in Einstein's 1907 article "Principle of Relativity and Gravitation" and later developed in 1911.[40] Support for this principle is found in the Eötvös experiment, which determines whether the ratio of inertial to gravitational mass is the same for all bodies, regardless of size or composition. To date no difference has been found to a few parts in 1011.[41] For some discussion of the subtleties of the Eötvös experiment, such as the local mass distribution around the experimental site (including a quip about the mass of Eötvös himself), see Franklin.[42]
+Einstein's general theory modifies the distinction between nominally "inertial" and "non-inertial" effects by replacing special relativity's "flat" Minkowski Space with a metric that produces non-zero curvature. In general relativity, the principle of inertia is replaced with the principle of geodesic motion, whereby objects move in a way dictated by the curvature of spacetime. As a consequence of this curvature, it is not a given in general relativity that inertial objects moving at a particular rate with respect to each other will continue to do so. This phenomenon of geodesic deviation means that inertial frames of reference do not exist globally as they do in Newtonian mechanics and special relativity.
+However, the general theory reduces to the special theory over sufficiently small regions of spacetime, where curvature effects become less important and the earlier inertial frame arguments can come back into play.[43][44] Consequently, modern special relativity is now sometimes described as only a "local theory".[45] "Local" can encompass, for example, the entire Milky Way galaxy: The astronomer Karl Schwarzschild observed the motion of pairs of stars orbiting each other. He found that the two orbits of the stars of such a system lie in a plane, and the perihelion of the orbits of the two stars remains pointing in the same direction with respect to the solar system. Schwarzschild pointed out that that was invariably seen: the direction of the angular momentum of all observed double star systems remains fixed with respect to the direction of the angular momentum of the Solar System. These observations allowed him to conclude that inertial frames inside the galaxy do not rotate with respect to one another, and that the space of the Milky Way is approximately Galilean or Minkowskian.[46]
+In an inertial frame, Newton's first law, the law of inertia, is satisfied: Any free motion has a constant magnitude and direction.[4] Newton's second law for a particle takes the form:
+with F the net force (a vector), m the mass of a particle and a the acceleration of the particle (also a vector) which would be measured by an observer at rest in the frame. The force F is the vector sum of all "real" forces on the particle, such as contact forces, electromagnetic, gravitational, and nuclear forces.
+In contrast, Newton's second law in a rotating frame of reference (a non-inertial frame of reference), rotating at angular rate Ω about an axis, takes the form:
+which looks the same as in an inertial frame, but now the force F′ is the resultant of not only F, but also additional terms (the paragraph following this equation presents the main points without detailed mathematics):
+where the angular rotation of the frame is expressed by the vector Ω pointing in the direction of the axis of rotation, and with magnitude equal to the angular rate of rotation Ω, symbol × denotes the vector cross product, vector xB locates the body and vector vB is the velocity of the body according to a rotating observer (different from the velocity seen by the inertial observer).
+The extra terms in the force F′ are the "fictitious" forces for this frame, whose causes are external to the system in the frame. The first extra term is the Coriolis force, the second the centrifugal force, and the third the Euler force. These terms all have these properties: they vanish when Ω = 0; that is, they are zero for an inertial frame (which, of course, does not rotate); they take on a different magnitude and direction in every rotating frame, depending upon its particular value of Ω; they are ubiquitous in the rotating frame (affect every particle, regardless of circumstance); and they have no apparent source in identifiable physical sources, in particular, matter. Also, fictitious forces do not drop off with distance (unlike, for example, nuclear forces or electrical forces). For example, the centrifugal force that appears to emanate from the axis of rotation in a rotating frame increases with distance from the axis.
+All observers agree on the real forces, F; only non-inertial observers need fictitious forces. The laws of physics in the inertial frame are simpler because unnecessary forces are not present.
+In Newton's time the fixed stars were invoked as a reference frame, supposedly at rest relative to absolute space. In reference frames that were either at rest with respect to the fixed stars or in uniform translation relative to these stars, Newton's laws of motion were supposed to hold. In contrast, in frames accelerating with respect to the fixed stars, an important case being frames rotating relative to the fixed stars, the laws of motion did not hold in their simplest form, but had to be supplemented by the addition of fictitious forces, for example, the Coriolis force and the centrifugal force. Two experiments were devised by Newton to demonstrate how these forces could be discovered, thereby revealing to an observer that they were not in an inertial frame: the example of the tension in the cord linking two spheres rotating about their center of gravity, and the example of the curvature of the surface of water in a rotating bucket. In both cases, application of Newton's second law would not work for the rotating observer without invoking centrifugal and Coriolis forces to account for their observations (tension in the case of the spheres; parabolic water surface in the case of the rotating bucket).
+As we now know, the fixed stars are not fixed. Those that reside in the Milky Way turn with the galaxy, exhibiting proper motions. Those that are outside our galaxy (such as nebulae once mistaken to be stars) participate in their own motion as well, partly due to expansion of the universe, and partly due to peculiar velocities.[47] For instance, the Andromeda Galaxy is on collision course with the Milky Way at a speed of 117 km/s.[48] The concept of inertial frames of reference is no longer tied to either the fixed stars or to absolute space. Rather, the identification of an inertial frame is based on the simplicity of the laws of physics in the frame. 
+John Stachel wrote: once one gave up the existence of a privileged frame of reference (the ether frame) there was no reason why one should stop at the relativity of inertial frames. The conventional answer to such doubts was that the laws of nature took a simpler form in the inertial frames of reference because in these frames one did not have to introduce inertial forces when writing down Newton's law of motion. 
+[49]
+In practice, although not a requirement, using a frame of reference based upon the fixed stars as though it were an inertial frame of reference introduces very little discrepancy. For example, the centrifugal acceleration of the Earth because of its rotation about the Sun is about thirty million times greater than that of the Sun about the galactic center.[50]
+To illustrate further, consider the question: "Does our Universe rotate?" To answer, we might attempt to explain the shape of the Milky Way galaxy using the laws of physics,[51] although other observations might be more definitive; that is, provide larger discrepancies or less measurement uncertainty, like the anisotropy of the microwave background radiation or Big Bang nucleosynthesis.[52][53] The flatness of the Milky Way depends on its rate of rotation in an inertial frame of reference. If we attribute its apparent rate of rotation entirely to rotation in an inertial frame, a different "flatness" is predicted than if we suppose part of this rotation actually is due to rotation of the universe and should not be included in the rotation of the galaxy itself. Based upon the laws of physics, a model is set up in which one parameter is the rate of rotation of the Universe. If the laws of physics agree more accurately with observations in a model with rotation than without it, we are inclined to select the best-fit value for rotation, subject to all other pertinent experimental observations. If no value of the rotation parameter is successful and theory is not within observational error, a modification of physical law is considered, for example, dark matter is invoked to explain the galactic rotation curve. So far, observations show any rotation of the universe is very slow, no faster than once every 6×1013 years (10−13 rad/yr),[54] and debate persists over whether there is any rotation. However, if rotation were found, interpretation of observations in a frame tied to the universe would have to be corrected for the fictitious forces inherent in such rotation in classical physics and special relativity, or interpreted as the curvature of spacetime and the motion of matter along the geodesics in general relativity.[55]
+When quantum effects are important, there are additional conceptual complications that arise in quantum reference frames.
+An accelerated frame of reference is often delineated as being the "primed" frame, and all variables that are dependent on that frame are notated with primes, e.g. x′, y′, a′.
+The vector from the origin of an inertial reference frame to the origin of an accelerated reference frame is commonly notated as R. Given a point of interest that exists in both frames, the vector from the inertial origin to the point is called r, and the vector from the accelerated origin to the point is called r′.
+From the geometry of the situation, we get
+Taking the first and second derivatives of this with respect to time, we obtain
+where V and A are the velocity and acceleration of the accelerated system with respect to the inertial system and v and a are the velocity and acceleration of the point of interest with respect to the inertial frame.
+These equations allow transformations between the two coordinate systems; for example, we can now write Newton's second law as
+When there is accelerated motion due to a force being exerted there is manifestation of inertia. If an electric car designed to recharge its battery system when decelerating is switched to braking, the batteries are recharged, illustrating the physical strength of manifestation of inertia. However, the manifestation of inertia does not prevent acceleration (or deceleration), for manifestation of inertia occurs in response to change in velocity due to a force. Seen from the perspective of a rotating frame of reference the manifestation of inertia appears to exert a force (either in centrifugal direction, or in a direction orthogonal to an object's motion, the Coriolis effect).
+A common sort of accelerated reference frame is a frame that is both rotating and translating (an example is a frame of reference attached to a CD which is playing while the player is carried). This arrangement leads to the equation (see Fictitious force for a derivation):
+or, to solve for the acceleration in the accelerated frame,
+Multiplying through by the mass m gives
+where
+
+Inertial and non-inertial reference frames can be distinguished by the absence or presence of fictitious forces, as explained shortly.[10][11] The effect of this being in the noninertial frame is to require the observer to introduce a fictitious force into his calculations….The presence of fictitious forces indicates the physical laws are not the simplest laws available so, in terms of the special principle of relativity, a frame where fictitious forces are present is not an inertial frame:[56]
+The equations of motion in a non-inertial system differ from the equations in an inertial system by additional terms called inertial forces. This allows us to detect experimentally the non-inertial nature of a system.Bodies in non-inertial reference frames are subject to so-called fictitious forces (pseudo-forces); that is, forces that result from the acceleration of the reference frame itself and not from any physical force acting on the body. Examples of fictitious forces are the centrifugal force and the Coriolis force in rotating reference frames.
+How then, are "fictitious" forces to be separated from "real" forces? It is hard to apply the Newtonian definition of an inertial frame without this separation. For example, consider a stationary object in an inertial frame. Being at rest, no net force is applied. But in a frame rotating about a fixed axis, the object appears to move in a circle, and is subject to centripetal force (which is made up of the Coriolis force and the centrifugal force). How can we decide that the rotating frame is a non-inertial frame? There are two approaches to this resolution: one approach is to look for the origin of the fictitious forces (the Coriolis force and the centrifugal force). We will find there are no sources for these forces, no associated force carriers, no originating bodies.[57] A second approach is to look at a variety of frames of reference. For any inertial frame, the Coriolis force and the centrifugal force disappear, so application of the principle of special relativity would identify these frames where the forces disappear as sharing the same and the simplest physical laws, and hence rule that the rotating frame is not an inertial frame.
+Newton examined this problem himself using rotating spheres, as shown in Figure 2 and Figure 3. He pointed out that if the spheres are not rotating, the tension in the tying string is measured as zero in every frame of reference.[58] If the spheres only appear to rotate (that is, we are watching stationary spheres from a rotating frame), the zero tension in the string is accounted for by observing that the centripetal force is supplied by the centrifugal and Coriolis forces in combination, so no tension is needed. If the spheres really are rotating, the tension observed is exactly the centripetal force required by the circular motion. Thus, measurement of the tension in the string identifies the inertial frame: it is the one where the tension in the string provides exactly the centripetal force demanded by the motion as it is observed in that frame, and not a different value. That is, the inertial frame is the one where the fictitious forces vanish.
+So much for fictitious forces due to rotation. However, for linear acceleration, Newton expressed the idea of undetectability of straight-line accelerations held in common:[33]
+If bodies, any how moved among themselves, are urged in the direction of parallel lines by equal accelerative forces, they will continue to move among themselves, after the same manner as if they had been urged by no such forces. This principle generalizes the notion of an inertial frame. For example, an observer confined in a free-falling lift will assert that he himself is a valid inertial frame, even if he is accelerating under gravity, so long as he has no knowledge about anything outside the lift. So, strictly speaking, inertial frame is a relative concept. With this in mind, we can define inertial frames collectively as a set of frames which are stationary or moving at constant velocity with respect to each other, so that a single inertial frame is defined as an element of this set.
+For these ideas to apply, everything observed in the frame has to be subject to a base-line, common acceleration shared by the frame itself. That situation would apply, for example, to the elevator example, where all objects are subject to the same gravitational acceleration, and the elevator itself accelerates at the same rate.
+Inertial navigation systems used a cluster of gyroscopes and accelerometers to determine accelerations relative to inertial space. After a gyroscope is spun up in a particular orientation in inertial space, the law of conservation of angular momentum requires that it retain that orientation as long as no external forces are applied to it.[59]: 59   Three orthogonal gyroscopes establish an inertial reference frame, and the accelerators measure acceleration relative to that frame. The accelerations, along with a clock, can then be used to calculate the change in position. Thus, inertial navigation is a form of dead reckoning that requires no external input, and therefore cannot be jammed by any external or internal signal source.[60]
+A gyrocompass, employed for navigation of seagoing vessels, finds the geometric north. It does so, not by sensing the Earth's magnetic field, but by using inertial space as its reference. The outer casing of the gyrocompass device is held in such a way that it remains aligned with the local plumb line. When the gyroscope wheel inside the gyrocompass device is spun up, the way the gyroscope wheel is suspended causes the gyroscope wheel to gradually align its spinning axis with the Earth's axis. Alignment with the Earth's axis is the only direction for which the gyroscope's spinning axis can be stationary with respect to the Earth and not be required to change direction with respect to inertial space. After being spun up, a gyrocompass can reach the direction of alignment with the Earth's axis in as little as a quarter of an hour.[61]
+Consider a situation common in everyday life. Two cars travel along a road, both moving at constant velocities. See Figure 1. At some particular moment, they are separated by 200 metres. The car in front is travelling at 22 metres per second and the car behind is travelling at 30 metres per second. If we want to find out how long it will take the second car to catch up with the first, there are three obvious "frames of reference" that we could choose.[62]
+First, we could observe the two cars from the side of the road. We define our "frame of reference" S as follows. We stand on the side of the road and start a stop-clock at the exact moment that the second car passes us, which happens to be when they are a distance d = 200 m apart. Since neither of the cars is accelerating, we can determine their positions by the following formulas, where 
+
+
+
+
+x
+
+1
+
+
+(
+t
+)
+
+
+{\displaystyle x_{1}(t)}
+
+ is the position in meters of car one after time t in seconds and 
+
+
+
+
+x
+
+2
+
+
+(
+t
+)
+
+
+{\displaystyle x_{2}(t)}
+
+ is the position of car two after time t.
+Notice that these formulas predict at t = 0 s the first car is 200 m down the road and the second car is right beside us, as expected. We want to find the time at which 
+
+
+
+
+x
+
+1
+
+
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle x_{1}=x_{2}}
+
+. Therefore, we set 
+
+
+
+
+x
+
+1
+
+
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle x_{1}=x_{2}}
+
+ and solve for 
+
+
+
+t
+
+
+{\displaystyle t}
+
+, that is:
+Alternatively, we could choose a frame of reference S′ situated in the first car. In this case, the first car is stationary and the second car is approaching from behind at a speed of v2 − v1 = 8 m/s. In order to catch up to the first car, it will take a time of d/v2 − v1 = 200/8 s, that is, 25 seconds, as before. Note how much easier the problem becomes by choosing a suitable frame of reference. The third possible frame of reference would be attached to the second car. That example resembles the case just discussed, except the second car is stationary and the first car moves backward towards it at 8 m/s.
+It would have been possible to choose a rotating, accelerating frame of reference, moving in a complicated manner, but this would have served to complicate the problem unnecessarily. It is also necessary to note that one is able to convert measurements made in one coordinate system to another. For example, suppose that your watch is running five minutes fast compared to the local standard time. If you know that this is the case, when somebody asks you what time it is, you are able to deduct five minutes from the time displayed on your watch in order to obtain the correct time. The measurements that an observer makes about a system depend therefore on the observer's frame of reference (you might say that the bus arrived at 5 past three, when in fact it arrived at three).
+For a simple example involving only the orientation of two observers, consider two people standing, facing each other on either side of a north-south street. See Figure 2. A car drives past them heading south. For the person facing east, the car was moving towards the right. However, for the person facing west, the car was moving toward the left. This discrepancy is because the two people used two different frames of reference from which to investigate this system.
+For a more complex example involving observers in relative motion, consider Alfred, who is standing on the side of a road watching a car drive past him from left to right. In his frame of reference, Alfred defines the spot where he is standing as the origin, the road as the x-axis and the direction in front of him as the positive y-axis. To him, the car moves along the x axis with some velocity v in the positive x-direction. Alfred's frame of reference is considered an inertial frame of reference because he is not accelerating (ignoring effects such as Earth's rotation and gravity).
+Now consider Betsy, the person driving the car. Betsy, in choosing her frame of reference, defines her location as the origin, the direction to her right as the positive x-axis, and the direction in front of her as the positive y-axis. In this frame of reference, it is Betsy who is stationary and the world around her that is moving – for instance, as she drives past Alfred, she observes him moving with velocity v in the negative y-direction. If she is driving north, then north is the positive y-direction; if she turns east, east becomes the positive y-direction.
+Finally, as an example of non-inertial observers, assume Candace is accelerating her car. As she passes by him, Alfred measures her acceleration and finds it to be a in the negative x-direction. Assuming Candace's acceleration is constant, what acceleration does Betsy measure? If Betsy's velocity v is constant, she is in an inertial frame of reference, and she will find the acceleration to be the same as Alfred in her frame of reference, a in the negative y-direction. However, if she is accelerating at rate A in the negative y-direction (in other words, slowing down), she will find Candace's acceleration to be a′ = a − A in the negative y-direction—a smaller value than Alfred has measured. Similarly, if she is accelerating at rate A in the positive y-direction (speeding up), she will observe Candace's acceleration as a′ = a + A in the negative y-direction—a larger value than Alfred's measurement.
+
+

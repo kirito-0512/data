@@ -1,0 +1,926 @@
+41091,
+Electricallength,
+In electrical engineering, electrical length  is a dimensionless parameter equal to the physical length of an electrical conductor such as a cable or wire, divided by the wavelength of alternating current at a given frequency traveling through the conductor.[1][2][3] In other words, it is the length of the conductor measured in wavelengths. It can alternately be expressed as an angle, in radians or degrees, equal to the phase shift the alternating current experiences traveling through the conductor.[1][3]
+Electrical length is defined for a conductor operating at a specific frequency or narrow band of frequencies. It is determined by the construction of the cable, so different cables of the same length operating at the same frequency can have different electrical lengths.  A conductor is called electrically long  if it has an electrical length much greater than one; that is it is much longer than the wavelength of the alternating current passing through it, and electrically short if it is much shorter than a wavelength. Electrical lengthening and electrical shortening means adding reactance (capacitance or inductance) to an antenna or conductor to increase or decrease the electrical length,[1] usually for the purpose of making it resonant at a different resonant frequency.
+This concept is used throughout  electronics, and particularly in radio frequency circuit design, transmission line and antenna theory and design. Electrical length determines when wave effects become important in a circuit. Ordinary lumped element electric circuits only work well for alternating currents at frequencies for which the circuit is electrically small (electrical length much less than one).  For frequencies high enough that the wavelength approaches the size of the circuit (the electrical length approaches one) the lumped element model on which circuit theory is based becomes inaccurate, and transmission line techniques must be used.[4]: p.12–14 
+Electrical length is defined for conductors carrying alternating current (AC) at a single frequency or narrow band of frequencies.  An alternating electric current of a single frequency 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is an oscillating sine wave which repeats with a period of 
+
+
+
+T
+=
+1
+
+/
+
+f
+
+
+{\displaystyle T=1/f}
+
+.[5]   This current flows through a given conductor such as a wire or cable at a particular phase velocity 
+
+
+
+
+v
+
+p
+
+
+
+
+{\displaystyle v_{p}}
+
+. It takes time for later portions of the wave to reach a given point on the conductor so the spacial distribution of current and voltage along the conductor at any time is a moving sine wave.  After a time equal to the period 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ a complete cycle of the wave has passed a given point and the wave repeats; during this time a point of constant phase on the wave has traveled a distance of 
+so 
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+
+ (Greek lambda) is the wavelength of the wave along the conductor, the distance between successive crests of the wave.
+The electrical length 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ of a conductor with a physical length of 
+
+
+
+l
+
+
+{\displaystyle l}
+
+ at a given frequency 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is the number of wavelengths or fractions of a wavelength of the wave along the conductor; in other words the conductor's length measured in wavelengths[6][1][2]
+
+
+
+
+
+
+Electrical length
+
+
+G
+=
+
+
+
+l
+f
+
+
+v
+
+p
+
+
+
+
+=
+
+
+l
+λ
+
+
+=
+
+
+
+Physical length
+
+
+Wavelength
+
+
+
+
+
+
+{\displaystyle \quad {\text{Electrical length}}\,G={lf \over v_{p}}={l \over \lambda }={{\text{Physical length}} \over {\text{Wavelength}}}\quad }
+
+
+The phase velocity 
+
+
+
+
+v
+
+p
+
+
+
+
+{\displaystyle v_{p}}
+
+ at which electrical signals travel along a transmission line or other cable depends on the construction of the line.  Therefore, the wavelength 
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+
+ corresponding to a given frequency varies in different types of lines, thus at a given frequency different conductors of the same physical length can have different electrical lengths.
+In radio frequency applications, when a delay is introduced due to a conductor, it is often the phase shift 
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+
+, the difference in phase of the sinusoidal wave between the two ends of the conductor, that is of importance.[5]  The length of a sinusoidal wave is commonly expressed as an angle, in units of degrees (with 360° in a wavelength) or radians (with 2π radians in a wavelength).    So alternately the electrical length can be expressed as an angle which is the phase shift of the wave between the ends of the conductor[1][3][5]
+The electrical length of a conductor determines when wave effects (phase shift along the conductor) are important.[4]: p.12–14    If the electrical length 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is much less than one, that is the physical length of a conductor is much shorter than the wavelength, say less than one tenth of the wavelength (
+
+
+
+l
+<
+λ
+
+/
+
+10
+
+
+{\displaystyle l<\lambda /10}
+
+) it is called electrically short.  In this case the voltage and current are approximately constant along the conductor, so it acts as a simple connector which transfers alternating current with negligible phase shift.  In circuit theory the connecting wires between components are usually assumed to be electrically short, so the lumped element circuit model is only valid for alternating current when the circuit is electrically small, much smaller than a wavelength.[4]: p.12–14 [5]  When the electrical length approaches or is greater than one, transmission line techniques (the distributed-element model) must be used.
+In a vacuum an electromagnetic wave (radio wave) travels at the speed of light 
+
+
+
+
+v
+
+p
+
+
+=
+c
+=
+
+
+{\displaystyle v_{p}=c=}
+
+ 2.9979×108 meters per second, and very close to this speed in air, so the free space wavelength of the wave is 
+
+
+
+
+λ
+
+0
+
+
+=
+c
+
+/
+
+f
+
+
+{\displaystyle \lambda _{\text{0}}=c/f}
+
+.[5] (in this article free space variables are distinguished by a subscript 0) Thus a physical length 
+
+
+
+l
+
+
+{\displaystyle l}
+
+ of a radio wave in space or air has an electrical length of 
+In the SI system of units, empty space has a permittivity of 
+
+
+
+
+ϵ
+
+0
+
+
+=
+
+
+{\displaystyle \epsilon _{\text{0}}=}
+
+ 8.854×10−12 F/m (farads per metre) and a magnetic permeability of 
+
+
+
+
+μ
+
+0
+
+
+=
+
+
+{\displaystyle \mu _{\text{0}}=}
+
+ 1.257×10−6 H/m (henries per meter). These universal constants determine the speed of light[5][7]
+In an electrical cable, for a cycle of the alternating current to move a given distance along the line, it takes time to charge the capacitance between the conductors, and the rate of change of the current is slowed by the series inductance of the wires.  This determines the phase velocity 
+
+
+
+
+v
+
+p
+
+
+
+
+{\displaystyle v_{p}}
+
+ at which the wave moves along the line.  In cables and transmission lines an electrical signal travels at a rate determined by the effective shunt capacitance 
+
+
+
+C
+
+
+{\displaystyle C}
+
+ and series inductance 
+
+
+
+L
+
+
+{\displaystyle L}
+
+ per unit length of the transmission line
+Some transmission lines consist only of bare metal conductors, if they are far away from other high permittivity materials their signals propagate at very close to the speed of light, 
+
+
+
+c
+
+
+{\displaystyle c}
+
+.   In most transmission lines the material construction of the line slows the velocity of the signal so it travels at a reduced phase velocity[5]
+where 
+
+
+
+κ
+
+
+{\displaystyle \kappa }
+
+ (kappa) is a dimensionless number between 0 and 1 called the velocity factor (VF), characteristic of the type of line, equal to the ratio of signal velocity in the line to the speed of light.[8][9][6]
+Most transmission lines contain a dielectric material (insulator) filling some or all of the space in between the conductors. The permittivity 
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+
+ or dielectric constant of that material increases the distributed capacitance 
+
+
+
+C
+
+
+{\displaystyle C}
+
+ in the cable, which reduces the velocity factor below unity.  If there is a material with high magnetic permeability (
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+) in the line such as steel or ferrite which increases the distributed inductance 
+
+
+
+L
+
+
+{\displaystyle L}
+
+, it can also reduce 
+
+
+
+κ
+
+
+{\displaystyle \kappa }
+
+, but this is almost never the case.  If all the space around the transmission line conductors containing the near fields was filled with a material of permittivity 
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+
+ and permeability 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+, the phase velocity on the line would be[5]
+The effective permittivity 
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+
+ and permeability 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ per unit length of the line are frequently given as dimensionless constants; relative permittivity: 
+
+
+
+
+ϵ
+
+r
+
+
+
+
+{\displaystyle \epsilon _{\text{r}}}
+
+  and relative permeability: 
+
+
+
+
+μ
+
+r
+
+
+
+
+{\displaystyle \mu _{\text{r}}}
+
+ equal to the ratio of these parameters compared to the universal constants 
+
+
+
+
+ϵ
+
+0
+
+
+
+
+{\displaystyle \epsilon _{\text{0}}}
+
+ and 
+
+
+
+
+μ
+
+0
+
+
+
+
+{\displaystyle \mu _{\text{0}}}
+
+
+so the phase velocity is
+So the velocity factor of the line is
+In many lines only a fraction of the space surrounding the line is occupied by a solid dielectric.  With only part of the electromagnetic field effected by the dielectric, there is less reduction of the wave velocity.  In this case an effective permittivity 
+
+
+
+
+ϵ
+
+eff
+
+
+
+
+{\displaystyle \epsilon _{\text{eff}}}
+
+ can be calculated which if it filled all the space around the line would give the same phase velocity.  This is computed as a weighted average of the relative permittivity of free space, unity, and that of the dielectric:
+
+
+
+
+
+ϵ
+
+eff
+
+
+=
+(
+1
+−
+F
+)
++
+F
+
+ϵ
+
+r
+
+
+
+
+{\displaystyle \epsilon _{\text{eff}}=(1-F)+F\epsilon _{\text{r}}}
+
+
+where the fill factor F expresses the effective proportion of space around the line occupied by dielectric.
+In most transmission lines there are no materials with high magnetic permeability, so 
+
+
+
+μ
+=
+
+μ
+
+0
+
+
+
+
+{\displaystyle \mu =\mu _{\text{0}}}
+
+ and 
+
+
+
+
+μ
+
+r
+
+
+=
+1
+
+
+{\displaystyle \mu _{\text{r}}=1}
+
+ and so 
+
+
+
+
+
+
+κ
+=
+
+
+1
+
+
+
+ϵ
+
+eff
+
+
+
+
+
+
+
+
+
+{\displaystyle \;\;\kappa ={1 \over {\sqrt {\epsilon _{\text{eff}}}}}\;}
+
+  (no magnetic materials)    
+Since the electromagnetic waves travel slower in the line than in free space, the wavelength of the wave in the transmission line 
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+
+ is shorter than the free space wavelength by the factor kappa: 
+
+
+
+λ
+=
+
+v
+
+p
+
+
+
+/
+
+f
+=
+κ
+c
+
+/
+
+f
+=
+κ
+
+λ
+
+0
+
+
+
+
+{\displaystyle \lambda =v_{\text{p}}/f=\kappa c/f=\kappa \lambda _{\text{0}}}
+
+.  Therefore, more wavelengths fit in a transmission line of a given length 
+
+
+
+l
+
+
+{\displaystyle l}
+
+ than in the same length of wave in free space, so the electrical length of a transmission line is longer than the electrical length of a wave of the same frequency in free space[5]
+
+
+
+
+
+G
+=
+
+
+l
+λ
+
+
+=
+
+
+l
+
+κ
+
+λ
+
+0
+
+
+
+
+
+=
+
+
+
+l
+f
+
+
+κ
+c
+
+
+
+
+
+
+{\displaystyle \;G={l \over \lambda }={l \over \kappa \lambda _{\text{0}}}={lf \over \kappa c}\;}
+
+
+Ordinary electrical cable suffices to carry alternating current when the cable is electrically short; the electrical length of the cable is small compared to one, that is when the physical length of the cable is small compared to a wavelength, say 
+
+
+
+l
+<
+λ
+
+/
+
+10
+
+
+{\displaystyle l<\lambda /10}
+
+.[11]
+As frequency gets high enough that the length of the cable becomes a significant fraction of a wavelength, 
+
+
+
+l
+>
+λ
+
+/
+
+10
+
+
+{\displaystyle l>\lambda /10}
+
+, ordinary wires and cables become poor conductors of AC.[4]: p.12–14   Impedance discontinuities at the source, load, connectors and switches begin to reflect the electromagnetic current waves back toward the source, creating bottlenecks so not all the power reaches the load.  Ordinary wires act as antennas, radiating the power into space as radio waves, and in radio receivers can also pick up radio frequency interference (RFI).
+To mitigate these problems, at these frequencies transmission line is used instead.  A transmission line is a specialized cable designed for carrying electric current of radio frequency.  The distinguishing feature of a transmission line is that it is constructed to have a constant characteristic impedance along its length and through connectors and switches, to prevent reflections.  This also means AC current travels at a constant phase velocity along its length, while in ordinary cable phase velocity may vary.  The velocity factor 
+
+
+
+κ
+
+
+{\displaystyle \kappa }
+
+ depends on the details of construction, and is different for each type of transmission line.  However the approximate velocity factor for the major types of transmission lines is given in the table.
+Electrical length is widely used with a graphical aid called the Smith chart to solve transmission line calculations.  A Smith chart has a scale around the circumference of the circular chart graduated in wavelengths and degrees, which represents the electrical length of the transmission line.
+The equation for the voltage as a function of time along a transmission line with a matched load, so there is no reflected power, is
+where
+In a matched transmission line, the current is in phase with the voltage, and their ratio is the characteristic impedance 
+
+
+
+
+Z
+
+0
+
+
+
+
+{\displaystyle Z_{\text{0}}}
+
+ of the line
+An important class of radio antenna is the thin element antenna in which the radiating elements are conductive wires or rods.  These include monopole antennas and dipole antennas, as well as antennas based on them such as the whip antenna, T antenna, mast radiator, Yagi, log periodic, and turnstile antennas.  These are resonant antennas, in which the radio frequency electric currents travel back and forth in the antenna conductors, reflecting from the ends.
+If the antenna rods are not too thick (have a large enough length to diameter ratio), the current along them is close to a sine wave, so the concept of electrical length also applies to these.[3]   The current is in the form of two oppositely directed sinusoidal traveling waves which reflect from the ends, which interfere to form standing waves.   The electrical length of an antenna, like a transmission line, is its length in wavelengths of the current on the antenna at the operating frequency.[1][12][13][4]: p.91–104   An antenna's resonant frequency, radiation pattern, and driving point impedance depend not on its physical length but on its electrical length.[14]  A thin antenna element is resonant at frequencies at which the standing current wave has a node (zero) at the ends (and in monopoles an antinode (maximum) at the ground plane).  A dipole antenna is resonant at frequencies at which it's electrical length is a half wavelength (
+
+
+
+λ
+
+/
+
+2
+,
+ϕ
+=
+
+180
+
+∘
+
+
+
+
+or
+
+
+π
+
+
+radians
+
+
+
+{\displaystyle \lambda /2,\phi =180^{\circ }\;{\text{or}}\;\pi \;{\text{radians}}}
+
+)[12] or a multiple of it.    A monopole antenna is resonant at frequencies at which its electrical length is a quarter wavelength (
+
+
+
+λ
+
+/
+
+4
+,
+ϕ
+=
+
+90
+
+∘
+
+
+
+
+or
+
+
+π
+
+/
+
+2
+
+
+radians
+
+
+
+{\displaystyle \lambda /4,\phi =90^{\circ }\;{\text{or}}\;\pi /2\;{\text{radians}}}
+
+) or a multiple of it.
+Resonant frequency is important because at frequencies at which the antenna is resonant the input impedance it presents to its feedline is purely resistive.  If the resistance of the antenna is matched to the characteristic resistance of the feedline, it absorbs all the power supplied to it, while at other frequencies it has reactance and reflects some power back down the line toward the transmitter, causing standing waves (high SWR) on the feedline.  Since only a portion of the power is radiated this causes inefficiency, and can possibly overheat the line or transmitter.  Therefore, transmitting antennas are usually designed to be resonant at the transmitting frequency; and if they cannot be made the right length they are electrically lengthened or shortened to be resonant (see below).
+A thin-element antenna can be thought of as a transmission line with the conductors separated,[15]   so the near-field electric and magnetic fields extend further into space than in a transmission line, in which the fields are mainly confined to the vicinity of the conductors.  Near the ends of the antenna elements the electric field is not perpendicular to the conductor axis as in a transmission line but spreads out in a fan shape (fringing field).[16]  As a result, the end sections of the antenna have increased capacitance, storing more charge, so the current waveform departs from a sine wave there, decreasing faster toward the ends.[17]  When approximated as a sine wave, the current does not quite go to zero at the ends; the nodes of the current standing wave, instead of being at the ends of the element, occur somewhat beyond the ends.[18]  Thus the electrical length of the antenna is longer than its physical length.
+The electrical length of an antenna element also depends on the length-to-diameter ratio of the conductor.[19][15][20][21]  As the ratio of the diameter to wavelength increases, the capacitance increases, so the node occurs farther beyond the end, and the electrical length of the element increases.[19][20]  When the elements get too thick, the current waveform becomes significantly different from a sine wave, so the entire concept of electrical length is no longer applicable, and the behavior of the antenna must be calculated by electromagnetic simulation computer programs like NEC.
+As with a transmission line, an antenna's electrical length is increased by anything that adds shunt capacitance or series inductance to it, such as the presence of high permittivity dielectric material around it.  In microstrip antennas which are fabricated as metal strips on printed circuit boards, the dielectric constant of the substrate board increases the electrical length of the antenna.  Proximity to the Earth or a ground plane, nearby grounded towers, metal structural members, guy lines and the capacitance of insulators supporting the antenna also increase the electrical length.[20]
+These factors, called "end effects", cause the electrical length of an antenna element to be somewhat longer than the length of the same wave in free space.  In other words, the physical length of the antenna at resonance will be somewhat shorter than the resonant length in free space (one-half wavelength for a dipole, one-quarter wavelength for a monopole).[19][20]  As a rough generalization, for a typical dipole antenna, the physical resonant length is about 5% shorter than the free space resonant length.[19][20]
+In many circumstances for practical reasons it is inconvenient or impossible to use an antenna of resonant length.  An antenna of nonresonant length at the operating frequency can be made resonant by adding a reactance, a capacitance or inductance, either in the antenna itself or in a matching network between the antenna and its feedline.[20]  A nonresonant antenna appears at its feedpoint electrically equivalent to a resistance in series with a reactance.  Adding an equal but opposite type of reactance in series with the feedline will cancel the antenna's reactance; the combination of the antenna and reactance will act as a series resonant circuit, so at its operating frequency its input impedance will be purely resistive, allowing it to be fed power efficiently at a low SWR without reflections.
+In a common application, a monopole antenna with an electrical length shorter than a quarter-wavelength (
+
+
+
+λ
+
+/
+
+4
+
+
+{\displaystyle \lambda /4}
+
+), or a dipole antenna shorter than a half-wavelength (
+
+
+
+λ
+
+/
+
+2
+
+
+{\displaystyle \lambda /2}
+
+) will have capacitive reactance.  Adding an inductor (coil of wire), called a loading coil, at the feedpoint in series with the antenna, with inductive reactance equal to the antenna's capacitive reactance at the operating frequency, will cancel the capacitance of the antenna, so the combination of the antenna and coil will be resonant at the operating frequency.  An antenna shorter than resonant length is called electrically short, and since adding inductance is equivalent to increasing the electrical length, this technique is called electrically lengthening the antenna.  This is the usual technique for matching an electrically short transmitting antenna to its feedline, so it can be fed power efficiently.  However, an electrically short antenna that has been lengthened in this way still has the same radiation pattern; it does not radiate as much power, and therefore has lower gain than a full-sized antenna.
+Conversely, an antenna longer than resonant length at its operating frequency, such as a monopole longer than a quarter wavelength but shorter than a half wavelength, will have inductive reactance. This can be cancelled by adding a capacitor of equal but opposite reactance at the feed point to make the antenna resonant.  This is called electrically shortening the antenna.
+Two antennas that are similar (scaled copies of each other), fed with different frequencies, will have the same radiation resistance and radiation pattern and fed with equal power will radiate the same power density in any direction if they have the same electrical length at the operating frequency; that is, if their lengths are in the same proportion as the wavelengths.[22][4]: p.12–14 
+This means the length of antenna required for a given antenna gain scales with the wavelength (inversely with the frequency), or equivalently the aperture scales with the square of the wavelength.
+An electrically short conductor, much shorter than one wavelength, makes an inefficient radiator of electromagnetic waves.  As the length of an antenna is made shorter than its fundamental resonant length (a half-wavelength for a dipole antenna and a quarter-wavelength for a monopole), the radiation resistance the antenna presents to the feedline decreases with the square of the electrical length, that is the ratio of physical length to wavelength, 
+
+
+
+(
+l
+
+/
+
+λ
+
+)
+
+2
+
+
+
+
+{\displaystyle (l/\lambda )^{2}}
+
+.    As a result, other resistances in the antenna, the ohmic resistance of metal antenna elements, the ground system if present, and the loading coil, dissipate an increasing fraction of transmitter power as heat.  A monopole antenna with an electrical length below  .05
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+
+ or 18° has a radiation resistance of less than one ohm, making it very hard to drive.
+A second disadvantage is that since the capacitive reactance of the antenna and inductive reactance of the required loading coil do not decrease,  the Q factor of the antenna increases; it acts electrically like a high Q tuned circuit.  As a result, the bandwidth of the antenna decreases with the square of electrical length, reducing the data rate that can be transmitted.  At VLF frequencies even the huge toploaded wire antennas that must be used have  bandwidths of only ~10 hertz, limiting the data rate that can be transmitted.
+The field of electromagnetics is the study of electric fields, magnetic fields, electric charge, electric currents and electromagnetic waves.  Classic electromagnetism is  based on the solution of Maxwell's equations.  These equations are mathematically difficult to solve in all generality, so approximate methods have been developed that apply to situations in which the electrical length of the apparatus is very short (
+
+
+
+G
+≪
+1
+
+
+{\displaystyle G\ll 1}
+
+) or very long (
+
+
+
+G
+≫
+1
+
+
+{\displaystyle G\gg 1}
+
+).  Electromagnetics is divided into three regimes or fields of study depending on the electrical length of the apparatus, that is the physical length 
+
+
+
+l
+
+
+{\displaystyle l}
+
+ of the apparatus compared to the wavelength 
+
+
+
+λ
+=
+c
+
+/
+
+f
+
+
+{\displaystyle \lambda =c/f}
+
+ of the waves:[4]: p.21 [23][24][25]  Completely different apparatus is used to conduct and process electromagnetic waves in these different wavelength ranges
+Historically, electric circuit theory and optics developed as separate branches of physics until at the end of the 19th century James Clerk Maxwell's electromagnetic theory and Heinrich Hertz's discovery that light was electromagnetic waves unified these fields as branches of electromagnetism.
+
+

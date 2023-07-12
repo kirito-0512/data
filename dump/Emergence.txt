@@ -1,0 +1,90 @@
+37436,
+Emergence,
+Collective intelligence
+Collective action
+Self-organized criticality
+Herd mentality
+Phase transition
+Agent-based modelling
+Synchronization
+Ant colony optimization
+Particle swarm optimization
+Swarm behaviour
+Social network analysis
+Small-world networks
+Centrality
+Motifs
+Graph theory
+Scaling
+Robustness
+Systems biology
+Dynamic networks
+Evolutionary computation
+Genetic algorithms
+Genetic programming
+Artificial life
+Machine learning
+Evolutionary developmental biology
+Artificial intelligence
+Evolutionary robotics
+Reaction–diffusion systems
+Partial differential equations
+Dissipative structures
+Percolation
+Cellular automata
+Spatial ecology
+Self-replication
+Information theory
+Entropy
+Feedback 
+Goal-oriented
+Homeostasis 
+Operationalization
+Second-order cybernetics
+Self-reference
+System dynamics
+Systems science
+Systems thinking
+Sensemaking
+Variety
+Ordinary differential equations
+Phase space
+Attractors
+Population dynamics
+Chaos
+Multistability
+Bifurcation
+Rational choice theory
+Bounded rationality
+In philosophy, systems theory, science, and art, emergence occurs when a complex entity has properties or behaviors that its parts do not have on their own, and emerge only when they interact in a wider whole.
+Emergence plays a central role in theories of integrative levels and of complex systems. For instance, the phenomenon of life as studied in biology is an emergent property of chemistry.
+In philosophy, theories that emphasize emergent properties have been called emergentism.[1]
+Philosophers often understand emergence as a claim about the etiology of a system's properties. An emergent property of a system, in this context, is one that is not a property of any component of that system, but is still a feature of the system as a whole. Nicolai Hartmann (1882–1950), one of the first modern philosophers to write on emergence, termed this a categorial novum (new category).
+This concept of emergence dates from at least the time of Aristotle.[2] The many scientists and philosophers[3] who have written on the concept include John Stuart Mill (Composition of Causes, 1843)[4] and Julian Huxley[5] (1887–1975).
+The philosopher G. H. Lewes coined the term "emergent" in 1875, distinguishing it from the merely "resultant":
+Every resultant is either a sum or a difference of the co-operant forces; their sum, when their directions are the same – their difference, when their directions are contrary. Further, every resultant is clearly traceable in its components, because these are homogeneous and commensurable. It is otherwise with emergents, when, instead of adding measurable motion to measurable motion, or things of one kind to other individuals of their kind, there is a co-operation of things of unlike kinds. The emergent is unlike its components insofar as these are incommensurable, and it cannot be reduced to their sum or their difference.[6][7]
+Usage of the notion "emergence" may generally be subdivided into two perspectives, that of "weak emergence" and "strong emergence". One paper discussing this division is Weak Emergence, by philosopher Mark Bedau. In terms of physical systems, weak emergence is a type of emergence in which the emergent property is amenable to computer simulation or similar forms of after-the-fact analysis (for example, the formation of a traffic jam, the structure of a flock of starlings in flight or a school of fish, or the formation of galaxies). Crucial in these simulations is that the interacting members retain their independence. If not, a new entity is formed with new, emergent properties: this is called strong emergence, which it is argued cannot be simulated, analysed or reduced.
+Some common points between the two notions are that emergence concerns new properties produced as the system grows, which is to say ones which are not shared with its components or prior states. Also, it is assumed that the properties are supervenient rather than metaphysically primitive.[8]
+Weak emergence describes new properties arising in systems as a result of the interactions at a fundamental level. However, Bedau stipulates that the properties can be determined only by observing or simulating the system, and not by any process of a reductionist analysis. As a consequence the emerging properties are scale dependent: they are only observable if the system is large enough to exhibit the phenomenon. Chaotic, unpredictable behaviour can be seen as an emergent phenomenon, while at a microscopic scale the behaviour of the constituent parts can be fully deterministic.
+Bedau notes that weak emergence is not a universal metaphysical solvent, as the hypothesis that consciousness is weakly emergent would not resolve the traditional philosophical questions about the physicality of consciousness. However, Bedau concludes that adopting this view would provide a precise notion that emergence is involved in consciousness, and second, the notion of weak emergence is metaphysically benign.[8]
+Strong emergence describes the direct causal action of a high-level system upon its components; qualities produced this way are irreducible to the system's constituent parts.[9] The whole is other than the sum of its parts. It is argued then that no simulation of the system can exist, for such a simulation would itself constitute a reduction of the system to its constituent parts.[8] Physics lacks well-established examples of strong emergence, unless it is interpreted as the impossibility in practice to explain the whole in terms of the parts. Practical impossibility may be a more useful distinction than one in principle, since it is easier to determine and quantify, and does not imply the use of mysterious forces, but simply reflects the limits of our capability.[10]
+Some thinkers question the plausibility of strong emergence as contravening our usual understanding of physics. Mark A. Bedau observes:
+Although strong emergence is logically possible, it is uncomfortably like magic. How does an irreducible but supervenient downward causal power arise, since by definition it cannot be due to the aggregation of the micro-level potentialities? Such causal powers would be quite unlike anything within our scientific ken. This not only indicates how they will discomfort reasonable forms of materialism. Their mysteriousness will only heighten the traditional worry that emergence entails illegitimately getting something from nothing.[11]Strong emergence can be criticized for leading to causal overdetermination. The canonical example concerns emergent mental states (M and M∗) that supervene on physical states (P and P∗) respectively. Let M and M∗ be emergent properties. Let M∗ supervene on base property P∗. What happens when M causes M∗? Jaegwon Kim says:
+In our schematic example above, we concluded that M causes M∗ by causing P∗. So M causes P∗. Now, M, as an emergent, must itself have an emergence base property, say P. Now we face a critical question: if an emergent, M, emerges from basal condition P, why cannot P displace M as a cause of any putative effect of M? Why cannot P do all the work in explaining why any alleged effect of M occurred? If causation is understood as nomological (law-based) sufficiency, P, as M's emergence base, is nomologically sufficient for it, and M, as P∗'s cause, is nomologically sufficient for P∗. It follows that P is nomologically sufficient for P∗ and hence qualifies as its cause…If M is somehow retained as a cause, we are faced with the highly implausible consequence that every case of downward causation involves overdetermination (since P remains a cause of P∗ as well). Moreover, this goes against the spirit of emergentism in any case: emergents are supposed to make distinctive and novel causal contributions.[12]If M is the cause of M∗, then M∗ is overdetermined because M∗ can also be thought of as being determined by P. One escape-route that a strong emergentist could take would be to deny downward causation. However, this would remove the proposed reason that emergent mental states must supervene on physical states, which in turn would call physicalism into question, and thus be unpalatable for some philosophers and physicists.
+Crutchfield regards the properties of complexity and organization of any system as subjective qualities determined by the observer.
+Defining structure and detecting the emergence of complexity in nature are inherently subjective, though essential, scientific activities. Despite the difficulties, these problems can be analysed in terms of how model-building observers infer from measurements the computational capabilities embedded in non-linear processes. An observer’s notion of what is ordered, what is random, and what is complex in its environment depends directly on its computational resources: the amount of raw measurement data, of memory, and of time available for estimation and inference. The discovery of structure in an environment depends more critically and subtly, though, on how those resources are organized. The descriptive power of the observer’s chosen (or implicit) computational model class, for example, can be an overwhelming determinant in finding regularity in data.[13]
+The low entropy of an ordered system can be viewed as an example of subjective emergence: the observer sees an ordered system by ignoring the underlying microstructure (i.e. movement of molecules or elementary particles) and concludes that the system has a low entropy.[14]
+On the other hand, chaotic, unpredictable behaviour can also be seen as subjective emergent, while at a microscopic scale the movement of the constituent parts can be fully deterministic.
+In physics, emergence is used to describe a property, law, or phenomenon which occurs at macroscopic scales (in space or time) but not at microscopic scales, despite the fact that a macroscopic system can be viewed as a very large ensemble of microscopic systems.[15][16]
+An emergent behavior of a physical system is a qualitative property that can only occur in the limit that the number of microscopic constituents tends to infinity.[17]
+According to Laughlin,[9] for many particle systems, nothing can be calculated exactly from the microscopic equations, and macroscopic systems are characterised by broken symmetry: the symmetry present in the microscopic equations is not present in the macroscopic system, due to phase transitions. As a result, these macroscopic systems are described in their own terminology, and have properties that do not depend on many microscopic details.
+Novelist Arthur Koestler used the metaphor of Janus (a symbol of the unity underlying complements like open/shut, peace/war) to illustrate how the two perspectives (strong vs. weak or holistic vs. reductionistic) should be treated as non-exclusive, and should work together to address the issues of emergence.[18] Theoretical physicist PW Anderson states it this way:
+The ability to reduce everything to simple fundamental laws does not imply the ability to start from those laws and reconstruct the universe. The constructionist hypothesis breaks down when confronted with the twin difficulties of scale and complexity. At each level of complexity entirely new properties appear. Psychology is not applied biology, nor is biology applied chemistry. We can now see that the whole becomes not merely more, but very different from the sum of its parts.[19]Meanwhile, others have worked towards developing analytical evidence of strong emergence. Renormalization methods in theoretical physics enable physicists to study critical phenomena that are not tractable as the combination of their parts.[20] In 2009, Gu et al. presented a class of infinite physical systems that exhibits non-computable macroscopic properties.[21][22] More precisely, if one could compute certain macroscopic properties of these systems from the microscopic description of these systems, then one would be able to solve computational problems known to be undecidable in computer science. These results concern infinite systems, finite systems being considered computable. However, macroscopic concepts which only apply in the limit of infinite systems, such as phase transitions and the renormalization group, are important for understanding and modeling real, finite physical systems. Gu et al. concluded that
+Although macroscopic concepts are essential for understanding our world, much of fundamental physics has been devoted to the search for a 'theory of everything', a set of equations that perfectly describe the behavior of all fundamental particles. The view that this is the goal of science rests in part on the rationale that such a theory would allow us to derive the behavior of all macroscopic concepts, at least in principle. The evidence we have presented suggests that this view may be overly optimistic. A 'theory of everything' is one of many components necessary for complete understanding of the universe, but is not necessarily the only one. The development of macroscopic laws from first principles may involve more than just systematic logic, and could require conjectures suggested by experiments, simulations or insight.[21]Human beings are the basic elements of social systems, which perpetually interact and create, maintain, or untangle mutual social bonds. Social bonds in social systems are perpetually changing in the sense of the ongoing reconfiguration of their structure.[23] An early argument (1904–05) for the emergence of social formations can be found in Max Weber's most famous work, The Protestant Ethic and the Spirit of Capitalism.[24] Recently, the emergence of a new social system is linked with the emergence of order from nonlinear relationships among multiple interacting units, where multiple interacting units are individual thoughts, consciousness, and actions.[25]
+In linguistics, the concept of emergence has been applied in the domain of stylometry to explain the interrelation between the syntactical structures of the text and the author style (Slautina, Marusenko, 2014).[26] It has also been argued that the structure and regularity of language grammar, or at least language change, is an emergent phenomenon.[27] While each speaker merely tries to reach their own communicative goals, they use language in a particular way. If enough speakers behave in that way, language is changed.[28] In a wider sense, the norms of a language, i.e. the linguistic conventions of its speech society, can be seen as a system emerging from long-time participation in communicative problem-solving in various social circumstances.[29]
+Economic trends and patterns which emerge are studied intensively by technical analysts.[30]Within the field of group facilitation and organization development, there have been a number of new group processes that are designed to maximize emergence and self-organization, by offering a minimal set of effective initial conditions. Examples of these processes include SEED-SCALE, appreciative inquiry, Future Search, the world cafe or knowledge cafe, Open Space Technology, and others (Holman, 2010[31]). In international development, concepts of emergence have been used within a theory of social change termed SEED-SCALE to show how standard principles interact to bring forward socio-economic development fitted to cultural values, community economics, and natural environment (local solutions emerging from the larger socio-econo-biosphere). These principles can be implemented utilizing a sequence of standardized tasks that self-assemble in individually specific ways utilizing recursive evaluative criteria.[32]
+The bulk conductive response of binary (RC) electrical networks with random arrangements, known as the Universal Dielectric Response (UDR), can be seen as emergent properties of such physical systems. Such arrangements can be used as simple physical prototypes for deriving mathematical formulae for the emergent responses of complex systems.[33] Internet traffic can also exhibit some seemingly emergent properties. In the congestion control mechanism, TCP flows can become globally synchronized at bottlenecks, simultaneously increasing and then decreasing throughput in coordination. Congestion, widely regarded as a nuisance, is possibly an emergent property of the spreading of bottlenecks across a network in high traffic flows which can be considered as a phase transition.[34] Some artificially intelligent (AI) computer applications simulate emergent behavior.[35] One example is Boids, which mimics the swarming behavior of birds.[36]
+In religion, emergence grounds expressions of religious naturalism and syntheism in which a sense of the sacred is perceived in the workings of entirely naturalistic processes by which more complex forms arise or evolve from simpler forms. Examples are detailed in The Sacred Emergence of Nature by Ursula Goodenough & Terrence Deacon and Beyond Reductionism: Reinventing the Sacred by Stuart Kauffman, both from 2006, as well as Syntheism – Creating God in The Internet Age by Alexander Bard & Jan Söderqvist from 2014 and Emergentism: A Religion of Complexity for the Metamodern World by Brendan Graham Dempsey (2022). 
+Michael J. Pearce has used emergence to describe the experience of works of art in relation to contemporary neuroscience.[37] Practicing artist Leonel Moura, in turn, attributes to his "artbots" a real, if nonetheless rudimentary, creativity based on emergent principles.[38]
+
+

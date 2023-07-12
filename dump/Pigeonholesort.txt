@@ -1,0 +1,9 @@
+24681,
+Pigeonholesort,
+Pigeonhole sorting is a sorting algorithm that is suitable for sorting lists of elements where the number n of elements and the length N of the range of possible key values are approximately the same.[1] It requires O(n + N) time.  It is similar to counting sort, but differs in that it "moves items twice: once to the bucket array and again to the final destination [whereas] counting sort builds an auxiliary array then uses the array to compute each item's final destination and move the item there."[2]
+The pigeonhole algorithm works as follows:
+
+
+
+Information box
+{'Class': 'Sorting algorithm', 'Data structure': 'Array', 'Worst-case performance': ', where N is the range of key values and n is the input size', 'Worst-case space complexity': ''}

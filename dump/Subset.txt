@@ -1,0 +1,729 @@
+23568,
+Subset,
+In mathematics, set A is a subset of a set B if all elements of A are also elements of B; B is then a superset of A. It is possible for A and B to be equal; if they are unequal, then A is a proper subset of B. The relationship of one set being a subset of another is called inclusion (or sometimes containment). A is a subset of B may also be expressed as B includes (or contains) A or A is included (or contained) in B. A k-subset is a subset with k elements.
+The subset relation defines a partial order on sets. In fact, the subsets of a given set form a Boolean algebra under the subset relation, in which the join and meet are given by intersection and union, and the subset relation itself is the Boolean inclusion relation.
+If A and B are sets and every element of A is also an element of B, then:
+
+If A is a subset of B, but A is not equal to B (i.e. there exists at least one element of B which is not an element of A), then: 
+The empty set, written 
+
+
+
+{
+}
+
+
+{\displaystyle \{\}}
+
+ or 
+
+
+
+∅
+,
+
+
+{\displaystyle \varnothing ,}
+
+ is a subset of any set X and a proper subset of any set except itself, the inclusion relation 
+
+
+
+⊆
+
+
+{\displaystyle \subseteq }
+
+ is a partial order on the set 
+
+
+
+
+
+P
+
+
+(
+S
+)
+
+
+{\displaystyle {\mathcal {P}}(S)}
+
+ (the power set of S—the set of all subsets of S[1]) defined by 
+
+
+
+A
+≤
+B
+
+⟺
+
+A
+⊆
+B
+
+
+{\displaystyle A\leq B\iff A\subseteq B}
+
+. We may also partially order 
+
+
+
+
+
+P
+
+
+(
+S
+)
+
+
+{\displaystyle {\mathcal {P}}(S)}
+
+ by reverse set inclusion by defining 
+
+
+
+A
+≤
+B
+
+ if and only if 
+
+B
+⊆
+A
+.
+
+
+{\displaystyle A\leq B{\text{ if and only if }}B\subseteq A.}
+
+
+When quantified, 
+
+
+
+A
+⊆
+B
+
+
+{\displaystyle A\subseteq B}
+
+ is represented as 
+
+
+
+∀
+x
+
+(
+
+x
+∈
+A
+
+⟹
+
+x
+∈
+B
+
+)
+
+.
+
+
+{\displaystyle \forall x\left(x\in A\implies x\in B\right).}
+
+[2]
+
+We can prove the statement 
+
+
+
+A
+⊆
+B
+
+
+{\displaystyle A\subseteq B}
+
+ by applying a proof technique known as the element argument[3]:Let sets A and B be given. To prove that 
+
+
+
+A
+⊆
+B
+,
+
+
+{\displaystyle A\subseteq B,}
+
+
+The validity of this technique can be seen as a consequence of Universal generalization: the technique shows 
+
+
+
+c
+∈
+A
+
+⟹
+
+c
+∈
+B
+
+
+{\displaystyle c\in A\implies c\in B}
+
+ for an arbitrarily chosen element c. Universal generalisation then implies 
+
+
+
+∀
+x
+
+(
+
+x
+∈
+A
+
+⟹
+
+x
+∈
+B
+
+)
+
+,
+
+
+{\displaystyle \forall x\left(x\in A\implies x\in B\right),}
+
+ which is equivalent to 
+
+
+
+A
+⊆
+B
+,
+
+
+{\displaystyle A\subseteq B,}
+
+ as stated above.
+The set of all subsets of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is called its powerset, and is denoted by 
+
+
+
+
+
+P
+
+
+(
+A
+)
+
+
+{\displaystyle {\mathcal {P}}(A)}
+
+. The set of all 
+
+
+
+k
+
+
+{\displaystyle k}
+
+-subsets of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is denoted by 
+
+
+
+
+
+
+
+(
+
+
+A
+k
+
+
+)
+
+
+
+
+
+
+{\displaystyle {\tbinom {A}{k}}}
+
+, in analogue with the notation for binomial coefficients, which count the number of 
+
+
+
+k
+
+
+{\displaystyle k}
+
+-subsets of an 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-element set. In set theory, the notation 
+
+
+
+[
+A
+
+]
+
+k
+
+
+
+
+{\displaystyle [A]^{k}}
+
+ is also common, especially when 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ is a transfinite cardinal number.
+Some authors use the symbols 
+
+
+
+⊂
+
+
+{\displaystyle \subset }
+
+ and 
+
+
+
+⊃
+
+
+{\displaystyle \supset }
+
+ to indicate subset and superset respectively; that is, with the same meaning as and instead of the symbols 
+
+
+
+⊆
+
+
+{\displaystyle \subseteq }
+
+ and 
+
+
+
+⊇
+.
+
+
+{\displaystyle \supseteq .}
+
+[4] For example, for these authors, it is true of every set A that 
+
+
+
+A
+⊂
+A
+.
+
+
+{\displaystyle A\subset A.}
+
+
+Other authors prefer to use the symbols 
+
+
+
+⊂
+
+
+{\displaystyle \subset }
+
+ and 
+
+
+
+⊃
+
+
+{\displaystyle \supset }
+
+ to indicate proper (also called strict) subset and proper superset respectively; that is, with the same meaning as and instead of the symbols 
+
+
+
+⊊
+
+
+{\displaystyle \subsetneq }
+
+ and 
+
+
+
+⊋
+.
+
+
+{\displaystyle \supsetneq .}
+
+[5] This usage makes 
+
+
+
+⊆
+
+
+{\displaystyle \subseteq }
+
+ and 
+
+
+
+⊂
+
+
+{\displaystyle \subset }
+
+ analogous to the inequality symbols 
+
+
+
+≤
+
+
+{\displaystyle \leq }
+
+ and 
+
+
+
+<
+.
+
+
+{\displaystyle <.}
+
+ For example, if 
+
+
+
+x
+≤
+y
+,
+
+
+{\displaystyle x\leq y,}
+
+ then x may or may not equal y, but if 
+
+
+
+x
+<
+y
+,
+
+
+{\displaystyle x<y,}
+
+ then x definitely does not equal y, and is less than y. Similarly, using the convention that 
+
+
+
+⊂
+
+
+{\displaystyle \subset }
+
+ is proper subset, if 
+
+
+
+A
+⊆
+B
+,
+
+
+{\displaystyle A\subseteq B,}
+
+ then A may or may not equal B, but if 
+
+
+
+A
+⊂
+B
+,
+
+
+{\displaystyle A\subset B,}
+
+ then A definitely does not equal B.
+Another example in an Euler diagram:
+A is a proper subset of B.
+C is a subset but not a proper subset of B.
+Inclusion is the canonical partial order, in the sense that every partially ordered set 
+
+
+
+(
+X
+,
+⪯
+)
+
+
+{\displaystyle (X,\preceq )}
+
+ is isomorphic to some collection of sets ordered by inclusion. The ordinal numbers are a simple example: if each ordinal n is identified with the set 
+
+
+
+[
+n
+]
+
+
+{\displaystyle [n]}
+
+ of all ordinals less than or equal to n, then 
+
+
+
+a
+≤
+b
+
+
+{\displaystyle a\leq b}
+
+ if and only if 
+
+
+
+[
+a
+]
+⊆
+[
+b
+]
+.
+
+
+{\displaystyle [a]\subseteq [b].}
+
+
+For the power set 
+
+
+
+
+
+P
+
+
+⁡
+(
+S
+)
+
+
+{\displaystyle \operatorname {\mathcal {P}} (S)}
+
+ of a set S, the inclusion partial order is—up to an order isomorphism—the Cartesian product of 
+
+
+
+k
+=
+
+|
+
+S
+
+|
+
+
+
+{\displaystyle k=|S|}
+
+ (the cardinality of S) copies of the partial order on 
+
+
+
+{
+0
+,
+1
+}
+
+
+{\displaystyle \{0,1\}}
+
+ for which 
+
+
+
+0
+<
+1.
+
+
+{\displaystyle 0<1.}
+
+ This can be illustrated by enumerating 
+
+
+
+S
+=
+
+{
+
+
+s
+
+1
+
+
+,
+
+s
+
+2
+
+
+,
+…
+,
+
+s
+
+k
+
+
+
+}
+
+,
+
+
+{\displaystyle S=\left\{s_{1},s_{2},\ldots ,s_{k}\right\},}
+
+, and associating with each subset 
+
+
+
+T
+⊆
+S
+
+
+{\displaystyle T\subseteq S}
+
+ (i.e., each element of 
+
+
+
+
+2
+
+S
+
+
+
+
+{\displaystyle 2^{S}}
+
+) the k-tuple from 
+
+
+
+{
+0
+,
+1
+
+}
+
+k
+
+
+,
+
+
+{\displaystyle \{0,1\}^{k},}
+
+ of which the ith coordinate is 1 if and only if 
+
+
+
+
+s
+
+i
+
+
+
+
+{\displaystyle s_{i}}
+
+ is a member of T.
+
+

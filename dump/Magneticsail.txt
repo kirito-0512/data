@@ -1,0 +1,8006 @@
+37847,
+Magneticsail,
+A magnetic sail is a proposed method of spacecraft propulsion that uses a static magnetic field to deflect a plasma wind of charged particles radiated by the Sun or a Star thereby transferring momentum to accelerate or decelerate a spacecraft.   Most approaches require little to no propellant and thus are a form of Field propulsion. A magnetic sail could also thrust against a planetary ionosphere or magnetosphere. Important use cases are: a modest force from the solar wind sustainable for a long period of time; deceleration in the interstellar medium and the plasma wind of a destination Star following interstellar travel at relativistic speeds achieved by some other means; and efficient deceleration in a planetary ionosphere.  Plasma characteristics for the Solar wind, a planetary ionosphere and the interstellar medium and the specifics of the magnetic sail design determine achievable performance; such as, thrust, required power and mass.
+In January 1988, Louis Friedman published ''Star Sailing: Solar Sails and Interstellar Flight'', where he presented the concept of solar sailing and also talked about the possibility of using solar wind to propel a spacecraft.[1] A few months later, in October 1988, Dana Andrews and Robert Zubrin further developed the concept of magnetic sailing.[2][3] More magsail analysis were done for interplanetary in 1989,[4] planetary orbital propulsion in 1991[5] and a detailed design in 2000.[6] Freeland did further analysis in 2015 for Project Icarus that used a more accurate model of the magnetic field and showed that the Andrews and Zubrin results for drag (thrust) were optimistic by a factor of 3.1[7] In 2016 Gros published results[8] for magsail use for deceleration in the Interstellar medium. In 2017, Crowl documented an analysis[9] for a mission starting near the Sun and destined for Planet nine. Another mission profile for the magsail is heliocentric transfers, as described in 2013 by Quarta,[10] in 2019 by Bassetto,[11] and in 2020 by Perakis.[12]
+A drawback of the magsail design was that a large (50–100 km radius) superconducting loop weighing on the order of 100 tonnes (100,000 kg) was required. In 2000, Winglee proposed a Mini-Magnetospheric Plasma Propulsion (M2P2) design that injected low energy plasma into a much smaller coil with much lower mass that required low power.[13] Simulations predicted impressive performance relative to mass and required power, a major factor being a claimed 
+
+
+1
+
+/
+
+r
+
+1/r
+
+ magnetic field falloff rate as compared with the classical 
+
+
+
+1
+
+/
+
+
+r
+
+3
+
+
+
+
+{\textstyle 1/r^{3}}
+
+ falloff rate of a magnetic dipole in a vacuum. A number of critiques raised issues: that the assumed magnetic field falloff rate was optimistic and that thrust was overestimated as well,[14]  an analysis indicating that predicted thrust was over ten orders of magnitude optimistic since the majority of the solar wind momentum was delivered to the magnetotail and current leakages through the magnetopause and not to the spacecraft,[15] and that conservation of magnetic flux in the region outside the magnetosphere was not considered.[16]
+Starting in 2003 Funaki and others published a series of theoretical, simulation and experimental investigations at JAXA in collaboration with Japanese universities addressing some of the issues from criticisms of M2P2 and named their approach the MagnetoPlasma Sail (MPS).[17] In 2011 Funaki and Yamakawa authored a chapter in a book that is a good reference for magnetic sail theory and concepts.[18] MPS research resulted in many published papers that advanced the understanding of physical principles for magnetic sails. Results published in 2013 by Funaki and others found that best performance occurred when the injected plasma had a lower density and velocity than considered in M2P2 where ion drift created an equatorial ring current that augmented the magnetic moment of the coil, which simulations indicated achieved a thrust gain on the order of 10 for smaller magnetospheres as compared with an MHD modeled magnetic sail.[19][20] Investigations continued reporting increased thrust experimentally and numerically considering use of an Magnetoplasmadynamic thruster (aka MPD Arc jet in Japan),[21]  multiple antenna coils,[22] and a multi-pole MPD thruster.[23]
+John Slough of the University of Washington documented in 2004[24] and 2006[25] results of NASA Institute of Advanced Concepts (NIAC) funded research, development and experimentation for a more efficient method to generate the static magnetic dipole for a magnetic sail using a design called the Plasma magnet (PM). The design used a pair of small perpendicularly oriented coils powered by an alternating current to generate a Rotating magnetic field (RMF) operating a frequency too fast for positively charged ions to react, but slow enough to force electrons into co-rotation with the RMF without creating excessive collisions. This system created a large current disc composed of electrons captured from the plasma wind within a static disk of captured positive ions. The reports predicted substantial improvements in terms of reduced coil size (and hence mass) and markedly lower power requirements for significant thrust. An important factor in these predictions was a hypothesized 1/r magnetic field falloff rate as assumed for M2P2. In 2022 a spaceflight trial dubbed Jupiter Observing Velocity Experiment (JOVE) proposed using a Plasma magnet based sail for a spacecraft named Wind Rider using the solar wind to accelerate away from a point near Earth and decelerate against the magnetosphere of Jupiter.[26]
+A 2012 study by Kirtley and Slough investigated using the plasma magnet technology to use the plasma in the ionosphere of a planetary as a braking mechanism and was called the Plasma Magnetoshell.[27] This paper restated the magnetic field falloff rate for a plasma magnet as 1/r2.  Kelly and Little in 2019[28] and 2021[29] published simulation results showing that the magnetoshell was more efficient than Aerocapture braking for orbital insertion around Neptune.
+In 2021 Zhenyu Yang and others published an analysis, numerical calculations and experimental verification for a propulsion system that was a combination of the magnetic sail and the Electric sail called an electromagnetic sail.[30] A superconducting magsail coil augmented by an electron gun at the coil's center generates an electric field as in an electric sail that deflects positive ions in the plasma wind thereby providing additional thrust, which could reduce overall system mass.
+Magnetic sail modes of operation cover the mission profile and environment usually involving plasma such as the solar wind, a planetary ionosphere or the interstellar medium. A plasma environment has fundamental parameters of the number of ions of type 
+
+i
+i
+
+ (with atomic number 
+
+
+Z
+
+i
+
+
+Z_{i}
+
+) in a unit volume 
+
+
+n
+
+i
+
+
+n_{i}
+
+, the average mass of each ion type accounting for isotopes 
+
+
+m
+
+i
+
+
+m_{i}
+
+ (kg), and the number of electrons per unit volume 
+
+
+n
+
+e
+
+
+n_{e}
+
+ each with electron mass 
+
+
+m
+
+e
+
+
+m_{e}
+
+ (kg). A plasma is quasi-neutral meaning that on average there is no electrical charge, that is 
+
+
+
+
+n
+
+e
+
+
+=
+
+
+∑
+
+i
+
+
+
+Z
+
+i
+
+
+
+n
+
+i
+
+
+
+
+
+{\displaystyle n_{e}=\textstyle \sum _{i}Z_{i}n_{i}}
+
+.[31] An average mass density per unit volume of a plasma environment 
+
+
+
+p
+e
+
+
+{\displaystyle pe}
+
+ (
+
+
+s
+w
+
+sw
+
+ for stellar wind, 
+
+
+p
+i
+
+pi
+
+ for planetary ionosphere, 
+
+
+
+i
+m
+
+
+{\displaystyle im}
+
+ for interstellar medium) is  
+
+
+
+
+
+ρ
+
+p
+e
+
+
+=
+
+n
+
+e
+
+
+
+m
+
+e
+
+
++
+
+∑
+
+i
+
+
+
+n
+
+i
+
+
+
+m
+
+i
+
+
+
+
+
+{\displaystyle \textstyle \rho _{pe}=n_{e}m_{e}+\sum _{i}n_{i}m_{i}}
+
+ (kg/m3). The velocity distribution of ions and electrons is another important parameter but often analyses use only the average velocity for a plasma wind 
+
+
+
+
+v
+
+p
+e
+
+
+
+
+{\displaystyle v_{pe}}
+
+ (m/s).
+A commonly encountered magnetic sail use case is creating drag against a plasma wind from a nearby star that accelerates a spacecraft away from the star. Many designs, analyses, simulations and experiments focus on this use case.[32] The solar wind is a time varying stream of plasma that flows outwards from the Sun. Near the Earth's orbit at 1 Astronomical Unit (AU) the plasma flows at velocity 
+
+
+
+
+v
+
+s
+w
+
+
+
+
+{\displaystyle v_{sw}}
+
+ ranging from 250 to 750 km/s (155–404 mi/s) with a density ranging between 3 and 10 electrons, protons, and alpha particles per cm3 along with a few heavier ions per cubic centimeter.[33] Assuming that 8% of the solar wind is helium and the remainder hydrogen, the average solar wind plasma mass density at 1 AU is  
+
+
+
+4
+×
+
+10
+
+−
+21
+
+
+<
+
+ρ
+
+s
+w
+
+
+(
+1
+)
+<
+
+10
+
+−
+20
+
+
+
+
+{\displaystyle 4\times 10^{-21}<\rho _{sw}(1)<10^{-20}}
+
+ (kg/m3).[34]
+At 1 AU most magnetic sail research assumes 6 protons per cm3 corresponding to a density of 
+
+
+
+
+ρ
+
+s
+w
+
+
+(
+1
+)
+≈
+
+
+{\displaystyle \rho _{sw}(1)\approx }
+
+ 10−20 and a mean wind velocity 
+
+
+
+
+v
+
+s
+w
+
+
+
+
+{\displaystyle v_{sw}}
+
+=500 km/s.
+On average, the plasma density decreases with the square of the distance from the Sun while the velocity is nearly constant, see Figure 4.2.[35] The average mass density as a function of distance 
+
+
+
+
+a
+
+⊙
+
+
+
+
+{\displaystyle a_{\odot }}
+
+ Astronomical Units (AU) from the Sun is:
+    (MO.1)with the plasma velocity falling off very slowly.[citation needed] The effective solar wind seen by a spacecraft traveling at velocity 
+
+
+
+
+v
+
+s
+c
+
+
+
+
+{\displaystyle v_{sc}}
+
+ (positive meaning acceleration away from the star and negative meaning deceleration toward a star) is 
+
+
+
+
+u
+
+s
+w
+
+
+=
+
+v
+
+s
+w
+
+
+−
+
+v
+
+s
+c
+
+
+
+
+{\displaystyle u_{sw}=v_{sw}-v_{sc}}
+
+.
+A spacecraft accelerated to very high velocities by other means, such as a fusion rocket or laser pushed lightsail, can decelerate even from relativistic velocities – without requiring the use of onboard propellant by using a magnetic sail to create drag against the interstellar medium plasma environment.  For example. long duration missions, such as missions aimed to offer terrestrial life alternative evolutionary pathways, e.g. as envisioned by the Genesis project, could brake passively using magnetic sails on approach to a distant star.[36]
+The Sun is the center of the heliosphere region that extends radially outwards to a termination shock at 75–90 AU, a heliosheath at 80 to 100 AU and then a theoretical heliopause at 120 AU. Beyond this is a relatively low density region called the Local Bubble which contains local interstellar cloud (which contains the Solar System) and a neighboring G-Cloud complex which contains Alpha Centauri. Less is known about the ISM than within the heliosphere, but measurements by Voyager 1 and Voyager 2 have provided important data and indirect observations have also provided information.
+Estimates of the number of particles per cm3 are between 0.005 and 0.5 in the local bubble and G-cloud, respectively meaning that the ISM plasma mass density is 
+
+
+
+6
+×
+
+10
+
+−
+24
+
+
+<
+
+ρ
+
+i
+m
+
+
+<
+6
+×
+
+10
+
+−
+22
+
+
+
+
+{\displaystyle 6\times 10^{-24}<\rho _{im}<6\times 10^{-22}}
+
+. A typical value assumed for approach to Alpha Centauri is the G-cloud value of particle density of 0.1 particles per cm3[37] corresponding to  
+
+
+
+
+ρ
+
+i
+m
+
+
+≈
+
+10
+
+−
+22
+
+
+
+
+{\displaystyle \rho _{im}\approx 10^{-22}}
+
+.
+The spacecraft velocity 
+
+
+
+
+v
+
+s
+c
+
+
+
+
+{\displaystyle v_{sc}}
+
+ is much greater than the ISM velocity at the beginning of a deceleration maneuver so the effective plasma velocity is approximately 
+
+
+
+
+v
+
+i
+m
+
+
+≈
+
+v
+
+s
+c
+
+
+
+
+{\displaystyle v_{im}\approx v_{sc}}
+
+.
+Radio emissions of cyclotron radiation due to interaction of charged particles in the interstellar medium as they spiral around the magnetic field lines of a magnetic sail would have a frequency of approximately (
+
+
+
+120
+
+v
+
+/
+
+c
+
+
+{\displaystyle 120\,v/c}
+
+) kHz, where 
+
+v
+v
+
+ is the spacecraft velocity and 
+
+c
+c
+
+ the speed of light.[38] The Earth's ionosphere would prevent detection on the surface, but a space-based antenna could detect such emissions up to several thousands of light years away.  Detection of such radiation could indicate activity of advanced extraterrestrial civilizations.
+A spacecraft approaching a planet with a significant upper atmosphere such as Saturn or Neptune could use a magnetic sail to decelerate by ionizing neutral atoms such that it behaves as a low beta plasma.[27] The spacecraft velocity 
+
+
+
+
+v
+
+s
+c
+
+
+
+
+{\displaystyle v_{sc}}
+
+ is much greater than the planetary ionosphere velocity in a deceleration maneuver so the effective plasma velocity is approximately 
+
+
+
+
+v
+
+p
+i
+
+
+≈
+
+v
+
+s
+c
+
+
+
+
+{\displaystyle v_{pi}\approx v_{sc}}
+
+.
+Inside or near a planetary magnetosphere, a magnetic sail can thrust against or be attracted to a planet's magnetic field created by a dynamo, especially in an orbit that passes over the planet's magnetic poles.[5] When the magnetic sail and planet's magnetic field are in opposite directions an attractive force occurs and when the fields are in the same direction a repulsive force occurs, which is not stable and means to prevent the sail from flipping over is necessary.
+The thrust that a magnetic sail delivers within a magnetosphere decreases with the fourth power of its distance from the planet's internal magnetic field. When close to a planet with a strong magnetosphere such as Earth or a gas giant, the magnetic sail could generate more thrust by interacting with the magnetosphere instead of the solar wind. When operating near a planetary or stellar magnetosphere the effect of that magnetic field must be considered if it is on the same order as the gravitational field.
+By varying the magnetic sail's field strength and orientation a "perigee kick" can be achieved raising the altitude of the orbit's apogee higher and higher, until the magnetic sail is able to leave the planetary magnetosphere and catch the solar wind. The same process in reverse can be used to lower or circularize the apogee of a magsail's orbit when it arrives at a destination planet with a magnetic field.
+In theory, it is possible for a magnetic sail to launch directly from the surface of a planet near one of its magnetic poles, repelling itself from the planet's magnetic field. However, this requires the magnetic sail to be maintained in its "unstable" orientation.  A launch from Earth required superconductors with 80 times the current density of the best known high-temperature superconductors as of 1991.[5]
+In 2022 a spaceflight trial dubbed Jupiter Observing Velocity Experiment (JOVE) proposed using a plasma magnet to decelerate against the magnetosphere of Jupiter.[26]
+Physical principles involved include:  interaction of magnetic fields with moving charged particles;  an artificial magnetosphere model analogous to the Earth's magnetosphere, MHD and kinematic mathematical models for interaction of an artificial magnetosphere with a plasma flow characterized by density and velocity, and performance measures; such as, force achieved, energy requirements and the mass of the magnetic sail system.
+An ion or electron with charge q in a plasma moving at velocity v in a magnetic field B and electric field E is treated as an idealized point charge in the Lorentz force 
+
+
+
+
+F
+
+=
+q
+
+
+E
+
++
+q
+
+
+v
+
+×
+
+B
+
+
+
+{\displaystyle \mathbf {F} =q\,\mathbf {E} +q\,\mathbf {v} \times \mathbf {B} }
+
+.  This means that the force on an ion or electron is proportional to the product of their charge q and velocity component 
+
+v
+v
+
+ perpendicular to the magnetic field B. A magnetic sail design introduces a magnetic field into a plasma flow which under certain conditions deflects the electrons and ions from their original trajectory with the particle's momentum transferred to the sail and hence the spacecraft thereby creating thrust.[32] An electric sail uses an electric field E that under certain conditions interact with charged particles to create thrust.
+The characteristics of the Earth's magnetosphere have been widely studied as a basis for magnetic sails. The figure shows streamlines of charged particles from a plasma wind from the Sun (or a star) or an effective wind when decelerating in the ISM flowing from left to right. A source attached to a spacecraft generates a magnetic field. Under certain conditions at the boundary where magnetic pressure equals the plasma wind kinetic pressure an artificial magnetopause forms at a characteristic length 
+
+L
+L
+
+ (m) from the field source. The ionized plasma wind particles create a current sheet, known as the Chapman–Ferraro current along the magnetopause, which compresses the magnetic field lines facing the oncoming plasma wind by a factor of 2 at magnetopause as shown in Figure 2a.[18] The magnetopause deflects charged particles, which affects their streamlines and increases the density at magnetopause. A magnetospheric bubble or cavity forms that has very low density downstream from the magnetopause. Upstream from the magnetopause  a bow shock develops. Simulation results often show the particle density through use of color with an example shown in the figure according to the legend in the lower left. This figure uses aspects of the general structure from Figure 3[4]  Figure 1[39] and Figure 2a,[18] and aspects of the plasma density from Figure 1,[14] and Figure 2.[40]
+Magnetic sail designs operating in a plasma wind share a theoretical foundation based upon a  magnetohydrodynamic (MHD) model, sometimes called a fluid model, from plasma physics for an artificially generated magnetosphere. Under certain conditions, the plasma wind and the magnetic sail are separated by a magnetopause that blocks the charged particles, which creates a drag force that transfers (at least some) momentum to the magnetic sail, which then applies thrust to the attached spacecraft.[41][16][18][39]
+The figure depicts the MHD model.[18][32] Starting from the left a plasma wind in a plasma environment (e.g., stellar,  ISM or an ionosphere) of effective velocity  
+
+
+
+
+v
+
+p
+e
+
+
+
+
+{\textstyle v_{pe}}
+
+ with density 
+
+
+
+
+ρ
+
+p
+e
+
+
+
+
+{\textstyle \rho _{pe}}
+
+ (kg/m3) encounters a spacecraft with time-varying velocity 
+
+
+
+
+v
+
+s
+c
+
+
+
+
+{\textstyle v_{sc}}
+
+ (m/s) that is positive if accelerating and negative if decelerating.  The apparent plasma wind velocity from the spacecraft's viewpoint is 
+
+
+
+
+u
+
+p
+e
+
+
+=
+
+v
+
+p
+e
+
+
+−
+
+v
+
+s
+c
+
+
+
+
+{\textstyle u_{pe}=v_{pe}-v_{sc}}
+
+. The spacecraft and field source generate a magnetic field that creates a magnetospheric bubble extending out to a magnetopause preceded by a bow shock that deflects electrons and ions from the plasma wind At magnetopause the field source magnetic pressure equals the kinetic pressure of the plasma wind at a standoff shown at the bottom of the figure. The characteristic length 
+
+
+
+L
+
+
+{\textstyle L}
+
+ (m) is that of a circular sail of effective blocking area 
+
+
+
+S
+=
+π
+
+
+R
+
+m
+p
+
+
+2
+
+
+
+
+{\displaystyle S=\pi \,R_{mp}^{2}}
+
+  where 
+
+
+
+
+R
+
+m
+p
+
+
+≈
+L
+
+
+{\displaystyle R_{mp}\approx L}
+
+ is the effective magnetopause radius. Under certain conditions the plasma wind pushing on the artificial magnetosphere bow shock and magnetopause creates a force 
+
+
+
+
+F
+
+w
+
+
+
+
+{\textstyle F_{w}}
+
+ (N) on the magnetic field source that is physically attached to the spacecraft so that at least part of the force 
+
+
+
+
+F
+
+w
+
+
+
+
+{\textstyle F_{w}}
+
+ causes a force 
+
+
+
+
+F
+
+s
+c
+
+
+
+
+{\textstyle F_{sc}}
+
+on the spacecraft, accelerating it when sailing downwind or decelerating when sailing into a headwind. Under certain conditions and in some designs, some of the plasma wind force may be lost as indicated by 
+
+
+
+
+F
+
+l
+o
+s
+s
+
+
+
+
+{\textstyle F_{loss}}
+
+ on the right side.
+All magnetic sail designs assume a standoff between plasma wind pressure 
+
+
+p
+
+w
+
+
+p_{w}
+
+ and magnetic pressure 
+
+
+
+
+p
+
+B
+
+
+
+
+{\textstyle p_{B}}
+
+ of the same form with parameters specific to a plasma environment, differing only in a constant coefficient 
+
+
+
+
+C
+
+S
+O
+
+
+
+
+{\displaystyle C_{SO}}
+
+ as follows:
+    (MHD.1)where 
+
+
+
+u
+
+
+{\textstyle u}
+
+ (m/s) is the apparent wind velocity and 
+
+ρ
+\rho
+
+(kg/m3) is the plasma wind density for a specific plasma environment,  
+
+
+
+
+B
+
+m
+p
+
+
+
+
+{\displaystyle B_{mp}}
+
+ (T) the magnetic field strength at magnetopause, μ0 (H/m) is the vacuum permeability and 
+
+
+
+
+C
+
+S
+O
+
+
+
+
+{\textstyle C_{SO}}
+
+ is a constant that differs by reference as follows for 
+
+
+
+
+C
+
+S
+O
+
+
+=
+2
+
+
+{\textstyle C_{SO}=2}
+
+ corresponding to 
+
+
+
+
+p
+
+w
+
+
+
+
+{\textstyle p_{w}}
+
+modeled as dynamic pressure with no magnetic field compression,[39] 
+
+
+
+
+C
+
+S
+O
+
+
+=
+1
+
+
+{\textstyle C_{SO}=1}
+
+ for 
+
+
+
+
+p
+
+w
+
+
+
+
+{\textstyle p_{w}}
+
+modeled as ram pressure  with no magnetic field compression[4][25] and 
+
+
+
+
+C
+
+S
+O
+
+
+=
+1
+
+/
+
+2
+
+
+{\textstyle C_{SO}=1/2}
+
+ for 
+
+
+
+
+p
+
+w
+
+
+
+
+{\textstyle p_{w}}
+
+ modeled as ram pressure with magnetic field compression by a factor of 2[18]  Equation MHD.1 can be solved to yield the required magnetic field 
+
+
+
+
+B
+
+m
+p
+
+
+
+
+{\displaystyle B_{mp}}
+
+ (T) that satisfies the pressure balance at magnetopause standoff as:
+    (MHD.2)The solar wind plasma density decreases in inverse proportion to the square of the distance 
+
+d
+d
+
+ from the Sun and hence from the above, 
+
+
+
+
+B
+
+m
+p
+
+
+
+
+{\displaystyle B_{mp}}
+
+ decreases in inverse proportion to 
+
+d
+d
+
+. Since magnetic field strength at radius 
+
+r
+r
+
+ is 
+
+
+
+B
+∝
+1
+
+/
+
+
+r
+
+3
+
+
+
+
+{\displaystyle B\propto 1/r^{3}}
+
+ this means that the magnetic sail magnetopause radius 
+
+
+
+
+R
+
+m
+p
+
+
+
+
+{\textstyle R_{mp}}
+
+ will increase with distance from the Sun, where the increased effective size of a sail compensates for the reduced dynamic pressure of the solar wind.
+The force derived by a magnetic sail for a plasma environment is determined from MHD equations as reported by many researchers is:[32][18][25][41][39]    (MHD.3)
+where 
+
+
+
+
+C
+
+d
+
+
+
+
+{\textstyle C_{d}}
+
+ is a coefficient of drag determined by numerical analysis and/or simulation,  
+
+
+
+ρ
+
+u
+
+2
+
+
+
+/
+
+2
+
+
+{\textstyle \rho u^{2}/2}
+
+ (Pa) is the dynamic wind pressure, and 
+
+
+
+S
+=
+π
+
+R
+
+m
+p
+
+
+2
+
+
+
+
+{\displaystyle S=\pi R_{mp}^{2}}
+
+ (m2) is the effective blocking area of the magnetic sail with magnetopause radius 
+
+
+
+
+R
+
+m
+p
+
+
+≈
+L
+
+
+{\textstyle R_{mp}\approx L}
+
+ (m). Note that this equation has the same form as the drag equation in fluid dynamics. 
+
+
+
+
+C
+
+d
+
+
+
+
+{\textstyle C_{d}}
+
+ is a function of coil attack angle on thrust and steering angle. The power (W) of the plasma wind is the product of velocity and a constant force    (MHD.4)where equation MHD.2 was used to derive the right-side yielding the same result as equation (9).[25]
+
+Through analysis, numerical calculation, simulation and experimentation  an important condition for a magnetic sail to generate significant force is the MHD applicability test,[42] that states that the standoff distance 
+
+L
+L
+
+ must be significantly greater than the ion gyroradius, also called the Larmor radius[18] or cyclotron radius:     (MHD.5)where 
+
+
+
+
+m
+
+i
+
+
+
+
+{\textstyle m_{i}}
+
+ (kg) is the ion mass, 
+
+
+v
+
+⊥
+
+
+v_{\perp }
+
+ (m/s) is the velocity of ions perpendicular to the magnetic field, 
+
+
+
+|
+
+q
+
+|
+
+
+|q|
+
+ (C) is the elementary charge of the ion, 
+
+
+
+
+B
+
+x
+
+
+
+
+{\textstyle B_{x}}
+
+ (T) is the magnetic field strength at the point of reference 
+
+
+
+x
+
+
+{\textstyle x}
+
+ and 
+
+
+
+
+C
+
+L
+i
+
+
+
+
+{\textstyle C_{Li}}
+
+ is a constant that differs by source with 
+
+
+
+
+C
+
+L
+i
+
+
+=
+1
+
+
+{\textstyle C_{Li}=1}
+
+ [25] and 
+
+
+
+
+C
+
+L
+i
+
+
+=
+2
+
+
+{\textstyle C_{Li}=2}
+
+[18]. In the solar plasma wind at 1 AU with 
+
+
+m
+
+i
+
+
+m_{i}
+
+ (kg) the proton mass, 
+
+
+
+v
+⊥=
+
+v
+
+s
+w
+
+
+
+
+{\displaystyle v\perp =v_{sw}}
+
+ = 500 km/s, 
+
+
+
+
+B
+
+x
+
+
+=
+
+B
+
+m
+p
+
+
+
+
+{\displaystyle B_{x}=B_{mp}}
+
+ = 36 nT with 
+
+
+
+
+C
+
+S
+O
+
+
+
+
+{\displaystyle C_{SO}}
+
+=0.5 at from equation MHD.2 at magnetopause and 
+
+
+
+
+C
+
+L
+i
+
+
+
+
+{\textstyle C_{Li}}
+
+=2  then 
+
+
+
+
+r
+
+g
+
+
+≈
+
+
+{\displaystyle r_{g}\approx }
+
+ 72 km.  The MHD applicability test is the ratio 
+
+
+
+
+r
+
+g
+
+
+
+/
+
+L
+
+
+{\textstyle r_{g}/L}
+
+. The figure plots 
+
+
+C
+
+d
+
+
+C_{d}
+
+ on the left axis and lost thrust on the right axis versus the ratio 
+
+
+
+
+r
+
+g
+
+
+
+/
+
+L
+
+
+{\textstyle r_{g}/L}
+
+. When 
+
+
+
+
+r
+
+g
+
+
+
+/
+
+L
+<
+1
+
+
+{\displaystyle r_{g}/L<1}
+
+, 
+
+
+
+
+C
+
+d
+
+
+=
+3.6
+
+
+{\displaystyle C_{d}=3.6}
+
+ is maximum,  at 
+
+
+
+
+r
+
+g
+
+
+
+/
+
+L
+≈
+1
+
+
+{\textstyle r_{g}/L\approx 1}
+
+, 
+
+
+
+
+C
+
+d
+
+
+=
+2.7
+
+
+{\textstyle C_{d}=2.7}
+
+, a decrease of 25% from the maximum and at 
+
+
+
+
+r
+
+g
+
+
+
+/
+
+L
+≈
+2
+
+
+{\textstyle r_{g}/L\approx 2}
+
+,  
+
+
+
+
+C
+
+d
+
+
+≈
+1.5
+
+
+{\textstyle C_{d}\approx 1.5}
+
+, a 45% decrease. As 
+
+
+
+
+r
+
+g
+
+
+
+/
+
+L
+
+
+{\displaystyle r_{g}/L}
+
+ increases beyond one, 
+
+
+C
+
+d
+
+
+C_{d}
+
+ decreases meaning less thrust from the plasma wind  transfers to the spacecraft and is instead lost to the plasma wind.
+In 2004, Fujita[43][18] published numerical analysis using a hybrid PIC simulation using a magnetic dipole model that treated electrons as a fluid and a kinematic model for ions to estimate the coefficient of drag 
+
+
+C
+
+d
+
+
+C_{d}
+
+ for a magnetic sail operating in the radial orientation resulting in the following approximate formula:    (MHD.6)The lost thrust is 
+
+
+
+
+T
+
+l
+o
+s
+s
+
+
+=
+(
+1
+−
+
+C
+
+d
+
+
+(
+
+r
+
+g
+
+
+
+/
+
+L
+)
+)
+
+/
+
+3.6
+
+
+{\displaystyle T_{loss}=(1-C_{d}(r_{g}/L))/3.6}
+
+.
+In 2005 Nishida and others published results from numerical analysis of an MHD model for interaction of the solar wind with a magnetic field of current flowing in a coil that momentum is indeed transferred to the magnetic field produced by field source and hence to the spacecraft .[44] Thrust force derives from the momentum change of the solar wind, pressure by the solar wind on  the magnetopause from equation MHD.1 and Lorentz force from currents induced in the magnetosphere interacting with the field source. The results quantified the coefficient of drag, steering (i.e., thrust direction) angle with the solar wind, and torque generated as a function of attack angle (i.e., orientation) The figure illustrates how the attack (or coil tilt) angle 
+
+
+
+
+α
+
+t
+
+
+
+
+{\displaystyle \alpha _{t}}
+
+ orientation of the coil creates a steering angle for the thrust vector and also torque imparted to the coil. Also shown is the vector for the interplanetary magnetic field (IMF), which at 1 AU varies with waves and other disturbances in the solar wind, known as space weather.[45]
+For a coil with radial orientation (like a Frisbee) the attack angle 
+
+
+
+
+α
+
+t
+
+
+
+
+{\displaystyle \alpha _{t}}
+
+= 0 degrees and with axial orientation (like a parachute) 
+
+
+
+
+α
+
+t
+
+
+
+
+{\displaystyle \alpha _{t}}
+
+=90 degrees. The Nishida 2005 results[44] reported a coefficient of drag 
+
+
+C
+
+d
+
+
+C_{d}
+
+ that increased non-linearly with attack angle from a minimum of 3.6 at 
+
+
+
+
+α
+
+t
+
+
+
+
+{\displaystyle \alpha _{t}}
+
+=0 to a maximum of 5 at 
+
+
+
+
+α
+
+t
+
+
+
+
+{\displaystyle \alpha _{t}}
+
+=90 degrees. The steering angle of the thrust vector is substantially less than the attack angle deviation from 45 degrees due to the interaction of the magnetic field with the solar wind. Torque increases from 
+
+
+
+
+α
+
+t
+
+
+
+
+{\displaystyle \alpha _{t}}
+
+= 0 degrees from zero at to a maximum at 
+
+
+
+
+α
+
+t
+
+
+
+
+{\displaystyle \alpha _{t}}
+
+=45 degrees and then decreases to zero at 
+
+
+
+
+α
+
+t
+
+
+
+
+{\displaystyle \alpha _{t}}
+
+=90 degrees. A number of magnetic sail design and other papers cite these results. In 2012 Kajimura reported simulation results[46] that covered two cases where MHD applicability occurs with 
+
+
+
+
+r
+
+g
+
+
+
+/
+
+L
+
+
+{\displaystyle r_{g}/L}
+
+=1.125 and where a kinematic model is applicable 
+
+
+
+
+r
+
+g
+
+
+
+/
+
+L
+
+
+{\displaystyle r_{g}/L}
+
+=0.125 to compute a coefficient of drag 
+
+
+C
+
+d
+
+
+C_{d}
+
+ and steering angle. As shown in Figure 4 of that paper when MHD applicability occurs the results are similar in form to Nishida 2005[44] where the largest 
+
+
+C
+
+d
+
+
+C_{d}
+
+ occurs with the coil in an axial orientation. However, when the kinematic model applies, the largest  
+
+
+C
+
+d
+
+
+C_{d}
+
+ occurs with the coil in an radial orientation. The steering angle is positive when MHD is applicable and negative when a kinematic model applies. The 2012 Nishida and Funaki published simulation results [47] for a coefficient of drag 
+
+
+C
+
+D
+
+
+C_{D}
+
+, coefficient of lift 
+
+
+C
+
+L
+
+
+C_{L}
+
+ and a coefficient of moment 
+
+
+C
+
+M
+
+
+C_{M}
+
+ for a coil radius of 
+
+
+R
+
+c
+
+
+R_{c}
+
+=100 km and magnetopause radius 
+
+
+
+
+R
+
+m
+p
+
+
+
+
+{\displaystyle R_{mp}}
+
+=500 km at 1 AU. These results included the effect of the interplanetary magnetic field (IMF, which can significantly increase the thrust of a magnetic sail at 1 AU).
+In a design, either the magnetic field source strength or the magnetopause radius 
+
+
+
+
+R
+
+m
+p
+
+
+≈
+L
+
+
+{\displaystyle R_{mp}\approx L}
+
+ the characteristic length must be chosen. A good approximation[16][39] for a magnetic field falloff rate 
+
+
+
+
+f
+
+o
+
+
+,
+1
+≤
+
+f
+
+o
+
+
+≤
+3
+
+
+{\displaystyle f_{o},1\leq f_{o}\leq 3}
+
+ for a distance 
+
+
+
+
+R
+
+0
+
+
+≤
+r
+≤
+
+R
+
+m
+p
+
+
+
+
+{\textstyle R_{0}\leq r\leq R_{mp}}
+
+ from the field source to magnetopause starts with the equation:
+    (MFM.1)where 
+
+
+
+B
+(
+
+R
+
+0
+
+
+)
+
+
+{\displaystyle B(R_{0})}
+
+ is the magnetic field at a radius 
+
+
+R
+
+0
+
+
+R_{0}
+
+ near the field source that falls off near the source as 
+
+
+1
+
+/
+
+
+r
+
+3
+
+
+
+1/r^{3}
+
+ as follows:
+    (MFM.2)where 
+
+
+C
+
+0
+
+
+C_{0}
+
+ is a constant multiplying the magnetic moment 
+
+
+
+
+m
+
+
+
+{\displaystyle \mathbf {m} }
+
+  (A m2) to make 
+
+
+
+B
+(
+r
+)
+
+
+{\displaystyle B(r)}
+
+ match a target value at 
+
+
+
+r
+>>
+
+R
+
+0
+
+
+
+
+{\textstyle r>>R_{0}}
+
+. When far from the field source, a magnetic dipole is a good approximation and choosing the above value of 
+
+
+
+B
+(
+
+R
+
+0
+
+
+)
+
+
+{\displaystyle B(R_{0})}
+
+ with 
+
+
+C
+
+0
+
+
+C_{0}
+
+ =2 near the field source was used by Andrews and Zubrin.[4]
+
+The Amperian loop model for the magnetic moment is  
+
+
+
+
+m
+
+=
+
+I
+
+c
+
+
+S
+
+
+{\displaystyle \mathbf {m} =I_{c}S}
+
+, where 
+
+
+I
+
+c
+
+
+I_{c}
+
+ (A) is the current and 
+
+
+
+S
+=
+π
+
+
+R
+
+c
+
+
+2
+
+
+
+
+{\displaystyle S=\pi \,R_{c}^{2}}
+
+ is the surface area (m2) for a coil (loop) of radius 
+
+
+R
+
+c
+
+
+R_{c}
+
+(m). Assuming that 
+
+
+
+
+R
+
+0
+
+
+≈
+
+R
+
+c
+
+
+
+
+{\displaystyle R_{0}\approx R_{c}}
+
+ and substituting the expression for the magnetic moment 
+
+
+
+
+m
+
+
+
+{\displaystyle \mathbf {m} }
+
+ into equation MFM.2 yields the following:    (MFM.3)
+When the magnetic field source strength 
+
+
+
+B
+(
+
+R
+
+0
+
+
+)
+
+
+{\displaystyle B(R_{0})}
+
+ is specified, substituting 
+
+
+
+
+B
+
+m
+p
+
+
+
+
+{\displaystyle B_{mp}}
+
+ from the pressure balance analysis from equation MHD.2 into the above and solving for 
+
+
+
+
+R
+
+m
+p
+
+
+
+
+{\textstyle R_{mp}}
+
+ yields the following:    (MFM.4)
+This is the expression for 
+
+L
+L
+
+ when 
+
+
+
+
+f
+
+o
+
+
+=
+3
+
+
+{\displaystyle f_{o}=3}
+
+ with 
+
+
+
+
+C
+
+S
+O
+
+
+=
+1
+
+/
+
+2
+
+
+{\displaystyle C_{SO}=1/2}
+
+ from equation (4),[18] with 
+
+
+
+
+C
+
+S
+O
+
+
+=
+2
+
+
+{\displaystyle C_{SO}=2}
+
+ from equation (4),[39] and the magnetopause distance of the Earth. This equation shows directly how a decreased falloff rate 
+
+
+
+
+f
+
+o
+
+
+
+
+{\displaystyle f_{o}}
+
+ dramatically increases the effective sail area 
+
+
+
+S
+=
+π
+
+R
+
+m
+p
+
+
+2
+
+
+
+
+{\displaystyle S=\pi R_{mp}^{2}}
+
+ for a given field source magnetic moment 
+
+
+
+
+m
+
+
+
+{\displaystyle \mathbf {m} }
+
+ and 
+
+
+
+
+B
+
+m
+p
+
+
+
+
+{\displaystyle B_{mp}}
+
+ determined from the pressure balance equation MHD.1. Substituting this into equation MHD.3 yields the plasma wind force as a function of falloff rate 
+
+
+
+
+f
+
+o
+
+
+
+
+{\displaystyle f_{o}}
+
+, plasma density 
+
+ρ
+\rho
+
+ (kg/m3), coil radius 
+
+
+
+
+R
+
+c
+
+
+≈
+
+R
+
+0
+
+
+
+
+{\displaystyle R_{c}\approx R_{0}}
+
+ (m), coil current 
+
+
+I
+
+c
+
+
+I_{c}
+
+ (A) and plasma wind velocity 
+
+u
+u
+
+ (m/s) as follows:    (MFM.5)using equation MFM.2 for 
+
+
+
+B
+(
+
+R
+
+0
+
+
+)
+
+
+{\displaystyle B(R_{0})}
+
+ and equation MHD.2 for 
+
+
+
+
+B
+
+m
+p
+
+
+
+
+{\displaystyle B_{mp}}
+
+. This is the same expression as equation (10b) when 
+
+
+
+
+f
+
+o
+
+
+=
+3
+
+
+{\displaystyle f_{o}=3}
+
+ and 
+
+
+
+
+C
+
+S
+O
+
+
+=
+1
+
+/
+
+2
+
+
+{\displaystyle C_{SO}=1/2}
+
+,[32] equation (108)[7] and equation (5)[39] with other numerical coefficients grouped into the 
+
+
+C
+
+d
+
+
+C_{d}
+
+ term.  Note that force increases as falloff rate decreases.
+
+When the design target is the magnetopause radius 
+
+
+
+
+R
+
+m
+p
+
+
+
+
+{\displaystyle R_{mp}}
+
+, the required field source strength is then determined directly from equation MFM.1 as follows:    (MFM.6)which then determines the magnetic moment 
+
+
+
+
+m
+
+
+
+{\displaystyle \mathbf {m} }
+
+ from equation MFM.2 and plasma wind force from equation MHD.3.
+When the MHD applicability test of 
+
+
+
+
+r
+
+g
+
+
+
+/
+
+L
+
+
+{\textstyle r_{g}/L}
+
+ <1 then a kinematic simulation model more accurately predicts force transferred from the plasma wind to the spacecraft. In this case the effective sail blocking area 
+
+
+A
+
+e
+
+
+A_{e}
+
+ < 
+
+
+
+S
+=
+π
+
+L
+
+2
+
+
+
+
+{\displaystyle S=\pi L^{2}}
+
+.   
+The left axis of the figure is for plots of magnetic sail force versus characteristic length 
+
+L
+L
+
+.  The solid black line plots the MHD model force 
+
+
+
+
+F
+
+M
+H
+D
+
+
+
+
+{\displaystyle F_{MHD}}
+
+ from equation MHD.3. The green line shows the value of ion gyroradius 
+
+
+
+
+r
+
+g
+
+
+≈
+
+
+{\displaystyle r_{g}\approx }
+
+ 72 km from equation MHD.5. The dashed blue line plots the hybrid MHD/kinematic model from equation MHD.6  from Fujita04.[43] The red dashed line plots a curve fit to simulation results from Ashida14.[48] Although a good fit for these parameters, the curve fit range of this model does not cover some relevant examples. Additional simulation results from Hajiwara15[49] are shown for the MHD and kinematic model as single data points as indicated in the legend. These models are all in close agreement. The kinematic models predict less force than predicted by the MHD model. In other words, the fraction 
+
+
+
+
+T
+
+l
+o
+s
+s
+
+
+
+
+{\displaystyle T_{loss}}
+
+  of thrust force predicted by the MHD model is lost when 
+
+
+
+
+r
+
+g
+
+
+
+/
+
+L
+<
+1
+
+
+{\displaystyle r_{g}/L<1}
+
+ as plotted on the right axis. The solid blue and red lines show 
+
+
+
+
+T
+
+l
+o
+s
+s
+
+
+
+
+{\displaystyle T_{loss}}
+
+ for Fujita04 and Ashida18 respectively, indicating that operation with 
+
+L
+L
+
+ less than 10% of 
+
+
+r
+
+g
+
+
+r_{g}
+
+ will have significant loss. Other factors in a specific magnetic sail design may offset this loss for values of 
+
+
+
+L
+<
+
+r
+
+g
+
+
+
+
+{\displaystyle L<r_{g}}
+
+.
+Important measures that determine the relative performance of different magnetic sail systems include: mass of the field source generator and its power and energy requirements; thrust achieved; thrust to weight ratio, any limitations and constraints, and propellant system exhausted, if any . Mass of the field source 
+
+
+
+
+M
+
+f
+s
+
+
+
+
+{\displaystyle M_{fs}}
+
+ in the Magsail design was relatively large and subsequent designs strove to reduce this measure. Total spacecraft mass is 
+
+
+
+
+M
+
+s
+c
+
+
+=
+
+M
+
+f
+s
+
+
++
+
+M
+
+p
+
+
+
+
+{\displaystyle M_{sc}=M_{fs}+M_{p}}
+
+, where 
+
+
+M
+
+p
+
+
+M_{p}
+
+ is the payload mass. Power requirements are significant in some designs and add to field source mass. Thrust is the plasma wind force 
+
+
+F
+
+w
+
+
+F_{w}
+
+ for a particular plasma environment with acceleration  
+
+
+
+a
+=
+
+F
+
+w
+
+
+
+/
+
+
+M
+
+s
+c
+
+
+
+
+{\displaystyle a=F_{w}/M_{sc}}
+
+. The thrust to weight ratio 
+
+
+
+
+F
+
+w
+
+
+
+/
+
+
+M
+
+s
+c
+
+
+
+
+{\textstyle F_{w}/M_{sc}}
+
+is also an important performance measure. Other limitations and constraints may be specific to a particular design. The M2P2 and MPS designs, as well as potentially the plasma magnet design, exhaust some plasma as part of inflating the magnetospheric bubble and these cases also have a specific impulse and effective exhaust velocity performance measure.
+The figure shows the magsail design[4] consisting of a loop of superconducting wire of radius 
+
+
+R
+
+c
+
+
+R_{c}
+
+ (m) on the order of 100 km that carries a direct current 
+
+
+I
+
+c
+
+
+I_{c}
+
+ (A) that generates a magnetic field, which was modeled according to the Biot–Savart law inside the loop and as a magnetic dipole far outside the loop. With respect to the plasma wind direction a magsail may have a radial (or normal) orientation or an axial orientation that can be adjusted to provide torque for steering.  In non-axial configurations lift is generated that can change the spacecraft's momentum. The loop connects via shroud lines (or tethers) to the spacecraft in the center. Because a loop carrying current is forced outwards towards a circular shape by its magnetic field, the sail could be deployed by unspooling the conductor wire and applying a current through it via the peripheral platforms.[6] The loop must be adequately attached to the spacecraft in order to transfer momentum from the plasma wind and would pull the spacecraft behind it as shown in the axial configuration in the right side of the figure.
+Analysis of magsail performance was done using a simulation and a fluid (i.e., MHD) model with similar results observed for one case.[4] The magnetic moment of a current loop is 
+
+
+
+
+m
+
+=
+
+I
+
+c
+
+
+π
+
+R
+
+c
+
+
+2
+
+
+
+
+{\displaystyle \mathbf {m} =I_{c}\pi R_{c}^{2}}
+
+ for a current of 
+
+
+
+
+I
+
+c
+
+
+
+
+{\textstyle I_{c}}
+
+ (A) and a loop of radius 
+
+
+
+
+R
+
+c
+
+
+
+
+{\textstyle R_{c}}
+
+.  Close to the loop, the magnetic field at a distance 
+
+z
+z
+
+ along the center-line axis perpendicular to the loop is derived from the Biot–Savart law in Section 5-2, equation (25) as follows.[50]
+    (MS.1)
+At a distance far from the loop center the magnetic field is approximately that produced by a magnetic dipole. Since the pressure at the magnetospheric boundary is doubled due to compression of the magnetic field and is the following at a point along the center-line axis at a distance 
+
+
+
+z
+=
+
+L
+
+Z
+
+
+
+
+{\displaystyle z=L_{Z}}
+
+ for the target magnetopause standoff distance from equation (5).[4]    (MS.2)Equating this to the dynamic pressure for a plasma environment 
+
+
+
+
+p
+
+m
+b
+
+
+=
+ρ
+
+
+u
+
+p
+e
+
+
+2
+
+
+
+/
+
+2
+
+
+{\textstyle p_{mb}=\rho \,u_{pe}^{2}/2}
+
+, inserting 
+
+
+
+
+B
+
+c
+l
+
+
+(
+0
+)
+
+
+{\textstyle B_{cl}(0)}
+
+ from equation MS.1 and solving for 
+
+
+
+
+L
+
+Z
+
+
+
+
+{\displaystyle L_{Z}}
+
+ yields equation (6).[4]
+    (MS.3)
+Andrews and Zubrin derived equation (8) for the drag force of the sail 
+
+
+F
+
+D
+
+
+F_{D}
+
+ that determined the characteristic length 
+
+
+
+
+L
+
+Z
+
+
+
+
+{\displaystyle L_{Z}}
+
+ for a tilt angle but according to Section 6.5 of Freeland[7] an error was made in numerical integration in choosing the ellipse downstream from the magnetopause instead of the ellipse upstream that made those results optimistic by a factor of approximately 3.1, which should be used to correct any drag force results using equation (8).[4] Instead, this article uses the approximation from equation (108) for a spherical bubble that corrects this error and is close to the analytical formula for the axial configuration as the force for the Magsail as follows[7]    (MS.4)In 2004 Toivanen and Janhunen did further analysis on the Magsail that they called a Plasma Free MagnetoPause (PFMP) that produced similar results to that of Andrews and Zubrin.[39]
+
+The minimum required mass to carry the current in equation MS.1 or other magnetic sail designs is defined in equation (9)[4] and equation (3)[9] as follows:    (CMC.1)where 
+
+
+J
+
+e
+
+
+J_{e}
+
+ (A/m2) is the superconductor critical current density and 
+
+
+
+
+δ
+
+c
+
+
+
+
+{\textstyle \delta _{c}}
+
+ (kg/m3) is the coil material density, for example 6,500 for a superconductor.[7] The physical mass of the coil is
+    (CMC.2)where 
+
+
+
+
+r
+
+c
+
+
+
+
+{\displaystyle r_{c}}
+
+(m) is the radius of the superconductor wire, for example that necessary to handle the tension for a particular use case,[7]  with the 
+
+
+
+
+N
+
+t
+e
+t
+h
+e
+r
+
+
+
+
+{\displaystyle N_{tether}}
+
+ factor (e.g., 3) accounting for mass of the tether (or shroud) lines. Note that 
+
+
+
+
+M
+
+c
+
+
+(
+p
+h
+y
+)
+
+
+{\displaystyle M_{c}(phy)}
+
+ with 
+
+
+
+
+N
+
+t
+e
+t
+h
+e
+r
+
+
+
+
+{\displaystyle N_{tether}}
+
+=0 must be no less than 
+
+
+
+
+M
+
+c
+
+
+(
+m
+i
+n
+)
+
+
+{\displaystyle M_{c}(min)}
+
+ in order for the coil to carry the current 
+
+
+I
+
+c
+
+
+I_{c}
+
+. Setting equation CMC.2 with 
+
+
+
+
+N
+
+t
+e
+t
+h
+e
+r
+
+
+
+
+{\displaystyle N_{tether}}
+
+=0 equal to equation CMC.1 and solving for 
+
+
+r
+
+c
+
+
+r_{c}
+
+ yields the minimum required coil radius
+    (CMC.3)If operated within the solar system, high temperature superconducting wire (HTS) is necessary to make the magsail practical since the current required is large. However, protection from solar heating is necessary closer to the Sun, for example by highly reflective coatings.[51] If operated in interstellar space low temperature superconductors (LTS) could be adequate since the temperature of a vacuum is 2.7 K, but radiation and other heat sources from the spacecraft may render LTS impractical. The critical current carrying capacity of the promising HTS YBCO coated superconductor wire increases at lower temperatures with a current density 
+
+
+J
+
+e
+
+
+J_{e}
+
+(A/m2)  of 6x1010 at 77 K and 9x1011 at 5 K. The superconductor critical current is defined as 
+
+
+
+
+I
+
+c
+c
+
+
+=
+
+J
+
+e
+
+
+π
+
+r
+
+c
+
+
+2
+
+
+
+
+{\displaystyle I_{cc}=J_{e}\pi r_{c}^{2}}
+
+ (A) for a coil wire of radius 
+
+
+r
+
+c
+
+
+r_{c}
+
+ (m).
+The MHD applicability test of equation MHD.5 fails in some ISM deceleration cases and a kinematic model is necessary, such as the one documented in 2017 by Claudius Gros summarized here.[8] A spacecraft with an overall mass 
+
+
+m
+
+t
+o
+t
+
+
+m_{tot}
+
+  and velocity 
+
+v
+v
+
+ follows equation (1) of motion as:
+    (MKM.1)where 
+
+
+
+
+F
+
+M
+K
+M
+
+
+
+
+{\displaystyle F_{MKM}}
+
+ (N) is force predicted by this model,  
+
+
+n
+
+p
+
+
+n_{p}
+
+ is the proton number density (m−3), 
+
+
+m
+
+p
+
+
+m_{p}
+
+ is the proton mass (kg), 
+
+
+
+ρ
+=
+
+m
+
+p
+
+
+
+n
+
+p
+
+
+
+
+{\displaystyle \rho =m_{p}n_{p}}
+
+ (kg/m3) the plasma density, and 
+
+
+
+
+A
+
+G
+
+
+(
+v
+)
+
+
+{\displaystyle A_{G}(v)}
+
+ (m2) the effective reflection area. This equation assumes that the spacecraft encounters 
+
+
+
+
+A
+
+G
+
+
+(
+v
+)
+
+n
+
+p
+
+
+v
+
+
+{\displaystyle A_{G}(v)n_{p}v}
+
+ particles per second and that every particle of mass 
+
+
+m
+
+p
+
+
+m_{p}
+
+ is completed reflected. Note that this equation is of the same form as MFM.5 with 
+
+
+C
+
+d
+
+
+C_{d}
+
+=4, interpreting the 
+
+
+C
+
+d
+
+
+C_{d}
+
+ term as just a number.
+Gros numerically determined the effective reflection area 
+
+
+
+
+A
+
+G
+
+
+(
+v
+)
+
+
+{\textstyle A_{G}(v)}
+
+ by integrating the degree of reflection of approaching protons interacting with the superconducting loop magnetic field according to the Biot-Savart law. The reported result was independent of the loop radius 
+
+
+R
+
+c
+
+
+R_{c}
+
+. An accurate curve fit as reported in Figure 4 to the numerical evaluation for the effective reflection area for a magnetic sail in the axial configuration from equation (8) was
+    (MKM.2)where 
+
+
+
+π
+
+R
+
+c
+
+
+2
+
+
+
+
+{\displaystyle \pi R_{c}^{2}}
+
+ (m2) is the area enclosed by the current carrying loop, 
+
+c
+c
+
+ (m/s) the speed of light, and the value  
+
+
+
+
+I
+
+G
+
+
+=
+1.55
+⋅
+
+10
+
+6
+
+
+
+
+{\displaystyle I_{G}=1.55\cdot 10^{6}}
+
+ (A) determined a good curve fit for 
+
+I
+I
+
+=105  A, the current through the loop. In 2020, Perakis published an analysis[12] that corroborated the above formula with parameters selected for the solar wind and reported a force no more than 9% less than the Gros model for 
+
+I
+I
+
+=105 A and 
+
+
+R
+
+c
+
+
+R_{c}
+
+=100 m with the coil in an axial orientation.. That analysis also reported on the effect of magsail tilt angle on lift and side forces for a use case in maneuvering within the solar system.
+For comparison purposes, the effective sail area determined for the magsail by Zubrin from equation MS.3 with the 3.1 correction factor from Freeland applied and using the same velocity value (resolving the discrepancy noted by Gros) as follows:
+    (MKM.3)The figure shows the normalized effective sail area normalized by the coil area 
+
+
+
+π
+
+R
+
+c
+
+
+2
+
+
+
+
+{\displaystyle \pi R_{c}^{2}}
+
+ for the MKM case from Gros of equation MKM.1 and for Zubrin from equation MKM.3 for 
+
+
+
+I
+≈
+
+I
+
+G
+
+
+
+
+{\displaystyle I\approx I_{G}}
+
+,  
+
+
+R
+
+c
+
+
+R_{c}
+
+=100 km, and 
+
+
+n
+
+p
+
+
+n_{p}
+
+=0.1 cm−3 for the G-cloud on approach to Alpha Centauri corresponding to ISM density 
+
+
+
+
+ρ
+
+i
+m
+
+
+=
+1.67
+×
+
+10
+
+−
+22
+
+
+
+
+{\displaystyle \rho _{im}=1.67\times 10^{-22}}
+
+ (kg/m3) consistent with that from Freeland[7] plotted versus the spacecraft velocity relative to the speed of light 
+
+
+
+β
+=
+v
+
+/
+
+c
+
+
+{\textstyle \beta =v/c}
+
+.  A good fit occurs for these parameters, but for different values of 
+
+
+R
+
+c
+
+
+R_{c}
+
+ and 
+
+I
+I
+
+ the fit can vary significantly. Also plotted is the MHD applicability test of ion gyroradius divided by magnetopause radius 
+
+
+
+
+r
+
+g
+
+
+
+/
+
+
+R
+
+m
+p
+
+
+
+
+{\displaystyle r_{g}/R_{mp}}
+
+ <1 from equation MHD.4 on the secondary axis. Note that MHD applicability occurs at 
+
+
+v
+
+/
+
+c
+
+v/c
+
+ < 1%. For comparison, the 2004 Fujita 
+
+
+C
+
+d
+
+
+C_{d}
+
+ as a function of 
+
+
+
+
+r
+
+g
+
+
+
+/
+
+
+R
+
+m
+p
+
+
+
+
+{\displaystyle r_{g}/R_{mp}}
+
+ from the MHD applicability test section is also plotted. Note that the Gros model predicts a more rapid decrease in effective area than this model at higher velocities. The normalized values of 
+
+
+
+
+A
+
+G
+
+
+(
+v
+)
+
+
+{\displaystyle A_{G}(v)}
+
+ and 
+
+
+
+
+A
+
+Z
+
+
+(
+v
+)
+
+
+{\displaystyle A_{Z}(v)}
+
+ track closely until 
+
+
+
+β
+=
+v
+
+/
+
+c
+≈
+
+
+{\displaystyle \beta =v/c\approx }
+
+ 10% after which point the Zubrin magsail model of Equation MS.4 becomes increasingly optimistic and equation MKM.2 is applicable instead. Since the models track closely up to  
+
+
+
+β
+≈
+
+
+{\displaystyle \beta \approx }
+
+ 10%, with the kinematic model underestimating effective sail area for smaller values of 
+
+β
+\beta
+
+ (hence underestimating force), equation MKM.1 is an approximation for both the MHD and kinematic region. The Gros model is pessimistic for 
+
+β
+\beta
+
+ < 0.1%.
+
+Gros used the analytic expression for the effective reflection area 
+
+
+
+
+A
+
+G
+
+
+(
+v
+)
+
+
+{\displaystyle A_{G}(v)}
+
+ from equation MKM.3 for explicit solution for the required distance 
+
+
+x
+
+f
+
+
+x_{f}
+
+ to decelerate to final velocity 
+
+
+
+
+v
+
+f
+
+
+≈
+0.013
+c
+
+
+{\displaystyle v_{f}\approx 0.013c}
+
+ from equation (10) given an initial velocity 
+
+
+v
+
+0
+
+
+v_{0}
+
+ (m/s) for a spacecraft mass 
+
+
+m
+
+t
+o
+t
+
+
+m_{tot}
+
+ (kg) as follows:     (MKM.4)where 
+
+
+
+g
+(
+v
+)
+=
+l
+
+n
+
+−
+2
+
+
+(
+
+
+
+v
+
+
+I
+
+G
+
+
+
+
+c
+
+I
+
+
+
+)
+
+
+{\textstyle g(v)=ln^{-2}({\frac {v\,I_{G}}{c\,I}})}
+
+. When 
+
+
+v
+
+f
+
+
+v_{f}
+
+=0 the above equation is defined in equation (11) as 
+
+
+x
+
+m
+a
+x
+
+
+x_{max}
+
+, which enabled a closed form solution of the velocity at a distance 
+
+
+
+x
+,
+v
+(
+x
+)
+
+
+{\displaystyle x,v(x)}
+
+ in equation (12) with numerical integration required to compute the time required to decelerate in equation (14). Equation (16) used this result to compute and optimal current that minimized 
+
+
+
+
+x
+
+m
+a
+x
+
+
+
+
+{\displaystyle x_{max}}
+
+ as 
+
+
+
+
+I
+
+o
+p
+t
+
+
+=
+e
+
+β
+
+0
+
+
+
+I
+
+G
+
+
+
+
+{\displaystyle I_{opt}=e\beta _{0}I_{G}}
+
+ where 
+
+
+
+
+β
+
+0
+
+
+=
+
+v
+
+0
+
+
+
+/
+
+c
+
+
+{\displaystyle \beta _{0}=v_{0}/c}
+
+.  In 2017 Crowl[9] optimized coil current for the ratio of effective area 
+
+
+
+A
+(
+v
+)
+
+
+{\displaystyle A(v)}
+
+ over total mass 
+
+
+m
+
+t
+o
+t
+
+
+m_{tot}
+
+ and derived the result 
+
+
+
+
+I
+
+o
+p
+t
+
+
+=
+
+e
+
+3
+
+
+
+
+β
+
+0
+
+
+
+I
+
+G
+
+
+
+
+{\displaystyle I_{opt}=e^{3}\,\beta _{0}I_{G}}
+
+ in equation (15). That paper used results from Gros for the stopping distance 
+
+
+
+
+x
+
+m
+a
+x
+
+
+
+
+{\displaystyle x_{max}}
+
+ and time to decelerate.
+The figure plots the distance traveled while decelerating 
+
+
+x
+
+d
+
+
+x_{d}
+
+ (ly) and time required to decelerate 
+
+
+t
+
+d
+
+
+t_{d}
+
+ (yr) given a starting relative velocity 
+
+
+
+
+β
+
+0
+
+
+=
+
+v
+
+0
+
+
+
+/
+
+c
+
+
+{\displaystyle \beta _{0}=v_{0}/c}
+
+ and a final velocity 
+
+
+
+
+v
+
+f
+
+
+=
+0.013
+c
+
+
+{\displaystyle v_{f}=0.013c}
+
+ (m/s) consistent with that from Freeland[7] for the same parameters above. Equation CMC.1 gives the magsail mass 
+
+
+M
+
+s
+
+
+M_{s}
+
+ as 97 tonnes assuming 100 tonnes of  payload mass 
+
+
+M
+
+p
+
+
+M_{p}
+
+ using the same values used by Freeland[7] of  
+
+
+J
+
+e
+
+
+J_{e}
+
+ = 1011 (A/m2) and 
+
+
+
+
+δ
+
+c
+
+
+
+
+{\displaystyle \delta _{c}}
+
+=6,500 (kg/m3) for the superconducting coil. Equation MS.4 gives Force for the magsail multiplied by 
+
+
+C
+
+d
+
+
+C_{d}
+
+=4 for the Andrews/Zubrin model to align with equation MHD.3 definition of force from the Gros model. Acceleration is force divided by mass, velocity is the integral of acceleration over the deceleration time interval 
+
+
+t
+
+d
+
+
+t_{d}
+
+ (yr) and deceleration distance traveled 
+
+
+x
+
+d
+
+
+x_{d}
+
+ (ly) is the integral of the velocity over 
+
+
+t
+
+d
+
+
+t_{d}
+
+ (yr). Numerical integration resulted in the lines plotted in the figure with deceleration distance traveled plotted on the primary vertical axis on the left and time required to decelerate on the secondary vertical axis on the right. Note that the MHD Zubrin model and the Gros kinematic model predict nearly identical values of deceleration distance up to 
+
+
+β
+
+0
+
+
+\beta _{0}
+
+~ 5% of light speed, with the Zubrin model predicting less deceleration distance and shorter deceleration time at greater values of 
+
+
+β
+
+0
+
+
+\beta _{0}
+
+. This is consistent with the Gros model predicting a smaller effective area 
+
+
+
+A
+(
+v
+)
+
+
+{\displaystyle A(v)}
+
+ at larger values of 
+
+
+β
+
+0
+
+
+\beta _{0}
+
+. The value of the closed form solution for deceleration distance 
+
+
+
+
+x
+
+f
+
+
+
+
+{\displaystyle x_{f}}
+
+from MKM.4 for the same parameters closely tracks the numerical integration result.
+In 1990 Andrews and Zubrin[41] reported on an example for solar wind parameters one AU away from the Sun, with 
+
+
+
+
+n
+
+i
+
+
+=
+5
+×
+
+10
+
+6
+
+
+
+
+{\textstyle n_{i}=5\times 10^{6}}
+
+ (m−3) with only protons as ions, apparent wind velocity 
+
+
+
+
+u
+
+s
+w
+
+
+
+
+{\textstyle u_{sw}}
+
+=500 (km/s) the field strength required to resist the dynamic pressure of the solar wind is 50 nT from equation MHD.2. With radius 
+
+
+R
+
+c
+
+
+R_{c}
+
+=100 km and magnetospheric bubble of 
+
+
+
+L
+
+
+{\textstyle L}
+
+=500 km (310 mi)[41] reported a thrust of 1980 newtons and a coil mass of 500 tonnes.  For the above parameters with the correction factor of 3.1 applied to equation MS.4 yields the same thrust and equation CMC.1 yields the same coil mass. Results for another 4 solar wind cases were reported,[4] but the MHD applicability test of equation MHD.5 failed in these cases.
+In 2015 Freeland documented in detail an interstellar deceleration use case for approach to Alpha Centaturi as part of a study to update Project Icarus[7] with 
+
+
+R
+
+c
+
+
+R_{c}
+
+=260 km, an initial 
+
+
+
+
+R
+
+m
+p
+
+
+
+
+{\textstyle R_{mp}}
+
+ of 1,320 km and ISM density 
+
+
+
+
+ρ
+
+i
+m
+
+
+=
+1.67
+×
+
+10
+
+−
+22
+
+
+
+
+{\displaystyle \rho _{im}=1.67\times 10^{-22}}
+
+ kg/m3, almost identical to the n(H I) measurement of 0.098 cm−3 by Gry in 2014.[37]  The Freeland study predicted deceleration from 5% of light speed in approximately 19 years.  The coil parameters 
+
+
+J
+
+e
+
+
+J_{e}
+
+=1011 (A/m2), 
+
+
+
+
+r
+
+s
+c
+
+
+
+
+{\displaystyle r_{sc}}
+
+= 5 mm, 
+
+
+
+
+ρ
+
+s
+c
+
+
+
+
+{\displaystyle \rho _{sc}}
+
+=6,500 (kg/m3), resulted in an estimated coil mass is  
+
+
+
+
+M
+
+c
+
+
+(
+p
+h
+y
+)
+
+
+{\displaystyle M_{c}(phy)}
+
+=1,232 tonnes. Although the critical current density  
+
+
+J
+
+e
+
+
+J_{e}
+
+ was based upon a 2000 Zubrin NIAC report projecting values through 2020, the assumed value is close to that for commercially produced YBCO coated superconductor wire in 2020. The mass estimate may be optimistic since it assumed that the entire coil carrying mass is superconducting while 2020 manufacturing techniques place a thin film on a non-superconducting substrate. For the interstellar medium plasma density 
+
+
+
+
+ρ
+
+i
+m
+
+
+
+
+{\displaystyle \rho _{im}}
+
+=1.67x10−22  with an apparent wind velocity 5% of light speed, the ion gyroradius is 570 km and thus the design value for 
+
+
+
+
+R
+
+m
+p
+
+
+
+
+{\textstyle R_{mp}}
+
+ meets the MHD applicability test of equation MHD.5. Equation MFM.3 gives the required coil current as 
+
+
+I
+
+c
+
+
+I_{c}
+
+~7,800 kA and from equation CMC.1 
+
+
+
+
+M
+
+c
+
+
+(
+m
+i
+n
+)
+
+
+{\displaystyle M_{c}(min)}
+
+= 338 tonnes; however, but the corresponding superconducting wire minimum radius from equation CMC.3  is 
+
+
+
+
+r
+
+c
+
+
+(
+m
+i
+n
+)
+
+
+{\displaystyle r_{c}(min)}
+
+ =1 mm, which would be insufficient to handle the decelerating thrust force of 
+
+
+
+
+F
+
+M
+S
+
+
+
+
+{\displaystyle F_{MS}}
+
+ ~ 100,000 N predicted by equation MS.4 and hence the design specified 
+
+
+
+
+r
+
+s
+c
+
+
+
+
+{\displaystyle r_{sc}}
+
+= 5 mm to meet structural requirements. In a complete design, the mass of shielding the coil to maintain critical temperature and survive abrasion in outer space and other infrastructure must also be included. Appendix A estimates these as 90 tonnes for wire shielding and 50 tonnes for the spools and other magsail infrastructure. Freeland compared this magsail deceleration design with one where both acceleration and deceleration were performed by a fusion engine and reported that the mass of such a "dirty Icarus" design was over twice that with the magsail used for deceleration. An Icarus design published in 2020 used a Z-pinch fusion drive in an approach called Firefly that dramatically reduced mass of the fusion drive and made fusion only drive performance comparable to the fusion and magsail design.[52]
+In 2017 Gros[8] reported  numerical examples for the Magsail kinematic model that used different parameters and coil mass models than those used by Freeland. For a high speed mission to Alpha Centauri with initial velocity before deceleration  
+
+
+
+
+v
+
+0
+
+
+=
+c
+
+/
+
+10
+
+
+{\displaystyle v_{0}=c/10}
+
+ using a coil mass of 1500 tons and a coil radius of 
+
+R
+R
+
+=1600 km. The estimated stopping distance was  
+
+
+x
+
+m
+a
+x
+
+
+x_{max}
+
+of 0.37 (ly) and a total travel time of 58 years with 1/3 being deceleration.
+In 2017 Crowl documented a design for a mission starting near the Sun and destined for Planet nine approximately 1,000 AU distant[9] that employed the Magsail kinematic model. The design accounted for the Sun's gravity as well as the impact of elevated temperature on the superconducting coil, composed of meta-stable metallic hydrogen, which has a mass density of 3,500 (kg/m3) about half that of other superconductors. The mission profile used the Magsail to accelerate away from 0.25 to 1.0 AU from the Sun and then used the Magsail to brake against the Local ISM on approach to Planet nine for a total travel time of 29 years. Parameters and coil mass models differ from those used by Freeland.
+Another mission profile uses a magsail oriented at an attack angle to achieve heliocentric transfer between planets moving away from or toward the Sun. In 2013 Quarta and others[10] used Kajimura 2012 simulation results[46] that described the lift (steering angle) and torque to achieve a Venus to Earth transfer orbit of 380 days with a coil radius of 
+
+
+R
+
+c
+
+
+R_{c}
+
+~1 km with characteristic acceleration 
+
+
+a
+
+c
+
+
+a_{c}
+
+=1 mm/s2. In 2019 Bassetto and others[11] used the Quarta "thick" magnetopause model and predicted a Venus to Earth transfer orbit of approximately 8 years for a coil radius of 
+
+
+R
+
+c
+
+
+R_{c}
+
+~1 km. with characteristic acceleration 
+
+
+a
+
+c
+
+
+a_{c}
+
+=0.1 mm/s2. In 2020 Perakis[12] used the Magsail kinematic model with a coil radius of 
+
+
+R
+
+c
+
+
+R_{c}
+
+=350 m, current 
+
+
+I
+
+c
+
+
+I_{c}
+
+=104 A and spacecraft mass of 600 kg that changed attack angle to accelerate away from the Earth orbit and decelerate to Jupiter orbit within 20 years.
+In 2000 Winglee and others proposed a design order to reduce the size and weight of a magnetic sail and named it mini-magnetospheric plasma propulsion (M2P2).[13] The figure based upon[13][53][54][19] illustrates the M2P2 design, which is the same as the Magneto plasma sail (MPS) design. Starting at the center with a solenoid coil of radius 
+
+
+R
+
+H
+
+
+R_{H}
+
+ (m) of 
+
+
+
+
+N
+
+t
+
+
+
+
+{\textstyle N_{t}}
+
+=1,000 turns carrying a radio frequency current that generates a helicon[55] wave that injects plasma fed from a source into a coil of radius 
+
+
+
+
+R
+
+c
+
+
+
+
+{\textstyle R_{c}}
+
+ (m) that carries a current of 
+
+
+I
+
+c
+
+
+I_{c}
+
+ (A), which generates a magnetic field. The excited injected plasma enhances the magnetic field and generates a miniaturized magnetosphere around the spacecraft, analogous to the heliopause where the Sun injected plasma encounters the interstellar medium, coronal mass ejections or the Earth's magnetotail. The injected plasma created an environment that analysis and simulations showed had a magnetic field with a falloff rate of 
+
+
+1
+
+/
+
+r
+
+1/r
+
+ as compared with the classical model of a 
+
+
+
+1
+
+/
+
+
+r
+
+3
+
+
+
+
+{\textstyle 1/r^{3}}
+
+ falloff rate, making the much smaller coil significantly more effective.[13][56] The pressure of the inflated plasma along with the stronger magnetic field pressure at a larger distance due to the lower falloff rate would stretch the magnetic field and inflate a magnetospheric bubble around the spacecraft.
+The 2000 Winglee paper[13] described a design and reported results adapted from the Earth's magnetosphere. Parameters for the coil and solenoid were 
+
+
+R
+
+H
+
+
+R_{H}
+
+=2.5 cm and for the coil 
+
+
+
+
+R
+
+c
+
+
+
+
+{\textstyle R_{c}}
+
+= 0.1 m, 6 orders of magnitude less than the magsail coil with correspondingly much lower mass. An estimate for the weight of the coil was 10 kg and 40 kg for the plasma injection source and other infrastructure. Reported results from Figure 2 were 
+
+
+
+
+B
+
+0
+
+
+≈
+
+
+{\displaystyle B_{0}\approx }
+
+ ×10−3 T at 
+
+
+
+
+R
+
+m
+p
+
+
+≈
+
+
+{\displaystyle R_{mp}\approx }
+
+ 10 km and from Figure 3 an extrapolated result with a plasma injection jet force 
+
+
+
+
+F
+
+j
+e
+t
+
+
+≈
+
+
+{\textstyle F_{jet}\approx }
+
+10−3 N  resulting in a thrust force of 
+
+
+
+
+F
+
+M
+2
+P
+2
+
+
+≈
+
+
+{\textstyle F_{M2P2}\approx }
+
+  1 N. The magnetic-only sail force from equation MHD.3 is 
+
+
+F
+
+w
+
+
+F_{w}
+
+=3x10−11 N and thus M2P2 reported a thrust gain of 4x1010.
+Since M2P2 injects ionized gas at a rate of  
+
+
+
+
+m
+
+i
+n
+
+
+
+
+{\displaystyle m_{in}}
+
+(kg/s) that can be viewed as a propellant it has a specific impulse 
+
+
+
+
+I
+
+s
+p
+
+
+=
+
+F
+
+M
+2
+P
+2
+
+
+
+/
+
+
+m
+
+i
+n
+
+
+
+/
+
+
+g
+
+0
+
+
+
+
+{\displaystyle I_{sp}=F_{M2P2}/m_{in}/g_{0}}
+
+ where 
+
+
+g
+
+0
+
+
+g_{0}
+
+ (m/s2) is the acceleration of Earth's gravity.  Winglee stated 
+
+
+
+
+m
+
+i
+n
+
+
+
+
+{\displaystyle m_{in}}
+
+=0.5 (kg/day) and therefore 
+
+
+I
+
+s
+p
+
+
+I_{sp}
+
+=17,621. The equivalent exhaust velocity 
+
+
+
+
+v
+
+e
+
+
+=
+
+g
+
+0
+
+
+
+
+I
+
+s
+p
+
+
+
+
+{\displaystyle v_{e}=g_{0}\,I_{sp}}
+
+ is 173 km/s for 1 N of thrust force. Winglee assumed total propellant mass of 30 kg and therefore propellant would run out in 60 days.
+In 2003, Khazanov published MagnetoHydroDynamic (MHD) and kinetic studies[14] that confirmed some aspects of M2P2 but raised issues that the sail size was too small, and that very small thrust would result and also concluded that the hypothesized 
+
+
+
+1
+
+/
+
+r
+
+
+{\textstyle 1/r}
+
+ magnetic field falloff rate was closer to 
+
+
+
+1
+
+/
+
+
+r
+
+2
+
+
+
+
+{\textstyle 1/r^{2}}
+
+. The plasma density plots from Khazanov indicated a relatively high density inside the magnetospheric bubble as compared with the external solar wind region that differed significantly from those published by Winglee where the density inside the magnetospheric bubble was much less than outside in the external solar wind region.
+A detailed analysis by Toivanen and others in 2004[39] compared a theoretical model of Magsail, dubbed Plasma-free  Magnetospheric Propulsion (PFMP) versus M2P2 and concluded that the thrust force predicted by Winglee and others was over ten orders of magnitude optimistic since the majority of the solar wind momentum was delivered to the magnetotail and current leakages through the magnetopause and not to the spacecraft.[15] Their comments also indicated that the magnetic field lines may not close near enough to the coil to achieve significant transfer of force. Their analysis made an analogy to the Heliospheric current sheet as an example in astrophysics where the magnetic field could falloff at a rate of between 
+
+
+
+1
+
+/
+
+r
+
+
+{\textstyle 1/r}
+
+ and 
+
+
+
+1
+
+/
+
+
+r
+
+2
+
+
+
+
+{\textstyle 1/r^{2}}
+
+. They also analyzed current sheets reported by Winglee from the magnetopause to the spacecraft in the windward direction and a current sheet in the magnetotail. Their analysis indicated that the current sheets needed to pass extremely close to the spacecraft to impart significant force could generate significant heat and render this leverage impractical.
+In 2005, Cattell and others [16] published comments regarding M2P2 that included a lack of magnetic flux conservation in the region outside the magnetosphere that was not considered in the Khazanov studies. Their analysis concluded in Table 1 that Winglee had significantly underestimated the required sail size, mass, required magnetic flux and asserted that the hypothesized 
+
+
+
+1
+
+/
+
+r
+
+
+{\textstyle 1/r}
+
+ magnetic field falloff rate was not possible.
+The expansion of the magnetic field using injected plasma was demonstrated in a large vacuum chamber on Earth, but quantification of thrust was not part of the experiment.[57] The accompanying presentation has some good animations that illustrate physical principles described in the report.[58]  A 2004 Winglee paper primarily focused on usage of M2P2 for electromagnetic shielding.[59] Beginning in 2003, the Magneto plasma sail design further investigated the plasma injection augmentation of the magnetic field, used larger coils[42] and reported more modest gains.
+In 2003 Funaki and others proposed an approach similar to the M2P2 design and called it the MagnetoPlasma Sail (MPS) that started with a coil 
+
+
+R
+
+c
+
+
+R_{c}
+
+=0.2 m and a magnetic field falloff rate of 
+
+
+f
+
+o
+
+
+f_{o}
+
+=1.52 with injected plasma creating an effective sail radius of 
+
+L
+L
+
+=26 km and assumed a conversion efficiency that transferred a fraction of the solar wind momentum to the spacecraft.[17][60] Simulation results indicated a significant increase in magnetosphere size with plasma injection as compared to the Magsail design, which had no plasma injection. Analysis showed how adjustment of the MPS steering angle created force that could reach the outer planets. A satellite trial was proposed. Preliminary performance results were reported but later modified in subsequent papers.
+Many MPS papers have been published on the magnetic sail contributing to the understanding of general physical principles of an artificial magnetosphere, its magnetohydrodynamic model, and the design approach for computing the magnetopause distance for a given magnetic field source are documented in the linked sections of this article.
+In 2004 Funaki and others analyzed MPS cases where 
+
+
+R
+
+c
+
+
+R_{c}
+
+=10 m and 
+
+
+R
+
+c
+
+
+R_{c}
+
+=100 m[42] as summarized in Table 2 predicting a characteristic length 
+
+L
+L
+
+ of 50 and 450 km producing significant thrust with mass substantially less than the Magsail and hence significant acceleration. This paper detailed the MHD applicability test of equation MHD.5 that the characteristic length must be greater than the ion gyroradius 
+
+
+r
+
+g
+
+
+r_{g}
+
+ (m) to effectively transfer solar wind momentum to the spacecraft. In 2005 Yamakawa and others further described a potential trial.[61]
+
+An analogy with the Earth's magnetosphere and magnetopause in determining the penetration of plasma irregularities into the magnetopause defines the key parameter of a local kinetic plasma beta as the ratio of the dynamic pressure 
+
+
+p
+
+d
+y
+n
+
+
+p_{dyn}
+
+of the injected plasma over the magnetic pressure 
+
+
+p
+
+d
+y
+n
+
+
+p_{dyn}
+
+ as follows[19]    (MPS.1)where 
+
+
+ρ
+
+l
+
+
+\rho _{l}
+
+ (kg/m3) is the local plasma density, 
+
+
+
+
+u
+
+l
+
+
+
+
+{\textstyle u_{l}}
+
+ (m/s) is the local velocity of the plasma and 
+
+
+
+
+B
+
+l
+
+
+
+
+{\displaystyle B_{l}}
+
+ (T) is the local magnetic field. Simulations have shown that the kinetic beta is smallest near the field source, at magnetopause and the bow shock.[19]
+The kinetic 
+
+
+
+
+β
+
+k
+
+
+
+
+{\displaystyle \beta _{k}}
+
+ differs from the thermal plasma beta 
+
+
+
+
+β
+
+i
+
+
+=
+
+p
+
+p
+l
+a
+s
+m
+a
+
+
+
+/
+
+
+p
+
+m
+a
+g
+
+
+
+
+{\textstyle \beta _{i}=p_{plasma}/p_{mag}}
+
+ whis the ratio of the plasma thermal pressure to the magnetic pressure, with terms: 
+
+
+
+
+p
+
+p
+l
+a
+s
+m
+a
+
+
+=
+n
+
+
+k
+
+B
+
+
+
+T
+
+
+{\displaystyle p_{plasma}=n\,k_{B}\,T}
+
+ is the plasma pressure with 
+
+n
+n
+
+ (m−3) the number density, 
+
+
+k
+
+B
+
+
+k_{B}
+
+ (J/K) the Boltzmann constant and 
+
+T
+T
+
+ (eV) the ion temperature; and 
+
+
+
+
+p
+
+m
+a
+g
+
+
+=
+
+B
+
+2
+
+
+
+/
+
+(
+2
+
+μ
+
+0
+
+
+)
+
+
+{\textstyle p_{mag}=B^{2}/(2\mu _{0})}
+
+the magnetic pressure for magnetic field 
+
+B
+B
+
+ (T) and 
+
+
+μ
+
+0
+
+
+\mu _{0}
+
+ (H/m) vacuum permeability. In the context of the MPS, 
+
+
+β
+
+k
+
+
+\beta _{k}
+
+ determines the propensity of the injected plasma flow to stretch the magnetic field while 
+
+
+β
+
+i
+
+
+\beta _{i}
+
+ specifies the relative energy of the injected plasma.[62]
+In 2005 Funaki and others published numerical analysis[63] showing 
+
+
+f
+
+0
+
+
+f_{0}
+
+=1.88 for 
+
+
+β
+
+k
+
+
+\beta _{k}
+
+=0.1.  In 2009 Kajimura published simulation results[64] with 
+
+
+β
+
+k
+
+
+\beta _{k}
+
+=5 and 
+
+
+β
+
+i
+
+
+\beta _{i}
+
+ ranging from 6 to 20 that the magnetic field falloff rate 
+
+
+f
+
+0
+
+
+f_{0}
+
+ with argon and xenon plasma injected into the polar region was 
+
+
+f
+
+0
+
+
+f_{0}
+
+=2.1 and with argon plasma injected into the equatorial region was 
+
+
+f
+
+0
+
+
+f_{0}
+
+=1.8.
+If 
+
+
+
+
+β
+
+k
+
+
+>
+1
+
+
+{\displaystyle \beta _{k}>1}
+
+ then the Injection of a high-velocity, high-density plasma into a magnetosphere as proposed in M2P2 freezes the motion of a magnetic field into the plasma flow and was believed to inflate the magnetosphere.[14] However experiments and numerical analysis determined that the solar wind cannot compress the magnetosphere and momentum transfer to the spacecraft is limited since momentum is transferred to injected plasma flowing out of the magnetosphere,[19] similar to another criticism of M2P2.[39]
+An alternative is to reduce the plasma injection velocity and density to result in 
+
+
+
+
+β
+
+k
+
+
+<
+1
+
+
+{\displaystyle \beta _{k}<1}
+
+ to achieve a plasma in equilibrium with the inflated magnetic field and therefore induce an equatorial diamagnetic current in the same direction as the coil current as shown in the figure, thereby increasing the magnetic moment of the MPS field source and consequently increasing thrust. In 2013 Funaki and others[19][65] published simulation and theoretical results regarding how characteristics of the injected plasma affected thrust gain through creation of an equatorial ring current. They defined thrust gain for MPS as 
+
+
+
+
+G
+
+M
+P
+S
+
+
+=
+
+F
+
+M
+P
+S
+
+
+
+/
+
+
+F
+
+m
+a
+g
+
+
+
+
+{\displaystyle G_{MPS}=F_{MPS}/F_{mag}}
+
+: the ratio of the force generated by low beta plasma injection 
+
+
+
+
+F
+
+M
+P
+S
+
+
+
+
+{\displaystyle F_{MPS}}
+
+ divided by that of a pure magnetic sail 
+
+
+
+
+F
+
+m
+a
+g
+
+
+
+
+{\displaystyle F_{mag}}
+
+ from equation MFM.5 with 
+
+
+
+
+f
+
+o
+
+
+=
+3
+
+
+{\textstyle f_{o}=3}
+
+ and 
+
+
+
+
+C
+
+S
+O
+
+
+=
+0.5
+
+
+{\displaystyle C_{SO}=0.5}
+
+ for 
+
+
+
+
+r
+
+g
+
+
+≤
+L
+
+
+{\displaystyle r_{g}\leq L}
+
+ or from equation GKM.1 for 
+
+
+
+
+r
+
+g
+
+
+>
+L
+
+
+{\displaystyle r_{g}>L}
+
+. They reported 
+
+
+
+
+G
+
+M
+P
+S
+
+
+
+
+{\displaystyle G_{MPS}}
+
+ of approximately 40 for magnetospheres less than the MHD applicability test and 3.77 for a larger magnetosphere where MHD applicability occurred, larger than values reported in 2012 of 20 and 3.3, respectively. Simulations revealed that optimum thrust gain occurred for 
+
+
+
+
+β
+
+k
+
+
+<
+1
+
+
+{\displaystyle \beta _{k}<1}
+
+ and 
+
+
+
+
+β
+
+i
+
+
+≈
+10
+
+
+{\displaystyle \beta _{i}\approx 10}
+
+.
+In 2014 Arita, Nishida and Funaki published simulation results[54] indicating that plasma injection created an equatorial ring current and that the plasma injection rate had a significant impact on thrust performance, with the lowest value simulated having the best performance of a thrust gain 
+
+
+
+
+G
+
+M
+P
+S
+
+
+
+
+{\displaystyle G_{MPS}}
+
+ of 3.77 with 
+
+
+
+
+β
+
+i
+
+
+≈
+25
+
+
+{\displaystyle \beta _{i}\approx 25}
+
+. They also reported that MPS increased the height of the magnetosphere by a factor  of 2.6, which is important since it increases the effective sail blocking area.
+
+In 2014 Ashida and others documented Particle In Cell (PIC) simulation results for a kinematic model for cases where 
+
+
+
+
+r
+
+g
+
+
+>>
+L
+
+
+{\displaystyle r_{g}>>L}
+
+ where MHD is not applicable.[66]  Equation (12) of their study included the additional force of the injected plasma jet 
+
+
+
+
+F
+
+j
+e
+t
+
+
+
+
+{\displaystyle F_{jet}}
+
+ consisting of momentum and static pressure of ions and electrons and defined thrust gain as 
+
+
+
+
+F
+
+M
+P
+S
+
+
+
+/
+
+(
+
+F
+
+m
+a
+g
+
+
++
+
+F
+
+j
+e
+t
+
+
+)
+
+
+{\textstyle F_{MPS}/(F_{mag}+F_{jet})}
+
+, which differs from the definition of a term by the same name in other studies.[19][65]  It represents the gain of MPS over that of simply adding the magnetic sail force and the plasma injection jet force. For the values cited in the conclusion, 
+
+
+
+
+F
+
+M
+P
+S
+
+
+
+/
+
+
+F
+
+m
+a
+g
+
+
+
+
+{\displaystyle F_{MPS}/F_{mag}}
+
+ is 7.5 in the radial orientation. Since a number of results were published by different authors at different times, the figure summarizes the reported thrust gain 
+
+
+
+
+G
+
+M
+P
+S
+
+
+
+
+{\displaystyle G_{MPS}}
+
+ versus magnetosphere size (or characteristic length 
+
+L
+L
+
+) with the source indicated in the legend as follows for simulation results Arita14,[54] Ashida14,[66] Funaki13,[19] and Kajimura10.[67] Simulation results require significant compute time, for example it took 1024 CPUs 4 days to simulate the simplest case and 4096 CPUs one week to simulate a more complex case.[48] A thrust gain between 2 and 10 is common with the larger gains with a magnetic nozzle injecting plasma in one direction in opposition to the solar wind.[53][68] The MHD applicability test of equation MHD.5 for the solar wind is 
+
+
+
+L
+≈
+
+
+{\displaystyle L\approx }
+
+72 km. Therefore, the estimated force of the MPS is that of equation MHD.3 multiplied by the empirically determined thrust gain 
+
+
+
+
+G
+
+M
+P
+S
+
+
+
+
+{\displaystyle G_{MPS}}
+
+ from the figure multiplied by the percentage thrust loss 
+
+
+
+
+T
+
+l
+o
+s
+s
+
+
+
+
+{\displaystyle T_{loss}}
+
+ from equation MHD.6
+    (MPS.2)For example, using solar wind parameters 
+
+ρ
+\rho
+
+=8x10−21 kg/m3 and 
+
+u
+u
+
+=500 km/s then 
+
+
+r
+
+g
+
+
+r_{g}
+
+=72 km and 
+
+
+
+
+B
+
+m
+p
+
+
+
+
+{\displaystyle B_{mp}}
+
+=4x10−8 T.  With 
+
+L
+L
+
+=105 m  for 
+
+
+f
+
+o
+
+
+f_{o}
+
+=3 then 
+
+
+
+
+r
+
+g
+
+
+<
+L
+
+
+{\displaystyle r_{g}<L}
+
+  and 
+
+
+
+
+T
+
+l
+o
+s
+s
+
+
+≈
+
+
+{\displaystyle T_{loss}\approx }
+
+ 11% from equation MHD.6. The magnetic field only force with a coil radius of 
+
+
+R
+
+c
+
+
+R_{c}
+
+=6,300 m and coil current 
+
+
+I
+
+c
+
+
+I_{c}
+
+=1.6x106 A yields 
+
+
+B
+
+0
+
+
+B_{0}
+
+=1.6x10−4 T from equation MFM.2 and with 
+
+
+C
+
+d
+
+
+C_{d}
+
+=5 the magnetic force only is 175 N from equation MFM.5. Determining 
+
+
+
+
+G
+
+M
+P
+S
+
+
+≈
+
+
+{\displaystyle G_{MPS}\approx }
+
+4 from the figure at 
+
+L
+L
+
+=105 m as the multiplier for the magnetic-only force then the MPS force 
+
+
+
+
+F
+
+M
+P
+S
+
+
+≈
+
+
+{\displaystyle F_{MPS}\approx }
+
+700 N.
+Since MPS injects ionized gas at a rate of  
+
+
+
+
+m
+
+i
+n
+
+
+
+
+{\displaystyle m_{in}}
+
+(kg/s) that can be viewed as a propellant it has a specific impulse 
+
+
+
+
+I
+
+s
+p
+
+
+=
+
+F
+
+M
+P
+S
+
+
+
+/
+
+
+m
+
+i
+n
+
+
+
+/
+
+
+g
+
+0
+
+
+
+
+{\displaystyle I_{sp}=F_{MPS}/m_{in}/g_{0}}
+
+ where 
+
+
+g
+
+0
+
+
+g_{0}
+
+ (m/s2) is the acceleration of Earth's gravity.  Funaki[19] and Arita[54] stated 
+
+
+
+
+m
+
+i
+n
+
+
+
+
+{\displaystyle m_{in}}
+
+=0.31 (kg/day). Therefore 
+
+
+I
+
+s
+p
+
+
+I_{sp}
+
+=28,325 (s) per newton of thrust force. The equivalent exhaust velocity 
+
+
+
+
+v
+
+e
+
+
+=
+
+g
+
+0
+
+
+
+
+I
+
+s
+p
+
+
+
+
+{\displaystyle v_{e}=g_{0}\,I_{sp}}
+
+ is 278 km/s per newton of thrust force.
+In 2015 Kajimura and others published simulation results for thrust performance[68] with plasma injected by a magnetic nozzle, a technology used in VASIMR. They reported a thrust gain 
+
+
+
+
+G
+
+M
+P
+S
+
+
+
+
+{\displaystyle G_{MPS}}
+
+ of 24 when the ion gyroradius 
+
+
+
+
+r
+
+g
+
+
+
+
+{\displaystyle r_{g}}
+
+ (see equation MHD.5) was comparable to the characteristic length 
+
+L
+L
+
+, at the boundary of the MHD applicability test. The optimal result occurred with a thermal 
+
+
+
+
+β
+
+i
+
+
+≈
+1
+
+
+{\displaystyle \beta _{i}\approx 1}
+
+ with some decrease for higher values of thermal beta.
+In 2015 Hagiwara and Kajimura published experimental thrust performance test results with plasma injection using a magnetoplasmadynamic thruster (aka MPD thruster or MPD Arcjet) in a single direction opposite the solar wind direction and a coil with the axial orientation.[53][68] This meant that 
+
+
+
+
+F
+
+j
+e
+t
+
+
+
+
+{\textstyle F_{jet}}
+
+ provided additional propulsive force. Density plots explicitly show the increased plasma density upwind of the bow shock originating from the MPD thruster. They reported that 
+
+
+
+
+F
+
+M
+P
+S
+
+
+>>
+
+F
+
+m
+a
+g
+
+
++
+
+F
+
+j
+e
+t
+
+
+
+
+{\textstyle F_{MPS}>>F_{mag}+F_{jet}}
+
+showing how MPS inflated the magnetic field to create more thrust than the magnetic sail alone plus that of the <<text gap here>>. The conclusion of the experiment was that the thrust gain 
+
+
+
+
+G
+
+M
+P
+S
+
+
+
+
+{\displaystyle G_{MPS}}
+
+ was approximately 12 for a scaled characteristic length of 
+
+L
+L
+
+ = 60 km. In the above figure, note the significant improvement in thrust gain at 
+
+L
+L
+
+ = 60 km.as compared with only plasma injection.
+In this example, using solar wind parameters 
+
+ρ
+\rho
+
+=8x10−21 kg/m3 and 
+
+u
+u
+
+=500 km/s then 
+
+
+r
+
+g
+
+
+r_{g}
+
+=72 km and 
+
+
+
+
+B
+
+m
+p
+
+
+
+
+{\displaystyle B_{mp}}
+
+=4x10−8 T.  With 
+
+L
+L
+
+=60 km  for 
+
+
+f
+
+o
+
+
+f_{o}
+
+=3 then 
+
+
+
+
+r
+
+g
+
+
+≈
+L
+
+
+{\displaystyle r_{g}\approx L}
+
+  and 
+
+
+
+
+T
+
+l
+o
+s
+s
+
+
+≈
+
+
+{\displaystyle T_{loss}\approx }
+
+ 28% from equation MHD.6. The magnetic field only force with a coil radius of 
+
+
+R
+
+c
+
+
+R_{c}
+
+=2,900 m and coil current 
+
+
+I
+
+c
+
+
+I_{c}
+
+=1.6x106 A yields 
+
+
+B
+
+0
+
+
+B_{0}
+
+=3.5x10−4 T from equation MFM.2 and with 
+
+
+C
+
+d
+
+
+C_{d}
+
+=5 the magnetic force only is 51 N from equation MFM.5. Given 
+
+
+
+
+G
+
+M
+P
+S
+
+
+
+
+{\displaystyle G_{MPS}}
+
+=12  as the multiplier for the magnetic only force then the MPS force 
+
+
+
+
+F
+
+M
+P
+S
+
+
+≈
+
+
+{\displaystyle F_{MPS}\approx }
+
+611 N.
+In 2017 Ueno published a design proposing use of multiple coils to generate a more complex magnetic field to increase thrust production.[69]  In 2020 Murayama and others published additional experimental results for a multi-pole MPD thruster.[23]
+In 2020 Peng and others[70] published MHD simulation results for a magnetic dipole with plasma injection operating in Low Earth orbit at 500 km within the Earth's Ionosphere where the ion number density is approximately 1011 (m−3). As reported in Figure 3, the magnetic field strength initially falls off as 1/r and then approaches 1/r2 at larger distances from the dipole. The radius of the artificial mini-magnetosphere could extend up to 200 m for this scenario. They reported that the injected plasma reduced magnetic field fall off rate and created of a drift current, similar to earlier reported MPS results for the solar wind.[66]
+The plasma magnet (PM) sail design introduced a different approach to generate a static magnetic dipole as illustrated in the figure.[24][25] As shown in the detailed view on the right the field source is two relatively small crossed perpendicularly oriented antenna coils each of radius 
+
+
+R
+
+c
+
+
+R_{c}
+
+ (m), each carrying a sinusoidal alternating current (AC) with the total current of 
+
+
+I
+
+c
+
+
+I_{c}
+
+ (A) generated by an onboard power supply. The AC current applied to each coil is out of phase by 90 degrees and consequently generates a rotating magnetic field (RMF) with rotational speed 
+
+
+
+
+ω
+
+R
+M
+F
+
+
+
+
+{\displaystyle \omega _{RMF}}
+
+(rad/s) chosen that is fast enough that positive ions do not rotate but the less massive electrons rotate at this speed. The figure illustrates rotation using color coded contours of constant magnetic strength, not magnetic field lines. In order to inflate the magnetospheric bubble the  thermal plasma beta 
+
+
+β
+
+t
+
+
+\beta _{t}
+
+ must be high and initially a plasma injection may be necessary, analogous to inflating a balloon when small and internal tension is high. After initial inflation, protons and rotating electrons are captured from the plasma wind through the leaky magnetopause and as shown in the left create a current disc shown as transparent red in the figure with darker shading indicating greatest density near the coil pair and extending out to the magnetopause radius Rmp, which is orders of magnitude larger than the coil radius Rc (figure not drawn to scale). See RMDCartoon.avi for an animation of this effect.[71] The induced current disc carries a direct current 
+
+
+
+
+I
+
+c
+d
+
+
+
+
+{\displaystyle I_{cd}}
+
+ (A) orders of magnitude larger than the input alternating current 
+
+
+I
+
+c
+
+
+I_{c}
+
+ (A) and forms a static dipole magnetic field oriented perpendicular to the current disc reaching a standoff balance with the plasma wind pressure at distance 
+
+
+
+
+R
+
+m
+p
+
+
+≈
+L
+
+
+{\displaystyle R_{mp}\approx L}
+
+ at the magnetopause boundary according to the MHD model of an artificial magnetosphere.
+The magnetic field falloff rate was assumed to be 
+
+
+
+
+f
+
+o
+
+
+
+
+{\displaystyle f_{o}}
+
+ =1 is described in detail in,[25][56] but as described by Khazanov,[14] restated by Kirtley and Slough[27] and several MPS studies concluded that 
+
+
+
+
+f
+
+o
+
+
+
+
+{\displaystyle f_{o}}
+
+ is closer to 2. The falloff rate 
+
+
+
+
+f
+
+o
+
+
+
+
+{\displaystyle f_{o}}
+
+ is a critical parameter in the determination of performance.
+The RMF-induced rotating disc of electrons has current density 
+
+
+
+
+j
+
+θ
+
+
+(
+r
+)
+
+
+{\displaystyle j_{\theta }(r)}
+
+ (A/m2) at distance r from the antenna as given by equation (5)[25] for 
+
+
+
+
+f
+
+o
+
+
+=
+1
+
+
+{\displaystyle f_{o}=1}
+
+ and equation (4) for 
+
+
+
+
+f
+
+o
+
+
+=
+2
+
+
+{\displaystyle f_{o}=2}
+
+,[27] which states that flux conservation requires this falloff rate, consistent with a criticism of M2P2 by Cattell[16] as follows: 
+    (PM.1)where 
+
+
+
+B
+(
+
+R
+
+0
+
+
+)
+
+
+{\textstyle B(R_{0})}
+
+ (T) is the magnetic field at radius 
+
+
+
+
+R
+
+0
+
+
+≈
+
+R
+
+c
+
+
+
+
+{\displaystyle R_{0}\approx R_{c}}
+
+ (m) near the antenna coils. Note that the current density is highest at 
+
+
+
+r
+=
+
+R
+
+0
+
+
+
+
+{\displaystyle r=R_{0}}
+
+ and falls off at a rate of 
+
+
+
+
+f
+
+o
+
+
++
+1
+
+
+{\displaystyle f_{o}+1}
+
+. A critical condition for the plasma magnet design from equation (1a)[25] provides a lower bound on the RMF frequency 
+
+
+
+
+ω
+
+R
+M
+F
+
+
+
+
+{\displaystyle \omega _{RMF}}
+
+ (rad/s) as follows so that electrons in the plasma wind are magnetized and rotate but the ions are not magnetized and do not rotate:
+    (PM.2)where 
+
+
+
+
+ω
+
+c
+i
+
+
+
+
+{\displaystyle \omega _{ci}}
+
+ (rad/s) is the ion gyrofrequency in the RMF near the antenna coils, 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ is charge number of the ion, 
+
+e
+e
+
+ (C) is the elementary charge, and 
+
+
+
+
+m
+
+i
+
+
+
+
+{\displaystyle m_{i}}
+
+ (kg) is the (average) mass of the ion(s). Specifying the magnetic field near the coils at radius 
+
+
+R
+
+0
+
+
+R_{0}
+
+ is critical since this is where the current density is greatest. Choosing a magnetic field at magnetopause yields a lower value of 
+
+
+
+
+ω
+
+R
+M
+F
+
+
+
+
+{\displaystyle \omega _{RMF}}
+
+ but ions closer to the coils will rotate. Another condition is that 
+
+
+
+
+ω
+
+R
+M
+F
+
+
+
+
+{\displaystyle \omega _{RMF}}
+
+ be small enough such that collisions are extremely unlikely.
+The required power to generate the RMF  
+
+
+
+
+P
+
+R
+M
+F
+
+
+
+
+{\displaystyle P_{RMF}}
+
+ is derived by integrating the product of the square of the current density from equation PM.1 and the resistivity of the plasma 
+
+
+η
+
+p
+
+
+\eta _{p}
+
+ (kg/m3) from 
+
+
+R
+
+0
+
+
+R_{0}
+
+to 
+
+
+
+
+R
+
+m
+p
+
+
+
+
+{\displaystyle R_{mp}}
+
+ with the result as follows:
+    (PM.3)where 
+
+
+η
+
+p
+
+
+\eta _{p}
+
+ (W m) is the Spitzer resistivity of the plasma of ~1.2x10−3 
+
+
+T
+
+e
+
+
+T_{e}
+
+ where 
+
+
+T
+
+e
+
+
+T_{e}
+
+ is the electron temperature assumed to be 15 eV.[25][72] The above result is the same as equation (7)[25] for 
+
+
+
+
+f
+
+o
+
+
+=
+1
+
+
+{\displaystyle f_{o}=1}
+
+ and equation (5) for 
+
+
+
+
+f
+
+o
+
+
+=
+2
+
+
+{\displaystyle f_{o}=2}
+
+.[27]
+Starting with the definition of plasma wind power from equation MHD.4, rearranging and recognizing that equation PM.3 can be substituted and then using equation MFM.1 yields the following expression
+    (PM.4)which is the same as equation (10) for 
+
+
+
+
+f
+
+o
+
+
+=
+1
+
+
+{\displaystyle f_{o}=1}
+
+.[25] Note that solution for 
+
+
+
+
+P
+
+R
+M
+F
+
+
+
+
+{\displaystyle P_{RMF}}
+
+ and 
+
+
+R
+
+0
+
+
+R_{0}
+
+ must also satisfy equation PM.3.
+
+A number of the examples cited assume a magnetopause radius 
+
+
+
+
+R
+
+m
+p
+
+
+
+
+{\displaystyle R_{mp}}
+
+ that does not meet the MHD applicability test of equation MHD.5.  From the definition of power in physics a constant force is power divided by velocity, the force generated by the plasma magnet (PM) sail is as follows    (PM.5)Note that as the falloff rate 
+
+
+f
+
+o
+
+
+f_{o}
+
+ increases that the force derived from the plasma wind decreases, or to maintain the same force 
+
+
+
+
+P
+
+R
+M
+F
+
+
+
+
+{\displaystyle P_{RMF}}
+
+ and/or 
+
+
+R
+
+0
+
+
+R_{0}
+
+ must increase.
+Equation CMC.2 gives the mass for each physical coil of radius 
+
+
+R
+
+c
+
+
+R_{c}
+
+ (m). Since the RMF requires alternating current and semiconductors are not efficient at higher frequencies, aluminum was specified with mass density 
+
+
+
+
+δ
+
+c
+
+
+
+
+{\displaystyle \delta _{c}}
+
+ = 2,700 (kg/m3). Estimates of the coil mass[25] are optimistic by a factor of 
+
+
+4
+π
+
+4\pi
+
+ since only one coil was sized and the coil circumference was specified as 
+
+
+R
+
+c
+
+
+R_{c}
+
+ instead of 
+
+
+
+2
+π
+
+R
+
+c
+
+
+
+
+{\displaystyle 2\pi R_{c}}
+
+.
+The coil resistance is the product of coil material resistivity 
+
+
+η
+
+c
+
+
+\eta _{c}
+
+ (Ω m)  (e.g., ~3x10−8 for aluminum) and the coil length 
+
+
+
+2
+π
+
+R
+
+c
+
+
+
+
+{\displaystyle 2\pi R_{c}}
+
+ (m) divided by the coil wire cross sectional area where 
+
+
+r
+
+c
+
+
+r_{c}
+
+ (m) is the radius of the coil wire as follows:
+    (PM.6)Some additional power must compensate for resistive loss but it is orders of magnitude less than 
+
+
+
+
+P
+
+R
+M
+F
+
+
+
+
+{\displaystyle P_{RMF}}
+
+. The peak current carried by a coil is specified by the RMF power and coil resistance from the definition of electrical power in physics as follows:
+    (PM.7)
+The current induced in the disc by the RMF 
+
+
+
+
+I
+
+i
+c
+
+
+
+
+{\displaystyle I_{ic}}
+
+ (A) is the integral of the current density 
+
+
+
+j
+(
+r
+,
+
+f
+
+o
+
+
+)
+
+
+{\displaystyle j(r,f_{o})}
+
+ from equation PM.1 on the surface of the disc with inner radius 
+
+
+
+
+R
+
+c
+
+
+
+
+{\textstyle R_{c}}
+
+ and outer radius 
+
+
+
+
+R
+
+M
+P
+
+
+
+
+{\textstyle R_{MP}}
+
+ with result:    (PM.8)the same as equation (11) from Slough for 
+
+
+f
+
+o
+
+
+f_{o}
+
+=1.[25]
+Laboratory experiments[25] validated that the RMF creates a magnetospheric bubble, electron temperature near the coils increases and that thrust was generated. Since the scale of a terrestrial experiment is limited simulations or a flight trial was recommended. Some of these concepts adapted to an ionospheric plasma environment were carried on in the Magnetoshell magnetic design.
+In 2022 Freeze, Greason and others[26] published a detailed design for a plasma magnet based sail for a spacecraft named Wind Rider that would use solar wind force to accelerate away from near Earth and decelerate against the magnetosphere of Jupiter in a spaceflight trial mission called Jupiter Observing Velocity Experiment (JOVE). This design employed a pair of superconducting coils each with radius 
+
+
+R
+
+c
+
+
+R_{c}
+
+ of 9 (m), an alternating current of 
+
+
+I
+
+c
+
+
+I_{c}
+
+ of 112 (A) with  
+
+
+
+
+ω
+
+R
+M
+F
+
+
+
+/
+
+(
+2
+π
+)
+
+
+{\displaystyle \omega _{RMF}/(2\pi )}
+
+ of 4 (Hz).
+For example, using solar wind parameters 
+
+ρ
+\rho
+
+=8x10−21 kg/m3 and 
+
+u
+u
+
+=500 km/s then 
+
+
+r
+
+g
+
+
+r_{g}
+
+=72 km and 
+
+
+
+
+B
+
+m
+p
+
+
+
+
+{\displaystyle B_{mp}}
+
+=4x10−8 T.  With 
+
+L
+L
+
+=105 m  and 
+
+
+f
+
+o
+
+
+f_{o}
+
+=2 then 
+
+
+
+
+r
+
+g
+
+
+<
+L
+
+
+{\displaystyle r_{g}<L}
+
+. With a coil radius of 
+
+
+R
+
+c
+
+
+R_{c}
+
+=1,000 m yields 
+
+
+B
+
+0
+
+
+B_{0}
+
+=4x10−4 T from equation MFM.2. The required RMF power from equation PM.3 is 13 kW with a required AC coil current 
+
+
+I
+
+c
+
+
+I_{c}
+
+=10 A from equation PM.3 resulting in an induced current of 
+
+
+
+
+I
+
+i
+c
+
+
+
+
+{\displaystyle I_{ic}}
+
+=2 kA from equation PM.7 . With 
+
+
+C
+
+d
+
+
+C_{d}
+
+=5 the plasma magnet force from equation PM.3  is 197 N. The magnetic force only for the above parameters is 2.8 N from equation MFM.5 and therefore the plasma magnet thrust gain is 71. Using 
+
+
+f
+
+o
+
+
+f_{o}
+
+=1 creates very optimistic performance numbers, but since Slough changed this to 
+
+
+f
+
+o
+
+
+f_{o}
+
+=2 in 2012,[27] this case is not compared in this article.
+A 2012 study by Kirtley and Slough investigated the plasma magnet technology for use in the ionosphere of a planet as a braking mechanism in an approach dubbed plasma magnetoshell.[27] The magnetoshell creates drag by ionizing neutral atoms in a planet's ionosphere then magnetically deflecting them. A tether attaching the plasma magnet coils to the spacecraft transfers momentum such that orbital insertion occurs. Analytical models, laboratory demonstrations and mission profiles to Neptune and Mars were described.
+In 2017 Kelly described using a single-coil magnet with 1/r3 magnetic field falloff rate and more experimental results.[73] In 2019 Kelly and Little published simulation results for magnetoshell performance scaling.[28]  A magnet with radius 
+
+
+R
+
+c
+
+
+R_{c}
+
+=1 m was tethered to a spacecraft with batteries for 1,000 seconds of operation (longer than aerocapture designs). The simulations assumed a magnet mass 
+
+
+M
+
+c
+
+
+M_{c}
+
+=1,000 kg and total magnetoshell system mass of 1,623 kg, suitable for a Cassini–Huygens or Juno size orbiter. The planet's mass and atmosphere atomic composition and density determine a threshold velocity where magnetoshell operation is feasible. Saturn and Neptune have a hydrogen atmosphere and a threshold velocity of approximately 22 km/s. In a Neptune mission a 
+
+
+Δ
+v
+
+\Delta v
+
+=6 km is required for a 5,000 kg spacecraft and must average 50 kN for the maneuver duration. The model overestimates performance for N2 (Earth, Titan) and CO2 (Venus, Mars) atmospheres since multiple ion species are created and more complex interactions occur. Furthermore, the relatively lower mass of Venus and Mars reduces the threshold velocity below that of feasible magnetoshell operation. The paper states that aerocapture technologies are mature enough for these mission profiles.
+In 2021 Kelly and Little published further details[29] for use of drag-modulated plasma aerocapture (DMPA) that when compared to Adaptable Deployable Entry and Placement Technology (ADEPT)[74] for drag-modulated aerocapture (DMA) to Neptune[75] that could deliver 70% higher orbiter mass and experience 30% lower stagnation heating.
+A beam-powered of M2P2 variant, MagBeam was proposed in 2011.[76] In this design a magnetic sail is used with beam-powered propulsion, by using a high-power particle accelerator to fire a beam of charged particles at the spacecraft.[77] The magsail would deflect this beam, transferring momentum to the vehicle, that could provide higher acceleration than a solar sail driven by a laser, but a charged particle beam would disperse in a shorter distance than a laser due to the electrostatic repulsion of its component particles.  This dispersion problem could potentially be resolved by accelerating a stream of sails which then in turn transfer their momentum to a magsail vehicle, as proposed by Jordin Kare.[citation needed]
+The table below compares performance measures for the magnetic sail designs with the following parameters for the solar wind (sw) at 1 AU: velocity 
+
+
+
+
+u
+
+s
+w
+
+
+
+
+{\displaystyle u_{sw}}
+
+= 500 km/s, number density 
+
+
+n
+
+i
+
+
+n_{i}
+
+= 5x106 (m−3), ion mass 
+
+
+m
+
+i
+
+
+m_{i}
+
+ = 1.67x10−27 kg a proton mass, resulting in mass density 
+
+
+
+
+ρ
+
+s
+w
+
+
+=
+
+m
+
+i
+
+
+
+n
+
+i
+
+
+
+
+{\displaystyle \rho _{sw}=m_{i}n_{i}}
+
+ = 8.4x10−21 (kg/m3),  and coefficient of drag 
+
+
+C
+
+d
+
+
+C_{d}
+
+=5 where applicable. Equation MHD.2 gives the magnetic field at magnetopause as 
+
+
+
+
+B
+
+m
+p
+
+
+
+
+{\displaystyle B_{mp}}
+
+≈ 36 nT, equation MHD.5 gives the ion gyroradius 
+
+
+
+
+r
+
+g
+
+
+
+
+{\displaystyle r_{g}}
+
+≈ 72 km for 
+
+
+
+
+C
+
+L
+i
+
+
+
+
+{\displaystyle C_{Li}}
+
+=2. Table entries in boldface are from a cited source as described in the following:
+Equation MS.4 determines force for the Magsail (MS) divided by the Freeland correction factor 3.1,[7] equation PM.5 defines the force for the plasma magnet (PM) with the assumed magnetic field falloff rate 
+
+
+f
+
+o
+
+
+f_{o}
+
+=2. The force for the magnetic sail alone 
+
+
+
+
+F
+
+m
+a
+g
+
+
+
+
+{\displaystyle F_{mag}}
+
+ is from equation MFM.5. Thrust gain 
+
+
+G
+
+T
+
+
+G_{T}
+
+ for the magneto plasma sail (MPS) is the simulation and/or experimentally determined value with force defined equation MPS.2 to account for thrust loss due to operation in a kinematic region. The last column headed MPS+MPD adds a magnetoplasma dynamic thruster (MPD) that has a higher thrust gain as determined by experiment and simulation. Further details are in the section for the specific design. For designs other than MPS and MPS+MPD, the thrust gain 
+
+
+G
+
+T
+
+
+G_{T}
+
+ is the achieved force from the first row divided by the force of a magnetic sail alone in the second row. The magnetopause distance 
+
+
+
+
+R
+
+m
+p
+
+
+≈
+L
+
+
+{\textstyle R_{mp}\approx L}
+
+ (m) and the coil radius 
+
+
+
+
+R
+
+c
+
+
+
+
+{\textstyle R_{c}}
+
+(m) are design parameters. Equation MFM.1 with 
+
+
+
+r
+=
+
+R
+
+m
+p
+
+
+
+
+{\textstyle r=R_{mp}}
+
+ defines the magnetic field near the coil(s) as 
+
+
+
+
+B
+
+0
+
+
+=
+B
+(
+
+R
+
+0
+
+
+)
+=
+
+B
+
+m
+p
+
+
+(
+
+R
+
+m
+p
+
+
+
+/
+
+
+R
+
+0
+
+
+
+)
+
+1
+
+/
+
+
+f
+
+o
+
+
+
+
+
+
+{\textstyle B_{0}=B(R_{0})=B_{mp}(R_{mp}/R_{0})^{1/f_{o}}}
+
+ (T).
+The superconducting coil designs used a critical current density 
+
+
+
+
+J
+
+c
+
+
+
+
+{\displaystyle J_{c}}
+
+=2x106 (A/m) to account for warmer temperatures in the solar system. The plasma magnet uses AC power and cannot use a superconducting coil and assumed an aluminum coil with material density 
+
+
+
+
+δ
+
+c
+
+
+
+
+{\displaystyle \delta _{c}}
+
+ = 2,700 kg/m3 and coil wire radius 
+
+
+r
+
+c
+
+
+r_{c}
+
+=5 mm.  All other designs assumed a superconducting coil with material density 
+
+
+
+
+δ
+
+c
+
+
+
+
+{\displaystyle \delta _{c}}
+
+ =6,500 kg/m3,  coil wire radius 
+
+
+r
+
+c
+
+
+r_{c}
+
+=5 mm,  and critical current 
+
+
+
+max
+
+I
+
+c
+
+
+≈
+
+
+{\displaystyle \max I_{c}\approx }
+
+1.6 x106 A, above which the coil becomes a normal conductor. The magnetopause distance 
+
+
+
+
+R
+
+m
+p
+
+
+≈
+L
+
+
+{\displaystyle R_{mp}\approx L}
+
+ and coil radius 
+
+
+R
+
+c
+
+
+R_{c}
+
+ for superconducting-coil based designs were adjusted to meet this critical current constraint. The values for the plasma magnet used a value of 
+
+
+R
+
+c
+
+
+R_{c}
+
+ for 
+
+
+f
+
+o
+
+
+f_{o}
+
+=2 selected to minimize time to velocity and distance. The MPS values for 
+
+
+
+
+R
+
+m
+p
+
+
+≈
+L
+
+
+{\displaystyle R_{mp}\approx L}
+
+ and 
+
+
+R
+
+c
+
+
+R_{c}
+
+ were chosen to match the thrust gain from simulation and scaled experimental results and meet the superconducting-coil critical current constraint.
+Equation CMC.2 gives the physical coil mass 
+
+
+
+
+M
+
+c
+
+
+(
+p
+h
+y
+)
+
+
+{\displaystyle M_{c}(phy)}
+
+ (kg) assuming a coil wire radius 
+
+
+r
+
+c
+
+
+r_{c}
+
+=5 mm. Equation PM.7 gives the plasma magnet alternating current 
+
+
+
+
+I
+
+c
+
+
+
+
+{\displaystyle I_{c}}
+
+.  Equation MFM.3 gives the direct current 
+
+
+
+
+I
+
+c
+
+
+
+
+{\displaystyle I_{c}}
+
+ with 
+
+
+C
+
+0
+
+
+C_{0}
+
+=2 for all other designs. The plasma magnet RMF uses the input alternating current 
+
+
+I
+
+c
+
+
+I_{c}
+
+ (kA) to rotate electrons in captured plasma to create an induced direct current disc carrying 
+
+
+
+
+I
+
+i
+c
+
+
+
+
+{\displaystyle I_{ic}}
+
+ kA as defined in equation PM.8.
+Designs with a superconducting coil do not require continuous power (but may require power for other functions, such as cooling); however, the plasma magnet design requires a continuous power source as specified in equation PM.3. An estimate for the plasma magnet power supply mass assumes ~3 kg/W for nuclear power in space. Other mass was assumed to be 10 tonnes for MS and 1 tonne of other mass for plasma magnet and MPS. Acceleration 
+
+a
+a
+
+ is the thrust force 
+
+F
+F
+
+ (N) from the first row divided by the total mass (coil plus other). An optimistic approximation is constant acceleration 
+
+a
+a
+
+ (m/s2), for which the time to reach a target velocity V (km/s) of 10% of the solar wind velocity is 
+
+
+
+
+T
+
+V
+
+
+≈
+V
+
+/
+
+a
+
+
+{\displaystyle T_{V}\approx V/a}
+
+ (days) and time to cover a specified distance 
+
+D
+D
+
+ ≈ 7.8x108 km (approximate distance from Earth to Jupiter) is 
+
+
+
+
+T
+
+D
+
+
+≈
+
+
+2
+D
+
+/
+
+a
+
+
+
+
+{\textstyle T_{D}\approx {\sqrt {2D/a}}}
+
+ (days). For comparison purposes the time for a Hohmann transfer from Earth orbit to Jupiter orbit is 2.7 years (almost 1,000 days) but that would allow orbital insertion whereas a magnetic sail would do a flyby unless the magnetosphere and gravity of Jupiter could provided deceleration.[26] Another comparison is the New Horizons interplanetary space probe with a 30 kg payload that flew by Jupiter after 405 days on its way to Pluto.
+The best time to velocity 
+
+
+
+
+T
+
+V
+
+
+
+
+{\displaystyle T_{V}}
+
+ and distance 
+
+
+T
+
+D
+
+
+T_{D}
+
+ performance occurs for the PM and MPS designs due primarily to much reduced coil and other mass. As described in the M2P2 section, several criticisms asserted that the falloff rate 
+
+
+f
+
+o
+
+
+f_{o}
+
+=1 was questionable and hence it was not included in this table. Simulations and experiments as described in the MPS section  showed that 
+
+
+f
+
+o
+
+
+f_{o}
+
+=2 is valid with injection of plasma to inflate the magnetic field in a manner similar to M2P2.  As described in the  PM section, plasma is not injected but instead captured to achieve a falloff rate of 
+
+
+f
+
+o
+
+
+f_{o}
+
+=2,[27] with calculations assuming 
+
+
+f
+
+o
+
+
+f_{o}
+
+=1 being very optimistic. The classic Magsail (MS) design generates the most thrust force and has considerable mass but still has relatively good time performance. Parameters for the other designs were chosen to yield comparable time performance subject to the constraints previously described. As described above and further detailed in the section for the respective design, this article contains the equations and parameters to compute performance estimates for different parameter choices.
+In 1994 Vulpetti published a critical review regarding viability of space propulsion based on solar wind momentum flux.[78] The paper highlighted technology challenges in terms of the magnetic field source, energy required and interaction between the solar wind and the spacecraft's magnetic field, summarizing that these issues were not insurmountable. The major unresolved issue is spacecraft and mission design that account for the potentially highly variable solar wind velocity and plasma density that could complicate maneuvers by a spacecraft employing magnetic sail technology. Some means of modulating thrust is necessary. If the mission objective is to rapidly escape the solar system then the paper states that this is less of an issue.
+In 2006 Bolonkin published a paper that questioned the theoretical viability of a Magsail and described common mistakes.[79] Equation (2) states that the magnetic field of electrons rotating in the large coil was greater than and opposed the magnetic field generated by the current in the coil and hence no thrust would result. In 2014 Vulpetti published a rebuttal[80] that summarized plasma properties, in particular the fact that plasma is quasi-neutral and noted in equation (B1) that the Bolonkin paper equation (2) assumed that the plasma had a large net negative electrical charge. The plasma charge varies statistically over short intervals and the maximum value has negligible impact on Magsail performance. Furthermore, he argued that observations by many spacecraft have observed compression of a magnetic field by dynamic (or ram) pressure that did not depend on particle charges.
+In 2017, Gros published results that differed from prior magsail work.[8] A major result was the Magsail kinetic model of equation MKM.2 that is a curve fit to numerical analysis of proton trajectories impacted by a large current carrying superconducting coil. The curve fit scaling relation for the effective sail area 
+
+
+
+A
+(
+v
+)
+
+
+{\displaystyle A(v)}
+
+ was logarithmic cubed with argument 
+
+
+
+c
+I
+
+/
+
+(
+v
+
+I
+
+G
+
+
+)
+
+
+{\displaystyle cI/(vI_{G})}
+
+ with 
+
+I
+I
+
+ the loop current, 
+
+
+
+
+I
+
+G
+
+
+
+
+{\displaystyle I_{G}}
+
+  the curve fit parameter, 
+
+v
+v
+
+ the ship velocity and 
+
+c
+c
+
+ the speed of light. This differed from the power law scaling 
+
+
+
+A
+(
+v
+)
+∼
+(
+v
+
+/
+
+c
+
+)
+
+α
+
+
+
+
+{\displaystyle A(v)\sim (v/c)^{\alpha }}
+
+ of prior work.[4][7] The Gros paper could not trace back this difference to underlying physical arguments and noted that the results are inconsistent, stating that the source for these discrepancies was unclear. Appendix B questioned whether a bow shock will form if the initial spacecraft velocity 
+
+
+v
+
+0
+
+
+v_{0}
+
+ is large, for example for deceleration after interstellar travel, since the predicted effective sail area 
+
+
+
+
+A
+
+G
+
+
+(
+v
+)
+
+
+{\displaystyle A_{G}(v)}
+
+ is small in this case. One difference is that this analysis used the coil radius 
+
+
+R
+
+c
+
+
+R_{c}
+
+ for computation of the ion gyroradius as compared with prior work use of the magnetopause radius 
+
+
+
+
+R
+
+m
+p
+
+
+
+
+{\displaystyle R_{mp}}
+
+
+One advantage of magnetic or solar sails over (chemical or ion) reaction thrusters is that little to no reaction mass is depleted or carried in the craft. Acceleration or deceleration against a planetary magnetosphere is possible.
+A disadvantage for interplanetary travel is that acceleration is only in the direction of a plasma wind away from the Sun or a star or deceleration in only in the direction opposite to the plasma wind from the Sun or a star. Only deceleration is possible in the interstellar medium.
+Magnetic sails have become a popular trope in many works of science fiction although the solar sail is more popular: 
+Although not referred to as a "magnetic sail", the concept was used in the novel Encounter with Tiber by Buzz Aldrin and John Barnes as a braking mechanism to decelerate starships from relativistic speed.
+
+

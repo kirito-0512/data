@@ -1,0 +1,12 @@
+26132,
+Rankinescale,
+The Rankine scale (/ˈræŋkɪn/) is an absolute scale of thermodynamic temperature named after the University of Glasgow engineer and physicist Macquorn Rankine, who proposed it in 1859.[1]
+Similar to the Kelvin scale, which was first proposed in 1848,[1] zero on the Rankine scale is absolute zero, but a temperature difference of one Rankine degree (°R or °Ra) is defined as equal to one Fahrenheit degree, rather than the Celsius degree used on the Kelvin scale. In converting from kelvin to degrees Rankine, 1 K = 9/5 °R or 1 K = 1.8 °R. A temperature of 0 K (−273.15 °C; −459.67 °F) is equal to 0 °R.[2]
+The Rankine scale is still used in engineering systems where heat computations are done using degrees Fahrenheit.[3]
+The symbol for degrees Rankine is °R[2] (or °Ra if necessary to distinguish it from the Rømer and Réaumur scales). By analogy with the SI unit, the kelvin, some authors term the unit Rankine, omitting the degree symbol.[4][5]
+Some temperatures relating the Rankine scale to other temperature scales are shown in the table below.
+
+
+
+Information box
+{'Unit of': 'Temperature', 'Symbol': 'R,\u2002°R\u2002or\u2002°Ra', 'Named after': 'Macquorn Rankine', '   Kelvin scale': '   5\n/\n9\nx K', '   Celsius scale': '   (\n5\n/\n9\nx − 273.15) °C', '   Fahrenheit': '   (x − 459.67) °F'}

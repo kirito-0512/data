@@ -1,0 +1,1094 @@
+18837,
+Median,
+In statistics and probability theory, the median is the value separating the higher half from the lower half of a data sample, a population, or a probability distribution. For a data set, it may be thought of as "the middle" value. The basic feature of the median in describing data compared to the mean (often simply described as the "average") is that it is not skewed by a small proportion of extremely large or small values, and therefore provides a better representation of the center. Median income, for example, may be a better way to describe center of the income distribution because increases in the largest incomes alone have no effect on median. For this reason, the median is of central importance in robust statistics.
+The median of a finite list of numbers is the "middle" number, when those numbers are listed in order from smallest to greatest.
+If the data set has an odd number of observations, the middle one is selected. For example, the following list of seven numbers,
+has the median of 6, which is the fourth value.
+If the data set has an even number of observations, there is no distinct middle value and the median is usually defined to be the arithmetic mean of the two middle values.[1][2] For example, this data set of 8 numbers
+has a median value of 4.5, that is 
+
+
+
+(
+4
++
+5
+)
+
+/
+
+2
+
+
+{\displaystyle (4+5)/2}
+
+. (In more technical terms, this interprets the median as the fully trimmed mid-range).  
+In general, with this convention, the median can be defined as follows: For a data set 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ elements, ordered from smallest to greatest,
+Formally, a median of a population is any value such that at least half of the population is less than or equal to the proposed median and at least half is greater than or equal to the proposed median.  As seen above, medians may not be unique.  If each set contains more than half the population, then some of the population is exactly equal to the unique median.
+The median is well-defined for any ordered (one-dimensional) data, and is independent of any distance metric.  The median can thus be applied to classes which are ranked but not numerical (e.g. working out a median grade when students are graded from A to F), although the result might be halfway between classes if there is an even number of cases.
+A geometric median, on the other hand, is defined in any number of dimensions.  A related concept, in which the outcome is forced to correspond to a member of the sample, is the medoid.
+There is no widely accepted standard notation for the median, but some authors represent the median of a variable x either as x͂ or as μ1/2[1] sometimes also M.[3][4] In any of these cases, the use of these or other symbols for the median needs to be explicitly defined when they are introduced.
+The median is a special case of other ways of summarizing the typical values associated with a statistical distribution: it is the 2nd quartile, 5th decile, and 50th percentile.
+The median can be used as a measure of location when one attaches reduced importance to extreme values, typically because a distribution is skewed, extreme values are not known, or outliers are untrustworthy, i.e., may be measurement/transcription errors.
+For example, consider the multiset
+The median is 2 in this case, as is the mode, and it might be seen as a better indication of the center than the arithmetic mean of 4, which is larger than all but one of the values.  However, the widely cited empirical relationship that the mean is shifted "further into the tail" of a distribution than the median is not generally true.  At most, one can say that the two statistics cannot be "too far" apart; see § Inequality relating means and medians below.[5]
+As a median is based on the middle data in a set, it is not necessary to know the value of extreme results in order to calculate it. For example, in a psychology test investigating the time needed to solve a problem, if a small number of people failed to solve the problem at all in the given time a median can still be calculated.[6]
+Because the median is simple to understand and easy to calculate, while also a robust approximation to the mean, the median is a popular summary statistic in descriptive statistics.  In this context, there are several choices for a measure of variability: the range, the interquartile range, the mean absolute deviation, and the median absolute deviation.
+For practical purposes, different measures of location and dispersion are often compared on the basis of how well the corresponding population values can be estimated from a sample of data. The median, estimated using the sample median, has good properties in this regard. While it is not usually optimal if a given population distribution is assumed, its properties are always reasonably good. For example, a comparison of the efficiency of candidate estimators shows that the sample mean is more statistically efficient when—and only when— data is uncontaminated by data from heavy-tailed distributions or from mixtures of distributions.[citation needed]  Even then, the median has a 64% efficiency compared to the minimum-variance mean (for large normal samples), which is to say the variance of the median will be ~50% greater than the variance of the mean.[7][8]
+For any real-valued probability distribution with cumulative distribution function F, a median is defined as any real number m that satisfies the inequalities
+
+
+
+
+
+∫
+
+(
+−
+∞
+,
+m
+]
+
+
+d
+F
+(
+x
+)
+≥
+
+
+1
+2
+
+
+
+ and 
+
+
+∫
+
+[
+m
+,
+∞
+)
+
+
+d
+F
+(
+x
+)
+≥
+
+
+1
+2
+
+
+.
+
+
+{\displaystyle \int _{(-\infty ,m]}dF(x)\geq {\frac {1}{2}}{\text{ and }}\int _{[m,\infty )}dF(x)\geq {\frac {1}{2}}.}
+
+
+An equivalent phrasing uses a random variable X distributed according to F:
+
+
+
+
+P
+⁡
+(
+X
+≤
+m
+)
+≥
+
+
+1
+2
+
+
+
+ and 
+
+P
+⁡
+(
+X
+≥
+m
+)
+≥
+
+
+1
+2
+
+
+
+
+{\displaystyle \operatorname {P} (X\leq m)\geq {\frac {1}{2}}{\text{ and }}\operatorname {P} (X\geq m)\geq {\frac {1}{2}}}
+
+
+Note that this definition does not require X to have an absolutely continuous distribution (which has a probability density function f), nor does it require a discrete one.  In the former case, the inequalities can be upgraded to equality: a median satisfies
+
+
+
+
+P
+⁡
+(
+X
+≤
+m
+)
+=
+
+∫
+
+−
+∞
+
+
+m
+
+
+
+f
+(
+x
+)
+
+d
+x
+
+=
+
+
+1
+2
+
+
+=
+
+∫
+
+m
+
+
+∞
+
+
+
+f
+(
+x
+)
+
+d
+x
+
+=
+P
+⁡
+(
+X
+≥
+m
+)
+.
+
+
+{\displaystyle \operatorname {P} (X\leq m)=\int _{-\infty }^{m}{f(x)\,dx}={\frac {1}{2}}=\int _{m}^{\infty }{f(x)\,dx}=\operatorname {P} (X\geq m).}
+
+
+Any probability distribution on R has at least one median, but in pathological cases there may be more than one median: if F is constant 1/2 on an interval (so that f=0 there), then any value of that interval is a median.
+The medians of certain types of distributions can be easily calculated from their parameters; furthermore, they exist even for some distributions lacking a well-defined mean, such as the Cauchy distribution:
+The mean absolute error of a real variable c with respect to the random variable X is
+Provided that the probability distribution of X is such that the above expectation exists, then m is a median of  X if and only if m is a minimizer of the mean absolute error with respect to X.[11] In particular, if m is a sample median, then it minimizes the arithmetic mean of the absolute deviations.[12] Note, however, that in cases where the sample contains an even number of elements, this minimizer is not unique.
+More generally, a median is defined as a minimum of
+as discussed below in the section on multivariate medians (specifically, the spatial median).
+This optimization-based definition of the median is useful in statistical data-analysis, for example, in k-medians clustering.
+If the distribution has finite variance, then the distance between the median 
+
+
+
+
+
+
+X
+~
+
+
+
+
+
+{\displaystyle {\tilde {X}}}
+
+ and the mean 
+
+
+
+
+
+
+X
+¯
+
+
+
+
+
+{\displaystyle {\bar {X}}}
+
+ is bounded by one standard deviation.
+This bound was proved by Book and Sher in 1979 for discrete samples,[13] and more generally by Page and Murty in 1982.[14]  In a comment on a subsequent proof by O'Cinneide,[15] Mallows in 1991 presented a compact proof that uses Jensen's inequality twice,[16] as follows. Using |·| for the absolute value, we have
+The first and third inequalities come from Jensen's inequality applied to the absolute-value function and the square function, which are each convex.  The second inequality comes from the fact that a median minimizes the absolute deviation function 
+
+
+
+a
+↦
+E
+⁡
+(
+
+|
+
+X
+−
+a
+
+|
+
+)
+
+
+{\displaystyle a\mapsto \operatorname {E} (|X-a|)}
+
+.
+Mallows's proof can be generalized to obtain a multivariate version of the inequality[17] simply by replacing the absolute value with a norm:
+where m is a spatial median, that is, a minimizer of the function 
+
+
+
+a
+↦
+E
+⁡
+(
+‖
+X
+−
+a
+‖
+)
+.
+
+
+
+{\displaystyle a\mapsto \operatorname {E} (\|X-a\|).\,}
+
+ The spatial median is unique when the data-set's dimension is two or more.[18][19]
+An alternative proof uses the one-sided Chebyshev inequality; it appears in an inequality on location and scale parameters.  This formula also follows directly from Cantelli's inequality.[20]
+For the case of unimodal distributions, one can achieve a sharper bound on the distance between the median and the mean:
+A similar relation holds between the median and the mode:
+Jensen's inequality states that for any random variable X with a finite expectation E[X] and for any convex function f
+This inequality generalizes to the median as well.  We say a function f: R → R is a C function if, for any t,
+is a closed interval (allowing the degenerate cases of a single point or an empty set).  Every convex function is a C function, but the reverse does not hold.  If f is a C function, then
+If the medians are not unique, the statement holds for the corresponding suprema.[22]
+Even though comparison-sorting n items requires Ω(n log n) operations, selection algorithms can compute the kth-smallest of n items with only Θ(n) operations. This includes the median, which is the n/2th order statistic (or for an even number of samples, the arithmetic mean of the two middle order statistics).[23]
+Selection algorithms still have the downside of requiring Ω(n) memory, that is, they need to have the full sample (or a linear-sized portion of it) in memory. Because this, as well as the linear time requirement, can be prohibitive, several estimation procedures for the median have been developed. A simple one is the median of three rule, which estimates the median as the median of a three-element subsample; this is commonly used as a subroutine in the quicksort sorting algorithm, which uses an estimate of its input's median. A more robust estimator is Tukey's ninther, which is the median of three rule applied with limited recursion:[24] if A is the sample laid out as an array, and
+then
+The remedian is an estimator for the median that requires linear time but sub-linear memory, operating in a single pass over the sample.[25]
+The distributions of both the sample mean and the sample median were determined by Laplace.[26] The distribution of the sample median from a population with a density function 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ is asymptotically normal with mean 
+
+
+
+μ
+
+
+{\displaystyle \mu }
+
+ and variance[27]
+where 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ is the median of 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ and 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ is the sample size:
+
+A modern proof follows below. Laplace's result is now understood as a special case of the asymptotic distribution of arbitrary quantiles.
+For normal samples, the density is 
+
+
+
+f
+(
+m
+)
+=
+1
+
+/
+
+
+
+2
+π
+
+σ
+
+2
+
+
+
+
+
+
+{\displaystyle f(m)=1/{\sqrt {2\pi \sigma ^{2}}}}
+
+, thus for large samples the variance of the median equals 
+
+
+
+(
+
+π
+
+
+/
+
+
+2
+
+)
+⋅
+(
+
+σ
+
+2
+
+
+
+/
+
+n
+)
+.
+
+
+{\displaystyle ({\pi }/{2})\cdot (\sigma ^{2}/n).}
+
+[7]  (See also section #Efficiency below.)
+We take the sample size to be an odd number 
+
+
+
+N
+=
+2
+n
++
+1
+
+
+{\displaystyle N=2n+1}
+
+ and assume our variable continuous; the formula for the case of discrete variables is given below in § Empirical local density.  The sample can be summarized as "below median", "at median", and "above median", which corresponds to a trinomial distribution with probabilities  
+
+
+
+F
+(
+v
+)
+
+
+{\displaystyle F(v)}
+
+, 
+
+
+
+f
+(
+v
+)
+
+
+{\displaystyle f(v)}
+
+ and  
+
+
+
+1
+−
+F
+(
+v
+)
+
+
+{\displaystyle 1-F(v)}
+
+.  For a continuous variable, the probability of multiple sample values being exactly equal to the median is 0, so one can calculate the density of at the point 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ directly from the trinomial distribution:
+Now we introduce the beta function.  For integer arguments 
+
+
+
+α
+
+
+{\displaystyle \alpha }
+
+ and 
+
+
+
+β
+
+
+{\displaystyle \beta }
+
+, this can be expressed as 
+
+
+
+
+B
+
+(
+α
+,
+β
+)
+=
+
+
+
+(
+α
+−
+1
+)
+!
+(
+β
+−
+1
+)
+!
+
+
+(
+α
++
+β
+−
+1
+)
+!
+
+
+
+
+
+{\displaystyle \mathrm {B} (\alpha ,\beta )={\frac {(\alpha -1)!(\beta -1)!}{(\alpha +\beta -1)!}}}
+
+.  Also, recall that 
+
+
+
+f
+(
+v
+)
+
+d
+v
+=
+d
+F
+(
+v
+)
+
+
+{\displaystyle f(v)\,dv=dF(v)}
+
+.  Using these relationships and setting both 
+
+
+
+α
+
+
+{\displaystyle \alpha }
+
+ and 
+
+
+
+β
+
+
+{\displaystyle \beta }
+
+ equal to  
+
+
+
+n
++
+1
+
+
+{\displaystyle n+1}
+
+ allows the last expression to be written as
+Hence the density function of the median is a symmetric beta distribution pushed forward by 
+
+
+
+F
+
+
+{\displaystyle F}
+
+.  Its mean, as we would expect, is 0.5 and its variance is  
+
+
+
+1
+
+/
+
+(
+4
+(
+N
++
+2
+)
+)
+
+
+{\displaystyle 1/(4(N+2))}
+
+.  By the chain rule, the corresponding variance of the sample median is
+The additional 2 is negligible in the limit.
+In practice, the functions 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ and 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ are often not known or assumed.  However, they can be estimated from an observed frequency distribution.  In this section, we give an example.  Consider the following table, representing a sample of 3,800 (discrete-valued) observations:
+Because the observations are discrete-valued, constructing the exact distribution of the median is not an immediate translation of the above expression for 
+
+
+
+Pr
+(
+Median
+=
+v
+)
+
+
+{\displaystyle \Pr(\operatorname {Median} =v)}
+
+; one may (and typically does) have multiple instances of the median in one's sample.  So we must sum over all these possibilities:
+Here, i is the number of points strictly less than the median and k the number strictly greater.
+Using these preliminaries, it is possible to investigate the effect of sample size on the standard errors of the mean and median.  The observed mean is 3.16, the observed raw median is 3 and the observed interpolated median is 3.174.  The following table gives some comparison statistics.
+The expected value of the median falls slightly as sample size increases while, as would be expected, the standard errors of both the median and the mean are proportionate to the inverse square root of the sample size.  The asymptotic approximation errs on the side of caution by overestimating the standard error.
+The value of 
+
+
+
+(
+2
+f
+(
+x
+)
+
+)
+
+−
+2
+
+
+
+
+{\displaystyle (2f(x))^{-2}}
+
+—the asymptotic value of 
+
+
+
+
+n
+
+−
+1
+
+/
+
+2
+
+
+(
+ν
+−
+m
+)
+
+
+{\displaystyle n^{-1/2}(\nu -m)}
+
+ where 
+
+
+
+ν
+
+
+{\displaystyle \nu }
+
+ is the population median—has been studied by several authors. The standard "delete one" jackknife method produces inconsistent results.[28] An alternative—the "delete k" method—where 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ grows with the sample size has been shown to be asymptotically consistent.[29] This method may be computationally expensive for large data sets. A bootstrap estimate is known to be consistent,[30] but converges very slowly (order of 
+
+
+
+
+n
+
+−
+
+
+1
+4
+
+
+
+
+
+
+{\displaystyle n^{-{\frac {1}{4}}}}
+
+).[31] Other methods have been proposed but their behavior may differ between large and small samples.[32]
+The efficiency of the sample median, measured as the ratio of the variance of the mean to the variance of the median, depends on the sample size and on the underlying population distribution. For a sample of size 
+
+
+
+N
+=
+2
+n
++
+1
+
+
+{\displaystyle N=2n+1}
+
+ from the normal distribution, the efficiency for large N is
+The efficiency tends to 
+
+
+
+
+
+2
+π
+
+
+
+
+{\displaystyle {\frac {2}{\pi }}}
+
+ as 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ tends to infinity.
+In other words, the relative variance of the median will be 
+
+
+
+π
+
+/
+
+2
+≈
+1.57
+
+
+{\displaystyle \pi /2\approx 1.57}
+
+, or 57% greater than the variance of the mean – the relative standard error of the median will be 
+
+
+
+(
+π
+
+/
+
+2
+
+)
+
+
+1
+2
+
+
+
+≈
+1.25
+
+
+{\displaystyle (\pi /2)^{\frac {1}{2}}\approx 1.25}
+
+, or 25% greater than the standard error of the mean, 
+
+
+
+σ
+
+/
+
+
+
+n
+
+
+
+
+{\displaystyle \sigma /{\sqrt {n}}}
+
+ (see also section #Sampling distribution above.).[33]
+For univariate distributions that are symmetric about one median, the Hodges–Lehmann estimator is a robust and highly efficient estimator of the population median.[34]
+If data is represented by a statistical model specifying a particular family of probability distributions, then estimates of the median can be obtained by fitting that family of probability distributions to the data and calculating the theoretical median of the fitted distribution.[citation needed] Pareto interpolation is an application of this when the population is assumed to have a Pareto distribution.
+Previously, this article discussed the univariate median, when the sample or population had one-dimension. When the dimension is two or higher, there are multiple concepts that extend the definition of the univariate median; each such multivariate median agrees with the univariate median when the dimension is exactly one.[34][35][36][37]
+The marginal median is defined for vectors defined with respect to a fixed set of coordinates. A marginal median is defined to be the vector whose components are univariate medians. The marginal median is easy to compute, and its properties were studied by Puri and Sen.[34][38]
+The geometric median of a discrete set of sample points 
+
+
+
+
+x
+
+1
+
+
+,
+…
+
+x
+
+N
+
+
+
+
+{\displaystyle x_{1},\ldots x_{N}}
+
+ in a Euclidean space is the[a] point minimizing the sum of distances to the sample points.
+In contrast to the marginal median, the geometric median is equivariant with respect to Euclidean similarity transformations such as translations and rotations.
+If the marginal medians for all coordinate systems coincide, then their common location may be termed the "median in all directions".[40] This concept is relevant to voting theory on account of the median voter theorem. When it exists, the median in all directions coincides with the geometric median (at least for discrete distributions).
+An alternative generalization of the median in higher dimensions is the centerpoint.
+When dealing with a discrete variable, it is sometimes useful to regard the observed values as being midpoints of underlying continuous intervals. An example of this is a Likert scale, on which opinions or preferences are expressed on a scale with a set number of possible responses. If the scale consists of the positive integers, an observation of 3 might be regarded as representing the interval from 2.50 to 3.50. It is possible to estimate the median of the underlying variable. If, say, 22% of the observations are of value 2 or below and 55.0% are of 3 or below (so 33% have the value 3), then the median 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ is 3 since the median is the smallest value of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ for which 
+
+
+
+F
+(
+x
+)
+
+
+{\displaystyle F(x)}
+
+ is greater than a half. But the interpolated median is somewhere between 2.50 and 3.50.  First we add half of the interval width 
+
+
+
+w
+
+
+{\displaystyle w}
+
+ to the median to get the upper bound of the median interval. Then we subtract that proportion of the interval width which equals the proportion of the 33% which lies above the 50% mark.  In other words, we split up the interval width pro rata to the numbers of observations.  In this case, the 33% is split into 28% below the median and 5% above it so we subtract 5/33 of the interval width from the upper bound of 3.50 to give an interpolated median of 3.35. More formally, if the values 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ are known, the interpolated median can be calculated from
+Alternatively, if in an observed sample there are 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ scores above the median category, 
+
+
+
+j
+
+
+{\displaystyle j}
+
+ scores in it and 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ scores below it then the interpolated median is given by
+For univariate distributions that are symmetric about one median, the Hodges–Lehmann estimator is a robust and highly efficient estimator of the population median; for non-symmetric distributions, the Hodges–Lehmann estimator is a robust and highly efficient estimator of the population pseudo-median, which is the median of a symmetrized distribution and which is close to the population median.[41] The Hodges–Lehmann estimator has been generalized to multivariate distributions.[42]
+The Theil–Sen estimator is a method for robust linear regression based on finding medians of slopes.[43]
+The median filter is an important tool of image processing, that can effectively remove any salt and pepper noise from grayscale images.
+In cluster analysis, the k-medians clustering algorithm provides a way of defining clusters, in which the criterion of maximising the distance between cluster-means that is used in k-means clustering, is replaced by maximising the distance between cluster-medians.
+This is a method of robust regression. The idea dates back to Wald in 1940 who suggested dividing a set of bivariate data into two halves depending on the value of the independent parameter 
+
+
+
+x
+
+
+{\displaystyle x}
+
+: a left half with values less than the median and a right half with values greater than the median.[44] He suggested taking the means of the dependent 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ and independent 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ variables of the left and the right halves and estimating the slope of the line joining these two points. The line could then be adjusted to fit the majority of the points in the data set.
+Nair and Shrivastava in 1942 suggested a similar idea but instead advocated dividing the sample into three equal parts before calculating the means of the subsamples.[45] Brown and Mood in 1951 proposed the idea of using the medians of two subsamples rather the means.[46] Tukey combined these ideas and recommended dividing the sample into three equal size subsamples and estimating the line based on the medians of the subsamples.[47]
+Any mean-unbiased estimator minimizes the risk (expected loss) with respect to the squared-error loss function, as observed by Gauss. A median-unbiased estimator minimizes the risk with respect to the absolute-deviation loss function, as observed by Laplace. Other loss functions are used in statistical theory, particularly in robust statistics.
+The theory of median-unbiased estimators was revived by George W. Brown in 1947:[48]
+An estimate of a one-dimensional parameter θ will be said to be median-unbiased if, for fixed θ, the median of the distribution of the estimate is at the value θ; i.e., the estimate underestimates just as often as it overestimates. This requirement seems for most purposes to accomplish as much as the mean-unbiased requirement and has the additional property that it is invariant under one-to-one transformation.Further properties of median-unbiased estimators have been reported.[49][50][51][52]  Median-unbiased estimators are invariant under one-to-one transformations.
+There are methods of constructing median-unbiased estimators that are optimal (in a sense analogous to the minimum-variance property for mean-unbiased estimators). Such constructions exist for probability distributions having monotone likelihood-functions.[53][54] One such procedure is an analogue of the Rao–Blackwell procedure for mean-unbiased estimators: The procedure holds for a smaller class of probability distributions than does the Rao—Blackwell procedure but for a larger class of loss functions.[55]
+Scientific researchers in the ancient near east appear not to have used summary statistics altogether, instead choosing values that offered maximal consistency with a broader theory that integrated a wide variety of phenomena.[56]  Within the Mediterranean (and, later, European) scholarly community, statistics like the mean are fundamentally a medieval and early modern development.  (The history of the median outside Europe and its predecessors remains relatively unstudied.)
+The idea of the median appeared in the 6th century in the Talmud, in order to fairly analyze divergent appraisals.[57][58]  However, the concept did not spread to the broader scientific community.
+Instead, the closest ancestor of the modern median is the mid-range, invented by Luca Pacioli[59]: 31 [60]  Transmission of his work to later scholars is unclear. He applied his technique to assaying currency metals, but, after he published his work, most assayers still adopted the most unfavorable value from their results, lest they appear to cheat.[59]: 35–8  [61] However, increased navigation at sea during the Age of Discovery meant that ship's navigators increasingly had to attempt to determine latitude in unfavorable weather against hostile shores, leading to renewed interest in summary statistics.  Whether rediscovered or independently invented, the mid-range is recommended to nautical navigators in Harriot's "Instructions for Raleigh's Voyage to Guiana, 1595".[59]: 45–8 
+The idea of the median may have first appeared in Edward Wright's 1599 book Certaine Errors in Navigation on a section about compass navigation.[62] Wright was reluctant to discard measured values, and may have felt that the median — incorporating a greater proportion of the dataset than the mid-range — was more likely to be correct.  However, Wright did not give examples of his technique's use, making it hard to verify that he described the modern notion of median.[56][60][b]  The median (in the context of probability) certainly appeared in the correspondence of Christiaan Huygens, but as an example of a statistic that was inappropriate for actuarial practice.[56]
+The earliest recommendation of the median dates to 1757, when Roger Joseph Boscovich developed a regression method based on the L1 norm and therefore implicitly on the median.[56][63]  In 1774, Laplace made this desire explicit: he suggested the median be used as the standard estimator of the value of a posterior PDF. The specific criterion was to minimize the expected magnitude of the error; 
+
+
+
+
+|
+
+α
+−
+
+α
+
+∗
+
+
+
+|
+
+
+
+{\displaystyle |\alpha -\alpha ^{*}|}
+
+ where 
+
+
+
+
+α
+
+∗
+
+
+
+
+{\displaystyle \alpha ^{*}}
+
+ is the estimate and 
+
+
+
+α
+
+
+{\displaystyle \alpha }
+
+ is the true value.  To this end, Laplace determined the distributions of both the sample mean and the sample median in the early 1800s.[26][64]  However, a decade later, Gauss and Legendre developed the least squares method, which minimizes 
+
+
+
+(
+α
+−
+
+α
+
+∗
+
+
+
+)
+
+2
+
+
+
+
+{\displaystyle (\alpha -\alpha ^{*})^{2}}
+
+ to obtain the mean.  Within the context of regression, Gauss and Legendre's innovation offers vastly easier computation.  Consequently, Laplaces' proposal was generally rejected until the rise of computing devices 150 years later (and is still a relatively uncommon algorithm).[65]
+Antoine Augustin Cournot in 1843 was the first[66] to use the term median (valeur médiane) for the value that divides a probability distribution into two equal halves. Gustav Theodor Fechner used the median (Centralwerth) in sociological and psychological phenomena.[67] It had earlier been used only in astronomy and related fields. Gustav Fechner popularized the median into the formal analysis of data, although it had been used previously by Laplace,[67] and the median appeared in a textbook by F. Y. Edgeworth.[68] Francis Galton used the English term median in 1881,[69][70] having earlier used the terms middle-most value in 1869, and the medium in 1880.[71][72]
+Statisticians encouraged the use of medians intensely throughout the 19th century for its intuitive clarity and ease of manual computation.  However, the notion of median does not lend itself to the theory of higher moments as well as the arithmetic mean does, and is much harder to compute by computer.  As a result, the median was steadily supplanted as a notion of generic average by the arithmetic mean during the 20th century.[56][60]
+This article incorporates material from Median of a distribution on PlanetMath, which is licensed under the Creative Commons Attribution/Share-Alike License.
+
+

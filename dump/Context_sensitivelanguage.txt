@@ -1,0 +1,326 @@
+6212,
+Context-sensitivelanguage,
+In formal language theory, a context-sensitive language is a language that can be defined by a context-sensitive grammar (and equivalently by a noncontracting grammar).  Context-sensitive is one of the four types of grammars in the Chomsky hierarchy.
+Computationally, a context-sensitive language is equivalent to a linear bounded nondeterministic Turing machine, also called a linear bounded automaton. That is a non-deterministic Turing machine with a tape of only 
+k
+n
+{\displaystyle kn}
+ cells, where 
+n
+{\displaystyle n}
+ is the size of the input and 
+k
+{\displaystyle k}
+ is a constant associated with the machine. This means that every formal language that can be decided by such a machine is a context-sensitive language, and every context-sensitive language can be decided by such a machine.
+This set of languages is also known as NLINSPACE or NSPACE(O(n)), because they can be accepted using linear space on a non-deterministic Turing machine.[1]  The class LINSPACE (or DSPACE(O(n))) is defined the same, except using a deterministic Turing machine.  Clearly LINSPACE is a subset of NLINSPACE, but it is not known whether LINSPACE = NLINSPACE.[2]
+One of the simplest context-sensitive but not context-free languages is 
+L
+=
+{
+a
+n
+b
+n
+c
+n
+:
+n
+≥
+1
+}
+{\displaystyle L=\{a^{n}b^{n}c^{n}:n\geq 1\}}
+: the language of all strings consisting of n occurrences of the symbol "a", then n "b"s, then n "c"s (abc, aabbcc, aaabbbccc, etc.). A superset of this language, called the Bach language,[3] is defined as the set of all strings where "a", "b" and "c" (or any other set of three symbols) occurs equally often (aabccb, baabcaccb, etc.) and is also context-sensitive.[4][5]
+L can be shown to be a context-sensitive language by constructing a linear bounded automaton which accepts L. The language can easily be shown to be neither regular nor context-free by applying the respective pumping lemmas for each of the language classes to L.
+Similarly:
+L
+C
+r
+o
+s
+s
+=
+{
+a
+m
+b
+n
+c
+m
+d
+n
+:
+m
+≥
+1
+,
+n
+≥
+1
+}
+{\displaystyle L_{Cross}=\{a^{m}b^{n}c^{m}d^{n}:m\geq 1,n\geq 1\}}
+ is another context-sensitive language; the corresponding context-sensitive grammar can be easily projected starting with two context-free grammars generating sentential forms in the formats
+a
+m
+C
+m
+{\displaystyle a^{m}C^{m}}
+and
+B
+n
+d
+n
+{\displaystyle B^{n}d^{n}}
+and then supplementing them with a permutation production like 
+C
+B
+→
+B
+C
+{\displaystyle CB\rightarrow BC}
+, a new starting symbol and standard syntactic sugar.
+L
+M
+U
+L
+3
+=
+{
+a
+m
+b
+n
+c
+m
+n
+:
+m
+≥
+1
+,
+n
+≥
+1
+}
+{\displaystyle L_{MUL3}=\{a^{m}b^{n}c^{mn}:m\geq 1,n\geq 1\}}
+ is another context-sensitive language (the "3" in the name of this language is intended to mean a ternary alphabet); that is, the "product" operation defines a context-sensitive language (but the "sum" defines only a context-free language as the grammar 
+S
+→
+a
+S
+c
+|
+R
+{\displaystyle S\rightarrow aSc|R}
+ and 
+R
+→
+b
+R
+c
+|
+b
+c
+{\displaystyle R\rightarrow bRc|bc}
+ shows). Because of the commutative property of the product, the most intuitive grammar for 
+L
+M
+U
+L
+3
+{\displaystyle L_{MUL3}}
+ is ambiguous. This problem can be avoided considering a somehow more restrictive definition of the language, e.g. 
+L
+O
+R
+D
+M
+U
+L
+3
+=
+{
+a
+m
+b
+n
+c
+m
+n
+:
+1
+<
+m
+<
+n
+}
+{\displaystyle L_{ORDMUL3}=\{a^{m}b^{n}c^{mn}:1<m<n\}}
+. This can be specialized to 
+L
+M
+U
+L
+1
+=
+{
+a
+m
+n
+:
+m
+>
+1
+,
+n
+>
+1
+}
+{\displaystyle L_{MUL1}=\{a^{mn}:m>1,n>1\}}
+ and, from this, to 
+L
+m
+2
+=
+{
+a
+m
+2
+:
+m
+>
+1
+}
+{\displaystyle L_{m^{2}}=\{a^{m^{2}}:m>1\}}
+, 
+L
+m
+3
+=
+{
+a
+m
+3
+:
+m
+>
+1
+}
+{\displaystyle L_{m^{3}}=\{a^{m^{3}}:m>1\}}
+, etc.
+L
+R
+E
+P
+=
+{
+w
+|
+w
+|
+:
+w
+∈
+Σ
+∗
+}
+{\displaystyle L_{REP}=\{w^{|w|}:w\in \Sigma ^{*}\}}
+ is a context-sensitive language. The corresponding context-sensitive grammar can be obtained as a generalization of the context-sensitive grammars for 
+L
+S
+q
+u
+a
+r
+e
+=
+{
+w
+2
+:
+w
+∈
+Σ
+∗
+}
+{\displaystyle L_{Square}=\{w^{2}:w\in \Sigma ^{*}\}}
+, 
+L
+C
+u
+b
+e
+=
+{
+w
+3
+:
+w
+∈
+Σ
+∗
+}
+{\displaystyle L_{Cube}=\{w^{3}:w\in \Sigma ^{*}\}}
+, etc.
+L
+E
+X
+P
+=
+{
+a
+2
+n
+:
+n
+≥
+1
+}
+{\displaystyle L_{EXP}=\{a^{2^{n}}:n\geq 1\}}
+ is a context-sensitive language.[6]
+L
+P
+R
+I
+M
+E
+S
+2
+=
+{
+w
+:
+|
+w
+|
+ is prime 
+}
+{\displaystyle L_{PRIMES2}=\{w:|w|{\mbox{ is prime }}\}}
+ is a context-sensitive language (the "2" in the name of this language is intended to mean a binary alphabet). This was proved by Hartmanis using pumping lemmas for regular and context-free languages over a binary alphabet and, after that, sketching a linear bounded multitape automaton accepting 
+L
+P
+R
+I
+M
+E
+S
+2
+{\displaystyle L_{PRIMES2}}
+.[7]
+L
+P
+R
+I
+M
+E
+S
+1
+=
+{
+a
+p
+:
+p
+ is prime 
+}
+{\displaystyle L_{PRIMES1}=\{a^{p}:p{\mbox{ is prime }}\}}
+ is a context-sensitive language (the "1" in the name of this language is intended to mean an unary alphabet). This was credited by A. Salomaa to Matti Soittola by means of a linear bounded automaton over an unary alphabet[8] (pages 213-214, exercise 6.8) and also to Marti Penttonen by means of a context-sensitive grammar also over an unary alphabet (See: Formal Languages by A. Salomaa, page 14, Example 2.5).
+An example of recursive language that is not context-sensitive is any recursive language whose decision is an EXPSPACE-hard problem, say, the set of pairs of equivalent regular expressions with exponentiation.

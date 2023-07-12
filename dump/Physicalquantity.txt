@@ -1,0 +1,295 @@
+23204,
+Physicalquantity,
+A physical quantity is a physical property of a material or system that can be quantified by measurement. A physical quantity can be expressed as a value, which is the algebraic multiplication of a ' Numerical value ' and a ' Unit '. For example, the physical quantity of mass can be quantified as '32.3 kg ', where '32.3' is the numerical value and 'kg' is the Unit. 
+A physical quantity possesses at least two characteristics in common. 
+International recommendations for the use of symbols for quantities are set out in ISO/IEC 80000, the IUPAP red book and the IUPAC green book. For example, the recommended symbol for the physical quantity mass is m, and the recommended symbol for the quantity electric charge is Q.
+Subscripts are used for two reasons, to simply attach a name to the quantity or associate it with another quantity, or index a specific component (e.g., row or column).
+The type of subscript is expressed by its typeface:  'k' and 'p' are abbreviations of the words kinetic and potential, whereas p (italic) is the symbol for the physical quantity pressure rather than an abbreviation of the word.
+Physical quantities can have different "sizes", such as a scalar, a vector, or a tensor.
+A scalar is a physical quantity that has magnitude but no direction. Symbols for physical quantities are usually chosen to be a single letter of the Latin or Greek alphabet, and are printed in italic type.
+Vectors are physical quantities that possess both magnitude and direction and whose operations obey the axioms of a vector space. Symbols for physical quantities that are vectors are in bold type, underlined or with an arrow above. For example, if u is the speed of a particle, then the straightforward notations for its velocity are u, u, or 
+
+
+
+
+
+
+u
+→
+
+
+
+
+
+
+
+{\displaystyle {\vec {u}}\,\!}
+
+.
+Scalars and vectors are the simplest tensors, which can be used to describe more general physical quantities. For example, the Cauchy stress tensor possesses magnitude, direction, and orientation qualities.
+Numerical quantities, even those denoted by letters, are usually printed in roman (upright) type, though sometimes in italics. Symbols for elementary functions (circular trigonometric, hyperbolic, logarithmic etc.), changes in a quantity like Δ in Δy or operators like d in dx, are also recommended to be printed in roman type.
+Examples:
+ There is often a choice of unit, though SI units (including submultiples and multiples of the basic unit) are usually used in scientific contexts due to their ease of use, international familiarity and prescription. For example, a quantity of mass might be represented by the symbol m, and could be expressed in the units kilograms (kg), pounds (lb), or daltons (Da).
+The notion of dimension of a physical quantity was introduced by Joseph Fourier in 1822.[1] By convention, physical quantities are organized in a dimensional system built upon base quantities, each of which is regarded as having its own dimension.
+Base quantities are those quantities that are distinct in nature and in some cases have historically not been defined in terms of other quantities. Base quantities are those quantities on the basis of which other quantities can be expressed. The seven base quantities of the International System of Quantities (ISQ) and their corresponding SI units and dimensions are listed in the following table. Other conventions may have a different number of base units (e.g. the CGS and MKS systems of units).
+The last two angular units, plane angle and solid angle, are subsidiary units used in the SI, but are treated as dimensionless. The subsidiary units are used for convenience to differentiate between a truly dimensionless quantity (pure number) and an angle, which are different measurements.
+Derived quantities are those whose definitions are based on other physical quantities (base quantities).
+Important applied base units for space and time are below. Area and volume are thus, of course, derived from the length, but included for completeness as they occur frequently in many derived quantities, in particular densities.
+Important and convenient derived quantities such as densities, fluxes, flows, currents are associated with many quantities. Sometimes different terms such as current density and flux density, rate, frequency and current, are used interchangeably in the same context, sometimes they are used uniquely.
+To clarify these effective template-derived quantities, we let q be any quantity within some scope of context (not necessarily base quantities) and present in the table below some of the most commonly used symbols where applicable, their definitions, usage, SI units and SI dimensions – where [q] denotes the dimension of q.
+For time derivatives, specific, molar, and flux densities of quantities, there is no one symbol, nomenclature depends on the subject, though time derivatives can be generally written using overdot notation. For generality we use qm, qn, and F respectively. No symbol is necessarily required for the gradient of a scalar field, since only the nabla/del operator ∇ or grad needs to be written. For spatial density, current, current density and flux, the notations are common from one context to another, differing only by a change in subscripts.
+For current density, 
+
+
+
+
+
+
+t
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {t}} }
+
+ is a unit vector in the direction of flow, i.e. tangent to a flowline. Notice the dot product with the unit normal for a surface, since the amount of current passing through the surface is reduced when the current is not normal to the area. Only the current passing perpendicular to the surface contributes to the current passing through the surface, no current passes in the (tangential) plane of the surface.
+The calculus notations below can be used synonymously.
+If X is a n-variable function 
+
+
+
+X
+≡
+X
+
+(
+
+
+x
+
+1
+
+
+,
+
+x
+
+2
+
+
+⋯
+
+x
+
+n
+
+
+
+)
+
+
+
+{\displaystyle X\equiv X\left(x_{1},x_{2}\cdots x_{n}\right)}
+
+, then
+Differential The differential n-space volume element is 
+
+
+
+
+
+d
+
+
+n
+
+
+x
+≡
+
+d
+
+
+V
+
+n
+
+
+≡
+
+d
+
+
+x
+
+1
+
+
+
+d
+
+
+x
+
+2
+
+
+⋯
+
+d
+
+
+x
+
+n
+
+
+
+
+{\displaystyle \mathrm {d} ^{n}x\equiv \mathrm {d} V_{n}\equiv \mathrm {d} x_{1}\mathrm {d} x_{2}\cdots \mathrm {d} x_{n}}
+
+,
+No common symbol for n-space density, here ρn is used. 
+(length, area, volume or higher dimensions)
+
+
+
+
+q
+=
+∫
+
+q
+
+λ
+
+
+
+d
+
+λ
+
+
+{\displaystyle q=\int q_{\lambda }\mathrm {d} \lambda }
+
+
+
+
+
+
+q
+=
+∫
+
+q
+
+ν
+
+
+
+d
+
+ν
+
+
+{\displaystyle q=\int q_{\nu }\mathrm {d} \nu }
+
+
+[q]T (qν)
+Transport mechanics, nuclear physics/particle physics: 
+
+
+
+
+q
+=
+∭
+F
+
+d
+
+A
+
+d
+
+t
+
+
+{\displaystyle q=\iiint F\mathrm {d} A\mathrm {d} t}
+
+
+Vector field: 
+
+
+
+
+
+Φ
+
+F
+
+
+=
+
+∬
+
+S
+
+
+
+F
+
+⋅
+
+d
+
+
+A
+
+
+
+{\displaystyle \Phi _{F}=\iint _{S}\mathbf {F} \cdot \mathrm {d} \mathbf {A} }
+
+
+section / surface boundary
+q is a scalar: 
+
+
+
+
+m
+
+=
+
+r
+
+q
+
+
+{\displaystyle \mathbf {m} =\mathbf {r} q}
+
+ 
+q is a vector: 
+
+
+
+
+m
+
+=
+
+r
+
+×
+
+q
+
+
+
+{\displaystyle \mathbf {m} =\mathbf {r} \times \mathbf {q} }
+
+
+
+

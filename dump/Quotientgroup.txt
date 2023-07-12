@@ -1,0 +1,3283 @@
+11526,
+Quotientgroup,
+A quotient group or factor group is a mathematical group obtained by aggregating similar elements of a larger group using an equivalence relation that preserves some of the group structure (the rest of the structure is "factored" out).  For example, the cyclic group of addition modulo n can be obtained from the group of integers under addition by identifying elements that differ by a multiple of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ and defining a group structure that operates on each such class (known as a congruence class) as a single entity. It is part of the mathematical field known as group theory.
+For a congruence relation on a group, the equivalence class of the identity element is always a normal subgroup of the original group, and the other equivalence classes are precisely the cosets of that normal subgroup.  The resulting quotient is written 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+, where 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is the original group and 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ is the normal subgroup.  (This is pronounced 
+
+
+
+G
+
+mod
+
+N
+
+
+
+
+{\displaystyle G{\bmod {N}}}
+
+, where 
+
+
+
+
+
+mod
+
+
+
+
+{\displaystyle {\mbox{mod}}}
+
+ is short for modulo.)
+Much of the importance of quotient groups is derived from their relation to homomorphisms.  The first isomorphism theorem states that the image of any group G under a homomorphism is always isomorphic to a quotient of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+.  Specifically, the image of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ under a homomorphism 
+
+
+
+φ
+:
+G
+→
+H
+
+
+{\displaystyle \varphi :G\rightarrow H}
+
+ is isomorphic to 
+
+
+
+G
+
+
+/
+
+
+ker
+⁡
+(
+φ
+)
+
+
+{\displaystyle G\,/\,\ker(\varphi )}
+
+ where 
+
+
+
+ker
+⁡
+(
+φ
+)
+
+
+{\displaystyle \ker(\varphi )}
+
+ denotes the kernel of 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+.
+The dual notion of a quotient group is a subgroup, these being the two primary ways of forming a smaller group from a larger one. Any normal subgroup has a corresponding quotient group, formed from the larger group by eliminating the distinction between elements of the subgroup. In category theory, quotient groups are examples of quotient objects, which are dual to subobjects.
+Given a group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ and a subgroup 
+
+
+
+H
+
+
+{\displaystyle H}
+
+, and an element 
+
+
+
+a
+∈
+G
+
+
+{\displaystyle a\in G}
+
+, one can consider the corresponding left coset: 
+
+
+
+a
+H
+:=
+
+{
+
+a
+h
+:
+h
+∈
+H
+
+}
+
+
+
+{\displaystyle aH:=\left\{ah:h\in H\right\}}
+
+. Cosets are a natural class of subsets of a group; for example consider the abelian group G of integers, with operation defined by the usual addition, and the subgroup 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ of even integers. Then there are exactly two cosets: 
+
+
+
+0
++
+H
+
+
+{\displaystyle 0+H}
+
+, which are the even integers, and 
+
+
+
+1
++
+H
+
+
+{\displaystyle 1+H}
+
+, which are the odd integers (here we are using additive notation for the binary operation instead of multiplicative notation).
+For a general subgroup 
+
+
+
+H
+
+
+{\displaystyle H}
+
+, it is desirable to define a compatible group operation on the set of all possible cosets, 
+
+
+
+
+{
+
+a
+H
+:
+a
+∈
+G
+
+}
+
+
+
+{\displaystyle \left\{aH:a\in G\right\}}
+
+. This is possible exactly when 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ is a normal subgroup, see below. A subgroup 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ of a group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is normal if and only if the coset equality 
+
+
+
+a
+N
+=
+N
+a
+
+
+{\displaystyle aN=Na}
+
+ holds for all 
+
+
+
+a
+∈
+G
+
+
+{\displaystyle a\in G}
+
+. A normal subgroup of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is denoted 
+
+
+
+N
+
+
+{\displaystyle N}
+
+.
+Let 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ be a normal subgroup of a group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ . Define the set 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ to be the set of all left cosets of 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ . That is, 
+
+
+
+G
+
+
+/
+
+
+N
+=
+
+{
+
+a
+N
+:
+a
+∈
+G
+
+}
+
+
+
+{\displaystyle G\,/\,N=\left\{aN:a\in G\right\}}
+
+. Since the identity element 
+
+
+
+e
+∈
+N
+
+
+{\displaystyle e\in N}
+
+, 
+
+
+
+a
+∈
+a
+N
+
+
+{\displaystyle a\in aN}
+
+. Define a binary operation on the set of cosets, 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+, as follows. For each 
+
+
+
+a
+N
+
+
+{\displaystyle aN}
+
+ and 
+
+
+
+b
+N
+
+
+{\displaystyle bN}
+
+ in 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+, the product of 
+
+
+
+a
+N
+
+
+{\displaystyle aN}
+
+ and 
+
+
+
+b
+N
+
+
+{\displaystyle bN}
+
+, 
+
+
+
+(
+a
+N
+)
+(
+b
+N
+)
+
+
+{\displaystyle (aN)(bN)}
+
+, is 
+
+
+
+(
+a
+b
+)
+N
+
+
+{\displaystyle (ab)N}
+
+. This works only because 
+
+
+
+(
+a
+b
+)
+N
+
+
+{\displaystyle (ab)N}
+
+ does not depend on the choice of the representatives, 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+, of each left coset, 
+
+
+
+a
+N
+
+
+{\displaystyle aN}
+
+ and 
+
+
+
+b
+N
+
+
+{\displaystyle bN}
+
+. To prove this, suppose 
+
+
+
+x
+N
+=
+a
+N
+
+
+{\displaystyle xN=aN}
+
+ and 
+
+
+
+y
+N
+=
+b
+N
+
+
+{\displaystyle yN=bN}
+
+ for some 
+
+
+
+x
+,
+y
+,
+a
+,
+b
+∈
+G
+
+
+{\displaystyle x,y,a,b\in G}
+
+. Then
+This depends on the fact that N is a normal subgroup. It still remains to be shown that this condition is not only sufficient but necessary to define the operation on G/N.
+To show that it is necessary, consider that for a subgroup 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, we have been given that the operation is well defined. That is, for all 
+
+
+
+x
+N
+=
+a
+N
+
+
+{\displaystyle xN=aN}
+
+ and 
+
+
+
+y
+N
+=
+b
+N
+
+
+{\displaystyle yN=bN}
+
+, for 
+
+
+
+x
+,
+y
+,
+a
+,
+b
+∈
+G
+,
+
+(
+a
+b
+)
+N
+=
+(
+x
+y
+)
+N
+
+
+{\displaystyle x,y,a,b\in G,\;(ab)N=(xy)N}
+
+.
+Let 
+
+
+
+n
+∈
+N
+
+
+{\displaystyle n\in N}
+
+ and 
+
+
+
+g
+∈
+G
+
+
+{\displaystyle g\in G}
+
+. Since 
+
+
+
+e
+N
+=
+n
+N
+
+
+{\displaystyle eN=nN}
+
+, we have 
+
+
+
+g
+N
+=
+(
+e
+g
+)
+N
+=
+(
+e
+N
+)
+(
+g
+N
+)
+=
+(
+n
+N
+)
+(
+g
+N
+)
+=
+(
+n
+g
+)
+N
+
+
+{\displaystyle gN=(eg)N=(eN)(gN)=(nN)(gN)=(ng)N}
+
+.
+Now, 
+
+
+
+g
+N
+=
+(
+n
+g
+)
+N
+⇔
+N
+=
+(
+
+g
+
+−
+1
+
+
+n
+g
+)
+N
+⇔
+
+g
+
+−
+1
+
+
+n
+g
+∈
+N
+,
+
+∀
+
+n
+∈
+N
+
+
+{\displaystyle gN=(ng)N\Leftrightarrow N=(g^{-1}ng)N\Leftrightarrow g^{-1}ng\in N,\;\forall \,n\in N}
+
+ and 
+
+
+
+g
+∈
+G
+
+
+{\displaystyle g\in G}
+
+.
+Hence 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ is a normal subgroup of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ .
+It can also be checked that this operation on 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ is always associative, 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ has identity element 
+
+
+
+N
+
+
+{\displaystyle N}
+
+, and the inverse of element 
+
+
+
+a
+N
+
+
+{\displaystyle aN}
+
+ can always be represented by 
+
+
+
+
+a
+
+−
+1
+
+
+N
+
+
+{\displaystyle a^{-1}N}
+
+. Therefore, the set 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ together with the operation defined by 
+
+
+
+(
+a
+N
+)
+(
+b
+N
+)
+=
+(
+a
+b
+)
+N
+
+
+{\displaystyle (aN)(bN)=(ab)N}
+
+ forms a group, the quotient group of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ by 
+
+
+
+N
+
+
+{\displaystyle N}
+
+.
+Due to the normality of 
+
+
+
+N
+
+
+{\displaystyle N}
+
+, the left cosets and right cosets of 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+  are the same, and so, 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ could have been defined to be the set of right cosets of 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ .
+For example, consider the group with addition modulo 6: 
+
+
+
+G
+=
+
+{
+
+0
+,
+1
+,
+2
+,
+3
+,
+4
+,
+5
+
+}
+
+
+
+{\displaystyle G=\left\{0,1,2,3,4,5\right\}}
+
+. Consider the subgroup 
+
+
+
+N
+=
+
+{
+
+0
+,
+3
+
+}
+
+
+
+{\displaystyle N=\left\{0,3\right\}}
+
+, which is normal because 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is abelian. Then the set of (left) cosets is of size three:
+The binary operation defined above makes this set into a group, known as the quotient group, which in this case is isomorphic to the cyclic group of order 3.
+The reason 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ is called a quotient group comes from division of integers.  When dividing 12 by 3 one obtains the answer 4 because one can regroup 12 objects into 4 subcollections of 3 objects. The quotient group is the same idea, although we end up with a group for a final answer instead of a number because groups have more structure than an arbitrary collection of objects.[citation needed]
+To elaborate, when looking at 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ with 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ a normal subgroup of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, the group structure is used to form a natural "regrouping".  These are the cosets of 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+.  Because we started with a group and normal subgroup, the final quotient contains more information than just the number of cosets (which is what regular division yields), but instead has a group structure itself.
+Consider the group of integers 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ (under addition) and the subgroup 
+
+
+
+2
+
+Z
+
+
+
+{\displaystyle 2\mathbb {Z} }
+
+ consisting of all even integers. This is a normal subgroup, because 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is abelian. There are only two cosets: the set of even integers and the set of odd integers, and therefore the quotient group 
+
+
+
+
+Z
+
+
+
+/
+
+
+2
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} \,/\,2\mathbb {Z} }
+
+ is the cyclic group with two elements. This quotient group is isomorphic with the set 
+
+
+
+
+{
+
+0
+,
+1
+
+}
+
+
+
+{\displaystyle \left\{0,1\right\}}
+
+ with addition modulo 2; informally, it is sometimes said that 
+
+
+
+
+Z
+
+
+
+/
+
+
+2
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} \,/\,2\mathbb {Z} }
+
+ equals the set 
+
+
+
+
+{
+
+0
+,
+1
+
+}
+
+
+
+{\displaystyle \left\{0,1\right\}}
+
+ with addition modulo 2.
+Example further explained...
+A slight generalization of the last example. Once again consider the group of integers 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ under addition.  Let n be any positive integer. We will consider the subgroup 
+
+
+
+n
+
+Z
+
+
+
+{\displaystyle n\mathbb {Z} }
+
+ of 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ consisting of all multiples of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+. Once again 
+
+
+
+n
+
+Z
+
+
+
+{\displaystyle n\mathbb {Z} }
+
+ is normal in 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ because 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is abelian. The cosets are the collection 
+
+
+
+
+{
+
+n
+
+Z
+
+,
+1
++
+n
+
+Z
+
+,
+
+…
+,
+(
+n
+−
+2
+)
++
+n
+
+Z
+
+,
+(
+n
+−
+1
+)
++
+n
+
+Z
+
+
+}
+
+
+
+{\displaystyle \left\{n\mathbb {Z} ,1+n\mathbb {Z} ,\;\ldots ,(n-2)+n\mathbb {Z} ,(n-1)+n\mathbb {Z} \right\}}
+
+. An integer 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ belongs to the coset 
+
+
+
+r
++
+n
+
+Z
+
+
+
+{\displaystyle r+n\mathbb {Z} }
+
+, where 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ is the remainder when dividing 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ by 
+
+
+
+n
+
+
+{\displaystyle n}
+
+. The quotient 
+
+
+
+
+Z
+
+
+
+/
+
+
+n
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} \,/\,n\mathbb {Z} }
+
+ can be thought of as the group of "remainders" modulo 
+
+
+
+n
+
+
+{\displaystyle n}
+
+. This is a cyclic group of order 
+
+
+
+n
+
+
+{\displaystyle n}
+
+.
+The twelfth roots of unity, which are points on the complex unit circle, form a multiplicative abelian group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, shown on the picture on the right as colored balls with the number at each point giving its complex argument. Consider its subgroup 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ made of the fourth roots of unity, shown as red balls. This normal subgroup splits the group into three cosets, shown in red, green and blue. One can check that the cosets form a group of three elements (the product of a red element with a blue element is blue, the inverse of a blue element is green, etc.). Thus, the quotient group 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ is the group of three colors, which turns out to be the cyclic group with three elements.
+Consider the group of real numbers 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ under addition, and the subgroup 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ of integers. Each coset of 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ in 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is a set of the form 
+
+
+
+a
++
+
+Z
+
+
+
+{\displaystyle a+\mathbb {Z} }
+
+, where 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ is a real number. Since 
+
+
+
+
+a
+
+1
+
+
++
+
+Z
+
+
+
+{\displaystyle a_{1}+\mathbb {Z} }
+
+ and 
+
+
+
+
+a
+
+2
+
+
++
+
+Z
+
+
+
+{\displaystyle a_{2}+\mathbb {Z} }
+
+ are identical sets when the non-integer parts of 
+
+
+
+
+a
+
+1
+
+
+
+
+{\displaystyle a_{1}}
+
+ and 
+
+
+
+
+a
+
+2
+
+
+
+
+{\displaystyle a_{2}}
+
+ are equal, one may impose the restriction 
+
+
+
+0
+≤
+a
+<
+1
+
+
+{\displaystyle 0\leq a<1}
+
+ without change of meaning. Adding such cosets is done by adding the corresponding real numbers, and subtracting 1 if the result is greater than or equal to 1. The quotient group 
+
+
+
+
+R
+
+
+
+/
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {R} \,/\,\mathbb {Z} }
+
+ is isomorphic to the circle group, the group of complex numbers of absolute value 1 under multiplication, or correspondingly, the group of rotations in 2D about the origin, that is, the special orthogonal group 
+
+
+
+
+
+SO
+
+
+(
+2
+)
+
+
+{\displaystyle {\mbox{SO}}(2)}
+
+. An isomorphism is given by 
+
+
+
+f
+(
+a
++
+
+Z
+
+)
+=
+exp
+⁡
+(
+2
+π
+i
+a
+)
+
+
+{\displaystyle f(a+\mathbb {Z} )=\exp(2\pi ia)}
+
+ (see Euler's identity).
+If 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is the group of invertible 
+
+
+
+3
+×
+3
+
+
+{\displaystyle 3\times 3}
+
+ real matrices, and 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ is the subgroup of 
+
+
+
+3
+×
+3
+
+
+{\displaystyle 3\times 3}
+
+ real matrices with determinant 1, then 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ is normal in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ (since it is the kernel of the determinant homomorphism). The cosets of 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ are the sets of matrices with a given determinant, and hence 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ is isomorphic to the multiplicative group of non-zero real numbers. The group 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ is known as the special linear group 
+
+
+
+
+
+SL
+
+
+(
+3
+)
+
+
+{\displaystyle {\mbox{SL}}(3)}
+
+.
+Consider the abelian group 
+
+
+
+
+
+Z
+
+
+4
+
+
+=
+
+Z
+
+
+
+/
+
+
+4
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} _{4}=\mathbb {Z} \,/\,4\mathbb {Z} }
+
+ (that is, the set 
+
+
+
+
+{
+
+0
+,
+1
+,
+2
+,
+3
+
+}
+
+
+
+{\displaystyle \left\{0,1,2,3\right\}}
+
+ with addition modulo 4), and its subgroup 
+
+
+
+
+{
+
+0
+,
+2
+
+}
+
+
+
+{\displaystyle \left\{0,2\right\}}
+
+. The quotient group 
+
+
+
+
+
+Z
+
+
+4
+
+
+
+
+/
+
+
+
+{
+
+0
+,
+2
+
+}
+
+
+
+{\displaystyle \mathbb {Z} _{4}\,/\,\left\{0,2\right\}}
+
+ is 
+
+
+
+
+{
+
+
+{
+
+0
+,
+2
+
+}
+
+,
+
+{
+
+1
+,
+3
+
+}
+
+
+}
+
+
+
+{\displaystyle \left\{\left\{0,2\right\},\left\{1,3\right\}\right\}}
+
+. This is a group with identity element 
+
+
+
+
+{
+
+0
+,
+2
+
+}
+
+
+
+{\displaystyle \left\{0,2\right\}}
+
+, and group operations such as 
+
+
+
+
+{
+
+0
+,
+2
+
+}
+
++
+
+{
+
+1
+,
+3
+
+}
+
+=
+
+{
+
+1
+,
+3
+
+}
+
+
+
+{\displaystyle \left\{0,2\right\}+\left\{1,3\right\}=\left\{1,3\right\}}
+
+.  Both the subgroup 
+
+
+
+
+{
+
+0
+,
+2
+
+}
+
+
+
+{\displaystyle \left\{0,2\right\}}
+
+ and the quotient group 
+
+
+
+
+{
+
+
+{
+
+0
+,
+2
+
+}
+
+,
+
+{
+
+1
+,
+3
+
+}
+
+
+}
+
+
+
+{\displaystyle \left\{\left\{0,2\right\},\left\{1,3\right\}\right\}}
+
+ are isomorphic with 
+
+
+
+
+
+Z
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {Z} _{2}}
+
+.
+Consider the multiplicative group 
+
+
+
+G
+=
+(
+
+
+Z
+
+
+
+n
+
+2
+
+
+
+
+
+)
+
+×
+
+
+
+
+{\displaystyle G=(\mathbb {Z} _{n^{2}})^{\times }}
+
+. The set 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+th residues is a multiplicative subgroup isomorphic to 
+
+
+
+(
+
+
+Z
+
+
+n
+
+
+
+)
+
+×
+
+
+
+
+{\displaystyle (\mathbb {Z} _{n})^{\times }}
+
+. Then 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ is normal in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ and the factor group 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ has the cosets 
+
+
+
+N
+,
+(
+1
++
+n
+)
+N
+,
+(
+1
++
+n
+)
+2
+N
+,
+
+…
+,
+(
+1
++
+n
+)
+n
+−
+1
+N
+
+
+{\displaystyle N,(1+n)N,(1+n)2N,\;\ldots ,(1+n)n-1N}
+
+. The Paillier cryptosystem is based on the conjecture that it is difficult to determine the coset of a random element of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ without knowing the factorization of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+.
+The quotient group 
+
+
+
+G
+
+
+/
+
+
+G
+
+
+{\displaystyle G\,/\,G}
+
+ is isomorphic to the trivial group (the group with one element), and 
+
+
+
+G
+
+
+/
+
+
+
+{
+e
+}
+
+
+
+{\displaystyle G\,/\,\left\{e\right\}}
+
+ is isomorphic to 
+
+
+
+G
+
+
+{\displaystyle G}
+
+.
+The order of 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+, by definition the number of elements, is equal to 
+
+
+
+|
+G
+:
+N
+|
+
+
+{\displaystyle \vert G:N\vert }
+
+, the index of 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ in 
+
+
+
+G
+
+
+{\displaystyle G}
+
+. If 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is finite, the index is also equal to the order of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ divided by the order of 
+
+
+
+N
+
+
+{\displaystyle N}
+
+. The set 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ may be finite, although both 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ and 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ are infinite (for example, 
+
+
+
+
+Z
+
+
+
+/
+
+
+2
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} \,/\,2\mathbb {Z} }
+
+).
+There is a "natural" surjective group homomorphism 
+
+
+
+π
+:
+G
+→
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle \pi :G\rightarrow G\,/\,N}
+
+, sending each element 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ to the coset of 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ to which 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ belongs, that is: 
+
+
+
+π
+(
+g
+)
+=
+g
+N
+
+
+{\displaystyle \pi (g)=gN}
+
+. The mapping 
+
+
+
+π
+
+
+{\displaystyle \pi }
+
+ is sometimes called the canonical projection of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ onto 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+. Its kernel is 
+
+
+
+N
+
+
+{\displaystyle N}
+
+.
+There is a bijective correspondence between the subgroups of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ that contain 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ and the subgroups of 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+; if 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ is a subgroup of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ containing 
+
+
+
+N
+
+
+{\displaystyle N}
+
+, then the corresponding subgroup of 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ is 
+
+
+
+π
+(
+H
+)
+
+
+{\displaystyle \pi (H)}
+
+. This correspondence holds for normal subgroups of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ and 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ as well, and is formalized in the lattice theorem.
+Several important properties of quotient groups are recorded in the fundamental theorem on homomorphisms and the isomorphism theorems.
+If 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is abelian, nilpotent, solvable, cyclic or finitely generated, then so is 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+.
+If 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ is a subgroup in a finite group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, and the order of 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ is one half of the order of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, then 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ is guaranteed to be a normal subgroup, so 
+
+
+
+G
+
+
+/
+
+
+H
+
+
+{\displaystyle G\,/\,H}
+
+ exists and is isomorphic to 
+
+
+
+
+C
+
+2
+
+
+
+
+{\displaystyle C_{2}}
+
+.  This result can also be stated as "any subgroup of index 2 is normal", and in this form it applies also to infinite groups. Furthermore, if 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is the smallest prime number dividing the order of a finite group, 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, then if 
+
+
+
+G
+
+
+/
+
+
+H
+
+
+{\displaystyle G\,/\,H}
+
+ has order 
+
+
+
+p
+
+
+{\displaystyle p}
+
+, 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ must be a normal subgroup of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+.[1]
+Given 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ and a normal subgroup 
+
+
+
+N
+
+
+{\displaystyle N}
+
+, then 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is a group extension of 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ by 
+
+
+
+N
+
+
+{\displaystyle N}
+
+. One could ask whether this extension is trivial or split; in other words, one could ask whether 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is a direct product or semidirect product of 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ and 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+. This is a special case of the extension problem. An example where the extension is not split is as follows: Let 
+
+
+
+G
+=
+
+
+Z
+
+
+4
+
+
+=
+
+{
+
+0
+,
+1
+,
+2
+,
+3
+
+}
+
+
+
+{\displaystyle G=\mathbb {Z} _{4}=\left\{0,1,2,3\right\}}
+
+, and 
+
+
+
+N
+=
+
+{
+
+0
+,
+2
+
+}
+
+
+
+{\displaystyle N=\left\{0,2\right\}}
+
+, which is isomorphic to 
+
+
+
+
+
+Z
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {Z} _{2}}
+
+. Then 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ is also isomorphic to 
+
+
+
+
+
+Z
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {Z} _{2}}
+
+. But 
+
+
+
+
+
+Z
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {Z} _{2}}
+
+ has only the trivial automorphism, so the only semi-direct product of 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ and 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ is the direct product. Since 
+
+
+
+
+
+Z
+
+
+4
+
+
+
+
+{\displaystyle \mathbb {Z} _{4}}
+
+ is different from 
+
+
+
+
+
+Z
+
+
+2
+
+
+×
+
+
+Z
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {Z} _{2}\times \mathbb {Z} _{2}}
+
+, we conclude that 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is not a semi-direct product of 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ and 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+.
+If 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is a Lie group and 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ is a normal and closed (in the topological rather than the algebraic sense of the word) Lie subgroup of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+, the quotient 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ / 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ is also a Lie group.  In this case, the original group 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ has the structure of a fiber bundle (specifically, a principal 
+
+
+
+N
+
+
+{\displaystyle N}
+
+-bundle), with base space 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ / 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ and fiber 
+
+
+
+N
+
+
+{\displaystyle N}
+
+. The dimension of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ / 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ equals 
+
+
+
+dim
+⁡
+G
+−
+dim
+⁡
+N
+
+
+{\displaystyle \dim G-\dim N}
+
+.[2]
+Note that the condition that 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ is closed is necessary. Indeed, if 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ is not closed then the quotient space is not a T1-space (since there is a coset in the quotient which cannot be separated from the identity by an open set), and thus not a Hausdorff space.
+For a non-normal Lie subgroup 
+
+
+
+N
+
+
+{\displaystyle N}
+
+, the space 
+
+
+
+G
+
+
+/
+
+
+N
+
+
+{\displaystyle G\,/\,N}
+
+ of left cosets is not a group, but simply a differentiable manifold on which 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ acts.  The result is known as a homogeneous space.
+
+

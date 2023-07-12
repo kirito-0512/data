@@ -1,0 +1,595 @@
+33569,
+Waring'sproblem,
+In number theory, Waring's problem asks whether each natural number k has an associated positive integer s such that every natural number is the sum of at most s natural numbers raised to the power k. For example, every natural number is the sum of at most 4 squares, 9 cubes, or 19 fourth powers. Waring's problem was proposed in 1770 by Edward Waring, after whom it is named. Its affirmative answer, known as the Hilbert–Waring theorem, was provided by Hilbert in 1909.[1] Waring's problem has its own Mathematics Subject Classification, 11P05, "Waring's problem and variants".
+Long before Waring posed his problem, Diophantus had asked whether every positive integer could be represented as the sum of four perfect squares greater than or equal to zero. This question later became known as Bachet's conjecture, after the 1621 translation of Diophantus by Claude Gaspard Bachet de Méziriac, and it was solved by Joseph-Louis Lagrange in his four-square theorem in 1770, the same year Waring made his conjecture. Waring sought to generalize this problem by trying to represent all positive integers as the sum of cubes, integers to the fourth power, and so forth, to show that any positive integer may be represented as the sum of other integers raised to a specific exponent, and that there was always a maximum number of integers raised to a certain exponent required to represent all positive integers in this way.
+For every 
+
+
+
+k
+
+
+{\displaystyle k}
+
+, let 
+
+
+
+g
+(
+k
+)
+
+
+{\displaystyle g(k)}
+
+ denote the minimum number 
+
+
+
+s
+
+
+{\displaystyle s}
+
+ of 
+
+
+
+k
+
+
+{\displaystyle k}
+
+th powers of naturals needed to represent all positive integers. Every positive integer is the sum of one first power, itself, so 
+
+
+
+g
+(
+1
+)
+=
+1
+
+
+{\displaystyle g(1)=1}
+
+. Some simple computations show that 7 requires 4 squares, 23 requires 9 cubes,[2] and 79 requires 19 fourth powers; these examples show that 
+
+
+
+g
+(
+2
+)
+≥
+4
+
+
+{\displaystyle g(2)\geq 4}
+
+, 
+
+
+
+g
+(
+3
+)
+≥
+9
+
+
+{\displaystyle g(3)\geq 9}
+
+, and 
+
+
+
+g
+(
+4
+)
+≥
+19
+
+
+{\displaystyle g(4)\geq 19}
+
+. Waring conjectured that these lower bounds were in fact exact values.
+Lagrange's four-square theorem of 1770 states that every natural number is the sum of at most four squares. Since three squares are not enough, this theorem establishes 
+
+
+
+g
+(
+2
+)
+=
+4
+
+
+{\displaystyle g(2)=4}
+
+. Lagrange's four-square theorem was conjectured in Bachet's 1621 edition of Diophantus's Arithmetica; Fermat claimed to have a proof, but did not publish it.[3]
+Over the years various bounds were established, using increasingly sophisticated and complex proof techniques. For example, Liouville showed that 
+
+
+
+g
+(
+4
+)
+
+
+{\displaystyle g(4)}
+
+ is at most 53. Hardy and Littlewood showed that all sufficiently large numbers are the sum of at most 19 fourth powers.
+That 
+
+
+
+g
+(
+3
+)
+=
+9
+
+
+{\displaystyle g(3)=9}
+
+ was established from 1909 to 1912 by Wieferich[4] and A. J. Kempner,[5] 
+
+
+
+g
+(
+4
+)
+=
+19
+
+
+{\displaystyle g(4)=19}
+
+ in 1986 by R. Balasubramanian, F. Dress, and J.-M. Deshouillers,[6][7] 
+
+
+
+g
+(
+5
+)
+=
+37
+
+
+{\displaystyle g(5)=37}
+
+ in 1964 by Chen Jingrun, and 
+
+
+
+g
+(
+6
+)
+=
+73
+
+
+{\displaystyle g(6)=73}
+
+ in 1940 by Pillai.[8]
+Let 
+
+
+
+⌊
+x
+⌋
+
+
+{\displaystyle \lfloor x\rfloor }
+
+ and 
+
+
+
+{
+x
+}
+
+
+{\displaystyle \{x\}}
+
+ respectively denote the integral and fractional part of a positive real number 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. Given the number 
+
+
+
+c
+=
+
+2
+
+k
+
+
+⌊
+(
+3
+
+/
+
+2
+
+)
+
+k
+
+
+⌋
+−
+1
+<
+
+3
+
+k
+
+
+
+
+{\displaystyle c=2^{k}\lfloor (3/2)^{k}\rfloor -1<3^{k}}
+
+, only 
+
+
+
+
+2
+
+k
+
+
+
+
+{\displaystyle 2^{k}}
+
+ and 
+
+
+
+
+1
+
+k
+
+
+
+
+{\displaystyle 1^{k}}
+
+ can be used to represent 
+
+
+
+c
+
+
+{\displaystyle c}
+
+; the most economical representation requires 
+
+
+
+
+⌊
+(
+3
+
+/
+
+2
+
+)
+
+k
+
+
+⌋
+−
+1
+
+
+{\displaystyle \lfloor (3/2)^{k}\rfloor -1}
+
+ terms of 
+
+
+
+
+2
+
+k
+
+
+
+
+{\displaystyle 2^{k}}
+
+ and 
+
+
+
+
+2
+
+k
+
+
+−
+1
+
+
+{\displaystyle 2^{k}-1}
+
+ terms of 
+
+
+
+
+1
+
+k
+
+
+
+
+{\displaystyle 1^{k}}
+
+. It follows that 
+
+
+
+g
+(
+k
+)
+
+
+{\displaystyle g(k)}
+
+ is at least as large as 
+
+
+
+
+2
+
+k
+
+
++
+⌊
+(
+3
+
+/
+
+2
+
+)
+
+k
+
+
+⌋
+−
+2
+
+
+{\displaystyle 2^{k}+\lfloor (3/2)^{k}\rfloor -2}
+
+. This was noted by J. A. Euler, the son of Leonhard Euler, in about 1772.[9] Later work by Dickson, Pillai, Rubugunday, Niven[10] and many others has proved that
+No value of 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ is known for which 
+
+
+
+
+2
+
+k
+
+
+{
+(
+3
+
+/
+
+2
+
+)
+
+k
+
+
+}
++
+⌊
+(
+3
+
+/
+
+2
+
+)
+
+k
+
+
+⌋
+>
+
+2
+
+k
+
+
+
+
+{\displaystyle 2^{k}\{(3/2)^{k}\}+\lfloor (3/2)^{k}\rfloor >2^{k}}
+
+. Mahler[11] proved that there can only be a finite number of such 
+
+
+
+k
+
+
+{\displaystyle k}
+
+, and Kubina and Wunderlich[12] have shown that any such 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ must satisfy 
+
+
+
+k
+>
+471
+
+600
+
+000
+
+
+{\displaystyle k>471\,600\,000}
+
+. Thus it is conjectured that this never happens, that is, 
+
+
+
+g
+(
+k
+)
+=
+
+2
+
+k
+
+
++
+⌊
+(
+3
+
+/
+
+2
+
+)
+
+k
+
+
+⌋
+−
+2
+
+
+{\displaystyle g(k)=2^{k}+\lfloor (3/2)^{k}\rfloor -2}
+
+ for every positive integer 
+
+
+
+k
+
+
+{\displaystyle k}
+
+.
+The first few values of 
+
+
+
+g
+(
+k
+)
+
+
+{\displaystyle g(k)}
+
+ are:
+From the work of Hardy and Littlewood,[citation needed] the related quantity G(k) was studied with g(k).  G(k) is defined to be the least positive integer s such that every sufficiently large integer (i.e. every integer greater than some constant) can be represented as a sum of at most s positive integers to the power of k. Clearly, G(1) = 1. Since squares are congruent to 0, 1, or 4 (mod 8), no integer congruent to 7 (mod 8) can be represented as a sum of three squares, implying that G(2) ≥ 4. Since G(k) ≤ g(k) for all k, this shows that G(2) = 4. Davenport showed[13] that G(4) = 16 in 1939, by demonstrating that any sufficiently large number congruent to 1 through 14 mod 16 could be written as a sum of 14 fourth powers (Vaughan in 1985[citation needed] and 1989[citation needed] reduced the 14 successively to 13 and 12). The exact value of G(k) is unknown for any other k, but there exist bounds.
+The number G(k) is greater than or equal to
+In the absence of congruence restrictions, a density argument suggests that G(k) should equal k + 1.
+G(3) is at least 4 (since cubes are congruent to 0, 1 or −1 mod 9); for numbers less than 1.3×109, 1290740 is the last to require 6 cubes, and the number of numbers between N and 2N requiring 5 cubes drops off with increasing N at sufficient speed to have people believe that G(3) = 4;[14] the largest number now known not to be a sum of 4 cubes is 7373170279850,[15] and the authors give reasonable arguments there that this may be the largest possible. The upper bound G(3) ≤ 7 is due to Linnik in 1943.[16] (All nonnegative integers require at most 9 cubes, and the largest integers requiring 9, 8, 7, 6 and 5 cubes are conjectured to be 239, 454, 8042, 1290740 and 7373170279850, respectively.)
+13792 is the largest number to require 17 fourth powers (Deshouillers, Hennecart and Landreau showed in 2000[17] that every number between 13793 and 10245 required at most 16, and Kawada, Wooley and Deshouillers extended[citation needed] Davenport's 1939 result to show that every number above 10220 required no more than 16). Numbers of the form 31·16n always require 16 fourth powers.
+68578904422 is the last known number that requires 9 fifth powers (Integer sequence S001057, Tony D. Noe, Jul 04 2017), 617597724 is the last number less than 1.3×109 that requires 10 fifth powers, and 51033617 is the last number less than 1.3×109 that requires 11.
+The upper bounds on the right with k = 5, 6, ..., 20 are due to Vaughan and Wooley.[18]
+Using his improved Hardy-Littlewood method, I. M. Vinogradov published numerous refinements leading to
+in 1947[citation needed] and, ultimately,
+for an unspecified constant C and sufficiently large k in 1959[citation needed].
+Applying his p-adic form of the Hardy–Littlewood–Ramanujan–Vinogradov method to estimating trigonometric sums, in which the summation is taken over numbers with small prime divisors, Anatolii Alexeevitch Karatsuba obtained[19] (1985) a new estimate of the Hardy function 
+
+
+
+G
+(
+k
+)
+
+
+{\displaystyle G(k)}
+
+ (for 
+
+
+
+k
+≥
+400
+
+
+{\displaystyle k\geq 400}
+
+):
+Further refinements were obtained by Vaughan in 1989[citation needed].
+Wooley then established that for some constant C,[20]
+Vaughan and Wooley have written a comprehensive survey article.[18]
+
+

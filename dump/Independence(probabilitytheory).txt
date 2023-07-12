@@ -1,0 +1,2695 @@
+27593,
+Independence(probabilitytheory),
+Independence is a fundamental notion in probability theory, as in statistics and the theory of stochastic processes. Two events are independent, statistically independent, or stochastically independent[1] if, informally speaking, the occurrence of one does not affect the probability of occurrence of the other or, equivalently, does not affect the odds. Similarly, two random variables are independent if the realization of one does not affect the probability distribution of the other.
+When dealing with collections of more than two events, two notions of independence need to be distinguished. The events are called pairwise independent if any two events in the collection are independent of each other, while mutual independence (or collective independence)  of events means, informally speaking, that each event is independent of any combination of other events in the collection. A similar notion exists for collections of random variables. Mutual independence implies pairwise independence, but not the other way around. In the standard literature of probability theory, statistics, and stochastic processes, independence without further qualification usually refers to mutual independence.
+Two events 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ are independent (often written as 
+
+
+
+A
+⊥
+B
+
+
+{\displaystyle A\perp B}
+
+ or 
+
+
+
+A
+⊥
+
+
+
+⊥
+B
+
+
+{\displaystyle A\perp \!\!\!\perp B}
+
+, where the latter symbol often is also used for conditional independence) if and only if their joint probability equals the product of their probabilities:[2]: p. 29 [3]: p. 10 
+    (Eq.1)
+
+
+
+A
+∩
+B
+≠
+∅
+
+
+{\displaystyle A\cap B\neq \emptyset }
+
+ indicates that two independent events 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ have common elements in their sample space so that they are not mutually exclusive (mutually exclusive iff 
+
+
+
+A
+∩
+B
+=
+∅
+
+
+{\displaystyle A\cap B=\emptyset }
+
+). Why this defines independence is made clear by rewriting with conditional probabilities 
+
+
+
+P
+(
+A
+∣
+B
+)
+=
+
+
+
+P
+(
+A
+∩
+B
+)
+
+
+P
+(
+B
+)
+
+
+
+
+
+{\displaystyle P(A\mid B)={\frac {P(A\cap B)}{P(B)}}}
+
+ as the probability at which the event 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ occurs provided that the event 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ has or is assumed to have occurred:
+and similarly
+Thus, the occurrence of 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ does not affect the probability of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+, and vice versa. In other words, 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ are independent to each other. Although the derived expressions may seem more intuitive, they are not the preferred definition, as the conditional probabilities may be undefined if 
+
+
+
+
+P
+
+(
+A
+)
+
+
+{\displaystyle \mathrm {P} (A)}
+
+ or 
+
+
+
+
+P
+
+(
+B
+)
+
+
+{\displaystyle \mathrm {P} (B)}
+
+ are 0. Furthermore, the preferred definition makes clear by symmetry that when 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is independent of 
+
+
+
+B
+
+
+{\displaystyle B}
+
+, 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ is also independent of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+.
+Stated in terms of odds, two events are independent if and only if the odds ratio of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ is unity (1). Analogously with probability, this is equivalent to the conditional odds being equal to the unconditional odds:
+or to the odds of one event, given the other event, being the same as the odds of the event, given the other event not occurring:
+The odds ratio can be defined as
+or symmetrically for odds of 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ given 
+
+
+
+A
+
+
+{\displaystyle A}
+
+, and thus is 1 if and only if the events are independent.
+A finite set of events 
+
+
+
+{
+
+A
+
+i
+
+
+
+}
+
+i
+=
+1
+
+
+n
+
+
+
+
+{\displaystyle \{A_{i}\}_{i=1}^{n}}
+
+ is pairwise independent if every pair of events is independent[4]—that is, if and only if for all distinct pairs of indices 
+
+
+
+m
+,
+k
+
+
+{\displaystyle m,k}
+
+,
+    (Eq.2)A finite set of events is mutually independent if every event is independent of any intersection of the other events[4][3]: p. 11 —that is, if and only if for every 
+
+
+
+k
+≤
+n
+
+
+{\displaystyle k\leq n}
+
+ and for every k indices 
+
+
+
+1
+≤
+
+i
+
+1
+
+
+<
+⋯
+<
+
+i
+
+k
+
+
+≤
+n
+
+
+{\displaystyle 1\leq i_{1}<\dots <i_{k}\leq n}
+
+,
+    (Eq.3)This is called the multiplication rule for independent events. It is not a single condition involving only the product of all the probabilities of all single events; it must hold true for all subsets of events.
+For more than two events, a mutually independent set of events is (by definition) pairwise independent; but the converse is not necessarily true.[2]: p. 30 
+Stated in terms of log probability, two events are independent if and only if the log probability of the joint event is the sum of the log probability of the individual events:
+In information theory, negative log probability is interpreted as information content, and thus two events are independent if and only if the information content of the combined event equals the sum of information content of the individual events:
+See Information content § Additivity of independent events for details.
+Two random variables 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ are independent if and only if (iff) the elements of the π-system generated by them are independent; that is to say, for every 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+, the events 
+
+
+
+{
+X
+≤
+x
+}
+
+
+{\displaystyle \{X\leq x\}}
+
+ and 
+
+
+
+{
+Y
+≤
+y
+}
+
+
+{\displaystyle \{Y\leq y\}}
+
+ are independent events (as defined above in Eq.1).  That is, 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ with cumulative distribution functions 
+
+
+
+
+F
+
+X
+
+
+(
+x
+)
+
+
+{\displaystyle F_{X}(x)}
+
+ and 
+
+
+
+
+F
+
+Y
+
+
+(
+y
+)
+
+
+{\displaystyle F_{Y}(y)}
+
+, are independent iff the combined random variable 
+
+
+
+(
+X
+,
+Y
+)
+
+
+{\displaystyle (X,Y)}
+
+ has a joint cumulative distribution function[3]: p. 15 
+    (Eq.4)or equivalently, if the probability densities 
+
+
+
+
+f
+
+X
+
+
+(
+x
+)
+
+
+{\displaystyle f_{X}(x)}
+
+ and 
+
+
+
+
+f
+
+Y
+
+
+(
+y
+)
+
+
+{\displaystyle f_{Y}(y)}
+
+ and the joint probability density 
+
+
+
+
+f
+
+X
+,
+Y
+
+
+(
+x
+,
+y
+)
+
+
+{\displaystyle f_{X,Y}(x,y)}
+
+ exist,
+A finite set of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ random variables 
+
+
+
+{
+
+X
+
+1
+
+
+,
+…
+,
+
+X
+
+n
+
+
+}
+
+
+{\displaystyle \{X_{1},\ldots ,X_{n}\}}
+
+ is pairwise independent if and only if every pair of random variables is independent. Even if the set of random variables is pairwise independent, it is not necessarily mutually independent as defined next.
+A finite set of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ random variables 
+
+
+
+{
+
+X
+
+1
+
+
+,
+…
+,
+
+X
+
+n
+
+
+}
+
+
+{\displaystyle \{X_{1},\ldots ,X_{n}\}}
+
+ is mutually independent if and only if for any sequence of numbers 
+
+
+
+{
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+}
+
+
+{\displaystyle \{x_{1},\ldots ,x_{n}\}}
+
+, the events 
+
+
+
+{
+
+X
+
+1
+
+
+≤
+
+x
+
+1
+
+
+}
+,
+…
+,
+{
+
+X
+
+n
+
+
+≤
+
+x
+
+n
+
+
+}
+
+
+{\displaystyle \{X_{1}\leq x_{1}\},\ldots ,\{X_{n}\leq x_{n}\}}
+
+ are mutually independent events (as defined above in Eq.3). This is equivalent to the following condition on the joint cumulative distribution function 
+
+
+
+
+F
+
+
+X
+
+1
+
+
+,
+…
+,
+
+X
+
+n
+
+
+
+
+(
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+)
+
+
+{\displaystyle F_{X_{1},\ldots ,X_{n}}(x_{1},\ldots ,x_{n})}
+
+. A finite set of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ random variables 
+
+
+
+{
+
+X
+
+1
+
+
+,
+…
+,
+
+X
+
+n
+
+
+}
+
+
+{\displaystyle \{X_{1},\ldots ,X_{n}\}}
+
+ is mutually independent if and only if[3]: p. 16 
+    (Eq.5)Notice that it is not necessary here to require that the probability distribution factorizes for all possible 
+
+
+
+k
+
+
+{\displaystyle k}
+
+-element subsets as in the case for 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ events. This is not required because e.g. 
+
+
+
+
+F
+
+
+X
+
+1
+
+
+,
+
+X
+
+2
+
+
+,
+
+X
+
+3
+
+
+
+
+(
+
+x
+
+1
+
+
+,
+
+x
+
+2
+
+
+,
+
+x
+
+3
+
+
+)
+=
+
+F
+
+
+X
+
+1
+
+
+
+
+(
+
+x
+
+1
+
+
+)
+⋅
+
+F
+
+
+X
+
+2
+
+
+
+
+(
+
+x
+
+2
+
+
+)
+⋅
+
+F
+
+
+X
+
+3
+
+
+
+
+(
+
+x
+
+3
+
+
+)
+
+
+{\displaystyle F_{X_{1},X_{2},X_{3}}(x_{1},x_{2},x_{3})=F_{X_{1}}(x_{1})\cdot F_{X_{2}}(x_{2})\cdot F_{X_{3}}(x_{3})}
+
+ implies 
+
+
+
+
+F
+
+
+X
+
+1
+
+
+,
+
+X
+
+3
+
+
+
+
+(
+
+x
+
+1
+
+
+,
+
+x
+
+3
+
+
+)
+=
+
+F
+
+
+X
+
+1
+
+
+
+
+(
+
+x
+
+1
+
+
+)
+⋅
+
+F
+
+
+X
+
+3
+
+
+
+
+(
+
+x
+
+3
+
+
+)
+
+
+{\displaystyle F_{X_{1},X_{3}}(x_{1},x_{3})=F_{X_{1}}(x_{1})\cdot F_{X_{3}}(x_{3})}
+
+.
+The measure-theoretically inclined may prefer to substitute events 
+
+
+
+{
+X
+∈
+A
+}
+
+
+{\displaystyle \{X\in A\}}
+
+ for events 
+
+
+
+{
+X
+≤
+x
+}
+
+
+{\displaystyle \{X\leq x\}}
+
+ in the above definition, where 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is any Borel set.  That definition is exactly equivalent to the one above when the values of the random variables are real numbers.  It has the advantage of working also for complex-valued random variables or for random variables taking values in any measurable space (which includes topological spaces endowed by appropriate σ-algebras).
+Two random vectors 
+
+
+
+
+X
+
+=
+(
+
+X
+
+1
+
+
+,
+…
+,
+
+X
+
+m
+
+
+
+)
+
+
+T
+
+
+
+
+
+{\displaystyle \mathbf {X} =(X_{1},\ldots ,X_{m})^{\mathrm {T} }}
+
+ and 
+
+
+
+
+Y
+
+=
+(
+
+Y
+
+1
+
+
+,
+…
+,
+
+Y
+
+n
+
+
+
+)
+
+
+T
+
+
+
+
+
+{\displaystyle \mathbf {Y} =(Y_{1},\ldots ,Y_{n})^{\mathrm {T} }}
+
+ are called independent if[5]: p. 187 
+    (Eq.6)where 
+
+
+
+
+F
+
+
+X
+
+
+
+(
+
+x
+
+)
+
+
+{\displaystyle F_{\mathbf {X} }(\mathbf {x} )}
+
+ and 
+
+
+
+
+F
+
+
+Y
+
+
+
+(
+
+y
+
+)
+
+
+{\displaystyle F_{\mathbf {Y} }(\mathbf {y} )}
+
+ denote the cumulative distribution functions of 
+
+
+
+
+X
+
+
+
+{\displaystyle \mathbf {X} }
+
+ and 
+
+
+
+
+Y
+
+
+
+{\displaystyle \mathbf {Y} }
+
+ and 
+
+
+
+
+F
+
+
+X
+,
+Y
+
+
+
+(
+
+x
+,
+y
+
+)
+
+
+{\displaystyle F_{\mathbf {X,Y} }(\mathbf {x,y} )}
+
+ denotes their joint cumulative distribution function. Independence of 
+
+
+
+
+X
+
+
+
+{\displaystyle \mathbf {X} }
+
+ and 
+
+
+
+
+Y
+
+
+
+{\displaystyle \mathbf {Y} }
+
+ is often denoted by 
+
+
+
+
+X
+
+⊥
+
+
+
+⊥
+
+Y
+
+
+
+{\displaystyle \mathbf {X} \perp \!\!\!\perp \mathbf {Y} }
+
+.
+Written component-wise, 
+
+
+
+
+X
+
+
+
+{\displaystyle \mathbf {X} }
+
+ and 
+
+
+
+
+Y
+
+
+
+{\displaystyle \mathbf {Y} }
+
+ are called independent if
+The definition of independence may be extended from random vectors to a stochastic process. Therefore, it is required for an independent stochastic process that the random variables obtained by sampling the process at any 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ times 
+
+
+
+
+t
+
+1
+
+
+,
+…
+,
+
+t
+
+n
+
+
+
+
+{\displaystyle t_{1},\ldots ,t_{n}}
+
+ are independent random variables for any 
+
+
+
+n
+
+
+{\displaystyle n}
+
+.[6]: p. 163 
+Formally, a stochastic process 
+
+
+
+
+
+{
+
+X
+
+t
+
+
+}
+
+
+t
+∈
+
+
+T
+
+
+
+
+
+
+{\displaystyle \left\{X_{t}\right\}_{t\in {\mathcal {T}}}}
+
+ is called independent, if and only if for all 
+
+
+
+n
+∈
+
+N
+
+
+
+{\displaystyle n\in \mathbb {N} }
+
+ and for all 
+
+
+
+
+t
+
+1
+
+
+,
+…
+,
+
+t
+
+n
+
+
+∈
+
+
+T
+
+
+
+
+{\displaystyle t_{1},\ldots ,t_{n}\in {\mathcal {T}}}
+
+
+    (Eq.7)where 
+
+
+
+
+F
+
+
+X
+
+
+t
+
+1
+
+
+
+
+,
+…
+,
+
+X
+
+
+t
+
+n
+
+
+
+
+
+
+(
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+)
+=
+
+P
+
+(
+X
+(
+
+t
+
+1
+
+
+)
+≤
+
+x
+
+1
+
+
+,
+…
+,
+X
+(
+
+t
+
+n
+
+
+)
+≤
+
+x
+
+n
+
+
+)
+
+
+{\displaystyle F_{X_{t_{1}},\ldots ,X_{t_{n}}}(x_{1},\ldots ,x_{n})=\mathrm {P} (X(t_{1})\leq x_{1},\ldots ,X(t_{n})\leq x_{n})}
+
+. Independence of a stochastic process is a property within a stochastic process, not between two stochastic processes.
+Independence of two stochastic processes is a property between two stochastic processes 
+
+
+
+
+
+{
+
+X
+
+t
+
+
+}
+
+
+t
+∈
+
+
+T
+
+
+
+
+
+
+{\displaystyle \left\{X_{t}\right\}_{t\in {\mathcal {T}}}}
+
+ and 
+
+
+
+
+
+{
+
+Y
+
+t
+
+
+}
+
+
+t
+∈
+
+
+T
+
+
+
+
+
+
+{\displaystyle \left\{Y_{t}\right\}_{t\in {\mathcal {T}}}}
+
+ that are defined on the same probability space 
+
+
+
+(
+Ω
+,
+
+
+F
+
+
+,
+P
+)
+
+
+{\displaystyle (\Omega ,{\mathcal {F}},P)}
+
+. Formally, two stochastic processes 
+
+
+
+
+
+{
+
+X
+
+t
+
+
+}
+
+
+t
+∈
+
+
+T
+
+
+
+
+
+
+{\displaystyle \left\{X_{t}\right\}_{t\in {\mathcal {T}}}}
+
+ and 
+
+
+
+
+
+{
+
+Y
+
+t
+
+
+}
+
+
+t
+∈
+
+
+T
+
+
+
+
+
+
+{\displaystyle \left\{Y_{t}\right\}_{t\in {\mathcal {T}}}}
+
+ are said to be independent if for all 
+
+
+
+n
+∈
+
+N
+
+
+
+{\displaystyle n\in \mathbb {N} }
+
+ and for all 
+
+
+
+
+t
+
+1
+
+
+,
+…
+,
+
+t
+
+n
+
+
+∈
+
+
+T
+
+
+
+
+{\displaystyle t_{1},\ldots ,t_{n}\in {\mathcal {T}}}
+
+, the random vectors 
+
+
+
+(
+X
+(
+
+t
+
+1
+
+
+)
+,
+…
+,
+X
+(
+
+t
+
+n
+
+
+)
+)
+
+
+{\displaystyle (X(t_{1}),\ldots ,X(t_{n}))}
+
+ and 
+
+
+
+(
+Y
+(
+
+t
+
+1
+
+
+)
+,
+…
+,
+Y
+(
+
+t
+
+n
+
+
+)
+)
+
+
+{\displaystyle (Y(t_{1}),\ldots ,Y(t_{n}))}
+
+ are independent,[7]: p. 515  i.e. if
+    (Eq.8)The definitions above (Eq.1 and Eq.2) are both generalized by the following definition of independence for σ-algebras.  Let 
+
+
+
+(
+Ω
+,
+Σ
+,
+
+P
+
+)
+
+
+{\displaystyle (\Omega ,\Sigma ,\mathrm {P} )}
+
+ be a probability space and let 
+
+
+
+
+
+A
+
+
+
+
+{\displaystyle {\mathcal {A}}}
+
+ and 
+
+
+
+
+
+B
+
+
+
+
+{\displaystyle {\mathcal {B}}}
+
+ be two sub-σ-algebras of 
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+
+. 
+
+
+
+
+
+A
+
+
+
+
+{\displaystyle {\mathcal {A}}}
+
+ and 
+
+
+
+
+
+B
+
+
+
+
+{\displaystyle {\mathcal {B}}}
+
+ are said to be independent if, whenever 
+
+
+
+A
+∈
+
+
+A
+
+
+
+
+{\displaystyle A\in {\mathcal {A}}}
+
+ and 
+
+
+
+B
+∈
+
+
+B
+
+
+
+
+{\displaystyle B\in {\mathcal {B}}}
+
+,
+Likewise, a finite family of σ-algebras 
+
+
+
+(
+
+τ
+
+i
+
+
+
+)
+
+i
+∈
+I
+
+
+
+
+{\displaystyle (\tau _{i})_{i\in I}}
+
+, where 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ is an index set, is said to be independent if and only if
+and an infinite family of σ-algebras is said to be independent if all its finite subfamilies are independent.
+The new definition relates to the previous ones very directly:
+Using this definition, it is easy to show that if 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ are random variables and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is constant, then 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ are independent, since the σ-algebra generated by a constant random variable is the trivial σ-algebra 
+
+
+
+{
+∅
+,
+Ω
+}
+
+
+{\displaystyle \{\varnothing ,\Omega \}}
+
+. Probability zero events cannot affect independence so independence also holds if 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ is only Pr-almost surely constant.
+Note that an event is independent of itself if and only if
+Thus an event is independent of itself if and only if it almost surely occurs or its complement almost surely occurs; this fact is useful when proving zero–one laws.[8]
+If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ are statistically independent random variables, then the expectation operator 
+
+
+
+E
+
+
+{\displaystyle \operatorname {E} }
+
+ has the property
+and the covariance 
+
+
+
+cov
+⁡
+[
+X
+,
+Y
+]
+
+
+{\displaystyle \operatorname {cov} [X,Y]}
+
+ is zero, as follows from
+The converse does not hold: if two random variables have a covariance of 0 they still may be not independent.  See uncorrelated.
+Similarly for two stochastic processes 
+
+
+
+
+
+{
+
+X
+
+t
+
+
+}
+
+
+t
+∈
+
+
+T
+
+
+
+
+
+
+{\displaystyle \left\{X_{t}\right\}_{t\in {\mathcal {T}}}}
+
+ and 
+
+
+
+
+
+{
+
+Y
+
+t
+
+
+}
+
+
+t
+∈
+
+
+T
+
+
+
+
+
+
+{\displaystyle \left\{Y_{t}\right\}_{t\in {\mathcal {T}}}}
+
+: If they are independent, then they are uncorrelated.[10]: p. 151 
+Two random variables 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ are independent if and only if the characteristic function of the random vector 
+
+
+
+(
+X
+,
+Y
+)
+
+
+{\displaystyle (X,Y)}
+
+ satisfies
+In particular the characteristic function of their sum is the product of their marginal characteristic functions:
+though the reverse implication is not true.  Random variables that satisfy the latter condition are called subindependent.
+The event of getting a 6 the first time a die is rolled and the event of getting a 6 the second time are independent. By contrast, the event of getting a 6 the first time a die is rolled and the event that the sum of the numbers seen on the first and second trial is 8 are not independent.
+If two cards are drawn with replacement from a deck of cards, the event of drawing a red card on the first trial and that of drawing a red card on the second trial are independent. By contrast, if two cards are drawn without replacement from a deck of cards, the event of drawing a red card on the first trial and that of drawing a red card on the second trial are  not independent, because a deck that has had a red card removed has proportionately fewer red cards.
+Consider the two probability spaces shown. In both cases, 
+
+
+
+
+P
+
+(
+A
+)
+=
+
+P
+
+(
+B
+)
+=
+1
+
+/
+
+2
+
+
+{\displaystyle \mathrm {P} (A)=\mathrm {P} (B)=1/2}
+
+ and 
+
+
+
+
+P
+
+(
+C
+)
+=
+1
+
+/
+
+4
+
+
+{\displaystyle \mathrm {P} (C)=1/4}
+
+. The random variables in the first space are pairwise independent because 
+
+
+
+
+P
+
+(
+A
+
+|
+
+B
+)
+=
+
+P
+
+(
+A
+
+|
+
+C
+)
+=
+1
+
+/
+
+2
+=
+
+P
+
+(
+A
+)
+
+
+{\displaystyle \mathrm {P} (A|B)=\mathrm {P} (A|C)=1/2=\mathrm {P} (A)}
+
+,  
+
+
+
+
+P
+
+(
+B
+
+|
+
+A
+)
+=
+
+P
+
+(
+B
+
+|
+
+C
+)
+=
+1
+
+/
+
+2
+=
+
+P
+
+(
+B
+)
+
+
+{\displaystyle \mathrm {P} (B|A)=\mathrm {P} (B|C)=1/2=\mathrm {P} (B)}
+
+, and 
+
+
+
+
+P
+
+(
+C
+
+|
+
+A
+)
+=
+
+P
+
+(
+C
+
+|
+
+B
+)
+=
+1
+
+/
+
+4
+=
+
+P
+
+(
+C
+)
+
+
+{\displaystyle \mathrm {P} (C|A)=\mathrm {P} (C|B)=1/4=\mathrm {P} (C)}
+
+; but the three random variables are not mutually independent. The random variables in the second space are both pairwise independent and mutually independent. To illustrate the difference, consider conditioning on two events. In the pairwise independent case, although any one event is independent of each of the other two individually, it is not independent of the intersection of the other two:
+In the mutually independent case, however,
+It is possible to create a three-event example in which
+and yet no two of the three events are pairwise independent (and hence the set of events are not mutually independent).[11] This example shows that mutual independence involves requirements on the products of probabilities of all combinations of events, not just the single events as in this example.
+The events 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ are conditionally independent given an event 
+
+
+
+C
+
+
+{\displaystyle C}
+
+ when
+
+
+
+
+
+P
+
+(
+A
+∩
+B
+∣
+C
+)
+=
+
+P
+
+(
+A
+∣
+C
+)
+⋅
+
+P
+
+(
+B
+∣
+C
+)
+
+
+{\displaystyle \mathrm {P} (A\cap B\mid C)=\mathrm {P} (A\mid C)\cdot \mathrm {P} (B\mid C)}
+
+.
+Intuitively, two random variables 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ are conditionally independent given 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ if, once 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ is known, the value of 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ does not add any additional information about 
+
+
+
+X
+
+
+{\displaystyle X}
+
+.  For instance, two measurements 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ of the same underlying quantity 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ are not independent, but they are conditionally independent given 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ (unless the errors in the two measurements are somehow connected).
+The formal definition of conditional independence is based on the idea of conditional distributions.  If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+, 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+, and 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ are discrete random variables, then we define 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ to be conditionally independent given 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ if
+for all 
+
+
+
+x
+
+
+{\displaystyle x}
+
+, 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ and 
+
+
+
+z
+
+
+{\displaystyle z}
+
+ such that 
+
+
+
+
+P
+
+(
+Z
+=
+z
+)
+>
+0
+
+
+{\displaystyle \mathrm {P} (Z=z)>0}
+
+. On the other hand, if the random variables are continuous and have a joint probability density function 
+
+
+
+
+f
+
+X
+Y
+Z
+
+
+(
+x
+,
+y
+,
+z
+)
+
+
+{\displaystyle f_{XYZ}(x,y,z)}
+
+, then 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ are conditionally independent given 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ if
+for all real numbers 
+
+
+
+x
+
+
+{\displaystyle x}
+
+, 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ and 
+
+
+
+z
+
+
+{\displaystyle z}
+
+ such that 
+
+
+
+
+f
+
+Z
+
+
+(
+z
+)
+>
+0
+
+
+{\displaystyle f_{Z}(z)>0}
+
+.
+If discrete 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ are conditionally independent given 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+, then
+for any 
+
+
+
+x
+
+
+{\displaystyle x}
+
+, 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ and 
+
+
+
+z
+
+
+{\displaystyle z}
+
+ with 
+
+
+
+
+P
+
+(
+Z
+=
+z
+)
+>
+0
+
+
+{\displaystyle \mathrm {P} (Z=z)>0}
+
+. That is, the conditional distribution for 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ given 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ and 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ is the same as that given 
+
+
+
+Z
+
+
+{\displaystyle Z}
+
+ alone.  A similar equation holds for the conditional probability density functions in the continuous case.
+Independence can be seen as a special kind of conditional independence, since probability can be seen as a kind of conditional probability given no events.
+
+

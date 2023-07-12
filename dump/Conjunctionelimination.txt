@@ -1,0 +1,51 @@
+6564,
+Conjunctionelimination,
+In propositional logic, conjunction elimination (also called and elimination, ∧ elimination,[1] or simplification)[2][3][4] is a valid immediate inference, argument form and rule of inference which makes the inference that, if the conjunction A and B is true, then A is true, and B is true. The rule makes it possible to shorten longer proofs by deriving one of the conjuncts of a conjunction on a line by itself. 
+An example in English:
+The rule consists of two separate sub-rules, which can be expressed in formal language as:
+and
+The two sub-rules together mean that, whenever an instance of "
+P
+∧
+Q
+{\displaystyle P\land Q}
+" appears on a line of a proof, either "
+P
+{\displaystyle P}
+" or "
+Q
+{\displaystyle Q}
+" can be placed on a subsequent line by itself. The above example in English is an application of the first sub-rule.
+The conjunction elimination sub-rules may be written in sequent notation:
+and
+where 
+⊢
+{\displaystyle \vdash }
+ is a metalogical symbol meaning that 
+P
+{\displaystyle P}
+ is a syntactic consequence of 
+P
+∧
+Q
+{\displaystyle P\land Q}
+ and 
+Q
+{\displaystyle Q}
+ is also a syntactic consequence of 
+P
+∧
+Q
+{\displaystyle P\land Q}
+ in logical system;
+and expressed as truth-functional tautologies or theorems of propositional logic:
+and
+where 
+P
+{\displaystyle P}
+ and 
+Q
+{\displaystyle Q}
+ are propositions expressed in some formal system.
+Information box
+{'Type': 'Rule of inference', 'Field': 'Propositional calculus', 'Statement': 'If the conjunction\nand\nis true, then\nis true, and\nis true.', 'Symbolic statement': ''}

@@ -1,0 +1,36 @@
+27588,
+Range(statistics),
+In statistics, the range of a set of data is the difference between the largest and smallest values,[1]
+the result of subtracting the sample maximum and minimum. It is expressed in the same units as the data. 
+In descriptive statistics, range is the size of the smallest interval which contains all the data and provides an indication of statistical dispersion. Since it only depends on two of the observations, it is most useful in representing the dispersion of small data sets.[2]
+For n independent and identically distributed continuous random variables X1, X2, ..., Xn with the cumulative distribution function  G(x) and a probability density function g(x), let T denote the range of them, that is, T= max(X1, X2, ..., Xn)-
+min(X1, X2, ..., Xn).
+The range, T,  has the cumulative distribution function[3][4]
+Gumbel notes that the "beauty of this formula is completely marred by the facts that, in general, we cannot express G(x + t) by G(x), and that the numerical integration is lengthy and tiresome."[3]: 385 
+If the distribution of each Xi is limited to the right (or left) then the asymptotic distribution of the range is equal to the asymptotic distribution of the largest (smallest) value. For more general distributions the asymptotic distribution can be expressed as a Bessel function.[3]
+The mean range is given by[5]
+where x(G) is the inverse function. In the case where each of the Xi has a standard normal distribution, the mean range is given by[6]
+For n nonidentically distributed independent continuous random variables X1, X2, ..., Xn with cumulative distribution functions G1(x), G2(x), ..., Gn(x) and probability density functions g1(x), g2(x), ..., gn(x), the range has cumulative distribution function [4]
+For n independent and identically distributed discrete random variables X1, X2, ..., Xn with cumulative distribution function G(x) and probability mass function g(x) the range of the Xi is the range of a sample of size n from a population with distribution function G(x). We can assume without loss of generality that the support of each Xi is {1,2,3,...,N} where N is a positive integer or infinity.[7][8]
+The range has probability mass function[7][9][10]
+If we suppose that g(x) = 1/N, the discrete uniform distribution for all x, then we find[9][11]
+The probability of having a specific range value, t, can be determined by adding the probabilities of having two samples differing by t, and every other sample having a value between the two extremes.
+The probability of one sample having a value of x is 
+
+
+
+n
+g
+(
+x
+)
+
+
+{\displaystyle ng(x)}
+
+. The probability of another having a value t greater than x is:
+The probability of all other values lying between these two extremes is:
+Combining the three together yields:
+The range is a specific example of order statistics. In particular, the range is a linear function of order statistics, which brings it into the scope of L-estimation.
+
+

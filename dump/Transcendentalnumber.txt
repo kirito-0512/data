@@ -1,0 +1,320 @@
+30325,
+Transcendentalnumber,
+In mathematics, a transcendental number is a real or complex number that is not algebraic – that is, not the root of a non-zero polynomial of finite degree with rational coefficients. The best known transcendental numbers are π and e.[1][2]
+Though only a few classes of transcendental numbers are known – partly because it can be extremely difficult to show that a given number is transcendental, transcendental numbers are not rare: indeed, almost all real and complex numbers are transcendental, since the algebraic numbers form a countable set, while the set of real numbers and the set of complex numbers are both uncountable sets, and therefore larger than any countable set. All transcendental real numbers (also known as real transcendental numbers or transcendental irrational numbers) are irrational numbers, since all rational numbers are algebraic.[3][4][5][6] The converse is not true: Not all irrational numbers are transcendental. Hence, the set of real numbers consists of non-overlapping rational, algebraic non-rational and transcendental real numbers.[3] For example, the square root of 2 is an irrational number, but it is not a transcendental number as it is a root of the polynomial equation x2 − 2 = 0. The golden ratio (denoted 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ or 
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+
+) is another irrational number that is not transcendental, as it is a root of the polynomial equation x2 − x − 1 = 0. The quality of a number being transcendental is called transcendence.
+The name "transcendental" comes from the Latin trānscendere 'to climb over or beyond, surmount',[7] and was first used for the mathematical concept in Leibniz's 1682 paper in which he proved that sin x is not an algebraic function of x .[8] Euler, in the 18th century, was probably the first person to define transcendental numbers in the modern sense.[9]
+Johann Heinrich Lambert conjectured that e and π were both transcendental numbers in his 1768 paper proving the number π is irrational, and proposed a tentative sketch of a proof of π's transcendence.[10]
+Joseph Liouville first proved the existence of transcendental numbers in 1844,[11] and in 1851 gave the first decimal examples such as the Liouville constant
+in which the nth digit after the decimal point is 1 if n is equal to k! (k factorial) for some k and 0 otherwise.[12] In other words, the nth digit of this number is 1 only if n is one of the numbers 1! = 1, 2! = 2, 3! = 6, 4! = 24, etc. Liouville showed that this number belongs to a class of transcendental numbers that can be more closely approximated by rational numbers than can any irrational algebraic number, and this class of numbers are called Liouville numbers, named in his honour. Liouville showed that all Liouville numbers are transcendental.[13]
+The first number to be proven transcendental without having been specifically constructed for the purpose of proving transcendental numbers' existence was e, by Charles Hermite in 1873.
+In 1874, Georg Cantor proved that the algebraic numbers are countable and the real numbers are uncountable.  He also gave a new method for constructing transcendental numbers.[14] Although this was already implied by his proof of the countability of the algebraic numbers, Cantor also published a construction that proves there are as many transcendental numbers as there are real numbers.[a]
+Cantor's work established the ubiquity of transcendental numbers.
+In 1882, Ferdinand von Lindemann published the first complete proof of the transcendence of π. He first proved that ea is transcendental if a is a non-zero algebraic number. Then, since ei π = −1 is algebraic (see Euler's identity), i π must be transcendental. But since i is algebraic, π therefore must be transcendental. This approach was generalized by Karl Weierstrass to what is now known as the Lindemann–Weierstrass theorem. The transcendence of π allowed the proof of the impossibility of several ancient geometric constructions involving compass and straightedge, including the most famous one, squaring the circle.
+In 1900, David Hilbert posed a question about transcendental numbers, Hilbert's seventh problem: If a is an algebraic number that is not zero or one, and b is an irrational algebraic number, is ab necessarily transcendental? The affirmative answer was provided in 1934 by the Gelfond–Schneider theorem. This work was extended by Alan Baker in the 1960s in his work on lower bounds for linear forms in any number of logarithms (of algebraic numbers).[16]
+A transcendental number is a (possibly complex) number that is not the root of any integer polynomial. Every real transcendental number must also be irrational, since a rational number is the root of an integer polynomial of degree one.[17] The set of transcendental numbers is uncountably infinite. Since the polynomials with rational coefficients are countable, and since each such polynomial has a finite number of zeroes, the algebraic numbers must also be countable. However, Cantor's diagonal argument proves that the real numbers (and therefore also the complex numbers) are uncountable. Since the real numbers are the union of algebraic and transcendental numbers, it is impossible for both subsets to be countable. This makes the transcendental numbers uncountable.
+No rational number is transcendental and all real transcendental numbers are irrational. The irrational numbers contain all the real transcendental numbers and a subset of the algebraic numbers, including the quadratic irrationals and other forms of algebraic irrationals.
+Applying any non-constant single-variable algebraic function to a transcendental argument yields a transcendental value. For example, from knowing that π is transcendental, it can be immediately deduced that numbers such as 5 π, π - 3/√2, (√π-√3)8 , and 4√π5+7  are transcendental as well.
+However, an algebraic function of several variables may yield an algebraic number when applied to transcendental numbers if these numbers are not algebraically independent. For example, π and (1 − π) are both transcendental, but π + (1 − π) = 1 is obviously not. It is unknown whether e + π, for example, is transcendental, though at least one of e + π and eπ must be transcendental. More generally, for any two transcendental numbers a and b, at least one of a + b and ab must be transcendental. To see this, consider the polynomial  (x − a)(x − b) = x2 − (a + b) x + a b . If   (a + b)  and  a b  were both algebraic, then this would be a polynomial with algebraic coefficients. Because algebraic numbers form an algebraically closed field, this would imply that the roots of the polynomial, a and b, must be algebraic. But this is a contradiction, and thus it must be the case that at least one of the coefficients is transcendental.
+The non-computable numbers are a strict subset of the transcendental numbers.
+All Liouville numbers are transcendental, but not vice versa. Any Liouville number must have unbounded partial quotients in its continued fraction expansion. Using a counting argument one can show that there exist transcendental numbers which have bounded partial quotients and hence are not Liouville numbers.
+Using the explicit continued fraction expansion of e, one can show that e is not a Liouville number (although the partial quotients in its continued fraction expansion are unbounded). Kurt Mahler showed in 1953 that π is also not a Liouville number. It is conjectured that all infinite continued fractions with bounded terms, that have a "simple" structure, and that are not eventually periodic are transcendental (in other words, algebraic irrational roots of at least third degree polynomials do not have simple continued fraction expansions, since eventually periodic continued fractions correspond to quadratic irrationals).[18]
+Numbers proven to be transcendental:
+Numbers which have yet to be proven to be either transcendental or algebraic:
+Conjectures:
+The first proof that the base of the natural logarithms, e, is transcendental dates from 1873. We will now follow the strategy of David Hilbert (1862–1943) who gave a simplification of the original proof of Charles Hermite. The idea is the following:
+Assume, for purpose of finding a contradiction, that e is algebraic. Then there exists a finite set of integer coefficients c0, c1, ..., cn satisfying the equation:
+Now for a positive integer k, we define the following polynomial:
+and multiply both sides of the above equation by
+to arrive at the equation:
+By splitting respective domains of integration, this equation can be written in the form
+where
+Lemma 1. For an appropriate choice of k, 
+
+
+
+ 
+
+
+
+P
+
+k
+!
+
+
+
+
+ 
+
+
+{\displaystyle \ {\tfrac {P}{k!}}\ }
+
+ is a non-zero integer.
+Proof. Each term in P is an integer times a sum of factorials, which results from the relation
+which is valid for any positive integer j (consider the Gamma function).
+It is non-zero because for every a satisfying  0 < a ≤ n , the integrand in
+is e−x  times a sum of terms whose lowest power of x is  k + 1  after substituting x for  x + a  in the integral. Then this becomes a sum of integrals of the form
+with   k+1 ≤ j , and it is therefore an integer divisible by  (k+1)! . After dividing by  k!, we get zero  modulo k + 1 . However, we can write:
+and thus
+
+So when dividing each integral in P by k!, the initial one is not divisible by k + 1 , but all the others are, as long as  k + 1  is prime and larger than n and  |c0| . It follows that 
+
+
+
+ 
+
+
+
+ 
+P
+ 
+
+
+k
+!
+
+
+
+ 
+
+
+{\displaystyle \ {\frac {\ P\ }{k!}}\ }
+
+ itself is not divisible by the prime  k + 1  and therefore cannot be zero.Lemma 2. 
+
+
+
+
+|
+
+
+
+Q
+
+k
+!
+
+
+
+
+|
+
+<
+1
+
+
+{\displaystyle \left|{\tfrac {Q}{k!}}\right|<1}
+
+ for sufficiently large 
+
+
+
+k
+
+
+{\displaystyle k}
+
+.
+Proof. Note that
+where 
+
+
+
+ 
+u
+(
+x
+)
+ 
+
+
+{\displaystyle \ u(x)\ }
+
+ and 
+
+
+
+ 
+v
+(
+x
+)
+ 
+
+
+{\displaystyle \ v(x)\ }
+
+ are continuous functions of 
+
+
+
+ 
+x
+ 
+
+
+{\displaystyle \ x\ }
+
+ for all 
+
+
+
+ 
+x
+ 
+,
+
+
+{\displaystyle \ x\ ,}
+
+ so are bounded on the interval 
+
+
+
+ 
+[
+0
+,
+n
+]
+ 
+.
+
+
+{\displaystyle \ [0,n]~.}
+
+ That is, there are constants 
+
+
+
+ 
+G
+,
+H
+>
+0
+ 
+
+
+{\displaystyle \ G,H>0\ }
+
+ such that
+So each of those integrals composing 
+
+
+
+ 
+Q
+ 
+
+
+{\displaystyle \ Q\ }
+
+ is bounded, the worst case being
+It is now possible to bound the sum 
+
+
+
+Q
+
+
+{\displaystyle Q}
+
+ as well:
+where 
+
+
+
+ 
+M
+ 
+
+
+{\displaystyle \ M\ }
+
+ is a constant not depending on 
+
+
+
+ 
+k
+ 
+.
+
+
+{\displaystyle \ k~.}
+
+ It follows that
+
+finishing the proof of this lemma.Choosing a value of 
+
+
+
+ 
+k
+ 
+
+
+{\displaystyle \ k\ }
+
+ satisfying both lemmas leads to a non-zero integer (
+
+
+
+ 
+
+
+P
+
+k
+!
+
+
+
+ 
+
+
+{\displaystyle \ {\frac {P}{k!}}\ }
+
+) added to a vanishingly small quantity (
+
+
+
+ 
+
+
+P
+
+k
+!
+
+
+
+ 
+
+
+{\displaystyle \ {\frac {P}{k!}}\ }
+
+) being equal to zero, is an impossibility. It follows that the original assumption, that e can satisfy a polynomial equation with integer coefficients, is also impossible; that is, e is transcendental.
+A similar strategy, different from Lindemann's original approach, can be used to show that the number π is transcendental. Besides the gamma-function and some estimates as in the proof for e, facts about symmetric polynomials play a vital role in the proof.
+For detailed information concerning the proofs of the transcendence of π and e, see the references and external links.
+
+

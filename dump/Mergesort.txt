@@ -1,0 +1,1442 @@
+20039,
+Mergesort,
+In computer science, merge sort (also commonly spelled as mergesort) is an efficient, general-purpose, and comparison-based sorting algorithm. Most implementations produce a stable sort, which means that the order of equal elements is the same in the input and output. Merge sort is a divide-and-conquer algorithm that was invented by John von Neumann in 1945.[2] A detailed description and analysis of bottom-up merge sort appeared in a report by Goldstine and von Neumann as early as 1948.[3]
+Conceptually, a merge sort works as follows:
+Example C-like code using indices for top-down merge sort algorithm that recursively splits the list (called runs in this example) into sublists until sublist size is 1, then merges those sublists to produce a sorted list. The copy back step is avoided with alternating the direction of the merge with each level of recursion (except for an initial one-time copy, that can be avoided too). To help understand this, consider an array with two elements. The elements are copied to B[], then merged back to A[]. If there are four elements, when the bottom of the recursion level is reached, single element runs from A[] are merged to B[], and then at the next higher level of recursion, those two-element runs are merged to A[]. This pattern continues with each level of recursion.
+Sorting the entire array is accomplished by TopDownMergeSort(A, B, length(A)).
+Example C-like code using indices for bottom-up merge sort algorithm which treats the list as an array of n sublists (called runs in this example) of size 1, and iteratively merges sub-lists back and forth between two buffers:
+Pseudocode for top-down merge sort algorithm which recursively divides the input list into smaller sublists until the sublists are trivially sorted, and then merges the sublists while returning up the call chain.
+In this example, the merge function merges the left and right sublists.
+Pseudocode for bottom-up merge sort algorithm which uses a small fixed size array of references to nodes, where array[i] is either a reference to a list of size 2i or nil. node is a reference or pointer to a node. The merge() function would be similar to the one shown in the top-down merge lists example, it merges two already sorted lists, and handles empty lists. In this case, merge() would use node for its input parameters and return value.
+In sorting n objects, merge sort has an average and worst-case performance of O(n log n). If the running time of merge sort for a list of length n is T(n), then the recurrence relation T(n) = 2T(n/2) + n follows from the definition of the algorithm (apply the algorithm to two lists of half the size of the original list, and add the n steps taken to merge the resulting two lists).[4] The closed form follows from the master theorem for divide-and-conquer recurrences.
+The number of comparisons made by merge sort in the worst case is given by the sorting numbers. These numbers are equal to or slightly smaller than (n ⌈lg n⌉ − 2⌈lg n⌉ + 1), which is between (n lg n − n + 1) and (n lg n + n + O(lg n)).[5] Merge sort's best case takes about half as many iterations as its worst case.[6]
+For large n and a randomly ordered input list, merge sort's expected (average) number of comparisons approaches α·n fewer than the worst case, where 
+
+
+
+α
+=
+−
+1
++
+
+∑
+
+k
+=
+0
+
+
+∞
+
+
+
+
+1
+
+
+2
+
+k
+
+
++
+1
+
+
+
+≈
+0.2645.
+
+
+{\displaystyle \alpha =-1+\sum _{k=0}^{\infty }{\frac {1}{2^{k}+1}}\approx 0.2645.}
+
+
+In the worst case, merge sort uses approximately 39% fewer comparisons than quicksort does in its average case, and in terms of moves, merge sort's worst case complexity is O(n log n) - the same complexity as quicksort's best case.[6]
+Merge sort is more efficient than quicksort for some types of lists if the data to be sorted can only be efficiently accessed sequentially, and is thus popular in languages such as Lisp, where sequentially accessed data structures are very common. Unlike some (efficient) implementations of quicksort, merge sort is a stable sort.
+Merge sort's most common implementation does not sort in place;[7] therefore, the memory size of the input must be allocated for the sorted output to be stored in (see below for variations that need only n/2 extra spaces).
+A natural merge sort is similar to a bottom-up merge sort except that any naturally occurring runs (sorted sequences) in the input are exploited. Both monotonic and bitonic (alternating up/down) runs may be exploited, with lists (or equivalently tapes or files) being convenient data structures (used as FIFO queues or LIFO stacks).[8] In the bottom-up merge sort, the starting point assumes each run is one item long. In practice, random input data will have many short runs that just happen to be sorted. In the typical case, the natural merge sort may not need as many passes because there are fewer runs to merge. In the best case, the input is already sorted (i.e., is one run), so the natural merge sort need only make one pass through the data. In many practical cases, long natural runs are present, and for that reason natural merge sort is exploited as the key component of Timsort. Example:
+Formally, the natural merge sort is said to be Runs-optimal, where 
+
+
+
+
+
+R
+u
+n
+s
+
+
+(
+L
+)
+
+
+{\displaystyle {\mathtt {Runs}}(L)}
+
+ is the number of runs in 
+
+
+
+L
+
+
+{\displaystyle L}
+
+, minus one.
+Tournament replacement selection sorts are used to gather the initial runs for external sorting algorithms.
+Instead of merging two blocks at a time, a ping-pong merge merges four blocks at a time. The four sorted blocks are merged simultaneously to auxiliary space into two sorted blocks, then the two sorted blocks are merged back to main memory. Doing so omits the copy operation and reduces the total number of moves by half. An early public domain implementation of a four-at-once merge was by WikiSort in 2014, the method was later that year described as an optimization for patience sorting and named a ping-pong merge.[9][10] Quadsort implemented the method in 2020 and named it a quad merge.[11]
+One drawback of merge sort, when implemented on arrays, is its O(n) working memory requirement. Several methods to reduce memory or make merge sort fully in-place have been suggested:
+An external merge sort is practical to run using disk or tape drives when the data to be sorted is too large to fit into memory. External sorting explains how merge sort is implemented with disk drives. A typical tape drive sort uses four tape drives. All I/O is sequential (except for rewinds at the end of each pass). A minimal implementation can get by with just two record buffers and a few program variables.
+Naming the four tape drives as A, B, C, D, with the original data on A, and using only two record buffers, the algorithm is similar to the bottom-up implementation, using pairs of tape drives instead of arrays in memory. The basic algorithm can be described as follows:
+Instead of starting with very short runs, usually a hybrid algorithm is used, where the initial pass will read many records into memory, do an internal sort to create a long run, and then distribute those long runs onto the output set. The step avoids many early passes. For example, an internal sort of 1024 records will save nine passes. The internal sort is often large because it has such a benefit. In fact, there are techniques that can make the initial runs longer than the available internal memory. One of them, the Knuth's 'snowplow' (based on a binary min-heap), generates runs twice as long (on average) as a size of memory used.[17]
+With some overhead, the above algorithm can be modified to use three tapes. O(n log n) running time can also be achieved using two queues, or a stack and a queue, or three stacks. In the other direction, using k > two tapes (and O(k) items in memory), we can reduce the number of tape operations in O(log k) times by using a k/2-way merge.
+A more sophisticated merge sort that optimizes tape (and disk) drive usage is the polyphase merge sort.
+On modern computers, locality of reference can be of paramount importance in software optimization, because multilevel memory hierarchies are used. Cache-aware versions of the merge sort algorithm, whose operations have been specifically chosen to minimize the movement of pages in and out of a machine's memory cache, have been proposed. For example, the tiled merge sort algorithm stops partitioning subarrays when subarrays of size S are reached, where S is the number of data items fitting into a CPU's cache. Each of these subarrays is sorted with an in-place sorting algorithm such as insertion sort, to discourage memory swaps, and normal merge sort is then completed in the standard recursive fashion. This algorithm has demonstrated better performance[example  needed] on machines that benefit from cache optimization. (LaMarca & Ladner 1997)
+Merge sort parallelizes well due to the use of the divide-and-conquer method. Several different parallel variants of the algorithm have been developed over the years. Some parallel merge sort algorithms are strongly related to the sequential top-down merge algorithm while others have a different general structure and use the K-way merge method.
+The sequential merge sort procedure can be described in two phases, the divide phase and the merge phase. The first consists of many recursive calls that repeatedly perform the same division process until the subsequences are trivially sorted (containing one or no element). An intuitive approach is the parallelization of those recursive calls.[18] Following pseudocode describes the merge sort with parallel recursion using the fork and join keywords:
+This algorithm is the trivial modification of the sequential version and does not parallelize well. Therefore, its speedup is not very impressive. It has a span of 
+
+
+
+Θ
+(
+n
+)
+
+
+{\displaystyle \Theta (n)}
+
+, which is only an improvement of 
+
+
+
+Θ
+(
+log
+⁡
+n
+)
+
+
+{\displaystyle \Theta (\log n)}
+
+ compared to the sequential version (see Introduction to Algorithms). This is mainly due to the sequential merge method, as it is the bottleneck of the parallel executions.
+Better parallelism can be achieved by using a parallel merge algorithm. Cormen et al. present a binary variant that merges two sorted sub-sequences into one sorted output sequence.[18]
+In one of the sequences (the longer one if unequal length), the element of the middle index is selected. Its position in the other sequence is determined in such a way that this sequence would remain sorted if this element were inserted at this position. Thus, one knows how many other elements from both sequences are smaller and the position of the selected element in the output sequence can be calculated. For the partial sequences of the smaller and larger elements created in this way, the merge algorithm is again executed in parallel until the base case of the recursion is reached.
+The following pseudocode shows the modified parallel merge sort method using the parallel merge algorithm (adopted from Cormen et al.).
+In order to analyze a recurrence relation for the worst case span, the recursive calls of parallelMergesort have to be incorporated only once due to their parallel execution, obtaining
+
+
+
+
+
+T
+
+∞
+
+
+sort
+
+
+(
+n
+)
+=
+
+T
+
+∞
+
+
+sort
+
+
+
+(
+
+
+n
+2
+
+
+)
+
++
+
+T
+
+∞
+
+
+merge
+
+
+(
+n
+)
+=
+
+T
+
+∞
+
+
+sort
+
+
+
+(
+
+
+n
+2
+
+
+)
+
++
+Θ
+
+(
+
+log
+⁡
+(
+n
+
+)
+
+2
+
+
+
+)
+
+.
+
+
+{\displaystyle T_{\infty }^{\text{sort}}(n)=T_{\infty }^{\text{sort}}\left({\frac {n}{2}}\right)+T_{\infty }^{\text{merge}}(n)=T_{\infty }^{\text{sort}}\left({\frac {n}{2}}\right)+\Theta \left(\log(n)^{2}\right).}
+
+
+For detailed information about the complexity of the parallel merge procedure, see Merge algorithm.
+The solution of this recurrence is given by
+
+
+
+
+
+T
+
+∞
+
+
+sort
+
+
+=
+Θ
+
+(
+
+log
+⁡
+(
+n
+
+)
+
+3
+
+
+
+)
+
+.
+
+
+{\displaystyle T_{\infty }^{\text{sort}}=\Theta \left(\log(n)^{3}\right).}
+
+
+This parallel merge algorithm reaches a parallelism of 
+
+
+
+Θ
+
+(
+
+
+n
+
+(
+log
+⁡
+n
+
+)
+
+2
+
+
+
+
+
+)
+
+
+
+{\textstyle \Theta \left({\frac {n}{(\log n)^{2}}}\right)}
+
+, which is much higher than the parallelism of the previous algorithm. Such a sort can perform well in practice when combined with a fast stable sequential sort, such as insertion sort, and a fast sequential merge as a base case for merging small arrays.[19]
+It seems arbitrary to restrict the merge sort algorithms to a binary merge method, since there are usually p > 2 processors available. A better approach may be to use a K-way merge method, a generalization of binary merge, in which 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ sorted sequences are merged. This merge variant is well suited to describe a sorting algorithm on a PRAM.[20][21]
+Given an unsorted sequence of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ elements, the goal is to sort the sequence with 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ available processors. These elements are distributed equally among all processors and sorted locally using a sequential Sorting algorithm. Hence, the sequence consists of sorted sequences 
+
+
+
+
+S
+
+1
+
+
+,
+.
+.
+.
+,
+
+S
+
+p
+
+
+
+
+{\displaystyle S_{1},...,S_{p}}
+
+ of length 
+
+
+
+⌈
+
+
+n
+p
+
+
+⌉
+
+
+{\textstyle \lceil {\frac {n}{p}}\rceil }
+
+. For simplification let 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ be a multiple of 
+
+
+
+p
+
+
+{\displaystyle p}
+
+, so that 
+
+
+
+
+|
+
+S
+
+i
+
+
+|
+
+=
+
+
+n
+p
+
+
+
+
+{\textstyle \left\vert S_{i}\right\vert ={\frac {n}{p}}}
+
+ for 
+
+
+
+i
+=
+1
+,
+.
+.
+.
+,
+p
+
+
+{\displaystyle i=1,...,p}
+
+.
+These sequences will be used to perform a multisequence selection/splitter selection. For 
+
+
+
+j
+=
+1
+,
+.
+.
+.
+,
+p
+
+
+{\displaystyle j=1,...,p}
+
+, the algorithm determines splitter elements 
+
+
+
+
+v
+
+j
+
+
+
+
+{\displaystyle v_{j}}
+
+ with global rank 
+
+
+
+k
+=
+j
+
+
+n
+p
+
+
+
+
+{\textstyle k=j{\frac {n}{p}}}
+
+. Then the corresponding positions of 
+
+
+
+
+v
+
+1
+
+
+,
+.
+.
+.
+,
+
+v
+
+p
+
+
+
+
+{\displaystyle v_{1},...,v_{p}}
+
+ in each sequence 
+
+
+
+
+S
+
+i
+
+
+
+
+{\displaystyle S_{i}}
+
+ are determined with binary search and thus the 
+
+
+
+
+S
+
+i
+
+
+
+
+{\displaystyle S_{i}}
+
+ are further partitioned into 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ subsequences 
+
+
+
+
+S
+
+i
+,
+1
+
+
+,
+.
+.
+.
+,
+
+S
+
+i
+,
+p
+
+
+
+
+{\displaystyle S_{i,1},...,S_{i,p}}
+
+ with 
+
+
+
+
+S
+
+i
+,
+j
+
+
+:=
+{
+x
+∈
+
+S
+
+i
+
+
+
+|
+
+r
+a
+n
+k
+(
+
+v
+
+j
+−
+1
+
+
+)
+<
+r
+a
+n
+k
+(
+x
+)
+≤
+r
+a
+n
+k
+(
+
+v
+
+j
+
+
+)
+}
+
+
+{\textstyle S_{i,j}:=\{x\in S_{i}|rank(v_{j-1})<rank(x)\leq rank(v_{j})\}}
+
+.
+Furthermore, the elements of 
+
+
+
+
+S
+
+1
+,
+i
+
+
+,
+.
+.
+.
+,
+
+S
+
+p
+,
+i
+
+
+
+
+{\displaystyle S_{1,i},...,S_{p,i}}
+
+ are assigned to processor 
+
+
+
+i
+
+
+{\displaystyle i}
+
+, means all elements between rank 
+
+
+
+(
+i
+−
+1
+)
+
+
+n
+p
+
+
+
+
+{\textstyle (i-1){\frac {n}{p}}}
+
+ and rank 
+
+
+
+i
+
+
+n
+p
+
+
+
+
+{\textstyle i{\frac {n}{p}}}
+
+, which are distributed over all 
+
+
+
+
+S
+
+i
+
+
+
+
+{\displaystyle S_{i}}
+
+. Thus, each processor receives a sequence of sorted sequences. The fact that the rank 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ of the splitter elements 
+
+
+
+
+v
+
+i
+
+
+
+
+{\displaystyle v_{i}}
+
+ was chosen globally, provides two important properties: On the one hand, 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ was chosen so that each processor can still operate on 
+
+
+
+n
+
+/
+
+p
+
+
+{\textstyle n/p}
+
+ elements after assignment. The algorithm is perfectly load-balanced. On the other hand, all elements on processor 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ are less than or equal to all elements on processor 
+
+
+
+i
++
+1
+
+
+{\displaystyle i+1}
+
+. Hence, each processor performs the p-way merge locally and thus obtains a sorted sequence from its sub-sequences. Because of the second property, no further p-way-merge has to be performed, the results only have to be put together in the order of the processor number.
+In its simplest form, given 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ sorted sequences 
+
+
+
+
+S
+
+1
+
+
+,
+.
+.
+.
+,
+
+S
+
+p
+
+
+
+
+{\displaystyle S_{1},...,S_{p}}
+
+ distributed evenly on 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ processors and a rank 
+
+
+
+k
+
+
+{\displaystyle k}
+
+, the task is to find an element 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ with a global rank 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ in the union of the sequences. Hence, this can be used to divide each 
+
+
+
+
+S
+
+i
+
+
+
+
+{\displaystyle S_{i}}
+
+ in two parts at a splitter index 
+
+
+
+
+l
+
+i
+
+
+
+
+{\displaystyle l_{i}}
+
+, where the lower part contains only elements which are smaller than 
+
+
+
+x
+
+
+{\displaystyle x}
+
+, while the elements bigger than 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ are located in the upper part.
+The presented sequential algorithm returns the indices of the splits in each sequence, e.g. the indices 
+
+
+
+
+l
+
+i
+
+
+
+
+{\displaystyle l_{i}}
+
+ in sequences 
+
+
+
+
+S
+
+i
+
+
+
+
+{\displaystyle S_{i}}
+
+ such that 
+
+
+
+
+S
+
+i
+
+
+[
+
+l
+
+i
+
+
+]
+
+
+{\displaystyle S_{i}[l_{i}]}
+
+ has a global rank less than 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ and 
+
+
+
+
+r
+a
+n
+k
+
+
+(
+
+
+S
+
+i
+
+
+[
+
+l
+
+i
+
+
++
+1
+]
+
+)
+
+≥
+k
+
+
+{\displaystyle \mathrm {rank} \left(S_{i}[l_{i}+1]\right)\geq k}
+
+.[22]
+For the complexity analysis the PRAM model is chosen. If the data is evenly distributed over all 
+
+
+
+p
+
+
+{\displaystyle p}
+
+, the p-fold execution of the binarySearch method has a running time of 
+
+
+
+
+
+O
+
+
+
+(
+
+p
+log
+⁡
+
+(
+
+n
+
+/
+
+p
+
+)
+
+
+)
+
+
+
+{\displaystyle {\mathcal {O}}\left(p\log \left(n/p\right)\right)}
+
+. The expected recursion depth is 
+
+
+
+
+
+O
+
+
+
+(
+
+log
+⁡
+
+(
+
+
+∑
+
+i
+
+
+
+|
+
+
+S
+
+i
+
+
+
+|
+
+
+)
+
+
+)
+
+=
+
+
+O
+
+
+(
+log
+⁡
+(
+n
+)
+)
+
+
+{\displaystyle {\mathcal {O}}\left(\log \left(\textstyle \sum _{i}|S_{i}|\right)\right)={\mathcal {O}}(\log(n))}
+
+ as in the ordinary Quickselect. Thus the overall expected running time is 
+
+
+
+
+
+O
+
+
+
+(
+
+p
+log
+⁡
+(
+n
+
+/
+
+p
+)
+log
+⁡
+(
+n
+)
+
+)
+
+
+
+{\displaystyle {\mathcal {O}}\left(p\log(n/p)\log(n)\right)}
+
+.
+Applied on the parallel multiway merge sort, this algorithm has to be invoked in parallel such that all splitter elements of rank 
+
+
+
+i
+
+
+n
+p
+
+
+
+
+{\textstyle i{\frac {n}{p}}}
+
+ for 
+
+
+
+i
+=
+1
+,
+.
+.
+,
+p
+
+
+{\displaystyle i=1,..,p}
+
+ are found simultaneously. These splitter elements can then be used to partition each sequence in 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ parts, with the same total running time of 
+
+
+
+
+
+O
+
+
+
+(
+
+p
+
+log
+⁡
+(
+n
+
+/
+
+p
+)
+log
+⁡
+(
+n
+)
+
+)
+
+
+
+{\displaystyle {\mathcal {O}}\left(p\,\log(n/p)\log(n)\right)}
+
+.
+Below, the complete pseudocode of the parallel multiway merge sort algorithm is given. We assume that there is a barrier synchronization before and after the multisequence selection such that every processor can determine the splitting elements and the sequence partition properly.
+Firstly, each processor sorts the assigned 
+
+
+
+n
+
+/
+
+p
+
+
+{\displaystyle n/p}
+
+ elements locally using a sorting algorithm with complexity 
+
+
+
+
+
+O
+
+
+
+(
+
+n
+
+/
+
+p
+
+log
+⁡
+(
+n
+
+/
+
+p
+)
+
+)
+
+
+
+{\displaystyle {\mathcal {O}}\left(n/p\;\log(n/p)\right)}
+
+. After that, the splitter elements have to be calculated in time 
+
+
+
+
+
+O
+
+
+
+(
+
+p
+
+log
+⁡
+(
+n
+
+/
+
+p
+)
+log
+⁡
+(
+n
+)
+
+)
+
+
+
+{\displaystyle {\mathcal {O}}\left(p\,\log(n/p)\log(n)\right)}
+
+. Finally, each group of 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ splits have to be merged in parallel by each processor with a running time of 
+
+
+
+
+
+O
+
+
+(
+log
+⁡
+(
+p
+)
+
+n
+
+/
+
+p
+)
+
+
+{\displaystyle {\mathcal {O}}(\log(p)\;n/p)}
+
+ using a sequential p-way merge algorithm. Thus, the overall running time is given by
+
+
+
+
+
+
+O
+
+
+
+(
+
+
+
+n
+p
+
+
+log
+⁡
+
+(
+
+
+n
+p
+
+
+)
+
++
+p
+log
+⁡
+
+(
+
+
+n
+p
+
+
+)
+
+log
+⁡
+(
+n
+)
++
+
+
+n
+p
+
+
+log
+⁡
+(
+p
+)
+
+)
+
+
+
+{\displaystyle {\mathcal {O}}\left({\frac {n}{p}}\log \left({\frac {n}{p}}\right)+p\log \left({\frac {n}{p}}\right)\log(n)+{\frac {n}{p}}\log(p)\right)}
+
+.
+The multiway merge sort algorithm is very scalable through its high parallelization capability, which allows the use of many processors. This makes the algorithm a viable candidate for sorting large amounts of data, such as those processed in computer clusters. Also, since in such systems memory is usually not a limiting resource, the disadvantage of space complexity of merge sort is negligible. However, other factors become important in such systems, which are not taken into account when modelling on a PRAM. Here, the following aspects need to be considered: Memory hierarchy, when the data does not fit into the processors cache, or the communication overhead of exchanging data between processors, which could become a bottleneck when the data can no longer be accessed via the shared memory.
+Sanders et al. have presented in their paper a bulk synchronous parallel algorithm for multilevel multiway mergesort, which divides 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ processors into 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ groups of size 
+
+
+
+
+p
+′
+
+
+
+{\displaystyle p'}
+
+. All processors sort locally first. Unlike single level multiway mergesort, these sequences are then partitioned into 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ parts and assigned to the appropriate processor groups. These steps are repeated recursively in those groups. This reduces communication and especially avoids problems with many small messages. The hierarchical structure of the underlying real network can be used to define the processor groups (e.g. racks, clusters,...).[21]
+Merge sort was one of the first sorting algorithms where optimal speed up was achieved, with Richard Cole using a clever subsampling algorithm to ensure O(1) merge.[23] Other sophisticated parallel sorting algorithms can achieve the same or better time bounds with a lower constant. For example, in 1991 David Powers described a parallelized quicksort (and a related radix sort) that can operate in O(log n) time on a CRCW parallel random-access machine (PRAM) with n processors by performing partitioning implicitly.[24] Powers further shows that a pipelined version of Batcher's Bitonic Mergesort at O((log n)2) time on a butterfly sorting network is in practice actually faster than his O(log n) sorts on a PRAM, and he provides detailed discussion of the hidden overheads in comparison, radix and parallel sorting.[25]
+Although heapsort has the same time bounds as merge sort, it requires only Θ(1) auxiliary space instead of merge sort's Θ(n). On typical modern architectures, efficient quicksort implementations generally outperform merge sort for sorting RAM-based arrays.[citation needed] On the other hand, merge sort is a stable sort and is more efficient at handling slow-to-access sequential media. Merge sort is often the best choice for sorting a linked list: in this situation it is relatively easy to implement a merge sort in such a way that it requires only Θ(1) extra space, and the slow random-access performance of a linked list makes some other algorithms (such as quicksort) perform poorly, and others (such as heapsort) completely impossible.
+As of Perl 5.8, merge sort is its default sorting algorithm (it was quicksort in previous versions of Perl).[26] In Java, the Arrays.sort() methods use merge sort or a tuned quicksort depending on the datatypes and for implementation efficiency switch to insertion sort when fewer than seven array elements are being sorted.[27] The Linux kernel uses merge sort for its linked lists.[28] Python uses Timsort, another tuned hybrid of merge sort and insertion sort, that has become the standard sort algorithm in Java SE 7 (for arrays of non-primitive types),[29] on the Android platform,[30] and in GNU Octave.[31]
+
+
+
+Information box
+{'Class': 'Sorting algorithm', 'Data structure': 'Array', 'Worst-case performance': '', 'Best-case performance': 'typical,\nnatural variant', 'Average performance': '', 'Worst-case space complexity': 'total with\nauxiliary,\nauxiliary with linked lists[1]'}

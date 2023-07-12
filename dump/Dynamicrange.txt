@@ -1,0 +1,159 @@
+41079,
+Dynamicrange,
+Dynamic range (abbreviated DR, DNR,[1] or DYR[2]) is the ratio between the largest and smallest values that a certain quantity can assume. It is often used in the context of signals, like sound and light. It is measured either as a ratio or as a base-10 (decibel) or base-2 (doublings, bits or stops) logarithmic value of the difference between the smallest and largest signal values.[3]
+Electronically reproduced audio and video is often processed to fit the original material with a wide dynamic range into a narrower recorded dynamic range that can more easily be stored and reproduced; this processing is called dynamic range compression.
+The human senses of sight and hearing have a relatively high dynamic range. However, a human cannot perform these feats of perception at both extremes of the scale at the same time. The human eye takes time to adjust to different light levels, and its dynamic range in a given scene is actually quite limited due to optical glare. The instantaneous dynamic range of human audio perception is similarly subject to masking so that, for example, a whisper cannot be heard in loud surroundings.
+A human is capable of hearing (and usefully discerning) anything from a quiet murmur in a soundproofed room to the loudest heavy metal concert. Such a difference can exceed 100 dB which represents a factor of 100,000 in amplitude and a factor 10,000,000,000 in power.[4][5] The dynamic range of human hearing is roughly 140 dB,[6][7] varying with frequency,[8] from the threshold of hearing (around −9 dB SPL[8][9][10] at 3 kHz) to the threshold of pain (from 120–140 dB SPL[11][12][13]).  This wide dynamic range cannot be perceived all at once, however; the tensor tympani, stapedius muscle, and outer hair cells all act as mechanical dynamic range compressors to adjust the sensitivity of the ear to different ambient levels.[14]
+A human can see objects in starlight[a] or in bright sunlight, even though on a moonless night objects receive one billionth (10−9) of the illumination they would on a bright sunny day; a dynamic range of 90 dB.  Change of sensitivity is achieved in part through adjustments of the iris and slow chemical changes, which take some time.
+In practice, it is difficult for humans to achieve the full dynamic experience using electronic equipment. For example, a good quality liquid-crystal display (LCD) has a dynamic range limited to around 1000:1,[b] and some of the latest CMOS image sensors now[when?] have measured dynamic ranges of about 23,000:1.[15][c]  Paper reflectance can produce a dynamic range of about 100:1.[16] A professional video camera such as the Sony Digital Betacam achieves a dynamic range of greater than 90 dB in audio recording.[17]
+Audio engineers use dynamic range to describe the ratio of the amplitude of the loudest possible undistorted signal to the noise floor, say of a microphone or loudspeaker.[18] Dynamic range is therefore the signal-to-noise ratio (SNR) for the case where the signal is the loudest possible for the system. For example, if the ceiling of a device is 5 V (rms) and the noise floor is 10 µV (rms) then the dynamic range is 500000:1, or 114 dB:
+
+
+
+
+20
+×
+
+log
+
+10
+
+
+⁡
+
+(
+
+
+
+5
+
+V
+
+
+10
+
+μ
+
+V
+
+
+
+
+)
+
+=
+20
+×
+
+log
+
+10
+
+
+⁡
+(
+500000
+)
+=
+20
+×
+5.7
+=
+114
+
+
+d
+B
+
+
+
+{\displaystyle 20\times \log _{10}\left({\frac {\rm {5\,V}}{10\,\mu \mathrm {V} }}\right)=20\times \log _{10}(500000)=20\times 5.7=114\,\mathrm {dB} }
+
+
+In digital audio theory the dynamic range is limited by quantization error. The maximum achievable dynamic range for a digital audio system with Q-bit uniform quantization is calculated as the ratio of the largest sine-wave rms to rms noise is:[19]
+
+
+
+
+
+D
+
+R
+
+A
+D
+C
+
+
+
+=
+20
+×
+
+log
+
+10
+
+
+⁡
+
+(
+
+
+
+2
+
+Q
+
+
+1
+
+
+)
+
+=
+
+(
+
+6.02
+⋅
+Q
+
+)
+
+ 
+
+d
+B
+
+
+
+
+
+{\displaystyle \mathrm {DR_{ADC}} =20\times \log _{10}\left({\frac {2^{Q}}{1}}\right)=\left(6.02\cdot Q\right)\ \mathrm {dB} \,\!}
+
+
+However, the usable dynamic range may be greater, as a properly dithered recording device can record signals well below the noise floor.
+The 16-bit compact disc has a theoretical undithered dynamic range of about 96 dB;[20][d] however, the perceived dynamic range of 16-bit audio can be 120 dB or more with noise-shaped dither, taking advantage of the frequency response of the human ear.[21][22]
+Digital audio with undithered 20-bit quantization is theoretically capable of 120 dB dynamic range, while 24-bit digital audio affords 144 dB dynamic range.[6] Most Digital audio workstations process audio with 32-bit floating-point representation which affords even higher dynamic range and so loss of dynamic range is no longer a concern in terms of digital audio processing. Dynamic range limitations typically result from improper gain staging, recording technique including ambient noise and intentional application of dynamic range compression.
+Dynamic range in analog audio is the difference between low-level thermal noise in the electronic circuitry and high-level signal saturation resulting in increased distortion and, if pushed higher, clipping.[23] Multiple noise processes determine the noise floor of a system. Noise can be picked up from microphone self-noise, preamp noise, wiring and interconnection noise, media noise, etc.
+Early 78 rpm phonograph discs had a dynamic range of up to 40 dB,[24] soon reduced to 30 dB and worse due to wear from repeated play. Vinyl microgroove phonograph records typically yield 55-65 dB, though the first play of the higher-fidelity outer rings can achieve a dynamic range of 70 dB.[25]
+German magnetic tape in 1941 was reported to have had a dynamic range of 60 dB,[26] though modern day restoration experts of such tapes note 45-50 dB as the observed dynamic range.[27] Ampex tape recorders in the 1950s achieved 60 dB in practical usage,[26] In the 1960s, improvements in tape formulation processes resulted in 7 dB greater range,[28]: 158  and Ray Dolby developed the Dolby A-Type noise reduction system that increased low- and mid-frequency dynamic range on magnetic tape by 10 dB, and high-frequency by 15 dB, using companding (compression and expansion) of four frequency bands.[28]: 169  The peak of professional analog magnetic recording tape technology reached 90 dB dynamic range in the midband frequencies at 3% distortion, or about 80 dB in practical broadband applications.[28]: 158  The Dolby SR noise reduction system gave a 20 dB further increased range resulting in 110 dB in the midband frequencies at 3% distortion.[28]: 172 
+Compact Cassette tape performance ranges from 50 to 56 dB depending on tape formulation, with type IV tape tapes giving the greatest dynamic range, and systems such as XDR, dbx and Dolby noise reduction system increasing it further. Specialized bias and record head improvements by Nakamichi and Tandberg combined with Dolby C noise reduction yielded 72 dB dynamic range for the cassette.[citation needed]
+A dynamic microphone is able to withstand high sound intensity and can have a dynamic range of up to 140 dB. Condenser microphones are also rugged but their dynamic range may be limited by the overloading of their associated electronic circuitry.[29] Practical considerations of acceptable distortion levels in microphones combined with typical practices in a recording studio result in a useful dynamic range of 125 dB.[28]: 75 
+In 1981, researchers at Ampex determined that a dynamic range of 118 dB on a dithered digital audio stream was necessary for subjective noise-free playback of music in quiet listening environments.[30]
+Since the early 1990s, it has been recommended by several authorities, including the Audio Engineering Society, that measurements of dynamic range be made with an audio signal present, which is then filtered out in the noise floor measurement used in determining dynamic range.[31] This avoids questionable measurements based on the use of blank media, or muting circuits.
+The term dynamic range may be confusing in audio production because it has two conflicting definitions, particularly in the understanding of the loudness war phenomenon.[32][33] Dynamic range may refer to micro-dynamics,[34][35][36] related to crest factor,[37][38] whereas the European Broadcasting Union, in EBU3342 Loudness Range, defines dynamic range as the difference between the quietest and loudest volume, a matter of macro-dynamics.[32][33][39][40][41][42]
+In electronics dynamic range is used in the following contexts: 
+In audio and electronics applications, the ratio involved is often large enough that it is converted to a logarithm and specified in decibels.[43]
+In metrology, such as when performed in support of science, engineering or manufacturing objectives, dynamic range refers to the range of values that can be measured by a sensor or metrology instrument. Often this dynamic range of measurement is limited at one end of the range by saturation of a sensing signal sensor or by physical limits that exist on the motion or other response capability of a mechanical indicator. The other end of the dynamic range of measurement is often limited by one or more sources of random noise or uncertainty in signal levels that may be described as defining the sensitivity of the sensor or metrology device. When digital sensors or sensor signal converters are a component of the sensor or metrology device, the dynamic range of measurement will be also related to the number of binary digits (bits) used in a digital numeric representation in which the measured value is linearly related to the digital number.[43] For example, a 12-bit digital sensor or converter can provide a dynamic range in which the ratio of the maximum measured value to the minimum measured value is up to 212 = 4096.
+Metrology systems and devices may use several basic methods to increase their basic dynamic range. These methods include averaging and other forms of filtering, correction of receivers characteristics,[43] repetition of measurements, nonlinear transformations to avoid saturation, etc. In more advance forms of metrology, such as multiwavelength digital holography, interferometry measurements made at different scales (different wavelengths) can be combined to retain the same low-end resolution while extending the upper end of the dynamic range of measurement by orders of magnitude.
+In music, dynamic range describes the difference between the quietest and loudest volume of an instrument, part or piece of music.[49] In modern recording, this range is often limited through dynamic range compression, which allows for louder volume, but can make the recording sound less exciting or live.[50]
+The dynamic range of music as normally perceived in a concert hall does not exceed 80 dB, and human speech is normally perceived over a range of about 40 dB.[28]: 4 
+Photographers use dynamic range to describe the luminance range of a scene being photographed, or the limits of luminance range that a given digital camera or film can capture,[52] or the opacity range of developed film images, or the reflectance range of images on photographic papers.
+The dynamic range of digital photography is comparable to the capabilities of photographic film[53] and both are comparable to the capabilities of the human eye.[54]
+There are photographic techniques that support even higher dynamic range. 
+Consumer-grade image file formats sometimes restrict dynamic range.[57] The most severe dynamic-range limitation in photography may not involve encoding, but rather reproduction to, say, a paper print or computer screen. In that case, not only local tone mapping but also dynamic range adjustment can be effective in revealing detail throughout light and dark areas: The principle is the same as that of dodging and burning (using different lengths of exposures in different areas when making a photographic print) in the chemical darkroom. The principle is also similar to gain riding or automatic level control in audio work, which serves to keep a signal audible in a noisy listening environment and to avoid peak levels that overload the reproducing equipment, or which are unnaturally or uncomfortably loud.
+If a camera sensor is incapable of recording the full dynamic range of a scene, high-dynamic-range (HDR) techniques may be used in postprocessing, which generally involve combining multiple exposures using software.
+
+

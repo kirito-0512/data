@@ -1,0 +1,57 @@
+40188,
+Conjugate(acid-basetheory),
+A conjugate acid, within the Brønsted–Lowry acid–base theory, is a chemical compound formed when an acid donates a proton (H+) to a base—in other words, it is a base with a hydrogen ion added to it, as in the reverse reaction it loses a hydrogen ion. On the other hand, a conjugate base is what is left over after an acid has donated a proton during a chemical reaction. Hence, a conjugate base is a species formed by the removal of a proton from an acid, as in the reverse reaction it is able to gain a hydrogen ion.[1] Because some acids are capable of releasing multiple protons, the conjugate base of an acid may itself be acidic.
+In summary, this can be represented as the following chemical reaction:
+acid
++
+base
+↽
+−
+−
+⇀
+conjugate base
++
+conjugate acid
+{\displaystyle {\text{acid}}+{\text{base}}\;{\ce {<=>}}\;{\text{conjugate base}}+{\text{conjugate acid}}}
+Johannes Nicolaus Brønsted and Martin Lowry introduced the Brønsted–Lowry theory, which proposed that any compound that can transfer a proton to any other compound is an acid, and the compound that accepts the proton is a base. A proton is a nuclear particle with a unit positive electrical charge; it is represented by the symbol H+ because it constitutes the nucleus of a hydrogen atom,[2] that is, a hydrogen cation.
+A cation can be a conjugate acid, and an anion can be a conjugate base, depending on which substance is involved and which acid–base theory is the viewpoint. The simplest anion which can be a conjugate base is the solvated electron whose conjugate acid is the atomic hydrogen.
+In an acid–base reaction, an acid plus a base reacts to form a conjugate base plus a conjugate acid. The acid loses a proton and the base gains a proton. In chemical diagrams which illustrate this, the new bond formed between the base and the proton is shown by an arrow that conventionally starts on an electron pair from the base and whose arrow-head ends at the hydrogen ion (proton) that will be transferred:
+In this case, the water molecule is the conjugate acid of the hydroxide ion after the latter received the hydrogen ion donated by ammonium. On the other hand, ammonia is the conjugate base for the acid ammonium after ammonium has donated a hydrogen ion and produced the water molecule.  Also, OH− can be considered as the conjugate base of H2O, since the water molecule donates a proton to give NH+4 in the reverse reaction. The terms "acid", "base", "conjugate acid", and "conjugate base" are not fixed for a certain chemical species but are interchangeable according to the reaction taking place.
+The strength of a conjugate acid is directly proportional to its dissociation constant. If a conjugate acid is strong, its dissociation will have a higher equilibrium constant and the products of the reaction will be favored. The strength of a conjugate base can be seen as the tendency of the species to "pull" hydrogen protons towards itself. If a conjugate base is classified as strong, it will "hold on" to the hydrogen proton when in solution and its acid will not dissociate.
+If a species is classified as a strong acid, its conjugate base will be weak.[3] An example of this case would be the dissociation of hydrochloric acid HCl in water. Since HCl is a strong acid (it dissociates to a great extent), its conjugate base (Cl−) will be a weak conjugate base. Therefore, in this system, most H+ will be in the form of a hydronium ion H3O+ instead of attached to a Cl− anion and the conjugate base will be weaker than a water molecule.
+On the other hand, if a species is classified as a weak acid its conjugate base will not necessarily be a strong base. Consider that acetate, the conjugate base of acetic acid, has a base dissociation constant (Kb) of approximately 5.6×10−10, making it a weak base.
+In order for a species to have a strong conjugate base it has to be a very weak acid, like water for example.
+To identify the conjugate acid, look for the pair of compounds that are related. The acid–base reaction can be viewed in a before and after sense. The before is the reactant side of the equation, the after is the product side of the equation. The conjugate acid in the after side of an equation gains a hydrogen ion, so in the before side of the equation the compound that has one less hydrogen ion of the conjugate acid is the base. The conjugate base in the after side of the equation lost a hydrogen ion, so in the before side of the equation, the compound that has one more hydrogen ion of the conjugate base is the acid.
+Consider the following acid–base reaction:
+Nitric acid (HNO3) is an acid because it donates a proton to the water molecule and its conjugate base is nitrate (NO−3). The water molecule acts as a base because it receives the hydrogen cation (proton) and its conjugate acid is the hydronium ion (H3O+).
+One use of conjugate acids and bases lies in buffering systems, which include a buffer solution. In a buffer, a weak acid and its conjugate base (in the form of a salt), or a weak base and its conjugate acid, are used in order to limit the pH change during a titration process. Buffers have both organic and non-organic chemical applications. For example, besides buffers being used in lab processes, human blood acts as a buffer to maintain pH. The most important buffer in our bloodstream is the carbonic acid-bicarbonate buffer, which prevents drastic pH changes when CO2 is introduced. This functions as such:
+CO
+2
++
+H
+2
+O
+↽
+−
+−
+⇀
+H
+2
+CO
+3
+↽
+−
+−
+⇀
+HCO
+3
+−
++
+H
++
+{\displaystyle {\ce {CO2 + H2O <=> H2CO3 <=> HCO3^- + H+}}}
+Furthermore, here is a table of common buffers.
+A second common application with an organic compound would be the production of a buffer with acetic acid. If acetic acid, a weak acid with the formula CH3COOH, was made into a buffer solution, it would need to be combined with its conjugate base CH3COO− in the form of a salt. The resulting mixture is called an acetate buffer, consisting of aqueous CH3COOH and aqueous CH3COONa. Acetic acid, along with many other weak acids, serve as useful components of buffers in different lab settings, each useful within their own pH range.
+Ringer's lactate solution is an example where the conjugate base of an organic acid, lactic acid, CH3CH(OH)CO−2 is combined with sodium, calcium and potassium cations and chloride anions in distilled water[4] which together form a fluid which is isotonic in relation to human blood and is used for fluid resuscitation after blood loss due to trauma, surgery, or a burn injury.[5]
+Tabulated below are several examples of acids and their conjugate bases; notice how they differ by just one proton (H+ ion). Acid strength decreases and conjugate base strength increases down the table.
+In contrast, here is a table of bases and their conjugate acids. Similarly, base strength decreases and conjugate acid strength increases down the table.

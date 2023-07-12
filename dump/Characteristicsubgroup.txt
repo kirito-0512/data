@@ -1,0 +1,72 @@
+7198,
+Characteristicsubgroup,
+In mathematics, particularly in the area of abstract algebra known as group theory, a characteristic subgroup is a subgroup that is mapped to itself by every automorphism of the parent group.[1][2]  Because every conjugation map is an inner automorphism, every characteristic subgroup is normal; though the converse is not guaranteed.  Examples of characteristic subgroups include the commutator subgroup and the center of a group.
+A subgroup H of a group G is called a characteristic subgroup if for every automorphism φ of G, one has φ(H) ≤ H; then write H char G.
+It would be equivalent to require the stronger condition φ(H) = H for every automorphism φ of G, because φ−1(H) ≤ H implies the reverse inclusion H ≤ φ(H).
+Given H char G, every automorphism of G induces an automorphism of the quotient group G/H, which yields a homomorphism Aut(G) → Aut(G/H).
+If G has a unique subgroup H of a given index, then H is characteristic in G.
+A subgroup of H that is invariant under all inner automorphisms is called normal; also, an invariant subgroup.
+Since Inn(G) ⊆ Aut(G) and a characteristic subgroup is invariant under all automorphisms, every characteristic subgroup is normal. However, not every normal subgroup is characteristic.  Here are several examples:
+A strictly characteristic subgroup, or a distinguished subgroup, which is invariant under surjective endomorphisms. For finite groups, surjectivity of an endomorphism implies injectivity, so a surjective endomorphism is an automorphism; thus being strictly characteristic is equivalent to characteristic. This is not the case anymore for infinite groups.
+For an even stronger constraint, a fully characteristic subgroup (also, fully invariant subgroup; cf. invariant subgroup), H, of a group G, is a group remaining invariant under every endomorphism of G; that is,
+Every group has itself (the improper subgroup) and the trivial subgroup as two of its fully characteristic subgroups. The commutator subgroup of a group is always a fully characteristic subgroup.[3][4]
+Every endomorphism of G induces an endomorphism of G/H, which yields a map End(G) → End(G/H).
+An even stronger constraint is verbal subgroup, which is the image of a fully invariant subgroup of a free group under a homomorphism. More generally, any verbal subgroup is always fully characteristic. For any reduced free group, and, in particular, for any free group, the converse also holds: every fully characteristic subgroup is verbal.
+The property of being characteristic or fully characteristic is transitive; if H is a (fully) characteristic subgroup of K, and K is a (fully) characteristic subgroup of G, then H is a (fully) characteristic subgroup of G.
+Moreover, while normality is not transitive, it is true that every characteristic subgroup of a normal subgroup is normal.
+Similarly, while being strictly characteristic (distinguished) is not transitive, it is true that every fully characteristic subgroup of a strictly characteristic subgroup is strictly characteristic.
+However, unlike normality, if H char G and K is a subgroup of G containing H, then in general H is not necessarily characteristic in K.
+Every subgroup that is fully characteristic is certainly strictly characteristic and characteristic; but a characteristic or even strictly characteristic subgroup need not be fully characteristic.
+The center of a group is always a strictly characteristic subgroup, but it is not always fully characteristic.  For example, the finite group of order 12, Sym(3) × 
+Z
+/
+2
+Z
+{\displaystyle \mathbb {Z} /2\mathbb {Z} }
+, has a homomorphism taking (π, y) to ((1, 2)y, 0), which takes the center, 
+1
+×
+Z
+/
+2
+Z
+{\displaystyle 1\times \mathbb {Z} /2\mathbb {Z} }
+, into a subgroup of Sym(3) × 1, which meets the center only in the identity.
+The relationship amongst these subgroup properties can be expressed as:
+Consider the group G = S3 × 
+Z
+2
+{\displaystyle \mathbb {Z} _{2}}
+ (the group of order 12 that is the direct product of the symmetric group of order 6 and a cyclic group of order 2). The center of G is isomorphic to its second factor 
+Z
+2
+{\displaystyle \mathbb {Z} _{2}}
+. Note that the first factor, S3, contains subgroups isomorphic to 
+Z
+2
+{\displaystyle \mathbb {Z} _{2}}
+, for instance {e, (12)} ; let 
+f
+:
+Z
+2
+<→
+S
+3
+{\displaystyle f:\mathbb {Z} _{2}<\rightarrow {\text{S}}_{3}}
+ be the morphism mapping 
+Z
+2
+{\displaystyle \mathbb {Z} _{2}}
+ onto the indicated subgroup. Then the composition of the projection of G onto its second factor 
+Z
+2
+{\displaystyle \mathbb {Z} _{2}}
+, followed by f, followed by the inclusion of S3 into G as its first factor, provides an endomorphism of G under which the image of the center, 
+Z
+2
+{\displaystyle \mathbb {Z} _{2}}
+, is not contained in the center, so here the center is not a fully characteristic subgroup of G.
+Every subgroup of a cyclic group is characteristic.
+The derived subgroup (or commutator subgroup) of a group is a verbal subgroup.  The torsion subgroup of an abelian group is a fully invariant subgroup.
+The identity component of a topological group is always a characteristic subgroup.

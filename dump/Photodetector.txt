@@ -1,0 +1,17 @@
+24995,
+Photodetector,
+
+Photodetectors, also called photosensors, are sensors of light or other electromagnetic radiation.[1] There is a wide variety of photodetectors which may be classified by mechanism of detection, such as photoelectric or photochemical effects, or by various performance metrics, such as spectral response. Semiconductor-based photodetectors typically 
+photo detector have a p–n junction that converts light photons into current. The absorbed photons make electron–hole pairs in the depletion region. Photodiodes and photo transistors are a few examples of photo detectors. Solar cells convert some of the light energy absorbed into electrical energy.
+Photodetectors can be classified based on their mechanism of operation and device structure. Here are the common classifications:
+Photodetectors may be classified by their mechanism for detection:[2][unreliable source?][3][4]
+Photodetectors may be used in different configurations. Single sensors may detect overall light levels. A 1-D array of photodetectors, as in a spectrophotometer or a Line scanner, may be used to measure the distribution of light along a line. A 2-D array of photodetectors may be used as an image sensor to form images from the pattern of light before it.
+A photodetector or array is typically covered by an illumination window, sometimes having an anti-reflective coating.
+Based on device structure, photodetectors can be classified into the following categories:
+These are some of the common photodetectors based on device structure. Each type has its own characteristics, advantages, and applications in various fields, including imaging, communication, sensing, and scientific research.
+There are a number of performance metrics, also called figures of merit, by which photodetectors are characterized and compared[2][3]
+Grouped by mechanism, photodetectors include the following devices:
+A graphene/n-type silicon heterojunction has been demonstrated to exhibit strong rectifying behavior and high photoresponsivity.  Graphene is coupled with silicon quantum dots (Si QDs) on top of bulk Si to form a hybrid photodetector.  Si QDs cause an increase of the built-in potential of the graphene/Si Schottky junction while reducing the optical reflection of the photodetector. Both the electrical and optical contributions of Si QDs enable a superior performance of the photodetector.[20]
+In 2014 a technique for extending semiconductor-based photodetector's frequency range to longer, lower-energy wavelengths. Adding a light source to the device effectively "primed" the detector so that in the presence of long wavelengths, it fired on wavelengths that otherwise lacked the energy to do so.[21]
+
+

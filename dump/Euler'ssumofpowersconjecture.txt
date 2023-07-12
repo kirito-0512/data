@@ -1,0 +1,35 @@
+9660,
+Euler'ssumofpowersconjecture,
+Euler's conjecture is a disproved conjecture in mathematics related to Fermat's Last Theorem.  It was proposed by Leonhard Euler in 1769. It states that for all integers n and k greater than 1, if the sum of n many kth powers of positive integers is itself a kth power, then n is greater than or equal to k:
+The conjecture represents an attempt to generalize Fermat's Last Theorem, which is the special case n = 2: if a k1  + a k2  = bk, then 2 ≥ k.
+Although the conjecture holds for the case k = 3 (which follows from Fermat's Last Theorem for the third powers), it was disproved for k = 4 and k = 5. It is unknown whether the conjecture fails or holds for any value k ≥ 6.
+Euler was aware of the equality 594 + 1584 = 1334 + 1344 involving sums of four fourth powers; this, however, is not a counterexample because no term is isolated on one side of the equation. He also provided a complete solution to the four cubes problem as in Plato's number 33 + 43 + 53 = 63 or the taxicab number 1729.[1][2] The general solution of the equation
+is
+where a and b are any integers.
+Euler's conjecture was disproven by L. J. Lander and T. R. Parkin in 1966 when, through a direct computer search on a CDC 6600, they found a counterexample for k = 5.[3] This was published in a paper comprising just two sentences.[3] A total of three primitive (that is, in which the summands do not all have a common factor) counterexamples are known:
+In 1988, Noam Elkies published a method to construct an infinite sequence of counterexamples for the k = 4 case.[4] His smallest counterexample was
+A particular case of Elkies' solutions can be reduced to the identity[5][6]
+where
+This is an elliptic curve with a rational point at v1 = −31/467. From this initial rational point, one can compute an infinite collection of others. Substituting v1 into the identity and removing common factors gives the numerical example cited above.
+In 1988, Roger Frye found the smallest possible counterexample 
+for k = 4 by a direct computer search using techniques suggested by Elkies. This solution is the only one with values of the variables below 1,000,000.[7]
+In 1967, L. J. Lander, T. R. Parkin, and John Selfridge conjectured[8] that if 
+where ai ≠ bj are positive integers for all 1 ≤ i ≤ n and 1 ≤ j ≤ m, then m + n ≥ k.  In the special case m = 1, the conjecture states that if
+(under the conditions given above) then n ≥ k − 1.
+The special case may be described as the problem of giving a partition of a perfect power into few like powers.  For k = 4, 5, 7, 8 and n = k or k − 1, there are many known solutions.  Some of these are listed below. 
+See OEIS: A347773 for more data.
+This is the smallest solution to the problem by R. Norrie.
+As of 2002, there are no solutions for 
+
+
+
+k
+=
+6
+
+
+{\displaystyle k=6}
+
+ whose final term is ≤ 730000.[13]
+
+

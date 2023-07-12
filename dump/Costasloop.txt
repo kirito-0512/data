@@ -1,0 +1,301 @@
+40970,
+Costasloop,
+A Costas loop is a phase-locked loop (PLL) based circuit which is used for carrier frequency recovery from suppressed-carrier modulation signals (e.g. double-sideband suppressed carrier signals) and phase modulation signals (e.g. BPSK, QPSK). It was invented by John P. Costas at General Electric in the 1950s.[1][2] Its invention was described[3] as having had "a profound effect on modern digital communications".
+The primary application of Costas loops is in wireless receivers. Its advantage over other PLL-based detectors is that at small deviations the Costas loop error voltage is 
+sin
+⁡
+(
+2
+(
+θ
+i
+−
+θ
+f
+)
+)
+{\displaystyle \sin(2(\theta _{i}-\theta _{f}))}
+ as compared to 
+sin
+⁡
+(
+θ
+i
+−
+θ
+f
+)
+{\displaystyle \sin(\theta _{i}-\theta _{f})}
+. This translates to double the sensitivity and also makes the Costas loop uniquely suited for tracking Doppler-shifted carriers, especially in OFDM and GPS receivers.[3]
+In the classical implementation of a Costas loop,[4] a local voltage-controlled oscillator (VCO) provides quadrature outputs, one to each of two phase detectors, e.g., product detectors. The same phase of the input signal is also applied to both phase detectors, and the output of each phase detector is passed through a low-pass filter. The outputs of these low-pass filters are inputs to another phase detector, the output of which passes through a noise-reduction filter before being used to control the voltage-controlled oscillator. The overall loop response is controlled by the two individual low-pass filters that precede the third phase detector, while the third low-pass filter serves a trivial role in terms of gain and phase margin.
+The above figure of a Costas loop is drawn under the "locked" state, where the VCO frequency and the incoming carrier frequency have become the same due to the Costas loop process. The figure does not represent the "unlocked" state.
+In the simplest case 
+m
+2
+(
+t
+)
+=
+1
+{\displaystyle m^{2}(t)=1}
+. Therefore, 
+m
+2
+(
+t
+)
+=
+1
+{\displaystyle m^{2}(t)=1}
+ does not affect the input of the noise-reduction filter.
+The carrier and voltage-controlled oscillator (VCO) signals are periodic oscillations 
+f
+r
+e
+f
+,
+v
+c
+o
+(
+θ
+r
+e
+f
+,
+v
+c
+o
+(
+t
+)
+)
+{\displaystyle f_{ref,vco}(\theta _{ref,vco}(t))}
+ with high-frequencies 
+θ
+˙
+r
+e
+f
+,
+v
+c
+o
+(
+t
+)
+{\displaystyle {\dot {\theta }}_{ref,vco}(t)}
+.
+The block 
+⨂
+{\displaystyle \bigotimes }
+ is an analog multiplier.
+A linear filter can be described mathematically by a system of linear differential equations:
+where 
+A
+{\displaystyle A}
+ is a constant matrix, 
+x
+(
+t
+)
+{\displaystyle x(t)}
+ is a state vector of the filter, 
+b
+{\displaystyle b}
+ and 
+c
+{\displaystyle c}
+ are constant vectors.
+The model of a VCO is usually assumed to be linear:
+where 
+ω
+v
+c
+o
+f
+r
+e
+e
+{\displaystyle \omega _{vco}^{free}}
+ is the free-running frequency of the VCO and 
+K
+v
+c
+o
+{\displaystyle K_{vco}}
+ is the VCO gain factor. Similarly, it is possible to consider various nonlinear models of VCO.
+Suppose that the frequency of the master generator is constant
+θ
+˙
+r
+e
+f
+(
+t
+)
+≡
+ω
+r
+e
+f
+.
+{\displaystyle {\dot {\theta }}_{ref}(t)\equiv \omega _{ref}.}
+Equation of VCO and equation of filter yield
+The system is non-autonomous and rather tricky for investigation.
+In the simplest case, when
+The standard engineering assumption is that the filter removes the upper sideband frequency from the input but leaves the lower sideband without change. Thus it is assumed that the VCO input is 
+φ
+(
+θ
+r
+e
+f
+(
+t
+)
+−
+θ
+v
+c
+o
+(
+t
+)
+)
+=
+1
+8
+sin
+⁡
+(
+2
+ω
+r
+e
+f
+t
+−
+2
+θ
+v
+c
+o
+(
+t
+)
+)
+.
+{\displaystyle \varphi (\theta _{ref}(t)-\theta _{vco}(t))={\frac {1}{8}}\sin(2\omega _{ref}t-2\theta _{vco}(t)).}
+ This makes a Costas loop equivalent to a phase-locked loop with phase detector characteristic 
+φ
+(
+θ
+)
+{\displaystyle \varphi (\theta )}
+ corresponding to the particular waveforms 
+f
+r
+e
+f
+(
+θ
+)
+{\displaystyle f_{ref}(\theta )}
+ and 
+f
+v
+c
+o
+(
+θ
+)
+{\displaystyle f_{vco}(\theta )}
+ of the input and VCO signals. It can be proved that filter outputs in the time and phase-frequency domains are almost equal.[5][6][7]
+Thus it is possible[8] to study the simpler autonomous system of differential equations
+The Krylov–Bogoliubov averaging method allows one to prove that solutions of non-autonomous and autonomous equations are close under some assumptions.
+Thus, the Costas loop block diagram in the time domain can be asymptotically changed to the block diagram on the level of phase-frequency relations.
+The transition to the analysis of an autonomous dynamical model of the Costas loop (in place of the non-autonomous one) allows one to overcome the difficulties related to modeling the Costas loop in the time domain, where one has to simultaneously observe a very fast time scale of the input signals and slow time scale of signal's phase. This idea makes it possible[9] to calculate core performance characteristics - hold-in, pull-in, and lock-in ranges.
+The classical Costas loop will work towards making the phase difference between the carrier and the VCO become a small, ideally zero, value.[10][11][12] The small phase difference implies that frequency lock has been achieved.
+The classical Costas loop can be adapted to QPSK modulation for higher data rates.[13]
+The input QPSK signal is as follows
+Inputs of low-pass filters LPF1 and LPF2 are
+After synchronization,
+the outputs of LPF1 
+Q
+(
+t
+)
+{\displaystyle Q(t)}
+ and LPF2 
+I
+(
+t
+)
+{\displaystyle I(t)}
+ are used to get demodulated data (
+m
+1
+(
+t
+)
+{\displaystyle m_{1}(t)}
+ and 
+m
+2
+(
+t
+)
+{\displaystyle m_{2}(t)}
+). To adjust the frequency of the VCO to the reference frequency, signals 
+Q
+(
+t
+)
+{\displaystyle Q(t)}
+ and 
+I
+(
+t
+)
+{\displaystyle I(t)}
+ are limited and cross-multiplied:
+Then the signal 
+u
+d
+(
+t
+)
+{\displaystyle u_{d}(t)}
+ is filtered by the loop filter and forms the tuning signal for the VCO 
+u
+LF
+(
+t
+)
+{\displaystyle u_{\text{LF}}(t)}
+, similar to BPSK Costas loop. Thus, QPSK Costas can be described[14] by a system of ordinary differential equations:
+Here 
+A
+LPF
+,
+b
+LPF
+,
+c
+LPF
+{\displaystyle A_{\text{LPF}},b_{\text{LPF}},c_{\text{LPF}}}
+ are parameters of LPF1 and LPF2 and 
+A
+LF
+,
+b
+LF
+,
+c
+LF
+,
+h
+LF
+{\displaystyle A_{\text{LF}},b_{\text{LF}},c_{\text{LF}},h_{\text{LF}}}
+ are parameters of the loop filter.

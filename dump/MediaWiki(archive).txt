@@ -1,0 +1,20 @@
+36591,
+MediaWiki(archive),
+MediaWiki is the server software that runs Wikipedia and its sister wiki sites. See MediaWiki or MediaWiki. For details of the Mediawiki namespace see MediaWiki namespace or (for messages contained) see Special:Allmessages.
+You can download the latest copy of the m:MediaWiki package from Sourceforge at the MediaWiki Project page.
+Test.
+You can see what version of the MediaWiki software the English Wikipedia is running by visiting Special:Version.
+The following MediaWiki features are currently disabled in the English Wikipedia (and other large Wikimedia wikis) for performance reasons:
+Recently, search, orphaned, short, and long pages were reenabled.
+Wikipedia and its sister Wikimedia projects run on the same GPL-ed free software, called MediaWiki or Software Phase III (see m:MediaWiki). It was switched from UseModWiki software ("Phase I") to new software, written especially for Wikipedia using the PHP programming language, on January 25, 2002 ("Phase II"); in July 2002 it was replaced by what is now called MediaWiki.
+Magnus Manske was the original author of the software, which is written in PHP and uses an underlying MySQL relational database. The software is released under the GNU General Public License. Other programmers are strongly urged to get involved.
+MediaWiki was made for wikipedia and later for its sister sites and then released as the open-source MediaWiki
+On Saturday, July 20, 2002, Wikipedia moved to a new high-capacity server and new, hopefully more efficient, software base.
+The new software was designed to look and behave as similarly to the previous phase II software as possible, but a few new features and changes should be noted:
+
+The Phase III software is robust, and under active development. Many more features have been, and are expected to be, added to the Phase III software, together with bug fixes and improvements in stability. You are encouraged to submit bug reports.
+Information and discussion about this software can be found on the following pages:
+More status pages:
+Related topics:
+
+

@@ -1,0 +1,321 @@
+14022,
+Haberprocess,
+
+The Haber process,[1] also called the Haber–Bosch process, is the main industrial procedure for the production of ammonia.[2][3] It is named after its inventors, the German chemists: Fritz Haber and Carl Bosch, who developed it in the first decade of the 20th century. The process converts atmospheric nitrogen (N2) to ammonia (NH3) by a reaction with hydrogen (H2) using a metal catalyst under high temperatures and pressures. This reaction is slightly exothermic (i.e. it releases energy), meaning that the reaction is favoured at lower temperatures[4] and higher pressures.[5] It decreases entropy, complicating the process. Hydrogen is produced via steam reforming, followed by an iterative closed cycle to react hydrogen with nitrogen to produce ammonia.
+The primary reaction is:
+Before the development of the Haber process, it had been difficult to produce ammonia on an industrial scale,[6][7][8] because earlier methods, such as the Birkeland–Eyde process and the Frank–Caro process, were too inefficient.
+During the 19th century, the demand for nitrates and ammonia for use as fertilizers and industrial feedstocks rapidly increased. The main source was mining niter deposits and guano from tropical islands.[9] At the beginning of the 20th century these reserves were thought insufficient to satisfy future demands,[10] and research into new potential sources of ammonia increased. Although atmospheric nitrogen (N2) is abundant, comprising ~78% of the air, it is exceptionally stable and does not readily react with other chemicals.
+Haber, with his assistant Robert Le Rossignol, developed the high-pressure devices and catalysts needed to demonstrate the Haber process at a laboratory scale.[11][12] They demonstrated their process in the summer of 1909 by producing ammonia from the air, drop by drop, at the rate of about 125 mL (4 US fl oz) per hour. The process was purchased by the German chemical company BASF, which assigned Carl Bosch the task of scaling up Haber's tabletop machine to industrial scale.[7][13] He succeeded in 1910. Haber and Bosch were later awarded Nobel Prizes, in 1918 and 1931 respectively, for their work in overcoming the chemical and engineering problems of large-scale, continuous-flow, high-pressure technology.[7]
+Ammonia was first manufactured using the Haber process on an industrial scale in 1913 in BASF's Oppau plant in Germany, reaching 20 tonnes/day in 1914.[14] During World War I, the production of munitions required large amounts of nitrate. The Allies had access to large deposits of sodium nitrate in Chile (Chile saltpetre) controlled by British companies. India had large supplies too, but it was also controlled by the British.[15] Germany had no such resources, so the Haber process proved essential to the German war effort.[7][16] Synthetic ammonia from the Haber process was used for the production of nitric acid, a precursor to the nitrates used in explosives.
+The original Haber–Bosch reaction chambers used osmium as the catalyst, but it was available in extremely small quantities. Haber noted uranium was almost as effective and easier to obtain than osmium. In 1909, BASF researcher Alwin Mittasch discovered a much less expensive iron-based catalyst that is still used. A major contributor to the elucidation of this catalysis was Gerhard Ertl.[17][18][19][20] The most popular catalysts are based on iron promoted with K2O, CaO, SiO2, and Al2O3.
+During the interwar years, alternative processes were developed, most notably the Casale process, Claude process, and the Mont-Cenis process developed by Friedrich Uhde Ingenieurbüro.[21] Luigi Casale and Georges Claude proposed to increase the pressure of the synthesis loop to 80–100 MPa (800–1,000 bar; 12,000–15,000 psi), thereby increasing the single-pass ammonia conversion and making nearly complete liquefaction at ambient temperature feasible. Claude proposed to have three or four converters with liquefaction steps in series, thereby avoiding recycling. Most plants continue to use the original Haber process (20 MPa (200 bar; 2,900 psi) and 500 °C (932 °F)), albeit with improved single-pass conversion and lower energy consumption due to process and catalyst optimization.
+Combined with the energy needed to produce hydrogen[note 1] and purified atmospheric nitrogen, ammonia production is energy-intensive, accounting for 1% to 2% of global energy consumption, 3% of global carbon emissions,[23] and 3% to 5% of natural gas consumption.[24]
+The choice of catalyst is important for synthesizing ammonia. In 2012, Hideo Hosono's group found that Ru-loaded calcium-aluminum oxide C12A7:e− electride works well as a catalyst and pursued more efficient formation.[25][26] This method is implemented in a small plant for ammonia synthesis in Japan.[27][28] In 2019, Hosono's group found another catalyst, a novel perovskite oxynitride-hydride BaCeO3−xNyHz, that works at lower temperature and without costly ruthenium.[29]
+The major source of hydrogen is methane. Steam reforming extracts hydrogen from methane in a high-temperature and pressure tube inside a reformer with a nickel catalyst. Other fossil fuel sources include coal, heavy fuel oil and naphtha.
+Green hydrogen is produced without fossil fuels or carbon dioxide emissions from biomass, water electrolysis and thermochemical (solar or another heat source) water splitting. However, these hydrogen sources are not economically competitive with steam reforming.[30][31][32]
+Starting with a natural gas (CH4) feedstock, the steps are:
+The hydrogen is catalytically reacted with nitrogen (derived from process air) to form anhydrous liquid ammonia. It is difficult and expensive, as lower temperatures result in slower reaction kinetics (hence a slower reaction rate)[33] and high pressure requires high-strength pressure vessels[34] that resist hydrogen embrittlement. Diatomic nitrogen is bound together by a triple bond, which makes it relatively inert.[35] Yield and efficiency are low, meaning that the ammonia must be extracted and the gases reprocessed for the reaction to proceed at an acceptable pace.[36]
+This step is known as the ammonia synthesis loop:
+The gases (nitrogen and hydrogen) are passed over four beds of catalyst, with cooling between each pass to maintain a reasonable equilibrium constant. On each pass, only about 15% conversion occurs, but unreacted gases are recycled, and eventually conversion of 97% is achieved.[3]
+Due to the nature of the (typically multi-promoted magnetite) catalyst used in the ammonia synthesis reaction, only low levels of oxygen-containing (especially CO, CO2 and H2O) compounds can be tolerated in the hydrogen/nitrogen mixture. Relatively pure nitrogen can be obtained by air separation, but additional oxygen removal may be required.
+Because of relatively low single pass conversion rates (typically less than 20%), a large recycle stream is required. This can lead to the accumulation of inerts in the gas.
+Nitrogen gas (N2) is unreactive because the atoms are held together by triple bonds. The Haber process relies on catalysts that accelerate the scission of these bonds.
+Two opposing considerations are relevant: the equilibrium position and the reaction rate. At room temperature, the equilibrium is in favor of ammonia, but the reaction doesn't proceed at a detectable rate due to its high activation energy. Because the reaction is exothermic, the equilibrium constant decreases with increasing temperature following Le Châtelier's principle. It becomes unity at around 150–200 °C (302–392 °F).[3]
+Above this temperature, the equilibrium quickly becomes unfavorable at atmospheric pressure, according to the Van 't Hoff equation. Lowering the temperature is unhelpful because the catalyst requires a temperature of at least 400 °C to be efficient.[3]
+Increased pressure favors the forward reaction because 4 moles of reactant produce 2 moles of product, and the pressure used (15–25 MPa (150–250 bar; 2,200–3,600 psi)) alters the equilibrium concentrations to give a substantial ammonia yield. The reason for this is evident in the equilibrium relationship:
+
+
+
+
+K
+=
+
+
+
+y
+
+
+
+NH
+
+3
+
+
+
+
+
+
+
+
+2
+
+
+
+
+y
+
+
+
+H
+
+2
+
+
+
+
+
+
+
+
+3
+
+
+
+y
+
+
+
+N
+
+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ϕ
+^
+
+
+
+
+
+
+NH
+
+3
+
+
+
+
+
+
+
+
+2
+
+
+
+
+
+
+
+ϕ
+^
+
+
+
+
+
+
+H
+
+2
+
+
+
+
+
+
+
+
+3
+
+
+
+
+
+
+ϕ
+^
+
+
+
+
+
+
+N
+
+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+(
+
+
+
+P
+
+∘
+
+
+P
+
+
+)
+
+
+2
+
+
+,
+
+
+{\displaystyle K={\frac {y_{{\ce {NH3}}}^{2}}{y_{{\ce {H2}}}^{3}y_{{\ce {N2}}}}}{\frac {{\hat {\phi }}_{{\ce {NH3}}}^{2}}{{\hat {\phi }}_{{\ce {H2}}}^{3}{\hat {\phi }}_{{\ce {N2}}}}}\left({\frac {P^{\circ }}{P}}\right)^{2},}
+
+
+where 
+
+
+
+
+
+
+
+ϕ
+^
+
+
+
+
+i
+
+
+
+
+{\displaystyle {\hat {\phi }}_{i}}
+
+ is the fugacity coefficient of species 
+
+
+
+i
+
+
+{\displaystyle i}
+
+, 
+
+
+
+
+y
+
+i
+
+
+
+
+{\displaystyle y_{i}}
+
+ is the mole fraction of the same species, 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is the reactor pressure, and 
+
+
+
+
+P
+
+∘
+
+
+
+
+{\displaystyle P^{\circ }}
+
+ is standard pressure, typically 1 bar (0.10 MPa).
+Economically, reactor pressurization is expensive: pipes, valves, and reaction vessels need to be strong enough, and safety considerations affect operating at 20 MPa. Compressors take considerable energy, as work must be done on the (compressible) gas. Thus, the compromise used gives a single-pass yield of around 15%.[3]
+While removing the ammonia from the system increases the reaction yield, this step is not used in practice, since the temperature is too high; instead it is removed from the gases leaving the reaction vessel. The hot gases are cooled under high pressure, allowing the ammonia to condense and be removed as a liquid. Unreacted hydrogen and nitrogen gases are returned to the reaction vessel for another round.[3] While most ammonia is removed (typically down to 2–5 mol.%), some ammonia remains in the recycle stream. In academic literature, a more complete separation of ammonia has been proposed by absorption in metal halides or zeolites. Such a process is called an absorbent-enhanced Haber process or adsorbent-enhanced Haber–Bosch process.[38]
+The steam reforming, shift conversion, carbon dioxide removal, and methanation steps each operate at absolute pressures of about 25 to 35 bar, while the ammonia synthesis loop operates at temperatures of 300–500 °C (572–932 °F) and pressures ranging from 60 to 180 bar depending upon the method used. The resulting ammonia must then be separated from the residual hydrogen and nitrogen at temperatures of −20 °C (−4 °F).[39][3]
+The Haber–Bosch process relies on catalysts to accelerate N2 hydrogenation. The catalysts are heterogeneous, solids that interact with gaseous reagents.[40]
+The catalyst typically consists of finely divided iron bound to an iron oxide carrier containing promoters possibly including aluminium oxide, potassium oxide, calcium oxide, potassium hydroxide,[41] molybdenum,[42] and magnesium oxide.
+The iron catalyst is obtained from finely ground iron powder, which is usually obtained by reduction of high-purity magnetite (Fe3O4). The pulverized iron is oxidized to give magnetite or wüstite (FeO, ferrous oxide) particles of a specific size. The magnetite (or wüstite) particles are then partially reduced, removing some of the oxygen. The resulting catalyst particles consist of a core of magnetite, encased in a shell of wüstite, which in turn is surrounded by an outer shell of metallic iron. The catalyst maintains most of its bulk volume during the reduction, resulting in a highly porous high-surface-area material, which enhances its catalytic effectiveness. Minor components include calcium and aluminium oxides, which support the iron catalyst and help it maintain its surface area. These oxides of Ca, Al, K, and Si are unreactive to reduction by hydrogen.[3]
+The production of the catalyst requires a particular melting process in which used raw materials must be free of catalyst poisons and the promoter aggregates must be evenly distributed in the magnetite melt. Rapid cooling of the magnetite, which has an initial temperature of about 3500 °C, produces the desired precursor. Unfortunately, the rapid cooling ultimately forms a catalyst of reduced abrasion resistance. Despite this disadvantage, the method of rapid cooling is often employed.[3]
+The reduction of the precursor magnetite to α-iron is carried out directly in the production plant with synthesis gas. The reduction of the magnetite proceeds via the formation of wüstite (FeO) so that particles with a core of magnetite become surrounded by a shell of wüstite. The further reduction of magnetite and wüstite leads to the formation of α-iron, which forms together with the promoters of the outer shell.[43] The involved processes are complex and depend on the reduction temperature: At lower temperatures, wüstite disproportionates into an iron phase and a magnetite phase; at higher temperatures, the reduction of the wüstite and magnetite to iron dominates.[44]
+The α-iron forms primary crystallites with a diameter of about 30 nanometers. These crystallites form a bimodal pore system with pore diameters of about 10 nanometers (produced by the reduction of the magnetite phase) and of 25 to 50 nanometers (produced by the reduction of the wüstite phase).[43] With the exception of cobalt oxide, the promoters are not reduced.
+During the reduction of the iron oxide with synthesis gas, water vapor is formed. This water vapor must be considered for high catalyst quality as contact with the finely divided iron would lead to premature aging of the catalyst through recrystallization, especially in conjunction with high temperatures. The vapor pressure of the water in the gas mixture produced during catalyst formation is thus kept as low as possible, target values are below 3 gm−3. For this reason, the reduction is carried out at high gas exchange, low pressure, and low temperatures. The exothermic nature of the ammonia formation ensures a gradual increase in temperature.[3]
+The reduction of fresh, fully oxidized catalyst or precursor to full production capacity takes four to ten days.[3] The wüstite phase is reduced faster and at lower temperatures than the magnetite phase (Fe3O4). After detailed kinetic, microscopic, and X-ray spectroscopic investigations it was shown that wüstite reacts first to metallic iron. This leads to a gradient of iron(II) ions, whereby these diffuse from the magnetite through the wüstite to the particle surface and precipitate there as iron nuclei.
+Pre-reduced, stabilized catalysts occupy a significant market share. They are delivered showing the fully developed pore structure, but have been oxidized again on the surface after manufacture and are therefore no longer pyrophoric. The reactivation of such pre-reduced catalysts requires only 30 to 40 hours instead of several days. In addition to the short start-up time, they have other advantages such as higher water resistance and lower weight.[3]
+Many efforts have been made to improve the Haber–Bosch process. Many metals were tested as catalysts. The requirement for suitability is the dissociative adsorption of nitrogen (i. e. the nitrogen molecule must be split into nitrogen atoms upon adsorption). If the binding of the nitrogen is too strong, the catalyst is blocked and the catalytic ability is reduced (self-poisoning). The elements in the periodic table to the left of the iron group show such strong bonds. Further, the formation of surface nitrides makes, for example, chromium catalysts ineffective. Metals to the right of the iron group, in contrast, adsorb nitrogen too weakly for ammonia synthesis. Haber initially used catalysts based on osmium and uranium. Uranium reacts to its nitride during catalysis, while osmium oxide is rare.[46]
+According to theoretical and practical studies, improvements over pure iron are limited. The activity of iron catalysts is increased by the inclusion of cobalt.[47]
+Ruthenium forms highly active catalysts. Allowing milder operating pressures and temperatures, Ru-based materials are referred to as second-generation catalysts. Such catalysts are prepared by the decomposition of triruthenium dodecacarbonyl on graphite.[3] A drawback of activated-carbon-supported ruthenium-based catalysts is the methanation of the support in the presence of hydrogen. Their activity is strongly dependent on the catalyst carrier and the promoters. A wide range of substances can be used as carriers, including carbon, magnesium oxide, aluminium oxide, zeolites, spinels, and boron nitride.[48]
+Ruthenium-activated carbon-based catalysts have been used industrially in the KBR Advanced Ammonia Process (KAAP) since 1992.[49] The carbon carrier is partially degraded to methane; however, this can be mitigated by a special treatment of the carbon at 1500 °C, thus prolonging the catalyst lifetime. In addition, the finely dispersed carbon poses a risk of explosion. For these reasons and due to its low acidity, magnesium oxide has proven to be a good choice of carrier. Carriers with acidic properties extract electrons from ruthenium, make it less reactive, and have the undesirable effect of binding ammonia to the surface.[48]
+Catalyst poisons lower catalyst activity. They are usually impurities in the synthesis gas. Permanent poisons cause irreversible loss of catalytic activity and, while temporary poisons lower the activity while present. Sulfur compounds, phosphorus compounds, arsenic compounds, and chlorine compounds are permanent poisons. Oxygenic compounds like water, carbon monoxide, carbon dioxide, and oxygen are temporary poisons.[3][50]
+Although chemically inert components of the synthesis gas mixture such as noble gases or methane are not strictly poisons, they accumulate through the recycling of the process gases and thus lower the partial pressure of the reactants, which in turn slows conversion.[51]
+The reaction is:
+The reaction is an exothermic equilibrium reaction in which the gas volume is reduced. The equilibrium constant Keq of the reaction (see table) is obtained from:
+Since the reaction is exothermic, the equilibrium of the reaction shifts at lower temperatures to the ammonia side. Furthermore, four volumetric units of the raw materials produce two volumetric units of ammonia. According to Le Chatelier's principle, higher pressure favours ammonia. High pressure is necessary to ensure sufficient surface coverage of the catalyst with nitrogen.[54] For this reason, a ratio of nitrogen to hydrogen of 1 to 3, a pressure of 250 to 350 bar, a temperature of 450 to 550 °C and α iron are optimal.
+The catalyst ferrite (α-Fe) is produced in the reactor by the reduction of magnetite with hydrogen. The catalyst has its highest efficiency at temperatures of about 400 to 500 °C. Even though the catalyst greatly lowers the activation energy for the cleavage of the triple bond of the nitrogen molecule, high temperatures are still required for an appropriate reaction rate. At the industrially used reaction temperature of 450 to 550 °C an optimum between the decomposition of ammonia into the starting materials and the effectiveness of the catalyst is achieved.[55] The formed ammonia is continuously removed from the system. The volume fraction of ammonia in the gas mixture is about 20%.
+The inert components, especially the noble gases such as argon, should not exceed a certain content in order not to reduce the partial pressure of the reactants too much. To remove the inert gas components, part of the gas is removed and the argon is separated in a gas separation plant. The extraction of pure argon from the circulating gas is carried out using the Linde process.[56]
+Modern ammonia plants produce more than 3000 tons per day in one production line. The following diagram shows the set-up of a Haber–Bosch plant:
+Depending on its origin, the synthesis gas must first be freed from impurities such as hydrogen sulfide or organic sulphur compounds, which act as a catalyst poison. High concentrations of hydrogen sulfide, which occur in synthesis gas from carbonization coke, are removed in a wet cleaning stage such as the sulfosolvan process, while low concentrations are removed by adsorption on activated carbon.[57] Organosulfur compounds are separated by pressure swing adsorption together with carbon dioxide after CO conversion.
+To produce hydrogen by steam reforming, methane reacts with water vapor using a nickel oxide-alumina catalyst in the primary reformer to form carbon monoxide and hydrogen. The energy required for this, the enthalpy ΔH, is 206 kJ/mol.[58]
+The methane gas reacts in the primary reformer only partially. To increase the hydrogen yield and keep the content of inert components (i. e. methane) as low as possible, the remaining methane gas is converted in a second step with oxygen to hydrogen and carbon monoxide in the secondary reformer. The secondary reformer is supplied with air as the oxygen source. Also, the required nitrogen for the subsequent ammonia synthesis is added to the gas mixture.
+In the third step, the carbon monoxide is oxidized to carbon dioxide, which is called CO conversion or water-gas shift reaction.
+Carbon monoxide and carbon dioxide would form carbamates with ammonia, which would clog (as solids) pipelines and apparatus within a short time. In the following process step, the carbon dioxide must therefore be removed from the gas mixture. In contrast to carbon monoxide, carbon dioxide can easily be removed from the gas mixture by gas scrubbing with triethanolamine. The gas mixture then still contains methane and noble gases such as argon, which, however, behave inertly.[51]
+The gas mixture is then compressed to operating pressure by turbo compressors. The resulting compression heat is dissipated by heat exchangers; it is used to preheat raw gases.
+The actual production of ammonia takes place in the ammonia reactor. The first reactors were bursting under high pressure because the atomic hydrogen in the carbonaceous steel partially recombined into methane and produced cracks in the steel. Bosch, therefore, developed tube reactors consisting of a pressure-bearing steel tube in which a low-carbon iron lining tube was inserted and filled with the catalyst. Hydrogen that diffused through the inner steel pipe escaped to the outside via thin holes in the outer steel jacket, the so-called Bosch holes.[53] A disadvantage of the tubular reactors was the relatively high-pressure loss, which had to be applied again by compression. The development of hydrogen-resistant chromium-molybdenum steels made it possible to construct single-walled pipes.[59]
+Modern ammonia reactors are designed as multi-storey reactors with a low-pressure drop, in which the catalysts are distributed as fills over about ten storeys one above the other. The gas mixture flows through them one after the other from top to bottom. Cold gas is injected from the side for cooling. A disadvantage of this reactor type is the incomplete conversion of the cold gas mixture in the last catalyst bed.[59]
+Alternatively, the reaction mixture between the catalyst layers is cooled using heat exchangers, whereby the hydrogen-nitrogen mixture is preheated to the reaction temperature. Reactors of this type have three catalyst beds. In addition to good temperature control, this reactor type has the advantage of better conversion of the raw material gases compared to reactors with cold gas injection.
+Uhde has developed and is using an ammonia converter with three radial flow catalyst beds and two internal heat exchangers instead of axial flow catalyst beds. This further reduces the pressure drop in the converter.[60]
+The reaction product is continuously removed for maximum yield. The gas mixture is cooled to 450 °C in a heat exchanger using water, freshly supplied gases, and other process streams. The ammonia also condenses and is separated in a pressure separator. Unreacted nitrogen and hydrogen are then compressed back to the process by a circulating gas compressor, supplemented with fresh gas, and fed to the reactor.[59] In a subsequent distillation, the product ammonia is purified.
+The mechanism of ammonia synthesis contains the following seven elementary steps:
+Transport and diffusion (the first and last two steps) are fast compared to adsorption, reaction, and desorption because of the shell structure of the catalyst. It is known from various investigations that the rate-determining step of the ammonia synthesis is the dissociation of nitrogen.[3] In contrast, exchange reactions between hydrogen and deuterium on the Haber–Bosch catalysts still take place at temperatures of −196 °C (−320.8 °F) at a measurable rate; the exchange between deuterium and hydrogen on the ammonia molecule also takes place at room temperature. Since the adsorption of both molecules is rapid, it cannot determine the speed of ammonia synthesis.[61]
+In addition to the reaction conditions, the adsorption of nitrogen on the catalyst surface depends on the microscopic structure of the catalyst surface. Iron has different crystal surfaces, whose reactivity is very different. The Fe(111) and Fe(211) surfaces have by far the highest activity. The explanation for this is that only these surfaces have so-called C7 sites – these are iron atoms with seven closest neighbours.[3]
+The dissociative adsorption of nitrogen on the surface follows the following scheme, where S* symbolizes an iron atom on the surface of the catalyst:[43]
+The adsorption of nitrogen is similar to the chemisorption of carbon monoxide. On a Fe(111) surface, the adsorption of nitrogen first leads to an adsorbed γ-species with an adsorption energy of 24 kJmol−1 and an N-N stretch vibration of 2100 cm−1. Since the nitrogen is isoelectronic to carbon monoxide, it adsorbs in an on-end configuration in which the molecule is bound perpendicular to the metal surface at one nitrogen atom.[19][62][3] This has been confirmed by photoelectron spectroscopy.[63]
+Ab-initio-MO calculations have shown that, in addition to the σ binding of the free electron pair of nitrogen to the metal, there is a π binding from the d orbitals of the metal to the π* orbitals of nitrogen, which strengthens the iron-nitrogen bond. The nitrogen in the α state is more strongly bound with 31 kJmol−1. The resulting N–N bond weakening could be experimentally confirmed by a reduction of the wave numbers of the N–N stretching oscillation to 1490 cm−1.[62]
+Further heating of the Fe(111) area covered by α-N2 leads to both desorption and the emergence of a new band at 450 cm−1. This represents a metal-nitrogen oscillation, the β state. A comparison with vibration spectra of complex compounds allows the conclusion that the N2 molecule is bound "side-on", with an N atom in contact with a C7 site. This structure is called "surface nitride". The surface nitride is very strongly bound to the surface.[63] Hydrogen atoms (Hads), which are very mobile on the catalyst surface, quickly combine with it.
+Infrared spectroscopically detected surface imides (NHad), surface amides (NH2,ad) and surface ammoniacates (NH3,ad) are formed, the latter decay under NH3 release (desorption).[53] The individual molecules were identified or assigned by X-ray photoelectron spectroscopy (XPS), high-resolution electron energy loss spectroscopy (HREELS) and Ir Spectroscopy.
+On the basis of these experimental findings, the reaction mechanism is believed to involve the following steps (see also figure):[64]
+Reaction 5 occurs in three steps, forming NH, NH2, and then NH3. Experimental evidence points to reaction 2 as being slow, rate-determining step. This is not unexpected, since the bond is broken, the nitrogen triple bond is the strongest of the bonds that must be broken.
+As with all Haber–Bosch catalysts, nitrogen dissociation is the rate-determining step for ruthenium-activated carbon catalysts. The active center for ruthenium is a so-called B5 site, a 5-fold coordinated position on the Ru(0001) surface where two ruthenium atoms form a step edge with three ruthenium atoms on the Ru(0001) surface.[65] The number of B5 sites depends on the size and shape of the ruthenium particles, the ruthenium precursor and the amount of ruthenium used.[48] The reinforcing effect of the basic carrier used in the ruthenium catalyst is similar to the promoter effect of alkali metals used in the iron catalyst.[48]
+An energy diagram can be created based on the Enthalpy of Reaction of the individual steps. The energy diagram can be used to compare homogeneous and heterogeneous reactions: Due to the high activation energy of the dissociation of nitrogen, the homogeneous gas phase reaction is not realizable. The catalyst avoids this problem as the energy gain resulting from the binding of nitrogen atoms to the catalyst surface overcompensates for the necessary dissociation energy so that the reaction is finally exothermic. Nevertheless, the dissociative adsorption of nitrogen remains the rate-determining step: not because of the activation energy, but mainly because of the unfavorable pre-exponential factor of the rate constant. Although hydrogenation is endothermic, this energy can easily be applied by the reaction temperature (about 700 K).[3]
+When first invented, the Haber process competed against another industrial process, the cyanamide process. However, the cyanamide process consumed large amounts of electrical power and was more labor-intensive than the Haber process.[7]: 137–143 
+As of 2018, the Haber process produces 230 million tonnes of anhydrous ammonia per year.[66] The ammonia is used mainly as a nitrogen fertilizer as ammonia itself, in the form of ammonium nitrate, and as urea. The Haber process consumes 3–5% of the world's natural gas production (around 1–2% of the world's energy supply).[6][67][68][69] In combination with advances in breeding, herbicides, and pesticides, these fertilizers have helped to increase the productivity of agricultural land:
+With average crop yields remaining at the 1900 level the crop harvest in the year 2000 would have required nearly four times more land and the cultivated area would have claimed nearly half of all ice-free continents, rather than under 15% of the total land area that is required today.[70]The energy-intensity of the process contributes to climate change and other environmental problems such as the leaching of nitrates into groundwater, rivers, ponds, and lakes; expanding dead zones in coastal ocean waters, resulting from recurrent eutrophication; atmospheric deposition of nitrates and ammonia affecting natural ecosystems; higher emissions of nitrous oxide (N2O), now the third most important greenhouse gas following CO2 and CH4.[70] The Haber–Bosch process is one of the largest contributors to a buildup of reactive nitrogen in the biosphere, causing an anthropogenic disruption to the nitrogen cycle.[71]
+Since nitrogen use efficiency is typically less than 50%,[72] farm runoff from heavy use of fixed industrial nitrogen disrupts biological habitats.[6][73]
+Nearly 50% of the nitrogen found in human tissues originated from the Haber–Bosch process.[74] Thus, the Haber process serves as the "detonator of the population explosion", enabling the global population to increase from 1.6 billion in 1900 to 7.7 billion by November 2018.[75]
+Reverse fuel cell technology converts renewable energy, water and air into ammonia without a separate hydrogen electrolysis process.[76]
+
+

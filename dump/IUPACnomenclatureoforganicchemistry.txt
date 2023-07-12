@@ -1,0 +1,131 @@
+22455,
+IUPACnomenclatureoforganicchemistry,
+
+In chemical nomenclature, the IUPAC nomenclature of organic chemistry is a method of naming organic chemical compounds as recommended[1][2] by the International Union of Pure and Applied Chemistry (IUPAC). It is published in the Nomenclature of Organic Chemistry (informally called the Blue Book). Ideally, every possible organic compound should have a name from which an unambiguous structural formula can be created. There is also an IUPAC nomenclature of inorganic chemistry.
+To avoid long and tedious names in normal communication, the official IUPAC naming recommendations are not always followed in practice, except when it is necessary to give an unambiguous and absolute definition to a compound. IUPAC names can sometimes be simpler than older names, as with ethanol, instead of ethyl alcohol. For relatively simple molecules they can be more easily understood than non-systematic names, which must be learnt or looked over. However, the common or trivial name is often substantially shorter and clearer, and so preferred. These non-systematic names are often derived from an original source of the compound. Also, very long names may be less clear than structural formulas.
+In chemistry, a number of prefixes, suffixes and interfixes are used to describe the type and position of the functional groups in the compound.
+The steps for naming an organic compound are: 
+The numbers for that type of side chain will be grouped in ascending order and written before the name of the side-chain. If there are two side-chains with the same alpha carbon, the number will be written twice. Example: 2,2,3-trimethyl- . If there are both double bonds and triple bonds, "en" (double bond) is written before "yne" (triple bond). When the main functional group is a terminal functional group (a group which can exist only at the end of a chain, like formyl and carboxyl groups), there is no need to number it.
+The resulting name appears as:
+where each "#" represents a number. The group secondary functional groups and side chains may not look the same as shown here, as the side chains and secondary functional groups are arranged alphabetically. The di- and tri- have been used just to show their usage. (di- after #,#, tri- after #,#,#, etc.)
+Here is a sample molecule with the parent carbons numbered:
+For simplicity, here is an image of the same molecule, where the hydrogens in the parent chain are removed and the carbons are shown by their numbers:
+Now, following the above steps:
+The final name is (6E,13E)-18-bromo-12-butyl-11-chloro-4,8-diethyl-5-hydroxy-15-methoxytricosa-6,13-dien-19-yne-3,9-dione.
+Straight-chain alkanes take the suffix "-ane" and are prefixed depending on the number of carbon atoms in the chain, following standard rules. The first few are:
+For example, the simplest alkane is CH4 methane, and the nine-carbon alkane CH3(CH2)7CH3 is named nonane. The names of the first four alkanes were derived from methanol, ether, propionic acid and butyric acid, respectively. The rest are named with a Greek numeric prefix, with the exceptions of nonane which has a Latin prefix, and undecane which has mixed-language prefixes.
+Cyclic alkanes are simply prefixed with "cyclo-": for example, C4H8 is cyclobutane (not to be confused with butene) and C6H12 is cyclohexane (not to be confused with hexene).
+Branched alkanes are named as a straight-chain alkane with attached alkyl groups. They are prefixed with a number indicating the carbon the group is attached to, counting from the end of the alkane chain. For example, (CH3)2CHCH3, commonly known as isobutane, is treated as a propane chain with a methyl group bonded to the middle (2) carbon, and given the systematic name 2-methylpropane. However, although the name 2-methylpropane could be used, it is easier and more logical to call it simply methylpropane – the methyl group could not possibly occur on any of the other carbon atoms (that would lengthen the chain and result in butane, not propane) and therefore the use of the number "2" is unnecessary.
+If there is ambiguity in the position of the substituent, depending on which end of the alkane chain is counted as "1", then numbering is chosen so that the smaller number is used. For example, (CH3)2CHCH2CH3 (isopentane) is named 2-methylbutane, not 3-methylbutane.
+If there are multiple side-branches of the same size alkyl group, their positions are separated by commas and the group prefixed with di-, tri-, tetra-, etc., depending on the number of branches. For example, C(CH3)4 (neopentane) is named 2,2-dimethylpropane. If there are different groups, they are added in alphabetical order, separated by commas or hyphens. The longest possible main alkane chain is used; therefore 3-ethyl-4-methylhexane instead of 2,3-diethylpentane, even though these describe equivalent structures. The di-, tri- etc. prefixes are ignored for the purpose of alphabetical ordering of side chains (e.g. 3-ethyl-2,4-dimethylpentane, not 2,4-dimethyl-3-ethylpentane).
+Alkenes are named for their parent alkane chain with the suffix "-ene" and a numerical root indicating the position of the carbon with the lower number for each double bond in the chain: CH2=CHCH2CH3 is but-1-ene.
+Multiple double bonds take the form -diene, -triene, etc., with the size prefix of the chain taking an extra "a": CH2=CHCH=CH2 is buta-1,3-diene. Simple cis and trans isomers may be indicated with a prefixed cis- or trans-: cis-but-2-ene, trans-but-2-ene. However, cis- and trans- are relative descriptors. It is IUPAC convention to describe all alkenes using absolute descriptors of Z- (same side) and E- (opposite) with the Cahn–Ingold–Prelog priority rules.
+
+Alkynes are named using the same system, with the suffix "-yne" indicating a triple bond: ethyne (acetylene), propyne (methylacetylene). 
+In Haloalkanes and Haloarenes (R-X), Halogen functional groups are prefixed with the bonding position and take the form of fluoro-, chloro-, bromo-, iodo-, etc., depending on the halogen. Multiple groups are dichloro-, trichloro-, etc., and dissimilar groups are ordered alphabetically as before. For example, CHCl3 (chloroform) is trichloromethane. The anesthetic halothane (CF3CHBrCl) is 2-bromo-2-chloro-1,1,1-trifluoroethane.Alcohols (R-OH) take the suffix "-ol" with a numerical suffix indicating the bonding position: CH3CH2CH2OH is propan-1-ol. The suffixes -diol, -triol, -tetraol, etc., are used for multiple -OH groups: Ethylene glycol CH2OHCH2OH is ethane-1,2-diol.
+
+If higher precedence functional groups are present (see order of precedence, below), the prefix "hydroxy" is used with the bonding position: CH3CHOHCOOH is 2-hydroxypropanoic acid. Ethers (R-O-R) consist of an oxygen atom between the two attached carbon chains. The shorter of the two chains becomes the first part of the name with the -ane suffix changed to -oxy, and the longer alkane chain becomes the suffix of the name of the ether. Thus, CH3OCH3 is methoxymethane, and CH3OCH2CH3 is methoxyethane (not ethoxymethane). If the oxygen is not attached to the end of the main alkane chain, then the whole shorter alkyl-plus-ether group is treated as a side-chain and prefixed with its bonding position on the main chain. Thus CH3OCH(CH3)2 is 2-methoxypropane.
+Alternatively, an ether chain can be named as an alkane in which one carbon is replaced by an oxygen, a replacement denoted by the prefix "oxa". For example, CH3OCH2CH3 could also be called 2-oxabutane, and an epoxide could be called oxacyclopropane. This method is especially useful when both groups attached to the oxygen atom are complex.[3]
+Aldehydes (R-CHO) take the suffix "-al". If other functional groups are present, the chain is numbered such that the aldehyde carbon is in the "1" position, unless functional groups of higher precedence are present.
+
+If a prefix form is required, "oxo-" is used (as for ketones), with the position number indicating the end of a chain: CHOCH2COOH is 3-oxopropanoic acid. If the carbon in the carbonyl group cannot be included in the attached chain (for instance in the case of cyclic aldehydes), the prefix "formyl-" or the suffix "-carbaldehyde" is used: C6H11CHO is cyclohexanecarbaldehyde. If an aldehyde is attached to a benzene and is the main functional group, the suffix becomes benzaldehyde.
+In general ketones (R-CO-R) take the suffix "-one" (pronounced own, not won) with a suffixed position number: CH3CH2CH2COCH3 is pentan-2-one. If a higher precedence suffix is in use, the prefix "oxo-" is used: CH3CH2CH2COCH2CHO is 3-oxohexanal. In general, carboxylic acids are named with the suffix -oic acid (etymologically a back-formation from benzoic acid). As with aldehydes, the carboxyl functional group must take the "1" position on the main chain and so the locant need not be stated. For example, CH3−CH(OH)−COOH (lactic acid) is named 2-hydroxypropanoic acid with no "1" stated. Some traditional names for common carboxylic acids (such as acetic acid) are in such widespread use that they are retained in IUPAC nomenclature,[4] though systematic names like ethanoic acid are also used. Carboxylic acids attached to a benzene ring are structural analogs of benzoic acid (Ph-COOH) and are named as one of its derivatives.
+If there are multiple carboxyl groups on the same parent chain, multiplying prefixes are used: Malonic acid, CH2(COOH)2, is systematically named propanedioic acid.  Alternatively, the suffix "-carboxylic acid" can be used, combined with a multiplying prefix if necessary – mellitic acid is benzenehexacarboxylic acid, for example.  In the latter case, the carbon atoms in the carboxyl groups do not count as being part of the main chain, a rule that also applies to the prefix form "carboxy-". Citric acid serves as an example: it is formally named 2-hydroxypropane-1,2,3-tricarboxylic acid rather than 3-carboxy-3-hydroxypentanedioic acid.
+Salts of carboxylic acids are named following the usual cation-then-anion conventions used for ionic compounds in both IUPAC and common nomenclature systems. The name of the carboxylate anion is derived from that of the parent acid by replacing the "–oic acid" ending with "–oate." For example, C6H5CO2Na, the sodium salt of benzoic acid (C6H5COOH), is called sodium benzoate.  Where an acid has both a systematic and a common name (like CH3COOH, for example, which is known as both acetic acid and as ethanoic acid), its salts can be named from either parent name.  Thus, CH3CO2K can be named as potassium acetate or as potassium ethanoate.
+Esters (R-CO-O-R') are named as alkyl derivatives of carboxylic acids. The alkyl (R') group is named first. The R-CO-O part is then named as a separate word based on the carboxylic acid name, with the ending changed from -oic acid to -oate. For example, CH3CH2CH2CH2COOCH3 is methyl pentanoate, and (CH3)2CHCH2CH2COOCH2CH3 is ethyl 4-methylpentanoate. For esters such as ethyl acetate (CH3COOCH2CH3), ethyl formate (HCOOCH2CH3) or dimethyl phthalate that are based on common acids, IUPAC recommends use of these established names, called retained names. The -oate changes to -ate. Some simple examples, named both ways, are shown in the figure above.
+
+If the alkyl group is not attached at the end of the chain, the bond position to the ester group is suffixed before "-yl": CH3CH2CH(CH3)OOCCH2CH3 may be called butan-2-yl propanoate or butan-2-yl propionate.[citation needed] Acyl groups are named by stripping the -ic acid of the corresponding carboxylic acid and replacing it with -yl. For Example, CH3CO-R is called Ethanoyl-R.
+Simply add the name of the attached halide to the end of the acyl group. For example, CH3COCl is ethanoyl chloride.
+Acid anhydrides (R-CO-O-OC-R) have two acyl groups linked by an oxygen atom. If both acyl groups are the same, then the name of the carboxylic acid with the word acid is replaced with the word anhydride and the IUPAC name consists of two words. If the acyl groups are different, then they are named in alphabetical order in the same way, with anhydride replacing acid and IUPAC name consists of three words. For example, CH3CO−O−OCCH3 is called ethanoic anhydride and CH3CO−O−OCCH2CH3 is called ethanoic propanoic anhydride.
+Amines (R−NH2) are named for the attached alkane chain with the suffix "-amine" (e.g., CH3NH2 methanamine). If necessary, the bonding position is suffixed: CH3CH2CH2NH2 propan-1-amine, CH3CHNH2CH3 propan-2-amine. The prefix form is "amino-".
+For secondary amines (of the form R-NH-R), the longest carbon chain attached to the nitrogen atom becomes the primary name of the amine; the other chain is prefixed as an alkyl group with location prefix given as an italic N: CH3NHCH2CH3 is N-methylethanamine. Tertiary amines (R−NR−R) are treated similarly: CH3CH2N(CH3)CH2CH2CH3 is N-ethyl-N-methylpropanamine. Again, the substituent groups are ordered alphabetically.
+Amides (R−CO−NH2) take the suffix "-amide", or "-carboxamide" if the carbon in the amide group cannot be included in the main chain. The prefix form is both "carbamoyl-" and "amido-", e.g., HCONH2 methanamide, CH3CONH2 ethanamide.
+
+Amides that have additional substituents on the nitrogen are treated similarly to the case of amines: they are ordered alphabetically with the location prefix N: HCON(CH3)2 is N,N-dimethylmethanamide, CH3CON(CH3)2 is N,N-dimethylethanamide.Nitriles (RCN) are named by adding the suffix -nitrile to the longest hydrocarbon chain (including the carbon of the cyano group). It can also be named by replacing the -oic acid of their corresponding carboxylic acids with -onitrile. Functional class IUPAC nomenclature may also be used in the form of alkyl cyanides. For example, 
+
+
+
+
+
+CH
+
+3
+
+
+
+
+
+
+CH
+
+2
+
+
+
+
+
+
+CH
+
+2
+
+
+
+
+
+
+CH
+
+2
+
+
+
+
+
+C
+
+≡
+
+N
+
+
+
+{\displaystyle {\ce {CH3CH2CH2CH2C#N}}}
+
+ is called pentanenitrile or butyl cyanide.
+Cycloalkanes and aromatic compounds can be treated as the main parent chain of the compound, in which case the positions of substituents are numbered around the ring structure. For example, the three isomers of xylene CH3C6H4CH3, commonly the ortho-, meta-, and para- forms, are 1,2-dimethylbenzene, 1,3-dimethylbenzene, and 1,4-dimethylbenzene. The cyclic structures can also be treated as functional groups themselves, in which case they take the prefix "cycloalkyl-" (e.g. "cyclohexyl-") or for benzene, "phenyl-".
+The IUPAC nomenclature scheme becomes rapidly more elaborate for more complex cyclic structures, with notation for compounds containing conjoined rings, and many common names such as phenol being accepted as base names for compounds derived from them.
+When compounds contain more than one functional group, the order of precedence determines which groups are named with prefix or suffix forms. The table below shows common groups in decreasing order of precedence. The highest-precedence group takes the suffix, with all others taking the prefix form. However, double and triple bonds only take suffix form (-en and -yn) and are used with other suffixes.
+Prefixed substituents are ordered alphabetically (excluding any modifiers such as di-, tri-, etc.), e.g. chlorofluoromethane, not fluorochloromethane. If there are multiple functional groups of the same type, either prefixed or suffixed, the position numbers are ordered numerically (thus ethane-1,2-diol, not ethane-2,1-diol.) The N position indicator for amines and amides comes before "1", e.g., CH3CH(CH3)CH2NH(CH3) is N,2-dimethylpropanamine.
+Acid anhydride
+–COOR–COX–CONH2–CON=C<–C(=NH)NH2
+R-oxycarbonyl-halocarbonyl-carbamoyl--imido-amidino-
+-R-oate-oyl halide*-amide*-imide*-amidine*
+*Note: These suffixes, in which the carbon atom is counted as part of the preceding chain, are the most commonly used. See individual functional group articles for more details.
+The order of remaining functional groups is only needed for substituted benzene and hence is not mentioned here.[clarification needed]
+Common nomenclature uses the older names for some organic compounds instead of using the prefixes for the carbon skeleton above. The pattern can be seen below.
+•Diethyl ketone
+•Ethyl propyl ketone
+•Butyl ethyl ketone
+•Dipropyl ketone
+•Ethyl pentyl ketone
+•Butyl propyl ketone
+•Ethyl hexyl ketone
+•Pentyl propyl ketone
+•Dibutyl ketone
+•Ethyl heptyl ketone
+•Hexyl propyl ketone
+•Butyl pentyl ketone
+(see below)
+Common names for ketones can be derived by naming the two alkyl or aryl groups bonded to the carbonyl group as separate words followed by the word ketone.
+The first three of the names shown above are still considered to be acceptable IUPAC names.
+The common name for an aldehyde is derived from the common name of the corresponding carboxylic acid by dropping the word acid and changing the suffix from -ic or -oic to -aldehyde.
+The IUPAC nomenclature also provides rules for naming ions.
+Hydron is a generic term for hydrogen cation; protons, deuterons and tritons are all hydrons.
+The hydrons are not found in heavier isotopes, however.
+Simple cations formed by adding a hydron to a hydride of a halogen, chalcogen or pnictogen are named by adding the suffix "-onium" to the element's root: H4N+ is ammonium, H3O+ is oxonium, and H2F+ is fluoronium. Ammonium was adopted instead of nitronium, which commonly refers to NO2+.
+If the cationic center of the hydride is not a halogen, chalcogen or pnictogen then the suffix "-ium" is added to the name of the neutral hydride after dropping any final 'e'. H5C+ is methanium, HO-(O+)-H2 is dioxidanium (HO-OH is dioxidane), and H2N-(N+)-H3 is diazanium (H2N-NH2 is diazane).
+The above cations except for methanium are not, strictly speaking, organic, since they do not contain carbon. However, many organic cations are obtained by substituting another element or some functional group for a hydrogen.
+The name of each substitution is prefixed to the hydride cation name. If many substitutions by the same functional group occur, then the number is indicated by prefixing with "di-", "tri-" as with halogenation. (CH3)3O+ is trimethyloxonium. CH3F3N+ is trifluoromethylammonium.
+
+

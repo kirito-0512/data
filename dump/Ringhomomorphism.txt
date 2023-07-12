@@ -1,0 +1,36 @@
+26411,
+Ringhomomorphism,
+Ring homomorphisms
+Algebraic structures
+Related structures
+Algebraic number theory
+p-adic number theory and decimals
+Algebraic geometry
+Noncommutative algebraic geometry
+Free algebra
+Clifford algebra
+In ring theory, a branch of abstract algebra, a ring homomorphism is a structure-preserving function between two rings. More explicitly, if R and S are rings, then a ring homomorphism is a function f : R → S such that f is:[1][2][3][4][5][6][7][a]
+Additive inverses and the additive identity are part of the structure too, but it is not necessary to require explicitly that they too are respected, because these conditions are consequences of the three conditions above. 
+If in addition f is a bijection, then its inverse f−1 is also a ring homomorphism.  In this case, f is called a ring isomorphism, and the rings R and S are called isomorphic. From the standpoint of ring theory, isomorphic rings cannot be distinguished.
+If R and S are rngs, then the corresponding notion is that of a rng homomorphism,[b] defined as above except without the third condition f(1R) = 1S.  A rng homomorphism between (unital) rings need not be a ring homomorphism.
+The composition of two ring homomorphisms is a ring homomorphism. It follows that the class of all rings forms a category with ring homomorphisms as the morphisms (cf. the category of rings).
+In particular, one obtains the notions of ring endomorphism, ring isomorphism, and ring automorphism.
+Let 
+
+
+
+f
+:
+R
+→
+S
+
+
+{\displaystyle f\colon R\rightarrow S}
+
+ be a ring homomorphism. Then, directly from these definitions, one can deduce:
+Moreover,
+Injective ring homomorphisms are identical to monomorphisms in the category of rings: If f : R → S is a monomorphism that is not injective, then it sends some r1 and r2 to the same element of S.  Consider the two maps g1 and g2 from Z[x] to R that map x to r1 and r2, respectively; f ∘ g1 and f ∘ g2 are identical, but since f is a monomorphism this is impossible.
+However, surjective ring homomorphisms are vastly different from epimorphisms in the category of rings.  For example, the inclusion Z ⊆ Q is a ring epimorphism, but not a surjection. However, they are exactly the same as the strong epimorphisms.
+
+

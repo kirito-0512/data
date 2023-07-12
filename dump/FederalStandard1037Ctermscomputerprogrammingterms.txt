@@ -1,0 +1,29 @@
+39329,
+FederalStandard1037Ctermscomputerprogrammingterms,
+This is a list of computer programming terms taken from the Glossary of Telecommunication Terms, published as Federal Standard 1037C.  Additional terms have been added from different sources.
+abstract syntax notation one (ASN.1) -- accumulator -- program address -- application -- application programming interface (API) -- ASCII -- assemble -- assembler -- assembly language -- assembly time
+BCD -- binary system (numeral) -- binding -- bit -- bitmap -- bool -- booting -- breakpoint -- branch -- bug -- byte
+call -- CASE -- CASE technology -- classes -- compartmentation -- compatibility -- compile -- compiler -- computer language -- computer numbering formats -- computer-oriented language -- computer program -- computer word -- conversion -- core dump -- cross assembler
+data type -- debugger -- diagnostic program -- driver -- DLL
+editor
+firmware -- floating point -- foo
+general protection fault -- graphical user interface (GUI) -- graphic character
+hello world program -- high-level language (HLL) -- HTML -- hypermedia -- hypertext
+icon -- identifier (ID) -- illegal character -- instruction -- instruction set matrix -- intermediate language -- intermediate-level language -- interpret
+job
+kernel (computers)
+label -- LAN application (software) -- language -- language processor -- library -- link -- listing -- load -- loop
+machine-independent -- machine instruction -- machine language -- macro -- microinstruction -- microprogram -- monitor -- multitasking
+network control program (NCP) -- network operating system -- nibble
+operand -- operating system -- overlay
+path -- pointer -- procedure-oriented language -- program -- program architecture -- programmable -- programmable read-only memory (PROM) -- programmer -- programming language -- prompt
+query
+return -- restart -- retrieval service -- routine -- run -- runtime, run time, or runtime library
+screen -- security filter -- security kernel -- SGML -- shell -- software -- source language -- source program -- stack -- statement -- string manipulation -- structured programming -- subroutine -- supervisory program -- switch -- symbolic language -- syntax -- system software
+target language -- time-sharing -- trace program -- translator -- trusted computing base (TCB) -- trusted computer system (TCS)  
+underflow -- UNIX -- utility program
+virus -- variable
+wide character -- wildcard character -- word  -- word processing
+(Important Note: refer to the Federal Standard article for copyright-related issues, as not all parts of that source document are in the public domain)
+
+

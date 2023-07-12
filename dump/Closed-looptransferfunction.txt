@@ -1,0 +1,33 @@
+40885,
+Closed-looptransferfunction,
+In control theory, a closed-loop transfer function is a mathematical function describing the net result of the effects of a feedback control loop on the input signal to the plant under control.
+The closed-loop transfer function is measured at the output. The output signal can be calculated from the closed-loop transfer function and the input signal.  Signals may be waveforms, images, or other types of data streams.
+An example of a closed-loop transfer function is shown below:
+The summing node and the G(s) and H(s) blocks can all be combined into one block, which would have the following transfer function:
+G
+(
+s
+)
+{\displaystyle G(s)}
+ is called feedforward transfer function, 
+H
+(
+s
+)
+{\displaystyle H(s)}
+ is called feedback transfer function, and their product 
+G
+(
+s
+)
+H
+(
+s
+)
+{\displaystyle G(s)H(s)}
+ is called the open-loop transfer function.
+We define an intermediate signal Z (also known as error signal) shown as follows:
+Using this figure we write:
+Now, plug the second equation into the first to eliminate Z(s):
+Move all the terms with Y(s) to the left hand side, and keep the term with X(s) on the right hand side:
+Therefore,

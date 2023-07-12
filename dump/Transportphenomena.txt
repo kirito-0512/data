@@ -1,0 +1,903 @@
+31559,
+Transportphenomena,
+In engineering, physics, and chemistry, the study of transport phenomena concerns the exchange of mass, energy, charge, momentum and angular momentum between observed and studied systems. While it draws from fields as diverse as continuum mechanics and thermodynamics, it places a heavy emphasis on the commonalities between the topics covered. Mass, momentum, and heat transport all share a very similar mathematical framework, and the parallels between them are exploited in the study of transport phenomena to draw deep mathematical connections that often provide very useful tools in the analysis of one field that are directly derived from the others.
+The fundamental analysis in all three subfields of mass, heat, and momentum transfer are often grounded in the simple principle that the total sum of the quantities being studied must be conserved by the system and its environment. Thus, the different phenomena that lead to transport are each considered individually with the knowledge that the sum of their contributions must equal zero. This principle is useful for calculating many relevant quantities. For example, in fluid mechanics, a common use of transport analysis is to determine the velocity profile of a fluid flowing through a rigid volume.
+Transport phenomena are ubiquitous throughout the engineering disciplines. Some of the most common examples of transport analysis in engineering are seen in the fields of process, chemical, biological,[1] and mechanical engineering, but the subject is a fundamental component of the curriculum in all disciplines involved in any way with fluid mechanics, heat transfer, and mass transfer. It is now considered to be a part of the engineering discipline as much as  thermodynamics, mechanics, and electromagnetism.
+Transport phenomena encompass all agents of physical change in the universe. Moreover, they are considered to be fundamental building blocks which developed the universe, and which is responsible for the success of all life on earth. However, the scope here is limited to the relationship of transport phenomena to artificial engineered systems.[2]
+In physics, transport phenomena are all irreversible processes of statistical nature stemming from the random continuous motion of molecules, mostly observed in fluids. Every aspect of transport phenomena is grounded in two primary concepts : the conservation laws, and the constitutive equations. The conservation laws, which in the context of transport phenomena are formulated as continuity equations, describe how the quantity being studied must be conserved. The constitutive equations describe how the quantity in question responds to various stimuli via transport. Prominent examples include Fourier's law of heat conduction and the Navier–Stokes equations, which describe, respectively, the response of heat flux to temperature gradients and the relationship between fluid flux and the forces applied to the fluid. These equations also demonstrate the deep connection between transport phenomena and thermodynamics, a connection that explains why transport phenomena are irreversible. Almost all of these physical phenomena ultimately involve systems seeking their lowest energy state in keeping with the principle of minimum energy. As they approach this state, they tend to achieve true thermodynamic equilibrium, at which point there are no longer any driving forces in the system and transport ceases. The various aspects of such equilibrium are directly connected to a specific transport: heat transfer is the system's attempt to achieve thermal equilibrium with its environment, just as mass and momentum transport move the system towards chemical and mechanical equilibrium.[citation needed]
+Examples of transport processes include heat conduction (energy transfer), fluid flow (momentum transfer), molecular diffusion (mass transfer), radiation and electric charge transfer in semiconductors.[3][4][5][6]
+Transport phenomena have wide application. For example, in solid state physics, the motion and interaction of electrons, holes and phonons are studied under "transport phenomena". Another example is in biomedical engineering, where some transport phenomena of interest are thermoregulation, perfusion, and microfluidics. In chemical engineering, transport phenomena are studied in reactor design, analysis of molecular or diffusive transport mechanisms, and metallurgy.
+The transport of mass, energy, and momentum can be affected by the presence of external sources:
+An important principle in the study of transport phenomena is analogy between phenomena.
+There are some notable similarities in equations for momentum, energy, and mass transfer[7] which can all be transported by diffusion, as illustrated by the following examples:
+The molecular transfer equations of Newton's law for fluid momentum, Fourier's law for heat, and Fick's law for mass are very similar.  One can convert from one transport coefficient to another in order to compare all three different transport phenomena.[8]
+(Definitions of these formulas are given below).
+}}
+A great deal of effort has been devoted in the literature to developing analogies among these three transport processes for turbulent transfer so as to allow prediction of one from any of the others. The Reynolds analogy assumes that the turbulent diffusivities are all equal and that the molecular diffusivities of momentum (μ/ρ) and mass (DAB) are negligible compared to the turbulent diffusivities. When liquids are present and/or drag is present, the analogy is not valid. Other analogies, such as von Karman's and Prandtl's, usually result in poor relations.
+The most successful and most widely used analogy is the Chilton and Colburn J-factor analogy.[9] This analogy is based on experimental data for gases and liquids in both the laminar and turbulent regimes. Although it is based on experimental data, it can be shown to satisfy the exact solution derived from laminar flow over a flat plate.  All of this information is used to predict transfer of mass.
+In fluid systems described in terms of temperature, matter density, and pressure, it is known that temperature differences lead to heat flows from the warmer to the colder parts of the system; similarly, pressure differences will lead to matter flow from high-pressure to low-pressure regions (a "reciprocal relation"). What is remarkable is the observation that, when both pressure and temperature vary, temperature differences at constant pressure can cause matter flow (as in convection) and pressure differences at constant temperature can cause heat flow. Perhaps surprisingly, the heat flow per unit of pressure difference and the density (matter) flow per unit of temperature difference are equal.
+This equality was shown to be necessary by Lars Onsager using statistical mechanics as a consequence of the time reversibility of microscopic dynamics. The theory developed by Onsager is much more general than this example and capable of treating more than two thermodynamic forces at once.[10]
+In momentum transfer, the fluid is treated as a continuous distribution of matter. The study of momentum transfer, or fluid mechanics can be divided into two branches: fluid statics (fluids at rest), and fluid dynamics (fluids in motion).
+When a fluid is flowing in the x-direction parallel to a solid surface, the fluid has x-directed momentum, and its concentration is υxρ. By random diffusion of molecules there is an exchange of molecules in the z-direction.  Hence the x-directed momentum has been transferred in the z-direction from the faster- to the slower-moving layer.
+The equation for momentum transfer is Newton's law of viscosity written as follows:
+where τzx is the flux of x-directed momentum in the z-direction, ν is μ/ρ, the momentum diffusivity, z is the distance of transport or diffusion, ρ is the density, and μ is the dynamic viscosity. Newton's law of viscosity is the simplest relationship between the flux of momentum and the velocity gradient. It may be useful to note that this is an unconventional use of the symbol τzx; the indices are reversed as compared with standard usage in solid mechanics, and the sign is reversed.[11]
+When a system contains two or more components whose concentration vary from point to point, there is a natural tendency for mass to be transferred, minimizing any concentration difference within the system. Mass transfer in a system is governed by Fick's first law: 'Diffusion flux from higher concentration to lower concentration is proportional to the gradient of the concentration of the substance and the diffusivity of the substance in the medium.' Mass transfer can take place due to different driving forces. Some of them are:[12]
+This can be compared to Fick's law of diffusion, for a species A in a binary mixture consisting of A and B:
+where D is the diffusivity constant.
+All processes in engineering involve the transfer of energy. Some examples are the heating and cooling of process streams, phase changes, distillations, etc. The basic principle is the first law of thermodynamics which is expressed as follows for a static system:
+The net flux of energy through a system equals the conductivity times the rate of change of temperature with respect to position.
+For other systems that involve either turbulent flow, complex geometries or difficult boundary conditions another equation would be easier to use:
+where A is the surface area, :
+
+
+
+
+Δ
+T
+
+
+
+{\displaystyle {\Delta T}}
+
+ is the temperature driving force, Q is the heat flow per unit time, and h is the heat transfer coefficient.
+Within heat transfer, two types of convection can occur:
+Heat transfer is analyzed in packed beds, nuclear reactors and heat exchangers.
+The heat and mass analogy allows for the direct comparison of heat transfer and mass transfer using data from one another. Its origin arises from similar non-dimensional governing equations between heat and mass transfer. 
+The non-dimensional energy equation for fluid flow in a boundary layer can simplify to the following, when heating from viscous dissipation and heat generation can be neglected:
+
+
+
+
+
+
+u
+
+∗
+
+
+
+
+
+∂
+
+T
+
+∗
+
+
+
+
+∂
+
+x
+
+∗
+
+
+
+
+
+
++
+
+
+v
+
+∗
+
+
+
+
+
+∂
+
+T
+
+∗
+
+
+
+
+∂
+
+y
+
+∗
+
+
+
+
+
+
+=
+
+
+1
+
+R
+
+e
+
+L
+
+
+P
+r
+
+
+
+
+
+
+
+∂
+
+2
+
+
+
+T
+
+∗
+
+
+
+
+∂
+
+y
+
+∗
+2
+
+
+
+
+
+
+
+{\displaystyle {u^{*}{\frac {\partial T^{*}}{\partial x^{*}}}}+{v^{*}{\frac {\partial T^{*}}{\partial y^{*}}}}={\frac {1}{Re_{L}Pr}}{\frac {\partial ^{2}T^{*}}{\partial y^{*2}}}}
+
+
+Where 
+
+
+
+
+
+u
+
+∗
+
+
+
+
+
+{\displaystyle {u^{*}}}
+
+ and 
+
+
+
+
+
+v
+
+∗
+
+
+
+
+
+{\displaystyle {v^{*}}}
+
+ are is the velocity in the x and y directions respectively normalized by the free stream velocity, 
+
+
+
+
+
+x
+
+∗
+
+
+
+
+
+{\displaystyle {x^{*}}}
+
+ and 
+
+
+
+
+
+y
+
+∗
+
+
+
+
+
+{\displaystyle {y^{*}}}
+
+ are the x and y coordinates non-dimensionalized by a relevant length scale, 
+
+
+
+
+R
+
+e
+
+L
+
+
+
+
+
+{\displaystyle {Re_{L}}}
+
+ is the Reynolds number, 
+
+
+
+
+P
+r
+
+
+
+{\displaystyle {Pr}}
+
+ is the Prandtl number, and 
+
+
+
+
+
+T
+
+∗
+
+
+
+
+
+{\displaystyle {T^{*}}}
+
+ is the non-dimensional temperature, which is defined by the local, minimum, and maximum temperatures:
+
+
+
+
+
+T
+
+∗
+
+
+=
+
+
+
+T
+−
+
+T
+
+m
+i
+n
+
+
+
+
+
+T
+
+m
+a
+x
+
+
+−
+
+T
+
+m
+i
+n
+
+
+
+
+
+
+
+{\displaystyle T^{*}={\frac {T-T_{min}}{T_{max}-T_{min}}}}
+
+
+The non-dimensional species transport equation for fluid flow in a boundary layer can be given as the following, assuming no bulk species generation:
+
+
+
+
+
+
+u
+
+∗
+
+
+
+
+
+∂
+
+C
+
+A
+
+
+∗
+
+
+
+
+∂
+
+x
+
+∗
+
+
+
+
+
+
++
+
+
+v
+
+∗
+
+
+
+
+
+∂
+
+C
+
+A
+
+
+∗
+
+
+
+
+∂
+
+y
+
+∗
+
+
+
+
+
+
+=
+
+
+1
+
+R
+
+e
+
+L
+
+
+S
+c
+
+
+
+
+
+
+
+∂
+
+2
+
+
+
+C
+
+A
+
+
+∗
+
+
+
+
+∂
+
+y
+
+∗
+2
+
+
+
+
+
+
+
+{\displaystyle {u^{*}{\frac {\partial C_{A}^{*}}{\partial x^{*}}}}+{v^{*}{\frac {\partial C_{A}^{*}}{\partial y^{*}}}}={\frac {1}{Re_{L}Sc}}{\frac {\partial ^{2}C_{A}^{*}}{\partial y^{*2}}}}
+
+
+Where 
+
+
+
+
+
+C
+
+A
+
+
+∗
+
+
+
+
+
+{\displaystyle {C_{A}^{*}}}
+
+ is the non-dimensional concentration, and 
+
+
+
+
+S
+c
+
+
+
+{\displaystyle {Sc}}
+
+ is the Schmidt number.
+Transport of heat is driven by temperature differences, while transport of species is due to concentration differences. They differ by the relative diffusion of their transport compared to the diffusion of momentum. For heat, the comparison is between viscous diffusivity (
+
+
+
+
+ν
+
+
+
+{\displaystyle {\nu }}
+
+) and thermal diffusion (
+
+
+
+
+α
+
+
+
+{\displaystyle {\alpha }}
+
+), given by the Prandtl number. Meanwhile for mass transfer, the comparison is between viscous diffusivity (
+
+
+
+
+ν
+
+
+
+{\displaystyle {\nu }}
+
+) and mass Diffusivity (
+
+
+
+
+D
+
+
+
+{\displaystyle {D}}
+
+), given by the Schmidt number.
+In some cases direct analytic solutions can be found from these equations for the Nusselt and Sherwood numbers. In cases where experimental results are used, one can assume these equations underlie the observed transport. 
+At an interface, the boundary conditions for both equations are also similar. For heat transfer at an interface, the no-slip condition allows us to equate conduction with convection, thus equating Fourier’s law and Newton’s law of cooling:
+
+
+
+
+
+q
+″
+
+=
+k
+
+
+
+d
+T
+
+
+d
+y
+
+
+
+=
+h
+(
+
+T
+
+s
+
+
+−
+
+T
+
+b
+
+
+)
+
+
+{\displaystyle q''=k{\frac {dT}{dy}}=h(T_{s}-T_{b})}
+
+
+Where q” is the heat flux, 
+
+
+
+
+k
+
+
+
+{\displaystyle {k}}
+
+ is the thermal conductivity, 
+
+
+
+
+h
+
+
+
+{\displaystyle {h}}
+
+ is the heat transfer coefficient, and the subscripts 
+
+
+
+
+s
+
+
+
+{\displaystyle {s}}
+
+ and 
+
+
+
+
+b
+
+
+
+{\displaystyle {b}}
+
+ compare the surface and bulk values respectively.
+For mass transfer at an interface, we can equate Fick’s Law with Newton’s law for convection, yielding:
+
+
+
+
+J
+=
+D
+
+
+
+d
+C
+
+
+d
+y
+
+
+
+=
+
+h
+
+m
+
+
+(
+
+C
+
+m
+
+
+−
+
+C
+
+b
+
+
+)
+
+
+{\displaystyle J=D{\frac {dC}{dy}}=h_{m}(C_{m}-C_{b})}
+
+
+Where 
+
+
+
+
+J
+
+
+
+{\displaystyle {J}}
+
+ is the mass flux [kg/s 
+
+
+
+
+
+m
+
+3
+
+
+
+
+
+{\displaystyle {m^{3}}}
+
+], 
+
+
+
+
+D
+
+
+
+{\displaystyle {D}}
+
+ is the diffusivity of species a in fluid b, and 
+
+
+
+
+
+h
+
+m
+
+
+
+
+
+{\displaystyle {h_{m}}}
+
+ is the mass transfer coefficient. As we can see, 
+
+
+
+
+
+q
+″
+
+
+
+
+{\displaystyle {q''}}
+
+ and 
+
+
+
+
+J
+
+
+
+{\displaystyle {J}}
+
+ are analogous, 
+
+
+
+
+k
+
+
+
+{\displaystyle {k}}
+
+ and 
+
+
+
+
+D
+
+
+
+{\displaystyle {D}}
+
+ are analogous, while 
+
+
+
+
+T
+
+
+
+{\displaystyle {T}}
+
+ and 
+
+
+
+
+C
+
+
+
+{\displaystyle {C}}
+
+ are analogous.
+Heat-Mass Analogy:
+Because the Nu and Sh equations are derived from these analogous governing equations, one can directly swap the Nu and Sh and the Pr and Sc numbers to convert these equations between mass and heat.
+In many situations, such as flow over a flat plate, the Nu and Sh numbers are functions of the Pr and Sc numbers to some coefficient 
+
+
+
+n
+
+
+{\displaystyle n}
+
+. Therefore, one can directly calculate these numbers from one another using:
+
+
+
+
+
+
+
+N
+u
+
+
+S
+h
+
+
+
+=
+
+
+
+P
+
+r
+
+n
+
+
+
+
+S
+
+c
+
+n
+
+
+
+
+
+
+
+{\displaystyle {\frac {Nu}{Sh}}={\frac {Pr^{n}}{Sc^{n}}}}
+
+
+Where   can be used in most cases, which comes from the analytical solution for the Nusselt Number for laminar flow over a flat plate. For best accuracy, n should be adjusted where correlations have a different exponent.
+We can take this further by substituting into this equation the definitions of the heat transfer coefficient, mass transfer coefficient, and Lewis number, yielding:
+
+
+
+
+
+
+h
+
+h
+
+m
+
+
+
+
+=
+
+
+k
+
+D
+L
+
+e
+
+n
+
+
+
+
+
+=
+ρ
+
+C
+
+p
+
+
+L
+
+e
+
+1
+−
+n
+
+
+
+
+{\displaystyle {\frac {h}{h_{m}}}={\frac {k}{DLe^{n}}}=\rho C_{p}Le^{1-n}}
+
+
+For fully developed turbulent flow, with n=1/3, this becomes the Chilton–Colburn J-factor analogy.[13] Said analogy also relates viscous forces and heat transfer, like the Reynolds analogy.
+The heat and mass analogy may break down in cases where the governing equations differ substantially. For instance, situations with substantial contributions from generation terms in the flow, such as bulk heat generation or bulk chemical reactions, may cause solutions to diverge. Additionally, the analogy may become less accurate when geometric changes cause substantial contributions into one equations, such as a system with a conductive spacer that enhances heat transfer with no such benefit to mass transfer.
+The analogy is useful for both using heat and mass transport to predict one another, or for understanding systems which experience simultaneous heat and mass transfer. For example, predicting heat transfer coefficients around turbine blades is challenging and is often done through measuring evaporating of a volatile compound and using the analogy.[14] Many systems also experience simultaneous mass and heat transfer, and particularly common examples occur in processes with phase change, as the enthalpy of phase change often substantially influences heat transfer. Such examples include: evaporation at a water surface, transport of vapor in the air gap above a membrane distillation desalination membrane,[15] and HVAC dehumidification equipment that combine heat transfer and selective membranes.[16]
+The study of transport processes is relevant for understanding the release and distribution of pollutants into the environment. In particular, accurate modeling can inform mitigation strategies. Examples include the control of surface water pollution from urban runoff, and policies intended to reduce the copper content of vehicle brake pads in the U.S.[17][18]
+
+

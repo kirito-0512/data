@@ -1,0 +1,2795 @@
+19388,
+Maximumlikelihoodestimation,
+In statistics, maximum likelihood estimation (MLE) is a method of estimating the parameters of an assumed probability distribution, given some observed data. This is achieved by maximizing a likelihood function so that, under the assumed statistical model, the observed data is most probable. The point in the parameter space that maximizes the likelihood function is called the maximum likelihood estimate.[1] The logic of maximum likelihood is both intuitive and flexible, and as such the method has become a dominant means of statistical inference.[2][3][4]
+If the likelihood function is differentiable, the derivative test for finding maxima can be applied. In some cases, the first-order conditions of the likelihood function can be solved analytically; for instance, the ordinary least squares estimator for a linear regression model maximizes the likelihood when the random errors are assumed to have normal distributions with the same variance.[5]
+From the perspective of Bayesian inference, MLE is generally equivalent to maximum a posteriori (MAP) estimation with uniform prior distributions (or a normal prior distribution with a standard deviation of infinity). In frequentist inference, MLE is a special case of an extremum estimator, with the objective function being the likelihood.
+We model a set of observations as a random sample from an unknown joint probability distribution which is expressed in terms of a set of parameters. The goal of maximum likelihood estimation is to determine the parameters for which the observed data have the highest joint probability. We write the parameters governing the joint distribution as a vector 
+
+
+
+
+θ
+=
+
+
+[
+
+
+θ
+
+1
+
+
+,
+
+
+θ
+
+2
+
+
+,
+
+…
+,
+
+
+θ
+
+k
+
+
+
+]
+
+
+
+T
+
+
+
+
+
+
+{\displaystyle \;\theta =\left[\theta _{1},\,\theta _{2},\,\ldots ,\,\theta _{k}\right]^{\mathsf {T}}\;}
+
+ so that this distribution falls within a parametric family 
+
+
+
+
+{
+f
+(
+⋅
+
+;
+θ
+)
+∣
+θ
+∈
+Θ
+}
+
+,
+
+
+{\displaystyle \;\{f(\cdot \,;\theta )\mid \theta \in \Theta \}\;,}
+
+ where 
+
+
+
+
+Θ
+
+
+
+{\displaystyle \,\Theta \,}
+
+ is called the parameter space, a finite-dimensional subset of Euclidean space. Evaluating the joint density at the observed data sample 
+
+
+
+
+
+y
+
+=
+(
+
+y
+
+1
+
+
+,
+
+y
+
+2
+
+
+,
+…
+,
+
+y
+
+n
+
+
+)
+
+
+
+{\displaystyle \;\mathbf {y} =(y_{1},y_{2},\ldots ,y_{n})\;}
+
+ gives a real-valued function,
+which is called the likelihood function. For independent and identically distributed random variables, 
+
+
+
+
+f
+
+n
+
+
+(
+
+y
+
+;
+θ
+)
+
+
+{\displaystyle f_{n}(\mathbf {y} ;\theta )}
+
+ will be the product of univariate density functions:
+The goal of maximum likelihood estimation is to find the values of the model parameters that maximize the likelihood function over the parameter space,[6] that is
+Intuitively, this selects the parameter values that make the observed data most probable. The specific value 
+
+
+
+ 
+
+
+
+θ
+^
+
+
+
+=
+
+
+
+
+θ
+^
+
+
+
+
+n
+
+
+(
+
+y
+
+)
+∈
+Θ
+ 
+
+
+{\displaystyle ~{\hat {\theta }}={\hat {\theta }}_{n}(\mathbf {y} )\in \Theta ~}
+
+ that maximizes the likelihood function 
+
+
+
+
+
+
+
+L
+
+
+
+n
+
+
+
+
+
+{\displaystyle \,{\mathcal {L}}_{n}\,}
+
+ is called the maximum likelihood estimate. Further, if the function 
+
+
+
+
+
+
+
+
+θ
+^
+
+
+
+
+n
+
+
+:
+
+
+R
+
+
+n
+
+
+→
+Θ
+
+
+
+{\displaystyle \;{\hat {\theta }}_{n}:\mathbb {R} ^{n}\to \Theta \;}
+
+ so defined is measurable, then it is called the maximum likelihood estimator. It is generally a function defined over the sample space, i.e. taking a given sample as its argument. A sufficient but not necessary condition for its existence is for the likelihood function to be continuous over a parameter space 
+
+
+
+
+Θ
+
+
+
+{\displaystyle \,\Theta \,}
+
+ that is compact.[7] For an open 
+
+
+
+
+Θ
+
+
+
+{\displaystyle \,\Theta \,}
+
+ the likelihood function may increase without ever reaching a supremum value.
+In practice, it is often convenient to work with the natural logarithm of the likelihood function, called the log-likelihood:
+Since the logarithm is a monotonic function, the maximum of 
+
+
+
+
+ℓ
+(
+θ
+
+;
+
+y
+
+)
+
+
+
+{\displaystyle \;\ell (\theta \,;\mathbf {y} )\;}
+
+ occurs at the same value of 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ as does the maximum of 
+
+
+
+
+
+
+
+L
+
+
+
+n
+
+
+ 
+.
+
+
+{\displaystyle \,{\mathcal {L}}_{n}~.}
+
+[8] If 
+
+
+
+ℓ
+(
+θ
+
+;
+
+y
+
+)
+
+
+{\displaystyle \ell (\theta \,;\mathbf {y} )}
+
+ is differentiable in 
+
+
+
+
+Θ
+
+,
+
+
+{\displaystyle \,\Theta \,,}
+
+ the necessary conditions for the occurrence of a maximum (or a minimum) are
+known as the likelihood equations. For some models, these equations can be explicitly solved for 
+
+
+
+
+
+
+
+
+θ
+
+
+^
+
+
+
+
+,
+
+
+{\displaystyle \,{\widehat {\theta \,}}\,,}
+
+ but in general no closed-form solution to the maximization problem is known or available, and an MLE can only be found via numerical optimization. Another problem is that in finite samples, there may exist multiple roots for the likelihood equations.[9] Whether the identified root 
+
+
+
+
+
+
+
+
+θ
+
+
+^
+
+
+
+
+
+
+{\displaystyle \,{\widehat {\theta \,}}\,}
+
+ of the likelihood equations is indeed a (local) maximum depends on whether the matrix of second-order partial and cross-partial derivatives, the so-called Hessian matrix
+is negative semi-definite at 
+
+
+
+
+
+
+
+θ
+
+
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta \,}}}
+
+, as this indicates local concavity. Conveniently, most common probability distributions – in particular the exponential family – are logarithmically concave.[10][11]
+While the domain of the likelihood function—the parameter space—is generally a finite-dimensional subset of Euclidean space, additional restrictions sometimes need to be incorporated into the estimation process. The parameter space can be expressed as
+where 
+
+
+
+
+h
+(
+θ
+)
+=
+
+[
+
+
+h
+
+1
+
+
+(
+θ
+)
+,
+
+h
+
+2
+
+
+(
+θ
+)
+,
+…
+,
+
+h
+
+r
+
+
+(
+θ
+)
+
+]
+
+
+
+
+{\displaystyle \;h(\theta )=\left[h_{1}(\theta ),h_{2}(\theta ),\ldots ,h_{r}(\theta )\right]\;}
+
+ is a vector-valued function mapping 
+
+
+
+
+
+
+R
+
+
+k
+
+
+
+
+
+{\displaystyle \,\mathbb {R} ^{k}\,}
+
+ into 
+
+
+
+
+
+
+R
+
+
+r
+
+
+ 
+.
+
+
+{\displaystyle \;\mathbb {R} ^{r}~.}
+
+ Estimating the true parameter 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ belonging to 
+
+
+
+Θ
+
+
+{\displaystyle \Theta }
+
+ then, as a practical matter, means to find the maximum of the likelihood function subject to the constraint 
+
+
+
+ 
+h
+(
+θ
+)
+=
+0
+ 
+.
+
+
+{\displaystyle ~h(\theta )=0~.}
+
+
+Theoretically, the most natural approach to this constrained optimization problem is the method of substitution, that is "filling out" the restrictions 
+
+
+
+
+
+h
+
+1
+
+
+,
+
+h
+
+2
+
+
+,
+…
+,
+
+h
+
+r
+
+
+
+
+
+{\displaystyle \;h_{1},h_{2},\ldots ,h_{r}\;}
+
+ to a set 
+
+
+
+
+
+h
+
+1
+
+
+,
+
+h
+
+2
+
+
+,
+…
+,
+
+h
+
+r
+
+
+,
+
+h
+
+r
++
+1
+
+
+,
+…
+,
+
+h
+
+k
+
+
+
+
+
+{\displaystyle \;h_{1},h_{2},\ldots ,h_{r},h_{r+1},\ldots ,h_{k}\;}
+
+ in such a way that 
+
+
+
+
+
+h
+
+∗
+
+
+=
+
+[
+
+
+h
+
+1
+
+
+,
+
+h
+
+2
+
+
+,
+…
+,
+
+h
+
+k
+
+
+
+]
+
+
+
+
+{\displaystyle \;h^{\ast }=\left[h_{1},h_{2},\ldots ,h_{k}\right]\;}
+
+ is a one-to-one function from 
+
+
+
+
+
+R
+
+
+k
+
+
+
+
+{\displaystyle \mathbb {R} ^{k}}
+
+ to itself, and reparameterize the likelihood function by setting 
+
+
+
+
+
+ϕ
+
+i
+
+
+=
+
+h
+
+i
+
+
+(
+
+θ
+
+1
+
+
+,
+
+θ
+
+2
+
+
+,
+…
+,
+
+θ
+
+k
+
+
+)
+ 
+.
+
+
+{\displaystyle \;\phi _{i}=h_{i}(\theta _{1},\theta _{2},\ldots ,\theta _{k})~.}
+
+[12] Because of the equivariance of the maximum likelihood estimator, the properties of the MLE apply to the restricted estimates also.[13] For instance, in a multivariate normal distribution the covariance matrix 
+
+
+
+
+Σ
+
+
+
+{\displaystyle \,\Sigma \,}
+
+ must be positive-definite; this restriction can be imposed by replacing 
+
+
+
+
+Σ
+=
+
+Γ
+
+
+T
+
+
+
+Γ
+
+,
+
+
+{\displaystyle \;\Sigma =\Gamma ^{\mathsf {T}}\Gamma \;,}
+
+ where 
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+ is a real upper triangular matrix and 
+
+
+
+
+Γ
+
+
+T
+
+
+
+
+
+{\displaystyle \Gamma ^{\mathsf {T}}}
+
+ is its transpose.[14]
+In practice, restrictions are usually imposed using the method of Lagrange which, given the constraints as defined above, leads to the restricted likelihood equations
+where 
+
+
+
+ 
+λ
+=
+
+
+[
+
+
+λ
+
+1
+
+
+,
+
+λ
+
+2
+
+
+,
+…
+,
+
+λ
+
+r
+
+
+
+]
+
+
+
+T
+
+
+
+ 
+
+
+{\displaystyle ~\lambda =\left[\lambda _{1},\lambda _{2},\ldots ,\lambda _{r}\right]^{\mathsf {T}}~}
+
+ is a column-vector of Lagrange multipliers and 
+
+
+
+
+
+
+
+∂
+h
+(
+θ
+
+)
+
+
+T
+
+
+
+
+
+∂
+θ
+
+
+
+
+
+
+{\displaystyle \;{\frac {\partial h(\theta )^{\mathsf {T}}}{\partial \theta }}\;}
+
+ is the k × r Jacobian matrix of partial derivatives.[12] Naturally, if the constraints are not binding at the maximum, the Lagrange multipliers should be zero.[15] This in turn allows for a statistical test of the "validity" of the constraint, known as the Lagrange multiplier test.
+A maximum likelihood estimator is an extremum estimator obtained by maximizing, as a function of θ, the objective function 
+
+
+
+
+
+
+
+ℓ
+
+
+^
+
+
+
+(
+θ
+
+;
+x
+)
+
+
+{\displaystyle {\widehat {\ell \,}}(\theta \,;x)}
+
+. If the data are independent and identically distributed, then we have 
+this being the sample analogue of the expected log-likelihood 
+
+
+
+ℓ
+(
+θ
+)
+=
+
+
+E
+
+
+⁡
+[
+
+ln
+⁡
+f
+(
+
+x
+
+i
+
+
+∣
+θ
+)
+
+]
+
+
+{\displaystyle \ell (\theta )=\operatorname {\mathbb {E} } [\,\ln f(x_{i}\mid \theta )\,]}
+
+, where this expectation is taken with respect to the true density.
+Maximum-likelihood estimators have no optimum properties for finite samples, in the sense that (when evaluated on finite samples) other estimators may have greater concentration around the true parameter-value.[16] However, like other estimation methods, maximum likelihood estimation possesses a number of attractive limiting properties: As the sample size increases to infinity, sequences of maximum likelihood estimators have these properties:
+Under the conditions outlined below, the maximum likelihood estimator is consistent. The consistency means that if the data were generated by 
+
+
+
+f
+(
+⋅
+
+;
+
+θ
+
+0
+
+
+)
+
+
+{\displaystyle f(\cdot \,;\theta _{0})}
+
+ and we have a sufficiently large number of observations n, then it is possible to find the value of θ0 with arbitrary precision. In mathematical terms this means that as n goes to infinity the estimator 
+
+
+
+
+
+
+
+θ
+
+
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta \,}}}
+
+ converges in probability to its true value:
+Under slightly stronger conditions, the estimator converges almost surely (or strongly):
+In practical applications, data is never generated by 
+
+
+
+f
+(
+⋅
+
+;
+
+θ
+
+0
+
+
+)
+
+
+{\displaystyle f(\cdot \,;\theta _{0})}
+
+. Rather, 
+
+
+
+f
+(
+⋅
+
+;
+
+θ
+
+0
+
+
+)
+
+
+{\displaystyle f(\cdot \,;\theta _{0})}
+
+ is a model, often in idealized form, of the process generated by the data. It is a common aphorism in statistics that all models are wrong. Thus, true consistency does not occur in practical applications. Nevertheless, consistency is often considered to be a desirable property for an estimator to have.
+To establish consistency, the following conditions are sufficient.[17]
+In other words, different parameter values θ correspond to different distributions within the model. If this condition did not hold, there would be some value θ1 such that θ0 and θ1 generate an identical distribution of the observable data. Then we would not be able to distinguish between these two parameters even with an infinite amount of data—these parameters would have been observationally equivalent. 
+The identification condition establishes that the log-likelihood has a unique global maximum. Compactness implies that the likelihood cannot approach the maximum value arbitrarily close at some other point (as demonstrated for example in the picture on the right).
+Compactness is only a sufficient condition and not a necessary condition. Compactness can be replaced by some other conditions, such as:
+
+
+The dominance condition can be employed in the case of i.i.d. observations. In the non-i.i.d. case, the uniform convergence in probability can be checked by showing that the sequence 
+
+
+
+
+
+
+
+ℓ
+
+
+^
+
+
+
+(
+θ
+∣
+x
+)
+
+
+{\displaystyle {\widehat {\ell \,}}(\theta \mid x)}
+
+ is stochastically equicontinuous.
+
+If one wants to demonstrate that the ML estimator 
+
+
+
+
+
+
+
+θ
+
+
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta \,}}}
+
+ converges to θ0 almost surely, then a stronger condition of uniform convergence almost surely has to be imposed:
+
+
+Additionally, if (as assumed above) the data were generated by 
+
+
+
+f
+(
+⋅
+
+;
+
+θ
+
+0
+
+
+)
+
+
+{\displaystyle f(\cdot \,;\theta _{0})}
+
+, then under certain conditions, it can also be shown that the maximum likelihood estimator converges in distribution to a normal distribution. Specifically,[18]
+
+where I is the Fisher information matrix.
+
+The maximum likelihood estimator selects the parameter value which gives the observed data the largest possible probability (or probability density, in the continuous case). If the parameter consists of a number of components, then we define their separate maximum likelihood estimators, as the corresponding component of the MLE of the complete parameter. Consistent with this, if 
+
+
+
+
+
+
+
+θ
+
+
+^
+
+
+
+
+
+{\displaystyle {\widehat {\theta \,}}}
+
+ is the MLE for 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+, and if 
+
+
+
+g
+(
+θ
+)
+
+
+{\displaystyle g(\theta )}
+
+ is any transformation of 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+, then the MLE for 
+
+
+
+α
+=
+g
+(
+θ
+)
+
+
+{\displaystyle \alpha =g(\theta )}
+
+ is by definition[19]
+It maximizes the so-called profile likelihood:
+The MLE is also equivariant with respect to certain transformations of the data.  If 
+
+
+
+y
+=
+g
+(
+x
+)
+
+
+{\displaystyle y=g(x)}
+
+ where 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ is one to one and does not depend on the parameters to be estimated, then the density functions satisfy
+and hence the likelihood functions for 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ differ only by a factor that does not depend on the model parameters.
+For example, the MLE parameters of the log-normal distribution are the same as those of the normal distribution fitted to the logarithm of the data.
+As assumed above, if the data were generated by 
+
+
+
+ 
+f
+(
+⋅
+
+;
+
+θ
+
+0
+
+
+)
+ 
+,
+
+
+{\displaystyle ~f(\cdot \,;\theta _{0})~,}
+
+ then under certain conditions, it can also be shown that the maximum likelihood estimator converges in distribution to a normal distribution. It is √n -consistent and asymptotically efficient, meaning that it reaches the Cramér–Rao bound. Specifically,[18]
+where 
+
+
+
+ 
+
+
+I
+
+
+ 
+
+
+{\displaystyle ~{\mathcal {I}}~}
+
+ is the Fisher information matrix:
+In particular, it means that the bias of the maximum likelihood estimator is equal to zero up to the order 1/√n .
+However, when we consider the higher-order terms in the expansion of the distribution of this estimator, it turns out that θmle has bias of order 1⁄n. This bias is equal to (componentwise)[20]
+where 
+
+
+
+
+
+
+I
+
+
+
+j
+k
+
+
+
+
+{\displaystyle {\mathcal {I}}^{jk}}
+
+ (with superscripts) denotes the (j,k)-th component of the inverse Fisher information matrix 
+
+
+
+
+
+
+I
+
+
+
+−
+1
+
+
+
+
+{\displaystyle {\mathcal {I}}^{-1}}
+
+, and
+Using these formulae it is possible to estimate the second-order bias of the maximum likelihood estimator, and correct for that bias by subtracting it:
+This estimator is unbiased up to the terms of order 1/ n , and is called the bias-corrected maximum likelihood estimator.
+This bias-corrected estimator is second-order efficient (at least within the curved exponential family), meaning that it has minimal mean squared error among all second-order bias-corrected estimators, up to the terms of the order 1/ n2  . It is possible to continue this process, that is to derive the third-order bias-correction term, and so on. However, the maximum likelihood estimator is not third-order efficient.[21]
+A maximum likelihood estimator coincides with the most probable Bayesian estimator given a uniform prior distribution on the parameters. Indeed, the maximum a posteriori estimate is the parameter θ that maximizes the probability of θ given the data, given by Bayes' theorem:
+where 
+
+
+
+
+
+P
+
+
+⁡
+(
+θ
+)
+
+
+{\displaystyle \operatorname {\mathbb {P} } (\theta )}
+
+ is the prior distribution for the parameter θ and where 
+
+
+
+
+
+P
+
+
+⁡
+(
+
+x
+
+1
+
+
+,
+
+x
+
+2
+
+
+,
+…
+,
+
+x
+
+n
+
+
+)
+
+
+{\displaystyle \operatorname {\mathbb {P} } (x_{1},x_{2},\ldots ,x_{n})}
+
+ is the probability of the data averaged over all parameters. Since the denominator is independent of θ, the Bayesian estimator is obtained by maximizing 
+
+
+
+f
+(
+
+x
+
+1
+
+
+,
+
+x
+
+2
+
+
+,
+…
+,
+
+x
+
+n
+
+
+∣
+θ
+)
+
+
+P
+
+
+⁡
+(
+θ
+)
+
+
+{\displaystyle f(x_{1},x_{2},\ldots ,x_{n}\mid \theta )\operatorname {\mathbb {P} } (\theta )}
+
+ with respect to θ. If we further assume that the prior 
+
+
+
+
+
+P
+
+
+⁡
+(
+θ
+)
+
+
+{\displaystyle \operatorname {\mathbb {P} } (\theta )}
+
+ is a uniform distribution, the Bayesian estimator is obtained by maximizing the likelihood function 
+
+
+
+f
+(
+
+x
+
+1
+
+
+,
+
+x
+
+2
+
+
+,
+…
+,
+
+x
+
+n
+
+
+∣
+θ
+)
+
+
+{\displaystyle f(x_{1},x_{2},\ldots ,x_{n}\mid \theta )}
+
+. Thus the Bayesian estimator coincides with the maximum likelihood estimator for a uniform prior distribution 
+
+
+
+
+
+P
+
+
+⁡
+(
+θ
+)
+
+
+{\displaystyle \operatorname {\mathbb {P} } (\theta )}
+
+.
+In many practical applications in machine learning, maximum-likelihood estimation is used as the model for parameter estimation.
+The Bayesian Decision theory is about designing a classifier that minimizes total expected risk, especially, when the costs (the loss function) associated with different decisions are equal, the classifier is minimizing the error over the whole distribution.[22]
+Thus, the Bayes Decision Rule is stated as
+where 
+
+
+
+
+
+w
+
+1
+
+
+
+,
+
+w
+
+2
+
+
+
+
+
+{\displaystyle \;w_{1}\,,w_{2}\;}
+
+ are predictions of different classes. From a perspective of minimizing error, it can also be stated as
+where
+if we decide 
+
+
+
+
+
+w
+
+2
+
+
+
+
+
+{\displaystyle \;w_{2}\;}
+
+ and 
+
+
+
+
+
+
+P
+
+
+⁡
+(
+
+ error
+
+∣
+x
+)
+=
+
+
+P
+
+
+⁡
+(
+
+w
+
+2
+
+
+∣
+x
+)
+
+
+
+{\displaystyle \;\operatorname {\mathbb {P} } ({\text{ error}}\mid x)=\operatorname {\mathbb {P} } (w_{2}\mid x)\;}
+
+ if we decide 
+
+
+
+
+
+w
+
+1
+
+
+
+.
+
+
+{\displaystyle \;w_{1}\;.}
+
+
+By applying Bayes' theorem
+and if we further assume the zero-or-one loss function, which is a same loss for all errors, the Bayes Decision rule can be reformulated as:
+where 
+
+
+
+
+h
+
+Bayes
+
+
+
+
+{\displaystyle h_{\text{Bayes}}}
+
+ is the prediction and 
+
+
+
+
+
+
+P
+
+
+⁡
+(
+w
+)
+
+
+
+{\displaystyle \;\operatorname {\mathbb {P} } (w)\;}
+
+ is the prior probability.
+Finding 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\hat {\theta }}}
+
+ that maximizes the likelihood is asymptotically equivalent to finding the 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\hat {\theta }}}
+
+ that defines a probability distribution (
+
+
+
+
+Q
+
+
+
+θ
+^
+
+
+
+
+
+
+{\displaystyle Q_{\hat {\theta }}}
+
+) that has a minimal distance, in terms of Kullback–Leibler divergence, to the real probability distribution from which our data were generated (i.e., generated by 
+
+
+
+
+P
+
+
+θ
+
+0
+
+
+
+
+
+
+{\displaystyle P_{\theta _{0}}}
+
+).[23] In an ideal world, P and Q are the same (and the only thing unknown is 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ that defines P), but even if they are not and the model we use is misspecified, still the MLE will give us the "closest" distribution (within the restriction of a model Q that depends on 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\hat {\theta }}}
+
+) to the real distribution 
+
+
+
+
+P
+
+
+θ
+
+0
+
+
+
+
+
+
+{\displaystyle P_{\theta _{0}}}
+
+.[24]
+For simplicity of notation, let's assume that P=Q. Let there be n i.i.d data samples 
+
+
+
+
+y
+
+=
+(
+
+y
+
+1
+
+
+,
+
+y
+
+2
+
+
+,
+…
+,
+
+y
+
+n
+
+
+)
+
+
+{\displaystyle \mathbf {y} =(y_{1},y_{2},\ldots ,y_{n})}
+
+ from some probability 
+
+
+
+y
+∼
+
+P
+
+
+θ
+
+0
+
+
+
+
+
+
+{\displaystyle y\sim P_{\theta _{0}}}
+
+, that we try to estimate by finding 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\hat {\theta }}}
+
+ that will maximize the likelihood using 
+
+
+
+
+P
+
+θ
+
+
+
+
+{\displaystyle P_{\theta }}
+
+, then:
+Where 
+
+
+
+
+h
+
+θ
+
+
+(
+x
+)
+=
+log
+⁡
+
+
+
+P
+(
+x
+∣
+
+θ
+
+0
+
+
+)
+
+
+P
+(
+x
+∣
+θ
+)
+
+
+
+
+
+{\displaystyle h_{\theta }(x)=\log {\frac {P(x\mid \theta _{0})}{P(x\mid \theta )}}}
+
+. Using h helps see how we are using the law of large numbers to move from the average of h(x) to the expectancy of it using the law of the unconscious statistician. The first several transitions have to do with laws of logarithm and that finding 
+
+
+
+
+
+
+θ
+^
+
+
+
+
+
+{\displaystyle {\hat {\theta }}}
+
+ that maximizes some function will also be the one that maximizes some monotonic transformation of that function (i.e.: adding/multiplying by a constant).
+Since cross entropy is just Shannon's entropy plus KL divergence, and since the entropy of 
+
+
+
+
+P
+
+
+θ
+
+0
+
+
+
+
+
+
+{\displaystyle P_{\theta _{0}}}
+
+ is constant, then the MLE is also asymptotically minimizing cross entropy.[25]
+Consider a case where n tickets numbered from 1 to n are placed in a box and one is selected at random (see uniform distribution); thus, the sample size is 1.  If n is unknown, then the maximum likelihood estimator 
+
+
+
+
+
+
+n
+^
+
+
+
+
+
+{\displaystyle {\widehat {n}}}
+
+ of n is the number m on the drawn ticket. (The likelihood is 0 for n < m, 1⁄n for n ≥ m, and this is greatest when n = m. Note that the maximum likelihood estimate of n occurs at the lower extreme of possible values {m, m + 1, ...}, rather than somewhere in the "middle" of the range of possible values, which would result in less bias.) The expected value of the number m on the drawn ticket, and therefore the expected value of 
+
+
+
+
+
+
+n
+^
+
+
+
+
+
+{\displaystyle {\widehat {n}}}
+
+, is (n + 1)/2. As a result, with a sample size of 1, the maximum likelihood estimator for n will systematically underestimate n by (n − 1)/2.
+Suppose one wishes to determine just how biased an unfair coin is.  Call the probability of tossing a ‘head’ p. The goal then becomes to determine p.
+Suppose the coin is tossed 80 times: i.e. the sample might be something like x1 = H, x2 = T, ..., x80 = T, and the count of the number of heads "H" is observed.
+The probability of tossing tails is 1 − p (so here p is θ above). Suppose the outcome is 49 heads and 31 tails, and suppose the coin was taken from a box containing three coins: one which gives heads with probability p = 1⁄3, one which gives heads with probability p = 1⁄2 and another which gives heads with probability p = 2⁄3. The coins have lost their labels, so which one it was is unknown. Using maximum likelihood estimation, the coin that has the largest likelihood can be found, given the data that were observed. By using the probability mass function of the binomial distribution with sample size equal to 80, number successes equal to 49 but for different values of p (the "probability of success"), the likelihood function (defined below) takes one of three values:
+The likelihood is maximized when p = 2⁄3, and so this is the maximum likelihood estimate for p.
+Now suppose that there was only one coin but its p could have been any value  0 ≤ p ≤ 1 . The likelihood function to be maximised is
+and the maximisation is over all possible values 0 ≤ p ≤ 1 .
+One way to maximize this function is by differentiating with respect to p and setting to zero:
+This is a product of three terms.  The first term is 0 when p = 0.  The second is 0 when p = 1.  The third is zero when p = 49⁄80. The solution that maximizes the likelihood is clearly p = 49⁄80 (since p = 0 and p = 1 result in a likelihood of 0). Thus the maximum likelihood estimator for p is 49⁄80.
+This result is easily generalized by substituting a letter such as s in the place of 49 to represent the observed number of 'successes' of our Bernoulli trials, and a letter such as n in the place of 80 to represent the number of Bernoulli trials. Exactly the same calculation yields s⁄n which is the maximum likelihood estimator for any sequence of n Bernoulli trials resulting in s 'successes'.
+For the normal distribution 
+
+
+
+
+
+N
+
+
+(
+μ
+,
+
+σ
+
+2
+
+
+)
+
+
+{\displaystyle {\mathcal {N}}(\mu ,\sigma ^{2})}
+
+ which has probability density function
+the corresponding probability density function for a sample of n independent identically distributed normal random variables (the likelihood) is
+This family of distributions has two parameters: θ = (μ, σ); so we maximize the likelihood, 
+
+
+
+
+
+L
+
+
+(
+μ
+,
+
+σ
+
+2
+
+
+)
+=
+f
+(
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+∣
+μ
+,
+
+σ
+
+2
+
+
+)
+
+
+{\displaystyle {\mathcal {L}}(\mu ,\sigma ^{2})=f(x_{1},\ldots ,x_{n}\mid \mu ,\sigma ^{2})}
+
+, over both parameters simultaneously, or if possible, individually.
+Since the logarithm function itself is a continuous strictly increasing function over the range of the likelihood, the values which maximize the likelihood will also maximize its logarithm (the log-likelihood itself is not necessarily strictly increasing). The log-likelihood can be written as follows:
+(Note: the log-likelihood is closely related to information entropy and Fisher information.)
+We now compute the derivatives of this log-likelihood as follows.
+where 
+
+
+
+
+
+
+x
+¯
+
+
+
+
+
+{\displaystyle {\bar {x}}}
+
+ is the sample mean. This is solved by
+This is indeed the maximum of the function, since it is the only turning point in μ and the second derivative is strictly less than zero. Its expected value is equal to the parameter μ of the given distribution,
+which means that the maximum likelihood estimator 
+
+
+
+
+
+
+μ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\mu }}}
+
+ is unbiased.
+Similarly we differentiate the log-likelihood with respect to σ and equate to zero:
+which is solved by
+Inserting the estimate 
+
+
+
+μ
+=
+
+
+
+μ
+^
+
+
+
+
+
+{\displaystyle \mu ={\widehat {\mu }}}
+
+ we obtain
+To calculate its expected value, it is convenient to rewrite the expression in terms of zero-mean random variables (statistical error)  
+
+
+
+
+δ
+
+i
+
+
+≡
+μ
+−
+
+x
+
+i
+
+
+
+
+{\displaystyle \delta _{i}\equiv \mu -x_{i}}
+
+. Expressing the estimate in these variables yields
+Simplifying the expression above, utilizing the facts that 
+
+
+
+
+
+E
+
+
+⁡
+
+
+[
+
+
+
+
+δ
+
+i
+
+
+
+
+
+]
+
+
+=
+0
+
+
+{\displaystyle \operatorname {\mathbb {E} } {\bigl [}\;\delta _{i}\;{\bigr ]}=0}
+
+ and 
+
+
+
+E
+⁡
+
+
+[
+
+
+
+
+δ
+
+i
+
+
+2
+
+
+
+
+
+]
+
+
+=
+
+σ
+
+2
+
+
+
+
+{\displaystyle \operatorname {E} {\bigl [}\;\delta _{i}^{2}\;{\bigr ]}=\sigma ^{2}}
+
+, allows us to obtain
+This means that the estimator 
+
+
+
+
+
+
+
+σ
+^
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\widehat {\sigma }}^{2}}
+
+ is biased for 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma ^{2}}
+
+. It can also be shown that 
+
+
+
+
+
+
+σ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\sigma }}}
+
+ is biased for 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+, but that both 
+
+
+
+
+
+
+
+σ
+^
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\widehat {\sigma }}^{2}}
+
+ and 
+
+
+
+
+
+
+σ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\sigma }}}
+
+ are consistent.
+Formally we say that the maximum likelihood estimator for 
+
+
+
+θ
+=
+(
+μ
+,
+
+σ
+
+2
+
+
+)
+
+
+{\displaystyle \theta =(\mu ,\sigma ^{2})}
+
+ is
+In this case the MLEs could be obtained individually.  In general this may not be the case, and the MLEs would have to be obtained simultaneously.
+The normal log-likelihood at its maximum takes a particularly simple form:
+This maximum log-likelihood can be shown to be the same for more general least squares, even for non-linear least squares.  This is often used in determining likelihood-based approximate confidence intervals and confidence regions, which are generally more accurate than those using the asymptotic normality discussed above.
+It may be the case that variables are correlated, that is, not independent. Two random variables 
+
+
+
+
+y
+
+1
+
+
+
+
+{\displaystyle y_{1}}
+
+ and 
+
+
+
+
+y
+
+2
+
+
+
+
+{\displaystyle y_{2}}
+
+ are independent only if their joint probability density function is the product of the individual probability density functions, i.e.
+Suppose one constructs an order-n Gaussian vector out of random variables 
+
+
+
+(
+
+y
+
+1
+
+
+,
+…
+,
+
+y
+
+n
+
+
+)
+
+
+{\displaystyle (y_{1},\ldots ,y_{n})}
+
+, where each variable has means given by 
+
+
+
+(
+
+μ
+
+1
+
+
+,
+…
+,
+
+μ
+
+n
+
+
+)
+
+
+{\displaystyle (\mu _{1},\ldots ,\mu _{n})}
+
+. Furthermore, let the covariance matrix be denoted by 
+
+
+
+
+
+Σ
+
+
+
+
+{\displaystyle {\mathit {\Sigma }}}
+
+. The joint probability density function of these n random variables then follows a multivariate normal distribution given by:
+In the bivariate case, the joint probability density function is given by:
+In this and other cases where a joint density function exists, the likelihood function is defined as above, in the section "principles," using this density.
+
+
+
+
+
+X
+
+1
+
+
+,
+ 
+
+X
+
+2
+
+
+,
+…
+,
+ 
+
+X
+
+m
+
+
+
+
+{\displaystyle X_{1},\ X_{2},\ldots ,\ X_{m}}
+
+ are counts in cells / boxes 1 up to m; each box has a different probability (think of the boxes being bigger or smaller) and we fix the number of balls that fall to be 
+
+
+
+n
+
+
+{\displaystyle n}
+
+:
+
+
+
+
+x
+
+1
+
+
++
+
+x
+
+2
+
+
++
+⋯
++
+
+x
+
+m
+
+
+=
+n
+
+
+{\displaystyle x_{1}+x_{2}+\cdots +x_{m}=n}
+
+. The probability of each box is 
+
+
+
+
+p
+
+i
+
+
+
+
+{\displaystyle p_{i}}
+
+, with a constraint: 
+
+
+
+
+p
+
+1
+
+
++
+
+p
+
+2
+
+
++
+⋯
++
+
+p
+
+m
+
+
+=
+1
+
+
+{\displaystyle p_{1}+p_{2}+\cdots +p_{m}=1}
+
+. This is a case in which the 
+
+
+
+
+X
+
+i
+
+
+
+
+{\displaystyle X_{i}}
+
+ s are not independent, the joint probability of a vector 
+
+
+
+
+x
+
+1
+
+
+,
+ 
+
+x
+
+2
+
+
+,
+…
+,
+
+x
+
+m
+
+
+
+
+{\displaystyle x_{1},\ x_{2},\ldots ,x_{m}}
+
+ is called the multinomial and has the form:
+Each box taken separately against all the other boxes is a binomial and this is an extension thereof.
+The log-likelihood of this is:
+The constraint has to be taken into account and use the Lagrange multipliers:
+By posing all the derivatives to be 0, the most natural estimate is derived
+Maximizing log likelihood, with and without constraints, can be an unsolvable problem in closed form, then we have to use iterative procedures.
+Except for special cases, the likelihood equations
+cannot be solved explicitly for an estimator 
+
+
+
+
+
+
+θ
+^
+
+
+
+=
+
+
+
+θ
+^
+
+
+
+(
+
+y
+
+)
+
+
+{\displaystyle {\widehat {\theta }}={\widehat {\theta }}(\mathbf {y} )}
+
+. Instead, they need to be solved iteratively: starting from an initial guess of 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ (say 
+
+
+
+
+
+
+
+θ
+^
+
+
+
+
+1
+
+
+
+
+{\displaystyle {\widehat {\theta }}_{1}}
+
+), one seeks to obtain a convergent sequence 
+
+
+
+
+{
+
+
+
+
+θ
+^
+
+
+
+
+r
+
+
+}
+
+
+
+{\displaystyle \left\{{\widehat {\theta }}_{r}\right\}}
+
+. Many methods for this kind of optimization problem are available,[26][27] but the most commonly used ones are algorithms based on an updating formula of the form
+where the vector 
+
+
+
+
+
+d
+
+
+r
+
+
+
+(
+
+
+
+θ
+^
+
+
+
+)
+
+
+
+{\displaystyle \mathbf {d} _{r}\left({\widehat {\theta }}\right)}
+
+ indicates the descent direction of the rth "step," and the scalar 
+
+
+
+
+η
+
+r
+
+
+
+
+{\displaystyle \eta _{r}}
+
+ captures the "step length,"[28][29] also known as the learning rate.[30]
+(Note: here it is a maximization problem, so the sign before gradient is flipped)
+Gradient descent method requires to calculate the gradient at the rth iteration, but no need to calculate the inverse of second-order derivative, i.e., the Hessian matrix. Therefore, it is computationally faster than Newton-Raphson method.
+where 
+
+
+
+
+
+s
+
+
+r
+
+
+(
+
+
+
+θ
+^
+
+
+
+)
+
+
+{\displaystyle \mathbf {s} _{r}({\widehat {\theta }})}
+
+ is the score and 
+
+
+
+
+
+H
+
+
+r
+
+
+−
+1
+
+
+
+(
+
+
+
+θ
+^
+
+
+
+)
+
+
+
+{\displaystyle \mathbf {H} _{r}^{-1}\left({\widehat {\theta }}\right)}
+
+ is the inverse of the Hessian matrix of the log-likelihood function, both evaluated the rth iteration.[31][32] But because the calculation of the Hessian matrix is computationally costly, numerous alternatives have been proposed. The popular Berndt–Hall–Hall–Hausman algorithm approximates the Hessian with the outer product of the expected gradient, such that
+Other quasi-Newton methods use more elaborate secant updates to give approximation of Hessian matrix.
+DFP formula finds a solution that is symmetric, positive-definite and closest to the current approximate value of second-order derivative:
+where
+BFGS also gives a solution that is symmetric and positive-definite:
+where
+BFGS method is not guaranteed to converge unless the function has a quadratic Taylor expansion near an optimum. However, BFGS can have acceptable performance even for non-smooth optimization instances
+Another popular method is to replace the Hessian with the Fisher information matrix, 
+
+
+
+
+
+I
+
+
+(
+θ
+)
+=
+
+
+E
+
+
+⁡
+
+[
+
+
+
+H
+
+
+r
+
+
+
+(
+
+
+
+θ
+^
+
+
+
+)
+
+
+]
+
+
+
+{\displaystyle {\mathcal {I}}(\theta )=\operatorname {\mathbb {E} } \left[\mathbf {H} _{r}\left({\widehat {\theta }}\right)\right]}
+
+, giving us the Fisher scoring algorithm. This procedure is standard in the estimation of many methods, such as generalized linear models.
+Although popular, quasi-Newton methods may converge to a stationary point that is not necessarily a local or global maximum,[33] but rather a local minimum or a saddle point. Therefore, it is important to assess the validity of the obtained solution to the likelihood equations, by verifying that the Hessian, evaluated at the solution, is both negative definite and well-conditioned.[34]
+Early users of maximum likelihood were Carl Friedrich Gauss, Pierre-Simon Laplace, Thorvald N. Thiele, and Francis Ysidro Edgeworth.[35][36] However, its widespread use rose between 1912 and 1922 when Ronald Fisher recommended, widely popularized, and carefully analyzed maximum-likelihood estimation (with fruitless attempts at proofs).[37]
+Maximum-likelihood estimation finally transcended heuristic justification in a proof published by Samuel S. Wilks in 1938, now called Wilks' theorem.[38] The theorem shows that the error in the logarithm of likelihood values for estimates from multiple independent observations is asymptotically χ 2-distributed, which enables convenient determination of a confidence region around any estimate of the parameters. The only difficult part of Wilks’ proof depends on the expected value of the Fisher information matrix, which is provided by a theorem proven by Fisher.[39] Wilks continued to improve on the generality of the theorem throughout his life, with his most general proof published in 1962.[40]
+Reviews of the development of maximum likelihood estimation have been provided by a number of authors.[41][42][43][44][45][46][47][48]
+
+

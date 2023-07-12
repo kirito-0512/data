@@ -1,0 +1,2607 @@
+30807,
+Tangentspace,
+In mathematics, the tangent space of a manifold is a generalization of tangent lines to curves in two-dimensional space and tangent planes to surfaces in three-dimensional space in higher dimensions. In the context of physics the tangent space to a manifold at a point can be viewed as the space of possible velocities for a particle moving on the manifold.
+In differential geometry, one can attach to every point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ of a differentiable manifold a tangent space—a real vector space that intuitively contains the possible directions in which one can tangentially pass through 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. The elements of the tangent space at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ are called the tangent vectors at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. This is a generalization of the notion of a vector, based at a given initial point, in a Euclidean space. The dimension of the tangent space at every point of a connected manifold is the same as that of the manifold itself.
+For example, if the given manifold is a 
+
+
+
+2
+
+
+{\displaystyle 2}
+
+-sphere, then one can picture the tangent space at a point as the plane that touches the sphere at that point and is perpendicular to the sphere's radius through the point. More generally, if a given manifold is thought of as an embedded submanifold of Euclidean space, then one can picture a tangent space in this literal fashion. This was the traditional approach toward defining parallel transport. Many authors in differential geometry and general relativity use it.[1][2] More strictly, this defines an affine tangent space, which is distinct from the space of tangent vectors described by modern terminology.
+In algebraic geometry, in contrast, there is an intrinsic definition of the tangent space at a point of an algebraic variety 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ that gives a vector space with dimension at least that of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ itself. The points 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ at which the dimension of the tangent space is exactly that of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ are called non-singular points; the others are called singular points. For example, a curve that crosses itself does not have a unique tangent line at that point. The singular points of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ are those where the "test to be a manifold" fails. See Zariski tangent space.
+Once the tangent spaces of a manifold have been introduced, one can define vector fields, which are abstractions of the velocity field of particles moving in space. A vector field attaches to every point of the manifold a vector from the tangent space at that point, in a smooth manner. Such a vector field serves to define a generalized ordinary differential equation on a manifold: A solution to such a differential equation is a differentiable curve on the manifold whose derivative at any point is equal to the tangent vector attached to that point by the vector field.
+All the tangent spaces of a manifold may be "glued together" to form a new differentiable manifold with twice the dimension of the original manifold, called the tangent bundle of the manifold.
+The informal description above relies on a manifold's ability to be embedded into an ambient vector space 
+
+
+
+
+
+R
+
+
+m
+
+
+
+
+{\displaystyle \mathbb {R} ^{m}}
+
+ so that the tangent vectors can "stick out" of the manifold into the ambient space. However, it is more convenient to define the notion of a tangent space based solely on the manifold itself.[3]
+There are various equivalent ways of defining the tangent spaces of a manifold. While the definition via the velocity of curves is intuitively the simplest, it is also the most cumbersome to work with. More elegant and abstract approaches are described below.
+In the embedded-manifold picture, a tangent vector at a point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is thought of as the velocity of a curve passing through the point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. We can therefore define a tangent vector as an equivalence class of curves passing through 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ while being tangent to each other at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+.
+Suppose that 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ is a 
+
+
+
+
+C
+
+k
+
+
+
+
+{\displaystyle C^{k}}
+
+ differentiable manifold (with smoothness 
+
+
+
+k
+≥
+1
+
+
+{\displaystyle k\geq 1}
+
+) and that 
+
+
+
+x
+∈
+M
+
+
+{\displaystyle x\in M}
+
+. Pick a coordinate chart 
+
+
+
+φ
+:
+U
+→
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \varphi :U\to \mathbb {R} ^{n}}
+
+, where 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ is an open subset of 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ containing 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. Suppose further that two curves 
+
+
+
+
+γ
+
+1
+
+
+,
+
+γ
+
+2
+
+
+:
+(
+−
+1
+,
+1
+)
+→
+M
+
+
+{\displaystyle \gamma _{1},\gamma _{2}:(-1,1)\to M}
+
+ with 
+
+
+
+
+
+γ
+
+1
+
+
+
+(
+0
+)
+=
+x
+=
+
+
+γ
+
+2
+
+
+
+(
+0
+)
+
+
+{\displaystyle {\gamma _{1}}(0)=x={\gamma _{2}}(0)}
+
+ are given such that both 
+
+
+
+φ
+∘
+
+γ
+
+1
+
+
+,
+φ
+∘
+
+γ
+
+2
+
+
+:
+(
+−
+1
+,
+1
+)
+→
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \varphi \circ \gamma _{1},\varphi \circ \gamma _{2}:(-1,1)\to \mathbb {R} ^{n}}
+
+ are differentiable in the ordinary sense (we call these differentiable curves initialized at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+). Then 
+
+
+
+
+γ
+
+1
+
+
+
+
+{\displaystyle \gamma _{1}}
+
+ and 
+
+
+
+
+γ
+
+2
+
+
+
+
+{\displaystyle \gamma _{2}}
+
+ are said to be equivalent at 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+ if and only if the derivatives of 
+
+
+
+φ
+∘
+
+γ
+
+1
+
+
+
+
+{\displaystyle \varphi \circ \gamma _{1}}
+
+ and 
+
+
+
+φ
+∘
+
+γ
+
+2
+
+
+
+
+{\displaystyle \varphi \circ \gamma _{2}}
+
+ at 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+ coincide. This defines an equivalence relation on the set of all differentiable curves initialized at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+, and equivalence classes of such curves are known as tangent vectors of 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. The equivalence class of any such curve 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+ is denoted by 
+
+
+
+
+γ
+′
+
+(
+0
+)
+
+
+{\displaystyle \gamma '(0)}
+
+. The tangent space of 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+, denoted by 
+
+
+
+
+T
+
+x
+
+
+M
+
+
+{\displaystyle T_{x}M}
+
+, is then defined as the set of all tangent vectors at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+; it does not depend on the choice of coordinate chart 
+
+
+
+φ
+:
+U
+→
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \varphi :U\to \mathbb {R} ^{n}}
+
+.
+To define vector-space operations on 
+
+
+
+
+T
+
+x
+
+
+M
+
+
+{\displaystyle T_{x}M}
+
+, we use a chart 
+
+
+
+φ
+:
+U
+→
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \varphi :U\to \mathbb {R} ^{n}}
+
+ and define a map 
+
+
+
+
+d
+
+
+
+φ
+
+
+x
+
+
+:
+
+T
+
+x
+
+
+M
+→
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathrm {d} {\varphi }_{x}:T_{x}M\to \mathbb {R} ^{n}}
+
+ by 
+
+
+
+
+
+d
+
+
+
+φ
+
+
+x
+
+
+
+(
+
+γ
+′
+
+(
+0
+)
+)
+:=
+
+
+
+
+
+
+
+d
+
+
+
+d
+
+
+t
+
+
+
+
+[
+(
+φ
+∘
+γ
+)
+(
+t
+)
+]
+
+|
+
+
+t
+=
+0
+
+
+,
+
+
+{\textstyle {\mathrm {d} {\varphi }_{x}}(\gamma '(0)):=\left.{\frac {\mathrm {d} }{\mathrm {d} {t}}}[(\varphi \circ \gamma )(t)]\right|_{t=0},}
+
+ where 
+
+
+
+γ
+∈
+
+γ
+′
+
+(
+0
+)
+
+
+{\displaystyle \gamma \in \gamma '(0)}
+
+. The map 
+
+
+
+
+d
+
+
+
+φ
+
+
+x
+
+
+
+
+{\displaystyle \mathrm {d} {\varphi }_{x}}
+
+ turns out to be bijective and may be used to transfer the vector-space operations on 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ over to 
+
+
+
+
+T
+
+x
+
+
+M
+
+
+{\displaystyle T_{x}M}
+
+, thus turning the latter set into an 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-dimensional real vector space. Again, one needs to check that this construction does not depend on the particular chart 
+
+
+
+φ
+:
+U
+→
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \varphi :U\to \mathbb {R} ^{n}}
+
+ and the curve 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+ being used, and in fact it does not.
+Suppose now that 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ is a 
+
+
+
+
+C
+
+∞
+
+
+
+
+{\displaystyle C^{\infty }}
+
+ manifold. A real-valued function 
+
+
+
+f
+:
+M
+→
+
+R
+
+
+
+{\displaystyle f:M\to \mathbb {R} }
+
+ is said to belong to 
+
+
+
+
+
+C
+
+∞
+
+
+
+(
+M
+)
+
+
+{\displaystyle {C^{\infty }}(M)}
+
+ if and only if for every coordinate chart 
+
+
+
+φ
+:
+U
+→
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \varphi :U\to \mathbb {R} ^{n}}
+
+, the map 
+
+
+
+f
+∘
+
+φ
+
+−
+1
+
+
+:
+φ
+[
+U
+]
+⊆
+
+
+R
+
+
+n
+
+
+→
+
+R
+
+
+
+{\displaystyle f\circ \varphi ^{-1}:\varphi [U]\subseteq \mathbb {R} ^{n}\to \mathbb {R} }
+
+ is infinitely differentiable. Note that 
+
+
+
+
+
+C
+
+∞
+
+
+
+(
+M
+)
+
+
+{\displaystyle {C^{\infty }}(M)}
+
+ is a real associative algebra with respect to the pointwise product and sum of functions and scalar multiplication.
+A derivation at 
+
+
+
+x
+∈
+M
+
+
+{\displaystyle x\in M}
+
+ is defined as a linear map 
+
+
+
+D
+:
+
+
+C
+
+∞
+
+
+
+(
+M
+)
+→
+
+R
+
+
+
+{\displaystyle D:{C^{\infty }}(M)\to \mathbb {R} }
+
+ that satisfies the Leibniz identity
+
+
+
+
+∀
+f
+,
+g
+∈
+
+
+C
+
+∞
+
+
+
+(
+M
+)
+:
+
+D
+(
+f
+g
+)
+=
+D
+(
+f
+)
+⋅
+g
+(
+x
+)
++
+f
+(
+x
+)
+⋅
+D
+(
+g
+)
+,
+
+
+{\displaystyle \forall f,g\in {C^{\infty }}(M):\qquad D(fg)=D(f)\cdot g(x)+f(x)\cdot D(g),}
+
+
+which is modeled on the product rule of calculus.
+(For every identically constant function 
+
+
+
+f
+=
+
+const
+
+,
+
+
+{\displaystyle f={\text{const}},}
+
+ it follows that 
+
+
+
+D
+(
+f
+)
+=
+0
+
+
+{\displaystyle D(f)=0}
+
+).
+Denote 
+
+
+
+
+T
+
+x
+
+
+M
+
+
+{\displaystyle T_{x}M}
+
+ the set of all derivations at 
+
+
+
+x
+.
+
+
+{\displaystyle x.}
+
+ Setting
+turns 
+
+
+
+
+T
+
+x
+
+
+M
+
+
+{\displaystyle T_{x}M}
+
+ into a vector space.
+Generalizations of this definition are possible, for instance, to complex manifolds and algebraic varieties. However, instead of examining derivations 
+
+
+
+D
+
+
+{\displaystyle D}
+
+ from the full algebra of functions, one must instead work at the level of germs of functions. The reason for this is that the structure sheaf may not be fine for such structures. For example, let 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ be an algebraic variety with structure sheaf 
+
+
+
+
+
+
+O
+
+
+
+X
+
+
+
+
+{\displaystyle {\mathcal {O}}_{X}}
+
+. Then the Zariski tangent space at a point 
+
+
+
+p
+∈
+X
+
+
+{\displaystyle p\in X}
+
+ is the collection of all 
+
+
+
+
+k
+
+
+
+{\displaystyle \mathbb {k} }
+
+-derivations 
+
+
+
+D
+:
+
+
+
+O
+
+
+
+X
+,
+p
+
+
+→
+
+k
+
+
+
+{\displaystyle D:{\mathcal {O}}_{X,p}\to \mathbb {k} }
+
+, where 
+
+
+
+
+k
+
+
+
+{\displaystyle \mathbb {k} }
+
+ is the ground field and 
+
+
+
+
+
+
+O
+
+
+
+X
+,
+p
+
+
+
+
+{\displaystyle {\mathcal {O}}_{X,p}}
+
+ is the stalk of 
+
+
+
+
+
+
+O
+
+
+
+X
+
+
+
+
+{\displaystyle {\mathcal {O}}_{X}}
+
+ at 
+
+
+
+p
+
+
+{\displaystyle p}
+
+.
+For 
+
+
+
+x
+∈
+M
+
+
+{\displaystyle x\in M}
+
+ and a differentiable curve 
+
+
+
+γ
+:
+(
+−
+1
+,
+1
+)
+→
+M
+
+
+{\displaystyle \gamma :(-1,1)\to M}
+
+ such that 
+
+
+
+γ
+(
+0
+)
+=
+x
+,
+
+
+{\displaystyle \gamma (0)=x,}
+
+ define 
+
+
+
+
+
+D
+
+γ
+
+
+
+(
+f
+)
+:=
+(
+f
+∘
+γ
+
+)
+′
+
+(
+0
+)
+
+
+{\displaystyle {D_{\gamma }}(f):=(f\circ \gamma )'(0)}
+
+ (where the derivative is taken in the ordinary sense because 
+
+
+
+f
+∘
+γ
+
+
+{\displaystyle f\circ \gamma }
+
+ is a function from 
+
+
+
+(
+−
+1
+,
+1
+)
+
+
+{\displaystyle (-1,1)}
+
+ to 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+). One can ascertain that 
+
+
+
+
+D
+
+γ
+
+
+(
+f
+)
+
+
+{\displaystyle D_{\gamma }(f)}
+
+ is a derivation at the point 
+
+
+
+x
+,
+
+
+{\displaystyle x,}
+
+ and that equivalent curves yield the same derivation. Thus, for an equivalence class 
+
+
+
+
+γ
+′
+
+(
+0
+)
+,
+
+
+{\displaystyle \gamma '(0),}
+
+ we can define 
+
+
+
+
+
+D
+
+
+γ
+′
+
+(
+0
+)
+
+
+
+(
+f
+)
+:=
+(
+f
+∘
+γ
+
+)
+′
+
+(
+0
+)
+,
+
+
+{\displaystyle {D_{\gamma '(0)}}(f):=(f\circ \gamma )'(0),}
+
+ where the curve 
+
+
+
+γ
+∈
+
+γ
+′
+
+(
+0
+)
+
+
+{\displaystyle \gamma \in \gamma '(0)}
+
+ has been chosen arbitrarily. The map 
+
+
+
+
+γ
+′
+
+(
+0
+)
+↦
+
+D
+
+
+γ
+′
+
+(
+0
+)
+
+
+
+
+{\displaystyle \gamma '(0)\mapsto D_{\gamma '(0)}}
+
+ is a vector space isomorphism between the space of the equivalence classes 
+
+
+
+
+γ
+′
+
+(
+0
+)
+
+
+{\displaystyle \gamma '(0)}
+
+ and that of the derivations at the point 
+
+
+
+x
+.
+
+
+{\displaystyle x.}
+
+
+Again, we start with a 
+
+
+
+
+C
+
+∞
+
+
+
+
+{\displaystyle C^{\infty }}
+
+ manifold 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ and a point 
+
+
+
+x
+∈
+M
+
+
+{\displaystyle x\in M}
+
+. Consider the ideal 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ of 
+
+
+
+
+C
+
+∞
+
+
+(
+M
+)
+
+
+{\displaystyle C^{\infty }(M)}
+
+ that consists of all smooth functions 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ vanishing at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+, i.e., 
+
+
+
+f
+(
+x
+)
+=
+0
+
+
+{\displaystyle f(x)=0}
+
+. Then 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ and 
+
+
+
+
+I
+
+2
+
+
+
+
+{\displaystyle I^{2}}
+
+ are both real vector spaces, and the quotient space 
+
+
+
+I
+
+/
+
+
+I
+
+2
+
+
+
+
+{\displaystyle I/I^{2}}
+
+ can be shown to be  isomorphic to the cotangent space 
+
+
+
+
+T
+
+x
+
+
+∗
+
+
+M
+
+
+{\displaystyle T_{x}^{*}M}
+
+ through the use of Taylor's theorem. The tangent space 
+
+
+
+
+T
+
+x
+
+
+M
+
+
+{\displaystyle T_{x}M}
+
+ may then be defined as the dual space of 
+
+
+
+I
+
+/
+
+
+I
+
+2
+
+
+
+
+{\displaystyle I/I^{2}}
+
+.
+While this definition is the most abstract, it is also the one that is most easily transferable to other settings, for instance, to the varieties considered in algebraic geometry.
+If 
+
+
+
+D
+
+
+{\displaystyle D}
+
+ is a derivation at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+, then 
+
+
+
+D
+(
+f
+)
+=
+0
+
+
+{\displaystyle D(f)=0}
+
+ for every 
+
+
+
+f
+∈
+
+I
+
+2
+
+
+
+
+{\displaystyle f\in I^{2}}
+
+, which means that 
+
+
+
+D
+
+
+{\displaystyle D}
+
+ gives rise to a linear map 
+
+
+
+I
+
+/
+
+
+I
+
+2
+
+
+→
+
+R
+
+
+
+{\displaystyle I/I^{2}\to \mathbb {R} }
+
+. Conversely, if 
+
+
+
+r
+:
+I
+
+/
+
+
+I
+
+2
+
+
+→
+
+R
+
+
+
+{\displaystyle r:I/I^{2}\to \mathbb {R} }
+
+ is a linear map, then 
+
+
+
+D
+(
+f
+)
+:=
+r
+
+(
+
+(
+f
+−
+f
+(
+x
+)
+)
++
+
+I
+
+2
+
+
+
+)
+
+
+
+{\displaystyle D(f):=r\left((f-f(x))+I^{2}\right)}
+
+ defines a derivation at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. This yields an equivalence between tangent spaces defined via derivations and tangent spaces defined via cotangent spaces.
+If 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ is an open subset of 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+, then 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ is a 
+
+
+
+
+C
+
+∞
+
+
+
+
+{\displaystyle C^{\infty }}
+
+ manifold in a natural manner (take coordinate charts to be identity maps on open subsets of 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+), and the tangent spaces are all naturally identified with 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+.
+Another way to think about tangent vectors is as directional derivatives. Given a vector 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ in 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+, one defines the corresponding directional derivative at a point 
+
+
+
+x
+∈
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle x\in \mathbb {R} ^{n}}
+
+ by
+This map is naturally a derivation at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. Furthermore, every derivation at a point in 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ is of this form. Hence, there is a one-to-one correspondence between vectors (thought of as tangent vectors at a point) and derivations at a point.
+As tangent vectors to a general manifold at a point can be defined as derivations at that point, it is natural to think of them as directional derivatives. Specifically, if 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ is a tangent vector to 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ at a point 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ (thought of as a derivation), then define the directional derivative 
+
+
+
+
+D
+
+v
+
+
+
+
+{\displaystyle D_{v}}
+
+ in the direction 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ by
+If we think of 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ as the initial velocity of a differentiable curve 
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+ initialized at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+, i.e., 
+
+
+
+v
+=
+
+γ
+′
+
+(
+0
+)
+
+
+{\displaystyle v=\gamma '(0)}
+
+, then instead, define 
+
+
+
+
+D
+
+v
+
+
+
+
+{\displaystyle D_{v}}
+
+ by
+For a 
+
+
+
+
+C
+
+∞
+
+
+
+
+{\displaystyle C^{\infty }}
+
+ manifold 
+
+
+
+M
+
+
+{\displaystyle M}
+
+, if a chart 
+
+
+
+φ
+=
+(
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+)
+:
+U
+→
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \varphi =(x^{1},\ldots ,x^{n}):U\to \mathbb {R} ^{n}}
+
+ is given with 
+
+
+
+p
+∈
+U
+
+
+{\displaystyle p\in U}
+
+, then one can define an ordered basis 
+
+
+
+
+{
+
+
+
+
+
+
+∂
+
+∂
+
+x
+
+1
+
+
+
+
+
+|
+
+
+p
+
+
+,
+…
+,
+
+
+
+
+
+∂
+
+∂
+
+x
+
+n
+
+
+
+
+
+|
+
+
+p
+
+
+
+}
+
+
+
+{\textstyle \left\{\left.{\frac {\partial }{\partial x^{1}}}\right|_{p},\dots ,\left.{\frac {\partial }{\partial x^{n}}}\right|_{p}\right\}}
+
+ of 
+
+
+
+
+T
+
+p
+
+
+M
+
+
+{\displaystyle T_{p}M}
+
+ by
+Then for every tangent vector 
+
+
+
+v
+∈
+
+T
+
+p
+
+
+M
+
+
+{\displaystyle v\in T_{p}M}
+
+, one has
+This formula therefore expresses 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ as a linear combination of the basis tangent vectors 
+
+
+
+
+
+
+
+
+∂
+
+∂
+
+x
+
+i
+
+
+
+
+
+|
+
+
+p
+
+
+∈
+
+T
+
+p
+
+
+M
+
+
+{\textstyle \left.{\frac {\partial }{\partial x^{i}}}\right|_{p}\in T_{p}M}
+
+ defined by the coordinate chart 
+
+
+
+φ
+:
+U
+→
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \varphi :U\to \mathbb {R} ^{n}}
+
+.[4]
+Every smooth (or differentiable) map 
+
+
+
+φ
+:
+M
+→
+N
+
+
+{\displaystyle \varphi :M\to N}
+
+ between smooth (or differentiable) manifolds induces natural linear maps between their corresponding tangent spaces:
+If the tangent space is defined via differentiable curves, then this map is defined by
+If, instead, the tangent space is defined via derivations, then this map is defined by
+The linear map 
+
+
+
+
+d
+
+
+
+φ
+
+
+x
+
+
+
+
+{\displaystyle \mathrm {d} {\varphi }_{x}}
+
+ is called variously the derivative, total derivative, differential, or pushforward of 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. It is frequently expressed using a variety of other notations:
+In a sense, the derivative is the best linear approximation to 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ near 
+
+
+
+x
+
+
+{\displaystyle x}
+
+. Note that when 
+
+
+
+N
+=
+
+R
+
+
+
+{\displaystyle N=\mathbb {R} }
+
+, then the map 
+
+
+
+
+d
+
+
+
+φ
+
+
+x
+
+
+:
+
+T
+
+x
+
+
+M
+→
+
+R
+
+
+
+{\displaystyle \mathrm {d} {\varphi }_{x}:T_{x}M\to \mathbb {R} }
+
+ coincides with the usual notion of the differential of the function 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+. In local coordinates the derivative of 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ is given by the Jacobian.
+An important result regarding the derivative map is the following:
+Theorem — If 
+
+
+
+φ
+:
+M
+→
+N
+
+
+{\displaystyle \varphi :M\to N}
+
+ is a local diffeomorphism at 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ in 
+
+
+
+M
+
+
+{\displaystyle M}
+
+, then 
+
+
+
+
+d
+
+
+
+φ
+
+
+x
+
+
+:
+
+T
+
+x
+
+
+M
+→
+
+T
+
+φ
+(
+x
+)
+
+
+N
+
+
+{\displaystyle \mathrm {d} {\varphi }_{x}:T_{x}M\to T_{\varphi (x)}N}
+
+ is a linear isomorphism. Conversely, if 
+
+
+
+φ
+:
+M
+→
+N
+
+
+{\displaystyle \varphi :M\to N}
+
+ is continuously differentiable and 
+
+
+
+
+d
+
+
+
+φ
+
+
+x
+
+
+
+
+{\displaystyle \mathrm {d} {\varphi }_{x}}
+
+ is an isomorphism, then there is an open neighborhood 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ such that 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ maps 
+
+
+
+U
+
+
+{\displaystyle U}
+
+ diffeomorphically onto its image.
+This is a generalization of the inverse function theorem to maps between manifolds.
+
+

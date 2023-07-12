@@ -1,0 +1,208 @@
+40975,
+Criticalfrequency,
+In telecommunication, the term critical frequency has the following meanings:[1]
+Critical Frequency changes with time of day, atmospheric conditions and angle of fire of the radio waves by antenna.
+The existence of the critical frequency is the result of electron limitation, i.e., the inadequacy of the existing number of free electrons to support reflection at higher frequencies.
+In signal processing the critical frequency it is also another name for the Nyquist frequency.
+Critical frequency is the highest magnitude of frequency above which the waves penetrate the ionosphere and below which the waves are reflected back from the ionosphere.
+It is denoted by "fc".
+Its value is not fixed and it depends upon the electron density of the ionosphere.
+Critical frequency can be computed with the electron density given by:
+f
+c
+=
+9
+N
+max
+{\displaystyle f_{\text{c}}=9{\sqrt {N_{\text{max}}}}}
+where Nmax is maximum electron density per m3 and fc is in Hz.[2]
+Critical frequency can be computed by:
+f
+c
+=
+M
+U
+F
+/
+c
+o
+s
+θ
+{\displaystyle f_{\text{c}}=MUF/cos\theta }
+where MUF is maximum usable frequency and 
+θ
+{\displaystyle \theta }
+ is the angle of incidence[2]
+The dependence of critical frequency with respect with electron density can be related through plasma oscillation concept particularly the 'Cold' Electrons mechanism.
+ω
+p
+e
+=
+n
+e
+e
+2
+m
+∗
+ε
+0
+,
+[
+r
+a
+d
+/
+s
+]
+{\displaystyle \omega _{\mathrm {pe} }={\sqrt {\frac {n_{\mathrm {e} }e^{2}}{m^{*}\varepsilon _{0}}}},\left[\mathrm {rad/s} \right]}
+Using the electron charge 
+e
+=
+1.602
+⋅
+10
+−
+19
+C
+o
+u
+l
+o
+m
+b
+s
+{\displaystyle e=1.602\cdot 10^{-19}Coulombs}
+, electron mass 
+m
+∗
+=
+9.10938356
+⋅
+10
+−
+31
+k
+i
+l
+o
+g
+r
+a
+m
+s
+{\displaystyle m^{*}=9.10938356\cdot 10^{-31}kilograms}
+ and permittivity of free space 
+ϵ
+o
+=
+8.854187817
+⋅
+10
+−
+12
+A
+2
+s
+4
+m
+−
+3
+k
+g
+−
+1
+{\displaystyle \epsilon _{o}=8.854187817\cdot 10^{-12}A^{2}s^{4}m^{-3}kg^{-1}}
+gives,
+ω
+p
+e
+=
+2
+π
+f
+=
+56.415
+n
+e
+{\displaystyle \omega _{\mathrm {pe} }=2\pi f=56.415{\sqrt {n_{e}}}}
+and solving for the frequency,
+f
+c
+=
+8.979
+N
+max
+≈
+9
+N
+max
+{\displaystyle f_{\text{c}}=8.979{\sqrt {N_{\text{max}}}}\approx 9{\sqrt {N_{\text{max}}}}}
+The index of refraction has the formula 
+n
+=
+c
+v
+{\displaystyle n={\frac {c}{v}}}
+which shows dependence in wavelength.[3] The result that the force due to the polarization field in an ionized gas of low concentration is canceled by the effect of collisions between ions and electrons is re‐established in a simple manner that clearly displays the physical basis for the effect. Because of this cancellation the Sellmeyer formula, determines the relation between the electron number density, N, and the index of refraction, n, in the ionosphere when collisions are neglected.[4]
+n
+2
+−
+1
+=
+−
+N
+e
+2
+ϵ
+o
+m
+ω
+2
+{\displaystyle n^{2}-1={\frac {-Ne^{2}}{\epsilon _{o}m\omega ^{2}}}}
+.
+Using the default values for electron charge 
+e
+{\displaystyle e}
+, permittivity of free space and electron mass 
+ϵ
+o
+{\displaystyle \epsilon _{o}}
+, and changing angular velocity 
+ω
+{\displaystyle \omega }
+with respect to frequency 
+f
+{\displaystyle f}
+this yields to
+n
+2
+−
+1
+=
+3182.607
+N
+(
+2
+π
+f
+)
+2
+{\displaystyle n^{2}-1={\frac {3182.607N}{(2\pi f)^{2}}}}
+and solving for the refraction index n,
+n
+=
+1
+−
+80.616
+N
+f
+2
+≈
+1
+−
+81
+N
+f
+2
+{\displaystyle n={\sqrt {1-{\frac {80.616N}{f^{2}}}}}\approx {\sqrt {1-{\frac {81N}{f^{2}}}}}}
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).

@@ -1,0 +1,125 @@
+9730,
+Electronmicroscope,
+An electron microscope is a microscope that uses a beam of electrons as a source of illumination. They use electron optics that are analogous to the glass lenses of an optical light microscope. As the wavelength of an electron can be up to 100,000 times shorter than that of visible light, electron microscopes have a higher resolution of about 0.1 nm, which compares to about 200 nm for light microscopes. Electron microscope may refer to:
+Additional details can be found in the above. This articles contains some general information mainly about transmission electron microscopes.
+Many developments laid the groundwork of the electron optics used in microscopes.[1] One significant step was the work of Hertz in 1883[2] who made a cathode-ray tube with electrostatic and magnetic deflection, demonstrating manipulation of the direction of an electron beam. Others were focusing of the electrons by an axial magnetic field by Emil Wiechert in 1899,[3] improved oxide-coated cathodes which produced more electrons by Arthur Wehnelt in 1905[4] and the development of the electromagnetic lens in 1926 by Hans Busch.[5] According to Dennis Gabor, the physicist Leó Szilárd tried in 1928 to convince him to build an electron microscope, for which Szilárd had filed a patent.[6]
+To this day the issue of who invented the transmission electron microscope is controversial.[7][8][9][10] In 1928, at the Technical University of Berlin, Adolf Matthias (Professor of High Voltage Technology and Electrical Installations) appointed Max Knoll to lead a team of researchers to advance research on electron beams and cathode-ray oscilloscopes. The team consisted of several PhD students including Ernst Ruska. In 1931, Max Knoll and Ernst Ruska[11][12] successfully generated magnified images of mesh grids placed over an anode aperture. The device, a replicate of which is shown in the figure, used two magnetic lenses to achieve higher magnifications, the first electron microscope. (Max Knoll died in 1969, so did not receive a share of the Nobel Prize in 1986.)
+Apparently independent of this effort was work at Siemens-Schuckert by Reinhold Rüdenberg. According to patent law (U.S. Patent No. 2058914[13] and 2070318,[14] both filed in 1932), he is the inventor of the electron microscope, but it is not clear when he had a working instrument. He stated in a very brief article in 1932[15] that Siemens had been working on this for some years before the patents were filed in 1932, claiming that his effort was parallel to the university development. He died in 1961, so similar to Max Knoll, was not eligible for a share of the Nobel Prize.
+In the following year, 1933, Ruska and Knoll built the first electron microscope that exceeded the resolution attainable with an optical (light) microscope.[16]  Four years later, in 1937, Siemens financed the work of Ernst Ruska and Bodo von Borries, and employed Helmut Ruska, Ernst's brother, to develop applications for the microscope, especially with biological specimens.[16][17] Also in 1937, Manfred von Ardenne pioneered the scanning electron microscope.[18] Siemens produced the first commercial electron microscope in 1938.[19] The first North American electron microscopes were constructed in the 1930s, at the Washington State University by Anderson and Fitzsimmons [20]  and at the University of Toronto by Eli Franklin Burton and students Cecil Hall, James Hillier, and Albert Prebus. Siemens produced a transmission electron microscope (TEM) in 1939.[21] Although current transmission electron microscopes are capable of two million-power magnification, as scientific instruments they remain similar but with improved optics.
+In a typical electron gun, individual electrons, which have an elementary charge 
+
+
+
+e
+
+
+{\displaystyle e}
+
+ (about 
+
+
+
+−
+1.6
+×
+
+10
+
+−
+19
+
+
+
+
+{\displaystyle -1.6\times 10^{-19}}
+
+ coulombs) and a mass 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ (about 
+
+
+
+9.1
+×
+
+10
+
+−
+31
+
+
+
+
+{\displaystyle 9.1\times 10^{-31}}
+
+ kg), with a potential of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ volts, have an energy amount of 
+
+
+
+e
+⋅
+V
+
+
+{\displaystyle e\cdot V}
+
+ joules. The wavelength is[22]
+where 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ is the speed of light in vacuum (about 
+
+
+
+c
+=
+3
+×
+
+10
+
+8
+
+
+
+
+{\displaystyle c=3\times 10^{8}}
+
+ m/s). See electron diffraction for a full explanation.
+The original form of the electron microscope, the transmission electron microscope (TEM), uses a high voltage electron beam to illuminate the specimen and create an image. An electron beam is produced by an electron gun, with the electrons typically at 40 to 400 keV, focused by electromagnetic lenses, and transmitted through the specimen. When it emerges from the specimen, the electron beam carries information about the structure of the specimen that is magnified by lenses of the microscope. The spatial variation in this information (the "image") may be viewed by projecting the magnified electron image onto a fluorescent viewing screen coated with a phosphor or scintillator material such as zinc sulfide. Alternatively, a high-resolution phosphor may be coupled by means of a lens optical system or a fibre optic light-guide to the sensor of a digital camera. The image detected by the digital camera may be displayed on a monitor or computer.
+The resolution of TEMs is limited primarily by spherical aberration, but a new generation of hardware correctors can reduce spherical aberration to increase the resolution in high-resolution transmission electron microscopy (HRTEM) to below 0.5 angstrom (50 picometres),[23] enabling magnifications above 50 million times.[24] The ability of HRTEM to determine the positions of atoms within materials is useful for nano-technologies research and development.[25]
+Transmission electron microscopes are often used in electron diffraction mode. The advantages of electron diffraction over X-ray crystallography are that the specimen need not be a single crystal or even a polycrystalline powder.
+The STEM rasters a focused incident probe across a specimem. The high resolution of the TEM is thus possible in STEM. The focusing action (and aberrations) occur before the electrons hit the specimen in the STEM, but afterward in the TEM. The STEMs use of SEM-like beam rastering simplifies annular dark-field imaging, and other analytical techniques, but also means that image data is acquired in serial rather than in parallel fashion.
+The SEM produces images by probing the specimen with a focused electron beam that is scanned across the specimen (raster scanning). When the electron beam interacts with the specimen, it loses energy by a variety of mechanisms. The lost energy is converted into alternative forms such as heat, emission of low-energy secondary electrons and high-energy backscattered electrons, light emission (cathodoluminescence) or X-ray emission, all of which provide signals carrying information about the properties of the specimen surface, such as its topography and composition. The image displayed by an SEM maps the varying intensity of any of these signals into the image in a position corresponding to the position of the beam on the specimen when the signal was generated. In the SEM image of an ant shown, the image was constructed from signals produced by a secondary electron detector, the normal or conventional imaging mode in most SEMs.
+Generally, the image resolution of an SEM is lower than that of a TEM. However, because the SEM images the surface of a sample rather than its interior, the electrons do not have to travel through the sample. This reduces the need for extensive sample preparation to thin the specimen to electron transparency. The SEM also has a great depth of field, and so can produce images that are good representations of the three-dimensional surface shape of the sample. 
+In their most common configurations, electron microscopes produce images with a single brightness value per pixel, with the results usually rendered in greyscale.[26] However, often these images are then colourized through the use of feature-detection software, or simply by hand-editing using a graphics editor. This may be done to clarify structure or for aesthetic effect and generally does not add new information about the specimen.[27]
+Materials to be viewed in a transmission electron microscope may require processing to produce a suitable sample. The technique required varies depending on the specimen and the analysis required:
+Electron microscopes are expensive to build and maintain. Microscopes designed to achieve high resolutions must be housed in stable buildings (sometimes underground) with special services such as magnetic field canceling systems.
+The samples largely have to be viewed in vacuum, as the molecules that make up air would scatter the electrons. An exception is liquid-phase electron microscopy[40] using either a closed liquid cell or an environmental chamber, for example, in the environmental scanning electron microscope, which allows hydrated samples to be viewed in a low-pressure (up to 20 Torr or 2.7 kPa) wet environment. Various techniques for in situ electron microscopy of gaseous samples have been developed.[41]
+Scanning electron microscopes operating in conventional high-vacuum mode usually image conductive specimens; therefore non-conductive materials require conductive coating (gold/palladium alloy, carbon, osmium, etc.). The low-voltage mode of modern microscopes makes possible the observation of non-conductive specimens without coating.  Non-conductive materials can be imaged also by a variable pressure (or environmental) scanning electron microscope.
+Small, stable specimens such as carbon nanotubes, diatom frustules and small mineral crystals (asbestos fibres, for example) require no special treatment before being examined in the electron microscope. Samples of hydrated materials, including almost all biological specimens, have to be prepared in various ways to stabilize them, reduce their thickness (ultrathin sectioning) and increase their electron optical contrast (staining). These processes may result in artifacts, but these can usually be identified by comparing the results obtained by using radically different specimen preparation methods. Since the 1980s, analysis of cryofixed, vitrified specimens has also become increasingly used by scientists, further confirming the validity of this technique.[42][43][44]
+
+
+

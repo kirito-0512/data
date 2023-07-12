@@ -1,0 +1,3306 @@
+38128,
+Cauchy–Schwarzinequality,
+The Cauchy–Schwarz inequality (also called Cauchy–Bunyakovsky–Schwarz inequality)[1][2][3][4] is considered one of the most important and widely used inequalities in mathematics.[5]
+The inequality for sums was published by Augustin-Louis Cauchy (1821). The corresponding inequality for integrals was published by Viktor Bunyakovsky (1859)[2] and Hermann Schwarz (1888). Schwarz gave the modern proof of the integral version.[5]
+The Cauchy–Schwarz inequality states that for all vectors 
+u
+{\displaystyle \mathbf {u} }
+ and 
+v
+{\displaystyle \mathbf {v} }
+ of an inner product space
+    (Cauchy–Schwarz inequality [written using only the inner product])where 
+⟨
+⋅
+,
+⋅
+⟩
+{\displaystyle \langle \cdot ,\cdot \rangle }
+ is the inner product. Examples of inner products include the real and complex dot product; see the examples in inner product. Every inner product gives rise to a Euclidean (
+l
+2
+{\displaystyle l_{2}}
+) norm, called the canonical or induced norm, where the norm of a vector 
+u
+{\displaystyle \mathbf {u} }
+ is denoted and defined by:
+‖
+u
+‖
+2
+:=
+⟨
+u
+,
+u
+⟩
+{\displaystyle \|\mathbf {u} \|_{2}:={\sqrt {\langle \mathbf {u} ,\mathbf {u} \rangle }}}
+so that this norm and the inner product are related by the defining condition 
+‖
+u
+‖
+2
+2
+=
+⟨
+u
+,
+u
+⟩
+,
+{\displaystyle \|\mathbf {u} \|_{2}^{2}=\langle \mathbf {u} ,\mathbf {u} \rangle ,}
+ where 
+⟨
+u
+,
+u
+⟩
+{\displaystyle \langle \mathbf {u} ,\mathbf {u} \rangle }
+ is always a non-negative real number (even if the inner product is complex-valued). 
+By taking the square root of both sides of the above inequality, the Cauchy–Schwarz inequality can be written in its more familiar form:[6][7]
+    (Cauchy–Schwarz inequality - written using norm and inner product)Moreover, the two sides are equal if and only if 
+u
+{\displaystyle \mathbf {u} }
+ and 
+v
+{\displaystyle \mathbf {v} }
+ are linearly dependent.[8][9][10]
+Sedrakyan's inequality, also called  Bergström's inequality, Engel's form, the T2 lemma, or Titu's lemma, states that for real numbers 
+u
+1
+,
+u
+2
+,
+…
+,
+u
+n
+{\displaystyle u_{1},u_{2},\dots ,u_{n}}
+ and positive real numbers 
+v
+1
+,
+v
+2
+,
+…
+,
+v
+n
+{\displaystyle v_{1},v_{2},\dots ,v_{n}}
+:
+(
+∑
+i
+=
+1
+n
+u
+i
+)
+2
+∑
+i
+=
+1
+n
+v
+i
+≤
+∑
+i
+=
+1
+n
+u
+i
+2
+v
+i
+ or equivalently, 
+(
+u
+1
++
+u
+2
++
+⋯
++
+u
+n
+)
+2
+v
+1
++
+v
+2
++
+⋯
++
+v
+n
+≤
+u
+1
+2
+v
+1
++
+u
+2
+2
+v
+2
++
+⋯
++
+u
+n
+2
+v
+n
+.
+{\displaystyle {\frac {\left(\sum _{i=1}^{n}u_{i}\right)^{2}}{\sum _{i=1}^{n}v_{i}}}\leq \sum _{i=1}^{n}{\frac {u_{i}^{2}}{v_{i}}}\quad {\text{ or equivalently, }}\quad {\frac {\left(u_{1}+u_{2}+\cdots +u_{n}\right)^{2}}{v_{1}+v_{2}+\cdots +v_{n}}}\leq {\frac {u_{1}^{2}}{v_{1}}}+{\frac {u_{2}^{2}}{v_{2}}}+\cdots +{\frac {u_{n}^{2}}{v_{n}}}.}
+It is a direct consequence of the Cauchy–Schwarz inequality, obtained by using the dot product on 
+R
+n
+{\displaystyle \mathbb {R} ^{n}}
+ upon substituting 
+u
+i
+′
+=
+u
+i
+/
+v
+i
+{\displaystyle u_{i}'=u_{i}/{\sqrt {v_{i}}}}
+ and 
+v
+i
+′
+=
+v
+i
+{\displaystyle v_{i}'={\sqrt {v_{i}}}}
+. This form is especially helpful when the inequality involves fractions where the numerator is a perfect square.
+The real vector space 
+R
+2
+{\displaystyle \mathbb {R} ^{2}}
+ denotes the 2-dimensional plane. It is also the 2-dimensional Euclidean space where the inner product is the dot product. 
+If 
+u
+=
+(
+u
+1
+,
+u
+2
+)
+{\displaystyle \mathbf {u} =\left(u_{1},u_{2}\right)}
+ and 
+v
+=
+(
+v
+1
+,
+v
+2
+)
+{\displaystyle \mathbf {v} =\left(v_{1},v_{2}\right)}
+ then the Cauchy–Schwarz inequality becomes:
+⟨
+u
+,
+v
+⟩
+2
+=
+(
+‖
+u
+‖
+‖
+v
+‖
+cos
+⁡
+θ
+)
+2
+≤
+‖
+u
+‖
+2
+‖
+v
+‖
+2
+,
+{\displaystyle \langle \mathbf {u} ,\mathbf {v} \rangle ^{2}=(\|\mathbf {u} \|\|\mathbf {v} \|\cos \theta )^{2}\leq \|\mathbf {u} \|^{2}\|\mathbf {v} \|^{2},}
+where 
+θ
+{\displaystyle \theta }
+ is the angle between 
+u
+{\displaystyle \mathbf {u} }
+ and 
+v
+{\displaystyle \mathbf {v} }
+.
+The form above is perhaps the easiest in which to understand the inequality, since the square of the cosine can be at most 1, which occurs when the vectors are in the same or opposite directions. It can also be restated in terms of the vector coordinates 
+u
+1
+{\displaystyle u_{1}}
+, 
+u
+2
+{\displaystyle u_{2}}
+, 
+v
+1
+{\displaystyle v_{1}}
+, and 
+v
+2
+{\displaystyle v_{2}}
+ as
+(
+u
+1
+v
+1
++
+u
+2
+v
+2
+)
+2
+≤
+(
+u
+1
+2
++
+u
+2
+2
+)
+(
+v
+1
+2
++
+v
+2
+2
+)
+,
+{\displaystyle \left(u_{1}v_{1}+u_{2}v_{2}\right)^{2}\leq \left(u_{1}^{2}+u_{2}^{2}\right)\left(v_{1}^{2}+v_{2}^{2}\right),}
+where equality holds if and only if the vector 
+(
+u
+1
+,
+u
+2
+)
+{\displaystyle \left(u_{1},u_{2}\right)}
+ is in the same or opposite direction as the vector 
+(
+v
+1
+,
+v
+2
+)
+{\displaystyle \left(v_{1},v_{2}\right)}
+, or if one of them is the zero vector.
+In Euclidean space 
+R
+n
+{\displaystyle \mathbb {R} ^{n}}
+ with the standard inner product, which is the dot product, the Cauchy–Schwarz inequality becomes:
+(
+∑
+i
+=
+1
+n
+u
+i
+v
+i
+)
+2
+≤
+(
+∑
+i
+=
+1
+n
+u
+i
+2
+)
+(
+∑
+i
+=
+1
+n
+v
+i
+2
+)
+.
+{\displaystyle \left(\sum _{i=1}^{n}u_{i}v_{i}\right)^{2}\leq \left(\sum _{i=1}^{n}u_{i}^{2}\right)\left(\sum _{i=1}^{n}v_{i}^{2}\right).}
+The Cauchy–Schwarz inequality can be proved using only ideas from elementary algebra in this case. 
+Consider the following quadratic polynomial in 
+x
+{\displaystyle x}
+0
+≤
+(
+u
+1
+x
++
+v
+1
+)
+2
++
+⋯
++
+(
+u
+n
+x
++
+v
+n
+)
+2
+=
+(
+∑
+i
+u
+i
+2
+)
+x
+2
++
+2
+(
+∑
+i
+u
+i
+v
+i
+)
+x
++
+∑
+i
+v
+i
+2
+.
+{\displaystyle 0\leq \left(u_{1}x+v_{1}\right)^{2}+\cdots +\left(u_{n}x+v_{n}\right)^{2}=\left(\sum _{i}u_{i}^{2}\right)x^{2}+2\left(\sum _{i}u_{i}v_{i}\right)x+\sum _{i}v_{i}^{2}.}
+Since it is nonnegative, it has at most one real root for 
+x
+,
+{\displaystyle x,}
+ hence its discriminant is less than or equal to zero. That is,
+(
+∑
+i
+u
+i
+v
+i
+)
+2
+−
+(
+∑
+i
+u
+i
+2
+)
+(
+∑
+i
+v
+i
+2
+)
+≤
+0
+,
+{\displaystyle \left(\sum _{i}u_{i}v_{i}\right)^{2}-\left(\sum _{i}{u_{i}^{2}}\right)\left(\sum _{i}{v_{i}^{2}}\right)\leq 0,}
+If 
+u
+,
+v
+∈
+C
+n
+{\displaystyle \mathbf {u} ,\mathbf {v} \in \mathbb {C} ^{n}}
+ with 
+u
+=
+(
+u
+1
+,
+…
+,
+u
+n
+)
+{\displaystyle \mathbf {u} =\left(u_{1},\ldots ,u_{n}\right)}
+ and 
+v
+=
+(
+v
+1
+,
+…
+,
+v
+n
+)
+{\displaystyle \mathbf {v} =\left(v_{1},\ldots ,v_{n}\right)}
+ (where 
+u
+1
+,
+…
+,
+u
+n
+∈
+C
+{\displaystyle u_{1},\ldots ,u_{n}\in \mathbb {C} }
+ and 
+v
+1
+,
+…
+,
+v
+n
+∈
+C
+{\displaystyle v_{1},\ldots ,v_{n}\in \mathbb {C} }
+) and if the inner product on the vector space 
+C
+n
+{\displaystyle \mathbb {C} ^{n}}
+ is the canonical complex inner product (defined by 
+⟨
+u
+,
+v
+⟩
+:=
+u
+1
+v
+1
+¯
++
+⋯
++
+u
+n
+v
+n
+¯
+,
+{\displaystyle \langle \mathbf {u} ,\mathbf {v} \rangle :=u_{1}{\overline {v_{1}}}+\cdots +u_{n}{\overline {v_{n}}},}
+ where the bar notation is used for complex conjugation), then the inequality may be restated more explicitly as follows: 
+|
+⟨
+u
+,
+v
+⟩
+|
+2
+=
+|
+∑
+k
+=
+1
+n
+u
+k
+v
+¯
+k
+|
+2
+≤
+⟨
+u
+,
+u
+⟩
+⟨
+v
+,
+v
+⟩
+=
+(
+∑
+k
+=
+1
+n
+u
+k
+u
+¯
+k
+)
+(
+∑
+k
+=
+1
+n
+v
+k
+v
+¯
+k
+)
+=
+∑
+j
+=
+1
+n
+|
+u
+j
+|
+2
+∑
+k
+=
+1
+n
+|
+v
+k
+|
+2
+.
+{\displaystyle |\langle \mathbf {u} ,\mathbf {v} \rangle |^{2}=\left|\sum _{k=1}^{n}u_{k}{\bar {v}}_{k}\right|^{2}\leq \langle \mathbf {u} ,\mathbf {u} \rangle \langle \mathbf {v} ,\mathbf {v} \rangle =\left(\sum _{k=1}^{n}u_{k}{\bar {u}}_{k}\right)\left(\sum _{k=1}^{n}v_{k}{\bar {v}}_{k}\right)=\sum _{j=1}^{n}\left|u_{j}\right|^{2}\sum _{k=1}^{n}\left|v_{k}\right|^{2}.}
+That is,
+|
+u
+1
+v
+¯
+1
++
+⋯
++
+u
+n
+v
+¯
+n
+|
+2
+≤
+(
+|
+u
+1
+|
+2
++
+⋯
++
+|
+u
+n
+|
+2
+)
+(
+|
+v
+1
+|
+2
++
+⋯
++
+|
+v
+n
+|
+2
+)
+.
+{\displaystyle \left|u_{1}{\bar {v}}_{1}+\cdots +u_{n}{\bar {v}}_{n}\right|^{2}\leq \left(\left|u_{1}\right|^{2}+\cdots +\left|u_{n}\right|^{2}\right)\left(\left|v_{1}\right|^{2}+\cdots +\left|v_{n}\right|^{2}\right).}
+For the inner product space of square-integrable complex-valued functions, the following inequality:
+|
+∫
+R
+n
+f
+(
+x
+)
+g
+(
+x
+)
+¯
+d
+x
+|
+2
+≤
+∫
+R
+n
+|
+f
+(
+x
+)
+|
+2
+d
+x
+∫
+R
+n
+|
+g
+(
+x
+)
+|
+2
+d
+x
+.
+{\displaystyle \left|\int _{\mathbb {R} ^{n}}f(x){\overline {g(x)}}\,dx\right|^{2}\leq \int _{\mathbb {R} ^{n}}|f(x)|^{2}\,dx\int _{\mathbb {R} ^{n}}|g(x)|^{2}\,dx.}
+The Hölder inequality is a generalization of this.
+In any inner product space, the triangle inequality is a consequence of the Cauchy–Schwarz inequality, as is now shown: 
+‖
+u
++
+v
+‖
+2
+=
+⟨
+u
++
+v
+,
+u
++
+v
+⟩
+=
+‖
+u
+‖
+2
++
+⟨
+u
+,
+v
+⟩
++
+⟨
+v
+,
+u
+⟩
++
+‖
+v
+‖
+2
+ 
+ 
+ where 
+⟨
+v
+,
+u
+⟩
+=
+⟨
+u
+,
+v
+⟩
+¯
+=
+‖
+u
+‖
+2
++
+2
+Re
+⁡
+⟨
+u
+,
+v
+⟩
++
+‖
+v
+‖
+2
+≤
+‖
+u
+‖
+2
++
+2
+|
+⟨
+u
+,
+v
+⟩
+|
++
+‖
+v
+‖
+2
+≤
+‖
+u
+‖
+2
++
+2
+‖
+u
+‖
+‖
+v
+‖
++
+‖
+v
+‖
+2
+ 
+ 
+ using CS
+=
+(
+‖
+u
+‖
++
+‖
+v
+‖
+)
+2
+.
+{\displaystyle {\begin{alignedat}{4}\|\mathbf {u} +\mathbf {v} \|^{2}&=\langle \mathbf {u} +\mathbf {v} ,\mathbf {u} +\mathbf {v} \rangle &&\\&=\|\mathbf {u} \|^{2}+\langle \mathbf {u} ,\mathbf {v} \rangle +\langle \mathbf {v} ,\mathbf {u} \rangle +\|\mathbf {v} \|^{2}~&&~{\text{ where }}\langle \mathbf {v} ,\mathbf {u} \rangle ={\overline {\langle \mathbf {u} ,\mathbf {v} \rangle }}\\&=\|\mathbf {u} \|^{2}+2\operatorname {Re} \langle \mathbf {u} ,\mathbf {v} \rangle +\|\mathbf {v} \|^{2}&&\\&\leq \|\mathbf {u} \|^{2}+2|\langle \mathbf {u} ,\mathbf {v} \rangle |+\|\mathbf {v} \|^{2}&&\\&\leq \|\mathbf {u} \|^{2}+2\|\mathbf {u} \|\|\mathbf {v} \|+\|\mathbf {v} \|^{2}~&&~{\text{ using CS}}\\&=(\|\mathbf {u} \|+\|\mathbf {v} \|)^{2}.&&\end{alignedat}}}
+Taking square roots gives the triangle inequality:
+‖
+u
++
+v
+‖
+≤
+‖
+u
+‖
++
+‖
+v
+‖
+.
+{\displaystyle \|\mathbf {u} +\mathbf {v} \|\leq \|\mathbf {u} \|+\|\mathbf {v} \|.}
+The Cauchy–Schwarz inequality is used to prove that the inner product is a continuous function with respect to the topology induced by the inner product itself.[11][12]
+The Cauchy–Schwarz inequality allows one to extend the notion of "angle between two vectors" to any real inner-product space by defining:[13][14]
+cos
+⁡
+θ
+u
+v
+=
+⟨
+u
+,
+v
+⟩
+‖
+u
+‖
+‖
+v
+‖
+.
+{\displaystyle \cos \theta _{\mathbf {u} \mathbf {v} }={\frac {\langle \mathbf {u} ,\mathbf {v} \rangle }{\|\mathbf {u} \|\|\mathbf {v} \|}}.}
+The Cauchy–Schwarz inequality proves that this definition is sensible, by showing that the right-hand side lies in the interval [−1, 1] and justifies the notion that (real) Hilbert spaces are simply generalizations of the Euclidean space. It can also be used to define an angle in complex inner-product spaces, by taking the absolute value or the real part of the right-hand side,[15][16] as is done when extracting a metric from quantum fidelity.
+Let 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ be random variables, then the covariance inequality[17][18] is given by:
+Var
+⁡
+(
+X
+)
+≥
+Cov
+⁡
+(
+X
+,
+Y
+)
+2
+Var
+⁡
+(
+Y
+)
+.
+{\displaystyle \operatorname {Var} (X)\geq {\frac {\operatorname {Cov} (X,Y)^{2}}{\operatorname {Var} (Y)}}.}
+After defining an inner product on the set of random variables using the expectation of their product,
+⟨
+X
+,
+Y
+⟩
+:=
+E
+⁡
+(
+X
+Y
+)
+,
+{\displaystyle \langle X,Y\rangle :=\operatorname {E} (XY),}
+the Cauchy–Schwarz inequality becomes
+|
+E
+⁡
+(
+X
+Y
+)
+|
+2
+≤
+E
+⁡
+(
+X
+2
+)
+E
+⁡
+(
+Y
+2
+)
+.
+{\displaystyle |\operatorname {E} (XY)|^{2}\leq \operatorname {E} (X^{2})\operatorname {E} (Y^{2}).}
+To prove the covariance inequality using the Cauchy–Schwarz inequality, let 
+μ
+=
+E
+⁡
+(
+X
+)
+{\displaystyle \mu =\operatorname {E} (X)}
+ and 
+ν
+=
+E
+⁡
+(
+Y
+)
+,
+{\displaystyle \nu =\operatorname {E} (Y),}
+ then
+|
+Cov
+⁡
+(
+X
+,
+Y
+)
+|
+2
+=
+|
+E
+⁡
+(
+(
+X
+−
+μ
+)
+(
+Y
+−
+ν
+)
+)
+|
+2
+=
+|
+⟨
+X
+−
+μ
+,
+Y
+−
+ν
+⟩
+|
+2
+≤
+⟨
+X
+−
+μ
+,
+X
+−
+μ
+⟩
+⟨
+Y
+−
+ν
+,
+Y
+−
+ν
+⟩
+=
+E
+⁡
+(
+(
+X
+−
+μ
+)
+2
+)
+E
+⁡
+(
+(
+Y
+−
+ν
+)
+2
+)
+=
+Var
+⁡
+(
+X
+)
+Var
+⁡
+(
+Y
+)
+,
+{\displaystyle {\begin{aligned}|\operatorname {Cov} (X,Y)|^{2}&=|\operatorname {E} ((X-\mu )(Y-\nu ))|^{2}\\&=|\langle X-\mu ,Y-\nu \rangle |^{2}\\&\leq \langle X-\mu ,X-\mu \rangle \langle Y-\nu ,Y-\nu \rangle \\&=\operatorname {E} \left((X-\mu )^{2}\right)\operatorname {E} \left((Y-\nu )^{2}\right)\\&=\operatorname {Var} (X)\operatorname {Var} (Y),\end{aligned}}}
+where 
+Var
+{\displaystyle \operatorname {Var} }
+ denotes variance and 
+Cov
+{\displaystyle \operatorname {Cov} }
+ denotes covariance.
+There are many different proofs[19] of the Cauchy–Schwarz inequality other than those given below.[5][7] 
+When consulting other sources, there are often two sources of confusion. First, some authors define ⟨⋅,⋅⟩ to be linear in the second argument rather than the first. 
+Second, some proofs are only valid when the field is 
+R
+{\displaystyle \mathbb {R} }
+ and not 
+C
+.
+{\displaystyle \mathbb {C} .}
+[20]
+This section gives proofs of the following theorem:
+Cauchy–Schwarz inequality — Let 
+u
+{\displaystyle \mathbf {u} }
+ and 
+v
+{\displaystyle \mathbf {v} }
+ be arbitrary vectors in an inner product space over the scalar field 
+F
+,
+{\displaystyle \mathbb {F} ,}
+ where 
+F
+{\displaystyle \mathbb {F} }
+ is the field of real numbers 
+R
+{\displaystyle \mathbb {R} }
+ or complex numbers 
+C
+.
+{\displaystyle \mathbb {C} .}
+ Then
+    (Cauchy–Schwarz Inequality)with equality holding in the Cauchy–Schwarz Inequality if and only if 
+u
+{\displaystyle \mathbf {u} }
+ and 
+v
+{\displaystyle \mathbf {v} }
+ are linearly dependent. 
+Moreover, if 
+|
+⟨
+u
+,
+v
+⟩
+|
+=
+‖
+u
+‖
+‖
+v
+‖
+{\displaystyle |\langle \mathbf {u} ,\mathbf {v} \rangle |=\|\mathbf {u} \|\|\mathbf {v} \|}
+ and 
+v
+≠
+0
+{\displaystyle \mathbf {v} \neq \mathbf {0} }
+ then 
+u
+=
+⟨
+u
+,
+v
+⟩
+‖
+v
+‖
+2
+v
+.
+{\displaystyle \mathbf {u} ={\frac {\langle \mathbf {u} ,\mathbf {v} \rangle }{\|\mathbf {v} \|^{2}}}\mathbf {v} .}
+In all of the proofs given below, the proof in the trivial case where at least one of the vectors is zero (or equivalently, in the case where 
+‖
+u
+‖
+‖
+v
+‖
+=
+0
+{\displaystyle \|\mathbf {u} \|\|\mathbf {v} \|=0}
+) is the same. It is presented immediately below only once to reduce repetition. It also includes the easy part of the proof the Equality Characterization given above; that is, it proves that if 
+u
+{\displaystyle \mathbf {u} }
+ and 
+v
+{\displaystyle \mathbf {v} }
+ are linearly dependent then 
+|
+⟨
+u
+,
+v
+⟩
+|
+=
+‖
+u
+‖
+‖
+v
+‖
+.
+{\displaystyle \left|\langle \mathbf {u} ,\mathbf {v} \rangle \right|=\|\mathbf {u} \|\|\mathbf {v} \|.}
+By definition, 
+u
+{\displaystyle \mathbf {u} }
+ and 
+v
+{\displaystyle \mathbf {v} }
+ are linearly dependent if and only if one is a scalar multiple of the other. 
+If 
+u
+=
+c
+v
+{\displaystyle \mathbf {u} =c\mathbf {v} }
+ where 
+c
+{\displaystyle c}
+ is some scalar then 
+|
+⟨
+u
+,
+v
+⟩
+|
+=
+|
+⟨
+c
+v
+,
+v
+⟩
+|
+=
+|
+c
+⟨
+v
+,
+v
+⟩
+|
+=
+|
+c
+|
+‖
+v
+‖
+‖
+v
+‖
+=
+‖
+c
+v
+‖
+‖
+v
+‖
+=
+‖
+u
+‖
+‖
+v
+‖
+{\displaystyle |\langle \mathbf {u} ,\mathbf {v} \rangle |=|\langle c\mathbf {v} ,\mathbf {v} \rangle |=|c\langle \mathbf {v} ,\mathbf {v} \rangle |=|c|\|\mathbf {v} \|\|\mathbf {v} \|=\|c\mathbf {v} \|\|\mathbf {v} \|=\|\mathbf {u} \|\|\mathbf {v} \|}
+which shows that equality holds in the Cauchy–Schwarz Inequality. 
+The case where 
+v
+=
+c
+u
+{\displaystyle \mathbf {v} =c\mathbf {u} }
+ for some scalar 
+c
+{\displaystyle c}
+ is very similar, with the main difference between the complex conjugation of 
+c
+:
+{\displaystyle c:}
+|
+⟨
+u
+,
+v
+⟩
+|
+=
+|
+⟨
+u
+,
+c
+u
+⟩
+|
+=
+|
+c
+¯
+⟨
+u
+,
+u
+⟩
+|
+=
+|
+c
+¯
+|
+‖
+u
+‖
+‖
+u
+‖
+=
+|
+c
+|
+‖
+u
+‖
+‖
+u
+‖
+=
+‖
+u
+‖
+‖
+c
+u
+‖
+=
+‖
+u
+‖
+‖
+v
+‖
+.
+{\displaystyle |\langle \mathbf {u} ,\mathbf {v} \rangle |=|\langle \mathbf {u} ,c\mathbf {u} \rangle |=\left|{\overline {c}}\langle \mathbf {u} ,\mathbf {u} \rangle \right|=\left|{\overline {c}}\right|\|\mathbf {u} \|\|\mathbf {u} \|=|c|\|\mathbf {u} \|\|\mathbf {u} \|=\|\mathbf {u} \|\|c\mathbf {u} \|=\|\mathbf {u} \|\|\mathbf {v} \|.}
+If at least one of 
+u
+{\displaystyle \mathbf {u} }
+ and 
+v
+{\displaystyle \mathbf {v} }
+ is the zero vector then 
+u
+{\displaystyle \mathbf {u} }
+ and 
+v
+{\displaystyle \mathbf {v} }
+ are necessarily linearly dependent (just scalar multiply the non-zero vector by the number 
+0
+{\displaystyle 0}
+ to get the zero vector; for example, if 
+u
+=
+0
+{\displaystyle \mathbf {u} =\mathbf {0} }
+ then let 
+c
+=
+0
+{\displaystyle c=0}
+ so that 
+u
+=
+c
+v
+{\displaystyle \mathbf {u} =c\mathbf {v} }
+), which proves the converse of this characterization in this special case; that is, this shows that if at least one of 
+u
+{\displaystyle \mathbf {u} }
+ and 
+v
+{\displaystyle \mathbf {v} }
+ is 
+0
+{\displaystyle \mathbf {0} }
+ then the Equality Characterization holds. 
+If 
+u
+=
+0
+,
+{\displaystyle \mathbf {u} =\mathbf {0} ,}
+ which happens if and only if 
+‖
+u
+‖
+=
+0
+,
+{\displaystyle \|\mathbf {u} \|=0,}
+ then 
+‖
+u
+‖
+‖
+v
+‖
+=
+0
+{\displaystyle \|\mathbf {u} \|\|\mathbf {v} \|=0}
+ and 
+|
+⟨
+u
+,
+v
+⟩
+|
+=
+|
+⟨
+0
+,
+v
+⟩
+|
+=
+|
+0
+|
+=
+0
+{\displaystyle |\langle \mathbf {u} ,\mathbf {v} \rangle |=|\langle \mathbf {0} ,\mathbf {v} \rangle |=|0|=0}
+ so that in particular, the Cauchy–Schwarz inequality holds because both sides of it are 
+0.
+{\displaystyle 0.}
+The proof in the case of 
+v
+=
+0
+{\displaystyle \mathbf {v} =\mathbf {0} }
+ is identical. 
+Consequently, the Cauchy–Schwarz inequality only needs to be proven only for non-zero vectors and also only the non-trivial direction of the Equality Characterization must be shown. 
+The special case of 
+v
+=
+0
+{\displaystyle \mathbf {v} =\mathbf {0} }
+ was proven above so it is henceforth assumed that 
+v
+≠
+0
+.
+{\displaystyle \mathbf {v} \neq \mathbf {0} .}
+The Cauchy–Schwarz inequality (and the rest of the theorem) is an almost immediate corollary of the following equality:[21]
+    (Eq. 1)Because the left hand side of Eq. 1 is non-negative, so is the right hand side, which proves that 
+|
+⟨
+u
+,
+v
+⟩
+|
+2
+≤
+‖
+u
+‖
+2
+‖
+v
+‖
+2
+,
+{\displaystyle |\langle \mathbf {u} ,\mathbf {v} \rangle |^{2}\leq \|\mathbf {u} \|^{2}\|\mathbf {v} \|^{2},}
+ from which the Cauchy-Schwarz Inequality follows (by taking the square root of both sides). 
+If 
+|
+⟨
+u
+,
+v
+⟩
+|
+=
+‖
+u
+‖
+‖
+v
+‖
+{\displaystyle |\langle \mathbf {u} ,\mathbf {v} \rangle |=\|\mathbf {u} \|\|\mathbf {v} \|}
+ then the right hand side (and thus also the left hand side) of Eq. 1 is 
+0
+,
+{\displaystyle 0,}
+ which is only possible if 
+‖
+v
+‖
+2
+u
+−
+⟨
+u
+,
+v
+⟩
+v
+=
+0
+.
+{\displaystyle \|\mathbf {v} \|^{2}\mathbf {u} -\langle \mathbf {u} ,\mathbf {v} \rangle \mathbf {v} =\mathbf {0} .}
+[note 1] 
+Thus 
+u
+=
+⟨
+u
+,
+v
+⟩
+‖
+v
+‖
+2
+v
+,
+{\displaystyle \mathbf {u} ={\frac {\langle \mathbf {u} ,\mathbf {v} \rangle }{\|\mathbf {v} \|^{2}}}\mathbf {v} ,}
+ which shows that 
+u
+{\displaystyle \mathbf {u} }
+ and 
+v
+{\displaystyle \mathbf {v} }
+ are linearly dependent.[21] 
+◼
+{\displaystyle \blacksquare }
+Equality Eq. 1 is readily verified by elementarily expanding 
+‖
+‖
+v
+‖
+2
+u
+−
+⟨
+u
+,
+v
+⟩
+v
+‖
+2
+{\displaystyle \left\|\|\mathbf {v} \|^{2}\mathbf {u} -\langle \mathbf {u} ,\mathbf {v} \rangle \mathbf {v} \right\|^{2}}
+ (via the definition of the norm) and then simplifying:
+Let 
+V
+=
+‖
+v
+‖
+2
+{\displaystyle V=\|\mathbf {v} \|^{2}}
+ and 
+c
+=
+⟨
+u
+,
+v
+⟩
+{\displaystyle c=\langle \mathbf {u} ,\mathbf {v} \rangle }
+ so that 
+c
+¯
+c
+=
+|
+c
+|
+2
+=
+|
+⟨
+u
+,
+v
+⟩
+|
+2
+{\displaystyle {\bar {c}}c=|c|^{2}=|\langle \mathbf {u} ,\mathbf {v} \rangle |^{2}}
+ and 
+c
+¯
+=
+⟨
+u
+,
+v
+⟩
+¯
+=
+⟨
+v
+,
+u
+⟩
+.
+{\displaystyle {\bar {c}}={\overline {\langle \mathbf {u} ,\mathbf {v} \rangle }}=\langle \mathbf {v} ,\mathbf {u} \rangle .}
+Then
+‖
+‖
+v
+‖
+2
+u
+−
+⟨
+u
+,
+v
+⟩
+v
+‖
+2
+=
+‖
+V
+u
+−
+c
+v
+‖
+2
+=
+⟨
+V
+u
+−
+c
+v
+,
+V
+u
+−
+c
+v
+⟩
+ 
+ By definition of the norm 
+=
+⟨
+V
+u
+,
+V
+u
+⟩
+−
+⟨
+V
+u
+,
+c
+v
+⟩
+−
+⟨
+c
+v
+,
+V
+u
+⟩
++
+⟨
+c
+v
+,
+c
+v
+⟩
+ 
+ Expand 
+=
+V
+2
+⟨
+u
+,
+u
+⟩
+−
+V
+c
+¯
+⟨
+u
+,
+v
+⟩
+−
+c
+V
+⟨
+v
+,
+u
+⟩
++
+c
+c
+¯
+⟨
+v
+,
+v
+⟩
+ 
+ Pull out scalars (note that 
+V
+:=
+‖
+v
+‖
+2
+ is real) 
+=
+V
+2
+‖
+u
+‖
+2
+ 
+ 
+−
+V
+c
+¯
+c
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+−
+c
+V
+c
+¯
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
++
+c
+c
+¯
+V
+ 
+ Use definitions of 
+c
+:=
+⟨
+u
+,
+v
+⟩
+ and 
+V
+=
+V
+2
+‖
+u
+‖
+2
+ 
+ 
+−
+V
+c
+¯
+c
+ 
+=
+ 
+V
+[
+V
+‖
+u
+‖
+2
+−
+c
+¯
+c
+]
+ 
+ Simplify 
+=
+‖
+v
+‖
+2
+[
+‖
+u
+‖
+2
+‖
+v
+‖
+2
+−
+|
+⟨
+u
+,
+v
+⟩
+|
+2
+]
+ 
+ Rewrite in terms of 
+u
+ and 
+v
+.
+{\displaystyle {\begin{alignedat}{4}\left\|\|\mathbf {v} \|^{2}\mathbf {u} -\langle \mathbf {u} ,\mathbf {v} \rangle \mathbf {v} \right\|^{2}&=\|V\mathbf {u} -c\mathbf {v} \|^{2}=\langle V\mathbf {u} -c\mathbf {v} ,V\mathbf {u} -c\mathbf {v} \rangle &&~\quad {\text{ By definition of the norm }}\\[0.5ex]&=\langle V\mathbf {u} ,V\mathbf {u} \rangle -\langle V\mathbf {u} ,c\mathbf {v} \rangle -\langle c\mathbf {v} ,V\mathbf {u} \rangle +\langle c\mathbf {v} ,c\mathbf {v} \rangle &&~\quad {\text{ Expand }}\\[0.5ex]&=V^{2}\langle \mathbf {u} ,\mathbf {u} \rangle -V{\bar {c}}\langle \mathbf {u} ,\mathbf {v} \rangle -cV\langle \mathbf {v} ,\mathbf {u} \rangle \,+c{\bar {c}}\langle \mathbf {v} ,\mathbf {v} \rangle &&~\quad {\text{ Pull out scalars (note that }}V:=\|\mathbf {v} \|^{2}{\text{ is real) }}\\[0.5ex]&=V^{2}\|\mathbf {u} \|^{2}~~-V{\bar {c}}c~~~~~~~~-cV{\bar {c}}~~~~~~~~+c{\bar {c}}V&&~\quad {\text{ Use definitions of }}c:=\langle \mathbf {u} ,\mathbf {v} \rangle {\text{ and }}V\\[0.5ex]&=V^{2}\|\mathbf {u} \|^{2}~~-V{\bar {c}}c~=~V\left[V\|\mathbf {u} \|^{2}-{\bar {c}}c\right]&&~\quad {\text{ Simplify }}\\[0.5ex]&=\|\mathbf {v} \|^{2}\left[\|\mathbf {u} \|^{2}\|\mathbf {v} \|^{2}-|\langle \mathbf {u} ,\mathbf {v} \rangle |^{2}\right]&&~\quad {\text{ Rewrite in terms of }}\mathbf {u} {\text{ and }}\mathbf {v} .\\\end{alignedat}}}
+Dividing by 
+‖
+v
+‖
+2
+≠
+0
+{\displaystyle \|\mathbf {v} \|^{2}\neq 0}
+ completes the proof. 
+◼
+{\displaystyle \blacksquare }
+This expansion does not require 
+v
+{\displaystyle \mathbf {v} }
+ to be non-zero; however, 
+v
+{\displaystyle \mathbf {v} }
+ must be non-zero in order to divide both sides by 
+‖
+v
+‖
+2
+{\displaystyle \|\mathbf {v} \|^{2}}
+ and to deduce the Cauchy–Schwarz inequality from it. 
+Swapping 
+u
+{\displaystyle \mathbf {u} }
+ and 
+v
+{\displaystyle \mathbf {v} }
+ gives rise to:
+‖
+‖
+u
+‖
+2
+v
+−
+⟨
+u
+,
+v
+⟩
+¯
+u
+‖
+2
+ 
+=
+ 
+‖
+u
+‖
+2
+[
+‖
+u
+‖
+2
+‖
+v
+‖
+2
+−
+|
+⟨
+u
+,
+v
+⟩
+|
+2
+]
+{\displaystyle \left\|\|\mathbf {u} \|^{2}\mathbf {v} -{\overline {\langle \mathbf {u} ,\mathbf {v} \rangle }}\mathbf {u} \right\|^{2}~=~\|\mathbf {u} \|^{2}\left[\|\mathbf {u} \|^{2}\|\mathbf {v} \|^{2}-|\langle \mathbf {u} ,\mathbf {v} \rangle |^{2}\right]}
+and thus
+‖
+u
+‖
+2
+‖
+v
+‖
+2
+[
+‖
+u
+‖
+2
+‖
+v
+‖
+2
+−
+|
+⟨
+u
+,
+v
+⟩
+|
+2
+]
+ 
+=
+ 
+‖
+u
+‖
+2
+‖
+‖
+v
+‖
+2
+u
+−
+⟨
+u
+,
+v
+⟩
+v
+‖
+2
+ 
+=
+ 
+‖
+v
+‖
+2
+‖
+‖
+u
+‖
+2
+v
+−
+⟨
+u
+,
+v
+⟩
+¯
+u
+‖
+2
+.
+{\displaystyle {\begin{alignedat}{4}\|\mathbf {u} \|^{2}\|\mathbf {v} \|^{2}\left[\|\mathbf {u} \|^{2}\|\mathbf {v} \|^{2}-|\langle \mathbf {u} ,\mathbf {v} \rangle |^{2}\right]~&=~\|\mathbf {u} \|^{2}\left\|\|\mathbf {v} \|^{2}\mathbf {u} -\langle \mathbf {u} ,\mathbf {v} \rangle \mathbf {v} \right\|^{2}\\~&=~\|\mathbf {v} \|^{2}\left\|\|\mathbf {u} \|^{2}\mathbf {v} -{\overline {\langle \mathbf {u} ,\mathbf {v} \rangle }}\mathbf {u} \right\|^{2}.\\\end{alignedat}}}
+The special case of 
+v
+=
+0
+{\displaystyle \mathbf {v} =\mathbf {0} }
+ was proven above so it is henceforth assumed that 
+v
+≠
+0
+.
+{\displaystyle \mathbf {v} \neq \mathbf {0} .}
+Let
+z
+:=
+u
+−
+⟨
+u
+,
+v
+⟩
+⟨
+v
+,
+v
+⟩
+v
+.
+{\displaystyle \mathbf {z} :=\mathbf {u} -{\frac {\langle \mathbf {u} ,\mathbf {v} \rangle }{\langle \mathbf {v} ,\mathbf {v} \rangle }}\mathbf {v} .}
+It follows from the linearity of the inner product in its first argument that:
+⟨
+z
+,
+v
+⟩
+=
+⟨
+u
+−
+⟨
+u
+,
+v
+⟩
+⟨
+v
+,
+v
+⟩
+v
+,
+v
+⟩
+=
+⟨
+u
+,
+v
+⟩
+−
+⟨
+u
+,
+v
+⟩
+⟨
+v
+,
+v
+⟩
+⟨
+v
+,
+v
+⟩
+=
+0.
+{\displaystyle \langle \mathbf {z} ,\mathbf {v} \rangle =\left\langle \mathbf {u} -{\frac {\langle \mathbf {u} ,\mathbf {v} \rangle }{\langle \mathbf {v} ,\mathbf {v} \rangle }}\mathbf {v} ,\mathbf {v} \right\rangle =\langle \mathbf {u} ,\mathbf {v} \rangle -{\frac {\langle \mathbf {u} ,\mathbf {v} \rangle }{\langle \mathbf {v} ,\mathbf {v} \rangle }}\langle \mathbf {v} ,\mathbf {v} \rangle =0.}
+Therefore, 
+z
+{\displaystyle \mathbf {z} }
+ is a vector orthogonal to the vector 
+v
+{\displaystyle \mathbf {v} }
+ (Indeed, 
+z
+{\displaystyle \mathbf {z} }
+ is the projection of 
+u
+{\displaystyle \mathbf {u} }
+ onto the plane orthogonal to 
+v
+.
+{\displaystyle \mathbf {v} .}
+) We can thus apply the Pythagorean theorem to
+u
+=
+⟨
+u
+,
+v
+⟩
+⟨
+v
+,
+v
+⟩
+v
++
+z
+{\displaystyle \mathbf {u} ={\frac {\langle \mathbf {u} ,\mathbf {v} \rangle }{\langle \mathbf {v} ,\mathbf {v} \rangle }}\mathbf {v} +\mathbf {z} }
+which gives
+‖
+u
+‖
+2
+=
+|
+⟨
+u
+,
+v
+⟩
+⟨
+v
+,
+v
+⟩
+|
+2
+‖
+v
+‖
+2
++
+‖
+z
+‖
+2
+=
+|
+⟨
+u
+,
+v
+⟩
+|
+2
+(
+‖
+v
+‖
+2
+)
+2
+‖
+v
+‖
+2
++
+‖
+z
+‖
+2
+=
+|
+⟨
+u
+,
+v
+⟩
+|
+2
+‖
+v
+‖
+2
++
+‖
+z
+‖
+2
+≥
+|
+⟨
+u
+,
+v
+⟩
+|
+2
+‖
+v
+‖
+2
+.
+{\displaystyle \|\mathbf {u} \|^{2}=\left|{\frac {\langle \mathbf {u} ,\mathbf {v} \rangle }{\langle \mathbf {v} ,\mathbf {v} \rangle }}\right|^{2}\|\mathbf {v} \|^{2}+\|\mathbf {z} \|^{2}={\frac {|\langle \mathbf {u} ,\mathbf {v} \rangle |^{2}}{(\|\mathbf {v} \|^{2})^{2}}}\,\|\mathbf {v} \|^{2}+\|\mathbf {z} \|^{2}={\frac {|\langle \mathbf {u} ,\mathbf {v} \rangle |^{2}}{\|\mathbf {v} \|^{2}}}+\|\mathbf {z} \|^{2}\geq {\frac {|\langle \mathbf {u} ,\mathbf {v} \rangle |^{2}}{\|\mathbf {v} \|^{2}}}.}
+The Cauchy–Schwarz inequality follows by multiplying by 
+‖
+v
+‖
+2
+{\displaystyle \|\mathbf {v} \|^{2}}
+ and then taking the square root. 
+Moreover, if the relation 
+≥
+{\displaystyle \geq }
+ in the above expression is actually an equality, then 
+‖
+z
+‖
+2
+=
+0
+{\displaystyle \|\mathbf {z} \|^{2}=0}
+ and hence 
+z
+=
+0
+;
+{\displaystyle \mathbf {z} =\mathbf {0} ;}
+ the definition of 
+z
+{\displaystyle \mathbf {z} }
+ then establishes a relation of linear dependence between 
+u
+{\displaystyle \mathbf {u} }
+ and 
+v
+.
+{\displaystyle \mathbf {v} .}
+ The converse was proved at the beginning of this section, so the proof is complete. 
+◼
+{\displaystyle \blacksquare }
+Let 
+(
+V
+,
+⟨
+⋅
+,
+⋅
+⟩
+)
+{\displaystyle (V,\langle \cdot ,\cdot \rangle )}
+ be a real inner product space. Consider an arbitrary pair 
+u
+,
+v
+∈
+V
+{\displaystyle \mathbf {u} ,\mathbf {v} \in V}
+ and the function 
+p
+:
+R
+→
+R
+{\displaystyle p:\mathbb {R} \to \mathbb {R} }
+ defined by 
+p
+(
+t
+)
+=
+⟨
+t
+u
++
+v
+,
+t
+u
++
+v
+⟩
+.
+{\displaystyle p(t)=\langle t\mathbf {u} +\mathbf {v} ,t\mathbf {u} +\mathbf {v} \rangle .}
+Since the inner product is positive-definite, 
+p
+(
+t
+)
+{\displaystyle p(t)}
+ only takes non-negative values. On the other hand, 
+p
+(
+t
+)
+{\displaystyle p(t)}
+ can be expanded using the bilinearity of the inner product and using the fact that 
+⟨
+u
+,
+v
+⟩
+=
+⟨
+v
+,
+u
+⟩
+{\displaystyle \langle \mathbf {u} ,\mathbf {v} \rangle =\langle \mathbf {v} ,\mathbf {u} \rangle }
+ for real inner products:
+p
+(
+t
+)
+=
+‖
+u
+‖
+2
+t
+2
++
+t
+[
+⟨
+u
+,
+v
+⟩
++
+⟨
+v
+,
+u
+⟩
+]
++
+‖
+v
+‖
+2
+=
+‖
+u
+‖
+2
+t
+2
++
+2
+t
+⟨
+u
+,
+v
+⟩
++
+‖
+v
+‖
+2
+.
+{\displaystyle p(t)=\Vert \mathbf {u} \Vert ^{2}t^{2}+t\left[\langle \mathbf {u} ,\mathbf {v} \rangle +\langle \mathbf {v} ,\mathbf {u} \rangle \right]+\Vert \mathbf {v} \Vert ^{2}=\Vert \mathbf {u} \Vert ^{2}t^{2}+2t\langle \mathbf {u} ,\mathbf {v} \rangle +\Vert \mathbf {v} \Vert ^{2}.}
+Thus, 
+p
+{\displaystyle p}
+ is a polynomial of degree 
+2
+{\displaystyle 2}
+ (unless 
+u
+=
+0
+,
+{\displaystyle u=0,}
+ which is a case that can be independently verified). Since the sign of 
+p
+{\displaystyle p}
+ does not change, the discriminant of this polynomial must be non-positive:
+Δ
+=
+4
+(
+⟨
+u
+,
+v
+⟩
+2
+−
+‖
+u
+‖
+2
+‖
+v
+‖
+2
+)
+⩽
+0.
+{\displaystyle \Delta =4\left(\langle \mathbf {u} ,\mathbf {v} \rangle ^{2}-\Vert \mathbf {u} \Vert ^{2}\Vert \mathbf {v} \Vert ^{2}\right)\leqslant 0.}
+The conclusion follows.
+For the equality case, notice that 
+Δ
+=
+0
+{\displaystyle \Delta =0}
+ happens if and only if 
+p
+(
+t
+)
+=
+(
+t
+‖
+u
+‖
++
+‖
+v
+‖
+)
+2
+.
+{\displaystyle p(t)=(t\Vert \mathbf {u} \Vert +\Vert \mathbf {v} \Vert )^{2}.}
+ If 
+t
+0
+=
+−
+‖
+v
+‖
+/
+‖
+u
+‖
+,
+{\displaystyle t_{0}=-\Vert \mathbf {v} \Vert /\Vert \mathbf {u} \Vert ,}
+ then 
+p
+(
+t
+0
+)
+=
+⟨
+t
+0
+u
++
+v
+,
+t
+0
+u
++
+v
+⟩
+=
+0
+,
+{\displaystyle p(t_{0})=\langle t_{0}\mathbf {u} +\mathbf {v} ,t_{0}\mathbf {u} +\mathbf {v} \rangle =0,}
+ and hence 
+v
+=
+−
+t
+0
+u
+.
+{\displaystyle \mathbf {v} =-t_{0}\mathbf {u} .}
+The Cauchy–Schwarz inequality in the case where the inner product is the dot product on 
+R
+n
+{\displaystyle \mathbb {R} ^{n}}
+ is now proven.
+The Cauchy–Schwarz inequality may be rewritten as 
+|
+a
+⋅
+b
+|
+2
+≤
+‖
+a
+‖
+2
+‖
+b
+‖
+2
+{\displaystyle \left|\mathbf {a} \cdot \mathbf {b} \right|^{2}\leq \left\|\mathbf {a} \right\|^{2}\,\left\|\mathbf {b} \right\|^{2}}
+ or equivalently, 
+(
+a
+⋅
+b
+)
+2
+≤
+(
+a
+⋅
+a
+)
+(
+b
+⋅
+b
+)
+{\displaystyle \left(\mathbf {a} \cdot \mathbf {b} \right)^{2}\leq \left(\mathbf {a} \cdot \mathbf {a} \right)\,\left(\mathbf {b} \cdot \mathbf {b} \right)}
+ for 
+a
+:=
+(
+a
+1
+,
+…
+,
+a
+n
+)
+,
+b
+:=
+(
+b
+1
+,
+…
+,
+b
+n
+)
+∈
+R
+n
+,
+{\displaystyle \mathbf {a} :=\left(a_{1},\ldots ,a_{n}\right),\mathbf {b} :=\left(b_{1},\ldots ,b_{n}\right)\in \mathbb {R} ^{n},}
+ which expands to:
+(
+a
+1
+2
++
+a
+2
+2
++
+⋯
++
+a
+n
+2
+)
+(
+b
+1
+2
++
+b
+2
+2
++
+⋯
++
+b
+n
+2
+)
+≥
+(
+a
+1
+b
+1
++
+a
+2
+b
+2
++
+⋯
++
+a
+n
+b
+n
+)
+2
+.
+{\displaystyle \left(a_{1}^{2}+a_{2}^{2}+\cdots +a_{n}^{2}\right)\left(b_{1}^{2}+b_{2}^{2}+\cdots +b_{n}^{2}\right)\geq \left(a_{1}b_{1}+a_{2}b_{2}+\cdots +a_{n}b_{n}\right)^{2}.}
+To simplify, let 
+A
+=
+a
+1
+2
++
+a
+2
+2
++
+⋯
++
+a
+n
+2
+,
+B
+=
+b
+1
+2
++
+b
+2
+2
++
+⋯
++
+b
+n
+2
+D
+=
+a
+1
+b
+1
++
+a
+2
+b
+2
++
+⋯
++
+a
+n
+b
+n
+{\displaystyle {\begin{aligned}A&=a_{1}^{2}+a_{2}^{2}+\cdots +a_{n}^{2},\\B&=b_{1}^{2}+b_{2}^{2}+\cdots +b_{n}^{2}\\D&=a_{1}b_{1}+a_{2}b_{2}+\cdots +a_{n}b_{n}\\\end{aligned}}}
+so that the statement that remains to be to proven can be written as 
+A
+B
+≥
+D
+2
+,
+{\displaystyle AB\geq D^{2},}
+ which can be rearranged to 
+D
+2
+−
+A
+B
+≤
+0.
+{\displaystyle D^{2}-AB\leq 0.}
+ The discriminant of the quadratic equation 
+A
+x
+2
++
+2
+D
+x
++
+B
+{\displaystyle Ax^{2}+2Dx+B}
+ is 
+4
+D
+2
+−
+4
+A
+B
+.
+{\displaystyle 4D^{2}-4AB.}
+Therefore, to complete the proof it is sufficient to prove that this quadratic either has no real roots or exactly one real root, because this will imply: 
+4
+(
+D
+2
+−
+A
+B
+)
+≤
+0.
+{\displaystyle 4\left(D^{2}-AB\right)\leq 0.}
+Substituting the values of 
+A
+,
+B
+,
+D
+{\displaystyle A,B,D}
+ into 
+A
+x
+2
++
+2
+D
+x
++
+B
+{\displaystyle Ax^{2}+2Dx+B}
+ gives:
+A
+x
+2
++
+2
+D
+x
++
+B
+=
+(
+a
+1
+2
++
+a
+2
+2
++
+⋯
++
+a
+n
+2
+)
+x
+2
++
+2
+(
+a
+1
+b
+1
++
+a
+2
+b
+2
++
+⋯
++
+a
+n
+b
+n
+)
+x
++
+(
+b
+1
+2
++
+b
+2
+2
++
+⋯
++
+b
+n
+2
+)
+=
+(
+a
+1
+2
+x
+2
++
+2
+a
+1
+b
+1
+x
++
+b
+1
+2
+)
++
+(
+a
+2
+2
+x
+2
++
+2
+a
+2
+b
+2
+x
++
+b
+2
+2
+)
++
+⋯
++
+(
+a
+n
+2
+x
+2
++
+2
+a
+n
+b
+n
+x
++
+b
+n
+2
+)
+=
+(
+a
+1
+x
++
+b
+1
+)
+2
++
+(
+a
+2
+x
++
+b
+2
+)
+2
++
+⋯
++
+(
+a
+n
+x
++
+b
+n
+)
+2
+≥
+0
+{\displaystyle {\begin{alignedat}{4}Ax^{2}+2Dx+B&=\left(a_{1}^{2}+a_{2}^{2}+\cdots +a_{n}^{2}\right)x^{2}+2\left(a_{1}b_{1}+a_{2}b_{2}+\cdots +a_{n}b_{n}\right)x+\left(b_{1}^{2}+b_{2}^{2}+\cdots +b_{n}^{2}\right)\\&=\left(a_{1}^{2}x^{2}+2a_{1}b_{1}x+b_{1}^{2}\right)+\left(a_{2}^{2}x^{2}+2a_{2}b_{2}x+b_{2}^{2}\right)+\cdots +\left(a_{n}^{2}x^{2}+2a_{n}b_{n}x+b_{n}^{2}\right)\\&=\left(a_{1}x+b_{1}\right)^{2}+\left(a_{2}x+b_{2}\right)^{2}+\cdots +\left(a_{n}x+b_{n}\right)^{2}\\&\geq 0\end{alignedat}}}
+which is a sum of terms that are each 
+≥
+0
+{\displaystyle \,\geq 0\,}
+ by the trivial inequality: 
+r
+2
+≥
+0
+{\displaystyle r^{2}\geq 0}
+ for all 
+r
+∈
+R
+.
+{\displaystyle r\in \mathbb {R} .}
+This proves the inequality and so to finish the proof, it remains to show that equality is achievable.
+The equality 
+a
+i
+x
+=
+−
+b
+i
+{\displaystyle a_{i}x=-b_{i}}
+ is the equality case for Cauchy–Schwarz after inspecting 
+(
+a
+1
+x
++
+b
+1
+)
+2
++
+(
+a
+2
+x
++
+b
+2
+)
+2
++
+⋯
++
+(
+a
+n
+x
++
+b
+n
+)
+2
+≥
+0
+,
+{\displaystyle \left(a_{1}x+b_{1}\right)^{2}+\left(a_{2}x+b_{2}\right)^{2}+\cdots +\left(a_{n}x+b_{n}\right)^{2}\geq 0,}
+which proves that equality is achievable. 
+◼
+{\displaystyle \blacksquare }
+Various generalizations of the Cauchy–Schwarz inequality exist. Hölder's inequality generalizes it to 
+L
+p
+{\displaystyle L^{p}}
+ norms. More generally, it can be interpreted as a special case of the definition of the norm of a linear operator on a Banach space (Namely, when the space is a Hilbert space).  Further generalizations are in the context of operator theory, e.g. for operator-convex functions and operator algebras, where the domain and/or range are replaced by a C*-algebra or W*-algebra.
+An inner product can be used to define a positive linear functional. For example, given a Hilbert space 
+L
+2
+(
+m
+)
+,
+m
+{\displaystyle L^{2}(m),m}
+ being a finite measure, the standard inner product gives rise to a positive functional 
+φ
+{\displaystyle \varphi }
+ by 
+φ
+(
+g
+)
+=
+⟨
+g
+,
+1
+⟩
+.
+{\displaystyle \varphi (g)=\langle g,1\rangle .}
+  Conversely, every positive linear functional 
+φ
+{\displaystyle \varphi }
+ on 
+L
+2
+(
+m
+)
+{\displaystyle L^{2}(m)}
+ can be used to define an  inner product 
+⟨
+f
+,
+g
+⟩
+φ
+:=
+φ
+(
+g
+∗
+f
+)
+,
+{\displaystyle \langle f,g\rangle _{\varphi }:=\varphi \left(g^{*}f\right),}
+ where 
+g
+∗
+{\displaystyle g^{*}}
+ is the pointwise complex conjugate of 
+g
+.
+{\displaystyle g.}
+ In this language, the Cauchy–Schwarz inequality becomes[22]
+|
+φ
+(
+g
+∗
+f
+)
+|
+2
+≤
+φ
+(
+f
+∗
+f
+)
+φ
+(
+g
+∗
+g
+)
+,
+{\displaystyle \left|\varphi \left(g^{*}f\right)\right|^{2}\leq \varphi \left(f^{*}f\right)\varphi \left(g^{*}g\right),}
+which extends verbatim to positive functionals on C*-algebras:
+Cauchy–Schwarz inequality for  positive functionals on C*-algebras[23][24] — If 
+φ
+{\displaystyle \varphi }
+ is a positive linear functional on a C*-algebra 
+A
+,
+{\displaystyle A,}
+ then for all 
+a
+,
+b
+∈
+A
+,
+{\displaystyle a,b\in A,}
+|
+φ
+(
+b
+∗
+a
+)
+|
+2
+≤
+φ
+(
+b
+∗
+b
+)
+φ
+(
+a
+∗
+a
+)
+.
+{\displaystyle \left|\varphi \left(b^{*}a\right)\right|^{2}\leq \varphi \left(b^{*}b\right)\varphi \left(a^{*}a\right).}
+The next two theorems are further examples in operator algebra.
+Kadison–Schwarz inequality[25][26] (Named after Richard Kadison) — If 
+φ
+{\displaystyle \varphi }
+ is a unital positive map, then for every normal element 
+a
+{\displaystyle a}
+ in its domain, we have 
+φ
+(
+a
+∗
+a
+)
+≥
+φ
+(
+a
+∗
+)
+φ
+(
+a
+)
+{\displaystyle \varphi (a^{*}a)\geq \varphi \left(a^{*}\right)\varphi (a)}
+ and 
+φ
+(
+a
+∗
+a
+)
+≥
+φ
+(
+a
+)
+φ
+(
+a
+∗
+)
+.
+{\displaystyle \varphi \left(a^{*}a\right)\geq \varphi (a)\varphi \left(a^{*}\right).}
+This extends the fact 
+φ
+(
+a
+∗
+a
+)
+⋅
+1
+≥
+φ
+(
+a
+)
+∗
+φ
+(
+a
+)
+=
+|
+φ
+(
+a
+)
+|
+2
+,
+{\displaystyle \varphi \left(a^{*}a\right)\cdot 1\geq \varphi (a)^{*}\varphi (a)=|\varphi (a)|^{2},}
+ when 
+φ
+{\displaystyle \varphi }
+ is a linear functional. The case when 
+a
+{\displaystyle a}
+ is self-adjoint, that is, 
+a
+=
+a
+∗
+,
+{\displaystyle a=a^{*},}
+ is sometimes known as Kadison's inequality.
+Cauchy–Schwarz inequality (Modified Schwarz inequality for 2-positive maps[27]) — For a 2-positive map 
+φ
+{\displaystyle \varphi }
+ between C*-algebras, for all 
+a
+,
+b
+{\displaystyle a,b}
+ in its domain,
+φ
+(
+a
+)
+∗
+φ
+(
+a
+)
+≤
+‖
+φ
+(
+1
+)
+‖
+φ
+(
+a
+∗
+a
+)
+,
+ and 
+{\displaystyle \varphi (a)^{*}\varphi (a)\leq \Vert \varphi (1)\Vert \varphi \left(a^{*}a\right),{\text{ and }}}
+‖
+φ
+(
+a
+∗
+b
+)
+‖
+2
+≤
+‖
+φ
+(
+a
+∗
+a
+)
+‖
+⋅
+‖
+φ
+(
+b
+∗
+b
+)
+‖
+.
+{\displaystyle \Vert \varphi \left(a^{*}b\right)\Vert ^{2}\leq \Vert \varphi \left(a^{*}a\right)\Vert \cdot \Vert \varphi \left(b^{*}b\right)\Vert .}
+Another generalization is a refinement obtained by interpolating between both sides of the Cauchy–Schwarz inequality:  
+Callebaut's Inequality[28] — For reals 
+0
+⩽
+s
+⩽
+t
+⩽
+1
+,
+{\displaystyle 0\leqslant s\leqslant t\leqslant 1,}
+(
+∑
+i
+=
+1
+n
+a
+i
+b
+i
+)
+2
+ 
+⩽
+ 
+(
+∑
+i
+=
+1
+n
+a
+i
+1
++
+s
+b
+i
+1
+−
+s
+)
+(
+∑
+i
+=
+1
+n
+a
+i
+1
+−
+s
+b
+i
+1
++
+s
+)
+ 
+⩽
+ 
+(
+∑
+i
+=
+1
+n
+a
+i
+1
++
+t
+b
+i
+1
+−
+t
+)
+(
+∑
+i
+=
+1
+n
+a
+i
+1
+−
+t
+b
+i
+1
++
+t
+)
+ 
+⩽
+ 
+(
+∑
+i
+=
+1
+n
+a
+i
+2
+)
+(
+∑
+i
+=
+1
+n
+b
+i
+2
+)
+.
+{\displaystyle \left(\sum _{i=1}^{n}a_{i}b_{i}\right)^{2}~\leqslant ~\left(\sum _{i=1}^{n}a_{i}^{1+s}b_{i}^{1-s}\right)\left(\sum _{i=1}^{n}a_{i}^{1-s}b_{i}^{1+s}\right)~\leqslant ~\left(\sum _{i=1}^{n}a_{i}^{1+t}b_{i}^{1-t}\right)\left(\sum _{i=1}^{n}a_{i}^{1-t}b_{i}^{1+t}\right)~\leqslant ~\left(\sum _{i=1}^{n}a_{i}^{2}\right)\left(\sum _{i=1}^{n}b_{i}^{2}\right).}
+This theorem can be deduced from Hölder's inequality.[29] There are also non commutative versions for operators and tensor products of matrices.[30]
+A survey of matrix versions of Cauchy–Schwarz inequality and Kantorovich inequality is available.
+[31]

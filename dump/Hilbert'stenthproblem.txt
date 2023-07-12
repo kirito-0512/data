@@ -1,0 +1,498 @@
+13676,
+Hilbert'stenthproblem,
+Hilbert's tenth problem is the tenth on the list of mathematical problems that the German mathematician David Hilbert posed in 1900.  It is the challenge to provide a general algorithm which, for any given Diophantine equation (a polynomial equation with integer coefficients and a finite number of unknowns), can decide whether the equation has a solution with all unknowns taking integer values.
+For example, the Diophantine equation 
+
+
+
+3
+
+x
+
+2
+
+
+−
+2
+x
+y
+−
+
+y
+
+2
+
+
+z
+−
+7
+=
+0
+
+
+{\displaystyle 3x^{2}-2xy-y^{2}z-7=0}
+
+ has an integer solution: 
+
+
+
+x
+=
+1
+,
+ 
+y
+=
+2
+,
+ 
+z
+=
+−
+2
+
+
+{\displaystyle x=1,\ y=2,\ z=-2}
+
+. By contrast, the Diophantine equation 
+
+
+
+
+x
+
+2
+
+
++
+
+y
+
+2
+
+
++
+1
+=
+0
+
+
+{\displaystyle x^{2}+y^{2}+1=0}
+
+ has no such solution.
+Hilbert's tenth problem has been solved, and it has a negative answer: such a general algorithm cannot exist. This is the result of combined work of Martin Davis, Yuri Matiyasevich, Hilary Putnam and Julia Robinson which spans 21 years, with Matiyasevich completing the theorem in 1970.[1] The theorem is now known as Matiyasevich's theorem or the MRDP theorem (an initialism for the surnames of the four principal contributors to its solution).
+When all coefficients and variables are restricted to be positive integers, the related problem of polynomial identity testing becomes a decidable (exponentiation-free) variation of Tarski's high school algebra problem, sometimes denoted 
+
+
+
+
+
+
+H
+S
+I
+
+¯
+
+
+.
+
+
+{\displaystyle {\overline {HSI}}.}
+
+[2]
+Hilbert formulated the problem as follows:[3]
+Given a Diophantine equation with any number of unknown quantities and with rational integral numerical coefficients: To devise a process according to which it can be determined in a finite number of operations whether the equation is solvable in rational integers.The words "process" and "finite number of operations" have been taken to mean that Hilbert was asking for an algorithm. The term "rational integral" simply refers to the integers, positive, negative or zero: 0, ±1, ±2, ... .  So Hilbert was asking for a general algorithm to decide whether a given polynomial Diophantine equation with integer coefficients has a solution in integers.
+Hilbert's problem is not concerned with finding the solutions. It only asks whether, in general, we can decide whether one or more solutions exist. The answer to this question is negative, in the sense that no "process can be devised" for answering that question. In modern terms, Hilbert's 10th problem is an undecidable problem. Although it is unlikely that Hilbert had conceived of such a possibility, before going on to list the problems, he did presciently remark:[4]
+Occasionally it happens that we seek the solution under insufficient hypotheses or in an incorrect sense, and for this reason do not succeed. The problem then arises: to show the impossibility of the solution under the given hypotheses or in the sense contemplated.Proving the 10th problem undecidable is then a valid answer even in Hilbert's terms, since it is a proof about "the impossibility of the solution".
+In a Diophantine equation, there are two kinds of variables: the parameters and the unknowns. The Diophantine set consists of the parameter assignments for which the Diophantine equation is solvable. A typical example is the linear Diophantine equation in two unknowns,
+where the equation is solvable when the greatest common divisor of 
+
+
+
+
+a
+
+1
+
+
+,
+
+a
+
+2
+
+
+
+
+{\displaystyle a_{1},a_{2}}
+
+ divides 
+
+
+
+
+a
+
+3
+
+
+
+
+{\displaystyle a_{3}}
+
+. The values for 
+
+
+
+
+a
+
+1
+
+
+,
+
+a
+
+2
+
+
+,
+
+a
+
+3
+
+
+
+
+{\displaystyle a_{1},a_{2},a_{3}}
+
+ that satisfy this restriction are a Diophantine set and the equation above is its Diophantine definition.
+Diophantine definitions can be provided by simultaneous systems of equations as well as by individual equations because the system
+is equivalent to the single equation
+Sets of natural numbers, of pairs of natural numbers (or even of n-tuples of natural numbers) that have Diophantine definitions are called Diophantine sets. In these terms, Hilbert's tenth problem asks whether there is an algorithm to determine if a given Diophantine set is non-empty.
+The work on the problem has been in terms of solutions in natural numbers (understood as the non-negative integers) rather than arbitrary integers. The two problems are equivalent: any general algorithm that can decide whether a given Diophantine equation has an integer solution could be modified into an algorithm that decides whether a given Diophantine equation has a natural number solution, and vice versa. This can be seen as follows: The requirement that solutions be natural numbers can be expressed with the help of Lagrange's four-square theorem: every natural number is the sum of the squares of four integers, so we simply replace every parameter with the sum of squares of four extra parameters. Similarly, since every integer can be written as the difference of two natural numbers, we can replace every parameter that ranges in integers with the difference of two parameters that range in natural numbers.[5]
+A recursively enumerable set can be characterized as one for which there exists an algorithm that will ultimately halt when a member of the set is provided as input, but may continue indefinitely when the input is a non-member. It was the development of computability theory (also known as recursion theory) that provided a precise explication of the intuitive notion of algorithmic computability, thus making the notion of recursive enumerability perfectly rigorous. It is evident that Diophantine sets are recursively enumerable (a.k.a. semi-decidable). This is because one can arrange all possible tuples of values of the unknowns in a sequence and then, for a given value of the parameter(s), test these tuples, one after another, to see whether they are solutions of the corresponding equation. The unsolvability of Hilbert's tenth problem is a consequence of the surprising fact that the converse is true:
+Every recursively enumerable set is Diophantine.This result is variously known as Matiyasevich's theorem (because he provided the crucial step that completed the proof) and the MRDP theorem (for Yuri Matiyasevich, Julia Robinson, Martin Davis, and Hilary Putnam). Because there exists a recursively enumerable set that is not computable, the unsolvability of Hilbert's tenth problem is an immediate consequence. In fact, more can be said: there is a polynomial 
+with integer coefficients such that the set of values of 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ for which the equation
+has solutions in natural numbers is not computable. So, not only is there no general algorithm for testing Diophantine equations for solvability, even for this one parameter family of equations, there is no algorithm.
+where 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is a polynomial with integer coefficients. Purely formally, it is only the bounded universal quantifier that stands in the way of this being a Diophantine definition.
+Using a non-constructive but easy proof, he derives as a corollary to this normal form that the set of Diophantine sets is not closed under complementation, by showing that there exists a Diophantine set whose complement is not Diophantine. Because the recursively enumerable sets also are not closed under complementation, he conjectures that the two classes are identical.
+Using properties of the Pell equation, she proves that J.R. implies that EXP is Diophantine, as well as the binomial coefficients, the factorial, and the primes.
+The Matiyasevich/MRDP Theorem relates two notions – one from computability theory, the other from number theory — and has some surprising consequences. Perhaps the most surprising is the existence of a universal Diophantine equation:
+This is true simply because Diophantine sets, being equal to recursively enumerable sets, are also equal to Turing machines. It is a well known property of Turing machines that there exist universal Turing machines, capable of executing any algorithm.
+Hilary Putnam has pointed out that for any Diophantine set 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ of positive integers, there is a polynomial
+such that 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ consists of exactly the positive numbers among the values assumed by 
+
+
+
+q
+
+
+{\displaystyle q}
+
+ as
+the variables
+range over all natural numbers. This can be seen as follows: If
+provides a Diophantine definition of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+, then it suffices to set
+So, for example, there is a polynomial for which the positive part of its range is exactly the prime numbers. (On the other hand, no polynomial can only take on prime values.) The same holds for other recursively enumerable sets of natural numbers: the factorial, the binomial coefficients, the fibonacci numbers, etc.
+Other applications concern what logicians refer to as 
+
+
+
+
+Π
+
+1
+
+
+0
+
+
+
+
+{\displaystyle \Pi _{1}^{0}}
+
+ propositions, sometimes also called propositions of Goldbach type.[9] These are like Goldbach's conjecture, in stating that all natural numbers possess a certain property that is algorithmically checkable for each particular number.[10] The Matiyasevich/MRDP theorem implies that each such proposition is equivalent to a statement that asserts that some particular Diophantine equation has no solutions in natural numbers.[11] A number of important and celebrated problems are of this form: in particular, Fermat's Last Theorem, the Riemann hypothesis, and the Four color theorem. In addition the assertion that particular formal systems such as Peano arithmetic or ZFC are consistent can be expressed as 
+
+
+
+
+Π
+
+1
+
+
+0
+
+
+
+
+{\displaystyle \Pi _{1}^{0}}
+
+ sentences. The idea is to follow Kurt Gödel in coding proofs by natural numbers in such a way that the property of being the number representing a proof is algorithmically checkable.
+
+
+
+
+
+Π
+
+1
+
+
+0
+
+
+
+
+{\displaystyle \Pi _{1}^{0}}
+
+ sentences have the special property that if they are false, that fact will be provable in any of the usual formal systems. This is because the falsity amounts to the existence of a counter-example which can be verified by simple arithmetic. So if a 
+
+
+
+
+Π
+
+1
+
+
+0
+
+
+
+
+{\displaystyle \Pi _{1}^{0}}
+
+ sentence is such that neither it nor its negation is provable in one of these systems, that sentence must be true.[citation needed]
+A particularly striking form of Gödel's incompleteness theorem is also a consequence of the Matiyasevich/MRDP theorem:
+Let
+provide a Diophantine definition of a non-computable set. Let 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ be an algorithm that outputs a sequence of natural numbers 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ such that the corresponding equation
+has no solutions in natural numbers. Then there is a number 
+
+
+
+
+n
+
+0
+
+
+
+
+{\displaystyle n_{0}}
+
+ which is not output by 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ while in fact the equation
+
+has no solutions in natural numbers.To see that the theorem is true, it suffices to notice that if there were no such number 
+
+
+
+
+n
+
+0
+
+
+
+
+{\displaystyle n_{0}}
+
+, one could algorithmically test membership of a number 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ in this non-computable set by simultaneously running the algorithm 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ to see whether 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ is output while also checking all possible 
+
+
+
+k
+
+
+{\displaystyle k}
+
+-tuples of natural numbers seeking a solution of the equation
+and we may associate an algorithm 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ with any of the usual formal systems such as Peano arithmetic or ZFC by letting it systematically generate consequences of the axioms and then output a number 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ whenever a sentence of the form
+is generated. Then the theorem tells us that either a false statement of this form is proved or a true one remains unproved in the system in question.
+We may speak of the degree of a Diophantine set as being the least degree of a polynomial in an equation defining that set. Similarly, we can call the dimension of such a set the fewest unknowns in a defining equation. Because of the existence of a universal Diophantine equation, it is clear that there are absolute upper bounds to both of these quantities, and there has been much interest in determining these bounds.
+Already in the 1920s Thoralf Skolem showed that any Diophantine equation is equivalent to one of degree 4 or less. His trick was to introduce new unknowns by equations setting them equal to the square of an unknown or the product of two unknowns. Repetition of this process results in a system of second degree equations; then an equation of degree 4 is obtained by summing the squares. So every Diophantine set is trivially of degree 4 or less. It is not known whether this result is best possible.
+Julia Robinson and Yuri Matiyasevich showed that every Diophantine set has dimension no greater than 13. Later, Matiyasevich sharpened their methods to show that 9 unknowns suffice. Although it may well be that this result is not the best possible, there has been no further progress.[12] So, in particular, there is no algorithm for testing Diophantine equations with 9 or fewer unknowns for solvability in natural numbers. For the case of rational integer solutions (as Hilbert had originally posed it), the 4-squares trick shows that there is no algorithm for equations with no more than 36 unknowns. But Zhi Wei Sun showed that the problem for integers is unsolvable even for equations with no more than 11 unknowns.
+Martin Davis studied algorithmic questions involving the number of solutions of a Diophantine equation. Hilbert's tenth problem asks whether or not that number is 0. Let 
+
+
+
+A
+=
+{
+0
+,
+1
+,
+2
+,
+3
+,
+…
+,
+
+ℵ
+
+0
+
+
+}
+
+
+{\displaystyle A=\{0,1,2,3,\ldots ,\aleph _{0}\}}
+
+ and let 
+
+
+
+C
+
+
+{\displaystyle C}
+
+ be a proper non-empty subset of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+. Davis proved that there is no algorithm to test a given Diophantine equation to determine whether the number of its solutions is a member of the set 
+
+
+
+C
+
+
+{\displaystyle C}
+
+. Thus there is no algorithm to determine whether the number of solutions of a Diophantine equation is finite, odd, a perfect square, a prime, etc.
+The proof of the MRDP theorem has been formalized in Coq.[13]
+Although Hilbert posed the problem for the rational integers, it can be just as well asked for many rings (in particular, for any ring whose number of elements is countable). Obvious examples are the rings of integers of algebraic number fields as well as the rational numbers.
+There has been much work on Hilbert's tenth problem for the rings of integers of algebraic number fields. Basing themselves on earlier work by Jan Denef and Leonard Lipschitz and using class field theory, Harold N. Shapiro and Alexandra Shlapentokh were able to prove:
+Hilbert's tenth problem is unsolvable for the ring of integers of any algebraic number field whose Galois group over the rationals is abelian.Shlapentokh and Thanases Pheidas (independently of one another) obtained the same result for algebraic number fields admitting exactly one pair of complex conjugate embeddings.
+The problem for the ring of integers of algebraic number fields other than those covered by the results above remains open. Likewise, despite much interest, the problem for equations over the rationals remains open. Barry Mazur has conjectured that for any variety over the rationals, the topological closure over the reals of the set of solutions has only finitely many components.[14] This conjecture implies that the integers are not Diophantine over the rationals and so if this conjecture is true a negative answer to Hilbert's Tenth Problem would require a different approach than that used for other rings.
+
+

@@ -1,0 +1,83 @@
+25855,
+Regulargrammar,
+In theoretical computer science and formal language theory, a regular grammar is a grammar that is right-regular or left-regular.
+While their exact definition varies from textbook to textbook, they all require that
+Every regular grammar describes a regular language.
+A right-regular grammar (also called right-linear grammar) is a formal grammar (N, Σ, P, S) in which all production rules in P are of one of the following forms:
+where A, B, S ∈ N are non-terminal symbols, a ∈ Σ is a terminal symbol, and ε denotes the empty string, i.e. the string of length 0. S is called the start symbol.
+In a  left-regular grammar, (also called left-linear grammar), all rules obey the forms
+The language described by a given grammar is the set of all strings that contain only terminal symbols and can be derived from the start symbol by repeated application of production rules. Two grammars are called weakly equivalent if they describe the same language.
+Rules of both kinds must not be mixed; for example, the grammar with rule set { S→aT, T→Sb, S→ε } is not regular, and describes the language 
+
+
+
+{
+
+a
+
+i
+
+
+
+b
+
+i
+
+
+:
+i
+∈
+
+N
+
+}
+
+
+{\displaystyle \{a^{i}b^{i}:i\in \mathbb {N} \}}
+
+, which is not regular, either.
+Some textbooks and articles disallow empty production rules, and assume that the empty string is not present in languages.
+An extended right-regular grammar is one in which all rules obey one of
+Some authors call this type of grammar a right-regular grammar (or right-linear grammar)[1] and the type above a strictly right-regular grammar (or strictly right-linear grammar).[2]
+An extended left-regular grammar is one in which all rules obey one of
+An example of a right-regular grammar G with N = {S, A}, Σ = {a, b, c}, P consists of the following rules
+and S is the start symbol. This grammar describes the same language as the regular expression a*bc*, viz. the set of all strings consisting of arbitrarily many "a"s, followed by a single "b", followed by arbitrarily many "c"s.
+A somewhat longer but more explicit extended right-regular grammar G for the same regular expression is given by N = {S, A, B, C}, Σ = {a, b, c}, where P consists of the following rules:
+...where each uppercase letter corresponds to phrases starting at the next position in the regular expression.
+As an example from the area of programming languages, the set of all strings denoting a floating point number can be described by an extended right-regular grammar G with N = {S,A,B,C,D,E,F}, Σ = {0,1,2,3,4,5,6,7,8,9,+,−,.,e}, where S is the start symbol, and P consists of the following rules:
+There is a direct one-to-one correspondence between the rules of a (strictly) right-regular grammar and those of a nondeterministic finite automaton, such that the grammar generates exactly the language the automaton accepts.[3]  Hence, the right-regular grammars generate exactly all regular languages. The left-regular grammars describe the reverses of all such languages, that is, exactly the regular languages as well.
+Every strict right-regular grammar is extended right-regular, while every extended right-regular grammar can be made strict by inserting new non-terminals, such that the result generates the same language; hence, extended right-regular grammars generate the regular languages as well. Analogously, so do the extended left-regular grammars.
+If empty productions are disallowed, only all regular languages that do not include the empty string can be generated.[4]
+While regular grammars can only describe regular languages, the converse is not true: regular languages can also be described by non-regular grammars.
+If mixing of left-regular and right-regular rules is allowed, we still have a linear grammar, but not necessarily a regular one.
+What is more, such a grammar need not generate a regular language: all linear grammars can be easily brought into this form, and hence, such grammars can generate exactly all linear languages, including non-regular ones.
+For instance, the grammar G with N = {S, A}, Σ = {a, b}, P with start symbol S and rules
+generates 
+
+
+
+{
+
+a
+
+i
+
+
+
+b
+
+i
+
+
+:
+i
+≥
+0
+}
+
+
+{\displaystyle \{a^{i}b^{i}:i\geq 0\}}
+
+, the paradigmatic non-regular linear language.
+
+

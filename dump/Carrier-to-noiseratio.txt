@@ -1,0 +1,26 @@
+40850,
+Carrier-to-noiseratio,
+In telecommunications, the carrier-to-noise ratio, often written CNR or C/N, is the signal-to-noise ratio (SNR) of a modulated signal. The term is used to distinguish the CNR of the radio frequency passband signal from the SNR of an analog base band message signal after demodulation. For example, with FM radio, the strength of the 100 MHz carrier with modulations would be considered for CNR, whereas the audio frequency analogue message signal would be for SNR; in each case, compared to the apparent noise. If this distinction is not necessary, the term SNR is often used instead of CNR, with the same definition.
+Digitally modulated signals (e.g. QAM or PSK) are basically made of two CW carriers (the I and Q components, which are out-of-phase carriers). In fact, the information (bits or symbols) is carried by given combinations of phase and/or amplitude of the I and Q components. It is for this reason that, in the context of digital modulations, digitally modulated signals are usually referred to as carriers. Therefore, the term carrier-to-noise-ratio (CNR), instead of signal-to-noise-ratio (SNR), is preferred to express the signal quality when the signal has been digitally modulated.
+High C/N ratios provide good quality of reception, for example low bit error rate (BER) of a digital message signal, or high SNR of an analog message signal.
+The carrier-to-noise ratio is defined as the ratio of the received modulated carrier signal power C to the received noise power N after the receiver filters:
+When both carrier and noise are measured across the same impedance, this ratio can equivalently be given as:
+where 
+V
+C
+{\displaystyle V_{C}}
+ and 
+V
+N
+{\displaystyle V_{N}}
+ are the root mean square (RMS) voltage levels of the carrier signal and noise respectively.
+C/N ratios are often specified in decibels (dB):
+or in term of voltage:
+The C/N ratio is measured in a manner similar to the way the signal-to-noise ratio (S/N) is measured, and both specifications give an indication of the quality of a communications channel.
+In the famous Shannon–Hartley theorem, the C/N ratio is equivalent to the S/N ratio. The C/N ratio resembles the carrier-to-interference ratio (C/I, CIR), and the carrier-to-noise-and-interference ratio, C/(N+I) or CNIR.
+C/N estimators are needed to optimize the receiver performance.[1] Typically, it is easier to measure  the total power than the ratio of signal power to noise power (or noise power spectral density), and that is why CNR estimation techniques are timely and important.
+In satellite communications, carrier-to-noise-density ratio (C/N0) is the ratio of the carrier power C to the noise power density N0, expressed in dB-Hz.
+When considering only the receiver as a source of noise, it is called carrier-to-receiver-noise-density ratio.
+It determines whether a receiver can lock on to the carrier and if the information encoded in the signal can be retrieved, given the amount of noise present in the received signal. The carrier-to-receiver noise density ratio is usually expressed in dB-Hz.
+The noise power density, N0=kT, is the receiver noise power per hertz, which can be written in terms of the Boltzmann constant k (in joules per kelvin) and the noise temperature T  (in kelvins).
+ This article incorporates public domain material from Federal Standard 1037C. General Services Administration. (in support of MIL-STD-188).

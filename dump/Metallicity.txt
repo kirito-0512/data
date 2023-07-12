@@ -1,0 +1,530 @@
+19606,
+Metallicity,
+In astronomy, metallicity is the abundance of elements present in an object that are heavier than hydrogen and helium. Most of the normal currently detectable (i.e. non-dark) matter in the universe is either hydrogen or helium, and astronomers use the word "metals" as a convenient short term for "all elements except hydrogen and helium". This word-use is distinct from the conventional chemical or physical definition of a metal as an electrically conducting solid. Stars and nebulae with relatively high abundances of heavier elements are called "metal-rich" in astrophysical terms, even though many of those elements are nonmetals in chemistry.
+The presence of heavier elements hails from stellar nucleosynthesis, where the majority of elements heavier than hydrogen and helium in the Universe (metals, hereafter) are formed in the cores of stars as they evolve. Over time, stellar winds and supernovae deposit the metals into the surrounding environment, enriching the interstellar medium and providing recycling materials for the birth of new stars. It follows that older generations of stars, which formed in the metal-poor early Universe, generally have lower metallicities than those of younger generations, which formed in a more metal-rich Universe.
+Observed changes in the chemical abundances of different types of stars, based on the spectral peculiarities that were later attributed to metallicity, led astronomer Walter Baade in 1944 to propose the existence of two different populations of stars.[1]
+These became commonly known as population I (metal-rich) and population II (metal-poor) stars. A third, earliest stellar population was hypothesized in 1978, known as population III stars.[2][3][4] These "extremely metal-poor" (XMP) stars are theorized to have been the "first-born" stars created in the Universe.
+Astronomers use several different methods to describe and approximate metal abundances, depending on the available tools and the object of interest. Some methods include determining the fraction of mass that is attributed to gas versus metals, or measuring the ratios of the number of atoms of two different elements as compared to the ratios found in the Sun.
+Stellar composition is often simply defined by the parameters X, Y, and Z. Here X represents the mass fraction of hydrogen, Y is the mass fraction of helium, and Z is the mass fraction of all the remaining chemical elements. Thus
+In most stars, nebulae, HII regions, and other astronomical sources, hydrogen and helium are the two dominant elements. The hydrogen mass fraction is generally expressed as 
+
+
+
+ 
+X
+≡
+
+
+
+
+m
+
+
+H
+
+
+
+M
+
+
+
+ 
+,
+
+
+{\displaystyle \ X\equiv {\tfrac {m_{\mathsf {H}}}{M}}\ ,}
+
+ where M is the total mass of the system, and 
+
+
+
+ 
+
+m
+
+
+H
+
+
+
+ 
+
+
+{\displaystyle \ m_{\mathsf {H}}\ }
+
+ is the mass of the hydrogen it contains. Similarly, the helium mass fraction is denoted as 
+
+
+
+ 
+Y
+≡
+
+
+
+
+m
+
+
+H
+e
+
+
+
+M
+
+
+
+ 
+.
+
+
+{\displaystyle \ Y\equiv {\tfrac {m_{\mathsf {He}}}{M}}~.}
+
+ The remainder of the elements are collectively referred to as "metals", and the metallicity – the mass fraction of elements heavier than helium – is calculated as
+For the surface of the Sun (symbol 
+
+
+
+⊙
+
+
+{\displaystyle \odot }
+
+), these parameters are measured to have the following values:[5]
+Due to the effects of stellar evolution, neither the initial composition nor the present day bulk composition of the Sun is the same as its present-day surface composition.
+The overall stellar metallicity is conventionally defined using the total hydrogen content, since its abundance is considered to be relatively constant in the Universe, or the iron content of the star, which has an abundance that is generally linearly increasing in time in the Universe.[6]
+Hence, iron can be used as a chronological indicator of nucleosynthesis. Iron is relatively easy to measure with spectral observations in the star's spectrum given the large number of iron lines in the star's spectra (even though oxygen is the most abundant heavy element – see metallicities in HII regions below). The abundance ratio is the common logarithm of the ratio of a star's iron abundance compared to that of the Sun and is calculated thus:[7]
+where 
+
+
+
+ 
+
+N
+
+
+F
+e
+
+
+
+ 
+
+
+{\displaystyle \ N_{\mathsf {Fe}}\ }
+
+ and 
+
+
+
+ 
+
+N
+
+
+H
+
+
+
+ 
+
+
+{\displaystyle \ N_{\mathsf {H}}\ }
+
+ are the number of iron and hydrogen atoms per unit of volume respectively, 
+
+
+
+⊙
+
+
+{\displaystyle \odot }
+
+ is the standard symbol for the Sun, and 
+
+
+
+⋆
+
+
+{\displaystyle \star }
+
+ for a star (often omitted below). The unit often used for metallicity is the dex, contraction of "decimal exponent". By this formulation, stars with a higher metallicity than the Sun have a positive common logarithm, whereas those more dominated by hydrogen have a corresponding negative value. For example, stars with a 
+
+
+
+ 
+
+
+[
+
+
+
+
+
+
+F
+e
+
+
+H
+
+
+
+
+
+
+
+]
+
+
+
+⋆
+
+
+ 
+
+
+{\displaystyle \ {\bigl [}{\tfrac {\mathsf {Fe}}{\mathsf {H}}}{\bigr ]}_{\star }\ }
+
+ value of +1 have 10 times the metallicity of the Sun (10+1); conversely, those with a 
+
+
+
+ 
+
+
+[
+
+
+
+
+
+
+F
+e
+
+
+H
+
+
+
+
+
+
+
+]
+
+
+
+⋆
+
+
+ 
+
+
+{\displaystyle \ {\bigl [}{\tfrac {\mathsf {Fe}}{\mathsf {H}}}{\bigr ]}_{\star }\ }
+
+ value of −1 have 1/10, while those with a 
+
+
+
+ 
+
+
+[
+
+
+
+
+
+
+F
+e
+
+
+H
+
+
+
+
+
+
+
+]
+
+
+
+⋆
+
+
+ 
+
+
+{\displaystyle \ {\bigl [}{\tfrac {\mathsf {Fe}}{\mathsf {H}}}{\bigr ]}_{\star }\ }
+
+ value of 0 have the same metallicity as the Sun, and so on.[8]
+Young population I stars have significantly higher iron-to-hydrogen ratios than older population II stars. Primordial population III stars are estimated to have metallicity less than −6, a millionth of the abundance of iron in the Sun.[9][10]
+The same notation is used to express variations in abundances between other individual elements as compared to solar proportions. For example, the notation 
+
+
+
+ 
+
+
+[
+
+
+
+
+
+
+O
+
+
+F
+e
+
+
+
+
+
+
+]
+
+
+ 
+
+
+{\displaystyle \ {\bigl [}{\tfrac {\mathsf {O}}{\mathsf {Fe}}}{\bigr ]}\ }
+
+ represents the difference in the logarithm of the star's oxygen abundance versus its iron content compared to that of the Sun. In general, a given stellar nucleosynthetic process alters the proportions of only a few elements or isotopes, so a star or gas sample with certain 
+
+
+
+ 
+
+
+[
+
+
+
+
+
+
+?
+
+
+F
+e
+
+
+
+
+
+
+
+]
+
+
+
+⋆
+
+
+ 
+
+
+{\displaystyle \ {\bigl [}{\tfrac {\mathsf {?}}{\mathsf {Fe}}}{\bigr ]}_{\star }\ }
+
+ values may well be indicative of an associated, studied nuclear process.
+Astronomers can estimate metallicities through measured and calibrated systems that correlate photometric measurements and spectroscopic measurements (see also Spectrophotometry). For example, the Johnson UVB filters can be used to detect an ultraviolet (UV) excess in stars,[11]
+where a smaller UV excess indicates a larger presence of metals that absorb the UV radiation, thereby making the star appear "redder".[12][13][14]
+The UV excess, δ(U−B), is defined as the difference between a star's U and B band magnitudes, compared to the difference between U and B band magnitudes of metal-rich stars in the Hyades cluster.[15]
+Unfortunately, δ(U−B) is sensitive to both metallicity and temperature: If two stars are equally metal-rich, but one is cooler than the other, they will likely have different δ(U−B) values[15] (see also Blanketing effect[16][17]).
+To help mitigate this degeneracy, a star's B−V color index can be used as an indicator for temperature. Furthermore, the UV excess and B−V index can be corrected to relate the δ(U−B) value to iron abundances.[18][19][20]
+Other photometric systems that can be used to determine metallicities of certain astrophysical objects include the Strӧmgren system,[21][22]
+the Geneva system,[23][24] the Washington system,[25][26]
+and the DDO system.[27][28]
+At a given mass and age, a metal-poor star will be slightly warmer. Population II stars' metallicities are roughly 1/1000 to 1/10 of the Sun's 
+
+
+
+
+(
+
+ 
+
+
+[
+
+
+
+
+
+
+F
+e
+
+
+H
+
+
+
+
+
+
+]
+
+
+ 
+=
+
+−
+3.0
+
+ 
+.
+.
+.
+ 
+
+−
+1.0
+
+ 
+
+)
+
+ 
+,
+
+
+{\displaystyle \left(\ {\bigl [}{\tfrac {\mathsf {Fe}}{\mathsf {H}}}{\bigr ]}\ ={-3.0}\ ...\ {-1.0}\ \right)\ ,}
+
+  but the group appears cooler than population I overall, as heavy population II stars have long since died. Above 40 solar masses, metallicity influences how a star will die: Outside the pair-instability window, lower metallicity stars will collapse directly to a black hole, while higher metallicity stars undergo a type Ib/c supernova and may leave a neutron star.
+A star's metallicity measurement is one parameter that helps determine whether a star may have a giant planet, as there is a direct correlation between metallicity and the presence of a giant planet. Measurements have demonstrated the connection between a star's metallicity and gas giant planets, like Jupiter and Saturn. The more metals in a star and thus its planetary system and protoplanetary disk, the more likely the system may have gas giant planets. Current models show that the metallicity along with the correct planetary system temperature and distance from the star are key to planet and planetesimal formation. For two stars that have equal age and mass but different metallicity, the less metallic star is bluer. Among stars of the same color, less metallic stars emit more ultraviolet radiation. The Sun, with eight planets and five known dwarf planets, is used as the reference, with a 
+
+
+
+ 
+
+
+[
+
+
+
+
+
+
+F
+e
+
+
+H
+
+
+
+
+
+
+]
+
+
+ 
+
+
+{\displaystyle \ {\bigl [}{\tfrac {\mathsf {Fe}}{\mathsf {H}}}{\bigr ]}\ }
+
+ of 0.00.[29][30][31][32][33]
+Young, massive and hot stars (typically of spectral types O and B) in HII regions emit UV photons that ionize ground-state hydrogen atoms, knocking electrons and protons free; this process is known as photoionization. The free electrons can strike other atoms nearby, exciting bound metallic electrons into a metastable state, which eventually decay back into a ground state, emitting photons with energies that correspond to forbidden lines. Through these transitions, astronomers have developed several observational methods to estimate metal abundances in HII regions, where the stronger the forbidden lines in spectroscopic observations, the higher the metallicity.[34][35] These methods are dependent on one or more of the following: the variety of asymmetrical densities inside HII regions, the varied temperatures of the embedded stars, and/or the electron density within the ionized region.[36][37][38][39]
+Theoretically, to determine the total abundance of a single element in an HII region, all transition lines should be observed and summed. However, this can be observationally difficult due to variation in line strength.[40][41] Some of the most common forbidden lines used to determine metal abundances in HII regions are from oxygen (e.g. [OII] λ = (3727, 7318, 7324) Å, and [OIII] λ = (4363, 4959, 5007) Å), nitrogen (e.g. [NII] λ = (5755, 6548, 6584) Å), and sulfur (e.g. [SII] λ = (6717 ,6731) Å and [SIII] λ = (6312, 9069, 9531) Å) in the optical spectrum, and the [OIII] λ = (52, 88) μm and [NIII] λ = 57 μm lines in the infrared spectrum. Oxygen has some of the stronger, more abundant lines in HII regions, making it a main target for metallicity estimates within these objects. To calculate metal abundances in HII regions using oxygen flux measurements, astronomers often use the R23 method, in which
+where 
+
+
+
+ 
+
+
+[
+
+ 
+
+
+
+O
+
+
+
+
+I
+I
+
+
+
+
+]
+
+
+3727
+ 
+
+
+Å
+
+
+
+
++
+
+
+[
+
+ 
+
+
+
+O
+
+
+
+
+I
+I
+I
+
+
+
+
+]
+
+
+4959
+ 
+
+
+Å
+
+
++
+5007
+ 
+
+
+Å
+
+
+
+
+ 
+
+
+{\displaystyle \ \left[\ {\mathsf {O}}^{\mathsf {II}}\right]_{3727~\mathrm {\AA} }+\left[\ {\mathsf {O}}^{\mathsf {III}}\right]_{4959~\mathrm {\AA} +5007~\mathrm {\AA} }\ }
+
+ is the sum of the fluxes from oxygen emission lines measured at the rest frame λ = (3727, 4959 and 5007) Å wavelengths, divided by the flux from the Balmer series Hβ emission line at the rest frame λ = 4861 Å wavelength.[42]
+This ratio is well defined through models and observational studies,[43][44][45] but caution should be taken, as the ratio is often degenerate, providing both a low and high metallicity solution, which can be broken with additional line measurements.[46]
+Similarly, other strong forbidden line ratios can be used, e.g. for sulfur, where[47]
+Metal abundances within HII regions are typically less than 1%, with the percentage decreasing on average with distance from the Galactic Center.[40][48][49][50][51]
+In November 2022, astronomers, using the Hubble Space Telescope, discovered one of the most metal-poor galaxies known. This nearby dwarf galaxy, 20 million ly away and 1,200 ly across, is named HIPASS J1131–31 (nicknamed the "Peekaboo" Galaxy).[52][53] According to one of the astronomers, "Due to Peekaboo’s proximity to us, we can conduct detailed observations, opening up possibilities of seeing an environment resembling the early universe in unprecedented detail."[54]
+
+

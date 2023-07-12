@@ -1,0 +1,1925 @@
+24877,
+Pell'sequation,
+
+Pell's equation, also called the Pell–Fermat equation, is any Diophantine equation of the form 
+
+
+
+
+x
+
+2
+
+
+−
+n
+
+y
+
+2
+
+
+=
+1
+,
+
+
+{\displaystyle x^{2}-ny^{2}=1,}
+
+ where n is a given positive nonsquare integer, and integer solutions are sought for x and y. In Cartesian coordinates, the equation is represented by a hyperbola; solutions occur wherever the curve passes through a point whose x and y coordinates are both integers, such as the trivial solution with x = 1 and y = 0. Joseph Louis Lagrange proved that, as long as n is not a perfect square, Pell's equation has infinitely many distinct integer solutions. These solutions may be used to accurately approximate the square root of n by rational numbers of the form x/y.
+This equation was first studied extensively in India starting with Brahmagupta,[1] who found an integer solution to 
+
+
+
+92
+
+x
+
+2
+
+
++
+1
+=
+
+y
+
+2
+
+
+
+
+{\displaystyle 92x^{2}+1=y^{2}}
+
+ in his Brāhmasphuṭasiddhānta circa 628.[2] Bhaskara II in the 12th century and Narayana Pandit in the 14th century both found general solutions to Pell's equation and other quadratic indeterminate equations. Bhaskara II is generally credited with developing the chakravala method, building on the work of  Jayadeva and Brahmagupta. Solutions to specific examples of Pell's equation, such as the Pell numbers arising from the equation with n = 2, had been known for much longer, since the time of Pythagoras in Greece and a similar date in India. William Brouncker was the first European to solve Pell's equation. The name of Pell's equation arose from Leonhard Euler mistakenly attributing Brouncker's solution of the equation to John Pell.[3][4][note 1]
+As early as 400 BC in India and Greece, mathematicians studied the numbers arising from the n = 2 case of Pell's equation,
+and from the closely related equation
+because of the connection of these equations to the square root of 2.[5] Indeed, if x and y are positive integers satisfying this equation, then x/y is an approximation of √2. The numbers x and y appearing in these approximations, called side and diameter numbers, were known to the Pythagoreans, and Proclus observed that in the opposite direction these numbers obeyed one of these two equations.[5] Similarly, Baudhayana discovered that x = 17, y = 12 and x = 577, y = 408 are two solutions to the Pell equation, and that 17/12 and 577/408 are very close approximations to the square root of 2.[6]
+Later, Archimedes approximated the square root of 3 by the rational number 1351/780. Although he did not explain his methods, this approximation may be obtained in the same way, as a solution to Pell's equation.[5]
+Likewise, Archimedes's cattle problem — an ancient word problem about finding the number of cattle belonging to the sun god Helios — can be solved by reformulating it as a Pell's equation. The manuscript containing the problem states that it was devised by Archimedes and recorded in a letter to Eratosthenes,[7] and the attribution to Archimedes is generally accepted today.[8][9]
+Around AD 250, Diophantus considered the equation
+where a and c are fixed numbers, and x and y are the variables to be solved for.
+This equation is different in form from Pell's equation but equivalent to it.
+Diophantus solved the equation for (a, c) equal to (1, 1), (1, −1), (1, 12), and (3, 9). Al-Karaji, a 10th-century Persian mathematician, worked on similar problems to Diophantus.[10]
+In Indian mathematics, Brahmagupta discovered that
+a form of what is now known as Brahmagupta's identity. Using this, he was able to "compose" triples 
+
+
+
+(
+
+x
+
+1
+
+
+,
+
+y
+
+1
+
+
+,
+
+k
+
+1
+
+
+)
+
+
+{\displaystyle (x_{1},y_{1},k_{1})}
+
+ and 
+
+
+
+(
+
+x
+
+2
+
+
+,
+
+y
+
+2
+
+
+,
+
+k
+
+2
+
+
+)
+
+
+{\displaystyle (x_{2},y_{2},k_{2})}
+
+ that were solutions of 
+
+
+
+
+x
+
+2
+
+
+−
+N
+
+y
+
+2
+
+
+=
+k
+
+
+{\displaystyle x^{2}-Ny^{2}=k}
+
+, to generate the new triples
+Not only did this give a way to generate infinitely many solutions to 
+
+
+
+
+x
+
+2
+
+
+−
+N
+
+y
+
+2
+
+
+=
+1
+
+
+{\displaystyle x^{2}-Ny^{2}=1}
+
+ starting with one solution, but also, by dividing such a composition by 
+
+
+
+
+k
+
+1
+
+
+
+k
+
+2
+
+
+
+
+{\displaystyle k_{1}k_{2}}
+
+, integer or "nearly integer" solutions could often be obtained. For instance, for 
+
+
+
+N
+=
+92
+
+
+{\displaystyle N=92}
+
+, Brahmagupta composed the triple (10, 1, 8) (since 
+
+
+
+
+10
+
+2
+
+
+−
+92
+(
+
+1
+
+2
+
+
+)
+=
+8
+
+
+{\displaystyle 10^{2}-92(1^{2})=8}
+
+) with itself to get the new triple (192, 20, 64). Dividing throughout by 64 ("8" for 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+) gave the triple (24, 5/2, 1), which when composed with itself gave the desired integer solution (1151, 120, 1). Brahmagupta solved many Pell's equations with this method, proving that it gives solutions starting from an integer solution of 
+
+
+
+
+x
+
+2
+
+
+−
+N
+
+y
+
+2
+
+
+=
+k
+
+
+{\displaystyle x^{2}-Ny^{2}=k}
+
+ for k = ±1, ±2, or ±4.[11]
+The first general method for solving the Pell's equation (for all N) was given by Bhāskara II in 1150, extending the methods of Brahmagupta. Called the chakravala (cyclic) method, it starts by choosing two relatively prime integers 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+, then composing the triple 
+
+
+
+(
+a
+,
+b
+,
+k
+)
+
+
+{\displaystyle (a,b,k)}
+
+ (that is, one which satisfies 
+
+
+
+
+a
+
+2
+
+
+−
+N
+
+b
+
+2
+
+
+=
+k
+
+
+{\displaystyle a^{2}-Nb^{2}=k}
+
+) with the trivial triple 
+
+
+
+(
+m
+,
+1
+,
+
+m
+
+2
+
+
+−
+N
+)
+
+
+{\displaystyle (m,1,m^{2}-N)}
+
+ to get the triple 
+
+
+
+
+
+(
+
+
+a
+m
++
+N
+b
+,
+a
++
+b
+m
+,
+k
+(
+
+m
+
+2
+
+
+−
+N
+)
+
+
+)
+
+
+
+
+{\displaystyle {\big (}am+Nb,a+bm,k(m^{2}-N){\big )}}
+
+, which can be scaled down to
+When 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ is chosen so that 
+
+
+
+
+
+
+a
++
+b
+m
+
+k
+
+
+
+
+{\displaystyle {\frac {a+bm}{k}}}
+
+ is an integer, so are the other two numbers in the triple. Among such 
+
+
+
+m
+
+
+{\displaystyle m}
+
+, the method chooses one that minimizes 
+
+
+
+
+
+
+
+m
+
+2
+
+
+−
+N
+
+k
+
+
+
+
+{\displaystyle {\frac {m^{2}-N}{k}}}
+
+ and repeats the process. This method always terminates with a solution. Bhaskara used it to give the solution x = 1766319049, y = 226153980 to the N = 61 case.[11]
+Several European mathematicians rediscovered how to solve Pell's equation in the 17th century. Pierre de Fermat found how to solve the equation and in a 1657 letter issued it as a challenge to English mathematicians.[12] In a letter to Kenelm Digby, Bernard Frénicle de Bessy said that Fermat found the smallest solution for N up to 150 and challenged John Wallis to solve the cases N = 151 or 313. Both Wallis and William Brouncker gave solutions to these problems, though Wallis suggests in a letter that the solution was due to Brouncker.[13]
+John Pell's connection with the equation is that he revised Thomas Branker's translation[14] of Johann Rahn's 1659 book Teutsche Algebra[note 2] into English, with a discussion of Brouncker's solution of the equation. Leonhard Euler mistakenly thought that this solution was due to Pell, as a result of which he named the equation after Pell.[4]
+The general theory of Pell's equation, based on continued fractions and algebraic manipulations with numbers of the form 
+
+
+
+P
++
+Q
+
+
+a
+
+
+,
+
+
+{\displaystyle P+Q{\sqrt {a}},}
+
+ was developed by Lagrange in 1766–1769.[15] In particular, Lagrange gave a proof that the Brouncker-Wallis algorithm always terminates.
+Let 
+
+
+
+
+h
+
+i
+
+
+
+/
+
+
+k
+
+i
+
+
+
+
+{\displaystyle h_{i}/k_{i}}
+
+ denote the sequence of convergents to the regular continued fraction for 
+
+
+
+
+
+n
+
+
+
+
+{\displaystyle {\sqrt {n}}}
+
+. This sequence is unique. Then the pair 
+
+
+
+(
+
+x
+
+1
+
+
+,
+
+y
+
+1
+
+
+)
+
+
+{\displaystyle (x_{1},y_{1})}
+
+ solving Pell's equation and minimizing x satisfies x1 = hi and y1 = ki for some i. This pair is called the fundamental solution. Thus, the fundamental solution may be found by performing the continued fraction expansion and testing each successive convergent until a solution to Pell's equation is found.[16]
+The time for finding the fundamental solution using the continued fraction method, with the aid of the Schönhage–Strassen algorithm for fast integer multiplication, is within a logarithmic factor of the solution size, the number of digits in the pair 
+
+
+
+(
+
+x
+
+1
+
+
+,
+
+y
+
+1
+
+
+)
+
+
+{\displaystyle (x_{1},y_{1})}
+
+. However, this is not a polynomial-time algorithm because the number of digits in the solution may be as large as √n, far larger than a polynomial in the number of digits in the input value n.[17]
+Once the fundamental solution is found, all remaining solutions may be calculated algebraically from[17]
+expanding the right side, equating coefficients of 
+
+
+
+
+
+n
+
+
+
+
+{\displaystyle {\sqrt {n}}}
+
+ on both sides, and equating the other terms on both sides. This yields the recurrence relations
+Although writing out the fundamental solution (x1, y1) as a pair of binary numbers may require a large number of bits, it may in many cases be represented more compactly in the form
+using much smaller integers ai, bi, and ci.
+For instance, Archimedes' cattle problem is equivalent to the Pell equation 
+
+
+
+
+x
+
+2
+
+
+−
+410
+
+286
+
+423
+
+278
+
+424
+
+y
+
+2
+
+
+=
+1
+
+
+{\displaystyle x^{2}-410\,286\,423\,278\,424y^{2}=1}
+
+, the fundamental solution of which has 206545 digits if written out explicitly. However, the solution is also equal to
+where
+and 
+
+
+
+
+x
+
+1
+
+′
+
+
+
+{\displaystyle x'_{1}}
+
+ and 
+
+
+
+
+y
+
+1
+
+′
+
+
+
+{\displaystyle y'_{1}}
+
+ only have 45 and 41 decimal digits respectively.[17]
+Methods related to the quadratic sieve approach for integer factorization may be used to collect relations between prime numbers in the number field generated by √n and to combine these relations to find a product representation of this type. The resulting algorithm for solving Pell's equation is more efficient than the continued fraction method, though it still takes more than polynomial time. Under the assumption of the generalized Riemann hypothesis, it can be shown to take time
+where N = log n is the input size, similarly to the quadratic sieve.[17]
+Hallgren showed that a quantum computer can find a product representation, as described above, for the solution to Pell's equation in polynomial time.[18] Hallgren's algorithm, which can be interpreted as an algorithm for finding the group of units of a real quadratic number field, was extended to more general fields by Schmidt and Völlmer.[19]
+As an example, consider the instance of Pell's equation for n = 7; that is,
+The sequence of convergents for the square root of seven are
+Therefore, the fundamental solution is formed by the pair (8, 3). Applying the recurrence formula to this solution generates the infinite sequence of solutions
+The smallest solution can be very large. For example, the smallest solution to 
+
+
+
+
+x
+
+2
+
+
+−
+313
+
+y
+
+2
+
+
+=
+1
+
+
+{\displaystyle x^{2}-313y^{2}=1}
+
+ is (32188120829134849, 1819380158564160), and this is the equation which Frenicle challenged Wallis to solve.[20] Values of n such that the smallest solution of 
+
+
+
+
+x
+
+2
+
+
+−
+n
+
+y
+
+2
+
+
+=
+1
+
+
+{\displaystyle x^{2}-ny^{2}=1}
+
+ is greater than the smallest solution for any smaller value of n are
+(For these records, see OEIS: A033315 for x and OEIS: A033319 for y.)
+The following is a list of the fundamental solution to 
+
+
+
+
+x
+
+2
+
+
+−
+n
+
+y
+
+2
+
+
+=
+1
+
+
+{\displaystyle x^{2}-ny^{2}=1}
+
+ with n ≤ 128. When n is an integer square, there is no solution except for the trivial solution (1, 0). The values of x are sequence A002350 and those of y are sequence A002349 in OEIS.
+Pell's equation has connections to several other important subjects in mathematics.
+Pell's equation is closely related to the theory of algebraic numbers, as the formula
+is the norm for the ring 
+
+
+
+
+Z
+
+[
+
+
+n
+
+
+]
+
+
+{\displaystyle \mathbb {Z} [{\sqrt {n}}]}
+
+ and for the closely related quadratic field 
+
+
+
+
+Q
+
+(
+
+
+n
+
+
+)
+
+
+{\displaystyle \mathbb {Q} ({\sqrt {n}})}
+
+. Thus, a pair of integers 
+
+
+
+(
+x
+,
+y
+)
+
+
+{\displaystyle (x,y)}
+
+ solves Pell's equation if and only if 
+
+
+
+x
++
+y
+
+
+n
+
+
+
+
+{\displaystyle x+y{\sqrt {n}}}
+
+ is a unit with norm 1 in 
+
+
+
+
+Z
+
+[
+
+
+n
+
+
+]
+
+
+{\displaystyle \mathbb {Z} [{\sqrt {n}}]}
+
+.[21] Dirichlet's unit theorem, that all units of 
+
+
+
+
+Z
+
+[
+
+
+n
+
+
+]
+
+
+{\displaystyle \mathbb {Z} [{\sqrt {n}}]}
+
+ can be expressed as powers of a single fundamental unit (and multiplication by a sign), is an algebraic restatement of the fact that all solutions to the Pell's equation can be generated from the fundamental solution.[22] The fundamental unit can in general be found by solving a Pell-like equation but it does not always correspond directly to the fundamental solution of Pell's equation itself, because the fundamental unit may have norm −1 rather than 1 and its coefficients may be half integers rather than integers.
+Demeyer mentions a connection between Pell's equation and the Chebyshev polynomials:
+If 
+
+
+
+
+T
+
+i
+
+
+(
+x
+)
+
+
+{\displaystyle T_{i}(x)}
+
+ and 
+
+
+
+
+U
+
+i
+
+
+(
+x
+)
+
+
+{\displaystyle U_{i}(x)}
+
+ are the Chebyshev polynomials of the first and second kind respectively, then these polynomials satisfy a form of Pell's equation in any polynomial ring 
+
+
+
+R
+[
+x
+]
+
+
+{\displaystyle R[x]}
+
+, with 
+
+
+
+n
+=
+
+x
+
+2
+
+
+−
+1
+
+
+{\displaystyle n=x^{2}-1}
+
+:[23]
+Thus, these polynomials can be generated by the standard technique for Pell's equations of taking powers of a fundamental solution:
+It may further be observed that if 
+
+
+
+(
+
+x
+
+i
+
+
+,
+
+y
+
+i
+
+
+)
+
+
+{\displaystyle (x_{i},y_{i})}
+
+ are the solutions to any integer Pell's equation, then 
+
+
+
+
+x
+
+i
+
+
+=
+
+T
+
+i
+
+
+(
+
+x
+
+1
+
+
+)
+
+
+{\displaystyle x_{i}=T_{i}(x_{1})}
+
+ and 
+
+
+
+
+y
+
+i
+
+
+=
+
+y
+
+1
+
+
+
+U
+
+i
+−
+1
+
+
+(
+
+x
+
+1
+
+
+)
+
+
+{\displaystyle y_{i}=y_{1}U_{i-1}(x_{1})}
+
+.[24]
+A general development of solutions of Pell's equation 
+
+
+
+
+x
+
+2
+
+
+−
+n
+
+y
+
+2
+
+
+=
+1
+
+
+{\displaystyle x^{2}-ny^{2}=1}
+
+ in terms of continued fractions of 
+
+
+
+
+
+n
+
+
+
+
+{\displaystyle {\sqrt {n}}}
+
+ can be presented, as the solutions x and y are approximates to the square root of n and thus are a special case of continued fraction approximations for quadratic irrationals.[16]
+The relationship to the continued fractions implies that the solutions to Pell's equation form a semigroup subset of the modular group. Thus, for example, if p and q satisfy Pell's equation, then
+is a matrix of unit determinant. Products of such matrices take exactly the same form, and thus all such products yield solutions to Pell's equation. This can be understood in part to arise from the fact that successive convergents of a continued fraction share the same property: If pk−1/qk−1 and pk/qk are two successive convergents of a continued fraction, then the matrix
+has determinant (−1)k.
+Størmer's theorem applies Pell equations to find pairs of consecutive smooth numbers, positive integers whose prime factors are all smaller than a given value.[25][26] As part of this theory, Størmer also investigated divisibility relations among solutions to Pell's equation; in particular, he showed that each solution other than the fundamental solution has a prime factor that does not divide n.[25]
+The negative Pell's equation is given by
+and has also been extensively studied. It can be solved by the same method of continued fractions and has solutions if and only if the period of the continued fraction has odd length. However, it is not known which roots have odd period lengths, and therefore not known when the negative Pell equation is solvable. A necessary (but not sufficient) condition for solvability is that n is not divisible by 4 or by a prime of form 4k + 3.[note 3] Thus, for example, x2 − 3ny2 = −1 is never solvable, but x2 − 5ny2 = −1 may be.[27]
+The first few numbers n for which x2 − ny2 = −1 is solvable are
+Let 
+
+
+
+α
+=
+
+Π
+
+j
+
+ is odd
+
+
+
+(
+1
+−
+
+2
+
+j
+
+
+)
+
+
+{\displaystyle \alpha =\Pi _{j{\text{ is odd}}}(1-2^{j})}
+
+. The proportion of square-free n divisible by k primes of the form 4m + 1 for which the negative Pell's equation is solvable is at least α.[28] When the number of prime divisors is not fixed, the proportion is given by 1 - α.[29][30]
+If the negative Pell's equation does have a solution for a particular n, its fundamental solution leads to the fundamental one for the positive case by squaring both sides of the defining equation:
+implies
+As stated above, if the negative Pell's equation is solvable, a solution can be found using the method of continued fractions as in the positive Pell's equation. The recursion relation works slightly differently however. Since 
+
+
+
+(
+x
++
+
+
+n
+
+
+y
+)
+(
+x
+−
+
+
+n
+
+
+y
+)
+=
+−
+1
+
+
+{\displaystyle (x+{\sqrt {n}}y)(x-{\sqrt {n}}y)=-1}
+
+, the next solution is determined in terms of 
+
+
+
+i
+(
+
+x
+
+k
+
+
++
+
+
+n
+
+
+
+y
+
+k
+
+
+)
+=
+(
+i
+(
+x
++
+
+
+n
+
+
+y
+)
+
+)
+
+k
+
+
+
+
+{\displaystyle i(x_{k}+{\sqrt {n}}y_{k})=(i(x+{\sqrt {n}}y))^{k}}
+
+ whenever there is a match, that is, when 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ is odd. The resulting recursion relation is (modulo a minus sign, which is immaterial due to the quadratic nature of the equation)
+which gives an infinite tower of solutions to the negative Pell's equation.
+The equation
+is called the generalized[citation needed] (or general[16]) Pell's equation. The equation 
+
+
+
+
+u
+
+2
+
+
+−
+d
+
+v
+
+2
+
+
+=
+1
+
+
+{\displaystyle u^{2}-dv^{2}=1}
+
+ is the corresponding Pell's resolvent.[16] A recursive algorithm was given by Lagrange in 1768 for solving the equation, reducing the problem to the case 
+
+
+
+
+|
+
+N
+
+|
+
+<
+
+
+d
+
+
+
+
+{\displaystyle |N|<{\sqrt {d}}}
+
+.[31][32] Such solutions can be derived using the continued-fractions method as outlined above.
+If 
+
+
+
+(
+
+x
+
+0
+
+
+,
+
+y
+
+0
+
+
+)
+
+
+{\displaystyle (x_{0},y_{0})}
+
+ is a solution to 
+
+
+
+
+x
+
+2
+
+
+−
+d
+
+y
+
+2
+
+
+=
+N
+,
+
+
+{\displaystyle x^{2}-dy^{2}=N,}
+
+ and 
+
+
+
+(
+
+u
+
+n
+
+
+,
+
+v
+
+n
+
+
+)
+
+
+{\displaystyle (u_{n},v_{n})}
+
+ is a solution to 
+
+
+
+
+u
+
+2
+
+
+−
+d
+
+v
+
+2
+
+
+=
+1
+,
+
+
+{\displaystyle u^{2}-dv^{2}=1,}
+
+ then 
+
+
+
+(
+
+x
+
+n
+
+
+,
+
+y
+
+n
+
+
+)
+
+
+{\displaystyle (x_{n},y_{n})}
+
+ such that 
+
+
+
+
+x
+
+n
+
+
++
+
+y
+
+n
+
+
+
+
+d
+
+
+=
+
+
+(
+
+
+
+x
+
+0
+
+
++
+
+y
+
+0
+
+
+
+
+d
+
+
+
+
+)
+
+
+
+
+(
+
+
+
+u
+
+n
+
+
++
+
+v
+
+n
+
+
+
+
+d
+
+
+
+
+)
+
+
+
+
+{\displaystyle x_{n}+y_{n}{\sqrt {d}}={\big (}x_{0}+y_{0}{\sqrt {d}}{\big )}{\big (}u_{n}+v_{n}{\sqrt {d}}{\big )}}
+
+ is a solution to 
+
+
+
+
+x
+
+2
+
+
+−
+d
+
+y
+
+2
+
+
+=
+N
+
+
+{\displaystyle x^{2}-dy^{2}=N}
+
+, a principle named the multiplicative principle.[16] The solution 
+
+
+
+(
+
+x
+
+n
+
+
+,
+
+y
+
+n
+
+
+)
+
+
+{\displaystyle (x_{n},y_{n})}
+
+ is called a Pell multiple of the solution 
+
+
+
+(
+
+x
+
+0
+
+
+,
+
+y
+
+0
+
+
+)
+
+
+{\displaystyle (x_{0},y_{0})}
+
+.
+There exists a finite set of solutions to 
+
+
+
+
+x
+
+2
+
+
+−
+d
+
+y
+
+2
+
+
+=
+N
+
+
+{\displaystyle x^{2}-dy^{2}=N}
+
+ such that every solution is a Pell multiple of a solution from that set. In particular, if 
+
+
+
+(
+u
+,
+v
+)
+
+
+{\displaystyle (u,v)}
+
+ is the fundamental solution to 
+
+
+
+
+u
+
+2
+
+
+−
+d
+
+v
+
+2
+
+
+=
+1
+
+
+{\displaystyle u^{2}-dv^{2}=1}
+
+, then each solution to the equation is a Pell multiple of a solution 
+
+
+
+(
+x
+,
+y
+)
+
+
+{\displaystyle (x,y)}
+
+ with 
+
+
+
+
+|
+
+x
+
+|
+
+≤
+
+
+
+|
+
+N
+
+|
+
+
+
+
+(
+
+
+
+
+|
+
+U
+
+|
+
+
+
++
+1
+
+)
+
+
+/
+
+2
+
+
+{\displaystyle |x|\leq {\sqrt {|N|}}\left({\sqrt {|U|}}+1\right)/2}
+
+ and 
+
+
+
+
+|
+
+y
+
+|
+
+≤
+
+
+
+|
+
+N
+
+|
+
+
+
+
+(
+
+
+
+
+|
+
+U
+
+|
+
+
+
++
+1
+
+)
+
+
+/
+
+
+
+(
+
+
+2
+
+
+d
+
+
+
+
+)
+
+
+
+
+{\displaystyle |y|\leq {\sqrt {|N|}}\left({\sqrt {|U|}}+1\right)/{\big (}2{\sqrt {d}}{\big )}}
+
+, where 
+
+
+
+U
+=
+u
++
+v
+
+
+d
+
+
+
+
+{\displaystyle U=u+v{\sqrt {d}}}
+
+.[33]
+If x and y are positive integer solutions to the Pell's equation with 
+
+
+
+
+|
+
+N
+
+|
+
+<
+
+
+d
+
+
+
+
+{\displaystyle |N|<{\sqrt {d}}}
+
+, then 
+
+
+
+x
+
+/
+
+y
+
+
+{\displaystyle x/y}
+
+ is a convergent to the continued fraction of 
+
+
+
+
+
+d
+
+
+
+
+{\displaystyle {\sqrt {d}}}
+
+.[33]
+Solutions to the generalized Pell's equation are used for solving certain Diophantine equations and units of certain rings,[34][35] and they arise in the study of SIC-POVMs in quantum information theory.[36]
+The equation
+is similar to the resolvent 
+
+
+
+
+x
+
+2
+
+
+−
+d
+
+y
+
+2
+
+
+=
+1
+
+
+{\displaystyle x^{2}-dy^{2}=1}
+
+ in that if a minimal solution to 
+
+
+
+
+x
+
+2
+
+
+−
+d
+
+y
+
+2
+
+
+=
+4
+
+
+{\displaystyle x^{2}-dy^{2}=4}
+
+ can be found, then all solutions of the equation can be generated in a similar manner to the case 
+
+
+
+N
+=
+1
+
+
+{\displaystyle N=1}
+
+. For certain 
+
+
+
+d
+
+
+{\displaystyle d}
+
+, solutions to 
+
+
+
+
+x
+
+2
+
+
+−
+d
+
+y
+
+2
+
+
+=
+1
+
+
+{\displaystyle x^{2}-dy^{2}=1}
+
+ can be generated from those with 
+
+
+
+
+x
+
+2
+
+
+−
+d
+
+y
+
+2
+
+
+=
+4
+
+
+{\displaystyle x^{2}-dy^{2}=4}
+
+, in that if 
+
+
+
+d
+≡
+5
+
+
+(
+mod
+
+8
+)
+
+,
+
+
+{\displaystyle d\equiv 5{\pmod {8}},}
+
+ then every third solution to 
+
+
+
+
+x
+
+2
+
+
+−
+d
+
+y
+
+2
+
+
+=
+4
+
+
+{\displaystyle x^{2}-dy^{2}=4}
+
+ has 
+
+
+
+x
+,
+y
+
+
+{\displaystyle x,y}
+
+ even, generating a solution to 
+
+
+
+
+x
+
+2
+
+
+−
+d
+
+y
+
+2
+
+
+=
+1
+
+
+{\displaystyle x^{2}-dy^{2}=1}
+
+.[16]
+
+

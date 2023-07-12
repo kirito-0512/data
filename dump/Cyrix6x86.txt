@@ -1,0 +1,78 @@
+6887,
+Cyrix6x86,
+The Cyrix 6x86 is a line of sixth-generation, 32-bit x86 microprocessors designed and released by Cyrix in 1995. Cyrix, being a fabless company, had the chips manufactured by IBM and SGS-Thomson.[1][2] The 6x86 was made as a direct competitor to Intel's Pentium microprocessor line, and was pin compatible. During the 6x86's development, the majority of applications (office software as well as games) performed almost entirely integer operations. The designers foresaw that future applications would most likely maintain this instruction focus. So, to optimize the chip's performance for what they believed to be the most likely application of the CPU, the integer execution resources received most of the transistor budget. This would later prove to be a strategic mistake, as the popularity of the P5 Pentium caused many software developers to hand-optimize code in assembly language, to take advantage of the P5 Pentium's tightly pipelined and lower latency FPU. For example, the highly anticipated first-person shooter Quake used highly optimized assembly code designed almost entirely around the P5 Pentium's FPU. As a result, the P5 Pentium significantly outperformed other CPUs in the game.[3][4][5][6]
+The 6x86, previously under the codename "M1" was announced by Cyrix in October 1995.[2][7][8][9][10] On release only the 100 MHz (P120+) version was available, but a 120 MHz (P150+) version was planned for mid-1995 with a 133 MHz (P166+) model later. The 100 MHz (P120+) 6x86 was available to OEMs for a price of $450 per chip in bulk quantities.[11]
+In mid February 1996 Cyrix announced the P166+, P150+, and P133+ to be added to the 6x86 model line.[12] IBM, who produced the chips, also announced they will be selling their own versions of the chips.[13]
+The 6x86 P200+ was planned for the end of 1996,[12] and ended up being released in June.[14]
+The M2 (6x86MX) was first announced to be in development in mid 1996. It would have MMX and 32-bit optimization. The M2 would also have some of the same features as the Intel Pentium Pro such as register renaming, out-of-order completion, and speculative execution. Additionally it would have 64 KB of cache over the original 6x86 and Pentium Pro's 16 KB.[15] In March 1997 when asked about when the M2 line of processors would begin shipping, Cyrix UK managing director Brendan Sherry stated, "I've read it's going to be May but we've said late Q2 all along and I'm pretty sure we'll make that."[16]
+The 6x86L was first released in January 1997 to address the heat issues with the original 6x86 line.[17] The 6x86L had a lower V-core voltage and required a split powerplane voltage regulator.
+In April 1997 the first laptop to use the 6x86 processor was put on sale. They were sold by TigerDirect and had a 12.1in DSTN display, 16 MB of memory, 10x CD-ROM, 1.3 GB hard disk drive, and cost $1,899 for the base price.[18]
+Later by the end of May 1997 on the 27th, Cyrix said they would announce details of the new chip line (6x86MX) the day before Computex in June 1997.[19] For the low end of the series, the PR166 6x86MX was available for $190 with higher end PR200 and PR233 versions available for $240 and $320.[20][21] IBM being the producer of Cyrix's chips, would also sell their own version. Cyrix hoped to ship tens of thousands within June 1997 with up to 1 million by the end of the year. Cyrix also expected to release a 266 MHz chip by the end of the 1997 and a 300 MHz in the first quarter of 1998.[22] They had slightly better floating point performance, which cut adding and multiply times by a third, but it was still slower than the Intel Pentium. The M2 also had full MMX instructions, 64KB of cache over the original 16KB, and had a lower core voltage of 2.5V over 3.3V of the original 6x86 line.[23][24]
+National Semiconductor acquired Cyrix in July 1997.[25][26][27] National Semiconductor was not interested in high performance processors but rather system on a chip devices, and wanted to shift the focus of Cyrix to the MediaGX line.[28]
+In January 1998 National Semiconductors produced a 6x86MX processor on a 0.25 micron process technology. This reduced the chip size from 150 millimeters squared to 88.[29] National shifted their production of the MII and MediaGX to 0.25 by August.[30]
+In September 1998 IBM's licensing partnership with Cyrix was said to be ended by National Semiconductors.[31][32] This was due to National wanting to increase production of Cyrix chips in their own facilities, and because having IBM produce Cyrix's chips was causing issues such as profit losses due to IBM frequently pricing their versions of Cyrix's chips lower.[33] National would be paying $50–55 million to IBM to end the partnership, which would end the following April. National would then be moving chip production to their own facility in South Portland, Maine.[34][35]
+The Cyrix MII was released in May 1998. These chips were not exciting like people had hoped, as they were just a rebranding of the 6x86MX.[36] In December these chips cost $80 for a MII-333, $59 for a MII-300, $55 for a MII-266, and $48 for a MII-233.[37]
+In May 1999 National Semiconductor decided to leave the PC chip market due to significant losses, and put the Cyrix CPU division up for sale.[38][25]
+VIA bought the Cyrix line in June 1999, and ended the development of high performance processors. The MII-433GP would be the last processor produced by Cyrix.[39] Additionally after VIA's acquisition, the 6x86/L was discontinued, but the 6x86MX/MII line continued to be sold by VIA.[40][41]
+VIA would continue to produce the MII throughout the early 2000s. It was expected to be discontinued when the VIA Cyrix MII was released.[42] However, the MII was still available for sale until mid/late 2003, being shown on VIA's website as a product until October, and it still saw use in devices such as network computers.[43][44]
+The 6x86 is superscalar and superpipelined and performs register renaming, speculative execution, out-of-order execution, and data dependency removal.[45] However, it continued to use native x86 execution and ordinary microcode only, like Centaur's Winchip, unlike competitors Intel and AMD which introduced the method of dynamic translation to micro-operations with Pentium Pro and K5. The 6x86 is socket-compatible with the Intel P54C Pentium, and was offered in six performance levels: PR 90+, PR 120+, PR 133+, PR 150+, PR 166+ and PR 200+. These performance levels do not map to the clock speed of the chip itself (for example, a PR 133+ ran at 110 MHz, a PR 166+ ran at 133 MHz, etc.).
+With regard to internal caches, it has a 16-KB primary cache and a fully associative 256-byte instruction line cache is included alongside the primary cache, which functions as the primary instruction cache.[45]
+The 6x86 and 6x86L were not completely compatible with the Intel P5 Pentium instruction set and is not multi-processor capable. For this reason, the chip identified itself as an 80486 and disabled the CPUID instruction by default. CPUID support could be enabled by first enabling extended CCR registers then setting bit 7 in CCR4. The lack of full P5 Pentium compatibility caused problems with some applications because programmers had begun to use P5 Pentium-specific instructions. Some companies released patches for their products to make them function on the 6x86.
+Compatibility with the Pentium was improved in the 6x86MX, by adding a Time Stamp Counter to support the P5 Pentium's RDTSC instruction.[46] Support for the Pentium Pro's CMOVcc instructions were also added.[46]
+Similarly to AMD with their K5 and early K6 processors, Cyrix used a PR rating (Performance Rating) to relate their performance to the Intel P5 Pentium (pre-P55C), as the 6x86's higher per-clock performance relative to a P5 Pentium could be quantified against a higher-clocked Pentium part. For example, a 133 MHz 6x86 will match or outperform a P5 Pentium at 166 MHz, and as a result Cyrix could market the 133 MHz chip as being a P5 Pentium 166's equal. However, the PR rating was not an entirely truthful representation of the 6x86's performance.[47]
+While the 6x86's integer performance was significantly higher than P5 Pentium's, its floating point performance was more mediocre—between 2 and 4 times the performance of the 486 FPU per clock cycle (depending on the operation and precision). The FPU in the 6x86 was largely the same circuitry that was developed for Cyrix's earlier high performance 8087/80287/80387-compatible coprocessors, which was very fast for its time—the Cyrix FPU was much faster than the 80387, and even the 80486 FPU. However, it was still considerably slower than the new and completely redesigned P5 Pentium and P6 Pentium Pro-Pentium III FPUs. One of the main features of the P5/P6 FPUs is that they supported interleaving of FPU and integer instructions in their design, which Cyrix chips did not integrate. This caused very poor performance with Cyrix CPUs on games and software that took advantage of this.[48][49]
+Therefore, despite being very fast clock by clock, the 6x86 and MII were forced to compete at the low-end of the market as AMD K6 and Intel P6 Pentium II were always ahead on clock speed. The 6x86's and MII's old generation "486 class" floating point unit combined with an integer section that was at best on-par with the newer P6 and K6 chips meant that Cyrix could no longer compete in performance.
+The 6x86 (codename M1) was released by Cyrix in 1996. The first generation of 6x86 had heat problems. This was primarily caused by their higher heat output than other x86 CPUs of the day and, as such, computer builders sometimes did not equip them with adequate cooling. The CPUs topped out at around 25 W heat output (like the AMD K6), whereas the P5 Pentium produced around 15 W of waste heat at its peak. However, both numbers would be a fraction of the heat generated by many high performance processors, some years later. Shortly after the original M1, the M1R was released. The M1R was a switch from SGS-Thomson 3M process to IBM 5M process, making the 6x86 chips 50% smaller.Early Cyrix 6x86 (M1) die shot
+The 6x86L (codename M1L) was later released by Cyrix to address heat issues; the L standing for low-power. Improved manufacturing technologies permitted usage of a lower Vcore. Just like the Pentium MMX, the 6x86L required a split powerplane voltage regulator with separate voltages for I/O and CPU core.
+Cyrix 6x86L (M1L) die shot
+Another release of the 6x86, the 6x86MX, added MMX compatibility along with the EMMI instruction set, improved compatibility with the Pentium and Pentium Pro by adding a Time Stamp Counter and CMOVcc instructions respectively, and quadrupled the primary cache size to 64 KB. The 256-byte instruction line cache can be turned into a scratchpad cache to provide support for multimedia operations.[46] Later revisions of this chip were renamed MII, to better compete with the Pentium II processor. 6x86MX / MII was late to market, and couldn't scale well in clock speed with the manufacturing processes used at the time.
+Cyrix 6x86MX (M2) die shot
+?
+150 MHz
+60 MHz
+?
+Q2 1998
+0,30 (NS)
+156
+?
+166 MHz
+66 MHz
+?
+Q2 1998
+0,30 (NS)
+156
+?
+200 MHz
+66 MHz
+?
+Q2 1998
+0,30 (NS)
+156
+?
+Q2 1998
+0,25
+88
+2.2 (*m)
+?
+225 MHz
+75 MHz
+?
+Q1 1999
+0,25
+88
+2.2 (*m)
+?
+83 MHz
+?
+Mar-1999
+250 MHz
+83 MHz
+?
+?
+0,30
+Q2 1998
+2.2 (*m)
+*m -Available in mobile version for laptops
+Information From:
+Information box
+{'Launched': '6x86 - Oct 1995\n6x86L - Jan 1997\n6x86MX - Jun 1997\nMII - May 1998', 'Discontinued': '6x86 - Jun 1999\n6x86L - Jun 1999\n6x86MX - May 1998\nMII - Early 2000s', 'Marketed by': 'Cyrix\nIBM\nSGS-Thomson\nVIA', 'Common manufacturer(s)': 'IBM\nSGS-Thomson\nNational Semiconductor', 'Max. CPU clock rate': '80 MHz to 333 MHz', 'FSB speeds': '40 MHz to 100 MHz', 'L1 cache': '16 KB (6x86/L)\n64 KB (6x86MX / MII)', 'Application': 'Desktop', 'Microarchitecture': '6x86', 'Instruction set': 'IA-32/x86', 'Transistors': '4.3M 500 nm', 'Cores': '1', 'Socket(s)': 'Socket 7\nSuper Socket 7', 'Core name(s)': 'M1\nM1L (Low voltage)\nM1R (3M to 5M)\nMII (MMX)', 'Variant(s)': '6x86, 6x86L, 6x86MX', 'Predecessor(s)': 'Cyrix 5x86', 'Successor(s)': 'Cyrix III'}

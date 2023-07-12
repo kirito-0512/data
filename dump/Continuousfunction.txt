@@ -1,0 +1,3462 @@
+6122,
+Continuousfunction,
+In mathematics, a continuous function is a function such that a continuous variation (that is a change without jump) of the argument induces a continuous variation of the value of the function. This means that there are no abrupt changes in value, known as discontinuities. More precisely, a function is continuous if arbitrarily small changes in its value can be assured by restricting to sufficiently small changes of its argument. A discontinuous function is a function that is not continuous. Up until the 19th century, mathematicians largely relied on intuitive notions of continuity, and considered only continuous functions. The epsilon–delta definition of a limit was introduced to formalize the definition of continuity.
+Continuity is one of the core concepts of calculus and mathematical analysis, where arguments and values of functions are real and complex numbers. The concept has been generalized to functions between metric spaces and between topological spaces. The latter are the most general continuous functions, and their definition is the basis of topology.
+A stronger form of continuity is uniform continuity. In order theory, especially in domain theory, a related concept of continuity is Scott continuity.
+As an example, the function H(t) denoting the height of a growing flower at time t would be considered continuous. In contrast, the function M(t) denoting the amount of money in a bank account at time t would be considered discontinuous, since it "jumps" at each point in time when money is deposited or withdrawn.
+A form of the epsilon–delta definition of continuity was first given by Bernard Bolzano in 1817. Augustin-Louis Cauchy defined continuity of 
+y
+=
+f
+(
+x
+)
+{\displaystyle y=f(x)}
+ as follows: an infinitely small increment 
+α
+{\displaystyle \alpha }
+ of the independent variable x always produces an infinitely small change 
+f
+(
+x
++
+α
+)
+−
+f
+(
+x
+)
+{\displaystyle f(x+\alpha )-f(x)}
+ of the dependent variable y (see e.g. Cours d'Analyse, p. 34). Cauchy defined infinitely small quantities in terms of variable quantities, and his definition of continuity closely parallels the infinitesimal definition used today (see microcontinuity). The formal definition and the distinction between pointwise continuity and uniform continuity were first given by Bolzano in the 1830s but the work wasn't published until the 1930s. Like Bolzano,[1] Karl Weierstrass[2] denied continuity of a function at a point c unless it was defined at and on both sides of c, but Édouard Goursat[3] allowed the function to be defined only at and on one side of c, and Camille Jordan[4] allowed it even if the function was defined only at c. All three of those nonequivalent definitions of pointwise continuity are still in use.[5] Eduard Heine provided the first published definition of uniform continuity in 1872, but based these ideas on lectures given by Peter Gustav Lejeune Dirichlet in 1854.[6]
+A real function, that is a function from real numbers to real numbers, can be represented by a graph in the Cartesian plane; such a function is continuous if, roughly speaking, the graph is a single unbroken curve whose domain is the entire real line.  A more mathematically rigorous definition is given below.[8]
+Continuity of real functions is usually defined in terms of limits. A function f with variable x is continuous at the real number c, if the limit of 
+f
+(
+x
+)
+,
+{\displaystyle f(x),}
+ as x tends to c, is equal to 
+f
+(
+c
+)
+.
+{\displaystyle f(c).}
+There are several different definitions of (global) continuity of a function, which depend on the nature of its domain. 
+A function is continuous on an open interval if the interval is contained in the domain of the function, and the function is continuous at every point of the interval. A function that is continuous on the interval 
+(
+−
+∞
+,
++
+∞
+)
+{\displaystyle (-\infty ,+\infty )}
+ (the whole real line) is often called simply a continuous function; one says also that such a function is continuous everywhere. For example, all polynomial functions are continuous everywhere.
+A function is continuous on a semi-open or a closed interval, if the interval is contained in the domain of the function, the function is continuous at every interior point of the interval, and the value of the function at each endpoint that belongs to the interval is the limit of the values of the function when the variable tends to the endpoint from the interior of the interval. For example, the function 
+f
+(
+x
+)
+=
+x
+{\displaystyle f(x)={\sqrt {x}}}
+ is continuous on its whole domain, which is the closed interval 
+[
+0
+,
++
+∞
+)
+.
+{\displaystyle [0,+\infty ).}
+Many commonly encountered functions are partial functions that have a domain formed by all real numbers, except some isolated points. Examples are the functions 
+x
+↦
+1
+x
+{\textstyle x\mapsto {\frac {1}{x}}}
+ and 
+x
+↦
+tan
+⁡
+x
+.
+{\displaystyle x\mapsto \tan x.}
+ When they are continuous on their domain, one says, in some contexts, that they are continuous, although they are not continuous everywhere. In other contexts, mainly when one is interested with their behavior near the exceptional points, one says that they are discontinuous.
+A partial function is discontinuous at a point, if the point belongs to the topological closure of its domain, and either the point does not belong to the domain of the function, or the function is not continuous at the point. For example, the functions 
+x
+↦
+1
+x
+{\textstyle x\mapsto {\frac {1}{x}}}
+ and 
+x
+↦
+sin
+⁡
+(
+1
+x
+)
+{\textstyle x\mapsto \sin({\frac {1}{x}})}
+ are discontinuous at 0, and remain discontinuous whichever value is chosen for defining them at 0. A point where a function is discontinuous is called a discontinuity.
+Using mathematical notation, there are several ways to define continuous functions in each of the three senses mentioned above.
+Let 
+f
+:
+D
+→
+R
+{\displaystyle f:D\to \mathbb {R} }
+ be a function defined on a subset 
+D
+{\displaystyle D}
+ of the set 
+R
+{\displaystyle \mathbb {R} }
+ of real numbers.
+This subset 
+D
+{\displaystyle D}
+ is the domain of f. Some possible choices include 
+In case of the domain 
+D
+{\displaystyle D}
+ being defined as an open interval, 
+a
+{\displaystyle a}
+ and 
+b
+{\displaystyle b}
+ do not belong to 
+D
+{\displaystyle D}
+, and the values of 
+f
+(
+a
+)
+{\displaystyle f(a)}
+ and 
+f
+(
+b
+)
+{\displaystyle f(b)}
+ do not matter for continuity on 
+D
+{\displaystyle D}
+.
+The function f is continuous at some point c of its domain if the limit of 
+f
+(
+x
+)
+,
+{\displaystyle f(x),}
+ as x approaches c through the domain of f,  exists and is equal to 
+f
+(
+c
+)
+.
+{\displaystyle f(c).}
+[9] In mathematical notation, this is written as
+lim
+x
+→
+c
+f
+(
+x
+)
+=
+f
+(
+c
+)
+.
+{\displaystyle \lim _{x\to c}{f(x)}=f(c).}
+In detail this means three conditions: first, f has to be defined at c (guaranteed by the requirement that c is in the domain of f). Second, the limit of that equation has to exist. Third, the value of this limit must equal 
+f
+(
+c
+)
+.
+{\displaystyle f(c).}
+(Here, we have assumed that the domain of f does not have any isolated points.)
+A neighborhood of a point c is a set that contains, at least, all points within some fixed distance of c.  Intuitively, a function is continuous at a point c if the range of f over the neighborhood of c shrinks to a single point 
+f
+(
+c
+)
+{\displaystyle f(c)}
+ as the width of the neighborhood around c shrinks to zero.  More precisely, a function f is continuous at a point c of its domain if, for any neighborhood 
+N
+1
+(
+f
+(
+c
+)
+)
+{\displaystyle N_{1}(f(c))}
+ there is a neighborhood 
+N
+2
+(
+c
+)
+{\displaystyle N_{2}(c)}
+ in its domain such that 
+f
+(
+x
+)
+∈
+N
+1
+(
+f
+(
+c
+)
+)
+{\displaystyle f(x)\in N_{1}(f(c))}
+ whenever 
+x
+∈
+N
+2
+(
+c
+)
+.
+{\displaystyle x\in N_{2}(c).}
+As neighborhoods are defined in any topological space, this definition of a continuous function applies not only for real functions but also when the domain and the codomain are topological spaces, and is thus the most general definition.  It follows that a function is automatically continuous at every isolated point of its domain.  As a specific example, every real valued function on the integers is continuous.
+One can instead require that for any sequence 
+(
+x
+n
+)
+n
+∈
+N
+{\displaystyle (x_{n})_{n\in \mathbb {N} }}
+ of points in the domain which converges to c, the corresponding sequence 
+(
+f
+(
+x
+n
+)
+)
+n
+∈
+N
+{\displaystyle \left(f(x_{n})\right)_{n\in \mathbb {N} }}
+ converges to 
+f
+(
+c
+)
+.
+{\displaystyle f(c).}
+  In mathematical notation, 
+∀
+(
+x
+n
+)
+n
+∈
+N
+⊂
+D
+:
+lim
+n
+→
+∞
+x
+n
+=
+c
+⇒
+lim
+n
+→
+∞
+f
+(
+x
+n
+)
+=
+f
+(
+c
+)
+.
+{\displaystyle \forall (x_{n})_{n\in \mathbb {N} }\subset D:\lim _{n\to \infty }x_{n}=c\Rightarrow \lim _{n\to \infty }f(x_{n})=f(c)\,.}
+Explicitly including the definition of the limit of a function, we obtain a self-contained definition: Given a function 
+f
+:
+D
+→
+R
+{\displaystyle f:D\to \mathbb {R} }
+ as above and an element 
+x
+0
+{\displaystyle x_{0}}
+ of the domain 
+D
+{\displaystyle D}
+, 
+f
+{\displaystyle f}
+ is said to be continuous at the point 
+x
+0
+{\displaystyle x_{0}}
+ when the following holds: For any positive real number 
+ε
+>
+0
+,
+{\displaystyle \varepsilon >0,}
+ however small, there exists some positive real number 
+δ
+>
+0
+{\displaystyle \delta >0}
+ such that for all 
+x
+{\displaystyle x}
+ in the domain of 
+f
+{\displaystyle f}
+ with 
+x
+0
+−
+δ
+<
+x
+<
+x
+0
++
+δ
+,
+{\displaystyle x_{0}-\delta <x<x_{0}+\delta ,}
+ the value of 
+f
+(
+x
+)
+{\displaystyle f(x)}
+ satisfies
+f
+(
+x
+0
+)
+−
+ε
+<
+f
+(
+x
+)
+<
+f
+(
+x
+0
+)
++
+ε
+.
+{\displaystyle f\left(x_{0}\right)-\varepsilon <f(x)<f(x_{0})+\varepsilon .}
+Alternatively written, continuity of 
+f
+:
+D
+→
+R
+{\displaystyle f:D\to \mathbb {R} }
+ at 
+x
+0
+∈
+D
+{\displaystyle x_{0}\in D}
+ means that for every 
+ε
+>
+0
+,
+{\displaystyle \varepsilon >0,}
+ there exists a 
+δ
+>
+0
+{\displaystyle \delta >0}
+ such that for all 
+x
+∈
+D
+{\displaystyle x\in D}
+:
+|
+x
+−
+x
+0
+|
+<
+δ
+ 
+ 
+ implies 
+ 
+ 
+|
+f
+(
+x
+)
+−
+f
+(
+x
+0
+)
+|
+<
+ε
+.
+{\displaystyle \left|x-x_{0}\right|<\delta ~~{\text{ implies }}~~|f(x)-f(x_{0})|<\varepsilon .}
+More intuitively, we can say that if we want to get all the 
+f
+(
+x
+)
+{\displaystyle f(x)}
+ values to stay in some small neighborhood around 
+f
+(
+x
+0
+)
+,
+{\displaystyle f\left(x_{0}\right),}
+ we simply need to choose a small enough neighborhood for the 
+x
+{\displaystyle x}
+ values around 
+x
+0
+.
+{\displaystyle x_{0}.}
+ If we can do that no matter how small the 
+f
+(
+x
+0
+)
+{\displaystyle f(x_{0})}
+ neighborhood is, then 
+f
+{\displaystyle f}
+ is continuous at 
+x
+0
+.
+{\displaystyle x_{0}.}
+In modern terms, this is generalized by the definition of continuity of a function with respect to a basis for the topology, here the metric topology.
+Weierstrass had required that the interval 
+x
+0
+−
+δ
+<
+x
+<
+x
+0
++
+δ
+{\displaystyle x_{0}-\delta <x<x_{0}+\delta }
+ be entirely within the domain 
+D
+{\displaystyle D}
+, but Jordan removed that restriction.
+In proofs and numerical analysis we often need to know how fast limits are converging, or in other words, control of the remainder. We can formalize this to a definition of continuity. 
+A function 
+C
+:
+[
+0
+,
+∞
+)
+→
+[
+0
+,
+∞
+]
+{\displaystyle C:[0,\infty )\to [0,\infty ]}
+ is called a control function if
+A function 
+f
+:
+D
+→
+R
+{\displaystyle f:D\to R}
+ is C-continuous at 
+x
+0
+{\displaystyle x_{0}}
+ if there exists such a neighbourhood 
+N
+(
+x
+0
+)
+{\textstyle N(x_{0})}
+ that 
+|
+f
+(
+x
+)
+−
+f
+(
+x
+0
+)
+|
+≤
+C
+(
+|
+x
+−
+x
+0
+|
+)
+ for all 
+x
+∈
+D
+∩
+N
+(
+x
+0
+)
+{\displaystyle |f(x)-f(x_{0})|\leq C\left(\left|x-x_{0}\right|\right){\text{ for all }}x\in D\cap N(x_{0})}
+A function is continuous in 
+x
+0
+{\displaystyle x_{0}}
+ if it is C-continuous for some control function C.
+This approach leads naturally to refining the notion of  continuity by restricting the set of admissible control functions. For a given set of control functions 
+C
+{\displaystyle {\mathcal {C}}}
+ a function is 
+C
+{\displaystyle {\mathcal {C}}}
+-continuous if it is 
+C
+{\displaystyle C}
+-continuous for some 
+C
+∈
+C
+.
+{\displaystyle C\in {\mathcal {C}}.}
+ For example, the Lipschitz and Hölder continuous functions of exponent α below are defined by the set of control functions 
+C
+L
+i
+p
+s
+c
+h
+i
+t
+z
+=
+{
+C
+:
+C
+(
+δ
+)
+=
+K
+|
+δ
+|
+,
+ 
+K
+>
+0
+}
+{\displaystyle {\mathcal {C}}_{\mathrm {Lipschitz} }=\{C:C(\delta )=K|\delta |,\ K>0\}}
+respectively  
+C
+Hölder
+−
+α
+=
+{
+C
+:
+C
+(
+δ
+)
+=
+K
+|
+δ
+|
+α
+,
+ 
+K
+>
+0
+}
+.
+{\displaystyle {\mathcal {C}}_{{\text{Hölder}}-\alpha }=\{C:C(\delta )=K|\delta |^{\alpha },\ K>0\}.}
+Continuity can also be defined in terms of oscillation: a function f is continuous at a point 
+x
+0
+{\displaystyle x_{0}}
+ if and only if its oscillation at that point is zero;[10] in symbols, 
+ω
+f
+(
+x
+0
+)
+=
+0.
+{\displaystyle \omega _{f}(x_{0})=0.}
+ A benefit of this definition is that it quantifies discontinuity: the oscillation gives how much the function is discontinuous at a point.
+This definition is useful in descriptive set theory to study the set of discontinuities and continuous points – the continuous points are the intersection of the sets where the oscillation is less than 
+ε
+{\displaystyle \varepsilon }
+ (hence a 
+G
+δ
+{\displaystyle G_{\delta }}
+ set) – and gives a very quick proof of one direction of the Lebesgue integrability condition.[11]
+The oscillation is equivalent to the 
+ε
+−
+δ
+{\displaystyle \varepsilon -\delta }
+ definition by a simple re-arrangement, and by using a limit (lim sup, lim inf) to define oscillation: if (at a given point) for a given 
+ε
+0
+{\displaystyle \varepsilon _{0}}
+ there is no 
+δ
+{\displaystyle \delta }
+ that satisfies the 
+ε
+−
+δ
+{\displaystyle \varepsilon -\delta }
+ definition, then the oscillation is at least 
+ε
+0
+,
+{\displaystyle \varepsilon _{0},}
+ and conversely if for every 
+ε
+{\displaystyle \varepsilon }
+ there is a desired 
+δ
+,
+{\displaystyle \delta ,}
+ the oscillation is 0. The oscillation definition can be naturally generalized to maps from a topological space to a metric space.
+Cauchy defined continuity of a function in the following intuitive terms: an infinitesimal change in the independent variable corresponds to an infinitesimal change of the dependent variable (see Cours d'analyse, page 34). Non-standard analysis is a way of making this mathematically rigorous. The real line is augmented by the addition of infinite and infinitesimal numbers to form the hyperreal numbers.  In nonstandard analysis, continuity can be defined as follows.
+(see microcontinuity).  In other words, an infinitesimal increment of the independent variable always produces to an infinitesimal change of the dependent variable, giving a modern expression to Augustin-Louis Cauchy's definition of continuity.
+Checking the continuity of a given function can be simplified by checking one of the above defining properties for the building blocks of the given function. It is straightforward to show that the sum of two functions, continuous on some domain, is also continuous on this domain. Given
+f
+,
+g
+:
+D
+→
+R
+,
+{\displaystyle f,g\colon D\to \mathbb {R} ,}
+then the sum of continuous functions
+s
+=
+f
++
+g
+{\displaystyle s=f+g}
+(defined by 
+s
+(
+x
+)
+=
+f
+(
+x
+)
++
+g
+(
+x
+)
+{\displaystyle s(x)=f(x)+g(x)}
+ for all 
+x
+∈
+D
+{\displaystyle x\in D}
+) is continuous in 
+D
+.
+{\displaystyle D.}
+The same holds for the product of continuous functions,
+p
+=
+f
+⋅
+g
+{\displaystyle p=f\cdot g}
+(defined by 
+p
+(
+x
+)
+=
+f
+(
+x
+)
+⋅
+g
+(
+x
+)
+{\displaystyle p(x)=f(x)\cdot g(x)}
+ for all 
+x
+∈
+D
+{\displaystyle x\in D}
+)
+is continuous in 
+D
+.
+{\displaystyle D.}
+Combining the above preservations of continuity and the continuity of constant functions and of the identity function 
+I
+(
+x
+)
+=
+x
+{\displaystyle I(x)=x}
+ on 
+R
+{\displaystyle \mathbb {R} }
+, one arrives at the continuity of all polynomial functions on 
+R
+{\displaystyle \mathbb {R} }
+, such as
+f
+(
+x
+)
+=
+x
+3
++
+x
+2
+−
+5
+x
++
+3
+{\displaystyle f(x)=x^{3}+x^{2}-5x+3}
+(pictured on the right).
+In the same way it can be shown that the reciprocal of a continuous function
+r
+=
+1
+/
+f
+{\displaystyle r=1/f}
+(defined by 
+r
+(
+x
+)
+=
+1
+/
+f
+(
+x
+)
+{\displaystyle r(x)=1/f(x)}
+ for all 
+x
+∈
+D
+{\displaystyle x\in D}
+ such that 
+f
+(
+x
+)
+≠
+0
+{\displaystyle f(x)\neq 0}
+)
+is continuous in 
+D
+∖
+{
+x
+:
+f
+(
+x
+)
+=
+0
+}
+.
+{\displaystyle D\setminus \{x:f(x)=0\}.}
+This implies that, excluding the roots of 
+g
+,
+{\displaystyle g,}
+ the quotient of continuous functions
+q
+=
+f
+/
+g
+{\displaystyle q=f/g}
+(defined by 
+q
+(
+x
+)
+=
+f
+(
+x
+)
+/
+g
+(
+x
+)
+{\displaystyle q(x)=f(x)/g(x)}
+ for all 
+x
+∈
+D
+{\displaystyle x\in D}
+, such that 
+g
+(
+x
+)
+≠
+0
+{\displaystyle g(x)\neq 0}
+)
+is also continuous on 
+D
+∖
+{
+x
+:
+g
+(
+x
+)
+=
+0
+}
+{\displaystyle D\setminus \{x:g(x)=0\}}
+.
+For example, the function (pictured)
+y
+(
+x
+)
+=
+2
+x
+−
+1
+x
++
+2
+{\displaystyle y(x)={\frac {2x-1}{x+2}}}
+is defined for all real numbers 
+x
+≠
+−
+2
+{\displaystyle x\neq -2}
+ and is continuous at every such point. Thus it is a continuous function. The question of continuity at 
+x
+=
+−
+2
+{\displaystyle x=-2}
+ does not arise, since 
+x
+=
+−
+2
+{\displaystyle x=-2}
+ is not in the domain of 
+y
+.
+{\displaystyle y.}
+ There is no continuous function 
+F
+:
+R
+→
+R
+{\displaystyle F:\mathbb {R} \to \mathbb {R} }
+ that agrees with 
+y
+(
+x
+)
+{\displaystyle y(x)}
+ for all 
+x
+≠
+−
+2.
+{\displaystyle x\neq -2.}
+Since the function sine is continuous on all reals, the sinc function 
+G
+(
+x
+)
+=
+sin
+⁡
+(
+x
+)
+/
+x
+,
+{\displaystyle G(x)=\sin(x)/x,}
+ is defined and continuous for all real 
+x
+≠
+0.
+{\displaystyle x\neq 0.}
+ However, unlike the previous example, G can be extended to a continuous function on all real numbers, by defining the value 
+G
+(
+0
+)
+{\displaystyle G(0)}
+ to be 1, which is the limit of 
+G
+(
+x
+)
+,
+{\displaystyle G(x),}
+ when x approaches 0, i.e.,
+G
+(
+0
+)
+=
+lim
+x
+→
+0
+sin
+⁡
+x
+x
+=
+1.
+{\displaystyle G(0)=\lim _{x\to 0}{\frac {\sin x}{x}}=1.}
+Thus, by setting
+the sinc-function becomes a continuous function on all real numbers. The term removable singularity is used in such cases, when (re)defining values of a function to coincide with the appropriate limits make a function continuous at specific points.
+A more involved construction of continuous functions is the function composition. Given two continuous functions
+g
+:
+D
+g
+⊆
+R
+→
+R
+g
+⊆
+R
+ and 
+f
+:
+D
+f
+⊆
+R
+→
+R
+f
+⊆
+D
+g
+,
+{\displaystyle g:D_{g}\subseteq \mathbb {R} \to R_{g}\subseteq \mathbb {R} \quad {\text{ and }}\quad f:D_{f}\subseteq \mathbb {R} \to R_{f}\subseteq D_{g},}
+their composition, denoted as
+c
+=
+g
+∘
+f
+:
+D
+f
+→
+R
+,
+{\displaystyle c=g\circ f:D_{f}\to \mathbb {R} ,}
+ and defined by 
+c
+(
+x
+)
+=
+g
+(
+f
+(
+x
+)
+)
+,
+{\displaystyle c(x)=g(f(x)),}
+ is continuous.
+This construction allows stating, for example, that
+e
+sin
+⁡
+(
+ln
+⁡
+x
+)
+{\displaystyle e^{\sin(\ln x)}}
+is continuous for all 
+x
+>
+0.
+{\displaystyle x>0.}
+An example of a discontinuous function is the Heaviside step function 
+H
+{\displaystyle H}
+, defined by
+H
+(
+x
+)
+=
+{
+1
+ if 
+x
+≥
+0
+0
+ if 
+x
+<
+0
+{\displaystyle H(x)={\begin{cases}1&{\text{ if }}x\geq 0\\0&{\text{ if }}x<0\end{cases}}}
+Pick for instance 
+ε
+=
+1
+/
+2
+{\displaystyle \varepsilon =1/2}
+. Then there is no 
+δ
+{\displaystyle \delta }
+-neighborhood around 
+x
+=
+0
+{\displaystyle x=0}
+, i.e. no open interval 
+(
+−
+δ
+,
+δ
+)
+{\displaystyle (-\delta ,\;\delta )}
+ with 
+δ
+>
+0
+,
+{\displaystyle \delta >0,}
+ that will force all the 
+H
+(
+x
+)
+{\displaystyle H(x)}
+ values to be within the 
+ε
+{\displaystyle \varepsilon }
+-neighborhood of 
+H
+(
+0
+)
+{\displaystyle H(0)}
+, i.e. within 
+(
+1
+/
+2
+,
+3
+/
+2
+)
+{\displaystyle (1/2,\;3/2)}
+. Intuitively we can think of this type of discontinuity as a sudden jump in function values.
+Similarly, the signum or sign function
+sgn
+⁡
+(
+x
+)
+=
+{
+ 
+1
+ if 
+x
+>
+0
+ 
+0
+ if 
+x
+=
+0
+−
+1
+ if 
+x
+<
+0
+{\displaystyle \operatorname {sgn}(x)={\begin{cases}\;\;\ 1&{\text{ if }}x>0\\\;\;\ 0&{\text{ if }}x=0\\-1&{\text{ if }}x<0\end{cases}}}
+is discontinuous at 
+x
+=
+0
+{\displaystyle x=0}
+ but continuous everywhere else. Yet another example: the function
+f
+(
+x
+)
+=
+{
+sin
+⁡
+(
+x
+−
+2
+)
+ if 
+x
+≠
+0
+0
+ if 
+x
+=
+0
+{\displaystyle f(x)={\begin{cases}\sin \left(x^{-2}\right)&{\text{ if }}x\neq 0\\0&{\text{ if }}x=0\end{cases}}}
+is continuous everywhere apart from 
+x
+=
+0
+{\displaystyle x=0}
+.
+Besides plausible continuities and discontinuities like above, there are also functions with a behavior, often coined pathological, for example, Thomae's function,
+f
+(
+x
+)
+=
+{
+1
+ if 
+x
+=
+0
+1
+q
+ if 
+x
+=
+p
+q
+(in lowest terms) is a rational number
+0
+ if 
+x
+ is irrational
+.
+{\displaystyle f(x)={\begin{cases}1&{\text{ if }}x=0\\{\frac {1}{q}}&{\text{ if }}x={\frac {p}{q}}{\text{(in lowest terms) is a rational number}}\\0&{\text{ if }}x{\text{ is irrational}}.\end{cases}}}
+is continuous at all irrational numbers and discontinuous at all rational numbers. In a similar vein, Dirichlet's function, the indicator function for the set of rational numbers,
+D
+(
+x
+)
+=
+{
+0
+ if 
+x
+ is irrational 
+(
+∈
+R
+∖
+Q
+)
+1
+ if 
+x
+ is rational 
+(
+∈
+Q
+)
+{\displaystyle D(x)={\begin{cases}0&{\text{ if }}x{\text{  is irrational }}(\in \mathbb {R} \setminus \mathbb {Q} )\\1&{\text{ if }}x{\text{ is rational }}(\in \mathbb {Q} )\end{cases}}}
+is nowhere continuous.
+Let 
+f
+(
+x
+)
+{\displaystyle f(x)}
+ be a function that is continuous at a point 
+x
+0
+,
+{\displaystyle x_{0},}
+ and 
+y
+0
+{\displaystyle y_{0}}
+ be a value such 
+f
+(
+x
+0
+)
+≠
+y
+0
+.
+{\displaystyle f\left(x_{0}\right)\neq y_{0}.}
+ Then 
+f
+(
+x
+)
+≠
+y
+0
+{\displaystyle f(x)\neq y_{0}}
+ throughout some neighbourhood of 
+x
+0
+.
+{\displaystyle x_{0}.}
+[13]
+Proof: By the definition of continuity, take 
+ε
+=
+|
+y
+0
+−
+f
+(
+x
+0
+)
+|
+2
+>
+0
+{\displaystyle \varepsilon ={\frac {|y_{0}-f(x_{0})|}{2}}>0}
+ , then there exists 
+δ
+>
+0
+{\displaystyle \delta >0}
+ such that 
+|
+f
+(
+x
+)
+−
+f
+(
+x
+0
+)
+|
+<
+|
+y
+0
+−
+f
+(
+x
+0
+)
+|
+2
+ whenever 
+|
+x
+−
+x
+0
+|
+<
+δ
+{\displaystyle \left|f(x)-f(x_{0})\right|<{\frac {\left|y_{0}-f(x_{0})\right|}{2}}\quad {\text{ whenever }}\quad |x-x_{0}|<\delta }
+Suppose there is a point in the neighbourhood 
+|
+x
+−
+x
+0
+|
+<
+δ
+{\displaystyle |x-x_{0}|<\delta }
+ for which 
+f
+(
+x
+)
+=
+y
+0
+;
+{\displaystyle f(x)=y_{0};}
+ then we have the contradiction
+|
+f
+(
+x
+0
+)
+−
+y
+0
+|
+<
+|
+f
+(
+x
+0
+)
+−
+y
+0
+|
+2
+.
+{\displaystyle \left|f(x_{0})-y_{0}\right|<{\frac {\left|f(x_{0})-y_{0}\right|}{2}}.}
+The intermediate value theorem is an existence theorem, based on the real number property of completeness, and states:
+For example, if a child grows from 1 m to 1.5 m between the ages of two and six years, then, at some time between two and six years of age, the child's height must have been 1.25 m.
+As a consequence, if f is continuous on 
+[
+a
+,
+b
+]
+{\displaystyle [a,b]}
+ and 
+f
+(
+a
+)
+{\displaystyle f(a)}
+ and 
+f
+(
+b
+)
+{\displaystyle f(b)}
+ differ in sign, then, at some point 
+c
+∈
+[
+a
+,
+b
+]
+,
+{\displaystyle c\in [a,b],}
+f
+(
+c
+)
+{\displaystyle f(c)}
+ must equal zero.
+The extreme value theorem states that if a function f is defined on a closed interval 
+[
+a
+,
+b
+]
+{\displaystyle [a,b]}
+ (or any closed and bounded set) and is continuous there, then the function attains its maximum, i.e. there exists 
+c
+∈
+[
+a
+,
+b
+]
+{\displaystyle c\in [a,b]}
+ with 
+f
+(
+c
+)
+≥
+f
+(
+x
+)
+{\displaystyle f(c)\geq f(x)}
+ for all 
+x
+∈
+[
+a
+,
+b
+]
+.
+{\displaystyle x\in [a,b].}
+ The same is true of the minimum of f. These statements are not, in general, true if the function is defined on an open interval 
+(
+a
+,
+b
+)
+{\displaystyle (a,b)}
+ (or any set that is not both closed and bounded), as, for example, the continuous function 
+f
+(
+x
+)
+=
+1
+x
+,
+{\displaystyle f(x)={\frac {1}{x}},}
+ defined on the open interval (0,1), does not attain a maximum, being unbounded above.
+Every differentiable function
+f
+:
+(
+a
+,
+b
+)
+→
+R
+{\displaystyle f:(a,b)\to \mathbb {R} }
+is continuous, as can be shown. The converse  does not hold: for example, the absolute value function
+is everywhere continuous. However, it is not differentiable at 
+x
+=
+0
+{\displaystyle x=0}
+ (but is so everywhere else). Weierstrass's function is also everywhere continuous but nowhere differentiable.
+The derivative f′(x) of a differentiable function f(x) need not be continuous. If f′(x) is continuous, f(x) is said to be continuously differentiable. The set of such functions is denoted 
+C
+1
+(
+(
+a
+,
+b
+)
+)
+.
+{\displaystyle C^{1}((a,b)).}
+ More generally, the set of functions
+f
+:
+Ω
+→
+R
+{\displaystyle f:\Omega \to \mathbb {R} }
+(from an open interval (or open subset of 
+R
+{\displaystyle \mathbb {R} }
+) 
+Ω
+{\displaystyle \Omega }
+ to the reals) such that f is 
+n
+{\displaystyle n}
+ times differentiable and such that the 
+n
+{\displaystyle n}
+-th derivative of f is continuous is denoted 
+C
+n
+(
+Ω
+)
+.
+{\displaystyle C^{n}(\Omega ).}
+ See differentiability class. In the field of computer graphics, properties related (but not identical) to 
+C
+0
+,
+C
+1
+,
+C
+2
+{\displaystyle C^{0},C^{1},C^{2}}
+ are sometimes called 
+G
+0
+{\displaystyle G^{0}}
+ (continuity of position), 
+G
+1
+{\displaystyle G^{1}}
+ (continuity of tangency), and 
+G
+2
+{\displaystyle G^{2}}
+ (continuity of curvature); see Smoothness of curves and surfaces.
+Every continuous function
+f
+:
+[
+a
+,
+b
+]
+→
+R
+{\displaystyle f:[a,b]\to \mathbb {R} }
+is integrable (for example in the sense of the Riemann integral). The converse does not hold, as the (integrable, but discontinuous) sign function shows.
+Given a sequence
+f
+1
+,
+f
+2
+,
+…
+:
+I
+→
+R
+{\displaystyle f_{1},f_{2},\dotsc :I\to \mathbb {R} }
+of functions such that the limit
+f
+(
+x
+)
+:=
+lim
+n
+→
+∞
+f
+n
+(
+x
+)
+{\displaystyle f(x):=\lim _{n\to \infty }f_{n}(x)}
+exists for all 
+x
+∈
+D
+,
+{\displaystyle x\in D,}
+, the resulting function 
+f
+(
+x
+)
+{\displaystyle f(x)}
+ is referred to as the pointwise limit of the sequence of functions  
+(
+f
+n
+)
+n
+∈
+N
+.
+{\displaystyle \left(f_{n}\right)_{n\in N}.}
+ The pointwise limit function need not be continuous, even if all functions 
+f
+n
+{\displaystyle f_{n}}
+ are continuous, as the animation at the right shows. However, f is continuous if all functions 
+f
+n
+{\displaystyle f_{n}}
+ are continuous and the sequence converges uniformly, by the uniform convergence theorem. This theorem can be used to show that the exponential functions, logarithms, square root function, and trigonometric functions are continuous.
+A right-continuous function
+A left-continuous function
+Discontinuous functions may be discontinuous in a restricted way, giving rise to the concept of directional continuity (or right and left continuous functions) and semi-continuity. Roughly speaking, a function is right-continuous if no jump occurs when the limit point is approached from the right. Formally, f is said to be right-continuous at the point c if the following holds: For any number 
+ε
+>
+0
+{\displaystyle \varepsilon >0}
+ however small, there exists some number 
+δ
+>
+0
+{\displaystyle \delta >0}
+ such that for all x in the domain with 
+c
+<
+x
+<
+c
++
+δ
+,
+{\displaystyle c<x<c+\delta ,}
+ the value of 
+f
+(
+x
+)
+{\displaystyle f(x)}
+ will satisfy
+|
+f
+(
+x
+)
+−
+f
+(
+c
+)
+|
+<
+ε
+.
+{\displaystyle |f(x)-f(c)|<\varepsilon .}
+This is the same condition as for continuous functions, except that it is required to hold for x strictly larger than c only. Requiring it instead for all x with 
+c
+−
+δ
+<
+x
+<
+c
+{\displaystyle c-\delta <x<c}
+ yields the notion of left-continuous functions. A function is continuous if and only if it is both right-continuous and left-continuous.
+A function f is lower semi-continuous if, roughly, any jumps that might occur only go down, but not up. That is, for any 
+ε
+>
+0
+,
+{\displaystyle \varepsilon >0,}
+ there exists some number 
+δ
+>
+0
+{\displaystyle \delta >0}
+ such that for all x in the domain with 
+|
+x
+−
+c
+|
+<
+δ
+,
+{\displaystyle |x-c|<\delta ,}
+ the value of 
+f
+(
+x
+)
+{\displaystyle f(x)}
+ satisfies
+f
+(
+x
+)
+≥
+f
+(
+c
+)
+−
+ϵ
+.
+{\displaystyle f(x)\geq f(c)-\epsilon .}
+The reverse condition is upper semi-continuity.
+The concept of continuous real-valued functions can be generalized to functions between metric spaces. A metric space is a set 
+X
+{\displaystyle X}
+ equipped with a function (called metric) 
+d
+X
+,
+{\displaystyle d_{X},}
+ that can be thought of as a measurement of the distance of any two elements in X. Formally, the metric is a function
+d
+X
+:
+X
+×
+X
+→
+R
+{\displaystyle d_{X}:X\times X\to \mathbb {R} }
+that satisfies a number of requirements, notably the triangle inequality. Given two metric spaces 
+(
+X
+,
+d
+X
+)
+{\displaystyle \left(X,d_{X}\right)}
+ and 
+(
+Y
+,
+d
+Y
+)
+{\displaystyle \left(Y,d_{Y}\right)}
+ and a function
+f
+:
+X
+→
+Y
+{\displaystyle f:X\to Y}
+then 
+f
+{\displaystyle f}
+ is continuous at the point 
+c
+∈
+X
+{\displaystyle c\in X}
+ (with respect to the given metrics) if for any positive real number 
+ε
+>
+0
+,
+{\displaystyle \varepsilon >0,}
+ there exists a positive real number 
+δ
+>
+0
+{\displaystyle \delta >0}
+ such that all 
+x
+∈
+X
+{\displaystyle x\in X}
+ satisfying 
+d
+X
+(
+x
+,
+c
+)
+<
+δ
+{\displaystyle d_{X}(x,c)<\delta }
+ will also satisfy 
+d
+Y
+(
+f
+(
+x
+)
+,
+f
+(
+c
+)
+)
+<
+ε
+.
+{\displaystyle d_{Y}(f(x),f(c))<\varepsilon .}
+ As in the case of real functions above, this is equivalent to the condition that for every sequence 
+(
+x
+n
+)
+{\displaystyle \left(x_{n}\right)}
+ in 
+X
+{\displaystyle X}
+ with limit 
+lim
+x
+n
+=
+c
+,
+{\displaystyle \lim x_{n}=c,}
+ we have 
+lim
+f
+(
+x
+n
+)
+=
+f
+(
+c
+)
+.
+{\displaystyle \lim f\left(x_{n}\right)=f(c).}
+ The latter condition can be weakened as follows: 
+f
+{\displaystyle f}
+ is continuous at the point 
+c
+{\displaystyle c}
+ if and only if for every convergent sequence 
+(
+x
+n
+)
+{\displaystyle \left(x_{n}\right)}
+ in 
+X
+{\displaystyle X}
+ with limit 
+c
+{\displaystyle c}
+, the sequence 
+(
+f
+(
+x
+n
+)
+)
+{\displaystyle \left(f\left(x_{n}\right)\right)}
+ is a Cauchy sequence, and 
+c
+{\displaystyle c}
+ is in the domain of 
+f
+{\displaystyle f}
+.
+The set of points at which a function between metric spaces is continuous is a 
+G
+δ
+{\displaystyle G_{\delta }}
+ set – this follows from the 
+ε
+−
+δ
+{\displaystyle \varepsilon -\delta }
+ definition of continuity.
+This notion of continuity is applied, for example, in functional analysis. A key statement in this area says that a linear operator
+T
+:
+V
+→
+W
+{\displaystyle T:V\to W}
+between normed vector spaces 
+V
+{\displaystyle V}
+ and 
+W
+{\displaystyle W}
+ (which are vector spaces equipped with a compatible norm, denoted 
+‖
+x
+‖
+{\displaystyle \|x\|}
+) is continuous if and only if it is bounded, that is, there is a constant 
+K
+{\displaystyle K}
+ such that
+‖
+T
+(
+x
+)
+‖
+≤
+K
+‖
+x
+‖
+{\displaystyle \|T(x)\|\leq K\|x\|}
+for all 
+x
+∈
+V
+.
+{\displaystyle x\in V.}
+The concept of continuity for functions between metric spaces can be strengthened in various ways by limiting the way 
+δ
+{\displaystyle \delta }
+ depends on 
+ε
+{\displaystyle \varepsilon }
+ and c in the definition above. Intuitively, a function f as above is uniformly continuous if the 
+δ
+{\displaystyle \delta }
+ does
+not depend on the point c. More precisely, it is required that for every real number 
+ε
+>
+0
+{\displaystyle \varepsilon >0}
+ there exists 
+δ
+>
+0
+{\displaystyle \delta >0}
+ such that for every 
+c
+,
+b
+∈
+X
+{\displaystyle c,b\in X}
+ with 
+d
+X
+(
+b
+,
+c
+)
+<
+δ
+,
+{\displaystyle d_{X}(b,c)<\delta ,}
+ we have that 
+d
+Y
+(
+f
+(
+b
+)
+,
+f
+(
+c
+)
+)
+<
+ε
+.
+{\displaystyle d_{Y}(f(b),f(c))<\varepsilon .}
+ Thus, any uniformly continuous function is continuous. The converse does not hold in general, but holds when the domain space X is compact. Uniformly continuous maps can be defined in the more general situation of uniform spaces.[14]
+A function is Hölder continuous with exponent α (a real number) if there is a constant K such that for all 
+b
+,
+c
+∈
+X
+,
+{\displaystyle b,c\in X,}
+ the inequality
+d
+Y
+(
+f
+(
+b
+)
+,
+f
+(
+c
+)
+)
+≤
+K
+⋅
+(
+d
+X
+(
+b
+,
+c
+)
+)
+α
+{\displaystyle d_{Y}(f(b),f(c))\leq K\cdot (d_{X}(b,c))^{\alpha }}
+holds. Any Hölder continuous function is uniformly continuous. The particular case 
+α
+=
+1
+{\displaystyle \alpha =1}
+ is referred to as Lipschitz continuity. That is, a function is Lipschitz continuous if there is a constant K such that the inequality
+d
+Y
+(
+f
+(
+b
+)
+,
+f
+(
+c
+)
+)
+≤
+K
+⋅
+d
+X
+(
+b
+,
+c
+)
+{\displaystyle d_{Y}(f(b),f(c))\leq K\cdot d_{X}(b,c)}
+holds for any 
+b
+,
+c
+∈
+X
+.
+{\displaystyle b,c\in X.}
+[15] The Lipschitz condition occurs, for example, in the Picard–Lindelöf theorem concerning the solutions of ordinary differential equations.
+Another, more abstract, notion of continuity is continuity of functions between topological spaces in which there generally is no formal notion of distance, as there is in the case of metric spaces. A topological space is a set X together with a topology on X, which is a set of subsets of X satisfying a few requirements with respect to their unions and intersections that generalize the properties of the open balls in metric spaces while still allowing to talk about the neighbourhoods of a given point. The elements of a topology are called open subsets of X (with respect to the topology).
+A function
+f
+:
+X
+→
+Y
+{\displaystyle f:X\to Y}
+between two topological spaces X and Y is continuous if for every open set 
+V
+⊆
+Y
+,
+{\displaystyle V\subseteq Y,}
+ the inverse image
+f
+−
+1
+(
+V
+)
+=
+{
+x
+∈
+X
+|
+f
+(
+x
+)
+∈
+V
+}
+{\displaystyle f^{-1}(V)=\{x\in X\;|\;f(x)\in V\}}
+is an open subset of X. That is, f is a function between the sets X and Y (not on the elements of the topology 
+T
+X
+{\displaystyle T_{X}}
+), but the continuity of f depends on the topologies used on X and Y.
+This is equivalent to the condition that the preimages of the closed sets (which are the complements of the open subsets) in Y are closed in X.
+An extreme example: if a set X is given the discrete topology (in which every subset is open), all functions
+f
+:
+X
+→
+T
+{\displaystyle f:X\to T}
+to any topological space T are continuous. On the other hand, if X is equipped with the indiscrete topology (in which the only open subsets are the empty set and X) and the space T set is at least T0, then the only continuous functions are the constant functions. Conversely, any function whose codomain is indiscrete is continuous.
+The translation in the language of neighborhoods of the 
+(
+ε
+,
+δ
+)
+{\displaystyle (\varepsilon ,\delta )}
+-definition of continuity leads to the following definition of the continuity at a point:
+This definition is equivalent to the same statement with neighborhoods restricted to open neighborhoods and can be restated in several ways by using preimages rather than images.
+Also, as every set that contains a neighborhood is also a neighborhood, and 
+f
+−
+1
+(
+V
+)
+{\displaystyle f^{-1}(V)}
+ is the largest subset U of X such that 
+f
+(
+U
+)
+⊆
+V
+,
+{\displaystyle f(U)\subseteq V,}
+ this definition may be simplified into:
+As an open set is a set that is a neighborhood of all its points, a function 
+f
+:
+X
+→
+Y
+{\displaystyle f:X\to Y}
+ is continuous at every point of X if and only if it is a continuous function.
+If X and Y are metric spaces, it is equivalent to consider the neighborhood system of open balls centered at x and f(x) instead of all neighborhoods. This gives back the above 
+ε
+−
+δ
+{\displaystyle \varepsilon -\delta }
+ definition of continuity in the context of metric spaces.  In general topological spaces, there is no notion of nearness or distance. If however the target space is a Hausdorff space, it is still true that f is continuous at a if and only if the limit of f as x approaches a is f(a). At an isolated point, every function is continuous.
+Given 
+x
+∈
+X
+,
+{\displaystyle x\in X,}
+ a map 
+f
+:
+X
+→
+Y
+{\displaystyle f:X\to Y}
+ is continuous at 
+x
+{\displaystyle x}
+ if and only if whenever 
+B
+{\displaystyle {\mathcal {B}}}
+ is a filter on 
+X
+{\displaystyle X}
+ that converges to 
+x
+{\displaystyle x}
+ in 
+X
+,
+{\displaystyle X,}
+ which is expressed by writing 
+B
+→
+x
+,
+{\displaystyle {\mathcal {B}}\to x,}
+ then necessarily 
+f
+(
+B
+)
+→
+f
+(
+x
+)
+{\displaystyle f({\mathcal {B}})\to f(x)}
+ in 
+Y
+.
+{\displaystyle Y.}
+If 
+N
+(
+x
+)
+{\displaystyle {\mathcal {N}}(x)}
+ denotes the neighborhood filter at 
+x
+{\displaystyle x}
+ then 
+f
+:
+X
+→
+Y
+{\displaystyle f:X\to Y}
+ is continuous at 
+x
+{\displaystyle x}
+ if and only if 
+f
+(
+N
+(
+x
+)
+)
+→
+f
+(
+x
+)
+{\displaystyle f({\mathcal {N}}(x))\to f(x)}
+ in 
+Y
+.
+{\displaystyle Y.}
+[16] Moreover, this happens if and only if the prefilter 
+f
+(
+N
+(
+x
+)
+)
+{\displaystyle f({\mathcal {N}}(x))}
+ is a filter base for the neighborhood filter of 
+f
+(
+x
+)
+{\displaystyle f(x)}
+ in 
+Y
+.
+{\displaystyle Y.}
+[16]
+Several equivalent definitions for a topological structure exist and thus there are several equivalent ways to define a continuous function.
+In several contexts, the topology of a space is conveniently  specified in terms of limit points.  In many instances, this is accomplished by specifying when a point is the limit of a sequence, but for some spaces that are too large in some sense, one specifies also when a point is the limit of more general sets of points indexed by a directed set, known as nets.  A function is (Heine-)continuous only if it takes limits of sequences to limits of sequences.  In the former case, preservation of limits is also sufficient; in the latter, a function may preserve all limits of sequences yet still fail to be continuous, and preservation of nets is a necessary and sufficient condition.
+In detail, a function 
+f
+:
+X
+→
+Y
+{\displaystyle f:X\to Y}
+ is sequentially continuous if whenever a sequence 
+(
+x
+n
+)
+{\displaystyle \left(x_{n}\right)}
+ in 
+X
+{\displaystyle X}
+ converges to a limit 
+x
+,
+{\displaystyle x,}
+ the sequence 
+(
+f
+(
+x
+n
+)
+)
+{\displaystyle \left(f\left(x_{n}\right)\right)}
+ converges to 
+f
+(
+x
+)
+.
+{\displaystyle f(x).}
+  Thus sequentially continuous functions "preserve sequential limits".  Every continuous function is sequentially continuous.  If 
+X
+{\displaystyle X}
+ is a first-countable space and countable choice holds, then the converse also holds: any function preserving sequential limits is continuous.  In particular, if 
+X
+{\displaystyle X}
+ is a metric space, sequential continuity and continuity are equivalent.  For non first-countable spaces, sequential continuity might be strictly weaker than continuity. (The spaces for which the two properties are equivalent are called sequential spaces.) This motivates the consideration of nets instead of sequences in general topological spaces.  Continuous functions preserve limits of nets, and in fact this property characterizes continuous functions.
+For instance, consider the case of real-valued functions of one real variable:[17]
+Theorem — A function 
+f
+:
+A
+⊆
+R
+→
+R
+{\displaystyle f:A\subseteq \mathbb {R} \to \mathbb {R} }
+ is continuous at 
+x
+0
+{\displaystyle x_{0}}
+ if and only if it is sequentially continuous at that point.
+Proof. Assume that 
+f
+:
+A
+⊆
+R
+→
+R
+{\displaystyle f:A\subseteq \mathbb {R} \to \mathbb {R} }
+ is continuous at 
+x
+0
+{\displaystyle x_{0}}
+ (in the sense of 
+ϵ
+−
+δ
+{\displaystyle \epsilon -\delta }
+ continuity). Let 
+(
+x
+n
+)
+n
+≥
+1
+{\displaystyle \left(x_{n}\right)_{n\geq 1}}
+ be a sequence converging at 
+x
+0
+{\displaystyle x_{0}}
+ (such a sequence always exists, for example, 
+x
+n
+=
+x
+,
+ for all 
+n
+{\displaystyle x_{n}=x,{\text{ for all }}n}
+); since 
+f
+{\displaystyle f}
+ is continuous at 
+x
+0
+{\displaystyle x_{0}}
+∀
+ϵ
+>
+0
+∃
+δ
+ϵ
+>
+0
+:
+0
+<
+|
+x
+−
+x
+0
+|
+<
+δ
+ϵ
+⟹
+|
+f
+(
+x
+)
+−
+f
+(
+x
+0
+)
+|
+<
+ϵ
+.
+(
+∗
+)
+{\displaystyle \forall \epsilon >0\,\exists \delta _{\epsilon }>0:0<|x-x_{0}|<\delta _{\epsilon }\implies |f(x)-f(x_{0})|<\epsilon .\quad (*)}
+For any such 
+δ
+ϵ
+{\displaystyle \delta _{\epsilon }}
+ we can find a natural number 
+ν
+ϵ
+>
+0
+{\displaystyle \nu _{\epsilon }>0}
+ such that for all 
+n
+>
+ν
+ϵ
+,
+{\displaystyle n>\nu _{\epsilon },}
+|
+x
+n
+−
+x
+0
+|
+<
+δ
+ϵ
+,
+{\displaystyle |x_{n}-x_{0}|<\delta _{\epsilon },}
+since 
+(
+x
+n
+)
+{\displaystyle \left(x_{n}\right)}
+ converges at 
+x
+0
+{\displaystyle x_{0}}
+; combining this with 
+(
+∗
+)
+{\displaystyle (*)}
+ we obtain
+∀
+ϵ
+>
+0
+∃
+ν
+ϵ
+>
+0
+:
+∀
+n
+>
+ν
+ϵ
+|
+f
+(
+x
+n
+)
+−
+f
+(
+x
+0
+)
+|
+<
+ϵ
+.
+{\displaystyle \forall \epsilon >0\,\exists \nu _{\epsilon }>0:\forall n>\nu _{\epsilon }\quad |f(x_{n})-f(x_{0})|<\epsilon .}
+Assume on the contrary that 
+f
+{\displaystyle f}
+ is sequentially continuous and proceed by contradiction: suppose 
+f
+{\displaystyle f}
+ is not continuous at 
+x
+0
+{\displaystyle x_{0}}
+∃
+ϵ
+>
+0
+:
+∀
+δ
+ϵ
+>
+0
+,
+∃
+x
+δ
+ϵ
+:
+0
+<
+|
+x
+δ
+ϵ
+−
+x
+0
+|
+<
+δ
+ϵ
+⟹
+|
+f
+(
+x
+δ
+ϵ
+)
+−
+f
+(
+x
+0
+)
+|
+>
+ϵ
+{\displaystyle \exists \epsilon >0:\forall \delta _{\epsilon }>0,\,\exists x_{\delta _{\epsilon }}:0<|x_{\delta _{\epsilon }}-x_{0}|<\delta _{\epsilon }\implies |f(x_{\delta _{\epsilon }})-f(x_{0})|>\epsilon }
+then we can take 
+δ
+ϵ
+=
+1
+/
+n
+,
+∀
+n
+>
+0
+{\displaystyle \delta _{\epsilon }=1/n,\,\forall n>0}
+ and call the corresponding point 
+x
+δ
+ϵ
+=:
+x
+n
+{\displaystyle x_{\delta _{\epsilon }}=:x_{n}}
+: in this way we have defined a sequence 
+(
+x
+n
+)
+n
+≥
+1
+{\displaystyle (x_{n})_{n\geq 1}}
+ such that
+∀
+n
+>
+0
+|
+x
+n
+−
+x
+0
+|
+<
+1
+n
+,
+|
+f
+(
+x
+n
+)
+−
+f
+(
+x
+0
+)
+|
+>
+ϵ
+{\displaystyle \forall n>0\quad |x_{n}-x_{0}|<{\frac {1}{n}},\quad |f(x_{n})-f(x_{0})|>\epsilon }
+by construction 
+x
+n
+→
+x
+0
+{\displaystyle x_{n}\to x_{0}}
+ but 
+f
+(
+x
+n
+)
+↛
+f
+(
+x
+0
+)
+{\displaystyle f(x_{n})\not \to f(x_{0})}
+, which contradicts the hypothesis of sequentially continuity. 
+◼
+{\displaystyle \blacksquare }
+In terms of the interior operator, a function 
+f
+:
+X
+→
+Y
+{\displaystyle f:X\to Y}
+ between topological spaces is continuous if and only if for every subset 
+B
+⊆
+Y
+,
+{\displaystyle B\subseteq Y,}
+f
+−
+1
+(
+int
+Y
+⁡
+B
+)
+ 
+⊆
+ 
+int
+X
+⁡
+(
+f
+−
+1
+(
+B
+)
+)
+.
+{\displaystyle f^{-1}\left(\operatorname {int} _{Y}B\right)~\subseteq ~\operatorname {int} _{X}\left(f^{-1}(B)\right).}
+In terms of the closure operator, 
+f
+:
+X
+→
+Y
+{\displaystyle f:X\to Y}
+ is continuous if and only if for every subset 
+A
+⊆
+X
+,
+{\displaystyle A\subseteq X,}
+f
+(
+cl
+X
+⁡
+A
+)
+ 
+⊆
+ 
+cl
+Y
+⁡
+(
+f
+(
+A
+)
+)
+.
+{\displaystyle f\left(\operatorname {cl} _{X}A\right)~\subseteq ~\operatorname {cl} _{Y}(f(A)).}
+That is to say, given any element 
+x
+∈
+X
+{\displaystyle x\in X}
+ that belongs to the closure of a subset 
+A
+⊆
+X
+,
+{\displaystyle A\subseteq X,}
+f
+(
+x
+)
+{\displaystyle f(x)}
+ necessarily belongs to the closure of 
+f
+(
+A
+)
+{\displaystyle f(A)}
+ in 
+Y
+.
+{\displaystyle Y.}
+ If we declare that a point 
+x
+{\displaystyle x}
+ is close to a subset 
+A
+⊆
+X
+{\displaystyle A\subseteq X}
+ if 
+x
+∈
+cl
+X
+⁡
+A
+,
+{\displaystyle x\in \operatorname {cl} _{X}A,}
+ then this terminology allows for a plain English description of continuity: 
+f
+{\displaystyle f}
+ is continuous if and only if for every subset 
+A
+⊆
+X
+,
+{\displaystyle A\subseteq X,}
+f
+{\displaystyle f}
+ maps points that are close to 
+A
+{\displaystyle A}
+ to points that are close to 
+f
+(
+A
+)
+.
+{\displaystyle f(A).}
+ Similarly, 
+f
+{\displaystyle f}
+ is continuous at a fixed given point 
+x
+∈
+X
+{\displaystyle x\in X}
+ if and only if whenever 
+x
+{\displaystyle x}
+ is close to a subset 
+A
+⊆
+X
+,
+{\displaystyle A\subseteq X,}
+ then 
+f
+(
+x
+)
+{\displaystyle f(x)}
+ is close to 
+f
+(
+A
+)
+.
+{\displaystyle f(A).}
+Instead of specifying topological spaces by their open subsets, any topology on 
+X
+{\displaystyle X}
+ can alternatively be determined by a closure operator or by an interior operator.  
+Specifically, the map that sends a subset 
+A
+{\displaystyle A}
+ of a topological space 
+X
+{\displaystyle X}
+ to its topological closure 
+cl
+X
+⁡
+A
+{\displaystyle \operatorname {cl} _{X}A}
+ satisfies the Kuratowski closure axioms. Conversely, for any closure operator 
+A
+↦
+cl
+⁡
+A
+{\displaystyle A\mapsto \operatorname {cl} A}
+ there exists a unique topology 
+τ
+{\displaystyle \tau }
+ on 
+X
+{\displaystyle X}
+ (specifically, 
+τ
+:=
+{
+X
+∖
+cl
+⁡
+A
+:
+A
+⊆
+X
+}
+{\displaystyle \tau :=\{X\setminus \operatorname {cl} A:A\subseteq X\}}
+) such that for every subset 
+A
+⊆
+X
+,
+{\displaystyle A\subseteq X,}
+cl
+⁡
+A
+{\displaystyle \operatorname {cl} A}
+ is equal to the topological closure 
+cl
+(
+X
+,
+τ
+)
+⁡
+A
+{\displaystyle \operatorname {cl} _{(X,\tau )}A}
+ of 
+A
+{\displaystyle A}
+ in 
+(
+X
+,
+τ
+)
+.
+{\displaystyle (X,\tau ).}
+ If the sets 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ are each associated with closure operators (both denoted by 
+cl
+{\displaystyle \operatorname {cl} }
+) then a map 
+f
+:
+X
+→
+Y
+{\displaystyle f:X\to Y}
+ is continuous if and only if 
+f
+(
+cl
+⁡
+A
+)
+⊆
+cl
+⁡
+(
+f
+(
+A
+)
+)
+{\displaystyle f(\operatorname {cl} A)\subseteq \operatorname {cl} (f(A))}
+ for every subset 
+A
+⊆
+X
+.
+{\displaystyle A\subseteq X.}
+Similarly, the map that sends a subset 
+A
+{\displaystyle A}
+ of 
+X
+{\displaystyle X}
+ to its topological interior 
+int
+X
+⁡
+A
+{\displaystyle \operatorname {int} _{X}A}
+ defines an interior operator. Conversely, any interior operator 
+A
+↦
+int
+⁡
+A
+{\displaystyle A\mapsto \operatorname {int} A}
+ induces a unique topology 
+τ
+{\displaystyle \tau }
+ on 
+X
+{\displaystyle X}
+ (specifically, 
+τ
+:=
+{
+int
+⁡
+A
+:
+A
+⊆
+X
+}
+{\displaystyle \tau :=\{\operatorname {int} A:A\subseteq X\}}
+) such that for every 
+A
+⊆
+X
+,
+{\displaystyle A\subseteq X,}
+int
+⁡
+A
+{\displaystyle \operatorname {int} A}
+ is equal to the topological interior 
+int
+(
+X
+,
+τ
+)
+⁡
+A
+{\displaystyle \operatorname {int} _{(X,\tau )}A}
+ of 
+A
+{\displaystyle A}
+ in 
+(
+X
+,
+τ
+)
+.
+{\displaystyle (X,\tau ).}
+ If the sets 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ are each associated with interior operators (both denoted by 
+int
+{\displaystyle \operatorname {int} }
+) then a map 
+f
+:
+X
+→
+Y
+{\displaystyle f:X\to Y}
+ is continuous if and only if 
+f
+−
+1
+(
+int
+⁡
+B
+)
+⊆
+int
+⁡
+(
+f
+−
+1
+(
+B
+)
+)
+{\displaystyle f^{-1}(\operatorname {int} B)\subseteq \operatorname {int} \left(f^{-1}(B)\right)}
+ for every subset 
+B
+⊆
+Y
+.
+{\displaystyle B\subseteq Y.}
+[18]
+Continuity can also be characterized in terms of filters. A function 
+f
+:
+X
+→
+Y
+{\displaystyle f:X\to Y}
+ is continuous if and only if whenever a filter 
+B
+{\displaystyle {\mathcal {B}}}
+ on 
+X
+{\displaystyle X}
+ converges in 
+X
+{\displaystyle X}
+ to a point 
+x
+∈
+X
+,
+{\displaystyle x\in X,}
+ then the prefilter 
+f
+(
+B
+)
+{\displaystyle f({\mathcal {B}})}
+ converges in 
+Y
+{\displaystyle Y}
+ to 
+f
+(
+x
+)
+.
+{\displaystyle f(x).}
+ This characterization remains true if the word "filter" is replaced by "prefilter."[16]
+If 
+f
+:
+X
+→
+Y
+{\displaystyle f:X\to Y}
+ and 
+g
+:
+Y
+→
+Z
+{\displaystyle g:Y\to Z}
+ are continuous, then so is the composition 
+g
+∘
+f
+:
+X
+→
+Z
+.
+{\displaystyle g\circ f:X\to Z.}
+ If 
+f
+:
+X
+→
+Y
+{\displaystyle f:X\to Y}
+ is continuous and
+The possible topologies on a fixed set X are partially ordered: a topology 
+τ
+1
+{\displaystyle \tau _{1}}
+ is said to be coarser than another topology 
+τ
+2
+{\displaystyle \tau _{2}}
+ (notation: 
+τ
+1
+⊆
+τ
+2
+{\displaystyle \tau _{1}\subseteq \tau _{2}}
+) if every open subset with respect to 
+τ
+1
+{\displaystyle \tau _{1}}
+ is also open with respect to 
+τ
+2
+.
+{\displaystyle \tau _{2}.}
+ Then, the identity map
+id
+X
+:
+(
+X
+,
+τ
+2
+)
+→
+(
+X
+,
+τ
+1
+)
+{\displaystyle \operatorname {id} _{X}:\left(X,\tau _{2}\right)\to \left(X,\tau _{1}\right)}
+is continuous if and only if 
+τ
+1
+⊆
+τ
+2
+{\displaystyle \tau _{1}\subseteq \tau _{2}}
+ (see also comparison of topologies). More generally, a continuous function
+(
+X
+,
+τ
+X
+)
+→
+(
+Y
+,
+τ
+Y
+)
+{\displaystyle \left(X,\tau _{X}\right)\to \left(Y,\tau _{Y}\right)}
+stays continuous if the topology 
+τ
+Y
+{\displaystyle \tau _{Y}}
+ is replaced by a coarser topology and/or 
+τ
+X
+{\displaystyle \tau _{X}}
+ is replaced by a finer topology.
+Symmetric to the concept of a continuous map is an open map, for which images of open sets are open. In fact, if an open map f has an inverse function, that inverse is continuous, and if a continuous map g has an inverse, that inverse is open. Given a bijective function f between two topological spaces, the inverse function 
+f
+−
+1
+{\displaystyle f^{-1}}
+ need not be continuous. A bijective continuous function with continuous inverse function is called a homeomorphism.
+If a continuous bijection has as its domain a compact space and its codomain is Hausdorff, then it is a homeomorphism.
+Given a function
+f
+:
+X
+→
+S
+,
+{\displaystyle f:X\to S,}
+where X is a topological space and S is a set (without a specified topology), the final topology on S is defined by letting the open sets of S be those subsets A of S for which 
+f
+−
+1
+(
+A
+)
+{\displaystyle f^{-1}(A)}
+ is open in X. If S has an existing topology, f is continuous with respect to this topology if and only if the existing topology is coarser than the final topology on S.  Thus the final topology can be characterized as the finest topology on S that makes f continuous.  If f is surjective, this topology is canonically identified with the quotient topology under the equivalence relation defined by f.
+Dually, for a function f from a set S to a topological space X, the initial topology on S is defined by designating as an open set every subset A of S such that 
+A
+=
+f
+−
+1
+(
+U
+)
+{\displaystyle A=f^{-1}(U)}
+ for some open subset U of X.  If S has an existing topology, f is continuous with respect to this topology if and only if the existing topology is finer than the initial topology on S.  Thus the initial topology can be characterized as the coarsest topology on S that makes f continuous.  If f is injective, this topology is canonically identified with the subspace topology of S, viewed as a subset of X.
+A topology on a set S is uniquely determined by the class of all continuous functions 
+S
+→
+X
+{\displaystyle S\to X}
+ into all topological spaces X. Dually, a similar idea can be applied to maps 
+X
+→
+S
+.
+{\displaystyle X\to S.}
+If 
+f
+:
+S
+→
+Y
+{\displaystyle f:S\to Y}
+ is a continuous function from some subset 
+S
+{\displaystyle S}
+ of a topological space 
+X
+{\displaystyle X}
+ then a continuous extension of 
+f
+{\displaystyle f}
+ to 
+X
+{\displaystyle X}
+ is any continuous function 
+F
+:
+X
+→
+Y
+{\displaystyle F:X\to Y}
+ such that 
+F
+(
+s
+)
+=
+f
+(
+s
+)
+{\displaystyle F(s)=f(s)}
+ for every 
+s
+∈
+S
+,
+{\displaystyle s\in S,}
+ which is a condition that often written as 
+f
+=
+F
+|
+S
+.
+{\displaystyle f=F{\big \vert }_{S}.}
+ In words, it is any continuous function 
+F
+:
+X
+→
+Y
+{\displaystyle F:X\to Y}
+ that restricts to 
+f
+{\displaystyle f}
+ on 
+S
+.
+{\displaystyle S.}
+ This notion is used, for example, in the Tietze extension theorem and the Hahn–Banach theorem. Were 
+f
+:
+S
+→
+Y
+{\displaystyle f:S\to Y}
+ not continuous then it could not possibly have a continuous extension. If 
+Y
+{\displaystyle Y}
+ is a Hausdorff space and 
+S
+{\displaystyle S}
+ is a dense subset of 
+X
+{\displaystyle X}
+ then a continuous extension of 
+f
+:
+S
+→
+Y
+{\displaystyle f:S\to Y}
+ to 
+X
+,
+{\displaystyle X,}
+ if one exists, will be unique. The Blumberg theorem states that if 
+f
+:
+R
+→
+R
+{\displaystyle f:\mathbb {R} \to \mathbb {R} }
+ is an arbitrary function then there exists a dense subset 
+D
+{\displaystyle D}
+ of 
+R
+{\displaystyle \mathbb {R} }
+ such that the restriction 
+f
+|
+D
+:
+D
+→
+R
+{\displaystyle f{\big \vert }_{D}:D\to \mathbb {R} }
+ is continuous; in other words, every function 
+R
+→
+R
+{\displaystyle \mathbb {R} \to \mathbb {R} }
+ can be restricted to some dense subset on which it is continuous. 
+Various other mathematical domains use the concept of continuity in different, but related meanings. For example, in order theory, an order-preserving function 
+f
+:
+X
+→
+Y
+{\displaystyle f:X\to Y}
+ between particular types of partially ordered sets 
+X
+{\displaystyle X}
+ and 
+Y
+{\displaystyle Y}
+ is continuous if for each directed subset 
+A
+{\displaystyle A}
+ of 
+X
+,
+{\displaystyle X,}
+ we have 
+sup
+f
+(
+A
+)
+=
+f
+(
+sup
+A
+)
+.
+{\displaystyle \sup f(A)=f(\sup A).}
+ Here 
+sup
+{\displaystyle \,\sup \,}
+ is the supremum with respect to the orderings in 
+X
+{\displaystyle X}
+ and 
+Y
+,
+{\displaystyle Y,}
+ respectively. This notion of continuity is the same as topological continuity when the partially ordered sets are given the Scott topology.[19][20]
+In category theory, a functor
+F
+:
+C
+→
+D
+{\displaystyle F:{\mathcal {C}}\to {\mathcal {D}}}
+between two categories is called continuous if it commutes with small limits. That is to say,
+lim
+←
+i
+∈
+I
+⁡
+F
+(
+C
+i
+)
+≅
+F
+(
+lim
+←
+i
+∈
+I
+⁡
+C
+i
+)
+{\displaystyle \varprojlim _{i\in I}F(C_{i})\cong F\left(\varprojlim _{i\in I}C_{i}\right)}
+for any small (that is, indexed by a set 
+I
+,
+{\displaystyle I,}
+ as opposed to a class) diagram of objects in 
+C
+{\displaystyle {\mathcal {C}}}
+.
+A continuity space is a generalization of metric spaces and posets,[21][22] which uses the concept of quantales, and that can be used to unify the notions of metric spaces and domains.[23]

@@ -1,0 +1,75 @@
+9487,
+Epsilon,
+Epsilon (/ˈɛpsɪlɒn/,[1] UK also /ɛpˈsaɪlən/;[2] uppercase Ε, lowercase ε or lunate ϵ; Greek: έψιλον) is the fifth letter of the Greek alphabet, corresponding phonetically to a mid front unrounded vowel IPA: [e̞] or IPA: [ɛ̝]. In the system of Greek numerals it also has the value five. It was derived from the Phoenician letter He . Letters that arose from epsilon include the Roman E, Ë and Ɛ, and Cyrillic Е, È, Ё, Є and Э.
+The name of the letter was originally εἶ (Ancient Greek: [êː]), but it was later changed to ἒ ψιλόν (e psilon 'simple e') in the Middle Ages to distinguish the letter from the digraph αι, a former diphthong that had come to be pronounced the same as epsilon.
+The uppercase form of epsilon is identical to Latin E but has its own code point in Unicode: U+0395 Ε GREEK CAPITAL LETTER EPSILON. The lowercase version has two typographical variants, both inherited from medieval Greek handwriting. One, the most common in modern typography and inherited from medieval minuscule, looks like a reversed number "3" and is encoded U+03B5 ε GREEK SMALL LETTER EPSILON. The other, also known as lunate or uncial epsilon and inherited from earlier uncial writing,[3][4] looks like a semicircle crossed by a horizontal bar: it  is encoded U+03F5 ϵ GREEK LUNATE EPSILON SYMBOL. While in normal typography these are just alternative font variants, they may have different meanings as mathematical symbols: computer systems therefore offer distinct encodings for them.[3] In TeX, \epsilon ( 
+
+
+
+ϵ
+
+
+
+{\displaystyle \epsilon \!}
+
+ ) denotes the lunate form, while \varepsilon ( 
+
+
+
+ε
+
+
+
+{\displaystyle \varepsilon \!}
+
+ ) denotes the reversed-3 form. In the Unicode version 1.0.0, the lunate form ϵ was used as the lowercase epsilon letter,[5] while the version 2.0.0 and onwards use the reversed-3 form ɛ as the lowercase epsilon letter.[6]
+There is also a 'Latin epsilon', ɛ or "open e", which looks similar to the Greek lowercase epsilon. It is encoded in Unicode as U+025B ɛ LATIN SMALL LETTER OPEN E and U+0190 Ɛ LATIN CAPITAL LETTER OPEN E and is used as an IPA phonetic symbol. The lunate or uncial epsilon provided inspiration for the euro sign, €.[7]
+The lunate epsilon, ϵ, is not to be confused with the set membership symbol ∈; nor should the Latin uppercase epsilon, Ɛ, be confused with the Greek uppercase Σ (sigma).  The symbol 
+
+
+
+∈
+
+
+{\displaystyle \in }
+
+, first used in set theory and logic by Giuseppe Peano and now used in mathematics in general for set membership ("belongs to") evolved from the letter epsilon, since the symbol was originally used as an abbreviation for the Latin word est.  In addition, mathematicians often read the symbol ∈ as "element of", as in "1 is an element of the natural numbers" for 
+
+
+
+1
+∈
+
+N
+
+
+
+{\displaystyle 1\in \mathbb {N} }
+
+, for example.  As late as 1960,  ε itself was used for set membership, while its negation "does not belong to" (now ∉) was denoted by ε' (epsilon prime).[8]  Only gradually did a fully separate, stylized symbol take the place of epsilon in this role.  In a related context, Peano also introduced the use of a backwards epsilon, ϶, for the phrase "such that", although the abbreviation s.t. is occasionally used in place of ϶ in informal cardinals.
+The letter Ε was adopted from the Phoenician letter He () when Greeks first adopted alphabetic writing. In archaic Greek writing, its shape is often still identical to that of the Phoenician letter. Like other Greek letters, it could face either leftward or rightward (), depending on the current writing direction, but, just as in Phoenician, the horizontal bars always faced in the direction of writing. Archaic writing often preserves the Phoenician form with a vertical stem extending slightly below the lowest horizontal bar. In the classical era, through the influence of more cursive writing styles, the shape was simplified to the current E glyph.[9]
+While the original pronunciation of the Phoenician letter He was [h], the earliest Greek sound value of Ε was determined by the vowel occurring in the Phoenician letter name, which made it a natural choice for being reinterpreted from a consonant symbol to a vowel symbol denoting an [e] sound.[10] Besides its classical Greek sound value, the short /e/ phoneme, it could initially also be used for other [e]-like sounds. For instance, in early Attic before c. 500 BC, it was used also both for the long, open /ɛː/, and for the long close /eː/. In the former role, it was later replaced in the classic Greek alphabet by Eta (Η), which was taken over from eastern Ionic alphabets, while in the latter role it was replaced by the digraph spelling ΕΙ.
+Some dialects used yet other ways of distinguishing between various e-like sounds.
+In Corinth, the normal function of Ε to denote /e/ and /ɛː/ was taken by a glyph resembling a pointed B (), while Ε was used only for long close /eː/.[11] The letter Beta, in turn, took the deviant shape .
+In Sicyon, a variant glyph resembling an X () was used in the same function as Corinthian .[12]
+In Thespiai (Boeotia), a special letter form consisting of a vertical stem with a single rightward-pointing horizontal bar () was used for what was probably a raised variant of /e/ in pre-vocalic environments.[13][14] This tack glyph was used elsewhere also as a form of "Heta", i.e. for the sound /h/.
+
+After the establishment of the canonical classical Ionian (Euclidean) Greek alphabet, new glyph variants for Ε were introduced through handwriting. In the uncial script (used for literary papyrus manuscripts in late antiquity and then in early medieval vellum codices), the "lunate" shape () became predominant. In cursive handwriting, a large number of shorthand glyphs came to be used, where the cross-bar and the curved stroke were linked in various ways.[15] Some of them resembled a modern lowercase Latin "e", some a "6" with a connecting stroke to the next letter starting from the middle, and some a combination of two small "c"-like curves. Several of these shapes were later taken over into minuscule book hand. Of the various minuscule letter shapes, the inverted-3 form became the basis for lower-case Epsilon in Greek typography during the modern era.
+Despite its pronunciation as mid, in the International Phonetic Alphabet, the Latin epsilon /ɛ/ represents open-mid front unrounded vowel, as in the English word pet /pɛt/.
+The uppercase Epsilon is not commonly used outside of the Greek language because of its similarity to the Latin letter E. However, it is commonly used in structural mechanics with Young's Modulus equations for calculating tensile, compressive and areal strain.
+The Greek lowercase epsilon ε, the lunate epsilon symbol ϵ, and the Latin lowercase epsilon ɛ (see above) are used in a variety of places:
+
+
+
+
+
+
+
+
+
+These characters are used only as mathematical symbols. Stylized Greek text should be encoded using the normal Greek letters, with markup and formatting to indicate text style.
+Initial epsilon in Lectionary 226, folio 20 verso
+folio 64 verso
+folio 125 verso
+
+

@@ -1,0 +1,58 @@
+5869,
+Categorytheory,
+Category theory is a general theory of mathematical structures and their relations that was introduced by Samuel Eilenberg and Saunders Mac Lane in the middle of the 20th century in their foundational work on algebraic topology. Category theory is used in almost all areas of mathematics. In particular, numerous constructions of new mathematical objects from previous ones that appear similarly in several contexts are conveniently expressed and unified in terms of categories. Examples include quotient spaces, direct products, completion, and duality.
+Many areas of computer science also rely on category theory, such as functional programming.
+A category is formed by two sorts of objects: the objects of the category, and the morphisms, which relate two objects called the source and the target of the morphism. One often says that a morphism is an arrow that maps its source to its target. Morphisms can be composed if the target of the first morphism equals the source of the second one, and morphism composition has similar properties as function composition (associativity and existence of identity morphisms). Morphisms are often some sort of function, but this is not always the case. For example, a monoid may be viewed as a category with a single object, whose morphisms are the elements of the monoid.
+The second fundamental concept of category theory is the concept of a functor, which plays the role of a morphism between two categories 
+C
+1
+{\displaystyle C_{1}}
+ and 
+C
+2
+:
+{\displaystyle C_{2}:}
+ it maps objects of 
+C
+1
+{\displaystyle C_{1}}
+ to objects of 
+C
+2
+{\displaystyle C_{2}}
+ and morphisms of 
+C
+1
+{\displaystyle C_{1}}
+ to morphisms of 
+C
+2
+{\displaystyle C_{2}}
+ in such a way that sources are mapped to sources and targets are mapped to targets (or, in the case of a contravariant functor, sources are mapped to targets and vice-versa). A third fundamental concept is a natural transformation that may be viewed as a morphism of functors.
+A category C consists of the following three mathematical entities:
+Relations among morphisms (such as fg = h) are often depicted using commutative diagrams, with "points" (corners) representing objects and "arrows" representing morphisms.
+Morphisms can have any of the following properties. A morphism f : a → b is a:
+Every retraction is an epimorphism, and every section is a monomorphism. Furthermore, the following three statements are equivalent:
+Functors are structure-preserving maps between categories. They can be thought of as morphisms in the category of all (small) categories.
+A (covariant) functor F from a category C to a category D, written F : C → D, consists of:
+such that the following two properties hold:
+A contravariant functor F: C → D is like a covariant functor, except that it "turns morphisms around" ("reverses all the arrows"). More specifically, every morphism f : x → y in C must be assigned to a morphism  F(f) : F(y) → F(x) in D. In other words, a contravariant functor acts as a covariant functor from the opposite category Cop to D.
+A natural transformation is a relation between two functors. Functors often describe "natural constructions" and natural transformations then describe "natural homomorphisms" between two such constructions. Sometimes two quite different constructions yield "the same" result; this is expressed by a natural isomorphism between the two functors.
+If F and G are (covariant) functors between the categories C and D, then a natural transformation η from F to G associates to every object X in C a morphism ηX : F(X) → G(X) in D such that for every morphism f : X → Y in C, we have ηY ∘ F(f) = G(f) ∘ ηX; this means that the following diagram is commutative:
+The two functors F and G are called naturally isomorphic if there exists a natural transformation from F to G such that ηX is an isomorphism for every object X in C.
+Using the language of category theory, many areas of mathematical study can be categorized. Categories include sets, groups and topologies.
+Each category is distinguished by properties that all its objects have in common, such as the empty set or the product of two topologies, yet in the definition of a category, objects are considered atomic, i.e., we do not know whether an object A is a set, a topology, or any other abstract concept. Hence, the challenge is to define special objects without referring to the internal structure of those objects. To define the empty set without referring to elements, or the product topology without referring to open sets, one can characterize these objects in terms of their relations to other objects, as given by the morphisms of the respective categories. Thus, the task is to find universal properties that uniquely determine the objects of interest.
+Numerous important constructions can be described in a purely categorical way if the category limit can be developed and dualized to yield the notion of a colimit.
+It is a natural question to ask: under which conditions can two categories be considered essentially the same, in the sense that theorems about one category can readily be transformed into theorems about the other category? The major tool one employs to describe such a situation is called equivalence of categories, which is given by appropriate functors between two categories. Categorical equivalence has found numerous applications in mathematics.
+The definitions of categories and functors provide only the very basics of categorical algebra; additional important topics are listed below. Although there are strong interrelations between all of these topics, the given order can be considered as a guideline for further reading.
+Many of the above concepts, especially equivalence of categories, adjoint functor pairs, and functor categories, can be situated into the context of higher-dimensional categories. Briefly, if we consider a morphism between two objects as a "process taking us from one object to another", then higher-dimensional categories allow us to profitably generalize this by considering "higher-dimensional processes".
+For example, a (strict) 2-category is a category together with "morphisms between morphisms", i.e., processes which allow us to transform one morphism into another. We can then "compose" these "bimorphisms" both horizontally and vertically, and we require a 2-dimensional "exchange law" to hold, relating the two composition laws. In this context, the standard example is Cat, the 2-category of all (small) categories, and in this example, bimorphisms of morphisms are simply natural transformations of morphisms in the usual sense. Another basic example is to consider a 2-category with a single object; these are essentially monoidal categories. Bicategories are a weaker notion of 2-dimensional categories in which the composition of morphisms is not strictly associative, but only associative "up to" an isomorphism.
+This process can be extended for all natural numbers n, and these are called n-categories. There is even a notion of ω-category corresponding to the ordinal number ω.
+Higher-dimensional categories are part of the broader mathematical field of higher-dimensional algebra, a concept introduced by Ronald Brown.  For a conversational introduction to these ideas, see John Baez, 'A Tale of n-categories' (1996).
+It should be observed first that the whole concept of a  category is essentially an auxiliary one; our basic concepts are essentially those of a functor and of a natural transformation [...]Whilst specific examples of functors and natural transformations had been given by Samuel Eilenberg and Saunders Mac Lane in a 1942 paper on group theory,[2] these concepts were introduced in a more general sense, together with the additional notion of categories, in a 1945 paper by the same authors[1] (who  discussed applications of category theory to the field of algebraic topology).[3] Their work was an important part of the transition from intuitive and geometric homology to homological algebra, Eilenberg and Mac Lane later writing that their goal was to understand natural transformations, which first required the definition of functors, then categories.
+Stanislaw Ulam, and some writing on his behalf, have claimed that related ideas were current in the late 1930s in Poland. Eilenberg was Polish, and studied mathematics in Poland in the 1930s. Category theory is also, in some sense, a continuation of the work of Emmy Noether (one of Mac Lane's teachers) in formalizing abstract processes;[4] Noether realized that understanding a type of mathematical structure requires understanding the processes that preserve that structure (homomorphisms).[citation needed] Eilenberg and Mac Lane introduced categories for understanding and formalizing the processes (functors) that relate topological structures to  algebraic structures (topological invariants) that characterize them.
+Category theory was originally introduced for the need of homological algebra, and widely extended for the need of modern algebraic geometry (scheme theory). Category theory may be viewed as an extension of universal algebra, as the latter studies algebraic structures, and the former applies to any kind of mathematical structure and studies also the relationships between structures of different nature. For this reason, it is used throughout mathematics. Applications to mathematical logic and semantics (categorical abstract machine) came later.
+Certain categories called topoi (singular topos) can even serve as an alternative to axiomatic set theory as a foundation of mathematics. A topos can also be considered as a specific type of category with two additional topos axioms. These foundational applications of category theory have been worked out in fair detail as a basis for, and justification of, constructive mathematics. Topos theory is a form of abstract sheaf theory, with geometric origins, and leads to ideas such as pointless topology.
+Categorical logic is now a well-defined field based on type theory for intuitionistic logics, with applications in functional programming and domain theory, where a cartesian closed category is taken as a non-syntactic description of a lambda calculus. At the very least, category theoretic language clarifies what exactly these related areas have in common (in some abstract sense).
+Category theory has been applied in other fields as well. For example, John Baez has shown a link between Feynman diagrams in physics and monoidal categories.[5] Another application of category theory, more specifically: topos theory, has been made in mathematical music theory, see for example the book The Topos of Music, Geometric Logic of Concepts, Theory, and Performance by Guerino Mazzola.
+More recent efforts to introduce undergraduates to categories as a foundation for mathematics include those of William Lawvere and Rosebrugh (2003) and Lawvere and Stephen Schanuel (1997) and Mirroslav Yotov (2012).

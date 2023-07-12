@@ -1,0 +1,2072 @@
+39469,
+Homology(mathematics),
+In mathematics, homology[1] is a general way of associating a sequence of algebraic objects, such as abelian groups or modules, with other mathematical objects such as topological spaces.  Homology groups were originally defined in algebraic topology.  Similar constructions are available in a wide variety of other contexts, such as abstract algebra, groups, Lie algebras, Galois theory, and algebraic geometry.
+The original motivation for defining homology groups was the observation that two shapes can be distinguished by examining their holes.  For instance, a circle is not a disk because the circle has a hole through it while the disk is solid, and the ordinary sphere is not a circle because the sphere encloses a two-dimensional hole while the circle encloses a one-dimensional hole.  However, because a hole is "not there", it is not immediately obvious how to define a hole or how to distinguish different kinds of holes.  Homology was originally a rigorous mathematical method for defining and categorizing holes in a manifold.  Loosely speaking, a cycle is a closed submanifold, a boundary is a cycle which is also the boundary of a submanifold, and a homology class (which represents a hole) is an equivalence class of cycles modulo boundaries. A homology class is thus represented by a cycle which is not the boundary of any submanifold: the cycle represents a hole, namely a hypothetical manifold whose boundary would be that cycle, but which is "not there".
+There are many different homology theories.  A particular type of mathematical object, such as a topological space or a group, may have one or more associated homology theories.  When the underlying object has a geometric interpretation as topological spaces do, the nth homology group represents behavior in dimension n.  Most homology groups or modules may be formulated as derived functors on appropriate abelian categories, measuring the failure of a functor to be exact.  From this abstract perspective, homology groups are determined by objects of a derived category.
+Homology theory can be said to start with the Euler polyhedron formula, or Euler characteristic.[2] This was followed by Riemann's definition of genus and n-fold connectedness numerical invariants in 1857 and Betti's proof in 1871 of the independence of "homology numbers" from the choice of basis.[3]
+Homology itself was developed as a way to analyse and classify manifolds according to their cycles – closed loops (or more generally submanifolds) that can be drawn on a given n dimensional manifold but not continuously deformed into each other.[4] These cycles are also sometimes thought of as cuts which can be glued back together, or as zippers which can be fastened and unfastened. Cycles are classified by dimension. For example, a line drawn on a surface represents a 1-cycle, a closed loop or 
+
+
+S
+
+1
+
+
+S^{1}
+
+ (1-manifold), while a surface cut through a three-dimensional manifold is a 2-cycle.
+On the ordinary sphere 
+
+
+S
+
+2
+
+
+S^{2}
+
+, the cycle b in the diagram can be shrunk to the pole, and even the equatorial great circle a can be shrunk in the same way. The Jordan curve theorem shows that any arbitrary cycle such as c can be similarly shrunk to a point. All cycles on the sphere can therefore be continuously transformed into each other and belong to the same homology class. They are said to be homologous to zero. Cutting a manifold along a cycle homologous to zero separates the manifold into two or more components. For example, cutting the sphere along a produces two hemispheres.
+This is not generally true of cycles on other surfaces. The torus 
+
+
+T
+
+2
+
+
+T^{2}
+
+ has cycles which cannot be continuously deformed into each other, for example in the diagram none of the cycles a, b or c can be deformed into one another. In particular, cycles a and b cannot be shrunk to a point whereas cycle c can, thus making it homologous to zero.
+If the torus surface is cut along both a and b, it can be opened out and flattened into a rectangle or, more conveniently, a square. One opposite pair of sides represents the cut along a, and the other opposite pair represents the cut along b.
+The edges of the square may then be glued back together in different ways. The square can be twisted to allow edges to meet in the opposite direction, as shown by the arrows in the diagram. The various ways of gluing the sides yield just four topologically distinct surfaces:
+
+
+
+K
+
+2
+
+
+K^{2}
+
+ is the Klein bottle, which is a torus with a twist in it (In the square diagram, the twist can be seen as the reversal of the bottom arrow). It is a theorem that the re-glued surface must self-intersect (when immersed in Euclidean 3-space). Like the torus, cycles a and b cannot be shrunk while c can be. But unlike the torus, following b forwards right round and back reverses left and right, because b happens to cross over the twist given to one join. If an equidistant cut on one side of b is made, it returns on the other side and goes round the surface a second time before returning to its starting point, cutting out a twisted Möbius strip. Because local left and right can be arbitrarily re-oriented in this way, the surface as a whole is said to be non-orientable.
+The projective plane 
+
+
+P
+
+2
+
+
+P^{2}
+
+ has both joins twisted. The uncut form, generally represented as the Boy surface, is visually complex, so a hemispherical embedding is shown in the diagram, in which antipodal points around the rim such as A and A′ are identified as the same point. Again, a is non-shrinkable while c is. If b were only wound once, it would also be non-shrinkable and reverse left and right. However it is wound a second time, which swaps right and left back again; it can be shrunk to a point and is homologous to c.
+Cycles can be joined or added together, as a and b on the torus were when it was cut open and flattened down. In the Klein bottle diagram, a goes round one way and −a goes round the opposite way. If a is thought of as a cut, then  −a can be thought of as a gluing operation. Making a cut and then re-gluing it does not change the surface, so a + (−a) = 0.
+But now consider two a-cycles. Since the Klein bottle is nonorientable, you can transport one of them all the way round the bottle (along the b-cycle), and it will come back as −a. This is because the Klein bottle is made from a cylinder, whose a-cycle ends are glued together with opposite orientations. Hence 2a = a + a = a + (−a) = 0. This phenomenon is called torsion. Similarly, in the projective plane, following the unshrinkable cycle b round twice remarkably creates a trivial cycle which can be shrunk to a point; that is, b + b = 0. Because b must be followed around twice to achieve a zero cycle, the surface is said to have a torsion coefficient of 2. However, following a b-cycle around twice in the Klein bottle gives simply b + b = 2b, since this cycle lives in a torsion-free homology class. This corresponds to the fact that in the fundamental polygon of the Klein bottle, only one pair of sides is glued with a twist, whereas in the projective plane both sides are twisted.
+A square is a contractible topological space, which implies that it has trivial homology.  Consequently, additional cuts disconnect it. The square is not the only shape in the plane that can be glued into a surface.  Gluing opposite sides of an octagon, for example, produces a surface with two holes.  In fact, all closed surfaces can be produced by gluing the sides of some polygon and all even-sided polygons (2n-gons) can be glued to make different manifolds. Conversely, a closed surface with n non-zero classes can be cut into a 2n-gon. Variations are also possible, for example a hexagon may also be glued to form a torus.[5]
+The first recognisable theory of homology was published by Henri Poincaré in his seminal paper "Analysis situs", J. Ecole polytech. (2) 1. 1–121 (1895). The paper introduced homology classes and relations. The possible configurations of orientable cycles are classified by the Betti numbers of the manifold (Betti numbers are a refinement of the Euler characteristic).  Classifying the non-orientable cycles requires additional information about torsion coefficients.[4]
+The complete classification of 1- and 2-manifolds is given in the table.
+A manifold with boundary or open manifold is topologically distinct from a closed manifold and can be created by making a cut in any suitable closed manifold. For example the disk or 2-ball 
+
+
+B
+
+2
+
+
+B^{2}
+
+ is bounded by a circle 
+
+
+S
+
+1
+
+
+S^{1}
+
+.[citation needed] It may be created by cutting a trivial cycle in any 2-manifold and keeping the piece removed, by piercing the sphere and stretching the puncture wide, or by cutting the projective plane. It can also be seen as filling-in the circle in the plane.
+When two cycles can be continuously deformed into each other, then cutting along one produces the same shape as cutting along the other, up to some bending and stretching.  In this case the two cycles are said to be homologous or to lie in the same homology class.  Additionally, if one cycle can be continuously deformed into a combination of other cycles, then cutting along the initial cycle is the same as cutting along the combination of other cycles.  For example, cutting along a figure 8 is equivalent to cutting along its two lobes.  In this case, the figure 8 is said to be homologous to the sum of its lobes.
+Two open manifolds with similar boundaries (up to some bending and stretching) may be glued together to form a new manifold which is their connected sum.
+This geometric analysis of manifolds is not rigorous. In a search for increased rigour, Poincaré went on to develop the simplicial homology of a triangulated manifold and to create what is now called a chain complex.[7][8]  These chain complexes (since greatly generalized) form the basis for most modern treatments of homology.
+In such treatments a cycle need not be continuous: a 0-cycle is a set of points, and cutting along this cycle corresponds to puncturing the manifold.  A 1-cycle corresponds to a set of closed loops (an image of the 1-manifold 
+
+
+S
+
+1
+
+
+S^{1}
+
+).  On a surface, cutting along a 1-cycle yields either disconnected pieces or a simpler shape.  A 2-cycle corresponds to a collection of embedded surfaces such as a sphere or a torus, and so on.
+Emmy Noether and, independently, Leopold Vietoris and Walther Mayer further developed the theory of algebraic homology groups in the period 1925–28.[9][10][11] The new combinatorial topology formally treated topological classes as abelian groups.  Homology groups are finitely generated abelian groups, and homology classes are elements of these groups. The Betti numbers of the manifold are the rank of the free part of the homology group, and the non-orientable cycles are described by the torsion part.
+The subsequent spread of homology groups brought a change of terminology and viewpoint from "combinatorial topology" to "algebraic topology".[12]  Algebraic homology remains the primary method of classifying manifolds.[13]
+The homology of a topological space X is a set of topological invariants of X represented by its homology groups
+
+
+
+
+
+H
+
+0
+
+
+(
+X
+)
+,
+
+H
+
+1
+
+
+(
+X
+)
+,
+
+H
+
+2
+
+
+(
+X
+)
+,
+…
+
+
+{\displaystyle H_{0}(X),H_{1}(X),H_{2}(X),\ldots }
+
+
+where the 
+
+
+k
+
+
+t
+h
+
+
+
+k^{\rm {th}}
+
+ homology group 
+
+
+
+H
+
+k
+
+
+(
+X
+)
+
+H_{k}(X)
+
+ describes, informally, the number of holes in X with a k-dimensional boundary. A 0-dimensional-boundary hole is simply a gap between two components. Consequently, 
+
+
+
+H
+
+0
+
+
+(
+X
+)
+
+H_{0}(X)
+
+ describes the path-connected components of X.[14]
+A one-dimensional sphere 
+
+
+S
+
+1
+
+
+S^{1}
+
+ is a circle. It has a single connected component and a one-dimensional-boundary hole, but no higher-dimensional holes. The corresponding homology groups are given as
+
+
+
+
+
+H
+
+k
+
+
+
+(
+
+S
+
+1
+
+
+)
+
+=
+
+
+{
+
+
+
+
+Z
+
+
+
+k
+=
+0
+,
+1
+
+
+
+
+{
+0
+}
+
+
+
+otherwise
+
+
+
+
+
+
+
+
+
+{\displaystyle H_{k}\left(S^{1}\right)={\begin{cases}\mathbb {Z} &k=0,1\\\{0\}&{\text{otherwise}}\end{cases}}}
+
+
+where 
+
+
+Z
+
+\mathbb {Z}
+
+ is the group of integers and 
+
+
+{
+0
+}
+
+\{0\}
+
+ is the trivial group. The group 
+
+
+
+
+H
+
+1
+
+
+
+(
+
+S
+
+1
+
+
+)
+
+=
+
+Z
+
+
+
+{\displaystyle H_{1}\left(S^{1}\right)=\mathbb {Z} }
+
+ represents a finitely-generated abelian group, with a single generator representing the one-dimensional hole contained in a circle.[15]
+A two-dimensional sphere 
+
+
+S
+
+2
+
+
+S^{2}
+
+ has a single connected component, no one-dimensional-boundary holes, a two-dimensional-boundary hole, and no higher-dimensional holes. The corresponding homology groups are[15][16]
+
+
+
+
+
+H
+
+k
+
+
+
+(
+
+S
+
+2
+
+
+)
+
+=
+
+
+{
+
+
+
+
+Z
+
+
+
+k
+=
+0
+,
+2
+
+
+
+
+{
+0
+}
+
+
+
+otherwise
+
+
+
+
+
+
+
+
+
+{\displaystyle H_{k}\left(S^{2}\right)={\begin{cases}\mathbb {Z} &k=0,2\\\{0\}&{\text{otherwise}}\end{cases}}}
+
+
+In general for an n-dimensional sphere 
+
+
+
+
+S
+
+n
+
+
+,
+
+
+{\displaystyle S^{n},}
+
+the homology groups are
+
+
+
+
+
+H
+
+k
+
+
+
+(
+
+S
+
+n
+
+
+)
+
+=
+
+
+{
+
+
+
+
+Z
+
+
+
+k
+=
+0
+,
+n
+
+
+
+
+{
+0
+}
+
+
+
+otherwise
+
+
+
+
+
+
+
+
+
+{\displaystyle H_{k}\left(S^{n}\right)={\begin{cases}\mathbb {Z} &k=0,n\\\{0\}&{\text{otherwise}}\end{cases}}}
+
+
+A two-dimensional ball 
+
+
+B
+
+2
+
+
+B^{2}
+
+ is a solid disc. It has a single path-connected component, but in contrast to the circle, has no higher-dimensional holes. The corresponding homology groups are all trivial except for 
+
+
+
+
+H
+
+0
+
+
+
+(
+
+B
+
+2
+
+
+)
+
+=
+
+Z
+
+
+
+{\displaystyle H_{0}\left(B^{2}\right)=\mathbb {Z} }
+
+. In general, for an n-dimensional ball 
+
+
+
+
+B
+
+n
+
+
+,
+
+
+{\displaystyle B^{n},}
+
+[15]
+
+
+
+
+
+H
+
+k
+
+
+
+(
+
+B
+
+n
+
+
+)
+
+=
+
+
+{
+
+
+
+
+Z
+
+
+
+k
+=
+0
+
+
+
+
+{
+0
+}
+
+
+
+otherwise
+
+
+
+
+
+
+
+
+
+{\displaystyle H_{k}\left(B^{n}\right)={\begin{cases}\mathbb {Z} &k=0\\\{0\}&{\text{otherwise}}\end{cases}}}
+
+
+The torus is defined as a product of two circles 
+
+
+T
+=
+
+S
+
+1
+
+
+×
+
+S
+
+1
+
+
+
+T=S^{1}\times S^{1}
+
+. The torus has a single path-connected component, two independent one-dimensional holes (indicated by circles in red and blue) and one two-dimensional hole as the interior of the torus. The corresponding homology groups are[17]
+
+
+
+
+
+H
+
+k
+
+
+(
+T
+)
+=
+
+
+{
+
+
+
+
+Z
+
+
+
+k
+=
+0
+,
+2
+
+
+
+
+
+Z
+
+×
+
+Z
+
+
+
+k
+=
+1
+
+
+
+
+{
+0
+}
+
+
+
+otherwise
+
+
+
+
+
+
+
+
+
+{\displaystyle H_{k}(T)={\begin{cases}\mathbb {Z} &k=0,2\\\mathbb {Z} \times \mathbb {Z} &k=1\\\{0\}&{\text{otherwise}}\end{cases}}}
+
+
+If n products of a topological space X is written as 
+
+
+X
+
+n
+
+
+X^{n}
+
+, then in general, for an n-dimensional torus 
+
+
+
+
+T
+
+n
+
+
+=
+(
+
+S
+
+1
+
+
+
+)
+
+n
+
+
+
+
+{\displaystyle T^{n}=(S^{1})^{n}}
+
+,
+
+
+
+
+
+H
+
+k
+
+
+(
+
+T
+
+n
+
+
+)
+=
+
+
+{
+
+
+
+
+
+Z
+
+
+
+
+(
+
+
+n
+k
+
+
+)
+
+
+
+
+
+
+0
+≤
+k
+≤
+n
+
+
+
+
+{
+0
+}
+
+
+
+otherwise
+
+
+
+
+
+
+
+
+
+{\displaystyle H_{k}(T^{n})={\begin{cases}\mathbb {Z} ^{\binom {n}{k}}&0\leq k\leq n\\\{0\}&{\text{otherwise}}\end{cases}}}
+
+
+(see https://en.wikipedia.org/wiki/Torus#n-dimensional_torus and https://en.wikipedia.org/wiki/Betti_number#More_examples for more details).
+The two independent 1-dimensional holes form independent generators in a finitely-generated abelian group, expressed as the product group 
+
+
+
+
+Z
+
+×
+
+Z
+
+.
+
+
+{\displaystyle \mathbb {Z} \times \mathbb {Z} .}
+
+
+For the projective plane P, a simple computation shows (where 
+
+
+
+Z
+
+
+2
+
+
+\mathbb {Z} _{2}
+
+ is the cyclic group of order 2):[18]
+
+
+
+
+
+H
+
+k
+
+
+(
+P
+)
+=
+
+
+{
+
+
+
+
+Z
+
+
+
+k
+=
+0
+
+
+
+
+
+
+Z
+
+
+2
+
+
+
+
+k
+=
+1
+
+
+
+
+{
+0
+}
+
+
+
+otherwise
+
+
+
+
+
+
+
+
+
+{\displaystyle H_{k}(P)={\begin{cases}\mathbb {Z} &k=0\\\mathbb {Z} _{2}&k=1\\\{0\}&{\text{otherwise}}\end{cases}}}
+
+
+
+
+
+
+
+H
+
+0
+
+
+(
+P
+)
+=
+
+Z
+
+
+
+{\displaystyle H_{0}(P)=\mathbb {Z} }
+
+ corresponds, as in the previous examples, to the fact that there is a single connected component. 
+
+
+
+
+H
+
+1
+
+
+(
+P
+)
+=
+
+
+Z
+
+
+2
+
+
+
+
+{\displaystyle H_{1}(P)=\mathbb {Z} _{2}}
+
+ is a new phenomenon: intuitively, it corresponds to the fact that there is a single non-contractible "loop", but if we do the loop twice, it becomes contractible to zero. This phenomenon is called torsion.
+The following text describes a general algorithm for constructing the homology groups. It may be easier for the reader to look at some simple examples first: graph homology and simplicial homology.
+The general construction begins with an object such as a topological space X, on which one first defines a chain complex C(X) encoding information about X. A chain complex is a sequence of abelian groups or modules 
+
+
+
+
+C
+
+0
+
+
+,
+
+C
+
+1
+
+
+,
+
+C
+
+2
+
+
+,
+…
+
+
+{\displaystyle C_{0},C_{1},C_{2},\ldots }
+
+. connected by homomorphisms 
+
+
+
+∂
+
+n
+
+
+:
+
+C
+
+n
+
+
+→
+
+C
+
+n
+−
+1
+
+
+,
+
+\partial _{n}:C_{n}\to C_{n-1},
+
+ which are called boundary operators.[17] That is,
+where 0 denotes the trivial group and 
+
+
+
+C
+
+i
+
+
+≡
+0
+
+C_{i}\equiv 0
+
+ for i < 0. It is also required that the composition of any two consecutive boundary operators be trivial. That is, for all n,
+i.e., the constant map sending every element of 
+
+
+
+
+C
+
+n
++
+1
+
+
+
+
+{\displaystyle C_{n+1}}
+
+ to the group identity in 
+
+
+
+
+C
+
+n
+−
+1
+
+
+.
+
+
+{\displaystyle C_{n-1}.}
+
+
+The statement that the boundary of a boundary is trivial is equivalent to the statement that 
+
+
+
+i
+m
+
+(
+
+∂
+
+n
++
+1
+
+
+)
+⊆
+ker
+⁡
+(
+
+∂
+
+n
+
+
+)
+
+\mathrm {im} (\partial _{n+1})\subseteq \ker(\partial _{n})
+
+, where 
+
+
+
+i
+m
+
+(
+
+∂
+
+n
++
+1
+
+
+)
+
+\mathrm {im} (\partial _{n+1})
+
+ denotes the image of the boundary operator and 
+
+
+ker
+⁡
+(
+
+∂
+
+n
+
+
+)
+
+\ker(\partial _{n})
+
+ its kernel. Elements of 
+
+
+
+B
+
+n
+
+
+(
+X
+)
+=
+
+i
+m
+
+(
+
+∂
+
+n
++
+1
+
+
+)
+
+B_{n}(X)=\mathrm {im} (\partial _{n+1})
+
+ are called boundaries and elements of 
+
+
+
+
+Z
+
+n
+
+
+(
+X
+)
+=
+ker
+⁡
+(
+
+∂
+
+n
+
+
+)
+
+
+{\displaystyle Z_{n}(X)=\ker(\partial _{n})}
+
+ are called cycles.
+Since each chain group Cn is abelian all its subgroups are normal. Then because 
+
+
+ker
+⁡
+(
+
+∂
+
+n
+
+
+)
+
+\ker(\partial _{n})
+
+ is a subgroup of Cn, 
+
+
+ker
+⁡
+(
+
+∂
+
+n
+
+
+)
+
+\ker(\partial _{n})
+
+ is abelian, and since 
+
+
+
+
+i
+m
+
+(
+
+∂
+
+n
++
+1
+
+
+)
+⊆
+ker
+⁡
+(
+
+∂
+
+n
+
+
+)
+
+
+{\displaystyle \mathrm {im} (\partial _{n+1})\subseteq \ker(\partial _{n})}
+
+ therefore 
+
+
+
+i
+m
+
+(
+
+∂
+
+n
++
+1
+
+
+)
+
+\mathrm {im} (\partial _{n+1})
+
+ is a normal subgroup of 
+
+
+ker
+⁡
+(
+
+∂
+
+n
+
+
+)
+
+\ker(\partial _{n})
+
+. Then one can create the quotient group
+called the nth homology group of X. The elements of Hn(X) are called homology classes. Each homology class is an equivalence class over cycles and two cycles in the same homology class are said to be homologous.[19]
+A chain complex is said to be exact if the image of the (n+1)th map is always equal to the kernel of the nth map. The homology groups of X therefore measure "how far" the chain complex associated to X is from being exact.[20]
+The reduced homology groups of a chain complex C(X) are defined as homologies of the augmented chain complex[21]
+where the boundary operator 
+
+ϵ
+\epsilon
+
+ is
+for a combination 
+
+
+
+∑
+
+n
+
+i
+
+
+
+σ
+
+i
+
+
+,
+
+
+{\displaystyle \sum n_{i}\sigma _{i},}
+
+ of points 
+
+
+
+
+σ
+
+i
+
+
+,
+
+
+{\displaystyle \sigma _{i},}
+
+ which are the fixed generators of C0. The reduced homology groups 
+
+
+
+
+
+
+H
+~
+
+
+
+
+i
+
+
+(
+X
+)
+
+{\tilde {H}}_{i}(X)
+
+ coincide with 
+
+
+
+H
+
+i
+
+
+(
+X
+)
+
+H_{i}(X)
+
+ for 
+
+
+
+i
+≠
+0.
+
+
+{\displaystyle i\neq 0.}
+
+ The extra 
+
+
+Z
+
+\mathbb {Z}
+
+ in the chain complex represents the unique map 
+
+
+[
+∅
+]
+⟶
+X
+
+[\emptyset ]\longrightarrow X
+
+ from the empty simplex to X.
+Computing the cycle 
+
+
+
+Z
+
+n
+
+
+(
+X
+)
+
+Z_{n}(X)
+
+ and boundary 
+
+
+
+B
+
+n
+
+
+(
+X
+)
+
+B_{n}(X)
+
+ groups is usually rather difficult since they have a very large number of generators. On the other hand, there are tools which make the task easier.
+The simplicial homology groups Hn(X) of a simplicial complex X are defined using the simplicial chain complex C(X), with Cn(X) the free abelian group generated by the n-simplices of X. See simplicial homology for details.
+The singular homology groups Hn(X) are defined for any topological space X, and agree with the simplicial homology groups for a simplicial complex.
+Cohomology groups are formally similar to homology groups: one starts with a cochain complex, which is the same as a chain complex but whose arrows, now denoted 
+
+
+
+
+d
+
+n
+
+
+,
+
+
+{\displaystyle d_{n},}
+
+ point in the direction of increasing n rather than decreasing n; then the groups 
+
+
+
+ker
+⁡
+
+(
+
+d
+
+n
+
+
+)
+
+=
+
+Z
+
+n
+
+
+(
+X
+)
+
+
+{\displaystyle \ker \left(d^{n}\right)=Z^{n}(X)}
+
+ of cocycles and 
+
+
+
+
+i
+m
+
+
+(
+
+d
+
+n
+−
+1
+
+
+)
+
+=
+
+B
+
+n
+
+
+(
+X
+)
+
+
+{\displaystyle \mathrm {im} \left(d^{n-1}\right)=B^{n}(X)}
+
+ of coboundaries follow from the same description. The nth cohomology group of X is then the quotient group
+in analogy with the nth homology group.
+Homotopy groups are similar to homology groups in that they can represent "holes" in a topological space. There is a close connection between the first homotopy group 
+
+
+
+π
+
+1
+
+
+(
+X
+)
+
+\pi _{1}(X)
+
+ and the first homology group 
+
+
+
+H
+
+1
+
+
+(
+X
+)
+
+H_{1}(X)
+
+: the latter is the abelianization of the former. Hence, it is said that "homology is a commutative alternative to homotopy".[22]: 4:00  The higher homotopy groups are abelian and are related to homology groups by the Hurewicz theorem, but can be vastly more complicated. For instance, the homotopy groups of spheres are poorly understood and are not known in general, in contrast to the straightforward description given above for the homology groups.
+As an example, let X be the figure eight. Its first homotopy group 
+
+
+
+π
+
+1
+
+
+(
+X
+)
+
+\pi _{1}(X)
+
+ is the group of directed loops starting and ending at a predetermined point (e.g. its center). It is equivalent to the free group of rank 2, which is not commutative: looping around the leftmost cycle and then around the rightmost cycle is different than looping around the rightmost cycle and then looping around the leftmost cycle. In contrast, its first homology group 
+
+
+
+H
+
+1
+
+
+(
+X
+)
+
+H_{1}(X)
+
+ is the group of cuts made in a surface. This group is commutative, since (informally) cutting the leftmost cycle and then the rightmost cycle leads to the same result as cutting the rightmost cycle and then the leftmost cycle.
+The different types of homology theory arise from functors mapping from various categories of mathematical objects to the category of chain complexes. In each case the composition of the functor from objects to chain complexes and the functor from chain complexes to homology groups defines the overall homology functor for the theory.[23]
+The motivating example comes from algebraic topology: the simplicial homology of a simplicial complex X. Here the chain group Cn is the free abelian group or module whose generators are the n-dimensional oriented simplexes of X. The orientation is captured by ordering the complex's vertices and expressing an oriented simplex 
+
+σ
+\sigma
+
+ as an n-tuple 
+
+
+
+(
+σ
+[
+0
+]
+,
+σ
+[
+1
+]
+,
+…
+,
+σ
+[
+n
+]
+)
+
+
+{\displaystyle (\sigma [0],\sigma [1],\dots ,\sigma [n])}
+
+ of its vertices listed in increasing order (i.e. 
+
+
+
+σ
+[
+0
+]
+<
+σ
+[
+1
+]
+<
+⋯
+<
+σ
+[
+n
+]
+
+
+{\displaystyle \sigma [0]<\sigma [1]<\cdots <\sigma [n]}
+
+ in the complex's vertex ordering, where 
+
+
+
+σ
+[
+i
+]
+
+
+{\displaystyle \sigma [i]}
+
+ is the 
+
+i
+i
+
+th vertex appearing in the tuple). The mapping 
+
+
+
+
+∂
+
+n
+
+
+
+
+{\displaystyle \partial _{n}}
+
+ from Cn to Cn−1 is called the boundary mapping and sends the simplex
+to the formal sum
+which is considered 0 if 
+
+
+
+n
+=
+0.
+
+
+{\displaystyle n=0.}
+
+ This behavior on the generators induces a homomorphism on all of Cn as follows. Given an element 
+
+
+c
+∈
+
+C
+
+n
+
+
+
+c\in C_{n}
+
+, write it as the sum of generators 
+
+
+
+c
+=
+
+∑
+
+
+σ
+
+i
+
+
+∈
+
+X
+
+n
+
+
+
+
+
+m
+
+i
+
+
+
+σ
+
+i
+
+
+,
+
+
+{\textstyle c=\sum _{\sigma _{i}\in X_{n}}m_{i}\sigma _{i},}
+
+ where 
+
+
+X
+
+n
+
+
+X_{n}
+
+ is the set of n-simplexes in X and the mi are coefficients from the ring Cn is defined over (usually integers, unless otherwise specified). Then define
+The dimension of the n-th homology of X turns out to be the number of "holes" in X at dimension n. It may be computed by putting matrix representations of these boundary mappings in Smith normal form.
+Using simplicial homology example as a model, one can define a singular homology for any topological space X. A chain complex for X is defined by taking Cn to be the free abelian group (or free module) whose generators are all continuous maps from n-dimensional simplices into X. The homomorphisms ∂n arise from the boundary maps of simplices.
+In abstract algebra, one uses homology to define derived functors, for example the Tor functors. Here one starts with some covariant additive functor F and some module X. The chain complex for X is defined as follows: first find a free module 
+
+
+F
+
+1
+
+
+F_{1}
+
+ and a surjective homomorphism 
+
+
+
+
+p
+
+1
+
+
+:
+
+F
+
+1
+
+
+→
+X
+.
+
+
+{\displaystyle p_{1}:F_{1}\to X.}
+
+ Then one finds a free module 
+
+
+F
+
+2
+
+
+F_{2}
+
+ and a surjective homomorphism 
+
+
+
+
+p
+
+2
+
+
+:
+
+F
+
+2
+
+
+→
+ker
+⁡
+
+(
+
+p
+
+1
+
+
+)
+
+.
+
+
+{\displaystyle p_{2}:F_{2}\to \ker \left(p_{1}\right).}
+
+ Continuing in this fashion, a sequence of free modules 
+
+
+F
+
+n
+
+
+F_{n}
+
+ and homomorphisms 
+
+
+p
+
+n
+
+
+p_{n}
+
+ can be defined. By applying the functor F to this sequence, one obtains a chain complex; the homology 
+
+
+H
+
+n
+
+
+H_{n}
+
+ of this complex depends only on F and X and is, by definition, the n-th derived functor of F, applied to X.
+A common use of group (co)homology 
+
+
+
+
+H
+
+2
+
+
+(
+G
+,
+M
+)
+
+
+{\displaystyle H^{2}(G,M)}
+
+is to classify the possible extension groups E which contain a given G-module M as a normal subgroup and have a given quotient group G, so that 
+
+
+
+G
+=
+E
+
+/
+
+M
+.
+
+
+{\displaystyle G=E/M.}
+
+
+Chain complexes form a category: A morphism from the chain complex (
+
+
+
+
+d
+
+n
+
+
+:
+
+A
+
+n
+
+
+→
+
+A
+
+n
+−
+1
+
+
+
+
+{\displaystyle d_{n}:A_{n}\to A_{n-1}}
+
+) to the chain complex (
+
+
+
+
+e
+
+n
+
+
+:
+
+B
+
+n
+
+
+→
+
+B
+
+n
+−
+1
+
+
+
+
+{\displaystyle e_{n}:B_{n}\to B_{n-1}}
+
+) is a sequence of homomorphisms 
+
+
+
+
+f
+
+n
+
+
+:
+
+A
+
+n
+
+
+→
+
+B
+
+n
+
+
+
+
+{\displaystyle f_{n}:A_{n}\to B_{n}}
+
+ such that 
+
+
+
+
+f
+
+n
+−
+1
+
+
+∘
+
+d
+
+n
+
+
+=
+
+e
+
+n
+
+
+∘
+
+f
+
+n
+
+
+
+
+{\displaystyle f_{n-1}\circ d_{n}=e_{n}\circ f_{n}}
+
+ for all n. The n-th homology Hn can be viewed as a covariant functor from the category of chain complexes to the category of abelian groups (or modules).
+If the chain complex depends on the object X in a covariant manner (meaning that any morphism 
+
+
+X
+→
+Y
+
+X\to Y
+
+ induces a morphism from the chain complex of  X  to the chain complex of Y), then the Hn are covariant functors from the category that X belongs to into the category of abelian groups (or modules).
+The only difference between homology and cohomology is that in cohomology the chain complexes depend in a contravariant manner on X, and that therefore the homology groups (which are called cohomology groups in this context and denoted by Hn) form contravariant functors from the category that X belongs to into the category of abelian groups or modules.
+If (
+
+
+
+
+d
+
+n
+
+
+:
+
+A
+
+n
+
+
+→
+
+A
+
+n
+−
+1
+
+
+
+
+{\displaystyle d_{n}:A_{n}\to A_{n-1}}
+
+) is a chain complex such that all but finitely many An are zero, and the others are finitely generated abelian groups (or finite-dimensional vector spaces), then we can define the Euler characteristic
+(using the rank in the case of abelian groups and the Hamel dimension in the case of vector spaces). It turns out that the Euler characteristic can also be computed on the level of homology:
+and, especially in algebraic topology, this provides two ways to compute the important invariant 
+
+χ
+\chi
+
+ for the object X which gave rise to the chain complex.
+Every short exact sequence
+of chain complexes gives rise to a long exact sequence of homology groups
+All maps in this long exact sequence are induced by the maps between the chain complexes, except for the maps 
+
+
+
+
+H
+
+n
+
+
+(
+C
+)
+→
+
+H
+
+n
+−
+1
+
+
+(
+A
+)
+
+
+{\displaystyle H_{n}(C)\to H_{n-1}(A)}
+
+ The latter are called connecting homomorphisms and are provided by the zig-zag lemma.  This lemma can be applied to homology in numerous ways that aid in calculating homology groups, such as the theories of relative homology and Mayer-Vietoris sequences.
+Notable theorems proved using homology include the following:
+In topological data analysis, data sets are regarded as a point cloud sampling of a manifold or algebraic variety embedded in Euclidean space. By linking nearest neighbor points in the cloud into a triangulation, a simplicial approximation of the manifold is created and its simplicial homology may be calculated. Finding techniques to robustly calculate homology using various triangulation strategies over multiple length scales is the topic of persistent homology.[25]
+In sensor networks, sensors may communicate information via an ad-hoc network that dynamically changes in time. To understand the global context of this set of local measurements and communication paths, it is useful to compute the homology of the network topology to evaluate, for instance, holes in coverage.[26]
+In dynamical systems theory in physics, Poincaré was one of the first to consider the interplay between the invariant manifold of a dynamical system and its topological invariants. Morse theory relates the dynamics of a gradient flow on a manifold to, for example, its homology. Floer homology extended this to infinite-dimensional manifolds. The KAM theorem established that periodic orbits can follow complex trajectories; in particular, they may form braids that can be investigated using Floer homology.[27]
+In one class of finite element methods, boundary-value problems for differential equations involving the Hodge-Laplace operator may need to be solved on topologically nontrivial domains, for example, in electromagnetic simulations. In these simulations, solution is aided by fixing the cohomology class of the solution based on the chosen boundary conditions and the homology of the domain. FEM domains can be triangulated, from which the simplicial homology can be calculated.[28][29]
+Various software packages have been developed for the purposes of computing homology groups of finite cell complexes. Linbox is a C++ library for performing fast matrix operations, including Smith normal form; it interfaces with both Gap and Maple. Chomp, CAPD::Redhom and Perseus are also written in C++. All three implement pre-processing algorithms based on simple-homotopy equivalence and discrete Morse theory to perform homology-preserving reductions of the input cell complexes before resorting to matrix algebra. Kenzo is written in Lisp, and in addition to homology it may also be used to generate presentations of homotopy groups of finite simplicial complexes. Gmsh includes a homology solver for finite element meshes, which can generate Cohomology bases directly usable by finite element software.[28]
+
+

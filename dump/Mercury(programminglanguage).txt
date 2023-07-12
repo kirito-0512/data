@@ -1,0 +1,25 @@
+19726,
+Mercury(programminglanguage),
+Mercury is a functional logic programming language made for real-world uses. The first version was developed at the University of Melbourne, Computer Science department, by Fergus Henderson, Thomas Conway, and Zoltan Somogyi, under Somogyi's supervision, and released on April 8, 1995.
+Mercury is a purely declarative logic programming language. It is related to both Prolog and Haskell.[1] It features a strong, static, polymorphic type system, and a strong mode and determinism system.
+The official implementation, the Melbourne Mercury Compiler, is available for most Unix and Unix-like platforms, including Linux, macOS, and for Windows.
+Mercury is based on the logic programming language Prolog. It has the same syntax and the same basic concepts such as the selective linear definite clause resolution (SLD) algorithm. It can be viewed as a pure subset of Prolog with strong types and modes. As such, it is often compared to its predecessor in features and run-time efficiency.
+The language is designed using software engineering principles. Unlike the original implementations of Prolog, it has a separate compilation phase, rather than being directly interpreted. This allows a much wider range of errors to be detected before running a program. It features a strict static type and mode system[1] and a module system.
+By using information obtained at compile time (such as type and mode), programs written in Mercury typically perform significantly faster than equivalent programs written in Prolog.[2][3] Its authors claim that Mercury is the fastest logic language in the world, by a wide margin.[1]
+Mercury is a purely declarative language, unlike Prolog, since it lacks extra-logical Prolog statements such as ! (cut) and imperative input/output (I/O). This enables advanced static program analysis and program optimization, including compile-time garbage collection,[4] but it can make certain programming constructs (such as a switch over a number of options, with a default[dubious  – discuss]) harder to express. While Mercury does allow impure functionality, it serves mainly as a way to call foreign language code. All impure code must be explicitly marked. Operations which would typically be impure (such as input/output) are expressed using pure constructs in Mercury using linear types, by threading a dummy world value through all relevant code.
+Notable programs written in Mercury include the Mercury compiler and the Prince XML formatter. The Software company ODASE has also been using Mercury to develop its Ontology-Centric software development platform, ODASE.[5]
+Mercury has several back-ends, which enable compiling Mercury code into several languages, including:
+Mercury also features a foreign language interface, allowing code in other languages (depending on the chosen back-end) to be linked with Mercury code. The following foreign languages are possible:
+Other languages can then be interfaced to by calling them from these languages.  However, this means that foreign language code may need to be written several times for the different backends, otherwise portability between backends will be lost.
+The most commonly used back-end is the original low-level C back-end.
+Hello World:
+Calculating the 10th Fibonacci number (in the most obvious way):[6]
+!IO is a "state variable", which is syntactic sugar for a pair of variables which are assigned concrete names at compilation; for example, the above is desugared to something like:
+The stable release naming scheme was 0.1 up to 0.13 for the first thirteen stable releases. In February 2010 the Mercury project decided to name each stable release by using the year and month of the release. For example 10.04 is for a release made in April 2010. 
+There is often also a periodic snapshot of the development system release of the day (ROTD)
+
+
+
+
+Information box
+{'Paradigm': 'Logic, functional, object-oriented', 'Designed by': 'Zoltan Somogyi', 'Developer': 'University of Melbourne', 'First appeared': 'April 8, 1995; 28 years ago', 'Stable release': '22.01.6 / May 10, 2023; 56 days ago', 'Typing discipline': 'Strong, static, polymorphic', 'Implementation language': 'Mercury', 'Platform': 'IA-32, x86-64, ARM, Sparc64, Java, CLI', 'OS': 'Cross-platform: Unix, Linux, macOS, Solaris, FreeBSD, OpenBSD, Windows, Android', 'License': 'GPL compiler,\nLGPL standard library', 'Filename extensions': '.m', 'Website': 'www.mercurylang.org'}

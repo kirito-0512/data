@@ -1,0 +1,2427 @@
+14884,
+Intermediatevaluetheorem,
+In mathematical analysis, the intermediate value theorem states that if 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is a continuous function whose domain contains the interval [a, b], then it takes on any given value between 
+
+
+
+f
+(
+a
+)
+
+
+{\displaystyle f(a)}
+
+ and 
+
+
+
+f
+(
+b
+)
+
+
+{\displaystyle f(b)}
+
+ at some point within the interval.
+This has two important corollaries:
+This captures an intuitive property of continuous functions over the real numbers: given 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ continuous on 
+
+
+
+[
+1
+,
+2
+]
+
+
+{\displaystyle [1,2]}
+
+ with the known values 
+
+
+
+f
+(
+1
+)
+=
+3
+
+
+{\displaystyle f(1)=3}
+
+ and 
+
+
+
+f
+(
+2
+)
+=
+5
+
+
+{\displaystyle f(2)=5}
+
+, then the graph of 
+
+
+
+y
+=
+f
+(
+x
+)
+
+
+{\displaystyle y=f(x)}
+
+ must pass through the horizontal line 
+
+
+
+y
+=
+4
+
+
+{\displaystyle y=4}
+
+ while 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ moves from 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+ to 
+
+
+
+2
+
+
+{\displaystyle 2}
+
+. It represents the idea that the graph of a continuous function on a closed interval can be drawn without lifting a pencil from the paper.
+The intermediate value theorem states the following:
+Consider an interval 
+
+
+
+I
+=
+[
+a
+,
+b
+]
+
+
+{\displaystyle I=[a,b]}
+
+ of real numbers 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ and a continuous function 
+
+
+
+f
+:
+I
+→
+
+R
+
+
+
+{\displaystyle f\colon I\to \mathbb {R} }
+
+. Then
+Remark: Version II states that the set of function values has no gap. For any two function values 
+
+
+
+c
+,
+d
+∈
+f
+(
+I
+)
+
+
+{\displaystyle c,d\in f(I)}
+
+ with 
+
+
+
+c
+<
+d
+
+
+{\displaystyle c<d}
+
+, even if they are outside the interval between 
+
+
+
+f
+(
+a
+)
+
+
+{\displaystyle f(a)}
+
+ and 
+
+
+
+f
+(
+b
+)
+
+
+{\displaystyle f(b)}
+
+, all points in the interval 
+
+
+
+
+
+[
+
+
+c
+,
+d
+
+
+]
+
+
+
+
+{\displaystyle {\bigl [}c,d{\bigr ]}}
+
+ are also function values, 
+
+
+
+
+
+[
+
+
+c
+,
+d
+
+
+]
+
+
+⊆
+f
+(
+I
+)
+.
+
+
+{\displaystyle {\bigl [}c,d{\bigr ]}\subseteq f(I).}
+
+
+A subset of the real numbers with no internal gap is an interval. Version I is naturally contained in Version II.
+The theorem depends on, and is equivalent to, the completeness of the real numbers. The intermediate value theorem does not apply to the rational numbers Q because gaps exist between rational numbers; irrational numbers fill those gaps. For example, the function 
+
+
+
+f
+(
+x
+)
+=
+
+x
+
+2
+
+
+−
+2
+
+
+{\displaystyle f(x)=x^{2}-2}
+
+ for 
+
+
+
+x
+∈
+
+Q
+
+
+
+{\displaystyle x\in \mathbb {Q} }
+
+ satisfies 
+
+
+
+f
+(
+0
+)
+=
+−
+2
+
+
+{\displaystyle f(0)=-2}
+
+ and 
+
+
+
+f
+(
+2
+)
+=
+2
+
+
+{\displaystyle f(2)=2}
+
+. However, there is no rational number 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ such that 
+
+
+
+f
+(
+x
+)
+=
+0
+
+
+{\displaystyle f(x)=0}
+
+, because 
+
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\sqrt {2}}}
+
+ is an irrational number.
+The theorem may be proven as a consequence of the completeness property of the real numbers as follows:[3]
+We shall prove the first case, 
+
+
+
+f
+(
+a
+)
+<
+u
+<
+f
+(
+b
+)
+
+
+{\displaystyle f(a)<u<f(b)}
+
+. The second case is similar.
+Let 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ be the set of all 
+
+
+
+x
+∈
+[
+a
+,
+b
+]
+
+
+{\displaystyle x\in [a,b]}
+
+ such that 
+
+
+
+f
+(
+x
+)
+<
+u
+
+
+{\displaystyle f(x)<u}
+
+. Then 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is non-empty since 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ is an element of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+. Since 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is non-empty and bounded above by 
+
+
+
+b
+
+
+{\displaystyle b}
+
+, by completeness, the supremum 
+
+
+
+c
+=
+sup
+S
+
+
+{\displaystyle c=\sup S}
+
+ exists. That is, 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ is the smallest number that is greater than or equal to every member of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+.
+Note that, due to the continuity of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ at 
+
+
+
+a
+
+
+{\displaystyle a}
+
+, we can keep 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ within any 
+
+
+
+ε
+>
+0
+
+
+{\displaystyle \varepsilon >0}
+
+ of 
+
+
+
+f
+(
+a
+)
+
+
+{\displaystyle f(a)}
+
+ by keeping 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ sufficiently close to 
+
+
+
+a
+
+
+{\displaystyle a}
+
+. Since 
+
+
+
+f
+(
+a
+)
+<
+u
+
+
+{\displaystyle f(a)<u}
+
+ is a strict inequality, consider the implication when 
+
+
+
+ε
+
+
+{\displaystyle \varepsilon }
+
+ is the distance between 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ and 
+
+
+
+f
+(
+a
+)
+
+
+{\displaystyle f(a)}
+
+. No 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ sufficiently close to 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ can then make 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ greater than or equal to 
+
+
+
+u
+
+
+{\displaystyle u}
+
+, which means there are values greater than 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+. A more detailed proof goes like this:
+Choose 
+
+
+
+ε
+=
+u
+−
+f
+(
+a
+)
+>
+0
+
+
+{\displaystyle \varepsilon =u-f(a)>0}
+
+. Then 
+
+
+
+∃
+δ
+>
+0
+
+
+{\displaystyle \exists \delta >0}
+
+ such that 
+
+
+
+∀
+x
+∈
+[
+a
+,
+b
+]
+
+
+{\displaystyle \forall x\in [a,b]}
+
+, 
+
+
+
+
+|
+
+x
+−
+a
+
+|
+
+<
+δ
+
+⟹
+
+
+|
+
+f
+(
+x
+)
+−
+f
+(
+a
+)
+
+|
+
+<
+u
+−
+f
+(
+a
+)
+
+⟹
+
+f
+(
+x
+)
+<
+u
+
+
+{\displaystyle |x-a|<\delta \implies |f(x)-f(a)|<u-f(a)\implies f(x)<u}
+
+.
+Consider the interval 
+
+
+
+[
+a
+,
+min
+(
+a
++
+δ
+,
+b
+)
+)
+=
+
+I
+
+1
+
+
+
+
+{\displaystyle [a,\min(a+\delta ,b))=I_{1}}
+
+. Notice that 
+
+
+
+
+I
+
+1
+
+
+⊆
+[
+a
+,
+b
+]
+
+
+{\displaystyle I_{1}\subseteq [a,b]}
+
+ and every 
+
+
+
+x
+∈
+
+I
+
+1
+
+
+
+
+{\displaystyle x\in I_{1}}
+
+ satisfies the condition 
+
+
+
+
+|
+
+x
+−
+a
+
+|
+
+<
+δ
+
+
+{\displaystyle |x-a|<\delta }
+
+. Therefore for every 
+
+
+
+x
+∈
+
+I
+
+1
+
+
+
+
+{\displaystyle x\in I_{1}}
+
+ we have 
+
+
+
+f
+(
+x
+)
+<
+u
+
+
+{\displaystyle f(x)<u}
+
+. Hence 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ cannot be 
+
+
+
+a
+
+
+{\displaystyle a}
+
+.
+Likewise, due to the continuity of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ at 
+
+
+
+b
+
+
+{\displaystyle b}
+
+, we can keep 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ within any 
+
+
+
+ε
+>
+0
+
+
+{\displaystyle \varepsilon >0}
+
+ of 
+
+
+
+f
+(
+b
+)
+
+
+{\displaystyle f(b)}
+
+ by keeping 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ sufficiently close to 
+
+
+
+b
+
+
+{\displaystyle b}
+
+. Since 
+
+
+
+u
+<
+f
+(
+b
+)
+
+
+{\displaystyle u<f(b)}
+
+ is a strict inequality, consider the similar implication when 
+
+
+
+ε
+
+
+{\displaystyle \varepsilon }
+
+ is the distance between 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ and 
+
+
+
+f
+(
+b
+)
+
+
+{\displaystyle f(b)}
+
+. Every 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ sufficiently close to 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ must then make 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ greater than 
+
+
+
+u
+
+
+{\displaystyle u}
+
+, which means there are values smaller than 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ that are upper bounds of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+. A more detailed proof goes like this:
+Choose 
+
+
+
+ε
+=
+f
+(
+b
+)
+−
+u
+>
+0
+
+
+{\displaystyle \varepsilon =f(b)-u>0}
+
+. Then 
+
+
+
+∃
+δ
+>
+0
+
+
+{\displaystyle \exists \delta >0}
+
+ such that 
+
+
+
+∀
+x
+∈
+[
+a
+,
+b
+]
+
+
+{\displaystyle \forall x\in [a,b]}
+
+, 
+
+
+
+
+|
+
+x
+−
+b
+
+|
+
+<
+δ
+
+⟹
+
+
+|
+
+f
+(
+x
+)
+−
+f
+(
+b
+)
+
+|
+
+<
+f
+(
+b
+)
+−
+u
+
+⟹
+
+f
+(
+x
+)
+>
+u
+
+
+{\displaystyle |x-b|<\delta \implies |f(x)-f(b)|<f(b)-u\implies f(x)>u}
+
+.
+Consider the interval 
+
+
+
+(
+max
+(
+a
+,
+b
+−
+δ
+)
+,
+b
+]
+=
+
+I
+
+2
+
+
+
+
+{\displaystyle (\max(a,b-\delta ),b]=I_{2}}
+
+. Notice that 
+
+
+
+
+I
+
+2
+
+
+⊆
+[
+a
+,
+b
+]
+
+
+{\displaystyle I_{2}\subseteq [a,b]}
+
+ and every 
+
+
+
+x
+∈
+
+I
+
+2
+
+
+
+
+{\displaystyle x\in I_{2}}
+
+ satisfies the condition 
+
+
+
+
+|
+
+x
+−
+b
+
+|
+
+<
+δ
+
+
+{\displaystyle |x-b|<\delta }
+
+. Therefore for every 
+
+
+
+x
+∈
+
+I
+
+2
+
+
+
+
+{\displaystyle x\in I_{2}}
+
+ we have 
+
+
+
+f
+(
+x
+)
+>
+u
+
+
+{\displaystyle f(x)>u}
+
+. Hence 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ cannot be 
+
+
+
+b
+
+
+{\displaystyle b}
+
+.
+With 
+
+
+
+c
+≠
+a
+
+
+{\displaystyle c\neq a}
+
+ and 
+
+
+
+c
+≠
+b
+
+
+{\displaystyle c\neq b}
+
+, it must be the case 
+
+
+
+c
+∈
+(
+a
+,
+b
+)
+
+
+{\displaystyle c\in (a,b)}
+
+. Now we claim that 
+
+
+
+f
+(
+c
+)
+=
+u
+
+
+{\displaystyle f(c)=u}
+
+.
+Fix some 
+
+
+
+ε
+>
+0
+
+
+{\displaystyle \varepsilon >0}
+
+. Since 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is continuous at 
+
+
+
+c
+
+
+{\displaystyle c}
+
+, 
+
+
+
+∃
+
+δ
+
+1
+
+
+>
+0
+
+
+{\displaystyle \exists \delta _{1}>0}
+
+ such that 
+
+
+
+∀
+x
+∈
+[
+a
+,
+b
+]
+
+
+{\displaystyle \forall x\in [a,b]}
+
+, 
+
+
+
+
+|
+
+x
+−
+c
+
+|
+
+<
+
+δ
+
+1
+
+
+
+⟹
+
+
+|
+
+f
+(
+x
+)
+−
+f
+(
+c
+)
+
+|
+
+<
+ε
+
+
+{\displaystyle |x-c|<\delta _{1}\implies |f(x)-f(c)|<\varepsilon }
+
+.
+Since 
+
+
+
+c
+∈
+(
+a
+,
+b
+)
+
+
+{\displaystyle c\in (a,b)}
+
+ and 
+
+
+
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a,b)}
+
+ is open, 
+
+
+
+∃
+
+δ
+
+2
+
+
+>
+0
+
+
+{\displaystyle \exists \delta _{2}>0}
+
+ such that 
+
+
+
+(
+c
+−
+
+δ
+
+2
+
+
+,
+c
++
+
+δ
+
+2
+
+
+)
+⊆
+(
+a
+,
+b
+)
+
+
+{\displaystyle (c-\delta _{2},c+\delta _{2})\subseteq (a,b)}
+
+. Set 
+
+
+
+δ
+=
+min
+(
+
+δ
+
+1
+
+
+,
+
+δ
+
+2
+
+
+)
+
+
+{\displaystyle \delta =\min(\delta _{1},\delta _{2})}
+
+. Then we have
+
+
+
+
+f
+(
+x
+)
+−
+ε
+<
+f
+(
+c
+)
+<
+f
+(
+x
+)
++
+ε
+
+
+{\displaystyle f(x)-\varepsilon <f(c)<f(x)+\varepsilon }
+
+
+for all 
+
+
+
+x
+∈
+(
+c
+−
+δ
+,
+c
++
+δ
+)
+
+
+{\displaystyle x\in (c-\delta ,c+\delta )}
+
+. By the properties of the supremum, there exists some 
+
+
+
+
+a
+
+∗
+
+
+∈
+(
+c
+−
+δ
+,
+c
+]
+
+
+{\displaystyle a^{*}\in (c-\delta ,c]}
+
+ that is contained in 
+
+
+
+S
+
+
+{\displaystyle S}
+
+, and so
+
+
+
+
+f
+(
+c
+)
+<
+f
+(
+
+a
+
+∗
+
+
+)
++
+ε
+<
+u
++
+ε
+.
+
+
+{\displaystyle f(c)<f(a^{*})+\varepsilon <u+\varepsilon .}
+
+
+Picking 
+
+
+
+
+a
+
+∗
+∗
+
+
+∈
+(
+c
+,
+c
++
+δ
+)
+
+
+{\displaystyle a^{**}\in (c,c+\delta )}
+
+, we know that 
+
+
+
+
+a
+
+∗
+∗
+
+
+∉
+S
+
+
+{\displaystyle a^{**}\not \in S}
+
+ because 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ is the supremum of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+. This means that
+
+
+
+
+f
+(
+c
+)
+>
+f
+(
+
+a
+
+∗
+∗
+
+
+)
+−
+ε
+≥
+u
+−
+ε
+.
+
+
+{\displaystyle f(c)>f(a^{**})-\varepsilon \geq u-\varepsilon .}
+
+
+Both inequalities
+
+
+
+
+u
+−
+ε
+<
+f
+(
+c
+)
+<
+u
++
+ε
+
+
+{\displaystyle u-\varepsilon <f(c)<u+\varepsilon }
+
+
+are valid for all 
+
+
+
+ε
+>
+0
+
+
+{\displaystyle \varepsilon >0}
+
+, from which we deduce 
+
+
+
+f
+(
+c
+)
+=
+u
+
+
+{\displaystyle f(c)=u}
+
+ as the only possible value, as stated.
+Remark: The intermediate value theorem can also be proved using the methods of non-standard analysis, which places "intuitive" arguments involving infinitesimals on a rigorous[clarification needed]  footing.[4]
+A form of the theorem was postulated as early as the 5th century BCE, in the work of Bryson of Heraclea on squaring the circle. Bryson argued that, as circles larger than and smaller than a given square both exist, there must exist a circle of equal area.[5] The theorem was first proved by Bernard Bolzano in 1817. Bolzano used the following formulation of the theorem:[6]
+Let 
+
+
+
+f
+,
+ϕ
+
+
+{\displaystyle f,\phi }
+
+ be continuous functions on the interval between 
+
+
+
+α
+
+
+{\displaystyle \alpha }
+
+ and 
+
+
+
+β
+
+
+{\displaystyle \beta }
+
+ such that 
+
+
+
+f
+(
+α
+)
+<
+ϕ
+(
+α
+)
+
+
+{\displaystyle f(\alpha )<\phi (\alpha )}
+
+ and 
+
+
+
+f
+(
+β
+)
+>
+ϕ
+(
+β
+)
+
+
+{\displaystyle f(\beta )>\phi (\beta )}
+
+. Then there is an 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ between 
+
+
+
+α
+
+
+{\displaystyle \alpha }
+
+ and 
+
+
+
+β
+
+
+{\displaystyle \beta }
+
+ such that 
+
+
+
+f
+(
+x
+)
+=
+ϕ
+(
+x
+)
+
+
+{\displaystyle f(x)=\phi (x)}
+
+.
+The equivalence between this formulation and the modern one can be shown by setting 
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+
+ to the appropriate constant function. Augustin-Louis Cauchy provided the modern formulation and a proof in 1821.[7] Both were inspired by the goal of formalizing the analysis of functions and the work of Joseph-Louis Lagrange. The idea that continuous functions possess the intermediate value property has an earlier origin. Simon Stevin proved the intermediate value theorem for polynomials (using a cubic as an example) by providing an algorithm for constructing the decimal expansion of the solution.  The algorithm iteratively subdivides the interval into 10 parts, producing an additional decimal digit at each step of the iteration.[8] Before the formal definition of continuity was given, the intermediate value property was given as part of the definition of a continuous function. Proponents include Louis Arbogast, who assumed the functions to have no jumps, satisfy the intermediate value property and have increments whose sizes corresponded to the sizes of the increments of the variable.[9]
+Earlier authors held the result to be intuitively obvious and requiring no proof.  The insight of Bolzano and Cauchy was to define a general notion of continuity (in terms of infinitesimals in Cauchy's case and using real inequalities in Bolzano's case), and to provide a proof based on such definitions.
+A Darboux function is a real-valued function f that has the "intermediate value property," i.e., that satisfies the conclusion of the intermediate value theorem: for any two values a and b in the domain of f, and any y between f(a) and f(b), there is some c between a and b with f(c) = y.  The intermediate value theorem says that every continuous function is a Darboux function.  However, not every Darboux function is continuous; i.e., the converse of the intermediate value theorem is false.
+As an example, take the function f : [0, ∞) → [−1, 1] defined by f(x) = sin(1/x) for x > 0 and f(0) = 0. This function is not continuous at x = 0 because the limit of f(x) as x tends to 0 does not exist; yet the function has the intermediate value property.  Another, more complicated example is given by the Conway base 13 function.
+In fact, Darboux's theorem states that all functions that result from the differentiation of some other function on some interval have the intermediate value property (even though they need not be continuous).
+Historically, this intermediate value property has been suggested as a definition for continuity of real-valued functions;[10] this definition was not adopted.
+The Poincaré-Miranda theorem is a generalization of the Intermediate value theorem from a (one-dimensional) interval to a (two-dimensional) rectangle, or more generally, to an n-dimensional cube.
+Vrahatis[11] presents a similar generalization to triangles, or more generally, n-dimensional simplices. Let Dn be an n-dimensional simplex with n+1 vertices denoted by v0,...,vn. Let F=(f1,...,fn) be a function from Dn to Rn, that never equals 0 on the boundary of Dn. Suppose F satisfies the following conditions:
+Then there is a point z in the interior of Dn on which F(z)=(0,...,0).
+It is possible to normalize the fi such that fi(vi)>0 for all i; then the conditions become simpler:
+The theorem can be proved based on the Knaster–Kuratowski–Mazurkiewicz lemma. In can be used for approximations of fixed points and zeros.[12]
+The intermediate value theorem is closely linked to the topological notion of connectedness and follows from the basic properties of connected sets in metric spaces and connected subsets of R in particular:
+In fact, connectedness is a topological property and 
+
+
+
+(
+∗
+)
+
+
+{\displaystyle (*)}
+
+ generalizes to topological spaces: If 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ and 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ are topological spaces, 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f\colon X\to Y}
+
+ is a continuous map, and 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a connected space, then 
+
+
+
+f
+(
+X
+)
+
+
+{\displaystyle f(X)}
+
+ is connected.  The preservation of connectedness under continuous maps can be thought of as a generalization of the intermediate value theorem, a property of real valued functions of a real variable, to continuous functions in general spaces.
+Recall the first version of the intermediate value theorem, stated previously:
+Intermediate value theorem (Version I) — Consider a closed interval 
+
+
+
+I
+=
+[
+a
+,
+b
+]
+
+
+{\displaystyle I=[a,b]}
+
+ in the real numbers 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ and a continuous function 
+
+
+
+f
+:
+I
+→
+
+R
+
+
+
+{\displaystyle f\colon I\to \mathbb {R} }
+
+. Then, if 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ is a real number such that 
+
+
+
+min
+(
+f
+(
+a
+)
+,
+f
+(
+b
+)
+)
+<
+u
+<
+max
+(
+f
+(
+a
+)
+,
+f
+(
+b
+)
+)
+
+
+{\displaystyle \min(f(a),f(b))<u<\max(f(a),f(b))}
+
+, there exists 
+
+
+
+c
+∈
+(
+a
+,
+b
+)
+
+
+{\displaystyle c\in (a,b)}
+
+ such that 
+
+
+
+f
+(
+c
+)
+=
+u
+
+
+{\displaystyle f(c)=u}
+
+.
+The intermediate value theorem is an immediate consequence of these two properties of connectedness:[13]
+By 
+
+
+
+(
+∗
+∗
+)
+
+
+{\displaystyle (**)}
+
+, 
+
+
+
+I
+=
+[
+a
+,
+b
+]
+
+
+{\displaystyle I=[a,b]}
+
+ is a connected set.  It follows from  
+
+
+
+(
+∗
+)
+
+
+{\displaystyle (*)}
+
+ that the image, 
+
+
+
+f
+(
+I
+)
+
+
+{\displaystyle f(I)}
+
+, is also connected.  For convenience, assume that 
+
+
+
+f
+(
+a
+)
+<
+f
+(
+b
+)
+
+
+{\displaystyle f(a)<f(b)}
+
+.  Then once more invoking 
+
+
+
+(
+∗
+∗
+)
+
+
+{\displaystyle (**)}
+
+, 
+
+
+
+f
+(
+a
+)
+<
+u
+<
+f
+(
+b
+)
+
+
+{\displaystyle f(a)<u<f(b)}
+
+ implies that 
+
+
+
+u
+∈
+f
+(
+I
+)
+
+
+{\displaystyle u\in f(I)}
+
+, or 
+
+
+
+f
+(
+c
+)
+=
+u
+
+
+{\displaystyle f(c)=u}
+
+ for some 
+
+
+
+c
+∈
+I
+
+
+{\displaystyle c\in I}
+
+.  Since 
+
+
+
+u
+≠
+f
+(
+a
+)
+,
+f
+(
+b
+)
+
+
+{\displaystyle u\neq f(a),f(b)}
+
+, 
+
+
+
+c
+∈
+(
+a
+,
+b
+)
+
+
+{\displaystyle c\in (a,b)}
+
+ must actually hold, and the desired conclusion follows.  The same argument applies if 
+
+
+
+f
+(
+b
+)
+<
+f
+(
+a
+)
+
+
+{\displaystyle f(b)<f(a)}
+
+, so we are done. Q.E.D.
+The intermediate value theorem generalizes in a natural way: Suppose that X is a connected topological space and (Y, <) is a totally ordered set equipped with the order topology, and let f : X → Y be a continuous map. If a and b are two points in X and u is a point in Y lying between f(a) and f(b) with respect to <, then there exists c in X such that f(c) = u.  The original theorem is recovered by noting that R is connected and that its natural topology is the order topology.
+The Brouwer fixed-point theorem is a related theorem that, in one dimension, gives a special case of the intermediate value theorem.
+In constructive mathematics, the intermediate value theorem is not true. Instead, one has to weaken the conclusion:
+A similar result is the Borsuk–Ulam theorem, which says that a continuous map from the 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-sphere to Euclidean 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-space will always map some pair of antipodal points to the same place.
+Take 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ to be any continuous function on a circle. Draw a line through the center of the circle, intersecting it at two opposite points 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+. Define 
+
+
+
+d
+
+
+{\displaystyle d}
+
+ to be 
+
+
+
+f
+(
+A
+)
+−
+f
+(
+B
+)
+
+
+{\displaystyle f(A)-f(B)}
+
+. If the line is rotated 180 degrees, the value −d will be obtained instead. Due to the intermediate value theorem there must be some intermediate rotation angle for which d = 0, and as a consequence f(A) = f(B) at this angle.
+In general, for any continuous function whose domain is some closed convex 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-dimensional shape and any point inside the shape (not necessarily its center), there exist two antipodal points with respect to the given point whose functional value is the same.
+The theorem also underpins the explanation of why rotating a wobbly table will bring it to stability (subject to certain easily  met constraints).[15]
+
+

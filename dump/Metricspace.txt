@@ -1,0 +1,3421 @@
+20018,
+Metricspace,
+
+In mathematics, a metric space is a set together with a notion of distance between its elements, usually called points.  The distance is measured by a function called a metric or distance function.[1]  Metric spaces are the most general setting for studying many of the concepts of mathematical analysis and geometry.
+The most familiar example of a metric space is 3-dimensional Euclidean space with its usual notion of distance.  Other well-known examples are a sphere equipped with the angular distance and the hyperbolic plane.  A metric may correspond to a metaphorical, rather than physical, notion of distance: for example, the set of 100-character Unicode strings can be equipped with the Hamming distance, which measures the number of characters that need to be changed to get from one string to another.
+Since they are very general, metric spaces are a tool used in many different branches of mathematics.  Many types of mathematical objects have a natural notion of distance and therefore admit the structure of a metric space, including Riemannian manifolds, normed vector spaces, and graphs.  In abstract algebra, the p-adic numbers arise as elements of the completion of a metric structure on the rational numbers.  Metric spaces are also studied in their own right in metric geometry[2] and analysis on metric spaces.[3]
+Many of the basic notions of mathematical analysis, including balls, completeness, as well as uniform, Lipschitz, and Hölder continuity, can be defined in the setting of metric spaces.  Other notions, such as continuity, compactness, and open and closed sets, can be defined for metric spaces, but also in the even more general setting of topological spaces.
+To see the utility of different notions of distance, consider the surface of the Earth as a set of points.  We can measure the distance between two such points by the length of the shortest path along the surface, "as the crow flies"; this is particularly useful for shipping and aviation.  We can also measure the straight-line distance between two points through the Earth's interior; this notion is, for example, natural in seismology, since it roughly corresponds to the length of time it takes for seismic waves to travel between those two points.
+The notion of distance encoded by the metric space axioms has relatively few requirements.  This generality gives metric spaces a lot of flexibility.  At the same time, the notion is strong enough to encode many intuitive facts about what distance means.  This means that general results about metric spaces can be applied in many different contexts.
+Like many fundamental mathematical concepts, the metric on a metric space can be interpreted in many different ways.  A particular metric may not be best thought of as measuring physical distance, but, instead, as the cost of changing from one state to another (as with Wasserstein metrics on spaces of measures) or the degree of difference between two objects (for example, the Hamming distance between two strings of characters, or the Gromov–Hausdorff distance between metric spaces themselves).
+Formally, a metric space is an ordered pair (M, d) where M is a set and d is a metric on M, i.e., a function
+
+
+
+
+d
+
+:
+M
+×
+M
+→
+
+R
+
+
+
+{\displaystyle d\,\colon M\times M\to \mathbb {R} }
+
+
+satisfying the following axioms for all points 
+
+
+
+x
+,
+y
+,
+z
+∈
+M
+
+
+{\displaystyle x,y,z\in M}
+
+:[4][5]
+If the metric d is unambiguous, one often refers by abuse of notation to "the metric space M".
+The real numbers with the distance function 
+
+
+
+d
+(
+x
+,
+y
+)
+=
+
+|
+
+y
+−
+x
+
+|
+
+
+
+{\displaystyle d(x,y)=|y-x|}
+
+ given by the absolute difference form a metric space.  Many properties of metric spaces and functions between them are generalizations of concepts in real analysis and coincide with those concepts when applied to the real line.
+The Euclidean plane 
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} ^{2}}
+
+ can be equipped with many different metrics.  The Euclidean distance familiar from school mathematics can be defined by
+
+
+
+
+
+d
+
+2
+
+
+(
+(
+
+x
+
+1
+
+
+,
+
+y
+
+1
+
+
+)
+,
+(
+
+x
+
+2
+
+
+,
+
+y
+
+2
+
+
+)
+)
+=
+
+
+(
+
+x
+
+2
+
+
+−
+
+x
+
+1
+
+
+
+)
+
+2
+
+
++
+(
+
+y
+
+2
+
+
+−
+
+y
+
+1
+
+
+
+)
+
+2
+
+
+
+
+.
+
+
+{\displaystyle d_{2}((x_{1},y_{1}),(x_{2},y_{2}))={\sqrt {(x_{2}-x_{1})^{2}+(y_{2}-y_{1})^{2}}}.}
+
+
+The taxicab or Manhattan distance is defined by
+
+
+
+
+
+d
+
+1
+
+
+(
+(
+
+x
+
+1
+
+
+,
+
+y
+
+1
+
+
+)
+,
+(
+
+x
+
+2
+
+
+,
+
+y
+
+2
+
+
+)
+)
+=
+
+|
+
+
+x
+
+2
+
+
+−
+
+x
+
+1
+
+
+
+|
+
++
+
+|
+
+
+y
+
+2
+
+
+−
+
+y
+
+1
+
+
+
+|
+
+
+
+{\displaystyle d_{1}((x_{1},y_{1}),(x_{2},y_{2}))=|x_{2}-x_{1}|+|y_{2}-y_{1}|}
+
+
+and can be thought of as the distance you need to travel along horizontal and vertical lines to get from one point to the other, as illustrated at the top of the article.
+The maximum, 
+
+
+
+
+L
+
+∞
+
+
+
+
+{\displaystyle L^{\infty }}
+
+, or Chebyshev distance is defined by
+
+
+
+
+
+d
+
+∞
+
+
+(
+(
+
+x
+
+1
+
+
+,
+
+y
+
+1
+
+
+)
+,
+(
+
+x
+
+2
+
+
+,
+
+y
+
+2
+
+
+)
+)
+=
+max
+{
+
+|
+
+
+x
+
+2
+
+
+−
+
+x
+
+1
+
+
+
+|
+
+,
+
+|
+
+
+y
+
+2
+
+
+−
+
+y
+
+1
+
+
+
+|
+
+}
+.
+
+
+{\displaystyle d_{\infty }((x_{1},y_{1}),(x_{2},y_{2}))=\max\{|x_{2}-x_{1}|,|y_{2}-y_{1}|\}.}
+
+
+This distance doesn't have an easy explanation in terms of paths in the plane, but it still satisfies the metric space axioms. It can be thought of similarly to the number of moves a king would have to make on a chess board to travel from one point to another on the given space. 
+In fact, these three distances, while they have distinct properties, are similar in some ways.  Informally, points that are close in one are close in the others, too.  This observation can be quantified with the formula
+
+
+
+
+
+d
+
+∞
+
+
+(
+p
+,
+q
+)
+≤
+
+d
+
+2
+
+
+(
+p
+,
+q
+)
+≤
+
+d
+
+1
+
+
+(
+p
+,
+q
+)
+≤
+2
+
+d
+
+∞
+
+
+(
+p
+,
+q
+)
+,
+
+
+{\displaystyle d_{\infty }(p,q)\leq d_{2}(p,q)\leq d_{1}(p,q)\leq 2d_{\infty }(p,q),}
+
+
+which holds for every pair of points 
+
+
+
+p
+,
+q
+∈
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle p,q\in \mathbb {R} ^{2}}
+
+.
+A radically different distance can be defined by setting
+
+
+
+
+d
+(
+p
+,
+q
+)
+=
+
+
+{
+
+
+
+0
+,
+
+
+
+if 
+
+p
+=
+q
+,
+
+
+
+
+1
+,
+
+
+
+otherwise.
+
+
+
+
+
+
+
+
+
+{\displaystyle d(p,q)={\begin{cases}0,&{\text{if }}p=q,\\1,&{\text{otherwise.}}\end{cases}}}
+
+
+Using Iverson brackets,
+
+
+
+
+d
+(
+p
+,
+q
+)
+=
+[
+p
+≠
+q
+]
+
+
+{\displaystyle d(p,q)=[p\neq q]}
+
+
+In this discrete metric, all distinct points are 1 unit apart: none of them are close to each other, and none of them are very far away from each other either.  Intuitively, the discrete metric no longer remembers that the set is a plane, but treats it just as an undifferentiated set of points.
+All of these metrics make sense on 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ as well as 
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} ^{2}}
+
+.
+
+Given a metric space (M, d) and a subset 
+
+
+
+A
+⊆
+M
+
+
+{\displaystyle A\subseteq M}
+
+, we can consider A to be a metric space by measuring distances the same way we would in M.  Formally, the induced metric on A is a function 
+
+
+
+
+d
+
+A
+
+
+:
+A
+×
+A
+→
+
+R
+
+
+
+{\displaystyle d_{A}:A\times A\to \mathbb {R} }
+
+ defined by
+
+
+
+
+
+d
+
+A
+
+
+(
+x
+,
+y
+)
+=
+d
+(
+x
+,
+y
+)
+.
+
+
+{\displaystyle d_{A}(x,y)=d(x,y).}
+
+
+For example, if we take the two-dimensional sphere S2 as a subset of 
+
+
+
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbb {R} ^{3}}
+
+, the Euclidean metric on 
+
+
+
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbb {R} ^{3}}
+
+ induces the straight-line metric on S2 described above.  Two more useful examples are the open interval (0, 1) and the closed interval [0, 1] thought of as subspaces of the real line.
+In 1906 Maurice Fréchet introduced metric spaces in his work Sur quelques points du calcul fonctionnel[6] in the context of functional analysis: his main interest was in studying the real-valued functions from a metric space, generalizing the theory of functions of several or even infinitely many variables, as pioneered by mathematicians such as Cesare Arzelà.  The idea was further developed and placed in its proper context by Felix Hausdorff in his magnum opus Principles of Set Theory, which also introduced the notion of a (Hausdorff) topological space.[7]
+General metric spaces have become a foundational part of the mathematical curriculum.[8]  Prominent examples of metric spaces in mathematical research include Riemannian manifolds and normed vector spaces, which are the domain of differential geometry and functional analysis, respectively.[9] Fractal geometry is a source of some exotic metric spaces.  Others have arisen as limits through the study of discrete or smooth objects, including scale-invariant limits in statistical physics, Alexandrov spaces arising as Gromov–Hausdorff limits of sequences of Riemannian manifolds, and boundaries and asymptotic cones in geometric group theory.  Finally, many new applications of finite and discrete metric spaces have arisen in computer science.
+A distance function is enough to define notions of closeness and convergence that were first developed in real analysis.  Properties that depend on the structure of a metric space are referred to as metric properties.  Every metric space is also a topological space, and some metric properties can also be rephrased without reference to distance in the language of topology; that is, they are really topological properties.
+For any point x in a metric space M and any real number r > 0, the open ball of radius r around x is defined to be the set of points that are at most distance r from x:
+
+
+
+
+
+B
+
+r
+
+
+(
+x
+)
+=
+{
+y
+∈
+M
+:
+d
+(
+x
+,
+y
+)
+<
+r
+}
+.
+
+
+{\displaystyle B_{r}(x)=\{y\in M:d(x,y)<r\}.}
+
+
+This is a natural way to define a set of points that are relatively close to x.  Therefore, a set 
+
+
+
+N
+⊆
+M
+
+
+{\displaystyle N\subseteq M}
+
+ is a neighborhood of x (informally, it contains all points "close enough" to x) if it contains an open ball of radius r around x for some r > 0.
+An open set is a set which is a neighborhood of all its points.  It follows that the open balls form a base for a topology on M.  In other words, the open sets of M are exactly the unions of open balls.  As in any topology, closed sets are the complements of open sets.  Sets may be both open and closed as well as neither open nor closed.
+This topology does not carry all the information about the metric space.  For example, the distances d1, d2, and d∞ defined above all induce the same topology on 
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} ^{2}}
+
+, although they behave differently in many respects.  Similarly, 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ with the Euclidean metric and its subspace the interval (0, 1) with the induced metric are homeomorphic but have very different metric properties.
+Conversely, not every topological space can be given a metric.  Topological spaces which are compatible with a metric are called metrizable and are particularly well-behaved in many ways: in particular, they are paracompact[10] Hausdorff spaces (hence normal) and first-countable.[a]  The Nagata–Smirnov metrization theorem gives a characterization of metrizability in terms of other topological properties, without reference to metrics.
+Convergence of sequences in Euclidean space is defined as follows:
+Convergence of sequences in a topological space is defined as follows:
+In metric spaces, both of these definitions make sense and they are equivalent.  This is a general pattern for topological properties of metric spaces: while they can be defined in a purely topological way, there is often a way that uses the metric which is easier to state or more familiar from real analysis.
+Informally, a metric space is complete if it has no "missing points": every sequence that looks like it should converge to something actually converges.
+To make this precise: a sequence (xn) in a metric space M is Cauchy if for every ε > 0 there is an integer N such that for all m, n > N, d(xm, xn) < ε.  By the triangle inequality, any convergent sequence is Cauchy: if xm and xn are both less than ε away from the limit, then they are less than 2ε away from each other.  If the converse is true—every Cauchy sequence in M converges—then M is complete.
+Euclidean spaces are complete, as is 
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} ^{2}}
+
+ with the other metrics described above.  Two examples of spaces which are not complete are (0, 1) and the rationals, each with the metric induced from 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+.  One can think of (0, 1) as "missing" its endpoints 0 and 1.  The rationals are missing all the irrationals, since any irrational has a sequence of rationals converging to it in 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ (for example, its successive decimal approximations).  These examples show that completeness is not a topological property, since 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is complete but the homeomorphic space (0, 1) is not.
+This notion of "missing points" can be made precise.  In fact, every metric space has a unique completion, which is a complete space that contains the given space as a dense subset. For example, [0, 1] is the completion of (0, 1), and the real numbers are the completion of the rationals.
+Since complete spaces are generally easier to work with, completions are important throughout mathematics.  For example, in abstract algebra, the p-adic numbers are defined as the completion of the rationals under a different metric.  Completion is particularly common as a tool in functional analysis.  Often one has a set of nice functions and a way of measuring distances between them.  Taking the completion of this metric space gives a new set of functions which may be less nice, but nevertheless useful because they behave similarly to the original nice functions in important ways.  For example, weak solutions to differential equations typically live in a completion (a Sobolev space) rather than the original space of nice functions for which the differential equation actually makes sense.
+A metric space M is bounded if there is an r such that no pair of points in M is more than distance r apart.[b]  The least such r is called the diameter of M.
+The space M is called precompact or totally bounded if for every r > 0 there is a finite cover of M by open balls of radius r.  Every totally bounded space is bounded.  To see this, start with a finite cover by r-balls for some arbitrary r.  Since the subset of M consisting of the centers of these balls is finite, it has finite diameter, say D.  By the triangle inequality, the diameter of the whole space is at most D + 2r.  The converse does not hold: an example of a metric space that is bounded but not totally bounded is 
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} ^{2}}
+
+ (or any other infinite set) with the discrete metric.
+Compactness is a topological property which generalizes the properties of a closed and bounded subset of Euclidean space.  There are several equivalent definitions of compactness in metric spaces:
+One example of a compact space is the closed interval [0, 1].
+Compactness is important for similar reasons to completeness: it makes it easy to find limits.  Another important tool is Lebesgue's number lemma, which shows that for any open cover of a compact space, every point is relatively deep inside one of the sets of the cover.
+Unlike in the case of topological spaces or algebraic structures such as groups or rings, there is no single "right" type of structure-preserving function between metric spaces.  Instead, one works with different types of functions depending on one's goals.  Throughout this section, suppose that 
+
+
+
+(
+
+M
+
+1
+
+
+,
+
+d
+
+1
+
+
+)
+
+
+{\displaystyle (M_{1},d_{1})}
+
+ and 
+
+
+
+(
+
+M
+
+2
+
+
+,
+
+d
+
+2
+
+
+)
+
+
+{\displaystyle (M_{2},d_{2})}
+
+ are two metric spaces.  The words "function" and "map" are used interchangeably.
+One interpretation of a "structure-preserving" map is one that fully preserves the distance function:
+It follows from the metric space axioms that a distance-preserving function is injective.  A bijective distance-preserving function is called an isometry.[12]  One perhaps non-obvious example of an isometry between spaces described in this article is the map 
+
+
+
+f
+:
+(
+
+
+R
+
+
+2
+
+
+,
+
+d
+
+1
+
+
+)
+→
+(
+
+
+R
+
+
+2
+
+
+,
+
+d
+
+∞
+
+
+)
+
+
+{\displaystyle f:(\mathbb {R} ^{2},d_{1})\to (\mathbb {R} ^{2},d_{\infty })}
+
+ defined by
+
+
+
+
+f
+(
+x
+,
+y
+)
+=
+(
+x
++
+y
+,
+x
+−
+y
+)
+.
+
+
+{\displaystyle f(x,y)=(x+y,x-y).}
+
+
+If there is an isometry between the spaces M1 and M2, they are said to be isometric.  Metric spaces that are isometric are essentially identical.
+On the other end of the spectrum, one can forget entirely about the metric structure and study continuous maps, which only preserve topological structure.  There are several equivalent definitions of continuity for metric spaces.  The most important are:
+A homeomorphism is a continuous map whose inverse is also continuous; if there is a homeomorphism between M1 and M2, they are said to be homeomorphic.  Homeomorphic spaces are the same from the point of view of topology, but may have very different metric properties.  For example, 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is unbounded and complete, while (0, 1) is bounded but not complete.
+A function 
+
+
+
+f
+
+:
+
+M
+
+1
+
+
+→
+
+M
+
+2
+
+
+
+
+{\displaystyle f\,\colon M_{1}\to M_{2}}
+
+ is uniformly continuous if for every real number ε > 0 there exists δ > 0 such that for all points x and y in M1 such that 
+
+
+
+d
+(
+x
+,
+y
+)
+<
+δ
+
+
+{\displaystyle d(x,y)<\delta }
+
+, we have 
+
+
+
+
+d
+
+2
+
+
+(
+f
+(
+x
+)
+,
+f
+(
+y
+)
+)
+<
+ε
+.
+
+
+{\displaystyle d_{2}(f(x),f(y))<\varepsilon .}
+
+
+The only difference between this definition and the ε–δ definition of continuity is the order of quantifiers: the choice of δ must depend only on ε and not on the point x.  However, this subtle change makes a big difference.  For example, uniformly continuous maps take Cauchy sequences in M1 to Cauchy sequences in M2.  In other words, uniform continuity preserves some metric properties which are not purely topological.
+On the other hand, the Heine–Cantor theorem states that if M1 is compact, then every continuous map is uniformly continuous.  In other words, uniform continuity cannot distinguish any non-topological features of compact metric spaces.
+A Lipschitz map is one that stretches distances by at most a bounded factor.  Formally, given a real number K > 0, the map 
+
+
+
+f
+
+:
+
+M
+
+1
+
+
+→
+
+M
+
+2
+
+
+
+
+{\displaystyle f\,\colon M_{1}\to M_{2}}
+
+ is K-Lipschitz if
+
+
+
+
+
+d
+
+2
+
+
+(
+f
+(
+x
+)
+,
+f
+(
+y
+)
+)
+≤
+K
+
+d
+
+1
+
+
+(
+x
+,
+y
+)
+
+
+for all
+
+
+x
+,
+y
+∈
+
+M
+
+1
+
+
+.
+
+
+{\displaystyle d_{2}(f(x),f(y))\leq Kd_{1}(x,y)\quad {\text{for all}}\quad x,y\in M_{1}.}
+
+
+Lipschitz maps are particularly important in metric geometry, since they provide more flexibility than distance-preserving maps, but still make essential use of the metric.[13]  For example, a curve in a metric space is rectifiable (has finite length) if and only if it has a Lipschitz reparametrization.
+A 1-Lipschitz map is sometimes called a nonexpanding or metric map.  Metric maps are commonly taken to be the morphisms of the category of metric spaces.
+A K-Lipschitz map for K < 1 is called a contraction.  The Banach fixed-point theorem states that if M is a complete metric space, then every contraction 
+
+
+
+f
+:
+M
+→
+M
+
+
+{\displaystyle f:M\to M}
+
+ admits a unique fixed point. If the metric space M is compact, the result holds for a slightly weaker condition on f: a map 
+
+
+
+f
+:
+M
+→
+M
+
+
+{\displaystyle f:M\to M}
+
+ admits a unique fixed point if
+
+
+
+
+d
+(
+f
+(
+x
+)
+,
+f
+(
+y
+)
+)
+<
+d
+(
+x
+,
+y
+)
+
+
+
+for all
+
+
+
+x
+≠
+y
+∈
+
+M
+
+1
+
+
+.
+
+
+{\displaystyle d(f(x),f(y))<d(x,y)\quad {\mbox{for all}}\quad x\neq y\in M_{1}.}
+
+
+A quasi-isometry is a map that preserves the "large-scale structure" of a metric space.  Quasi-isometries need not be continuous.  For example, 
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} ^{2}}
+
+ and its subspace 
+
+
+
+
+
+Z
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {Z} ^{2}}
+
+ are quasi-isometric, even though one is connected and the other is discrete.  The equivalence relation of quasi-isometry is important in geometric group theory: the Švarc–Milnor lemma states that all spaces on which a group acts geometrically are quasi-isometric.[14]
+Formally, the map 
+
+
+
+f
+
+:
+
+M
+
+1
+
+
+→
+
+M
+
+2
+
+
+
+
+{\displaystyle f\,\colon M_{1}\to M_{2}}
+
+ is a quasi-isometric embedding if there exist constants A ≥ 1 and B ≥ 0 such that
+
+
+
+
+
+
+1
+A
+
+
+
+d
+
+2
+
+
+(
+f
+(
+x
+)
+,
+f
+(
+y
+)
+)
+−
+B
+≤
+
+d
+
+1
+
+
+(
+x
+,
+y
+)
+≤
+A
+
+d
+
+2
+
+
+(
+f
+(
+x
+)
+,
+f
+(
+y
+)
+)
++
+B
+
+
+ for all 
+
+
+x
+,
+y
+∈
+
+M
+
+1
+
+
+.
+
+
+{\displaystyle {\frac {1}{A}}d_{2}(f(x),f(y))-B\leq d_{1}(x,y)\leq Ad_{2}(f(x),f(y))+B\quad {\text{ for all }}\quad x,y\in M_{1}.}
+
+
+It is a quasi-isometry if in addition it is quasi-surjective, i.e. there is a constant C ≥ 0 such that every point in 
+
+
+
+
+M
+
+2
+
+
+
+
+{\displaystyle M_{2}}
+
+ is at distance at most C from some point in the image 
+
+
+
+f
+(
+
+M
+
+1
+
+
+)
+
+
+{\displaystyle f(M_{1})}
+
+.
+Given two metric spaces 
+
+
+
+(
+
+M
+
+1
+
+
+,
+
+d
+
+1
+
+
+)
+
+
+{\displaystyle (M_{1},d_{1})}
+
+ and 
+
+
+
+(
+
+M
+
+2
+
+
+,
+
+d
+
+2
+
+
+)
+
+
+{\displaystyle (M_{2},d_{2})}
+
+:
+
+A normed vector space is a vector space equipped with a norm, which is a function that measures the length of vectors.  The norm of a vector v is typically denoted by 
+
+
+
+‖
+v
+‖
+
+
+{\displaystyle \lVert v\rVert }
+
+.  Any normed vector space can be equipped with a metric in which the distance between two vectors x and y is given by
+
+
+
+
+d
+(
+x
+,
+y
+)
+=
+‖
+x
+−
+y
+‖
+.
+
+
+{\displaystyle d(x,y)=\lVert x-y\rVert .}
+
+
+The metric d is said to be induced by the norm 
+
+
+
+‖
+
+⋅
+
+‖
+
+
+{\displaystyle \lVert {\cdot }\rVert }
+
+.  Conversely,[15] if a metric d on a vector space X is
+then it is the metric induced by the norm
+
+
+
+
+‖
+x
+‖
+=
+d
+(
+x
+,
+0
+)
+.
+
+
+{\displaystyle \lVert x\rVert =d(x,0).}
+
+
+A similar relationship holds between seminorms and pseudometrics.
+Among examples of metrics induced by a norm are the metrics d1, d2, and d∞ on 
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} ^{2}}
+
+, which are induced by the Manhattan norm, the Euclidean norm, and the maximum norm, respectively.  More generally, the Kuratowski embedding allows one to see any metric space as a subspace of a normed vector space.
+Infinite-dimensional normed vector spaces, particularly spaces of functions, are studied in functional analysis.  Completeness is particularly important in this context: a complete normed vector space is known as a Banach space.  An unusual property of normed vector spaces is that linear transformations between them are continuous if and only if they are Lipschitz.  Such transformations are known as bounded operators.
+A curve in a metric space (M, d) is a continuous function 
+
+
+
+γ
+:
+[
+0
+,
+T
+]
+→
+M
+
+
+{\displaystyle \gamma :[0,T]\to M}
+
+.  The length of γ is measured by
+
+
+
+
+L
+(
+γ
+)
+=
+
+sup
+
+0
+=
+
+x
+
+0
+
+
+<
+
+x
+
+1
+
+
+<
+⋯
+<
+
+x
+
+n
+
+
+=
+T
+
+
+
+{
+
+
+∑
+
+k
+=
+1
+
+
+n
+
+
+d
+(
+γ
+(
+
+x
+
+k
+−
+1
+
+
+)
+,
+γ
+(
+
+x
+
+k
+
+
+)
+)
+
+}
+
+.
+
+
+{\displaystyle L(\gamma )=\sup _{0=x_{0}<x_{1}<\cdots <x_{n}=T}\left\{\sum _{k=1}^{n}d(\gamma (x_{k-1}),\gamma (x_{k}))\right\}.}
+
+
+In general, this supremum may be infinite; a curve of finite length is called rectifiable.[16]  Suppose that the length of the curve γ is equal to the distance between its endpoints—that is, it's the shortest possible path between its endpoints.  After reparametrization by arc length, γ becomes a geodesic: a curve which is a distance-preserving function.[14]  A geodesic is a shortest possible path between any two of its points.[c]
+A geodesic metric space is a metric space which admits a geodesic between any two of its points.  The spaces 
+
+
+
+(
+
+
+R
+
+
+2
+
+
+,
+
+d
+
+1
+
+
+)
+
+
+{\displaystyle (\mathbb {R} ^{2},d_{1})}
+
+ and 
+
+
+
+(
+
+
+R
+
+
+2
+
+
+,
+
+d
+
+2
+
+
+)
+
+
+{\displaystyle (\mathbb {R} ^{2},d_{2})}
+
+ are both geodesic metric spaces.  In 
+
+
+
+(
+
+
+R
+
+
+2
+
+
+,
+
+d
+
+2
+
+
+)
+
+
+{\displaystyle (\mathbb {R} ^{2},d_{2})}
+
+, geodesics are unique, but in 
+
+
+
+(
+
+
+R
+
+
+2
+
+
+,
+
+d
+
+1
+
+
+)
+
+
+{\displaystyle (\mathbb {R} ^{2},d_{1})}
+
+, there are often infinitely many geodesics between two points, as shown in the figure at the top of the article.
+The space M is a length space (or the metric d is intrinsic) if the distance between any two points x and y is the infimum of lengths of paths between them.  Unlike in a geodesic metric space, the infimum does not have to be attained.  An example of a length space which is not geodesic is the Euclidean plane minus the origin: the points (1, 0) and (-1, 0) can be joined by paths of length arbitrarily close to 2, but not by a path of length 2.  An example of a metric space which is not a length space is given by the straight-line metric on the sphere: the straight line between two points through the center of the earth is shorter than any path along the surface.
+Given any metric space (M, d), one can define a new, intrinsic distance function dintrinsic on M by setting the distance between points x and y to be infimum of the d-lengths of paths between them.  For instance, if d is the straight-line distance on the sphere, then dintrinsic is the great-circle distance.  However, in some cases dintrinsic may have infinite values.  For example, if M is the Koch snowflake with the subspace metric d induced from 
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} ^{2}}
+
+, then the resulting intrinsic distance is infinite for any pair of distinct points.
+A Riemannian manifold is a space equipped with a Riemannian metric tensor, which determines lengths of tangent vectors at every point.  This can be thought of defining a notion of distance infinitesimally.  In particular, a differentiable path 
+
+
+
+γ
+:
+[
+0
+,
+T
+]
+→
+M
+
+
+{\displaystyle \gamma :[0,T]\to M}
+
+ in a Riemannian manifold M has length defined as the integral of the length of the tangent vector to the path:
+
+
+
+
+L
+(
+γ
+)
+=
+
+∫
+
+0
+
+
+T
+
+
+
+|
+
+
+
+
+γ
+˙
+
+
+
+(
+t
+)
+
+|
+
+d
+t
+.
+
+
+{\displaystyle L(\gamma )=\int _{0}^{T}|{\dot {\gamma }}(t)|dt.}
+
+
+On a connected Riemannian manifold, one then defines the distance between two points as the infimum of lengths of smooth paths between them.  This construction generalizes to other kinds of infinitesimal metrics on manifolds, such as sub-Riemannian and Finsler metrics.
+The Riemannian metric is uniquely determined by the distance function; this means that in principle, all information about a Riemannian manifold can be recovered from its distance function.  One direction in metric geometry is finding purely metric ("synthetic") formulations of properties of Riemannian manifolds.  For example, a Riemannian manifold is a CAT(k) space (a synthetic condition which depends purely on the metric) if and only if its sectional curvature is bounded above by k.[19]  Thus CAT(k) spaces generalize upper curvature bounds to general metric spaces.
+Real analysis makes use of both the metric on 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ and the Lebesgue measure.  Therefore, generalizations of many ideas from analysis naturally reside in metric measure spaces: spaces that have both a measure and a metric which are compatible with each other.  Formally, a metric measure space is a metric space equipped with a Borel regular measure such that every ball has positive measure.[20]  For example Euclidean spaces of dimension n, and more generally n-dimensional Riemannian manifolds, naturally have the structure of a metric measure space, equipped with the Lebesgue measure.  Certain fractal metric spaces such as the Sierpiński gasket can be equipped with the α-dimensional Hausdorff measure where α is the Hausdorff dimension.  In general, however, a metric space may not have an "obvious" choice of measure.
+One application of metric measure spaces is generalizing the notion of Ricci curvature beyond Riemannian manifolds.  Just as CAT(k) and Alexandrov spaces generalize scalar curvature bounds, RCD spaces are a class of metric measure spaces which generalize lower bounds on Ricci curvature.[21]
+A metric space is discrete if its induced topology is the discrete topology.  Although many concepts, such as completeness and compactness, are not interesting for such spaces, they are nevertheless an object of study in several branches of mathematics.  In particular, finite metric spaces (those having a finite number of points) are studied in combinatorics and theoretical computer science.[22]  Embeddings in other metric spaces are particularly well-studied.  For example, not every finite metric space can be isometrically embedded in a Euclidean space or in Hilbert space.  On the other hand, in the worst case the required distortion (bilipschitz constant) is only logarithmic in the number of points.[23][24]
+For any undirected connected graph G, the set V of vertices of G can be turned into a metric space by defining the distance between vertices x and y to be the length of the shortest edge path connecting them. This is also called shortest-path distance or geodesic distance. In geometric group theory this construction is applied to the Cayley graph of a (typically infinite) finitely-generated group, yielding the word metric.  Up to a bilipschitz homeomorphism, the word metric depends only on the group and not on the chosen finite generating set.[14]
+In modern mathematics, one often studies spaces whose points are themselves mathematical objects.  A distance function on such a space generally aims to measure the dissimilarity between two objects.  Here are some examples:
+The idea of spaces of mathematical objects can also be applied to subsets of a metric space, as well as metric spaces themselves. Hausdorff and Gromov–Hausdorff distance define metrics on the set of compact subsets of a metric space and the set of compact metric spaces, respectively.
+
+Suppose (M, d) is a metric space, and let S be a subset of M.  The distance from S to a point x of M is, informally, the distance from x to the closest point of S.  However, since there may not be a single closest point, it is defined via an infimum:
+
+
+
+
+d
+(
+x
+,
+S
+)
+=
+inf
+{
+d
+(
+x
+,
+s
+)
+:
+s
+∈
+S
+}
+.
+
+
+{\displaystyle d(x,S)=\inf\{d(x,s):s\in S\}.}
+
+
+In particular, 
+
+
+
+d
+(
+x
+,
+S
+)
+=
+0
+
+
+{\displaystyle d(x,S)=0}
+
+ if and only if x belongs to the closure of S. Furthermore, distances between points and sets satisfy a version of the triangle inequality:
+
+
+
+
+d
+(
+x
+,
+S
+)
+≤
+d
+(
+x
+,
+y
+)
++
+d
+(
+y
+,
+S
+)
+,
+
+
+{\displaystyle d(x,S)\leq d(x,y)+d(y,S),}
+
+
+and therefore the map 
+
+
+
+
+d
+
+S
+
+
+:
+M
+→
+
+R
+
+
+
+{\displaystyle d_{S}:M\to \mathbb {R} }
+
+ defined by 
+
+
+
+
+d
+
+S
+
+
+(
+x
+)
+=
+d
+(
+x
+,
+S
+)
+
+
+{\displaystyle d_{S}(x)=d(x,S)}
+
+ is continuous.  Incidentally, this shows that metric spaces are completely regular.
+Given two subsets S and T of M, their Hausdorff distance is
+
+
+
+
+
+d
+
+H
+
+
+(
+S
+,
+T
+)
+=
+max
+{
+sup
+{
+d
+(
+s
+,
+T
+)
+:
+s
+∈
+S
+}
+,
+sup
+{
+d
+(
+t
+,
+S
+)
+:
+t
+∈
+T
+}
+}
+.
+
+
+{\displaystyle d_{H}(S,T)=\max\{\sup\{d(s,T):s\in S\},\sup\{d(t,S):t\in T\}\}.}
+
+
+Informally, two sets S and T are close to each other in the Hausdorff distance if no element of S is too far from T and vice versa.  For example, if S is an open set in Euclidean space T is an ε-net inside S, then 
+
+
+
+
+d
+
+H
+
+
+(
+S
+,
+T
+)
+<
+ε
+
+
+{\displaystyle d_{H}(S,T)<\varepsilon }
+
+.  In general, the Hausdorff distance 
+
+
+
+
+d
+
+H
+
+
+(
+S
+,
+T
+)
+
+
+{\displaystyle d_{H}(S,T)}
+
+ can be infinite or zero.  However, the Hausdorff distance between two distinct compact sets is always positive and finite.  Thus the Hausdorff distance defines a metric on the set of compact subsets of M.
+The Gromov–Hausdorff metric defines a distance between (isometry classes of) compact metric spaces.  The Gromov–Hausdorff distance between compact spaces X and Y is the infimum of the Hausdorff distance over all metric spaces Z that contain X and Y as subspaces.  While the exact value of the Gromov–Hausdorff distance is rarely useful to know, the resulting topology has found many applications.
+If 
+
+
+
+(
+
+M
+
+1
+
+
+,
+
+d
+
+1
+
+
+)
+,
+…
+,
+(
+
+M
+
+n
+
+
+,
+
+d
+
+n
+
+
+)
+
+
+{\displaystyle (M_{1},d_{1}),\ldots ,(M_{n},d_{n})}
+
+ are metric spaces, and N is the Euclidean norm on 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+, then 
+
+
+
+
+
+(
+
+
+
+M
+
+1
+
+
+×
+⋯
+×
+
+M
+
+n
+
+
+,
+
+d
+
+×
+
+
+
+
+)
+
+
+
+
+{\displaystyle {\bigl (}M_{1}\times \cdots \times M_{n},d_{\times }{\bigr )}}
+
+ is a metric space, where the product metric is defined by
+
+
+
+
+
+d
+
+×
+
+
+
+
+(
+
+
+(
+
+x
+
+1
+
+
+,
+…
+,
+
+x
+
+n
+
+
+)
+,
+(
+
+y
+
+1
+
+
+,
+…
+,
+
+y
+
+n
+
+
+)
+
+
+)
+
+
+=
+N
+
+
+(
+
+
+
+d
+
+1
+
+
+(
+
+x
+
+1
+
+
+,
+
+y
+
+1
+
+
+)
+,
+…
+,
+
+d
+
+n
+
+
+(
+
+x
+
+n
+
+
+,
+
+y
+
+n
+
+
+)
+
+
+)
+
+
+,
+
+
+{\displaystyle d_{\times }{\bigl (}(x_{1},\ldots ,x_{n}),(y_{1},\ldots ,y_{n}){\bigr )}=N{\bigl (}d_{1}(x_{1},y_{1}),\ldots ,d_{n}(x_{n},y_{n}){\bigr )},}
+
+
+and the induced topology agrees with the product topology.  By the equivalence of norms in finite dimensions, a topologically equivalent metric is obtained if N is the taxicab norm, a p-norm, the maximum norm, or any other norm which is non-decreasing as the coordinates of a positive n-tuple increase (yielding the triangle inequality).
+Similarly, a metric on the topological product of countably many metric spaces can be obtained using the metric
+
+
+
+
+d
+(
+x
+,
+y
+)
+=
+
+∑
+
+i
+=
+1
+
+
+∞
+
+
+
+
+1
+
+2
+
+i
+
+
+
+
+
+
+
+
+d
+
+i
+
+
+(
+
+x
+
+i
+
+
+,
+
+y
+
+i
+
+
+)
+
+
+1
++
+
+d
+
+i
+
+
+(
+
+x
+
+i
+
+
+,
+
+y
+
+i
+
+
+)
+
+
+
+.
+
+
+{\displaystyle d(x,y)=\sum _{i=1}^{\infty }{\frac {1}{2^{i}}}{\frac {d_{i}(x_{i},y_{i})}{1+d_{i}(x_{i},y_{i})}}.}
+
+
+The topological product of uncountably many metric spaces need not be metrizable. For example, an uncountable product of copies of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is not first-countable and thus isn't metrizable.
+If M is a metric space with metric d, and 
+
+
+
+∼
+
+
+{\displaystyle \sim }
+
+ is an equivalence relation on M, then we can endow the quotient set 
+
+
+
+M
+
+/
+
+
+∼
+
+
+{\displaystyle M/\!\sim }
+
+ with a pseudometric. The distance between two equivalence classes 
+
+
+
+[
+x
+]
+
+
+{\displaystyle [x]}
+
+ and 
+
+
+
+[
+y
+]
+
+
+{\displaystyle [y]}
+
+ is defined as
+
+
+
+
+
+d
+′
+
+(
+[
+x
+]
+,
+[
+y
+]
+)
+=
+inf
+{
+d
+(
+
+p
+
+1
+
+
+,
+
+q
+
+1
+
+
+)
++
+d
+(
+
+p
+
+2
+
+
+,
+
+q
+
+2
+
+
+)
++
+⋯
++
+d
+(
+
+p
+
+n
+
+
+,
+
+q
+
+n
+
+
+)
+}
+,
+
+
+{\displaystyle d'([x],[y])=\inf\{d(p_{1},q_{1})+d(p_{2},q_{2})+\dotsb +d(p_{n},q_{n})\},}
+
+
+where the infimum is taken over all finite sequences 
+
+
+
+(
+
+p
+
+1
+
+
+,
+
+p
+
+2
+
+
+,
+…
+,
+
+p
+
+n
+
+
+)
+
+
+{\displaystyle (p_{1},p_{2},\dots ,p_{n})}
+
+ and 
+
+
+
+(
+
+q
+
+1
+
+
+,
+
+q
+
+2
+
+
+,
+…
+,
+
+q
+
+n
+
+
+)
+
+
+{\displaystyle (q_{1},q_{2},\dots ,q_{n})}
+
+ with 
+
+
+
+
+p
+
+1
+
+
+∼
+x
+
+
+{\displaystyle p_{1}\sim x}
+
+, 
+
+
+
+
+q
+
+n
+
+
+∼
+y
+
+
+{\displaystyle q_{n}\sim y}
+
+, 
+
+
+
+
+q
+
+i
+
+
+∼
+
+p
+
+i
++
+1
+
+
+,
+i
+=
+1
+,
+2
+,
+…
+,
+n
+−
+1
+
+
+{\displaystyle q_{i}\sim p_{i+1},i=1,2,\dots ,n-1}
+
+.[28] In general this will only define a pseudometric, i.e. 
+
+
+
+
+d
+′
+
+(
+[
+x
+]
+,
+[
+y
+]
+)
+=
+0
+
+
+{\displaystyle d'([x],[y])=0}
+
+ does not necessarily imply that 
+
+
+
+[
+x
+]
+=
+[
+y
+]
+
+
+{\displaystyle [x]=[y]}
+
+. However, for some equivalence relations (e.g., those given by gluing together polyhedra along faces), 
+
+
+
+
+d
+′
+
+
+
+{\displaystyle d'}
+
+ is a metric.
+The quotient metric 
+
+
+
+
+d
+′
+
+
+
+{\displaystyle d'}
+
+ is characterized by the following universal property. If 
+
+
+
+f
+
+:
+(
+M
+,
+d
+)
+→
+(
+X
+,
+δ
+)
+
+
+{\displaystyle f\,\colon (M,d)\to (X,\delta )}
+
+ is a metric (i.e. 1-Lipschitz) map between metric spaces satisfying f(x) = f(y) whenever 
+
+
+
+x
+∼
+y
+
+
+{\displaystyle x\sim y}
+
+, then the induced function 
+
+
+
+
+
+f
+¯
+
+
+
+:
+
+M
+
+/
+
+∼
+
+→
+X
+
+
+{\displaystyle {\overline {f}}\,\colon {M/\sim }\to X}
+
+, given by 
+
+
+
+
+
+f
+¯
+
+
+(
+[
+x
+]
+)
+=
+f
+(
+x
+)
+
+
+{\displaystyle {\overline {f}}([x])=f(x)}
+
+, is a metric map 
+
+
+
+
+
+f
+¯
+
+
+
+:
+(
+M
+
+/
+
+∼
+,
+
+d
+′
+
+)
+→
+(
+X
+,
+δ
+)
+.
+
+
+{\displaystyle {\overline {f}}\,\colon (M/\sim ,d')\to (X,\delta ).}
+
+
+The quotient metric does not always induce the quotient topology.  For example, the topological quotient of the metric space 
+
+
+
+
+N
+
+×
+[
+0
+,
+1
+]
+
+
+{\displaystyle \mathbb {N} \times [0,1]}
+
+ identifying all points of the form 
+
+
+
+(
+n
+,
+0
+)
+
+
+{\displaystyle (n,0)}
+
+ is not metrizable since it is not first-countable, but the quotient metric is a well-defined metric on the same set which induces a coarser topology.  Moreover, different metrics on the original topological space (a disjoint union of countably many intervals) lead to different topologies on the quotient.[29]
+A topological space is sequential if and only if it is a (topological) quotient of a metric space.[30]
+There are several notions of spaces which have less structure than a metric space, but more than a topological space.
+There are also numerous ways of relaxing the axioms for a metric, giving rise to various notions of generalized metric spaces. These generalizations can also be combined. The terminology used to describe them is not completely standardized. Most notably, in functional analysis pseudometrics often come from seminorms on vector spaces, and so it is natural to call them "semimetrics". This conflicts with the use of the term in topology.
+Some authors define metrics so as to allow the distance function d to attain the value ∞, i.e. distances are non-negative numbers on the extended real number line.[4]  Such a function is also called an extended metric or "∞-metric".  Every extended metric can be replaced by a real-valued metric that is topologically equivalent. This can be done using a subadditive monotonically increasing bounded function which is zero at zero, e.g. 
+
+
+
+
+d
+′
+
+(
+x
+,
+y
+)
+=
+d
+(
+x
+,
+y
+)
+
+/
+
+(
+1
++
+d
+(
+x
+,
+y
+)
+)
+
+
+{\displaystyle d'(x,y)=d(x,y)/(1+d(x,y))}
+
+ or 
+
+
+
+
+d
+″
+
+(
+x
+,
+y
+)
+=
+min
+(
+1
+,
+d
+(
+x
+,
+y
+)
+)
+
+
+{\displaystyle d''(x,y)=\min(1,d(x,y))}
+
+.
+The requirement that the metric take values in 
+
+
+
+[
+0
+,
+∞
+)
+
+
+{\displaystyle [0,\infty )}
+
+ can be relaxed to consider metrics with values in other structures, including:
+These generalizations still induce a uniform structure on the space.
+A pseudometric on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a function 
+
+
+
+d
+:
+X
+×
+X
+→
+
+R
+
+
+
+{\displaystyle d:X\times X\to \mathbb {R} }
+
+ which satisfies the axioms for a metric, except that instead of the second (identity of indiscernibles) only 
+
+
+
+d
+(
+x
+,
+x
+)
+=
+0
+
+
+{\displaystyle d(x,x)=0}
+
+ for all 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is required.[32] In other words, the axioms for a pseudometric are:
+In some contexts, pseudometrics are referred to as semimetrics[33] because of their relation to seminorms.
+Occasionally, a quasimetric is defined as a function that satisfies all axioms for a metric with the possible exception of symmetry.[34] The name of this generalisation is not entirely standardized.[35]
+Quasimetrics are common in real life. For example, given a set X of mountain villages, the typical walking times between elements of X form a quasimetric because travel uphill takes longer than travel downhill. Another example is the length of car rides in a city with one-way streets: here, a shortest path from point A to point B goes along a different set of streets than a shortest path from B to A and may have a different length.
+A quasimetric on the reals can be defined by setting
+
+
+
+
+d
+(
+x
+,
+y
+)
+=
+
+
+{
+
+
+
+x
+−
+y
+
+
+
+if 
+
+x
+≥
+y
+,
+
+
+
+
+1
+
+
+
+otherwise.
+
+
+
+
+
+
+
+
+
+{\displaystyle d(x,y)={\begin{cases}x-y&{\text{if }}x\geq y,\\1&{\text{otherwise.}}\end{cases}}}
+
+
+The 1 may be replaced, for example, by infinity or by 
+
+
+
+1
++
+
+
+y
+−
+x
+
+
+
+
+{\displaystyle 1+{\sqrt {y-x}}}
+
+ or any other subadditive function of y-x. This quasimetric describes the cost of modifying a metal stick: it is easy to reduce its size by filing it down, but it is difficult or impossible to grow it.
+Given a quasimetric on X, one can define an R-ball around x to be the set 
+
+
+
+{
+y
+∈
+X
+
+|
+
+d
+(
+x
+,
+y
+)
+≤
+R
+}
+
+
+{\displaystyle \{y\in X|d(x,y)\leq R\}}
+
+.  As in the case of a metric, such balls form a basis for a topology on X, but this topology need not be metrizable.  For example, the topology induced by the quasimetric on the reals described above is the (reversed) Sorgenfrey line.
+In a metametric, all the axioms of a metric are satisfied except that the distance between identical points is not necessarily zero. In other words, the axioms for a metametric are:
+Metametrics appear in the study of Gromov hyperbolic metric spaces and their boundaries. The visual metametric on such a space satisfies 
+
+
+
+d
+(
+x
+,
+x
+)
+=
+0
+
+
+{\displaystyle d(x,x)=0}
+
+ for points 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ on the boundary, but otherwise 
+
+
+
+d
+(
+x
+,
+x
+)
+
+
+{\displaystyle d(x,x)}
+
+ is approximately the distance from 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ to the boundary. Metametrics were first defined by Jussi Väisälä.[36]  In other work, a function satisfying these axioms is called a partial metric[37][38] or a dislocated metric.[32]
+A semimetric on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a function 
+
+
+
+d
+:
+X
+×
+X
+→
+
+R
+
+
+
+{\displaystyle d:X\times X\to \mathbb {R} }
+
+ that satisfies the first three axioms, but not necessarily the triangle inequality:
+Some authors work with a weaker form of the triangle inequality, such as:
+The ρ-inframetric inequality implies the ρ-relaxed triangle inequality (assuming the first axiom), and the ρ-relaxed triangle inequality implies the 2ρ-inframetric inequality. Semimetrics satisfying these equivalent conditions have sometimes been referred to as quasimetrics,[39] nearmetrics[40] or inframetrics.[41]
+The ρ-inframetric inequalities were introduced to model round-trip delay times in the internet.[41] The triangle inequality implies the 2-inframetric inequality, and the ultrametric inequality is exactly the 1-inframetric inequality.
+Relaxing the last three axioms leads to the notion of a premetric, i.e. a function satisfying the following conditions:
+This is not a standard term. Sometimes it is used to refer to other generalizations of metrics such as pseudosemimetrics[42] or pseudometrics;[43] in translations of Russian books it sometimes appears as "prametric".[44] A premetric that satisfies symmetry, i.e. a pseudosemimetric, is also called a distance.[45]
+Any premetric gives rise to a topology as follows. For a positive real 
+
+
+
+r
+
+
+{\displaystyle r}
+
+, the 
+
+
+
+r
+
+
+{\displaystyle r}
+
+-ball centered at a point 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is defined as
+A set is called open if for any point 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ in the set there is an 
+
+
+
+r
+
+
+{\displaystyle r}
+
+-ball centered at 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ which is contained in the set. Every premetric space is a topological space, and in fact a sequential space.
+In general, the 
+
+
+
+r
+
+
+{\displaystyle r}
+
+-balls themselves need not be open sets with respect to this topology. 
+As for metrics, the distance between two sets 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+, is defined as
+This defines a premetric on the power set of a premetric space. If we start with a (pseudosemi-)metric space, we get a pseudosemimetric, i.e. a symmetric premetric.
+Any premetric gives rise to a preclosure operator 
+
+
+
+c
+l
+
+
+{\displaystyle cl}
+
+ as follows:
+The prefixes pseudo-, quasi- and semi- can also be combined, e.g., a pseudoquasimetric (sometimes called hemimetric) relaxes both the indiscernibility axiom and the symmetry axiom and is simply a premetric satisfying the triangle inequality. For pseudoquasimetric spaces the open 
+
+
+
+r
+
+
+{\displaystyle r}
+
+-balls form a basis of open sets. A very basic example of a pseudoquasimetric space is the set 
+
+
+
+{
+0
+,
+1
+}
+
+
+{\displaystyle \{0,1\}}
+
+ with the premetric given by 
+
+
+
+d
+(
+0
+,
+1
+)
+=
+1
+
+
+{\displaystyle d(0,1)=1}
+
+ and 
+
+
+
+d
+(
+1
+,
+0
+)
+=
+0.
+
+
+{\displaystyle d(1,0)=0.}
+
+ The associated topological space is the Sierpiński space.
+Sets equipped with an extended pseudoquasimetric were studied by William Lawvere as "generalized metric spaces".[46] From a categorical point of view, the extended pseudometric spaces and the extended pseudoquasimetric spaces, along with their corresponding nonexpansive maps, are the best behaved of the metric space categories. One can take arbitrary products and coproducts and form quotient objects within the given category. If one drops "extended", one can only take finite products and coproducts. If one drops "pseudo", one cannot take quotients.
+Lawvere also gave an alternate definition of such spaces as enriched categories.  The ordered set 
+
+
+
+(
+
+R
+
+,
+≥
+)
+
+
+{\displaystyle (\mathbb {R} ,\geq )}
+
+ can be seen as a category with one morphism 
+
+
+
+a
+→
+b
+
+
+{\displaystyle a\to b}
+
+ if 
+
+
+
+a
+≥
+b
+
+
+{\displaystyle a\geq b}
+
+ and none otherwise. Using + as the tensor product and 0 as the identity makes this category into a monoidal category 
+
+
+
+
+R
+
+∗
+
+
+
+
+{\displaystyle R^{*}}
+
+.
+Every (extended pseudoquasi-)metric space 
+
+
+
+(
+M
+,
+d
+)
+
+
+{\displaystyle (M,d)}
+
+ can now be viewed as a category 
+
+
+
+
+M
+
+∗
+
+
+
+
+{\displaystyle M^{*}}
+
+ enriched over 
+
+
+
+
+R
+
+∗
+
+
+
+
+{\displaystyle R^{*}}
+
+:
+The notion of a metric can be generalized from a distance between two elements to a number assigned to a multiset of elements. A multiset is a generalization of the notion of a set in which an element can occur more than once.  Define the multiset union 
+
+
+
+U
+=
+X
+Y
+
+
+{\displaystyle U=XY}
+
+ as follows: if an element x occurs m times in X and n times in Y then it occurs m + n times in U.  A function d on the set of nonempty finite multisets of elements of a set M is a metric[47] if
+By considering the cases of axioms 1 and 2 in which the multiset X has two elements and the case of axiom 3 in which the multisets X, Y, and Z have one element each, one recovers the usual axioms for a metric.  That is, every multiset metric yields an ordinary metric when restricted to sets of two elements.
+A simple example is the set of all nonempty finite multisets 
+
+
+
+X
+
+
+{\displaystyle X}
+
+  of integers with 
+
+
+
+d
+(
+X
+)
+=
+max
+(
+X
+)
+−
+min
+(
+X
+)
+
+
+{\displaystyle d(X)=\max(X)-\min(X)}
+
+. More complex examples are information distance in multisets;[47] and normalized compression distance (NCD) in multisets.[48]
+... for most of the last century it was a common belief that "geometry of manifolds" basically boiled down to "analysis on manifolds".  Geometric methods heavily relied on differential machinery, as can be guessed from the name "Differential geometry".
+

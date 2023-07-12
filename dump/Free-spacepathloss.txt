@@ -1,0 +1,432 @@
+41179,
+Free-spacepathloss,
+
+In telecommunication, the free-space path loss (FSPL) (also known as Free Space Loss, FSL) is the attenuation of radio energy between the feedpoints of two antennas that results from the combination of the receiving antenna's capture area plus the obstacle-free, line-of-sight (LoS) path through free space (usually air).[1]  The "Standard Definitions of Terms for Antennas",  IEEE Std 145-1993, defines "free-space loss" as "The loss between two isotropic radiators in free space, expressed as a power ratio."[2]  It does not include any power loss in the antennas themselves due to imperfections such as resistance.   Free space loss increases with the square of distance between the antennas because the radio waves spread out by the inverse square law and decreases with the square of the wavelength of the radio waves.   The FSPL is rarely used standalone, but rather as a part of the Friis transmission formula, which includes the gain of antennas.[3]  It is a factor that must be included in the power link budget of a radio communication system, to ensure that sufficient radio power reaches the receiver such that the transmitted signal is received intelligibly.
+The free-space path loss (FSPL) formula derives from the Friis transmission formula.[3]  This states that in a radio system consisting of a transmitting antenna transmitting radio waves to a receiving antenna, the ratio of radio wave power received 
+
+
+
+
+P
+
+r
+
+
+
+
+{\displaystyle P_{r}}
+
+ to the power transmitted 
+
+
+
+
+P
+
+t
+
+
+
+
+{\displaystyle P_{t}}
+
+ is:
+where
+The distance between the antennas 
+
+
+
+d
+
+
+{\displaystyle d}
+
+ must be large enough that the antennas are in the far field of each other 
+
+
+
+ 
+d
+≫
+λ
+
+
+{\displaystyle \ d\gg \lambda }
+
+.[4]
+The free-space path loss is the loss factor in this equation that is due to distance and wavelength, or in other words, the ratio of power transmitted to power received assuming the antennas are isotropic and have no directivity (
+
+
+
+
+D
+
+t
+
+
+=
+
+D
+
+r
+
+
+=
+1
+
+
+{\displaystyle D_{t}=D_{r}=1}
+
+):[5]
+
+
+
+
+
+
+
+
+
+
+FSPL
+
+
+=
+
+
+(
+
+
+
+4
+π
+d
+
+λ
+
+
+)
+
+
+2
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}{\mbox{FSPL}}=\left({\frac {4\pi d}{\lambda }}\right)^{2}\end{aligned}}}
+
+
+Since the frequency of a radio wave 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is equal to the speed of light 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ divided by the wavelength, the path loss can also be written in terms of frequency: 
+
+
+
+
+
+
+
+
+
+
+FSPL
+
+
+=
+
+
+(
+
+
+
+4
+π
+d
+f
+
+c
+
+
+)
+
+
+2
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}{\mbox{FSPL}}=\left({4\pi df \over c}\right)^{2}\end{aligned}}}
+
+
+Beside the assumption that the antennas are lossless, this formula assumes that the polarization of the antennas is the same, that there are no multipath effects, and that the radio wave path is sufficiently far away from obstructions that it acts as if it is in free space.  This last restriction requires an ellipsoidal area around the line of sight out to 0.6 of the Fresnel zone be clear of obstructions.  The Fresnel zone increases in diameter with the wavelength of the radio waves.  Often the concept of free space path loss is applied to radio systems that don't completely meet these requirements, but these imperfections can be accounted for by small constant power loss factors that can be included in the link budget.
+The free-space loss increases with the distance between the antennas and decreases with the wavelength of the radio waves due to these factors:[6]
+The radio waves from the transmitting antenna spread out in a spherical wavefront. The amount of power passing through any sphere centered on the transmitting antenna is equal.  The surface area of a sphere of radius 
+
+
+
+d
+
+
+{\displaystyle d}
+
+ is 
+
+
+
+4
+π
+
+d
+
+2
+
+
+
+
+{\displaystyle 4\pi d^{2}}
+
+.  Thus the intensity or power density of the radiation in any particular direction from the antenna is inversely proportional to the square of distance   
+(The term 
+
+
+
+4
+π
+
+d
+
+2
+
+
+
+
+{\displaystyle 4\pi d^{2}}
+
+ means the surface of a sphere, which has a radius 
+
+
+
+d
+
+
+{\displaystyle d}
+
+. Please remember, that 
+
+
+
+d
+
+
+{\displaystyle d}
+
+ here has a meaning of 'distance' between the two antennas, and does not mean the diameter of the sphere (as notation usually used in mathematics).)  
+For an isotropic antenna which radiates equal power in all directions, the power density is evenly distributed over the surface of a sphere centered on the antenna
+The amount of power the receiving antenna receives from this radiation field is 
+The factor 
+
+
+
+
+A
+
+eff
+
+
+
+
+{\displaystyle A_{\text{eff}}}
+
+, called the effective area or aperture of the receiving antenna, which has the units of area, can be thought of as the amount of area perpendicular to the direction of the radio waves from which the receiving antenna captures energy. Since the linear dimensions of an antenna scale with the wavelength 
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+
+, the cross sectional area of an antenna and thus the aperture scales with the square of wavelength 
+
+
+
+
+λ
+
+2
+
+
+
+
+{\displaystyle \lambda ^{2}}
+
+.[6]  The effective area of an isotropic antenna (for a derivation of this see antenna aperture article) is 
+Combining the above (1) and (2), for isotropic antennas
+A convenient way to express FSPL is in terms of decibels (dB):[7]
+using SI units of meters for 
+
+
+
+d
+
+
+{\displaystyle d}
+
+, hertz (s−1) for 
+
+
+
+f
+
+
+{\displaystyle f}
+
+, and meters per second (m⋅s−1) for 
+
+
+
+c
+
+
+{\displaystyle c}
+
+, (where c=299 792 458 m/s in vacuum, ≈ 300 000 km/s)
+For typical radio applications, it is common to find 
+
+
+
+d
+
+
+{\displaystyle d}
+
+ measured in kilometers and 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ in gigahertz, in which case the FSPL equation becomes
+an increase of 240 dB, because the units increase by factors of 103 and 109 respectively, so:
+For 
+
+
+
+d
+,
+f
+
+
+{\displaystyle d,f}
+
+ in kilometers and megahertz (MHz) respectively, the constant becomes 
+
+
+
+32.45
+
+
+{\displaystyle 32.45}
+
+.
+For 
+
+
+
+d
+,
+f
+
+
+{\displaystyle d,f}
+
+ in meters and megahertz (MHz) respectively, the constant becomes 
+
+
+
+
+−
+27.55
+
+
+
+{\displaystyle {-27.55}}
+
+.
+For 
+
+
+
+d
+,
+f
+
+
+{\displaystyle d,f}
+
+ in meters and kilohertz (kHz) respectively, the constant becomes 
+
+
+
+
+−
+87.55
+
+
+
+{\displaystyle {-87.55}}
+
+.
+For 
+
+
+
+d
+,
+f
+
+
+{\displaystyle d,f}
+
+ in kilometers and gigahertz (GHz), the constant becomes 
+
+
+
+
+92.45
+
+
+
+{\displaystyle {92.45}}
+
+.
+(The constants differ in the second decimal digit when the speed of light is approximated by 300 000 km/s.  Whether one uses 92.4, 92.44 or 92.45 dB, the result will be OK as the average measurement instruments cannot provide more accurate results anyway. A logarithmic scale is introduced to see the important differences (i.e. order of magnitudes), so in engineering practice dB results are rounded)
+
+

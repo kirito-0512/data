@@ -1,0 +1,1290 @@
+24047,
+Phase(waves),
+In physics and mathematics, the phase of a wave or other periodic function 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ of some real variable 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ (such as time) is an angle-like quantity representing the fraction of the cycle covered up to 
+
+
+
+t
+
+
+{\displaystyle t}
+
+.  It is denoted 
+
+
+
+ϕ
+(
+t
+)
+
+
+{\displaystyle \phi (t)}
+
+ and expressed in such a scale that it varies by one full turn as the variable 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ goes through each period (and 
+
+
+
+F
+(
+t
+)
+
+
+{\displaystyle F(t)}
+
+ goes through each complete cycle).  It may be measured in any angular unit such as degrees or radians, thus increasing by 360° or 
+
+
+
+2
+π
+
+
+{\displaystyle 2\pi }
+
+ as the variable 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ completes a full period.[1]
+This convention is especially appropriate for a sinusoidal function, since its value at any argument 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ then can be expressed as 
+
+
+
+ϕ
+(
+t
+)
+
+
+{\displaystyle \phi (t)}
+
+, the sine of the phase, multiplied by some factor (the amplitude of the sinusoid). (The cosine may be used instead of sine, depending on where one considers each period to start.)
+Usually, whole turns are ignored when expressing the phase; so that 
+
+
+
+ϕ
+(
+t
+)
+
+
+{\displaystyle \phi (t)}
+
+ is also a periodic function, with the same period as 
+
+
+
+F
+
+
+{\displaystyle F}
+
+, that repeatedly scans the same range of angles as 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ goes through each period.  Then, 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is said to be "at the same phase" at two argument values 
+
+
+
+
+t
+
+1
+
+
+
+
+{\displaystyle t_{1}}
+
+ and 
+
+
+
+
+t
+
+2
+
+
+
+
+{\displaystyle t_{2}}
+
+ (that is, 
+
+
+
+ϕ
+(
+
+t
+
+1
+
+
+)
+=
+ϕ
+(
+
+t
+
+2
+
+
+)
+
+
+{\displaystyle \phi (t_{1})=\phi (t_{2})}
+
+) if the difference between them is a whole number of periods.
+The numeric value of the phase 
+
+
+
+ϕ
+(
+t
+)
+
+
+{\displaystyle \phi (t)}
+
+ depends on the arbitrary choice of the start of each period, and on the interval of angles that each period is to be mapped to. 
+The term "phase" is also used when comparing a periodic function 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ with a shifted version 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ of it.  If the shift in 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ is expressed as a fraction of the period, and then scaled to an angle 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ spanning a whole turn, one gets the phase shift, phase offset, or phase difference of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ relative to 
+
+
+
+F
+
+
+{\displaystyle F}
+
+.  If 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is a "canonical" function for a class of signals, like 
+
+
+
+sin
+⁡
+(
+t
+)
+
+
+{\displaystyle \sin(t)}
+
+ is for all sinusoidal signals, then 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ is called the initial phase of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+.
+Let 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ be a periodic signal (that is, a function of one real variable), and 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ be its period (that is, the smallest positive real number such that 
+
+
+
+F
+(
+t
++
+T
+)
+=
+F
+(
+t
+)
+
+
+{\displaystyle F(t+T)=F(t)}
+
+ for all 
+
+
+
+t
+
+
+{\displaystyle t}
+
+).  Then the phase of 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ at any argument 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ is 
+Here 
+
+
+
+[
+
+[
+
+⋅
+
+]
+
+]
+
+
+
+
+{\displaystyle [\![\,\cdot \,]\!]\!\,}
+
+ denotes the fractional part of a real number, discarding its integer part; that is, 
+
+
+
+[
+
+[
+x
+]
+
+]
+=
+x
+−
+
+⌊
+x
+⌋
+
+
+
+
+
+{\displaystyle [\![x]\!]=x-\left\lfloor x\right\rfloor \!\,}
+
+; and 
+
+
+
+
+t
+
+0
+
+
+
+
+{\displaystyle t_{0}}
+
+ is an arbitrary "origin" value of the argument, that one considers to be the beginning of a cycle. 
+This concept can be visualized by imagining a clock with a hand that turns at constant speed, making a full turn every 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ seconds, and is pointing straight up at time 
+
+
+
+
+t
+
+0
+
+
+
+
+{\displaystyle t_{0}}
+
+.  The phase 
+
+
+
+ϕ
+(
+t
+)
+
+
+{\displaystyle \phi (t)}
+
+ is then the angle from the 12:00 position to the current position of the hand, at time 
+
+
+
+t
+
+
+{\displaystyle t}
+
+, measured clockwise. 
+The phase concept is most useful when the origin 
+
+
+
+
+t
+
+0
+
+
+
+
+{\displaystyle t_{0}}
+
+ is chosen based on features of 
+
+
+
+F
+
+
+{\displaystyle F}
+
+.  For example, for a sinusoid, a convenient choice is any 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ where the function's value changes from zero to positive.
+The formula above gives the phase as an angle in radians between 0 and 
+
+
+
+2
+π
+
+
+{\displaystyle 2\pi }
+
+.  To get the phase as an angle between 
+
+
+
+−
+π
+
+
+{\displaystyle -\pi }
+
+ and 
+
+
+
++
+π
+
+
+{\displaystyle +\pi }
+
+, one uses instead
+The phase expressed in degrees (from 0° to 360°, or from −180° to +180°) is defined the same way, except with "360°" in place of "2π". 
+With any of the above definitions, the phase 
+
+
+
+ϕ
+(
+t
+)
+
+
+{\displaystyle \phi (t)}
+
+ of a periodic signal is periodic too, with the same period 
+
+
+
+T
+
+
+{\displaystyle T}
+
+:
+The phase is zero at the start of each period; that is
+Moreover, for any given choice of the origin 
+
+
+
+
+t
+
+0
+
+
+
+
+{\displaystyle t_{0}}
+
+, the value of the signal 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ for any argument 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ depends only on its phase at 
+
+
+
+t
+
+
+{\displaystyle t}
+
+. Namely, one can write 
+
+
+
+F
+(
+t
+)
+=
+f
+(
+ϕ
+(
+t
+)
+)
+
+
+{\displaystyle F(t)=f(\phi (t))}
+
+, where 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is a function of an angle, defined only for a single full turn, that describes the variation of 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ as 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ ranges over a single period.  
+In fact, every periodic signal 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ with a specific waveform can be expressed as 
+where 
+
+
+
+w
+
+
+{\displaystyle w}
+
+ is a "canonical" function of a phase angle in 
+0 to 2π, that describes just one cycle of that waveform; and 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is a scaling factor for the amplitude. (This claim assumes that the starting time 
+
+
+
+
+t
+
+0
+
+
+
+
+{\displaystyle t_{0}}
+
+ chosen to compute the phase of 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ corresponds to argument 0 of 
+
+
+
+w
+
+
+{\displaystyle w}
+
+.)
+Since phases are angles, any whole full turns should usually be ignored when performing arithmetic operations on them. That is, the sum and difference of two phases (in degrees) should be computed by the formulas
+respectively. Thus, for example, the sum of phase angles 190° + 200° is 30° (190 + 200 = 390, minus one full turn), and subtracting 50° from 30° gives a phase of 340° (30 - 50 = −20, plus one full turn).
+Similar formulas hold for radians, with 
+
+
+
+2
+π
+
+
+{\displaystyle 2\pi }
+
+ instead of 360.
+The difference 
+
+
+
+φ
+(
+t
+)
+=
+
+ϕ
+
+G
+
+
+(
+t
+)
+−
+
+ϕ
+
+F
+
+
+(
+t
+)
+
+
+{\displaystyle \varphi (t)=\phi _{G}(t)-\phi _{F}(t)}
+
+ between the phases of two periodic signals 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ and 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is called the phase difference or phase shift of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ relative to 
+
+
+
+F
+
+
+{\displaystyle F}
+
+.[1]  At values of 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ when the difference is zero, the two signals are said to be in phase, otherwise they are out of phase with each other.
+In the clock analogy, each signal is represented by a hand (or pointer) of the same clock, both turning at constant but possibly different speeds. The phase difference is then the angle between the two hands, measured clockwise.
+The phase difference is particularly important when two signals are added together by a physical process, such as two periodic sound waves emitted by two sources and recorded together by a microphone. This is usually the case in linear systems, when the superposition principle holds.
+For arguments 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ when the phase difference is zero, the two signals will have the same sign and will be reinforcing each other. One says that constructive interference is occurring.  At arguments 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ when the phases are different, the value of the sum depends on the waveform.
+For sinusoidal signals, when the phase difference 
+
+
+
+φ
+(
+t
+)
+
+
+{\displaystyle \varphi (t)}
+
+ is 180° (
+
+
+
+π
+
+
+{\displaystyle \pi }
+
+ radians), one says that the phases are opposite, and that the signals are in antiphase.  Then the signals have opposite signs, and destructive interference occurs.  
+Conversely, a phase reversal or phase inversion implies a 180-degree phase shift.[2]
+When the phase difference 
+
+
+
+φ
+(
+t
+)
+
+
+{\displaystyle \varphi (t)}
+
+ is a quarter of turn (a right angle, +90° = π/2 or −90° = 270° = −π/2 = 3π/2), sinusoidal signals are sometimes said to be in quadrature (e.g., in-phase and quadrature components).
+If the frequencies are different, the phase difference 
+
+
+
+φ
+(
+t
+)
+
+
+{\displaystyle \varphi (t)}
+
+ increases linearly with the argument 
+
+
+
+t
+
+
+{\displaystyle t}
+
+.  The periodic changes from reinforcement and opposition cause a phenomenon called beating.
+The phase difference is especially important when comparing a periodic signal 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ with a shifted and possibly scaled version 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ of it. That is, suppose that 
+
+
+
+G
+(
+t
+)
+=
+α
+
+F
+(
+t
++
+τ
+)
+
+
+{\displaystyle G(t)=\alpha \,F(t+\tau )}
+
+ for some constants 
+
+
+
+α
+,
+τ
+
+
+{\displaystyle \alpha ,\tau }
+
+ and all 
+
+
+
+t
+
+
+{\displaystyle t}
+
+.  Suppose also that the origin for computing the phase of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ has been shifted too.  In that case, the phase difference 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ is a constant (independent of 
+
+
+
+t
+
+
+{\displaystyle t}
+
+), called the 'phase shift' or 'phase offset' of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ relative to 
+
+
+
+F
+
+
+{\displaystyle F}
+
+.   In the clock analogy, this situation corresponds to the two hands turning at the same speed, so that the angle between them is constant.
+In this case, the phase shift is simply the argument shift 
+
+
+
+τ
+
+
+{\displaystyle \tau }
+
+, expressed as a fraction of the common period 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ (in terms of the modulo operation) of the two signals and then scaled to a full turn:
+If 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is a "canonical" representative for a class of signals, like 
+
+
+
+sin
+⁡
+(
+t
+)
+
+
+{\displaystyle \sin(t)}
+
+ is for all sinusoidal signals, then the phase shift 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ called simply the initial phase of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+.
+Therefore, when two periodic signals have the same frequency, they are always in phase, or always out of phase.  Physically, this situation commonly occurs, for many reasons.  For example, the two signals may be a periodic soundwave recorded by two microphones at separate locations. Or, conversely, they may be periodic soundwaves created by two separate speakers from the same electrical signal, and recorded by a single microphone.  They may be a radio signal that reaches the receiving antenna in a straight line, and a copy of it that was reflected off a large building nearby.  
+A well-known example of phase difference is the length of shadows seen at different points of Earth.  To a first approximation, if 
+
+
+
+F
+(
+t
+)
+
+
+{\displaystyle F(t)}
+
+ is the length seen at time 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ at one spot, and 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ is the length seen at the same time at a longitude 30° west of that point, then the phase difference between the two signals will be 30° (assuming that, in each signal, each period starts when the shadow is shortest).
+For sinusoidal signals (and a few other waveforms, like square or symmetric triangular), a phase shift of 180° is equivalent to a phase shift of 0° with negation of the amplitude.  When two signals with these waveforms, same period, and opposite phases are added together, the sum 
+
+
+
+F
++
+G
+
+
+{\displaystyle F+G}
+
+ is either identically zero, or is a sinusoidal signal with the same period and phase, whose amplitude is the difference of the original amplitudes.
+The phase shift of the co-sine function relative to the sine function is +90°.  It follows that, for two sinusoidal signals 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ and 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ with same frequency and amplitudes 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+, and 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ has phase shift +90° relative to 
+
+
+
+F
+
+
+{\displaystyle F}
+
+, the sum 
+
+
+
+F
++
+G
+
+
+{\displaystyle F+G}
+
+ is a sinusoidal signal with the same frequency, with amplitude 
+
+
+
+C
+
+
+{\displaystyle C}
+
+ and phase shift 
+
+
+
+−
+
+90
+
+∘
+
+
+<
+φ
+<
++
+
+90
+
+∘
+
+
+
+
+{\displaystyle -90^{\circ }<\varphi <+90^{\circ }}
+
+ from 
+
+
+
+F
+
+
+{\displaystyle F}
+
+, such that
+A real-world example of a sonic phase difference occurs in the warble of a Native American flute. The amplitude of different harmonic components of same long-held note on the flute come into dominance at different points in the phase cycle.  The phase difference between the different harmonics can be observed on a spectrogram of the sound of a warbling flute.[4]
+Phase comparison is a comparison of the phase of two waveforms, usually of the same nominal frequency. In time and frequency, the purpose of a phase comparison is generally to determine the frequency offset (difference between signal cycles) with respect to a reference.[3]
+A phase comparison can be made by connecting two signals to a two-channel oscilloscope. The oscilloscope will display two sine signals, as shown in the graphic to the right. In the adjacent image, the top sine signal is the test frequency, and the bottom sine signal represents a signal from the reference.
+If the two frequencies were exactly the same, their phase relationship would not change and both would appear to be stationary on the oscilloscope display. Since the two frequencies are not exactly the same, the reference appears to be stationary and the test signal moves. By measuring the rate of motion of the test signal the offset between frequencies can be determined.
+Vertical lines have been drawn through the points where each sine signal passes through zero. The bottom of the figure shows bars whose width represents the phase difference between the signals. In this case the phase difference is increasing, indicating that the test signal is lower in frequency than the reference.[3]
+The phase of an oscillation or signal refers to a sinusoidal function such as the following:
+where 
+
+
+
+
+A
+
+
+
+{\displaystyle \textstyle A}
+
+, 
+
+
+
+
+f
+
+
+
+{\displaystyle \textstyle f}
+
+, and 
+
+
+
+
+φ
+
+
+
+{\displaystyle \textstyle \varphi }
+
+ are constant parameters called the amplitude, frequency, and phase of the sinusoid.  These signals are periodic with period 
+
+
+
+
+T
+=
+
+
+1
+f
+
+
+
+
+
+{\displaystyle \textstyle T={\frac {1}{f}}}
+
+, and they are identical except for a displacement of 
+
+
+
+
+
+
+T
+4
+
+
+
+
+
+{\displaystyle \textstyle {\frac {T}{4}}}
+
+ along the 
+
+
+
+
+t
+
+
+
+{\displaystyle \textstyle t}
+
+ axis.  The term phase can refer to several different things:
+
+

@@ -1,0 +1,183 @@
+30654,
+Triangle,
+
+A triangle is a polygon with three edges and three vertices. It is one of the basic shapes in geometry. A triangle with vertices A, B, and C is denoted 
+
+
+△
+A
+B
+C
+
+\triangle ABC
+
+.
+In Euclidean geometry, any three points, when non-collinear, determine a unique triangle and simultaneously, a unique plane (i.e. a two-dimensional Euclidean space). In other words, there is only one plane that contains that triangle, and every triangle is contained in some plane. If the entire geometry is only the Euclidean plane, there is only one plane and all triangles are contained in it; however, in higher-dimensional Euclidean spaces, this is no longer true. This article is about triangles in Euclidean geometry, and in particular, the Euclidean plane, except where otherwise noted.
+The terminology for categorizing triangles is more than two thousand years old, having been defined on the very first page of Euclid's Elements. The names used for modern classification are either a direct transliteration of Euclid's Greek or their Latin translations.
+Ancient Greek mathematician Euclid defined three types of triangle according to the lengths of their sides:[1][2]
+Greek: τῶν δὲ τριπλεύρων σχημάτων ἰσόπλευρον μὲν τρίγωνόν ἐστι τὸ τὰς τρεῖς ἴσας ἔχον πλευράς, ἰσοσκελὲς δὲ τὸ τὰς δύο μόνας ἴσας ἔχον πλευράς, σκαληνὸν δὲ τὸ τὰς τρεῖς ἀνίσους ἔχον πλευράς, lit. 'Of trilateral figures, an isopleuron [equilateral] triangle is that which has its three sides equal, an isosceles that which has two of its sides alone equal, and a scalene that which has its three sides unequal.'[3]Equilateral Triangle
+Isosceles triangle
+Scalene triangle
+Hatch marks, also called tick marks, are used in diagrams of triangles and other geometric figures to identify sides of equal lengths. A side can be marked with a pattern of "ticks", short line segments in the form of tally marks; two sides have equal lengths if they are both marked with the same pattern. In a triangle, the pattern is usually no more than 3 ticks. An equilateral triangle has the same pattern on all 3 sides, an isosceles triangle has the same pattern on just 2 sides, and a scalene triangle has different patterns on all sides since no sides are equal.
+Similarly, patterns of 1, 2, or 3 concentric arcs inside the angles are used to indicate equal angles: an equilateral triangle has the same pattern on all 3 angles, an isosceles triangle has the same pattern on just 2 angles, and a scalene triangle has different patterns on all angles, since no angles are equal.
+Triangles can also be classified according to their internal angles, measured here in degrees.
+A triangle that has two angles with the same measure also has two sides with the same length, and therefore it is an isosceles triangle. It follows that in a triangle where all angles have the same measure, all three sides have the same length, and therefore is equilateral.
+Triangles are assumed to be two-dimensional plane figures, unless the context provides otherwise (see § Non-planar triangles, below). In rigorous treatments, a triangle is therefore called a 2-simplex (see also Polytope). Elementary facts about triangles were presented by Euclid, in books 1–4 of his Elements, written around 300 BC.
+The sum of the measures of the interior angles of a triangle in Euclidean space is always 180 degrees.[9][2] This fact is equivalent to Euclid's parallel postulate. This allows determination of the measure of the third angle of any triangle, given the measure of two angles. An exterior angle of a triangle is an angle that is a linear pair (and hence supplementary) to an interior angle. The measure of an exterior angle of a triangle is equal to the sum of the measures of the two interior angles that are not adjacent to it; this is the exterior angle theorem. The sum of the measures of the three exterior angles (one for each vertex) of any triangle is 360 degrees.[note 2]
+Two triangles are said to be similar, if every angle of one triangle has the same measure as the corresponding angle in the other triangle. The corresponding sides of similar triangles have lengths that are in the same proportion, and this property is also sufficient to establish similarity.
+Some basic theorems about similar triangles are:
+Two triangles that are congruent have exactly the same size and shape:[note 4] all pairs of corresponding interior angles are equal in measure, and all pairs of corresponding sides have the same length. (This is a total of six equalities, but three are often sufficient to prove congruence.)
+Some individually necessary and sufficient conditions for a pair of triangles to be congruent are:
+Some individually sufficient conditions are:
+An important condition is:
+Two right triangles are similar if and only if they have an acute angle of the same measure. It follows that the six possible ratios between side lengths of a right triangle depend only of the measure of one of the acute angles. These ratios are called trigonometric ratios and are commonly used as a definition of trigonometric functions.
+A central theorem is the Pythagorean theorem, which states in any right triangle, the square of the length of the hypotenuse equals the sum of the squares of the lengths of the two other sides. If the hypotenuse has length c, and the legs have lengths a and b, then the theorem states that
+The converse is true: if the lengths of the sides of a triangle satisfy the above equation, then the triangle has a right angle opposite side c.
+Some other facts about right triangles:
+For all triangles, angles and sides are related by the law of cosines and law of sines (also called the cosine rule and sine rule).
+The triangle inequality states that the sum of the lengths of any two sides of a triangle must be greater than or equal to the length of the third side. That sum can equal the length of the third side only in the case of a degenerate triangle, one with collinear vertices. It is not possible for that sum to be less than the length of the third side. A triangle with three given positive side lengths exists if and only if those side lengths satisfy the triangle inequality.
+Three given angles form a non-degenerate triangle (and indeed an infinitude of them) if and only if both of these conditions hold: (a) each of the angles is positive, and (b) the angles sum to 180°. If degenerate triangles are permitted, angles of 0° are permitted.
+Three positive angles α, β, and γ, each of them less than 180°, are the angles of a triangle if and only if any one of the following conditions holds:
+the last equality applying only if none of the angles is 90° (so the tangent function's value is always finite).
+There are thousands of different constructions that find a special point associated with (and often inside) a triangle, satisfying some unique property: see the article Encyclopedia of Triangle Centers for a catalogue of them. Often they are constructed by finding three lines associated in a symmetrical way with the three sides (or vertices) and then proving that the three lines meet in a single point: an important tool for proving the existence of these is Ceva's theorem, which gives a criterion for determining when three such lines are concurrent. Similarly, lines associated with a triangle are often constructed by proving that three symmetrically constructed points are collinear: here Menelaus' theorem gives a useful general criterion. In this section just a few of the most commonly encountered constructions are explained.
+A perpendicular bisector of a side of a triangle is a straight line passing through the midpoint of the side and being perpendicular to it, i.e. forming a right angle with it. The three perpendicular bisectors meet in a single point, the triangle's circumcenter, usually denoted by O; this point is the center of the circumcircle, the circle passing through all three vertices. The diameter of this circle, called the "circumdiameter", can be found from the law of sines stated above. The circumcircle's radius is called the "circumradius".
+Thales' theorem implies that if the circumcenter is located on a side of the triangle, then the opposite angle is a right one. If the circumcenter is located inside the triangle, then the triangle is acute; if the circumcenter is located outside the triangle, then the triangle is obtuse.
+An altitude of a triangle is a straight line through a vertex and perpendicular to (i.e. forming a right angle with) the opposite side. This opposite side is called the base of the altitude, and the point where the altitude intersects the base (or its extension) is called the foot of the altitude. The length of the altitude is the distance between the base and the vertex. The three altitudes intersect in a single point, called the orthocenter of the triangle, usually denoted by H. The orthocenter lies inside the triangle if and only if the triangle is acute.
+An angle bisector of a triangle is a straight line through a vertex which cuts the corresponding angle in half. The three angle bisectors intersect in a single point, the incenter, usually denoted by I, the center of the triangle's incircle. The incircle is the circle which lies inside the triangle and touches all three sides. Its radius is called the inradius. There are three other important circles, the excircles; they lie outside the triangle and touch one side as well as the extensions of the other two. The centers of the in- and excircles form an orthocentric system.
+A median of a triangle is a straight line through a vertex and the midpoint of the opposite side, and divides the triangle into two equal areas. The three medians intersect in a single point, the triangle's centroid or geometric barycenter, usually denoted by G. The centroid of a rigid triangular object (cut out of a thin sheet of uniform density) is also its center of mass: the object can be balanced on its centroid in a uniform gravitational field. The centroid cuts every median in the ratio 2:1, i.e. the distance between a vertex and the centroid is twice the distance between the centroid and the midpoint of the opposite side.
+The midpoints of the three sides and the feet of the three altitudes all lie on a single circle, the triangle's nine-point circle. The remaining three points for which it is named are the midpoints of the portion of altitude between the vertices and the orthocenter. The radius of the nine-point circle is half that of the circumcircle. It touches the incircle (at the Feuerbach point) and the three excircles.
+The orthocenter (blue point), center of the nine-point circle (red), centroid (orange), and circumcenter (green) all lie on a single line, known as Euler's line (red line). The center of the nine-point circle lies at the midpoint between the orthocenter and the circumcenter, and the distance between the centroid and the circumcenter is half that between the centroid and the orthocenter.
+The center of the incircle is not in general located on Euler's line.
+If one reflects a median in the angle bisector that passes through the same vertex, one obtains a symmedian. The three symmedians intersect in a single point, the symmedian point of the triangle.
+There are various standard methods for calculating the length of a side or the measure of an angle. Certain methods are suited to calculating values in a right-angled triangle; more complex methods may be required in other situations.
+In right triangles, the trigonometric ratios of sine, cosine and tangent can be used to find unknown angles and the lengths of unknown sides. The sides of the triangle are known as follows:
+The sine of an angle is the ratio of the length of the opposite side to the length of the hypotenuse. In our case
+This ratio does not depend on the particular right triangle chosen, as long as it contains the angle A, since all those triangles are similar.
+The cosine of an angle is the ratio of the length of the adjacent side to the length of the hypotenuse. In our case
+The tangent of an angle is the ratio of the length of the opposite side to the length of the adjacent side. In our case
+The acronym "SOH-CAH-TOA" is a useful mnemonic for these ratios.
+The inverse trigonometric functions can be used to calculate the internal angles for a right angled triangle with the length of any two sides.
+Arcsin can be used to calculate an angle from the length of the opposite side and the length of the hypotenuse.
+Arccos can be used to calculate an angle from the length of the adjacent side and the length of the hypotenuse.
+Arctan can be used to calculate an angle from the length of the opposite side and the length of the adjacent side.
+In introductory geometry and trigonometry courses, the notation sin−1, cos−1, etc., are often used in place of arcsin, arccos, etc. However, the arcsin, arccos, etc., notation is standard in higher mathematics where trigonometric functions are commonly raised to powers, as this avoids confusion between multiplicative inverse and compositional inverse.
+The law of sines, or sine rule,[12] states that the ratio of the length of a side to the sine of its corresponding opposite angle is constant, that is
+Another interpretation of this theorem is that every triangle with angles α, β and γ is similar to a triangle with side lengths equal to sin α, sin β and sin γ. This triangle can be constructed by first constructing a circle of diameter 1, and inscribing in it two of the angles of the triangle. The length of the sides of that triangle will be sin α, sin β and sin γ. The side whose length is sin α is opposite to the angle whose measure is α, etc.
+The law of cosines, or cosine rule, connects the length of an unknown side of a triangle to the length of the other sides and the angle opposite to the unknown side.[12] As per the law:
+For a triangle with length of sides a, b, c and angles of α, β, γ respectively, given two known lengths of a triangle a and b, and the angle between the two known sides γ (or the angle opposite to the unknown side c), to calculate the third side c, the following formula can be used:
+If the lengths of all three sides of any triangle are known the three angles can be calculated:
+The law of tangents, or tangent rule, can be used to find a side or an angle when two sides and an angle or two angles and a side are known. It states that:[13]
+"Solution of triangles" is the main trigonometric problem: to find missing characteristics of a triangle (three angles, the lengths of the three sides etc.) when at least three of these characteristics are given.  The triangle can be located on a plane or on a sphere. This problem often occurs in various trigonometric applications, such as geodesy, astronomy, construction, navigation etc.
+In geometry, calculating the area of a triangle is an elementary problem encountered often in many different situations. The best known and simplest formula is 
+
+
+
+T
+=
+b
+h
+
+/
+
+2
+,
+
+
+{\displaystyle T=bh/2,}
+
+ where b is the length of the base of the triangle, and h is the height or altitude of the triangle. The term "base" denotes any side, and "height" denotes the length of a perpendicular from the vertex opposite the base onto the line containing the base. In 499 CE Aryabhata, used this illustrated method in the Aryabhatiya (section 2.6).[14]
+The formulas in this section are true for all Euclidean triangles.
+The medians and the sides are related by[16]: p.70 
+and
+and equivalently for mb and mc.
+For angle A opposite side a, the length of the internal angle bisector is given by[17]
+for semiperimeter s, where the bisector length is measured from the vertex to where it meets the opposite side.
+The interior perpendicular bisectors are given by
+where the sides are 
+
+
+a
+≥
+b
+≥
+c
+
+a\geq b\geq c
+
+ and the area is 
+
+
+T
+.
+
+T.
+
+[18]: Thm 2 
+The altitude from, for example, the side of length a is
+The following formulas involve the circumradius R and the inradius r:
+where ha etc. are the altitudes to the subscripted sides;[16]: p.79 
+and
+The product of two sides of a triangle equals the altitude to the third side times the diameter D of the circumcircle:[16]: p.64 
+Suppose two adjacent but non-overlapping triangles share the same side of length f and share the same circumcircle, so that the side of length f is a chord of the circumcircle and the triangles have side lengths (a, b, f) and (c, d, f), with the two triangles together forming a cyclic quadrilateral with side lengths in sequence (a, b, c, d). Then[19]: 84 
+Let G be the centroid of a triangle with vertices A, B, and C, and let P be any interior point. Then the distances between the points are related by[19]: 174 
+The sum of the squares of the triangle's sides equals three times the sum of the squared distances of the centroid from the vertices:
+Let qa, qb, and qc be the distances from the centroid to the sides of lengths a, b, and c. Then[19]: 173 
+and
+for area T.
+Carnot's theorem states that the sum of the distances from the circumcenter to the three sides equals the sum of the circumradius and the inradius.[16]: p.83  Here a segment's length is considered to be negative if and only if the segment lies entirely outside the triangle. This method is especially useful for deducing the properties of more abstract forms of triangles, such as the ones induced by Lie algebras, that otherwise have the same properties as usual triangles.
+Euler's theorem states that the distance d between the circumcenter and the incenter is given by[16]: p.85 
+or equivalently
+where R is the circumradius and r is the inradius. Thus for all triangles R ≥ 2r, with equality holding for equilateral triangles.
+If we denote that the orthocenter divides one altitude into segments of lengths u and v, another altitude into segment lengths w and x, and the third altitude into segment lengths y and z, then uv = wx = yz.[16]: p.94 
+The distance from a side to the circumcenter equals half the distance from the opposite vertex to the orthocenter.[16]: p.99 
+The sum of the squares of the distances from the vertices to the orthocenter H  plus the sum of the squares of the sides equals twelve times the square of the circumradius:[16]: p.102 
+In addition to the law of sines,  the law of cosines, the law of tangents, and the trigonometric existence conditions given earlier, for any triangle
+Morley's trisector theorem states that in any triangle, the three points of intersection of the adjacent angle trisectors form an equilateral triangle, called the Morley triangle.
+As discussed above, every triangle has a unique inscribed circle (incircle) that is interior to the triangle and tangent to all three sides.
+Every triangle has a unique Steiner inellipse which is interior to the triangle and tangent at the midpoints of the sides. Marden's theorem shows how to find the foci of this ellipse.[21] This ellipse has the greatest area of any ellipse tangent to all three sides of the triangle.
+The Mandart inellipse of a triangle is the ellipse inscribed within the triangle tangent to its sides at the contact points of its excircles.
+For any ellipse inscribed in a triangle ABC, let the foci be P and Q. Then[22]
+Every convex polygon with area T can be inscribed in a triangle of area at most equal to 2T. Equality holds (exclusively) for a parallelogram.[23]
+The Lemoine hexagon is a cyclic hexagon with vertices given by the six intersections of the sides of a triangle with the three lines that are parallel to the sides and that pass through its symmedian point. In either its simple form or its self-intersecting form, the Lemoine hexagon is interior to the triangle with two vertices on each side of the triangle.
+Every acute triangle has three inscribed squares (squares in its interior such that all four of a square's vertices lie on a side of the triangle, so two of them lie on the same side and hence one side of the square coincides with part of a side of the triangle). In a right triangle two of the squares coincide and have a vertex at the triangle's right angle, so a right triangle has only two distinct inscribed squares. An obtuse triangle has only one inscribed square, with a side coinciding with part of the triangle's longest side.  Within a given triangle, a longer common side is associated with a smaller inscribed square. If an inscribed square has side of length qa and the triangle has a side of length a, part of which side coincides with a side of the square, then qa, a, the altitude ha from the side a, and the triangle's area T are related according to[24][25]
+The largest possible ratio of the area of the inscribed square to the area of the triangle is 1/2, which occurs when a2 = 2T, q = a/2, and the altitude of the triangle from the base of length a is equal to a. The smallest possible ratio of the side of one inscribed square to the side of another in the same non-obtuse triangle is 
+
+
+2
+
+
+2
+
+
+
+/
+
+3
+=
+0.94....
+
+2{\sqrt {2}}/3=0.94....
+
+[25] Both of these extreme cases occur for the isosceles right triangle.
+From an interior point in a reference triangle, the nearest points on the three sides serve as the vertices of the pedal triangle of that point. If the interior point is the circumcenter of the reference triangle, the vertices of the pedal triangle are the midpoints of the reference triangle's sides, and so the pedal triangle is called the midpoint triangle or medial triangle. The midpoint triangle subdivides the reference triangle into four congruent triangles which are similar to the reference triangle.
+The Gergonne triangle or intouch triangle of a reference triangle has its vertices at the three points of tangency of the reference triangle's sides with its incircle. The extouch triangle of a reference triangle has its vertices at the points of tangency of the reference triangle's excircles with its sides (not extended).
+The tangential triangle of a reference triangle (other than a right triangle) is the triangle whose sides are on the tangent lines to the reference triangle's circumcircle at its vertices.
+As mentioned above, every triangle has a unique circumcircle, a circle passing through all three vertices, whose center is the intersection of the  perpendicular bisectors of the triangle's sides.
+Further, every triangle has a unique Steiner circumellipse, which passes through the triangle's vertices and has its center at the triangle's centroid. Of all ellipses going through the triangle's vertices, it has the smallest area.
+The Kiepert hyperbola is the unique conic which passes through the triangle's three vertices, its centroid, and its circumcenter.
+Of all triangles contained in a given convex polygon, one with maximal area can be found in linear time; its vertices may be chosen as three of the vertices of the given polygon.[26]
+One way to identify locations of points in (or outside) a triangle is to place the triangle in an arbitrary location and orientation in the Cartesian plane, and to use Cartesian coordinates. While convenient for many purposes, this approach has the disadvantage of all points' coordinate values being dependent on the arbitrary placement in the plane.
+Two systems avoid that feature, so that the coordinates of a point are not affected by moving the triangle, rotating it, or reflecting it as in a mirror, any of which give a congruent triangle, or even by rescaling it to give a similar triangle:
+A non-planar triangle is a triangle which is not contained in a Euclidean plane. Some examples of non-planar triangles in non-Euclidean geometries are spherical triangles in spherical geometry and hyperbolic triangles in hyperbolic geometry.
+While the measures of the internal angles in planar triangles always sum to 180°, a hyperbolic triangle has measures of angles that sum to less than 180°, and a spherical triangle has measures of angles that sum to more than 180°. A hyperbolic triangle can be obtained by drawing on a negatively curved surface, such as a saddle surface, and a spherical triangle can be obtained by drawing on a positively curved surface such as a sphere. Thus, if one draws a giant triangle on the surface of the Earth, one will find that the sum of the measures of its angles is greater than 180°; in fact it will be between 180° and 540°.[27] In particular it is possible to draw a triangle on a sphere such that the measure of each of its internal angles is equal to 90°, adding up to a total of 270°.
+Specifically, on a sphere the sum of the angles of a triangle is
+where f is the fraction of the sphere's area which is enclosed by the triangle. For example, suppose that we draw a triangle on the Earth's surface with vertices at the North Pole, at a point on the equator at 0° longitude, and a point on the equator at 90° West longitude. The great circle line between the latter two points is the equator, and the great circle line between either of those points and the North Pole is a line of longitude; so there are right angles at the two points on the equator. Moreover, the angle at the North Pole is also 90° because the other two vertices differ by 90° of longitude. So the sum of the angles in this triangle is 90° + 90° + 90° = 270°. The triangle encloses 1/4 of the northern hemisphere (90°/360° as viewed from the North Pole) and therefore 1/8 of the Earth's surface, so in the formula f = 1/8; thus the formula correctly gives the sum of the triangle's angles as 270°.
+From the above angle sum formula we can also see that the Earth's surface is locally flat: If we draw an arbitrarily small triangle in the neighborhood of one point on the Earth's surface, the fraction f of the Earth's surface which is enclosed by the triangle will be arbitrarily close to zero. In this case the angle sum formula simplifies to 180°, which we know is what Euclidean geometry tells us for triangles on a flat surface.
+Rectangles have been the most popular and common geometric form for buildings since the shape is easy to stack and organize; as a standard, it is easy to design furniture and fixtures to fit inside rectangularly shaped buildings. But triangles, while more difficult to use conceptually, provide a great deal of strength. As computer technology helps architects design creative new buildings, triangular shapes are becoming increasingly prevalent as parts of buildings and as the primary shape for some types of skyscrapers as well as building materials. In Tokyo in 1989, architects had wondered whether it was possible to build a 500-story tower to provide affordable office space for this densely packed city, but with the danger to buildings from earthquakes, architects considered that a triangular shape would be necessary if such a building were to be built.[28]
+In New York City, as Broadway crisscrosses major avenues, the resulting blocks are cut like triangles, and buildings have been built on these shapes; one such building is the triangularly shaped Flatiron Building which real estate people admit has a "warren of awkward spaces that do not easily accommodate modern office furniture" but that has not prevented the structure from becoming a landmark icon.[29] Designers have made houses in Norway using triangular themes.[30] Triangle shapes have appeared in churches[31] as well as public buildings including colleges[32] as well as supports for innovative home designs.[33]
+Triangles are sturdy; while a rectangle can collapse into a parallelogram from pressure to one of its points, triangles have a natural strength which supports structures against lateral pressures. A triangle will not change shape unless its sides are bent or extended or broken or if its joints break; in essence, each of the three sides supports the other two. A rectangle, in contrast, is more dependent on the strength of its joints in a structural sense. Some innovative designers have proposed making bricks not out of rectangles, but with triangular shapes which can be combined in three dimensions.[34] It is likely that triangles will be used increasingly in new ways as architecture increases in complexity. It is important to remember that triangles are strong in terms of rigidity, but while packed in a tessellating arrangement triangles are not as strong as hexagons under compression (hence the prevalence of hexagonal forms in nature). Tessellated triangles still maintain superior strength for cantilevering however, and this is the basis for one of the strongest man made structures, the tetrahedral truss.
+
+
+
+Information box
+{'Type': 'Regular polygon', 'Edges and vertices': '3', 'Schläfli symbol': '{3} (for equilateral)', 'Coxeter–Dynkin diagrams': '', 'Symmetry group': 'Dihedral (D3), order 2×3', 'Internal angle (degrees)': '60° (for equilateral)', 'Properties': 'Convex, cyclic, equilateral, isogonal, isotoxal', 'Dual polygon': 'Self', 'Area': 'various methods;\nsee below'}

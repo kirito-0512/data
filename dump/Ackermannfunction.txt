@@ -1,0 +1,391 @@
+2925,
+Ackermannfunction,
+In computability theory, the Ackermann function, named after Wilhelm Ackermann, is one of the simplest[1] and earliest-discovered examples of a total computable function that is not primitive recursive. All primitive recursive functions are total and computable, but the Ackermann function illustrates that not all total computable functions are primitive recursive. After Ackermann's publication[2] of his function (which had three non-negative integer arguments), many authors modified it to suit various purposes, so that today "the Ackermann function" may refer to any of numerous variants of the original function. One common version, the two-argument Ackermann–Péter function is defined as follows for nonnegative integers m and n:
+Its value grows rapidly, even for small inputs. For example, A(4, 2) is an integer of 19,729 decimal digits[3] (equivalent to 265536−3, or 22222−3).
+In the late 1920s, the mathematicians Gabriel Sudan and Wilhelm Ackermann, students of David Hilbert, were studying the foundations of computation. Both Sudan and Ackermann are credited[4] with discovering total computable functions (termed simply "recursive" in some references) that are not primitive recursive. Sudan published the lesser-known Sudan function, then shortly afterwards and independently, in 1928, Ackermann published his function 
+φ
+{\displaystyle \varphi }
+ (the Greek letter phi). Ackermann's three-argument function, 
+φ
+(
+m
+,
+n
+,
+p
+)
+{\displaystyle \varphi (m,n,p)}
+, is defined such that for 
+p
+=
+0
+,
+1
+,
+2
+{\displaystyle p=0,1,2}
+, it reproduces the basic operations of addition, multiplication, and exponentiation as
+and for p > 2 it extends these basic operations in a way that can be compared to the hyperoperations:
+(Aside from its historic role as a total-computable-but-not-primitive-recursive function, Ackermann's original function is seen to extend the basic arithmetic operations beyond exponentiation, although not as seamlessly as do variants of Ackermann's function that are specifically designed for that purpose—such as Goodstein's hyperoperation sequence.)
+In On the Infinite,[5] David Hilbert hypothesized that the Ackermann function was not primitive recursive, but it was Ackermann, Hilbert's personal secretary and former student, who actually proved the hypothesis in his paper On Hilbert's Construction of the Real Numbers.[2][6]
+Rózsa Péter[7] and Raphael Robinson[8] later developed a two-variable version of the Ackermann function that became preferred by almost all authors.
+The generalized hyperoperation sequence, e.g. 
+G
+(
+m
+,
+a
+,
+b
+)
+=
+a
+[
+m
+]
+b
+{\displaystyle G(m,a,b)=a[m]b}
+, is a version of Ackermann function as well.[9]
+In 1963 R.C. Buck based an intuitive two-variable [n 1] variant 
+F
+{\displaystyle \operatorname {F} }
+ on the hyperoperation sequence:[10][11]
+Compared to most other versions Buck's function has no unessential offsets:
+Many other versions of Ackermann function have been investigated.[12]
+Ackermann's original three-argument function 
+φ
+(
+m
+,
+n
+,
+p
+)
+{\displaystyle \varphi (m,n,p)}
+ is defined recursively as follows for nonnegative integers 
+m
+,
+n
+,
+{\displaystyle m,n,}
+ and 
+p
+{\displaystyle p}
+:
+Of the various two-argument versions, the one developed by Péter and Robinson (called "the" Ackermann function by most authors) is defined for nonnegative integers 
+m
+{\displaystyle m}
+ and 
+n
+{\displaystyle n}
+ as follows:
+The Ackermann function has also been expressed in relation to the hyperoperation sequence:[13][14]
+Define 
+f
+n
+{\displaystyle f^{n}}
+ as the n-th iterate of 
+f
+{\displaystyle f}
+:
+Iteration is the process of composing a function with itself a certain number of times. Function composition is an associative operation, so 
+f
+(
+f
+n
+(
+x
+)
+)
+=
+f
+n
+(
+f
+(
+x
+)
+)
+{\displaystyle f(f^{n}(x))=f^{n}(f(x))}
+.
+Conceiving the Ackermann function as a sequence of unary functions, one can set 
+A
+m
+⁡
+(
+n
+)
+=
+A
+⁡
+(
+m
+,
+n
+)
+{\displaystyle \operatorname {A} _{m}(n)=\operatorname {A} (m,n)}
+.
+The function then becomes a sequence 
+A
+0
+,
+A
+1
+,
+A
+2
+,
+.
+.
+.
+{\displaystyle \operatorname {A} _{0},\operatorname {A} _{1},\operatorname {A} _{2},...}
+ of unary[n 2] functions, defined from iteration:
+The recursive definition of the Ackermann function can naturally be transposed to a term rewriting system (TRS).
+The definition of the 2-ary Ackermann function leads to the obvious reduction rules [15][16]
+Example
+Compute 
+A
+(
+1
+,
+2
+)
+→
+∗
+4
+{\displaystyle A(1,2)\rightarrow _{*}4}
+The reduction sequence is [n 3]
+To compute 
+A
+⁡
+(
+m
+,
+n
+)
+{\displaystyle \operatorname {A} (m,n)}
+ one can use a stack, which initially contains the elements 
+⟨
+m
+,
+n
+⟩
+{\displaystyle \langle m,n\rangle }
+.
+Then repeatedly the two top elements are replaced according to the rules[n 4]
+Schematically, starting from 
+⟨
+m
+,
+n
+⟩
+{\displaystyle \langle m,n\rangle }
+:
+The pseudocode is published in Grossman & Zeitman (1988).
+For example, on input 
+⟨
+2
+,
+1
+⟩
+{\displaystyle \langle 2,1\rangle }
+,
+Remarks
+The definition of the iterated 1-ary Ackermann functions leads to different reduction rules
+As function composition is associative, instead of rule r6 one can define
+Like in the previous section the computation of 
+A
+m
+1
+⁡
+(
+n
+)
+{\displaystyle \operatorname {A} _{m}^{1}(n)}
+ can be implemented with a stack.
+Initially the stack contains the three elements 
+⟨
+1
+,
+m
+,
+n
+⟩
+{\displaystyle \langle 1,m,n\rangle }
+.
+Then repeatedly the three top elements are replaced according to the rules[n 4]
+Schematically, starting from 
+⟨
+1
+,
+m
+,
+n
+⟩
+{\displaystyle \langle 1,m,n\rangle }
+:
+Example
+On input 
+⟨
+1
+,
+2
+,
+1
+⟩
+{\displaystyle \langle 1,2,1\rangle }
+ the successive stack configurations are
+The corresponding equalities are
+When reduction rule r7 is used instead of rule r6, the replacements in the stack will follow
+The successive stack configurations will then be
+The corresponding equalities are 
+Remarks
+As Sundblad (1971) — or Porto & Matos (1980) — showed explicitly, the Ackermann function can be expressed in terms of the hyperoperation sequence:
+or, after removal of the constant 2 from the parameter list, in terms of Buck's function
+Buck's function 
+F
+⁡
+(
+m
+,
+n
+)
+=
+2
+[
+m
+]
+n
+{\displaystyle \operatorname {F} (m,n)=2[m]n}
+,[10] a variant of Ackermann function by itself, can be computed with the following reduction rules:
+Instead of rule b6 one can define the rule 
+To compute the Ackermann function it suffices to add three reduction rules
+These rules take care of the base case A(0,n), the alignment (n+3) and the fudge (-3).
+Example
+Compute 
+A
+(
+2
+,
+1
+)
+→
+∗
+5
+{\displaystyle A(2,1)\rightarrow _{*}5}
+The matching equalities are
+Remarks
+To demonstrate how the computation of 
+A
+(
+4
+,
+3
+)
+{\displaystyle A(4,3)}
+ results in many steps and in a large number:[n 5]
+Computing the Ackermann function can be restated in terms of an infinite table. First, place the natural numbers along the top row. To determine a number in the table, take the number immediately to the left. Then use that number to look up the required number in the column given by that number and one row up. If there is no number to its left, simply look at the column headed "1" in the previous row. Here is a small upper-left portion of the table:
+The numbers here which are only expressed with recursive exponentiation or Knuth arrows are very large and would take up too much space to notate in plain decimal digits.
+Despite the large values occurring in this early section of the table, some even larger numbers have been defined, such as Graham's number, which cannot be written with any small number of Knuth arrows. This number is constructed with a technique similar to applying the Ackermann function to itself recursively.
+This is a repeat of the above table, but with the values replaced by the relevant expression from the function definition to show the pattern clearly:
+The Ackermann function grows faster than any primitive recursive function and therefore is not itself primitive recursive. The sketch of the proof is this: a primitive recursive function defined using up to k recursions must grow slower than 
+f
+k
++
+1
+(
+n
+)
+{\displaystyle f_{k+1}(n)}
+, the (k+1)-th function in the fast-growing hierarchy, but the Ackermann function grows at least as fast as 
+f
+ω
+(
+n
+)
+{\displaystyle f_{\omega }(n)}
+.
+Specifically, one shows that to every primitive recursive function 
+f
+(
+x
+1
+,
+…
+,
+x
+n
+)
+{\displaystyle f(x_{1},\ldots ,x_{n})}
+ there exists a non-negative integer 
+t
+{\displaystyle t}
+ such that for all non-negative integers 
+x
+1
+,
+…
+,
+x
+n
+{\displaystyle x_{1},\ldots ,x_{n}}
+,
+Once this is established, it follows that 
+A
+{\displaystyle A}
+ itself is not primitive recursive, since otherwise putting 
+x
+1
+=
+x
+2
+=
+t
+{\displaystyle x_{1}=x_{2}=t}
+ would lead to the contradiction 
+A
+(
+t
+,
+t
+)
+<
+A
+(
+t
+,
+t
+)
+.
+{\displaystyle A(t,t)<A(t,t).}
+The proof proceeds as follows: define the class 
+A
+{\displaystyle {\mathcal {A}}}
+ of all functions that grow slower than the Ackermann function
+and show that 
+A
+{\displaystyle {\mathcal {A}}}
+ contains all primitive recursive functions. The latter is achieved by showing that 
+A
+{\displaystyle {\mathcal {A}}}
+ contains the constant functions, the successor function, the projection functions and that it is closed under the operations of function composition and primitive recursion.
+Since the function  f(n) = A(n, n) considered above grows very rapidly, its inverse function, f−1, grows very slowly. This inverse Ackermann function f−1 is usually denoted by α. In fact, α(n) is less than 5 for any practical input size n, since A(4, 4) is on the order of 
+2
+2
+2
+2
+16
+{\displaystyle 2^{2^{2^{2^{16}}}}}
+.
+This inverse appears in the time complexity of some algorithms, such as the disjoint-set data structure and Chazelle's algorithm for minimum spanning trees. Sometimes Ackermann's original function or other variations are used in these settings, but they all grow at similarly high rates. In particular, some modified functions simplify the expression by eliminating the −3 and similar terms.
+A two-parameter variation of the inverse Ackermann function can be defined as follows, where 
+⌊
+x
+⌋
+{\displaystyle \lfloor x\rfloor }
+ is the floor function:
+This function arises in more precise analyses of the algorithms mentioned above, and gives a more refined time bound. In the disjoint-set data structure, m represents the number of operations while n represents the number of elements; in the minimum spanning tree algorithm, m represents the number of edges while n represents the number of vertices. Several slightly different definitions of α(m, n) exist; for example, log2 n is sometimes replaced by n, and the floor function is sometimes replaced by a ceiling.
+Other studies might define an inverse function of one where m is set to a constant, such that the inverse applies to a particular row. [18]
+The inverse of the Ackermann function is primitive recursive.[19]
+The Ackermann function, due to its definition in terms of extremely deep recursion, can be used as a benchmark of a compiler's ability to optimize recursion. The first published use of Ackermann's function in this way was in 1970 by Dragoș Vaida[20] and, almost simultaneously, in 1971, by Yngve Sundblad.[13]
+Sundblad's seminal paper was taken up by Brian Wichmann (co-author of the Whetstone benchmark) in a trilogy of papers written between 1975 and 1982.[21][22][23]

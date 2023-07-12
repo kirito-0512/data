@@ -1,0 +1,2448 @@
+12673,
+Galoisgroup,
+In mathematics, in the area of abstract algebra known as Galois theory, the Galois group of a certain type of field extension is a specific group associated with the field extension. The study of field extensions and their relationship to the polynomials that give rise to them via Galois groups is called Galois theory, so named in honor of Évariste Galois who first discovered them.
+For a more elementary discussion of Galois groups in terms of permutation groups, see the article on Galois theory.
+Suppose that 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ is an extension of the field 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ (written as 
+
+
+
+E
+
+/
+
+F
+
+
+{\displaystyle E/F}
+
+ and read "E over F "). An automorphism of 
+
+
+
+E
+
+/
+
+F
+
+
+{\displaystyle E/F}
+
+ is defined to be an automorphism of 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ that fixes 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ pointwise. In other words, an automorphism of 
+
+
+
+E
+
+/
+
+F
+
+
+{\displaystyle E/F}
+
+ is an isomorphism 
+
+
+
+α
+:
+E
+→
+E
+
+
+{\displaystyle \alpha :E\to E}
+
+ such that 
+
+
+
+α
+(
+x
+)
+=
+x
+
+
+{\displaystyle \alpha (x)=x}
+
+ for each 
+
+
+
+x
+∈
+F
+
+
+{\displaystyle x\in F}
+
+. The set of all automorphisms of 
+
+
+
+E
+
+/
+
+F
+
+
+{\displaystyle E/F}
+
+ forms a group with the operation of function composition. This group is sometimes denoted by 
+
+
+
+Aut
+⁡
+(
+E
+
+/
+
+F
+)
+.
+
+
+{\displaystyle \operatorname {Aut} (E/F).}
+
+
+If 
+
+
+
+E
+
+/
+
+F
+
+
+{\displaystyle E/F}
+
+ is a Galois extension, then 
+
+
+
+Aut
+⁡
+(
+E
+
+/
+
+F
+)
+
+
+{\displaystyle \operatorname {Aut} (E/F)}
+
+ is called the Galois group of 
+
+
+
+E
+
+/
+
+F
+
+
+{\displaystyle E/F}
+
+, and is usually denoted by 
+
+
+
+Gal
+⁡
+(
+E
+
+/
+
+F
+)
+
+
+{\displaystyle \operatorname {Gal} (E/F)}
+
+.[1]
+If 
+
+
+
+E
+
+/
+
+F
+
+
+{\displaystyle E/F}
+
+ is not a Galois extension, then the Galois group of 
+
+
+
+E
+
+/
+
+F
+
+
+{\displaystyle E/F}
+
+ is sometimes defined as 
+
+
+
+Aut
+⁡
+(
+K
+
+/
+
+F
+)
+
+
+{\displaystyle \operatorname {Aut} (K/F)}
+
+, where 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ is the Galois closure of 
+
+
+
+E
+
+
+{\displaystyle E}
+
+.
+Another definition of the Galois group comes from the Galois group of a polynomial 
+
+
+
+f
+∈
+F
+[
+x
+]
+
+
+{\displaystyle f\in F[x]}
+
+. If there is a field 
+
+
+
+K
+
+/
+
+F
+
+
+{\displaystyle K/F}
+
+ such that 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ factors as a product of linear polynomials
+over the field 
+
+
+
+K
+
+
+{\displaystyle K}
+
+, then the Galois group of the polynomial 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is defined as the Galois group of 
+
+
+
+K
+
+/
+
+F
+
+
+{\displaystyle K/F}
+
+ where 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ is minimal among all such fields.
+One of the important structure theorems from Galois theory comes from the fundamental theorem of Galois theory. This states that given a finite Galois extension 
+
+
+
+K
+
+/
+
+k
+
+
+{\displaystyle K/k}
+
+, there is a bijection between the set of subfields 
+
+
+
+k
+⊂
+E
+⊂
+K
+
+
+{\displaystyle k\subset E\subset K}
+
+ and the subgroups 
+
+
+
+H
+⊂
+G
+.
+
+
+{\displaystyle H\subset G.}
+
+ Then, 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ is given by the set of invariants of 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ under the action of 
+
+
+
+H
+
+
+{\displaystyle H}
+
+, so
+Moreover, if 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ is a normal subgroup then 
+
+
+
+G
+
+/
+
+H
+≅
+Gal
+⁡
+(
+E
+
+/
+
+k
+)
+
+
+{\displaystyle G/H\cong \operatorname {Gal} (E/k)}
+
+. And conversely, if 
+
+
+
+E
+
+/
+
+k
+
+
+{\displaystyle E/k}
+
+ is a normal field extension, then the associated subgroup in 
+
+
+
+Gal
+⁡
+(
+K
+
+/
+
+k
+)
+
+
+{\displaystyle \operatorname {Gal} (K/k)}
+
+ is a normal group.
+Suppose 
+
+
+
+
+K
+
+1
+
+
+,
+
+K
+
+2
+
+
+
+
+{\displaystyle K_{1},K_{2}}
+
+ are Galois extensions of 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ with Galois groups 
+
+
+
+
+G
+
+1
+
+
+,
+
+G
+
+2
+
+
+.
+
+
+{\displaystyle G_{1},G_{2}.}
+
+ The field 
+
+
+
+
+K
+
+1
+
+
+
+K
+
+2
+
+
+
+
+{\displaystyle K_{1}K_{2}}
+
+ with Galois group 
+
+
+
+G
+=
+Gal
+⁡
+(
+
+K
+
+1
+
+
+
+K
+
+2
+
+
+
+/
+
+k
+)
+
+
+{\displaystyle G=\operatorname {Gal} (K_{1}K_{2}/k)}
+
+ has an injection 
+
+
+
+G
+→
+
+G
+
+1
+
+
+×
+
+G
+
+2
+
+
+
+
+{\displaystyle G\to G_{1}\times G_{2}}
+
+ which is an isomorphism whenever 
+
+
+
+
+K
+
+1
+
+
+∩
+
+K
+
+2
+
+
+=
+k
+
+
+{\displaystyle K_{1}\cap K_{2}=k}
+
+.[2]
+As a corollary, this can be inducted finitely many times. Given Galois extensions 
+
+
+
+
+K
+
+1
+
+
+,
+…
+,
+
+K
+
+n
+
+
+
+/
+
+k
+
+
+{\displaystyle K_{1},\ldots ,K_{n}/k}
+
+ where 
+
+
+
+
+K
+
+i
++
+1
+
+
+∩
+(
+
+K
+
+1
+
+
+⋯
+
+K
+
+i
+
+
+)
+=
+k
+,
+
+
+{\displaystyle K_{i+1}\cap (K_{1}\cdots K_{i})=k,}
+
+ then there is an isomorphism of the corresponding Galois groups:
+In the following examples 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ is a field, and 
+
+
+
+
+C
+
+,
+
+R
+
+,
+
+Q
+
+
+
+{\displaystyle \mathbb {C} ,\mathbb {R} ,\mathbb {Q} }
+
+ are the fields of complex, real, and rational numbers, respectively. The notation F(a) indicates the field extension obtained by adjoining an element a to the field F.
+One of the basic propositions required for completely determining the Galois groups[3] of a finite field extension is the following: Given a polynomial 
+
+
+
+f
+(
+x
+)
+∈
+F
+[
+x
+]
+
+
+{\displaystyle f(x)\in F[x]}
+
+, let 
+
+
+
+E
+
+/
+
+F
+
+
+{\displaystyle E/F}
+
+ be its splitting field extension. Then the order of the Galois group is equal to the degree of the field extension; that is,
+A useful tool for determining the Galois group of a polynomial comes from Eisenstein's criterion. If a polynomial 
+
+
+
+f
+∈
+F
+[
+x
+]
+
+
+{\displaystyle f\in F[x]}
+
+ factors into irreducible polynomials 
+
+
+
+f
+=
+
+f
+
+1
+
+
+⋯
+
+f
+
+k
+
+
+
+
+{\displaystyle f=f_{1}\cdots f_{k}}
+
+ the Galois group of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ can be determined using the Galois groups of each 
+
+
+
+
+f
+
+i
+
+
+
+
+{\displaystyle f_{i}}
+
+ since the Galois group of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ contains each of the Galois groups of the 
+
+
+
+
+f
+
+i
+
+
+.
+
+
+{\displaystyle f_{i}.}
+
+
+
+
+
+
+Gal
+⁡
+(
+F
+
+/
+
+F
+)
+
+
+{\displaystyle \operatorname {Gal} (F/F)}
+
+ is the trivial group that has a single element, namely the identity automorphism.
+Another example of a Galois group which is trivial is 
+
+
+
+Aut
+⁡
+(
+
+R
+
+
+/
+
+
+Q
+
+)
+.
+
+
+{\displaystyle \operatorname {Aut} (\mathbb {R} /\mathbb {Q} ).}
+
+ Indeed, it can be shown that any automorphism of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ must preserve the ordering of the real numbers and hence must be the identity.
+Consider the field 
+
+
+
+K
+=
+
+Q
+
+(
+
+
+2
+
+3
+
+
+
+)
+.
+
+
+{\displaystyle K=\mathbb {Q} ({\sqrt[{3}]{2}}).}
+
+ The group 
+
+
+
+Aut
+⁡
+(
+K
+
+/
+
+
+Q
+
+)
+
+
+{\displaystyle \operatorname {Aut} (K/\mathbb {Q} )}
+
+ contains only the identity automorphism. This is because 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ is not a normal extension, since the other two cube roots of 
+
+
+
+2
+
+
+{\displaystyle 2}
+
+,
+are missing from the extension—in other words K is not a splitting field.
+The Galois group 
+
+
+
+Gal
+⁡
+(
+
+C
+
+
+/
+
+
+R
+
+)
+
+
+{\displaystyle \operatorname {Gal} (\mathbb {C} /\mathbb {R} )}
+
+ has two elements, the identity automorphism and the complex conjugation automorphism.[4]
+The degree two field extension 
+
+
+
+
+Q
+
+(
+
+
+2
+
+
+)
+
+/
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} ({\sqrt {2}})/\mathbb {Q} }
+
+ has the Galois group 
+
+
+
+Gal
+⁡
+(
+
+Q
+
+(
+
+
+2
+
+
+)
+
+/
+
+
+Q
+
+)
+
+
+{\displaystyle \operatorname {Gal} (\mathbb {Q} ({\sqrt {2}})/\mathbb {Q} )}
+
+ with two elements, the identity automorphism and the automorphism 
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+
+ which exchanges 
+
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\sqrt {2}}}
+
+ and 
+
+
+
+−
+
+
+2
+
+
+
+
+{\displaystyle -{\sqrt {2}}}
+
+. This example generalizes for a prime number 
+
+
+
+p
+∈
+
+N
+
+.
+
+
+{\displaystyle p\in \mathbb {N} .}
+
+
+Using the lattice structure of Galois groups, for non-equal prime numbers 
+
+
+
+
+p
+
+1
+
+
+,
+…
+,
+
+p
+
+k
+
+
+
+
+{\displaystyle p_{1},\ldots ,p_{k}}
+
+ the Galois group of 
+
+
+
+
+Q
+
+
+(
+
+
+
+
+p
+
+1
+
+
+
+
+,
+…
+,
+
+
+
+p
+
+k
+
+
+
+
+
+)
+
+
+/
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} \left({\sqrt {p_{1}}},\ldots ,{\sqrt {p_{k}}}\right)/\mathbb {Q} }
+
+ is
+Another useful class of examples comes from the splitting fields of cyclotomic polynomials. These are polynomials 
+
+
+
+
+Φ
+
+n
+
+
+
+
+{\displaystyle \Phi _{n}}
+
+ defined as
+whose degree is 
+
+
+
+ϕ
+(
+n
+)
+
+
+{\displaystyle \phi (n)}
+
+, Euler's totient function at 
+
+
+
+n
+
+
+{\displaystyle n}
+
+. Then, the splitting field over 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ is 
+
+
+
+
+Q
+
+(
+
+ζ
+
+n
+
+
+)
+
+
+{\displaystyle \mathbb {Q} (\zeta _{n})}
+
+ and has automorphisms 
+
+
+
+
+σ
+
+a
+
+
+
+
+{\displaystyle \sigma _{a}}
+
+ sending 
+
+
+
+
+ζ
+
+n
+
+
+↦
+
+ζ
+
+n
+
+
+a
+
+
+
+
+{\displaystyle \zeta _{n}\mapsto \zeta _{n}^{a}}
+
+ for 
+
+
+
+1
+≤
+a
+<
+n
+
+
+{\displaystyle 1\leq a<n}
+
+ relatively prime to 
+
+
+
+n
+
+
+{\displaystyle n}
+
+. Since the degree of the field is equal to the degree of the polynomial, these automorphisms generate the Galois group.[5] If 
+
+
+
+n
+=
+
+p
+
+1
+
+
+
+a
+
+1
+
+
+
+
+⋯
+
+p
+
+k
+
+
+
+a
+
+k
+
+
+
+
+,
+
+
+{\displaystyle n=p_{1}^{a_{1}}\cdots p_{k}^{a_{k}},}
+
+ then
+If 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ is a prime 
+
+
+
+p
+
+
+{\displaystyle p}
+
+, then a corollary of this is 
+In fact, any finite abelian group can be found as the Galois group of some subfield of a cyclotomic field extension by the Kronecker–Weber theorem.
+Another useful class of examples of Galois groups with finite abelian groups comes from finite fields. If q is a prime power, and if 
+
+
+
+F
+=
+
+
+F
+
+
+q
+
+
+
+
+{\displaystyle F=\mathbb {F} _{q}}
+
+ and 
+
+
+
+E
+=
+
+
+F
+
+
+
+q
+
+n
+
+
+
+
+
+
+{\displaystyle E=\mathbb {F} _{q^{n}}}
+
+ denote the Galois fields of order 
+
+
+
+q
+
+
+{\displaystyle q}
+
+ and 
+
+
+
+
+q
+
+n
+
+
+
+
+{\displaystyle q^{n}}
+
+ respectively, then 
+
+
+
+Gal
+⁡
+(
+E
+
+/
+
+F
+)
+
+
+{\displaystyle \operatorname {Gal} (E/F)}
+
+ is cyclic of order n and generated by the Frobenius homomorphism.
+The field extension 
+
+
+
+
+Q
+
+(
+
+
+2
+
+
+,
+
+
+3
+
+
+)
+
+/
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} ({\sqrt {2}},{\sqrt {3}})/\mathbb {Q} }
+
+ is an example of a degree 
+
+
+
+4
+
+
+{\displaystyle 4}
+
+ field extension.[6] This has two automorphisms 
+
+
+
+σ
+,
+τ
+
+
+{\displaystyle \sigma ,\tau }
+
+ where 
+
+
+
+σ
+(
+
+
+2
+
+
+)
+=
+−
+
+
+2
+
+
+
+
+{\displaystyle \sigma ({\sqrt {2}})=-{\sqrt {2}}}
+
+ and 
+
+
+
+τ
+(
+
+
+3
+
+
+)
+=
+−
+
+
+3
+
+
+.
+
+
+{\displaystyle \tau ({\sqrt {3}})=-{\sqrt {3}}.}
+
+ Since these two generators define a group of order 
+
+
+
+4
+
+
+{\displaystyle 4}
+
+, the Klein four-group, they determine the entire Galois group.[3]
+Another example is given from the splitting field 
+
+
+
+E
+
+/
+
+
+Q
+
+
+
+{\displaystyle E/\mathbb {Q} }
+
+ of the polynomial
+Note because 
+
+
+
+(
+x
+−
+1
+)
+f
+(
+x
+)
+=
+
+x
+
+5
+
+
+−
+1
+,
+
+
+{\displaystyle (x-1)f(x)=x^{5}-1,}
+
+ the roots of 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ are 
+
+
+
+exp
+⁡
+
+(
+
+
+
+
+2
+k
+π
+i
+
+5
+
+
+
+)
+
+.
+
+
+{\displaystyle \exp \left({\tfrac {2k\pi i}{5}}\right).}
+
+ There are automorphisms 
+generating a group of order 
+
+
+
+4
+
+
+{\displaystyle 4}
+
+. Since 
+
+
+
+
+σ
+
+2
+
+
+
+
+{\displaystyle \sigma _{2}}
+
+ generates this group, the Galois group is isomorphic to 
+
+
+
+
+Z
+
+
+/
+
+4
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} /4\mathbb {Z} }
+
+.
+Consider now 
+
+
+
+L
+=
+
+Q
+
+(
+
+
+2
+
+3
+
+
+
+,
+ω
+)
+,
+
+
+{\displaystyle L=\mathbb {Q} ({\sqrt[{3}]{2}},\omega ),}
+
+ where 
+
+
+
+ω
+
+
+{\displaystyle \omega }
+
+ is a primitive cube root of unity. The group 
+
+
+
+Gal
+⁡
+(
+L
+
+/
+
+
+Q
+
+)
+
+
+{\displaystyle \operatorname {Gal} (L/\mathbb {Q} )}
+
+ is isomorphic to S3, the dihedral group of order 6, and L is in fact the splitting field of 
+
+
+
+
+x
+
+3
+
+
+−
+2
+
+
+{\displaystyle x^{3}-2}
+
+ over 
+
+
+
+
+Q
+
+.
+
+
+{\displaystyle \mathbb {Q} .}
+
+
+The Quaternion group can be found as the Galois group of a field extension of 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+. For example, the field extension
+has the prescribed Galois group.[7]
+If 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is an irreducible polynomial of prime degree 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ with rational coefficients and exactly two non-real roots, then the Galois group of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is the full symmetric group 
+
+
+
+
+S
+
+p
+
+
+.
+
+
+{\displaystyle S_{p}.}
+
+[2]
+For example, 
+
+
+
+f
+(
+x
+)
+=
+
+x
+
+5
+
+
+−
+4
+x
++
+2
+∈
+
+Q
+
+[
+x
+]
+
+
+{\displaystyle f(x)=x^{5}-4x+2\in \mathbb {Q} [x]}
+
+ is irreducible from Eisenstein's criterion. Plotting the graph of 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ with graphing software or paper shows it has three real roots, hence two complex roots, showing its Galois group is 
+
+
+
+
+S
+
+5
+
+
+
+
+{\displaystyle S_{5}}
+
+.
+
+Given a global field extension 
+
+
+
+K
+
+/
+
+k
+
+
+{\displaystyle K/k}
+
+ (such as 
+
+
+
+
+Q
+
+(
+
+
+3
+
+5
+
+
+
+,
+
+ζ
+
+5
+
+
+)
+
+/
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} ({\sqrt[{5}]{3}},\zeta _{5})/\mathbb {Q} }
+
+) and equivalence classes of valuations  
+
+
+
+w
+
+
+{\displaystyle w}
+
+ on 
+
+
+
+K
+
+
+{\displaystyle K}
+
+ (such as the 
+
+
+
+p
+
+
+{\displaystyle p}
+
+-adic valuation) and 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ on 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ such that their completions give a Galois field extension
+
+
+
+
+K
+
+w
+
+
+
+/
+
+
+k
+
+v
+
+
+
+
+{\displaystyle K_{w}/k_{v}}
+
+of local fields, there is an induced action of the Galois group 
+
+
+
+G
+=
+Gal
+⁡
+(
+K
+
+/
+
+k
+)
+
+
+{\displaystyle G=\operatorname {Gal} (K/k)}
+
+ on the set of equivalence classes of valuations such that the completions of the fields are compatible. This means if 
+
+
+
+s
+∈
+G
+
+
+{\displaystyle s\in G}
+
+ then there is an induced isomorphism of local fields
+
+
+
+
+s
+
+w
+
+
+:
+
+K
+
+w
+
+
+→
+
+K
+
+s
+w
+
+
+
+
+{\displaystyle s_{w}:K_{w}\to K_{sw}}
+
+Since we have taken the hypothesis that 
+
+
+
+w
+
+
+{\displaystyle w}
+
+ lies over 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ (i.e. there is a Galois field extension 
+
+
+
+
+K
+
+w
+
+
+
+/
+
+
+k
+
+v
+
+
+
+
+{\displaystyle K_{w}/k_{v}}
+
+), the field morphism 
+
+
+
+
+s
+
+w
+
+
+
+
+{\displaystyle s_{w}}
+
+ is in fact an isomorphism of 
+
+
+
+
+k
+
+v
+
+
+
+
+{\displaystyle k_{v}}
+
+-algebras. If we take the isotropy subgroup of 
+
+
+
+G
+
+
+{\displaystyle G}
+
+ for the valuation class 
+
+
+
+w
+
+
+{\displaystyle w}
+
+
+
+
+
+
+G
+
+w
+
+
+=
+{
+s
+∈
+G
+:
+s
+w
+=
+w
+}
+
+
+{\displaystyle G_{w}=\{s\in G:sw=w\}}
+
+then there is a surjection of the global Galois group to the local Galois group such that there is an isomorphism between the local Galois group and the isotropy subgroup. Diagrammatically, this means
+
+
+
+
+
+
+
+Gal
+⁡
+(
+K
+
+/
+
+v
+)
+
+
+↠
+
+
+Gal
+⁡
+(
+
+K
+
+w
+
+
+
+/
+
+
+k
+
+v
+
+
+)
+
+
+
+
+↓
+
+
+
+↓
+
+
+
+
+G
+
+
+↠
+
+
+
+G
+
+w
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{matrix}\operatorname {Gal} (K/v)&\twoheadrightarrow &\operatorname {Gal} (K_{w}/k_{v})\\\downarrow &&\downarrow \\G&\twoheadrightarrow &G_{w}\end{matrix}}}
+
+where the vertical arrows are isomorphisms.[8] This gives a technique for constructing Galois groups of local fields using global Galois groups.
+A basic example of a field extension with an infinite group of automorphisms is 
+
+
+
+Aut
+⁡
+(
+
+C
+
+
+/
+
+
+Q
+
+)
+
+
+{\displaystyle \operatorname {Aut} (\mathbb {C} /\mathbb {Q} )}
+
+, since it contains every algebraic field extension 
+
+
+
+E
+
+/
+
+
+Q
+
+
+
+{\displaystyle E/\mathbb {Q} }
+
+. For example, the field extensions 
+
+
+
+
+Q
+
+(
+
+
+a
+
+
+)
+
+/
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} ({\sqrt {a}})/\mathbb {Q} }
+
+ for a square-free element 
+
+
+
+a
+∈
+
+Q
+
+
+
+{\displaystyle a\in \mathbb {Q} }
+
+ each have a unique degree 
+
+
+
+2
+
+
+{\displaystyle 2}
+
+ automorphism, inducing an automorphism in 
+
+
+
+Aut
+⁡
+(
+
+C
+
+
+/
+
+
+Q
+
+)
+.
+
+
+{\displaystyle \operatorname {Aut} (\mathbb {C} /\mathbb {Q} ).}
+
+
+One of the most studied classes of infinite Galois group is the absolute Galois group, which is an infinite, profinite group defined as the inverse limit of all finite Galois extensions 
+
+
+
+E
+
+/
+
+F
+
+
+{\displaystyle E/F}
+
+ for a fixed field. The inverse limit is denoted
+where 
+
+
+
+
+
+F
+¯
+
+
+
+
+{\displaystyle {\overline {F}}}
+
+ is the separable closure of the field 
+
+
+
+F
+
+
+{\displaystyle F}
+
+. Note this group is a topological group.[9] Some basic examples include 
+
+
+
+Gal
+⁡
+(
+
+
+
+Q
+
+¯
+
+
+
+/
+
+
+Q
+
+)
+
+
+{\displaystyle \operatorname {Gal} ({\overline {\mathbb {Q} }}/\mathbb {Q} )}
+
+ and
+Another readily computable example comes from the field extension 
+
+
+
+
+Q
+
+(
+
+
+2
+
+
+,
+
+
+3
+
+
+,
+
+
+5
+
+
+,
+…
+)
+
+/
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} ({\sqrt {2}},{\sqrt {3}},{\sqrt {5}},\ldots )/\mathbb {Q} }
+
+ containing the square root of every positive prime. It has Galois group
+which can be deduced from the profinite limit
+and using the computation of the Galois groups.
+The significance of an extension being Galois is that it obeys the fundamental theorem of Galois theory: the closed (with respect to the Krull topology) subgroups of the Galois group correspond to the intermediate fields of the field extension.
+If 
+
+
+
+E
+
+/
+
+F
+
+
+{\displaystyle E/F}
+
+ is a Galois extension, then 
+
+
+
+Gal
+⁡
+(
+E
+
+/
+
+F
+)
+
+
+{\displaystyle \operatorname {Gal} (E/F)}
+
+ can be given a topology, called the Krull topology, that makes it into a profinite group.
+
+

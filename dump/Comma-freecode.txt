@@ -1,0 +1,5 @@
+40901,
+Comma-freecode,
+A comma-free code is block code in which no concatenation of two code words contains a valid code word that overlaps both.[1]
+Comma-free codes are also known as self-synchronizing block codes[2] because no synchronization is required to find the beginning of a code word.
+This applied mathematics-related article is a stub. You can help Wikipedia by expanding it.

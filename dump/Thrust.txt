@@ -1,0 +1,194 @@
+37892,
+Thrust,
+
+Thrust is a reaction force described quantitatively by Newton's third law. When a system expels or accelerates mass in one direction, the accelerated mass will cause a force of equal magnitude but opposite direction to be applied to that system.[1]
+The force applied on a surface in a direction perpendicular or normal to the surface is also called thrust. Force, and thus thrust, is measured using the International System of Units (SI) in newtons (symbol: N), and represents the amount needed to accelerate 1 kilogram of mass at the rate of 1 meter per second per second.[2] In mechanical engineering, force orthogonal to the main load (such as in parallel helical gears) is referred to as static thrust.
+A fixed-wing aircraft propulsion system generates forward thrust when air is pushed in the direction opposite to flight. This can be done by different means such as the spinning blades of a propeller, the propelling jet of a jet engine, or by ejecting hot gases from a rocket engine.[3] Reverse thrust can be generated to aid braking after landing by reversing the pitch of variable-pitch propeller blades, or using a thrust reverser on a jet engine. Rotary wing aircraft use rotors and thrust vectoring V/STOL aircraft use propellers or engine thrust to support the weight of the aircraft and to provide forward propulsion.
+A motorboat propeller generates thrust when it rotates and forces water backwards.
+A rocket is propelled forward by a thrust equal in magnitude, but opposite in direction, to the time-rate of momentum change of the exhaust gas accelerated from the combustion chamber through the rocket engine nozzle. This is the exhaust velocity with respect to the rocket, times the time-rate at which the mass is expelled, or in mathematical terms:
+Where T is the thrust generated (force), 
+
+
+
+
+
+
+
+d
+
+m
+
+
+
+d
+
+t
+
+
+
+
+
+{\displaystyle {\frac {\mathrm {d} m}{\mathrm {d} t}}}
+
+ is the rate of change of mass with respect to time (mass flow rate of exhaust), and v is the velocity of the exhaust gases measured relative to the rocket.
+For vertical launch of a rocket the initial thrust at liftoff must be more than the weight.
+Each of the three Space Shuttle Main Engines could produce a thrust of 1.8 meganewton, and each of the Space Shuttle's two Solid Rocket Boosters 14.7 MN (3,300,000 lbf), together 29.4 MN.[4]
+By contrast, the simplified Aid For EVA Rescue (SAFER) has 24 thrusters of 3.56 N (0.80 lbf) each.[5]
+In the air-breathing category, the AMT-USA AT-180 jet engine developed for radio-controlled aircraft produce 90 N (20 lbf) of thrust.[6] The GE90-115B engine fitted on the Boeing 777-300ER, recognized by the Guinness Book of World Records as the "World's Most Powerful Commercial Jet Engine," has a thrust of 569 kN (127,900 lbf) until it was surpassed by the GE9X, fitted on the upcoming Boeing 777X, at 609 kN (134,300 lbf).
+The power needed to generate thrust and the force of the thrust can be related in a non-linear way. In general, 
+
+
+
+
+
+P
+
+
+2
+
+
+∝
+
+
+T
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {P} ^{2}\propto \mathbf {T} ^{3}}
+
+. The proportionality constant varies, and can be solved for a uniform flow, where 
+
+
+
+
+v
+
+∞
+
+
+
+
+{\displaystyle v_{\infty }}
+
+ is the incoming air velocity, 
+
+
+
+
+v
+
+d
+
+
+
+
+{\displaystyle v_{d}}
+
+ is the velocity at the actuator disc, and 
+
+
+
+
+v
+
+f
+
+
+
+
+{\displaystyle v_{f}}
+
+ is the final exit velocity:
+Solving for the velocity at the disc, 
+
+
+
+
+v
+
+d
+
+
+
+
+{\displaystyle v_{d}}
+
+, we then have:
+When incoming air is accelerated from a standstill – for example when hovering – then 
+
+
+
+
+v
+
+∞
+
+
+=
+0
+
+
+{\displaystyle v_{\infty }=0}
+
+, and we can find:
+From here we can see the 
+
+
+
+
+
+P
+
+
+2
+
+
+∝
+
+
+T
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {P} ^{2}\propto \mathbf {T} ^{3}}
+
+ relationship, finding:
+The inverse of the proportionality constant, the "efficiency" of an otherwise-perfect thruster, is proportional to the area of the cross section of the propelled volume of fluid (
+
+
+
+A
+
+
+{\displaystyle A}
+
+) and the density of the fluid (
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+
+). This helps to explain why moving through water is easier and why aircraft have much larger propellers than watercraft.
+A very common question is how to compare the thrust rating of a jet engine with the power rating of a piston engine. Such comparison is difficult, as these quantities are not equivalent. A piston engine does not move the aircraft by itself (the propeller does that), so piston engines are usually rated by how much power they deliver to the propeller. Except for changes in temperature and air pressure, this quantity depends basically on the throttle setting.
+A jet engine has no propeller, so the propulsive power of a jet engine is determined from its thrust as follows. Power is the force (F) it takes to move something over some distance (d) divided by the time (t) it takes to move that distance:[7]
+In case of a rocket or a jet aircraft, the force is exactly the thrust (T) produced by the engine. If the rocket or aircraft is moving at about a constant speed, then distance divided by time is just speed, so power is thrust times speed:[8]
+This formula looks very surprising, but it is correct: the propulsive power (or power available [9]) of a jet engine increases with its speed. If the speed is zero, then the propulsive power is zero. If a jet aircraft is at full throttle but attached to a static test stand, then the jet engine produces no propulsive power, however thrust is still produced. The combination piston engine–propeller also has a propulsive power with exactly the same formula, and it will also be zero at zero speed – but that is for the engine–propeller set. The engine alone will continue to produce its rated power at a constant rate, whether the aircraft is moving or not.
+Now, imagine the strong chain is broken, and the jet and the piston aircraft start to move. At low speeds:
+The piston engine will have constant 100% power, and the propeller's thrust will vary with speed
+The jet engine will have constant 100% thrust, and the engine's power will vary with speed
+If a powered aircraft is generating thrust T and experiencing drag D, the difference between the two, T − D, is termed the excess thrust. The instantaneous performance of the aircraft is mostly dependent on the excess thrust.
+Excess thrust is a vector and is determined as the vector difference between the thrust vector and the drag vector.
+The thrust axis for an airplane is the line of action of the total thrust at any instant. It depends on the location, number, and characteristics of the jet engines or propellers. It usually differs from the drag axis. If so, the distance between the thrust axis and the drag axis will cause a moment that must be resisted by a change in the aerodynamic force on the horizontal stabiliser.[10] Notably, the Boeing 737 MAX, with larger, lower-slung engines than previous 737 models, had a greater distance between the thrust axis and the drag axis, causing the nose to rise up in some flight regimes, necessitating a pitch-control system, MCAS. Early versions of MCAS malfunctioned in flight with catastrophic consequences, leading to the deaths of over 300 people in 2018 and 2019.[11][12]
+
+

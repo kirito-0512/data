@@ -1,0 +1,56 @@
+23987,
+Party-listproportionalrepresentation,
+Multi-round voting
+Ranked / preferential systems
+Cardinal / graded systems
+Proportional forms of ranked voting
+Proportional forms of cardinal voting
+Biproportional apportionment
+Fair majority voting
+Weighted voting
+Non-compensatory mixed systems
+Compensatory mixed systems
+Other systems
+Social choice theory
+List of electoral systems
+Party-list proportional representation (list-PR) is a subset of proportional representation electoral systems in which multiple candidates are elected (e.g., elections to parliament) through their position on an electoral list. They can also be used as part of mixed-member electoral systems.[1]
+In these systems, parties make lists of candidates to be elected, and seats are distributed by elections authorities to each party in proportion to the number of votes the party receives. Voters may vote for the party, as in Albania, Argentina, Turkey, and Israel; or for candidates whose vote total will pool to the party/parties, as in Finland, Brazil and the Netherlands;[2] or a choice between the last two ways stated: panachage.[3]
+In most party list systems, a voter may only vote for one party (single choice ballot) with their list vote, although ranked ballots may also be used (spare vote). Open list systems may allow more than one preference votes within a party list (votes for candidates are called preference votes - not to be confused with the other meaning of preferential voting as in ranked-choice voting). Some systems allow for voters to vote for candidates on multiple lists, this is called panachage.
+The order in which a party's list candidates get elected may be pre-determined by some method internal to the party or the candidates (a closed list system) or it may be determined by the voters at large (an open list system) or by districts (a local list system).
+In a closed list systems, each political party has pre-decided who will receive the seats allocated to that party in the elections, so that the candidates positioned highest on this list tend to always get a seat in the parliament while the candidates positioned very low on the closed list will not. Voters vote only for the party, not for individual candidates.
+An open list describes any variant of a party-list where voters have at least some influence on the order in which a party's candidates are elected. Open list can be anywhere from relatively closed, where a candidate can move up a predetermined list only with a certain number of votes, to completely open, where the order of the list completely depends on the number of votes each individual candidate gets.
+In France, party lists in proportional elections must include as many candidates (and twice as many substitutes for the departmental elections) as there are seats to be allocated, whereas in other countries "incomplete" lists are allowed, which is not a problem under a panachage system.
+Many variations on seat allocation within party-list proportional representation exist. 
+Different apportionment methods may favour smaller or larger parties:[4]
+The apportionment methods can be classified into two categories:
+While the allocation formula is important, equally important is the district magnitude (number of seats in a constituency). The higher the district magnitude, the more proportional an electoral system becomes - the most proportional being when there is no division into constituencies at all and the entire country is treated as a single constituency.[citation needed] More, in some countries the electoral system works on two levels: at-large for parties, and in constituencies for candidates, with local party-lists seen as fractions of general, national lists. In this case, magnitude of local constituencies is irrelevant, seat apportionment being calculated at national level.
+List proportional representation may also be combined with other apportionment methods (most commonly majoritarian) in various mixed systems, e.g., using the additional member system.
+Below it can be seen how different apportionment methods yield different results with the same number of seats and votes (100 and 2832 in this example).
+As there are 100 seats, the percentage values for every party's share of the vote is equal to the party's vote count divided by the Hare quota (which is the ratio of vote and seat totals), and in this case the share of seats under the largest remainder method using this quota happens to be the same as the percentage values rounded to the nearest integer (because exactly 3 party's results has to be rounded up, same as there are 3 seats to assign with the largest remainder method after 97 seats are assigned based on the integer part of the vote share divided by the Hare quota). The Webster/Sainte-Laguë method yields the same result (but this is not always the case), otherwise all other methods give a different number of seats to the parties.
+Notable is how the D'Hondt method breaks the quota rule (shown in red text) and favours the largest party with 37% of seats, even though it only got 35,91% of the vote (the quota rule would allow either 35 or 36 seats in this case = rounding up or rounding down, but no jump to 34 or 37). Also, the Adams and Huntington-Hill methods, which (without a threshold) greatly favour smaller parties gave 2 seats to the smallest party and would have both given at least 1 seat to every party if it got even just 1 vote from 2832. Of the highest average methods, modified versions of the formulas may not be strictly proportional. For example, the Imperiali method (not to be confused with the Imperiali quota) can be seen as a modified version of the D'Hondt (or Adams) method, and it is technically not proportional (e.g., if a party received 500/1000 votes, and there were 100 seats to be apportioned, it may sometimes not only get 50 - the clearly proportional number of seats - but could also get 51). The Macanese modification of the d'Hondt method, whose quotients are based on the formula 
+
+
+
+
+
+
+V
+
+2
+
+s
+
+
+
+
+
+
+
+{\displaystyle \textstyle {\frac {V}{2^{s}}}}
+
+, is clearly disproportional; the great variations between the parties' vote shares are effectively reduced, and each party has a roughly equal number of seats.
+The table below lists countries that use a proportional electoral system to fill a nationally elected legislative body. Detailed information on electoral systems applying to the first chamber of the legislature is maintained by the ACE Electoral Knowledge Network.[6][7] Countries using PR as part of a parallel voting (mixed-member majoritarian) or another mixed system (e.g. MMP) are not included.
+(if applicable)
+10% on the regional (state) level (among votes for the candidates party)
+
+

@@ -1,0 +1,942 @@
+37427,
+LeChatelier'sprinciple,
+Le Chatelier's principle (pronounced UK: /lə ʃæˈtɛljeɪ/ or US: /ˈʃɑːtəljeɪ/), also called Chatelier's principle (or the Equilibrium Law),[1][2] is a principle of chemistry used to predict the effect of a change in conditions on chemical equilibria. The principle is named after French chemist Henry Louis Le Chatelier, and sometimes also credited to Karl Ferdinand Braun, who discovered it independently. It can be stated as:
+When a simple system in thermodynamic equilibrium is subjected to a change in concentration, temperature, volume, or pressure, (1) the system changes to a new equilibrium, and (2) this change partly counteracts the applied change.Phenomena in apparent contradiction to Le Chatelier's principle can also arise in systems of simultaneous equilibrium (see response reactions).
+Le Chatelier's principle is sometimes alluded to in discussions of topics other than thermodynamics.
+Introduction The following thermodynamic statement is abstract, in general terms, but, for introduction, it may help the reader to bear in mind a simple example: A body of gas in a cylinder with a piston has its pressure externally controlled through pressure on the piston. The body of gas starts in a state of internal thermodynamic equilibrium by setting its own volume. The externally controlled pressure is then 'perturbed' by a controlled finite amount, say 
+
+
+
+Δ
+P
+,
+
+
+{\displaystyle \Delta P,}
+
+ and the body of gas sets its own volume again through a change in volume 
+
+
+
+Δ
+V
+.
+
+
+{\displaystyle \Delta V.}
+
+ If the piston and cylinder are insulated so that the gas cannot gain or lose energy as heat, then the Le Chatelier–Braun principle has nothing to say, because, though the temperature of the gas may change, there is available no possibility of 'moderation' or 'feedback'. But if the piston and cylinder walls conduct heat between the body of gas and a closed external 'heat reservoir' of externally controlled temperature and internal energy, then 'moderation' or 'feedback' can occur, or be investigated, through temperature change in, or heat transfer to or from, the body of gas; and the Le Chatelier–Braun principle tells about it.
+General scenario The Le Chatelier–Braun principle analyzes the qualitative behaviour of a thermodynamic system when a designated one of its externally controlled state variables, say 
+
+
+
+L
+,
+
+
+{\displaystyle L,}
+
+ changes by an amount 
+
+
+
+Δ
+L
+,
+
+
+{\displaystyle \Delta L,}
+
+ the 'driving change', causing a change 
+
+
+
+
+δ
+
+
+i
+
+
+
+M
+,
+
+
+{\displaystyle \delta _{\mathrm {i} }M,}
+
+ the 'response of prime interest', in its conjugate state variable 
+
+
+
+M
+,
+
+
+{\displaystyle M,}
+
+ all other externally controlled state variables remaining constant. The response illustrates 'negative feedback' and so is 'moderated' in ways evident in two related thermodynamic equilibria. Obviously, one of 
+
+
+
+L
+,
+
+
+{\displaystyle L,}
+
+ 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ has to be intensive, the other extensive. Also as a necessary part of the scenario, there is a designated auxiliary 'moderating' or 'feedback' state variable 
+
+
+
+X
+
+
+{\displaystyle X}
+
+, with its conjugate state variable 
+
+
+
+Y
+.
+
+
+{\displaystyle Y.}
+
+ For this to be of interest, the 'moderating' variable 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ must undergo a change 
+
+
+
+Δ
+X
+≠
+0
+
+
+{\displaystyle \Delta X\neq 0}
+
+ or 
+
+
+
+δ
+X
+≠
+0
+
+
+{\displaystyle \delta X\neq 0}
+
+ in some part of the experimental protocol; this can be either by imposition of a change 
+
+
+
+Δ
+Y
+
+
+{\displaystyle \Delta Y}
+
+, or with the holding of 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ constant, written 
+
+
+
+δ
+Y
+=
+0.
+
+
+{\displaystyle \delta Y=0.}
+
+ For the principle to hold with full generality, 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ must be extensive or intensive accordingly as 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ is so. Obviously, to give this scenario physical meaning, the 'driving' variable and the 'moderating' or 'feedback' variable must be subject to separate independent experimental controls and measurements.
+The principle can be stated in two ways, formally different, but substantially equivalent, and, in a sense, mutually 'reciprocal'. The two ways illustrate the Maxwell relations, and the stability of thermodynamic equilibrium according to the second law of thermodynamics, evident as the spread of energy amongst the state variables of the system in response to an imposed change.
+The two ways of statement share an 'index' experimental protocol (denoted 
+
+
+
+
+
+
+P
+
+
+
+
+i
+
+
+
+)
+,
+
+
+{\displaystyle {\mathcal {P}}_{\mathrm {i} }),}
+
+ that may be described as 'changed driver, feedback permitted'. Along with the driver change 
+
+
+
+Δ
+L
+,
+
+
+{\displaystyle \Delta L,}
+
+ it imposes a constant 
+
+
+
+Y
+,
+
+
+{\displaystyle Y,}
+
+ with 
+
+
+
+
+δ
+
+
+i
+
+
+
+Y
+=
+0
+,
+
+
+{\displaystyle \delta _{\mathrm {i} }Y=0,}
+
+ and allows the uncontrolled 'moderating' variable response 
+
+
+
+
+δ
+
+
+i
+
+
+
+X
+,
+
+
+{\displaystyle \delta _{\mathrm {i} }X,}
+
+ along with the 'index' response of interest 
+
+
+
+
+δ
+
+
+i
+
+
+
+M
+.
+
+
+{\displaystyle \delta _{\mathrm {i} }M.}
+
+
+The two ways of statement differ in their respective compared protocols. One way posits a 'changed driver, no feedback' protocol (denoted 
+
+
+
+
+
+
+P
+
+
+
+
+n
+
+
+
+)
+.
+
+
+{\displaystyle {\mathcal {P}}_{\mathrm {n} }).}
+
+ The other way posits a 'fixed driver, imposed feedback' protocol (denoted 
+
+
+
+
+
+
+P
+
+
+
+
+f
+
+
+
+.
+
+
+{\displaystyle {\mathcal {P}}_{\mathrm {f} }.}
+
+)
+This way compares 
+
+
+
+
+
+
+P
+
+
+
+
+i
+
+
+
+
+
+{\displaystyle {\mathcal {P}}_{\mathrm {i} }}
+
+ with 
+
+
+
+
+
+
+P
+
+
+
+
+n
+
+
+
+,
+
+
+{\displaystyle {\mathcal {P}}_{\mathrm {n} },}
+
+ to compare the effects of the imposed the change 
+
+
+
+Δ
+L
+
+
+{\displaystyle \Delta L}
+
+ with and without feedback. The protocol 
+
+
+
+
+
+
+P
+
+
+
+
+n
+
+
+
+
+
+{\displaystyle {\mathcal {P}}_{\mathrm {n} }}
+
+ prevents 'feedback' by enforcing that 
+
+
+
+Δ
+X
+=
+0
+
+
+{\displaystyle \Delta X=0}
+
+ through an adjustment 
+
+
+
+Δ
+Y
+,
+
+
+{\displaystyle \Delta Y,}
+
+ and it observes the 'no-feedback' response 
+
+
+
+Δ
+M
+.
+
+
+{\displaystyle \Delta M.}
+
+  Provided that the observed response is indeed that 
+
+
+
+
+δ
+
+
+i
+
+
+
+X
+≠
+0
+,
+
+
+{\displaystyle \delta _{\mathrm {i} }X\neq 0,}
+
+ then the principle states that 
+
+
+
+
+|
+
+
+δ
+
+
+i
+
+
+
+M
+
+|
+
+<
+
+|
+
+Δ
+M
+
+|
+
+
+
+{\displaystyle |\delta _{\mathrm {i} }M|<|\Delta M|}
+
+.
+In other words, change in the 'moderating' state variable 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ moderates the effect of the driving change in 
+
+
+
+L
+
+
+{\displaystyle L}
+
+ on the responding conjugate variable 
+
+
+
+M
+.
+
+
+{\displaystyle M.}
+
+[3][4]
+This way also uses two experimental protocols, 
+
+
+
+
+
+
+P
+
+
+
+
+i
+
+
+
+
+
+{\displaystyle {\mathcal {P}}_{\mathrm {i} }}
+
+ and 
+
+
+
+
+
+
+P
+
+
+
+
+f
+
+
+
+
+
+{\displaystyle {\mathcal {P}}_{\mathrm {f} }}
+
+, to compare the index effect 
+
+
+
+
+δ
+
+
+i
+
+
+
+M
+
+
+{\displaystyle \delta _{\mathrm {i} }M}
+
+ with the effect 
+
+
+
+
+δ
+
+
+f
+
+
+
+M
+
+
+{\displaystyle \delta _{\mathrm {f} }M}
+
+ of feedback alone. The 'index' protocol 
+
+
+
+
+
+
+P
+
+
+
+
+i
+
+
+
+
+
+{\displaystyle {\mathcal {P}}_{\mathrm {i} }}
+
+ is executed first; the response of prime interest, 
+
+
+
+
+δ
+
+
+i
+
+
+
+M
+,
+
+
+{\displaystyle \delta _{\mathrm {i} }M,}
+
+ is observed, and the response 
+
+
+
+Δ
+X
+
+
+{\displaystyle \Delta X}
+
+ of the 'feedback' variable is also measured. With that knowledge, then the 'fixed driver, feedback imposed' protocol 
+
+
+
+
+
+
+P
+
+
+
+
+f
+
+
+
+
+
+{\displaystyle {\mathcal {P}}_{\mathrm {f} }}
+
+ enforces that 
+
+
+
+Δ
+L
+=
+0
+,
+
+
+{\displaystyle \Delta L=0,}
+
+ with the driving variable 
+
+
+
+L
+
+
+{\displaystyle L}
+
+ held fixed; the protocol also, through an adjustment 
+
+
+
+
+Δ
+
+
+f
+
+
+
+Y
+,
+
+
+{\displaystyle \Delta _{\mathrm {f} }Y,}
+
+ imposes a change 
+
+
+
+Δ
+X
+
+
+{\displaystyle \Delta X}
+
+ (learnt from the just previous measurement) in the 'feedback' variable, and measures the change 
+
+
+
+
+δ
+
+
+f
+
+
+
+M
+.
+
+
+{\displaystyle \delta _{\mathrm {f} }M.}
+
+ Provided that the 'feedback' response is indeed that 
+
+
+
+Δ
+X
+≠
+0
+,
+
+
+{\displaystyle \Delta X\neq 0,}
+
+ then the principle states that the signs of 
+
+
+
+
+δ
+
+
+i
+
+
+
+M
+
+
+{\displaystyle \delta _{\mathrm {i} }M}
+
+ and 
+
+
+
+
+δ
+
+
+f
+
+
+
+M
+
+
+{\displaystyle \delta _{\mathrm {f} }M}
+
+ are opposite.
+Again, in other words, change in the 'feedback' state variable 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ opposes the effect of the driving change in 
+
+
+
+L
+
+
+{\displaystyle L}
+
+ on the responding conjugate variable 
+
+
+
+M
+.
+
+
+{\displaystyle M.}
+
+[5]
+The duration of adjustment depends on the strength of the negative feedback to the initial shock. The principle is typically used to describe closed negative-feedback systems, but applies, in general, to thermodynamically closed and isolated systems in nature, since the second law of thermodynamics ensures that the disequilibrium caused by an instantaneous shock is eventually followed by a new equilibrium.[6]
+While well rooted in chemical equilibrium, Le Chatelier's principle can also be used in describing mechanical systems in that a system put under stress will respond in such a way as to reduce or minimize that stress. Moreover, the response will generally be via the mechanism that most easily relieves that stress. Shear pins and other such sacrificial devices are design elements that protect systems against stress applied in undesired manners to relieve it so as to prevent more extensive damage to the entire system, a practical engineering application of Le Chatelier's principle.
+Changing the concentration of a chemical will shift the equilibrium to the side that would counter that change in concentration. The chemical system will attempt to partly oppose the change affected to the original state of equilibrium. In turn, the rate of reaction, extent, and yield of products will be altered corresponding to the impact on the system.
+This can be illustrated by the equilibrium of carbon monoxide and hydrogen gas, reacting to form methanol. 
+Suppose we were to increase the concentration of CO in the system. Using Le Chatelier's principle, we can predict that the concentration of methanol will increase, decreasing the total change in CO. If we are to add a species to the overall reaction, the reaction will favor the side opposing the addition of the species. Likewise, the subtraction of a species would cause the reaction to "fill the gap" and favor the side where the species was reduced. This observation is supported by the collision theory. As the concentration of CO is increased, the frequency of successful collisions of that reactant would increase also, allowing for an increase in forward reaction, and generation of the product. Even if the desired product is not thermodynamically favored, the end-product can be obtained if it is continuously removed from the solution.
+The effect of a change in concentration is often exploited synthetically for condensation reactions (i.e., reactions that extrude water) that are equilibrium processes (e.g., formation of an ester from carboxylic acid and alcohol or an imine from an amine and aldehyde).  This can be achieved by physically sequestering water, by adding desiccants like anhydrous magnesium sulfate or molecular sieves, or by continuous removal of water by distillation, often facilitated by a Dean-Stark apparatus.
+The effect of changing the temperature in the equilibrium can be made clear by 1) incorporating heat as either a reactant or a product, and 2) assuming that an increase in temperature increases the heat content of a system. When the reaction is exothermic (ΔH is negative and energy is released), heat is included as a product, and when the reaction is endothermic (ΔH is positive and energy is consumed), heat is included as a reactant. Hence, whether increasing or decreasing the temperature would favor the forward or the reverse reaction can be determined by applying the same principle as with concentration changes.
+Take, for example, the reversible reaction of nitrogen gas with hydrogen gas to form ammonia:
+Because this reaction is exothermic, it produces heat:
+If the temperature were increased, the heat content of the system would increase, so the system would consume some of that heat by shifting the equilibrium to the left, thereby producing less ammonia. More ammonia would be produced if the reaction were run at a lower temperature, but a lower temperature also lowers the rate of the process, so, in practice (the Haber process) the temperature is set at a compromise value that allows ammonia to be made at a reasonable rate with an equilibrium concentration that is not too unfavorable.
+In exothermic reactions, an increase in temperature decreases the equilibrium constant, K, whereas in endothermic reactions, an increase in temperature increases K.
+Le Chatelier's principle applied to changes in concentration or pressure can be understood by giving K a constant value. The effect of temperature on equilibria, however, involves a change in the equilibrium constant. The dependence of K on temperature is determined by the sign of ΔH. The theoretical basis of this dependence is given by the Van 't Hoff equation.
+The equilibrium concentrations of the products and reactants do not directly depend on the total pressure of the system. They may depend on the partial pressure of the products and reactants, but if the number of moles of gaseous reactants is equal to the number of moles of gaseous products, pressure has no effect on equilibrium.
+Changing total pressure by adding an inert gas at constant volume does not affect the equilibrium concentrations (see Effect of adding an inert gas below).
+Changing total pressure by changing the volume of the system changes the partial pressures of the products and reactants and can affect the equilibrium concentrations (see §Effect of change in volume below).
+Changing the volume of the system changes the partial pressures of the products and reactants and can affect the equilibrium concentrations.  With a pressure increase due to a decrease in volume, the side of the equilibrium with fewer moles is more favorable[7] and with a pressure decrease due to an increase in volume, the side with more moles is more favorable.  There is no effect on a reaction where the number of moles of gas is the same on each side of the chemical equation.
+Considering the reaction of nitrogen gas with hydrogen gas to form ammonia:
+Note the number of moles of gas on the left-hand side and the number of moles of gas on the right-hand side. When the volume of the system is changed, the partial pressures of the gases change. If we were to decrease pressure by increasing volume, the equilibrium of the above reaction will shift to the left, because the reactant side has a greater number of moles than does the product side. The system tries to counteract the decrease in partial pressure of gas molecules by shifting to the side that exerts greater pressure. Similarly, if we were to increase pressure by decreasing volume, the equilibrium shifts to the right, counteracting the pressure increase by shifting to the side with fewer moles of gas that exert less pressure. If the volume is increased because there are more moles of gas on the reactant side, this change is more significant in the denominator of the equilibrium constant expression, causing a shift in equilibrium.
+An inert gas (or noble gas), such as helium, is one that does not react with other elements or compounds.  Adding an inert gas into a gas-phase equilibrium at constant volume does not result in a shift.[7] This is because the addition of a non-reactive gas does not change the equilibrium equation, as the inert gas appears on both sides of the chemical reaction equation.  For example, if A and B react to form C and D, but X does not participate in the reaction: 
+
+
+
+
+
+
+a
+
+
+A
+
+
++
+
+
+b
+
+
+B
+
+
++
+
+
+x
+
+
+X
+
+
+
+
+
+
+↽
+
+
+
+
+−
+
+
+
+
+
+
+
+
+−
+
+
+
+
+⇀
+
+
+
+
+
+
+
+
+c
+
+
+C
+
+
++
+
+
+d
+
+
+D
+
+
++
+
+
+x
+
+
+X
+
+
+
+{\displaystyle {\ce {{\mathit {a}}A{}+{\mathit {b}}B{}+{\mathit {x}}X<=>{\mathit {c}}C{}+{\mathit {d}}D{}+{\mathit {x}}X}}}
+
+. While it is true that the total pressure of the system increases, the total pressure does not have any effect on the equilibrium constant; rather, it is a change in partial pressures that will cause a shift in the equilibrium. If, however, the volume is allowed to increase in the process, the partial pressures of all gases would be decreased resulting in a shift towards the side with the greater number of moles of gas. The shift will never occur on the side with fewer moles of gas. It is also known as Le Chatelier's postulate.
+A catalyst increases the rate of a reaction without being consumed in the reaction.  The use of a catalyst does not affect the position and composition of the equilibrium of a reaction, because both the forward and backward reactions are sped up by the same factor.
+For example, consider the Haber process for the synthesis of ammonia (NH3):
+In the above reaction, iron (Fe) and molybdenum (Mo) will function as catalysts if present. They will accelerate any reactions, but they do not affect the state of the equilibrium.
+Le Chatelier's principle refers to states of thermodynamic equilibrium. The latter are stable against perturbations that satisfy certain criteria; this is essential to the definition of thermodynamic equilibrium.
+OR
+It states that changes in the temperature, pressure, volume, or concentration of a system will result in predictable and opposing changes in the system in order to achieve a new equilibrium state.
+For this, a state of thermodynamic equilibrium is most conveniently described through a fundamental relation that specifies a cardinal function of state, of the energy kind, or of the entropy kind, as a function of state variables chosen to fit the thermodynamic operations through which a perturbation is to be applied.[8][9][10]
+In theory and, nearly, in some practical scenarios, a body can be in a stationary state with zero macroscopic flows and rates of chemical reaction (for example, when no suitable catalyst is present), yet not in thermodynamic equilibrium, because it is metastable or unstable; then Le Chatelier's principle does not necessarily apply.
+A body can also be in a stationary state with non-zero rates of flow and chemical reaction; sometimes the word "equilibrium" is used in reference to such states, though by definition they are not thermodynamic equilibria. Sometimes, it is proposed to consider Le Chatelier's principle for such states. For this exercise, rates of flow and of chemical reaction must be considered. Such rates are not supplied by equilibrium thermodynamics. For such states, it has turned out to be difficult or unfeasible to make valid and very general statements that echo Le Chatelier's principle.[11] Prigogine and Defay demonstrate that such a scenario may or may not exhibit moderation, depending upon exactly what conditions are imposed after the perturbation.[12]
+It is common to treat the principle as a more general observation of systems,[13] such as
+When a settled system is disturbed, it will adjust to diminish the change that has been made to itor, "roughly stated":[13]
+Any change in status quo prompts an opposing reaction in the responding system.The concept of systemic maintenance of a stable steady state despite perturbations has a variety of names, and has been studied in a variety of contexts, chiefly in the natural sciences. In chemistry, the principle is used to manipulate the outcomes of reversible reactions, often to increase their yield. In pharmacology, the binding of ligands to receptors may shift the equilibrium according to Le Chatelier's principle, thereby explaining the diverse phenomena of receptor activation and desensitization.[14] In biology, the concept of homeostasis is different from Le Chatelier's principle, in that homoeostasis is generally maintained by processes of active character, as distinct from the passive or dissipative character of the processes described by Le Chatelier's principle in thermodynamics. In economics, even further from thermodynamics, allusion to the principle is sometimes regarded as helping explain the price equilibrium of efficient economic systems. In some dynamic systems, the end-state cannot be determined from the shock or perturbation.
+In economics, a similar concept also named after Le Chatelier was introduced by American economist Paul Samuelson in 1947. There the generalized Le Chatelier principle is for a maximum condition of economic equilibrium: Where all unknowns of a function are independently variable, auxiliary constraints—"just-binding" in leaving initial equilibrium unchanged—reduce the response to a parameter change. Thus, factor-demand and commodity-supply elasticities are hypothesized to be lower in the short run than in the long run because of the fixed-cost constraint in the short run.[15]
+Since the change of the value of an objective function in a neighbourhood of the maximum position is described by the envelope theorem, Le Chatelier's principle can be shown to be a corollary thereof.[16]
+
+

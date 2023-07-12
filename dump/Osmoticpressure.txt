@@ -1,0 +1,531 @@
+31383,
+Osmoticpressure,
+Osmotic pressure is the minimum pressure which needs to be applied to a solution to prevent the inward flow of its pure solvent across a semipermeable membrane.[1]
+It is also defined as the measure of the tendency of a solution to take in its pure solvent by osmosis. Potential osmotic pressure is the maximum osmotic pressure that could develop in a solution if it were separated from its pure solvent by a semipermeable membrane.
+Osmosis occurs when two solutions containing different concentrations of solute are separated by a selectively permeable membrane. Solvent molecules pass preferentially through the membrane from the low-concentration solution to the solution with higher solute concentration. The transfer of solvent molecules will continue until equilibrium is attained.[1][2]
+Jacobus van 't Hoff found a quantitative relationship between osmotic pressure and solute concentration, expressed in the following equation:
+where 
+
+
+
+Π
+
+
+{\displaystyle \Pi }
+
+ is osmotic pressure, i is the dimensionless van 't Hoff index, c is the molar concentration of solute, R is the ideal gas constant, and T is the absolute temperature (usually in kelvins). This formula applies when the solute concentration is sufficiently low that the solution can be treated as an ideal solution. The proportionality to concentration means that osmotic pressure is a colligative property. Note the similarity of this formula to the ideal gas law in the form 
+
+
+
+P
+=
+
+
+n
+V
+
+
+R
+T
+=
+
+c
+
+gas
+
+
+R
+T
+
+
+{\textstyle P={\frac {n}{V}}RT=c_{\text{gas}}RT}
+
+ where n is the total number of moles of gas molecules in the volume V, and n/V is the molar concentration of gas molecules. Harmon Northrop Morse and Frazer showed that the equation applied to more concentrated solutions if the unit of concentration was molal rather than molar;[3] so when the molality is used this equation has been called the Morse equation.
+For more concentrated solutions the van 't Hoff equation can be extended as a power series in solute concentration, c. To a first approximation,
+where 
+
+
+
+
+Π
+
+0
+
+
+
+
+{\displaystyle \Pi _{0}}
+
+ is the ideal pressure and A is an empirical parameter. The value of the parameter A (and of parameters from higher-order approximations) can be used to calculate Pitzer parameters. Empirical parameters are used to quantify the behavior of solutions of ionic and non-ionic solutes which are not ideal solutions in the thermodynamic sense.
+The Pfeffer cell was developed for the measurement of osmotic pressure.
+Osmotic pressure measurement may be used for the determination of molecular weights.
+Osmotic pressure is an important factor affecting biological cells.[4] Osmoregulation is the homeostasis mechanism of an organism to reach balance in osmotic pressure.
+When a biological cell is in a hypotonic environment, the cell interior accumulates water, water flows across the cell membrane into the cell, causing it to expand. In plant cells, the cell wall restricts the expansion, resulting in pressure on the cell wall from within called turgor pressure. Turgor pressure allows herbaceous plants to stand upright. It is also the determining factor for how plants regulate the aperture of their stomata. In animal cells excessive osmotic pressure can result in cytolysis.
+Osmotic pressure is the basis of filtering ("reverse osmosis"), a process commonly used in water purification. The water to be purified is placed in a chamber and put under an amount of pressure greater than the osmotic pressure exerted by the water and the solutes dissolved in it. Part of the chamber opens to a differentially permeable membrane that lets water molecules through, but not the solute particles. The osmotic pressure of ocean water is approximately 27 atm. Reverse osmosis desalinates fresh water from ocean salt water.
+Consider the system at the point when it has reached equilibrium. The condition for this is that the chemical potential of the solvent (since only it is free to flow toward equilibrium) on both sides of the membrane is equal. The compartment containing the pure solvent has a chemical potential of 
+
+
+
+
+μ
+
+0
+
+
+(
+p
+)
+
+
+{\displaystyle \mu ^{0}(p)}
+
+, where 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ is the pressure. On the other side, in the compartment containing the solute, the chemical potential of the solvent depends on the mole fraction of the solvent, 
+
+
+
+0
+<
+
+x
+
+v
+
+
+<
+1
+
+
+{\displaystyle 0<x_{v}<1}
+
+. Besides, this compartment can assume a different pressure, 
+
+
+
+
+p
+′
+
+
+
+{\displaystyle p'}
+
+. We can therefore write the chemical potential of the solvent as 
+
+
+
+
+μ
+
+v
+
+
+(
+
+x
+
+v
+
+
+,
+
+p
+′
+
+)
+
+
+{\displaystyle \mu _{v}(x_{v},p')}
+
+. If we write 
+
+
+
+
+p
+′
+
+=
+p
++
+Π
+
+
+{\displaystyle p'=p+\Pi }
+
+, the balance of the chemical potential is therefore:
+Here, the difference in pressure of the two compartments 
+
+
+
+Π
+≡
+
+p
+′
+
+−
+p
+
+
+{\displaystyle \Pi \equiv p'-p}
+
+ is defined as the osmotic pressure exerted by the solutes. Holding the pressure, the addition of solute decreases the chemical potential (an entropic effect). Thus, the pressure of the solution has to be increased in an effort to compensate the loss of the chemical potential.
+In order to find 
+
+
+
+Π
+
+
+{\displaystyle \Pi }
+
+, the osmotic pressure, we consider equilibrium between a solution containing solute and pure water.
+We can write the left hand side as:
+where 
+
+
+
+
+γ
+
+v
+
+
+
+
+{\displaystyle \gamma _{v}}
+
+ is the activity coefficient of the solvent. The product 
+
+
+
+
+γ
+
+v
+
+
+
+x
+
+v
+
+
+
+
+{\displaystyle \gamma _{v}x_{v}}
+
+ is also known as the activity of the solvent, which for water is the water activity 
+
+
+
+
+a
+
+w
+
+
+
+
+{\displaystyle a_{w}}
+
+. The addition to the pressure is expressed through the expression for the energy of expansion:
+where 
+
+
+
+
+V
+
+m
+
+
+
+
+{\displaystyle V_{m}}
+
+ is the molar volume (m³/mol). Inserting the expression presented above into the chemical potential equation for the entire system and rearranging will arrive at:
+If the liquid is incompressible the molar volume is constant, 
+
+
+
+
+V
+
+m
+
+
+(
+
+p
+′
+
+)
+≡
+
+V
+
+m
+
+
+
+
+{\displaystyle V_{m}(p')\equiv V_{m}}
+
+, and the integral becomes 
+
+
+
+Π
+
+V
+
+m
+
+
+
+
+{\displaystyle \Pi V_{m}}
+
+. Thus, we get
+The activity coefficient is a function of concentration and temperature, but in the case of dilute mixtures, it is often very close to 1.0, so
+The mole fraction of solute, 
+
+
+
+
+x
+
+s
+
+
+
+
+{\displaystyle x_{s}}
+
+, is 
+
+
+
+1
+−
+
+x
+
+v
+
+
+
+
+{\displaystyle 1-x_{v}}
+
+, so 
+
+
+
+ln
+⁡
+(
+
+x
+
+v
+
+
+)
+
+
+{\displaystyle \ln(x_{v})}
+
+ can be replaced with 
+
+
+
+ln
+⁡
+(
+1
+−
+
+x
+
+s
+
+
+)
+
+
+{\displaystyle \ln(1-x_{s})}
+
+, which, when 
+
+
+
+
+x
+
+s
+
+
+
+
+{\displaystyle x_{s}}
+
+ is small, can be approximated by 
+
+
+
+−
+
+x
+
+s
+
+
+
+
+{\displaystyle -x_{s}}
+
+.
+The mole fraction 
+
+
+
+
+x
+
+s
+
+
+
+
+{\displaystyle x_{s}}
+
+is 
+
+
+
+
+n
+
+s
+
+
+
+/
+
+(
+
+n
+
+s
+
+
++
+
+n
+
+v
+
+
+)
+
+
+{\displaystyle n_{s}/(n_{s}+n_{v})}
+
+. When 
+
+
+
+
+x
+
+s
+
+
+
+
+{\displaystyle x_{s}}
+
+is small, it may be approximated by 
+
+
+
+
+x
+
+s
+
+
+=
+
+n
+
+s
+
+
+
+/
+
+
+n
+
+v
+
+
+
+
+{\displaystyle x_{s}=n_{s}/n_{v}}
+
+. Also, the molar volume 
+
+
+
+
+V
+
+m
+
+
+
+
+{\displaystyle V_{m}}
+
+ may be written as volume per mole, 
+
+
+
+
+V
+
+m
+
+
+=
+V
+
+/
+
+
+n
+
+v
+
+
+
+
+{\displaystyle V_{m}=V/n_{v}}
+
+. Combining these gives the following.
+For aqueous solutions of salts, ionisation must be taken into account. For example, 1 mole of NaCl ionises to 2 moles of ions.
+
+

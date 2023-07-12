@@ -1,0 +1,10 @@
+23706,
+Primitivenotion,
+In mathematics, logic, philosophy, and formal systems, a primitive notion is a concept that is not defined in terms of previously-defined concepts. It is often motivated informally, usually by an appeal to intuition and everyday experience. In an axiomatic theory, relations between primitive notions are restricted by axioms.[1] Some authors refer to the latter as "defining" primitive notions by one or more axioms, but this can be misleading. Formal theories cannot dispense with primitive notions, under pain of infinite regress (per the regress problem).
+For example, in contemporary geometry, point, line, and contains are some primitive notions. Instead of attempting to define them,[2] their interplay is ruled (in Hilbert's axiom system) by axioms like "For every two points there exists a line that contains them both".[3]
+Alfred Tarski explained the role of primitive notions as follows:[4]
+An inevitable regress to primitive notions in the theory of knowledge was explained by Gilbert de B. Robinson:
+The necessity for primitive notions is illustrated in several axiomatic foundations in mathematics:
+In his book on philosophy of mathematics, The Principles of Mathematics Bertrand Russell used these notions: For the class-calculus (set theory) he used relations, taking set membership as a primitive notion. To establish sets he also requires propositional functions as primitive, as well as the phrase "such that" as used in set builder notation. (pp 18,9) Regarding relations, Russell  takes as primitive notions the converse relation and complementary relation of a given xRy. Furthermore, logical products of relations and relative products of relations are primitive. (p 25) As for denotation of objects by  description, Russell acknowledges that a primitive notion is involved. (p 27) The thesis of Russell’s book is "Pure mathematics uses only a few notions, and these are logical constants." (p xxi)
+
+

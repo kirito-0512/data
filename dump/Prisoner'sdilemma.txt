@@ -1,0 +1,709 @@
+14932,
+Prisoner'sdilemma,
+The prisoner's dilemma is a game theory thought experiment that involves two completely rational agents, each of whom can cooperate for mutual benefit or betray their partner ("defect") for individual reward. This dilemma was originally framed by Merrill Flood and Melvin Dresher in 1950 while they worked at RAND.[citation needed] Albert W. Tucker later formalized the game by structuring the rewards in terms of prison sentences and named it the "prisoner's dilemma".[1]
+The prisoner's dilemma models many real-world situations involving strategic behavior. In casual usage, the label "prisoner's dilemma" may be applied to any situation in which two entities could gain important benefits from cooperating or suffer from failing to do so, but find it difficult or expensive to coordinate their activities.  
+William Poundstone described this "typical contemporary version" of the game in his 1993 book Prisoner's Dilemma:
+Two members of a criminal gang are arrested and imprisoned. Each prisoner is in solitary confinement with no means of speaking to or exchanging messages with the other. The police admit they don't have enough evidence to convict the pair on the principal charge. They plan to sentence both to a year in prison on a lesser charge. Simultaneously, the police offer each prisoner a Faustian bargain. If he testifies against his partner, he will go free while the partner will get three years in prison on the main charge. Oh, yes, there is a catch ... If both prisoners testify against each other, both will be sentenced to two years in jail. The prisoners are given a little time to think this over, but in no case may either learn what the other has decided until he has irrevocably made his decision. Each is informed that the other prisoner is being offered the very same deal. Each prisoner is concerned only with his own welfare—with minimizing his own prison sentence.[2]This leads to four different possible outcomes for prisoners A and B:
+
+Loyalty to one's partner is, in this game, irrational. This particular assumption of rationality implies that the only possible outcome for two purely rational prisoners is betrayal, even though mutual cooperation would yield a greater net reward.[3] Put another way, the dominant strategy is to betray the other prisoner, which aligns with the sure-thing principle.[4] The prisoner's dilemma also illustrates that decisions made under collective rationality may differ from those made under individual rationality.
+In reality, systemic bias toward cooperative behavior happens despite predictions by simple models of "rational" self-interested action.[5][6][7][8] This bias towards cooperation has been evident since this game was first conducted at RAND: secretaries involved often trusted each other and worked together toward the best common outcome.[9]
+The prisoner's dilemma has been the focus of extensive experimental research.[10][11] This research has taken three forms: single play (agents play one game only), iterated play (agents play several games in succession), and iterated play against a programmed player.[4] Research on the prisoner's dilemma has served to justify Immanuel Kant's categorical imperative, which is vital for a situation involving different players acting in their best interest who must take others' actions into consideration to make their choice.[4]
+Two prisoners are separated into individual rooms and cannot communicate with each other. It is assumed that both prisoners understand the nature of the game, have no loyalty to each other, and will have no opportunity for retribution or reward outside of the game. The normal game is shown below:[12]
+Regardless of what the other decides, each prisoner gets a higher reward by betraying the other ("defecting"). The reasoning involves analyzing both players' best responses: B will either cooperate or defect. If B cooperates, A should defect, because going free is better than serving 1 year. If B defects, A should also defect, because serving 2 years is better than serving 3. So, either way, A should defect since defecting is A's best response regardless of B's strategy. Parallel reasoning will show that B should defect.
+Defection always results in a better payoff than cooperation, so it is a strictly dominant strategy for both players. Mutual defection is the only strong Nash equilibrium in the game. Since the collectively ideal result of mutual cooperation is irrational from a self-interested standpoint, this Nash equilibrium is not Pareto efficient.
+The structure of the traditional prisoner's dilemma can be generalized from its original prisoner setting. Suppose that the two players are represented by the colors red and blue and that each player chooses to either "cooperate" or "defect".
+If both players cooperate, they both receive the reward 
+
+R
+R
+
+ for cooperating. If both players defect, they both receive the punishment payoff 
+
+P
+P
+
+. If Blue defects while Red cooperates, then Blue receives the temptation payoff 
+
+T
+T
+
+, while Red receives the "sucker's" payoff, 
+
+S
+S
+
+. Similarly, if Blue cooperates while Red defects, then Blue receives the sucker's payoff 
+
+S
+S
+
+, while Red receives the temptation payoff 
+
+T
+T
+
+.
+This can be expressed in normal form:
+and to be a prisoner's dilemma game in the strong sense, the following condition must hold for the payoffs:
+The payoff relationship 
+
+
+
+R
+>
+P
+
+
+{\displaystyle R>P}
+
+ implies that mutual cooperation is superior to mutual defection, while the payoff relationships 
+
+
+
+T
+>
+R
+
+
+{\displaystyle T>R}
+
+ and 
+
+
+
+P
+>
+S
+
+
+{\displaystyle P>S}
+
+ imply that defection is the dominant strategy for both agents.
+If two players play the prisoner's dilemma more than once in succession, remember their opponent's previous actions, and are allowed to change their strategy accordingly, the game is called the iterated prisoner's dilemma.
+In addition to the general form above, the iterative version also requires that 
+
+
+
+2
+R
+>
+T
++
+S
+
+
+{\displaystyle 2R>T+S}
+
+, to prevent alternating cooperation and defection giving a greater reward than mutual cooperation.
+The iterated prisoner's dilemma is fundamental to some theories of human cooperation and trust. Assuming that the game effectively models transactions between two people that require trust, cooperative behavior in populations can be modeled by a multi-player iterated version of the game. In 1975, Grofman and Pool estimated the count of scholarly articles devoted to it at over 2,000. The iterated prisoner's dilemma is also called the "peace-war game".[13][14]
+If the iterated prisoner's dilemma is played a finite number of times and both players know this, then the dominant strategy and Nash equilibrium is to defect in all rounds. The proof is inductive: one might as well defect on the last turn, since the opponent will not have a chance to later retaliate. Therefore, both will defect on the last turn. Thus, the player might as well defect on the second-to-last turn, since the opponent will defect on the last no matter what is done, and so on. The same applies if the game length is unknown but has a known upper limit.[citation needed]
+For cooperation to emerge between rational players, the number of rounds must be unknown or infinite. In that case, "always defect" may no longer be a strictly dominant strategy but only a Nash equilibrium. As shown by Robert Aumann in a 1959 paper,[citation needed] rational players repeatedly interacting for indefinitely long games can sustain cooperation. Specifically, a player may be less willing to cooperate if their counterpart did not cooperate many times, which causes disappointment. Conversely, as time elapses, the likelihood of cooperation tends to rise, owing to the establishment of a "tacit agreement" among participating players. Another aspect of the iterated prisoner's dilemma is that this tacit agreement between players has always been established successfully even when the number of iterations is made public to both sides.
+According to a 2019 experimental study in the American Economic Review that tested what strategies real-life subjects used in iterated prisoner's dilemma situations with perfect monitoring, the majority of chosen strategies were always to defect, tit-for-tat, and grim trigger. Which strategy the subjects chose depended on the parameters of the game.[15]
+Interest in the iterated prisoner's dilemma was kindled by Robert Axelrod in his 1984 book The Evolution of Cooperation, in which he reports on a tournament that he organized of the N-step prisoner's dilemma (with N fixed) in which participants have to choose their strategy repeatedly and remember their previous encounters. Axelrod invited academic colleagues from around the world to devise computer strategies to compete in an iterated prisoner's dilemma tournament. The programs that were entered varied widely in algorithmic complexity, initial hostility, capacity for forgiveness, and so forth.
+Axelrod discovered that when these encounters were repeated over a long period of time with many players, each with different strategies, greedy strategies tended to do very poorly in the long run while more altruistic strategies did better, as judged purely by self-interest. He used this to show a possible mechanism for the evolution of altruistic behavior from mechanisms that are initially purely selfish, by natural selection.
+The winning deterministic strategy was tit for tat, developed and entered into the tournament by Anatol Rapoport. It was the simplest of any program entered, containing only four lines of BASIC, and won the contest. The strategy is simply to cooperate on the first iteration of the game; after that, the player does what his or her opponent did on the previous move. Depending on the situation, a slightly better strategy can be "tit for tat with forgiveness": when the opponent defects, on the next move, the player sometimes cooperates anyway, with a small probability (around 1–5%, depending on the lineup of opponents). This allows for occasional recovery from getting trapped in a cycle of defections.
+After analyzing the top-scoring strategies, Axelrod stated several conditions necessary for a strategy to succeed:
+In contrast to the one-time prisoner's dilemma game, the optimal strategy in the iterated prisoner's dilemma depends upon the strategies of likely opponents, and how they will react to defections and cooperation. For example, if a population consists entirely of players who always defect, except for one who follows the tit-for-tat strategy, that person is at a slight disadvantage because of the loss on the first turn. In such a population, the optimal strategy is to defect every time. More generally, given a population with a certain percentage of always-defectors with the rest being tit-for-tat players, the optimal strategy depends on the percentage and number of iterations played.
+Deriving the optimal strategy is generally done in two ways:
+In the strategy called win-stay, lose-switch, faced with a failure to cooperate, the player switches strategy the next turn.[18] In certain circumstances,[specify] Pavlov beats all other strategies by giving preferential treatment to co-players using a similar strategy.
+Although tit-for-tat is considered the most robust basic strategy, a team from Southampton University in England introduced a more successful strategy at the 20th-anniversary iterated prisoner's dilemma competition. It relied on collusion between programs to achieve the highest number of points for a single program. The university submitted 60 programs to the competition, which were designed to recognize each other through a series of five to ten moves at the start.[19] Once this recognition was made, one program would always cooperate and the other would always defect, assuring the maximum number of points for the defector. If the program realized that it was playing a non-Southampton player, it would continuously defect in an attempt to minimize the competing program's score. As a result, the 2004 Prisoners' Dilemma Tournament results show University of Southampton's strategies in the first three places (and a number of positions towards the bottom), despite having fewer wins and many more losses than the GRIM strategy. The Southampton strategy takes advantage of the fact that multiple entries were allowed in this particular competition and that a team's performance was measured by that of the highest-scoring player (meaning that the use of self-sacrificing players was a form of minmaxing).  
+Because of this new rule, this competition also has little theoretical significance when analyzing single-agent strategies as compared to Axelrod's seminal tournament. But it provided a basis for analyzing how to achieve cooperative strategies in multi-agent frameworks, especially in the presence of noise. 
+Long before this new-rules tournament was played, Dawkins, in his book The Selfish Gene, pointed out the possibility of such strategies winning if multiple entries were allowed, but remarked that Axelrod would most likely not have allowed them if they had been submitted. It also relies on circumventing the rule that no communication is allowed between players, which the Southampton programs arguably did with their preprogrammed "ten-move dance" to recognize one another, reinforcing how valuable communication can be in shifting the balance of the game.
+Even without implicit collusion between software strategies, tit-for-tat is not always the absolute winner of any given tournament; more precisely, its long-run results over a series of tournaments outperform its rivals, but this does not mean it is the most successful in the short term. The same applies to tit-for-tat with forgiveness and other optimal strategies. 
+This can also be illustrated using the Darwinian ESS simulation. In such a simulation, tit-for-tat will almost always come to dominate, though nasty strategies will drift in and out of the population because a tit-for-tat population is penetrable by non-retaliating nice strategies, which in turn are easy prey for the nasty strategies. Dawkins showed that here, no static mix of strategies forms a stable equilibrium, and the system will always oscillate between bounds.[citation needed]
+In a stochastic iterated prisoner's dilemma game, strategies are specified in terms of "cooperation probabilities".[20] In an encounter between player X and player Y, X's strategy is specified by a set of probabilities P of cooperating with Y. P is a function of the outcomes of their previous encounters or some subset thereof. If P is a function of only their most recent n encounters, it is called a "memory-n" strategy. A memory-1 strategy is then specified by four cooperation probabilities: 
+
+
+P
+=
+{
+
+P
+
+c
+c
+
+
+,
+
+P
+
+c
+d
+
+
+,
+
+P
+
+d
+c
+
+
+,
+
+P
+
+d
+d
+
+
+}
+
+P=\{P_{cc},P_{cd},P_{dc},P_{dd}\}
+
+, where Pcd is the probability that X will cooperate in the present encounter given that the previous encounter was characterized by X cooperating and Y defecting. If each of the probabilities are either 1 or 0, the strategy is called deterministic. An example of a deterministic strategy is the tit-for-tat strategy written as 
+
+
+
+P
+=
+{
+1
+,
+0
+,
+1
+,
+0
+}
+
+
+{\displaystyle P=\{1,0,1,0\}}
+
+, in which X responds as Y did in the previous encounter. Another is the win-stay, lose switch strategy written as 
+
+
+
+P
+=
+{
+1
+,
+0
+,
+0
+,
+1
+}
+
+
+{\displaystyle P=\{1,0,0,1\}}
+
+. It has been shown that for any memory-n strategy there is a corresponding memory-1 strategy that gives the same statistical results, so that only memory-1 strategies need be considered.[20]
+If 
+
+P
+P
+
+ is defined as the above 4-element strategy vector of X and 
+
+
+Q
+=
+{
+
+Q
+
+c
+c
+
+
+,
+
+Q
+
+c
+d
+
+
+,
+
+Q
+
+d
+c
+
+
+,
+
+Q
+
+d
+d
+
+
+}
+
+Q=\{Q_{cc},Q_{cd},Q_{dc},Q_{dd}\}
+
+ as the 4-element strategy vector of Y (where the indices are from Y's point of view), a transition matrix M may be defined for X whose ij-th entry is the probability that the outcome of a particular encounter between X and Y will be j given that the previous encounter was i, where i and j are one of the four outcome indices: cc, cd, dc, or dd. For example, from X's point of view, the probability that the outcome of the present encounter is cd given that the previous encounter was cd is equal to 
+
+
+
+M
+
+c
+d
+,
+c
+d
+
+
+=
+
+P
+
+c
+d
+
+
+(
+1
+−
+
+Q
+
+d
+c
+
+
+)
+
+M_{cd,cd}=P_{cd}(1-Q_{dc})
+
+. Under these definitions, the iterated prisoner's dilemma qualifies as a stochastic process and M is a stochastic matrix, allowing all of the theory of stochastic processes to be applied.[20]
+One result of stochastic theory is that there exists a stationary vector v for the matrix v such that 
+
+
+v
+⋅
+M
+=
+v
+
+v\cdot M=v
+
+. Without loss of generality, it may be specified that v is normalized so that the sum of its four components is unity. The ij-th entry in 
+
+
+M
+
+n
+
+
+M^{n}
+
+ will give the probability that the outcome of an encounter between X and Y will be j given that the encounter n steps previous is i. In the limit as n approaches infinity, M will converge to a matrix with fixed values, giving the long-term probabilities of an encounter producing j independent of i. In other words, the rows of 
+
+
+M
+
+∞
+
+
+M^{\infty }
+
+ will be identical, giving the long-term equilibrium result probabilities of the iterated prisoner's dilemma without the need to explicitly evaluate a large number of interactions. It can be seen that v is a stationary vector for 
+
+
+M
+
+n
+
+
+M^{n}
+
+ and particularly 
+
+
+M
+
+∞
+
+
+M^{\infty }
+
+, so that each row of 
+
+
+M
+
+∞
+
+
+M^{\infty }
+
+ will be equal to v. Thus, the stationary vector specifies the equilibrium outcome probabilities for X. Defining 
+
+
+
+S
+
+x
+
+
+=
+{
+R
+,
+S
+,
+T
+,
+P
+}
+
+S_{x}=\{R,S,T,P\}
+
+ and 
+
+
+
+S
+
+y
+
+
+=
+{
+R
+,
+T
+,
+S
+,
+P
+}
+
+S_{y}=\{R,T,S,P\}
+
+ as the short-term payoff vectors for the {cc,cd,dc,dd} outcomes (from X's point of view), the equilibrium payoffs for X and Y can now be specified as 
+
+
+
+s
+
+x
+
+
+=
+v
+⋅
+
+S
+
+x
+
+
+
+s_{x}=v\cdot S_{x}
+
+ and 
+
+
+
+s
+
+y
+
+
+=
+v
+⋅
+
+S
+
+y
+
+
+
+s_{y}=v\cdot S_{y}
+
+, allowing the two strategies P and Q to be compared for their long-term payoffs.
+In 2012, William H. Press and Freeman Dyson published a new class of strategies for the stochastic iterated prisoner's dilemma called "zero-determinant" (ZD) strategies.[20] The long term payoffs for encounters between X and Y can be expressed as the determinant of a matrix which is a function of the two strategies and the short term payoff vectors: 
+
+
+
+
+s
+
+x
+
+
+=
+D
+(
+P
+,
+Q
+,
+
+S
+
+x
+
+
+)
+
+
+{\displaystyle s_{x}=D(P,Q,S_{x})}
+
+ and 
+
+
+
+
+s
+
+y
+
+
+=
+D
+(
+P
+,
+Q
+,
+
+S
+
+y
+
+
+)
+
+
+{\displaystyle s_{y}=D(P,Q,S_{y})}
+
+, which do not involve the stationary vector v. Since the determinant function 
+
+
+
+
+s
+
+y
+
+
+=
+D
+(
+P
+,
+Q
+,
+f
+)
+
+
+{\displaystyle s_{y}=D(P,Q,f)}
+
+ is linear in 
+
+f
+f
+
+, it follows that 
+
+
+
+α
+
+s
+
+x
+
+
++
+β
+
+s
+
+y
+
+
++
+γ
+=
+D
+(
+P
+,
+Q
+,
+α
+
+S
+
+x
+
+
++
+β
+
+S
+
+y
+
+
++
+γ
+U
+)
+
+
+{\displaystyle \alpha s_{x}+\beta s_{y}+\gamma =D(P,Q,\alpha S_{x}+\beta S_{y}+\gamma U)}
+
+ (where 
+
+
+
+U
+=
+{
+1
+,
+1
+,
+1
+,
+1
+}
+
+
+{\displaystyle U=\{1,1,1,1\}}
+
+). Any strategies for which 
+
+
+
+D
+(
+P
+,
+Q
+,
+α
+
+S
+
+x
+
+
++
+β
+
+S
+
+y
+
+
++
+γ
+U
+)
+=
+0
+
+
+{\displaystyle D(P,Q,\alpha S_{x}+\beta S_{y}+\gamma U)=0}
+
+ are by definition a ZD strategy, and the long-term payoffs obey the relation 
+
+
+
+α
+
+s
+
+x
+
+
++
+β
+
+s
+
+y
+
+
++
+γ
+=
+0
+
+
+{\displaystyle \alpha s_{x}+\beta s_{y}+\gamma =0}
+
+.
+Tit-for-tat is a ZD strategy which is "fair", in the sense of not gaining advantage over the other player. But the ZD space also contains strategies that, in the case of two players, can allow one player to unilaterally set the other player's score or alternatively force an evolutionary player to achieve a payoff some percentage lower than his own. The extorted player could defect, but would thereby hurt himself by getting a lower payoff. Thus, extortion solutions turn the iterated prisoner's dilemma into a sort of ultimatum game. Specifically, X is able to choose a strategy for which 
+
+
+
+D
+(
+P
+,
+Q
+,
+β
+
+S
+
+y
+
+
++
+γ
+U
+)
+=
+0
+
+
+{\displaystyle D(P,Q,\beta S_{y}+\gamma U)=0}
+
+, unilaterally setting sy to a specific value within a particular range of values, independent of Y's strategy, offering an opportunity for X to "extort" player Y (and vice versa). But if X tries to set sx to a particular value, the range of possibilities is much smaller, consisting only of complete cooperation or complete defection.[20]
+An extension of the iterated prisoner's dilemma is an evolutionary stochastic iterated prisoner's dilemma, in which the relative abundance of particular strategies is allowed to change, with more successful strategies relatively increasing. This process may be accomplished by having less successful players imitate the more successful strategies, or by eliminating less successful players from the game, while multiplying the more successful ones. It has been shown that unfair ZD strategies are not evolutionarily stable. The key intuition is that an evolutionarily stable strategy must not only be able to invade another population (which extortionary ZD strategies can do) but must also perform well against other players of the same type (which extortionary ZD players do poorly because they reduce each other's surplus).[21]
+Theory and simulations confirm that beyond a critical population size, ZD extortion loses out in evolutionary competition against more cooperative strategies, and as a result, the average payoff in the population increases when the population is larger. In addition, there are some cases in which extortioners may even catalyze cooperation by helping to break out of a face-off between uniform defectors and win–stay, lose–switch agents.[22]
+While extortionary ZD strategies are not stable in large populations, another ZD class called "generous" strategies is both stable and robust. When the population is not too small, these strategies can supplant any other ZD strategy and even perform well against a broad array of generic strategies for iterated prisoner's dilemma, including win–stay, lose–switch. This was proven specifically for the donation game by Alexander Stewart and Joshua Plotkin in 2013.[23] Generous strategies will cooperate with other cooperative players, and in the face of defection, the generous player loses more utility than its rival. Generous strategies are the intersection of ZD strategies and so-called "good" strategies, which were defined by Ethan Akin to be those for which the player responds to past mutual cooperation with future cooperation and splits expected payoffs equally if he receives at least the cooperative expected payoff.[24]  Among good strategies, the generous (ZD) subset performs well when the population is not too small. If the population is very small, defection strategies tend to dominate.[23]
+Most work on the iterated prisoner's dilemma has focused on the discrete case, in which players either cooperate or defect, because this model is relatively simple to analyze. However, some researchers have looked at models of the continuous iterated prisoner's dilemma, in which players are able to make a variable contribution to the other player. Le and Boyd[25] found that in such situations, cooperation is much harder to evolve than in the discrete iterated prisoner's dilemma. In a continuous prisoner's dilemma, if a population starts off in a non-cooperative equilibrium, players who are only marginally more cooperative than non-cooperators get little benefit from assorting with one another. By contrast, in a discrete prisoner's dilemma, tit-for-tat cooperators get a big payoff boost from assorting with one another in a non-cooperative equilibrium, relative to non-cooperators. Since nature arguably offers more opportunities for variable cooperation rather than a strict dichotomy of cooperation or defection, the continuous prisoner's dilemma may help explain why real-life examples of tit-for-tat-like cooperation are extremely rare[26] even though tit-for-tat seems robust in theoretical models.
+There are many examples in human interaction as well as interactions in nature that have the same payoff matrix as the prisoner's dilemma. The prisoner's dilemma is therefore of interest to the social sciences such as economics, politics, and sociology, as well as to the biological sciences such as ethology and evolutionary biology. Many natural processes have been abstracted into models in which living beings are engaged in endless games of prisoner's dilemma.
+In environmental studies, the dilemma is evident in crises such as global climate change. It is argued all countries will benefit from a stable climate, but any single country is often hesitant to curb CO2 emissions. The immediate benefit to any one country from maintaining current behavior is perceived to be greater than the purported eventual benefit to that country if all countries' behavior was changed, therefore explaining the impasse concerning climate-change in 2007.[27]
+An important difference between climate-change politics and the prisoner's dilemma is uncertainty; the extent and pace at which pollution can change climate is not known. The dilemma faced by governments is therefore different from the prisoner's dilemma in that the payoffs of cooperation are unknown. This difference suggests that states will cooperate much less than in a real iterated prisoner's dilemma, so that the probability of avoiding a possible climate catastrophe is much smaller than that suggested by a game-theoretical analysis of the situation using a real iterated prisoner's dilemma.[28]
+Thomas Osang and Arundhati Nandy provide a theoretical explanation with proofs for a regulation-driven win-win situation along the lines of Michael Porter's hypothesis, in which government regulation of competing firms is substantial.[29]
+Cooperative behavior of many animals can be understood as an example of the iterated prisoner's dilemma. Often animals engage in long-term partnerships; for example, guppies inspect predators cooperatively in groups, and they are thought to punish non-cooperative inspectors.[30]
+Vampire bats are social animals that engage in reciprocal food exchange. Applying the payoffs from the prisoner's dilemma can help explain this behavior.[31]
+In addiction research and behavioral economics, George Ainslie points out that addiction can be cast as an intertemporal prisoner's dilemma problem between the present and future selves of the addict. In this case, "defecting" means relapsing, where not relapsing both today and in the future is by far the best outcome. The case where one abstains today but relapses in the future is the worst outcome: in some sense, the discipline and self-sacrifice involved in abstaining today have been "wasted" because the future relapse means that the addict is right back where they started and will have to start over. Relapsing today and tomorrow is a slightly "better" outcome, because while the addict is still addicted, they haven't put the effort in to trying to stop. The final case, where one engages in the addictive behavior today while abstaining tomorrow, has the problem that (as in other prisoner's dilemmas) there is an obvious benefit to defecting "today", but tomorrow one will face the same prisoner's dilemma, and the same obvious benefit will be present then, ultimately leading to an endless string of defections.[32]
+In The Science of Trust, John Gottman defines good relationships as those where partners know not to enter into mutual defection behavior, or at least not to get dynamically stuck there in a loop. In cognitive neuroscience, fast brain signaling associated with processing different rounds may indicate choices at the next round. Mutual cooperation outcomes entail brain activity changes predictive of how quickly a person will cooperate in kind at the next opportunity;[33] this activity may be linked to basic homeostatic and motivational processes, possibly increasing the likelihood of short-cutting into mutual cooperation.
+The prisoner's dilemma has been called the E. coli of social psychology, and it has been used widely to research various topics such as oligopolistic competition and collective action to produce a collective good.[34]
+Advertising is sometimes cited as a real example of the prisoner's dilemma. When cigarette advertising was legal in the United States, competing cigarette manufacturers had to decide how much money to spend on advertising. The effectiveness of Firm A's advertising was partially determined by the advertising conducted by Firm B. Likewise, the profit derived from advertising for Firm B is affected by the advertising conducted by Firm A. If both Firm A and Firm B chose to advertise during a given period, then the advertisement from each firm negates the other's, receipts remain constant, and expenses increase due to the cost of advertising. Both firms would benefit from a reduction in advertising. However, should Firm B choose not to advertise, Firm A could benefit greatly by advertising. Nevertheless, the optimal amount of advertising by one firm depends on how much advertising the other undertakes. As the best strategy is dependent on what the other firm chooses there is no dominant strategy, which makes it slightly different from a prisoner's dilemma. The outcome is similar, though, in that both firms would be better off were they to advertise less than in the equilibrium. 
+Sometimes cooperative behaviors do emerge in business situations. For instance, cigarette manufacturers endorsed the making of laws banning cigarette advertising, understanding that this would reduce costs and increase profits across the industry.[35][b]
+Without enforceable agreements, members of a cartel are also involved in a (multi-player) prisoner's dilemma.[36] "Cooperating" typically means agreeing to a price floor, while "defecting" means selling under this minimum level, instantly taking business from other cartel members. Anti-trust authorities want potential cartel members to mutually defect, ensuring the lowest possible prices for consumers.
+Doping in sport has been cited as an example of a prisoner's dilemma. Two competing athletes have the option to use an illegal and/or dangerous drug to boost their performance. If neither athlete takes the drug, then neither gains an advantage. If only one does, then that athlete gains a significant advantage over the competitor, reduced by the legal and/or medical dangers of having taken the drug. But if both athletes take the drug, the benefits cancel out and only the dangers remain, putting them both in a worse position than if neither had doped.[37]
+In international relations theory, the prisoner's dilemma is often used to demonstrate why cooperation fails in situations when cooperation between states is collectively optimal but individually suboptimal.[38][39] A classic example is the security dilemma, whereby an increase in one state's security (such as increasing its military strength) leads other states to fear for their own security out of fear of offensive action .[40] Consequently, security-increasing measures can lead to tensions, escalation or conflict with one or more other parties, producing an outcome which no party truly desires.[41][40][42][43][44] The security dilemma is particularly intense in situations when it is hard to distinguish offensive weapons from defensive weapons, and offense has the advantage in any conflict over defense.[40]
+The prisoner's dilemma has frequently been used by realist international relations theorists to demonstrate the why all states (regardless of their internal policies or professed ideology) under international anarchy will struggle to cooperate with one another even when all benefit from such cooperation. 
+Critics of realism argue that iteration and extending the shadow of the future are solutions to the prisoner's dilemma. When actors play the prisoner's dilemma once, they have incentives to defect, but when they expect to play it repeatedly, they have greater incentives to cooperate.[45]
+Many real-life dilemmas involve multiple players.[46] Although metaphorical, Hardin's tragedy of the commons may be viewed as an example of a multi-player generalization of the prisoner's dilemma: each villager makes a choice for personal gain or restraint. The collective reward for unanimous or frequent defection is very low payoffs and the destruction of the commons.
+The commons are not always exploited: William Poundstone, in a book about the prisoner's dilemma, describes a situation in New Zealand where newspaper boxes are left unlocked. It is possible for people to take a paper without paying (defecting), but very few do, feeling that if they do not pay then neither will others, destroying the system.[47] Subsequent research by Elinor Ostrom, winner of the 2009 Nobel Memorial Prize in Economic Sciences, hypothesized that the tragedy of the commons is oversimplified, with the negative outcome influenced by outside influences. Without complicating pressures, groups communicate and manage the commons among themselves for their mutual benefit, enforcing social norms to preserve the resource and achieve the maximum good for the group, an example of effecting the best-case outcome for prisoner's dilemma.[48][49]
+Douglas Hofstadter[50] suggested that people often find problems such as the prisoner's dilemma problem easier to understand when it is illustrated in the form of a simple game, or trade-off. One of several examples he used was "closed bag exchange":
+Two people meet and exchange closed bags, with the understanding that one of them contains money, and the other contains a purchase. Either player can choose to honor the deal by putting into his or her bag what he or she agreed, or he or she can defect by handing over an empty bag.Friend or Foe? is a game show that aired from 2002 to 2003 on the Game Show Network in the US. On the game show, three pairs of people compete. When a pair is eliminated, they play a game similar to the prisoner's dilemma to determine how the winnings are split. If they both cooperate (Friend), they share the winnings 50–50. If one cooperates and the other defects (Foe), the defector gets all the winnings, and the cooperator gets nothing. If both defect, both leave with nothing. Notice that the reward matrix is slightly different from the standard one given above, as the rewards for the "both defect" and the "cooperate while the opponent defects" cases are identical. This makes the "both defect" case a weak equilibrium, compared with being a strict equilibrium in the standard prisoner's dilemma. If a contestant knows that their opponent is going to vote "Foe", then their own choice does not affect their own winnings. In a specific sense, Friend or Foe has a rewards model between prisoner's dilemma and the game of Chicken.
+The rewards matrix is
+This payoff matrix has also been used on the British television programs Trust Me, Shafted, The Bank Job and Golden Balls, and on the American game shows Take It All, as well as for the winning couple on the reality shows Bachelor Pad and Love Island. Game data from the Golden Balls series has been analyzed by a team of economists, who found that cooperation was "surprisingly high" for amounts of money that would seem consequential in the real world but were comparatively low in the context of the game.[51]
+Researchers from the University of Lausanne and the University of Edinburgh have suggested that the "Iterated Snowdrift Game" may more closely reflect real-world social situations, although this model is actually a chicken game. In this model, the risk of being exploited through defection is lower, and individuals always gain from taking the cooperative choice. The snowdrift game imagines two drivers who are stuck on opposite sides of a snowdrift, each of whom is given the option of shoveling snow to clear a path or remaining in their car. A player's highest payoff comes from leaving the opponent to clear all the snow by themselves, but the opponent is still nominally rewarded for their work.
+This may better reflect real-world scenarios, the researchers giving the example of two scientists collaborating on a report, both of whom would benefit if the other worked harder. "But when your collaborator doesn't do any work, it's probably better for you to do all the work yourself. You'll still end up with a completed project."[52]
+In coordination games, players must coordinate their strategies for a good outcome. An example is two cars that abruptly meet in a blizzard; each must choose whether to swerve left or right. If both swerve left, or both right, the cars do not collide. The local left- and right-hand traffic convention helps to co-ordinate their actions.
+Symmetrical co-ordination games include Stag hunt and Bach or Stravinsky.
+A more general set of games is asymmetric. As in the prisoner's dilemma, the best outcome is cooperation, and there are motives for defection. Unlike the symmetric prisoner's dilemma, though, one player has more to lose and/or more to gain than the other. Some such games have been described as a prisoner's dilemma in which one prisoner has an alibi, hence the term "alibi game".[53]
+In experiments, players getting unequal payoffs in repeated games may seek to maximize profits, but only under the condition that both players receive equal payoffs; this may lead to a stable equilibrium strategy in which the disadvantaged player defects every X game, while the other always co-operates. Such behavior may depend on the experiment's social norms around fairness.[54]
+Several software packages have been created to run simulations and tournaments of the prisoner's dilemma, some of which have their source code available:
+Hannu Rajaniemi set the opening scene of his The Quantum Thief trilogy in a "dilemma prison". The main theme of the series has been described as the "inadequacy of a binary universe" and the ultimate antagonist is a character called the All-Defector. The first book in the series was published in 2010, with the two sequels, The Fractal Prince and The Causal Angel, published in 2012 and 2014, respectively.
+A game modeled after the iterated prisoner's dilemma is a central focus of the 2012 video game Zero Escape: Virtue's Last Reward and a minor part in its 2016 sequel Zero Escape: Zero Time Dilemma.
+In The Mysterious Benedict Society and the Prisoner's Dilemma by Trenton Lee Stewart, the main characters start by playing a version of the game and escaping from the "prison" altogether. Later, they become actual prisoners and escape once again.
+In The Adventure Zone: Balance during The Suffering Game subarc, the player characters are twice presented with the prisoner's dilemma during their time in two liches' domain, once cooperating and once defecting.
+In the 8th novel from the author James S. A. Corey Tiamat's Wrath, Winston Duarte explains the prisoner's dilemma to his 14-year-old daughter, Teresa, to train her in strategic thinking.[citation needed]
+An extreme version of the prisoner's dilemma is featured in the 2008 film The Dark Knight in which the Joker rigs two ferries, one containing prisoners and the other containing civilians, arming both groups with the means to detonate the bomb on each other's ferries. Ultimately, the two sides decide not to act.
+
+

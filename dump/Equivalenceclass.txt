@@ -1,0 +1,1218 @@
+25201,
+Equivalenceclass,
+In mathematics, when the elements of some set 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ have a notion of equivalence (formalized as an equivalence relation), then one may naturally split the set 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ into equivalence classes. These equivalence classes are constructed so that elements 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ belong to the same equivalence class if, and only if, they are equivalent.
+Formally, given a set 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ and an equivalence relation 
+
+
+
+
+∼
+
+
+
+{\displaystyle \,\sim \,}
+
+ on 
+
+
+
+S
+,
+
+
+{\displaystyle S,}
+
+ the equivalence class of an element 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ in 
+
+
+
+S
+,
+
+
+{\displaystyle S,}
+
+ denoted by 
+
+
+
+[
+a
+]
+,
+
+
+{\displaystyle [a],}
+
+[1] is the set[2]
+
+
+
+
+{
+x
+∈
+S
+:
+x
+∼
+a
+}
+
+
+{\displaystyle \{x\in S:x\sim a\}}
+
+
+of elements which are equivalent to 
+
+
+
+a
+.
+
+
+{\displaystyle a.}
+
+ It may be proven, from the defining properties of equivalence relations, that the equivalence classes form a partition of 
+
+
+
+S
+.
+
+
+{\displaystyle S.}
+
+ This partition—the set of equivalence classes—is sometimes called the quotient set or the quotient space of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ by 
+
+
+
+
+∼
+
+,
+
+
+{\displaystyle \,\sim \,,}
+
+ and is denoted by 
+
+
+
+S
+
+/
+
+
+∼
+
+
+
+{\displaystyle S/{\sim }}
+
+ .
+When the set 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ has some structure (such as a group operation or a topology) and the equivalence relation 
+
+
+
+
+∼
+
+
+
+{\displaystyle \,\sim \,}
+
+ is compatible with this structure, the quotient set often inherits a similar structure from its parent set. Examples include quotient spaces in linear algebra, quotient spaces in topology, quotient groups, homogeneous spaces, quotient rings, quotient monoids, and quotient categories.
+An equivalence relation on a set 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a binary relation 
+
+
+
+
+∼
+
+
+
+{\displaystyle \,\sim \,}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ satisfying the three properties:[6][7]
+The equivalence class of an element 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ is often denoted 
+
+
+
+[
+a
+]
+
+
+{\displaystyle [a]}
+
+ or 
+
+
+
+[
+a
+
+]
+
+∼
+
+
+,
+
+
+{\displaystyle [a]_{\sim },}
+
+ and is defined as the set 
+
+
+
+{
+x
+∈
+X
+:
+a
+∼
+x
+}
+
+
+{\displaystyle \{x\in X:a\sim x\}}
+
+ of elements that are related to 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ by 
+
+
+
+
+∼
+.
+
+
+{\displaystyle \,\sim .}
+
+[2] The word "class" in the term "equivalence class" may generally be considered as a synonym of "set", although some equivalence classes are not sets but proper classes. For example, "being isomorphic" is an equivalence relation on groups, and the equivalence classes, called isomorphism classes, are not sets.
+The set of all equivalence classes in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ with respect to an equivalence relation 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is denoted as 
+
+
+
+X
+
+/
+
+R
+,
+
+
+{\displaystyle X/R,}
+
+ and is called 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ modulo 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ (or the quotient set of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ by 
+
+
+
+R
+
+
+{\displaystyle R}
+
+).[8] The surjective map 
+
+
+
+x
+↦
+[
+x
+]
+
+
+{\displaystyle x\mapsto [x]}
+
+ from 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ onto 
+
+
+
+X
+
+/
+
+R
+,
+
+
+{\displaystyle X/R,}
+
+ which maps each element to its equivalence class, is called the canonical surjection, or the canonical projection.
+Every element of an equivalence class characterizes the class, and may be used to represent it. When such an element is chosen, it is called a representative of the class. The choice of a representative in each class defines an injection from 
+
+
+
+X
+
+/
+
+R
+
+
+{\displaystyle X/R}
+
+ to X. Since its composition with the canonical surjection is the identity of 
+
+
+
+X
+
+/
+
+R
+,
+
+
+{\displaystyle X/R,}
+
+ such an injection is called a section, when using the terminology of category theory. 
+Sometimes, there is a section that is more "natural" than the other ones. In this case, the representatives are called canonical representatives. For example, in modular arithmetic, for every integer m greater than 1, the congruence modulo m is an equivalence relation on the integers, for which two integers a and b are equivalent—in this case, one says congruent —if m divides 
+
+
+
+a
+−
+b
+;
+
+
+{\displaystyle a-b;}
+
+ this is denoted 
+
+
+
+a
+≡
+b
+
+
+(
+mod
+
+m
+)
+
+.
+
+
+{\textstyle a\equiv b{\pmod {m}}.}
+
+ Each class contains a unique non-negative integer smaller than 
+
+
+
+m
+,
+
+
+{\displaystyle m,}
+
+ and these integers are the canonical representatives. 
+The use of representatives for representing classes allows avoiding to consider explicitly classes as sets. In this case, the canonical surjection that maps an element to its class is replaced by the function that maps an element to the representative of its class. In the preceding example, this function is denoted 
+
+
+
+a
+
+mod
+
+m
+
+
+,
+
+
+{\displaystyle a{\bmod {m}},}
+
+ and produces the remainder of the Euclidean division of a by m.
+Every element 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ is a member of the equivalence class 
+
+
+
+[
+x
+]
+.
+
+
+{\displaystyle [x].}
+
+ Every two equivalence classes 
+
+
+
+[
+x
+]
+
+
+{\displaystyle [x]}
+
+ and 
+
+
+
+[
+y
+]
+
+
+{\displaystyle [y]}
+
+ are either equal or disjoint. Therefore, the set of all equivalence classes of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ forms a partition of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+: every element of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ belongs to one and only one equivalence class.[9] Conversely, every partition of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ comes from an equivalence relation in this way, according to which 
+
+
+
+x
+∼
+y
+
+
+{\displaystyle x\sim y}
+
+ if and only if 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ belong to the same set of the partition.[10]
+It follows from the properties of an equivalence relation that
+
+
+
+
+x
+∼
+y
+
+
+{\displaystyle x\sim y}
+
+ if and only if 
+
+
+
+[
+x
+]
+=
+[
+y
+]
+.
+
+
+{\displaystyle [x]=[y].}
+
+
+In other words, if 
+
+
+
+
+∼
+
+
+
+{\displaystyle \,\sim \,}
+
+ is an equivalence relation on a set 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ and 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ are two elements of 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ then these statements are equivalent:
+An undirected graph may be associated to any symmetric relation on a set 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ where the vertices are the elements of 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ and two vertices 
+
+
+
+s
+
+
+{\displaystyle s}
+
+ and 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ are joined if and only if 
+
+
+
+s
+∼
+t
+.
+
+
+{\displaystyle s\sim t.}
+
+ Among these graphs are the graphs of equivalence relations. These graphs, called cluster graphs, are characterized as the graphs such that the connected components are cliques.[4]
+If 
+
+
+
+
+∼
+
+
+
+{\displaystyle \,\sim \,}
+
+ is an equivalence relation on 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ and 
+
+
+
+P
+(
+x
+)
+
+
+{\displaystyle P(x)}
+
+ is a property of elements of 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ such that whenever 
+
+
+
+x
+∼
+y
+,
+
+
+{\displaystyle x\sim y,}
+
+ 
+
+
+
+P
+(
+x
+)
+
+
+{\displaystyle P(x)}
+
+ is true if 
+
+
+
+P
+(
+y
+)
+
+
+{\displaystyle P(y)}
+
+ is true, then the property 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is said to be an invariant of 
+
+
+
+
+∼
+
+,
+
+
+{\displaystyle \,\sim \,,}
+
+ or well-defined under the relation 
+
+
+
+
+∼
+.
+
+
+{\displaystyle \,\sim .}
+
+
+A frequent particular case occurs when 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is a function from 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ to another set 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+; if  
+
+
+
+f
+
+(
+
+x
+
+1
+
+
+)
+
+=
+f
+
+(
+
+x
+
+2
+
+
+)
+
+
+
+{\displaystyle f\left(x_{1}\right)=f\left(x_{2}\right)}
+
+ whenever 
+
+
+
+
+x
+
+1
+
+
+∼
+
+x
+
+2
+
+
+,
+
+
+{\displaystyle x_{1}\sim x_{2},}
+
+ then 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is said to be class invariant under 
+
+
+
+
+∼
+
+,
+
+
+{\displaystyle \,\sim \,,}
+
+ or simply invariant under 
+
+
+
+
+∼
+.
+
+
+{\displaystyle \,\sim .}
+
+ This occurs, for example, in the character theory of finite groups. Some authors use "compatible with 
+
+
+
+
+∼
+
+
+
+{\displaystyle \,\sim \,}
+
+" or just "respects 
+
+
+
+
+∼
+
+
+
+{\displaystyle \,\sim \,}
+
+" instead of "invariant under 
+
+
+
+
+∼
+
+
+
+{\displaystyle \,\sim \,}
+
+".
+Any function 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f:X\to Y}
+
+ is class invariant under 
+
+
+
+
+∼
+
+,
+
+
+{\displaystyle \,\sim \,,}
+
+ according to which 
+
+
+
+
+x
+
+1
+
+
+∼
+
+x
+
+2
+
+
+
+
+{\displaystyle x_{1}\sim x_{2}}
+
+ if and only if 
+
+
+
+f
+
+(
+
+x
+
+1
+
+
+)
+
+=
+f
+
+(
+
+x
+
+2
+
+
+)
+
+.
+
+
+{\displaystyle f\left(x_{1}\right)=f\left(x_{2}\right).}
+
+ The equivalence class of 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ is the set of all elements in 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ which get mapped to 
+
+
+
+f
+(
+x
+)
+,
+
+
+{\displaystyle f(x),}
+
+ that is, the class 
+
+
+
+[
+x
+]
+
+
+{\displaystyle [x]}
+
+ is the inverse image of 
+
+
+
+f
+(
+x
+)
+.
+
+
+{\displaystyle f(x).}
+
+ This equivalence relation is known as the kernel of 
+
+
+
+f
+.
+
+
+{\displaystyle f.}
+
+
+More generally, a function may map equivalent arguments (under an equivalence relation 
+
+
+
+
+∼
+
+X
+
+
+
+
+{\displaystyle \sim _{X}}
+
+ on 
+
+
+
+X
+
+
+{\displaystyle X}
+
+) to equivalent values (under an equivalence relation 
+
+
+
+
+∼
+
+Y
+
+
+
+
+{\displaystyle \sim _{Y}}
+
+ on 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+). Such a function is a morphism of sets equipped with an equivalence relation.
+In topology, a quotient space is a topological space formed on the set of equivalence classes of an equivalence relation on a topological space, using the original space's topology to create the topology on the set of equivalence classes.
+In abstract algebra, congruence relations on the underlying set of an algebra allow the algebra to induce an algebra on the equivalence classes of the relation, called a quotient algebra. In linear algebra, a quotient space is a vector space formed by taking a quotient group, where the quotient homomorphism is a linear map. By extension, in abstract algebra, the term quotient space may be used for quotient modules, quotient rings, quotient groups, or any quotient algebra. However, the use of the term for the more general cases can as often be by analogy with the orbits of a group action.
+The orbits of a group action on a set may be called the quotient space of the action on the set, particularly when the orbits of the group action are the right cosets of a subgroup of a group, which arise from the action of the subgroup on the group by left translations, or respectively the left cosets as orbits under right translation.
+A normal subgroup of a topological group, acting on the group by translation action, is a quotient space in the senses of topology, abstract algebra, and group actions simultaneously.
+Although the term can be used for any equivalence relation's set of equivalence classes, possibly with further structure, the intent of using the term is generally to compare that type of equivalence relation on a set 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ either to an equivalence relation that induces some structure on the set of equivalence classes from a structure of the same kind on 
+
+
+
+X
+,
+
+
+{\displaystyle X,}
+
+ or to the orbits of a group action. Both the sense of a structure preserved by an equivalence relation, and the study of invariants under group actions, lead to the definition of invariants of equivalence relations given above.
+
+

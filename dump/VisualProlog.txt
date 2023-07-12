@@ -1,0 +1,20 @@
+31233,
+VisualProlog,
+Visual Prolog, previously known as PDC Prolog and Turbo Prolog, is a strongly typed object-oriented extension of Prolog.  As Turbo Prolog, it was marketed by Borland but it is now developed and marketed by the Danish firm PDC that originally created it. Visual Prolog can build Microsoft Windows GUI-applications, console applications, DLLs (dynamic link libraries), and CGI-programs. It can also link to COM components and to databases by means of ODBC.
+Visual Prolog contains a compiler which generates x86 machine code. Unlike standard Prolog, programs written in Visual Prolog are statically typed. This allows some errors to be caught at compile-time instead of run-time.
+Version 10 introduces object expressions, support for master/slave processes, Microsoft Edge webView2 control and some support for Direct2D+DirectWrite+Windows Imaging Component  (see also Visual Prolog 10 New Features).
+Version 9 introduces bounded polymorphism, extension predicates, threadsafe lock free fact databases, named parameters (see also Visual Prolog 9 New Features).
+Version 8 introduces presenters, for more user friendly data presentation in debugger and running program (see also Visual Prolog 8 New Features).
+Version 7.5 contains http server and LALR(1) parser generator (see also Visual Prolog 7.5 New Features).
+Version 7.4 can generate 64 bit windows code (see also Visual Prolog 7.4 New Features).
+Version 7.3 introduced generic classes and interfaces (see Generic programming), guarded monitors (see also Visual Prolog 7.3 New Features).
+Version 7.2 introduced anonymous predicates (a logical pendant to anonymous functions) and namespaces (see also Visual Prolog 7.2 New Features).
+Version 7.0 introduced parametric polymorphism.
+Since version 6.0 the language has been fully object-oriented.
+In the Towers of Hanoi example, the Prolog inference engine figures out how to move a stack of any number of progressively smaller disks, one at a time, from the left pole to the right pole in the described way, by means of a center as transit, so that there's never a bigger disk on top of a smaller disk. The predicate hanoi takes an integer indicating the number of disks as an initial argument.
+Bruce F. Webster of BYTE praised Turbo Prolog in September 1986, stating that it was the first Borland product to excite him as much as Turbo Pascal did. He liked the user interface and low price, and reported that two BYU professors stated that it was superior to the Prolog they used at the university. While questioning the market demand for the language, Webster concluded that "Turbo Prolog may be as significant a leap in software design as Turbo Pascal represented three years ago", and recommended it to those "at all interested in artificial intelligence, databases, expert systems, or new ways of thinking about programming".[1] Another author in the magazine that month wrote that the language's nonstandard, more structured syntax as making "source listings much more readable than those of standard Prolog". While stating that it had "many good features", he stated that Turbo Prolog's "Turbo Pascal flavor in its compiler and strong data typing ... create an identity problem for the language". Describing it as "Turbo Paslog", the author concluded that he does "not recommend it if you are seriously considering becoming a Prolog programmer".[2] The magazine in 1989 listed Turbo Prolog 2.0 as among the "Distinction" winners of the BYTE Awards, approving of how Borland had "developed a system for real-world applications programming".[3]
+
+
+
+Information box
+{'Paradigm': 'multi-paradigm: logical, functional, object-oriented, imperative', 'Developer': 'PDC A/S', 'Stable release': '10 build 1002 / July 19, 2021; 23 months ago', 'Typing discipline': 'static, strong, inferred', 'OS': 'Windows', 'License': 'Proprietary', 'Website': 'www.visual-prolog.com'}

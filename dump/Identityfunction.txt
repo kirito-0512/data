@@ -1,0 +1,11 @@
+15069,
+Identityfunction,
+In mathematics, an identity function, also called an identity relation, identity map or identity transformation, is a function that always returns the value that was used as its argument, unchanged. That is, when f is the identity function, the equality f(X) = X is true for all values of X to which f can be applied.
+Formally, if M is a set, the identity function f on M is defined to be a function with M as its domain and codomain, satisfying
+In other words, the function value f(X) in the codomain M is always the same as the input element X in the domain M. The identity function on M is clearly an injective function as well as a surjective function, so it is bijective.[2]
+The identity function f on M is often denoted by idM.
+In set theory, where a function is defined as a particular kind of binary relation, the identity function is given by the identity relation, or diagonal of M.[3]
+If f : M → N is any function, then we have f ∘ idM = f = idN ∘ f (where "∘" denotes function composition). In particular, idM is the identity element of the monoid of all functions from M to M (under function composition).
+Since the identity element of a monoid is unique,[4] one can alternately define the identity function on M to be this identity element. Such a definition generalizes to the concept of an identity morphism in category theory, where the endomorphisms of M need not be functions.
+
+

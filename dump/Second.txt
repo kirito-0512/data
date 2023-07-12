@@ -1,0 +1,201 @@
+26873,
+Second,
+
+The second (symbol: s) is the unit of time in the International System of Units (SI), historically defined as 1⁄86400 of a day – this factor derived from the division of the day first into 24 hours, then to 60 minutes and finally to 60 seconds each (24 × 60 × 60 = 86400).
+
+The current and formal definition in the International System of Units (SI) is more precise:The second [...] is defined by taking the fixed numerical value of the caesium frequency, ΔνCs, the unperturbed ground-state hyperfine transition frequency of the caesium 133 atom, to be 9192631770 when expressed in the unit Hz, which is equal to s−1.[1]This current definition was adopted in 1967 when it became feasible to define the second based on fundamental properties of nature with caesium clocks.[2] Because the speed of Earth's rotation varies and is slowing ever so slightly, a leap second is added at irregular intervals to civil time[nb 1] to keep clocks in sync with Earth's rotation.
+Analog clocks and watches often have sixty tick marks on their faces, representing seconds (and minutes), and a "second hand" to mark the passage of time in seconds.  Digital clocks and watches often have a two-digit seconds counter.
+SI prefixes are frequently combined with the word second to denote subdivisions of the second: milliseconds (thousandths), microseconds (millionths), nanoseconds (billionths), and sometimes smaller units of a second. Multiples of seconds are usually counted in hours and minutes. Though SI prefixes may also be used to form multiples of the second such as kiloseconds (thousands of seconds), such units are rarely used in practice. An everyday experience with small fractions of a second is a 1-gigahertz microprocessor which has a cycle time of 1 nanosecond. Camera shutter speeds are often expressed in fractions of a second, such as 1⁄30 second or 1⁄1000 second.
+Sexagesimal divisions of the day from a calendar based on astronomical observation have existed since the third millennium BC, though they were not seconds as we know them today.[3] Small divisions of time could not be measured back then, so such divisions were mathematically derived. The first timekeepers that could count seconds accurately were pendulum clocks invented in the 17th century. Starting in the 1950s, atomic clocks became better timekeepers than Earth's rotation, and they continue to set the standard today.
+A mechanical clock, one which does not depend on measuring the relative rotational position of the Earth, keeps uniform time called mean time, within whatever accuracy is intrinsic to it. That means that every second, minute and every other division of time counted by the clock will be the same duration as any other identical division of time. But a sundial which measures the relative position of the Sun in the sky called apparent time, does not keep uniform time.  The time kept by a sundial varies by time of year, meaning that seconds, minutes and every other division of time is a different duration at different times of the year. The time of day measured with mean time versus apparent time may differ by as much as 15 minutes, but a single day will differ from the next by only a small amount; 15 minutes is a cumulative difference over a part of the year. The effect is due chiefly to the obliqueness of Earth's axis with respect to its orbit around the Sun.
+The difference between apparent solar time and mean time was recognized by astronomers since antiquity, but prior to the invention of accurate mechanical clocks in the mid-17th century, sundials were the only reliable timepieces, and apparent solar time was the only generally accepted standard.
+Fractions of a second are usually denoted in decimal notation, for example 2.01 seconds, or two and one hundredth seconds. Multiples of seconds are usually expressed as minutes and seconds, or hours, minutes and seconds of clock time, separated by colons, such as 11:23:24, or 45:23 (the latter notation can give rise to ambiguity, because the same notation is used to denote hours and minutes). It rarely makes sense to express longer periods of time like hours or days in seconds, because they are awkwardly large numbers. For the metric unit of second, there are decimal prefixes representing 10−30 to 1030 seconds.
+Some common units of time in seconds are: a minute is 60 seconds; an hour is 3,600 seconds; a day is 86,400 seconds; a week is 604,800 seconds; a year (other than leap years) is 31,536,000 seconds; and a (Gregorian) century averages 3,155,695,200 seconds; with all of the above excluding any possible leap seconds.
+Some common events in seconds are: a stone falls about 4.9 meters from rest in one second; a pendulum of length about one meter has a swing of one second, so pendulum clocks have pendulums about a meter long; the fastest human sprinters run 10 meters in a second; an ocean wave in deep water travels about 23 meters in one second; sound travels about 343 meters in one second in air; light takes 1.3 seconds to reach Earth from the surface of the Moon, a distance of 384,400 kilometers.
+A second is directly part of other units, such as frequency measured in hertz (inverse seconds or second−1), speed in meters per second, and acceleration in meters per second squared.  The metric system unit becquerel, a measure of radioactive decay, is measured in inverse seconds.  Though many derivative units for everyday things are reported in terms of larger units of time, not seconds, they are ultimately defined in terms of the SI second; this includes time expressed in hours and minutes, velocity of a car in kilometers per hour or miles per hour, kilowatt hours of electricity usage, and speed of a turntable in rotations per minute.
+Moreover, most other SI base units are defined by their relationship to the second: the metre is defined by setting the speed of light (in vacuum) to be 299 792 458 m/s, exactly; definitions of the SI base units kilogram, ampere, kelvin, and candela also depend on the second. The only base unit whose definition does not depend on the second is the mole, and only two of the 22 named derived units, radian and steradian, do not depend on the second either.
+A set of atomic clocks throughout the world keeps time by consensus: the clocks "vote" on the correct time, and all voting clocks are steered to agree with the consensus, which is called International Atomic Time (TAI). TAI "ticks" atomic seconds.[4]: 207–218 
+Civil time is defined to agree with the rotation of the Earth. The international standard for timekeeping is Coordinated Universal Time (UTC). This time scale "ticks" the same atomic seconds as TAI, but inserts or omits leap seconds as necessary to correct for variations in the rate of rotation of the Earth.[4]: 16–17, 207 
+A time scale in which the seconds are not exactly equal to atomic seconds is UT1, a form of universal time. UT1 is defined by the rotation of the Earth with respect to the Sun, and does not contain any leap seconds.[4]: 68, 232  UT1 always differs from UTC by less than a second.
+While they are not yet part of any timekeeping standard, optical lattice clocks with frequencies in the visible light spectrum now exist and are the most accurate timekeepers of all.  A strontium clock with frequency 430 THz, in the red range of visible light, during the 2010s held the accuracy record: it will gain or lose less than a second in 15 billion years, which is longer than the estimated age of the universe. Such a clock can measure a change in its elevation of as little as 2 cm by the change in its rate due to gravitational time dilation.[5]
+There have only ever been three definitions of the second: as a fraction of the day, as a fraction of an extrapolated year, and as the microwave frequency of a caesium atomic clock, which have each realized a sexagesimal division of the day from ancient astronomical calendars.
+Civilizations in the classic period and earlier created divisions of the calendar as well as arcs using a sexagesimal system of counting, so at that time the second was a sexagesimal subdivision of the day (ancient second = day/60×60), not of the hour like the modern second (= hour/60×60).  Sundials and water clocks were among the earliest timekeeping devices, and units of time were measured in degrees of arc.  Conceptual units of time smaller than realisable on sundials were also used.
+There are references to 'second' as part of a lunar month in the writings of natural philosophers of the Middle Ages, which were mathematical subdivisions that could not be measured mechanically.[nb 2][nb 3]
+The earliest mechanical clocks, which appeared starting in the 14th century, had displays that divided the hour into halves, thirds, quarters and sometimes even 12 parts, but never by 60. In fact, the hour was not commonly divided in 60 minutes as it was not uniform in duration. It was not practical for timekeepers to consider minutes until the first mechanical clocks that displayed minutes appeared near the end of the 16th century. Mechanical clocks kept the mean time, as opposed to the apparent time displayed by sundials. 
+By that time, sexagesimal divisions of time were well established in Europe.[nb 4]
+The earliest clocks to display seconds appeared during the last half of the 16th century. The second became accurately measurable with the development of mechanical clocks. The earliest spring-driven timepiece with a second hand which marked seconds is an unsigned clock depicting Orpheus in the Fremersdorf collection, dated between 1560 and 1570.[8]: 417–418 [9] During the 3rd quarter of the 16th century, Taqi al-Din built a clock with marks every 1/5 minute.[10]
+In 1579, Jost Bürgi built a clock for William of Hesse that marked seconds.[8]: 105  In 1581, Tycho Brahe redesigned clocks that had displayed only minutes at his observatory so they also displayed seconds, even though those seconds were not accurate. In 1587, Tycho complained that his four clocks disagreed by plus or minus four seconds.[8]: 104 
+In 1656, Dutch scientist Christiaan Huygens invented the first pendulum clock. It had a pendulum length of just under a meter which gave it a swing of one second, and an escapement that ticked every second. It was the first clock that could accurately keep time in seconds. By the 1730s, 80 years later, John Harrison's maritime chronometers could keep time accurate to within one second in 100 days.
+In 1832, Gauss proposed using the second as the base unit of time in his millimeter–milligram–second system of units. The British Association for the Advancement of Science (BAAS) in 1862 stated that "All men of science are agreed to use the second of mean solar time as the unit of time."[11] BAAS formally proposed the CGS system in 1874, although this system was gradually replaced over the next 70 years by MKS units. Both the CGS and MKS systems used the same second as their base unit of time. MKS was adopted internationally during the 1940s, defining the second as 1⁄86,400 of a mean solar day.
+Sometime in the late 1940s, quartz crystal oscillator clocks with an operating frequency of ~100 kHz advanced to keep time with accuracy better than 1 part in 108 over an operating period of a day. It became apparent that a consensus of such clocks kept better time than the rotation of the Earth. Metrologists also knew that Earth's orbit around the Sun (a year) was much more stable than Earth's rotation. This led to proposals as early as 1950 to define the second as a fraction of a year.
+The Earth's motion was described in Newcomb's Tables of the Sun (1895), which provided a formula for estimating the motion of the Sun relative to the epoch 1900 based on astronomical observations made between 1750 and 1892.[12] This resulted in adoption of an ephemeris time scale expressed in units of the sidereal year at that epoch by the IAU in 1952.[13] This extrapolated timescale brings the observed positions of the celestial bodies into accord with Newtonian dynamical theories of their motion.[12] In 1955, the tropical year, considered more fundamental than the sidereal year, was chosen by the IAU as the unit of time. The tropical year in the definition was not measured but calculated from a formula describing a mean tropical year that decreased linearly over time.
+In 1956, the second was redefined in terms of a year relative to that epoch. The second was thus defined as "the fraction 1⁄31,556,925.9747 of the tropical year for 1900 January 0 at 12 hours ephemeris time".[12] This definition was adopted as part of the International System of Units in 1960.[14]
+Even the best mechanical, electric motorized and quartz crystal-based clocks develop discrepancies from environmental conditions; far better for timekeeping is the natural and exact "vibration" in an energized atom. The frequency of vibration (i.e., radiation) is very specific depending on the type of atom and how it is excited.[15] Since 1967, the second has been defined as exactly "the duration of 9,192,631,770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the caesium-133 atom". This length of a second was selected to correspond exactly to the length of the ephemeris second previously defined. Atomic clocks use such a frequency to measure seconds by counting cycles per second at that frequency. Radiation of this kind is one of the most stable and reproducible phenomena of nature. The current generation of atomic clocks is accurate to within one second in a few hundred million years. Since 1967, atomic clocks based on atoms other than caesium-133 have been developed with increased precision by a factor of 100. Therefore a new definition of the second is planned.[16]
+Atomic clocks now set the length of a second and the time standard for the world.[4]: 231–232 
+
+
+
+
+
+
+12960276813
+408986496
+
+
+×
+
+10
+
+−
+9
+
+
+
+
+{\displaystyle {\frac {12960276813}{408986496}}\times 10^{-9}}
+
+ of the tropical year for 1900 January 0 at 12 h ET.  
+11th CGPM 1960 Resolution 9
+CIPM 1967
+the footnote was added at the 86th (1997) meeting of the CIPM
+GCPM 1998 7th Edition SI Brochure
+A future re-definition of the second will be justified if these idealized conditions can be achieved much easier than with the current definition.
+The definition of the second should be understood as the definition of the unit of proper time: it applies in a small spatial domain which shares the motion of the caesium atom used to realize the definition.
+In a laboratory sufficiently small to allow the effects of the non-uniformity of the gravitational field to be neglected when compared to the uncertainties of the realization of the second, the proper second is obtained after application of the special relativistic correction for the velocity of the atom in the laboratory. It is wrong to correct for the local gravitational field.
+The reference to an unperturbed atom is intended to make it clear that the definition of the SI second is based on an isolated caesium atom that is unperturbed by any external field, such as ambient black-body radiation.
+The second, so defined, is the unit of proper time in the sense of the general theory of relativity. To allow the provision of a coordinated time scale, the signals of different primary clocks in different locations are combined, which have to be corrected for relativistic caesium frequency shifts (see section 2.3.6).
+The CIPM has adopted various secondary representations of the second, based on a selected number of spectral lines of atoms, ions or molecules. The unperturbed frequencies of these lines can be determined with a relative uncertainty not lower than that of the realization of the second based on the 133Cs hyperfine transition frequency, but some can be reproduced with superior stability.
+SI Brochure 9
+In 2022, the best realisation of the second is done with caesium primary standard clocks such as IT-CsF2, NIST-F2, NPL-CsF2, PTB-CSF2, SU–CsFO2 or SYRTE-FO2. These clocks work by laser-cooling a cloud of Cs atoms to a microkelvin in a magneto-optic trap. These cold atoms are then launched vertically by laser light. The atoms then undergo Ramsey excitation in a microwave cavity. The fraction of excited atoms are then detected by laser beams. These clocks have 5×10−16 systematic uncertainty, which is equivalent to 50 picoseconds per day. A system of several fountains worldwide contribute to International Atomic Time. These caesium clocks also underpin optical frequency measurements.
+Optical clocks are based on forbidden optical transitions in ions or atoms. They have frequencies around 1015 Hz, with a natural linewidth 
+
+
+
+Δ
+f
+
+
+{\displaystyle \Delta f}
+
+ of typically 1 Hz, so the Q-factor is about 1015, or even higher. They have better stabilities than microwave clocks, which means that they can facilitate evaluation of lower uncertainties. They also have better time resolution, which means the clock "ticks" faster.[17] Optical clocks use either a single ion, or an optical lattice with 104–106 atoms.
+A definition based on the Rydberg constant would involve fixing the value to a certain value: 
+
+
+
+
+R
+
+∞
+
+
+=
+
+
+
+
+m
+
+e
+
+
+
+e
+
+4
+
+
+
+
+8
+
+ε
+
+0
+
+
+2
+
+
+
+h
+
+3
+
+
+c
+
+
+
+=
+
+
+
+
+m
+
+e
+
+
+c
+
+α
+
+2
+
+
+
+
+2
+h
+
+
+
+
+
+{\displaystyle R_{\infty }={\frac {m_{\text{e}}e^{4}}{8\varepsilon _{0}^{2}h^{3}c}}={\frac {m_{\text{e}}c\alpha ^{2}}{2h}}}
+
+. The Rydberg constant describes the energy levels in a hydrogen atom with the nonrelativistic approximation 
+
+
+
+
+E
+
+n
+
+
+≈
+−
+
+
+
+
+R
+
+∞
+
+
+c
+h
+
+
+n
+
+2
+
+
+
+
+
+
+{\displaystyle E_{n}\approx -{\frac {R_{\infty }ch}{n^{2}}}}
+
+.
+The only viable way to fix the Rydberg constant involves trapping and cooling hydrogen. This is difficult because it is very light and the atoms move very fast, causing Doppler shifts. The radiation needed to cool the hydrogen –121.5 nm– is also difficult. Another hurdle involves improving the uncertainty in QED calculations.[18]
+A redefinition must include improved optical clock reliability. TAI must be contributed to by optical clocks before the BIPM affirms a redefinition. A consistent method of sending signals must be developed before the second is redefined, such as fiber-optics.[18]
+SI prefixes are commonly used for times shorter than one second, but rarely for multiples of a second. Instead, certain non-SI units are permitted for use with SI: minutes, hours, days, and in astronomy Julian years.[19]
+
+
+
+Information box
+{'Unit system': 'SI', 'Unit of': 'time', 'Symbol': 's'}

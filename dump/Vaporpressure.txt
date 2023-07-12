@@ -1,0 +1,160 @@
+40197,
+Vaporpressure,
+
+Vapor pressure (or vapour pressure in English-speaking countries other than the US; see spelling differences and equilibrium vapor pressure) is defined as the pressure exerted by a vapor in thermodynamic equilibrium with its condensed phases (solid or liquid) at a given temperature in a closed system. The equilibrium vapor pressure is an indication of a liquid's thermodynamic tendency to evaporate. It relates to the balance of particles escaping from the liquid (or solid) in equilibrium with those in a coexisting vapor phase. A substance with a high vapor pressure at normal temperatures is often referred to as volatile. The pressure exhibited by vapor present above a liquid surface is known as vapor pressure. As the temperature of a liquid increases, the attractive interactions between liquid molecules become less significant in comparison to the entropy of those molecules in the gas phase, increasing the vapor pressure. Thus, liquids with strong intermolecular interactions are likely to have smaller vapor pressures, with the reverse true for weaker interactions.
+The vapor pressure of any substance increases non-linearly with temperature, often described by the Clausius–Clapeyron relation. The atmospheric pressure boiling point of a liquid (also known as the normal boiling point) is the temperature at which the vapor pressure equals the ambient atmospheric pressure. With any incremental increase in that temperature, the vapor pressure becomes sufficient to overcome atmospheric pressure and cause the liquid to form vapor bubbles. Bubble formation in high liquid depths requires a slightly higher temperature due to the higher fluid pressure, due to hydrostatic pressure of the fluid mass above. More important at shallow depths is the higher temperature required to start bubble formation. The surface tension of the bubble wall leads to an overpressure in the very small, initial bubbles.
+The vapor pressure that a single component in a mixture contributes to the total pressure in the system is called partial pressure. For example, air at sea level, and saturated with water vapor at 20 °C, has partial pressures of about 2.3 kPa of water, 78 kPa of nitrogen, 21 kPa of oxygen and 0.9 kPa of argon, totaling 102.2 kPa, making the basis for standard atmospheric pressure.
+Vapor pressure is measured in the standard units of pressure. The International System of Units (SI) recognizes pressure as a derived unit with the dimension of force per area and designates the pascal (Pa) as its standard unit. One pascal is one newton per square meter (N·m−2 or kg·m−1·s−2).
+Experimental measurement of vapor pressure is a simple procedure for common pressures between 1 and 200 kPa.[1] Most accurate results are obtained near the boiling point of substances and large errors result for measurements smaller than 1kPa. Procedures often consist of purifying the test substance, isolating it in a container, evacuating any foreign gas, then measuring the equilibrium pressure of the gaseous phase of the substance in the container at different temperatures. Better accuracy is achieved when care is taken to ensure that the entire substance and its vapor are at the prescribed temperature. This is often done, as with the use of an isoteniscope, by submerging the containment area in a liquid bath.
+Very low vapor pressures of solids can be measured using the Knudsen effusion cell method.
+In a medical context, vapor pressure is sometimes expressed in other units, specifically millimeters of mercury (mmHg). This is important for volatile inhalational anesthetics, most of which are liquids at body temperature, but with a relatively high vapor pressure.
+The Antoine equation[2][3] is a pragmatic mathematical expression of the relation between the vapor pressure and the temperature of pure liquid or solid substances. It is obtained by curve-fitting and is adapted to the fact that vapor pressure is usually increasing and concave as a function of temperature. The basic form of the equation is:
+and it can be transformed into this temperature-explicit form:
+where:
+A simpler form of the equation with only two coefficients is sometimes used:
+which can be transformed to:
+Sublimations and vaporizations of the same substance have separate sets of Antoine coefficients, as do components in mixtures.[2] Each parameter set for a specific compound is only applicable over a specified temperature range. Generally, temperature ranges are chosen to maintain the equation's accuracy of a few up to 8–10 percent. For many volatile substances, several different sets of parameters are available and used for different temperature ranges. The Antoine equation has poor accuracy with any single parameter set when used from a compound's melting point to its critical temperature. Accuracy is also usually poor when vapor pressure is under 10 Torr because of the limitations of the apparatus[citation needed] used to establish the Antoine parameter values.
+The Wagner equation[4] gives "one of the best"[5] fits to experimental data but is quite complex. It expresses reduced vapor pressure as a function of reduced temperature.
+As a general trend, vapor pressures of liquids at ambient temperatures increase with decreasing boiling points. This is illustrated in the vapor pressure chart (see right) that shows graphs of the vapor pressures versus temperatures for a variety of liquids.[6] At the normal boiling point of a liquid, the vapor pressure is equal to the standard atmospheric pressure defined as 1 atmosphere,[7] 760 Torr, 101.325 kPa, or 14.69595 psi.
+For example, at any given temperature, methyl chloride has the highest vapor pressure of any of the liquids in the chart. It also has the lowest normal boiling point at −24.2 °C (−11.6 °F), which is where the vapor pressure curve of methyl chloride (the blue line) intersects the horizontal pressure line of one atmosphere (atm) of absolute vapor pressure.
+Although the relation between vapor pressure and temperature is non-linear, the chart uses a logarithmic vertical axis to produce slightly curved lines, so one chart can graph many liquids. A nearly straight line is obtained when the logarithm of the vapor pressure is plotted against 1/(T + 230)[8] where T is the temperature in degrees Celsius. The vapor pressure of a liquid at its boiling point equals the pressure of its surrounding environment.
+Raoult's law gives an approximation to the vapor pressure of mixtures of liquids. It states that the activity (pressure or fugacity) of a single-phase mixture is equal to the mole-fraction-weighted sum of the components' vapor pressures:
+where 
+
+
+
+
+P
+
+
+t
+o
+t
+
+
+
+
+
+{\displaystyle P_{\rm {tot}}}
+
+ is the mixture's vapor pressure, 
+
+
+
+
+x
+
+i
+
+
+
+
+{\displaystyle x_{i}}
+
+ is the mole fraction of component 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ in the liquid phase and 
+
+
+
+
+y
+
+i
+
+
+
+
+{\displaystyle y_{i}}
+
+ is the mole fraction of component 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ in the vapor phase respectively. 
+
+
+
+
+P
+
+i
+
+
+
+s
+a
+t
+
+
+
+
+
+{\displaystyle P_{i}^{\rm {sat}}}
+
+ is the vapor pressure of component 
+
+
+
+i
+
+
+{\displaystyle i}
+
+. Raoult's law is applicable only to non-electrolytes (uncharged species); it is most appropriate for non-polar molecules with only weak intermolecular attractions (such as London forces).
+Systems that have vapor pressures higher than indicated by the above formula are said to have positive deviations. Such a deviation suggests weaker intermolecular attraction than in the pure components, so that the molecules can be thought of as being "held in" the liquid phase less strongly than in the pure liquid. An example is the azeotrope of approximately 95% ethanol and water. Because the azeotrope's vapor pressure is higher than predicted by Raoult's law, it boils at a temperature below that of either pure component.
+There are also systems with negative deviations that have vapor pressures that are lower than expected. Such a deviation is evidence for stronger intermolecular attraction between the constituents of the mixture than exists in the pure components. Thus, the molecules are "held in" the liquid more strongly when a second molecule is present. An example is a mixture of trichloromethane (chloroform) and 2-propanone (acetone), which boils above the boiling point of either pure component.
+The negative and positive deviations can be used to determine thermodynamic activity coefficients of the components of mixtures.
+Equilibrium vapor pressure can be defined as the pressure reached when a condensed phase is in equilibrium with its own vapor. In the case of an equilibrium solid, such as a crystal, this can be defined as the pressure when the rate of sublimation of a solid matches the rate of deposition of its vapor phase. For most solids this pressure is very low, but some notable exceptions are naphthalene, dry ice (the vapor pressure of dry ice is 5.73 MPa (831 psi, 56.5 atm) at 20 °C, which causes most sealed containers to rupture), and ice. All solid materials have a vapor pressure. However, due to their often extremely low values, measurement can be rather difficult. Typical techniques include the use of thermogravimetry and gas transpiration.
+There are a number of methods for calculating the sublimation pressure (i.e., the vapor pressure) of a solid. One method is to estimate the sublimation pressure from extrapolated liquid vapor pressures (of the supercooled liquid), if the heat of fusion is known, by using this particular form of the Clausius–Clapeyron relation:[9]
+where:
+This method assumes that the heat of fusion is temperature-independent, ignores additional transition temperatures between different solid phases, and it gives a fair estimation for temperatures not too far from the melting point. It also shows that the sublimation pressure is lower than the extrapolated liquid vapor pressure (ΔfusH > 0) and the difference grows with increased distance from the melting point.
+Like all liquids, water boils when its vapor pressure reaches its surrounding pressure. In nature, the atmospheric pressure is lower at higher elevations and water boils at a lower temperature. The boiling temperature of water for atmospheric pressures can be approximated by the Antoine equation:
+or transformed into this temperature-explicit form:
+where the temperature 
+
+
+
+
+T
+
+b
+
+
+
+
+{\displaystyle T_{b}}
+
+ is the boiling point in degrees Celsius and the pressure 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ is in torr.
+Dühring's rule states that a linear relationship exists between the temperatures at which two solutions exert the same vapor pressure.
+The following table is a list of a variety of substances ordered by increasing vapor pressure (in absolute units).
+Several empirical methods exist to estimate the vapor pressure from molecular structure for organic molecules. Some examples are SIMPOL.1 method,[13] the method of Moller et al.,[9] and EVAPORATION (Estimation of VApour Pressure of ORganics, Accounting for Temperature, Intramolecular, and Non-additivity effects).[14][15]
+In meteorology, the term vapor pressure means the partial pressure of water vapor in the atmosphere, even if it is not in equilibrium.[16] This differs from its meaning in other sciences.[16]
+According to the American Meteorological Society Glossary of Meteorology, saturation vapor pressure properly refers to the equilibrium vapor pressure of water above a flat surface of liquid water or solid ice, and is a function only of temperature and whether the condensed phase is liquid or solid.[17]
+Relative humidity is defined relative to saturation vapor pressure.[18]
+Equilibrium vapor pressure does not require the condensed phase to be a flat surface; it might consist of tiny droplets possibly containing solutes (impurities), such as a cloud.[19][18] Equilibrium vapor pressure may differ significantly from saturation vapor pressure depending on the size of droplets and presence of other particles which act as cloud condensation nuclei.[19][18]
+However, these terms are used inconsistently, and some authors use "saturation vapor pressure" outside the narrow meaning given by the AMS Glossary. For example, a text on atmospheric convection states, "The Kelvin effect causes the saturation vapor pressure over the curved surface of the droplet to be greater than that over a flat water surface" (emphasis added).[20]
+The still-current term saturation vapor pressure derives from the obsolete theory that water vapor dissolves into air, and that air at a given temperature can only hold a certain amount of water before becoming "saturated".[18] Actually, as stated by Dalton's law (known since 1802), the partial pressure of water vapor or any substance does not depend on air at all, and the relevant temperature is that of the liquid.[18] Nevertheless, the erroneous belief persists among the public and even meteorologists, aided by the misleading terms saturation pressure and supersaturation and the related definition of relative humidity.[18]
+
+

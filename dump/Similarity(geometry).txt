@@ -1,0 +1,599 @@
+39377,
+Similarity(geometry),
+In Euclidean geometry, two objects are similar if they have the same shape, or if one has the same shape as the mirror image of the other. More precisely, one can be obtained from the other by uniformly scaling (enlarging or reducing), possibly with additional translation, rotation and reflection. This means that either object can be rescaled, repositioned, and reflected, so as to coincide precisely with the other object. If two objects are similar, each is congruent to the result of a particular uniform scaling of the other.
+For example, all circles are similar to each other, all squares are similar to each other, and all equilateral triangles are similar to each other. On the other hand, ellipses are not all similar to each other, rectangles are not all similar to each other, and isosceles triangles are not all similar to each other. This is because two ellipses can have different width to height ratios, two rectangles can have different length to breadth ratios, and two isosceles triangles can have different base angles. 
+If two angles of a triangle have measures equal to the measures of two angles of another triangle, then the triangles are similar. Corresponding sides of similar polygons are in proportion, and corresponding angles of similar polygons have the same measure.
+Two congruent shapes are similar, with a scale factor of 1. However, some school textbooks specifically exclude congruent triangles from their definition of similar triangles by insisting that the sizes must be different if the triangles are to qualify as similar.[citation needed]
+Two triangles, △ABC and △A′B′C′ are similar if and only if corresponding angles have the same measure: this implies that they are similar if and only if the lengths of corresponding sides are proportional.[1] It can be shown that two triangles having congruent angles (equiangular triangles) are similar, that is, the corresponding sides can be proved to be proportional. This is known as the AAA similarity theorem.[2] Note that the "AAA" is a mnemonic: each one of the three A's refers to an "angle". Due to this theorem, several authors simplify the definition of similar triangles to only require that the corresponding three angles are congruent.[3]
+There are several criteria each of which is necessary and sufficient for two triangles to be similar:
+This is known as the SAS similarity criterion.[8] The "SAS" is a mnemonic: each one of the two S's refers to a "side"; the A refers to an "angle" between the two sides.
+Symbolically, we write the similarity and dissimilarity of two triangles△ABC and △A′B′C′ as follows:[9]
+There are several elementary results concerning similar triangles in Euclidean geometry:[10]
+Given a triangle △ABC and a line segment DE one can, with a ruler and compass, find a point F such that △ABC ~ △DEF. The statement that point F satisfying this condition exists is Wallis's postulate[12] and is logically equivalent to Euclid's parallel postulate.[13] In hyperbolic geometry (where Wallis's postulate is false) similar triangles are congruent.
+In the axiomatic treatment of Euclidean geometry given by George David Birkhoff (see Birkhoff's axioms) the SAS similarity criterion given above was used to replace both Euclid's parallel postulate and the SAS axiom which enabled the dramatic shortening of Hilbert's axioms.[8]
+Similar triangles provide the basis for many synthetic (without the use of coordinates) proofs in Euclidean geometry. Among the elementary results that can be proved this way are: the angle bisector theorem, the geometric mean theorem, Ceva's theorem, Menelaus's theorem and the Pythagorean theorem. Similar triangles also provide the foundations for right triangle trigonometry.[14]
+The concept of similarity extends to polygons with more than three sides. Given any two similar polygons, corresponding sides taken in the same sequence (even if clockwise for one polygon and counterclockwise for the other) are proportional and corresponding angles taken in the same sequence are equal in measure. However, proportionality of corresponding sides is not by itself sufficient to prove similarity for polygons beyond triangles (otherwise, for example, all rhombi would be similar). Likewise, equality of all angles in sequence is not sufficient to guarantee similarity (otherwise all rectangles would be similar). A sufficient condition for similarity of polygons is that corresponding sides and diagonals are proportional.
+For given n, all regular n-gons are similar.
+Several types of curves have the property that all examples of that type are similar to each other. These include:
+A similarity (also called a similarity transformation or similitude) of a Euclidean space is a bijection f from the space onto itself that multiplies all distances by the same positive real number r, so that for any two points x and y we have
+where "d(x,y)" is the Euclidean distance from x to y.[17] The scalar r has many names in the literature including; the ratio of similarity, the stretching factor and the similarity coefficient. When r = 1 a similarity is called an isometry (rigid transformation). Two sets are called similar if one is the image of the other under a similarity.
+As a map f : ℝn → ℝn, a similarity of ratio r takes the form
+where A ∈ On(ℝ) is an n × n orthogonal matrix and t ∈ ℝn is a translation vector.
+Similarities preserve planes, lines, perpendicularity, parallelism, midpoints, inequalities between distances and line segments.[18] Similarities preserve angles but do not necessarily preserve orientation, direct similitudes preserve orientation and opposite similitudes change it.[19]
+The similarities of Euclidean space form a group under the operation of composition called the similarities group S.[20] The direct similitudes form a normal subgroup of S and the Euclidean group E(n) of isometries also forms a normal subgroup.[21] The similarities group S is itself a subgroup of the affine group, so every similarity is an affine transformation.
+One can view the Euclidean plane as the complex plane,[22] that is, as a 2-dimensional space over the reals. The 2D similarity transformations can then be expressed in terms of complex arithmetic and are given by f(z) = az + b (direct similitudes) and f(z) = az + b (opposite similitudes), where a and b are complex numbers, a ≠ 0. When |a| = 1, these similarities are isometries.
+The ratio between the areas of similar figures is equal to the square of the ratio of corresponding lengths of those figures (for example, when the side of a square or the radius of a circle is multiplied by three, its area is multiplied by nine — i.e. by three squared). The altitudes of similar triangles are in the same ratio as corresponding sides. If a triangle has a side of length b and an altitude drawn to that side of length h then a similar triangle with corresponding side of length kb will have an altitude drawn to that side of length kh. The area of the first triangle is, A = 1/2bh, while the area of the similar triangle will be A′ = 1/2(kb)(kh) = k2A. Similar figures which can be decomposed into similar triangles will have areas related in the same way. The relationship holds for figures that are not rectifiable as well.
+The ratio between the volumes of similar figures is equal to the cube of the ratio of corresponding lengths of those figures (for example, when the edge of a cube or the radius of a sphere is multiplied by three, its volume is multiplied by 27 — i.e. by three cubed).
+Galileo's square–cube law concerns similar solids. If the ratio of similitude (ratio of corresponding sides) between the solids is k, then the ratio of surface areas of the solids will be k2, while the ratio of volumes will be k3.
+If a similarity has exactly one invariant point: a point that the similarity keeps unchanged, then this only point is called "center" of the similarity.
+On the first image below the title, on the left, one or another similarity shrinks a regular polygon into a concentric one, the vertices of which are each on a side of the previous polygon. This rotational reduction is repeated, so the initial polygon is extended into an abyss of regular polygons. The center of the similarity is the common center of the successive polygons. A red segment joins a vertex of the initial polygon to its image under the similarity, followed by a red segment going to the following image of vertex, and so on to form a spiral. Actually we can see more than three direct similarities on this first image, because every regular polygon is invariant under certain direct similarities, more precisely certain rotations the center of which is the center of the polygon, and a composition of direct similarities is also a direct similarity. For example we see the image of the initial regular pentagon under a homothety of negative 
+
+
+
+
+ratio 
+
+−
+k
+,
+
+
+
+{\displaystyle {\text{ratio }}-k,\,}
+
+ which is a similarity of ±180° angle and a positive ratio 
+
+
+
+
+equal to 
+
+k
+.
+
+
+{\displaystyle {\text{equal to }}k.}
+
+
+Below the title on the right, the second image shows a similarity decomposed into a rotation and a homothety. Similarity and rotation have the same angle of +135 degrees modulo 360 degrees. Similarity and homothety have the same ratio 
+
+
+
+
+of 
+
+
+
+
+
+2
+
+2
+
+
+,
+
+
+{\displaystyle {\text{of }}\,{\frac {\sqrt {2}}{2}},}
+
+ multiplicative inverse of the 
+
+
+
+
+
+ratio 
+
+
+
+2
+
+
+
+
+
+{\displaystyle \,{\text{ratio }}{\sqrt {2}}\;}
+
+ (square root of 2) of the inverse similarity. Point S is the common center of the three transformations: rotation, homothety and similarity. For example point W is the image of F under the rotation, and point T is the image of W under the homothety, more briefly T  = H (W ) = H ( R ( F )) = (H ∘ R )( F ) = D ( F ), by naming 
+
+
+
+R
+,
+
+H
+
+ and 
+
+D
+
+
+
+{\displaystyle R,\;H{\text{ and }}D\,}
+
+ the previous rotation, homothety and similarity, with 
+
+
+
+
+“
+
+D
+
+
+” like “Direct”.
+
+
+
+
+{\displaystyle {\text{“}}D\,{\text{” like “Direct”.}}\,}
+
+
+This direct similarity that transforms triangle EFA into triangle ATB can be decomposed into a rotation and a homothety of same center S in several manners. For example, 
+
+
+
+D
+
+=
+
+R
+
+∘
+
+H
+
+=
+
+H
+
+∘
+
+R
+,
+
+
+{\displaystyle D\,=\,R\,\circ \,H\,=\,H\,\circ \,R,}
+
+ the last decomposition being only represented on the image. To get 
+
+
+
+D
+
+
+{\displaystyle D}
+
+ we can also compose in any order a rotation 
+
+
+
+
+ of 
+
+−
+
+
+45
+
+
+∘
+
+
+
+
+{\displaystyle {\text{ of }}-\,45^{\,\circ }}
+
+ angle and a homothety 
+
+
+
+
+
+of ratio 
+
+
+
+
+
+−
+
+
+
+2
+
+
+
+
+2
+
+
+.
+
+
+{\displaystyle \,{\text{of ratio }}\,{\frac {-\,{\sqrt {2}}\,}{2}}.}
+
+
+With 
+
+
+
+
+“
+
+M
+
+
+” like “Mirror”
+
+
+
+
+{\displaystyle {\text{“}}M\,{\text{” like “Mirror”}}\,}
+
+ and 
+
+
+
+
+“
+
+I
+
+
+” like “Indirect”,
+
+
+
+
+{\displaystyle {\text{“}}I\,{\text{” like “Indirect”,}}\,}
+
+ if 
+
+
+
+M
+
+
+
+{\displaystyle M\,}
+
+ is the reflection with respect to line (CW ), then 
+
+
+
+M
+
+∘
+
+D
+
+=
+
+I
+
+
+
+{\displaystyle M\,\circ \,D\,=\,I\;}
+
+ is the indirect similarity that transforms segment [BF ] 
+
+
+
+
+like 
+
+D
+
+
+
+{\displaystyle {\text{like }}D\,}
+
+ into segment [CT ], but transforms point E into B and point A into A itself. Square ACBT is the image of ABEF under similarity 
+
+
+
+I
+
+
+ of ratio 
+
+
+1
+
+
+/
+
+
+
+2
+
+
+.
+
+
+
+{\displaystyle I\,{\text{ of ratio }}\;1\,/{\sqrt {2}}.\;}
+
+ Point A is the center of this similarity because any point K being invariant under it fulfills 
+
+
+
+A
+K
+
+=
+
+A
+K
+
+/
+
+
+
+2
+
+
+,
+
+
+
+{\displaystyle AK\,=\,AK/{\sqrt {2}},\;}
+
+ only possible 
+
+
+
+
+if 
+
+
+A
+K
+
+=
+
+0
+,
+
+
+
+{\displaystyle {\text{if }}\,AK\,=\,0,\;}
+
+ otherwise written 
+
+
+
+A
+
+=
+
+K
+.
+
+
+{\displaystyle A\,=\,K.}
+
+
+How to construct the center S of direct similarity 
+
+
+
+D
+
+
+{\displaystyle D}
+
+ 
+
+
+
+
+from square 
+
+
+A
+B
+E
+F
+,
+
+
+
+{\displaystyle {\text{from square }}\,ABEF,\,}
+
+ how to find point S center of a rotation of +135° angle that transforms ray [SE ) into ray [SA )? This is an inscribed angle problem plus a question of orientation. The set of points 
+
+
+
+P
+
+
+ such that 
+
+
+∠
+
+
+
+
+
+P
+E
+
+→
+
+
+,
+
+
+
+
+P
+A
+
+→
+
+
+
+
+=
+
++
+
+
+135
+
+
+∘
+
+
+
+
+
+{\displaystyle P\,{\text{ such that }}\;\angle \;{{\overrightarrow {PE}},\;{\overrightarrow {PA}}}\,=\,+\,135^{\,\circ }\,}
+
+ is an arc of circle 
+
+
+
+
+
+
+E
+A
+
+⌢
+
+
+
+
+
+{\displaystyle {\overset {\frown }{EA}}\;}
+
+ that joins E and A, of which the two radius leading to E and A form a central angle 
+
+
+
+
+of 
+
+
+
+2
+
+(
+
+180
+
+
+∘
+
+
+
+−
+
+
+135
+
+
+∘
+
+
+)
+
+=
+
+2
+
+×
+
+
+45
+
+
+∘
+
+
+
+=
+
+
+90
+
+
+∘
+
+
+.
+
+
+
+{\displaystyle {\text{of }}\;\;2\,(180^{\,\circ }\,-\,135^{\,\circ })\,=\,2\,\times \,45^{\,\circ }\,=\,90^{\,\circ }.\,}
+
+ This set of points is the blue quarter of circle of center F inside square ABEF. In the same manner, point S is a member of the blue quarter of circle of center T inside square BCAT. So point S is the intersection point of these two quarters of circles.
+In a general metric space (X, d), an exact similitude is a function f from the metric space X into itself that multiplies all distances by the same positive scalar r, called f 's contraction factor, so that for any two points x and y we have
+Weaker versions of similarity would for instance have f be a bi-Lipschitz function and the scalar r a limit
+This weaker version applies when the metric is an effective resistance on a topologically self-similar set.
+A self-similar subset of a metric space (X, d) is a set K for which there exists a finite set of similitudes { fs}s∈S with contraction factors 0 ≤ rs < 1 such that K is the unique compact subset of X for which
+These self-similar sets have a self-similar measure μD with dimension D given by the formula
+which is often (but not always) equal to the set's Hausdorff dimension and packing dimension. If the overlaps between the fs(K) are "small", we have the following simple formula for the measure:
+In topology, a metric space can be constructed by defining a similarity instead of a distance. The similarity is a function such that its value is greater when two points are closer (contrary to the distance, which is a measure of dissimilarity: the closer the points, the lesser the distance).
+The definition of the similarity can vary among authors, depending on which properties are desired. The basic common properties are
+More properties can be invoked, such as reflectivity (
+
+
+
+∀
+(
+a
+,
+b
+)
+ 
+S
+(
+a
+,
+b
+)
+=
+S
+(
+b
+,
+a
+)
+
+
+{\displaystyle \forall (a,b)\ S(a,b)=S(b,a)}
+
+) or finiteness (
+
+
+
+∀
+(
+a
+,
+b
+)
+ 
+S
+(
+a
+,
+b
+)
+<
+∞
+
+
+{\displaystyle \forall (a,b)\ S(a,b)<\infty }
+
+). The upper value is often set at 1 (creating a possibility for a probabilistic interpretation of the similitude).
+Note that, in the topological sense used here, a similarity is a kind of measure. This usage is not the same as the similarity transformation of the § In Euclidean space and § In general metric spaces sections of this article.
+Self-similarity means that a pattern is non-trivially similar to itself, e.g., the set {..., 0.5, 0.75, 1, 1.5, 2, 3, 4, 6, 8, 12, ...} of numbers of the form {{math|{2i, 3·2i}} where i ranges over all integers. When this set is plotted on a logarithmic scale it has one-dimensional translational symmetry: adding or subtracting the logarithm of two to the logarithm of one of these numbers produces the logarithm of another of these numbers. In the given set of numbers themselves, this corresponds to a similarity transformation in which the numbers are multiplied or divided by two.
+The intuition for the notion of geometric similarity already appears in human children, as can be seen in their drawings.[23]
+
+

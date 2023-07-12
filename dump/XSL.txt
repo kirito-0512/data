@@ -1,0 +1,18 @@
+34159,
+XSL,
+In computing, the term Extensible Stylesheet Language (XSL) is used to refer to a family of 
+languages used to transform and render XML documents.
+Historically, the W3C XSL Working Group produced a draft specification under the name "XSL", which eventually split into three parts:
+As a result, the term "XSL" is now used with a number of different meanings:
+This article is concerned with the various usages of the term "XSL": for details of the various languages embraced by the term, see the relevant article.
+XSL began as an attempt to bring the functionality of DSSSL, particularly in the area of print and high-end typesetting, to XML.
+In response to a submission from Arbortext, Inso, and Microsoft,[1] a W3C working group on XSL started operating in December 1997, with Sharon Adler and Steve Zilles as co-chairs, with James Clark acting as editor (and unofficially as chief designer), and Chris Lilley as the W3C staff contact. The group released a first public Working Draft on 18 August 1998. XSLT and XPath became W3C Recommendations on 16 November 1999 and XSL-FO reached Recommendation status on 15 October 2001.[2]
+The original version of XSLT (1.0) was published in November 1999, and was widely implemented. Some of the early implementations have fallen into disuse, but notable implementations
+actively used in 2023 include those integrated into the mainstream web browsers, as well as Altova's RaptorXML, libxslt, Saxon, the Microsoft .NET implementation System.Xml.Xsl, and Xalan which is integrated into the Oracle JVM. These products all have a high level of conformance to the specification, though they also offer proprietary vendor extensions, and some of them omit support for optional features such as disable-output-escaping.
+Subsequent versions of XSLT include XSLT 2.0 (January 2007) and XSLT 3.0 (June 2017); there is work in progress on a version 4.0. These versions have not been as widely implemented as 1.0: the main implementations in widespread use in 2023 are Saxon (available in various versions for different platforms, including web browsers), and Altova's RaptorXML.
+Support for XSL Formatting Objects is available in a number of products:
+These products support output in a number of file formats, to varying degrees:
+XML Path Language (XPath), itself part of the XSL family, functions within XSLT as a means of navigating an XML document.
+Another W3C project, XQuery, aims to provide similar capabilities for querying XML documents using XPath.
+
+

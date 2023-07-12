@@ -1,0 +1,172 @@
+7512,
+Concentration,
+In chemistry, concentration is the abundance of a constituent divided by the total volume of a mixture. Several types of mathematical description can be distinguished: mass concentration, molar concentration, number concentration, and volume concentration.[1] The concentration can refer to any kind of chemical mixture, but most frequently refers to solutes and solvents in solutions. The molar (amount) concentration has variants, such as normal concentration and osmotic concentration. Dilution is reduction of concentration, e.g. by adding solvent to a solution. The verb to concentrate means to increase concentration, the opposite of dilute.
+Concentration-, concentratio, action or an act of coming together at a single place, bringing to a common center, was used in post-classical Latin in 1550 or earlier, similar terms attested in Italian (1589), Spanish (1589), English (1606), French (1632).[2]
+Often in informal, non-technical language, concentration is described in a qualitative way, through the use of adjectives such as "dilute" for solutions of relatively low concentration and "concentrated" for solutions of relatively high concentration. To concentrate a solution, one must add more solute (for example, alcohol), or reduce the amount of solvent (for example, water). By contrast, to dilute a solution, one must add more solvent, or reduce the amount of solute. Unless two substances are miscible, there exists a concentration at which no further solute will dissolve in a solution. At this point, the solution is said to be saturated. If additional solute is added to a saturated solution, it will not dissolve, except in certain circumstances, when supersaturation may occur. Instead, phase separation will occur, leading to coexisting phases, either completely separated or mixed as a suspension. The point of saturation depends on many variables, such as ambient temperature and the precise chemical nature of the solvent and solute.
+Concentrations are often called levels, reflecting the mental schema of levels on the vertical axis of a graph, which can be high or low (for example, "high serum levels of bilirubin" are concentrations of bilirubin in the blood serum that are greater than normal).
+There are four quantities that describe concentration:
+The mass concentration 
+ρ
+i
+{\displaystyle \rho _{i}}
+ is defined as the mass of a constituent 
+m
+i
+{\displaystyle m_{i}}
+ divided by the volume of the mixture 
+V
+{\displaystyle V}
+:
+The SI unit is kg/m3 (equal to g/L).
+The molar concentration 
+c
+i
+{\displaystyle c_{i}}
+ is defined as the amount of a constituent 
+n
+i
+{\displaystyle n_{i}}
+ (in moles) divided by the volume of the mixture 
+V
+{\displaystyle V}
+:
+The SI unit is mol/m3. However, more commonly the unit mol/L (= mol/dm3) is used.
+The number concentration 
+C
+i
+{\displaystyle C_{i}}
+ is defined as the number of entities of a constituent 
+N
+i
+{\displaystyle N_{i}}
+ in a mixture divided by the volume of the mixture 
+V
+{\displaystyle V}
+:
+The SI unit is 1/m3.
+The volume concentration 
+σ
+i
+{\displaystyle \sigma _{i}}
+ (not to be confused with volume fraction[3]) is defined as the volume of a constituent 
+V
+i
+{\displaystyle V_{i}}
+ divided by the volume of the mixture 
+V
+{\displaystyle V}
+:
+Being dimensionless, it is expressed as a number, e.g., 0.18 or 18%; its unit is 1.
+There seems to be no standard notation in the English literature.
+The letter 
+σ
+i
+{\displaystyle \sigma _{i}}
+ used here is normative in German literature (see Volumenkonzentration).
+Several other quantities can be used to describe the composition of a mixture. Note that these should not be called concentrations.[1]
+Normality is defined as the molar concentration 
+c
+i
+{\displaystyle c_{i}}
+ divided by an equivalence factor 
+f
+e
+q
+{\displaystyle f_{\mathrm {eq} }}
+. Since the definition of the equivalence factor depends on context (which reaction is being studied), the International Union of Pure and Applied Chemistry and National Institute of Standards and Technology discourage the use of normality.
+Not to be confused with molarity.
+The molality of a solution 
+b
+i
+{\displaystyle b_{i}}
+ is defined as the amount of a constituent 
+n
+i
+{\displaystyle n_{i}}
+ (in moles) divided by the mass of the solvent 
+m
+s
+o
+l
+v
+e
+n
+t
+{\displaystyle m_{\mathrm {solvent} }}
+ (not the mass of the solution):
+The SI unit for molality is mol/kg.
+The mole fraction 
+x
+i
+{\displaystyle x_{i}}
+ is defined as the amount of a constituent 
+n
+i
+{\displaystyle n_{i}}
+ (in moles) divided by the total amount of all constituents in a mixture 
+n
+t
+o
+t
+{\displaystyle n_{\mathrm {tot} }}
+:
+The SI unit is mol/mol. However, the deprecated parts-per notation is often used to describe small mole fractions.
+The mole ratio 
+r
+i
+{\displaystyle r_{i}}
+ is defined as the amount of a constituent 
+n
+i
+{\displaystyle n_{i}}
+ divided by the total amount of all other constituents in a mixture:
+If 
+n
+i
+{\displaystyle n_{i}}
+ is much smaller than 
+n
+t
+o
+t
+{\displaystyle n_{\mathrm {tot} }}
+, the mole ratio is almost identical to the mole fraction.
+The SI unit is mol/mol. However, the deprecated parts-per notation is often used to describe small mole ratios.
+The mass fraction 
+w
+i
+{\displaystyle w_{i}}
+ is the fraction of one substance with mass 
+m
+i
+{\displaystyle m_{i}}
+ to the mass of the total mixture 
+m
+t
+o
+t
+{\displaystyle m_{\mathrm {tot} }}
+, defined as:
+The SI unit is kg/kg. However, the deprecated parts-per notation is often used to describe small mass fractions.
+The mass ratio 
+ζ
+i
+{\displaystyle \zeta _{i}}
+ is defined as the mass of a constituent 
+m
+i
+{\displaystyle m_{i}}
+ divided by the total mass of all other constituents in a mixture:
+If 
+m
+i
+{\displaystyle m_{i}}
+ is much smaller than 
+m
+t
+o
+t
+{\displaystyle m_{\mathrm {tot} }}
+, the mass ratio is almost identical to the mass fraction.
+The SI unit is kg/kg. However, the deprecated parts-per notation is often used to describe small mass ratios.
+Concentration depends on the variation of the volume of the solution with temperature, due mainly to thermal expansion.

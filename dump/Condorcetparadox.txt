@@ -1,0 +1,270 @@
+32718,
+Condorcetparadox,
+The Condorcet paradox (also known as the voting paradox or the paradox of voting) in social choice theory is a situation noted by the Marquis de Condorcet in the late 18th century,[1][2][3] in which collective preferences can be cyclic, even if the preferences of individual voters are not cyclic. This is paradoxical, because it means that majority wishes can be in conflict with each other: Suppose majorities prefer, for example, candidate A over B, B over C, and yet C over A. When this occurs, it is because the conflicting majorities are each made up of different groups of individuals.
+Thus an expectation that transitivity on the part of all individuals' preferences should result in transitivity of societal preferences is an example of a fallacy of composition.
+The paradox was independently discovered by Lewis Carroll and Edward J. Nanson, but its significance was not recognized until popularized by Duncan Black in the 1940s.[4]
+Suppose we have three candidates, A, B, and C, and that there are three voters with preferences as follows (candidates being listed left-to-right for each voter in decreasing order of preference):
+If C is chosen as the winner, it can be argued that B should win instead, since two voters (1 and 2) prefer B to C and only one voter (3) prefers C to B.  However, by the same argument A is preferred to B, and C is preferred to A, by a margin of two to one on each occasion. Thus the society's preferences show cycling: A is preferred over B which is preferred over C which is preferred over A.
+Note that in the graphical example, the voters and candidates are not symmetrical, but the ranked voting system "flattens" their preferences into a symmetrical cycle.[5] Cardinal voting systems provide more information than rankings, allowing a winner to be found.[6][7] For instance, under score voting, the ballots might be:[8]
+Candidate A gets the largest score, and is the winner, as A is the nearest to all voters. However, a majority of voters have an incentive to give A a 0 and C a 10, allowing C to beat A, which they prefer, at which point, a majority will then have an incentive to give C a 0 and B a 10, to make B win, etc. (In this particular example, though, the incentive is weak, as those who prefer C to A only score C 1 point above A; in a ranked Condorcet method, it's quite possible they would simply equally rank A and C because of how weak their preference is, in which case a Condorcet cycle wouldn't have formed in the first place, and A would've been the Condorcet winner). So though the cycle doesn't occur in any given set of votes, it can appear through iterated elections with strategic voters with cardinal ratings.
+Suppose that x is the fraction of voters who prefer A over B and that y is the fraction of voters who prefer B over C. It has been shown[9] that the fraction z of voters who prefer A over C is always at least (x + y – 1). Since the paradox (a majority preferring C over A) requires z < 1/2, a necessary condition for the paradox is that
+It is possible to estimate the probability of the paradox by extrapolating from real election data, or using mathematical models of voter behavior, though the results depend strongly on which model is used. In particular, Andranik Tangian has proved that the probability of Condorcet paradox is negligible in a large society.[10][11]
+We can calculate the probability of seeing the paradox for the special case where voter preferences are uniformly distributed among the candidates.
+(This is the "impartial culture" model, which is known to be unrealistic,[12][13][14]: 40  so, in practice, a Condorcet paradox may be more or less likely than this calculation.[15]: 320 [16])
+For 
+n
+{\displaystyle n}
+ voters providing a preference list of three candidates A, B, C, we write 
+X
+n
+{\displaystyle X_{n}}
+ (resp. 
+Y
+n
+{\displaystyle Y_{n}}
+, 
+Z
+n
+{\displaystyle Z_{n}}
+) the random variable equal to the number of voters who placed A in front of B (respectively B in front of C, C in front of A). The sought probability is 
+p
+n
+=
+2
+P
+(
+X
+n
+>
+n
+/
+2
+,
+Y
+n
+>
+n
+/
+2
+,
+Z
+n
+>
+n
+/
+2
+)
+{\displaystyle p_{n}=2P(X_{n}>n/2,Y_{n}>n/2,Z_{n}>n/2)}
+ (we double because there is also the symmetric case A> C> B> A). We show that, for odd 
+n
+{\displaystyle n}
+, 
+p
+n
+=
+3
+q
+n
+−
+1
+/
+2
+{\displaystyle p_{n}=3q_{n}-1/2}
+ where 
+q
+n
+=
+P
+(
+X
+n
+>
+n
+/
+2
+,
+Y
+n
+>
+n
+/
+2
+)
+{\displaystyle q_{n}=P(X_{n}>n/2,Y_{n}>n/2)}
+ which makes one need to know only the joint distribution of 
+X
+n
+{\displaystyle X_{n}}
+ and 
+Y
+n
+{\displaystyle Y_{n}}
+.
+If we put 
+p
+n
+,
+i
+,
+j
+=
+P
+(
+X
+n
+=
+i
+,
+Y
+n
+=
+j
+)
+{\displaystyle p_{n,i,j}=P(X_{n}=i,Y_{n}=j)}
+, we show the relation which makes it possible to compute this distribution by recurrence: 
+p
+n
++
+1
+,
+i
+,
+j
+=
+1
+6
+p
+n
+,
+i
+,
+j
++
+1
+3
+p
+n
+,
+i
+−
+1
+,
+j
++
+1
+3
+p
+n
+,
+i
+,
+j
+−
+1
++
+1
+6
+p
+n
+,
+i
+−
+1
+,
+j
+−
+1
+{\displaystyle p_{n+1,i,j}={1 \over 6}p_{n,i,j}+{1 \over 3}p_{n,i-1,j}+{1 \over 3}p_{n,i,j-1}+{1 \over 6}p_{n,i-1,j-1}}
+.
+The following results are then obtained:
+The sequence seems to be tending towards a finite limit.
+Using the central limit theorem, we show that 
+q
+n
+{\displaystyle q_{n}}
+ tends to 
+q
+=
+1
+4
+P
+(
+|
+T
+|
+>
+2
+4
+)
+,
+{\displaystyle q={\frac {1}{4}}P\left(|T|>{\frac {\sqrt {2}}{4}}\right),}
+ where 
+T
+{\displaystyle T}
+ is a variable following a Cauchy distribution, which gives 
+q
+=
+1
+2
+π
+∫
+2
+/
+4
++
+∞
+d
+t
+1
++
+t
+2
+=
+arctan
+⁡
+2
+2
+2
+π
+=
+arccos
+⁡
+1
+3
+2
+π
+{\displaystyle q={\dfrac {1}{2\pi }}\int _{{\sqrt {2}}/4}^{+\infty }{\frac {dt}{1+t^{2}}}={\dfrac {\arctan 2{\sqrt {2}}}{2\pi }}={\dfrac {\arccos {\frac {1}{3}}}{2\pi }}}
+ (constant quoted in the OEIS).
+The asymptotic probability of encountering the Condorcet paradox is therefore 
+3
+arccos
+⁡
+1
+3
+2
+π
+−
+1
+2
+=
+arcsin
+⁡
+6
+9
+π
+{\displaystyle {{3\arccos {1 \over 3}} \over {2\pi }}-{1 \over 2}={\arcsin {{\sqrt {6}} \over 9} \over \pi }}
+ which gives the value 8.77%.[17][18]
+Some results for the case of more than three candidates have been calculated[19] and simulated.[20]  The simulated likelihood for an impartial culture model with 25 voters increases with the number of candidates:[20]: 28 
+The likelihood of a Condorcet cycle for related models approach these values for large electorates:[18]
+All of these models are unrealistic, and are investigated to establish an upper bound on the likelihood of a cycle.[18]
+When modeled with more realistic voter preferences, Condorcet paradoxes in elections with a small number of candidates and a large number of voters become very rare.[14]: 78 
+A study of three-candidate elections analyzed 12 different models of voter behavior, and found the spatial model of voting to be the most accurate to real-world ranked-ballot election data.  Analyzing this spatial model, they found the likelihood of a cycle to decrease to zero as the number of voters increases, with likelihoods of 5% for 100 voters, 0.5% for 1000 voters, and 0.06% for 10,000 voters.[21]
+Another spatial model found likelihoods of 2% or less in all simulations of 201 voters and 5 candidates, whether two or four-dimensional, with or without correlation between dimensions, and with two different dispersions of candidates.[20]: 31 
+Many attempts have been made at finding empirical examples of the paradox.[22]  Empirical identification of a Condorcet paradox presupposes extensive data on the decision-makers' preferences over all alternatives—something that is only very rarely available.
+A summary of 37 individual studies, covering a total of 265 real-world elections, large and small, found 25 instances of a Condorcet paradox, for a total likelihood of 9.4%[15]: 325  (and this may be a high estimate, since cases of the paradox are more likely to be reported on than cases without).[14]: 47 
+An analysis of 883 three-candidate elections extracted from 84 real-world ranked-ballot elections of the Electoral Reform Society found a Condorcet cycle likelihood of 0.7%.  These derived elections had between 350 and 1,957 voters.  A similar analysis of data from the 1970–2004 American National Election Studies thermometer scale surveys found a Condorcet cycle likelihood of 0.4%. These derived elections had between 759 and 2,521 "voters".[21]
+While examples of the paradox seem to occur occasionally in small settings (e.g., parliaments) very few examples have been found in larger groups (e.g. electorates), although some have been identified.[23]
+When a Condorcet method is used to determine an election, the voting paradox of cyclical societal preferences implies that the election has no Condorcet winner: no candidate who can win a one-on-one election against each other candidate. There will still be a smallest group of candidates, known as the Smith set, such that each candidate in the group can win a one-on-one election against each of the candidates outside the group. The several variants of the Condorcet method differ on how they resolve such ambiguities when they arise to determine a winner.[24] The Condorcet methods which always elect someone from the Smith set when there is no Condorcet winner are known as Smith-efficient. Note that using only rankings, there is no fair and deterministic resolution to the trivial example given earlier because each candidate is in an exactly symmetrical situation.
+Situations having the voting paradox can cause voting mechanisms to violate the axiom of independence of irrelevant alternatives—the choice of winner by a voting mechanism could be influenced by whether or not a losing candidate is available to be voted for.
+One important implication of the possible existence of the voting paradox in a practical situation is that in a two-stage voting process, the eventual winner may depend on the way the two stages are structured. For example, suppose the winner of A versus B in the open primary contest for one party's leadership will then face the second party's leader, C, in the general election. In the earlier example, A would defeat B for the first party's nomination, and then would lose to C in the general election. But if B were in the second party instead of the first, B would defeat C for that party's nomination, and then would lose to A in the general election. Thus the structure of the two stages makes a difference for whether A or C is the ultimate winner.
+Likewise, the structure of a sequence of votes in a legislature can be manipulated by the person arranging the votes, to ensure a preferred outcome.

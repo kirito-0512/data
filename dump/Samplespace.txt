@@ -1,0 +1,666 @@
+22958,
+Samplespace,
+In probability theory, the sample space (also called sample description space,[1] possibility space,[2] or outcome space[3]) of an experiment or random trial is the set of all possible outcomes or results of that experiment.[4] A sample space is usually denoted using set notation, and the possible ordered outcomes, or sample points,[5] are listed as elements in the set. It is common to refer to a sample space by the labels S, Ω, or U (for "universal set"). The elements of a sample space may be numbers, words, letters, or symbols. They can also be finite, countably infinite, or uncountably infinite.[6]
+A subset of the sample space is an event, denoted by 
+
+
+
+E
+
+
+{\displaystyle E}
+
+. If the outcome of an experiment is included in 
+
+
+
+E
+
+
+{\displaystyle E}
+
+, then event 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ has occurred.[7]
+For example, if the experiment is tossing a single coin, the sample space is the set 
+
+
+
+{
+H
+,
+T
+}
+
+
+{\displaystyle \{H,T\}}
+
+, where the outcome 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ means that the coin is heads and the outcome 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ means that the coin is tails.[8] The possible events are 
+
+
+
+E
+=
+{
+}
+
+
+{\displaystyle E=\{\}}
+
+, 
+
+
+
+E
+=
+{
+H
+}
+
+
+{\displaystyle E=\{H\}}
+
+, 
+
+
+
+E
+=
+{
+T
+}
+
+
+{\displaystyle E=\{T\}}
+
+, and 
+
+
+
+E
+=
+{
+H
+,
+T
+}
+
+
+{\displaystyle E=\{H,T\}}
+
+. For tossing two coins, the sample space is 
+
+
+
+{
+H
+H
+,
+H
+T
+,
+T
+H
+,
+T
+T
+}
+
+
+{\displaystyle \{HH,HT,TH,TT\}}
+
+, where the outcome is 
+
+
+
+H
+H
+
+
+{\displaystyle HH}
+
+ if both coins are heads, 
+
+
+
+H
+T
+
+
+{\displaystyle HT}
+
+ if the first coin is heads and the second is tails, 
+
+
+
+T
+H
+
+
+{\displaystyle TH}
+
+ if the first coin is tails and the second is heads, and 
+
+
+
+T
+T
+
+
+{\displaystyle TT}
+
+ if both coins are tails.[9] The event that at least one of the coins is heads is given by 
+
+
+
+E
+=
+{
+H
+H
+,
+H
+T
+,
+T
+H
+}
+
+
+{\displaystyle E=\{HH,HT,TH\}}
+
+.
+For tossing a single six-sided die one time, where the result of interest is the number of pips facing up, the sample space is 
+
+
+
+{
+1
+,
+2
+,
+3
+,
+4
+,
+5
+,
+6
+}
+
+
+{\displaystyle \{1,2,3,4,5,6\}}
+
+.[10]
+A well-defined, non-empty sample space 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is one of three components in a probabilistic model (a probability space). The other two basic elements are: a well-defined set of possible events (an event space), which is typically the power set of 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ if 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ is discrete or a σ-algebra on 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ if it is continuous, and a probability assigned to each event (a probability measure function).[11]
+A sample space can be represented visually by a rectangle, with the outcomes of the sample space denoted by points within the rectangle. The events may be represented by ovals, where the points enclosed within the oval make up the event.[12]
+A set 
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+
+ with outcomes 
+
+
+
+
+s
+
+1
+
+
+,
+
+s
+
+2
+
+
+,
+…
+,
+
+s
+
+n
+
+
+
+
+{\displaystyle s_{1},s_{2},\ldots ,s_{n}}
+
+ (i.e. 
+
+
+
+Ω
+=
+{
+
+s
+
+1
+
+
+,
+
+s
+
+2
+
+
+,
+…
+,
+
+s
+
+n
+
+
+}
+
+
+{\displaystyle \Omega =\{s_{1},s_{2},\ldots ,s_{n}\}}
+
+) must meet some conditions in order to be a sample space:[13]
+For instance, in the trial of tossing a coin, one possible sample space is 
+
+
+
+
+Ω
+
+1
+
+
+=
+{
+H
+,
+T
+}
+
+
+{\displaystyle \Omega _{1}=\{H,T\}}
+
+, where 
+
+
+
+H
+
+
+{\displaystyle H}
+
+ is the outcome where the coin lands heads and 
+
+
+
+T
+
+
+{\displaystyle T}
+
+ is for tails. Another possible sample space could be 
+
+
+
+
+Ω
+
+2
+
+
+=
+{
+(
+H
+,
+R
+)
+,
+(
+H
+,
+N
+R
+)
+,
+(
+T
+,
+R
+)
+,
+(
+T
+,
+N
+R
+)
+}
+
+
+{\displaystyle \Omega _{2}=\{(H,R),(H,NR),(T,R),(T,NR)\}}
+
+. Here, 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ denotes a rainy day and 
+
+
+
+N
+R
+
+
+{\displaystyle NR}
+
+ is a day where it is not raining. For most experiments, 
+
+
+
+
+Ω
+
+1
+
+
+
+
+{\displaystyle \Omega _{1}}
+
+ would be a better choice than 
+
+
+
+
+Ω
+
+2
+
+
+
+
+{\displaystyle \Omega _{2}}
+
+, as an experimenter likely does not care about how the weather affects the coin toss.
+For many experiments, there may be more than one plausible sample space available, depending on what result is of interest to the experimenter. For example, when drawing a card from a standard deck of fifty-two playing cards, one possibility for the sample space could be the various ranks (Ace through King), while another could be the suits (clubs, diamonds, hearts, or spades).[4][14] A more complete description of outcomes, however, could specify both the denomination and the suit, and a sample space describing each individual card can be constructed as the Cartesian product of the two sample spaces noted above (this space would contain fifty-two equally likely outcomes). Still other sample spaces are possible, such as right-side up or upside down, if some cards have been flipped when shuffling.
+Some treatments of probability assume that the various outcomes of an experiment are always defined so as to be equally likely.[15] For any sample space with 
+
+
+
+N
+
+
+{\displaystyle N}
+
+ equally likely outcomes, each outcome is assigned the probability 
+
+
+
+
+
+1
+N
+
+
+
+
+{\displaystyle {\frac {1}{N}}}
+
+.[16] However, there are experiments that are not easily described by a sample space of equally likely outcomes—for example, if one were to toss a thumb tack many times and observe whether it landed with its point upward or downward, there is no physical symmetry to suggest that the two outcomes should be equally likely.[17]
+Though most random phenomena do not have equally likely outcomes, it can be helpful to define a sample space in such a way that outcomes are at least approximately equally likely, since this condition significantly simplifies the computation of probabilities for events within the sample space. If each individual outcome occurs with the same probability, then the probability of any event becomes simply:[18]: 346–347 
+For example, if two fair six-sided dice are thrown to generate two uniformly distributed integers, 
+
+
+
+
+D
+
+1
+
+
+
+
+{\displaystyle D_{1}}
+
+ and 
+
+
+
+
+D
+
+2
+
+
+
+
+{\displaystyle D_{2}}
+
+, each in the range from 1 to 6, inclusive, the 36 possible ordered pairs of outcomes 
+
+
+
+(
+
+D
+
+1
+
+
+,
+
+D
+
+2
+
+
+)
+
+
+{\displaystyle (D_{1},D_{2})}
+
+ constitute a sample space of equally likely events. In this case, the above formula applies, such as calculating the probability of a particular sum of the two rolls in an outcome. The probability of the event that the sum 
+
+
+
+
+D
+
+1
+
+
++
+
+D
+
+2
+
+
+
+
+{\displaystyle D_{1}+D_{2}}
+
+ is five is 
+
+
+
+
+
+4
+36
+
+
+
+
+{\displaystyle {\frac {4}{36}}}
+
+, since four of the thirty-six equally likely pairs of outcomes sum to five.  
+If the sample space was all of the possible sums obtained from rolling two six-sided dice, the above formula can still be applied because the dice rolls are fair, but the number of outcomes in a given event will vary. A sum of two can occur with the outcome 
+
+
+
+{
+(
+1
+,
+1
+)
+}
+
+
+{\displaystyle \{(1,1)\}}
+
+, so the probability is 
+
+
+
+
+
+1
+36
+
+
+
+
+{\displaystyle {\frac {1}{36}}}
+
+. For a sum of seven, the outcomes in the event are 
+
+
+
+{
+(
+1
+,
+6
+)
+,
+(
+6
+,
+1
+)
+,
+(
+2
+,
+5
+)
+,
+(
+5
+,
+2
+)
+,
+(
+3
+,
+4
+)
+,
+(
+4
+,
+3
+)
+}
+
+
+{\displaystyle \{(1,6),(6,1),(2,5),(5,2),(3,4),(4,3)\}}
+
+, so the probability is 
+
+
+
+
+
+6
+36
+
+
+
+
+{\displaystyle {\frac {6}{36}}}
+
+.[19]
+In statistics, inferences are made about characteristics of a population by studying a sample of that population's individuals. In order to arrive at a sample that presents an unbiased estimate of the true characteristics of the population, statisticians often seek to study a simple random sample—that is, a sample in which every individual in the population is equally likely to be included.[18]: 274–275  The result of this is that every possible combination of individuals who could be chosen for the sample has an equal chance to be the sample that is selected (that is, the space of simple random samples of a given size from a given population is composed of equally likely outcomes).[20]
+In an elementary approach to probability, any subset of the sample space is usually called an event.[9] However, this gives rise to problems when the sample space is continuous, so that a more precise definition of an event is necessary. Under this definition only measurable subsets of the sample space, constituting a σ-algebra over the sample space itself, are considered events.
+An example of an infinitely large sample space is measuring the lifetime of a light bulb. The corresponding sample space would be [0, ∞).[9]
+
+

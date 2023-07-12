@@ -1,0 +1,15 @@
+4825,
+BeBox,
+The BeBox is a dual CPU personal computer, briefly sold by Be Inc. to run the company's own operating system, BeOS. It has PowerPC CPUs, its I/O board has a custom "GeekPort", and the front bezel has "Blinkenlights".
+The BeBox made its debut in October 1995 in a dual PowerPC 603 at 66 MHz configuration.[6] The processors were upgraded to 133 MHz in August 1996 (BeBox Dual603e-133). Production was halted in January 1997,[7][8] following the port of BeOS to the Macintosh, in order for the company to concentrate on software. Be sold around 1000 66 MHz BeBoxes and 800 133 MHz BeBoxes.[3]
+BeBox creator Jean-Louis Gassée did not see the BeBox as a general consumer device, warning that "Before we let you use the BeBox, we believe you must have some aptitude toward programming –  the standard language is C++."[9]
+Initial prototypes are equipped with two AT&T Hobbit processors and three AT&T 9308S DSPs.[10]
+Production models use two 66 MHz PowerPC 603 processors or two 133 MHz PowerPC 603e processors to power the BeBox. Prototypes having dual 200 MHz CPUs or four CPUs exist, but were never publicly available.[11]
+The main board is in a standard AT format commonly found on PC. It used standard PC components to make it as inexpensive as possible.[12]
+The I/O board offers four serial ports (9-pin D-sub), a PS/2 mouse port, and two joystick ports (15-pin D-sub). 
+There are four DIN MIDI ports (two in, two out), two stereo pairs of RCA connectors audio line-level input and output, and a pair of 3.5 mm stereo phono jacks for microphone input and headphone output. There are also internal audio connectors: 5-pin strip for the audio CD line-level playback, and two 4-pin strips for microphone input and headphone output. The audio is produced with a 16-bit DAC stereo sound system capable of 48 kHz and 44.1 kHz.[12]
+For the more unusual uses, there are three 4-pin mini DIN infrared (IR) I/O ports.
+An experimental-electronic-development oriented port, backed by three fuses on the mainboard, the 37-pin D-sub "GeekPort" provides digital and analog I/O and DC power[13] on the ISA bus:
+Two yellow/green vertical LED arrays, dubbed the "blinkenlights", are built into the front bezel to illustrate the CPU load. The bottommost LED on the right side indicates hard disk activity.
+Information box
+{'Manufacturer': 'Be Inc.', 'Type': 'Workstation', 'Release date': 'BeBox Dual603-66: October 3, 1995; 27 years ago[1]\nBeBox Dual603e-133: August 5, 1996; 26 years ago[2]', 'Introductory price': 'BeBox Dual603-66 US$1,600 (equivalent to $3,070 in 2022)\nBeBox Dual603e-133 US$2,995 (equivalent to $5,590 in 2022)', 'Discontinued': 'January 1997; 26 years ago', 'Units sold': '1000 – BeBox Dual603-66\n800 – BeBox Dual603e-133[3]', 'Operating system': 'BeOS', 'CPU': '2× PowerPC 603 @ 66 MHz, or\n2× PowerPC 603e @ 133 MHz[4]', 'Memory': 'Up to 256 MB (Up to eight 72-pin SIMMs)', 'Power': '100–240 volt AC single-phase', 'Dimensions': '15.68 in × 8.28 in × 18.15 in\n39.8 cm × 21.0 cm × 46.1 cm', 'Website': 'Historical: www.be.com[5]'}

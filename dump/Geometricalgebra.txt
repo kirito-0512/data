@@ -1,0 +1,5060 @@
+12939,
+Geometricalgebra,
+In mathematics, a geometric algebra (also known as a real Clifford algebra) is an extension of elementary algebra to work with geometrical objects such as vectors. Geometric algebra is built out of two fundamental operations, addition and the geometric product. Multiplication of vectors results in higher-dimensional objects called multivectors. Compared to other formalisms for manipulating geometric objects, geometric algebra is noteworthy for supporting vector division and addition of objects of different dimensions.
+The geometric product was first briefly mentioned by Hermann Grassmann,[1] who was chiefly interested in developing the closely related exterior algebra. In 1878, William Kingdon Clifford greatly expanded on Grassmann's work to form what are now usually called Clifford algebras in his honor (although Clifford himself chose to call them "geometric algebras"). Clifford defined the Clifford algebra and its product as a unification of the Grassmann algebra and Hamilton's quaternion algebra. Adding the dual of the Grassmann exterior product (the "meet") allows the use of the Grassmann–Cayley algebra, and a conformal version of the latter together with a conformal Clifford algebra yields a conformal geometric algebra (CGA) providing a framework for classical geometries.[2] In practice, these and several derived operations allow a correspondence of elements, subspaces and operations of the algebra with geometric interpretations. For several decades, geometric algebras went somewhat ignored, greatly eclipsed by the vector calculus then newly developed to describe electromagnetism. The term "geometric algebra" was repopularized in the 1960s by Hestenes, who advocated its importance to relativistic physics.[3]
+The scalars and vectors have their usual interpretation, and make up distinct subspaces of a geometric algebra. Bivectors provide a more natural representation of the pseudovector quantities in vector algebra such as oriented area, oriented angle of rotation, torque, angular momentum and the electromagnetic field. A trivector can represent an oriented volume, and so on. An element called a blade may be used to represent a subspace of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ and orthogonal projections onto that subspace. Rotations and reflections are represented as elements. Unlike a vector algebra, a geometric algebra naturally accommodates any number of dimensions and any quadratic form such as in relativity.
+Examples of geometric algebras applied in physics include the spacetime algebra (and the less common algebra of physical space) and the conformal geometric algebra. Geometric calculus, an extension of GA that incorporates differentiation and integration, can be used to formulate other theories such as complex analysis and differential geometry, e.g. by using the Clifford algebra instead of differential forms. Geometric algebra has been advocated, most notably by David Hestenes[4] and Chris Doran,[5] as the preferred mathematical framework for physics. Proponents claim that it provides compact and intuitive descriptions in many areas including classical and quantum mechanics, electromagnetic theory and relativity.[6] GA has also found use as a computational tool in computer graphics[7] and robotics.
+There are a number of different ways to define a geometric algebra. Hestenes's original approach was axiomatic,[8] "full of geometric significance" and equivalent to the universal Clifford algebra.[9]
+Given a finite-dimensional vector space 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ over a field 
+
+
+
+F
+
+
+{\displaystyle F}
+
+ with a symmetric bilinear form (the inner product, e.g. the Euclidean or Lorentzian metric) 
+
+
+
+g
+:
+V
+×
+V
+→
+F
+
+
+{\displaystyle g:V\times V\to F}
+
+, the geometric algebra of the quadratic space 
+
+
+
+(
+V
+,
+g
+)
+
+
+{\displaystyle (V,g)}
+
+ is the Clifford algebra 
+
+
+
+Cl
+⁡
+(
+V
+,
+g
+)
+
+
+{\displaystyle \operatorname {Cl} (V,g)}
+
+. As usual in this domain, for the remainder of this article, only the real case, 
+
+
+
+F
+=
+
+R
+
+
+
+{\displaystyle F=\mathbb {R} }
+
+, will be considered. The notation 
+
+
+
+
+
+G
+
+
+(
+p
+,
+q
+)
+
+
+{\displaystyle {\mathcal {G}}(p,q)}
+
+ (respectively 
+
+
+
+
+
+G
+
+
+(
+p
+,
+q
+,
+r
+)
+
+
+{\displaystyle {\mathcal {G}}(p,q,r)}
+
+) will be used to denote a geometric algebra for which the bilinear form 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ has the signature 
+
+
+
+(
+p
+,
+q
+)
+
+
+{\displaystyle (p,q)}
+
+ (respectively 
+
+
+
+(
+p
+,
+q
+,
+r
+)
+
+
+{\displaystyle (p,q,r)}
+
+).
+The essential product in the algebra is called the geometric product, and the product in the contained exterior algebra is called the exterior product (frequently called the wedge product and less often the outer product[a]). It is standard to denote these respectively by juxtaposition (i.e., suppressing any explicit multiplication symbol) and the symbol 
+
+
+
+∧
+
+
+{\displaystyle \wedge }
+
+. The above definition of the geometric algebra is abstract, so we summarize the properties of the geometric product by the following set of axioms. The geometric product has the following properties, for 
+
+
+
+A
+,
+B
+,
+C
+∈
+
+
+G
+
+
+(
+p
+,
+q
+)
+
+
+{\displaystyle A,B,C\in {\mathcal {G}}(p,q)}
+
+:
+The exterior product has the same properties, except that the last property above is replaced by 
+
+
+
+a
+∧
+a
+=
+0
+
+
+{\displaystyle a\wedge a=0}
+
+ for 
+
+
+
+a
+∈
+V
+
+
+{\displaystyle a\in V}
+
+.
+Note that in the last property above, the real number 
+
+
+
+g
+(
+a
+,
+a
+)
+
+
+{\displaystyle g(a,a)}
+
+ need not be nonnegative if 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ is not positive-definite. An important property of the geometric product is the existence of elements having a multiplicative inverse. For a vector 
+
+
+
+a
+
+
+{\displaystyle a}
+
+, if 
+
+
+
+
+a
+
+2
+
+
+≠
+0
+
+
+{\displaystyle a^{2}\neq 0}
+
+ then 
+
+
+
+
+a
+
+−
+1
+
+
+
+
+{\displaystyle a^{-1}}
+
+ exists and is equal to 
+
+
+
+g
+(
+a
+,
+a
+
+)
+
+−
+1
+
+
+a
+
+
+{\displaystyle g(a,a)^{-1}a}
+
+. A nonzero element of the algebra does not necessarily have a multiplicative inverse. For example, if 
+
+
+
+u
+
+
+{\displaystyle u}
+
+ is a vector in 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ such that 
+
+
+
+
+u
+
+2
+
+
+=
+1
+
+
+{\displaystyle u^{2}=1}
+
+, the element 
+
+
+
+
+
+
+1
+2
+
+
+(
+1
++
+u
+)
+
+
+
+{\displaystyle \textstyle {\frac {1}{2}}(1+u)}
+
+ is both a nontrivial idempotent element and a nonzero zero divisor, and thus has no inverse.[b]
+It is usual to identify 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ and 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ with their images under the natural embeddings 
+
+
+
+
+R
+
+→
+
+
+G
+
+
+(
+p
+,
+q
+)
+
+
+{\displaystyle \mathbb {R} \to {\mathcal {G}}(p,q)}
+
+ and 
+
+
+
+V
+→
+
+
+G
+
+
+(
+p
+,
+q
+)
+
+
+{\displaystyle V\to {\mathcal {G}}(p,q)}
+
+. In this article, this identification is assumed. Throughout, the terms scalar and vector refer to elements of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ and 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ respectively (and of their images under this embedding).
+For vectors 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+, we may write the geometric product of any two vectors 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ as the sum of a symmetric product and an antisymmetric product:
+Thus we can define the inner product[c] of vectors as
+so that the symmetric product can be written as
+Conversely, 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ is completely determined by the algebra. The antisymmetric part is the exterior product of the two vectors, the product of the contained exterior algebra:
+Then by simple addition:
+The inner and exterior products are associated with familiar concepts from standard vector algebra. Geometrically, 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ are parallel if their geometric product is equal to their inner product, whereas 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ are perpendicular if their geometric product is equal to their exterior product. In a geometric algebra for which the square of any nonzero vector is positive, the inner product of two vectors can be identified with the dot product of standard vector algebra. The exterior product of two vectors can be identified with the signed area enclosed by a parallelogram the sides of which are the vectors. The cross product of two vectors in 
+
+
+
+3
+
+
+{\displaystyle 3}
+
+ dimensions with positive-definite quadratic form is closely related to their exterior product.
+Most instances of geometric algebras of interest have a nondegenerate quadratic form. If the quadratic form is fully degenerate, the inner product of any two vectors is always zero, and the geometric algebra is then simply an exterior algebra. Unless otherwise stated, this article will treat only nondegenerate geometric algebras.
+The exterior product is naturally extended as an associative bilinear binary operator between any two elements of the algebra, satisfying the identities
+where the sum is over all permutations of the indices, with 
+
+
+
+sgn
+⁡
+(
+σ
+)
+
+
+{\displaystyle \operatorname {sgn} (\sigma )}
+
+ the sign of the permutation, and 
+
+
+
+
+a
+
+i
+
+
+
+
+{\displaystyle a_{i}}
+
+ are vectors (not general elements of the algebra). Since every element of the algebra can be expressed as the sum of products of this form, this defines the exterior product for every pair of elements of the algebra. It follows from the definition that the exterior product forms an alternating algebra.
+A multivector that is the exterior product of 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ linearly independent vectors is called a blade, and is said to be of grade 
+
+
+
+r
+
+
+{\displaystyle r}
+
+.[e] A multivector that is the sum of blades of grade 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ is called a (homogeneous) multivector of grade 
+
+
+
+r
+
+
+{\displaystyle r}
+
+.  From the axioms, with closure, every multivector of the geometric algebra is a sum of blades.
+Consider a set of 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ linearly independent vectors 
+
+
+
+{
+
+a
+
+1
+
+
+,
+…
+,
+
+a
+
+r
+
+
+}
+
+
+{\displaystyle \{a_{1},\ldots ,a_{r}\}}
+
+ spanning an 
+
+
+
+r
+
+
+{\displaystyle r}
+
+-dimensional subspace of the vector space. With these, we can define a real symmetric matrix (in the same way as a Gramian matrix)
+By the spectral theorem, 
+
+
+
+
+A
+
+
+
+{\displaystyle \mathbf {A} }
+
+ can be diagonalized to diagonal matrix 
+
+
+
+
+D
+
+
+
+{\displaystyle \mathbf {D} }
+
+ by an orthogonal matrix 
+
+
+
+
+O
+
+
+
+{\displaystyle \mathbf {O} }
+
+ via
+Define a new set of vectors 
+
+
+
+{
+
+e
+
+1
+
+
+,
+…
+,
+
+e
+
+r
+
+
+}
+
+
+{\displaystyle \{e_{1},\ldots ,e_{r}\}}
+
+, known as orthogonal basis vectors, to be those transformed by the orthogonal matrix:
+Since orthogonal transformations preserve inner products, it follows that 
+
+
+
+
+e
+
+i
+
+
+⋅
+
+e
+
+j
+
+
+=
+[
+
+D
+
+
+]
+
+i
+j
+
+
+
+
+{\displaystyle e_{i}\cdot e_{j}=[\mathbf {D} ]_{ij}}
+
+ and thus the 
+
+
+
+{
+
+e
+
+1
+
+
+,
+…
+,
+
+e
+
+r
+
+
+}
+
+
+{\displaystyle \{e_{1},\ldots ,e_{r}\}}
+
+ are perpendicular. In other words, the geometric product of two distinct vectors 
+
+
+
+
+e
+
+i
+
+
+≠
+
+e
+
+j
+
+
+
+
+{\displaystyle e_{i}\neq e_{j}}
+
+ is completely specified by their exterior product, or more generally
+Therefore, every blade of grade 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ can be written as a geometric product of 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ vectors. More generally, if a degenerate geometric algebra is allowed, then the orthogonal matrix is replaced by a block matrix that is orthogonal in the nondegenerate block, and the diagonal matrix has zero-valued entries along the degenerate dimensions. If the new vectors of the nondegenerate subspace are normalized according to
+then these normalized vectors must square to 
+
+
+
++
+1
+
+
+{\displaystyle +1}
+
+ or 
+
+
+
+−
+1
+
+
+{\displaystyle -1}
+
+. By Sylvester's law of inertia, the total number of 
+
+
+
++
+1
+
+
+{\displaystyle +1}
+
+s and the total number of 
+
+
+
+−
+1
+
+
+{\displaystyle -1}
+
+s along the diagonal matrix is invariant. By extension, the total number 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ of these vectors that square to 
+
+
+
++
+1
+
+
+{\displaystyle +1}
+
+ and the total number 
+
+
+
+q
+
+
+{\displaystyle q}
+
+ that square to 
+
+
+
+−
+1
+
+
+{\displaystyle -1}
+
+ is invariant. (The total number of basis vectors that square to zero is also invariant, and may be nonzero if the degenerate case is allowed.) We denote this algebra 
+
+
+
+
+
+G
+
+
+(
+p
+,
+q
+)
+
+
+{\displaystyle {\mathcal {G}}(p,q)}
+
+. For example, 
+
+
+
+
+
+G
+
+
+(
+3
+,
+0
+)
+
+
+{\displaystyle {\mathcal {G}}(3,0)}
+
+ models three-dimensional Euclidean space, 
+
+
+
+
+
+G
+
+
+(
+1
+,
+3
+)
+
+
+{\displaystyle {\mathcal {G}}(1,3)}
+
+ relativistic spacetime and 
+
+
+
+
+
+G
+
+
+(
+4
+,
+1
+)
+
+
+{\displaystyle {\mathcal {G}}(4,1)}
+
+ a conformal geometric algebra of a three-dimensional space.
+The set of all possible products of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ orthogonal basis vectors with indices in increasing order, including 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+ as the empty product, forms a basis for the entire geometric algebra (an analogue of the PBW theorem). For example, the following is a basis for the geometric algebra 
+
+
+
+
+
+G
+
+
+(
+3
+,
+0
+)
+
+
+{\displaystyle {\mathcal {G}}(3,0)}
+
+:
+A basis formed this way is called a canonical basis for the geometric algebra, and any other orthogonal basis for 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ will produce another canonical basis. Each canonical basis consists of 
+
+
+
+
+2
+
+n
+
+
+
+
+{\displaystyle 2^{n}}
+
+ elements. Every multivector of the geometric algebra can be expressed as a linear combination of the canonical basis elements. If the canonical basis elements are 
+
+
+
+{
+
+B
+
+i
+
+
+∣
+i
+∈
+S
+}
+
+
+{\displaystyle \{B_{i}\mid i\in S\}}
+
+ with 
+
+
+
+S
+
+
+{\displaystyle S}
+
+ being an index set, then the geometric product of any two multivectors is
+The terminology "
+
+
+
+k
+
+
+{\displaystyle k}
+
+-vector" is often encountered to describe multivectors containing elements of only one grade. In higher dimensional space, some such multivectors are not blades (cannot be factored into the exterior product of 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ vectors). By way of example, 
+
+
+
+
+e
+
+1
+
+
+∧
+
+e
+
+2
+
+
++
+
+e
+
+3
+
+
+∧
+
+e
+
+4
+
+
+
+
+{\displaystyle e_{1}\wedge e_{2}+e_{3}\wedge e_{4}}
+
+ in 
+
+
+
+
+
+G
+
+
+(
+4
+,
+0
+)
+
+
+{\displaystyle {\mathcal {G}}(4,0)}
+
+ cannot be factored; typically, however, such elements of the algebra do not yield to geometric interpretation as objects, although they may represent geometric quantities such as rotations. Only 
+
+
+
+0
+,
+1
+,
+(
+n
+−
+1
+)
+
+
+{\displaystyle 0,1,(n-1)}
+
+ and 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-vectors are always blades in 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-space.
+Using an orthogonal basis, a graded vector space structure can be established. Elements of the geometric algebra that are scalar multiples of 
+
+
+
+1
+
+
+{\displaystyle 1}
+
+ are grade-
+
+
+
+0
+
+
+{\displaystyle 0}
+
+ blades and are called scalars. Multivectors that are in the span of 
+
+
+
+{
+
+e
+
+1
+
+
+,
+…
+,
+
+e
+
+n
+
+
+}
+
+
+{\displaystyle \{e_{1},\ldots ,e_{n}\}}
+
+ are grade-
+
+
+
+1
+
+
+{\displaystyle 1}
+
+ blades and are the ordinary vectors. Multivectors in the span of 
+
+
+
+{
+
+e
+
+i
+
+
+
+e
+
+j
+
+
+∣
+1
+≤
+i
+<
+j
+≤
+n
+}
+
+
+{\displaystyle \{e_{i}e_{j}\mid 1\leq i<j\leq n\}}
+
+ are grade-
+
+
+
+2
+
+
+{\displaystyle 2}
+
+ blades and are the bivectors. This terminology continues through to the last grade of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-vectors. Alternatively, grade-
+
+
+
+n
+
+
+{\displaystyle n}
+
+ blades are called pseudoscalars, grade-
+
+
+
+(
+n
+−
+1
+)
+
+
+{\displaystyle (n-1)}
+
+ blades pseudovectors, etc. Many of the elements of the algebra are not graded by this scheme since they are sums of elements of differing grade. Such elements are said to be of mixed grade. The grading of multivectors is independent of the basis chosen originally.
+This is a grading as a vector space, but not as an algebra. Because the product of an 
+
+
+
+r
+
+
+{\displaystyle r}
+
+-blade and an 
+
+
+
+s
+
+
+{\displaystyle s}
+
+-blade is contained in the span of 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+ through 
+
+
+
+r
++
+s
+
+
+{\displaystyle r+s}
+
+-blades, the geometric algebra is a filtered algebra.
+A multivector 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ may be decomposed with the grade-projection operator 
+
+
+
+⟨
+A
+
+⟩
+
+r
+
+
+
+
+{\displaystyle \langle A\rangle _{r}}
+
+, which outputs the grade-
+
+
+
+r
+
+
+{\displaystyle r}
+
+ portion of 
+
+
+
+A
+
+
+{\displaystyle A}
+
+. As a result:
+As an example, the geometric product of two vectors 
+
+
+
+a
+b
+=
+a
+⋅
+b
++
+a
+∧
+b
+=
+⟨
+a
+b
+
+⟩
+
+0
+
+
++
+⟨
+a
+b
+
+⟩
+
+2
+
+
+
+
+{\displaystyle ab=a\cdot b+a\wedge b=\langle ab\rangle _{0}+\langle ab\rangle _{2}}
+
+ since 
+
+
+
+⟨
+a
+b
+
+⟩
+
+0
+
+
+=
+a
+⋅
+b
+
+
+{\displaystyle \langle ab\rangle _{0}=a\cdot b}
+
+ and 
+
+
+
+⟨
+a
+b
+
+⟩
+
+2
+
+
+=
+a
+∧
+b
+
+
+{\displaystyle \langle ab\rangle _{2}=a\wedge b}
+
+ and 
+
+
+
+⟨
+a
+b
+
+⟩
+
+i
+
+
+=
+0
+
+
+{\displaystyle \langle ab\rangle _{i}=0}
+
+, for 
+
+
+
+i
+
+
+{\displaystyle i}
+
+ other than 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+ and 
+
+
+
+2
+
+
+{\displaystyle 2}
+
+.
+The decomposition of a multivector 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ may also be split into those components that are even and those that are odd:
+This is the result of forgetting structure from a 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathrm {Z} }
+
+-graded vector space to 
+
+
+
+
+
+Z
+
+
+2
+
+
+
+
+{\displaystyle \mathrm {Z} _{2}}
+
+-graded vector space. The geometric product respects this coarser grading. Thus in addition to being a 
+
+
+
+
+
+Z
+
+
+2
+
+
+
+
+{\displaystyle \mathrm {Z} _{2}}
+
+-graded vector space, the geometric algebra is a 
+
+
+
+
+
+Z
+
+
+2
+
+
+
+
+{\displaystyle \mathrm {Z} _{2}}
+
+-graded algebra or superalgebra.
+Restricting to the even part, the product of two even elements is also even. This means that the even multivectors defines an even subalgebra. The even subalgebra of an 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-dimensional geometric algebra is isomorphic (without preserving either filtration or grading) to a full geometric algebra of 
+
+
+
+(
+n
+−
+1
+)
+
+
+{\displaystyle (n-1)}
+
+ dimensions. Examples include 
+
+
+
+
+
+
+G
+
+
+
++
+
+
+(
+2
+,
+0
+)
+≅
+
+
+G
+
+
+(
+0
+,
+1
+)
+
+
+{\displaystyle {\mathcal {G}}^{+}(2,0)\cong {\mathcal {G}}(0,1)}
+
+ and 
+
+
+
+
+
+
+G
+
+
+
++
+
+
+(
+1
+,
+3
+)
+≅
+
+
+G
+
+
+(
+3
+,
+0
+)
+
+
+{\displaystyle {\mathcal {G}}^{+}(1,3)\cong {\mathcal {G}}(3,0)}
+
+.
+Geometric algebra represents subspaces of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ as blades, and so they coexist in the same algebra with vectors from 
+
+
+
+V
+
+
+{\displaystyle V}
+
+. A 
+
+
+
+k
+
+
+{\displaystyle k}
+
+-dimensional subspace 
+
+
+
+W
+
+
+{\displaystyle W}
+
+ of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is represented by taking an orthogonal basis 
+
+
+
+{
+
+b
+
+1
+
+
+,
+
+b
+
+2
+
+
+,
+…
+,
+
+b
+
+k
+
+
+}
+
+
+{\displaystyle \{b_{1},b_{2},\ldots ,b_{k}\}}
+
+ and using the geometric product to form the blade 
+
+
+
+D
+=
+
+b
+
+1
+
+
+
+b
+
+2
+
+
+⋯
+
+b
+
+k
+
+
+
+
+{\displaystyle D=b_{1}b_{2}\cdots b_{k}}
+
+. There are multiple blades representing 
+
+
+
+W
+
+
+{\displaystyle W}
+
+; all those representing 
+
+
+
+W
+
+
+{\displaystyle W}
+
+ are scalar multiples of 
+
+
+
+D
+
+
+{\displaystyle D}
+
+. These blades can be separated into two sets: positive multiples of 
+
+
+
+D
+
+
+{\displaystyle D}
+
+ and negative multiples of 
+
+
+
+D
+
+
+{\displaystyle D}
+
+. The positive multiples of 
+
+
+
+D
+
+
+{\displaystyle D}
+
+ are said to have the same orientation as 
+
+
+
+D
+
+
+{\displaystyle D}
+
+, and the negative multiples the opposite orientation.
+Blades are important since geometric operations such as projections, rotations and reflections depend on the factorability via the exterior product that (the restricted class of) 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-blades provide but that (the generalized class of) grade-
+
+
+
+n
+
+
+{\displaystyle n}
+
+ multivectors do not when 
+
+
+
+n
+≥
+4
+
+
+{\displaystyle n\geq 4}
+
+.
+Unit pseudoscalars are blades that play important roles in GA. A unit pseudoscalar for a non-degenerate subspace 
+
+
+
+W
+
+
+{\displaystyle W}
+
+ of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ is a blade that is the product of the members of an orthonormal basis for 
+
+
+
+W
+
+
+{\displaystyle W}
+
+. It can be shown that if 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ and 
+
+
+
+
+I
+′
+
+
+
+{\displaystyle I'}
+
+ are both unit pseudoscalars for 
+
+
+
+W
+
+
+{\displaystyle W}
+
+, then 
+
+
+
+I
+=
+±
+
+I
+′
+
+
+
+{\displaystyle I=\pm I'}
+
+ and 
+
+
+
+
+I
+
+2
+
+
+=
+±
+1
+
+
+{\displaystyle I^{2}=\pm 1}
+
+. If one doesn't choose an orthonormal basis for 
+
+
+
+W
+
+
+{\displaystyle W}
+
+, then the Plücker embedding gives a vector in the exterior algebra but only up to scaling. Using the vector space isomorphism between the geometric algebra and exterior algebra, this gives the equivalence class of 
+
+
+
+α
+I
+
+
+{\displaystyle \alpha I}
+
+ for all 
+
+
+
+α
+≠
+0
+
+
+{\displaystyle \alpha \neq 0}
+
+. Orthonormality gets rid of this ambiguity except for the signs above.
+Suppose the geometric algebra 
+
+
+
+
+
+G
+
+
+(
+n
+,
+0
+)
+
+
+{\displaystyle {\mathcal {G}}(n,0)}
+
+ with the familiar positive definite inner product on 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ is formed. Given a plane (two-dimensional subspace) of 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+, one can find an orthonormal basis 
+
+
+
+{
+
+b
+
+1
+
+
+,
+
+b
+
+2
+
+
+}
+
+
+{\displaystyle \{b_{1},b_{2}\}}
+
+ spanning the plane, and thus find a unit pseudoscalar 
+
+
+
+I
+=
+
+b
+
+1
+
+
+
+b
+
+2
+
+
+
+
+{\displaystyle I=b_{1}b_{2}}
+
+ representing this plane. The geometric product of any two vectors in the span of 
+
+
+
+
+b
+
+1
+
+
+
+
+{\displaystyle b_{1}}
+
+ and 
+
+
+
+
+b
+
+2
+
+
+
+
+{\displaystyle b_{2}}
+
+ lies in 
+
+
+
+{
+
+α
+
+0
+
+
++
+
+α
+
+1
+
+
+I
+∣
+
+α
+
+i
+
+
+∈
+
+R
+
+}
+
+
+{\displaystyle \{\alpha _{0}+\alpha _{1}I\mid \alpha _{i}\in \mathbb {R} \}}
+
+, that is, it is the sum of a 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+-vector and a 
+
+
+
+2
+
+
+{\displaystyle 2}
+
+-vector.
+By the properties of the geometric product, 
+
+
+
+
+I
+
+2
+
+
+=
+
+b
+
+1
+
+
+
+b
+
+2
+
+
+
+b
+
+1
+
+
+
+b
+
+2
+
+
+=
+−
+
+b
+
+1
+
+
+
+b
+
+2
+
+
+
+b
+
+2
+
+
+
+b
+
+1
+
+
+=
+−
+1
+
+
+{\displaystyle I^{2}=b_{1}b_{2}b_{1}b_{2}=-b_{1}b_{2}b_{2}b_{1}=-1}
+
+. The resemblance to the imaginary unit is not incidental: the subspace 
+
+
+
+{
+
+α
+
+0
+
+
++
+
+α
+
+1
+
+
+I
+∣
+
+α
+
+i
+
+
+∈
+
+R
+
+}
+
+
+{\displaystyle \{\alpha _{0}+\alpha _{1}I\mid \alpha _{i}\in \mathbb {R} \}}
+
+ is 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+-algebra isomorphic to the complex numbers. In this way, a copy of the complex numbers is embedded in the geometric algebra for each two-dimensional subspace of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ on which the quadratic form is definite.
+It is sometimes possible to identify the presence of an imaginary unit in a physical equation. Such units arise from one of the many quantities in the real algebra that square to 
+
+
+
+−
+1
+
+
+{\displaystyle -1}
+
+, and these have geometric significance because of the properties of the algebra and the interaction of its various subspaces.
+In 
+
+
+
+
+
+G
+
+
+(
+3
+,
+0
+)
+
+
+{\displaystyle {\mathcal {G}}(3,0)}
+
+, a further familiar case occurs. Given a canonical basis consisting of orthonormal vectors 
+
+
+
+
+e
+
+i
+
+
+
+
+{\displaystyle e_{i}}
+
+ of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+, the set of all 
+
+
+
+2
+
+
+{\displaystyle 2}
+
+-vectors is spanned by
+Labelling these 
+
+
+
+i
+
+
+{\displaystyle i}
+
+, 
+
+
+
+j
+
+
+{\displaystyle j}
+
+ and 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ (momentarily deviating from our uppercase convention), the subspace generated by 
+
+
+
+0
+
+
+{\displaystyle 0}
+
+-vectors and 
+
+
+
+2
+
+
+{\displaystyle 2}
+
+-vectors is exactly 
+
+
+
+{
+
+α
+
+0
+
+
++
+i
+
+α
+
+1
+
+
++
+j
+
+α
+
+2
+
+
++
+k
+
+α
+
+3
+
+
+∣
+
+α
+
+i
+
+
+∈
+
+R
+
+}
+
+
+{\displaystyle \{\alpha _{0}+i\alpha _{1}+j\alpha _{2}+k\alpha _{3}\mid \alpha _{i}\in \mathbb {R} \}}
+
+. This set is seen to be the even subalgebra of 
+
+
+
+
+
+G
+
+
+(
+3
+,
+0
+)
+
+
+{\displaystyle {\mathcal {G}}(3,0)}
+
+, and furthermore is isomorphic as an 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+-algebra to the quaternions, another important algebraic system.
+It is common practice to extend the exterior product on vectors to the entire algebra. This may be done through the use of the above mentioned grade projection operator:
+This generalization is consistent with the above definition involving antisymmetrization. Another generalization related to the exterior product is the commutator product:
+The regressive product (usually referred to as the "meet") is the dual of the exterior product (or "join" in this context).[f] The dual specification of elements permits, for blades 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+, the intersection (or meet) where the duality is to be taken relative to the smallest grade blade containing both 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ (the join).[14]
+with 
+
+
+
+I
+
+
+{\displaystyle I}
+
+ the unit pseudoscalar of the algebra. The regressive product, like the exterior product, is associative.[15]
+The inner product on vectors can also be generalized, but in more than one non-equivalent way. The paper (Dorst 2002) gives a full treatment of several different inner products developed for geometric algebras and their interrelationships, and the notation is taken from there. Many authors use the same symbol as for the inner product of vectors for their chosen extension (e.g. Hestenes and Perwass). No consistent notation has emerged.
+Among these several different generalizations of the inner product on vectors are:
+Dorst (2002) makes an argument for the use of contractions in preference to Hestenes's inner product; they are algebraically more regular and have cleaner geometric interpretations. 
+A number of identities incorporating the contractions are valid without restriction of their inputs.
+For example,
+Benefits of using the left contraction as an extension of the inner product on vectors include that the identity 
+
+
+
+a
+b
+=
+a
+⋅
+b
++
+a
+∧
+b
+
+
+{\displaystyle ab=a\cdot b+a\wedge b}
+
+ is extended to 
+
+
+
+a
+B
+=
+a
+
+⌋
+
+B
++
+a
+∧
+B
+
+
+{\displaystyle aB=a\;\rfloor \;B+a\wedge B}
+
+ for any vector 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and multivector 
+
+
+
+B
+
+
+{\displaystyle B}
+
+, and that the projection operation 
+
+
+
+
+
+
+P
+
+
+
+b
+
+
+(
+a
+)
+=
+(
+a
+⋅
+
+b
+
+−
+1
+
+
+)
+b
+
+
+{\displaystyle {\mathcal {P}}_{b}(a)=(a\cdot b^{-1})b}
+
+ is extended to 
+
+
+
+
+
+
+P
+
+
+
+B
+
+
+(
+A
+)
+=
+(
+A
+
+⌋
+
+
+B
+
+−
+1
+
+
+)
+
+⌋
+
+B
+
+
+{\displaystyle {\mathcal {P}}_{B}(A)=(A\;\rfloor \;B^{-1})\;\rfloor \;B}
+
+ for any blade 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ and any multivector 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ (with a minor modification to accommodate null 
+
+
+
+B
+
+
+{\displaystyle B}
+
+, given below).
+Let 
+
+
+
+{
+
+e
+
+1
+
+
+,
+…
+,
+
+e
+
+n
+
+
+}
+
+
+{\displaystyle \{e_{1},\ldots ,e_{n}\}}
+
+ be a basis of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+, i.e. a set of 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ linearly independent vectors that span the 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-dimensional vector space 
+
+
+
+V
+
+
+{\displaystyle V}
+
+. The basis that is dual to 
+
+
+
+{
+
+e
+
+1
+
+
+,
+…
+,
+
+e
+
+n
+
+
+}
+
+
+{\displaystyle \{e_{1},\ldots ,e_{n}\}}
+
+ is the set of elements of the dual vector space 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+ that forms a biorthogonal system with this basis, thus being the elements denoted 
+
+
+
+{
+
+e
+
+1
+
+
+,
+…
+,
+
+e
+
+n
+
+
+}
+
+
+{\displaystyle \{e^{1},\ldots ,e^{n}\}}
+
+ satisfying
+where 
+
+
+
+δ
+
+
+{\displaystyle \delta }
+
+ is the Kronecker delta.
+Given a nondegenerate quadratic form on 
+
+
+
+V
+
+
+{\displaystyle V}
+
+, 
+
+
+
+
+V
+
+∗
+
+
+
+
+{\displaystyle V^{*}}
+
+ becomes naturally identified with 
+
+
+
+V
+
+
+{\displaystyle V}
+
+, and the dual basis may be regarded as elements of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+, but are not in general the same set as the original basis.
+Given further a GA of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+, let 
+be the pseudoscalar (which does not necessarily square to 
+
+
+
+±
+1
+
+
+{\displaystyle \pm 1}
+
+) formed from the basis 
+
+
+
+{
+
+e
+
+1
+
+
+,
+…
+,
+
+e
+
+n
+
+
+}
+
+
+{\displaystyle \{e_{1},\ldots ,e_{n}\}}
+
+. The dual basis vectors may be constructed as
+where the 
+
+
+
+
+
+
+
+e
+ˇ
+
+
+
+
+i
+
+
+
+
+{\displaystyle {\check {e}}_{i}}
+
+ denotes that the 
+
+
+
+i
+
+
+{\displaystyle i}
+
+th basis vector is omitted from the product.
+A dual basis is also known as a reciprocal basis or reciprocal frame.
+A major usage of a dual basis is to separate vectors into components. Given a vector 
+
+
+
+a
+
+
+{\displaystyle a}
+
+, scalar components 
+
+
+
+
+a
+
+i
+
+
+
+
+{\displaystyle a^{i}}
+
+ can be defined as
+in terms of which 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ can be separated into vector components as
+We can also define scalar components 
+
+
+
+
+a
+
+i
+
+
+
+
+{\displaystyle a_{i}}
+
+ as
+in terms of which 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ can be separated into vector components in terms of the dual basis as
+A dual basis as defined above for the vector subspace of a geometric algebra can be extended to cover the entire algebra.[16] For compactness, we'll use a single capital letter to represent an ordered set of vector indices. I.e., writing
+where 
+
+
+
+
+j
+
+1
+
+
+<
+
+j
+
+2
+
+
+<
+⋯
+<
+
+j
+
+n
+
+
+,
+
+
+{\displaystyle j_{1}<j_{2}<\dots <j_{n},}
+
+
+we can write a basis blade as
+The corresponding reciprocal blade has the indices in opposite order:
+Similar to the case above with vectors, it can be shown that
+where 
+
+
+
+∗
+
+
+{\displaystyle *}
+
+ is the scalar product.
+With 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ a multivector, we can now define scalar components as
+in terms of which 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ can be separated into component blades as
+We can alternatively define scalar components 
+
+
+
+
+A
+
+J
+
+
+
+
+{\displaystyle A_{J}}
+
+ as
+in terms of which 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ can be separated into component blades as
+Although a versor is easier to work with because it can be directly represented in the algebra as a multivector, versors are a subgroup of linear functions on multivectors, which can still be used when necessary. The geometric algebra of an 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-dimensional vector space is spanned by a basis of 
+
+
+
+
+2
+
+n
+
+
+
+
+{\displaystyle 2^{n}}
+
+ elements. If a multivector is represented by a 
+
+
+
+
+2
+
+n
+
+
+×
+1
+
+
+{\displaystyle 2^{n}\times 1}
+
+ real column matrix of coefficients of a basis of the algebra, then all linear transformations of the multivector can be expressed as the matrix multiplication by a 
+
+
+
+
+2
+
+n
+
+
+×
+
+2
+
+n
+
+
+
+
+{\displaystyle 2^{n}\times 2^{n}}
+
+ real matrix. However, such a general linear transformation allows arbitrary exchanges among grades, such as a "rotation" of a scalar into a vector, which has no evident geometric interpretation.
+A general linear transformation from vectors to vectors is of interest. With the natural restriction to preserving the induced exterior algebra, the outermorphism of the linear transformation is the unique[h] extension of the versor. If 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ is a linear function that maps vectors to vectors, then its outermorphism is the function that obeys the rule
+for a blade, extended to the whole algebra through linearity.
+Although a lot of attention has been placed on CGA, it is to be noted that GA is not just one algebra, it is one of a family of algebras with the same essential structure.[17]
+
+
+
+
+
+
+G
+
+
+(
+3
+,
+0
+)
+
+
+{\displaystyle {\mathcal {G}}(3,0)}
+
+ may be considered as an extension or completion of vector algebra.
+The even subalgebra of 
+
+
+
+
+
+G
+
+
+(
+2
+,
+0
+)
+
+
+{\displaystyle {\mathcal {G}}(2,0)}
+
+ is isomorphic to the complex numbers, as may be seen by writing a vector 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ in terms of its components in an orthonormal basis and left multiplying by the basis vector 
+
+
+
+
+e
+
+1
+
+
+
+
+{\displaystyle e_{1}}
+
+, yielding
+where we identify 
+
+
+
+i
+↦
+
+e
+
+1
+
+
+
+e
+
+2
+
+
+
+
+{\displaystyle i\mapsto e_{1}e_{2}}
+
+ since
+Similarly, the even subalgebra of 
+
+
+
+
+
+G
+
+
+(
+3
+,
+0
+)
+
+
+{\displaystyle {\mathcal {G}}(3,0)}
+
+ with basis 
+
+
+
+{
+1
+,
+
+e
+
+2
+
+
+
+e
+
+3
+
+
+,
+
+e
+
+3
+
+
+
+e
+
+1
+
+
+,
+
+e
+
+1
+
+
+
+e
+
+2
+
+
+}
+
+
+{\displaystyle \{1,e_{2}e_{3},e_{3}e_{1},e_{1}e_{2}\}}
+
+ is isomorphic to the quaternions as may be seen by identifying 
+
+
+
+i
+↦
+−
+
+e
+
+2
+
+
+
+e
+
+3
+
+
+
+
+{\displaystyle i\mapsto -e_{2}e_{3}}
+
+, 
+
+
+
+j
+↦
+−
+
+e
+
+3
+
+
+
+e
+
+1
+
+
+
+
+{\displaystyle j\mapsto -e_{3}e_{1}}
+
+ and 
+
+
+
+k
+↦
+−
+
+e
+
+1
+
+
+
+e
+
+2
+
+
+
+
+{\displaystyle k\mapsto -e_{1}e_{2}}
+
+.
+Every associative algebra has a matrix representation; replacing the three Cartesian basis vectors by the Pauli matrices gives a representation of 
+
+
+
+
+
+G
+
+
+(
+3
+,
+0
+)
+
+
+{\displaystyle {\mathcal {G}}(3,0)}
+
+:
+Dotting the "Pauli vector" (a dyad):
+In physics, the main applications are the geometric algebra of Minkowski 3+1 spacetime, 
+
+
+
+
+
+G
+
+
+(
+1
+,
+3
+)
+
+
+{\displaystyle {\mathcal {G}}(1,3)}
+
+, called spacetime algebra (STA),[3] or less commonly, 
+
+
+
+
+
+G
+
+
+(
+3
+,
+0
+)
+
+
+{\displaystyle {\mathcal {G}}(3,0)}
+
+, interpreted the algebra of physical space (APS).
+While in STA, points of spacetime are represented simply by vectors, in APS, points of 
+
+
+
+(
+3
++
+1
+)
+
+
+{\displaystyle (3+1)}
+
+-dimensional spacetime are instead represented by paravectors, a three-dimensional vector (space) plus a one-dimensional scalar (time).
+In spacetime algebra the electromagnetic field tensor has a bivector representation 
+
+
+
+
+F
+
+=
+(
+
+E
+
++
+i
+c
+
+B
+
+)
+
+γ
+
+0
+
+
+
+
+{\displaystyle {F}=({E}+ic{B})\gamma _{0}}
+
+.[18] Here, the 
+
+
+
+i
+=
+
+γ
+
+0
+
+
+
+γ
+
+1
+
+
+
+γ
+
+2
+
+
+
+γ
+
+3
+
+
+
+
+{\displaystyle i=\gamma _{0}\gamma _{1}\gamma _{2}\gamma _{3}}
+
+ is the unit pseudoscalar (or four-dimensional volume element), 
+
+
+
+
+γ
+
+0
+
+
+
+
+{\displaystyle \gamma _{0}}
+
+ is the unit vector in time direction, and 
+
+
+
+E
+
+
+{\displaystyle E}
+
+ and 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ are the classic electric and magnetic field vectors (with a zero time component). Using the four-current 
+
+
+
+
+J
+
+
+
+{\displaystyle {J}}
+
+, Maxwell's equations then become
+
+
+
+
+D
+ 
+⌋
+ 
+A
+=
+0
+
+
+{\displaystyle D~\rfloor ~A=0}
+
+
+In geometric calculus, juxtaposition of vectors such as in 
+
+
+
+D
+F
+
+
+{\displaystyle DF}
+
+ indicate the geometric product and can be decomposed into parts as 
+
+
+
+D
+F
+=
+D
+ 
+⌋
+ 
+F
++
+D
+∧
+F
+
+
+{\displaystyle DF=D~\rfloor ~F+D\wedge F}
+
+. Here 
+
+
+
+D
+
+
+{\displaystyle D}
+
+ is the covector derivative in any spacetime and reduces to 
+
+
+
+∇
+
+
+{\displaystyle \nabla }
+
+ in flat spacetime. Where 
+
+
+
+▽
+
+
+{\displaystyle \bigtriangledown }
+
+ plays a role in Minkowski 
+
+
+
+4
+
+
+{\displaystyle 4}
+
+-spacetime which is synonymous to the role of 
+
+
+
+∇
+
+
+{\displaystyle \nabla }
+
+ in Euclidean 
+
+
+
+3
+
+
+{\displaystyle 3}
+
+-space and is related to the d'Alembertian by 
+
+
+
+◻
+=
+
+▽
+
+2
+
+
+
+
+{\displaystyle \Box =\bigtriangledown ^{2}}
+
+. Indeed, given an observer represented by a future pointing timelike vector 
+
+
+
+
+γ
+
+0
+
+
+
+
+{\displaystyle \gamma _{0}}
+
+ we have
+Boosts in this Lorentzian metric space have the same expression 
+
+
+
+
+e
+
+β
+
+
+
+
+{\displaystyle e^{\beta }}
+
+ as rotation in Euclidean space, where 
+
+
+
+
+β
+
+
+
+{\displaystyle {\beta }}
+
+ is the bivector generated by the time and the space directions involved, whereas in the Euclidean case it is the bivector generated by the two space directions, strengthening the "analogy" to almost identity.
+The Dirac matrices are a representation of 
+
+
+
+
+
+G
+
+
+(
+1
+,
+3
+)
+
+
+{\displaystyle {\mathcal {G}}(1,3)}
+
+, showing the equivalence with matrix representations used by physicists.
+Projective geometric algebra (PGA), also known as the homogeneous model, provides a complete algebra containing representations of all Euclidean isometries and the linear subspaces on which they operate. In this model, a single degenerate dimension is added to the n ordinary dimensions of space to form the algebra 
+
+
+
+
+
+G
+
+
+(
+n
+,
+0
+,
+1
+)
+
+
+{\displaystyle {\mathcal {G}}(n,0,1)}
+
+. A comprehensive treatment of 
+
+
+
+
+
+G
+
+
+(
+3
+,
+0
+,
+1
+)
+
+
+{\displaystyle {\mathcal {G}}(3,0,1)}
+
+ in particular is given by Lengyel.[19] In the three-dimensional PGA, vectors correspond to points, bivectors correspond to lines, and trivectors correspond to planes. Proper Euclidean isometries, which are always screw motions in 3D space, are represented by motors consisting of eight even-graded components, and improper Euclidean isometries, which contain a reflection, are represented by flectors consisting of eight odd-graded components. The motor algebra is the correct generalization of dual quaternions to the full set of objects that appear in PGA.
+A central concept in PGA is the symmetry that arises through the inversion of the basis vectors that are present and absent in each of an object's components. This gives rise not only to a fundamental duality in the geometric objects of the algebra, but also the operations on those objects. Every product in the algebra (wedge product, inner product, geometric product, interior product) has a matching "antiproduct" that performs the same operation on the duals of its operands. The inclusion of both types of products is essential for completing the algebra. Join and meet operations between various geometries are performed by the wedge product and its dual, the antiwedge product, respectively. Two different norms, called the bulk norm and weight norm, are given by the inner product and its dual, and these produce scalar and antiscalar quantities, respectively. Euclidean isometries are performed by the geometric antiproduct.
+All objects in projective geometric algebra are homogeneous, including magnitudes that would simply be scalars in nonprojective settings. Multiplying any point, line, plane, motor, or flector by a nonzero scalar has no effect on its meaning. An object is projected into 3D space through a process called unitization, which makes the collective size of the components extending into the degenerate dimension unity. Concrete distance measurements arise as homogeneous magnitudes given by the geometric norm, which is a sum of the bulk norm and weight norm. When the geometric norm is unitized, its scalar component represents an actual distance.
+Working within GA, Euclidean space 
+
+
+
+
+
+
+E
+
+
+
+3
+
+
+
+
+{\displaystyle {\mathcal {E}}^{3}}
+
+ (along with a conformal point at infinity) is embedded projectively in the CGA 
+
+
+
+
+
+G
+
+
+(
+4
+,
+1
+)
+
+
+{\displaystyle {\mathcal {G}}(4,1)}
+
+ via the identification of Euclidean points with 1D subspaces in the 4D null cone of the 5D CGA vector subspace. This allows all conformal transformations to be performed as rotations and reflections and is covariant, extending incidence relations of projective geometry to circles and spheres.
+Specifically, we add orthogonal basis vectors 
+
+
+
+
+e
+
++
+
+
+
+
+{\displaystyle e_{+}}
+
+ and 
+
+
+
+
+e
+
+−
+
+
+
+
+{\displaystyle e_{-}}
+
+ such that 
+
+
+
+
+e
+
++
+
+
+2
+
+
+=
++
+1
+
+
+{\displaystyle e_{+}^{2}=+1}
+
+ and 
+
+
+
+
+e
+
+−
+
+
+2
+
+
+=
+−
+1
+
+
+{\displaystyle e_{-}^{2}=-1}
+
+ to the basis of the vector space that generates 
+
+
+
+
+
+G
+
+
+(
+3
+,
+0
+)
+
+
+{\displaystyle {\mathcal {G}}(3,0)}
+
+ and identify null vectors
+This procedure has some similarities to the procedure for working with homogeneous coordinates in projective geometry and in this case allows the modeling of Euclidean transformations of 
+
+
+
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {R} ^{3}}
+
+ as orthogonal transformations of a subset of 
+
+
+
+
+
+R
+
+
+4
+,
+1
+
+
+
+
+{\displaystyle \mathbf {R} ^{4,1}}
+
+.
+A fast changing and fluid area of GA, CGA is also being investigated for applications to relativistic physics.
+Two potential candidates are currently under investigation as the foundation for affine and projective geometry in three dimensions 
+
+
+
+
+
+R
+
+
+(
+3
+,
+3
+)
+
+
+{\displaystyle {\mathcal {R}}(3,3)}
+
+[20]and 
+
+
+
+
+
+R
+
+
+(
+4
+,
+4
+)
+
+
+{\displaystyle {\mathcal {R}}(4,4)}
+
+[21] which includes representations for shears and non-uniform scaling, as well as quadric surfaces and conic sections.
+A new research model, Quadric Conformal Geometric Algebra (QCGA) 
+
+
+
+
+
+R
+
+
+(
+9
+,
+6
+)
+
+
+{\displaystyle {\mathcal {R}}(9,6)}
+
+ is an extension of CGA, dedicated to quadric surfaces. The idea is to represent the objects in low dimensional subspaces of the algebra. QCGA is capable of constructing quadric surfaces either using control points or implicit equations. Moreover, QCGA can compute the intersection of quadric surfaces as well as the surface tangent and normal vectors at a point that lies in the quadric surface.[22]
+For any vector 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and any invertible vector 
+
+
+
+m
+
+
+{\displaystyle m}
+
+,
+where the projection of 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ onto 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ (or the parallel part) is
+and the rejection of 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ from 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ (or the orthogonal part) is
+Using the concept of a 
+
+
+
+k
+
+
+{\displaystyle k}
+
+-blade 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ as representing a subspace of 
+
+
+
+V
+
+
+{\displaystyle V}
+
+ and every multivector ultimately being expressed in terms of vectors, this generalizes to projection of a general multivector onto any invertible 
+
+
+
+k
+
+
+{\displaystyle k}
+
+-blade 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ as[i]
+with the rejection being defined as
+The projection and rejection generalize to null blades 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ by replacing the inverse 
+
+
+
+
+B
+
+−
+1
+
+
+
+
+{\displaystyle B^{-1}}
+
+ with the pseudoinverse 
+
+
+
+
+B
+
++
+
+
+
+
+{\displaystyle B^{+}}
+
+ with respect to the contractive product.[j] The outcome of the projection coincides in both cases for non-null blades.[23][24] For null blades 
+
+
+
+B
+
+
+{\displaystyle B}
+
+, the definition of the projection given here with the first contraction rather than the second being onto the pseudoinverse should be used,[k] as only then is the result necessarily in the subspace represented by 
+
+
+
+B
+
+
+{\displaystyle B}
+
+.[23]
+The projection generalizes through linearity to general multivectors 
+
+
+
+A
+
+
+{\displaystyle A}
+
+.[l] The projection is not linear in 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ and does not generalize to objects 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ that are not blades.
+Simple reflections in a hyperplane are readily expressed in the algebra through conjugation with a single vector. These serve to generate the group of general rotoreflections and rotations.
+The reflection 
+
+
+
+
+c
+′
+
+
+
+{\displaystyle c'}
+
+ of a vector 
+
+
+
+c
+
+
+{\displaystyle c}
+
+ along a vector 
+
+
+
+m
+
+
+{\displaystyle m}
+
+, or equivalently in the hyperplane orthogonal to 
+
+
+
+m
+
+
+{\displaystyle m}
+
+, is the same as negating the component of a vector parallel to 
+
+
+
+m
+
+
+{\displaystyle m}
+
+. The result of the reflection will be 
+This is not the most general operation that may be regarded as a reflection when the dimension 
+
+
+
+n
+≥
+4
+
+
+{\displaystyle n\geq 4}
+
+. A general reflection may be expressed as the composite of any odd number of single-axis reflections. Thus, a general reflection 
+
+
+
+
+a
+′
+
+
+
+{\displaystyle a'}
+
+ of a vector 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ may be written
+where
+If we define the reflection along a non-null vector 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ of the product of vectors as the reflection of every vector in the product along the same vector, we get for any product of an odd number of vectors that, by way of example,
+and for the product of an even number of vectors that
+Using the concept of every multivector ultimately being expressed in terms of vectors, the reflection of a general multivector 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ using any reflection versor 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ may be written
+where 
+
+
+
+α
+
+
+{\displaystyle \alpha }
+
+ is the automorphism of reflection through the origin of the vector space (
+
+
+
+v
+↦
+−
+v
+
+
+{\displaystyle v\mapsto -v}
+
+) extended through linearity to the whole algebra.
+If we have a product of vectors 
+
+
+
+R
+=
+
+a
+
+1
+
+
+
+a
+
+2
+
+
+⋯
+
+a
+
+r
+
+
+
+
+{\displaystyle R=a_{1}a_{2}\cdots a_{r}}
+
+ then we denote the reverse as
+As an example, assume that 
+
+
+
+R
+=
+a
+b
+
+
+{\displaystyle R=ab}
+
+ we get
+Scaling 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ so that 
+
+
+
+R
+
+
+
+R
+~
+
+
+
+=
+1
+
+
+{\displaystyle R{\tilde {R}}=1}
+
+ then
+so 
+
+
+
+R
+v
+
+
+
+R
+~
+
+
+
+
+
+{\displaystyle Rv{\tilde {R}}}
+
+ leaves the length of 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ unchanged. We can also show that
+so the transformation 
+
+
+
+R
+v
+
+
+
+R
+~
+
+
+
+
+
+{\displaystyle Rv{\tilde {R}}}
+
+ preserves both length and angle. It therefore can be identified as a rotation or rotoreflection; 
+
+
+
+R
+
+
+{\displaystyle R}
+
+ is called a rotor if it is a proper rotation (as it is if it can be expressed as a product of an even number of vectors) and is an instance of what is known in GA as a versor.
+There is a general method for rotating a vector involving the formation of a multivector of the form 
+
+
+
+R
+=
+
+e
+
+−
+B
+θ
+
+/
+
+2
+
+
+
+
+{\displaystyle R=e^{-B\theta /2}}
+
+ that produces a rotation 
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+ in the plane and with the orientation defined by a 
+
+
+
+2
+
+
+{\displaystyle 2}
+
+-blade 
+
+
+
+B
+
+
+{\displaystyle B}
+
+.
+Rotors are a generalization of quaternions to 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-dimensional spaces.
+A 
+
+
+
+k
+
+
+{\displaystyle k}
+
+-versor is a multivector that can be expressed as the geometric product of 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ invertible vectors.[m][26] Unit quaternions (originally called versors by Hamilton) may be identified with rotors in 3D space in much the same way as real 2D rotors subsume complex numbers; for the details refer to Dorst.[27]
+Some authors use the term “versor product” to refer to the frequently occurring case where an operand is "sandwiched" between operators. The descriptions for rotations and reflections, including their outermorphisms, are examples of such sandwiching. These outermorphisms have a particularly simple algebraic form.[n] Specifically, a mapping of vectors of the form
+Since both operators and operand are versors there is potential for alternative examples such as rotating a rotor or reflecting a spinor always provided that some geometrical or physical significance can be attached to such operations.
+By the Cartan–Dieudonné theorem we have that every isometry can be given as reflections in hyperplanes and since composed reflections provide rotations then we have that orthogonal transformations are versors.
+In group terms, for a real, non-degenerate 
+
+
+
+
+
+G
+
+
+(
+p
+,
+q
+)
+
+
+{\displaystyle {\mathcal {G}}(p,q)}
+
+, having identified the group 
+
+
+
+
+
+
+G
+
+
+
+×
+
+
+
+
+{\displaystyle {\mathcal {G}}^{\times }}
+
+ as the group of all invertible elements of 
+
+
+
+
+
+G
+
+
+
+
+{\displaystyle {\mathcal {G}}}
+
+, Lundholm gives a proof that the "versor group" 
+
+
+
+{
+
+v
+
+1
+
+
+
+v
+
+2
+
+
+⋯
+
+v
+
+k
+
+
+∈
+G
+:
+
+v
+
+i
+
+
+∈
+
+V
+
+×
+
+
+}
+
+
+{\displaystyle \{v_{1}v_{2}\cdots v_{k}\in G:v_{i}\in V^{\times }\}}
+
+ (the set of invertible versors) is equal to the Lipschitz group 
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+
+ (a.k.a. Clifford group, although Lundholm deprecates this usage).[28]
+Lundholm defines the 
+
+
+
+Pin
+
+
+{\displaystyle \operatorname {Pin} }
+
+, 
+
+
+
+Spin
+
+
+{\displaystyle \operatorname {Spin} }
+
+, and 
+
+
+
+
+Spin
+
++
+
+
+
+
+{\displaystyle \operatorname {Spin} ^{+}}
+
+ subgroups, generated by unit vectors, and in the case of 
+
+
+
+Spin
+
+
+{\displaystyle \operatorname {Spin} }
+
+ and 
+
+
+
+
+Spin
+
++
+
+
+
+
+{\displaystyle \operatorname {Spin} ^{+}}
+
+, only an even number of such vector factors can be present.[29]
+Spinors are defined as elements of the even subalgebra of a real GA; an analysis of the GA approach to spinors is given by Francis and Kosowsky.[30]
+For vectors 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ spanning a parallelogram we have
+with the result that 
+
+
+
+a
+∧
+b
+
+
+{\displaystyle a\wedge b}
+
+ is linear in the product of the "altitude" and the "base" of the parallelogram, that is, its area.
+Similar interpretations are true for any number of vectors spanning an 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-dimensional parallelotope; the exterior product of vectors 
+
+
+
+
+a
+
+1
+
+
+,
+
+a
+
+2
+
+
+,
+…
+,
+
+a
+
+n
+
+
+
+
+{\displaystyle a_{1},a_{2},\ldots ,a_{n}}
+
+, that is 
+
+
+
+
+
+⋀
+
+i
+=
+1
+
+
+n
+
+
+
+a
+
+i
+
+
+
+
+
+{\displaystyle \textstyle \bigwedge _{i=1}^{n}a_{i}}
+
+, has a magnitude equal to the volume of the 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-parallelotope. An 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-vector does not necessarily have a shape of a parallelotope – this is a convenient visualization. It could be any shape, although the volume equals that of the parallelotope.
+We may define the line parametrically by 
+
+
+
+p
+=
+t
++
+α
+ 
+v
+
+
+{\displaystyle p=t+\alpha \ v}
+
+ where 
+
+
+
+p
+
+
+{\displaystyle p}
+
+ and 
+
+
+
+t
+
+
+{\displaystyle t}
+
+ are position vectors for points P and T and 
+
+
+
+v
+
+
+{\displaystyle v}
+
+ is the direction vector for the line.
+Then
+so
+and
+The mathematical description of rotational forces such as torque and angular momentum often makes use of the cross product of vector calculus in three dimensions with a convention of orientation (handedness).
+The cross product can be viewed in terms of the exterior product allowing a more natural geometric interpretation of the cross product as a bivector using the dual relationship
+For example, torque is generally defined as the magnitude of the perpendicular force component times distance, or work per unit angle.
+Suppose a circular path in an arbitrary plane containing orthonormal vectors 
+
+
+
+
+
+
+u
+^
+
+
+
+
+
+{\displaystyle {\hat {u}}}
+
+ and 
+
+
+
+
+
+
+v
+^
+
+
+
+
+
+{\displaystyle {\hat {v}}}
+
+ is parameterized by angle.
+By designating the unit bivector of this plane as the imaginary number
+this path vector can be conveniently written in complex exponential form
+and the derivative with respect to angle is
+So the torque, the rate of change of work 
+
+
+
+W
+
+
+{\displaystyle W}
+
+, due to a force 
+
+
+
+F
+
+
+{\displaystyle F}
+
+, is
+Unlike the cross product description of torque, 
+
+
+
+τ
+=
+
+r
+
+×
+F
+
+
+{\displaystyle \tau =\mathbf {r} \times F}
+
+, the geometric algebra description does not introduce a vector in the normal direction; a vector that does not exist in two and that is not unique in greater than three dimensions. The unit bivector describes the plane and the orientation of the rotation, and the sense of the rotation is relative to the angle between the vectors 
+
+
+
+
+
+
+u
+^
+
+
+
+
+
+{\displaystyle {\hat {u}}}
+
+ and 
+
+
+
+
+
+
+v
+^
+
+
+
+
+
+{\displaystyle {\hat {v}}}
+
+.
+Geometric calculus extends the formalism to include differentiation and integration including differential geometry and differential forms.[31]
+Essentially, the vector derivative is defined so that the GA version of Green's theorem is true,
+and then one can write
+as a geometric product, effectively generalizing Stokes' theorem (including the differential form version of it).
+In 
+
+
+
+1
+D
+
+
+{\displaystyle 1D}
+
+ when 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ is a curve with endpoints 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ and 
+
+
+
+b
+
+
+{\displaystyle b}
+
+, then
+reduces to
+or the fundamental theorem of integral calculus.
+Also developed are the concept of vector manifold and geometric integration theory (which generalizes differential forms).
+Although the connection of geometry with algebra dates as far back at least to Euclid's Elements in the third century B.C. (see Greek geometric algebra), GA in the sense used in this article was not developed until 1844, when it was used in a systematic way to describe the geometrical properties and transformations of a space. In that year, Hermann Grassmann introduced the idea of a geometrical algebra in full generality as a certain calculus (analogous to the propositional calculus) that encoded all of the geometrical information of a space.[32] Grassmann's algebraic system could be applied to a number of different kinds of spaces, the chief among them being Euclidean space, affine space, and projective space. Following Grassmann, in 1878 William Kingdon Clifford examined Grassmann's algebraic system alongside the quaternions of William Rowan Hamilton in (Clifford 1878). From his point of view, the quaternions described certain transformations (which he called rotors), whereas Grassmann's algebra described certain properties (or Strecken such as length, area, and volume). His contribution was to define a new product — the geometric product – on an existing Grassmann algebra, which realized the quaternions as living within that algebra. Subsequently, Rudolf Lipschitz in 1886 generalized Clifford's interpretation of the quaternions and applied them to the geometry of rotations in 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ dimensions. Later these developments would lead other 20th-century mathematicians to formalize and explore the properties of the Clifford algebra.
+Nevertheless, another revolutionary development of the 19th-century would completely overshadow the geometric algebras: that of vector analysis, developed independently by Josiah Willard Gibbs and Oliver Heaviside. Vector analysis was motivated by James Clerk Maxwell's studies of electromagnetism, and specifically the need to express and manipulate conveniently certain differential equations. Vector analysis had a certain intuitive appeal compared to the rigors of the new algebras. Physicists and mathematicians alike readily adopted it as their geometrical toolkit of choice, particularly following the influential 1901 textbook Vector Analysis by Edwin Bidwell Wilson, following lectures of Gibbs.
+In more detail, there have been three approaches to geometric algebra: quaternionic analysis, initiated by Hamilton in 1843 and geometrized as rotors by Clifford in 1878; geometric algebra, initiated by Grassmann in 1844; and vector analysis, developed out of quaternionic analysis in the late 19th century by Gibbs and Heaviside. The legacy of quaternionic analysis in vector analysis can be seen in the use of 
+
+
+
+i
+
+
+{\displaystyle i}
+
+, 
+
+
+
+j
+
+
+{\displaystyle j}
+
+, 
+
+
+
+k
+
+
+{\displaystyle k}
+
+ to indicate the basis vectors of 
+
+
+
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {R} ^{3}}
+
+: it is being thought of as the purely imaginary quaternions. From the perspective of geometric algebra, the even subalgebra of the Space Time Algebra is isomorphic to the GA of 3D Euclidean space and quaternions are isomorphic to the even subalgebra of the GA of 3D Euclidean space, which unifies the three approaches.
+Progress on the study of Clifford algebras quietly advanced through the twentieth century, although largely due to the work of abstract algebraists such as Élie Cartan, Hermann Weyl and Claude Chevalley. The geometrical approach to geometric algebras has seen a number of 20th-century revivals. In mathematics, Emil Artin's Geometric Algebra[33] discusses the algebra associated with each of a number of geometries, including affine geometry, projective geometry, symplectic geometry, and orthogonal geometry. In physics, geometric algebras have been revived as a "new" way to do classical mechanics and electromagnetism, together with more advanced topics such as quantum mechanics and gauge theory.[5] David Hestenes reinterpreted the Pauli and  Dirac matrices as vectors in ordinary space and spacetime, respectively, and has been a primary contemporary advocate for the use of geometric algebra.
+In computer graphics and robotics, geometric algebras have been revived in order to efficiently represent rotations and other transformations. For applications of GA in robotics (screw theory, kinematics and dynamics using versors), computer vision, control and neural computing (geometric learning) see Bayro (2010).
+English translations of early books and papers
+Research groups
+
+
